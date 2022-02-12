@@ -18,8 +18,9 @@ jobs:
           app_id: ${{ secrets.APP_ID }}
           private_key: ${{ secrets.APP_PRIVATE_KEY }}
       - uses: JamesIves/github-pages-deploy-action@4.1.1
-        if: ${{ !env.ACT }}
+        if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
         with:
+          repository-name: iptv-org/api
           branch: gh-pages
           folder: .gh-pages
           token: ${{ steps.create-app-token.outputs.token }}

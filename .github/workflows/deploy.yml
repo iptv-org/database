@@ -1,0 +1,29 @@
+name: deploy
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm install
+      - run: npm run db:export
+      - uses: tibdex/github-app-token@v1
+        if: ${{ !env.ACT }}
+        id: create-app-token
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+      - uses: JamesIves/github-pages-deploy-action@4.1.1
+        if: ${{ !env.ACT }}
+        with:
+          branch: gh-pages
+          folder: .gh-pages
+          token: ${{ steps.create-app-token.outputs.token }}
+          git-config-name: iptv-bot[bot]
+          git-config-email: 84861620+iptv-bot[bot]@users.noreply.github.com
+          commit-message: '[Bot] Deploy to GitHub Pages'
+          clean: false

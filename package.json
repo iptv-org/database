@@ -1,0 +1,26 @@
+{
+  "name": "@iptv-org/database",
+  "scripts": {
+    "act:check": "act pull_request -W .github/workflows/check.yml",
+    "act:deploy": "act push -W .github/workflows/deploy.yml",
+    "db:validate": "node scripts/db/validate.js",
+    "db:export": "node scripts/db/export.js"
+  },
+  "private": true,
+  "author": "Arhey",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.10",
+    "commander": "^9.0.0",
+    "csvtojson": "^2.0.10",
+    "glob": "^7.2.0",
+    "joi": "^17.6.0",
+    "json2csv": "^6.0.0-alpha.0",
+    "mz": "^2.7.0",
+    "node-cleanup": "^2.1.2",
+    "signale": "^1.4.0",
+    "slugify": "^1.6.5",
+    "transliteration": "^2.2.0"
+  }
+}

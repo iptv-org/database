@@ -9,6 +9,7 @@ const {
 const csv2jsonOptions = {
 	checkColumn: true,
 	trim: true,
+	delimiter: ',',
 	colParser: {
 		countries: listParser,
 		languages: listParser,

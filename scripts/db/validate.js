@@ -11,6 +11,7 @@ async function main() {
 	const files = program.args.length
 		? program.args
 		: [
+				'data/blocklist.csv',
 				'data/categories.csv',
 				'data/channels.csv',
 				'data/countries.csv',

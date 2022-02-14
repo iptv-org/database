@@ -20,12 +20,15 @@ async function main() {
 		  ]
 	for (const filepath of files) {
 		if (!filepath.endsWith('.csv')) continue
-		const data = await csv.load(filepath)
+		const data = await csv.load(filepath).catch(err => {
+			logger.error(chalk.red(`\n${err.message} (${filepath})`))
+			process.exit(1)
+		})
 
 		const filename = file.getFilename(filepath)
 
 		if (!schemes[filename]) {
-			logger.error(chalk.red(`\nERR: "${filename}" scheme is missing`))
+			logger.error(chalk.red(`\nError: "${filename}" scheme is missing`))
 			process.exit(1)
 		}
 

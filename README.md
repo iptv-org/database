@@ -1,4 +1,4 @@
-# Database
+# Database [![check](https://github.com/iptv-org/database/actions/workflows/check.yml/badge.svg)](https://github.com/iptv-org/database/actions/workflows/check.yml)
 
 All data is stored in the [/data](data) folder as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) (Comma-separated values) files. Any of the files can be edited either with a basic text editor or through any spreadsheet editor (such as [Google Sheets](https://www.google.com/sheets/about/), [LibreOffice](https://www.libreoffice.org/discover/libreoffice/), ...).
 

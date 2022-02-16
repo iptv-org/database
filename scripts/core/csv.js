@@ -64,7 +64,14 @@ function listParser(value) {
 }
 
 function boolParser(value) {
-	return value === 'true'
+	switch (value) {
+		case 'TRUE':
+			return true
+		case 'FALSE':
+			return false
+		default:
+			return value
+	}
 }
 
 function nullable(value) {

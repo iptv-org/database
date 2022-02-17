@@ -1,4 +1,6 @@
 const csv2json = require('csvtojson')
+const chalk = require('chalk')
+const logger = require('./logger')
 const fs = require('mz/fs')
 const {
 	Parser,
@@ -10,6 +12,7 @@ const csv2jsonOptions = {
 	checkColumn: true,
 	trim: true,
 	delimiter: ',',
+	eol: '\r\n',
 	colParser: {
 		countries: listParser,
 		languages: listParser,
@@ -32,8 +35,12 @@ const json2csv = new Parser({
 
 const csv = {}
 
-csv.load = async function (filepath) {
+csv.fromFile = async function (filepath) {
 	return csv2json(csv2jsonOptions).fromFile(filepath)
+}
+
+csv.fromString = async function (filepath) {
+	return csv2json(csv2jsonOptions).fromString(filepath)
 }
 
 csv.save = async function (filepath, data) {

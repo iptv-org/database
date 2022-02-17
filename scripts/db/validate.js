@@ -21,7 +21,20 @@ async function main() {
 		  ]
 	for (const filepath of files) {
 		if (!filepath.endsWith('.csv')) continue
-		const data = await csv.load(filepath).catch(err => {
+
+		const eol = await file.eol(filepath)
+		if (eol !== 'CRLF') {
+			logger.error(chalk.red(`\nError: file must have line endings with CRLF (${filepath})`))
+			process.exit(1)
+		}
+
+		const csvString = await file.read(filepath)
+		if (/\s+$/.test(csvString)) {
+			logger.error(chalk.red(`\nError: empty lines at the end of file not allowed (${filepath})`))
+			process.exit(1)
+		}
+
+		const data = await csv.fromString(csvString).catch(err => {
 			logger.error(chalk.red(`\n${err.message} (${filepath})`))
 			process.exit(1)
 		})

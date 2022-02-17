@@ -8,7 +8,7 @@ async function main() {
 	const files = await file.list(`${DATA_DIR}/*.csv`)
 	for (const filepath of files) {
 		const filename = file.getFilename(filepath)
-		const json = await csv.load(filepath).catch(err => {
+		const json = await csv.fromFile(filepath).catch(err => {
 			logger.error(chalk.red(`\n${err.message} (${filepath})`))
 			process.exit(1)
 		})

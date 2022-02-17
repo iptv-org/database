@@ -1,6 +1,7 @@
 const path = require('path')
 const glob = require('glob')
 const fs = require('mz/fs')
+const crlf = require('crlf')
 
 const file = {}
 
@@ -63,6 +64,15 @@ file.dirname = function (filepath) {
 
 file.basename = function (filepath) {
   return path.basename(filepath)
+}
+
+file.eol = function (filepath) {
+  return new Promise((resolve, reject) => {
+    crlf.get(filepath, null, function (err, endingType) {
+      if (err) reject(err)
+      resolve(endingType)
+    })
+  })
 }
 
 module.exports = file

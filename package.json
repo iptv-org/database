@@ -6,7 +6,7 @@
     "db:validate": "node scripts/db/validate.js",
     "db:export": "node scripts/db/export.js"
   },
-  "pre-push": [
+  "pre-commit": [
     "db:validate"
   ],
   "private": true,
@@ -23,7 +23,7 @@
     "json2csv": "^6.0.0-alpha.0",
     "mz": "^2.7.0",
     "node-cleanup": "^2.1.2",
-    "pre-push": "^0.1.1",
+    "pre-commit": "^1.2.2",
     "signale": "^1.4.0",
     "slugify": "^1.6.5",
     "transliteration": "^2.2.0"

@@ -29,5 +29,9 @@ module.exports = {
 	),
 	categories: Joi.array().items(Joi.string().regex(/^[a-z]+$/)),
 	is_nsfw: Joi.boolean().strict().required(),
-	logo: Joi.string().uri().allow(null)
+	logo: Joi.string()
+		.uri({
+			scheme: ['https']
+		})
+		.allow(null)
 }

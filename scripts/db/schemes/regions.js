@@ -10,6 +10,6 @@ module.exports = {
 	countries: Joi.array().items(
 		Joi.string()
 			.regex(/^[A-Z]{2}$/)
-			.allow('')
+			.required()
 	)
 }

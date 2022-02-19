@@ -18,11 +18,15 @@ module.exports = {
 		.regex(/^[\sa-zA-Z\u00C0-\u00FF0-9'-]+$/)
 		.allow(null),
 	broadcast_area: Joi.array().items(
-		Joi.string().regex(/^(s\/[A-Z]{2}-[A-Z0-9]{1,3}|c\/[A-Z]{2}|r\/[A-Z0-9]{3,7})$/)
+		Joi.string()
+			.regex(/^(s\/[A-Z]{2}-[A-Z0-9]{1,3}|c\/[A-Z]{2}|r\/[A-Z0-9]{3,7})$/)
+			.required()
 	),
-	languages: Joi.array()
-		.items(Joi.string().regex(/^[a-z]{3}$/))
-		.allow(''),
+	languages: Joi.array().items(
+		Joi.string()
+			.regex(/^[a-z]{3}$/)
+			.required()
+	),
 	categories: Joi.array().items(Joi.string().regex(/^[a-z]+$/)),
 	is_nsfw: Joi.boolean().strict().required(),
 	logo: Joi.string().uri().allow(null)

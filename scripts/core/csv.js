@@ -22,15 +22,17 @@ const csv2jsonOptions = {
 		logo: nullable,
 		subdivision: nullable,
 		city: nullable,
-		network: nullable
+		network: nullable,
+		website: nullable
 	}
 }
 
 const json2csv = new Parser({
-	transforms: [flattenArray],
+	transforms: [flattenArray, formatBool],
 	formatters: {
 		string: stringQuoteOnlyIfNecessary()
-	}
+	},
+	eol: '\r\n'
 })
 
 const csv = {}
@@ -61,6 +63,18 @@ function flattenArray(item) {
 	for (let prop in item) {
 		const value = item[prop]
 		item[prop] = Array.isArray(value) ? value.join(';') : value
+	}
+
+	return item
+}
+
+function formatBool(item) {
+	for (let prop in item) {
+		if (item[prop] === false) {
+			item[prop] = 'FALSE'
+		} else if (item[prop] === true) {
+			item[prop] = 'TRUE'
+		}
 	}
 
 	return item

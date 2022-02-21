@@ -34,20 +34,24 @@ async function main() {
 			process.exit(1)
 		}
 
-		const data = await csv.fromString(csvString).catch(err => {
-			logger.error(chalk.red(`\n${err.message} (${filepath})`))
-			process.exit(1)
-		})
-
 		const filename = file.getFilename(filepath)
-
 		if (!schemes[filename]) {
 			logger.error(chalk.red(`\nError: "${filename}" scheme is missing`))
 			process.exit(1)
 		}
 
+		const data = await csv.fromString(csvString).catch(err => {
+			logger.error(chalk.red(`\n${err.message} (${filepath})`))
+			process.exit(1)
+		})
+
 		let fileErrors = []
 		if (filename === 'channels') {
+			if (/\"/.test(csvString)) {
+				logger.error(chalk.red(`\nError: \" character is not allowed (${filepath})`))
+				process.exit(1)
+			}
+
 			fileErrors = fileErrors.concat(findDuplicatesById(data))
 		}
 

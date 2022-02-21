@@ -26,6 +26,7 @@ All data is stored in the [/data](data) folder as [CSV](https://en.wikipedia.org
 | languages      | List of languages in which the channel is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](data/languages.csv)                                 | Required | `eng;spa`                     |
 | categories     | List of categories to which this channel belongs separated by `;`. A list of all supported categories can be found in [data/categories.csv](data/categories.csv)                                                 | Optional | `news;weather`                |
 | is_nsfw        | Indicates whether the channel broadcasts adult content (`TRUE` or `FALSE`)                                                                                                                                       | Required | `FALSE`                       |
+| website        | Official website URL.                                                                                                                                                                                            | Optional | `https://nbc.com/`            |
 | logo           | Logo URL. Only URL with HTTPS protocol are allowed.                                                                                                                                                              | Optional | `https://example.com/nbc.png` |
 
 ### categories

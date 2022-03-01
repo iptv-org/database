@@ -7,6 +7,9 @@ module.exports = {
 	name: Joi.string()
 		.regex(/^[\sa-zA-Z\u00C0-\u00FF0-9-!:&.+'/»#%°$@?()]+$/)
 		.required(),
+	native_name: Joi.string()
+		.regex(/^[^",]+$/)
+		.allow(null),
 	network: Joi.string().allow(null),
 	country: Joi.string()
 		.regex(/^[A-Z]{2}$/)

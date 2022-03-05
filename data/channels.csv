@@ -251,7 +251,6 @@ id,name,native_name,network,country,subdivision,city,broadcast_area,languages,ca
 9GoMelbourne.au,9 Go! Melbourne,,,AU,,,c/AU,eng,,FALSE,https://www.9now.com.au/,https://www.lyngsat.com/logo/tv/nn/nine_au_go.png
 9GoPerth.au,9 Go! Perth,,,AU,,,c/AU,eng,,FALSE,https://www.9now.com.au/,https://www.lyngsat.com/logo/tv/nn/nine_au_go.png
 9GoSydney.au,9 Go! Sydney,,,AU,,,c/AU,eng,,FALSE,https://www.9now.com.au/,https://www.lyngsat.com/logo/tv/nn/nine_au_go.png
-9Kanal.il,9 Kanal,,,IL,,,c/IL,heb,,FALSE,https://www.9tv.co.il/,https://www.lyngsat.com/logo/tv/num/9-kanal-il.png
 9laLomaTV.es,9 la Loma TV,,,ES,,,c/ES,spa,,FALSE,,https://i.imgur.com/fpUaXqe.png
 9Life.au,9 Life,,,AU,,,c/AU,eng,,FALSE,https://www.9now.com.au/,https://i.mjh.nz/.images/tv.101204200424.png
 9Rush.au,9Rush,,,AU,,,c/AU,eng,,FALSE,,https://i.mjh.nz/.images/tv.101204200429.png
@@ -1379,7 +1378,6 @@ ARYQTV.pk,ARY QTV,,,PK,,,c/PK,eng,,FALSE,https://aryqtv.tv/,https://cdn.tvpasspo
 ARYWorld.pk,ARY World,,,PK,,,c/PK,eng,,FALSE,,https://www.lyngsat.com/logo/tv/aa/ary_world_pk.png
 ARYZauq.pk,ARY Zauq,,,PK,,,c/PK,eng,,FALSE,,https://cdn.tvpassport.com/image/station/100x100/ary_zauq.png
 ARYZindagi.pk,ARY Zindagi,,,PK,,,c/PK,eng,,FALSE,https://www.aryzindagi.tv/,https://www.lyngsat.com/logo/tv/aa/ary_zindagi_pk.png
-AsaChild.il,As a Child,,,IL,,,c/IL,heb,,FALSE,,https://i.imgur.com/Vs55QWR.png
 AsAventurasDeJackieChan.br,As Aventuras de Jackie Chan,,,BR,,,c/BR,por,kids,FALSE,,https://images.pluto.tv/channels/6079c1539b05aa0007a57495/colorLogoPNG.png
 AsedaTV.gh,Aseda TV,,,GH,,,c/GH,eng,,FALSE,,https://www.lyngsat.com/logo/tv/aa/aseda-tv-gh.png
 AsenaTV.uk,Asena TV,,,UK,,,c/UK,eng,,FALSE,https://asenatv.com/,https://www.lyngsat.com/logo/tv/aa/assenna-tv-uk.png
@@ -3562,11 +3560,10 @@ Channel100Gold.in,Channel 100 Gold,,,IN,,,c/IN,hin,,FALSE,https://www.tatasky.co
 Channel100Platinum.in,Channel 100 Platinum,,,IN,,,c/IN,hin,,FALSE,https://www.tatasky.com/,https://www.lyngsat.com/logo/tv/tt/tata_sky_in_channel_100_platinum.png
 Channel11.mn,Channel 11,,,MN,,,c/MN,mon,,FALSE,,https://www.lyngsat.com/logo/tv/cc/channel-11-mn.png
 Channel117.al,Channel 117,,,AL,,,c/AL,sqi,,FALSE,,
-Channel12.il,Channel 12,,,IL,,,c/IL,heb,general,FALSE,,
-Channel13.il,Channel 13,,,IL,,,c/IL,heb,general,FALSE,,
+Channel13.il,Channel 13,ערוץ 13,,IL,,,c/IL,heb,general,FALSE,https://13tv.co.il/,https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/New_Logo_13_2022.jpg/440px-New_Logo_13_2022.jpg
 Channel13.mv,Channel 13,,,MV,,,c/MV,div,,FALSE,,https://www.lyngsat.com/logo/tv/cc/channel-13-mv.png
 Channel2.fj,Channel 2,,,FJ,,,c/FJ,eng,,FALSE,http://fijione.tv/fiji-tv-to-launch-channel-2/,https://www.lyngsat.com/logo/tv/cc/channel2-fj.png
-Channel20.il,Channel 20,,,IL,,,c/IL,heb,,FALSE,,
+Channel2.il,Channel 2,,,IL,,,c/IL,heb,news,FALSE,,https://i.imgur.com/NmnXn2z.jpg
 Channel21.de,Channel 21,,,DE,,,c/DE,deu,,FALSE,https://www.channel21.de/,https://cdn.hd-plus.de/senderlogos/bright-cropped/24459-1.png
 Channel24.bd,Channel 24,,,BD,,,c/BD,ben,news,FALSE,https://www.channel24bd.tv/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Channel24logo.svg/400px-Channel24logo.svg.png
 Channel24.il,Channel 24,,,IL,,,c/IL,heb,music,FALSE,https://www.mako.co.il/24tv,https://i.imgur.com/2RC8nh6.jpg
@@ -3574,7 +3571,6 @@ Channel24.it,Channel 24,,,IT,,,c/IT,ita,,FALSE,,https://www.lyngsat.com/logo/tv/
 Channel24Saudi.sa,Channel 24 Saudi,,,SA,,,c/SA,ara,,FALSE,https://24mediagroup.net/,https://www.lyngsat.com/logo/tv/cc/channel-24-saudi-sa.png
 Channel24Sports.sa,Channel 24 Sports,,,SA,,,c/SA,ara,,FALSE,https://24mediagroup.net/%d9%82%d9%86%d8%a7%d8%a9-24-%d8%a7%d9%84%d8%b1%d9%8a%d8%a7%d8%b6%d9%8a%d8%a9,https://www.lyngsat.com/logo/tv/num/24-sport-sa.png
 Channel29.et,Channel 29,,,ET,,,c/ET,amh,,FALSE,,https://www.lyngsat.com/logo/tv/cc/channel-29.png
-Channel2News.il,Channel 2 News,,,IL,,,c/IL,heb,news,FALSE,,https://i.imgur.com/NmnXn2z.jpg
 Channel3.th,Channel 3,,,TH,,,c/TH,tha,,FALSE,http://www.ch3thailand.com/,https://cms.dmpcdn.com/livetv/2020/06/23/c93cf2c0-b54f-11ea-8fac-236a281cd6c5_original.png
 Channel4.uk,Channel 4,,,UK,,,c/UK,eng,,FALSE,,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb1621.png
 Channel44.au,Channel 44,,,AU,,,c/AU,eng,,FALSE,,
@@ -3604,7 +3600,7 @@ Channel8.sg,Channel 8,,,SG,,,c/SG,zho,,FALSE,,
 Channel8.th,Channel 8,,,TH,,,c/TH,tha,,FALSE,,https://i.imgur.com/hzdMjA1.jpg
 Channel9.bd,Channel 9,,,BD,,,c/BD,ben,,FALSE,http://www.channelninebd.tv/,https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Channel9_bd.svg/350px-Channel9_bd.svg.png
 Channel9.gr,Channel 9,,,GR,,,c/GR,ell,,FALSE,,https://i.imgur.com/24uaLwh.png
-Channel9.il,Channel 9,,,IL,,,c/IL,rus,,FALSE,,https://www.9tv.co.il/images/logo_ch9.png
+Channel9.il,Channel 9,9 канал,,IL,,,c/IL,rus,,FALSE,https://www.9tv.co.il/,https://www.9tv.co.il/images/logo_ch9.png
 Channel9.mm,Channel 9,,,MM,,,c/MM,mya,,FALSE,,https://www.lyngsat.com/logo/tv/cc/channel_9_mm.png
 ChannelA.kr,Channel A,,,KR,,,c/KR,kor,,FALSE,http://www.ichannela.com/,https://www.lyngsat.com/logo/tv/cc/channel_a_kr.png
 ChannelAdult.hk,Channel Adult,,,HK,,,c/HK,zho,,FALSE,,https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch903_160_115
@@ -7024,8 +7020,8 @@ GolfChannelThailand.us,Golf Channel Thailand,,,US,,,c/US,eng,,FALSE,https://golf
 GolfChannelUS.us,Golf Channel US,,,US,,,c/US,eng,,FALSE,https://www.golfchannel.com/,https://cdn.tvpassport.com/image/station/100x100/golf.png
 GolfChannelUSAlternate.us,Golf Channel US Alternate,,,US,,,c/US,eng,,FALSE,https://www.golfchannel.com/,https://www.lyngsat.com/logo/tv/gg/golf_channel_us.png
 GolfeTVAfrica.bj,Golfe TV Africa,,,BJ,,,c/BJ,eng;fra,news,FALSE,http://www.golfegroupe.com/,https://i.imgur.com/AIXn66Q.png
-Golfpass.us,Golfpass,,,US,,,c/US,eng,sports,FALSE,,
 GolfNetwork.jp,Golf Network,,,JP,,,c/JP,jpn,,FALSE,http://www.golfnetwork.co.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-167-400x400.png
+Golfpass.us,Golfpass,,,US,,,c/US,eng,sports,FALSE,,
 GolfPlus.fr,Golf +,,,FR,,,c/FR,fra,,FALSE,http://www.canalsat.fr/,https://service.canal-overseas.com/image-api/v1/image/c1bc09c1e03dd64d717b8243499f125f
 GolfTV.us,GolfTV,,,US,,,c/US,eng,sports,FALSE,,https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/GolfTV.svg/800px-GolfTV.svg.png
 GolicaTV.si,Golica TV,,,SI,,,c/SI,slv,,FALSE,https://www.golica.si/,https://tv2go.t-2.net/static/media/img/channels/dark/ios/small/retina/2664144.png
@@ -7429,8 +7425,7 @@ HGTVSouthAfrica.us,HGTV South Africa,,,US,,,c/US,eng,,FALSE,,https://rndcdn.dstv
 HGTVUK.us,HGTV UK,,,US,,,c/US,eng,,FALSE,https://hgtv.co.uk/,https://otv-us-web.s3-us-west-2.amazonaws.com/logos/guide/2/Open/92x36_352/Source/86421/hgtelevisionchannel.png
 HGTVUKPlus1.us,HGTV UK +1,,,US,,,c/US,eng,,FALSE,https://hgtv.co.uk/,https://www.lyngsat.com/logo/tv/hh/hgtv-uk-plus1-us-uk.png
 HGTVWest.us,HGTV West,,,US,,,c/US,eng,,FALSE,http://www.hgtv.com/,https://cdn.tvpassport.com/image/station/100x100/hgtv-usa.png
-Hidabroot.il,Hidabroot,,,IL,,,c/IL,heb,,FALSE,https://www.hidabroot.org/,https://www.lyngsat.com/logo/tv/hh/hidabroot_il.png
-HidabrootChannel.il,Hidabroot,,,IL,,,c/IL,heb,religious,FALSE,https://www.hidabroot.org/,https://i.imgur.com/wKi97Pg.png
+Hidabroot.il,Hidabroot,,,IL,,,c/IL,heb,religious,FALSE,https://www.hidabroot.org/,https://i.imgur.com/wKi97Pg.png
 HidalgoTV.mx,Hidalgo TV,,,MX,,,c/MX,spa,,FALSE,http://radioytelevision.hidalgo.gob.mx/pag/hidalgotelevision.html,https://www.lyngsat.com/logo/tv/hh/hidalgo-tv-mx.png
 HidayatTV.uk,Hidayat TV,,,UK,,,c/UK,eng,,FALSE,https://www.hidayattv.uk/,https://www.lyngsat.com/logo/tv/hh/hidayat_tv.png
 HiDost.in,Hi Dost!,,,IN,,,c/IN,hin,,FALSE,,https://www.lyngsat.com/logo/tv/hh/hi-dost-in.png
@@ -7779,9 +7774,9 @@ HwazanSatelliteTV.tw,Hwazan Satellite TV,,,TW,,,c/TW,zho,,FALSE,https://www.hwaz
 HypeTV.rs,Hype TV,,,RS,,,c/RS,srp,,FALSE,,https://mtel.ba/oec/images/tv_channels/207978c736632fd50de462ffa05b9158.png
 HyundaiHomeShopping.kr,Hyundai Home Shopping,,,KR,,,c/KR,kor,,FALSE,https://www.hmall.com/,https://www.lyngsat.com/logo/tv/hh/hyundai_home_shopping_plus.png
 HyundaiMall.kr,Hyundai Mall,,,KR,,,c/KR,kor,,FALSE,https://www.hmall.com/,https://www.lyngsat.com/logo/tv/hh/hyundai_home_shopping.png
-I24NewsArabic.il,I24 News Arabic,,,IL,,,c/IL,heb,,FALSE,https://www.i24news.tv/ar/,https://www.lyngsat.com/logo/tv/ii/i24-vews-il.png
-I24NewsEnglish.il,I24 News English,,,IL,,,c/IL,heb,,FALSE,https://www.i24news.tv/en/,https://services.sg101.prd.sctv.ch/content/images/tv/channel/208_image_7_w116.webp
-I24NewsFrancais.il,I24 News Français,,,IL,,,c/IL,heb,,FALSE,https://www.i24news.tv/fr/,https://www.programme-tv.net/imgre/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2F9c9fab3a99e71b53.2Epng/80x80/quality/80/i24news.png
+I24NewsArabic.il,I24 News Arabic,,,IL,,,c/IL,ara,news,FALSE,https://www.i24news.tv/ar/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/440px-LOGO_i24NEWS.png
+I24NewsEnglish.il,I24 News English,,,IL,,,c/IL,eng,news,FALSE,https://www.i24news.tv/en/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/440px-LOGO_i24NEWS.png
+I24NewsFrancais.il,I24 News Français,,,IL,,,c/IL,fra,news,FALSE,https://www.i24news.tv/fr/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/440px-LOGO_i24NEWS.png
 IAmChannel.id,I Am Channel,,,ID,,,c/ID,ind,,FALSE,https://iamchannel.org/,https://www.lyngsat.com/logo/tv/ii/i_am_channel_id.png
 IAsia.th,I-Asia,,,TH,,,c/TH,tha,,FALSE,,https://www.lyngsat.com/logo/tv/ii/i_asia_th.png
 IB3Global.es,IB3 Global,,,ES,,,c/ES,spa,,FALSE,,
@@ -8176,7 +8171,7 @@ IslandLuckTV.bs,Island Luck TV,,,BS,,,c/BS,eng,entertainment,FALSE,,https://www.
 IslandTV.ht,Island TV,,,HT,,,c/HT,fra,,FALSE,,
 Islatel.es,Islatel,,,ES,,,c/ES,spa,,FALSE,,
 ISN.us,ISN,,,US,,,c/US,eng,religious,FALSE,,https://i.imgur.com/pmqYFk9.jpg
-IsraelParsTV.il,Israel Pars TV,,,IL,,,c/IL,heb,,FALSE,,
+IsraelParsTV.il,Israel Pars TV,,,IL,,,c/IL,heb,,FALSE,https://pars-israel.com/,https://pars-israel.com/wp-content/uploads/2020/05/3520303.png
 Istoriya.ru,Istoriya,,,RU,,,c/RU,rus,,FALSE,,https://i.imgur.com/7fZXK7y.png
 ISTV.br,ISTV,,,BR,,,c/BR,por,general,FALSE,,https://upload.wikimedia.org/wikipedia/pt/6/63/Logo-istv.png
 ISTV.la,ISTV,,,LA,,,c/LA,vie,,FALSE,,
@@ -9203,7 +9198,7 @@ KanalUrfa.tr,Kanal Urfa,,,TR,,,c/TR,tur,,FALSE,https://kanalurfa.com/,https://i.
 KanalV.tr,Kanal V,,,TR,,,c/TR,tur,,FALSE,,https://izmottvsc23.tvplus.com.tr:33207/CPS/images/universal/film/poster/fileEntity/20170221/001300/001300000002742527/d3cdff38-e389-49f1-a54c-63f9bf4194aa.png
 KanalZ.tr,Kanal Z,,,TR,,,c/TR,tur,,FALSE,,https://i.imgur.com/elAlSno.png
 KanaTV.et,Kana TV,,,ET,,,c/ET,amh,,FALSE,https://kanatelevision.com/,https://www.lyngsat.com/logo/tv/kk/kana_tv_et.png
-KanEducational.il,Kan Educational,,,IL,,,c/IL,heb,,FALSE,https://www.kankids.org.il/,https://www.lyngsat.com/logo/tv/kk/kan-educational-il.png
+KanEducational.il,Kan Educational,,,IL,,,c/IL,heb,,FALSE,https://www.kankids.org.il/,https://i.imgur.com/Vs55QWR.png
 KANGLP1.us,KANG-LP1,,UniMás,US,US-TX,San Angelo,s/US-TX,eng,,FALSE,,https://cdn.tvpassport.com/image/station/100x100/unimas.png
 KannadaCinemaClub.in,Kannada Cinema Club,,,IN,,,c/IN,hin,,FALSE,,https://www.lyngsat.com/logo/tv/kk/kannada_cinema_club_in.png
 KannurOne.in,Kannur One,,,IN,,,c/IN,mal,,FALSE,,https://i.imgur.com/hytRL90.png
@@ -14985,7 +14980,6 @@ MusalsalatPlus2.ae,Musalsalat +2,,,AE,,,c/AE,ara,,FALSE,https://alfatv.com/tv/,h
 MusanzaTV.zm,Musanza TV,,,ZM,,,c/ZM,eng,,FALSE,,https://www.lyngsat.com/logo/tv/mm/musanza-tv-zm.png
 Musawa.ps,Musawa,,,PS,,,c/PS,ara,,FALSE,https://musawachannel.com/,https://media.elcinema.com/tvguide/1343_1.png
 MusawaChannel.ps,MusawaChannel,,,PS,,,c/PS,ara,general,FALSE,,https://i.imgur.com/PEFW4Vy.png
-MusayofIsrael.il,Musayof Israel,,,IL,,,c/IL,heb,,FALSE,,
 Muse.al,Muse,,,AL,,,c/AL,sqi,,FALSE,,https://cdn-0.tvprofil.com/cdn/100x40/10/img/kanali-logo/TringMuse_logo.png
 Museum.fr,Museum,,,FR,,,c/FR,fra,,FALSE,https://www.museumtv.art/,https://static.cinemagia.ro/img/tv_station/museum-hd.jpg
 MuseumInternational.fr,Museum International,,,FR,,,c/FR,fra,,FALSE,https://en.museumtv.art/,https://service.canal-overseas.com/image-api/v1/image/176b08bb14421f8e2faa592d9150119e
@@ -16029,6 +16023,7 @@ NovoTempo.br,Novo Tempo,,,BR,,,c/BR,por,religious,FALSE,,https://i.imgur.com/exd
 NovyKanal.ua,Novy Kanal,,,UA,,,c/UA;c/RU,ukr,,FALSE,https://novy.tv/,https://www.lyngsat.com/logo/tv/nn/novy-kanal-ua.png
 NovyyKhristianskiy.ua,Novyy Khristianskiy,,,UA,,,c/UA;c/RU,ukr,,FALSE,https://www.nc-tv.tv/,https://www.lyngsat.com/logo/tv/nn/novyy_kristianskiy_ua.png
 Novyymir.ru,Novyy mir,,,RU,,,c/RU,rus,,FALSE,,https://i.imgur.com/jiU4LHy.png
+Now14.il,Now 14,עכשיו 14,,IL,,,c/IL,heb,,FALSE,https://www.now14.co.il/,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Noamperetz-now14logo.png/440px-Noamperetz-now14logo.png
 Now668.hk,Now 668,,,HK,,,c/HK,zho,,FALSE,,https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch668_160_115
 Now70s.uk,Now 70's,,,UK,,,c/UK,eng,,FALSE,https://www.nowmusic.com/,https://services.sg101.prd.sctv.ch/content/images/tv/channel/1716_image_7_w116.webp
 Now80s.uk,Now 80's,,,UK,,,c/UK,eng,,FALSE,https://www.nowmusic.com/,https://services.sg101.prd.sctv.ch/content/images/tv/channel/1715_image_7_w116.webp
@@ -16825,7 +16820,6 @@ PeopleareAwesomeMexico.us,People are Awesome Mexico,,,US,,,c/US,eng,entertainmen
 PeopleareAwesomeNetherlands.us,People are Awesome Netherlands,,,US,,,c/US,eng,entertainment,FALSE,,https://i.imgur.com/msHBlDz.png
 PeopleareAwesomeSweden.us,People are Awesome Sweden,,,US,,,c/US,eng,entertainment,FALSE,,https://i.imgur.com/msHBlDz.png
 PeoplesTV.ng,Peoples TV,,,NG,,,c/NG,eng,,FALSE,https://ptvng.com/,https://www.lyngsat.com/logo/tv/pp/peoples-tv-ng.png
-PTV.ph,PTV,,,PH,,,c/PH,eng,,FALSE,https://ptvnews.ph/,https://www.lyngsat.com/logo/tv/pp/peoples-tv-ph.png
 PeoplesWeather.za,People's Weather,,,ZA,,,c/ZA,afr,,FALSE,http://www.peoplesweather.com/,https://rndcdn.dstv.com/dstvcms/2020/04/03/People'sWeather_logo_2020_4-3_xlrg.png
 PeopleTV.th,People TV,,,TH,,,c/TH,tha,,FALSE,,https://www.lyngsat.com/logo/tv/num/1_tv_th.png
 PeopleTV.us,People TV,,,US,,,c/US,eng,entertainment,FALSE,https://peopletv.com/,https://i.imgur.com/7SarjaU.png
@@ -17923,6 +17917,7 @@ PTS.tw,PTS,,,TW,,,c/TW,zho,,FALSE,https://www.pts.org.tw/,https://www.lyngsat.co
 PTS3.tw,PTS 3,,,TW,,,c/TW,zho,,FALSE,http://pts_3.pts.org.tw/,https://www.lyngsat.com/logo/tv/pp/pts_tw_3.png
 PTSTaigi.tw,PTS Taigi,,,TW,,,c/TW,zho,,FALSE,https://taigi.pts.org.tw/,https://www.lyngsat.com/logo/tv/pp/pts-taigi-tw.png
 PTV.at,P-TV,,,AT,,,c/AT,deu,,FALSE,,https://www.lyngsat.com/logo/tv/pp/p-tv-at.png
+PTV.ph,PTV,,,PH,,,c/PH,eng,,FALSE,https://ptvnews.ph/,https://www.lyngsat.com/logo/tv/pp/peoples-tv-ph.png
 PTV4.ph,PTV 4,,,PH,,,c/PH,eng,news,FALSE,,https://i.imgur.com/EPnbcPp.png
 PTVBolan.pk,PTV Bolan,,,PK,,,c/PK,eng,,FALSE,,https://www.lyngsat.com/logo/tv/pp/ptv_bolan_pk.png
 PTVGlobal.pk,PTV Global,,,PK,,,c/PK,eng,,FALSE,,https://www.lyngsat.com/logo/tv/pp/ptv_global_pk.png
@@ -18578,7 +18573,6 @@ ReportTV.al,Report TV,,,AL,,,c/AL,sqi,,FALSE,https://shqiptarja.com/,https://www
 RepublicBangla.in,Republic Bangla,,,IN,,,c/IN,hin,,FALSE,https://www.republicworld.com/,https://i.imgur.com/skFRVqg.png
 RepublicBharat.in,Republic Bharat,,,IN,,,c/IN,hin,,FALSE,https://bharat.republicworld.com/,https://i.imgur.com/db6vn1I.png
 RepublicTV.in,Republic TV,,,IN,,,c/IN,hin,,FALSE,https://www.republicworld.com/,https://i.imgur.com/PvI2PCX.png
-Reshet13.il,Reshet 13,,,IL,,,c/IL,heb,,FALSE,https://13tv.co.il/,https://i.imgur.com/zPTvUHf.jpg
 ResidenciaSaude.br,Residência Saúde,,,BR,,,c/BR,por,,FALSE,https://residenciaeducacao.com.br/,https://www.lyngsat.com/logo/tv/rr/residencia_saude.png
 RestaurandoVidasInternacional.cl,Restaurando Vidas Internacional,,,CL,,,c/CL;r/HISPAM,spa,religious,FALSE,,https://graph.facebook.com/104654614259430/picture?width=300&height=300
 Restore.us,Restore,,,US,,,c/US,eng,entertainment,FALSE,,
@@ -20429,7 +20423,7 @@ SportsAlternate1.us,Sports Alternate 1,,,US,,,c/US,eng,,FALSE,,
 SportsAlternate2.us,Sports Alternate 2,,,US,,,c/US,eng,,FALSE,,
 SportsAlternate4.us,Sports Alternate 4,,,US,,,c/US,eng,,FALSE,,
 SportsAlternate5.us,Sports Alternate 5,,,US,,,c/US,eng,,FALSE,,
-SportsChannel.il,Sports Channel,,,IL,,,c/IL,heb,sports,FALSE,,
+SportsChannel.il,Sports Channel,,,IL,,,c/IL,heb,sports,FALSE,https://www.sport5.co.il/,https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Sport5_Logo.png/440px-Sport5_Logo.png
 SportsChannelNetwork.us,Sports Channel Network,,,US,,,c/US,eng,sports,FALSE,,https://i.ytimg.com/vi/2FtbPXeYTvo/maxresdefault.jpg
 SportsConnect.za,Sports Connect,,,ZA,,,c/ZA,afr,,FALSE,https://www.africaxp.com/,https://www.lyngsat.com/logo/tv/ss/sports-connect-za.png
 SportsGrid.us,SportsGrid,,,US,,,c/UK,eng,sports,FALSE,,https://od.lk/s/MF8yMzA3OTUzNTZf/SportsGrid_512x512.png
@@ -24233,12 +24227,12 @@ Viva.il,Viva,,,IL,,,c/IL,heb,,FALSE,https://viva.walla.co.il/item/1683908,https:
 Viva.mg,Viva,,,MG,,,c/MG,fra,,FALSE,,https://www.lyngsat.com/logo/tv/vv/viva_tv_mg.png
 VivaCanal5.do,Viva Canal 5,,,DO,,,c/DO,spa,,FALSE,,
 VivaChannelPPV.ph,Viva Channel PPV,,,PH,,,c/PH,eng,,FALSE,,
+VivaCinema.ph,Viva Cinema,,,PH,,,c/PH,eng,,FALSE,http://www.viva.com.ph/,https://viva.com.ph/storage/setting/5/logo.png
 VivacomArena.bg,Vivacom Arena,,,BG,,,c/BG,bul,,FALSE,http://www.vivacom.bg/bg/tv/ceni-i-oferti/vivacom-arena,https://www.lyngsat.com/logo/tv/vv/vivacom-arena-bg.png
 VivaNicaraguaCanal13.ni,Viva Nicaragua Canal 13,,,NI,,,c/NI,spa,,FALSE,https://www.vivanicaragua.com.ni/,https://static.wikia.nocookie.net/logopedia/images/9/97/VivaCanal13current.png
 VivaPlus.il,Viva Plus,,,IL,,,c/IL,heb,,FALSE,https://viva.walla.co.il/item/1888338,https://www.lyngsat.com/logo/tv/vv/viva_plus_il.png
 VIVARussia.ru,VIVA Russia,,,RU,,,c/RU,rus,music,FALSE,,https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VIVA_2011_logo.svg/1280px-VIVA_2011_logo.svg.png
 VivaSheli.il,Viva Sheli,,,IL,,,c/IL,heb,,FALSE,https://viva.walla.co.il/,https://www.lyngsat.com/logo/tv/vv/viva-sheli-il.png
-VivaCinema.ph,Viva Cinema,,,PH,,,c/PH,eng,,FALSE,http://www.viva.com.ph/,https://viva.com.ph/storage/setting/5/logo.png
 ViVe.ve,ViVe,,,VE,,,c/VE,spa,,FALSE,,https://www.lyngsat.com/logo/tv/vv/vive_ve.png
 VividRed.us,Vivid Red,,,US,,,c/US,eng,xxx,TRUE,http://vividtv.com/,https://i.imgur.com/KXRZ2O7.png
 VividTouch.us,Vivid Touch,,,US,,,c/US,eng,xxx,TRUE,http://vividtv.com/,https://ocdn.eu/ptv2-images-transforms/1/5ZEkr1sb2dvLW1pZ3JhdGVkL3ZpdmlkLXRvdWNoLnBuZ5KVAmQAwsOVAgAowsM
@@ -29495,7 +29489,7 @@ YLETeemaFem.fi,YLE Teema Fem,,,FI,,,c/FI,fin,,FALSE,http://www.yle.fi/,https://t
 YLETV1.fi,YLE TV 1,,,FI,,,c/FI,fin,,FALSE,https://areena.yle.fi/tv/ohjelmat/yle-tv1,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Yle_TV1_logo.svg/382px-Yle_TV1_logo.svg.png
 YLETV2.fi,YLE TV 2,,,FI,,,c/FI,fin,,FALSE,https://areena.yle.fi/tv/ohjelmat/yle-tv2,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Yle_TV2_logo.svg/399px-Yle_TV2_logo.svg.png
 YLETVTeemaAndFem.fi,YLE TV Teema & Fem,,,FI,,,c/FI,fin,,FALSE,,
-YnetLive.il,Ynet Live,,,IL,,,c/IL,heb,,FALSE,,
+YnetLive.il,Ynet Live,,,IL,,,c/IL,heb,news,FALSE,http://www.ynet.co.il/,https://ynet-images1.yit.co.il/picserver5/wcm_upload/2021/06/02/BylDa46E900/ynet_menu_logo_2x.png
 YoGabbaGabba.us,Yo Gabba Gabba!,,,US,,,c/US,eng,kids,FALSE,,https://i.imgur.com/RwxgFfb.jpg
 YohoTV.np,Yoho TV,,,NP,,,c/NP,nep,,FALSE,,https://www.lyngsat.com/logo/tv/yy/yoho-tv-np.png
 Yolo.in,Yolo,,,IN,,,c/IN,mal,entertainment,FALSE,,https://i.imgur.com/kzudV52.jpg

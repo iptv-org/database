@@ -2052,6 +2052,7 @@ BBCRedButton8.uk,BBC Red Button 8,,,UK,,,c/UK,eng,,FALSE,,
 BBCRedButton9.uk,BBC Red Button 9,,,UK,,,c/UK,eng,,FALSE,,
 BBCScotland.uk,BBC Scotland,,,UK,,,c/UK,eng,,FALSE,https://www.bbc.com/scotland,https://www.lyngsat.com/logo/tv/bb/bbc-scotland-uk.png
 BBCScotlandHD.uk,BBC Scotland HD,,,UK,,,c/UK,eng,,FALSE,,
+BBCThree.uk,BBC Three,,,UK,,,c/UK,eng,,FALSE,https://www.bbc.co.uk/bbcthree,https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/400px-BBC_Three_2022.svg.png
 BBCTorontoGaundaPunjab.ca,BBC Toronto Gaunda Punjab,,,CA,,,c/CA,eng,,FALSE,,https://i.imgur.com/uSX4YXL.png
 BBCTwo.uk,BBC Two,,,UK,,,c/UK,eng,,FALSE,http://www.bbc.co.uk/bbctwo/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/bbctwo.png
 BBCTwoDelay.uk,BBC Two Delay,,,UK,,,c/UK,eng,,FALSE,http://www.bbc.co.uk/bbctwo/,https://www.lyngsat.com/logo/tv/bb/bbc-two-uk.png
@@ -2061,7 +2062,6 @@ BBCTwoNorthenIreland.uk,BBC Two Northen Ireland,,,UK,,,c/UK,eng,,FALSE,,
 BBCTwoNorthernIreland.uk,BBC Two Northern Ireland,,,UK,,,c/UK,eng,,FALSE,http://www.bbc.co.uk/bbctwo/,https://www.lyngsat.com/logo/tv/bb/bbc-two-uk.png
 BBCTwoNorthernIrelandHD.uk,BBC Two Northern Ireland HD,,,UK,,,c/UK,eng,,FALSE,,
 BBCTwoWales.uk,BBC Two Wales,,,UK,GB-WLS,,s/GB-WLS,eng,,FALSE,http://www.bbc.co.uk/bbctwo/,https://www.lyngsat.com/logo/tv/bb/bbc-two-uk.png
-BBCThree.uk,BBC Three,,,UK,,,c/UK,eng,,FALSE,https://www.bbc.co.uk/bbcthree,https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/400px-BBC_Three_2022.svg.png
 BBCUHDTrial1.uk,BBC UHD Trial 1,,,UK,,,c/UK,eng,,FALSE,,
 BBCUHDTrial2.uk,BBC UHD Trial 2,,,UK,,,c/UK,eng,,FALSE,,
 BBCUHDTrial3.uk,BBC UHD Trial 3,,,UK,,,c/UK,eng,,FALSE,,
@@ -5756,34 +5756,36 @@ EsperanceTV.mq,Espérance TV,,,MQ,,,c/MQ,fra,religious,FALSE,,https://i.imgur.co
 EsperanceTV.ne,Espérance TV,,,NE,,,c/NE,fra,,FALSE,,https://www.lyngsat.com/logo/tv/ee/esperance-tv-ne.png
 EsperanzaTV.us,Esperanza TV,,,US,,,c/US,spa,religious,FALSE,https://www.esperanzatv.org/,https://i.imgur.com/U5vTVsL.jpg
 EsperiaTV.it,Esperia TV,,,IT,,,c/IT,ita,,FALSE,,https://upload.wikimedia.org/wikipedia/commons/8/81/ESPERIATV18_verde.png
-ESPN2Africa.us,ESPN 2 Africa,,,US,,,c/US,eng,,FALSE,https://africa.espn.com/,https://rndcdn.dstv.com/dstvcms/2020/07/29/ESPN2_2020_Logo_4-3_001_xlrg.png
+ESPN2Africa.us,ESPN 2 Africa,,,US,,,c/US,eng,,FALSE,https://africa.espn.com/,https://i.imgur.com/JXjwZRc.png
 ESPN2Alternate.us,ESPN 2 Alternate,,,US,,,c/US,eng,,FALSE,,
-ESPN2AmericaLatina.us,ESPN 2 América Latina,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://imagenes.gatotv.com/logos/canales/oscuros/espn_2_norte-mediano.png
-ESPN2Andino.us,ESPN 2 Andino,,,US,,,c/US,eng,,FALSE,,https://cdn.mitvstatic.com/channels/cl_espn-2_m.png
-ESPN2Australia.us,ESPN 2 Australia,,,US,,,c/US,eng,,FALSE,http://www.espn.com.au/,https://www.lyngsat.com/logo/tv/ee/espn_2_au.png
-ESPN2Brasil.us,ESPN 2 Brasil,,,US,,,c/US,eng,,FALSE,http://www.espn.com.br/,https://cdn.mitvstatic.com/channels/br_espn-2_m.png
-ESPN2Caribbean.us,ESPN 2 Caribbean,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://service.canal-overseas.com/image-api/v1/image/71d93f1f813eef7bee6666981eab4128
-ESPN2Colombia.us,ESPN 2 Colombia,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://imagenes.gatotv.com/logos/canales/oscuros/espn_2_norte-mediano.png
-ESPN2Nederland.us,ESPN 2 Nederland,,,US,,,c/US,eng,,FALSE,https://www.espn.nl/,https://live-delta.ottnow.stoneroos.com/image/logo/tv.delta.nl/assets/graphics/thumbnails/operatorChannel/1/channel_3037_1_5fed9aeb4a99e5.35722081.svg
+ESPN2AmericaLatina.us,ESPN 2 América Latina,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://i.imgur.com/JXjwZRc.png
+ESPN2Andino.us,ESPN 2 Andino,,,US,,,c/US,eng,,FALSE,,https://i.imgur.com/JXjwZRc.png
+ESPN2Australia.us,ESPN 2 Australia,,,US,,,c/US,eng,,FALSE,http://www.espn.com.au/,https://i.imgur.com/JXjwZRc.png
+ESPN2Brasil.us,ESPN 2 Brasil,,,US,,,c/US,eng,,FALSE,http://www.espn.com.br/,https://i.imgur.com/JXjwZRc.png
+ESPN2Caribbean.us,ESPN 2 Caribbean,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://i.imgur.com/JXjwZRc.png
+ESPN2Colombia.us,ESPN 2 Colombia,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://i.imgur.com/JXjwZRc.png
+ESPN2Nederland.us,ESPN 2 Nederland,,,US,,,c/US,eng,,FALSE,https://www.espn.nl/,https://i.imgur.com/JXjwZRc.png
 ESPN2Sur.us,ESPN 2 Sur,,,US,,,c/US,eng,,FALSE,,
-ESPN2US.us,ESPN 2 US,,,US,,,c/US,eng,,FALSE,http://espn.go.com/,https://www.directv.com/images/logos/channels/dark/large/616.png
-ESPN2Venezuela.us,ESPN 2 Venezuela,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://www.lyngsat.com/logo/tv/ee/espn_2.png
-ESPN2West.us,ESPN 2 West,,,US,,,c/US,eng,,FALSE,,https://cdn.tvpassport.com/image/station/100x100/espn2.png
-ESPN3AmericaLatina.us,ESPN 3 América Latina,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://imagenes.gatotv.com/logos/canales/oscuros/espn_3_norte-mediano.png
-ESPN3Andino.us,ESPN 3 Andino,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://cdn.mitvstatic.com/channels/cl_espn-3_m.png
-ESPN3Nederland.us,ESPN 3 Nederland,,,US,,,c/US,eng,,FALSE,,https://live-delta.ottnow.stoneroos.com/image/logo/tv.delta.nl/assets/graphics/thumbnails/operatorChannel/1/channel_3038_1_5fed9afbdeed89.54926317.svg
-ESPN3Norte.us,ESPN 3 Norte,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://www.lyngsat.com/logo/tv/ee/espn-3-america-latina-us.png
-ESPN3Sur.us,ESPN 3 Sur,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://i.imgur.com/ieTL5Gw.jpg
-ESPN4Nederland.us,ESPN 4 Nederland,,,US,,,c/US,eng,,FALSE,https://www.espn.nl/,https://live-delta.ottnow.stoneroos.com/image/logo/tv.delta.nl/assets/graphics/thumbnails/operatorChannel/1/channel_3039_1_5fed9b091ce7f8.96265253.svg
-ESPNAfrica.us,ESPN Africa,,,US,,,c/US,eng,,FALSE,https://africa.espn.com/,https://rndcdn.dstv.com/dstvcms/2020/07/29/ESPN_2020_Logo_4-3_001_xlrg.png
+ESPN2US.us,ESPN 2 US,,,US,,,c/US,eng,,FALSE,http://espn.go.com/,https://i.imgur.com/JXjwZRc.png
+ESPN2Venezuela.us,ESPN 2 Venezuela,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://i.imgur.com/JXjwZRc.png
+ESPN2West.us,ESPN 2 West,,,US,,,c/US,eng,,FALSE,,https://i.imgur.com/JXjwZRc.png
+ESPN3AmericaLatina.us,ESPN 3 América Latina,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://i.imgur.com/cOnjsWq.png
+ESPN3Andino.us,ESPN 3 Andino,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://i.imgur.com/cOnjsWq.png
+ESPN3Brasil.us,ESPN 3 Brasil,,,US,,,c/US,eng,,FALSE,http://www.espn.com.br/,https://i.imgur.com/cOnjsWq.png
+ESPN3Nederland.us,ESPN 3 Nederland,,,US,,,c/US,eng,,FALSE,,https://i.imgur.com/cOnjsWq.png
+ESPN3Norte.us,ESPN 3 Norte,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://i.imgur.com/cOnjsWq.png
+ESPN3Sur.us,ESPN 3 Sur,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://i.imgur.com/cOnjsWq.png
+ESPN4Brasil.us,ESPN 4 Brasil,,,US,,,c/US,eng,,FALSE,http://www.espn.com.br/,https://i.imgur.com/NyPWJkn.png
+ESPN4Nederland.us,ESPN 4 Nederland,,,US,,,c/US,eng,,FALSE,https://www.espn.nl/,https://i.imgur.com/NyPWJkn.png
+ESPNAfrica.us,ESPN Africa,,,US,,,c/US,eng,,FALSE,https://africa.espn.com/,https://i.imgur.com/A90wNEs.png
 ESPNAlternate.us,ESPN Alternate,,,US,,,c/US,eng,,FALSE,,
-ESPNAmericaLatina.us,ESPN América Latina,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://imagenes.gatotv.com/logos/canales/oscuros/espn_norte-mediano.png
-ESPNAustralia.us,ESPN Australia,,,US,,,c/US,eng,,FALSE,http://www.espn.com.au/,https://www.lyngsat.com/logo/tv/ee/espn_us.png
+ESPNAmericaLatina.us,ESPN América Latina,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://i.imgur.com/A90wNEs.png
+ESPNAustralia.us,ESPN Australia,,,US,,,c/US,eng,,FALSE,http://www.espn.com.au/,https://i.imgur.com/A90wNEs.png
 ESPNBasesLoaded.us,ESPN Bases Loaded,,,US,,,c/US,eng,,FALSE,,
-ESPNBrasil.us,ESPN Brasil,,,US,,,c/US,eng,,FALSE,http://www.espn.com.br/,https://cdn.mitvstatic.com/channels/br_espn-brasil_m.png
+ESPNBrasil.us,ESPN Brasil,,,US,,,c/US,eng,,FALSE,http://www.espn.com.br/,https://i.imgur.com/A90wNEs.png
 ESPNBuzzerBeater.us,ESPN Buzzer Beater,,,US,,,c/US,eng,,FALSE,,
-ESPNCaribbean.us,ESPN Caribbean,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://service.canal-overseas.com/image-api/v1/image/0df06f97abcfc1461f5a73014cf0c7fa
-ESPNChile.us,ESPN Chile,,,US,,,c/US,eng,,FALSE,https://www.espn.cl/,https://imagenes.gatotv.com/logos/canales/oscuros/espn_norte-mediano.png
+ESPNCaribbean.us,ESPN Caribbean,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://i.imgur.com/A90wNEs.png
+ESPNChile.us,ESPN Chile,,,US,,,c/US,eng,,FALSE,https://www.espn.cl/,https://i.imgur.com/A90wNEs.png
 ESPNClassicCanada.us,ESPN Classic Canada,,,US,,,c/US,eng,,FALSE,http://www.tsn.ca/classic/,https://cdn.tvpassport.com/image/station/100x100/espn_classics.png
 ESPNClassicUSA.us,ESPN Classic USA,,,US,,,c/US,eng,,FALSE,http://espn.go.com/tvlistings/networks/classic.html,https://cdn.tvpassport.com/image/station/100x100/espn_classics.png
 ESPNCollegeExtra1.us,ESPN College Extra 1,,,US,,,c/US,eng,,FALSE,,https://cdn.tvpassport.com/image/station/100x100/espncollegeextra.png
@@ -5799,7 +5801,7 @@ ESPNDos.us,ESPN Dos,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https:
 ESPNDosMexico.us,ESPN Dos México,,,US,,,c/US,eng,,FALSE,https://www.espn.com.mx/,https://www.lyngsat.com/logo/tv/ee/espn_dos_mx.png
 ESPNews.us,ESPNews,,,US,,,c/US,eng,,FALSE,http://espn.go.com/,https://www.directv.com/images/logos/channels/dark/large/769.png
 ESPNExtraAmericaLatina.us,ESPN Extra América Latina,,,US,,,c/US,eng,,FALSE,https://espndeportes.espn.com/,https://cdn.mitvstatic.com/channels/ar_espn-1_m.png
-ESPNExtraBrasil.us,ESPN Extra Brasil,,,US,,,c/US,eng,,FALSE,http://espn.uol.com.br/,https://cdn.mitvstatic.com/channels/br_espn-extra_m.png
+ESPNExtraBrasil.us,ESPN Extra Brasil,,,US,,,c/US,eng,,FALSE,http://espn.uol.com.br/,https://i.imgur.com/my1jffI.png
 ESPNGoalLine.us,ESPN Goal Line,,,US,,,c/US,eng,,FALSE,,
 ESPNInternational.us,ESPN International,,,US,,,c/US,eng,,FALSE,http://espn.go.com/,https://www.lyngsat.com/logo/tv/ee/espn_international.png
 ESPNMexico.us,ESPN México,,,US,,,c/US,eng,,FALSE,https://www.espn.com.mx/,https://imagenes.gatotv.com/logos/canales/oscuros/espn_norte-mediano.png
@@ -22184,6 +22186,7 @@ TLCEast.us,TLC East,,,US,,,c/US,eng,,FALSE,http://www.tlc.com/,https://www.direc
 TLCGermany.us,TLC Germany,,,US,,,c/DE,eng,,FALSE,http://www.tlc.de/,https://services.sg101.prd.sctv.ch/content/images/tv/channel/607_image_7_w116.webp
 TLCHDIndia.us,TLC HD India,,,US,,,c/IN,eng,,FALSE,http://www.tlcindia.co.in/,https://www.lyngsat.com/logo/tv/tt/tlc_hd_world_in.png
 TLCHDLatinoamerica.us,TLC HD Latinoamérica,,,US,,,r/LATAM,eng,,FALSE,,
+TLCHDUK.us,TLC HD UK,,,US,,,c/UK,eng,,FALSE,http://www.uk.tlc.com/,https://i.imgur.com/Rd7hOKb.png
 TLCHungary.us,TLC Hungary,,,US,,,c/HU,eng,,FALSE,http://www.tlctv.hu/,https://www.lyngsat.com/logo/tv/tt/tlc_uk.png
 TLCIndia.us,TLC India,,,US,,,c/IN,eng,,FALSE,http://www.tlcindia.co.in/,https://i.imgur.com/5w0057K.png
 TLCLatinoamerica.us,TLC Latinoamérica,,,US,,,r/LATAM,eng,,FALSE,https://www.tudiscovery.com/tlc,https://imagenes.gatotv.com/logos/canales/oscuros/tlc-mediano.png
@@ -22201,7 +22204,6 @@ TLCSverige.us,TLC Sverige,,,US,,,c/SE,eng,,FALSE,http://www.tlcsverige.se/,https
 TLCTaiwan.us,TLC Taiwan,,,US,,,c/TW,eng,,FALSE,http://www.tlcasia.com/,https://www.lyngsat.com/logo/tv/tt/tlc_uk.png
 TLCTurkiye.us,TLC Türkiye,,,US,,,c/TR,eng,,FALSE,https://www.tlctv.com.tr/,https://izmottvsc23.tvplus.com.tr:33207/CPS/images/universal/film/poster/20151105/001300/001300000008478933/142b32ca-f2fb-43c5-9d6a-7f38fe865695.png
 TLCUK.us,TLC UK,,,US,,,c/UK,eng,,FALSE,http://www.uk.tlc.com/,https://i.imgur.com/mcmsvN9.png
-TLCHDUK.us,TLC HD UK,,,US,,,c/UK,eng,,FALSE,http://www.uk.tlc.com/,https://i.imgur.com/Rd7hOKb.png
 TLCUKPlus1.us,TLC UK +1,,,US,,,c/UK,eng,,FALSE,http://www.uk.tlc.com/,https://i.imgur.com/GuMZFLt.png
 TLCWest.us,TLC West,,,US,,,c/US,eng,,FALSE,http://www.tlc.com/,https://cdn.tvpassport.com/image/station/100x100/tlc.png
 TLEstrella.bo,TL Estrella,,,BO,,,c/BO,spa,,FALSE,,https://www.lyngsat.com/logo/tv/tt/tl-estrella-bo.png

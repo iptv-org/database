@@ -43,8 +43,6 @@ id,name,native_name,network,country,subdivision,city,broadcast_area,languages,ca
 1Krim.ru,1 Krim,,,RU,,,c/RU,rus,,FALSE,https://1tvcrimea.ru/,https://www.lyngsat.com/logo/tv/num/1krim-ru.png
 1KZNTV.za,1KZN TV,,,ZA,,,c/ZA,afr,,FALSE,http://www.1kzntv.co.za/,https://rndcdn.dstv.com/dstvcms/2018/03/06/1KZN_logo_4-3_001_xlrg.png
 1MagicAfrica.za,1 Magic Africa,,,ZA,,,c/ZA,afr,,FALSE,https://onemagic.dstv.com/,https://rndcdn.dstv.com/dstvcms/2018/01/29/1Magic_dotcom_4-3_light_background_001_xlrg.png
-1MagicSouthAfrica.za,1 Magic South Africa,,,ZA,,,c/ZA,afr,,FALSE,https://onemagic.dstv.com/,https://www.lyngsat.com/logo/tv/num/1magic-za.png
-1MagicWestAfrica.za,1 Magic West Africa,,,ZA,,,c/ZA,afr,,FALSE,https://onemagic.dstv.com/,https://www.lyngsat.com/logo/tv/num/1magic-za.png
 1Music.ng,1 Music,,,NG,,,c/NG,eng,,FALSE,,https://www.lyngsat.com/logo/tv/ss/sairtek-ng.png
 1Plus1.ua,1+1,,,UA,,,c/UA;c/RU,ukr,,FALSE,https://1plus1.ua/,https://www.lyngsat.com/logo/tv/num/1_plus_1_ua.png
 1Plus1International.ua,1+1 International,,,UA,,,c/UA;c/RU,ukr,,FALSE,https://1plus1.international/,https://www.lyngsat.com/logo/tv/num/1_plus_1_ua_international.png
@@ -583,6 +581,7 @@ AfricaMagicYoruba.za,Africa Magic Yoruba,,,ZA,,,c/ZA,afr,,FALSE,https://www.dstv
 AfricaMovieStar.cm,Africa Movie Star,,,CM,,,c/CM,eng,,FALSE,,https://www.lyngsat.com/logo/tv/aa/africa-movie-star-cm.png
 Africanews.cg,Africanews,,,CG,,,c/CG,eng,news,FALSE,https://www.africanews.com/,https://www.zap.co.ao/media/cache/movie_thumb/uploads/ao/channels/5e7b5a7adf3e8.png
 AfricanMovieNet.ng,African Movie Net,,,NG,,,c/NG,eng,,FALSE,,https://www.lyngsat.com/logo/tv/aa/african-movie-net-ng.png
+AfricanEaster.za,African Easter,,,ZA,,,c/ZA,eng,,FALSE,,
 AfricaSportsTV.fr,Africa Sports TV,,,FR,,,c/FR,fra,,FALSE,https://africasports.tv/,https://www.lyngsat.com/logo/tv/aa/africa-sports-tv-fr.png
 AfricaTV1.ng,Africa TV1,,,NG,,,c/NG,ara,,FALSE,,https://i.imgur.com/soDiTxg.jpeg
 AfricaTV2.ng,Africa TV2,,,NG,,,c/NG,ara,,FALSE,,https://i.imgur.com/FVwwXan.jpeg
@@ -1951,6 +1950,7 @@ BatteryPopXUMO.us,Battery Pop XUMO,,,US,,,c/US,eng,kids,FALSE,,https://i.imgur.c
 BaturTV.af,Batur TV,,,AF,,,c/AF,pus,,FALSE,,
 BaynounahTV.ae,Baynounah TV,,,AE,,,c/AE,ara,,FALSE,https://www.baynounah.ae/,https://www.lyngsat.com/logo/tv/bb/baynounah_tv_ae.png
 BayonTV.kh,Bayon TV,,,KH,,,c/KH,khm,news,FALSE,http://bayontv.com.kh/,https://i.imgur.com/2jbulL2.jpg
+BayTV.za,Bay TV,,,ZA,,,c/ZA,eng,,FALSE,http://www.bay-tv.co.za/,https://i.imgur.com/SNgbSZL.png
 BayyinatTV.iq,Bayyinat TV,,,IQ,,,c/IQ,ara,,FALSE,http://www.bayyinat.tv/,https://www.lyngsat.com/logo/tv/bb/baeynat_satellite_channel_iq.png
 BazmeAsheghan.nl,Bazme Asheghan,,,NL,,,c/IR,fas,movies,FALSE,,
 BB24.bj,BB 24,,,BJ,,,c/BJ,fra,,FALSE,https://ortb.bj/,https://i.imgur.com/vFhfu6M.jpg
@@ -17054,6 +17054,7 @@ PlusMovie.np,Plus Movie,,,NP,,,c/NP,nep,,FALSE,https://dishhome.com.np/exclusive
 PlusPlus.ua,Plus Plus,,,UA,,,c/UA;c/RU,ukr,,FALSE,https://plus-plus.tv/,https://www.lyngsat.com/logo/tv/pp/plus_plus_tv_ua.png
 Plustdp.es,+tdp,,,ES,,,c/ES,spa,,FALSE,,
 PlusTLT.bo,Plus TLT,,,BO,,,c/BO,spa,,FALSE,,
+PlusTV.tz,Plus TV,,,TZ,,,c/TZ;c/NG,eng,,FALSE,https://plustv.tv/,https://www.lyngsat.com/logo/tv/pp/plus-tv-tz.png
 PlusTVAfrica.ng,Plus TV Africa,,,NG,,,c/NG,eng,,FALSE,https://plustvafrica.com/,https://rndcdn.dstv.com/dstvcms/2020/04/02/PlusTV_Africa_4-3_001_xlrg.png
 PlutoTV007.us,Pluto TV 007,,,US,,,c/US,eng,movies,FALSE,,https://www.007.com/wp-content/uploads/2017/07/rgb_logo_650-1.jpg
 PlutoTV21JumpStreet.us,Pluto TV 21 Jump Street,,,US,,,c/US,eng,series,FALSE,,https://images.pluto.tv/channels/5d4af00df345adb154b7a1f4/colorLogoPNG.png
@@ -18816,7 +18817,6 @@ RTDSDeltaTV.tg,RTDS Delta TV,,,TG,,,c/TG,fra,,FALSE,,https://service.canal-overs
 RTE2.ie,RTÉ 2,,,IE,,,c/IE,gle,,FALSE,https://www.rte.ie/tv/,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb1270.png
 RTE2Plus1.ie,RTÉ 2 +1,,,IE,,,c/IE,gle,,FALSE,https://www.rte.ie/tv/,https://www.lyngsat.com/logo/tv/rr/rte-2-plus1-ie.png
 RTEJr.ie,RTÉ Jr,,,IE,,,c/IE,gle,,FALSE,http://www.rte.ie/rtejr/,https://www.lyngsat.com/logo/tv/rr/rte_jr_tv.png
-RTenEspanol.ru,RT en Español,,,RU,,,r/HISPAM;c/ES,spa,news,FALSE,,
 RTENews.ie,RTÉ News,,,IE,,,c/IE,eng,news,FALSE,https://www.rte.ie/news/,https://i.imgur.com/OisW3m0.png
 RTEOne.ie,RTÉ One,,,IE,,,c/IE,gle,,FALSE,https://www.rte.ie/tv/,https://www.lyngsat.com/logo/tv/rr/rte_one.png
 RTEOnePlus1.ie,RTÉ One +1,,,IE,,,c/IE,gle,,FALSE,https://www.rte.ie/tv/,https://www.lyngsat.com/logo/tv/rr/rte_one_plus1.png

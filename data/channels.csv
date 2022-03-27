@@ -1,6 +1,7 @@
 id,name,native_name,network,country,subdivision,city,broadcast_area,languages,categories,is_nsfw,website,logo
 0.es,#0,,,ES,,,c/ES,spa,,FALSE,http://www.plus.es/cero/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/cero.png
 01TV.fr,01 TV,,,FR,,,c/FR,fra,,FALSE,,https://proxymedia.woopic.com/api/v1/images/553%2Flogos%2Fv2%2Flogos%2Flivetv_01tv%2F20200102_141654%2FwebTVLogo%2Flogo_180x96.png
+90120.us,90120,,,US,,,c/US,eng,series,FALSE,https://pluto.tv/en/live-tv/90210,https://images.pluto.tv/channels/5f4d83e0a382c00007bc02e7/colorLogoPNG.png
 1001Noites.br,1001 Noites,,,BR,,,c/BR,por,shop,FALSE,,https://i.imgur.com/xbkYDeg.png
 100AutoMotoTV.bg,100% Auto Moto TV,,,BG,,,c/BG,bul;eng,auto,FALSE,,https://i.imgur.com/PjBm4Ic.jpg
 100News.ua,100% News,,,UA,,,c/UA;c/RU,ukr,news,FALSE,,https://i.imgur.com/11llLr1.jpg
@@ -2425,10 +2426,10 @@ BloombergTVEurope.us,Bloomberg TV Europe,,,US,,,r/EUR,eng,business,FALSE,https:/
 BloombergTVLatinAmerica.us,Bloomberg TV Latin America,,,US,,,c/US,eng,business,FALSE,,https://cdn.mitvstatic.com/channels/ar_bloomberg_m.png
 BloombergTVMongolia.us,Bloomberg TV Mongolia,,,US,,,c/US,eng,business,FALSE,http://bloombergtv.mn/,https://www.lyngsat.com/logo/tv/bb/blommberg-tv-us.png
 BloombergTVMyanmar.us,Bloomberg TV Myanmar,,,US,,,c/US,eng,business,FALSE,,https://www.lyngsat.com/logo/tv/bb/blommberg-tv-us.png
-BloombergTVPlus.us,Bloomberg TV+ UHD,,,US,,,c/US,eng,business,FALSE,,https://i.imgur.com/xGlToly.png
-BloombergTVUS.us,Bloomberg TV US,,,US,,,c/US,eng,business,FALSE,https://www.bloomberg.com/tv/,https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png
-BloombergTVUSLiveEvent.us,Bloomberg TV US Live Event,,,US,,,c/US,eng,business,FALSE,,https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png
-BloombergTVUSPoliticsLiveEvent.us,Bloomberg TV US Politics Live Event,,,US,,,c/US,eng,business,FALSE,,https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png
+BloombergTVPlus.us,Bloomberg TV+,,,US,,,c/US,eng,business,FALSE,,https://i.imgur.com/xGlToly.png
+BloombergTV.us,Bloomberg TV,,,US,,,c/US,eng,business,FALSE,https://www.bloomberg.com/tv/,https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png
+BloombergTVLiveEvent.us,Bloomberg TV Live Event,,,US,,,c/US,eng,business,FALSE,,https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png
+BloombergTVPoliticsLiveEvent.us,Bloomberg TV Politics Live Event,,,US,,,c/US,eng,business,FALSE,,https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png
 BlueAction.ch,Blue Action,,,CH,,,c/CH,deu,,FALSE,,https://services.SG101.prd.sctv.ch/content/images/tv/channel/591_image_7_w116.webp
 BlueCity.ch,Blue City,,,CH,,,c/CH,deu,,FALSE,,https://services.SG101.prd.sctv.ch/content/images/tv/channel/1225_image_7_w116.webp
 BluegrassMusic4U.us,Bluegrass Music 4U,,,US,,,c/US,eng,music,FALSE,,https://i.imgur.com/nm3N3aw.png
@@ -4181,8 +4182,7 @@ Combate.br,Combate,,,BR,,,c/BR,por,,FALSE,http://combate.globo.com/,https://www.
 CombateWorld.us,Combate World,,,US,,,c/US,eng,sports,FALSE,https://pluto.tv/en/live-tv/combate-world,https://images.pluto.tv/channels/5bb1ac3e268cae539bcedb07/colorLogoPNG.png
 CombosTVDiscovery.cn,Combos TV Discovery,,,CN,,,c/CN,zho,,FALSE,,https://www.lyngsat.com/logo/tv/cc/combos_tv_discovery.png
 COMBrasil.br,COM Brasil,,,BR,,,c/BR,por,general,FALSE,,https://i.imgur.com/c8ztQnF.png
-ComediaMadeinSpain.us,Comedia Made in Spain,,,US,,,c/US,eng,,FALSE,,https://i.imgur.com/JcJbAQv.png
-ComediamadeinSpainSpain.us,Comedia made in Spain Spain,,,US,,,c/ES,spa,,FALSE,https://pluto.tv/en/live-tv/comedia-made-in-spain-es,https://images.pluto.tv/channels/5f1abce155a03d0007718834/colorLogoPNG.png
+ComediaMadeinSpain.us,Comedia Made in Spain,,,US,,,c/US,spa,,FALSE,https://pluto.tv/en/live-tv/comedia-made-in-spain-es,https://images.pluto.tv/channels/5f1abce155a03d0007718834/colorLogoPNG.png
 ComediePlus.fr,Comédie +,,,FR,,,c/FR,fra,,FALSE,http://www.comedieplus.fr/,https://service.canal-overseas.com/image-api/v1/image/4ae047a6421f34ccb4abefe931d238b4
 ComedyCentralAfrica.us,Comedy Central Africa,,,US,,,c/US,eng,,FALSE,http://www.comedycentralafrica.com/,https://cdn.dstv.com/www.dstv.com/dstvchannels/NowLogos/ComedyCentral_small.png
 ComedyCentralAnimation.us,Comedy Central Animation,,,US,,,c/US,eng,comedy,FALSE,https://pluto.tv/it/live-tv/comedy-central-animation,https://images.pluto.tv/channels/5f99e24636d67d0007a94e6d/colorLogoPNG.png
@@ -7533,9 +7533,10 @@ ICableFinanceInfoChannel.hk,I-Cable Finance Info Channel,,,HK,,,c/HK,zho,,FALSE,
 ICableLiveNewsChannel.hk,I-Cable Live News Channel,,,HK,,,c/HK,zho,,FALSE,http://www.cabletv.com.hk/ct/cabletv.php?id=1&cid=7#channel,https://www.lyngsat.com/logo/tv/hh/hkc_live_news_channel.png
 ICableNewsChannel.hk,I-Cable News Channel,,,HK,,,c/HK,zho,,FALSE,http://www.cabletv.com.hk/ct/cabletv.php?id=1&cid=5#channel,https://www.directv.com/images/logos/channels/dark/large/417.png
 ICableSportsChannel.hk,I-Cable Sports Channel,,,HK,,,c/HK,zho,,FALSE,http://www.cabletv.com.hk/ct/cabletv.php?id=5&cid=79,https://www.lyngsat.com/logo/tv/ii/i-cable-sports-channel-hk.png
-iCarlyTVFrance.us,iCarly TV France,,,US,,,c/FR,fra,kids,FALSE,https://pluto.tv/en/live-tv/i-carly-fr,https://images.pluto.tv/channels/5f8ecc7aa44d9c00081fca29/colorLogoPNG.png
-iCarlyTVGermany.us,iCarly TV Germany,,,US,,,c/DE,deu,kids,FALSE,https://pluto.tv/en/live-tv/i-carly-de,https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png
-iCarlyTVSpain.us,iCarly TV Spain,,,US,,,c/ES,spa,kids,FALSE,https://pluto.tv/en/live-tv/icarly-es,https://images.pluto.tv/channels/6181404ef48321000797bc41/colorLogoPNG.png
+iCarlyFrance.us,iCarly France,,,US,,,c/FR,fra,kids,FALSE,https://pluto.tv/en/live-tv/i-carly-fr,https://images.pluto.tv/channels/5f8ecc7aa44d9c00081fca29/colorLogoPNG.png
+iCarlyGermany.us,iCarly Germany,,,US,,,c/DE,deu,kids,FALSE,https://pluto.tv/en/live-tv/i-carly-de,https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png
+iCarlyPlusGermany.us,iCarly Plus Germany,,,US,,,c/DE,deu,kids,FALSE,https://pluto.tv/en/live-tv/i-carly-de,https://images.pluto.tv/channels/5e8b580a233dc90007f0cb9d/colorLogoPNG.png
+iCarlySpain.us,iCarly Spain,,,US,,,c/ES,spa,kids,FALSE,https://pluto.tv/en/live-tv/icarly-es,https://images.pluto.tv/channels/6181404ef48321000797bc41/colorLogoPNG.png
 IcaroTV.it,Icaro TV,,,IT,,,c/IT,ita,,FALSE,,https://i.imgur.com/nWBWzNy.png
 ICC.us,ICC,,,US,,,c/US,eng,,FALSE,,https://www.lyngsat.com/logo/tv/ii/iranian_cinema_channel_us.png
 Ice1TV.gh,Ice 1 TV,,,GH,,,c/GH,eng,,FALSE,,https://www.lyngsat.com/logo/tv/ii/ice-1-tv-gh.png
@@ -20844,18 +20845,17 @@ TBNAfrica.us,TBN Africa,,,US,,,c/US,eng,,FALSE,https://www.tbnafrica.org/,https:
 TBNArmenia.us,TBN Armenia,,,US,,,c/US,eng,,FALSE,,https://i.imgur.com/06K49cr.jpeg
 TBNAsia.us,TBN Asia,,,US,,,c/US,eng,religious,FALSE,http://www.tbnasia.org/,https://i.imgur.com/QyMAyrs.jpg
 TBNBaltia.ee,TBN Baltia,,,EE,,,c/EE,rus,religious,FALSE,,https://inet-static.mw.elion.ee/images/channels/300x300/261.png
-TBNEast.us,TBN East,,,US,,,c/US,eng,,FALSE,,
+TBNEast.us,TBN East,,,US,,,c/US,eng,religious,FALSE,https://www.tbn.org/,https://cdn.tvpassport.com/image/station/100x100/tbn.png
 TBNEurope.us,TBN Europe,,,US,,,c/US,eng,,FALSE,https://www.tbneurope.org/,https://www.lyngsat.com/logo/tv/tt/tbn_europe_us.png
 TBNInspire.us,TBN Inspire,,,US,,,c/US,eng,religious,FALSE,,https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/TBN_Hillsong_360x360.png?raw=true
 TBNNamibia.us,TBN Namibia,,,US,,,c/US,eng,,FALSE,http://www.tbnnamibia.tv/,https://www.lyngsat.com/logo/tv/tt/tbn_na.png
 TBNNejatTV.ir,TBN Nejat TV,,,IR,,,c/IR,fas,,FALSE,https://nejattv.org/,https://nejattv.org/assets/img/tbn-nejat-logo.png
 TBNPacific.us,TBN Pacific,,,US,,,c/US,eng,,FALSE,https://www.tbnpacific.org.au/,https://www.lyngsat.com/logo/tv/tt/tbn_pacific_au.png
 TBNPoland.us,TBN Poland,,,US,,,c/US,eng,,FALSE,https://www.tbnpolska.tv/,https://ocdn.eu/ptv2-images-transforms/1/4fPkrxsb2dvLW1pZ3JhdGVkL3Ribi1wb2xza2EucG5nkpUCZADCw5UCACjCww
-TBNRussia.us,TBN Russia,,,US,,,c/RU,eng,,FALSE,https://tbn-tv.com/,https://avatars.mds.yandex.net/get-tv-channel-logos/55846/2a0000015b7c08ddc046356044f9e6278ee0/160x120
+TBN.ru,TBN,ТБН,,RU,,,c/RU,eng,,FALSE,https://tbn-tv.com/,https://avatars.mds.yandex.net/get-tv-channel-logos/55846/2a0000015b7c08ddc046356044f9e6278ee0/160x120
 TBNUK.us,TBN UK,,,US,,,c/US,eng,,FALSE,https://www.tbnuk.org/,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb3109.png
 TBNUkraine.us,TBN Ukraine,,,US,,,c/US,eng,,FALSE,http://tbn-ua.org/,https://www.lyngsat.com/logo/tv/tt/tbn-ukraina-us-ua.png
-TBNUS.us,TBN US,,,US,,,c/US,eng,religious,FALSE,https://www.tbn.org/,https://i.imgur.com/zlZi5RN.jpg
-TBNWest.us,TBN West,,,US,,,c/US,eng,,FALSE,,https://cdn.tvpassport.com/image/station/100x100/tbn.png
+TBNWest.us,TBN West,,,US,,,c/US,eng,religious,FALSE,https://www.tbn.org/,https://cdn.tvpassport.com/image/station/100x100/tbn.png
 TBNYetu.us,TBN Yetu,,,US,,,c/US,eng,,FALSE,https://www.tbnyetu.org/,https://www.lyngsat.com/logo/tv/tt/tbn-yetu-us.png
 TBSAmericaLatina.us,TBS América Latina,,,US,,,c/US,eng,,FALSE,http://www.canaltbs.com/,https://imagenes.gatotv.com/logos/canales/oscuros/tbs-mediano.png
 TBSAtlanticoSur.us,TBS Atlántico Sur,,,US,,,c/US,eng,,FALSE,http://www.canaltbs.com/,https://imagenes.gatotv.com/logos/canales/oscuros/tbs-mediano.png

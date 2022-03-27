@@ -1,7 +1,6 @@
 id,name,native_name,network,country,subdivision,city,broadcast_area,languages,categories,is_nsfw,website,logo
 0.es,#0,,,ES,,,c/ES,spa,,FALSE,http://www.plus.es/cero/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/cero.png
 01TV.fr,01 TV,,,FR,,,c/FR,fra,,FALSE,,https://proxymedia.woopic.com/api/v1/images/553%2Flogos%2Fv2%2Flogos%2Flivetv_01tv%2F20200102_141654%2FwebTVLogo%2Flogo_180x96.png
-90120.us,90120,,,US,,,c/US,eng,series,FALSE,https://pluto.tv/en/live-tv/90210,https://images.pluto.tv/channels/5f4d83e0a382c00007bc02e7/colorLogoPNG.png
 1001Noites.br,1001 Noites,,,BR,,,c/BR,por,shop,FALSE,,https://i.imgur.com/xbkYDeg.png
 100AutoMotoTV.bg,100% Auto Moto TV,,,BG,,,c/BG,bul;eng,auto,FALSE,,https://i.imgur.com/PjBm4Ic.jpg
 100News.ua,100% News,,,UA,,,c/UA;c/RU,ukr,news,FALSE,,https://i.imgur.com/11llLr1.jpg
@@ -239,6 +238,7 @@ id,name,native_name,network,country,subdivision,city,broadcast_area,languages,ca
 8TV.my,8TV,,,MY,,,c/MY,msa,,FALSE,https://www.xtra.com.my/,https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/115_144.png
 8TVCadiz.es,8 TV Cádiz,,,ES,,,c/ES,spa,,FALSE,,https://i.imgur.com/nJClfjG.jpeg
 8XM.pk,8XM,,,PK,,,c/PK,eng,,FALSE,,https://www.lyngsat.com/logo/tv/num/8x_music_pk.png
+90120.us,90120,,,US,,,c/US,eng,series,FALSE,https://pluto.tv/en/live-tv/90210,https://images.pluto.tv/channels/5f4d83e0a382c00007bc02e7/colorLogoPNG.png
 90210.us,90210,,,US,,,c/US,eng,entertainment,FALSE,https://pluto.tv/en/live-tv/90210,https://images.pluto.tv/channels/5f4d83e0a382c00007bc02e7/colorLogoPNG.png
 90sThrowback.us,90s Throwback,,,US,,,c/US,eng,movies,FALSE,https://pluto.tv/it/live-tv/90s-throwback,https://images.pluto.tv/channels/5f4d86f519358a00072b978e/colorLogoPNG.png
 92News.pk,92 News,,,PK,,,c/PK,urd,news,FALSE,https://92newshd.tv/,https://i.imgur.com/OifwcrE.png
@@ -2401,11 +2401,12 @@ BlackNewsChannel.us,Black News Channel,,,US,,,c/US,eng,news,FALSE,,https://i.img
 BlackRussia.us,.black Russia,,,US,,,c/RU,rus,entertainment,FALSE,,https://i.imgur.com/rzrOS3N.png
 BlackThrowbacks.us,Black Throwbacks,,,US,,,c/US,eng,comedy,FALSE,https://pluto.tv/en/live-tv/black-throwbacks,https://images.pluto.tv/channels/61326275b3c86a00078e4833/colorLogoPNG.png
 Blast.ao,Blast,,,AO,,,c/AO,por,,FALSE,http://canalblast.com/,https://www.zap.co.ao/media/cache/movie_thumb/uploads/ao/channels/576c2f5417c90.png
+Blaze.us,Blaze,,,US,,,c/US,eng,,FALSE,,https://i.imgur.com/toNeonC.png
 BlazeItalia.us,Blaze Italia,,,US,,,c/US,eng,,FALSE,http://www.blazetv.it/,https://www.lyngsat.com/logo/tv/bb/blaze_uk.png
 BlazeLive.us,Blaze Live,,,US,,,c/US,eng,news,FALSE,https://pluto.tv/en/live-tv/blaze-live,https://i.imgur.com/DEjSMD6.png
 BlazePortugal.us,Blaze Portugal,,,US,,,c/US,eng,,FALSE,https://blazetv.pt/,https://www.zap.co.ao/media/cache/movie_thumb/uploads/ao/channels/5ad61c6f71f60.png
 BlazeSpain.us,Blaze Spain,,,US,,,c/US,eng,,FALSE,https://blazetv.es/,https://imagenes.gatotv.com/logos/canales/oscuros/blaze_espana-mediano.png
-BlazeTV.us,Blaze TV,,,US,,,c/US,eng,entertainment,FALSE,https://www.blazetv.com/,https://i.imgur.com/HcRKP5P.jpg
+BlazeTV.us,Blaze TV,,,US,,,c/US,eng,entertainment,FALSE,https://www.blazetv.com/,https://i.imgur.com/wvr1F1i.png
 BlazeUK.us,Blaze UK,,,US,,,c/US,eng,,FALSE,,https://otv-us-web.s3-us-west-2.amazonaws.com/logos/guide/2/Open/92x36_352/Source/84695/blazeukchannel.png
 BlazeunddieMonsterMaschinenNickGermany.us,Blaze und die Monster-Maschinen Nick Germany,,,US,,,c/DE,deu,kids,FALSE,https://pluto.tv/en/live-tv/blaze-de,https://images.pluto.tv/channels/5e8b60419becf60008c841fd/colorLogoPNG.png
 BlessedTV.gh,Blessed TV,,,GH,,,c/GH,eng,,FALSE,,https://www.lyngsat.com/logo/tv/bb/blessed-tv-gh.png
@@ -2414,6 +2415,7 @@ Blokbaster.ru,Blokbaster,,,RU,,,c/RU,rus,,FALSE,https://www.tricolor.tv/channels
 BloodyDisgusting.us,Bloody Disgusting,,,US,,,c/US,eng,movies,FALSE,,https://f9q4g5j6.ssl.hwcdn.net/602dd011302f4d7da05d4bf3
 BloombergHT.us,Bloomberg HT,,,US,,,c/TR,tur,business,FALSE,https://www.bloomberght.com/tv,https://i.imgur.com/6aarbHM.jpg
 BloombergQuicktake.us,Bloomberg Quicktake,,,US,,,c/US,eng,general,FALSE,https://www.bloomberg.com/qt,https://www.adweek.com/wp-content/uploads/2019/12/quicktake-bloomberg-tictoc-CONTENT-2019-640x360.jpg
+BloombergTV.us,Bloomberg TV,,,US,,,c/US,eng,business,FALSE,https://www.bloomberg.com/tv/,https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png
 BloombergTVAfrica.us,Bloomberg TV Africa,,,US,,,c/US,eng,business,FALSE,https://www.bloomberg.com/africa,https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png
 BloombergTVAsia.us,Bloomberg TV Asia,,,US,,,r/APAC;r/OCE;r/SAS,eng,business,FALSE,https://www.bloomberg.com/tv/asia/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bloomberg_Television_logo.svg/300px-Bloomberg_Television_logo.svg.png
 BloombergTVAsiaLiveEvent.us,Bloomberg TV Asia Live Event,,,US,,,r/APAC,eng,business,FALSE,,https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Bloomberg_Television_logo.svg/300px-Bloomberg_Television_logo.svg.png
@@ -2424,11 +2426,10 @@ BloombergTVCanada.us,Bloomberg TV Canada,,,US,,,c/US,eng,business,FALSE,,https:/
 BloombergTVEMEALiveEvent.us,Bloomberg TV EMEA Live Event,,,US,,,r/EMEA,eng,business,FALSE,,https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png
 BloombergTVEurope.us,Bloomberg TV Europe,,,US,,,r/EUR,eng,business,FALSE,https://www.bloomberg.com/tv/europe/,https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png
 BloombergTVLatinAmerica.us,Bloomberg TV Latin America,,,US,,,c/US,eng,business,FALSE,,https://cdn.mitvstatic.com/channels/ar_bloomberg_m.png
+BloombergTVLiveEvent.us,Bloomberg TV Live Event,,,US,,,c/US,eng,business,FALSE,,https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png
 BloombergTVMongolia.us,Bloomberg TV Mongolia,,,US,,,c/US,eng,business,FALSE,http://bloombergtv.mn/,https://www.lyngsat.com/logo/tv/bb/blommberg-tv-us.png
 BloombergTVMyanmar.us,Bloomberg TV Myanmar,,,US,,,c/US,eng,business,FALSE,,https://www.lyngsat.com/logo/tv/bb/blommberg-tv-us.png
 BloombergTVPlus.us,Bloomberg TV+,,,US,,,c/US,eng,business,FALSE,,https://i.imgur.com/xGlToly.png
-BloombergTV.us,Bloomberg TV,,,US,,,c/US,eng,business,FALSE,https://www.bloomberg.com/tv/,https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png
-BloombergTVLiveEvent.us,Bloomberg TV Live Event,,,US,,,c/US,eng,business,FALSE,,https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png
 BloombergTVPoliticsLiveEvent.us,Bloomberg TV Politics Live Event,,,US,,,c/US,eng,business,FALSE,,https://rndcdn.dstv.com/dstvcms/2018/01/16/Bloomberg_new_4-3_light_background_001_xlrg.png
 BlueAction.ch,Blue Action,,,CH,,,c/CH,deu,,FALSE,,https://services.SG101.prd.sctv.ch/content/images/tv/channel/591_image_7_w116.webp
 BlueCity.ch,Blue City,,,CH,,,c/CH,deu,,FALSE,,https://services.SG101.prd.sctv.ch/content/images/tv/channel/1225_image_7_w116.webp
@@ -3658,7 +3659,7 @@ CHCJ.ca,CHCJ,,CTV 2,CA,CA-ON,Toronto,s/CA-ON,eng,,FALSE,,https://cdn.tvpassport.
 CHCOTV.ca,CHCO TV,,,CA,,,c/CA,eng,,FALSE,http://www.chco.tv/,https://www.lyngsat.com/logo/tv/cc/chco_tv_ca.png
 Che.ru,Che!,,,RU,,,c/RU,rus,entertainment,FALSE,https://chetv.ru/,https://i.imgur.com/nRD61Dw.png
 CheapThrills.us,Cheap Thrills,,,US,,,c/US,eng,,FALSE,http://www.ten.com/,https://www.lyngsat.com/logo/tv/tt/ten_cheap_thrills.png
-CheddarNews.us,Cheddar News,,,US,,,c/US,eng,news,FALSE,https://pluto.tv/en/live-tv/cheddar-1,https://f9q4g5j6.ssl.hwcdn.net/607766d942e7e542aa73ddf2
+Cheddar.us,Cheddar,,,US,,,c/US,eng,news,FALSE,https://pluto.tv/en/live-tv/cheddar-1,https://f9q4g5j6.ssl.hwcdn.net/607766d942e7e542aa73ddf2
 CheddarUK.us,Cheddar UK,,,US,,,c/UK,eng,news,FALSE,https://pluto.tv/en/live-tv/cheddar-gb,https://images.pluto.tv/channels/5ca1e02c08ee5378be82db47/colorLogoPNG.png
 CheersGermany.us,Cheers Germany,,,US,,,c/DE,deu,series,FALSE,https://pluto.tv/en/live-tv/cheers-de,https://images.pluto.tv/channels/611e7f224676bf00076a4d8d/colorLogoPNG.png
 ChefChampion.us,Chef Champion,,,US,,,c/US,eng,cooking,FALSE,,https://i.imgur.com/15a9pG9.png
@@ -20841,6 +20842,7 @@ TBC1.tz,TBC 1,,,TZ,,,c/TZ,swa,,FALSE,,https://www.lyngsat.com/logo/tv/tt/tbc1.pn
 TBC2.tz,TBC 2,,,TZ,,,c/TZ,swa,,FALSE,,https://www.lyngsat.com/logo/tv/tt/tbc2.png
 TBD.us,TBD,,,US,,,c/US,eng,entertainment,FALSE,,https://i.imgur.com/Fbzbq1y.png
 TBMMTV.tr,TBMM TV,,,TR,,,c/TR,tur,,FALSE,https://www.tbmm.gov.tr/,https://www.lyngsat.com/logo/tv/tt/tbmm_tv.png
+TBN.ru,TBN,ТБН,,RU,,,c/RU,eng,,FALSE,https://tbn-tv.com/,https://avatars.mds.yandex.net/get-tv-channel-logos/55846/2a0000015b7c08ddc046356044f9e6278ee0/160x120
 TBNAfrica.us,TBN Africa,,,US,,,c/US,eng,,FALSE,https://www.tbnafrica.org/,https://rndcdn.dstv.com/dstvcms/2017/11/15/DStv_TBN_4-3_001_xlrg.png
 TBNArmenia.us,TBN Armenia,,,US,,,c/US,eng,,FALSE,,https://i.imgur.com/06K49cr.jpeg
 TBNAsia.us,TBN Asia,,,US,,,c/US,eng,religious,FALSE,http://www.tbnasia.org/,https://i.imgur.com/QyMAyrs.jpg
@@ -20852,7 +20854,6 @@ TBNNamibia.us,TBN Namibia,,,US,,,c/US,eng,,FALSE,http://www.tbnnamibia.tv/,https
 TBNNejatTV.ir,TBN Nejat TV,,,IR,,,c/IR,fas,,FALSE,https://nejattv.org/,https://nejattv.org/assets/img/tbn-nejat-logo.png
 TBNPacific.us,TBN Pacific,,,US,,,c/US,eng,,FALSE,https://www.tbnpacific.org.au/,https://www.lyngsat.com/logo/tv/tt/tbn_pacific_au.png
 TBNPoland.us,TBN Poland,,,US,,,c/US,eng,,FALSE,https://www.tbnpolska.tv/,https://ocdn.eu/ptv2-images-transforms/1/4fPkrxsb2dvLW1pZ3JhdGVkL3Ribi1wb2xza2EucG5nkpUCZADCw5UCACjCww
-TBN.ru,TBN,ТБН,,RU,,,c/RU,eng,,FALSE,https://tbn-tv.com/,https://avatars.mds.yandex.net/get-tv-channel-logos/55846/2a0000015b7c08ddc046356044f9e6278ee0/160x120
 TBNUK.us,TBN UK,,,US,,,c/US,eng,,FALSE,https://www.tbnuk.org/,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb3109.png
 TBNUkraine.us,TBN Ukraine,,,US,,,c/US,eng,,FALSE,http://tbn-ua.org/,https://www.lyngsat.com/logo/tv/tt/tbn-ukraina-us-ua.png
 TBNWest.us,TBN West,,,US,,,c/US,eng,religious,FALSE,https://www.tbn.org/,https://cdn.tvpassport.com/image/station/100x100/tbn.png
@@ -21329,7 +21330,6 @@ TheAsylumChannelGermany.us,The Asylum Channel Germany,,,US,,,c/DE,deu,movies,FAL
 TheAsylumChannelUK.us,The Asylum Channel UK,,,US,,,c/UK,eng,movies,FALSE,https://pluto.tv/en/live-tv/the-asylum-channel-gb,https://images.pluto.tv/channels/5c45f0427b2c0c065e91aab5/colorLogoPNG.png
 TheAsylumFrance.us,The Asylum France,,,US,,,c/FR,fra,movies,FALSE,https://pluto.tv/en/live-tv/the-asylum-channel-fr,https://images.pluto.tv/channels/5f8ece1a89d79800072510e6/colorLogoPNG.png
 TheBeachChannel.us,The Beach Channel,,,US,,,c/US,eng,lifestyle,FALSE,,https://images.squarespace-cdn.com/content/5bbd189f840b16624eaaaa54/1564164558355-89YX9OANPEHYV71HWPT1/BC+LOGO_CH5_REVISED.png
-TheBlaze.us,The Blaze,,,US,,,c/US,eng,,FALSE,,https://i.imgur.com/toNeonC.png
 TheBoatShow.us,The Boat Show,,,US,,,c/US,eng,outdoor,FALSE,,https://i.imgur.com/iYDR5VS.jpg
 TheBobRossChannel.us,The Bob Ross Channel,,,US,,,c/US,eng,series,FALSE,https://pluto.tv/en/live-tv/the-bob-ross-channel,https://images.pluto.tv/channels/5ef396d1be50a3000722808b/colorLogoPNG.png
 TheBoldtheBeautifulUK.us,The Bold & the Beautiful UK,,,US,,,c/UK,eng,series,FALSE,https://pluto.tv/en/live-tv/the-bold-and-the-beautiful-gb,https://images.pluto.tv/channels/612cd8bfd140e900077fd705/colorLogoPNG.png

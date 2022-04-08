@@ -30,7 +30,7 @@ All data is stored in the [/data](data) folder as [CSV](https://en.wikipedia.org
 | categories     | List of categories to which this channel belongs separated by `;`. A list of all supported categories can be found in [data/categories.csv](data/categories.csv)                                                 | Optional | `general`                      |
 | is_nsfw        | Indicates whether the channel broadcasts adult content (`TRUE` or `FALSE`)                                                                                                                                       | Required | `FALSE`                        |
 | website        | Official website URL.                                                                                                                                                                                            | Optional | `http://www.ahtv.cn/`          |
-| logo           | Logo URL. Only URL with HTTPS protocol are allowed.                                                                                                                                                              | Optional | `https://example.com/logo.png` |
+| logo           | Logo URL. Only URL with HTTPS protocol are allowed. Supported image types: `PNG`, `JPEG`.                                                                                                                                                              | Optional | `https://example.com/logo.png` |
 
 ### categories
 

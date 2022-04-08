@@ -1,4 +1,5 @@
 const Joi = require('joi')
+const path = require('path')
 
 module.exports = {
 	id: Joi.string()
@@ -40,6 +41,14 @@ module.exports = {
 	logo: Joi.string()
 		.uri({
 			scheme: ['https']
+		})
+		.custom((value, helper) => {
+			const ext = path.extname(value)
+			if (!ext || /(\.png|\.jpeg|\.jpg)/i.test(ext)) {
+				return true
+			} else {
+				return helper.message(`"logo" has an invalid file extension "${ext}"`)
+			}
 		})
 		.allow(null)
 }

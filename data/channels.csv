@@ -69,6 +69,7 @@ id,name,native_name,network,country,subdivision,city,broadcast_area,languages,ca
 247CanaldeNoticias.ar,24/7 Canal de Noticias,,,AR,,,c/AR,spa,news,FALSE,,https://i.imgur.com/6miysb8.png
 247News.pk,24/7 News,,,PK,,,c/PK,eng,news,FALSE,,https://www.lyngsat.com/logo/tv/num/247-news-pk.png
 247RetroTV.us,247 Retro TV,,,US,,,c/US,eng,classic,FALSE,,https://raw.githubusercontent.com/geonsey/Free2ViewTV/master/images/logos/247RetroTV.png
+24B.ir,24B,,,IR,,,c/IR,fas,music,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/num/24_beat_tv.png
 24Horas.cl,24 Horas,,,CL,,,c/CL,spa,,FALSE,https://www.24horas.cl/,https://cdn.mitvstatic.com/channels/cl_tvn-24-h_m.png
 24HourFreeMovies.us,24 Hour Free Movies,,,US,,,c/US,eng,movies,FALSE,,https://i.imgur.com/FiTdDp1.png
 24Kanal.ua,24 Kanal,,,UA,,,c/UA;c/RU,ukr,news,FALSE,https://24tv.ua/,https://www.lyngsat.com/logo/tv/num/24-kanal-ua.png
@@ -6568,74 +6569,37 @@ GEB.us,GEB,,,US,,,c/US,eng,,FALSE,https://geb.tv/,https://www.directv.com/images
 GEBAmerica.us,GEB America,,,US,,,c/US,eng,,FALSE,,https://cdn.tvpassport.com/image/station/100x100/geb-america.png
 GelongalChannel.sn,Gelongal Channel,,,SN,,,c/SN,fra,,FALSE,,https://www.lyngsat.com/logo/tv/gg/gelongal-channel-sn.png
 Gem.in,Gem,,,IN,,,c/IN,hin,,FALSE,https://www.gemtvasia.com/,https://cms.dmpcdn.com/livetv/2020/03/17/46466450-6842-11ea-a7cd-dd316e61efc7_original.png
-GEM24B.ca,GEM 24B,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/num/24_beat_tv.png
-GEM24b.ir,GEM 24b,,,IR,,,c/IR,fas,music,FALSE,,https://www.gemonline.tv/Assets/channels-box/24b.png
-GEMAcademy.ca,GEM Academy,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem_ae.png
-GEMAcademy.ir,GEM Academy,,,IR,,,c/IR,fas,movies,FALSE,,https://www.gemonline.tv/Assets/channels-box/gemusa.png
-GEMArabia.ca,GEM Arabia,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-arabia-ca.png
-GEMArabia.ir,GEM Arabia,,,IR,,,c/IR,ara,music,FALSE,,https://www.gemonline.tv/Assets/channels-box/gem_arabia.png
-GEMAZ.ca,GEM AZ,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-az-ca.png
-GEMAZ.ir,GEM AZ,,,IR,,,c/IR,fas,music,FALSE,,https://www.gemonline.tv/Assets/channels-box/gem_az.png
-GEMBollywood.ca,GEM Bollywood,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-bollywood-ca.png
-GEMBollywood.ir,GEM Bollywood,,,IR,,,c/IR,fas,movies,FALSE,,https://www.gemonline.tv/Assets/channels-box/gembollywood.png
-GEMClassic.ca,GEM Classic,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-classic-ca.png
-GEMClassic.ir,GEM Classic,,,IR,,,c/IR,fas,classic,FALSE,,https://www.gemonline.tv/Assets/channels-box/gem_az.png?14
-GEMComedy.ca,GEM Comedy,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem_ae.png
-GEMComedy.ir,GEM Comedy,,,IR,,,c/IR,fas,movies,FALSE,,https://www.gemonline.tv/Assets/channels-box/gem_comedy.png
-GEMCrypto.ir,GEM Crypto,,,IR,,,c/IR,eng,,FALSE,,https://i.imgur.com/Pt59QNN.png
-GEMDrama.ca,GEM Drama,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-drama-ca.png
-GEMDrama.ir,GEM Drama,,,IR,,,c/IR,fas,movies,FALSE,,https://www.gemonline.tv/Assets/channels-box/gemdrama.png
-GEMDramaPlus.ca,GEM Drama +,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-drama-plus-ca.png
+GEMAcademy.ir,GEM Academy,,,IR,,,c/IR,fas,movies,FALSE,https://gemonline.tv/,https://i.imgur.com/iUklLff.png
+GEMArabia.ir,GEM Arabia,,,IR,,,c/IR,ara,music,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-arabia-ca.png
+GEMAZ.ir,GEM AZ,,,IR,,,c/IR,fas,music,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-az-ca.png
+GEMBollywood.ir,GEM Bollywood,,,IR,,,c/IR,fas,movies,FALSE,https://gemonline.tv/,https://i.imgur.com/WQerCcq.png
+GEMClassic.ir,GEM Classic,,,IR,,,c/IR,fas,classic,FALSE,https://gemonline.tv/,https://i.imgur.com/A4oadSE.png
+GEMComedy.ir,GEM Comedy,,,IR,,,c/IR,fas,comedy,FALSE,https://gemonline.tv/,https://i.imgur.com/SARFEvd.png
+GEMCrypto.ir,GEM Crypto,,,IR,,,c/IR,eng,,FALSE,https://gemonline.tv/,https://i.imgur.com/UyfHsvg.png
+GEMDrama.ir,GEM Drama,,,IR,,,c/IR,fas,movies,FALSE,https://gemonline.tv/,https://i.imgur.com/67RmAIT.png
+GEMDramaPlus.ir,GEM Drama +,,,IR,,,c/IR,fas,movies,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-drama-plus-ca.png
 GemeenteWestlandTV.nl,Gemeente Westland TV,,,NL,,,c/NL,nld,,FALSE,,https://i.imgur.com/ZbEkdeZ.png
-GEMFilm.ca,GEM Film,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-film-ca.png
-GEMFilm.ir,GEM Film,,,IR,,,c/IR,fas,movies,FALSE,,https://www.gemonline.tv/Assets/channels-box/gem_film.png?14
-GEMFit.ca,GEM Fit,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem_ae.png
-GEMFit.ir,GEM Fit,,,IR,,,c/IR,fas,sports,FALSE,,https://www.gemonline.net/Assets/channels-box/gem_fit.png?14
-GEMFood.ca,GEM Food,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-food-ca.png
-GEMFood.ir,GEM Food,,,IR,,,c/IR,fas,cooking,FALSE,,https://www.gemonline.tv/Assets/channels-box/gem_food.png?14
-GeminiComedy.in,Gemini Comedy,,,IN,,,c/IN,hin,,FALSE,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=42&channelname=GEMINI%20COMEDY&LanguageID=2&Type=2,https://www.lyngsat.com/logo/tv/ss/sun_gemini_comedy.png
+GEMFilm.ir,GEM Film,,,IR,,,c/IR,fas,movies,FALSE,https://gemonline.tv/,https://i.imgur.com/SZPQxWO.png
+GEMFit.ir,GEM Fit,,,IR,,,c/IR,fas,sports,FALSE,https://gemonline.tv/,https://i.imgur.com/mzaohHU.png
+GEMFood.ir,GEM Food,,,IR,,,c/IR,fas,cooking,FALSE,https://gemonline.tv/,https://i.imgur.com/10EDOMB.png
+GeminiComedy.in,Gemini Comedy,,,IN,,,c/IN,hin,comedy,FALSE,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=42&channelname=GEMINI%20COMEDY&LanguageID=2&Type=2,https://www.lyngsat.com/logo/tv/ss/sun_gemini_comedy.png
 GeminiLife.in,Gemini Life,,,IN,,,c/IN,hin,,FALSE,http://www.sunnetwork.in/,https://www.lyngsat.com/logo/tv/ss/sun_gemini_life.png
-GeminiMovies.in,Gemini Movies,,,IN,,,c/IN,hin,,FALSE,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=26&channelname=GEMINI%20MOVIES&LanguageID=2&Type=2,https://www.lyngsat.com/logo/tv/ss/sun_gemini_movies.png
-GeminiMusic.in,Gemini Music,,,IN,,,c/IN,hin,,FALSE,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=34&channelname=GEMINI%20MUSIC&LanguageID=2&Type=2,https://www.lyngsat.com/logo/tv/ss/sun_gemini_music.png
+GeminiMovies.in,Gemini Movies,,,IN,,,c/IN,hin,movies,FALSE,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=26&channelname=GEMINI%20MOVIES&LanguageID=2&Type=2,https://www.lyngsat.com/logo/tv/ss/sun_gemini_movies.png
+GeminiMusic.in,Gemini Music,,,IN,,,c/IN,hin,music,FALSE,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=34&channelname=GEMINI%20MUSIC&LanguageID=2&Type=2,https://www.lyngsat.com/logo/tv/ss/sun_gemini_music.png
 GeminiTV.in,Gemini TV,,,IN,,,c/IN,hin,,FALSE,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=4&channelname=GEMINI%20TV&LanguageID=2&Type=2,https://i.imgur.com/r6QucIz.png
-GEMJunior.ca,GEM Junior,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-junior-ca.png
-GEMJunior.ir,GEM Junior,,,IR,,,c/IR,fas,kids,FALSE,,https://www.gemonline.tv/Assets/channels-box/gemjunior.png
-GEMKids.ca,GEM Kids,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem_ae.png
-GEMKids.ir,GEM Kids,,,IR,,,c/IR,fas,kids,FALSE,,https://www.gemonline.tv/Assets/channels-box/gemkids.png
-GEMLatino.ca,GEM Latino,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem_ae.png
-GEMLatino.ir,GEM Latino,,,IR,,,c/IR,fas,music,FALSE,,https://www.gemonline.net/Assets/channels-box/gem_latino.png?14
-GEMLife.ca,GEM Life,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-life-ca.png
-GEMLifeTV.ir,GEM Life,,,IR,,,c/IR,fas,music,FALSE,,https://www.gemonline.tv/Assets/channels-box/gem_life.png?14
-GEMMaxx.ca,GEM Maxx,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-maxx-ca.png
-GEMMaxx.ir,GEM Maxx,,,IR,,,c/IR,fas,entertainment,FALSE,,https://www.gemonline.tv/Assets/channels-box/maxx.png?14
-GEMMifa.ca,GEM Mifa,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-mifa-ca.png
-GEMMifa.ir,GEM Mifa,,,IR,,,c/IR,fas,music,FALSE,,https://www.gemonline.tv/Assets/channels-box/mifa.png
-GEMMifaPlus.ca,GEM Mifa +,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-mifa-ca.png
-GEMModernEconomy.ca,GEM Modern Economy,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem_ae.png
-GEMModernEconomy.ir,GEM Modern Economy,,,IR,,,c/IR,fas,documentary,FALSE,,https://www.gemonline.tv/Assets/channels-box/modern_economy.png
-GEMNature.ca,GEM Nature,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem_ae.png
-GEMNature.ir,GEM Nature,,,IR,,,c/IR,fas,entertainment,FALSE,,https://www.gemonline.tv/Assets/channels-box/gem_nature.png
-GEMOnyx.ca,GEM Onyx,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-onyx-ca.png
-GEMOnyx.ir,GEM Onyx,,,IR,,,c/IR,fas,movies,FALSE,,https://www.gemonline.tv/Assets/channels-box/onyx.png
-GEMPlus.ca,GEM +,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-plus-ca.png
-GEMProperty.ca,GEM Property,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem_ae.png
-GEMProperty.ir,GEM Property,,,IR,,,c/IR,fas,,FALSE,,https://www.gemonline.tv/Assets/channels-box/gem_property.png?14
-GEMRiver.ca,GEM River,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-river-ca.png
-GEMRiver.ir,GEM River,,,IR,,,c/IR,fas,entertainment,FALSE,,https://www.gemonline.tv/Assets/channels-box/river.png?14
-GEMRiverPlus.ca,GEM River +,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-river-ca.png
-GEMRubix.ca,GEM Rubix,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-rubix-ca.png
-GEMRubix.ir,GEM Rubix,,,IR,,,c/IR,fas,movies,FALSE,,https://www.gemonline.tv/Assets/channels-box/rubix.png?14
-GEMRubixPlus.ca,GEM Rubix +,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-rubix-ca.png
-GEMSeries.ca,GEM Series,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-series-ca.png
-GEMSeries.ir,GEM Series,,,IR,,,c/IR,fas,movies,FALSE,,https://www.gemonline.tv/Assets/channels-box/gemseries.png
-GEMSeriesPlus.ca,GEM Series +,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-series-plus-ca.png
+GEMJunior.ir,GEM Junior,,,IR,,,c/IR,fas,kids,FALSE,https://gemonline.tv/,https://i.imgur.com/ySYYnm9.png
+GEMKids.ir,GEM Kids,,,IR,,,c/IR,fas,kids,FALSE,https://gemonline.tv/,https://i.imgur.com/AgOqVoe.png
+GEMLatino.ir,GEM Latino,,,IR,,,c/IR,fas,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem_ae.png
+GEMLife.ir,GEM Life,,,IR,,,c/IR,fas,,FALSE,https://gemonline.tv/,https://i.imgur.com/iawVkU1.png
+GEMNature.ir,GEM Nature,,,IR,,,c/IR,fas,documentary,FALSE,https://gemonline.tv/,https://i.imgur.com/SIf9OzW.png
+GEMPlus.ir,GEM +,,,IR,,,c/IR,fas,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-plus-ca.png
+GEMProperty.ir,GEM Property,,,IR,,,c/IR,fas,,FALSE,https://gemonline.tv/,https://i.imgur.com/Zzftehp.png
+GEMSeries.ir,GEM Series,,,IR,,,c/IR,fas,series,FALSE,https://gemonline.tv/,https://i.imgur.com/SEiHILj.png
+GEMSeriesPlus.ir,GEM Series +,,,IR,,,c/IR,fas,series,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-series-plus-ca.png
 GemShoppingNetwork.us,Gem Shopping Network,,,US,,,c/US,eng,,FALSE,https://www.gemshopping.com/,https://cdn.tvpassport.com/image/station/100x100/gemshopping.png
-GemsTV.uk,Gems TV,,,UK,,,c/UK,eng,shop,FALSE,,https://i.imgur.com/9fJlCNW.png
-GemsTV.us,Gems TV,,,US,,,c/US,eng,,FALSE,https://www.gemporia.com/,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb3010.png
-GEMTravel.ca,GEM Travel,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-travel-ca.png
-GEMTravel.ir,GEM Travel,,,IR,,,c/IR,fas,entertainment,FALSE,,https://www.gemonline.tv/Assets/channels-box/gem_travel.png
-GEMTV.ca,GEM TV,,,CA,,,c/CA,eng,,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-tv-ca.png
-GEMTv.ir,GEM Tv,,,IR,,,c/IR,fas,movies,FALSE,,https://www.gemonline.tv/Assets/channels-box/gemtv.png
+GemsTV.uk,Gems TV,,,UK,,,c/UK,eng,shop,FALSE,http://www.gems.tv/,https://i.imgur.com/9fJlCNW.png
+GEMTravel.ir,GEM Travel,,,IR,,,c/IR,fas,travel,FALSE,https://gemonline.tv/,https://i.imgur.com/1pOLse2.png
+GEMTV.ir,GEM TV,,,IR,,,c/IR,fas,movies,FALSE,https://gemonline.tv/,https://i.imgur.com/tT8WmOY.png
 Gen.py,Gen,,,PY,,,c/PY,spa,,FALSE,https://www.gen.com.py/,https://www.lyngsat.com/logo/tv/gg/gen-py.png
 GencTV.tr,Genç TV,,,TR,,,c/TR,tur,,FALSE,,
 GenerationSitcomsFrance.us,Génération Sitcoms France,,,US,,,c/FR,fra,series,FALSE,https://pluto.tv/en/live-tv/generation-sitcoms-fr,https://images.pluto.tv/channels/60afb203ec391c00070ea1bf/colorLogoPNG.png
@@ -13892,6 +13856,7 @@ MaxSport4.bg,Max Sport 4,,,BG,,,c/BG,bul,,FALSE,https://maxsport.live/,https://i
 MaxTV.ch,Max TV,,,CH,,,c/CH,fra,,FALSE,,https://i.imgur.com/nyW6IW2.png
 MaxTV.gh,Max TV,,,GH,,,c/GH,eng,,FALSE,http://www.maxtvgh.com/,https://www.lyngsat.com/logo/tv/mm/max-tv-gh.png
 MAXtvPromoKanal.hr,MAXtv Promo Kanal,,,HR,,,c/HR,hrv,,FALSE,,https://i.imgur.com/RApnwWl.jpg
+Maxx.ir,Maxx,,,IR,,,c/IR,fas,entertainment,FALSE,https://gemonline.tv/,https://i.imgur.com/oacPXf3.png
 MaxxEmpireTV.gh,Maxx Empire TV,,,GH,,,c/GH,eng,,FALSE,http://maxxempireonline.com/,https://www.lyngsat.com/logo/tv/mm/maxx-empire-tv-gh.png
 MayaChannelSD.th,Maya Channel SD,,,TH,,,c/TH,tha,,FALSE,http://www.maya-channel.com/,https://www.lyngsat.com/logo/tv/mm/maya_channel_th.png
 MayaTV.hn,Maya TV,,,HN,,,c/HN,spa,,FALSE,https://mayatv.hn/,https://static.wikia.nocookie.net/logopedia/images/9/91/A6287BAC-05B5-4739-9415-01B08CC0DF0E.png
@@ -14110,6 +14075,8 @@ MidnightPulp.us,Midnight Pulp,,,US,,,c/US,eng,entertainment,FALSE,,https://od.lk
 MidsomerMurders.us,Midsomer Murders,,,US,,,c/US,eng,series,FALSE,https://pluto.tv/en/live-tv/midsomer-murders,https://images.pluto.tv/channels/5cbf6a868a1bce4a3d52a5e9/colorLogoPNG.png
 MienTayTV.vn,Mien Tay TV,,,VN,,,c/VN,vie,,FALSE,,https://www.lyngsat.com/logo/tv/mm/mien-tay-tv-vn.png
 MiExtranaObsesionSpain.us,Mi Extraña Obsesión Spain,,,US,,,c/ES,spa,entertainment,FALSE,https://pluto.tv/en/live-tv/mi-extrana-obsesion-es,https://images.pluto.tv/channels/60e4573c9f963e00077ecf25/colorLogoPNG.png
+Mifa.ir,Mifa,,,IR,,,c/IR,fas,music,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-mifa-ca.png
+MifaPlus.ir,Mifa +,,,IR,,,c/IR,fas,music,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-mifa-ca.png
 MiGenteTV.co,Mi Gente TV,,,CO,,,c/CO,spa,,FALSE,,https://cdn.mitvstatic.com/channels/pe_mi-gente_m.png
 MihanTV.ir,Mihan TV,,,IR,,,c/IR,fas,news,FALSE,,https://i.imgur.com/XEMsM7w.png
 MihanTV.us,Mihan TV,,,US,,,c/US,fas,news,FALSE,,https://i.imgur.com/E6zzyqZ.jpg
@@ -14305,6 +14272,7 @@ MNTWest.us,MNT West,,,US,,,c/US,eng,,FALSE,,https://cdn.tvpassport.com/image/sta
 MNX.in,MNX,,,IN,,,c/IN,hin,,FALSE,,https://i.imgur.com/qFSiRHF.png
 Mobcrush.us,Mobcrush,,,US,,,c/US,eng,outdoor,FALSE,,https://i.imgur.com/KwN9Ujp.png
 ModaHuancayo.pe,Moda Huancayo TV,,,PE,,,c/PE,spa,,FALSE,,https://graph.facebook.com/ModaHuancayoTv/picture?width=320&height=320
+ModernEconomy.ir,Modern Economy,,,IR,,,c/IR,fas,,FALSE,https://gemonline.tv/,https://i.imgur.com/IFWN8fs.png
 MohabatTV.ir,Mohabat TV,,,IR,,,c/IR,fas,religious,FALSE,,https://i.imgur.com/espyPNl.png
 MohabatTV.us,Mohabat TV,,,US,,,c/US,eng,,FALSE,https://www.mohabat.tv/,https://i.imgur.com/tucTC1O.jpg
 MohonaTV.bd,Mohona TV,,,BD,,,c/BD,ben,,FALSE,http://www.mohona.tv/,https://www.lyngsat.com/logo/tv/mm/mohona_tv.png
@@ -16111,6 +16079,7 @@ Ontustik.kz,Ontústik,,,KZ,,,c/KZ,kaz,,FALSE,http://shymkenttv.kz/,https://www.l
 ONTV.mn,ONTV,,,MN,,,c/MN,mon,,FALSE,,https://www.lyngsat.com/logo/tv/oo/on-tv-mn.png
 OnTV4U.us,OnTV4U,,,US,,,c/US,eng,,FALSE,,https://cdn.tvpassport.com/image/station/100x100/ontv4u.png
 ONTVMax.ng,ONTV Max,,,NG,,,c/NG,eng,,FALSE,,
+Onyx.ir,Onyx,,,IR,,,c/IR,fas,movies,FALSE,https://gemonline.tv/,https://i.imgur.com/U4Mgnmv.png
 OpapPowerspin.gr,Opap Powerspin,,,GR,,,c/GR,ell,,FALSE,https://www.opap.gr/meet-powerspin,https://www.lyngsat.com/logo/tv/oo/opap-powerspin-gr.png
 OpenBeyondTV.gr,Open Beyond TV,,,GR,,,c/GR,ell,,FALSE,https://www.tvopen.gr/,https://www.cosmote.gr/portal/image/journal/article?img_id=81433235&t=1581930404144
 OpenRotterdam.nl,Open Rotterdam,,,NL,,,c/NL,nld,,FALSE,,https://i.imgur.com/bDwQ1g1.png
@@ -18104,6 +18073,8 @@ RingTV.sk,Ring TV,,,SK,,,c/SK,slk,,FALSE,,https://www.lyngsat.com/logo/tv/rr/rin
 RioniTV.ge,Rioni TV,,,GE,,,c/GE,kat,,FALSE,,https://i.imgur.com/9ecTETD.png
 RishteyCineplex.in,Rishtey Cineplex,,,IN,,,c/IN,hin,,FALSE,,https://i.imgur.com/QwfmY1O.png
 RITNoticias.br,RIT Notícias,,,BR,,,c/BR,por,,FALSE,,https://www.lyngsat.com/logo/tv/rr/rit-noticias-br.png
+River.ir,River,,,IR,,,c/IR,fas,entertainment,FALSE,https://gemonline.tv/,https://i.imgur.com/927bnvp.png
+RiverPlus.ir,River +,,,IR,,,c/IR,fas,entertainment,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-river-ca.png
 RiverTV.et,River TV,,,ET,,,c/ET,amh,,FALSE,,https://www.lyngsat.com/logo/tv/rr/river-tv-et.png
 RJTV.ph,RJ TV,,,PH,,,c/PH,eng,,FALSE,https://www.rjplanet.com/,https://www.lyngsat.com/logo/tv/rr/rj-tv-ph.png
 RLWTV.za,RLW TV,,,ZA,,,c/ZA,afr,,FALSE,https://rlw.org.za/,https://www.lyngsat.com/logo/tv/rr/rlw_tv_za.png
@@ -18530,6 +18501,8 @@ RTVVikom.ba,RTV Vikom,,,BA,,,c/BA,bos,,FALSE,,https://tv2go.t-2.net/static/media
 RTVWesterwolde.nl,RTV Westerwolde,,,NL,,,c/NL,nld,,FALSE,,https://i.imgur.com/86oiZRV.jpg
 RTVZE.ba,RTV ZE,,,BA,,,c/BA,bos,,FALSE,,
 RuaiTV.id,Ruai TV,,,ID,,,c/ID,ind,,FALSE,https://ruai.tv/,https://www.lyngsat.com/logo/tv/rr/ruai-tv-id.png
+Rubix.ir,Rubix,,,IR,,,c/IR,fas,movies,FALSE,https://gemonline.tv/,https://i.imgur.com/X7DJOdu.png
+RubixPlus.ir,Rubix +,,,IR,,,c/IR,fas,movies,FALSE,https://gemonline.tv/,https://www.lyngsat.com/logo/tv/gg/gem-rubix-ca.png
 RudawTV.iq,Rudaw TV,Rûdaw TV,,IQ,,,c/IQ,kur,news,FALSE,https://rudaw.net/,https://i.imgur.com/oGVcZom.png
 RugbyMensSevens.uk,Rugby Men's Sevens,,,UK,,,c/UK,eng,,FALSE,,
 RugbyPassTV.uk,RugbyPass TV,,,UK,,,c/UK,eng,,FALSE,,https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/393_144.png

@@ -65,10 +65,11 @@ async function main() {
 			fileErrors = fileErrors.concat(findDuplicatesById(rows))
 
 			for (const [i, row] of rows.entries()) {
+				fileErrors = fileErrors.concat(await validateChannelBroadcastArea(row, i))
+				fileErrors = fileErrors.concat(await validateChannelSubdivision(row, i))
 				fileErrors = fileErrors.concat(await validateChannelCategories(row, i))
 				fileErrors = fileErrors.concat(await validateChannelLanguages(row, i))
 				fileErrors = fileErrors.concat(await validateChannelCountry(row, i))
-				fileErrors = fileErrors.concat(await validateChannelSubdivision(row, i))
 			}
 		} else if (filename === 'blocklist') {
 			for (const [i, row] of rows.entries()) {
@@ -156,6 +157,25 @@ async function validateChannelSubdivision(row, i) {
 			message: `"${row.id}" has the wrong subdivision "${row.subdivision}"`
 		})
 	}
+
+	return errors
+}
+
+async function validateChannelBroadcastArea(row, i) {
+	const errors = []
+	row.broadcast_area.forEach(area => {
+		const [type, code] = area.split('/')
+		if (
+			(type === 'r' && !db.regions[code]) ||
+			(type === 'c' && !db.countries[code]) ||
+			(type === 's' && !db.subdivisions[code])
+		) {
+			errors.push({
+				line: i + 2,
+				message: `"${row.id}" has the wrong broadcast_area "${area}"`
+			})
+		}
+	})
 
 	return errors
 }

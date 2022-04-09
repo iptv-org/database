@@ -8,7 +8,7 @@ const _ = require('lodash')
 program.argument('[filepath]', 'Path to file to validate').parse(process.argv)
 
 async function main() {
-	let errors = []
+	let globalErrors = []
 	const files = program.args.length
 		? program.args
 		: [
@@ -24,93 +24,32 @@ async function main() {
 		if (!filepath.endsWith('.csv')) continue
 
 		const eol = await file.eol(filepath)
-		if (eol !== 'CRLF') {
-			logger.error(chalk.red(`\nError: file must have line endings with CRLF (${filepath})`))
-			process.exit(1)
-		}
+		if (eol !== 'CRLF') return handleError(`file must have line endings with CRLF (${filepath})`)
 
 		const csvString = await file.read(filepath)
-		if (/\s+$/.test(csvString)) {
-			logger.error(chalk.red(`\nError: empty lines at the end of file not allowed (${filepath})`))
-			process.exit(1)
-		}
+		if (/\s+$/.test(csvString))
+			return handleError(`empty lines at the end of file not allowed (${filepath})`)
 
 		const filename = file.getFilename(filepath)
-		if (!schemes[filename]) {
-			logger.error(chalk.red(`\nError: "${filename}" scheme is missing`))
-			process.exit(1)
-		}
+		if (!schemes[filename]) return handleError(`"${filename}" scheme is missing`)
 
-		const data = await csv.fromString(csvString).catch(err => {
-			logger.error(chalk.red(`\n${err.message} (${filepath})`))
-			process.exit(1)
-		})
+		const rows = await csv
+			.fromString(csvString)
+			.catch(err => handleError(`${err.message} (${filepath})`))
 
 		let fileErrors = []
 		if (filename === 'channels') {
-			if (/\"/.test(csvString)) {
-				logger.error(chalk.red(`\nError: \" character is not allowed (${filepath})`))
-				process.exit(1)
-			}
+			if (/\"/.test(csvString)) return handleError(`\" character is not allowed (${filepath})`)
 
-			fileErrors = fileErrors.concat(findDuplicatesById(data))
-
-			let categories = await csv.fromFile('data/categories.csv').catch(err => {
-				logger.error(chalk.red(`\nError: ${err.message}`))
-				process.exit(1)
-			})
-
-			if (categories.length) {
-				categories = _.keyBy(categories, 'id')
-				data.forEach((row, i) => {
-					row.categories.forEach(category => {
-						if (!categories[category]) {
-							fileErrors.push({
-								line: i + 2,
-								message: `"${row.id}" has the wrong category "${category}"`
-							})
-						}
-					})
-				})
-			}
-
-			let languages = await csv.fromFile('data/languages.csv').catch(err => {
-				logger.error(chalk.red(`\nError: ${err.message}`))
-				process.exit(1)
-			})
-
-			if (languages.length) {
-				languages = _.keyBy(languages, 'code')
-				data.forEach((row, i) => {
-					row.languages.forEach(language => {
-						if (!languages[language]) {
-							fileErrors.push({
-								line: i + 2,
-								message: `"${row.id}" has the wrong language "${language}"`
-							})
-						}
-					})
-				})
-			}
+			fileErrors = fileErrors.concat(findDuplicatesById(rows))
+			fileErrors = fileErrors.concat(await validateChannelCategories(rows))
+			fileErrors = fileErrors.concat(await validateChannelLanguages(rows))
 		} else if (filename === 'blocklist') {
-			let channels = await csv.fromFile('data/channels.csv').catch(err => {
-				logger.error(chalk.red(`\nError: ${err.message}`))
-				process.exit(1)
-			})
-			channels = channels.map(c => c.id)
-
-			data.forEach((row, i) => {
-				if (channels.length && !channels.includes(row.channel)) {
-					fileErrors.push({
-						line: i + 2,
-						message: `"${row.channel}" is missing in the channels.csv`
-					})
-				}
-			})
+			fileErrors = fileErrors.concat(await validateChannelId(rows))
 		}
 
 		const schema = Joi.object(schemes[filename])
-		data.forEach((row, i) => {
+		rows.forEach((row, i) => {
 			const { error } = schema.validate(row, { abortEarly: false })
 			if (error) {
 				error.details.forEach(detail => {
@@ -123,16 +62,13 @@ async function main() {
 			logger.info(`\n${chalk.underline(filepath)}`)
 			fileErrors.forEach(err => {
 				const position = err.line.toString().padEnd(6, ' ')
-				logger.error(` ${chalk.gray(position)} ${err.message}`)
+				logger.info(` ${chalk.gray(position)} ${err.message}`)
 			})
-			errors = errors.concat(fileErrors)
+			globalErrors = globalErrors.concat(fileErrors)
 		}
 	}
 
-	if (errors.length) {
-		logger.error(chalk.red(`\n${errors.length} error(s)`))
-		process.exit(1)
-	}
+	if (globalErrors.length) return handleError(`${globalErrors.length} error(s)`)
 }
 
 main()
@@ -158,8 +94,68 @@ function findDuplicatesById(data) {
 	return errors
 }
 
-function intersection(array1, array2) {
-	return array1.filter(function (n) {
-		return array2.indexOf(n) !== -1
-	})
+async function validateChannelCategories(rows) {
+	let categories = await csv.fromFile('data/categories.csv').catch(err => handleError(err.message))
+
+	const errors = []
+	if (categories.length) {
+		categories = _.keyBy(categories, 'id')
+		rows.forEach((row, i) => {
+			row.categories.forEach(category => {
+				if (!categories[category]) {
+					errors.push({
+						line: i + 2,
+						message: `"${row.id}" has the wrong category "${category}"`
+					})
+				}
+			})
+		})
+	}
+
+	return errors
+}
+
+async function validateChannelLanguages(rows) {
+	let languages = await csv.fromFile('data/languages.csv').catch(err => handleError(err.message))
+
+	const errors = []
+	if (languages.length) {
+		languages = _.keyBy(languages, 'code')
+		rows.forEach((row, i) => {
+			row.languages.forEach(language => {
+				if (!languages[language]) {
+					errors.push({
+						line: i + 2,
+						message: `"${row.id}" has the wrong language "${language}"`
+					})
+				}
+			})
+		})
+	}
+
+	return errors
+}
+
+async function validateChannelId(rows) {
+	let channels = await csv.fromFile('data/channels.csv').catch(err => handleError(err.message))
+
+	const errors = []
+	if (channels.length) {
+		channels = _.keyBy(channels, 'id')
+		rows.forEach((row, i) => {
+			if (!channels[row.channel]) {
+				errors.push({
+					line: i + 2,
+					message: `"${row.channel}" is missing in the channels.csv`
+				})
+			}
+		})
+	}
+
+	return errors
+}
+
+function handleError(message) {
+	logger.error(chalk.red(`\n${message}`))
+	process.exit(1)
 }

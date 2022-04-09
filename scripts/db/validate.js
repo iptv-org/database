@@ -53,6 +53,21 @@ async function main() {
 			}
 
 			fileErrors = fileErrors.concat(findDuplicatesById(data))
+		} else if (filename === 'blocklist') {
+			let channels = await csv.fromFile('data/channels.csv').catch(err => {
+				logger.error(chalk.red(`\nError: ${err.message}`))
+				process.exit(1)
+			})
+			channels = channels.map(c => c.id)
+
+			data.forEach((row, i) => {
+				if (channels.length && !channels.includes(row.channel)) {
+					fileErrors.push({
+						line: i + 2,
+						message: `"${row.channel}" is missing in the channels.csv`
+					})
+				}
+			})
 		}
 
 		const schema = Joi.object(schemes[filename])

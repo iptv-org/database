@@ -75,6 +75,10 @@ async function main() {
 			for (const [i, row] of rows.entries()) {
 				fileErrors = fileErrors.concat(await validateChannelId(row, i))
 			}
+		} else if (filename === 'countries') {
+			for (const [i, row] of rows.entries()) {
+				fileErrors = fileErrors.concat(await validateCountryLanguage(row, i))
+			}
 		}
 
 		const schema = Joi.object(schemes[filename])
@@ -200,6 +204,18 @@ async function validateChannelId(row, i) {
 		errors.push({
 			line: i + 2,
 			message: `"${row.channel}" is missing in the channels.csv`
+		})
+	}
+
+	return errors
+}
+
+async function validateCountryLanguage(row, i) {
+	const errors = []
+	if (!db.languages[row.lang]) {
+		errors.push({
+			line: i + 2,
+			message: `"${row.code}" has the wrong language "${row.lang}"`
 		})
 	}
 

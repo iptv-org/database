@@ -7,20 +7,22 @@ const _ = require('lodash')
 
 program.argument('[filepath]', 'Path to file to validate').parse(process.argv)
 
+const allFiles = [
+	'data/blocklist.csv',
+	'data/categories.csv',
+	'data/channels.csv',
+	'data/countries.csv',
+	'data/languages.csv',
+	'data/regions.csv',
+	'data/subdivisions.csv'
+]
+
+let db = {}
+
 async function main() {
 	let globalErrors = []
-	const files = program.args.length
-		? program.args
-		: [
-				'data/blocklist.csv',
-				'data/categories.csv',
-				'data/channels.csv',
-				'data/countries.csv',
-				'data/languages.csv',
-				'data/regions.csv',
-				'data/subdivisions.csv'
-		  ]
-	for (const filepath of files) {
+
+	for (let filepath of allFiles) {
 		if (!filepath.endsWith('.csv')) continue
 
 		const eol = await file.eol(filepath)
@@ -31,41 +33,45 @@ async function main() {
 			return handleError(`empty lines at the end of file not allowed (${filepath})`)
 
 		const filename = file.getFilename(filepath)
-		if (!schemes[filename]) return handleError(`"${filename}" scheme is missing`)
-
-		const rows = await csv
+		let data = await csv
 			.fromString(csvString)
 			.catch(err => handleError(`${err.message} (${filepath})`))
 
+		switch (filename) {
+			case 'blocklist':
+				data = _.keyBy(data, 'channel')
+				break
+			case 'categories':
+			case 'channels':
+				data = _.keyBy(data, 'id')
+				break
+			default:
+				data = _.keyBy(data, 'code')
+				break
+		}
+
+		db[filename] = data
+	}
+
+	const toCheck = program.args.length ? program.args : allFiles
+	for (const filepath of toCheck) {
+		const filename = file.getFilename(filepath)
+		if (!schemes[filename]) return handleError(`"${filename}" scheme is missing`)
+
+		const rows = Object.values(db[filename])
+
 		let fileErrors = []
 		if (filename === 'channels') {
-			if (/\"/.test(csvString)) return handleError(`\" character is not allowed (${filepath})`)
-
 			fileErrors = fileErrors.concat(findDuplicatesById(rows))
-			let categories = await csv
-				.fromFile('data/categories.csv')
-				.catch(err => handleError(err.message))
-			categories = _.keyBy(categories, 'id')
-			let languages = await csv
-				.fromFile('data/languages.csv')
-				.catch(err => handleError(err.message))
-			languages = _.keyBy(languages, 'code')
-			let countries = await csv
-				.fromFile('data/countries.csv')
-				.catch(err => handleError(err.message))
-			countries = _.keyBy(countries, 'code')
 
 			for (const [i, row] of rows.entries()) {
-				fileErrors = fileErrors.concat(await validateChannelCategories(row, i, categories))
-				fileErrors = fileErrors.concat(await validateChannelLanguages(row, i, languages))
-				fileErrors = fileErrors.concat(await validateChannelCountry(row, i, countries))
+				fileErrors = fileErrors.concat(await validateChannelCategories(row, i))
+				fileErrors = fileErrors.concat(await validateChannelLanguages(row, i))
+				fileErrors = fileErrors.concat(await validateChannelCountry(row, i))
 			}
 		} else if (filename === 'blocklist') {
-			let channels = await csv.fromFile('data/channels.csv').catch(err => handleError(err.message))
-			channels = _.keyBy(channels, 'id')
-
 			for (const [i, row] of rows.entries()) {
-				fileErrors = fileErrors.concat(await validateChannelId(row, i, channels))
+				fileErrors = fileErrors.concat(await validateChannelId(row, i))
 			}
 		}
 
@@ -115,10 +121,10 @@ function findDuplicatesById(data) {
 	return errors
 }
 
-async function validateChannelCategories(row, i, categories) {
+async function validateChannelCategories(row, i) {
 	const errors = []
 	row.categories.forEach(category => {
-		if (!categories[category]) {
+		if (!db.categories[category]) {
 			errors.push({
 				line: i + 2,
 				message: `"${row.id}" has the wrong category "${category}"`
@@ -129,9 +135,9 @@ async function validateChannelCategories(row, i, categories) {
 	return errors
 }
 
-async function validateChannelCountry(row, i, countries) {
+async function validateChannelCountry(row, i) {
 	const errors = []
-	if (!countries[row.country]) {
+	if (!db.countries[row.country]) {
 		errors.push({
 			line: i + 2,
 			message: `"${row.id}" has the wrong country "${row.country}"`
@@ -141,10 +147,10 @@ async function validateChannelCountry(row, i, countries) {
 	return errors
 }
 
-async function validateChannelLanguages(row, i, languages) {
+async function validateChannelLanguages(row, i) {
 	const errors = []
 	row.languages.forEach(language => {
-		if (!languages[language]) {
+		if (!db.languages[language]) {
 			errors.push({
 				line: i + 2,
 				message: `"${row.id}" has the wrong language "${language}"`
@@ -155,9 +161,9 @@ async function validateChannelLanguages(row, i, languages) {
 	return errors
 }
 
-async function validateChannelId(row, i, channels) {
+async function validateChannelId(row, i) {
 	const errors = []
-	if (!channels[row.channel]) {
+	if (!db.channels[row.channel]) {
 		errors.push({
 			line: i + 2,
 			message: `"${row.channel}" is missing in the channels.csv`

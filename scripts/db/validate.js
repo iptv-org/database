@@ -65,19 +65,19 @@ async function main() {
 			fileErrors = fileErrors.concat(findDuplicatesById(rows))
 
 			for (const [i, row] of rows.entries()) {
-				fileErrors = fileErrors.concat(await validateChannelBroadcastArea(row, i))
-				fileErrors = fileErrors.concat(await validateChannelSubdivision(row, i))
-				fileErrors = fileErrors.concat(await validateChannelCategories(row, i))
-				fileErrors = fileErrors.concat(await validateChannelLanguages(row, i))
-				fileErrors = fileErrors.concat(await validateChannelCountry(row, i))
+				fileErrors = fileErrors.concat(validateChannelBroadcastArea(row, i))
+				fileErrors = fileErrors.concat(validateChannelSubdivision(row, i))
+				fileErrors = fileErrors.concat(validateChannelCategories(row, i))
+				fileErrors = fileErrors.concat(validateChannelLanguages(row, i))
+				fileErrors = fileErrors.concat(validateChannelCountry(row, i))
 			}
 		} else if (filename === 'blocklist') {
 			for (const [i, row] of rows.entries()) {
-				fileErrors = fileErrors.concat(await validateChannelId(row, i))
+				fileErrors = fileErrors.concat(validateChannelId(row, i))
 			}
 		} else if (filename === 'countries') {
 			for (const [i, row] of rows.entries()) {
-				fileErrors = fileErrors.concat(await validateCountryLanguage(row, i))
+				fileErrors = fileErrors.concat(validateCountryLanguage(row, i))
 			}
 		}
 
@@ -127,7 +127,7 @@ function findDuplicatesById(data) {
 	return errors
 }
 
-async function validateChannelCategories(row, i) {
+function validateChannelCategories(row, i) {
 	const errors = []
 	row.categories.forEach(category => {
 		if (!db.categories[category]) {
@@ -141,7 +141,7 @@ async function validateChannelCategories(row, i) {
 	return errors
 }
 
-async function validateChannelCountry(row, i) {
+function validateChannelCountry(row, i) {
 	const errors = []
 	if (!db.countries[row.country]) {
 		errors.push({
@@ -153,7 +153,7 @@ async function validateChannelCountry(row, i) {
 	return errors
 }
 
-async function validateChannelSubdivision(row, i) {
+function validateChannelSubdivision(row, i) {
 	const errors = []
 	if (row.subdivision && !db.subdivisions[row.subdivision]) {
 		errors.push({
@@ -165,7 +165,7 @@ async function validateChannelSubdivision(row, i) {
 	return errors
 }
 
-async function validateChannelBroadcastArea(row, i) {
+function validateChannelBroadcastArea(row, i) {
 	const errors = []
 	row.broadcast_area.forEach(area => {
 		const [type, code] = area.split('/')
@@ -184,7 +184,7 @@ async function validateChannelBroadcastArea(row, i) {
 	return errors
 }
 
-async function validateChannelLanguages(row, i) {
+function validateChannelLanguages(row, i) {
 	const errors = []
 	row.languages.forEach(language => {
 		if (!db.languages[language]) {
@@ -198,7 +198,7 @@ async function validateChannelLanguages(row, i) {
 	return errors
 }
 
-async function validateChannelId(row, i) {
+function validateChannelId(row, i) {
 	const errors = []
 	if (!db.channels[row.channel]) {
 		errors.push({
@@ -210,7 +210,7 @@ async function validateChannelId(row, i) {
 	return errors
 }
 
-async function validateCountryLanguage(row, i) {
+function validateCountryLanguage(row, i) {
 	const errors = []
 	if (!db.languages[row.lang]) {
 		errors.push({

@@ -63,7 +63,6 @@ async function main() {
 		let fileErrors = []
 		if (filename === 'channels') {
 			fileErrors = fileErrors.concat(findDuplicatesById(rows))
-
 			for (const [i, row] of rows.entries()) {
 				fileErrors = fileErrors.concat(validateChannelBroadcastArea(row, i))
 				fileErrors = fileErrors.concat(validateChannelSubdivision(row, i))

@@ -79,6 +79,10 @@ async function main() {
 			for (const [i, row] of rows.entries()) {
 				fileErrors = fileErrors.concat(validateCountryLanguage(row, i))
 			}
+		} else if (filename === 'subdivisions') {
+			for (const [i, row] of rows.entries()) {
+				fileErrors = fileErrors.concat(validateSubdivisionCountry(row, i))
+			}
 		}
 
 		const schema = Joi.object(schemes[filename])
@@ -216,6 +220,18 @@ function validateCountryLanguage(row, i) {
 		errors.push({
 			line: i + 2,
 			message: `"${row.code}" has the wrong language "${row.lang}"`
+		})
+	}
+
+	return errors
+}
+
+function validateSubdivisionCountry(row, i) {
+	const errors = []
+	if (!db.countries[row.country]) {
+		errors.push({
+			line: i + 2,
+			message: `"${row.code}" has the wrong country "${row.country}"`
 		})
 	}
 

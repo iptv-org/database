@@ -53,6 +53,25 @@ async function main() {
 			}
 
 			fileErrors = fileErrors.concat(findDuplicatesById(data))
+
+			let categories = await csv.fromFile('data/categories.csv').catch(err => {
+				logger.error(chalk.red(`\nError: ${err.message}`))
+				process.exit(1)
+			})
+			categories = categories.map(c => c.id)
+
+			data.forEach((row, i) => {
+				if (
+					categories.length &&
+					row.categories.length &&
+					intersection(categories, row.categories).length !== row.categories.length
+				) {
+					fileErrors.push({
+						line: i + 2,
+						message: `"${row.id}" has the wrong categories "${row.categories.join(';')}"`
+					})
+				}
+			})
 		} else if (filename === 'blocklist') {
 			let channels = await csv.fromFile('data/channels.csv').catch(err => {
 				logger.error(chalk.red(`\nError: ${err.message}`))
@@ -117,4 +136,10 @@ function findDuplicatesById(data) {
 	}
 
 	return errors
+}
+
+function intersection(array1, array2) {
+	return array1.filter(function (n) {
+		return array2.indexOf(n) !== -1
+	})
 }

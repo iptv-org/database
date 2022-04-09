@@ -68,6 +68,7 @@ async function main() {
 				fileErrors = fileErrors.concat(await validateChannelCategories(row, i))
 				fileErrors = fileErrors.concat(await validateChannelLanguages(row, i))
 				fileErrors = fileErrors.concat(await validateChannelCountry(row, i))
+				fileErrors = fileErrors.concat(await validateChannelSubdivision(row, i))
 			}
 		} else if (filename === 'blocklist') {
 			for (const [i, row] of rows.entries()) {
@@ -141,6 +142,18 @@ async function validateChannelCountry(row, i) {
 		errors.push({
 			line: i + 2,
 			message: `"${row.id}" has the wrong country "${row.country}"`
+		})
+	}
+
+	return errors
+}
+
+async function validateChannelSubdivision(row, i) {
+	const errors = []
+	if (row.subdivision && !db.subdivisions[row.subdivision]) {
+		errors.push({
+			line: i + 2,
+			message: `"${row.id}" has the wrong subdivision "${row.subdivision}"`
 		})
 	}
 

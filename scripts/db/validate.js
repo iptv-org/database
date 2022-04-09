@@ -42,10 +42,31 @@ async function main() {
 			if (/\"/.test(csvString)) return handleError(`\" character is not allowed (${filepath})`)
 
 			fileErrors = fileErrors.concat(findDuplicatesById(rows))
-			fileErrors = fileErrors.concat(await validateChannelCategories(rows))
-			fileErrors = fileErrors.concat(await validateChannelLanguages(rows))
+			let categories = await csv
+				.fromFile('data/categories.csv')
+				.catch(err => handleError(err.message))
+			categories = _.keyBy(categories, 'id')
+			let languages = await csv
+				.fromFile('data/languages.csv')
+				.catch(err => handleError(err.message))
+			languages = _.keyBy(languages, 'code')
+			let countries = await csv
+				.fromFile('data/countries.csv')
+				.catch(err => handleError(err.message))
+			countries = _.keyBy(countries, 'code')
+
+			for (const [i, row] of rows.entries()) {
+				fileErrors = fileErrors.concat(await validateChannelCategories(row, i, categories))
+				fileErrors = fileErrors.concat(await validateChannelLanguages(row, i, languages))
+				fileErrors = fileErrors.concat(await validateChannelCountry(row, i, countries))
+			}
 		} else if (filename === 'blocklist') {
-			fileErrors = fileErrors.concat(await validateChannelId(rows))
+			let channels = await csv.fromFile('data/channels.csv').catch(err => handleError(err.message))
+			channels = _.keyBy(channels, 'id')
+
+			for (const [i, row] of rows.entries()) {
+				fileErrors = fileErrors.concat(await validateChannelId(row, i, channels))
+			}
 		}
 
 		const schema = Joi.object(schemes[filename])
@@ -94,61 +115,52 @@ function findDuplicatesById(data) {
 	return errors
 }
 
-async function validateChannelCategories(rows) {
-	let categories = await csv.fromFile('data/categories.csv').catch(err => handleError(err.message))
-
+async function validateChannelCategories(row, i, categories) {
 	const errors = []
-	if (categories.length) {
-		categories = _.keyBy(categories, 'id')
-		rows.forEach((row, i) => {
-			row.categories.forEach(category => {
-				if (!categories[category]) {
-					errors.push({
-						line: i + 2,
-						message: `"${row.id}" has the wrong category "${category}"`
-					})
-				}
+	row.categories.forEach(category => {
+		if (!categories[category]) {
+			errors.push({
+				line: i + 2,
+				message: `"${row.id}" has the wrong category "${category}"`
 			})
+		}
+	})
+
+	return errors
+}
+
+async function validateChannelCountry(row, i, countries) {
+	const errors = []
+	if (!countries[row.country]) {
+		errors.push({
+			line: i + 2,
+			message: `"${row.id}" has the wrong country "${row.country}"`
 		})
 	}
 
 	return errors
 }
 
-async function validateChannelLanguages(rows) {
-	let languages = await csv.fromFile('data/languages.csv').catch(err => handleError(err.message))
-
+async function validateChannelLanguages(row, i, languages) {
 	const errors = []
-	if (languages.length) {
-		languages = _.keyBy(languages, 'code')
-		rows.forEach((row, i) => {
-			row.languages.forEach(language => {
-				if (!languages[language]) {
-					errors.push({
-						line: i + 2,
-						message: `"${row.id}" has the wrong language "${language}"`
-					})
-				}
+	row.languages.forEach(language => {
+		if (!languages[language]) {
+			errors.push({
+				line: i + 2,
+				message: `"${row.id}" has the wrong language "${language}"`
 			})
-		})
-	}
+		}
+	})
 
 	return errors
 }
 
-async function validateChannelId(rows) {
-	let channels = await csv.fromFile('data/channels.csv').catch(err => handleError(err.message))
-
+async function validateChannelId(row, i, channels) {
 	const errors = []
-	if (channels.length) {
-		channels = _.keyBy(channels, 'id')
-		rows.forEach((row, i) => {
-			if (!channels[row.channel]) {
-				errors.push({
-					line: i + 2,
-					message: `"${row.channel}" is missing in the channels.csv`
-				})
-			}
+	if (!channels[row.channel]) {
+		errors.push({
+			line: i + 2,
+			message: `"${row.channel}" is missing in the channels.csv`
 		})
 	}
 

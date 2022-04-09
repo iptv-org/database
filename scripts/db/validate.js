@@ -3,6 +3,7 @@ const { program } = require('commander')
 const schemes = require('./schemes')
 const chalk = require('chalk')
 const Joi = require('joi')
+const _ = require('lodash')
 
 program.argument('[filepath]', 'Path to file to validate').parse(process.argv)
 
@@ -58,20 +59,39 @@ async function main() {
 				logger.error(chalk.red(`\nError: ${err.message}`))
 				process.exit(1)
 			})
-			categories = categories.map(c => c.id)
 
-			data.forEach((row, i) => {
-				if (
-					categories.length &&
-					row.categories.length &&
-					intersection(categories, row.categories).length !== row.categories.length
-				) {
-					fileErrors.push({
-						line: i + 2,
-						message: `"${row.id}" has the wrong categories "${row.categories.join(';')}"`
+			if (categories.length) {
+				categories = _.keyBy(categories, 'id')
+				data.forEach((row, i) => {
+					row.categories.forEach(category => {
+						if (!categories[category]) {
+							fileErrors.push({
+								line: i + 2,
+								message: `"${row.id}" has the wrong category "${category}"`
+							})
+						}
 					})
-				}
+				})
+			}
+
+			let languages = await csv.fromFile('data/languages.csv').catch(err => {
+				logger.error(chalk.red(`\nError: ${err.message}`))
+				process.exit(1)
 			})
+
+			if (languages.length) {
+				languages = _.keyBy(languages, 'code')
+				data.forEach((row, i) => {
+					row.languages.forEach(language => {
+						if (!languages[language]) {
+							fileErrors.push({
+								line: i + 2,
+								message: `"${row.id}" has the wrong language "${language}"`
+							})
+						}
+					})
+				})
+			}
 		} else if (filename === 'blocklist') {
 			let channels = await csv.fromFile('data/channels.csv').catch(err => {
 				logger.error(chalk.red(`\nError: ${err.message}`))

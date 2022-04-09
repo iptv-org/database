@@ -83,6 +83,10 @@ async function main() {
 			for (const [i, row] of rows.entries()) {
 				fileErrors = fileErrors.concat(validateSubdivisionCountry(row, i))
 			}
+		} else if (filename === 'regions') {
+			for (const [i, row] of rows.entries()) {
+				fileErrors = fileErrors.concat(validateRegionCountries(row, i))
+			}
 		}
 
 		const schema = Joi.object(schemes[filename])
@@ -234,6 +238,20 @@ function validateSubdivisionCountry(row, i) {
 			message: `"${row.code}" has the wrong country "${row.country}"`
 		})
 	}
+
+	return errors
+}
+
+function validateRegionCountries(row, i) {
+	const errors = []
+	row.countries.forEach(country => {
+		if (!db.countries[country]) {
+			errors.push({
+				line: i + 2,
+				message: `"${row.code}" has the wrong country "${country}"`
+			})
+		}
+	})
 
 	return errors
 }

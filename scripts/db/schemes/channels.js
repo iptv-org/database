@@ -1,4 +1,4 @@
-const Joi = require('joi')
+const Joi = require('joi').extend(require('@joi/date'))
 const path = require('path')
 
 module.exports = {
@@ -33,6 +33,8 @@ module.exports = {
 	),
 	categories: Joi.array().items(Joi.string().regex(/^[a-z]+$/)),
 	is_nsfw: Joi.boolean().strict().required(),
+	launched: Joi.date().format('YYYY-MM-DD').raw().allow(null),
+	closed: Joi.date().format('YYYY-MM-DD').raw().allow(null),
 	website: Joi.string()
 		.uri({
 			scheme: ['http', 'https']

@@ -46,7 +46,7 @@ module.exports = {
 		})
 		.custom((value, helper) => {
 			const ext = path.extname(value)
-			if (!ext || /(\.svg|\.png|\.jpeg|\.jpg)/i.test(ext)) {
+			if (!ext || /(\.png|\.jpeg|\.jpg)/i.test(ext)) {
 				return true
 			} else {
 				return helper.message(`"logo" has an invalid file extension "${ext}"`)

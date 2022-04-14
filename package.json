@@ -19,6 +19,7 @@
     "commander": "^9.0.0",
     "crlf": "^1.1.1",
     "csvtojson": "^2.0.10",
+    "dayjs": "^1.11.0",
     "glob": "^7.2.0",
     "joi": "^17.6.0",
     "json2csv": "^6.0.0-alpha.0",
@@ -28,6 +29,8 @@
     "pre-commit": "^1.2.2",
     "signale": "^1.4.0",
     "slugify": "^1.6.5",
-    "transliteration": "^2.2.0"
+    "transliteration": "^2.2.0",
+    "wikijs": "^6.3.3",
+    "wtf_wikipedia": "^10.0.0"
   }
 }

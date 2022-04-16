@@ -18,6 +18,7 @@ const allFiles = [
 ]
 
 let db = {}
+let files = {}
 
 async function main() {
 	let globalErrors = []
@@ -26,39 +27,42 @@ async function main() {
 		if (!filepath.endsWith('.csv')) continue
 
 		const eol = await file.eol(filepath)
-		if (eol !== 'CRLF') return handleError(`file must have line endings with CRLF (${filepath})`)
+		if (eol !== 'CRLF')
+			return handleError(`Error: file must have line endings with CRLF (${filepath})`)
 
 		const csvString = await file.read(filepath)
 		if (/\s+$/.test(csvString))
-			return handleError(`empty lines at the end of file not allowed (${filepath})`)
+			return handleError(`Error: empty lines at the end of file not allowed (${filepath})`)
 
 		const filename = file.getFilename(filepath)
 		let data = await csv
 			.fromString(csvString)
 			.catch(err => handleError(`${err.message} (${filepath})`))
 
+		let grouped
 		switch (filename) {
 			case 'blocklist':
-				data = _.keyBy(data, 'channel')
+				grouped = _.keyBy(data, 'channel')
 				break
 			case 'categories':
 			case 'channels':
-				data = _.keyBy(data, 'id')
+				grouped = _.keyBy(data, 'id')
 				break
 			default:
-				data = _.keyBy(data, 'code')
+				grouped = _.keyBy(data, 'code')
 				break
 		}
 
-		db[filename] = data
+		db[filename] = grouped
+		files[filename] = data
 	}
 
 	const toCheck = program.args.length ? program.args : allFiles
 	for (const filepath of toCheck) {
 		const filename = file.getFilename(filepath)
-		if (!schemes[filename]) return handleError(`"${filename}" scheme is missing`)
+		if (!schemes[filename]) return handleError(`Error: "${filename}" scheme is missing`)
 
-		const rows = Object.values(db[filename])
+		const rows = files[filename]
 
 		let fileErrors = []
 		if (filename === 'channels') {
@@ -113,20 +117,21 @@ async function main() {
 
 main()
 
-function findDuplicatesById(data) {
-	data = data.map(i => {
-		i.id = i.id.toLowerCase()
-		return i
+function findDuplicatesById(rows) {
+	rows = rows.map(row => {
+		row.id = row.id.toLowerCase()
+
+		return row
 	})
 
 	const errors = []
 	const schema = Joi.array().unique((a, b) => a.id === b.id)
-	const { error } = schema.validate(data, { abortEarly: false })
+	const { error } = schema.validate(rows, { abortEarly: false })
 	if (error) {
 		error.details.forEach(detail => {
 			errors.push({
 				line: detail.context.pos + 2,
-				message: `Entry with the id "${detail.context.value.id}" already exists`
+				message: `entry with the id "${detail.context.value.id}" already exists`
 			})
 		})
 	}

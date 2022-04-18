@@ -250,7 +250,7 @@ id,name,native_name,network,country,subdivision,city,broadcast_area,languages,ca
 92News.pk,92 News,,,PK,,,c/PK,urd,news,FALSE,,,https://92newshd.tv/,https://i.imgur.com/OifwcrE.png
 92NewsUK.pk,92 News UK,,,PK,,,c/PK,urd,,FALSE,,,,https://i.imgur.com/SzaGz3D.jpg
 99TV.in,99 TV,,,IN,,,c/IN,tel,,FALSE,,,,https://www.lyngsat.com/logo/tv/num/99tv-in.png
-9colors.kr,9colors,,,KR,,,c/KR,kor,,FALSE,,,http://www.9colors.co.kr/,https://www.lyngsat.com/logo/tv/num/9_colors_kr.png
+9colors.kr,9colors,,,KR,,,c/KR,kor,,FALSE,,,http://www.9colors.co.kr/,https://i.imgur.com/AQfOECO.png
 9GEM.au,9 GEM,,,AU,,,c/AU,eng,,FALSE,,,https://www.9now.com.au/,https://www.lyngsat.com/logo/tv/nn/nine_au_gem.png
 9GEMAdelaide.au,9 GEM Adelaide,,,AU,,,c/AU,eng,,FALSE,,,https://www.9now.com.au/,https://www.lyngsat.com/logo/tv/nn/nine_au_gem.png
 9GEMBrisbane.au,9 GEM Brisbane,,,AU,,,c/AU,eng,,FALSE,,,https://www.9now.com.au/,https://www.lyngsat.com/logo/tv/nn/nine_au_gem.png
@@ -1065,7 +1065,7 @@ ANCGlobal.ph,ANC Global,,,PH,,,c/PH,eng,,FALSE,,,https://news.abs-cbn.com/anc,ht
 AndesTelevision.pe,Andes Televisión,,,PE,,Sicusani,c/PE,spa,,FALSE,,,,https://i.imgur.com/CsW4Op8.png
 AndFlix.in,&Flix,,,IN,,,c/IN,hin,movies,FALSE,,,,https://static.epg.best/in/AndFlix.in.png
 AndishehTV.us,Andisheh TV,,,US,,,c/US,fas,,FALSE,,2017-01-01,https://www.andishehlive.com/,https://www.lyngsat.com/logo/tv/aa/andisheh-tv-us.png
-AndongMBC.kr,Andong MBC,,,KR,,,c/KR,kor,,FALSE,,,http://www.andongmbc.co.kr/,https://www.lyngsat.com/logo/tv/mm/mbc_kr_andong.png
+AndongMBCTV.kr,Andong MBC TV,안동MBC TV,,KR,,,c/KR,kor,,FALSE,1987-11-23,,http://www.andongmbc.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/%EC%95%88%EB%8F%99%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1_%EB%A1%9C%EA%B3%A0.png/512px-%EC%95%88%EB%8F%99%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1_%EB%A1%9C%EA%B3%A0.png
 AndorraTV.ad,Andorra TV,,,AD,,,c/AD,cat,general,FALSE,,,,https://i.imgur.com/kJCjeQ4.png
 AndoTV.cn,Ando TV,,,CN,,,c/CN,zho,,FALSE,,,http://www.qhtb.cn/,https://www.lyngsat.com/logo/tv/qq/qinghai_tv_cn_anduo_satellite.png
 AndPictures.in,&Pictures,,,IN,,,r/SAS,pus,movies,FALSE,,,,https://static.epg.best/in/AndPictures.in.png
@@ -1106,7 +1106,7 @@ AnhuiScienceandEducationChannel.cn,Anhui Science and Education Channel,,,CN,,,c/
 AnhuiTV.cn,Anhui TV,安徽卫视,,CN,,,c/CN,zho,,FALSE,,,http://www.ahtv.cn/,https://i.imgur.com/hgWSAIy.png
 AnhuiVarietyChannel.cn,Anhui Variety Channel,,,CN,,,c/CN,zho,,FALSE,,,,https://i.imgur.com/pS5F8EL.jpg
 Ani.ru,Ani,,,RU,,,c/RU,rus,kids,FALSE,,,https://ani.tlum.ru/,https://i.imgur.com/wXuLQE0.png
-Anibox.kr,Anibox,,,KR,,,c/KR,kor,animation,FALSE,,,http://www.aniboxtv.com/,https://www.lyngsat.com/logo/tv/aa/anibox-kr.png
+Anibox.kr,Anibox,애니박스,,KR,,,c/KR,kor,animation,FALSE,2006-09-01,,http://www.aniboxtv.com/,https://i.imgur.com/5SZfGmy.png
 AnimalPlanetAfrica.us,Animal Planet Africa,,,US,,,r/AFR,eng;ell,,FALSE,,,http://www.discoveryafrica.com/animal-planet/home,https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png
 AnimalPlanetArgentina.ar,Animal Planet Argentina,,,AR,,,c/AR,spa;eng,,FALSE,,,http://www.animalplanetlatino.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png
 AnimalPlanetAustralia.au,Animal Planet Australia,,,AU,,,c/AU,eng,,FALSE,,,https://www.animalplanet.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png
@@ -1129,21 +1129,31 @@ AnimalPlanetUKPlus1.uk,Animal Planet UK +1,,,UK,,,c/UK,eng,,FALSE,,,https://www.
 AnimalPlanetWest.us,Animal Planet West,,,US,,,c/US,eng,,FALSE,,,https://www.animalplanet.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/2018_Animal_Planet_logo.svg/512px-2018_Animal_Planet_logo.svg.png
 AnimalShowHD.th,Animal Show HD,,,TH,,,c/TH,tha;eng,,FALSE,,,,https://www.lyngsat.com/logo/tv/aa/animal_show_hd_th.png
 Animaux.fr,Animaux,,,FR,,,c/FR,fra;tur;eng,,FALSE,,,http://www.animauxtv.fr/,https://service.canal-overseas.com/image-api/v1/image/9d91bf8d25632e77d004cf5b84f296b1
-AnimaxAsia.jp,Animax Asia,,,JP,,,c/JP,eng;jpn;ind;zho;msa;yue;tha,,FALSE,,,http://www.animax-asia.com/,https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch150_160_115
-AnimaxJapan.jp,Animax Japan,,,JP,,,c/JP,jpn,animation,FALSE,,,http://www.animax.co.jp/,https://i.imgur.com/zpi6mQ3.png
-AnimaxKorea.kr,Animax Korea,,,KR,,,c/KR,jpn,,FALSE,,,http://www.animaxtv.co.kr/,https://www.lyngsat.com/logo/tv/aa/animax_asia.png
-AnimaxPhilippines.ph,Animax Philippines,,,PH,,,c/PH,jpn,,FALSE,,,http://www.animax-asia.com/,https://www.lyngsat.com/logo/tv/aa/animax_asia.png
-AnimaxTaiwan.tw,Animax Taiwan,,,TW,,,c/TW,jpn,,FALSE,,,http://www.animax-taiwan.com/,https://www.lyngsat.com/logo/tv/aa/animax_asia.png
+Animax.jp,Animax,,Animax,JP,,,c/JP,jpn,animation,FALSE,1998-05-20,,http://www.animax.co.jp/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxAsia.sg,Animax Asia,,Animax,SG,,,r/SAS,eng;jpn;ind;zho;msa;yue;tha,animation,FALSE,2004-01-19,,http://www.animax-asia.com/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxCzechRepublic.cz,Animax Czech Republic,,Animax,CZ,,,c/CZ,ces,animation,FALSE,2007-07-02,2014-03-31,http://www.animaxtv.cz/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxEasternEurope.hu,Animax Eastern Europe,,Animax,HU,,,c/HU;c/RO;c/PL;c/CZ;c/SK,hun;ron;ces,animation,FALSE,2007-07-02,2014-03-31,http://www.animaxtv.hu/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxGermany.de,Animax Germany,,Animax,DE,,,c/DE,deu,animation,FALSE,2007-06-05,2016-07-07,http://www.animaxtv.de/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxHongKong.hk,Animax Hong Kong,,Animax,HK,,,c/HK,zho,animation,FALSE,2004-01-12,,http://www.animax-hk.com,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxHungary.hu,Animax Hungary,,Animax,HU,,,c/HU,hun,animation,FALSE,2007-07-02,2014-03-31,http://www.animaxtv.hu/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxIndia.in,Animax India,,Animax,IN,,,c/IN,jpn;eng,animation,FALSE,2004-07-04,2017-04-18,http://www.animaxtv.co.kr/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxKorea.kr,Animax Korea,,Animax,KR,,,c/KR,kor,animation,FALSE,2006-04-29,,http://www.animaxtv.co.kr/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxLatinAmerica.ve,Animax Latin America,,Animax,VE,,,r/LATAM,spa;por,animation,FALSE,2005-07-31,2011-05-01,http://www.animaxtv.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Animax3.png/512px-Animax3.png
+AnimaxPhilippines.ph,Animax Philippines,,Animax,PH,,,c/PH,eng;jpn;fil,animation,FALSE,2004-01-01,,https://www.animax-asia.com/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxPortugal.es,Animax Portugal,,Animax,ES,,,c/PT,por,animation,FALSE,2008-04-12,2011-05-09,,https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Animax3.png/512px-Animax3.png
+AnimaxRomanian.ro,Animax Romanian,,Animax,RO,,,c/RO,ron,animation,FALSE,2007-07-02,2014-03-31,http://www.animaxtv.ro/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxSpain.es,Animax Spain,,Animax,ES,,,c/ES,spa,animation,FALSE,2008-04-12,2013-12-31,,https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Animax3.png/512px-Animax3.png
+AnimaxTaiwan.tw,Animax Taiwan,,Animax,TW,,,c/TW,eng;jpn;tha,animation,FALSE,2004-01-01,,http://www.animax-taiwan.com/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimeAllDay.us,Anime All Day,,,US,,,c/US,eng,animation,FALSE,,,https://pluto.tv/en/live-tv/anime-all-day,https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png
 AnimeAllDayUK.us,Anime All Day UK,,,US,,,c/UK,eng,animation,FALSE,,,https://pluto.tv/en/live-tv/anime-all-day-gb,https://images.pluto.tv/channels/5c363ac9e41be30cb6054c7c/colorLogoPNG.png
 AnimeClasicoSpain.us,Anime Clásico Spain,,,US,,,c/ES,spa,animation,FALSE,,,https://pluto.tv/en/live-tv/anime-clasico-es,https://images.pluto.tv/channels/6054acc871ec430007f54c7d/colorLogoPNG.png
 Animestation.br,Animestation,,,BR,,,c/BR,por,,FALSE,,,,https://i.imgur.com/5UpjGcL.png
 AnimeTV.br,Anime TV,,,BR,,,c/BR,jpn,animation,FALSE,,,,https://i.imgur.com/rmAm6UE.png
 AnimeZoneTV.do,Anime Zone TV,,,DO,,,r/HISPAM;c/ES,spa,animation,FALSE,,,,https://graph.facebook.com/AnimeZoneXTV/picture?width=300&height=300
-AniOneTV.kr,AniOne TV,,,KR,,,c/KR,kor,,FALSE,,,http://www.anionetv.com/,https://www.lyngsat.com/logo/tv/aa/ani_one_tv.png
+Anione.kr,Anione,애니원,,KR,,,c/KR,kor,,FALSE,2002-03-04,,http://www.anionetv.com/,https://i.imgur.com/2zq8PDL.png
+Aniplus.kr,Aniplus,애니플러스,Aniplus,KR,,,c/KR,kor,animation,FALSE,2009-12-07,,http://www.aniplustv.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Aniplus_logo.svg/512px-Aniplus_logo.svg.png
 AniPlus.th,Ani+,,,TH,,,c/TH,tha,,FALSE,,,http://www.ipmtv.tv/,https://www.lyngsat.com/logo/tv/ii/ipm_ani_plus.png
-AniPlusHD.kr,AniPlus HD,,,KR,,,c/KR,kor;jpn,,FALSE,,,http://www.aniplus-asia.com/,https://www.lyngsat.com/logo/tv/aa/aniplus_kr_hd.png
-AniPlusKorea.kr,AniPlus Korea,,,KR,,,c/KR,kor,,FALSE,,,http://www.aniplustv.com/,https://www.lyngsat.com/logo/tv/aa/aniplus_kr.png
+AniplusAsia.sg,Aniplus Asia,,Aniplus,SG,,,r/SAS,eng,animation,FALSE,2013-11-25,,http://www.aniplus-asia.com/,https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Aniplus_Asia_Logo.png/512px-Aniplus_Asia_Logo.png
 AnixeHDSerie.de,Anixe HD Serie,,,DE,,,c/DE,deu,,FALSE,,,http://www.anixehd.tv/index.php?hdsd=HD,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Anixe_HD.svg/512px-Anixe_HD.svg.png
 AnixePlus.de,Anixe +,,,DE,,,c/DE,deu,,FALSE,,,http://www.anixehd.tv/index.php?hdsd=SD,https://www.lyngsat.com/logo/tv/aa/anixe-plus-de.png
 Anjan.in,Anjan,,,IN,,,c/IN,hin,,FALSE,,,,
@@ -1283,7 +1293,8 @@ AricaTV.cl,Arica TV,,,CL,,,c/CL,spa,,FALSE,,,,
 ArigUs24.ru,Arig Us 24,,,RU,,,c/RU,rus,,FALSE,,,https://arigus.tv/,https://www.lyngsat.com/logo/tv/aa/arig_us_ru.png
 ArihantTV.in,Arihant TV,,,IN,,,c/IN,hin,,FALSE,2010-05-16,,,https://i.imgur.com/nlKnZcJ.png
 ArirangTV.kr,Arirang TV,,,KR,,,c/KR,eng,news;general,FALSE,1997-02-03,,https://www.arirang.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Arirang.svg/512px-Arirang.svg.png
-ArirangWorld.kr,Arirang World,,,KR,,,c/KR,eng;kor;spa,,FALSE,,,https://www.arirang.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Arirang.svg/512px-Arirang.svg.png
+ArirangUN.kr,Arirang UN,,,KR,,,r/INT,eng,news,FALSE,2015-07-14,,https://www.arirang.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Arirang.svg/512px-Arirang.svg.png
+ArirangWorld.kr,Arirang World,,,KR,,,r/INT,eng;kor;spa;rus;zho;ara;ind,news,FALSE,1998-08-12,,https://www.arirang.com/,https://i.imgur.com/5Aoithj.png
 Aris24.ru,Aris 24,,,RU,,,c/RU,rus,,FALSE,,,,https://i.imgur.com/Ps3wKOo.png
 AriseNews.uk,Arise News,,,UK,,,c/UK,eng,news,FALSE,,,https://www.arise.tv/,https://i.imgur.com/BlNMp0k.png
 AriseShineTV.tz,Arise & Shine TV,,,TZ,,,c/TZ,eng,,FALSE,,,,https://www.lyngsat.com/logo/tv/aa/arise-and-shine-tv-tz.png
@@ -1314,7 +1325,6 @@ ARTAmerica.sa,ART America,,,SA,,,c/SA,ara,,FALSE,,,https://www.artonline.tv/,htt
 ArtaNews.xk,Arta News,,,XK,,,c/XK,sqi,news,FALSE,,,,https://i.imgur.com/V4ZTL3h.png
 ArtCima.us,Art Cima,,,US,,,c/US,ara,,FALSE,,,https://my.dish.com/station/ARTCM,https://www.lyngsat.com/logo/tv/aa/art_cima_us.png
 ARTCinema.sa,ART Cinema,,,SA,,,c/SA,ara,,FALSE,,,https://www.artonline.tv/,https://content.osn.com/logo/channel/cropped/ACM.png
-Arte.kr,Arte,,,KR,,,c/KR,kor,,FALSE,1992-05-30,,http://www.arte.co.kr/,https://www.lyngsat.com/logo/tv/aa/arte-kr.png
 Arte1.br,Arte 1,,,BR,,,c/BR,por,,FALSE,,,https://canalarte1.com.br/,https://cdn.mitvstatic.com/channels/br_arte-1_m.png
 ArteAtelier.it,Arte Atelier,,,IT,,,c/IT,ita,,FALSE,,,http://www.arteatelier.it/,https://www.lyngsat.com/logo/tv/aa/arte_atelier_it.png
 ARTEBelgique.fr,ARTE Belgique,,,FR,,,c/FR,fra,entertainment,FALSE,,,https://www.arte.tv/fr/,https://www.arte.tv/sites/corporate/wp-content/themes/arte-entreprise/img/arte_logo.png
@@ -1329,6 +1339,7 @@ ARTNTV.us,ARTN TV,,,US,,,c/AM,rus;hye,general,FALSE,,,,https://www.artn.tv/asset
 ARTSTV.et,ARTS TV,,,ET,,,c/ET,amh,,FALSE,2018-01-01,,http://www.artstv.tv/,https://rndcdn.dstv.com/dstvcms/2020/03/10/ArtsTV_logo_4-3_xlrg.png
 ARTTarab.sa,ART Tarab,,,SA,,,c/SA,ara,,FALSE,,,https://www.artonline.tv/,https://www.lyngsat.com/logo/tv/aa/art_tarab.png
 ARTTV.gr,ART TV,,,GR,,,c/GR,ell,,FALSE,,,,https://i.imgur.com/ZgKZ5u9.jpg
+ArtTVArte.kr,Art TV Arte,예술TV Arte,,KR,,,c/KR,kor,culture,FALSE,1992-05-30,,http://www.arte.co.kr/,https://i.imgur.com/2LMURWO.png
 ARTV.cl,ARTV,,,CL,,,c/CL,spa,,FALSE,,,,https://cdn.mitvstatic.com/channels/cl_artv_m.png
 ARTVCanalParlamento.pt,AR TV Canal Parlamento,,,PT,,,c/PT,por,,FALSE,,,https://canal.parlamento.pt/,https://www.lyngsat.com/logo/tv/cc/canal_parlamento_por.png
 ARTVKano.ng,ARTV Kano,,,NG,,,c/NG,eng,,FALSE,,,,https://www.lyngsat.com/logo/tv/aa/artv-kano-ng.png
@@ -1360,7 +1371,8 @@ AsharqNews.ae,Asharq News,,,AE,,,c/AE,ara,,FALSE,,,https://asharq.com/,https://w
 AshiilTV.id,Ashiil TV,,,ID,,,c/ID,ind,,FALSE,,,http://www.ashiil.tv/,https://www.lyngsat.com/logo/tv/aa/ashiil-tv-id.png
 AshrafiChannel.in,Ashrafi Channel,,,IN,,,c/IN,hin,,FALSE,,,,
 AsiaDramaticTV.jp,Asia Dramatic TV,,,JP,,,c/JP,jpn,,FALSE,,,https://www.asiadramatictv.com/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-126-400x400.png
-AsiaN.kr,Asia N,,,KR,,,c/KR,kor,,FALSE,,,http://www.asiantv.co.kr/,https://www.lyngsat.com/logo/tv/aa/asia-n-kr.png
+AsiaM.kr,AsiaM,,,KR,,,c/KR,kor,movies,FALSE,,,http://www.asiantv.co.kr/,https://i.imgur.com/UgZXkzN.png
+AsiaN.kr,AsiaN,,,KR,,,c/KR,kor,,FALSE,2003-03-01,,http://www.asiantv.co.kr/,https://i.imgur.com/DHJjmW5.png
 AsianActionChannel.hk,Asian Action Channel,,,HK,,,c/HK,zho,,FALSE,,,http://b.tvb.com/tvbi/2017/04/25/malaysia-jadepack/,https://www.lyngsat.com/logo/tv/aa/astro_my_asian_action_channel.png
 AsianBox.mn,Asian Box,,,MN,,,c/MN,mon,,FALSE,,,,https://www.lyngsat.com/logo/tv/aa/asian-box-mn.png
 Asiancrush.us,Asiancrush,,,US,,,c/US,eng,entertainment,FALSE,,,,https://i.imgur.com/tmtdwdU.png
@@ -1377,7 +1389,7 @@ AsianFoodNetwork.sg,Asian Food Network,,,SG,,,c/SG,eng,,FALSE,2005-08-12,,https:
 AsianTV.bd,Asian TV,,,BD,,,c/BD,ben,,FALSE,2013-01-18,,https://www.asiantv.com.bd/,https://www.lyngsat.com/logo/tv/aa/asian_tv_bd.png
 AsiaTravel.hk,Asia Travel,,,HK,,,c/HK,zho;cmn,travel,FALSE,,,,https://i.imgur.com/1wbOhJV.jpg
 AsiaTravel.tw,Asia Travel,,,TW,,,c/TW,zho;ind,,FALSE,,,http://www.asiadigital.com.tw/,https://www.lyngsat.com/logo/tv/aa/asia_travel_tv.png
-AsiaUHD.kr,Asia UHD,,,KR,,,c/KR,kor,,FALSE,,,http://www.asiauhd.com/,https://www.lyngsat.com/logo/tv/aa/asia-uhd-kr.png
+AsiaUHD.kr,Asia UHD,,,KR,,,c/KR,kor,,FALSE,,,http://www.asiauhd.com/,https://i.imgur.com/ycqXOTO.png
 ASide.ca,A.Side,,,CA,,,c/CA,eng,,FALSE,,,https://tv.ontheaside.com/,https://cdn.tvpassport.com/image/station/100x100/a_sidetv.png
 AsilTV.ir,Asil TV,,,IR,,,c/IR,ara,,FALSE,,,http://webtv.islamasil.net/,https://www.lyngsat.com/logo/tv/aa/asil-tv-ir.png
 Asiritv.pe,AsiriTV,,,PE,,Lima,c/PE,spa,,FALSE,,,,https://graph.facebook.com/Asiritv/picture?width=320&height=320
@@ -1754,7 +1766,7 @@ Badakhshon.tj,Badakhshon,,,TJ,,,c/TJ,tgk,,FALSE,,,,https://www.lyngsat.com/logo/
 Badassnovelas.us,Badass novelas,,,US,,,c/US,eng,,FALSE,,,https://pluto.tv/en/live-tv/badass-novelas,https://images.pluto.tv/channels/5e84dc59026b9b000766f9a2/colorLogoPNG.png
 BadenTV.de,Baden TV,,,DE,,,c/DE,deu,,FALSE,,,https://baden-tv.com/,https://www.lyngsat.com/logo/tv/bb/baden-tv-de.png
 BadenTVSud.de,Baden TV Süd,,,DE,,,c/DE,deu,,FALSE,,,https://www.baden-tv-sued.com/,https://badentvsued.s3.welocal.cloud/sources/60631840dfa86.png
-BadukTV.kr,Baduk TV,,,KR,,,c/KR,kor,,FALSE,,,http://www.tvbaduk.com/,https://www.lyngsat.com/logo/tv/bb/baduk-tv-kr.png
+BadukTV.kr,Baduk TV,바둑TV,,KR,,,c/KR,kor,,FALSE,1994-02-01,,http://www.tvbaduk.com/,https://i.imgur.com/o7y72cu.png
 Baeble.us,Baeble Music,,,US,,,c/US,eng,music,FALSE,,,,https://i.imgur.com/mDxouc8.png
 BaharTV.af,Bahar TV,,,AF,,,c/AF,pus,,FALSE,,,https://bahartv-af.com/,https://bahartv-af.com/wp-content/uploads/2017/01/IMG_1864-2.png
 BahiaTV.dz,Bahia TV,,,DZ,,,c/DZ,fra,,FALSE,,,,https://i.imgur.com/oBRXuH2.png
@@ -2040,11 +2052,10 @@ BblackAfrica.fr,Bblack! Africa,,,FR,,,r/AFR,fra,,FALSE,,,https://www.bblackafric
 BblackCaribbean.fr,Bblack! Caribbean,,,FR,,,r/CARIB,eng,,FALSE,,,https://www.bblackcruise.com/media,https://service.canal-overseas.com/image-api/v1/image/76739b437e7b6ee5a2fd4b15059dc03b
 BBNTurk.tr,BBN Türk,,,TR,,,c/TR,tur,,FALSE,,,https://www.bbnturk.com.tr/,https://www.lyngsat.com/logo/tv/bb/bbn-turk-tr.png
 BBQPitmastersUK.us,BBQ Pitmasters UK,,,US,,,c/UK,eng,lifestyle,FALSE,,,https://pluto.tv/en/live-tv/bbq-pitmasters-gb,https://images.pluto.tv/channels/615af17746f6230007825bbe/colorLogoPNG.png
-BBS.kr,BBS,,,KR,,,c/KR,kor,,FALSE,,,http://www.bbsi.co.kr/,https://i.imgur.com/MVJDPg7.png
-BBSBuddhistBroadcasting.kr,BBS Buddhist Broadcasting,,,KR,,,c/KR,kor,,FALSE,,,,https://i.imgur.com/i7uUG2m.png
 BBSChannel2.bt,BBS Channel 2,,,BT,,,c/BT,dzo,,FALSE,,,http://www.bbs.bt/news/bbs2/,https://www.lyngsat.com/logo/tv/bb/bbs_channel_2.png
 BBSTV.bt,BBS TV,,,BT,,,c/BT,dzo,,FALSE,1999-06-02,,http://www.bbs.bt/,https://www.lyngsat.com/logo/tv/bb/bbs_tv_bt.png
 BBSTV.id,BBS TV,,,ID,,,c/ID,ind,,FALSE,1999-06-02,,https://www.bbstv.id/,https://www.lyngsat.com/logo/tv/bb/bbs-tv-id.png
+BBSTV.kr,BBS TV,,,KR,,,c/KR,kor,religious,FALSE,2008-12-02,,http://www.bbsi.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/BBS_%EB%B6%88%EA%B5%90%EB%B0%A9%EC%86%A1.svg/512px-BBS_%EB%B6%88%EA%B5%90%EB%B0%A9%EC%86%A1.svg.png
 BBSTV.mn,BBS TV,,,MN,,,c/MN,mon,,FALSE,1999-06-02,,,https://www.lyngsat.com/logo/tv/bb/bbs-tv-mn.png
 BBSTV.ug,BBS TV,,,UG,,,c/UG,swa;eng,,FALSE,1999-06-02,,,https://rndcdn.dstv.com/dstvcms/2018/07/10/BBS_logo_4-3_lightbackground_xlrg.png
 BBT.us,BB&T,,,US,,,c/US,eng,,FALSE,,,http://www.bbt.com/,https://www.lyngsat.com/logo/tv/bb/bb_t_us.png
@@ -2375,7 +2386,7 @@ Bigudi.ua,Bigudi,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,https://biguditv.com/,https://www
 BijoyTV.bd,Bijoy TV,,,BD,,,c/BD,ben,general,FALSE,2011-12-16,,http://bijoy.tv/,https://upload.wikimedia.org/wikipedia/commons/6/63/BIJOY_TV_Logo_BD.png
 Bike.it,Bike,,,IT,,,c/IT,ita,,FALSE,,,https://bikechannel.it/,https://i.imgur.com/wZh7aI8.png
 Bild.de,Bild,,,DE,,,c/CH;c/DE,deu,,FALSE,,,https://www.bild.de/tv/mediathek/livestream/startseite-77204148.bild.html,https://i.imgur.com/7MwHELu.png
-BilliardsTV.kr,Billiards TV,,,KR,,,c/KR,kor,,FALSE,,,http://www.billiardstv.co.kr/,https://www.lyngsat.com/logo/tv/bb/billiards_tv_kr.png
+BilliardsTV.kr,Billiards TV,빌리어즈TV,,KR,,,c/KR,kor,,FALSE,2009-01-01,,http://www.billiardstv.co.kr/,https://i.imgur.com/nrnvx8M.png
 BinBazTV.id,Bin Baz TV,,,ID,,,c/ID,ind,,FALSE,,,https://binbaz.or.id/,https://www.lyngsat.com/logo/tv/bb/bin-baz-tv-id.png
 Bindass.in,Bindass,,,IN,,,c/IN,hin,,FALSE,2007-09-24,,,https://i.imgur.com/jfz34qN.png
 BindassPlay.in,Bindass Play,,,IN,,,c/IN,hin,,FALSE,,,http://www.bindass.com/,https://www.lyngsat.com/logo/tv/bb/bindass_play_in.png
@@ -2570,11 +2581,12 @@ BoxNation.uk,Box Nation,,,UK,,,c/UK,eng,,FALSE,,,http://www.boxnation.com/,https
 BoxSets.au,BoxSets,,,AU,,,c/AU,eng,,FALSE,,,,https://www.lyngsat.com/logo/tv/bb/boxsets-au.png
 BoxTV.bg,Box TV,,,BG,,,c/BG,bul,,FALSE,,,,https://www.lyngsat.com/logo/tv/bb/box_tv_bg.png
 BR6TV.nl,BR6 TV,,,NL,,,c/NL,nld,,FALSE,,,,https://i.imgur.com/4aUcHnd.png
-BrainTV.kr,Brain TV,,,KR,,,c/KR,kor,,FALSE,,,http://www.braintv.co.kr/,https://www.lyngsat.com/logo/tv/bb/brain_tv_kr.png
+BrainTV.kr,Brain TV,브레인TV,,KR,,,c/KR,kor,,FALSE,2004-01-01,,http://www.braintv.co.kr/,https://i.imgur.com/uF5jZbl.png
 BrainzTV.rs,Brainz TV,,,RS,,,c/RS,srp,,FALSE,,,https://brainz.center/,https://www.lyngsat.com/logo/tv/bb/brainz-tv-rs.png
 BratTV.us,Brat TV,,,US,,,c/US,eng,kids,FALSE,,,,https://i.imgur.com/lhjj94a.png
 Bravo.us,Bravo,,,US,,,c/US,eng,,FALSE,,,https://www.bravotv.com/,https://zap2it.tmsimg.com/h5/NowShowing/10057/s10057_h5_aa.png
 BravoEast.us,Bravo East,,,US,,,c/US,eng,,FALSE,,,https://www.bravotv.com/,https://www.directv.com/images/logos/channels/dark/large/579.png
+BravoKids.kr,Bravo Kids,브라보키즈,,KR,,,c/KR,kor,kids,FALSE,2018-08-09,,http://www.bravokidstv.com/,https://i.imgur.com/UhqgvVW.png
 BravoMusic.rs,Bravo Music,,,RS,,,c/RS,srp,,FALSE,,,,https://mts.rs/oec/images/tv_channels/ba947e0eefaf6ae199c039b444312344.png
 BravoNewZealand.nz,Bravo New Zealand,,,NZ,,,c/NZ,eng,,FALSE,,,http://www.bravotv.co.nz/,https://www.lyngsat.com/logo/tv/bb/bravo_us.png
 BravoNewZealandPlus1.nz,Bravo New Zealand +1,,,NZ,,,c/NZ,eng,,FALSE,,,http://www.bravotv.co.nz/,https://www.lyngsat.com/logo/tv/bb/bravo_us.png
@@ -2641,7 +2653,7 @@ BSTVTokyo.jp,BS TV Tokyo,,,JP,,,c/JP,jpn,general,FALSE,,,https://www.tv-tokyo.co
 BSTVTokyo4K.jp,BS TV Tokyo 4K,,,JP,,,c/JP,jpn,,FALSE,,,https://www.tv-tokyo.co.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-000b-171-400x400.png
 BSYoshimoto.jp,BS Yoshimoto,,,JP,,,c/JP,jpn,,FALSE,,,https://bsy.co.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-179-400x400.png
 BTK.bg,BTK,,,BG,,,c/BG,bul,,FALSE,,,,https://i.imgur.com/5Sl6bKi.png
-BTN.kr,BTN,,,KR,,,c/KR,kor,,FALSE,,,http://www.btn.co.kr/btntv/main.asp,https://www.lyngsat.com/logo/tv/bb/btn-kr.png
+BTNTV.kr,BTN TV,BTN불교TV,,KR,,,c/KR,kor,religious,FALSE,1995-03-01,,http://www.btn.co.kr/btntv/main.asp,https://i.imgur.com/sOoS7RQ.png
 BTNTV.rw,BTN TV,,,RW,,,c/RW,eng,,FALSE,,,https://btnrwanda.com/,https://service.canal-overseas.com/image-api/v1/image/b68abcc35618f52576478e776e6e7ce2
 BTSport1.uk,BT Sport 1,,,UK,,,c/UK,eng,,FALSE,,,https://sport.bt.com/,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb3625.png
 BTSport2.uk,BT Sport 2,,,UK,,,c/UK,eng,,FALSE,,,https://sport.bt.com/,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb3627.png
@@ -3206,8 +3218,8 @@ CaspianNews.kz,Caspian News,,,KZ,,,c/KZ,kaz,news,FALSE,,,https://cntv.kz/,https:
 CastricumTV.nl,Castricum TV,,,NL,,,c/NL,nld,,FALSE,,,,
 CatacamaTV.ar,Catacama TV,,,AR,,,c/AR,spa,,FALSE,,,,
 Catavision.hn,Catavisión,,,HN,,,c/HN,spa,,FALSE,,,,
-CatchOn1.kr,Catch On 1,,,KR,,,c/KR,kor,,FALSE,,,http://catchon.tving.com/catchon/,https://www.lyngsat.com/logo/tv/cc/catch_on_kr.png
-CatchOn2.kr,Catch On 2,,,KR,,,c/KR,kor,,FALSE,,,http://catchon.tving.com/catchon/,https://www.lyngsat.com/logo/tv/cc/catch_on_kr_2.png
+CatchOn1.kr,Catch On 1,캐치온1,,KR,,,c/KR,kor,movies,FALSE,2002-10-01,,http://catchon.tving.com/catchon/,https://i.imgur.com/yjOFyEJ.png
+CatchOn2.kr,Catch On 2,캐치온2,,KR,,,c/KR,kor,movies,FALSE,2002-10-01,,http://catchon.tving.com/catchon/,https://i.imgur.com/bOgAlAH.png
 CatfishTVShowFrance.us,Catfish TV Show France,,,US,,,c/FR,fra,entertainment,FALSE,,,https://pluto.tv/en/live-tv/mtv-catfish-tv-show-fr,https://images.pluto.tv/channels/5f8eb66537867f0007146953/colorLogoPNG.png
 CatfishTVShowItalia.us,Catfish TV Show Italia,,,US,,,c/IT,ita,entertainment,FALSE,,,https://pluto.tv/en/live-tv/catfish-it,https://images.pluto.tv/channels/6093f9ed2c75660007322bb7/colorLogoPNG.png
 CatholicFaithNetwork.us,Catholic Faith Network,,,US,,,c/US,eng,,FALSE,1969-01-01,,http://www.cfntv.org/,https://upload.wikimedia.org/wikipedia/en/0/07/Catholic_Faith_Network_2018.png
@@ -3292,7 +3304,6 @@ CBOFT.ca,CBOFT,,ICI,CA,CA-ON,Ottawa,s/CA-ON,eng,,FALSE,,,,https://cdn.tvpassport
 CBOT.ca,CBOT,,CBC,CA,CA-ON,Ottawa,s/CA-ON,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/cbc2015.png
 CBRFT.ca,CBRFT,,ICI,CA,CA-AB,Calgary,s/CA-AB,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/src.png
 CBRT.ca,CBRT,,CBC,CA,CA-AB,Calgary,s/CA-AB,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/cbc2015.png
-CBS.kr,CBS,,,KR,,,c/KR,kor,general,FALSE,1927-09-18,,,https://i.imgur.com/Iy0yBaM.jpg
 CBSDramaIreland.ie,CBS Drama Ireland,,,IE,,,c/IE,eng,,FALSE,,,http://www.cbsdrama.co.uk/,https://www.lyngsat.com/logo/tv/cc/cbs-drama-uk.png
 CBSDramaUK.uk,CBS Drama UK,,,UK,,,c/UK,eng,,FALSE,,,http://www.cbsdrama.co.uk/,https://otv-us-web.s3-us-west-2.amazonaws.com/logos/guide/2/Open/92x36_352/Source/30977/cbsdramatv.png
 CBSEast.us,CBS East,,,US,,,c/US,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/cbs.png
@@ -3325,6 +3336,7 @@ CBSRealityUKPlus1.uk,CBS Reality UK +1,,,UK,,,c/UK,eng,,FALSE,,,https://www.cbsr
 CBSSportsHQ.us,CBS Sports HQ,,,US,,,c/US,eng,sports,FALSE,2018-02-26,,https://pluto.tv/en/live-tv/cbs-sports-hq,https://images.pluto.tv/channels/5e9f2c05172a0f0007db4786/colorLogoPNG.png
 CBSSportsNetworkCanada.ca,CBS Sports Network Canada,,,CA,,,c/CA,eng,,FALSE,,,http://www.cbssportsnetwork.com/,https://cdn.tvpassport.com/image/station/100x100/cbs_sports_network.png
 CBSSportsNetworkUSA.us,CBS Sports Network USA,,,US,,,c/US,eng;spa,,FALSE,,,http://www.cbssportsnetwork.com/,https://www.directv.com/images/logos/channels/dark/large/285.png
+CBSTV.kr,CBS TV,,,KR,,,c/KR,kor,general,FALSE,2002-03-01,,https://www.cbs.co.kr/tv/,https://i.imgur.com/WHDU8F3.png
 CBSWest.us,CBS West,,,US,,,c/US,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/cbs.png
 CBTVMichoacan.mx,CB TV Michoacan,,,MX,,,c/MX,spa,,FALSE,,,,https://www.lyngsat.com/logo/tv/cc/cb_tv_michoacan.png
 CBUFT.ca,CBUFT,,ICI,CA,CA-BC,Vancouver,s/CA-BC,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/src.png
@@ -3494,10 +3506,12 @@ CFTVDT1.ca,CFTV DT 1,,,CA,,,c/CA,eng,,FALSE,,,http://www.cftvdt.net/,https://www
 CFVS.ca,CFVS,,Noovo,CA,CA-QC,Val-d'Or,s/CA-QC,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/noovo.png
 CFVSDT1.ca,CFVS-DT-1,,Noovo,CA,CA-QC,Rouyn-Noranda,s/CA-QC,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/noovo.png
 CGEntertainment.it,CG Entertainment,,,IT,,,c/IT,ita,,FALSE,,,,https://i.imgur.com/HB0LSjW.jpg
-CGNTV.kr,CGN TV,,,KR,,,c/KR,kor,,FALSE,,,http://www.cgntv.net/,https://www.lyngsat.com/logo/tv/cc/cgn_tv_kr.png
-CGNTVChinese.kr,CGN TV Chinese,,,KR,,,c/KR,zho,,FALSE,,,http://chinese.cgntv.net/,https://www.lyngsat.com/logo/tv/cc/cgn_tv_kr.png
-CGNTVJapan.jp,CGNTV Japan,,,JP,,,c/JP,jpn,religious,FALSE,,,http://japan.cgntv.net/,https://i.imgur.com/rXrSsiI.jpg
-CGNTVUSA.us,CGN TV USA,,,US,,,c/US,kor,,FALSE,,,,https://www.lyngsat.com/logo/tv/cc/cgn_tv_kr.png
+CGNTV.kr,CGNTV,시지엔티비,,KR,,,c/KR,kor,religious,FALSE,2005-03-29,,http://www.cgntv.net/,https://i.imgur.com/ID70Wy1.png
+CGNTVAmerica.us,CGNTV America,,,US,,,c/US,kor,religious,FALSE,,,http://www.cgnfoundation.com/,https://i.imgur.com/OFCha5E.png
+CGNTVChinese.cn,CGNTV Chinese,,,CN,,,c/CN,zho,religious,FALSE,,,http://chinese.cgntv.net/,https://i.imgur.com/l65ahs5.png
+CGNTVIndonesia.id,CGNTV Indonesia,,,ID,,,c/ID,eng,religious,FALSE,,,http://indonesia.cgntv.net/,https://i.imgur.com/b1Y878f.png
+CGNTVJapan.jp,CGNTV Japan,,,JP,,,c/JP,jpn,religious,FALSE,,,http://japan.cgntv.net/,https://i.imgur.com/osKo3i9.png
+CGNTVThai.th,CGNTV Thai,,,TH,,,c/TH,tha,religious,FALSE,2010-11-17,,https://thaicgntv.net/,https://i.imgur.com/9Yi3pwa.png
 CGospel.cm,C-Gospel,,,CM,,,c/CM,eng,,FALSE,,,,https://www.lyngsat.com/logo/tv/cc/c-gospel-cm.png
 CGTN.cn,CGTN,,,CN,,,c/CN,eng;zho,news,FALSE,,,https://www.cgtn.com/tv,https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png
 CGTNAmerica.cn,CGTN America,,,CN,,,c/CN,eng,,FALSE,2012-02-06,,https://america.cgtn.com/,https://cdn.tvpassport.com/image/station/100x100/cgtn.png
@@ -3572,8 +3586,9 @@ Channel9.bd,Channel 9,,,BD,,,c/BD,ben,,FALSE,,,http://www.channelninebd.tv/,http
 Channel9.gr,Channel 9,,,GR,,,c/GR,ell,,FALSE,,,,https://i.imgur.com/24uaLwh.png
 Channel9.il,Channel 9,9 канал,,IL,,,c/IL,rus,,FALSE,,,https://www.9tv.co.il/,https://www.9tv.co.il/images/logo_ch9.png
 Channel9.mm,Channel 9,,,MM,,,c/MM,mya,,FALSE,,,,https://www.lyngsat.com/logo/tv/cc/channel_9_mm.png
-ChannelA.kr,Channel A,,,KR,,,c/KR,kor,,FALSE,,,http://www.ichannela.com/,https://www.lyngsat.com/logo/tv/cc/channel_a_kr.png
+ChannelA.kr,Channel A,,,KR,,,c/KR,kor,,FALSE,,,http://www.ichannela.com/,https://i.imgur.com/W9laHPD.png
 ChannelAdult.hk,Channel Adult,,,HK,,,c/HK,zho,,FALSE,,,,https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch903_160_115
+ChannelAPlus.kr,Channel A Plus,채널A 플러스,,KR,,,c/KR,kor,,FALSE,,,http://www.channelaplus.com/,https://i.imgur.com/2t4Y5FP.png
 ChannelB.bd,Channel B,,,BD,,,c/BD,ben,,FALSE,,,,
 ChannelC.lk,Channel C,,,LK,,,c/LK,sin,,FALSE,,,http://www.channelc.lk/,https://www.lyngsat.com/logo/tv/cc/channel_c_lk.png
 ChannelCartoon.cn,Channel Cartoon,,,CN,,,c/CN,zho,,FALSE,,,,https://www.lyngsat.com/logo/tv/cc/channel_cartoon_cn.png
@@ -3743,11 +3758,12 @@ CHRODT43.ca,CHRO-DT-43,,CTV 2,CA,CA-ON,Ottawa,s/CA-ON,eng,,FALSE,,,,https://cdn.
 CHTV.cn,CHTV,,,CN,,,c/CN,zho,,FALSE,2013-06-10,,,https://www.lyngsat.com/logo/tv/cc/ch_tv_cn.png
 CHTV.hn,CHTV,,,HN,,,c/HN,spa,,FALSE,2013-06-10,,http://chtv.hn/,https://www.lyngsat.com/logo/tv/cc/ch_tv_hn.png
 ChuckTV.sk,Chuck TV,,,SK,,,c/SK,slk,,FALSE,,,,https://www.sms.cz/kategorie/televize/bmp/loga/velka/chucktv.png
-ChuncheonMBC.kr,Chuncheon MBC,,,KR,,,c/KR,kor,,FALSE,,,http://www.chmbc.co.kr/,https://www.lyngsat.com/logo/tv/mm/mbc-kr.png
+ChuncheonMBCTV.kr,Chuncheon MBC TV,춘천MBC TV,,KR,,,c/KR,kor,,FALSE,1983-01-20,,http://chmbc.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%EC%B6%98%EC%B2%9C%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1.png/512px-%EC%B6%98%EC%B2%9C%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1.png
 ChuttiTV.in,Chutti TV,,,IN,,,c/IN,tam,,FALSE,2007-04-30,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=14&channelname=CHUTTI%20TV&type=1,https://www.lyngsat.com/logo/tv/ss/sun_chutti_tv_in.png
 ChuttiTVMalaysia.my,Chutti TV Malaysia,,,MY,,,c/MY,hin,,FALSE,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=14&channelname=CHUTTI%20TV&type=1,https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/51_144.png
 ChuvashEn.ru,Chuvash En,,,RU,,,c/RU,rus,,FALSE,,,http://www.ntrk21.ru/,https://www.lyngsat.com/logo/tv/cc/chuvash-en-ru.png
 ChveniMagti.ge,Chveni Magti,,,GE,,,c/GE,kat,,FALSE,,,https://www.magticom.ge/,https://www.magticom.ge/images/channels/MjAxOC8wOS8xMC9iMGI1MDM4ZS0zZTFiLTRhNjgtOGRmYy05YzEzNTdmMzJjOGQuanBn.jpg
+ChView.kr,Ch View,채널 뷰,,KR,,,c/KR,kor,,FALSE,2009-01-01,,http://www.imtcast.com/chview/,https://www.lyngsat.com/logo/tv/vv/view_kr.png
 ChW.kr,Ch W,,,KR,,,c/KR,kor,,FALSE,,,http://www.chw.co.kr/,https://www.lyngsat.com/logo/tv/cc/channel_w_kr.png
 CICADT.ca,CICA-DT,,TVO,CA,CA-ON,Toronto,s/CA-ON,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/tvo_2017.png
 CICC.ca,CICC,,CTV,CA,CA-SK,Yorkton,s/CA-SK,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/ctv-2018.png
@@ -3944,8 +3960,8 @@ CIVP.ca,CIVP,,Tele-Quebec,CA,CA-QC,Chapeau,s/CA-QC,eng,,FALSE,,,,https://cdn.tvp
 CIVS.ca,CIVS,,Tele-Quebec,CA,CA-QC,Sherbrooke,s/CA-QC,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/telequebec.png
 CIVV.ca,CIVV,,Tele-Quebec,CA,CA-QC,Chicoutimi,s/CA-QC,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/telequebec.png
 CIWHTV.ca,CIWH-TV,,CTV,CA,CA-SK,Wynyard,s/CA-SK,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/ctv-2018.png
-CJB.kr,CJB,,,KR,,,c/KR,kor,,FALSE,,,https://www.cjb.co.kr/,https://www.lyngsat.com/logo/tv/cc/cjb_kr.png
 CJBR.ca,CJBR,,ICI,CA,CA-QC,Rimouski,s/CA-QC,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/src.png
+CJBTV.kr,CJB TV,,,KR,,,c/KR,kor,,FALSE,1997-10-18,,https://www.cjb.co.kr/,https://i.imgur.com/MvxdZhX.png
 CJCB.ca,CJCB,,CTV,CA,CA-NS,Sydney,s/CA-NS,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/ctv-2018.png
 CJCH.ca,CJCH,,CTV,CA,CA-NS,Halifax,s/CA-NS,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/ctv-2018.png
 CJCHTV1.ca,CJCH-TV-1,,CTV,CA,CA-NS,Canning,s/CA-NS,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/ctv-2018.png
@@ -4125,6 +4141,7 @@ CNDFilmMiddleSchoolChannel.cn,CND Film Middle School Channel,,,CN,,,c/CN,zho,,FA
 CNDFilmOldStoryChannel.cn,CND Film Old Story Channel,,,CN,,,c/CN,zho,,FALSE,,,,https://www.lyngsat.com/logo/tv/cc/cnd-film-old-story-channel-cn.png
 CNDFilmTraveloftheDiscovery.cn,CND Film Travel of the Discovery,,,CN,,,c/CN,zho,,FALSE,,,,https://www.lyngsat.com/logo/tv/cc/cnd-film-travel-of-the-discovery-cn.png
 CNDFilmXinKeDongMan.cn,CND Film XinKe DongMan,,,CN,,,c/CN,zho,,FALSE,,,,https://www.lyngsat.com/logo/tv/cc/cnd-film-xinke-dongman-cn.png
+CNEastTVE.us,Cartoon Network East (TVE Streaming),,,US,,,c/US,eng,kids,FALSE,,,https://www.cartoonnetwork.com/,https://tvtv.us/gn/i/assets/s60048_ll_h15_ac.png?w=180&h=135
 CNET.us,CNET,,,US,,,c/US,eng,,FALSE,,,https://pluto.tv/en/live-tv/cnet,https://images.pluto.tv/channels/56283c8769ba54637dea0464/colorLogoPNG.png
 CNews.fr,C News,,,FR,,,c/FR,fra,,FALSE,,,https://www.cnews.fr/,https://service.canal-overseas.com/image-api/v1/image/f56c976f399ea933a1ae5ad3243d8a52
 CNLAmerica.kz,CNL America,CNL Америка,,KZ,,,r/AMER,kaz,religious,FALSE,,,https://cnl.tv/,https://cnl.tv/sites/all/themes/cnl/logo.png
@@ -4137,7 +4154,6 @@ CNNArabic.us,CNN Arabic,,,AE,,,c/AE,ara,news,FALSE,,,https://arabic.cnn.com/,htt
 CNNBanglaTV.bd,CNN Bangla TV,,,BD,,,c/BD,ben,,FALSE,,,https://cnnbangla.com.bd/,https://www.lyngsat.com/logo/tv/cc/cnn-bangla-tv-us.png
 CNNBrasil.br,CNN Brasil,,,BR,,,c/BR,por,news,FALSE,,,https://www.cnnbrasil.com.br/,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CNN_Brasil.svg/512px-CNN_Brasil.svg.png
 CNNChile.cl,CNN Chile,,,CL,,,c/CL;c/US,spa,news,FALSE,2008-12-04,,https://edition.cnn.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CNN_Chile_logo_2017.svg/512px-CNN_Chile_logo_2017.svg.png
-CNEastTVE.us,Cartoon Network East (TVE Streaming),,,US,,,c/US,eng,kids,FALSE,,,https://www.cartoonnetwork.com/,https://tvtv.us/gn/i/assets/s60048_ll_h15_ac.png?w=180&h=135
 CNNenEspanol.us,CNN en Español,,,US,,,c/US;r/LATAM,spa,news,FALSE,1997-03-19,,https://cnnespanol.cnn.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg/512px-Logo_de_CNN_en_Espa%C3%B1ol_%282010-2015%29.svg.png
 CNNIndonesia.id,CNN Indonesia,,,ID,,,c/ID,ind,news,FALSE,,,https://www.cnnindonesia.com/,https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/CNN_Indonesia.svg/512px-CNN_Indonesia.svg.png
 CNNInternationalAsiaPacific.us,CNN International Asia Pacific,,,US,,,r/APAC,eng;kor,news,FALSE,1989-08-01,,http://cnnasiapacific.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/CNN_International_logo.svg/512px-CNN_International_logo.svg.png
@@ -4152,9 +4168,9 @@ CNNPhilippines.ph,CNN Philippines,,,PH,,,c/PH,eng,news,FALSE,2015-03-16,,https:/
 CNNPortugal.pt,CNN Portugal,,,PT,,,c/PT,por,news,FALSE,2009-02-26,,http://www.cnnportugal.pt/,https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/CNN_Portugal.svg/512px-CNN_Portugal.svg.png
 CNNPrimaNews.cz,CNN Prima News,,,CZ,,,c/CZ,ces,news,FALSE,,,https://cnn.iprima.cz/,https://i.imgur.com/elZyUjX.png
 CNNTurk.tr,CNN Türk,,,TR,,,c/TR,tur,news,FALSE,1999-10-11,,https://www.cnnturk.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/CNN_T%C3%BCrk_logo.svg/512px-CNN_T%C3%BCrk_logo.svg.png
-CNWestTVE.us,Cartoon Network West (TVE Streaming),,,US,,,c/US,eng,kids,FALSE,,,https://www.cartoonnetwork.com/,https://tvtv.us/gn/i/assets/s60048_ll_h15_ac.png?w=180&h=135
 CNRMall.cn,CNR Mall,,,CN,,,c/CN,zho,,FALSE,,,https://www.cnrmall.com/,https://www.lyngsat.com/logo/tv/cc/cnr_mall_cn.png
 CNTV.pe,Cable Netword TV,,,PE,,,c/PE,spa,,FALSE,,,,https://graph.facebook.com/limanortenoticias3/picture?width=320&height=320
+CNWestTVE.us,Cartoon Network West (TVE Streaming),,,US,,,c/US,eng,kids,FALSE,,,https://www.cartoonnetwork.com/,https://tvtv.us/gn/i/assets/s60048_ll_h15_ac.png?w=180&h=135
 Cocoro.us,Cocoro,,,US,,,c/US,eng,kids,FALSE,,,,https://i.imgur.com/Z4hIjPn.jpg
 CocukSmart.tr,Çocuk Smart,,,TR,,,c/TR,tur,,FALSE,,,https://www.dsmart.com.tr/,https://www.dsmart.com.tr/epg/images/0x50/59f972f5cfef0b75f4723f9d
 CodeFashionTV.bg,Code Fashion TV,,,BG,,,c/BG,bul,,FALSE,,,https://tv.codefashion.bg/,https://www.lyngsat.com/logo/tv/cc/code-fashion-bg.png
@@ -4431,11 +4447,11 @@ CTNCourtFeed.us,CT-N Court Feed,,,US,,,c/US,eng,,FALSE,,,,https://i.imgur.com/He
 CTNLifestyle.us,CTN Lifestyle,,,US,,,c/US,eng,,FALSE,,,http://www.ctnlifestyle.com/,https://www.lyngsat.com/logo/tv/cc/ctn_us_lifestyle.png
 CTNLiveStream2.us,CT-N Live Stream 2,,,US,,,c/US,eng,,FALSE,,,,https://i.imgur.com/He6Ugfn.jpg
 CTNTVConneticut.us,CT-N TV Conneticut,,,US,,,c/US,eng,,FALSE,,,,https://i.imgur.com/pb0TFQt.jpg
-CTS.kr,CTS,,,KR,,,c/KR,kor,,FALSE,,,http://www.cts.tv/,https://www.directv.com/images/logos/channels/dark/large/671.png
 CTS.tw,CTS,,,TW,,,c/TW,zho,,FALSE,,,https://www.cts.com.tw/,https://www.lyngsat.com/logo/tv/cc/cts_tw.png
 CTSIQ.tw,CTS IQ,,,TW,,,c/TW,zho,,FALSE,,,https://www.cts.com.tw/,https://www.lyngsat.com/logo/tv/cc/cts_iq_channel.png
 CTSNews.tw,CTS News,,,TW,,,c/TW,zho,news,FALSE,,,https://www.cts.com.tw/,https://piceltaott-elta.cdn.hinet.net/upload/channel/910.png
 CTSport.cz,CT Sport,,,CZ,,,c/CZ,ces,,FALSE,,,https://www.ceskatelevize.cz/sport/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/ct4.png
+CTSTV.kr,CTS TV,CTS기독교TV,,KR,,,c/KR,kor,religious,FALSE,1995-12-01,,http://www.cts.tv/,https://upload.wikimedia.org/wikipedia/commons/7/7a/CTS%EA%B8%B0%EB%8F%85%EA%B5%90TV.png
 CTV.bo,CTV Canal 38 Digital,,,BO,,Viacha,c/BO,spa,,FALSE,,,,
 CTV.ca,CTV,,,CA,,,c/CA,eng,,FALSE,,,,https://i.imgur.com/nfcjHAW.png
 CTV.tw,CTV,,,TW,,,c/TW,zho,,FALSE,,,http://new.ctv.com.tw/,https://www.lyngsat.com/logo/tv/cc/ctv_tw.png
@@ -4542,6 +4558,9 @@ Dabangg.in,Dabangg,,,IN,,,c/IN,hin,entertainment,FALSE,,,http://www.dabangg.tv/,
 DabeiTV.de,Dabei TV,,,DE,,,c/DE,deu,,FALSE,,,https://www.dabei-tv.de/,https://i.imgur.com/KJbLcqW.png
 Dabl.us,Dabl,,,US,,,c/US,eng,lifestyle,FALSE,,,https://pluto.tv/en/live-tv/dabl,https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-states/dabl-us.png
 Dacha.ua,Dacha,,,UA,,,c/UA;c/RU,ukr;rus,,FALSE,,,https://korysnetv.com/telekanaly/dacha,https://www.lyngsat.com/logo/tv/dd/dacha_tv_ua.png
+DaeguMBCTV.kr,Daegu MBC TV,대구MBC TV,,KR,,,c/KR,kor,,FALSE,1970-07-18,,https://dgmbc.com/,https://i.imgur.com/ZhNhS5H.png
+DaejeonMBCTV.kr,Daejeon MBC TV,대전MBC TV,,KR,,,c/KR,kor,,FALSE,1971-04-24,,https://tjmbc.co.kr/,https://i.imgur.com/HCbvAiM.png
+DaekyoKidsTV.kr,Daekyo Kids TV,대교어린이TV,,KR,,,c/KR,kor,kids,FALSE,1995-03-01,,http://www.kids17.net/,https://i.imgur.com/mtREJdH.png
 Dagestan.ru,Dagestan,,,RU,RU-DA,,c/RU,rus,,FALSE,,,,https://rgvktv.ru/templates/gk_gamenews_new/images/footer-logo.png
 Dajto.sk,Dajto,,,SK,,,c/SK,slk,,FALSE,2012-08-20,,http://dajto.markiza.sk/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/dajto.png
 DakarTVInternational.sn,Dakar TV International,,,SN,,,c/SN,fra,,FALSE,,,,https://www.lyngsat.com/logo/tv/dd/dakar-tv-international-sn.png
@@ -4714,6 +4733,7 @@ DesiBeatsHD.in,Desi Beats HD,,,IN,,,c/IN,hin,,FALSE,,,,
 DesiChannel.in,Desi Channel,,,IN,,,c/IN,hin,music,FALSE,,,,
 DesiPlus.in,Desi Plus,,,IN,,,c/IN,hin,,FALSE,,,,
 Desire.al,Desire,,,AL,,,c/AL,sqi,xxx,TRUE,,,http://www.tring.al/,https://www.tring.al/wp-content/uploads/2018/12/desire.png
+DesireTV.kr,Desire TV,,,KR,,,c/KR,kor,xxx,TRUE,,,http://www.desiretv.co.kr/,https://i.imgur.com/i9VCW5k.png
 DestinationAmerica.us,Destination America,,,US,,,c/US,eng,,FALSE,,,http://www.destinationamerica.com/,https://www.directv.com/images/logos/channels/dark/large/333.png
 DestinationTV.us,Destination TV,,,US,,,c/US,eng,,FALSE,,,,https://i.imgur.com/1lBeOHC.png
 DetskiMir.ru,Detski Mir,,,RU,,,c/RU,rus,,FALSE,,,https://www.rtvi.com/,https://www.lyngsat.com/logo/tv/dd/detski_mir_ru.png
@@ -5253,17 +5273,16 @@ EBrasil.br,E! Brasil,,,BR,,,c/BR,por,,FALSE,,,http://br.eonline.com/,https://cdn
 EbruTV.ke,Ebru TV,,,KE,,,c/KE,eng,general,FALSE,,,http://www.ebru.co.ke/,https://kenyatv.tech/wp-content/uploads/2020/11/download-1.jpg
 EbS.be,EbS,,,BE,,,c/BE,eng;fra;deu;ita;spa;ell;por;nld;dan;fin;swe;ces;est;lav;lit;hun;mlt;pol;slk;slv;bul;ron;gle;hrv;ukr,,FALSE,,,https://audiovisual.ec.europa.eu/,https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ebs.png
 EBS.us,EBS,,,US,,,c/US,amh,,FALSE,,,http://ebstv.tv/,https://rndcdn.dstv.com/dstvcms/2017/12/01/DStv_EBS_logoNew_4-3_001_xlrg.png
-EBS1.kr,EBS 1,,,KR,,,c/KR,kor,,FALSE,,,https://www.ebs.co.kr/tv/home,https://global.ebs.co.kr/global/img/sub/Channels_ebs1.png
-EBS2.kr,EBS 2,,,KR,,,c/KR,kor,,FALSE,,,,https://i.imgur.com/7K7zmoE.png
+EBS1TV.kr,EBS 1TV,,,KR,,,c/KR,kor,,FALSE,2015-02-11,,https://www.ebs.co.kr/tv/home,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/512px-EBS_1TV_Logo.svg.png
+EBS2TV.kr,EBS 2TV,,,KR,,,c/KR,kor,,FALSE,2015-02-11,,http://www.ebs.co.kr/ebs2tv/introduce,https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/EBS_2TV_Logo.svg/512px-EBS_2TV_Logo.svg.png
 EBSAmerica.us,EBS America,,,US,,,c/US,kor,,FALSE,,,https://www.ebs.co.kr/tv/home,https://www.directv.com/images/logos/channels/dark/large/259.png
 EBSCinema.us,EBS Cinema,,,US,,,c/US,amh,,FALSE,,,http://ebstv.tv/,https://www.lyngsat.com/logo/tv/ee/ebs_us_cinema.png
-EBSe.kr,EBS e,,,KR,,,c/KR,kor,,FALSE,,,,https://i.imgur.com/7K7zmoE.png
-EBSEnglish.kr,EBS English,,,KR,,,c/KR,eng;kor,,FALSE,,,http://www.ebse.co.kr/,https://www.lyngsat.com/logo/tv/ee/ebs-english-kr.png
-EBSKIDS.kr,EBS KIDS,,,KR,,,c/KR,kor,kids,FALSE,,,,https://global.ebs.co.kr/global/img/sub/Channels_IPTV_04.png
+EBSEnglish.kr,EBS English,,,KR,,,c/KR,eng;kor,,FALSE,2007-04-06,,http://www.ebse.co.kr/,https://i.imgur.com/qceaIf7.png
+EBSKids.kr,EBS Kids,EBS 키즈,,KR,,,c/KR,kor,kids,FALSE,2018-01-01,,http://www.ebs.co.kr/kids,https://i.imgur.com/62oo8Bx.png
 EBSMusika.us,EBS Musika,,,US,,,c/US,amh,,FALSE,,,http://ebstv.tv/,https://www.lyngsat.com/logo/tv/ee/ebs_us_musika.png
 EbSPlus.be,EbS+,,,BE,,,c/BE,eng;fra;deu;ita;spa;ell;por;nld;dan;fin;swe;ces;est;lav;lit;hun;mlt;pol;slk;slv;bul;ron;gle;hrv;mkd;srp;sqi;bos,,FALSE,,,https://audiovisual.ec.europa.eu/,https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/ebs.png
-EBSPlus1.kr,EBS Plus 1,,,KR,,,c/KR,kor,,FALSE,,,https://www.ebs.co.kr/tv/home,https://i.imgur.com/7K7zmoE.png
-EBSPlus2.kr,EBS Plus 2,,,KR,,,c/KR,eng;kor,,FALSE,,,https://www.ebs.co.kr/tv/home,https://i.imgur.com/7K7zmoE.png
+EBSPlus1.kr,EBS Plus 1,EBS 플러스 1,,KR,,,c/KR,kor,,FALSE,2002-03-01,,http://www.ebsi.co.kr/,https://i.imgur.com/ImUHRG2.png
+EBSPlus2.kr,EBS Plus 2,EBS 플러스 2,,KR,,,c/KR,eng;kor,,FALSE,2002-03-01,,http://www.ebsi.co.kr/,https://i.imgur.com/mgFRZFq.png
 ECanada.ca,E! Canada,,,CA,,,c/CA,eng,,FALSE,,,http://www.eonline.com/,https://cdn.tvpassport.com/image/station/100x100/eentertain.png
 EcclesiaTV.ci,Ecclesia TV,,,CI,,,c/CI,fra,,FALSE,,,,https://service.canal-overseas.com/image-api/v1/image/2d82f112456432d9d5fb141dc4bf8421
 EChannel.kr,E Channel,,,KR,,,c/KR,kor,,FALSE,,,http://www.imtcast.com/echannel/,https://www.lyngsat.com/logo/tv/ee/e_channel_kr.png
@@ -5294,7 +5313,7 @@ EdgeSport.uk,Edge Sport,,,UK,,,c/UK,eng,,FALSE,,,https://www.edgesport.com/,http
 EDGESport.us,EDGESport,,,US,,,c/UK,eng,sports,FALSE,,,,https://od.lk/s/MF8yMzA3OTUzMjhf/EdgeSport_400x400.png
 EDGEsports.uk,EDGEsport,,,UK,,,c/US,eng,sports,FALSE,,,,https://static1.squarespace.com/static/5a6f534f017db2d628751be1/t/5a6f5557652deada67290f54
 EDGEsportSTIRR.uk,EDGEsport STIRR,,,UK,,,c/US,eng,sports,FALSE,,,,https://i1.wp.com/www.broadbandtvnews.com/wp-content/uploads/2019/11/EDGEsport-logo-2019.png
-EdgeTV.kr,Edge TV,,,KR,,,c/KR,kor,,FALSE,,,http://www.edgetv.co.kr/,https://www.lyngsat.com/logo/tv/ee/edge_tv_kr.png
+EdgeTV.kr,Edge TV,,,KR,,,c/KR,kor,,FALSE,,,http://www.edgetv.co.kr/,https://i.imgur.com/PtdRLo6.png
 EDNTV.hn,EDN TV,,,HN,,,c/HN,spa,,FALSE,,,https://edntvhn.com/,https://i.imgur.com/Dq9we3E.png
 EducationChannel.mm,Education Channel,,,MM,,,c/MM,mya,,FALSE,,,http://www.moe.gov.mm/,https://www.lyngsat.com/logo/tv/ee/education-channel-mm.png
 EducaTV.ec,EducaTV,,,EC,,,c/EC,spa,education,FALSE,,,,
@@ -6449,6 +6468,7 @@ FunnyorDie.us,Funny or Die,,,US,,,c/US,eng,comedy,FALSE,,,,https://i.imgur.com/P
 Funoon.kw,Funoon,,,KW,,,c/KW,ara,entertainment,FALSE,,,,
 FunoonTV.kw,Funoon TV,,,KW,,,c/KW,ara,,FALSE,2006-01-01,,,https://www.lyngsat.com/logo/tv/ff/funoon_tv_kw.png
 FunRoads.us,Fun Roads,,,US,,,c/US,eng,travel,FALSE,,,,https://funroads.tv/wp-content/uploads/fun-roads-header-horizontal-1.png
+FunTV.kr,Fun TV,,,KR,,,c/KR,eng,entertainment,FALSE,,,http://funtv2.com/,https://i.imgur.com/9rfo7O3.png
 FuseBeat.us,Fuse Beat,,,US,,,c/US,eng,entertainment,FALSE,,,https://pluto.tv/en/live-tv/fuse-beat,https://images.pluto.tv/channels/6176fddda3a6160007f60433/colorLogoPNG.png
 FuseEast.us,Fuse East,,,US,,,c/US,eng,,FALSE,,,https://www.fuse.tv/,https://i.imgur.com/mijRpPQ.jpg
 FuseWest.us,Fuse West,,,US,,,c/US,eng,,FALSE,,,https://www.fuse.tv/,https://cdn.tvpassport.com/image/station/100x100/fuse-2018.png
@@ -6488,7 +6508,7 @@ FXXEast.us,FXX East,,,US,,,c/US,eng,,FALSE,,,https://www.fxnetworks.com/fxx,http
 FXXWest.us,FXX West,,,US,,,c/US,eng,,FALSE,,,https://www.fxnetworks.com/fxx,https://cdn.tvpassport.com/image/station/100x100/fxx.png
 FYIEast.us,FYI East,,,US,,,c/US,eng,,FALSE,,,http://www.fyi.tv/,https://zap2it.tmsimg.com/h3/NowShowing/16834/s16834_h3_aa.png
 FYIWest.us,FYI West,,,US,,,c/US,eng,,FALSE,,,http://www.fyi.tv/,https://cdn.tvpassport.com/image/station/100x100/fyi.png
-G1.kr,G1,,,KR,,,c/KR,kor,,FALSE,,,http://www.g1tv.co.kr/,https://www.lyngsat.com/logo/tv/gg/g1_kr.png
+G1TV.kr,G1 TV,G1방송 TV,,KR,,,c/KR,kor,,FALSE,2001-12-15,,http://www.g1tv.co.kr/,https://i.imgur.com/TYYffUe.png
 G4Select.us,G4 Select,,,US,,,c/US,eng,animation,FALSE,,,https://pluto.tv/en/live-tv/g4-select,https://images.pluto.tv/channels/61e718a821a4d20007c608ff/colorLogoPNG.png
 GaanBangla.bd,Gaan Bangla,,,BD,,,c/BD,ben,music,FALSE,2013-12-16,,http://www.gaanbangla.tv/,https://i.imgur.com/dxaZN57.png
 Gabon1ere.ga,Gabon 1ère,,,GA,,,c/GA,fra,,FALSE,,,https://gabontelevisions.ga/gabon-premiere,https://service.canal-overseas.com/image-api/v1/image/8c918e5682c2e45b52416b9464bc2d2c
@@ -6560,10 +6580,8 @@ GBSTV.ke,GBS TV,,,KE,,,c/KE,eng,general,FALSE,,,http://www.gbskenya.com/,https:/
 GCJOShopping.th,GCJ O Shopping,,,TH,,,c/TH,kor,,FALSE,,,,https://www.lyngsat.com/logo/tv/gg/gcj-o-shopping-kr-th.png
 GCJOShopping2.th,GCJ O Shopping 2,,,TH,,,c/TH,kor,,FALSE,,,,https://www.lyngsat.com/logo/tv/gg/gcj-o-shopping-kr-th.png
 GCMTV.es,GCM TV,,,ES,,,c/ES,spa,,FALSE,,,,
-GCN.kr,GCN,,,KR,,,c/KR,kor,,FALSE,,,,https://i.imgur.com/QUxuHA1.png
-GCN24English.kr,GCN24 English,,,KR,,,c/KR,kor,,FALSE,,,,https://i.imgur.com/QUxuHA1.png
-GCN24Korean.kr,GCN24 Korean,,,KR,,,c/KR,kor,,FALSE,,,,https://i.imgur.com/QUxuHA1.png
-GCNKorea.kr,GCN Korea,,,KR,,,c/KR,eng,,FALSE,,,http://www.gcntv.org/,https://www.lyngsat.com/logo/tv/gg/global_christian_network_kr.png
+GCN.kr,GCN,GCN 방송,,KR,,,c/KR,kor,religious,FALSE,,,http://www.gcntv.org/,https://i.imgur.com/QUxuHA1.png
+GCNAmerica.us,GCN America,,,US,,,c/US,eng,religious,FALSE,,,http://www.gcntv.us/,https://i.imgur.com/kc9PZPE.png
 GDMTV.do,GDMTV,,,DO,,,c/DO,spa,,FALSE,,,,https://i0.wp.com/www.gdm.do/wp-content/uploads/2020/01/Logo-GDM.png?w=696&ssl=1
 GDNSLudhiana.in,GDNS Ludhiana,,,IN,,,c/IN,hin,,FALSE,,,,
 GDSTV.ge,GDS TV,,,GE,,,c/GE,kat,,FALSE,,,,https://www.magticom.ge/images/channels/MjAyMS8wMy8wNC9kMGI2ZTA3Yi05ZjU5LTQzMWEtYmViZi1hMTA4YzZkMmQ1NmNHRFNfLS1fNTYwX3hfNDA4LnBuZw==.jpg
@@ -7493,7 +7511,8 @@ HustlerTVUSA.us,Hustler TV USA,,,US,,,c/US,eng,xxx,TRUE,,,https://www.hardcorego
 HuzurTV.tj,Huzur TV,,,TJ,,,c/TJ,rus,,FALSE,,,,https://i.imgur.com/Abg1fct.png
 HwazanSatelliteTV.tw,Hwazan Satellite TV,,,TW,,,c/TW,zho,religious,FALSE,,,https://www.hwazan.org/,https://www.lyngsat.com/logo/tv/hh/hwazan_tv.png
 HypeTV.rs,Hype TV,,,RS,,,c/RS,srp,,FALSE,1999-01-01,,http://www.hypetvjam.com/,https://mtel.ba/oec/images/tv_channels/207978c736632fd50de462ffa05b9158.png
-HyundaiHomeShopping.kr,Hyundai Home Shopping,,,KR,,,c/KR,kor,,FALSE,,,https://www.hmall.com/,https://www.lyngsat.com/logo/tv/hh/hyundai_home_shopping_plus.png
+HyundaiHomeShopping.kr,Hyundai Home Shopping,,,KR,,,c/KR,kor,,FALSE,,,https://www.hmall.com/,https://i.imgur.com/NJpECmq.png
+HyundaiHomeShoppingPlusShop.kr,Hyundai Home Shopping + Shop,현대홈쇼핑+샵,,KR,,,c/KR,kor,,FALSE,,,https://www.hmall.com/,https://i.imgur.com/DoNOuZE.png
 HyundaiMall.kr,Hyundai Mall,,,KR,,,c/KR,kor,,FALSE,,,https://www.hmall.com/,https://www.lyngsat.com/logo/tv/hh/hyundai_home_shopping.png
 I24NewsArabic.il,I24 News Arabic,,,IL,,,c/IL,ara,news,FALSE,,,https://www.i24news.tv/ar/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/440px-LOGO_i24NEWS.png
 I24NewsEnglish.il,I24 News English,,,IL,,,c/IL,eng,news,FALSE,,,https://www.i24news.tv/en/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/LOGO_i24NEWS.png/440px-LOGO_i24NEWS.png
@@ -7685,7 +7704,7 @@ IndiaTodayInternational.in,India Today International,,,IN,,,c/IN,eng,,FALSE,,,ht
 IndiaTV.in,India TV,,,IN,,,c/IN,hin,,FALSE,,,https://www.indiatvnews.com/,https://i.imgur.com/IYXrLPs.png
 Indiavision.in,Indiavision,,,IN,,,c/IN,mal,,FALSE,2003-07-14,2015-03-31,,https://www.lyngsat.com/logo/tv/ii/indiavision.png
 IndiaVoice.in,India Voice,,,IN,,,c/IN,hin,,FALSE,,,,https://www.lyngsat.com/logo/tv/ii/india_voice_in.png
-IndieFilm.kr,Indie Film,,,KR,,,c/KR,kor,,FALSE,,,,https://www.lyngsat.com/logo/tv/ii/indie-film-kr.png
+IndieFilm.kr,Indie Film,,,KR,,,c/KR,kor,,FALSE,2010-01-01,,http://www.indiefilm.kr/,https://i.imgur.com/hcJ7yAX.png
 IndiePlexEast.us,IndiePlex East,,,US,,,c/US,eng;spa,,FALSE,,,https://www.starz.com/,https://cdn.tvpassport.com/image/station/100x100/indiexplex.png
 IndiePlexWest.us,IndiePlex West,,,US,,,c/US,eng;spa,,FALSE,,,https://www.starz.com/,https://cdn.tvpassport.com/image/station/100x100/indiexplex.png
 IndigenousTV.tw,Indigenous TV,,,TW,,,c/TW,zho,,FALSE,,,,https://i.imgur.com/RuAYuSM.png
@@ -7980,7 +7999,7 @@ JeevanTV.in,Jeevan TV,,,IN,,,c/IN,mal,,FALSE,2002-07-14,,http://jeevannewsonline
 JehovahTV.in,Jehovah TV,,,IN,,,c/IN,hin,,FALSE,,,,https://www.lyngsat.com/logo/tv/jj/jehovah-tv-in.png
 JEIEnglishTV.kr,JEI English TV,,,KR,,,c/KR,eng,,FALSE,,,http://www.ienglishtv.com/,https://www.lyngsat.com/logo/tv/jj/jei-english-tv-kr.png
 JEITalentTV.kr,JEI Talent TV,,,KR,,,c/KR,kor,,FALSE,,,http://www.jeitv.com/,https://www.lyngsat.com/logo/tv/jj/jei_talent_tv_kr.png
-JejuMBC.kr,Jeju MBC,,,KR,,,c/KR,kor,,FALSE,,,http://www.jejumbc.com/,https://www.lyngsat.com/logo/tv/mm/mbc_kr_jeju.png
+JejuMBCTV.kr,Jeju MBC TV,제주MBC TV,,KR,,,c/KR,kor,,FALSE,1970-08-01,,https://jejumbc.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/%EC%A0%9C%EC%A3%BC%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1_%EB%A1%9C%EA%B3%A0.png/512px-%EC%A0%9C%EC%A3%BC%EB%AC%B8%ED%99%94%EB%B0%A9%EC%86%A1_%EB%A1%9C%EA%B3%A0.png
 Jeka.rs,Jeka,,,RS,,,c/RS,srp,,FALSE,,,https://www.muzzik.tv/,https://mts.rs/oec/images/tv_channels/392140e78677242c30b796868ca05dc7.jpg
 JenaTV.de,JenaTV,,,DE,,,c/DE,deu,,FALSE,,,,https://i.imgur.com/o3D4bQI.png
 Jendela.id,Jendela,,,ID,,,c/ID,ind,,FALSE,,,https://www.transvision.co.id/,https://www.lyngsat.com/logo/tv/jj/jendela_id.png
@@ -8011,8 +8030,7 @@ JiangsuTV.cn,Jiangsu TV,,,CN,,,c/CN,zho,,FALSE,,,http://www.jstv.com/,https://rn
 JiangsuTVInternational.cn,Jiangsu TV International,,,CN,,,c/CN,zho,,FALSE,,,http://www.jstv.com/,https://www.lyngsat.com/logo/tv/jj/jiangsu-tv-international-cn.png
 JiangxiTV.cn,Jiangxi TV,,,CN,,,c/CN,zho,,FALSE,,,http://www.jxntv.cn/,https://i.imgur.com/g1l7umG.png
 JiaYouHomeShopping.cn,Jia You Home Shopping,,,CN,,,c/CN,zho,,FALSE,,,http://www.jiayougo.com/,https://www.lyngsat.com/logo/tv/jj/jiayou_home_shopping_cn.png
-JIBS.kr,JIBS,,,KR,,,c/KR,kor,,FALSE,,,http://www.jibs.co.kr/,https://www.lyngsat.com/logo/tv/jj/jibs-kr.png
-JIBSSBS.kr,JIBS SBS,,,KR,,,c/KR,kor,,FALSE,,,,https://i.imgur.com/lu1lfZG.png
+JIBSTV.kr,JIBS TV,,,KR,,,c/KR,kor,,FALSE,2002-05-31,,http://www.jibs.co.kr/,https://i.imgur.com/RVWpBoz.png
 JidaigekiSenmonChannel.jp,Jidaigeki Senmon Channel,,,JP,,,c/JP,jpn,,FALSE,,,http://www.jidaigeki.com/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-159-400x400.png
 JilinBasketballChannel.cn,Jilin Basketball Channel,,,CN,,,c/CN,zho,,FALSE,,,http://www.jilintv.cn/,https://www.lyngsat.com/logo/tv/jj/jilin-basketball-channel-cn.png
 JilinTVStation.cn,Jilin TV Station,,,CN,,,c/CN,zho,,FALSE,,,http://www.jilintv.cn/,https://i.imgur.com/USApoAB.png
@@ -8034,6 +8052,7 @@ JMLDirect.uk,JML Direct,,,UK,,,c/UK,eng,,FALSE,,,https://www.jmldirect.com/,http
 JMovie.in,J Movie,,,IN,,,c/IN,tam,,FALSE,,,http://jayamovies.jayatvnetwork.com/,https://www.lyngsat.com/logo/tv/jj/jaya_in_movie.png
 JN19.pe,JN 19,,,PE,,,c/PE,spa,religious,FALSE,,,http://www.jn19television.com/,https://graph.facebook.com/canaljn19tv/picture?width=320&height=320
 JNETV.pe,JNE TV,,,PE,,,c/PE,spa,legislative,FALSE,,,,https://graph.facebook.com/JNE.Peru/picture?width=320&height=320
+JNGKorea.kr,JNG Korea,,,KR,,,c/KR,kor,,FALSE,2021-05-01,,http://jngkorea.com/,https://i.imgur.com/dmfpy7T.png
 JNNNewsHD.pk,JNN News HD,,,PK,,,c/PK,eng,,FALSE,,,https://www.jnnnewstv.com/,https://www.lyngsat.com/logo/tv/jj/jnn-news-hd-pk.png
 JOAXDTV.jp,JOAXD-TV,,,JP,,,c/JP,jpn,,FALSE,,,,https://i.imgur.com/vgEnHX6.png
 JOAYDTV.jp,ABC Asahi Broadcasting,,,JP,,,c/JP,jpn,,FALSE,,,https://www.asahi.co.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7FD3-061-400x400.png
@@ -8090,7 +8109,7 @@ JTBC2.kr,JTBC 2,,,KR,,,c/KR,kor,,FALSE,,,http://jtbc2.joins.com/,https://www.lyn
 JTBCGolf.kr,JTBC Golf,,,KR,,,c/KR,kor,,FALSE,,,http://jtbcgolf.joins.com/,https://www.lyngsat.com/logo/tv/jj/jtbc_kr_golf.png
 JTBCGolfSports.kr,JTBC Golf & Sports,,,KR,,,c/KR,kor,,FALSE,,,http://jtbcgolfnsports.joins.com/,https://www.lyngsat.com/logo/tv/jj/jtbc-golf-and-sports-kr.png
 JTV.id,JTV,,,ID,,,c/ID,ind,,FALSE,,,,https://www.lyngsat.com/logo/tv/jj/jtv_id.png
-JTV.kr,JTV,,,KR,,,c/KR,kor,,FALSE,,,http://www.jtv.co.kr/,https://www.lyngsat.com/logo/tv/jj/jtv_kr.png
+JTV.kr,JTV,,,KR,,,c/KR,kor,,FALSE,1997-09-27,,http://www.jtv.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Jtv_logo.svg/512px-Jtv_logo.svg.png
 JTVEthiopia.et,JTV Ethiopia,,,ET,,,c/ET,amh,,FALSE,2016-01-01,,,https://www.lyngsat.com/logo/tv/jj/jtv-ethiopia-et.png
 JubbalandTV.so,Jubbaland TV,,,SO,,,c/SO,som,,FALSE,,,http://jubalandtv.net/,https://www.lyngsat.com/logo/tv/jj/jubaland_tv_so.png
 JuceTV.us,Juce TV,,,US,,,c/US,eng,,FALSE,,,https://www.jucetv.com/,https://www.lyngsat.com/logo/tv/jj/juce-tv-us.png
@@ -9046,7 +9065,7 @@ KBABLD1.us,KBAB-LD1,,PBS,US,US-CA,Santa Barbara,s/US-CA,eng,,FALSE,,,,https://cd
 KBABLD2.us,KBAB-LD2,,PBS Plus,US,US-CA,Santa Barbara,s/US-CA,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/pbs.png
 KBABLD3.us,KBAB-LD3,,Daystar,US,US-CA,Santa Barbara,s/US-CA,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/daystar_tv.png
 KBABLD4.us,KBAB-LD4,,PBS World,US,US-CA,Santa Barbara,s/US-CA,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/pbsworldchannel.png
-KBaduk.kr,K-Baduk,,,KR,,,c/KR,kor,,FALSE,,,https://www.kbaduk.com/,https://www.lyngsat.com/logo/tv/kk/k-baduk-kr.png
+KBaduk.kr,K-Baduk,K-바둑,,KR,,,c/KR,kor,,FALSE,,,https://www.kbaduk.com/,https://i.imgur.com/bpLcGKI.png
 KBAKDT1.us,KBAK-DT1,,CBS,US,US-CA,Bakersfield,s/US-CA,eng,,FALSE,,,http://www.bakersfieldnow.com/,https://cdn.tvpassport.com/image/station/100x100/cbs.png
 KBAKDT2.us,KBAK-DT2,,FOX,US,US-CA,Bakersfield,s/US-CA,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/foxcable.png
 KBAKDT3.us,KBAK-DT3,,CHARGE!,US,US-CA,Bakersfield,s/US-CA,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/chargenetwork.png
@@ -9057,7 +9076,6 @@ KBAXLD4.us,KBAX-LD4,,Decades,US,US-ID,Twin Falls,s/US-ID,eng,,FALSE,,,,https://c
 KBAXLD5.us,KBAX-LD5,,Movies!,US,US-ID,Twin Falls,s/US-ID,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/movies.png
 KBBVCD1.us,KBBV-CD1,,Estrella,US,US-CA,Bakersfield,s/US-CA,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/estrella.png
 KBC.ke,KBC,,,KE,,,c/KE,eng,general,FALSE,,,,https://kenyatv.tech/wp-content/uploads/2021/04/KBC-1.jpg
-KBC.kr,KBC,,,KR,,,c/KR,kor,,FALSE,,,http://www.ikbc.co.kr/,https://www.lyngsat.com/logo/tv/kk/kwangju_broadcasting_company_kr.png
 KBCADT1.us,KBCA-DT1,,H&I,US,US-LA,Alexandria,s/US-LA,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/heroesicons.png
 KBCADT2.us,KBCA-DT2,,Antenna,US,US-LA,Alexandria,s/US-LA,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/antenna-tv.png
 KBCADT3.us,KBCA-DT3,,H&I,US,US-LA,Alexandria,s/US-LA,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/heroesicons.png
@@ -9066,6 +9084,7 @@ KBCBDT2.us,KBCB-DT2,,SonLife,US,US-WA,Bellingham,s/US-WA,eng,,FALSE,,,,https://c
 KBCBDT3.us,KBCB-DT3,,QVC,US,US-WA,Bellingham,s/US-WA,eng,,FALSE,,,,
 KBCBDT4.us,KBCB-DT4,,Jewelry TV,US,US-WA,Bellingham,s/US-WA,eng,,FALSE,,,,
 KBCChannel1.ke,KBC Channel 1,,,KE,,,c/KE,eng,,FALSE,,,https://www.kbc.co.ke/,https://rndcdn.dstv.com/dstvcms/2018/07/09/KBC1_logo_4-3_001_xlrg.png
+KBCTV.kr,KBC TV,,,KR,,,c/KR,kor,,FALSE,1995-05-14,,http://www.ikbc.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/KBC_Gwangju_Broadcasting_logo.svg/512px-KBC_Gwangju_Broadcasting_logo.svg.png
 KBCWDT1.us,KBCW-DT1,,CW,US,US-CA,San Francisco,s/US-CA,eng,,FALSE,,,https://cwsanfrancisco.cbslocal.com/,https://cdn.tvpassport.com/image/station/100x100/cw.png
 KBCWDT2.us,KBCW-DT2,,Comet TV,US,US-CA,San Francisco,s/US-CA,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/comet.png
 KBCWDT3.us,KBCW-DT3,,MeTV,US,US-CA,San Francisco,s/US-CA,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/metv.png
@@ -9167,11 +9186,12 @@ KBPXLD5.us,KBPX-LD5,,GEB America,US,US-TX,Houston,s/US-TX,eng,,FALSE,,,,https://
 KBPXLD6.us,KBPX-LD6,,The Country Network,US,US-TX,Houston,s/US-TX,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/tcn-country.png
 KBRRDT1.us,KBRR-DT1,,FOX,US,US-ND,Thief River Falls,s/US-ND,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/foxcable.png
 KBRRDT2.us,KBRR-DT2,,Antenna,US,US-ND,Thief River Falls,s/US-ND,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/antenna-tv.png
-KBS1TV.kr,KBS 1 TV,,,KR,,,c/KR,kor,,FALSE,,,https://www.kbs.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/langfr-220px-KBS_1_logo.svg.png
-KBS1TVGangneung.kr,KBS 1 TV Gangneung,,,KR,,,c/KR,kor,,FALSE,,,http://gangneung.kbs.co.kr/,https://www.lyngsat.com/logo/tv/kk/kbs-1-tv-kr.png
-KBS2TV.kr,KBS 2 TV,,,KR,,,c/KR,kor,,FALSE,,,https://www.kbs.co.kr/,https://www.lyngsat.com/logo/tv/kk/kbs-2-tv-kr.png
+KBS1TV.kr,KBS 1TV,KBS 제1텔레비전,,KR,,,c/KR,kor,,FALSE,1980-12-01,,http://drama.kbs.co.kr/m/,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/512px-KBS_1_logo.svg.png
+KBS1TVGangneung.kr,KBS 1TV Gangneung,,,KR,,,c/KR,kor,,FALSE,,,http://gangneung.kbs.co.kr/,https://www.lyngsat.com/logo/tv/kk/kbs-1-tv-kr.png
+KBS24News.kr,KBS 24 News,KBS 24시 뉴스,,KR,,,c/KR,kor,news,FALSE,2010-03-03,2021-07-18,http://news.kbs.co.kr/common/news24.html,https://i.imgur.com/3KQNaO6.png
+KBS2TV.kr,KBS 2TV,KBS 제2텔레비전,,KR,,,c/KR,kor,,FALSE,1980-12-01,,http://drama.kbs.co.kr/m/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/KBS_2_logo.svg/512px-KBS_2_logo.svg.png
 KBSDDT1.us,KBSD-DT1,,CBS,US,US-KS,Dodge City,s/US-KS,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/cbs.png
-KBSDrama.kr,KBS Drama,,,KR,,,c/KR,kor,,FALSE,,,https://www.kbs.co.kr/,https://www.lyngsat.com/logo/tv/kk/kbs_drama.png
+KBSDrama.kr,KBS Drama,KBS 드라마,,KR,,,c/KR,kor,,FALSE,2006-11-01,,http://www.kbsn.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/KBS_DRAMA.svg/512px-KBS_DRAMA.svg.png
 KBSELP1.us,KBSE-LP1,,HSN,US,US-ID,Boise,s/US-ID,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/homeshop.png
 KBSHDT1.us,KBSH-DT1,,CBS,US,US-KS,Hays,s/US-KS,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/cbs.png
 KBSIDT1.us,KBSI-DT1,,FOX,US,US-MO,Cape Girardeau,s/US-MO,eng,,FALSE,,,http://www.kbsi23.com/,https://cdn.tvpassport.com/image/station/100x100/foxcable.png
@@ -9180,17 +9200,21 @@ KBSIDT3.us,KBSI-DT3,,Comet TV,US,US-MO,Cape Girardeau,s/US-MO,eng,,FALSE,,,,http
 KBSIDT4.us,KBSI-DT4,,Defy,US,US-MO,Cape Girardeau,s/US-MO,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/defytv.png
 KBSIDT5.us,KBSI-DT5,,TrueReal,US,US-MO,Cape Girardeau,s/US-MO,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/truereal.png
 KBSIDT6.us,KBSI-DT6,,Newsy,US,US-MO,Cape Girardeau,s/US-MO,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/newsy.png
-KBSJoy.kr,KBS Joy,,,KR,,,c/KR,kor,,FALSE,,,https://www.kbs.co.kr/,https://www.lyngsat.com/logo/tv/kk/kbs_joy.png
-KBSKids.kr,KBS Kids,,,KR,,,c/KR,kor,,FALSE,,,http://www.kbsn.co.kr/kids/,https://www.lyngsat.com/logo/tv/kk/kbs_kids.png
-KBSKorea.kr,KBS Korea,,,KR,,,c/KR,kor,,FALSE,,,https://kbsworld.kbs.co.kr/index_korea.php,https://www.directv.com/images/logos/channels/dark/large/232.png
+KBSJoy.kr,KBS Joy,KBS 조이,,KR,,,c/KR,kor,,FALSE,2006-11-01,,http://www.kbsn.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/KBS_JOY.svg/512px-KBS_JOY.svg.png
+KBSKids.kr,KBS Kids,KBS 키즈,,KR,,,c/KR,kor,kids,FALSE,2012-05-05,,http://www.kbsn.co.kr/kids/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/KBS_kids.svg/512px-KBS_kids.svg.png
+KBSKorea.kr,KBS Korea,KBS 코리아,,KR,,,c/KR,kor,,FALSE,2021-07-01,,https://kbsworld.kbs.co.kr/index_korea.php,https://i.imgur.com/Dy1xwEd.png
 KBSLDT1.us,KBSL-DT1,,CBS,US,US-KS,Goodland,s/US-KS,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/cbs.png
-KBSLiveCamDokDo.kr,KBS LiveCam DokDo,,,KR,,,c/KR,kor,,FALSE,,,,https://i.imgur.com/b7uMB9T.png
-KBSNLife.kr,KBS N Life,,,KR,,,c/KR,kor,,FALSE,,,https://www.kbs.co.kr/,https://www.lyngsat.com/logo/tv/kk/kbs_n_life_kr.png
-KBSNSports.kr,KBS N Sports,,,KR,,,c/KR,kor,,FALSE,,,http://www.kbsn.co.kr/sports/,https://www.lyngsat.com/logo/tv/kk/kbs_n_sports.png
+KBSLife.kr,KBS Life,KBS 라이프,,KR,,,c/KR,kor,,FALSE,2021-04-01,,http://www.kbsn.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/KBS_Life.svg/512px-KBS_Life.svg.png
+KBSLiveCamDokDo.kr,KBS LiveCam DokDo,,,KR,,,c/KR,kor,,FALSE,,,http://world.kbs.co.kr/dokdo/english/,https://i.imgur.com/b7uMB9T.png
+KBSNewsD.kr,KBS News D,,,KR,,,c/KR,kor,news,FALSE,2021-07-19,,http://news.kbs.co.kr/common/news24.html,https://i.imgur.com/4qKgvHN.png
+KBSNLife.kr,KBS N Life,KBS N 라이프로 변경,,KR,,,c/KR,kor,,FALSE,2015-03-08,2021-03-31,http://www.kbsn.co.kr/,https://i.imgur.com/IeZu8yU.png
+KBSNSports.kr,KBS N Sports,KBS N 스포츠,,KR,,,c/KR,kor,sports,FALSE,2006-11-01,,http://www.kbsn.co.kr/sports/,https://i.imgur.com/xZ2s9eY.png
+KBSPrime.kr,KBS Prime,KBS 프라임으로 변경,,KR,,,c/KR,kor,,FALSE,2006-11-01,2015-03-07,http://www.kbsn.co.kr/,https://i.imgur.com/j8esmss.png
+KBSStory.kr,KBS Story,KBS 스토리,,KR,,,c/KR,kor,,FALSE,2021-04-01,,http://www.kbsn.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/KBS_Story.svg/512px-KBS_Story.svg.png
 KBSTV.ug,KBS TV,,,UG,,,c/UG,eng,,FALSE,,,,https://i.imgur.com/yOBbuCg.png
 KBSVAssyriaSat.us,KBSV/AssyriaSat,,,US,,,c/US,aii;eng,,FALSE,,,,https://i.imgur.com/zEWSSdf.jpg
-KBSW.kr,KBS W,,,KR,,,c/KR,kor,,FALSE,,,https://www.kbs.co.kr/,https://www.lyngsat.com/logo/tv/kk/kbs_w_kr.png
-KBSWorld.kr,KBS World,,,KR,,,c/KR,kor;eng,,FALSE,2003-07-01,,http://kbsworld.kbs.co.kr/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/KBS.png
+KBSW.kr,KBS W,,,KR,,,c/KR,kor,,FALSE,2013-01-01,2021-03-31,http://www.kbsn.co.kr/,https://i.imgur.com/F50NjOw.png
+KBSWorld.kr,KBS World,KBS 월드,,KR,,,c/KR,kor;eng,,FALSE,2003-07-01,,http://kbsworld.kbs.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KBS_World_%282009%29.svg/512px-KBS_World_%282009%29.svg.png
 KBSWorldJapan.jp,KBS World Japan,,,JP,,,c/JP,kor,,FALSE,,,http://www.kbsworld.ne.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-184-400x400.png
 KBTCDT1.us,KBTC-DT1,,PBS,US,US-WA,Tacoma,s/US-WA,eng,,FALSE,,,http://www.kbtc.org/,https://cdn.tvpassport.com/image/station/100x100/pbs.png
 KBTCDT2.us,KBTC-DT2,,NHK World,US,US-WA,Tacoma,s/US-WA,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/nhkworld.png
@@ -9425,7 +9449,7 @@ KCTULD4.us,KCTU-LD4,,Family TV4U,US,US-KS,Wichita,s/US-KS,eng,,FALSE,,,,https://
 KCTULD5.us,KCTU-LD5,,URBTV,US,US-KS,Wichita,s/US-KS,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/urbt.png
 KCTULD6.us,KCTU-LD6,,The Country Network,US,US-KS,Wichita,s/US-KS,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/tcn-country.png
 KCTULD8.us,KCTU-LD8,,NewsNet,US,US-KS,Wichita,s/US-KS,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/newsnet.png
-KCTVCh5TV.kr,KCTV Ch 5 TV,,,KR,,Gwangju,c/KR,kor,,FALSE,,,,https://www.kctv.co.kr/img/index/top_logo.png
+KCTV.kr,KCTV,,,KR,,Gwangju,c/KR,kor,,FALSE,,,https://www.kctv.co.kr/,https://i.imgur.com/IHkZpaI.png
 KCTVDT1.us,KCTV-DT1,,CBS,US,US-MO,Kansas City,s/US-MO,eng,,FALSE,,,http://www.kctv5.com/,https://www.lyngsat.com/logo/tv/kk/kctv-tvus-mo.png
 KCTVDT3.us,KCTV-DT3,,THIS,US,US-KS,Kansas City,s/US-KS,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/this_tv.png
 KCTVDT4.us,KCTV-DT4,,Quest,US,US-MO,Kansas City,s/US-MO,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/quest_us.png
@@ -10877,8 +10901,8 @@ KMTPDT5.us,KMTP-DT5,,NTD TV,US,US-CA,San Francisco,s/US-CA,eng,,FALSE,,,,
 KMTRDT1.us,KMTR-DT1,,NBC,US,US-OR,Eugene,s/US-OR,eng,,FALSE,,,http://www.nbc16.com/,https://cdn.tvpassport.com/image/station/100x100/nbc.png
 KMTRDT2.us,KMTR-DT2,,,US,,,c/US,eng,,FALSE,,,,https://www.lyngsat.com/logo/tv/kk/kmtr_cw16_eugene.png
 KMTRDT3.us,KMTR-DT3,,Comet TV,US,US-OR,Eugene,s/US-OR,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/comet.png
+KMTV.kr,KMTV,,,KR,,,c/KR,kor;tha,music,FALSE,1995-03-01,2005-05-31,http://www.kmtv.asia/,https://i.imgur.com/qSrdLWy.png
 kMTV.uk,KMTV,,,UK,,,c/UK,eng,,FALSE,,,,https://www.kentonline.co.uk/_assets/kmtvlogo2017_2.png
-KMTVAsia.kr,KMTV Asia,,,KR,,,c/KR,kor;tha,,FALSE,,,http://www.kmtv.asia/,https://cms.dmpcdn.com/livetv/2017/10/17/1dd95b24-9fb7-474d-bc4d-af3a6df84302.png
 KMTVDT1.us,KMTV-DT1,,CBS,US,US-NE,Omaha,s/US-NE,eng,,FALSE,,,http://www.km3news.com/,https://upload.wikimedia.org/wikipedia/en/e/ea/KMTV3.png
 KMTVDT2.us,KMTV-DT2,,Court TV,US,US-NE,Omaha,s/US-NE,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/court-tv-2019.png
 KMTVDT3.us,KMTV-DT3,,Laff,US,US-NE,Omaha,s/US-NE,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/laff.png
@@ -10998,6 +11022,7 @@ KNMTDT3.us,KNMT-DT3,,Smile,US,US-OR,Portland,s/US-OR,eng,,FALSE,,,,https://cdn.t
 KNMTDT4.us,KNMT-DT4,,Enlace,US,US-OR,Portland,s/US-OR,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/tbnenlace.png
 KNMTDT5.us,KNMT-DT5,,PosiTiV,US,US-OR,Portland,s/US-OR,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/positiv.png
 KNN.kr,KNN,,,KR,,,c/KR,kor,,FALSE,,,http://www.knn.co.kr/,https://www.lyngsat.com/logo/tv/kk/knn_kr.png
+KNNTV.kr,KNN TV,,,KR,,,c/KR,kor,,FALSE,1995-05-14,,http://www.knn.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/KNN_logo.svg/512px-KNN_logo.svg.png
 KNOEDT1.us,KNOE-DT1,,CBS,US,US-LA,Monroe,s/US-LA,eng,,FALSE,,,http://www.knoe.com/,https://cdn.tvpassport.com/image/station/100x100/cbs.png
 KNOEDT2.us,KNOE-DT2,,ABC,US,US-LA,Columbia,s/US-LA,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/abc.png
 KNOPDT1.us,KNOP-DT1,,NBC,US,US-NE,North Platte,s/US-NE,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/nbc.png
@@ -11356,7 +11381,7 @@ KPLRDT1.us,KPLR-DT1,,CW,US,US-MO,St Louis,s/US-MO,eng,,FALSE,,,https://fox2now.c
 KPLRDT2.us,KPLR-DT2,,Court TV,US,US-MO,St Louis,s/US-MO,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/court-tv-2019.png
 KPLRDT3.us,KPLR-DT3,,Comet TV,US,US-MO,St Louis,s/US-MO,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/comet.png
 KPLRDT4.us,KPLR-DT4,,Rewind TV US,US,US-MO,St Louis,s/US-MO,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/rewind-us.png
-KPlus.kr,K+,,,KR,,,c/KR,kor,,FALSE,,,http://www.kplus-asia.com/,https://i.imgur.com/4DEUpdm.jpg
+KPlus.sg,K-Plus,,,SG,,,c/ID;c/MY;c/PH,eng,,FALSE,,,http://www.kplus-asia.com/,https://i.imgur.com/4DEUpdm.jpg
 KPlusCine.vn,K+ Cine,,,VN,,,c/VN,vie,movies,FALSE,,,https://www.kplus.vn/,https://i.imgur.com/lnhWial.png
 KPlusCineHD.vn,K+ Cine HD,,,VN,,,c/VN,vie,movies,FALSE,,,https://www.kplus.vn/,https://i.imgur.com/izvL7ib.png
 KPlusKids.vn,K+ Kids,,,VN,,,c/VN,vie,kids,FALSE,,,https://www.kplus.vn/,https://i.imgur.com/Qf1uzii.png
@@ -13871,7 +13896,6 @@ MazhavilManorama.in,Mazhavil Manorama,,,IN,,,c/IN,mal,entertainment,FALSE,2011-1
 MazhavilManoramaHD.in,Mazhavil Manorama HD,,,IN,,,c/IN,mal,entertainment,FALSE,,,,https://i.imgur.com/xCHQrH0.png
 Mazzika.eg,Mazzika,,,EG,,,c/EG,ara,,FALSE,,,https://mazzikagroup.com/,https://www.lyngsat.com/logo/tv/mm/mazzika-eg.png
 MBC.ae,MBC,,,AE,,,r/ARAB;r/MAGHREB,ara,general,FALSE,,,https://www.mbc.net/channels/mbc1,https://i.imgur.com/eKBXOKd.png
-MBC.kr,MBC,,,KR,,,c/KR,kor,,FALSE,,,http://www.imbc.com/,https://www.directv.com/images/logos/channels/dark/large/672.png
 MBC.mw,MBC,,,MW,,,c/MW,eng,general,FALSE,,,http://www.mbc.mw/,https://i.imgur.com/YtaF4oP.png
 MBC1.mu,MBC 1,,,MU,,,c/MU,fra,,FALSE,,,https://mbcradio.tv/,https://www.lyngsat.com/logo/tv/mm/mbc-1-mu.png
 MBC1USA.ae,MBC 1 USA,,,AE,,,r/ARAB,ara,general,FALSE,,,,https://i.imgur.com/eKBXOKd.png
@@ -13884,39 +13908,36 @@ MBC5.ae,MBC 5,,,AE,,,c/AE,ara,general,FALSE,,,https://www.mbc.net/channels/mbc5,
 MBCAction.ae,MBC Action,,,AE,,,r/ARAB;r/MAGHREB,eng;ara,movies,FALSE,2007-03-05,,https://www.mbc.net/channels/mbc-action,https://i.imgur.com/n3TgfP0.png
 MBCAmerica.us,MBC America,,,US,,,c/US,kor,,FALSE,,,http://www.mbc-america.com/,https://cdn.tvpassport.com/image/station/100x100/mbc-america.png
 MBCBollywood.ae,MBC Bollywood,,,AE,,,r/ARAB;r/MAGHREB,ara,general,FALSE,2013-10-26,,https://www.mbc.net/channels/mbc-bollywood,https://i.imgur.com/fMjhK06.png
-MBCChuncheon.kr,MBC Chuncheon,,,KR,,,c/KR,kor,,FALSE,,,,https://data1.chmbc.co.kr/2018/12/d0fba52ecd26cdc49a893b9af6d468561f88e70c58accae0c6e1718bd112efc69511ffd56f9c167d6e1b215c065f844f250b1fa6df470afb30abf5cdd0153016.png
-MBCDaegu.kr,MBC Daegu,,,KR,,,c/KR,kor,,FALSE,,,,https://dg.cdn.a04f922e9e85c8d25ebfeae3dfd22a67.com/2019/12/0df66e127a9d1c68d0d56dd7567a5b52943a71122c8fc5aecf792ff11fba3d93bb1cd98f1d1c9e2fd83a294d26e2d5f270b705711cc20b5bdaf39ed2188c5075.png
-MBCDaejeon.kr,MBC Daejeon,,,KR,,,c/KR,kor,,FALSE,,,,https://busan.cdn.a04f922e9e85c8d25ebfeae3dfd22a67.com/2018/12/6e1a8d912bd32dca479bbf74667f7caf0716dd4e358e61136cecb8ca29b5b99a46b47b1d42b4a487d582c6ad6132929ff20a4cb41b344da26694ca115f5ee90a.png
 MBCDrama.ae,MBC Drama,,,AE,,,r/ARAB;r/MAGHREB,ara,general,FALSE,,,https://www.mbc.net/channels/mbc-drama,https://i.imgur.com/F5ER0we.png
-MBCDrama.kr,MBC Drama,,,KR,,,c/KR,kor,,FALSE,,,,https://www.lyngsat.com/logo/tv/mm/mbc-drama-kr.png
+MBCDrama.kr,MBC Drama,MBC 드라마,,KR,,,c/KR,kor,,FALSE,,,https://www.mbcplus.com/,https://i.imgur.com/Q20rqnX.png
 MBCDramaHD.us,MBC Drama HD,,,US,,,c/US,kor,,FALSE,,,http://www.mbc-america.com/default/ch_mbcHD.php?url=MBCDramaHD,https://www.lyngsat.com/logo/tv/mm/mbc-drama-hd-kr-us.png
 MBCDramaPlus.ae,MBC Drama +,,,AE,,,r/ARAB;r/MAGHREB,ara,movies,FALSE,,,https://www.mbc.net/pages/Drama-Plus/,https://i.imgur.com/F5ER0we.png
 MBCDramaUSA.us,MBC Drama USA,,,US,,,c/US,ara,,FALSE,,,https://www.mbc.net/pages/Drama-USA/,https://www.lyngsat.com/logo/tv/mm/mbc_ae_drama_us.png
 MBCEgypt.ae,MBC Masr 1,,,AE,,,c/EG,ara,general,FALSE,,,,https://www.lyngsat.com/logo/tv/mm/mbc_ae_masr.png
-MBCEvery1.kr,MBC Every 1,,,KR,,,c/KR,kor,,FALSE,,,http://www.mbcplus.com/every1/,https://www.lyngsat.com/logo/tv/mm/mbc-every-1-kr.png
+MBCEvery1.kr,MBC Every1,MBC 에브리원,,KR,,,c/KR,kor,,FALSE,,,https://mbcplus.com/,https://upload.wikimedia.org/wikipedia/commons/0/0f/MBC_every1_logo.png
 MBCFM.ae,MBC FM,,,AE,,,c/SA,ara,music,FALSE,,,,https://www.lyngsat.com/logo/radio/mm/mbc_ae_fm.png
-MBCGyeongnamChangwon.kr,MBC Gyeongnam Changwon,,,KR,,,c/KR,kor,,FALSE,,,http://mbcgn.kr/,https://www.lyngsat.com/logo/tv/mm/mbc_kr_changwon.png
+MBCGyeongnamChangwonTV.kr,MBC Gyeongnam Changwon TV,MBC경남 창원 TV,,KR,,,c/KR,kor,,FALSE,1972-10-05,,http://mbcgn.kr/,https://i.imgur.com/Ronb1JP.png
 MBCInternational.ae,MBC International,,,AE,,,c/AE,ara,,FALSE,,,https://www.mbc.net/,https://www.lyngsat.com/logo/tv/mm/mbc_ae_1.png
 MBCIraq.iq,MBC Iraq,,,IQ,,,c/IQ,ara,general,FALSE,2019-02-17,,https://www.mbc.net/channels/mbc-iraq,https://www.lyngsat.com/logo/tv/mm/mbc-iraq-ae-iq.png
 MBCITV.ke,MBCI TV,,,KE,,,c/KE,eng,,FALSE,,,https://mbcimedia.com/,https://www.lyngsat.com/logo/tv/mm/mbci-tv-ke.png
-MBCJeju.kr,MBC Jeju,,,KR,,,c/KR,kor,,FALSE,,,,https://jeju.cdn.a04f922e9e85c8d25ebfeae3dfd22a67.com/2019/06/2a42c0e8f353c0d091bd145d7384670af46a6cdf647b0d0be45f76a8faccf7ad0b144cbb6fe11b0ff81bd830478e8e5e8dc43ec1ce76bfead41eac377fcfbdc0.png
-MBCM.kr,MBC M,,,KR,,,c/KR,kor,,FALSE,2012-02-01,,https://www.mbcplus.com/,https://www.lyngsat.com/logo/tv/mm/mbc-m-kr.png
+MBCM.kr,MBC M,,,KR,,,c/KR,kor,music,FALSE,2020-02-18,,https://www.mbcplus.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/MBC_M_logo.svg/512px-MBC_M_logo.svg.png
 MBCMaser.eg,MBC Maser,,,EG,,,c/EG,ara,,FALSE,,,https://www.mbc.net/channels/mbc-maser,https://media.elcinema.com/tvguide/1239_1.png
 MBCMaser2.eg,MBC Maser 2,,,EG,,,c/EG,ara,,FALSE,,,https://www.mbc.net/channels/mbc-maser2,https://www.lyngsat.com/logo/tv/mm/mbc_ae_masr_2.png
 MBCMaserUSA.us,MBC Maser USA,,,US,,,c/US,ara,,FALSE,,,https://www.mbc.net/pages/Egypt-USA/,https://www.lyngsat.com/logo/tv/mm/mbc_ae_masr_us.png
 MBCMasr1USA.ae,MBC Masr 1 USA,,,AE,,,c/EG,ara,general,FALSE,,,,https://www.lyngsat.com/logo/tv/mm/mbc_ae_masr.png
 MBCMasr2.ae,MBC Masr 2,,,AE,,,c/EG,ara,general,FALSE,,,,https://www.lyngsat.com/logo/tv/mm/mbc_ae_masr_2.png
 MBCMax.ae,MBC Max,,,AE,,,r/ARAB;r/MAGHREB,ara,movies,FALSE,2008-10-26,,https://www.mbc.net/pages/mbc-max/,https://i.imgur.com/X6EliFm.png
-MBCNet.kr,MBCNet,,,KR,,,c/KR,kor,,FALSE,,,http://www.mbcnet.co.kr/,https://www.lyngsat.com/logo/tv/mm/mbcnet-kr.png
+MBCNet.kr,MBC Net,,,KR,,,c/KR,kor,,FALSE,2007-01-12,,http://www.mbcnet.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/MBCNET_%EB%A1%9C%EA%B3%A0.svg/512px-MBCNET_%EB%A1%9C%EA%B3%A0.svg.png
+MBCOn.kr,MBC On,,,KR,,,c/KR,kor,,FALSE,2019-02-18,,http://imbc.com/,https://i.imgur.com/AQzgnKD.png
 MBCPersia.ae,MBC Persia,,,AE,,,c/AE,fas,general,FALSE,2008-07-09,,http://www.mbc.net/en/corporate/channels/mbc-persia.html,https://upload.wikimedia.org/wikipedia/commons/8/8f/MBC_Persia_Logo.png
 MBCPlusPower.ae,MBC + Power,,,AE,,,c/AE,eng,,FALSE,,,https://www.mbc.net/,https://www.lyngsat.com/logo/tv/mm/mbc_ae_plus_power.png
 MBCSat.mu,MBC Sat,,,MU,,,c/MU,fra,,FALSE,,,https://mbcradio.tv/,https://www.lyngsat.com/logo/tv/mm/mbc_mu_sat.png
-MBCSportsPlus.kr,MBC Sports+,,,KR,,,c/KR,kor,,FALSE,,,http://www.mbcplus.com/sports/,https://www.lyngsat.com/logo/tv/mm/mbc-sportsplus-kr.png
+MBCSportsPlus.kr,MBC Sports+,MBC 스포츠플러스,,KR,,,c/KR,kor,sports,FALSE,2010-08-01,,http://www.mbcplus.com/sports/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/MBC_SportsPlus.svg/512px-MBC_SportsPlus.svg.png
 MBCTV.in,MBC TV,,,IN,,,c/IN,ori,,FALSE,,,https://mbctv.co.in/,https://i.imgur.com/NFLvRhx.png
+MBCTV.kr,MBC TV,,,KR,,,c/KR,kor,,FALSE,1969-08-08,,http://www.imbc.com/broad/tv,https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Munhwa_Broadcasting_Company.svg/512px-Munhwa_Broadcasting_Company.svg.png
 MBCVarietyPlus.ae,MBC Variety +,,,AE,,,r/ARAB;r/MAGHREB,eng;ara,movies,FALSE,,,https://www.mbc.net/,https://i.imgur.com/KefqHnm.jpg
-MBCYeosu.kr,MBC Yeosu,,,KR,,,c/KR,kor,,FALSE,,,,https://www.directv.com/images/logos/channels/dark/large/672.png
-MBN.kr,MBN,,,KR,,,c/KR,kor,,FALSE,,,https://www.mbn.co.kr/,https://www.lyngsat.com/logo/tv/mm/mbn-kr.png
-MBNPlus.kr,MBN Plus,,,KR,,,c/KR,kor,,FALSE,,,https://www.mbn.co.kr/,https://www.directv.com/images/logos/channels/dark/large/008.png
+MBN.kr,MBN,주식회사 매일방송,,KR,,,c/KR,kor,,FALSE,1995-03-01,,https://www.mbn.co.kr/,https://i.imgur.com/3iVioxQ.png
+MBNPlus.kr,MBN Plus,,,KR,,,c/KR,kor,,FALSE,,,http://plus.mbn.co.kr/,https://i.imgur.com/8isw1U0.png
 MBS.jp,MBS,,,JP,,,c/JP,jpn,,FALSE,,,,
 MBS.mg,MBS,,,MG,,,c/MG,fra,,FALSE,,,,https://service.canal-overseas.com/image-api/v1/image/c34be9c0a23d79d831892d752165f2bc
 MC.mx,MC,,,MX,,,c/MX,spa,,FALSE,,,,https://www.lyngsat.com/logo/tv/mm/multicinema.png
@@ -14284,7 +14305,7 @@ MohonaTV.bd,Mohona TV,,,BD,,,c/BD,ben,,FALSE,,,http://www.mohona.tv/,https://www
 MoietCie.ca,Moi et Cie,,,CA,,,c/CA,fra,,FALSE,2011-05-02,,http://tv.moietcie.ca/,https://cdn.tvpassport.com/image/station/100x100/moi-et-cie.png
 MojaLove.za,Moja Love,,,ZA,,,c/ZA,zul;xho,,FALSE,2018-02-14,,http://mojalove.co.za/,https://rndcdn.dstv.com/dstvcms/2018/01/29/Moja_Love_4-3_light_background_xlrg.png
 MokadamTV.ci,Mokadam TV,,,CI,,,c/CI,fra,,FALSE,,,,https://www.lyngsat.com/logo/tv/mm/mokadam-tv-ci.png
-MokpoMBC.kr,Mokpo MBC,,,KR,,,c/KR,kor,,FALSE,,,http://www.mokpombc.co.kr/,https://www.lyngsat.com/logo/tv/mm/mbc_kr_mokpo.png
+MokpoMBCTV.kr,Mokpo MBC TV,목포MBC TV,,KR,,,c/KR,kor,,FALSE,1987-11-16,,https://mpmbc.co.kr/,https://i.imgur.com/pkFKjFo.png
 MolaTV1.id,Mola TV 1,,,ID,,,c/ID,ind,,FALSE,,,https://mola.tv/,https://www.lyngsat.com/logo/tv/mm/mola-sports-1-id.png
 MolaTV2.id,Mola TV 2,,,ID,,,c/ID,ind,,FALSE,,,https://mola.tv/,https://www.lyngsat.com/logo/tv/mm/mola-sports-2-id.png
 Moldova1.md,Moldova1,,,MD,,,c/MD,ron,,FALSE,,,,
@@ -14927,7 +14948,7 @@ NationalGeographicIndia.in,National Geographic India,,,IN,,,c/IN,hin,documentary
 NationalGeographicItalia.it,National Geographic Italia,,,IT,,,c/IT,ita,documentary,FALSE,,,http://natgeotv.nationalgeographic.it/,https://i.imgur.com/cgvdVlG.png
 NationalGeographicItaliaPlus1.it,National Geographic Italia +1,,,IT,,,c/IT,ita,documentary,FALSE,,,http://natgeotv.nationalgeographic.it/,https://www.lyngsat.com/logo/tv/nn/national-geographic-uk-plus1-us-uk.png
 NationalGeographicJapan.jp,National Geographic Japan,,,JP,,,c/JP,jpn,documentary,FALSE,,,http://natgeotv.jp/tv/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-142-400x400.png
-NationalGeographicKorea.kr,National Geographic Korea,,,KR,,,c/KR,kor,documentary,FALSE,,,http://ngckorea.com/,https://www.directv.com/images/logos/channels/dark/large/916.png
+NationalGeographicKorea.kr,National Geographic Korea,,,KR,,,c/KR,kor,documentary,FALSE,,,http://ngckorea.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png
 NationalGeographicMiddleEast.us,National Geographic Middle East,,,US,,,c/US,eng,documentary,FALSE,,,http://natgeotv.com/me,https://content.osn.com/logo/channel/cropped/NGO.png
 NationalGeographicNederland.nl,National Geographic Nederland,,,NL,,,c/NL,nld,documentary,FALSE,,,http://www.natgeotv.com/nl,https://i.imgur.com/cHM5lYk.png
 NationalGeographicNorte.us,National Geographic Norte,,,US,,,c/US,spa;eng,documentary,FALSE,,,https://www.nationalgeographicla.com/,https://imagenes.gatotv.com/logos/canales/oscuros/national_geographic_latinoamerica-mediano.png
@@ -15089,7 +15110,7 @@ NBN.lb,NBN,,,LB,,,c/LB,ara,,FALSE,,,https://nbntv.me/,https://www.lyngsat.com/lo
 NBNCentralCoast.au,NBN Central Coast,,,AU,,,c/AU,eng,,FALSE,,,http://www.nbntv.com.au/,https://www.lyngsat.com/logo/tv/nn/nbn_au.png
 NBNCoffsHarbourTamworth.au,NBN Coffs Harbour & Tamworth,,,AU,,,c/AU,eng,,FALSE,,,http://www.nbntv.com.au/,https://www.lyngsat.com/logo/tv/nn/nbn_au.png
 NBNGoldCoast.au,NBN Gold Coast,,,AU,,,c/AU,eng,,FALSE,,,http://www.nbntv.com.au/,https://www.lyngsat.com/logo/tv/nn/nbn_au.png
-NBSKoreaAgriculturalBroadcasting.kr,NBS Korea Agricultural Broadcasting,,,KR,,,c/KR,kor,,FALSE,,,,https://i.imgur.com/loWf3B5.jpg
+NBS.kr,NBS,NBS 한국농업방송,,KR,,,c/KR,kor,,FALSE,2018-08-15,,https://www.inbs.co.kr/main.do,https://i.imgur.com/loWf3B5.jpg
 NBSStar.ug,NBS Star,,,UG,,,c/UG,eng,,FALSE,,,,https://i.imgur.com/Jc829Dw.png
 NBSTV.ug,NBS TV,,,UG,,,c/UG,swa;eng,,FALSE,,,https://nbs.ug/,https://rndcdn.dstv.com/dstvcms/2018/07/03/NBS_logo_4-3_001_xlrg.png
 NBT11Central.th,NBT 11 Central,,,TH,,,c/TH,tha,,FALSE,,,,https://www.lyngsat.com/logo/tv/nn/nbt-11-central-th.png
@@ -15879,8 +15900,9 @@ OckoBlack.cz,Ócko Black,,,CZ,,,c/CZ,ces,,FALSE,,,,https://www.sms.cz/kategorie/
 OckoExpres.cz,Ócko Expres,,,CZ,,,c/CZ,ces,music,FALSE,,,,https://www.sms.cz/kategorie/televize/bmp/loga/velka/ocko-expres.png
 OckoGold.cz,Ócko Gold,,,CZ,,,c/CZ,ces,music,FALSE,,,,https://i.imgur.com/nrWNyLc.jpg
 OckoStar.cz,Ócko Star,,,CZ,,,c/CZ,ces,,FALSE,,,https://ocko.tv/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/ocko-gold.png
-OCN.kr,OCN,,,KR,,,c/KR,kor,,FALSE,,,http://ocn.tving.com/ocn/,https://www.lyngsat.com/logo/tv/oo/ocn-kr.png
-OCNMovies.kr,OCN Movies,,,KR,,,c/KR,kor,,FALSE,,,http://ocnmovies.tving.com/ocnmovies,https://www.lyngsat.com/logo/tv/oo/ocn-movies-kr.png
+OCN.kr,OCN,,,KR,,,c/KR,kor,,FALSE,1999-07-01,,http://ocn.tving.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/OCN_Logo.svg/512px-OCN_Logo.svg.png
+OCNMovies.kr,OCN Movies,OCN 무비스,,KR,,,c/KR,kor,movies,FALSE,2020-03-01,,http://ocnmovies.tving.com/ocnmovies,https://i.imgur.com/3OJtkkw.png
+OCNThrills.kr,OCN Thrills,OCN 쓰릴스,,KR,,,c/KR,kor,movies,FALSE,2020-02-29,,http://ocnthrills.m.tving.com/,https://i.imgur.com/ZMzVEcc.png
 OCNTV.us,OCN TV,,,US,,,c/US,eng,,FALSE,,,http://www.ocn-tv.com/,https://www.lyngsat.com/logo/tv/oo/ocn_broadcasting_us.png
 OCSChoc.fr,OCS Choc,,,FR,,,c/FR,fra,,FALSE,,,http://www.ocs.fr/ocschoc/,https://proxymedia.woopic.com/api/v1/images/553%2Flogos%2Fv2%2Flogos%2Flivetv_orange_cine_choc%2F20151026_092415%2FwebTVLogo%2Flogo_180x96.png
 OCSCity.fr,OCS City,,,FR,,,c/FR,fra,,FALSE,,,http://www.ocs.fr/ocscity/,https://service.canal-overseas.com/image-api/v1/image/35f3b13fe1d234e85cfb120ef7096ecc
@@ -15956,7 +15978,7 @@ Olelo49.us,Olelo 49,,,US,,,c/US,eng,,FALSE,,,,https://i.imgur.com/Z7RBRkZ.png
 Olelo53.us,Olelo 53,,,US,,,c/US,eng,,FALSE,,,,https://i.imgur.com/Z7RBRkZ.png
 Olelo54.us,Olelo 54,,,US,,,c/US,eng,,FALSE,,,,https://i.imgur.com/UFJeOlH.png
 Olelo55.us,Olelo 55,,,US,,,c/US,eng,,FALSE,,,,https://i.imgur.com/UFJeOlH.png
-Olive.kr,Olive,,,KR,,,c/KR,kor,,FALSE,,,http://olive.tving.com/Olive,https://www.lyngsat.com/logo/tv/oo/olive-kr.png
+Olive.kr,Olive,,,KR,,,c/KR,kor,,FALSE,2005-06-27,2021-05-01,http://olive.tving.com/olive,https://i.imgur.com/yOwc1eM.png
 OllooTV.mn,Olloo TV,,,MN,,,c/MN,mon,,FALSE,,,http://www.olloo.mn/,https://www.lyngsat.com/logo/tv/oo/olloo-tv-mn.png
 OLN.ca,OLN,,,CA,,,c/CA,eng,,FALSE,1997-10-17,,http://www.oln.ca/,https://cdn.tvpassport.com/image/station/100x100/oln.png
 OLTV.fr,OLTV,,,FR,,,c/FR,fra,,FALSE,,,,https://www.programme-tv.net/imgre/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2F289e3217baa702c7.2Epng/80x80/quality/80/oltv.png
@@ -16025,7 +16047,6 @@ One.de,One,,,DE,,,c/DE,deu,,FALSE,,,https://www.ardmediathek.de/one/,https://ocd
 OnE.eg,On E,,,EG,,,c/EG,ara,,FALSE,2009-01-01,,https://www.on-eg.com/,https://media.elcinema.com/tvguide/1203_1.png
 One.il,One,,,IL,,,c/IL,heb,,FALSE,,,http://www.one.co.il/,https://www.lyngsat.com/logo/tv/oo/one_tv_il.png
 One.in,One,,,IN,,,c/IN,ind;msa;zho;kor,,FALSE,,,https://www.onetvasia.com/,https://www.mncvision.id/userfiles/image/channel/channel_164.png
-One.kr,One,,,KR,,,c/KR,kor,,FALSE,,,,
 One.lb,One,,,LB,,,c/LB,ara,,FALSE,,,,https://www.lyngsat.com/logo/tv/oo/one-lb.png
 ONE.mt,One,,,MT,,,c/MT,mlt,,FALSE,,,,https://www.one.com.mt/assets/img/design/logos/menu_one_grey.png
 One1Adria.si,One 1 Adria,,,SI,,,c/SI,slv,,FALSE,,,https://folx.network/one-adria-music-television/,https://www.lyngsat.com/logo/tv/oo/one-1-adria-de-si.png
@@ -16193,7 +16214,7 @@ OTV.lb,OTV,,,LB,,,c/LB,ara,general,FALSE,,,https://www.otv.com.lb/,https://i.img
 OTV.mn,OTV,,,MN,,,c/MN,mon,,FALSE,,,,https://www.lyngsat.com/logo/tv/oo/o_tv_mn.png
 OTV.ru,OTV,,,RU,,Odintsovo,c/RU,rus,,FALSE,,,,https://i.imgur.com/JKZ8QHJ.png
 OTV.ua,OTV,,,UA,,Dnipro,c/UA,ukr,,FALSE,,,http://o-tv.tv/,https://www.lyngsat.com/logo/tv/oo/otv_music_ua.png
-OTVN.kr,O TVN,,,KR,,,c/KR,kor,,FALSE,,,http://otvn.tving.com/otvn/,https://www.lyngsat.com/logo/tv/tt/tvn_kr_o.png
+OTVN.kr,O TVN,,,KR,,,c/KR,kor,,FALSE,2015-09-10,2021-08-01,http://otvn.tving.com/otvn/,https://i.imgur.com/80cpJt4.png
 OTVPrim.ru,OTV Prim,,,RU,,,c/RU,rus,,FALSE,,,https://otvprim.tv/,https://www.lyngsat.com/logo/tv/oo/otv-prim-ru.png
 OTVSakhalin.ru,OTV Sakhalin,,,RU,,Sakhalin,c/RU,rus,,FALSE,,,https://skr.su/otv/,https://www.lyngsat.com/logo/tv/oo/otv_sakhalin_ru.png
 OTVValentino.ba,OTV Valentino,,,BA,,,c/BA,bos,,FALSE,,,http://valentinobh.com/,https://tv2go.t-2.net/static/media/img/channels/dark/ios/small/retina/145433.png
@@ -17113,11 +17134,12 @@ PodiumTV3.nl,Podium.TV 3,,,NL,,,c/NL,nld,,FALSE,,,,https://i.imgur.com/bAhMhuz.j
 Poehali.ru,Poehali!,,,RU,,,c/RU,rus,,FALSE,,,http://www.poehali.tv/,https://avatars.mds.yandex.net/get-tv-channel-logos/55846/2a00000176184d54b879d516f6f83670c5af/260x160
 PoehaliInternational.ru,Poehali! International,,,RU,,,c/RU,rus,,FALSE,,,http://www.poehali.tv/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/poehali.png
 Pogo.in,Pogo,,,IN,,,c/IN,hin;tam;eng,,FALSE,,,,https://i.imgur.com/zvLQQs6.png
-PohangMBC.kr,Pohang MBC,,,KR,,,c/KR,kor,,FALSE,,,http://www.phmbc.co.kr/,https://www.lyngsat.com/logo/tv/mm/mbc-kr.png
+PohangMBCTV.kr,Pohang MBC TV,포항MBC TV,,KR,,,c/KR,kor,,FALSE,1987-11-07,,http://www.phmbc.co.kr/,https://i.imgur.com/j0YsISd.png
 PokerGo.us,PokerGo,,,US,,,c/US,eng,sports,FALSE,,,https://pluto.tv/en/live-tv/pokergo,https://images.pluto.tv/channels/5fc54366b04b2300072e31af/colorLogoPNG.png
 PokerGoUK.us,PokerGo UK,,,US,,,c/UK,eng,sports,FALSE,,,https://pluto.tv/en/live-tv/pokergo-gb,https://images.pluto.tv/channels/60d32781fc7abf0007d00d33/colorLogoPNG.png
 PokerNightInAmerica.us,Poker Night In America,,,US,,,c/UK,eng,sports,FALSE,,,,https://od.lk/s/MF8yMzA3OTUzMzJf/PokerNight_720x720.png
 PokerTV.fr,Poker TV,,,FR,,,c/IR,fas,sports,FALSE,,,https://persianagroup.tv/,https://i.imgur.com/l5fZQ3V.png
+PolarisTV.kr,Polaris TV,폴라리스TV,,KR,,,c/KR,kor,,FALSE,2005-01-01,,http://polaristv.com/,https://i.imgur.com/qk7ey3J.png
 PolarPlus.fr,Polar +,,,FR,,,c/FR,fra,,FALSE,,,,https://proxymedia.woopic.com/api/v1/images/553%2Flogos%2Fv2%2Flogos%2Flivetv_polarPlus%2F20171002_155125%2FwebTVLogo%2Flogo_180x96.png
 PolarTV.cz,Polar TV,,,CZ,,,c/CZ,ces,,FALSE,,,,https://polar.cz/images/layout/header/logo.png
 PoliceTV.th,Police TV,,,TH,,,c/TH,tha,,FALSE,,,https://www.policetv.tv/,https://www.lyngsat.com/logo/tv/pp/police-tv-th.png
@@ -17838,7 +17860,7 @@ ReadyTVCanal6.do,Ready TV Canal 6,,,DO,,,c/DO,spa,,FALSE,,,,https://i.imgur.com/
 Real.us,Real,,,US,,,c/US,eng,,FALSE,,,http://www.ten.com/,https://www.lyngsat.com/logo/tv/tt/ten_real.png
 RealAmericasVoice.us,Real America's Voice,,,US,,,c/US,eng,,FALSE,,,https://americasvoice.news/,https://www.lyngsat.com/logo/tv/rr/real-americas-voice-us.png
 RealBlackTV.cm,Real Black TV,,,CM,,,c/CM,eng,,FALSE,,,,https://www.lyngsat.com/logo/tv/rr/real-black-tv-cm.png
-RealEstateTVNetwork.kr,Real Estate TV Network,,,KR,,,c/KR,kor,,FALSE,,,,https://www.lyngsat.com/logo/tv/rr/rtn_real_estate_tv_network.png
+RealEstateTV.kr,Real Estate TV,RTN 부동산TV,,KR,,,c/KR,kor,,FALSE,2006-12-05,,http://www.rtn.co.kr/,https://www.lyngsat.com/logo/tv/rr/rtn_real_estate_tv_network.png
 RealExtreme.us,Real Extreme,,,US,,,c/US,eng,,FALSE,,,,https://www.lyngsat.com/logo/tv/rr/real-extreme-us.png
 RealFamilies.us,Real Families,,,US,,,c/US,eng,family,FALSE,,,,https://i.imgur.com/z8O4Dl6.png
 RealFamiliesAustralia.us,Real Families Australia,,,US,,,c/US,eng,family,FALSE,,,,https://i.imgur.com/z8O4Dl6.png
@@ -18745,10 +18767,11 @@ SBNGlobal.us,SBN Global,,,US,,,r/INT,eng;por;spa,religious,FALSE,,,https://www.s
 SBNInternational.us,SBN International,,,US,,,r/INT,eng;spa;som,religious,FALSE,,,https://www.sonlifetv.com/,https://i.imgur.com/NJu6oYB.png
 SBNTV.gh,SBN TV,,,GH,,,c/GH,eng,,FALSE,,,,https://www.lyngsat.com/logo/tv/ss/sbn-tv-gh.png
 SBNTV.mn,SBN TV,,,MN,,,c/MN,mon,,FALSE,,,http://sbn.mn/,https://www.lyngsat.com/logo/tv/ss/sbn_tv_mn.png
-SBS.kr,SBS,,,KR,,,c/KR,kor,,FALSE,,,http://tv.sbs.co.kr/,https://www.directv.com/images/logos/channels/dark/large/638.png
 SBS6.nl,SBS 6,,,NL,,,c/NL,nld,,FALSE,,,https://www.sbs6.nl/,https://i.imgur.com/Pxatn6x.png
 SBS9.nl,SBS 9,,,NL,,,c/NL,nld,,FALSE,,,https://www.sbs9.nl/,
-SBSBiz.kr,SBS Biz,,,KR,,,c/KR,eng;kor,business,FALSE,2009-12-28,,https://biz.sbs.co.kr/,https://www.lyngsat.com/logo/tv/ss/sbs-biz-kr.png
+SBSBiz.kr,SBS Biz,,,KR,,,c/KR,eng;kor,business,FALSE,2021-01-01,,https://biz.sbs.co.kr/,https://i.imgur.com/rM8aY0W.png
+SBSFL.kr,SBS F!L,SBS 필,,KR,,,c/KR,kor,,FALSE,2019-10-01,,https://sbsmedianet.sbs.co.kr/channel.html?id=fil,https://i.imgur.com/JKNSd8s.png
+SBSFLUHD.kr,SBS F!L UHD,SBS 필 UHD,,KR,,,c/KR,kor,,FALSE,2019-10-01,,https://sbsmedianet.sbs.co.kr/channel.html?id=fil,https://i.imgur.com/JXQysAo.png
 SBSFood.au,SBS Food,,,AU,,,c/AU,eng,cooking,FALSE,,,,https://i.mjh.nz/.images/tv.320203000304.png
 SBSFoodNSW.au,SBS Food NSW,,,AU,,,c/AU,eng,,FALSE,,,https://www.sbs.com.au/food/,https://www.lyngsat.com/logo/tv/ss/sbs-food-au.png
 SBSFoodQueensland.au,SBS Food Queensland,,,AU,,,c/AU,eng,,FALSE,,,https://www.sbs.com.au/food/,https://www.lyngsat.com/logo/tv/ss/sbs-food-au.png
@@ -18756,18 +18779,18 @@ SBSFoodSA.au,SBS Food SA,,,AU,,,c/AU,eng,,FALSE,,,https://www.sbs.com.au/food/,h
 SBSFoodTasmania.au,SBS Food Tasmania,,,AU,,,c/AU,eng,,FALSE,,,https://www.sbs.com.au/food/,https://www.lyngsat.com/logo/tv/ss/sbs-food-au.png
 SBSFoodVictoria.au,SBS Food Victoria,,,AU,,,c/AU,eng,,FALSE,,,https://www.sbs.com.au/food/,https://www.lyngsat.com/logo/tv/ss/sbs-food-au.png
 SBSFoodWA.au,SBS Food WA,,,AU,,,c/AU,eng,,FALSE,,,https://www.sbs.com.au/food/,https://www.lyngsat.com/logo/tv/ss/sbs-food-au.png
-SBSfunE.kr,SBS funE,,,KR,,,c/KR,kor,,FALSE,2005-08-16,,https://fune.sbs.co.kr/channel.html,https://www.lyngsat.com/logo/tv/ss/sbs-fune-kr.png
-SBSGolf.kr,SBS Golf,,,KR,,,c/KR,kor,,FALSE,,,https://golf.sbs.co.kr/,https://www.lyngsat.com/logo/tv/ss/sbs-golf-kr.png
-SBSKNN.kr,SBS KNN,,,KR,,,c/KR,kor,,FALSE,,,,https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/KNN_logo.svg/512px-KNN_logo.svg.png
-SBSMTV.kr,SBS MTV,,,KR,,,c/KR,kor,music,FALSE,2001-07-01,,http://www.mtv.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/SBS_MTV_logo_%28Black_Type%29.svg/512px-SBS_MTV_logo_%28Black_Type%29.svg.png
+SBSfunE.kr,SBS funE,SBS 펀이,,KR,,,c/KR,kor,,FALSE,2009-01-01,,https://fune.sbs.co.kr/,https://i.imgur.com/sxM1XcA.png
+SBSGolf.kr,SBS Golf,SBS 골프,,KR,,,c/KR,kor,,FALSE,1999-06-01,,https://golf.sbs.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SBS_Golf_logo_2018.svg/512px-SBS_Golf_logo_2018.svg.png
+SBSMTV.kr,SBS MTV,,,KR,,,c/KR,kor,music,FALSE,2011-01-01,,http://www.mtv.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/SBS_MTV_logo_%28Black_Type%29.svg/512px-SBS_MTV_logo_%28Black_Type%29.svg.png
 SBSNSW.au,SBS NSW,,,AU,,,c/AU,eng,,FALSE,,,http://www.sbs.com.au/,https://www.lyngsat.com/logo/corp/ss/sbs_au.png
-SBSPlus.kr,SBS Plus,,,KR,,,c/KR,kor,,FALSE,,,https://plus.sbs.co.kr/channel.html,https://www.directv.com/images/logos/channels/dark/large/680.png
-SBSPlusUHD.kr,SBS Plus UHD,,,KR,,,c/KR,kor,,FALSE,,,http://sbsplus.sbs.co.kr/jsp/program/uhd_new.jsp,https://www.lyngsat.com/logo/tv/ss/sbs-plus-kr.png
+SBSPlus.kr,SBS Plus,SBS 플러스,,KR,,,c/KR,kor,,FALSE,2009-09-16,,https://plus.sbs.co.kr/,https://i.imgur.com/8pINOIM.png
+SBSPlusUHD.kr,SBS Plus UHD,SBS 플러스 UHD,,KR,,,c/KR,kor,,FALSE,2016-08-01,2019-10-01,http://sbsplus.sbs.co.kr/jsp/program/uhd_new.jsp,https://i.imgur.com/hEbe178.png
 SBSQueensland.au,SBS Queensland,,,AU,,,c/AU,eng,,FALSE,,,http://www.sbs.com.au/,https://www.lyngsat.com/logo/corp/ss/sbs_au.png
 SBSSA.au,SBS SA,,,AU,,,c/AU,eng,,FALSE,,,http://www.sbs.com.au/,https://www.lyngsat.com/logo/corp/ss/sbs_au.png
-SBSSports.kr,SBS Sports,,,KR,,,c/KR,kor,,FALSE,1995-06-01,,http://sbssports.sbs.co.kr/,https://www.lyngsat.com/logo/tv/ss/sbs-sports-kr.png
+SBSSports.kr,SBS Sports,SBS 스포츠,,KR,,,c/KR,kor,sports,FALSE,2014-01-01,,http://sbssports.sbs.co.kr/,https://i.imgur.com/L2SdLkb.png
 SBSTasmania.au,SBS Tasmania,,,AU,,,c/AU,eng,,FALSE,,,http://www.sbs.com.au/,https://www.lyngsat.com/logo/corp/ss/sbs_au.png
 SBSTV.au,SBS TV,,,AU,,,c/AU,kor,,FALSE,1991-12-09,,http://tv.sbs.co.kr,https://i.mjh.nz/.images/tv.320203000301.png
+SBSTV.kr,SBS TV,,,KR,,,c/KR,kor,,FALSE,1991-12-09,,http://tv.sbs.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/SBS_Korea_Logo_%28Word_Only%29.svg/512px-SBS_Korea_Logo_%28Word_Only%29.svg.png
 SBSViceland.au,SBS Viceland,,,AU,,,c/AU,eng,,FALSE,2001-01-01,,,https://i.mjh.nz/.images/tv.320203000303.png
 SBSVicelandNSW.au,SBS Viceland NSW,,,AU,,,c/AU,eng,,FALSE,,,https://www.sbs.com.au/ondemand/channels/sbs-viceland,https://www.lyngsat.com/logo/tv/ss/sbs-viceland-au.png
 SBSVicelandQueensland.au,SBS Viceland Queensland,,,AU,,,c/AU,eng,,FALSE,,,https://www.sbs.com.au/ondemand/channels/sbs-viceland,https://www.lyngsat.com/logo/tv/ss/sbs-viceland-au.png
@@ -19558,6 +19581,7 @@ Smile.us,Smile,,,US,,,c/US,eng,,FALSE,,,,https://github.com/geonsey/Free2ViewTV/
 SmileTV.gr,Smile TV,,,GR,,,c/GR,ell,,FALSE,,,,https://i.imgur.com/DOOVBu5.png
 SmileTV.pk,Smile TV,,,PK,,,c/PK,eng,,FALSE,,,,https://www.lyngsat.com/logo/tv/ss/smile-tv-pk.png
 SmileTV.us,Smile TV,,,US,,,c/US,eng,,FALSE,,,https://www.smileofachildtv.org/,https://cdn.tvpassport.com/image/station/100x100/smileofachild.png
+SmileTVPlus.kr,SmileTV Plus,스마일TV 플러스,,KR,,,c/KR,kor,,FALSE,2016-05-01,,http://tra.co.kr/,https://i.imgur.com/ootIv9k.png
 Smilie.uk,Smilie,,,UK,,,c/UK,eng,,FALSE,,,https://www.mimyuni.com/,https://www.lyngsat.com/logo/tv/ss/smilie-uk.png
 SmithsonianChannelAsia.us,Smithsonian Channel Asia,,,US,,,c/US;c/AU,eng,science,FALSE,,,https://www.smithsonianchannel.com/,https://i.imgur.com/weNdD7r.png
 SmithsonianChannelCanada.ca,Smithsonian Channel Canada,,,CA,,,c/CA,eng,,FALSE,,,http://www.smithsonianchannel.ca/,https://cdn.tvpassport.com/image/station/100x100/smithsonian.png
@@ -19846,9 +19870,10 @@ SportyStuffTV.uk,SportyStuff TV,,,UK,,,c/UK,eng,sports,FALSE,,,https://www.sport
 Spotlight.es,Spotlight,,,ES,,,c/ES,spa,,FALSE,,,,https://i.imgur.com/TUDZvHw.jpg
 Spotlight.us,Spotlight,,,US,,,c/US,eng,,FALSE,,,,https://i.imgur.com/g9zxqSd.jpg
 SpotlightTV.uk,Spotlight TV,,,UK,,,c/UK,eng,,FALSE,2010-04-21,,http://spotlight-tv.co.uk/,https://i.imgur.com/axXipp8.png
-SpoTV.kr,SpoTV,,,KR,,,c/KR,kor,,FALSE,,,https://www.spotv.net/,https://www.lyngsat.com/logo/tv/ss/spotv-kr.png
-SpoTV2.kr,SpoTV 2,,,KR,,,c/KR,kor,,FALSE,,,,
-SpoTVPlus.kr,SpoTV Plus,,,KR,,,c/KR,kor,,FALSE,,,https://www.spotv.net/,https://www.lyngsat.com/logo/tv/ss/spo_tv_kr_plus.png
+SPOTV.kr,SPOTV,스포티비,,KR,,,c/KR,kor,sports,FALSE,2010-05-01,,https://spotv.net/,https://i.imgur.com/NjytrZN.png
+SPOTV2.kr,SPOTV2,스포티비 투,,KR,,,c/KR,kor,sports,FALSE,2012-01-01,,https://spotv.net/,https://i.imgur.com/OhdGE10.png
+SPOTVGolfHealth.kr,SPOTV Golf & Health,스포티브이 골프 앤 헬스,,KR,,,c/KR,kor,sports,FALSE,2020-05-06,,https://spotv.net/,https://i.imgur.com/mPXEwEI.png
+SPOTVPlus.kr,SPOTV+,,,KR,,,c/KR,kor,sports,FALSE,2012-06-08,2020-05-05,https://spotv.net/,https://www.lyngsat.com/logo/tv/ss/spo_tv_kr_plus.png
 SpreeTV.au,Spree TV,,,AU,,,c/AU,eng,,FALSE,2013-09-17,,,https://upload.wikimedia.org/wikipedia/en/d/d2/Spree_TV_2015_logo.png
 SpringsNetwork.za,Springs Network,,,ZA,,,c/ZA,eng,,FALSE,,,https://www.springsnetwork.tv/,https://www.lyngsat.com/logo/tv/ss/springs-network-za.png
 SPSClassic.mn,SPS Classic,,,MN,,,c/MN,mon,,FALSE,,,,https://www.lyngsat.com/logo/tv/ss/sps-classic-mn.png
@@ -20039,6 +20064,7 @@ StarzInBlackWest.us,Starz In Black West,,,US,,,c/US,eng;spa,,FALSE,,,https://www
 StarzKidsFamilyEast.us,Starz Kids & Family East,,,US,,,c/US,eng;spa,,FALSE,,,https://www.starz.com/,https://www.directv.com/images/logos/channels/dark/large/749.png
 StarzKidsFamilyWest.us,Starz Kids & Family West,,,US,,,c/US,eng;spa,,FALSE,,,https://www.starz.com/,https://cdn.tvpassport.com/image/station/100x100/starz_family.png
 StarzWest.us,Starz West,,,US,,,c/US,eng;spa,,FALSE,,,https://www.starz.com/,https://cdn.tvpassport.com/image/station/100x100/starz.png
+STATV.kr,STATV,스타티비,,KR,,,c/KR,kor,sports,FALSE,2020-03-16,,http://www.statv.net/,https://i.imgur.com/Jc0dBHW.png
 STB.kr,STB,,,KR,,,c/KR,kor,,FALSE,,,https://www.stb.co.kr/,https://www.lyngsat.com/logo/tv/ss/stb_kr.png
 STB.ua,STB,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,https://i.imgur.com/Av0pftd.png
 STBollywood.cn,ST Bollywood,,,CN,,,c/CN,eng;hin,,FALSE,,,http://starsat.co.za/,https://www.lyngsat.com/logo/tv/ss/star_times_bollywood.png
@@ -20792,9 +20818,9 @@ Tayna.ru,Tayna,,,RU,,,c/RU,rus,,FALSE,,,,https://thumb.tildacdn.com/tild3564-313
 TaynyGalaktiki.ru,Tayny Galaktiki,,,RU,,,c/RU,rus,,FALSE,,,https://www.galaxy-tv.ru/,https://avatars.mds.yandex.net/get-tv-channel-logos/27485/2a00000158248ee687ce26c1157140df0f81/160x120
 TAYTV.tr,TAY TV,,,TR,,,c/TR,tur,,FALSE,,,https://www.tjk.org/,https://www.dsmart.com.tr/epg/images/0x50/59f19761cfef0b221f7da818
 Tb1.ba,Tb1,,,BA,,,c/BA,bos,,FALSE,,,,https://mtel.ba/oec/images/tv_channels/5e67970fa9f14c5d93516cf1683fbc75.png
-TBC.kr,TBC,,,KR,,,c/KR,kor,,FALSE,,,http://www.tbc.co.kr/,https://www.lyngsat.com/logo/tv/tt/tbc_kr.png
 TBC1.tz,TBC 1,,,TZ,,,c/TZ,swa,,FALSE,,,,https://www.lyngsat.com/logo/tv/tt/tbc1.png
 TBC2.tz,TBC 2,,,TZ,,,c/TZ,eng,,FALSE,,,,https://www.lyngsat.com/logo/tv/tt/tbc2.png
+TBCTV.kr,TBC TV,,,KR,,,c/KR,kor,,FALSE,1995-05-14,,http://www.tbc.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Daegu_Broadcasting_Corporation.svg/512px-Daegu_Broadcasting_Corporation.svg.png
 TBD.us,TBD,,,US,,,c/US,eng,entertainment,FALSE,,,,https://i.imgur.com/Fbzbq1y.png
 TBMMTV.tr,TBMM TV,,,TR,,,c/TR,tur,,FALSE,1994-12-10,,https://www.tbmm.gov.tr/,https://www.lyngsat.com/logo/tv/tt/tbmm_tv.png
 TBN.ru,TBN,ТБН,,RU,,,c/RU,eng,,FALSE,,,https://tbn-tv.com/,https://avatars.mds.yandex.net/get-tv-channel-logos/55846/2a0000015b7c08ddc046356044f9e6278ee0/160x120
@@ -20820,7 +20846,7 @@ TBSChannel1.jp,TBS Channel 1,,,JP,,,c/JP,jpn,,FALSE,,,http://www.tbs.co.jp/tbs-c
 TBSChannel2.jp,TBS Channel 2,,,JP,,,c/JP,jpn,,FALSE,,,http://www.tbs.co.jp/tbs-ch/tch2/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-176-400x400.png
 TBSEast.us,TBS East,,,US,,,c/US,eng;spa,general,FALSE,,,http://www.tbs.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/TBS_Network-logo.svg/512px-TBS_Network-logo.svg.png
 TBSNews.jp,TBS News,,,JP,,,c/JP,jpn,,FALSE,,,https://www.tbs.co.jp/cstbsnews/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-152-400x400.png
-TBSSeoul.kr,TBS Seoul,,,KR,,,c/KR,kor,,FALSE,,,,https://i.imgur.com/wqlTcbI.png
+TBSTV.kr,TBS TV,,,KR,,,c/KR,kor,,FALSE,2005-03-03,,http://tbs.seoul.kr/,https://i.imgur.com/iOnWS6V.png
 TBSWest.us,TBS West,,,US,,,c/US,eng;spa;por,general,FALSE,,,http://www.tbs.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/TBS_Network-logo.svg/512px-TBS_Network-logo.svg.png
 TCH.ht,TCH,,,HT,,,c/HT,fra,,FALSE,,,,https://i.imgur.com/6LZVA4x.png
 TCI.it,TCI,,,IT,,,c/IT,ita,,FALSE,,,https://www.tci-italia.it/,https://www.lyngsat.com/logo/tv/tt/tci_it.png
@@ -21057,8 +21083,9 @@ TelenorSports14.no,Telenor Sports 14,,,NO,,,c/NO,nor,,FALSE,,,,https://www.lyngs
 TelenorSports15.no,Telenor Sports 15,,,NO,,,c/NO,nor,,FALSE,,,,https://www.lyngsat.com/logo/tv/tt/telenor_sports.png
 TeleNostalgia.co,Tele Nostalgia,,,CO,,,c/CO,spa,,FALSE,,,http://canaltelenostalgia.com/,https://cdn.mitvstatic.com/channels/co_tele-nostalgia_m.png
 Telenova.it,Telenova,,,IT,,,c/CH;c/IT,ita,,FALSE,,,,https://i.imgur.com/Dc1OemY.png
-Telenovela.kr,Telenovela,,,KR,,,c/KR,kor,,FALSE,,,http://www.telenovela.co.kr/,https://www.lyngsat.com/logo/tv/tt/telenovela_kr.png
+Telenovela.kr,Telenovela,텔레노벨라,,KR,,,c/KR,kor,,FALSE,,,http://www.telenovela.co.kr/,https://www.lyngsat.com/logo/tv/tt/telenovela_kr.png
 TeleNovelaChannel.ph,TeleNovela Channel,,,PH,,,c/PH,tgl;eng,,FALSE,,,http://telenovelachannel.com/,https://www.lyngsat.com/logo/tv/tt/tele_novela_channel_ph.png
+TelenovelaHD.kr,Telenovela HD,텔레노벨라 HD,,KR,,,c/KR,kor,,FALSE,,,http://www.telenovela.co.kr/,https://i.imgur.com/tHbW8WJ.png
 Telenovella.ru,Telenovella,,,RU,,,c/RU,rus,,FALSE,,,,https://i.imgur.com/TPnoOYi.png
 TeleOnce.gt,TeleOnce,,,GT,,,c/GT,spa,,FALSE,,,http://canales11y13.blogspot.com/,https://imagenes.gatotv.com/logos/canales/oscuros/11_de_guatemala-mediano.png
 Telepace.it,Telepace,,,IT,,,c/IT,ita,,FALSE,,,https://www.teleradiopace.tv/,https://www.lyngsat.com/logo/tv/tt/telepace_it.png
@@ -21434,7 +21461,7 @@ TivibuSpor3.tr,Tivibu Spor 3,,,TR,,,c/TR,tur,,FALSE,,,https://www.tivibu.com.tr/
 TivibuSpor4.tr,Tivibu Spor 4,,,TR,,,c/TR,tur,,FALSE,,,https://www.tivibu.com.tr/,https://www.lyngsat.com/logo/tv/tt/tivibu_tr_spor_4.png
 Tivikom.ru,Tivikom,,,RU,,Ulan-Ude,c/RU,rus,,FALSE,,,,https://tvcom-tv.ru/assets/img/logo.png
 tiviTURK.de,tiviTÜRK,,,DE,,,c/TR,tur,,FALSE,,,,https://i.ibb.co/9TDs8q8/IFE6LHH.jpg
-TJB.kr,TJB,,,KR,,,c/KR,kor,,FALSE,,,,https://upload.wikimedia.org/wikipedia/ko/8/8b/TJB_Logo.jpg
+TJBTV.kr,TJB TV,,,KR,,,c/KR,kor,,FALSE,1995-05-14,,http://www.tjb.co.kr/,https://i.imgur.com/q9Nx801.png
 TJC.uk,TJC,,,UK,,,c/UK,eng,,FALSE,,,https://www.tjc.co.uk/,https://i.imgur.com/cFlNhjV.png
 TJKTV.tr,TJK TV,,,TR,,,c/TR,tur,,FALSE,,,https://www.tjk.org/,https://i.imgur.com/3zHdkYG.png
 TKR.ru,TKR,,,RU,,Ryazan,c/RU,rus,,FALSE,,,,https://i.imgur.com/5sXJ4Kw.png
@@ -22150,6 +22177,7 @@ TVAsahiChannel1.jp,TV Asahi Channel 1,,,JP,,,c/JP,jpn,,FALSE,,,https://www.tv-as
 TVAsahiChannel2.jp,TV Asahi Channel 2,,,JP,,,c/JP,jpn,,FALSE,,,https://www.tv-asahi.co.jp/ch/contents/osusume/ch2/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-188-400x400.png
 TVASherbrooke.ca,TVA Sherbrooke,,,CA,,,c/CA,fra,,FALSE,,,https://www.qub.ca/tvaplus/tva,https://www.lyngsat.com/logo/tv/tt/tva-ca.png
 TVAsia.us,TV Asia,,,US,,,c/US,hin,,FALSE,,,http://www.tvasiausa.com/,https://www.lyngsat.com/logo/tv/tt/tv_asia_us.png
+TVAsiaPlus.kr,TVAsia Plus,,,KR,,,c/KR,kor,,FALSE,,,http://tra.co.kr/web_kor4/,https://i.imgur.com/bODZoMF.png
 TVASport.ir,TVA Sport,,,IR,,,c/IR,fas,,FALSE,,,,https://s3.ott.tva.tv/rosing-tva-production/264fbc5c0d804c31c8a3_512x512c.png
 TVASport2.ir,TVA Sport 2,,,IR,,,c/IR,fas,,FALSE,,,,https://s3.ott.tva.tv/rosing-tva-production/ed2e8604c9e6128891d5_512x512c.png
 TVASports.ca,TVA Sports,,,CA,,,c/CA,fra,,FALSE,2011-09-12,,http://www.tvasports.ca/,https://cdn.tvpassport.com/image/station/100x100/tvasports.png
@@ -22562,7 +22590,7 @@ TVMundoMaior.br,TV Mundo Maior,,,BR,,,c/BR,por,,FALSE,,,https://tvmundomaior.com
 TVMuslim.th,TV Muslim,,,TH,,,c/TH,tha,,FALSE,,,,
 TVN.cl,TVN,,,CL,,,c/CL,spa,,FALSE,,,https://www.tvn.cl/,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLN4WfUMrRsD0b04jbG3EnYrnlV4FYPZURRw&usqp=CAU
 TVN.ee,TVN,,,EE,,,c/EE,est,,FALSE,,,,https://inet-static.mw.elion.ee/images/channels/300x300/140.png
-TVN.kr,TVN,,,KR,,,c/KR,kor,,FALSE,,,http://tvn.tving.com/tvn,https://www.lyngsat.com/logo/tv/tt/tvn-asia-kr.png
+TVN.kr,TVN,,,KR,,,c/KR,kor,,FALSE,2006-10-09,,http://tvn.tving.com/tvn/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/512px-Logo_tvN.svg.png
 TVN.pa,TVN,,,PA,,,c/PA,spa,,FALSE,,,https://www.tvn-2.com/,https://3.bp.blogspot.com/-e1scDLqFQd8/Vx4ithci-rI/AAAAAAAACYk/Qds1kNnpYT8WnBgoJnx7jnS197He2QLngCLcB/s1600/logo-tvn.png
 TVN.pl,TVN,,,PL,,,c/PL,pol,,FALSE,,,http://www.tvn.pl/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/TVN.png
 TVN24.pl,TVN 24,,,PL,,,c/PL,pol,,FALSE,,,https://www.tvn24.pl/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/tvn24.png
@@ -22570,17 +22598,17 @@ TVN24BiS.pl,TVN 24 BiS,,,PL,,,c/PL,pol,,FALSE,,,http://tvn24bis.pl/,https://ocdn
 TVN7.pl,TVN 7,,,PL,,,c/PL,pol,,FALSE,,,https://www.tvn7.pl/,https://ocdn.eu/ptv2-images-transforms/1/HmQkrdsb2dvLW1pZ3JhdGVkL3R2bl83LnBuZ5KVAmQAwsOVAgAowsM
 TVNacionalUruguay.uy,TV Nacional Uruguay,,,UY,,,c/UY,spa,,FALSE,,,,https://cdn.mitvstatic.com/channels/ar_tv-nacional-uruguay_m.png
 TVNaipi.br,TV Naipi,,,BR,,,c/BR,por,,FALSE,,,https://www.redemassa.com.br/,https://www.lyngsat.com/logo/tv/rr/rede-massa-br.png
-TVNAsia.kr,TVN Asia,,,KR,,,c/KR,kor;eng;zho;ind;tha,,FALSE,,,https://www.tvnasia.net/,https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch155_160_115
+TVNAsia.hk,TVN Asia,,,HK,,,c/MY;c/ID;c/SG;c/BN;c/TH;c/VN;c/PH;c/HK,kor;eng;zho;ind;tha,,FALSE,2009-01-01,,https://www.tvnasia.net/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Logo_tvN.svg/512px-Logo_tvN.svg.png
 TVNatura.cz,TV Natura,,,CZ,,,c/CZ,ces,,FALSE,,,https://www.tvnatura.cz/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/tvnatura.png
 TVNazare.br,TV Nazaré,,,BR,,,c/BR,por,,FALSE,,,,https://www.lyngsat.com/logo/tv/rr/rede_nazare_comunicacao.png
 TVNBrasil.br,TVN Brasil,,,BR,,,c/BR,por,,FALSE,,,,https://i.imgur.com/Cywnp02.png
+TVNDrama.kr,TVN Drama,,,KR,,,c/KR,kor,,FALSE,2021-09-01,,http://tvndrama.tving.com/,https://i.imgur.com/f91ieU8.png
 TVNET.lv,TVNET,,,LV,,,c/LV,lav,,FALSE,,,,https://i.imgur.com/r4rlHUt.png
 TVNet.tr,TV Net,,,TR,,,c/TR,tur,,FALSE,,,https://www.tvnet.com.tr/,https://i.imgur.com/NTWLhuL.png
 TVNFabula.pl,TVN Fabula,,,PL,,,c/PL,pol,,FALSE,,,http://tvnfabula.pl/,https://ocdn.eu/ptv2-images-transforms/1/et0krxsb2dvLW1pZ3JhdGVkL3R2bi1mYWJ1bGEucG5nkpUCZADCw5UCACjCww
 TVNGlobal.co,TVN Global,,,CO,,,c/CO,spa,,FALSE,,,,
 TVNiksic.me,TV Niksic,,,ME,,,c/ME,srp,,FALSE,,,https://www.rtnk.me/,https://mtel.ba/oec/images/tv_channels/876a802df46d6692a4c675685f5108fe.png
-TVNMovies.kr,TVN Movies,,,KR,,,c/KR,kor,,FALSE,,,https://tvnmovies.net/,https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/274_144.png
-TVNMoviesIndonesia.id,TVN Movies Indonesia,,,ID,,,c/ID,ind;kor,,FALSE,,,https://tvnmovies.net/id/,https://www.mncvision.id/userfiles/image/channel/channel_25.png
+TVNMovies.hk,TVN Movies,,,HK,,,c/MY;c/ID;c/SG;c/BN;c/TH;c/VN;c/PH;c/HK,kor;eng;zho;ind;tha,,FALSE,,,https://tvnmovies.net/,https://i.imgur.com/oLzTyUX.png
 TVNoe.cz,TV Noe,,,CZ,,,c/CZ,ces,,FALSE,,,https://www.tvnoe.cz/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/noe.png
 TVNoord.nl,TV Noord,,,NL,,,c/NL,nld,,FALSE,,,https://www.rtvnoord.nl/,https://i.imgur.com/WEH5zkv.png
 TVNorge.no,TV Norge,,,NO,,,c/NO,nor,,FALSE,,,http://www.tvnorge.no/,https://images.ctfassets.net/989y85n5kcxs/Qyp3A3bawGlkisZhNoeK0/4ec668454f583ca21adae9c5948dad92/tv_norge_0.png
@@ -22598,6 +22626,8 @@ TVNoviPazar.rs,TV Novi Pazar,,,RS,,,c/RS,srp,,FALSE,,,http://rtvnp.rs/,https://m
 TVNovoTempoBrasil.br,TV Novo Tempo Brasil,,,BR,,,c/BR,por,,FALSE,,,https://www.novotempo.com/tv/,https://cdn.mitvstatic.com/channels/br_tv-novo-tempo_m.png
 TVNPremium.kr,TVN Premium,,,KR,,,c/KR,kor;zho,,FALSE,,,https://www.tvnasia.net/,https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/190_144.png
 TVNPremiumIndonesia.id,TVN Premium Indonesia,,,ID,,,c/ID,kor,,FALSE,,,https://www.tvnasia.net/,https://www.mncvision.id/userfiles/image/channel/channel_158.png
+TVNShow.kr,TVN Show,,,KR,,,c/KR,kor,,FALSE,2021-09-01,,http://tvnshow.tving.com/,https://i.imgur.com/8OobmvS.png
+TVNStory.kr,TVN Story,,,KR,,,c/KR,kor,,FALSE,2021-09-01,,http://tvnstory.tving.com/,https://i.imgur.com/hurdSYk.png
 TVNStyle.pl,TVN Style,,,PL,,,c/PL,pol,,FALSE,2004-08-01,,http://www.tvnstyle.pl/,https://ocdn.eu/ptv2-images-transforms/1/aK4krtsb2dvLW1pZ3JhdGVkL3R2bi1zdHlsZS5wbmeSlQJkAMLDlQIAKMLD
 TVNThai.kr,TVN Thai,,,KR,,,c/KR,kor,,FALSE,,,https://www.tvnasia.net/,https://www.lyngsat.com/logo/tv/tt/tvn-thai-us.png
 TVNTurbo.pl,TVN Turbo,,,PL,,,c/PL,pol,,FALSE,2003-12-12,,http://www.tvnturbo.pl/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/tvnturbo.png
@@ -22979,7 +23009,7 @@ TVWest.br,TV West,,,BR,,,c/BR,por,,FALSE,,,http://www.redebahia.com.br/empresas/
 TVWest.nl,TV West,,,NL,,,c/NL,nld,,FALSE,,,,https://i.imgur.com/sHDjfdC.png
 TVWest.ug,TV West,,,UG,,,c/UG,eng,,FALSE,,,https://tvwest.co.ug/,https://rndcdn.dstv.com/dstvcms/2018/04/04/TVWest_logo_4-3_001_xlrg.png
 TVWestsachsen.de,TV Westsachsen,,,DE,,,c/DE,deu,,FALSE,,,https://www.westsachsen.tv/,https://i2.wp.com/www.westsachsen.tv/wp-content/uploads/2019/04/LogoRGB-white-e1555333802267.png
-TVWorkNet.kr,TV Work Net,,,KR,,,c/KR,kor,,FALSE,,,https://www.worktv.or.kr/,https://i.imgur.com/xLL7Sxm.png
+TVWorkNet.kr,TV Work Net,,,KR,,,c/KR,kor,,FALSE,,,https://www.worktv.or.kr/,https://i.imgur.com/9zYxRZW.png
 TVX.sv,TVX,,,SV,,,c/SV,spa,,FALSE,,,,https://tvx.com.sv/wp-content/uploads/2020/07/TVX-Favicon.png
 TVX.uk,TV X,,,UK,,,c/UK,eng,,FALSE,,,http://www.televisionx.com/,https://www.lyngsat.com/logo/tv/tt/television_x.png
 TVX40Plus.uk,TV X 40+,,,UK,,,c/UK,eng,,FALSE,,,https://www.televisionx.com/,https://www.lyngsat.com/logo/tv/tt/tv_x_uk_40_plus.png
@@ -23009,8 +23039,8 @@ UAPershiy.ua,UA: Pershiy,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,
 UATV.cl,UATV,,,CL,,,c/CL,spa,,FALSE,,,,https://uatv.cl/wp-content/uploads/2016/01/marcauatv_2.png
 UATV.ua,UA TV,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,https://uatv.ua/,https://i.imgur.com/lNH1pkZ.jpg
 UAZakarpattya.ua,UA: Zakarpattya,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,
-UBC.kr,UBC,,,KR,,,c/KR,kor,,FALSE,,,,https://www.lyngsat.com/logo/tv/uu/ubc_kr.png
 UBCStarTV.ug,UBC Star TV,,,UG,,,c/UG,eng,,FALSE,,,https://ubc.go.ug/tv/star-tv/,https://www.lyngsat.com/logo/tv/uu/ubc-star-ug.png
+UBCTV.kr,UBC TV,,,KR,,,c/KR,kor,,FALSE,1997-09-01,,http://web.ubc.co.kr/wp/tv,https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Ubc_logo2.svg/512px-Ubc_logo2.svg.png
 UBCTV.ug,UBC TV,,,UG,,,c/UG,eng,,FALSE,,,https://ubc.go.ug/tv/ubc-tv/,https://rndcdn.dstv.com/dstvcms/2020/10/21/UBC_NEW_2020_logo_4-3-LightBackground_xlrg.png
 UBeat.mx,U-Beat,,,MX,,,c/MX,spa,,FALSE,,,https://ubeat.tv/,https://www.lyngsat.com/logo/tv/uu/u-beat-mx.png
 UbiznewsTV.fr,Ubiznews TV,,,FR,,,c/FR,eng,,FALSE,,,https://ubiznewstv.com/,https://i.imgur.com/rlILlKz.png
@@ -23055,7 +23085,7 @@ UlaffTV.ng,Ulaff TV,,,NG,,,c/NG,eng,,FALSE,,,,https://www.lyngsat.com/logo/tv/uu
 UlibkaRebyonka.ru,Ulibka Rebyonka,,,RU,,,c/RU,rus,,FALSE,,,,https://www.lyngsat.com/logo/tv/uu/ulibka_rebyonka_ru.png
 UlkeTV.tr,Ülke TV,,,TR,,,c/TR,tur,,FALSE,,,https://www.ulketv.com.tr/,https://izmottvsc23.tvplus.com.tr:33207/CPS/images/universal/film/poster/20160921/001300/001300000008479107/72c3b8c5-1b4a-4d78-afde-5a3de484b5fd.png
 ULosLagosTV.cl,U Los Lagos TV,,,CL,,,c/CL,spa,,FALSE,,,,
-UlsanMBC.kr,Ulsan MBC,,,KR,,,c/KR,kor,,FALSE,,,http://www.usmbc.co.kr/,https://www.lyngsat.com/logo/tv/uu/ulsan-mbc-kr.png
+UlsanMBCTV.kr,Ulsan MBC TV,울산MBC TV,,KR,,,c/KR,kor,,FALSE,1971-01-25,,http://www.usmbc.co.kr/,https://i.imgur.com/CcPklOT.png
 UltraFamilia.us,Ultra Familia,,,US,,,c/US,eng,,FALSE,,,http://www.olympusat.com/networks/ultra-familia,https://cdn.tvpassport.com/image/station/100x100/ultra-familia.png
 UltraHDCinema.ru,Ultra HD Cinema,,,RU,,,c/RU,rus,,FALSE,,,https://www.tricolor.tv/channels/ultra-hd-cinema/,https://www.lyngsat.com/logo/tv/uu/ultra-hd-cinema-ru.png
 UltraNature.fr,Ultra Nature,,,FR,,,c/FR,fra,,FALSE,2016-05-19,,,https://i.imgur.com/fqGn4P0.png
@@ -23401,7 +23431,6 @@ VienThaoTV.us,Vien Thao TV,,,US,,,c/US,vie,,FALSE,,,http://www.vienthao.com/tv.h
 VietfaceTV.us,Vietface TV,,,US,,,c/US,vie,,FALSE,,,http://vietfacetv.com/,https://www.directv.com/images/logos/channels/dark/large/368.png
 VietMyTV.vn,Viet My TV,,,VN,,,c/VN,vie,,FALSE,,,,https://s30.postimg.org/s0aco3hzl/VIET_MY.png
 VietvNetwork.us,Vietv Network,,,US,,,c/US,vie,,FALSE,,,http://www.vietv.com/,https://www.directv.com/images/logos/channels/dark/large/147.png
-View.kr,View,,,KR,,,c/KR,kor,,FALSE,,,http://www.imtcast.com/chview/,https://www.lyngsat.com/logo/tv/vv/view_kr.png
 ViewerTV.ng,Viewer TV,,,NG,,,c/NG,eng,,FALSE,,,https://viewertv.com.ng/,https://www.lyngsat.com/logo/tv/vv/viewer-tv-ng.png
 VijaySuper.in,Vijay Super,,,IN,,,c/IN,tam,,FALSE,,,,https://www.lyngsat.com/logo/tv/vv/vijay-super-hk-in.png
 VijayTV.hk,Vijay TV,,,HK,,,c/HK,tam,,FALSE,,,,https://i.imgur.com/a1OC5uP.png
@@ -23471,6 +23500,7 @@ Vizyon1.au,Vizyon 1,,,AU,,,c/AU,tur,,FALSE,,,,https://www.lyngsat.com/logo/tv/vv
 Vizyon58.tr,Vizyon 58,,,TR,,,c/TR,tur,,FALSE,,,http://www.vizyon58.com/,https://www.lyngsat.com/logo/tv/vv/vizyon_58_tr.png
 Vizyon58TV.tr,Vizyon 58 TV,,,TR,,,c/TR,tur,,FALSE,,,,
 VlaamsParlementTV.be,Vlaams Parlement TV,,,BE,,,c/BE,nld,,FALSE,,,https://www.vlaamsparlement.be/nl/tv,https://experience-cache.proximustv.be/posterserver/poster/DEFAULT/w-250_h-162/t_1102_001.png
+Vlending.kr,Vlending,,,KR,,,c/KR,kor,,FALSE,,,https://www.vlending.kr/,https://i.imgur.com/bycwH6W.png
 Vme.us,V me,,,US,,,c/US,spa,,FALSE,,,http://www.vmetv.com/,https://www.directv.com/images/logos/channels/dark/large/795.png
 VmeKids.us,Vme Kids,,,US,,,c/US,spa,,FALSE,2010-09-01,,http://www.vmekids.com/,https://upload.wikimedia.org/wikipedia/en/9/9d/Vme_Kids_Logo.png
 VmesteRF.ru,Vmeste RF,,,RU,,,c/RU,rus,,FALSE,,,https://vmeste-rf.tv/,https://avatars.mds.yandex.net/get-tv-channel-logos/1656757/2a000001703efa3b743e4fd720ec96375736/170x100
@@ -24811,6 +24841,7 @@ WEDYDT3.us,WEDY-DT3,,CPTV Spirit,US,US-CT,New Haven,s/US-CT,eng,,FALSE,,,,https:
 WEEKDT1.us,WEEK-DT1,,NBC,US,US-IL,Bloomington,s/US-IL,eng,,FALSE,,,http://www.week.com/,https://cdn.tvpassport.com/image/station/100x100/nbc.png
 WEEKDT2.us,WEEK-DT2,,ABC,US,US-IL,Peoria,s/US-IL,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/abc.png
 WeekDT3.us,Week-DT3,,CW,US,US-IL,Peoria,s/US-IL,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/cw.png
+WeeTV.kr,WeeTV,,,KR,,,c/KR,kor,,FALSE,,,http://tra.co.kr/web_kor2/,https://i.imgur.com/AQbjUyc.png
 WEFSDT1.us,WEFS-DT1,,,US,US-FL,,s/US-FL,eng,,FALSE,,,,
 WEFSDT3.us,WEFS-DT3,,NASA,US,US-FL,Orlando,s/US-FL,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/nasatv.png
 WEFSDT4.us,WEFS-DT4,,Florida,US,US-FL,Cocoa,s/US-FL,eng,,FALSE,,,,https://cdn.tvpassport.com/image/station/100x100/thefloridachannel.png
@@ -28539,7 +28570,7 @@ XtsyLatin.us,Xtsy Latin,,,US,,,c/US,eng,,FALSE,,,http://www.xtsy.com/,https://ww
 XtsyXX5.us,Xtsy XX.5,,,US,,,c/US,eng,,FALSE,,,http://www.xtsy.com/,https://www.lyngsat.com/logo/tv/tt/ten_xtsy_xx5.png
 XtsyXXX.us,Xtsy XXX,,,US,,,c/US,eng,,FALSE,,,http://www.xtsy.com/,https://www.lyngsat.com/logo/tv/tt/ten_xtsy_xxx.png
 XTVChachapoyas.pe,X TV Chachapoyas,,,PE,,,c/PE,spa,,FALSE,,,,https://graph.facebook.com/canalxtvperu/picture?width=320&height=320
-XTVN.kr,X TVN,,,KR,,,c/KR,kor,,FALSE,,,http://xtvn.tving.com/xtvn,https://www.lyngsat.com/logo/tv/xx/x-tvn-kr.png
+XTVN.kr,XTVN,,,KR,,,c/KR,kor,,FALSE,2018-01-26,2021-09-01,http://xtvn.tving.com/xtvn,https://i.imgur.com/QW0R9qu.png
 XumoFreeMovies.us,Xumo Free Movies,,,US,,,c/US,eng,movies,FALSE,,,,https://i.imgur.com/Sx10tvQ.png
 XumoFreeWesterns.us,Xumo Free Westerns,,,US,,,c/US,eng,movies,FALSE,,,,https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/XumoFreeWesterns.png?raw=true
 XuzhouEconomicLifeChannel.cn,Xuzhou Economic Life Channel,,,CN,,,c/CN,zho,,FALSE,,,,https://i.imgur.com/LcJZVV5.png
@@ -28595,6 +28626,7 @@ YemenTodayTV.ye,Yemen Today TV,,,YE,,,c/YE,ara,,FALSE,,,http://www.yementoday.tv
 YemenTV.ye,Yemen TV,,,YE,,,c/YE,ara,,FALSE,,,https://yementv.tv/,https://www.lyngsat.com/logo/tv/yy/yemen_tv.png
 YenBaiTV.vn,Yen Bai TV,,,VN,,,c/VN,vie,,FALSE,,,https://yenbaitv.org.vn/,https://www.lyngsat.com/logo/tv/yy/yen-bai-tv-vn.png
 YeniMalatyasporTV.tr,Yeni Malatyaspor TV,,,TR,,,c/TR,tur,,FALSE,,,,
+YeosuMBCTV.kr,Yeosu MBC TV,여수MBC TV,,KR,,,c/KR,kor,,FALSE,1987-11-21,,http://www.ysmbc.co.kr/,https://i.imgur.com/06bviaT.png
 YerkirMediaTV.am,Yerkir Media TV,,,AM,,,c/AM,hye,general,FALSE,,,https://yerkirmedia.am/,https://i.imgur.com/FKpxkVH.png
 YES.mv,YES,,,MV,,,c/MV,div,,FALSE,,,http://psmnews.mv/,https://www.lyngsat.com/logo/tv/yy/yes_tv_mv.png
 Yes2.us,Yes 2,,,US,,,c/US,eng,,FALSE,,,https://www.yesnetwork.com/,https://www.lyngsat.com/logo/tv/yy/yes-network-us.png
@@ -28661,11 +28693,12 @@ YouSat.se,YouSat,,,SE,,,c/SE,ara,,FALSE,,,https://yousat.tv/,https://www.lyngsat
 YoutooAmerica.us,Youtoo America,,,US,,,c/US,eng,entertainment,FALSE,,,,https://i.imgur.com/3se2VEB.png
 YouTV.vn,You TV,,,VN,,,c/VN,vie,,FALSE,,,http://youtv.vn/,https://www.lyngsat.com/logo/tv/yy/you_tv_vn.png
 YTA.us,YTA,,,US,,,c/US,eng,entertainment,FALSE,,,http://ytatv.com/,https://i.imgur.com/3se2VEB.png
-YTN.kr,YTN,,,KR,,,c/KR,kor,,FALSE,1995-03-01,,https://www.ytn.co.kr/,https://static.epg.best/kr/YTN.kr.png
-YTN2.kr,YTN 2,,,KR,,,c/KR,kor,,FALSE,,,https://ytn2.ytn.co.kr/,https://www.lyngsat.com/logo/tv/yy/ytn-2-kr.png
-YTNDMB.kr,YTN DMB,,,KR,,,c/KR,kor,,FALSE,,,,https://i.imgur.com/fdFQonN.jpg
-YTNScience.kr,YTN Science,,,KR,,,c/KR,kor,,FALSE,,,https://science.ytn.co.kr/,https://www.lyngsat.com/logo/tv/yy/ytn_kr_science.png
-YTNWorld.kr,YTN World,,,KR,,,c/KR,kor,,FALSE,,,https://www.ytn.co.kr/replay/channel.php?idx=5,https://www.lyngsat.com/logo/tv/yy/ytn-world-kr.png
+YTN.kr,YTN,,,KR,,,c/KR,kor,,FALSE,1995-03-01,,https://www.ytn.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/YTN_logo_2014.svg/512px-YTN_logo_2014.svg.png
+YTN2.kr,YTN2,와이티엔 투,,KR,,,c/KR,kor,,FALSE,2021-03-01,,https://ytn2.ytn.co.kr/,https://www.lyngsat.com/logo/tv/yy/ytn-2-kr.png
+YTNDMB.kr,YTN DMB,,,KR,,,c/KR,kor,,FALSE,2005-12-01,,https://www.ytn.co.kr/replay/channel.php?idx=4,https://i.imgur.com/nmAmULe.png
+YTNKorean.kr,YTN Korean,,,KR,,,c/KR,kor,,FALSE,,,https://www.ytn.co.kr/replay/channel.php?idx=6,https://i.imgur.com/sNifITi.png
+YTNScience.kr,YTN Science,YTN 사이언스,,KR,,,c/KR,kor,,FALSE,2007-09-17,,https://science.ytn.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/YTN_%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4_%EB%A1%9C%EA%B3%A0_%EB%89%B4.png/512px-YTN_%EC%82%AC%EC%9D%B4%EC%96%B8%EC%8A%A4_%EB%A1%9C%EA%B3%A0_%EB%89%B4.png
+YTNWorld.kr,YTN World,,,KR,,,c/KR,kor,,FALSE,,,https://www.ytn.co.kr/replay/channel.php?idx=5,https://i.imgur.com/UFR7WAM.png
 YTV.bw,YTV,,,BW,,,c/BW,eng,,FALSE,,,https://www.ytv.co.bw/,https://www.lyngsat.com/logo/tv/yy/y-tv-bw.png
 YTV.ca,YTV,,,CA,,,c/CA,eng,,FALSE,,,http://www.ytv.com/,https://zap2it.tmsimg.com/h3/NowShowing/12045/s12045_h3_aa.png
 YTV.mm,YTV,,,MM,,,c/MM,mya,,FALSE,,,https://ytvmm.com/,https://www.lyngsat.com/logo/tv/yy/ytv-mm.png

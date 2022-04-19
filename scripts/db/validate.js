@@ -34,6 +34,13 @@ async function main() {
 		if (/\s+$/.test(csvString))
 			return handleError(`Error: empty lines at the end of file not allowed (${filepath})`)
 
+		const rows = csvString.split('\r\n')
+		const headers = rows[0].split(',')
+		for (let [i, line] of rows.entries()) {
+			if (line.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/).length !== headers.length)
+				return handleError(`Error: row ${i + 1} has the wrong number of columns (${filepath})`)
+		}
+
 		const filename = file.getFilename(filepath)
 		let data = await csv
 			.fromString(csvString)

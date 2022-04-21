@@ -78,6 +78,7 @@ async function main() {
 				fileErrors = fileErrors.concat(validateChannelBroadcastArea(row, i))
 				fileErrors = fileErrors.concat(validateChannelSubdivision(row, i))
 				fileErrors = fileErrors.concat(validateChannelCategories(row, i))
+				fileErrors = fileErrors.concat(validateChannelReplacedBy(row, i))
 				fileErrors = fileErrors.concat(validateChannelLanguages(row, i))
 				fileErrors = fileErrors.concat(validateChannelCountry(row, i))
 			}
@@ -166,6 +167,18 @@ function validateChannelCountry(row, i) {
 		errors.push({
 			line: i + 2,
 			message: `"${row.id}" has the wrong country "${row.country}"`
+		})
+	}
+
+	return errors
+}
+
+function validateChannelReplacedBy(row, i) {
+	const errors = []
+	if (row.replaced_by && !db.channels[row.replaced_by]) {
+		errors.push({
+			line: i + 2,
+			message: `"${row.id}" has the wrong replaced_by "${row.replaced_by}"`
 		})
 	}
 

@@ -35,6 +35,9 @@ module.exports = {
 	is_nsfw: Joi.boolean().strict().required(),
 	launched: Joi.date().format('YYYY-MM-DD').raw().allow(null),
 	closed: Joi.date().format('YYYY-MM-DD').raw().allow(null),
+	replaced_by: Joi.string()
+		.regex(/^[A-Za-z0-9]+\.[a-z]{2}$/)
+		.allow(null),
 	website: Joi.string()
 		.uri({
 			scheme: ['http', 'https']

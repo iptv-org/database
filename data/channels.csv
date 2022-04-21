@@ -1135,17 +1135,17 @@ AnimalShowHD.th,Animal Show HD,,,TH,,,c/TH,tha;eng,,FALSE,,,,,https://www.lyngsa
 Animaux.fr,Animaux,,,FR,,,c/FR,fra;tur;eng,,FALSE,,,,http://www.animauxtv.fr/,https://service.canal-overseas.com/image-api/v1/image/9d91bf8d25632e77d004cf5b84f296b1
 Animax.jp,Animax,,Animax,JP,,,c/JP,jpn,animation,FALSE,1998-05-20,,,http://www.animax.co.jp/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimaxAsia.sg,Animax Asia,,Animax,SG,,,r/SAS,eng;jpn;ind;zho;msa;yue;tha,animation,FALSE,2004-01-19,,,http://www.animax-asia.com/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
-AnimaxCzechRepublic.cz,Animax Czech Republic,,Animax,CZ,,,c/CZ,ces,animation,FALSE,2007-07-02,2014-03-31,,http://www.animaxtv.cz/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
-AnimaxEastEurope.hu,Animax East Europe,,Animax,HU,,,c/HU;c/RO;c/PL;c/CZ;c/SK,hun;ron;ces,animation,FALSE,2007-07-02,2014-03-31,C8EastEurope.hu,http://www.animaxtv.hu/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxCzechRepublic.cz,Animax Czech Republic,,Animax,CZ,,,c/CZ,ces,animation,FALSE,2007-07-02,2014-03-31,C8CzechRepublic.cz,http://www.animaxtv.cz/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxSlovakia.sk,Animax Slovakia,,Animax,SK,,,c/SK,slk,animation,FALSE,2007-07-02,2014-03-31,C8Slovakia.sk,,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimaxGermany.de,Animax Germany,,Animax,DE,,,c/DE,deu,animation,FALSE,2007-06-05,2016-07-07,,http://www.animaxtv.de/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimaxHongKong.hk,Animax Hong Kong,,Animax,HK,,,c/HK,zho,animation,FALSE,2004-01-12,,,http://www.animax-hk.com,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
-AnimaxHungary.hu,Animax Hungary,,Animax,HU,,,c/HU,hun,animation,FALSE,2007-07-02,2014-03-31,,http://www.animaxtv.hu/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
-AnimaxIndia.in,Animax India,,Animax,IN,,,c/IN,jpn;eng,animation,FALSE,2004-07-04,2017-04-18,,http://www.animaxtv.co.kr/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxHungary.hu,Animax Hungary,,Animax,HU,,,c/HU,hun,animation,FALSE,2007-07-02,2014-03-31,C8Hungary.hu,http://www.animaxtv.hu/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxIndia.in,Animax India,,Animax,IN,,,c/IN,jpn;eng,animation,FALSE,2004-07-04,2017-04-18,,,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimaxKorea.kr,Animax Korea,,Animax,KR,,,c/KR,kor,animation,FALSE,2006-04-29,,,http://www.animaxtv.co.kr/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimaxLatinAmerica.ve,Animax Latin America,,Animax,VE,,,r/LATAM,spa;por,animation,FALSE,2005-07-31,2011-05-01,,http://www.animaxtv.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Animax3.png/512px-Animax3.png
 AnimaxPhilippines.ph,Animax Philippines,,Animax,PH,,,c/PH,eng;jpn;fil,animation,FALSE,2004-01-01,,,https://www.animax-asia.com/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimaxPortugal.es,Animax Portugal,,Animax,ES,,,c/PT,por,animation,FALSE,2008-04-12,2011-05-09,,,https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Animax3.png/512px-Animax3.png
-AnimaxRomanian.ro,Animax Romanian,,Animax,RO,,,c/RO,ron,animation,FALSE,2007-07-02,2014-03-31,,http://www.animaxtv.ro/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxRomania.ro,Animax Romania,,Animax,RO,,,c/RO,ron,animation,FALSE,2007-07-02,2014-03-31,C8Romania.ro,http://www.animaxtv.ro/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimaxSpain.es,Animax Spain,,Animax,ES,,,c/ES,spa,animation,FALSE,2008-04-12,2013-12-31,,,https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Animax3.png/512px-Animax3.png
 AnimaxTaiwan.tw,Animax Taiwan,,Animax,TW,,,c/TW,eng;jpn;tha,animation,FALSE,2004-01-01,,,http://www.animax-taiwan.com/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimeAllDay.us,Anime All Day,,,US,,,c/US,eng,animation,FALSE,,,,https://pluto.tv/en/live-tv/anime-all-day,https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png
@@ -2773,8 +2773,11 @@ BYUTVLatinAmerica.us,BYU TV Latin America,,,US,,,c/US,por;eng;spa,,FALSE,,,,http
 C1.mn,C1,,,MN,,,c/MN,mon,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/c1_mn.png
 C31Melbourne.au,C31 Melbourne,,,AU,,,c/AU,eng,general,FALSE,1994-10-06,,,,https://i.imgur.com/Ge1EutY.png
 C5N.ar,C5N,,,AR,,,c/AR,spa,news,FALSE,,,,,https://cdn.mitvstatic.com/channels/ar_c5n_m.png
-C8.fr,C8,,,FR,,,c/FR,fra,,FALSE,,,,https://www.canalplus.com/chaines/c8,https://www.programme-tv.net/imgre/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2F4f755cfa0dbec7b5.2Epng/80x80/quality/80/c8.png
-C8EastEurope.hu,C8 East Europe,,,HU,,,c/HU,hun,,FALSE,2014-03-01,2018-01-01,,http://www.c8tv.hu/,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/C8_TV_logo.svg/512px-C8_TV_logo.svg.png
+C8.fr,C8,,,FR,,,c/FR,fra,,FALSE,2016-09-05,,,http://c8.fr/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Logo_C8.svg/512px-Logo_C8.svg.png
+C8Hungary.hu,C8 Hungary,,,HU,,,c/HU,hun,,FALSE,2014-03-01,2018-01-01,,http://www.c8tv.hu/,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/C8_TV_logo.svg/512px-C8_TV_logo.svg.png
+C8Romania.ro,C8 Romania,,,RO,,,c/RO,ron,,FALSE,2014-05-05,2015-12-30,,,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/C8_TV_logo.svg/512px-C8_TV_logo.svg.png
+C8CzechRepublic.cz,C8 Czech Republic,,,CZ,,,c/CZ,ces,,FALSE,2014-05-05,2018-01-01,,,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/C8_TV_logo.svg/512px-C8_TV_logo.svg.png
+C8Slovakia.sk,C8 Slovakia,,,SK,,,c/SK,slk,,FALSE,2014-05-05,2018-01-01,,,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/C8_TV_logo.svg/512px-C8_TV_logo.svg.png
 C9N.py,C9N,,,PY,,,c/PY,spa,,FALSE,,,,https://www.c9n.com.py/,https://imagenes.gatotv.com/logos/canales/oscuros/9_de_paraguay-mediano.png
 CabinaRPCRadio.pa,Cabina RPC Radio,,,PA,,,c/PA,spa,,FALSE,,,,,https://forounivers.com/uploads/monthly_2017_01/RPC_(2010).png.4630b569f7c275038611229447482050.png
 CabinaTelemetroRadio.pa,Cabina Telemetro Radio,,,PA,,,c/PA,spa,,FALSE,,,,,https://platform-static.cdn.mdstrm.com/player/logo/s-live-5d97ca5673de440761ff194e.png

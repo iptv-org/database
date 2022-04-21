@@ -38,7 +38,7 @@ id,name,native_name,network,country,subdivision,city,broadcast_area,languages,ca
 13thStreet.de,13th Street,,,DE,,,c/DE,deu,,FALSE,,,,http://www.13thstreet.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/13th_street_logo_uk_master_rgb_black.png/400px-13th_street_logo_uk_master_rgb_black.png
 13Ulica.pl,13 Ulica,,,PL,,,c/PL,pol,,FALSE,,,,http://www.13ulica.pl/,https://i.imgur.com/0gCNnLq.png
 13UlicaHD.pl,13 Ulica HD,,,PL,,,c/PL,pol,,FALSE,,,,http://www.13ulica.pl/,https://i.imgur.com/9UuZXHO.png
-16AnnieIncintaItalia.us,16 Anni e Incinta Italia,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/16-anni-e-incinta-it,https://images.pluto.tv/channels/60940a07d88ba90007b9cb71/colorLogoPNG.png
+16AnnieIncintaItaly.us,16 Anni e Incinta Italy,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/16-anni-e-incinta-it,https://images.pluto.tv/channels/60940a07d88ba90007b9cb71/colorLogoPNG.png
 192TV.nl,192TV,,,NL,,,c/NL,nld,,FALSE,2010-07-29,,,http://www.192tv.tv/,https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/192_TV_logo.svg/512px-192_TV_logo.svg.png
 1HDMusicTV.ru,1HD Music TV,,,RU,,,c/RU,rus,music,FALSE,,,,,https://avatars.mds.yandex.net/get-tv-channel-logos/51763/2a0000016007770e2d7dbe4c6cac6fa01262/214x121
 1KBR.ru,1 KBR,,,RU,,,c/RU,rus,,FALSE,,,,http://1kbr.smikbr.ru/,https://www.lyngsat.com/logo/tv/num/1_kbr_ru.png
@@ -1074,7 +1074,7 @@ AndorraTV.ad,Andorra TV,,,AD,,,c/AD,cat,general,FALSE,,,,,https://i.imgur.com/kJ
 AndoTV.cn,Ando TV,,,CN,,,c/CN,zho,,FALSE,,,,http://www.qhtb.cn/,https://www.lyngsat.com/logo/tv/qq/qinghai_tv_cn_anduo_satellite.png
 AndPictures.in,&Pictures,,,IN,,,r/SAS,pus,movies,FALSE,,,,,https://static.epg.best/in/AndPictures.in.png
 AndPriveHD.in,&privé HD,,,IN,,,r/SAS,pus,movies,FALSE,2017-09-24,,,,https://static.epg.best/in/AndPrive.in.png
-AndromedaItalia.us,Andromeda Italia,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/andromeda-it,https://images.pluto.tv/channels/60802d37ee238e0007c94e64/colorLogoPNG.png
+AndromedaItaly.us,Andromeda Italy,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/andromeda-it,https://images.pluto.tv/channels/60802d37ee238e0007c94e64/colorLogoPNG.png
 AndromedaSpain.us,Andrómeda Spain,,,US,,,c/ES,spa,series,FALSE,,,,https://pluto.tv/en/live-tv/andromeda-es,https://images.pluto.tv/channels/5f1acc3e061597000768d4ea/colorLogoPNG.png
 AndromedaUK.us,Andromeda UK,,,US,,,c/UK,eng,series,FALSE,,,,https://pluto.tv/en/live-tv/andromeda-gb,https://images.pluto.tv/channels/5e8db96bccae160007c71eec/colorLogoPNG.png
 AndTV.in,& TV,,,IN,,,c/IN,hin,,FALSE,,,,https://andtv.zee5.com/,https://i.imgur.com/bOGlxcl.png
@@ -1136,7 +1136,6 @@ Animaux.fr,Animaux,,,FR,,,c/FR,fra;tur;eng,,FALSE,,,,http://www.animauxtv.fr/,ht
 Animax.jp,Animax,,Animax,JP,,,c/JP,jpn,animation,FALSE,1998-05-20,,,http://www.animax.co.jp/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimaxAsia.sg,Animax Asia,,Animax,SG,,,r/SAS,eng;jpn;ind;zho;msa;yue;tha,animation,FALSE,2004-01-19,,,http://www.animax-asia.com/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimaxCzechRepublic.cz,Animax Czech Republic,,Animax,CZ,,,c/CZ,ces,animation,FALSE,2007-07-02,2014-03-31,C8CzechRepublic.cz,http://www.animaxtv.cz/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
-AnimaxSlovakia.sk,Animax Slovakia,,Animax,SK,,,c/SK,slk,animation,FALSE,2007-07-02,2014-03-31,C8Slovakia.sk,,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimaxGermany.de,Animax Germany,,Animax,DE,,,c/DE,deu,animation,FALSE,2007-06-05,2016-07-07,,http://www.animaxtv.de/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimaxHongKong.hk,Animax Hong Kong,,Animax,HK,,,c/HK,zho,animation,FALSE,2004-01-12,,,http://www.animax-hk.com,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimaxHungary.hu,Animax Hungary,,Animax,HU,,,c/HU,hun,animation,FALSE,2007-07-02,2014-03-31,C8Hungary.hu,http://www.animaxtv.hu/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
@@ -1146,6 +1145,7 @@ AnimaxLatinAmerica.ve,Animax Latin America,,Animax,VE,,,r/LATAM,spa;por,animatio
 AnimaxPhilippines.ph,Animax Philippines,,Animax,PH,,,c/PH,eng;jpn;fil,animation,FALSE,2004-01-01,,,https://www.animax-asia.com/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimaxPortugal.es,Animax Portugal,,Animax,ES,,,c/PT,por,animation,FALSE,2008-04-12,2011-05-09,,,https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Animax3.png/512px-Animax3.png
 AnimaxRomania.ro,Animax Romania,,Animax,RO,,,c/RO,ron,animation,FALSE,2007-07-02,2014-03-31,C8Romania.ro,http://www.animaxtv.ro/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
+AnimaxSlovakia.sk,Animax Slovakia,,Animax,SK,,,c/SK,slk,animation,FALSE,2007-07-02,2014-03-31,C8Slovakia.sk,,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimaxSpain.es,Animax Spain,,Animax,ES,,,c/ES,spa,animation,FALSE,2008-04-12,2013-12-31,,,https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Animax3.png/512px-Animax3.png
 AnimaxTaiwan.tw,Animax Taiwan,,Animax,TW,,,c/TW,eng;jpn;tha,animation,FALSE,2004-01-01,,,http://www.animax-taiwan.com/,https://upload.wikimedia.org/wikipedia/commons/6/65/Animaxlogo-20160701.png
 AnimeAllDay.us,Anime All Day,,,US,,,c/US,eng,animation,FALSE,,,,https://pluto.tv/en/live-tv/anime-all-day,https://images.pluto.tv/channels/5812b7d3249444e05d09cc49/colorLogoPNG.png
@@ -2426,7 +2426,7 @@ BlackRussia.us,.black Russia,,,US,,,c/RU,rus,entertainment,FALSE,,,,,https://i.i
 BlackThrowbacks.us,Black Throwbacks,,,US,,,c/US,eng,comedy,FALSE,,,,https://pluto.tv/en/live-tv/black-throwbacks,https://images.pluto.tv/channels/61326275b3c86a00078e4833/colorLogoPNG.png
 Blast.ao,Blast,,,AO,,,c/AO,por,,FALSE,,,,http://canalblast.com/,https://www.zap.co.ao/media/cache/movie_thumb/uploads/ao/channels/576c2f5417c90.png
 Blaze.us,Blaze,,,US,,,c/US,eng,,FALSE,,,,,https://i.imgur.com/toNeonC.png
-BlazeItalia.it,Blaze Italia,,,IT,,,c/IT,ita,,FALSE,,,,http://www.blazetv.it/,https://www.lyngsat.com/logo/tv/bb/blaze_uk.png
+BlazeItaly.it,Blaze Italy,,,IT,,,c/IT,ita,,FALSE,,,,http://www.blazetv.it/,https://www.lyngsat.com/logo/tv/bb/blaze_uk.png
 BlazeLive.us,Blaze Live,,,US,,,c/US,eng,news,FALSE,,,,https://pluto.tv/en/live-tv/blaze-live,https://i.imgur.com/DEjSMD6.png
 BlazePortugal.pt,Blaze Portugal,,,PT,,,c/PT,por,,FALSE,,,,https://blazetv.pt/,https://www.zap.co.ao/media/cache/movie_thumb/uploads/ao/channels/5ad61c6f71f60.png
 BlazeSpain.us,Blaze Spain,,,US,,,c/US,eng,,FALSE,,,,https://blazetv.es/,https://imagenes.gatotv.com/logos/canales/oscuros/blaze_espana-mediano.png
@@ -2502,7 +2502,7 @@ BodyinBalanceUK.uk,Body in Balance UK,,,UK,,,c/UK,eng;slk,,FALSE,,,,https://bibn
 BodySexHD.pt,Body Sex HD,,,PT,,,c/PT,por,,TRUE,,,,,https://www.meo.pt/PublishingImages/canais/body-sex-hd.png
 BoingAfrica.it,Boing Africa,,,IT,,,c/IT,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/bb/boing_it_africa.png
 BoingFrance.fr,Boing France,,,FR,,,c/FR,fra,kids,FALSE,,,,http://www.boingtv.fr/,https://i.imgur.com/mIbmYs1.png
-BoingItalia.it,Boing Italia,,,IT,,,c/IT,ita,,FALSE,,,,https://www.boingtv.it/,https://i.imgur.com/ZaMoyJm.png
+BoingItaly.it,Boing Italy,,,IT,,,c/IT,ita,,FALSE,,,,https://www.boingtv.it/,https://i.imgur.com/ZaMoyJm.png
 BoingPlus.it,Boing Plus,,,IT,,,c/IT,ita,,FALSE,,,,https://www.boingtv.it/,https://www.lyngsat.com/logo/tv/bb/boing-plus-it.png
 BoingSpain.it,Boing Spain,,,IT,,,c/IT,ita,,FALSE,,,,http://www.boing.es/,https://i.imgur.com/mIbmYs1.png
 BoishakhiTV.bd,Boishakhi TV,,,BD,,,c/BD,ben,general,FALSE,,,,http://boishakhionline.com/,https://upload.wikimedia.org/wikipedia/en/thumb/c/c7/Boishakhi_TV_logo.svg/512px-Boishakhi_TV_logo.svg.png
@@ -2545,8 +2545,8 @@ BoomerangEMEA.us,Boomerang EMEA,,,US,,,c/US,eng;ara,,FALSE,,,,http://www.boomera
 BoomerangFrance.fr,Boomerang France,,,FR,,,c/FR,fra,,FALSE,,,,http://www.boomerangtv.fr/,https://www.programme-tv.net/imgre/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2F2d1423f31cdcab25.2Epng/80x80/quality/80/boomerang.png
 BoomerangFrancePlus1.us,Boomerang France +1,,,US,,,c/US,eng,,FALSE,,,,,https://proxymedia.woopic.com/api/v1/images/553%2Flogos%2Fv2%2Flogos%2Flivetv_boomerang_1%2F20171004_102149%2FwebTVLogo%2Flogo_180x96.png
 BoomerangGermany.us,Boomerang Germany,,,US,,,c/US,eng,,FALSE,,,,http://www.boomerangtv.de/,https://i.imgur.com/zLvhDIU.png
-BoomerangItalia.it,Boomerang Italia,,,IT,,,c/IT,ita,,FALSE,,,,http://www.boomerangtv.it/,https://www.lyngsat.com/logo/tv/bb/boomerang_global.png
 BoomerangItaliaPlus1.it,Boomerang Italia +1,,,IT,,,c/IT,ita,,FALSE,,,,http://www.boomerangtv.it/,https://www.lyngsat.com/logo/tv/bb/boomerang-uk-plus1-us-uk.png
+BoomerangItaly.it,Boomerang Italy,,,IT,,,c/IT,ita,,FALSE,,,,http://www.boomerangtv.it/,https://www.lyngsat.com/logo/tv/bb/boomerang_global.png
 BoomerangLatinAmerica.us,Boomerang Latin America,,,US,,,r/HISPAM,eng,,FALSE,,,,,https://imagenes.gatotv.com/logos/canales/oscuros/boomerang_latinoamerica-mediano.png
 BoomerangMexico.us,Boomerang Mexico,,,US,,,c/MX,eng,,FALSE,,,,,https://imagenes.gatotv.com/logos/canales/oscuros/boomerang_latinoamerica-mediano.png
 BoomerangNederland.us,Boomerang Nederland,,,US,,,c/BE,fra,,FALSE,,,,https://www.boomerangtv.nl/,https://experience-cache.proximustv.be/posterserver/poster/DEFAULT/w-250_h-162/t_0075_001.png
@@ -2774,9 +2774,9 @@ C1.mn,C1,,,MN,,,c/MN,mon,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/c1_mn.png
 C31Melbourne.au,C31 Melbourne,,,AU,,,c/AU,eng,general,FALSE,1994-10-06,,,,https://i.imgur.com/Ge1EutY.png
 C5N.ar,C5N,,,AR,,,c/AR,spa,news,FALSE,,,,,https://cdn.mitvstatic.com/channels/ar_c5n_m.png
 C8.fr,C8,,,FR,,,c/FR,fra,,FALSE,2016-09-05,,,http://c8.fr/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Logo_C8.svg/512px-Logo_C8.svg.png
+C8CzechRepublic.cz,C8 Czech Republic,,,CZ,,,c/CZ,ces,,FALSE,2014-05-05,2018-01-01,,,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/C8_TV_logo.svg/512px-C8_TV_logo.svg.png
 C8Hungary.hu,C8 Hungary,,,HU,,,c/HU,hun,,FALSE,2014-03-01,2018-01-01,,http://www.c8tv.hu/,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/C8_TV_logo.svg/512px-C8_TV_logo.svg.png
 C8Romania.ro,C8 Romania,,,RO,,,c/RO,ron,,FALSE,2014-05-05,2015-12-30,,,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/C8_TV_logo.svg/512px-C8_TV_logo.svg.png
-C8CzechRepublic.cz,C8 Czech Republic,,,CZ,,,c/CZ,ces,,FALSE,2014-05-05,2018-01-01,,,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/C8_TV_logo.svg/512px-C8_TV_logo.svg.png
 C8Slovakia.sk,C8 Slovakia,,,SK,,,c/SK,slk,,FALSE,2014-05-05,2018-01-01,,,https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/C8_TV_logo.svg/512px-C8_TV_logo.svg.png
 C9N.py,C9N,,,PY,,,c/PY,spa,,FALSE,,,,https://www.c9n.com.py/,https://imagenes.gatotv.com/logos/canales/oscuros/9_de_paraguay-mediano.png
 CabinaRPCRadio.pa,Cabina RPC Radio,,,PA,,,c/PA,spa,,FALSE,,,,,https://forounivers.com/uploads/monthly_2017_01/RPC_(2010).png.4630b569f7c275038611229447482050.png
@@ -3190,14 +3190,14 @@ CartoonNetworkEast.us,Cartoon Network East,,,US,,,c/US,eng;spa,kids,FALSE,,,,htt
 CartoonNetworkFinland.fi,Cartoon Network Finland,,,FI,,,c/FI,eng,kids,FALSE,,,,https://www.cartoonnetwork.nu/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png
 CartoonNetworkFrance.fr,Cartoon Network France,,,FR,,,c/FR;c/BE;c/LU;c/CH;c/MA;c/TN;c/LB;c/MG;c/MU;c/HT,eng,kids,FALSE,,,,http://www.cartoonnetwork.fr/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png
 CartoonNetworkGermany.de,Cartoon Network Germany,,,DE,,,c/DE;c/LU;c/AT;c/CH;c/LI,deu;eng,kids,FALSE,,,,http://www.cartoonnetwork.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png
-CartoonNetworkHDItalia.it,Cartoon Network HD Italia,,,IT,,,c/IT;c/SM;c/VA,ita,kids,FALSE,,,,http://www.cartoonnetwork.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cartoon_Network_HD_logo.svg/512px-Cartoon_Network_HD_logo.svg.png
+CartoonNetworkHDItaly.it,Cartoon Network HD Italy,,,IT,,,c/IT;c/SM;c/VA,ita,kids,FALSE,,,,http://www.cartoonnetwork.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cartoon_Network_HD_logo.svg/512px-Cartoon_Network_HD_logo.svg.png
 CartoonNetworkHDNetherlands.nl,Cartoon Network HD Netherlands,,,NL,,,c/NL,nld;eng,kids,FALSE,,,,http://www.cartoonnetwork.nl/,https://i.imgur.com/7NcF2xu.png
 CartoonNetworkHDPlus.in,Cartoon Network HD+,,,IN,,,c/IN,hin,kids,FALSE,2018-04-15,,,http://www.cartoonnetworkindia.com/,https://i.imgur.com/pH6ao2T.png
 CartoonNetworkHindi.in,Cartoon Network Hindi,,,IN,,,c/IN,hin,kids,FALSE,2016-04-01,,,http://www.cartoonnetworkindia.com/,https://i.imgur.com/ltSiLho.png
 CartoonNetworkHungary.hu,Cartoon Network Hungary,,,HU,,,c/HU,hun,kids,FALSE,,,,http://www.cartoonnetwork.hu/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png
 CartoonNetworkIndia.in,Cartoon Network India,,,IN,,,c/IN,hin,kids,FALSE,,,,http://www.cartoonnetworkindia.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png
-CartoonNetworkItalia.it,Cartoon Network Italia,,,IT,,,c/IT;c/SM;c/VA,ita,kids,FALSE,,,,http://www.cartoonnetwork.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png
 CartoonNetworkItaliaPlus1.it,Cartoon Network Italia +1,,,IT,,,c/IT;c/SM;c/VA,ita,kids,FALSE,,,,http://www.cartoonnetwork.it/,https://i.imgur.com/NISY7em.png
+CartoonNetworkItaly.it,Cartoon Network Italy,,,IT,,,c/IT;c/SM;c/VA,ita,kids,FALSE,,,,http://www.cartoonnetwork.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png
 CartoonNetworkJapan.jp,Cartoon Network Japan,カートゥーン ネットワーク,,JP,,,c/JP,jpn,kids,FALSE,,,,https://www.cartoonnetwork.jp/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png
 CartoonNetworkKorea.kr,Cartoon Network Korea,카툰 네트워크,,KR,,,c/KR,kor,kids,FALSE,,,,http://www.cartoonnetworkkorea.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Cartoon_Network_Korea_Logo.png/400px-Cartoon_Network_Korea_Logo.png
 CartoonNetworkLatinAmerica.us,Cartoon Network Latin America,,,US,,,r/HISPAM,spa,kids,FALSE,,,,http://www.cartoonnetworkla.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/512px-Cartoon_Network_2010_logo.svg.png
@@ -3232,7 +3232,7 @@ Catavision.hn,Catavisión,,,HN,,,c/HN,spa,,FALSE,,,,,
 CatchOn1.kr,Catch On 1,캐치온1,,KR,,,c/KR,kor,movies,FALSE,2002-10-01,,,http://catchon.tving.com/catchon/,https://i.imgur.com/yjOFyEJ.png
 CatchOn2.kr,Catch On 2,캐치온2,,KR,,,c/KR,kor,movies,FALSE,2002-10-01,,,http://catchon.tving.com/catchon/,https://i.imgur.com/bOgAlAH.png
 CatfishTVShowFrance.us,Catfish TV Show France,,,US,,,c/FR,fra,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/mtv-catfish-tv-show-fr,https://images.pluto.tv/channels/5f8eb66537867f0007146953/colorLogoPNG.png
-CatfishTVShowItalia.us,Catfish TV Show Italia,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/catfish-it,https://images.pluto.tv/channels/6093f9ed2c75660007322bb7/colorLogoPNG.png
+CatfishTVShowItaly.us,Catfish TV Show Italy,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/catfish-it,https://images.pluto.tv/channels/6093f9ed2c75660007322bb7/colorLogoPNG.png
 CatholicFaithNetwork.us,Catholic Faith Network,,,US,,,c/US,eng,,FALSE,1969-01-01,,,http://www.cfntv.org/,https://upload.wikimedia.org/wikipedia/en/0/07/Catholic_Faith_Network_2018.png
 CatholicTV.ng,Catholic TV,,,NG,,,c/NG,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/catholic-tv-ng.png
 CatholicTV.us,Catholic TV,,,US,,,c/US,eng,religious,FALSE,,,,,https://i.imgur.com/RI9GbLX.jpg
@@ -4093,7 +4093,7 @@ CLTV36.ph,CLTV 36,,,PH,,,c/PH,tgl,,FALSE,,,,http://cltv36.tv/,https://www.lyngsa
 ClubbingTV.fr,Clubbing TV,,,FR,,,c/CH;c/FR,rus,music,FALSE,2009-01-09,,,https://www.clubbingtv.com/,https://i.imgur.com/TOuwYHt.png
 ClubbingTVFrance.us,Clubbing TV France,,,US,,,c/FR,fra,music,FALSE,,,,https://pluto.tv/en/live-tv/clubbing-tv-fr,https://images.pluto.tv/channels/600ad8f86e1eba00081da3ce/colorLogoPNG.png
 ClubbingTVGermany.us,Clubbing TV Germany,,,US,,,c/DE,deu,music,FALSE,,,,https://pluto.tv/en/live-tv/clubbing-tv-de,https://images.pluto.tv/channels/5f984784ccb4de0007dfad74/colorLogoPNG.png
-ClubbingTVItalia.us,Clubbing TV Italia,,,US,,,c/IT,ita,music,FALSE,,,,https://pluto.tv/en/live-tv/clubbing-tv-it,https://images.pluto.tv/channels/60802de3fd2d70000763bb83/colorLogoPNG.png
+ClubbingTVItaly.us,Clubbing TV Italy,,,US,,,c/IT,ita,music,FALSE,,,,https://pluto.tv/en/live-tv/clubbing-tv-it,https://images.pluto.tv/channels/60802de3fd2d70000763bb83/colorLogoPNG.png
 ClubbingTVSpain.us,Clubbing TV Spain,,,US,,,c/ES,spa,music,FALSE,,,,https://pluto.tv/en/live-tv/clubbing-tv-es,https://images.pluto.tv/channels/600ad4ad6537680007be2ea6/colorLogoPNG.png
 ClubbingTVUK.us,Clubbing TV UK,,,US,,,c/UK,eng,music,FALSE,,,,https://pluto.tv/en/live-tv/clubbing-tv-gb,https://images.pluto.tv/channels/600ad1a372e57c0007dbee5a/colorLogoPNG.png
 ClubinhoFun.br,Clubinho Fun,,,BR,,,c/BR,por,,FALSE,,,,http://baitaconteudo.com/canais/,https://www.lyngsat.com/logo/tv/cc/clubinho-fun-br.png
@@ -4259,8 +4259,8 @@ ComedyCentralHDWest.us,Comedy Central HD West,,,US,,,c/US,eng,comedy,FALSE,,,,ht
 ComedyCentralHungary.hu,Comedy Central Hungary,,,HU,,,c/HU,eng,comedy,FALSE,,,,http://www.comedycentral.hu/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/512px-Comedy_Central_2018.svg.png
 ComedyCentralIndia.in,Comedy Central India,,,IN,,,c/IN,hin,comedy,FALSE,,,,http://www.comedycentral.in/,https://i.imgur.com/g0caQa2.png
 ComedyCentralIsrael.il,Comedy Central Israel,,,IL,,,c/IL,heb,comedy,FALSE,,,,http://www.comedycentral.co.il/he/home,https://i.imgur.com/5JFKVHF.png
-ComedyCentralItalia.it,Comedy Central Italia,,,IT,,,c/IT,ita,comedy,FALSE,,,,http://www.comedycentral.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/512px-Comedy_Central_2018.svg.png
 ComedyCentralItaliaPlus1.it,Comedy Central Italia +1,,,IT,,,c/IT,ita,comedy,FALSE,,,,http://www.comedycentral.it/,https://i.imgur.com/5HqJO2Z.png
+ComedyCentralItaly.it,Comedy Central Italy,,,IT,,,c/IT,ita,comedy,FALSE,,,,http://www.comedycentral.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/512px-Comedy_Central_2018.svg.png
 ComedyCentralLatinAmericaNorth.us,Comedy Central Latin America North,,,US,,,r/LATAM,eng,comedy,FALSE,,,,http://comedycentral.la/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/512px-Comedy_Central_2018.svg.png
 ComedyCentralLatinAmericaSouth.us,Comedy Central Latin America South,,,US,,,r/LATAM,eng,comedy,FALSE,,,,http://comedycentral.la/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Comedy_Central_2018.svg/512px-Comedy_Central_2018.svg.png
 ComedyCentralMadeinGermany.us,Comedy Central Made in Germany,,,US,,,c/US,eng,comedy,FALSE,,,,,https://images.pluto.tv/channels/5d4948418101147596fd6c5a/colorLogoPNG.png
@@ -4311,7 +4311,7 @@ ConmebolTV3.br,Conmebol TV 3,,,BR,,,c/BR,por,,FALSE,,,,https://www.conmebol.com/
 ConmebolTV4.br,Conmebol TV 4,,,BR,,,c/BR,por,,FALSE,,,,https://www.conmebol.com/,https://cdn.mitvstatic.com/channels/br_conmebol-tv-4_m.png
 ConstanceMeyerJuezaenpracticasSpain.us,Constance Meyer: Jueza en prácticas Spain,,,US,,,c/ES,spa,series,FALSE,,,,https://pluto.tv/en/live-tv/constance-meyer-jueza-en-practicas-es,https://images.pluto.tv/channels/6193963c5a960200074ce816/colorLogoPNG.png
 ConstruirTV.ar,Construir TV,,,AR,,,c/AR,spa,,FALSE,,,,https://www.construirtv.com/,https://cdn.mitvstatic.com/channels/ar_construir_m.png
-ConsulenzeIllegaliItalia.us,Consulenze Illegali Italia,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/consulenze-illegali-it,https://images.pluto.tv/channels/60b9dc99521a1400079bdfba/colorLogoPNG.png
+ConsulenzeIllegaliItaly.us,Consulenze Illegali Italy,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/consulenze-illegali-it,https://images.pluto.tv/channels/60b9dc99521a1400079bdfba/colorLogoPNG.png
 ConsumerTV.kr,Consumer TV,,,KR,,,c/KR,kor,,FALSE,,,,http://www.ctvkorea.com/,https://www.lyngsat.com/logo/tv/cc/consumer-tv-kr.png
 ContactoDeportivo.pe,Contacto Deportivo,,,PE,PE-SAM,Moyobamba,c/PE,spa,sports,FALSE,,,,https://moyobamba.com/contactodeportivo/,https://graph.facebook.com/contactodeportivomoyobamba/picture?width=320&height=320
 Contivision.cl,Contivisión,,,CL,,,c/CL,spa,,FALSE,,,,,
@@ -4629,7 +4629,7 @@ DarshanaTV.in,Darshana TV,,,IN,,,c/IN,mal,entertainment,FALSE,2012-01-01,,,http:
 DarshanaTVMiddleEast.in,Darshana TV Middle East,,,IN,,,c/IN,mal,,FALSE,,,,http://www.darshanatv.in/,https://www.lyngsat.com/logo/tv/dd/darshana_tv_in_me.png
 DASDING908.de,DASDING 90.8,,,DE,,,c/DE,deu,,FALSE,,,,,https://i.imgur.com/rR44kv4.png
 DasErste.de,Das Erste,,,DE,,,c/DE,deu,,FALSE,1952-12-25,,,https://www.daserste.de/,https://i.imgur.com/7wABSuo.png
-DatingItalia.us,Dating Italia,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/dating-it,https://images.pluto.tv/channels/6094071be159e00007e860fa/colorLogoPNG.png
+DatingItaly.us,Dating Italy,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/dating-it,https://images.pluto.tv/channels/6094071be159e00007e860fa/colorLogoPNG.png
 DavaTV.mr,Dava TV,,,MR,,,c/MR,ara,,FALSE,,,,,https://www.lyngsat.com/logo/tv/dd/dava-tv-mr.png
 DaveIreland.ie,Dave Ireland,,,IE,,,c/IE,eng,,FALSE,,,,https://dave.uktv.co.uk/,https://www.lyngsat.com/logo/tv/dd/dave-uk.png
 Davejavu.uk,Dave ja vu,,,UK,,,c/UK,eng,,FALSE,,,,https://dave.uktv.co.uk/,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb2320.png
@@ -4647,7 +4647,7 @@ DaystarTVEspanol.us,Daystar TV Español,,,US,,,c/US,spa,,FALSE,,,,https://espano
 DaysTV.gh,Days TV,,,GH,,,c/GH,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/dd/days-tv-gh.png
 DayvingTV.ru,Dayving.TV,,,RU,,,c/RU,rus,outdoor,FALSE,,,,,https://i.imgur.com/wOsDA7w.png
 DAZN1Germany.uk,DAZN 1 Germany,,,UK,,,c/UK,eng,,FALSE,,,,https://www.dazn.com/,https://i.imgur.com/qMr4eDT.png
-DAZN1Italia.it,DAZN 1 Italia,,,IT,,,c/IT,ita,,FALSE,,,,https://www.dazn.com/,https://www.lyngsat.com/logo/tv/dd/dazn-1-italia-uk-it.png
+DAZN1Italy.it,DAZN 1 Italy,,,IT,,,c/IT,ita,,FALSE,,,,https://www.dazn.com/,https://www.lyngsat.com/logo/tv/dd/dazn-1-italia-uk-it.png
 DAZN1Spain.uk,DAZN 1 Spain,,,UK,,,c/UK,eng,,FALSE,,,,https://www.dazn.com/es-ES/l/sports/,https://www.lyngsat.com/logo/tv/dd/dazn-de.png
 DAZN2Germany.uk,DAZN 2 Germany,,,UK,,,c/UK,eng,,FALSE,,,,https://www.dazn.com/,https://www.lyngsat.com/logo/tv/dd/dazn-de.png
 DAZN2Spain.uk,DAZN 2 Spain,,,UK,,,c/UK,eng,,FALSE,,,,https://www.dazn.com/es-ES/l/sports/,https://www.lyngsat.com/logo/tv/dd/dazn-de.png
@@ -4868,13 +4868,12 @@ DiscoveryChannelEurope.us,Discovery Channel Europe,,,US,,,c/US,eng,,FALSE,1989-0
 DiscoveryChannelFinland.fi,Discovery Channel Finland,,,FI,,,c/FI,fin,,FALSE,2007-09-01,,,http://www.discovery.fi/,https://telkussa.fi/images/chan6@3x.png
 DiscoveryChannelFrance.fr,Discovery Channel France,,,FR,,,c/FR,fra,,FALSE,,,,http://www.discoverychannel.fr/,https://service.canal-overseas.com/image-api/v1/image/e4cd960d846779e0664a57c3ae8f760f
 DiscoveryChannelGermany.us,Discovery Channel Germany,,,US,,,c/US,eng,,FALSE,,,,http://www.discovery.de/,https://ocdn.eu/ptv2-images-transforms/1/Y54ktkobG9nby1taWdyYXRlZC9kaXNjb3ZlcnktY2hhbm5lbC1uaWVtLnBuZ5KVAmQAwsOVAgAowsM
-DiscoveryChannelHDItalia.it,Discovery Channel HD Italia,,,IT,,,c/IT,ita,,FALSE,2009-07-20,,,https://discoverychannel.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Discovery_Channel_-_Logo_2019.svg/512px-Discovery_Channel_-_Logo_2019.svg.png
+DiscoveryChannelHDItaly.it,Discovery Channel HD Italy,,,IT,,,c/IT,ita,,FALSE,2009-07-20,,,https://discoverychannel.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Discovery_Channel_-_Logo_2019.svg/512px-Discovery_Channel_-_Logo_2019.svg.png
 DiscoveryChannelHungary.hu,Discovery Channel Hungary,,,HU,,,c/HU,ces;hun;eng,,FALSE,,,,http://www.discoverychannel.hu/,https://www.lyngsat.com/logo/tv/dd/discovery-channel-east-us.png
 DiscoveryChannelIberia.us,Discovery Channel Iberia,,,US,,,c/US,spa;por,,FALSE,,,,http://www.latam.discovery.com/,https://imagenes.gatotv.com/logos/canales/oscuros/discovery_channel-mediano.png
 DiscoveryChannelIndia.in,Discovery Channel India,,,IN,,,c/IN,eng;hin;ben;tel;tam;mal;kan;mar,,FALSE,,,,http://www.discoverychannel.co.in/,https://i.imgur.com/fQd4u8u.png
 DiscoveryChannelIreland.ie,Discovery Channel Ireland,,,IE,,,c/IE,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/dd/discovery-channel-east-us.png
-DiscoveryChannelItalia.it,Discovery Channel Italia,,,IT,,,c/IT,ita,,FALSE,1997-09-01,2020-09-09,,https://discoverychannel.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Discovery_Channel_-_Logo_2019.svg/512px-Discovery_Channel_-_Logo_2019.svg.png
-DiscoveryChannelItaliaPlus1.it,Discovery Channel Italia +1,,,IT,,,c/IT,ita,,FALSE,2008-11-10,,,https://discoverychannel.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Discovery_Channel_-_Logo_2019.svg/512px-Discovery_Channel_-_Logo_2019.svg.png
+DiscoveryChannelItaly.it,Discovery Channel Italy,,,IT,,,c/IT,ita,,FALSE,1997-09-01,2020-09-09,,https://discoverychannel.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Discovery_Channel_-_Logo_2019.svg/512px-Discovery_Channel_-_Logo_2019.svg.png
 DiscoveryChannelJapan.jp,Discovery Channel Japan,,,JP,,,c/JP,jpn;eng,,FALSE,,,,http://japan.discovery.com/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-121-400x400.png
 DiscoveryChannelKorea.kr,Discovery Channel Korea,디스커버리 채널,,KR,,,c/KR,kor,,FALSE,2011-04-08,,,https://www.discoverykorea.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/512px-2019_Discovery_logo.svg.png
 DiscoveryChannelLatinAmerica.us,Discovery Channel Latin America,,,US,,,c/US,eng,,FALSE,,,,http://www.latam.discovery.com/,https://i.imgur.com/SHOCIS6.jpg
@@ -4884,6 +4883,7 @@ DiscoveryChannelNederland.us,Discovery Channel Nederland,,,US,,,c/US,eng,,FALSE,
 DiscoveryChannelNewZealand.nz,Discovery Channel New Zealand,,,NZ,,,c/NZ,eng,,FALSE,,,,http://www.discoverychannel.co.uk/au/,https://www.lyngsat.com/logo/tv/dd/discovery-channel-east-us.png
 DiscoveryChannelNorway.us,Discovery Channel Norway,,,US,,,c/US,eng,,FALSE,,,,https://www.dplay.no/discovery/,https://images.ctfassets.net/989y85n5kcxs/70nkps7MpCFgwUvMqeLd43/7d26c867fb846f3250c6f9d725cf5fc8/uhd_dc_192x54.png
 DiscoveryChannelPhilippines.ph,Discovery Channel Philippines,,,PH,,,c/PH,eng,,FALSE,,,,http://www.discoverychannelasia.com/,https://www.lyngsat.com/logo/tv/dd/discovery-channel-east-us.png
+DiscoveryChannelPlus1Italy.it,Discovery Channel +1 Italy,,,IT,,,c/IT,ita,,FALSE,2008-11-10,,,https://discoverychannel.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Discovery_Channel_-_Logo_2019.svg/512px-Discovery_Channel_-_Logo_2019.svg.png
 DiscoveryChannelPoland.us,Discovery Channel Poland,,,US,,,c/US,eng,,FALSE,,,,https://www.discoverychannel.pl/,https://ocdn.eu/ptv2-images-transforms/1/rAoktkjbG9nby1taWdyYXRlZC9kaXNjb3ZlcnktY2hhbm5lbC5wbmeSlQJkAMLDlQIAKMLD
 DiscoveryChannelRomania.ro,Discovery Channel Romania,,,RO,,,c/RO,ron;hun;eng,,FALSE,,,,http://www.discovery.ro/,https://static.cinemagia.ro/img/tv_station/discovery-channel.jpg
 DiscoveryChannelRussia.ru,Discovery Channel Russia,,,RU,,,c/RU,rus;eng,,FALSE,,2022-03-09,,http://www.discoverychannel.ru/,https://inet-static.mw.elion.ee/images/channels/300x300/26.png
@@ -4921,9 +4921,9 @@ DiscoveryScience.us,Discovery Science,,,US,,,c/US,ces;eng;hun;tur;rus,,FALSE,,,,
 DiscoveryScienceBrasil.us,Discovery Science Brasil,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.mitvstatic.com/channels/br_discovery-science-brazil_m.png
 DiscoveryScienceCanada.ca,Discovery Science Canada,,,CA,,,c/CA,eng,,FALSE,,,,https://www.ctv.ca/discovery-science,https://cdn.tvpassport.com/image/station/100x100/science16.png
 DiscoveryScienceFrance.fr,Discovery Science France,,,FR,,,c/FR,fra,,FALSE,,,,https://discoveryfrance.fr/discoveryscience/,https://service.canal-overseas.com/image-api/v1/image/892a5812644e147ebddc3740fcb023c4
-DiscoveryScienceHDItalia.it,Discovery Science HD Italia,,,IT,,,c/IT,ita;eng,,FALSE,2012-02-01,,,https://www.discoverychannel.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Discovery_Science_-_Logo_2017.svg/512px-Discovery_Science_-_Logo_2017.svg.png
+DiscoveryScienceHDItaly.it,Discovery Science HD Italy,,,IT,,,c/IT,ita;eng,,FALSE,2012-02-01,,,https://www.discoverychannel.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Discovery_Science_-_Logo_2017.svg/512px-Discovery_Science_-_Logo_2017.svg.png
 DiscoveryScienceIndia.in,Discovery Science India,,,IN,,,c/IN,eng;hin,,FALSE,,,,http://www.discoverychannel.co.in/,https://www.lyngsat.com/logo/tv/dd/discovery_science_in.png
-DiscoveryScienceItalia.it,Discovery Science Italia,,,IT,,,c/IT,ita;eng,,FALSE,2003-07-31,2022-03-01,,https://www.discoverychannel.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Discovery_Science_-_Logo_2017.svg/512px-Discovery_Science_-_Logo_2017.svg.png
+DiscoveryScienceItaly.it,Discovery Science Italy,,,IT,,,c/IT,ita;eng,,FALSE,2003-07-31,2022-03-01,,https://www.discoverychannel.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Discovery_Science_-_Logo_2017.svg/512px-Discovery_Science_-_Logo_2017.svg.png
 DiscoveryScienceLatinAmerica.us,Discovery Science Latin America,,,US,,,c/US,eng,,FALSE,,,,http://www.sciencechannel.com/,https://cdn.mitvstatic.com/channels/ar_discovery-science_m.png
 DiscoveryScienceMiddleEast.us,Discovery Science Middle East,,,US,,,c/US,eng,,FALSE,,,,http://www.sciencechannel.com/,https://content.osn.com/logo/channel/cropped/SCI.png
 DiscoverySciencePoland.us,Discovery Science Poland,,,US,,,c/US,eng,,FALSE,,,,http://www.discoverychannel.pl/,https://ocdn.eu/ptv2-images-transforms/1/QhiktkjbG9nby1taWdyYXRlZC9kaXNjb3Zlcnktc2NpZW5jZS5wbmeSlQJkAMLDlQIAKMLD
@@ -5051,7 +5051,7 @@ DLTV9.th,DLTV 9,,,TH,,,c/TH,tha;eng,,FALSE,,,,https://www.dltv.ac.th/DLTV9,https
 DMAXAsia.sg,DMAX Asia,,,SG,,,r/SAS;c/AU,eng,,FALSE,,,,http://www.discoverychannelasia.com/dmax/,https://i.imgur.com/vmrTYBJ.png
 DMAXGermany.de,DMAX Germany,,,DE,,,c/DE;c/AT;c/CH,deu,,FALSE,,,,http://www.dmax.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/512px-DMAX_BLACK.svg.png
 DMAXHDGermany.de,DMAX HD Germany,,,DE,,,c/DE;c/AT;c/CH,deu,,FALSE,,,,http://www.dmax.de/,https://i.imgur.com/53nEukB.png
-DMAXItalia.it,DMAX Italia,,,IT,,,c/IT;c/CH,ita;eng,,FALSE,,,,https://dmax.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/DMAX_-_Logo_2016.svg/500px-DMAX_-_Logo_2016.svg.png
+DMAXItaly.it,DMAX Italy,,,IT,,,c/IT;c/CH,ita;eng,,FALSE,,,,https://dmax.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/DMAX_-_Logo_2016.svg/500px-DMAX_-_Logo_2016.svg.png
 DMAXSpain.es,DMAX Spain,,,ES,,,c/ES;c/AD,spa,,FALSE,,,,http://dmax.marca.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/DMax_Espa%C3%B1a.svg/450px-DMax_Espa%C3%B1a.svg.png
 DMAXTurkey.tr,DMAX Turkey,,,TR,,,c/TR,tur,,FALSE,,,,https://www.dmax.com.tr/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/DMAX_BLACK.svg/400px-DMAX_BLACK.svg.png
 DMAXUK.uk,DMAX UK,,,UK,,,c/UK;c/IE,eng,,FALSE,,,,https://www.discoveryplus.co.uk/channel/dmax,https://i.imgur.com/C5zURoj.png
@@ -5820,7 +5820,7 @@ Eurosport1Finland.fi,Eurosport 1 Finland,,,FI,,,c/FI,fin,sports,FALSE,,,,https:/
 Eurosport1France.fr,Eurosport 1 France,,,FR,,,c/FR,fra,sports,FALSE,,,,http://www.eurosport.fr/,https://i.imgur.com/z3fQ87X.png
 Eurosport1Germany.de,Eurosport 1 Germany,,,DE,,,c/DE,deu,sports,FALSE,,,,http://www.eurosport.de/,https://i.imgur.com/z3fQ87X.png
 Eurosport1HD.fr,Eurosport 1 HD,,,FR,,,c/FR,ces;bul;tur;eng;srp;spa;fra;rus;nld;hrv;por;pol;hun;ita;ron;ell,sports,FALSE,2008-07-25,,,https://www.eurosport.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Eurosport_1_HD_Logo_2015.png/512px-Eurosport_1_HD_Logo_2015.png
-Eurosport1Italia.it,Eurosport 1 Italia,,,IT,,,c/IT,ita,sports,FALSE,,,,http://it.eurosport.com/,https://i.imgur.com/z3fQ87X.png
+Eurosport1Italy.it,Eurosport 1 Italy,,,IT,,,c/IT,ita,sports,FALSE,,,,http://it.eurosport.com/,https://i.imgur.com/z3fQ87X.png
 Eurosport1Norway.fr,Eurosport 1 Norway,,,FR,,,c/NO,eng,sports,FALSE,,,,https://www.eurosport.no/,https://i.imgur.com/z3fQ87X.png
 Eurosport1Poland.fr,Eurosport 1 Poland,,,FR,,,c/PL,pol,sports,FALSE,,,,http://tv.eurosport.pl/,https://i.imgur.com/z3fQ87X.png
 Eurosport1Romania.ro,Eurosport 1 Romania,,,RO,,,c/RO,rom,sports,FALSE,,,,http://tv.eurosport.ro/,https://i.imgur.com/z3fQ87X.png
@@ -5832,7 +5832,7 @@ Eurosport2Danmark.dk,Eurosport 2 Danmark,,,DK,,,c/DK,dan,sports,FALSE,,,,http://
 Eurosport2France.fr,Eurosport 2 France,,,FR,,,c/FR,fra,sports,FALSE,,,,http://www.eurosport.fr/,https://i.imgur.com/0xpN9B6.png
 Eurosport2Germany.fr,Eurosport 2 Germany,,,FR,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/0xpN9B6.png
 Eurosport2HD.fr,Eurosport 2 HD,,,FR,,,c/FR,ces;eng;tur;ron;srp;hun;spa;deu;ell;fra,sports,FALSE,2009-08-05,,,https://www.eurosport.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Eurosport_2_HD_Logo_2015.png/512px-Eurosport_2_HD_Logo_2015.png
-Eurosport2Italia.it,Eurosport 2 Italia,,,IT,,,c/IT,ita,sports,FALSE,,,,http://it.eurosport.com/,https://i.imgur.com/0xpN9B6.png
+Eurosport2Italy.it,Eurosport 2 Italy,,,IT,,,c/IT,ita,sports,FALSE,,,,http://it.eurosport.com/,https://i.imgur.com/0xpN9B6.png
 Eurosport2NorthEast.fr,Eurosport 2 North-East,,,FR,,,c/BG;c/RS,bul;eng;srp;ell;por;ces;rus;ita;hun;ron;hrv;tur;spa;nld,sports,FALSE,,,,https://www.eurosport.com/,https://i.imgur.com/0xpN9B6.png
 Eurosport2Poland.fr,Eurosport 2 Poland,,,FR,,,c/PL,pol,sports,FALSE,,,,http://tv.eurosport.pl/,https://i.imgur.com/0xpN9B6.png
 Eurosport2Romania.ro,Eurosport 2 Romania,,,RO,,,c/RO,rom,sports,FALSE,,,,http://tv.eurosport.ro/,https://i.imgur.com/0xpN9B6.png
@@ -5906,7 +5906,7 @@ ExcelsiorTV.mx,Excélsior TV,,,MX,,,c/MX,spa,,FALSE,2013-09-02,,,https://www.exc
 ExcitingGrandPrix.jp,Exciting Grand Prix,,,JP,,,c/JP,jpn,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ee/exciting_grand_prix.png
 ExitosaTV.pe,Exitosa TV,,,PE,PE-LIM,Lima,c/PE,spa,news,FALSE,,,,https://exitosanoticias.pe/,https://www.lyngsat.com/logo/tv/ee/exitosa_pe_tv.png
 ExodusTV.si,Exodus TV,,,SI,,,c/SI,slv,,FALSE,,,,,https://tv2go.t-2.net/static/media/img/channels/dark/ios/small/retina/145734.png
-ExOnTheBeachItalia.us,Ex On The Beach Italia,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/ex-on-the-beach-it,https://images.pluto.tv/channels/60940ebad67fd900072382db/colorLogoPNG.png
+ExOnTheBeachItaly.us,Ex On The Beach Italy,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/ex-on-the-beach-it,https://images.pluto.tv/channels/60940ebad67fd900072382db/colorLogoPNG.png
 ExoTV.re,Exo TV,,,RE,,,c/RE,fra,,FALSE,,,,http://www.exofm.re/rubrique/18/exo-tv.htm,https://www.lyngsat.com/logo/tv/ee/exo_re_tv.png
 ExplorerHistori.al,Explorer Histori,,,AL,,,c/AL,sqi,,FALSE,,,,https://www.digitalb.al/,https://i.imgur.com/FRtKZLG.png
 ExplorerNatyra.al,Explorer Natyra,,,AL,,,c/AL,sqi,,FALSE,,,,https://www.digitalb.al/,https://i.imgur.com/b66n8tO.png
@@ -5949,7 +5949,7 @@ FailArmy.us,FailArmy,,,US,,,c/US,eng,comedy,FALSE,,,,https://pluto.tv/en/live-tv
 FailArmyBrazil.us,FailArmy Brazil,,,US,,,c/BR,por,comedy,FALSE,,,,https://pluto.tv/en/live-tv/failarmy-ptv1,https://images.pluto.tv/channels/5f5141c1605ddf000748eb1b/colorLogoPNG.png
 FailArmyFrance.us,FailArmy France,,,US,,,c/CH;c/FR,fra,comedy,FALSE,,,,https://pluto.tv/en/live-tv/fail-army-fr,https://images.pluto.tv/channels/5f8ecd9169d2d4000864a974/colorLogoPNG.png
 FailArmyGermany.us,FailArmy Germany,,,US,,,c/DE,deu,comedy,FALSE,,,,https://pluto.tv/en/live-tv/fail-army-de,https://images.pluto.tv/channels/5ad9b7ffe738977e2c312133/colorLogoPNG.png
-FailArmyItalia.us,FailArmy Italia,,,US,,,c/IT,ita,comedy,FALSE,,,,https://pluto.tv/en/live-tv/fail-army-it,https://images.pluto.tv/channels/608014d19a26320007c92ab6/colorLogoPNG.png
+FailArmyItaly.us,FailArmy Italy,,,US,,,c/IT,ita,comedy,FALSE,,,,https://pluto.tv/en/live-tv/fail-army-it,https://images.pluto.tv/channels/608014d19a26320007c92ab6/colorLogoPNG.png
 FailArmySpain.us,FailArmy Spain,,,US,,,c/ES,spa,comedy,FALSE,,,,https://pluto.tv/en/live-tv/fail-army-es,https://images.pluto.tv/channels/5f1abf5fafb5ee0007d4d0ca/colorLogoPNG.png
 FailArmyUK.us,FailArmy UK,,,UK,,,c/UK,eng,comedy,FALSE,,,,https://pluto.tv/en/live-tv/fail-army-gb,https://images.pluto.tv/channels/5ad8d883e738977e2c31096b/colorLogoPNG.png
 FairchildTV1East.ca,Fairchild TV 1 East,,,CA,,,c/CA,zho;yue,,FALSE,,,,https://www.fairchildtv.com/,https://www.lyngsat.com/logo/tv/ff/fairchild-tv-1-ca.png
@@ -6302,9 +6302,9 @@ FoxFunny.au,Fox Funny,,,AU,,,c/AU,eng,,FALSE,2008-11-01,,,https://www.foxtel.com
 FoxFunnyHD.au,Fox Funny HD,,,AU,,,c/AU,eng,,FALSE,2019-11-07,,,https://www.foxtel.com.au/channels.html,https://i.imgur.com/KJ1Jsws.png
 FoxGermany.us,Fox Germany,,,US,,,c/US,eng,,FALSE,,,,,
 FoxGreece.gr,Fox Greece,,,GR,,,c/GR;c/CY;c/MT,ell;eng,,FALSE,,,,https://www.fox-greece.gr/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/FOX_wordmark.svg/512px-FOX_wordmark.svg.png
-FoxHDItalia.it,Fox HD Italia,,,IT,,,c/IT,ita,,FALSE,2009-07-01,,,https://www.foxtv.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/FOX_HD.svg/512px-FOX_HD.svg.png?20150718014654
+FoxHDItaly.it,Fox HD Italy,,,IT,,,c/IT,ita,,FALSE,2009-07-01,,,https://www.foxtv.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/FOX_HD.svg/512px-FOX_HD.svg.png?20150718014654
 FoxHrvatska.hr,Fox Hrvatska,,,HR,,,c/HR,hrv,,FALSE,,,,http://www.foxchannels.hr/,https://i.imgur.com/Tg604Hv.png
-FoxItalia.it,Fox Italia,,,IT,,,c/IT,ita,,FALSE,2003-07-31,,,http://www.foxtv.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/512px-FOX_wordmark-orange.svg.png
+FoxItaly.it,Fox Italy,,,IT,,,c/IT,ita,,FALSE,2003-07-31,,,http://www.foxtv.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/512px-FOX_wordmark-orange.svg.png
 FoxJapan.jp,Fox Japan,,,JP,,,c/JP,eng,,FALSE,,,,http://tv.foxjapan.com/fox/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-131-400x400.png
 FoxKorea.kr,Fox Korea,,,KR,,,c/KR,kor,,FALSE,,,,http://www.foxchannel.co.kr/,https://www.lyngsat.com/logo/tv/ff/fox_global.png
 FoxLeague.au,Fox League,,,AU,,,c/AU,eng,,FALSE,2017-02-27,,,https://www.foxsports.com.au/nrl/foxleague,https://www.lyngsat.com/logo/tv/ff/fox-league-us-au.png
@@ -6338,8 +6338,8 @@ FoxNewsNow.us,FOX News Now,,,US,,,c/US,eng,news,FALSE,,,,,https://i.imgur.com/hc
 FoxNewsRadio.us,Fox News Radio,,,US,,,c/US,eng,news,FALSE,,,,,https://i.imgur.com/Z5SATrd.png
 FoxNL.nl,Fox NL,,,NL,,,c/NL,nld,,FALSE,,,,http://www.foxtv.nl/,https://i.imgur.com/3zzVfSz.png
 FoxOne.au,Fox One,,,AU,,,c/AU,eng,,FALSE,,,,https://www.foxtel.com.au/channels.html,https://www.lyngsat.com/logo/tv/ff/fox-one-us-au.png
-FoxPlus1Italia.it,Fox +1 Italia,,,IT,,,c/IT,ita,,FALSE,2007-07-01,,,http://www.foxtv.it/,https://www.lyngsat.com/logo/tv/ff/fox_global.png
-FoxPlus2Italia.it,Fox +2 Italia,,,IT,,,c/IT,ita,,FALSE,2010-11-08,,,http://www.foxtv.it/,https://www.lyngsat.com/logo/tv/ff/fox_global.png
+FoxPlus1Italy.it,Fox +1 Italy,,,IT,,,c/IT,ita,,FALSE,2007-07-01,,,http://www.foxtv.it/,https://www.lyngsat.com/logo/tv/ff/fox_global.png
+FoxPlus2Italy.it,Fox +2 Italy,,,IT,,,c/IT,ita,,FALSE,2010-11-08,,,http://www.foxtv.it/,https://www.lyngsat.com/logo/tv/ff/fox_global.png
 FoxPoland.us,Fox Poland,,,US,,,c/US,eng,,FALSE,,,,http://www.foxtv.pl/,https://www.lyngsat.com/logo/tv/ff/fox_global.png
 FoxPortugal.pt,Fox Portugal,,,PT,,,c/PT,por,,FALSE,,,,http://fox.canais-fox.pt/,https://www.meo.pt/PublishingImages/canais/fox.png
 FoxRewayat.us,Fox Rewayat,,,US,,,c/US,ara,,FALSE,,,,http://foxrewayat.foxarabia.tv/,https://www.lyngsat.com/logo/tv/ff/fox-rewayat-us.png
@@ -6482,7 +6482,7 @@ FuegoTV.pe,FuegoTV,,,PE,PE-LIM,Lima,c/PE,spa,,FALSE,,,,https://fuegotvlima.pe/,h
 FuelTV.us,Fuel TV,,,US,,,c/US,eng,sports,FALSE,,,,http://www.fuel.tv/,https://i.imgur.com/XboGSjX.png
 FuelTVBrazil.us,Fuel TV Brazil,,,US,,,c/BR,por,sports,FALSE,,,,https://pluto.tv/en/live-tv/fuel-tv-ptv1,https://images.pluto.tv/channels/6144d088516ea8000739076a/colorLogoPNG.png
 FuelTVFrance.us,Fuel TV France,,,US,,,c/FR,fra,sports,FALSE,,,,https://pluto.tv/en/live-tv/fuel-tv-fr,https://images.pluto.tv/channels/60f165cd4e33aa0007481782/colorLogoPNG.png
-FuelTVItalia.us,Fuel TV Italia,,,US,,,c/IT,ita,sports,FALSE,,,,https://pluto.tv/en/live-tv/fuel-tv-it,https://images.pluto.tv/channels/60b9dbea1f19550007dd0dfa/colorLogoPNG.png
+FuelTVItaly.us,Fuel TV Italy,,,US,,,c/IT,ita,sports,FALSE,,,,https://pluto.tv/en/live-tv/fuel-tv-it,https://images.pluto.tv/channels/60b9dbea1f19550007dd0dfa/colorLogoPNG.png
 FuelTVSpain.us,Fuel TV Spain,,,US,,,c/ES,spa,sports,FALSE,,,,https://pluto.tv/en/live-tv/fuel-tv-es,https://images.pluto.tv/channels/60f1673d0e4370000784dc61/colorLogoPNG.png
 FuelTVUK.us,Fuel TV UK,,,US,,,c/UK,eng,sports,FALSE,,,,https://pluto.tv/en/live-tv/fuel-tv-gb,https://images.pluto.tv/channels/60bf32701f19550007dd2ee9/colorLogoPNG.png
 FujairahTV.ae,Fujairah TV,,,AE,,,c/AE,ara,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ff/fujairah-tv-ae.png
@@ -6675,7 +6675,7 @@ GeoKahani.pk,Geo Kahani,,,PK,,,c/PK,eng,,FALSE,2013-05-16,,,http://geokahani.tv/
 GeoMiddleEast.pk,Geo Middle East,,,PK,,,c/PK,urd,,FALSE,,,,http://www.geo.tv/me/,https://www.lyngsat.com/logo/tv/gg/geo_tv_me.png
 GeoNews.pk,Geo News,,,PK,,,c/PK,urd,news,FALSE,2002-05-01,,,https://www.geo.tv/,https://www.lyngsat.com/logo/tv/gg/geo_news_pk.png
 GeoNewsInternational.pk,Geo News International,,,PK,,,c/PK,urd,,FALSE,,,,https://www.geo.tv/,https://www.lyngsat.com/logo/tv/gg/geo_news_international.png
-GeordieShoreItalia.us,Geordie Shore Italia,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/geordie-shore-it,https://images.pluto.tv/channels/619263ee9541940007d20d60/colorLogoPNG.png
+GeordieShoreItaly.us,Geordie Shore Italy,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/geordie-shore-it,https://images.pluto.tv/channels/619263ee9541940007d20d60/colorLogoPNG.png
 GeoSuper.pk,Geo Super,,,PK,,,c/PK,urd,,FALSE,,,,https://www.geosuper.tv/,https://www.lyngsat.com/logo/tv/gg/geo_super.png
 GeoTez.pk,Geo Tez,,,PK,,,c/PK,urd,,FALSE,2013-05-11,,,http://www.geotez.tv/,https://www.lyngsat.com/logo/tv/gg/geo_tez_pk.png
 GeoTV.de,Geo TV,,,DE,,,c/DE,deu,,FALSE,2002-10-01,,,https://www.geo-television.de/,https://i.imgur.com/Ii4AWYd.png
@@ -6815,7 +6815,7 @@ GoldIreland.ie,Gold Ireland,,,IE,,,c/IE,eng,,FALSE,,,,https://gold.uktv.co.uk/,h
 GoldstarTVGermany.us,Goldstar TV Germany,,,US,,,c/DE,deu,,FALSE,,,,https://pluto.tv/en/live-tv/goldstar-tv-de,https://images.pluto.tv/channels/6192396135f3910007fc5fc7/colorLogoPNG.png
 GoldTV.pl,Gold TV,,,PL,,,c/PL,pol,,FALSE,,,,http://www.totv.com.pl/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/goldtv.png
 GoldTV.si,Gold TV,,,SI,,,c/SI,slv,,FALSE,,,,,https://tv2go.t-2.net/static/media/img/channels/dark/ios/small/retina/145695.png
-GoldTVItalia.it,Gold TV Italia,,,IT,,,c/IT,ita,,FALSE,,,,,https://www.lyngsat.com/logo/tv/gg/gold_tv_it_italia.png
+GoldTVItaly.it,Gold TV Italy,,,IT,,,c/IT,ita,,FALSE,,,,,https://www.lyngsat.com/logo/tv/gg/gold_tv_it_italia.png
 GoldUK.uk,Gold UK,,,UK,,,c/UK,eng,,FALSE,,,,https://gold.uktv.co.uk/,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb2304.png
 GoldUKPlus1.uk,Gold UK +1,,,UK,,,c/UK,eng,,FALSE,,,,https://gold.uktv.co.uk/,https://www.lyngsat.com/logo/tv/gg/gold-uk-plus1-uk.png
 GoldValleyTV.pe,Gold Valley TV,,,PE,PE-ANC,Casma,c/PE,spa,,FALSE,,,,https://goldvalleycasmartv.com/,https://graph.facebook.com/Goldvalleytvcasma/picture?width=320&height=320
@@ -7654,7 +7654,7 @@ IglesiaDelCamino.gt,Iglesia Del Camino,,,GT,,,c/GT,spa,religious,FALSE,,,,,https
 IGN.us,IGN,,,US,,,c/US,eng,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/ign,https://images.pluto.tv/channels/5f8ecee24576bc0007a13b79/colorLogoPNG.png
 IGNFrance.us,IGN France,,,US,,,c/FR,fra,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/ign-fr,https://images.pluto.tv/channels/5f8ecee24576bc0007a13b79/colorLogoPNG.png
 IGNGermany.us,IGN Germany,,,US,,,c/DE,deu,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/ign-de,https://images.pluto.tv/channels/5ad9bc207ef2767e1846e5a0/colorLogoPNG.png
-IGNItalia.us,IGN Italia,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/ign-it,https://images.pluto.tv/channels/608015ea48a6e800076f0f2f/colorLogoPNG.png
+IGNItaly.us,IGN Italy,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/ign-it,https://images.pluto.tv/channels/608015ea48a6e800076f0f2f/colorLogoPNG.png
 Ignition.za,Ignition,,,ZA,,,c/ZA,eng,,FALSE,,,,https://www.timeslive.co.za/motoring/,https://rndcdn.dstv.com/dstvcms/2018/03/06/Ignition_logo_4-3_lightbackground_xlrg.png
 IGNSpain.us,IGN Spain,,,US,,,c/ES,spa,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/ign-es,https://images.pluto.tv/channels/5f1ac118dd7e6000077e31af/colorLogoPNG.png
 IGNUK.us,IGN UK,,,US,,,c/UK,eng,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/ign-gb,https://images.pluto.tv/channels/5ad8d982e738977e2c3109a6/colorLogoPNG.png
@@ -7667,7 +7667,7 @@ IIPCTV.ca,IIPC TV,,,CA,,,c/CA,eng,religious,FALSE,,,,,https://i.imgur.com/G7hGk8
 IjsselmondTV.nl,Ijsselmond TV,,,NL,,,c/NL,nld,,FALSE,,,,,https://i.imgur.com/r0pOnIy.png
 ILAM.ir,ILAM,,,IR,,,c/IR,fas,,FALSE,,,,,
 IlamTV.ir,Ilam TV,,,IR,,,c/IR,fas,,FALSE,,,,http://ilam.irib.ir/tv,https://www.lyngsat.com/logo/tv/ii/ilam_tv.png
-IlBancodeiPugniItalia.us,Il Banco dei Pugni Italia,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/il-banco-dei-pugni-it,https://images.pluto.tv/channels/60e4507a06171800072339a3/colorLogoPNG.png
+IlBancodeiPugniItaly.us,Il Banco dei Pugni Italy,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/il-banco-dei-pugni-it,https://images.pluto.tv/channels/60e4507a06171800072339a3/colorLogoPNG.png
 ILCECanal13InnovaConocimiento.mx,ILCE Canal 13 Innova Conocimiento,,,MX,,,c/MX,spa,,FALSE,,,,http://www.ilce.edu.mx/index.php/canal-13,https://www.lyngsat.com/logo/tv/ii/ilce_canal13.png
 ILCECanal15SummaSaberes.mx,ILCE Canal 15 Summa Saberes,,,MX,,,c/MX,spa,,FALSE,,,,https://www.ilce.edu.mx/index.php/radio-y-tv,https://www.lyngsat.com/logo/tv/ii/ilce-canal-15-summa-saberes-mx.png
 IllusionPlus.ru,Illusion +,,,RU,,,c/RU,rus,,FALSE,,,,http://illusionplus.tv/,https://avatars.mds.yandex.net/get-tv-shows/70764/2a0000015185959fff3bfe2c627f227796af/orig
@@ -8163,7 +8163,7 @@ JustepourRire.us,Juste pour Rire,,,US,,,c/CH;c/FR,fra,comedy,FALSE,,,,,https://i
 JustepourRireFrance.us,Juste pour Rire France,,,US,,,c/FR,fra,comedy,FALSE,,,,https://pluto.tv/en/live-tv/juste-pour-rire-fr,https://images.pluto.tv/channels/60afa1508284e60007163c08/colorLogoPNG.png
 JustforLaughsGags.us,Just for Laughs Gags,,,US,,,c/US,eng,comedy,FALSE,,,,,https://i.imgur.com/OiMMkP3.jpg
 JustforLaughsGermany.us,Just for Laughs Germany,,,US,,,c/DE,deu,comedy,FALSE,,,,https://pluto.tv/en/live-tv/just-for-laughs-de,https://images.pluto.tv/channels/60db2e7a62df960007a9b6b1/colorLogoPNG.png
-JustforLaughsItalia.us,Just for Laughs Italia,,,US,,,c/IT,ita,comedy,FALSE,,,,https://pluto.tv/en/live-tv/just-for-laughs-it,https://images.pluto.tv/channels/6093f48c95132a00075fd859/colorLogoPNG.png
+JustforLaughsItaly.us,Just for Laughs Italy,,,US,,,c/IT,ita,comedy,FALSE,,,,https://pluto.tv/en/live-tv/just-for-laughs-it,https://images.pluto.tv/channels/6093f48c95132a00075fd859/colorLogoPNG.png
 JustforLaughsSpain.us,Just for Laughs Spain,,,US,,,c/ES,spa,comedy,FALSE,,,,https://pluto.tv/en/live-tv/just-for-laughs-es,https://images.pluto.tv/channels/60a286daf888610007669801/colorLogoPNG.png
 JustforLaughsUK.us,Just for Laughs UK,,,US,,,c/UK,eng,comedy,FALSE,,,,https://pluto.tv/en/live-tv/just-for-laughs-gb,https://images.pluto.tv/channels/60d32888e31a0300073d9f08/colorLogoPNG.png
 JustFun.th,Just Fun,,,TH,,,c/TH,tha,,FALSE,,,,,https://www.lyngsat.com/logo/tv/jj/just-fun-th.png
@@ -8174,7 +8174,7 @@ Juvelirochka.ru,Juvelirochka,,,RU,,,c/RU,rus,,FALSE,,,,https://uvi.ru/yuveliroch
 JuvelirochkaModa.ru,Juvelirochka Moda,,,RU,,,c/RU,rus,,FALSE,,,,,https://www.lyngsat.com/logo/tv/jj/juvelirochka-moda-ru.png
 JuventudRenovadaenelEspirituSanto.us,Juventud Renovada en el Espiritu Santo,,,US,,,c/US,spa,religious,FALSE,,,,,https://i.imgur.com/9Brfh2M.png
 Juwelo.de,Juwelo,,,DE,,,c/DE,deu,,FALSE,,,,https://www.juwelo.de/,https://cdn.hd-plus.de/senderlogos/bright-cropped/24491-2.png
-JuweloItalia.it,Juwelo Italia,,,IT,,,c/IT,deu,,FALSE,,,,https://www.juwelo.it/,https://www.lyngsat.com/logo/tv/jj/juwelo_tv_it.png
+JuweloItaly.it,Juwelo Italy,,,IT,,,c/IT,deu,,FALSE,,,,https://www.juwelo.it/,https://www.lyngsat.com/logo/tv/jj/juwelo_tv_it.png
 JWBroadcasting.us,JW Broadcasting,,,US,,,c/US,eng;por;swa;zul,,FALSE,,,,https://www.jw.org/,https://www.lyngsat.com/logo/tv/jj/jw_broadcasting_us.png
 JyotishDuniya.in,Jyotish Duniya,,,IN,,,c/IN,hin,,FALSE,,,,,https://i.imgur.com/ouGtIqo.png
 K03HKD1.us,K03HK-D1,,Three Angels,US,US-CA,Fresno,s/US-CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/3abn.png
@@ -13233,7 +13233,7 @@ La1HD.es,La 1 HD,,,ES,,,c/ES,spa,,FALSE,,,,http://www.rtve.es/television/,https:
 La2.es,La 2,,,ES,,,c/ES;c/AD,spa,documentary,FALSE,,,,https://www.rtve.es/television/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Logo_TVE-2.svg/512px-Logo_TVE-2.svg.png
 La2HD.es,La 2 HD,,,ES,,,c/ES;c/AD,spa,documentary,FALSE,,,,https://www.rtve.es/television/,https://upload.wikimedia.org/wikipedia/commons/6/63/La_2_HD.png
 LA34LongAn.vn,LA34 Long An,,,VN,,,c/VN,vie,,FALSE,,,,,
-La4Italia.it,La 4 Italia,,,IT,,,c/IT,ita,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ll/la-4-italia-it.png
+La4Italy.it,La 4 Italy,,,IT,,,c/IT,ita,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ll/la-4-italia-it.png
 La5.it,La 5,,,IT,,,c/IT,ita,,FALSE,,,,https://www.mediasetplay.mediaset.it/la5,https://www.sms.cz/kategorie/televize/bmp/loga/velka/la5.png
 La7.es,La 7,,,ES,,,c/ES,spa,,FALSE,,,,,https://www.movistarplus.es/recorte/m-NEO/canal/CYLTV.png
 La7.it,La 7,,,IT,,,c/IT,ita,,FALSE,,,,https://www.la7.it/,https://i.imgur.com/TnwjCAj.png
@@ -13270,7 +13270,7 @@ Laff.us,Laff,,,US,,,c/US,eng,,FALSE,,,,https://www.laff.com/,https://cdn.tvpassp
 LagosTelevision.ng,Lagos Television,,,NG,,,c/NG,eng,,FALSE,,,,,https://i.imgur.com/rjLxSfx.png
 LagosTV.ng,Lagos TV,,,NG,,,c/NG,eng,,FALSE,,,,,https://rndcdn.dstv.com/dstvcms/2017/02/20/LTV_new4-4logo_001_xlrg.png
 LaGranCarpaCatedralTV.pr,La Gran Carpa Catedral TV,,,PR,,,c/PR,spa,,FALSE,,,,https://www.carpa.com/,https://www.lyngsat.com/logo/tv/gg/gran_carpa_catedral_tv_pr.png
-LaGrandeItalia.it,La Grande Italia,,,IT,,,c/IT,ita,,FALSE,,,,https://grandeitaliatv.wordpress.com/,https://www.lyngsat.com/logo/tv/ll/la-grande-italia-it.png
+LaGrandeItaly.it,La Grande Italy,,,IT,,,c/IT,ita,,FALSE,,,,https://grandeitaliatv.wordpress.com/,https://www.lyngsat.com/logo/tv/ll/la-grande-italia-it.png
 LaGranjaTV.cl,La Granja TV,,,CL,,,c/CL,spa,,FALSE,,,,,
 LahoreNews.pk,Lahore News,,,PK,,,c/PK,eng,news,FALSE,,,,https://lahorenews.tv/,https://www.lyngsat.com/logo/tv/ll/lahore_news_pk.png
 LahoreRang.pk,Lahore Rang,,,PK,,,c/PK,urd,,FALSE,,,,https://www.lahorerang.tv/,https://www.lyngsat.com/logo/tv/ll/lahore-rang-pk.png
@@ -13414,7 +13414,7 @@ LesAnneesfacFrance.us,Les Années fac France,,,US,,,c/FR,fra,series,FALSE,,,,htt
 LesCordierFrance.us,Les Cordier France,,,US,,,c/FR,fra,series,FALSE,,,,https://pluto.tv/en/live-tv/les-cordier-juge-et-flic-fr,https://images.pluto.tv/channels/5f8ed80fa09f120007c8daa5/colorLogoPNG.png
 LesfillesdacoteFrance.us,Les filles d'à côté France,,,US,,,c/FR,fra,series,FALSE,,,,https://pluto.tv/en/live-tv/les-filles-da-cote-fr,https://images.pluto.tv/channels/60549d97cd7b090007c73314/colorLogoPNG.png
 LesNouveauxDetectivesFrance.us,Les Nouveaux Detectives France,,,US,,,c/FR,fra,documentary,FALSE,,,,https://pluto.tv/en/live-tv/les-nouveaux-detectives-fr,https://images.pluto.tv/channels/5f8edb6df1ebb800072edf10/colorLogoPNG.png
-LesorelleMcLeodItalia.us,Le sorelle McLeod Italia,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/le-sorelle-mcleod-it,https://images.pluto.tv/channels/60a2837f8154ab0007c4dcdf/colorLogoPNG.png
+LesorelleMcLeodItaly.us,Le sorelle McLeod Italy,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/le-sorelle-mcleod-it,https://images.pluto.tv/channels/60a2837f8154ab0007c4dcdf/colorLogoPNG.png
 LesRazmoketFrance.us,Les Razmoket France,,,US,,,c/FR,fra,kids,FALSE,,,,https://pluto.tv/en/live-tv/les-razmoket-fr,https://images.pluto.tv/channels/619cee9d5dc3ed0007d845c8/colorLogoPNG.png
 LevanteTV.es,Levante TV,,,ES,,,c/ES,spa,,FALSE,,,,,https://graph.facebook.com/levantetv/picture?width=320&height=320
 LevelOne.us,Level One,,,US,,,c/US,eng,kids,FALSE,,,,,
@@ -14600,7 +14600,7 @@ MTVHitsEurope.uk,MTV Hits Europe,,,UK,,,r/EUR;r/LATAM;r/AFR,eng,music,FALSE,,,,h
 MTVHitsFrance.fr,MTV Hits France,,,FR,,,c/FR,eng,music,FALSE,,,,http://www.mtv.fr/,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/MTV_Hits_2021.svg/512px-MTV_Hits_2021.svg.png
 MTVHitsUK.uk,MTV Hits UK,,,UK,,,c/UK;c/IE,eng,music,FALSE,,,,http://www.mtv.co.uk/channels/mtv-hits,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/MTV_Hits_2021.svg/512px-MTV_Hits_2021.svg.png
 MTVIndia.in,MTV India,,,IN,,,c/IN;c/NP,hin;eng,entertainment,FALSE,,,,http://www.mtvindia.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png
-MTVItalia.it,MTV Italia,,,IT,,,c/IT,eng,entertainment,FALSE,,,,https://www.mtv.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png
+MTVItaly.it,MTV Italy,,,IT,,,c/IT,eng,entertainment,FALSE,,,,https://www.mtv.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png
 MTVJapan.jp,MTV Japan,,,JP,,,c/JP,jpn;eng,entertainment,FALSE,1984-10-01,1993-01-01,,http://www.mtvjapan.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png
 MTVLatinAmericaNorth.mx,MTV Latin America North,,,MX,,,c/MX;c/CO;c/PE;c/EC;c/BO,eng,entertainment,FALSE,,,,http://www.mtvla.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png
 MTVLatinAmericaSouth.ar,MTV Latin America South,,,AR,,,c/AR;c/CL;c/VE;c/PY;c/UY,eng,entertainment,FALSE,,,,http://www.mtvla.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/512px-MTV_2021_%28brand_version%29.svg.png
@@ -14611,7 +14611,7 @@ MTVLoveMusicGermany.us,MTV Love Music Germany,,,US,,,c/DE,deu,music,FALSE,,,,htt
 MTVLoveMusicSpain.us,MTV Love Music Spain,,,US,,,c/ES,spa,music,FALSE,,,,https://pluto.tv/en/live-tv/mtv-love-music-es,https://images.pluto.tv/channels/600ae79fa46e17000794e84c/colorLogoPNG.png
 MTVMasAncash.pe,MTV Más Ancash,,,PE,PE-ANC,,c/PE,spa,general,FALSE,,,,https://mtvnoticiasancash.com/,https://graph.facebook.com/MtvMasTelevision/picture?width=320&height=320
 MTVmix.ru,MTVmix,,,RU,,Ufa,c/RU,rus,,FALSE,,,,,https://mtvmix.ru/wp-content/uploads/2020/11/500-1.png
-MTVMusicItalia.it,MTV Music Italia,,,IT,,,c/IT,eng,music,FALSE,,,,http://www.mtv.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/MTV_Music_2021_logo.svg/512px-MTV_Music_2021_logo.svg.png
+MTVMusicItaly.it,MTV Music Italy,,,IT,,,c/IT,eng,music,FALSE,,,,http://www.mtv.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/MTV_Music_2021_logo.svg/512px-MTV_Music_2021_logo.svg.png
 MTVMusicMadeinSpain.us,MTV Music Made in Spain,,,US,,,c/ES,spa,music,FALSE,,,,https://pluto.tv/en/live-tv/mtv-music-made-in-spain-es,https://images.pluto.tv/channels/60a26a056d55b30007918d5a/colorLogoPNG.png
 MTVMusicUK.uk,MTV Music UK,,,UK,,,c/UK;c/IE,eng,music,FALSE,,,,http://www.mtv.co.uk/mtv-music,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/MTV_Music_2021_logo.svg/512px-MTV_Music_2021_logo.svg.png
 MTVNetherlands.nl,MTV Netherlands,,,NL,,,c/NL;c/BE,eng,entertainment,FALSE,,,,http://www.mtv.nl/,https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/512px-MTV-2021.svg.png
@@ -14766,7 +14766,7 @@ Musig24TV.ch,Musig24 TV,,,CH,,,c/CH,deu,sports,FALSE,,,,,https://i.imgur.com/vws
 MuslimAccessMovementTV.gh,Muslim Access Movement TV,,,GH,,,c/GH,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/muslim-access-movement-tv-gh.png
 MuslimTV.id,Muslim TV,,,ID,,,c/ID,ind,,FALSE,,,,https://www.mncchannels.com/micro/Muslim-TV,https://www.mncvision.id/userfiles/image/channel/channel_92.png
 MutanteXSpain.us,Mutante X Spain,,,US,,,c/ES,spa,series,FALSE,,,,https://pluto.tv/en/live-tv/mutante-x-es,https://images.pluto.tv/channels/5f1acc91cc9e1b000711ff21/colorLogoPNG.png
-MutantXItalia.us,Mutant X Italia,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/mutant-x-it,https://images.pluto.tv/channels/60802c209a26320007c92ad5/colorLogoPNG.png
+MutantXItaly.us,Mutant X Italy,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/mutant-x-it,https://images.pluto.tv/channels/60802c209a26320007c92ad5/colorLogoPNG.png
 MutantXUK.us,Mutant X UK,,,US,,,c/UK,eng,series,FALSE,,,,https://pluto.tv/en/live-tv/mutant-x-gb,https://images.pluto.tv/channels/5e8dc008d4422e00072d2405/colorLogoPNG.png
 MUTV.uk,MUTV,,,UK,,,c/UK,eng,,FALSE,,,,https://mutv.manutd.com,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb1003.png
 MuviBakadoli.zm,Muvi Bakadoli,,,ZM,,,c/ZM,eng,,FALSE,,,,https://www.muvitv.com/,https://www.lyngsat.com/logo/tv/mm/muvi-bakadoli-zm.png
@@ -15033,7 +15033,7 @@ NATTV.us,NAT TV,,,US,,,c/US,tha,,FALSE,,,,http://www.nattv.com/,https://www.lyng
 NATTV.vn,NAT TV,,,VN,,,c/LA,vie,,FALSE,,,,,
 NaturalTV.tr,Natural TV,,,TR,,,c/TR,tur,,FALSE,,,,,https://i.ibb.co/SBw828K/f460YQg.png
 Naturescape.us,Naturescape,,,US,,,c/US,eng,,FALSE,,,,https://pluto.tv/en/live-tv/naturescape,https://images.pluto.tv/channels/5812bd9f249444e05d09cc4e/colorLogoPNG.png
-NaturescapeItalia.us,Naturescape Italia,,,US,,,c/IT,ita,documentary,FALSE,,,,https://pluto.tv/en/live-tv/naturescape-it,https://images.pluto.tv/channels/610a9ebe8c2ac2000734776e/colorLogoPNG.png
+NaturescapeItaly.us,Naturescape Italy,,,US,,,c/IT,ita,documentary,FALSE,,,,https://pluto.tv/en/live-tv/naturescape-it,https://images.pluto.tv/channels/610a9ebe8c2ac2000734776e/colorLogoPNG.png
 NaturescapeUK.us,Naturescape UK,,,US,,,c/UK,eng,documentary,FALSE,,,,https://pluto.tv/en/live-tv/naturescape-gb,https://images.pluto.tv/channels/5f0c2f3739f6b900075f366c/colorLogoPNG.png
 Nauka.ru,Nauka,,,RU,,,c/RU,rus,,FALSE,,,,https://naukatv.ru/,https://i.imgur.com/W7Hjkss.png
 Nauka.ua,Nauka,,,UA,,,c/UA;c/RU,ukr;rus,,FALSE,,,,http://www.nauka-tv.com/,https://www.lyngsat.com/logo/tv/nn/nauka_ua.png
@@ -15455,8 +15455,8 @@ NickelodeonHDUSWest.us,Nickelodeon HD US West,,Nickelodeon,US,,,c/US,eng,kids,FA
 NickelodeonHungary.hu,Nickelodeon Hungary,,Nickelodeon,HU,,,c/HU,eng,kids,FALSE,,,,http://www.nickelodeon.hu/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/512px-Nickelodeon_2009_logo.svg.png
 NickelodeonIndia.in,Nickelodeon India,,Nickelodeon,IN,,,c/IN;c/BD;c/NP;c/LK,hin,kids,FALSE,,,,http://www.nickindia.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Nick.svg/512px-Nick.svg.png
 NickelodeonIsrael.il,Nickelodeon Israel,,Nickelodeon,IL,,,c/IL,eng,kids,FALSE,,,,http://nick.co.il/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/512px-Nickelodeon_2009_logo.svg.png
-NickelodeonItalia.it,Nickelodeon Italia,,Nickelodeon,IT,,,c/IT,ita,kids,FALSE,,,,http://www.nicktv.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/512px-Nickelodeon_2009_logo.svg.png
 NickelodeonItaliaPlus1.it,Nickelodeon Italia +1,,Nickelodeon,IT,,,c/IT,ita,kids,FALSE,,,,http://www.nicktv.it/,https://i.imgur.com/Q2Re7IX.png
+NickelodeonItaly.it,Nickelodeon Italy,,Nickelodeon,IT,,,c/IT,ita,kids,FALSE,,,,http://www.nicktv.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/512px-Nickelodeon_2009_logo.svg.png
 NickelodeonJunior.fr,Nickelodeon Junior,,Nickelodeon,FR,,,c/FR;c/CH;c/MU;c/MG;c/KM;c/HT;r/SSA,fra,kids,FALSE,2010-01-26,,,https://www.nickelodeonjunior.fr/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/400px-Nickelodeon_Junior.png
 NickelodeonJuniorHD.fr,Nickelodeon Junior HD,,Nickelodeon,FR,,,c/FR;c/CH;c/MU;c/MG;c/KM;c/HT;r/SSA,fra,kids,FALSE,,,,https://www.nickelodeonjunior.fr/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/400px-Nickelodeon_Junior.png
 NickelodeonKorea.kr,Nickelodeon Korea,,Nickelodeon,KR,,,c/KR,kor,kids,FALSE,,,,http://www.nick.co.kr/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/512px-Nickelodeon_2009_logo.svg.png
@@ -15501,8 +15501,8 @@ NickJrGreece.gr,Nick Jr Greece,,Nickelodeon,GR,,,c/GR;c/CY,eng,kids,FALSE,,,,htt
 NickJrHungary.hu,Nick Jr Hungary,,Nickelodeon,HU,,,c/HU,eng,kids,FALSE,,,,http://www.nickelodeon.hu/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png
 NickJrIndia.in,Nick Jr India,,Nickelodeon,IN,,,c/IN;c/BD;c/BT;c/NP,eng;hin,kids,FALSE,,,,http://nickjrindia.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png
 NickJrIsrael.il,Nick Jr Israel,,Nickelodeon,IL,,,c/IL,eng,kids,FALSE,,,,http://nick.co.il/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png
-NickJrItalia.it,Nick Jr Italia,,Nickelodeon,IT,,,c/IT,ita,kids,FALSE,,,,http://www.nickjr.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png
 NickJrItaliaPlus1.it,Nick Jr Italia +1,,Nickelodeon,IT,,,c/IT,ita,kids,FALSE,,,,http://www.nickjr.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png
+NickJrItaly.it,Nick Jr Italy,,Nickelodeon,IT,,,c/IT,ita,kids,FALSE,,,,http://www.nickjr.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png
 NickJrLatinAmerica.us,Nick Jr Latin America,,Nickelodeon,US,,,r/HISPAM,spa;eng,kids,FALSE,,,,http://la.nickjr.tv/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png
 NickJrNetherlands.nl,Nick Jr Netherlands,,Nickelodeon,NL,,,c/NL;c/BE,nld,kids,FALSE,,,,https://www.nickjr.nl/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Nick_Jr._logo_2009.svg/512px-Nick_Jr._logo_2009.svg.png
 NickJrPlutoTV.us,Nick Jr Pluto TV,,Nickelodeon,US,,,c/US,eng,kids,FALSE,,,,https://pluto.tv/en/live-tv/nick-jr-pluto-tv-ptv1,https://images.pluto.tv/channels/5ca6748a37b88b269472dad9/colorLogoPNG.png
@@ -16360,7 +16360,7 @@ ParamountNetworkCzechia.us,Paramount Network Czechia,,,US,,,c/US,ces,,FALSE,,,,h
 ParamountNetworkDanmark.us,Paramount Network Danmark,,,US,,,c/US,eng,,FALSE,,,,,https://images.ctfassets.net/989y85n5kcxs/1aQ0vSVIDzpQkMrysIIHd2/da4d91c0415cc4a8d99bffa8ff0283ab/repg_118x40_paramount_logo_white_flat_transparent_background_rgb.png
 ParamountNetworkEast.us,Paramount Network East,,,US,,,c/US,eng,,FALSE,,,,http://www.paramountnetwork.com/,https://cdn.tvpassport.com/image/station/100x100/paramount.png
 ParamountNetworkHungary.hu,Paramount Network Hungary,,,HU,,,c/HU,hun;eng,,FALSE,,,,https://www.paramountnetwork.hu/,https://www.lyngsat.com/logo/tv/pp/paramount-network-us.png
-ParamountNetworkItalia.us,Paramount Network Italia,,,US,,,c/US,eng,,FALSE,,,,,https://i.imgur.com/kDXyguW.png
+ParamountNetworkItaly.us,Paramount Network Italy,,,US,,,c/US,eng,,FALSE,,,,,https://i.imgur.com/kDXyguW.png
 ParamountNetworkLatinAmerica.us,Paramount Network Latin America,,,US,,,c/US,spa;eng,,FALSE,,,,,https://i.imgur.com/y9qV1E1.jpg
 ParamountNetworkSverige.us,Paramount Network Sverige,,,US,,,c/US,eng,,FALSE,,,,,https://telkussa.fi/images/chan121@3x.png
 ParamountNetworkUK.us,Paramount Network UK,,,US,,,c/US,eng,,FALSE,,,,,https://i.imgur.com/kDXyguW.png
@@ -16468,7 +16468,7 @@ PeopleareAwesomeBrazil.us,People are Awesome Brazil,,,US,,,c/BR,por,entertainmen
 PeopleareAwesomeFrance.us,People are Awesome France,,,US,,,c/FR,fra,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/people-are-awesome-fr,https://images.pluto.tv/channels/5f8ed0720dc198000728f9d3/colorLogoPNG.png
 PeopleareAwesomeGermany.us,People are Awesome Germany,,,US,,,c/DE,deu,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/people-are-awesome-de,https://images.pluto.tv/channels/5eb95c119dc712000741fa35/colorLogoPNG.png
 PeopleareAwesomeIndia.us,People are Awesome India,,,US,,,c/US,eng,entertainment,FALSE,,,,,https://i.imgur.com/msHBlDz.png
-PeopleareAwesomeItalia.us,People are Awesome Italia,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/people-are-awesome-it,https://images.pluto.tv/channels/608017cbe375e400070cc981/colorLogoPNG.png
+PeopleareAwesomeItaly.us,People are Awesome Italy,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/people-are-awesome-it,https://images.pluto.tv/channels/608017cbe375e400070cc981/colorLogoPNG.png
 PeopleareAwesomeMexico.us,People are Awesome Mexico,,,US,,,c/US,eng,entertainment,FALSE,,,,,https://i.imgur.com/msHBlDz.png
 PeopleareAwesomeNetherlands.us,People are Awesome Netherlands,,,US,,,c/US,eng,entertainment,FALSE,,,,,https://i.imgur.com/msHBlDz.png
 PeopleareAwesomeSpain.us,People are Awesome Spain,,,US,,,c/ES,spa,comedy,FALSE,,,,https://pluto.tv/en/live-tv/people-are-awesome-es,https://images.pluto.tv/channels/5f1ac1780e94100007f94b3f/colorLogoPNG.png
@@ -16739,7 +16739,7 @@ PlutoTVAnimeAllDayFrance.us,Pluto TV Animé All Day France,,,US,,,c/FR,fra,anima
 PlutoTVAnimeBrazil.us,Pluto TV Anime Brazil,,,US,,,c/BR,por,animation,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-anime-1,https://images.pluto.tv/channels/5f12136385bccc00070142ed/colorLogoPNG-1599153408949.png
 PlutoTVAnimeClasico.us,Pluto TV Anime Clásico,,,US,,,c/US,spa,animation,FALSE,,,,,https://images.pluto.tv/channels/6054acc871ec430007f54c7d/colorLogoPNG.png
 PlutoTVAnimeGermany.us,Pluto TV Anime Germany,,,US,,,c/DE,deu,series,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-anime-de,https://images.pluto.tv/channels/608181d420fc8500075f612a/colorLogoPNG.png
-PlutoTVAnimeItalia.us,Pluto TV Anime Italia,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-anime-it,https://images.pluto.tv/channels/612375086abc84000738fc03/colorLogoPNG.png
+PlutoTVAnimeItaly.us,Pluto TV Anime Italy,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-anime-it,https://images.pluto.tv/channels/612375086abc84000738fc03/colorLogoPNG.png
 PlutoTVAnimeSpain.us,Pluto TV Anime Spain,,,US,,,c/ES,spa,animation,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-anime-es,https://images.pluto.tv/channels/608035b8d8705f0007260287/colorLogoPNG.png
 PlutoTVArchivosForenses.us,Pluto TV Archivos Forenses,,,US,,,c/US,spa,series,FALSE,,,,,https://images.pluto.tv/channels/5efb8c19b2678b000780d032/colorLogoPNG.png
 PlutoTVAsesinatosdeMidsomer.us,Pluto TV Asesinatos de Midsomer,,,US,,,c/US,spa,,FALSE,,,,,https://images.pluto.tv/channels/5f1aca8310a30e00074fab92/colorLogoPNG.png
@@ -16783,7 +16783,7 @@ PlutoTVCineDramaSpain.us,Pluto TV Cine Drama Spain,,,US,,,c/ES,spa,movies,FALSE,
 PlutoTVCineEstelarSpain.us,Pluto TV Cine Estelar Spain,,,US,,,c/ES,spa,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-cine-estelar-es,https://images.pluto.tv/channels/5f1ac1f1b66c76000790ef27/colorLogoPNG.png
 PlutoTVCineFamiliaBrazil.us,Pluto TV Cine Família Brazil,,,US,,,c/BR,por,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-cine-familia-ptv1,https://images.pluto.tv/channels/5f171f032cd22e0007f17f3d/colorLogoPNG.png
 PlutoTVCineFrance.us,Pluto TV Ciné France,,,US,,,c/FR,fra,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-cine-fr,https://images.pluto.tv/channels/5f8ed0f17564a300082b676a/colorLogoPNG.png
-PlutoTVCinemaItalianoItalia.us,Pluto TV Cinema Italiano Italia,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-cinema-italiano-it,https://images.pluto.tv/channels/608aa7d8359b270007861489/colorLogoPNG.png
+PlutoTVCinemaItalianoItaly.us,Pluto TV Cinema Italiano Italy,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-cinema-italiano-it,https://images.pluto.tv/channels/608aa7d8359b270007861489/colorLogoPNG.png
 PlutoTVCinePlus.us,Pluto TV Ciné+,,,US,,,c/CH;c/FR,fra,movies,FALSE,,,,,https://images.pluto.tv/channels/5ff5eb810e2996000768c0e2/solidLogoPNG.png
 PlutoTVCineRetroFrance.us,Pluto TV Ciné Rétro France,,,US,,,c/FR,fra,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-cine-retro-fr,https://images.pluto.tv/channels/5f8ed168f72fcd0007e56269/colorLogoPNG.png
 PlutoTVCineRomanceBrazil.us,Pluto TV Cine Romance Brazil,,,US,,,c/BR,por,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-cine-romance-ptv1,https://images.pluto.tv/channels/5f171f988ab9780007fa95ea/colorLogoPNG.png
@@ -16807,10 +16807,10 @@ PlutoTVCourtroom.us,Pluto TV Courtroom,,,US,,,c/US,eng,entertainment,FALSE,,,,ht
 PlutoTVCrimeDrama.us,Pluto TV Crime Drama,,,US,,,c/US,eng,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-crime-drama,https://images.pluto.tv/channels/5f31fd1b4c510e00071c3103/colorLogoPNG.png
 PlutoTVCrimeGermany.us,Pluto TV Crime Germany,,,US,,,c/DE,deu,documentary,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-crime-de,https://images.pluto.tv/channels/5e7b6c60fd20c50007910bf5/colorLogoPNG.png
 PlutoTVCrimeInvestigation360.us,Pluto TV Crime Investigation 360,,,US,,,c/US,eng,series,FALSE,,,,,https://images.pluto.tv/channels/6000a5a9e767980007b497ca/colorLogoPNG.png
-PlutoTVCrimeItalia.us,Pluto TV Crime Italia,,,US,,,c/IT,ita,documentary,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-crime-it,https://images.pluto.tv/channels/608aa777b907770007e5d05d/colorLogoPNG.png
+PlutoTVCrimeItaly.us,Pluto TV Crime Italy,,,US,,,c/IT,ita,documentary,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-crime-it,https://images.pluto.tv/channels/608aa777b907770007e5d05d/colorLogoPNG.png
 PlutoTVCrimeMovies.us,Pluto TV Crime Movies,,,US,,,c/US,eng,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-crime-movies,https://images.pluto.tv/channels/5c37d6712de254456f7ec340/colorLogoPNG.png
 PlutoTVCrimeUK.us,Pluto TV Crime UK,,,US,,,c/UK,eng,documentary,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-crime-gb-1,https://images.pluto.tv/channels/5d767790d0438aceb41d03ae/colorLogoPNG.png
-PlutoTVCucinaItalia.us,Pluto TV Cucina Italia,,,US,,,c/IT,ita,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-cucina-it,https://images.pluto.tv/channels/608aa718a8ec810007d87fee/colorLogoPNG.png
+PlutoTVCucinaItaly.us,Pluto TV Cucina Italy,,,US,,,c/IT,ita,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-cucina-it,https://images.pluto.tv/channels/608aa718a8ec810007d87fee/colorLogoPNG.png
 PlutoTVCuisineFrance.us,Pluto TV Cuisine France,,,US,,,c/FR,fra,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-cuisine-fr-ptv5,https://images.pluto.tv/channels/5f8ed48146ba9e00078424b6/colorLogoPNG.png
 PlutoTVCultFilms.us,Pluto TV Cult Films,,,US,,,c/US,eng,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-cult-films,https://images.pluto.tv/channels/5c5c31f2f21b553c1f673fb0/colorLogoPNG.png
 PlutoTVCultFilmsUK.us,Pluto TV Cult Films UK,,,US,,,c/UK,eng,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-cult-films-gb,https://images.pluto.tv/channels/5c5c31f2f21b553c1f673fb0/colorLogoPNG.png
@@ -16823,7 +16823,7 @@ PlutoTVDocumentalesSpain.us,Pluto TV Documentales Spain,,,US,,,c/ES,spa,,FALSE,,
 PlutoTVDocumentaries.us,Pluto TV Documentaries,,,US,,,c/US,eng,documentary,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-documentaries,https://images.pluto.tv/channels/5b85a7582921777994caea63/colorLogoPNG.png
 PlutoTVDocumentariesGermany.us,Pluto TV Documentaries Germany,,,US,,,c/DE,deu,documentary,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-documentaries-de,https://images.pluto.tv/channels/5db048f9447d6c0009b8f29d/colorLogoPNG.png
 PlutoTVDocumentariesUK.us,Pluto TV Documentaries UK,,,US,,,c/UK,eng,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-documentaries-gb,https://images.pluto.tv/channels/5db04252241007000975faac/colorLogoPNG.png
-PlutoTVDocumentariItalia.us,Pluto TV Documentari Italia,,,US,,,c/IT,ita,documentary,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-documentari-it,https://images.pluto.tv/channels/608aa8a5709d6b0007b132fe/colorLogoPNG.png
+PlutoTVDocumentariItaly.us,Pluto TV Documentari Italy,,,US,,,c/IT,ita,documentary,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-documentari-it,https://images.pluto.tv/channels/608aa8a5709d6b0007b132fe/colorLogoPNG.png
 PlutoTVDogelcazarrecompensas.us,Pluto TV Dog el cazarrecompensas,,,US,,,c/US,spa,series,FALSE,,,,,https://images.pluto.tv/channels/5f9992c685a2a80007fa414a/colorLogoPNG.png
 PlutoTVDogsGermany.us,Pluto TV Dogs Germany,,,US,,,c/DE,deu,comedy,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-dogs-de,https://images.pluto.tv/channels/5d8dc1d8da13e15d9fce6911/colorLogoPNG.png
 PlutoTVDossiersFBI.us,Pluto TV Dossiers FBI,,,US,,,c/CH;c/FR,fra,series,FALSE,,,,,https://images.pluto.tv/channels/5f8edad922b10b000753bc37/colorLogoPNG.png
@@ -16842,7 +16842,7 @@ PlutoTVExplore.us,Pluto TV Explore,,,US,,,c/US,eng,,FALSE,,,,,https://images.plu
 PlutoTVExploreGermany.us,Pluto TV Explore Germany,,,US,,,c/DE,deu,documentary,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-explore-de,https://images.pluto.tv/channels/5ad9b8551b95267e225e59c1/colorLogoPNG.png
 PlutoTVExtremeFrance.us,Pluto TV Extrême France,,,US,,,c/FR,fra,sports,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-extreme-fr,https://images.pluto.tv/channels/5f8ed327f9e9b0000761141e/colorLogoPNG-1608309868765.png
 PlutoTVFamily.us,Pluto TV Family,,,US,,,c/US,eng,family,FALSE,,,,,https://images.pluto.tv/channels/5dc3fc6b9133f500099c7d98/colorLogoPNG.png
-PlutoTVFamilyItalia.us,Pluto TV Family Italia,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-family-it,https://images.pluto.tv/channels/6123742451cce0000789fc7a/colorLogoPNG.png
+PlutoTVFamilyItaly.us,Pluto TV Family Italy,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-family-it,https://images.pluto.tv/channels/6123742451cce0000789fc7a/colorLogoPNG.png
 PlutoTVFamilyUK.us,Pluto TV Family UK,,,US,,,c/UK,eng,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-family-gb,https://images.pluto.tv/channels/5dc3fc6b9133f500099c7d98/colorLogoPNG.png
 PlutoTVFantastic.us,Pluto TV Fantastic,,,US,,,c/US,eng,series,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-fantastic,https://images.pluto.tv/channels/5b64a245a202b3337f09e51d/colorLogoPNG.png
 PlutoTVFashionstreamBrazil.us,Pluto TV Fashionstream Brazil,,,US,,,c/BR,por,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/fashionstream,https://images.pluto.tv/channels/5f516730b78b7600079294f5/colorLogoPNG.png
@@ -16853,15 +16853,15 @@ PlutoTVFiccaoCientificaBrazil.us,Pluto TV Ficção Científica Brazil,,,US,,,c/B
 PlutoTVFifthGear.us,Pluto TV Fifth Gear,,,US,,,c/US,eng,,FALSE,,,,,https://images.pluto.tv/channels/5ca1de9208ee5378be82db3b/colorLogoPNG.png
 PlutoTVFightGermany.us,Pluto TV Fight Germany,,,US,,,c/DE,deu,sports,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-fight-de,https://images.pluto.tv/channels/5ad9bda9fd87eb3a2717cce0/colorLogoPNG.png
 PlutoTVFightUK.us,Pluto TV Fight UK,,,US,,,c/UK,eng,sports,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-fight-gb,https://images.pluto.tv/channels/5ad8d659fd87eb3a2717afc9/colorLogoPNG.png
-PlutoTVFilmAzioneItalia.us,Pluto TV Film Azione Italia,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-film-azione-it,https://images.pluto.tv/channels/608aa20a2e7f270007c4878d/colorLogoPNG.png
-PlutoTVFilmClassiciItalia.us,Pluto TV Film Classici Italia,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-film-classici-it,https://images.pluto.tv/channels/608aa3c446d73500075f0e24/colorLogoPNG.png
-PlutoTVFilmCommediaItalia.us,Pluto TV Film Commedia Italia,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-film-commedia-it,https://images.pluto.tv/channels/608aa512d67fd900072323db/colorLogoPNG.png
-PlutoTVFilmDramaItalia.us,Pluto TV Film Drama Italia,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-film-drama-it,https://images.pluto.tv/channels/608aa42b5c2b8f0007197529/colorLogoPNG.png
+PlutoTVFilmAzioneItaly.us,Pluto TV Film Azione Italy,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-film-azione-it,https://images.pluto.tv/channels/608aa20a2e7f270007c4878d/colorLogoPNG.png
+PlutoTVFilmClassiciItaly.us,Pluto TV Film Classici Italy,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-film-classici-it,https://images.pluto.tv/channels/608aa3c446d73500075f0e24/colorLogoPNG.png
+PlutoTVFilmCommediaItaly.us,Pluto TV Film Commedia Italy,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-film-commedia-it,https://images.pluto.tv/channels/608aa512d67fd900072323db/colorLogoPNG.png
+PlutoTVFilmDramaItaly.us,Pluto TV Film Drama Italy,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-film-drama-it,https://images.pluto.tv/channels/608aa42b5c2b8f0007197529/colorLogoPNG.png
 PlutoTVFilmesAcaoBrazil.us,Pluto TV Filmes Ação Brazil,,,US,,,c/BR,por,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-filmes-acao,https://images.pluto.tv/channels/5f120f41b7d403000783a6d6/colorLogoPNG.png
 PlutoTVFilmesNacionaisBrazil.us,Pluto TV Filmes Nacionais Brazil,,,US,,,c/BR,por,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-filmes-nacionais,https://images.pluto.tv/channels/5f5a545d0dbf7f0007c09408/colorLogoPNG.png
-PlutoTVFilmItalia.us,Pluto TV Film Italia,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-film-it,https://images.pluto.tv/channels/608aa17fb9f4490007e6419a/colorLogoPNG.png
-PlutoTVFilmRomanticiItalia.us,Pluto TV Film Romantici Italia,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-film-romantici-it,https://images.pluto.tv/channels/608aa4a4cc92820007b663af/colorLogoPNG.png
-PlutoTVFilmThrillerItalia.us,Pluto TV Film Thriller Italia,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-film-thriller-it,https://images.pluto.tv/channels/608aa5e995132a00075f7005/colorLogoPNG.png
+PlutoTVFilmItaly.us,Pluto TV Film Italy,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-film-it,https://images.pluto.tv/channels/608aa17fb9f4490007e6419a/colorLogoPNG.png
+PlutoTVFilmRomanticiItaly.us,Pluto TV Film Romantici Italy,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-film-romantici-it,https://images.pluto.tv/channels/608aa4a4cc92820007b663af/colorLogoPNG.png
+PlutoTVFilmThrillerItaly.us,Pluto TV Film Thriller Italy,,,US,,,c/IT,ita,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-film-thriller-it,https://images.pluto.tv/channels/608aa5e995132a00075f7005/colorLogoPNG.png
 PlutoTVFishing.us,Pluto TV Fishing,,,US,,,c/US,eng,outdoor,FALSE,,,,,https://images.pluto.tv/channels/5d4af39510fd17b31a528eda/colorLogoPNG.png
 PlutoTVFishingUK.us,Pluto TV Fishing UK,,,US,,,c/UK,eng,sports,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-fishing-gb,https://images.pluto.tv/channels/5d4af39510fd17b31a528eda/colorLogoPNG.png
 PlutoTVFitness.us,Pluto TV Fitness,,,US,,,c/US,eng,lifestyle,FALSE,,,,,https://images.pluto.tv/channels/5e8b0c92783b3f0007a4c7df/colorLogoPNG.png
@@ -16997,7 +16997,7 @@ PlutoTVMy5Crime.us,Pluto TV My5 Crime,,,US,,,c/US,eng,series,FALSE,,,,,https://i
 PlutoTVMysteryGermany.us,Pluto TV Mystery Germany,,,US,,,c/DE,deu,documentary,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-mystery-de,https://images.pluto.tv/channels/617aad99b68ef100072608cd/colorLogoPNG.png
 PlutoTVMythbusters.us,Pluto TV Mythbusters,,,US,,,c/US,eng,series,FALSE,,,,,https://images.pluto.tv/channels/5bd833b41843b56328bac189/colorLogoPNG.png
 PlutoTVNashville.us,Pluto TV Nashville,,,US,,,c/US,eng,outdoor,FALSE,,,,,https://images.pluto.tv/channels/601a026c464ef900073130f0/featuredImage.jpg
-PlutoTVNaturaItalia.us,Pluto TV Natura Italia,,,US,,,c/IT,ita,documentary,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-natura-it,https://images.pluto.tv/channels/60802b37709d6b0007b0c549/colorLogoPNG.png
+PlutoTVNaturaItaly.us,Pluto TV Natura Italy,,,US,,,c/IT,ita,documentary,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-natura-it,https://images.pluto.tv/channels/60802b37709d6b0007b0c549/colorLogoPNG.png
 PlutoTVNaturaleza.us,Pluto TV Naturaleza,,,US,,,c/US,spa,outdoor,FALSE,,,,,https://images.pluto.tv/channels/5dd85eac039bba0009e86d1d/colorLogoPNG.png
 PlutoTVNature.us,Pluto TV Nature,,,US,,,c/US,eng,outdoor,FALSE,,,,,https://images.pluto.tv/channels/5f8ed58b2db26f0007b4aa73/colorLogoPNG.png
 PlutoTVNatureFrance.us,Pluto TV Nature France,,,US,,,c/FR,fra,travel,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-nature-fr,https://images.pluto.tv/channels/5f8ed58b2db26f0007b4aa73/colorLogoPNG.png
@@ -17030,11 +17030,11 @@ PlutoTVQwestTVJazzBeyond.us,Pluto TV Qwest TV Jazz & Beyond,,,US,,,c/US,spa,spor
 PlutoTVReaction.us,Pluto TV Reaction,,,US,,,c/US,eng,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-reaction,https://images.pluto.tv/channels/617b37b361e0fd0008cfd8c5/colorLogoPNG.png
 PlutoTVRealitiesESP.us,Pluto TV Realities ESP,,,US,,,c/US,spa,series,FALSE,,,,,https://images.pluto.tv/channels/5d93b4d71754e6a4298d086e/colorLogoPNG.png
 PlutoTVReality.us,Pluto TV Reality,,,US,,,c/US,eng,series,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-reality,https://images.pluto.tv/channels/5dcde197f6591d0009839e04/colorLogoPNG.png
-PlutoTVRealityItalia.us,Pluto TV Reality Italia,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-reality-ptv1,https://images.pluto.tv/channels/61925f874b1ec000075e700a/colorLogoPNG.png
+PlutoTVRealityItaly.us,Pluto TV Reality Italy,,,US,,,c/IT,ita,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-reality-ptv1,https://images.pluto.tv/channels/61925f874b1ec000075e700a/colorLogoPNG.png
 PlutoTVRealitySpain.us,Pluto TV Reality Spain,,,US,,,c/ES,spa,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-reality-es,https://images.pluto.tv/channels/61b87bc867b03a0007864e0d/colorLogoPNG.png
 PlutoTVRealityUK.us,Pluto TV Reality UK,,,US,,,c/UK,eng,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-reality-gb,https://images.pluto.tv/channels/5bd8186d53ed2c6334ea0855/colorLogoPNG.png
 PlutoTVRealLife.us,Pluto TV Real Life,,,US,,,c/US,eng,series,FALSE,,,,,https://images.pluto.tv/channels/5f1abdceddf6a20007f8ccd2/colorLogoPNG.png
-PlutoTVRealLifeItalia.us,Pluto TV Real Life Italia,,,US,,,c/IT,ita,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-inside-it,https://images.pluto.tv/channels/60801976f92a750007a0699c/colorLogoPNG.png
+PlutoTVRealLifeItaly.us,Pluto TV Real Life Italy,,,US,,,c/IT,ita,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-inside-it,https://images.pluto.tv/channels/60801976f92a750007a0699c/colorLogoPNG.png
 PlutoTVRecordNewsBrazil.us,Pluto TV Record News Brazil,,,US,,,c/BR,por,news,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-record-news,https://images.pluto.tv/channels/6102e04e9ab1db0007a980a1/colorLogoPNG.png
 PlutoTVRetroBrazil.us,Pluto TV Retrô Brazil,,,US,,,c/BR,por,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-retro-2,https://images.pluto.tv/channels/5f1212ad1728050007a523b8/colorLogoPNG.png
 PlutoTVRetroDramaPlusUK.us,Pluto TV Retro Drama+ UK,,,US,,,c/UK,eng,,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-retro-drama-gb-plus,https://images.pluto.tv/channels/5c5c3195f21b553c1f673faf/colorLogoPNG.png
@@ -17058,14 +17058,14 @@ PlutoTVScienceUK.us,Pluto TV Science UK,,,US,,,c/UK,eng,documentary,FALSE,,,,htt
 PlutoTVSciFi.us,Pluto TV Sci-Fi,,,US,,,c/US,spa,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-sci-fi,https://images.pluto.tv/channels/5f2817d3d7573a00080f9175/colorLogoPNG.png
 PlutoTVSciFiFrance.us,Pluto TV Sci-Fi France,,,US,,,c/FR,fra,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-sci-fi-fr,https://images.pluto.tv/channels/60c34592c911890007f29a73/colorLogoPNG.png
 PlutoTVSciFiGermany.us,Pluto TV Sci-Fi Germany,,,US,,,c/DE,deu,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-sci-fi-de,https://images.pluto.tv/channels/60ed498c4248a400077c0b9d/colorLogoPNG.png
-PlutoTVSciFiItalia.us,Pluto TV Sci-Fi Italia,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-sci-fi-it,https://images.pluto.tv/channels/61728bb9ee3773000840c1fa/colorLogoPNG.png
+PlutoTVSciFiItaly.us,Pluto TV Sci-Fi Italy,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-sci-fi-it,https://images.pluto.tv/channels/61728bb9ee3773000840c1fa/colorLogoPNG.png
 PlutoTVScifiSeriesUK.us,Pluto TV Sci-fi Series UK,,,US,,,c/UK,eng,series,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-sci-fi-series-gb,https://images.pluto.tv/channels/619247c34a270700077c8415/colorLogoPNG.png
 PlutoTVSciFiSpain.us,Pluto TV Sci-Fi Spain,,,US,,,c/ES,spa,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-sci-fi-es,https://images.pluto.tv/channels/5f6a38eaa5b68b0007a00e7a/colorLogoPNG.png
 PlutoTVSciFiUK.us,Pluto TV Sci-Fi UK,,,US,,,c/UK,eng,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-sci-fi-gb,https://images.pluto.tv/channels/5dc02a44a9518600094273ac/colorLogoPNG.png
 PlutoTVSecretDealers.us,Pluto TV Secret Dealers,,,US,,,c/US,eng,series,FALSE,,,,,https://images.pluto.tv/channels/5e8dc0af6784d10007d8ad42/colorLogoPNG.png
 PlutoTVSensingMurder.us,Pluto TV Sensing Murder,,,US,,,c/US,eng,series,FALSE,,,,,https://images.pluto.tv/channels/5e9ed47c26ebb000074af566/colorLogoPNG.png
 PlutoTVSerieGermany.us,Pluto TV Serie Germany,,,US,,,c/DE,deu,series,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-serie-de,https://images.pluto.tv/channels/5dc190f7bfed110009d934c3/colorLogoPNG.png
-PlutoTVSerieItalia.us,Pluto TV Serie Italia,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-serie-it,https://images.pluto.tv/channels/60b9ff2722bfa400072676ef/colorLogoPNG.png
+PlutoTVSerieItaly.us,Pluto TV Serie Italy,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-serie-it,https://images.pluto.tv/channels/60b9ff2722bfa400072676ef/colorLogoPNG.png
 PlutoTVSeriePlusGermany.us,Pluto TV Serie+ Germany,,,US,,,c/DE,deu,,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-serie-de-plus,https://images.pluto.tv/channels/5ddbf866b1862a0009a0648e/colorLogoPNG.png
 PlutoTVSeriesBrazil.us,Pluto TV Séries Brazil,,,US,,,c/BR,por,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-series-1,https://images.pluto.tv/channels/5f121262a189a800076b9386/colorLogoPNG.png
 PlutoTVSeriesComedia.us,Pluto TV Series Comedia,,,US,,,c/US,eng,comedy,FALSE,,,,,https://images.pluto.tv/channels/5f9853138d19af0007104a8d/colorLogoPNG.png
@@ -17086,7 +17086,7 @@ PlutoTVSpaceGermany.us,Pluto TV Space Germany,,,US,,,c/DE,deu,documentary,FALSE,
 PlutoTVSpaceUK.us,Pluto TV Space UK,,,US,,,c/UK,eng,documentary,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-space-gb,https://images.pluto.tv/channels/5dbc2f98777f2e0009934ae7/colorLogoPNG.png
 PlutoTVSpikeAventura.us,Pluto TV Spike Aventura,,,US,,,c/US,spa,,FALSE,,,,,https://images.pluto.tv/channels/5d8d11baeb31c5a43b77bf59/colorLogoPNG.png
 PlutoTVSpongeBobSchwammkopf.us,Pluto TV SpongeBob Schwammkopf,,,US,,,c/DE,deu,kids,FALSE,,,,,https://images.pluto.tv/channels/5d00e8adaab96b5635b2a005/colorLogoPNG.png
-PlutoTVSportItalia.us,Pluto TV Sport Italia,,,US,,,c/IT,ita,sports,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-sport-it,https://images.pluto.tv/channels/608030eff4b6f70007e1684c/colorLogoPNG.png
+PlutoTVSportItaly.us,Pluto TV Sport Italy,,,US,,,c/IT,ita,sports,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-sport-it,https://images.pluto.tv/channels/608030eff4b6f70007e1684c/colorLogoPNG.png
 PlutoTVSports.us,Pluto TV Sports,,,US,,,c/US,eng,sports,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-sports,https://images.pluto.tv/channels/56340779a738201b4ccfeac9/colorLogoPNG.png
 PlutoTVSportsFrance.us,Pluto TV Sports France,,,US,,,c/CH;c/FR,fra,sports,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-sports-fr,https://images.pluto.tv/channels/6081310e48d3200007afaf3b/colorLogoPNG.png
 PlutoTVSportsGermany.us,Pluto TV Sports Germany,,,US,,,c/DE,deu,sports,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-sports-de,https://images.pluto.tv/channels/5ad9bb941b95267e225e59c2/colorLogoPNG.png
@@ -17097,7 +17097,7 @@ PlutoTVStandUpUK.us,Pluto TV Stand Up UK,,,US,,,c/UK,eng,comedy,FALSE,,,,https:/
 PlutoTVStarTrekDiscoveryUK.us,Pluto TV Star Trek: Discovery UK,,,US,,,c/UK,eng,,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-star-trek-discovery-gb,https://images.pluto.tv/channels/61f94d44a16125000720f126/colorLogoPNG.png
 PlutoTVStarTrekFrance.us,Pluto TV Star Trek France,,,US,,,c/FR,fra,,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-star-trek-fr,https://images.pluto.tv/channels/61f93af0b253440007c54ad8/colorLogoPNG.png
 PlutoTVStarTrekGermany.us,Pluto TV Star Trek Germany,,,US,,,c/DE,deu,series,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-star-trek-de,https://images.pluto.tv/channels/6152ee71bf99590007893a11/colorLogoPNG.png
-PlutoTVStarTrekItalia.us,Pluto TV Star Trek Italia,,,US,,,c/IT,ita,,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-star-trek-it,https://images.pluto.tv/channels/619b87091a9c310008f733b5/colorLogoPNG.png
+PlutoTVStarTrekItaly.us,Pluto TV Star Trek Italy,,,US,,,c/IT,ita,,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-star-trek-it,https://images.pluto.tv/channels/619b87091a9c310008f733b5/colorLogoPNG.png
 PlutoTVStarTrekSpain.us,Pluto TV Star Trek Spain,,,US,,,c/ES,spa,,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-star-trek-es,https://images.pluto.tv/channels/619b7db4872c650008eb8b6a/colorLogoPNG.png
 PlutoTVStorageWars.us,Pluto TV Storage Wars,,,US,,,c/US,eng,series,FALSE,,,,,https://images.pluto.tv/channels/5ede464e7be0030007c58b73/colorLogoPNG.png
 PlutoTVStrongman.us,Pluto TV Strongman,,,US,,,c/US,eng,series,FALSE,,,,,https://images.pluto.tv/channels/5bd81b1053ed2c6334ea0856/colorLogoPNG.png
@@ -17540,7 +17540,7 @@ QVC3.us,QVC 3,,,US,,,c/US,eng,shop,FALSE,,,,https://www.qvc.com/,https://raw.git
 QVCBeauty.uk,QVC Beauty,,,UK,,,c/UK,eng,shop,FALSE,2010-10-26,,,https://www.qvcuk.com/,https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvc.png
 QVCExtra.uk,QVC Extra,,,UK,,,c/UK,eng,,FALSE,,,,https://www.qvcuk.com/,https://www.lyngsat.com/logo/tv/qq/qvc.png
 QVCGermany.us,QVC Germany,,,US,,,c/US,eng,,FALSE,1996-12-01,,,https://www.qvc.de/,https://cdn.hd-plus.de/senderlogos/bright-cropped/24531-2.png
-QVCItalia.it,QVC Italia,,,IT,,,c/IT,ita,shop,FALSE,,,,https://www.qvc.it/,https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvc.png
+QVCItaly.it,QVC Italy,,,IT,,,c/IT,ita,shop,FALSE,,,,https://www.qvc.it/,https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvc.png
 QVCJapan.jp,QVC Japan,,,JP,,,c/JP,jpn,shop,FALSE,,,,https://qvc.jp/,https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/qvc.png
 QVCJapan4K.jp,QVC Japan 4K,,,JP,,,c/JP,jpn,,FALSE,,,,https://qvc.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65527-417-400x400.png
 QVCLive.us,QVC Live,,,US,,,c/US,eng,shop,FALSE,,,,,https://s3-us-west-2.amazonaws.com/klowdtvstorage/herring/images/channels/qvcLive/logo_small.png
@@ -17557,7 +17557,7 @@ QVCUKStyle.us,QVC UK Style,,,US,,,c/US,eng,shop,FALSE,,,,,https://raw.githubuser
 QVCUS.us,QVC US,,,US,,,c/US,eng,,FALSE,,,,https://www.qvc.com/,https://www.directv.com/images/logos/channels/dark/large/551.png
 QVCZwei.de,QVC Zwei,,,DE,,,c/DE,deu,,FALSE,,,,https://www.qvc.de/,https://cdn.hd-plus.de/senderlogos/bright-cropped/24533-2.png
 QwestJazzBeyondFrance.us,Qwest Jazz&Beyond France,,,US,,,c/FR,fra,music,FALSE,,,,https://pluto.tv/en/live-tv/qwest-jazzandbeyond-fr,https://images.pluto.tv/channels/60db3aef7b85d300073db507/colorLogoPNG.png
-QwestJazzBeyondItalia.us,Qwest Jazz&Beyond Italia,,,US,,,c/IT,ita,music,FALSE,,,,https://pluto.tv/en/live-tv/qwest-jazzandbeyond-it,https://images.pluto.tv/channels/60db3bbd9397a00007ab029a/colorLogoPNG.png
+QwestJazzBeyondItaly.us,Qwest Jazz&Beyond Italy,,,US,,,c/IT,ita,music,FALSE,,,,https://pluto.tv/en/live-tv/qwest-jazzandbeyond-it,https://images.pluto.tv/channels/60db3bbd9397a00007ab029a/colorLogoPNG.png
 QwestJazzBeyondSpain.us,Qwest Jazz&Beyond Spain,,,US,,,c/ES,spa,music,FALSE,,,,https://pluto.tv/en/live-tv/qwest-jazzandbeyond-es,https://images.pluto.tv/channels/60db37b8b919720007c07fa4/colorLogoPNG.png
 QwestTVClassical.au,Qwest TV Classical,,,AU,,,c/AU,eng,classic,FALSE,,,,,https://i.imgur.com/B69BHnx.jpg
 QwestTVClassical.fr,Qwest TV Classical,,,FR,,,c/FR,eng,music,FALSE,,,,,
@@ -17942,7 +17942,7 @@ RealStories.au,Real Stories,,,AU,,,c/AU,eng,,FALSE,,,,,https://i.imgur.com/KOkWP
 RealStories.uk,Real Stories,,,UK,,,c/UK,eng,,FALSE,,,,,https://i.imgur.com/TVfuBfJ.jpg
 RealStories.us,Real Stories,,,US,,,c/US,eng,,FALSE,,,,,https://i.imgur.com/J6dpNiD.png
 RealTimeAfrica.us,Real Time Africa,,,US,,,c/US,eng,,FALSE,,,,,https://rndcdn.dstv.com/dstvcms/2018/08/24/RealTime_logo_4-3_001_xlrg.png
-RealTimeItalia.it,Real Time Italia,,,IT,,,c/IT,ita,,FALSE,,,,https://www.realtime.it/,https://i.imgur.com/mNWwmoS.png
+RealTimeItaly.it,Real Time Italy,,,IT,,,c/IT,ita,,FALSE,,,,https://www.realtime.it/,https://i.imgur.com/mNWwmoS.png
 RealTruthCrime.us,Real Truth Crime,,,US,,,c/US,eng,,FALSE,,,,,
 RealTV.az,Real TV,,,AZ,,,c/AZ,aze,,FALSE,,,,https://www.realtv.az/,https://www.lyngsat.com/logo/tv/rr/real-tv-az.png
 RealTV.in,Real TV,,,IN,,,c/IN,mal,music,FALSE,,,,,https://i.imgur.com/40afp0O.jpg
@@ -18879,7 +18879,7 @@ SChannel.us,S Channel,,,US,,,c/US,vie,,FALSE,,,,https://schannel.com/,https://ww
 SchauTV.at,Schau TV,,,AT,,,c/AT,deu,,FALSE,,,,https://schautv.at/,https://image.schautv.at/images/cfs_616w/3123676/schautv_homepagebanner_twitter.png
 SchekinaMiraclesTV.ci,Schekina Miracles TV,,,CI,,,c/CI,fra,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/schekina-miracles-tv-ci.png
 SchelkovoTV.ru,Schelkovo TV,,,RU,,,c/RU,rus,,FALSE,,,,http://tv41.ru/,https://www.lyngsat.com/logo/tv/ss/schelkovo-tv-ru.png
-ScherzierisateItalia.us,Scherzi e risate Italia,,,US,,,c/IT,ita,comedy,FALSE,,,,https://pluto.tv/en/live-tv/scherzi-e-risate-it,https://images.pluto.tv/channels/609404b0a8ec810007d8de9d/colorLogoPNG.png
+ScherzierisateItaly.us,Scherzi e risate Italy,,,US,,,c/IT,ita,comedy,FALSE,,,,https://pluto.tv/en/live-tv/scherzi-e-risate-it,https://images.pluto.tv/channels/609404b0a8ec810007d8de9d/colorLogoPNG.png
 SchieTV.nl,Schie TV,,,NL,,,c/NL,nld,,FALSE,,,,,https://i.imgur.com/PkBxkj2.png
 SchlagerDeluxe.de,Schlager Deluxe,,,DE,,,c/DE,deu,,FALSE,,,,https://schlagerdeluxe.de/,https://i.imgur.com/3vgen7X.png
 SchlagerTV.nl,Schlager TV,,,NL,,,c/NL,nld,,FALSE,,,,,https://i.imgur.com/qqQDCtg.png
@@ -18959,7 +18959,7 @@ SerieClub.fr,Série Club,,,FR,,,c/FR,fra,,FALSE,,,,https://pro.m6.fr/serieclub/,
 SeriesconN.us,Series con Ñ,,,US,,,c/US,eng,,FALSE,,,,https://pluto.tv/en/live-tv/series-con-n,https://images.pluto.tv/channels/60fb3087fbbc120007fc46be/colorLogoPNG.png
 SeriesPlus.ca,Séries Plus,,,CA,,,c/CA,fra,,FALSE,,,,https://www.seriesplus.com/,https://cdn.tvpassport.com/image/station/100x100/seriesplus.png
 SeriesPlusHD.th,Series + HD,,,TH,,,c/TH,tha,,FALSE,,,,http://www.ipmtv.tv/,https://www.lyngsat.com/logo/tv/ii/ipm_series_plus_hd.png
-SerieTeenItalia.us,Serie Teen Italia,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/serie-teen-it,https://images.pluto.tv/channels/60940639add5910008c0cdd1/colorLogoPNG.png
+SerieTeenItaly.us,Serie Teen Italy,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/serie-teen-it,https://images.pluto.tv/channels/60940639add5910008c0cdd1/colorLogoPNG.png
 SERTV.pa,SER TV,,,PA,,,c/PA,spa,,FALSE,,,,https://sertv.gob.pa/,https://www.lyngsat.com/logo/tv/ss/ser_tv_pa.png
 SeruChannel.id,Seru! Channel,,,ID,,,c/ID,ind,,FALSE,,,,https://www.transvision.co.id/,https://www.lyngsat.com/logo/tv/ss/seru-channel-id.png
 ServeurTV.in,Serveur TV,,,IN,,,c/IN,eng,,FALSE,,,,,
@@ -19817,7 +19817,7 @@ SpiegelGeschichteHD.de,Spiegel Geschichte HD,,,DE,,,c/DE,deu,,FALSE,,,,https://w
 SpiegelTVWissen.de,Spiegel TV Wissen,,,DE,,,c/DE,deu,,FALSE,,,,http://www.spiegelwissen.tv/,https://i.imgur.com/RH99pgp.png
 SpikeAdventura.us,Spike Adventura,,,US,,,c/US,eng,,FALSE,,,,,https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tvplus/all-channels/10062020/Spike_Aventura_190x190.png?raw=true
 Spikeextremo.us,Spike ¡extremo!,,,US,,,c/US,eng,,FALSE,,,,https://pluto.tv/en/live-tv/spike-extremo,https://images.pluto.tv/channels/5d8d11baeb31c5a43b77bf59/colorLogoPNG-1620236333797.png
-SpikeItalia.us,Spike Italia,,,US,,,c/US,eng,,FALSE,,,,,https://i.imgur.com/LSZF1ar.png
+SpikeItaly.us,Spike Italy,,,US,,,c/US,eng,,FALSE,,,,,https://i.imgur.com/LSZF1ar.png
 SpikeNederland.nl,Spike Nederland,,,NL,,,c/NL,nld,,FALSE,,,,https://www.spiketv.nl/,https://i.imgur.com/iXQIDje.png
 SpikeOutdoors.us,Spike Outdoors,,,US,,,c/US,eng,outdoor,FALSE,,,,https://pluto.tv/en/live-tv/spike-outdoors,https://images.pluto.tv/channels/5c393cad2de254456f7ef8c2/colorLogoPNG.png
 SpikePlutoTV.us,Spike Pluto TV,,,US,,,c/US,eng,documentary,FALSE,,,,https://pluto.tv/en/live-tv/spike,https://images.pluto.tv/channels/5812bcc8237a6ff45d16c407/colorLogoPNG.png
@@ -20568,7 +20568,7 @@ SunTVUS.us,Sun TV US,,,US,,,c/US,tam,,FALSE,,,,http://www.sunnetwork.in/tv-chann
 SunuYeuf.sn,Sunu Yeuf,,,SN,,,c/SN,fra,,FALSE,,,,https://www.sunuyeuf.com/,https://service.canal-overseas.com/image-api/v1/image/5172c92bc57edfebff1cf4d477559ee3
 Super.it,Super!,,,IT,,,c/IT,ita,,FALSE,,,,https://www.supertv.it/,https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/Generic_Live-TV_Blue.png?raw=true
 SuperB.gr,Super B,,,GR,,,c/GR,ell,,FALSE,1990-01-01,,,https://superb.gr/,
-SuperBrothersandSistersItalia.us,Super! Brothers and Sisters Italia,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/super-brothers-and-sisters-it,https://images.pluto.tv/channels/61925ea79541940007d20881/colorLogoPNG.png
+SuperBrothersandSistersItaly.us,Super! Brothers and Sisters Italy,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/super-brothers-and-sisters-it,https://images.pluto.tv/channels/61925ea79541940007d20881/colorLogoPNG.png
 SuperBunTerng.th,Super Bun-Terng,,,TH,,,c/TH,tha,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/super_bun_terng_th.png
 SuperCanal.do,Super Canal,,,DO,,,c/DO,spa,,FALSE,2000-01-01,,,http://www.supercanal.com/,https://www.lyngsat.com/logo/tv/ss/super-canal-do.png
 SuperCanal33.do,Super Canal 33,,,DO,,,c/DO,spa,,FALSE,,,,,
@@ -20585,16 +20585,16 @@ SuperEcran1.ca,Super Écran 1,,,CA,,,c/CA,fra,,FALSE,,,,https://www.crave.ca/fr/
 SuperEcran2.ca,Super Écran 2,,,CA,,,c/CA,fra,,FALSE,,,,https://www.crave.ca/fr/super-ecran,https://cdn.tvpassport.com/image/station/100x100/superecran.png
 SuperEcran3.ca,Super Écran 3,,,CA,,,c/CA,fra,,FALSE,,,,https://www.crave.ca/fr/super-ecran,https://cdn.tvpassport.com/image/station/100x100/superecran.png
 SuperEcran4.ca,Super Écran 4,,,CA,,,c/CA,fra,,FALSE,,,,https://www.crave.ca/fr/super-ecran,https://cdn.tvpassport.com/image/station/100x100/superecran.png
-SuperEroiItalia.us,Super! Eroi Italia,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/super-eroi-it,https://images.pluto.tv/channels/6093f5ab128c2b00070ebd51/colorLogoPNG.png
+SuperEroiItaly.us,Super! Eroi Italy,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/super-eroi-it,https://images.pluto.tv/channels/6093f5ab128c2b00070ebd51/colorLogoPNG.png
 Superhitz.in,Superhitz,,,IN,,,c/IN,hin,,FALSE,,,,https://www.airtel.in/,https://www.lyngsat.com/logo/tv/aa/airtel_superhitz.png
-SuperiCarlyItalia.us,Super! iCarly Italia,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/super-icarly-it,https://images.pluto.tv/channels/609401db8cf51c00084b592e/colorLogoPNG.png
+SuperiCarlyItaly.us,Super! iCarly Italy,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/super-icarly-it,https://images.pluto.tv/channels/609401db8cf51c00084b592e/colorLogoPNG.png
 SuperJTV.it,Super J TV,,,IT,,,c/IT,ita,,FALSE,,,,,
 SuperJTVTeramo.it,Super J TV Teramo,,,IT,,,c/IT,ita,,FALSE,,,,,https://i.imgur.com/H3uItqg.png
-SuperMysteryItalia.us,Super! Mystery Italia,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-mystery-ptv1,https://images.pluto.tv/channels/6192624035f3910007fc7305/colorLogoPNG.png
+SuperMysteryItaly.us,Super! Mystery Italy,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-mystery-ptv1,https://images.pluto.tv/channels/6192624035f3910007fc7305/colorLogoPNG.png
 SuperOneHD.hu,SuperOne HD,,,HU,,,c/HU,eng,,FALSE,,,,,https://tv2go.t-2.net/static/media/img/channels/dark/ios/small/retina/145649.png
-SuperPapaItalia.us,Super! Papà Italia,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/super-papa-it,https://images.pluto.tv/channels/619263124a270700077c9471/colorLogoPNG.png
+SuperPapaItaly.us,Super! Papà Italy,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/super-papa-it,https://images.pluto.tv/channels/619263124a270700077c9471/colorLogoPNG.png
 SuperPolsat.pl,Super Polsat,,,PL,,,c/PL,pol,,FALSE,,,,,https://ocdn.eu/ptv2-images-transforms/1/n-Lkr5sb2dvLW1pZ3JhdGVkL3N1cGVyLXBvbHNhdC5wbmeSlQJkAMLDlQIAKMLD
-SuperPopItalia.us,Super! Pop Italia,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/super-pop-it,https://images.pluto.tv/channels/6093f7b5bb49b90007cecaad/colorLogoPNG.png
+SuperPopItaly.us,Super! Pop Italy,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/super-pop-it,https://images.pluto.tv/channels/6093f7b5bb49b90007cecaad/colorLogoPNG.png
 SuperRadyoDZBB.ph,Super Radyo DZBB,,,PH,,,c/PH,eng,,FALSE,,,,,
 SuperRTLAustria.at,Super RTL Austria,,,AT,,,c/AT,deu,,FALSE,,,,https://www.superrtl.de/,https://tvheute.at/images/channels/RTLS-790252151-01.png
 SuperRTLGermany.de,Super RTL Germany,,,DE,,,c/DE,deu,,FALSE,,,,https://www.superrtl.de/,https://tv2go.t-2.net/static/media/img/channels/dark/ios/small/retina/145340.png
@@ -20603,7 +20603,7 @@ SuperSatTVHD.rs,SuperSat TV HD,,,RS,,,c/RS,srp,,FALSE,,,,,
 SuperSimpleSongs.us,Super Simple Songs,,,US,,,c/US,eng,kids,FALSE,,,,,https://i.imgur.com/9zRYK8n.jpg
 SuperSixLombardia.it,SuperSix Lombardia,,,IT,,,c/IT,ita,,FALSE,,,,,
 SuperSonicTV.al,Super Sonic TV,,,AL,,,c/AL,sqi,,FALSE,,,,https://www.super-sonic.tv/,https://www.lyngsat.com/logo/tv/ss/supersonic_tv_al.png
-SuperSpongeBobItalia.us,Super! SpongeBob Italia,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/super-spongebob-it,https://images.pluto.tv/channels/6093f9281db477000759fce0/colorLogoPNG.png
+SuperSpongeBobItaly.us,Super! SpongeBob Italy,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/super-spongebob-it,https://images.pluto.tv/channels/6093f9281db477000759fce0/colorLogoPNG.png
 SuperSport1.al,SuperSport 1,,,AL,,,c/AL,sqi,sports,FALSE,,,,http://www.supersport.al/,https://i.imgur.com/1PNuHq5.jpg
 SuperSport1HD.al,SuperSport 1 HD,,,AL,,,c/AL,sqi,sports,FALSE,,,,http://www.supersport.al/,https://i.imgur.com/FLsCrea.png
 SuperSport2.al,SuperSport 2,,,AL,,,c/AL,sqi,sports,FALSE,,,,http://www.supersport.al/,https://i.imgur.com/88iFVD4.jpg
@@ -20654,7 +20654,7 @@ SuperSportVariety3.za,SuperSport Variety 3,,,ZA,,,c/ZA,eng,,FALSE,,,,https://www
 SuperSportVariety4.za,SuperSport Variety 4,,,ZA,,,c/ZA,eng,,FALSE,,,,https://www.supersport.com/,https://rndcdn.dstv.com/dstvcms/2021/08/09/SS_Logo_Variety4_4-3_007_xlrg.png
 Superstacja.pl,Superstacja,,,PL,,,c/PL,pol,,FALSE,,,,,https://ocdn.eu/ptv2-images-transforms/1/Frfkr9sb2dvLW1pZ3JhdGVkL3d5ZGFyemVuaWFfMjQucG5nkpUCZADCw5UCACjCww
 Superstar2.rs,Superstar 2,,,RS,,,c/RS,srp,,FALSE,,,,https://superstartv.rs/,https://mts.rs/oec/images/tv_channels/4b8f579766abd6f9b94d0c2cf096dbaa.jpg
-SuperStarItalia.us,Super! Star Italia,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/super-star-it,https://images.pluto.tv/channels/6093f6f8351eb0000754afb8/colorLogoPNG.png
+SuperStarItaly.us,Super! Star Italy,,,US,,,c/IT,ita,kids,FALSE,,,,https://pluto.tv/en/live-tv/super-star-it,https://images.pluto.tv/channels/6093f6f8351eb0000754afb8/colorLogoPNG.png
 SuperstarTV.rs,Superstar-TV,,,RS,,,c/RS,srp,,FALSE,,,,,https://mtel.ba/oec/images/tv_channels/0a632d2d7dfe7edf1b260bc2cffddfd9.png
 SuperTennis.it,Super Tennis,,,IT,,,c/IT,ita,,FALSE,,,,https://www.supertennis.tv/,https://i.imgur.com/y6DapM6.png
 SuperToons.bg,Super Toons,,,BG,,,c/BG,bul,,FALSE,,,,https://supertoons.bg/,https://www.lyngsat.com/logo/tv/ss/super-toons-bg.png
@@ -21432,7 +21432,7 @@ ThePetCollectiveBrazil.us,The Pet Collective Brazil,,,US,,,c/BR,por,family,FALSE
 ThePetCollectiveFrance.us,The Pet Collective France,,,US,,,c/FR,fra,family,FALSE,,,,https://pluto.tv/en/live-tv/the-pet-collective-fr,https://images.pluto.tv/channels/5f8ecd336d64c9000754cdf1/colorLogoPNG.png
 ThePetCollectiveGermany.us,The Pet Collective Germany,,,US,,,c/DE,deu,family,FALSE,,,,https://pluto.tv/en/live-tv/the-pet-collective-de,https://images.pluto.tv/channels/5b4f5a07694c027be6ed1417/colorLogoPNG.png
 ThePetCollectiveIndia.us,The Pet Collective India,,,US,,,c/IN,eng,family,FALSE,,,,,https://i.imgur.com/Mk28uUy.png
-ThePetCollectiveItalia.us,The Pet Collective Italia,,,US,,,c/IT,ita,family,FALSE,,,,https://pluto.tv/en/live-tv/the-pet-collective-it,https://images.pluto.tv/channels/60801317a0ccef00072aaf75/colorLogoPNG.png
+ThePetCollectiveItaly.us,The Pet Collective Italy,,,US,,,c/IT,ita,family,FALSE,,,,https://pluto.tv/en/live-tv/the-pet-collective-it,https://images.pluto.tv/channels/60801317a0ccef00072aaf75/colorLogoPNG.png
 ThePetCollectiveMexico.us,The Pet Collective Mexico,,,US,,,c/MX,eng,family,FALSE,,,,,https://i.imgur.com/Mk28uUy.png
 ThePetCollectiveSpain.us,The Pet Collective Spain,,,US,,,c/ES,spa,family,FALSE,,,,https://pluto.tv/en/live-tv/the-pet-collective-es,https://images.pluto.tv/channels/5f1abf097eb06300079b30f7/colorLogoPNG.png
 ThePetCollectiveSweden.us,The Pet Collective Sweden,,,US,,,c/SE,eng,family,FALSE,,,,,https://i.imgur.com/Mk28uUy.png
@@ -23431,8 +23431,8 @@ VH1Europe.us,VH1 Europe,,,UK,,,r/EUR,eng,,FALSE,,,,http://vh1e.com/,https://uplo
 VH1HipHopFamily.us,VH1 Hip Hop Family,,,US,,,c/US,eng,series,FALSE,,,,https://pluto.tv/en/live-tv/vh1-hip-hop-family,https://images.pluto.tv/channels/5d71561df6f2e6d0b6493bf5/colorLogoPNG.png
 VH1ILoveReality.us,VH1 I Love Reality,,,US,,,c/US,eng,series,FALSE,,,,https://pluto.tv/en/live-tv/vh1-i-love-reality,https://images.pluto.tv/channels/5d7154fa8326b6ce4ec31f2e/colorLogoPNG.png
 VH1India.us,VH1 India,,,IN,,,c/IN,eng,,FALSE,,,,http://www.vh1.in/,https://i.imgur.com/yXaJ6NQ.png
-VH1Italia.us,VH1 Italia,,,IT,,,c/IT,ita,,FALSE,,,,https://www.mtv.it/topic/vh1,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/VH1_2020.svg/512px-VH1_2020.svg.png
-VH1PlusItalia.us,VH1+ Italia,,,US,,,c/IT,ita,music,FALSE,,,,https://pluto.tv/en/live-tv/vh1-it,https://images.pluto.tv/channels/61cd822216e2fd00086d0aeb/colorLogoPNG.png
+VH1Italy.us,VH1 Italy,,,IT,,,c/IT,ita,,FALSE,,,,https://www.mtv.it/topic/vh1,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/VH1_2020.svg/512px-VH1_2020.svg.png
+VH1PlusItaly.us,VH1+ Italy,,,US,,,c/IT,ita,music,FALSE,,,,https://pluto.tv/en/live-tv/vh1-it,https://images.pluto.tv/channels/61cd822216e2fd00086d0aeb/colorLogoPNG.png
 VH1USEast.us,VH1 US East,,,US,,,c/US,eng,,FALSE,,,,https://www.vh1.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/512px-VH1_logonew.svg.png
 VH1USWest.us,VH1 US West,,,US,,,c/US,eng,,FALSE,,,,https://www.vh1.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/VH1_logonew.svg/512px-VH1_logonew.svg.png
 Via.za,Via,,,ZA,,,c/ZA,afr,,FALSE,,,,http://www.viatv.co.za/,https://rndcdn.dstv.com/dstvcms/2019/03/01/Via_New2019_4-3_001_xlrg.png
@@ -26854,7 +26854,7 @@ WorldofFreesports.de,World of Freesports,,,DE,,,c/DE,deu,sports,FALSE,,,,,https:
 WorldofPlentyTV.za,World of Plenty TV,,,ZA,,,c/ZA,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ww/world-of-plenty-tv-za.png
 WorldPokerTour.us,World Poker Tour,,,US,,,c/US,eng,sports,FALSE,,,,https://pluto.tv/en/live-tv/world-poker-tour,https://images.pluto.tv/channels/5f8ecfb9db6c180007a6d1b0/colorLogoPNG.png
 WorldPokerTourGermany.us,World Poker Tour Germany,,,US,,,c/DE,deu,sports,FALSE,,,,https://pluto.tv/en/live-tv/world-poker-tour-de,https://images.pluto.tv/channels/5ad9b7aae738977e2c312132/colorLogoPNG.png
-WorldPokerTourItalia.us,World Poker Tour Italia,,,US,,,c/IT,ita,sports,FALSE,,,,https://pluto.tv/en/live-tv/world-poker-tour-it,https://images.pluto.tv/channels/608016e446d73500075ea7e0/colorLogoPNG.png
+WorldPokerTourItaly.us,World Poker Tour Italy,,,US,,,c/IT,ita,sports,FALSE,,,,https://pluto.tv/en/live-tv/world-poker-tour-it,https://images.pluto.tv/channels/608016e446d73500075ea7e0/colorLogoPNG.png
 WorldPokerTourSpain.us,World Poker Tour Spain,,,US,,,c/ES,spa,sports,FALSE,,,,https://pluto.tv/en/live-tv/world-poker-tour-es,https://images.pluto.tv/channels/6080381ab7c9ea00074ec64c/colorLogoPNG.png
 WorldPokerTourUK.us,World Poker Tour UK,,,US,,,c/UK,eng,sports,FALSE,,,,https://pluto.tv/en/live-tv/world-poker-tour-gb,https://images.pluto.tv/channels/5ad8d796e738977e2c31094a/colorLogoPNG.png
 WorldTV.mx,World TV,,,MX,,,c/MX,spa,,FALSE,,,,https://worldtv.mx/,https://www.lyngsat.com/logo/tv/ww/world_tv_mx.png
@@ -28733,7 +28733,7 @@ YoseChannel.jp,Yose Channel,,,JP,,,c/JP,jpn,,FALSE,,,,,https://tvguide.myjcom.jp
 Yoshlar.uz,Yoshlar,,,UZ,,,c/UZ,uzb,,FALSE,,,,https://www.mtrk.uz/uz/tv/yoshlar/,https://www.lyngsat.com/logo/tv/yy/yoshlar-uz.png
 YouManCartoonChannel.cn,You Man Cartoon Channel,,,CN,,,c/CN,zho,,FALSE,,,,,https://www.lyngsat.com/logo/tv/yy/youman_cartoon_channel_cn.png
 YoungerBrazil.us,Younger Brazil,,,US,,,c/BR,por,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/younger-ptv1,https://images.pluto.tv/channels/613fd0043ffa39000736bb2b/colorLogoPNG.png
-YoungFabulousItalia.us,Young & Fabulous Italia,,,US,,,c/IT,ita,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/young-and-fabulous-it,https://images.pluto.tv/channels/60a7c62ee90dd20007637411/colorLogoPNG.png
+YoungFabulousItaly.us,Young & Fabulous Italy,,,US,,,c/IT,ita,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/young-and-fabulous-it,https://images.pluto.tv/channels/60a7c62ee90dd20007637411/colorLogoPNG.png
 YoungHollywood.us,Young Hollywood,,,US,,,c/US,eng,entertainment,FALSE,,,,,https://i.imgur.com/X27MGHd.png
 YourTimeTV.ir,YourTime TV,,,IR,,,c/IR,fas,entertainment,FALSE,,,,,https://yourtime.tv/img/utv-logo.png
 YourTimeTV.us,Your Time TV,,,US,,,c/US,eng,,FALSE,,,,https://www.yourtime.tv/,https://www.lyngsat.com/logo/tv/yy/your-time-tv.png

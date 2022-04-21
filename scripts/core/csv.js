@@ -26,7 +26,8 @@ const csv2jsonOptions = {
 		launched: nullable,
 		closed: nullable,
 		website: nullable,
-		native_name: nullable
+		native_name: nullable,
+		replaced_by: nullable
 	}
 }
 

@@ -45,7 +45,7 @@ id,name,native_name,network,country,subdivision,city,broadcast_area,languages,ca
 1Krim.ru,1 Krim,,,RU,,,c/RU,rus,,FALSE,,,,https://1tvcrimea.ru/,https://www.lyngsat.com/logo/tv/num/1krim-ru.png
 1KZNTV.za,1KZN TV,,,ZA,,,c/ZA,eng,,FALSE,,,,http://www.1kzntv.co.za/,https://rndcdn.dstv.com/dstvcms/2018/03/06/1KZN_logo_4-3_001_xlrg.png
 1MagicAfrica.za,1 Magic Africa,,,ZA,,,c/ZA,eng,,FALSE,,,,https://onemagic.dstv.com/,https://rndcdn.dstv.com/dstvcms/2018/01/29/1Magic_dotcom_4-3_light_background_001_xlrg.png
-1Music.ng,1 Music,,,NG,,,c/NG,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sairtek-ng.png
+1Music.ng,1 Music,,,NG,,,c/NG,eng,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sairtek-ng.png
 1Plus1.ua,1+1,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,https://1plus1.ua/,https://www.lyngsat.com/logo/tv/num/1_plus_1_ua.png
 1Plus1International.ua,1+1 International,,,UA,,,c/UA;c/RU,ukr,,FALSE,2006-03-01,,,https://1plus1.international/,https://www.lyngsat.com/logo/tv/num/1_plus_1_ua_international.png
 1Plus1Sport.ua,1+1 Sport,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,,https://i.imgur.com/VpBVorp.png
@@ -145,7 +145,7 @@ id,name,native_name,network,country,subdivision,city,broadcast_area,languages,ca
 4Kanal.ua,4 Kanal,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,https://4channel.com.ua/,https://www.lyngsat.com/logo/tv/num/4-kanal-ua.png
 4KHeritage.us,4K Heritage,,,US,,,c/US,eng;fra,,FALSE,,,,https://4kheritage.tv/,https://www.lyngsat.com/logo/tv/num/4k-heritage-us.png
 4KUniverse.us,4KUniverse,,,US,,,c/US,eng,,FALSE,,,,https://4kuniversenow.com/,https://www.lyngsat.com/logo/tv/num/4k-universe-us.png
-4Music.uk,4Music,,,UK,,,c/UK,eng,,FALSE,2008-08-15,,,https://www.boxplus.com/,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb1758.png
+4Music.uk,4Music,,,UK,,,c/UK,eng,music,FALSE,2008-08-15,,,https://www.boxplus.com/,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb1758.png
 4Plus.ch,4+,,,CH,,,c/CH,deu,,FALSE,,,,https://www.oneplus.ch/,https://i.imgur.com/377yMpJ.png
 4Seven.uk,4Seven,,,UK,,,c/UK,eng,,FALSE,,,,http://www.channel4.com/explore/4seven/,https://i.imgur.com/R8cXpPQ.png
 4TVNews.in,4TV News,,,IN,,,c/IN,hin,,FALSE,,,,http://www.4tvhyd.com/,https://www.lyngsat.com/logo/tv/num/4tv-news-in.png
@@ -466,7 +466,7 @@ AdoaTV.gh,Adoa TV,,,GH,,,c/GH,eng,,FALSE,,,,https://adoanewsonline.com/,https://
 AdomTV.gh,Adom TV,,,GH,,,c/GH,eng,,FALSE,,,,http://www.adomtv.net/,https://rndcdn.dstv.com/dstvcms/2017/11/22/DStv_adom_4-3_001_xlrg.png
 AdoracionReal.us,Adoración Real,,,US,,,c/US,spa,music,FALSE,,,,,https://graph.facebook.com/AdoracionReal1/picture?width=320&height=320
 AdrenalinaSportsNetwork.us,Adrenalina Sports Network,,,US,,,c/US,spa,,FALSE,,,,http://afiliados.televisa-networks.com/programacion/adrenalina-sports-network/,https://imagenes.gatotv.com/logos/canales/oscuros/adrenalina_sports_network-mediano.png
-AdriaMusicTV.si,Adria Music TV,,,SI,,,c/SI,deu,,FALSE,,,,https://folx.network/adria-music-television/,https://i.imgur.com/pPAj9Ua.png
+AdriaMusicTV.si,Adria Music TV,,,SI,,,c/SI,deu,music,FALSE,,,,https://folx.network/adria-music-television/,https://i.imgur.com/pPAj9Ua.png
 AdriaNetTV.al,AdriaNet TV,,,AL,,,c/AL,sqi,,FALSE,,,,https://adrianet.al/,https://i.imgur.com/d3Rck0P.jpg
 AdriaTV.me,Adria TV,,,ME,,,c/ME,srp,,FALSE,,,,https://adria.tv/,https://i.imgur.com/LPuElVg.png
 AdultChannel.uk,Adult Channel,,,UK,,,c/UK,eng,xxx,TRUE,,,,,https://ocdn.eu/ptv2-images-transforms/1/6aFkr9sb2dvLW1pZ3JhdGVkL2FkdWx0LWNoYW5uZWwucG5nkpUCZADCw5UCACjCww
@@ -566,7 +566,7 @@ AFNSports.us,AFN Sports,,,US,,,c/US,eng,,FALSE,,,,http://myafn.dodmedia.osd.mil/
 AFNSports2.us,AFN Sports 2,,,US,,,c/US,eng,,FALSE,,,,http://myafn.dodmedia.osd.mil/,https://www.lyngsat.com/logo/tv/aa/afn-sports-2-us.png
 AFNTV.ir,AFN TV,,,IR,,,c/IR,fas,entertainment,FALSE,,,,,
 Afontovo.ru,Afontovo,,,RU,,Krasnoyarsk,c/RU,rus,,FALSE,,,,,https://i.imgur.com/NV2ViYx.png
-AforevoMusicTV.ng,Aforevo Music TV,,,NG,,,c/NG,eng,,FALSE,,,,http://tv.aforevo.com/,https://www.lyngsat.com/logo/tv/aa/aforevo_ng_music_tv.png
+AforevoMusicTV.ng,Aforevo Music TV,,,NG,,,c/NG,eng,music,FALSE,,,,http://tv.aforevo.com/,https://www.lyngsat.com/logo/tv/aa/aforevo_ng_music_tv.png
 AforevoTV.ng,Aforevo TV,,,NG,,,c/NG,eng,,FALSE,,,,http://tv.aforevo.com/,https://www.lyngsat.com/logo/tv/aa/aforevo_ng.png
 AFPTV.fr,AFP TV,,,FR,,,c/FR,eng,,FALSE,,,,https://www.afp.com/fr/afp-tv,https://www.lyngsat.com/logo/tv/aa/afp_tv_fr.png
 Africa24.fr,Africa 24,,,FR,,,c/FR,fra,,FALSE,2009-01-01,,,https://www.africa24tv.com/,https://service.canal-overseas.com/image-api/v1/image/55724ed5ad2325cd982b037b18c4d668
@@ -595,10 +595,10 @@ AfriwoodBlockbuster.za,Afriwood Blockbuster,,,ZA,,,c/ZA,eng,,FALSE,,,,https://ww
 AfriwoodSeries.za,Afriwood Series,,,ZA,,,c/ZA,eng,,FALSE,,,,https://www.africaxp.com/,https://www.lyngsat.com/logo/tv/aa/afriwood-series-za.png
 Afrobeats.uk,Afrobeats,,,UK,,,c/UK,eng,music,FALSE,,,,,https://i.imgur.com/V0uKTmB.jpeg
 Afrobit.cm,Afrobit,,,CM,,,c/CM,eng,,FALSE,,,,https://shop.afrobitproductions.com/,https://www.lyngsat.com/logo/tv/aa/afrobit-cm.png
-AfroMusicAngola.pt,Afro Music Angola,,,PT,,,c/PT,por,,FALSE,,,,,https://i.imgur.com/u5Fil1R.jpeg
-AfroMusicChannel.pt,Afro Music Channel,,,PT,,,c/PT,por,,FALSE,,,,,https://rndcdn.dstv.com/dstvcms/2017/11/17/DStv_afromusicpop_4-3_001_xlrg.png
-AfroMusicConcert.pt,Afro Music Concert,,,PT,,,c/PT,eng,,FALSE,,,,,https://i.imgur.com/Ny7U357.png
-AfroMusicPop.pt,Afro Music Pop,,,PT,,,c/PT,eng;por,,FALSE,,,,,https://rndcdn.dstv.com/dstvcms/2017/06/22/DStv_TraceAfrica_Logo_4-3_005_xlrg.png
+AfroMusicAngola.pt,Afro Music Angola,,,PT,,,c/PT,por,music,FALSE,,,,,https://i.imgur.com/u5Fil1R.jpeg
+AfroMusicChannel.pt,Afro Music Channel,,,PT,,,c/PT,por,music,FALSE,,,,,https://rndcdn.dstv.com/dstvcms/2017/11/17/DStv_afromusicpop_4-3_001_xlrg.png
+AfroMusicConcert.pt,Afro Music Concert,,,PT,,,c/PT,eng,music,FALSE,,,,,https://i.imgur.com/Ny7U357.png
+AfroMusicPop.pt,Afro Music Pop,,,PT,,,c/PT,eng;por,music,FALSE,,,,,https://rndcdn.dstv.com/dstvcms/2017/06/22/DStv_TraceAfrica_Logo_4-3_005_xlrg.png
 AfroNovelas.fr,Afro Novelas,,,FR,,,c/FR,fra,,FALSE,,,,,https://www.lyngsat.com/logo/tv/aa/afro-novelas-fr.png
 AftabTV.ir,Aftab TV,,,IR,,,c/IR,fas,,FALSE,,,,http://markazi.irib.ir/tv,https://i.imgur.com/tvw81qB.png
 AftonbladetTV.se,Aftonbladet TV,,,SE,,,c/SE,swe,,FALSE,,,,,https://i.imgur.com/LsAz0UW.jpg
@@ -1502,7 +1502,7 @@ ATNAasthaTV.ca,ATN Aastha TV,,,CA,,,c/CA,eng,,FALSE,2005-10-19,,,,https://cdn.tv
 ATNABPNews.ca,ATN ABP News,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/abp_news.png
 ATNARYNews.ca,ATN ARY News,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ary-news.png
 ATNB4UMovies.ca,ATN B4U Movies,,,CA,,,c/CA,eng,movies,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/b4u_movies.png
-ATNB4UMusic.ca,ATN B4U Music,,,CA,,,c/CA,eng,,FALSE,2006-04-06,,,,https://cdn.tvpassport.com/image/station/100x100/b4u_music.png
+ATNB4UMusic.ca,ATN B4U Music,,,CA,,,c/CA,eng,music,FALSE,2006-04-06,,,,https://cdn.tvpassport.com/image/station/100x100/b4u_music.png
 ATNBangla.bd,ATN Bangla,,,BD,,,c/BD,ben,general,FALSE,1997-07-16,,,,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/ATN_Bangla.svg/512px-ATN_Bangla.svg.png
 ATNBangla.ca,ATN Bangla,,,CA,,,c/CA,eng,,FALSE,1997-07-16,,,,https://cdn.tvpassport.com/image/station/100x100/atn-bangla.png
 ATNBangla.in,ATN Bangla,,,IN,,,c/IN,hin,,FALSE,1997-07-16,,,,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/ATN_Bangla.svg/512px-ATN_Bangla.svg.png
@@ -1731,10 +1731,10 @@ B4UMoviesIndia.in,B4U Movies India,,,IN,,,c/IN,hin,movies,FALSE,,,,http://b4umov
 B4UMoviesUK.uk,B4U Movies UK,,,UK,,,c/UK,hin,movies,FALSE,,,,http://b4umovies.co.uk/,https://rndcdn.dstv.com/dstvcms/2017/06/06/DStv_B4U_Logo_4-3_for_light_background_001_xlrg.png
 B4UMoviesUSA.us,B4U Movies USA,,,US,,,c/US,hin,movies,FALSE,,,,http://b4umovies.us/,https://www.lyngsat.com/logo/tv/bb/b4u_movies_in.png
 B4UMusic.in,B4U Music,,,IN,,,c/IN,hin,music,FALSE,,,,,https://i.imgur.com/LZxPgLh.png
-B4UMusicCanada.in,B4U Music Canada,,,IN,,,c/IN,hin,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/b4u_music.png
-B4UMusicIndia.in,B4U Music India,,,IN,,,c/IN,eng,,FALSE,,,,https://b4umusic.in/,https://i.imgur.com/MwW9olq.png
-B4UMusicUK.uk,B4U Music UK,,,UK,,,c/UK,hin,,FALSE,,,,https://b4umusic.co.uk/,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb5708.png
-B4UMusicUSA.us,B4U Music USA,,,US,,,c/US,hin,,FALSE,,,,https://b4umusic.us/,https://cdn.tvpassport.com/image/station/100x100/b4u_music.png
+B4UMusicCanada.in,B4U Music Canada,,,IN,,,c/IN,hin,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/b4u_music.png
+B4UMusicIndia.in,B4U Music India,,,IN,,,c/IN,eng,music,FALSE,,,,https://b4umusic.in/,https://i.imgur.com/MwW9olq.png
+B4UMusicUK.uk,B4U Music UK,,,UK,,,c/UK,hin,music,FALSE,,,,https://b4umusic.co.uk/,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb5708.png
+B4UMusicUSA.us,B4U Music USA,,,US,,,c/US,hin,music,FALSE,,,,https://b4umusic.us/,https://cdn.tvpassport.com/image/station/100x100/b4u_music.png
 B4UPlus.in,B4U Plus,,,IN,,,c/IN,eng,movies,FALSE,,,,http://b4uplus.com/,https://i.imgur.com/SsooYqR.png
 B92.rs,B92,,,RS,,,c/RS,srp,,FALSE,,,,https://b92.tv/,https://mts.rs/oec/images/tv_channels/1b9687516614df0f53dc5567ce42419f.jpg
 BaanBaanTV73.th,Baan Baan TV 73,,,TH,,,c/TH,tha,,FALSE,,,,http://baanbaantv73.com/,https://www.lyngsat.com/logo/tv/bb/baan-baan-tv-73-th.png
@@ -1792,9 +1792,9 @@ Balastan.kg,Balastan,,,KG,,,c/KG,kir,kids,FALSE,,,,http://www.ktrk.kg/balastan,h
 BalatonTV.hu,Balaton TV,,,HU,,,c/HU,hun,,FALSE,,,,https://balatontelevizio.hu/,https://balatontelevizio.hu/wp-content/uploads/2020/05/balaton_tv_logo.png
 BaliTV.id,Bali TV,,,ID,,,c/ID,ind,,FALSE,,,,,https://www.lyngsat.com/logo/tv/bb/bali_tv_id.png
 BaliUnitedTV.id,Bali United TV,,,ID,,,c/ID,ind,,FALSE,,,,https://www.baliutd.com/tv/,https://www.lyngsat.com/logo/tv/bb/bali-united-tv-id.png
-BalkanikaMusicTV.bg,Balkanika Music TV,,,BG,,,c/BG,bul,,FALSE,,,,http://www.balkanika.tv/,https://static.cinemagia.ro/img/tv_station/balkanika-tv.jpg
+BalkanikaMusicTV.bg,Balkanika Music TV,,,BG,,,c/BG,bul,music,FALSE,,,,http://www.balkanika.tv/,https://static.cinemagia.ro/img/tv_station/balkanika-tv.jpg
 BalkanikaTV.bg,Balkanika TV,,,BG,,,c/BG,bul,music,FALSE,2005-08-15,,,,https://i.imgur.com/S0GrDsQ.png
-BalkanMusicTV.mk,Balkan Music TV,,,MK,,,c/MK,mkd,,FALSE,,,,,https://prd-static-mkt.spectar.tv/rev-1636968170/image_transform.php/transform/1/instance_id/1/video_id/3186681
+BalkanMusicTV.mk,Balkan Music TV,,,MK,,,c/MK,mkd,music,FALSE,,,,,https://prd-static-mkt.spectar.tv/rev-1636968170/image_transform.php/transform/1/instance_id/1/video_id/3186681
 BalkanTrip.rs,Balkan Trip,,,RS,,,c/RS,srp,,FALSE,,,,http://balkantrip.tv/,https://mts.rs/oec/images/tv_channels/89a961e1c5716bb4dcbbc5e5ba639243.jpg
 BalkanTV.rs,Balkan TV,,,RS,,,c/RS,srp,,FALSE,,,,,https://mts.rs/oec/images/tv_channels/c5fc48342bcbfb8aad4d046f4b4d9a36.png
 BalleBalle.in,Balle Balle,,,IN,,,c/IN,hin,,FALSE,,,,https://balleballe.tv/,https://i.imgur.com/ZhDlzTA.png
@@ -2051,7 +2051,7 @@ BBCWorldNewsLatinAmerica.uk,BBC World News Latin America,,,UK,,,r/LATAM,eng;spa,
 BBCWorldNewsMiddleEast.uk,BBC World News Middle East,,,UK,,,r/MIDEAST,eng,news,FALSE,,,,http://www.bbc.com/news/world-radio-and-tv-12957296,https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/BBC_World_News_2019.svg/512px-BBC_World_News_2019.svg.png
 BBCWorldNewsNorthAmerica.uk,BBC World News North America,,,UK,,,r/NORAM,eng,news,FALSE,,,,http://www.bbc.com/news/world-radio-and-tv-12957296,https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/BBC_World_News_2019.svg/512px-BBC_World_News_2019.svg.png
 BBCWorldNewsSouthAsia.uk,BBC World News South Asia,,,UK,,,r/SAS,eng,news,FALSE,,,,http://www.bbc.com/news/world-radio-and-tv-12957296,https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/BBC_World_News_2019.svg/512px-BBC_World_News_2019.svg.png
-BBFMusicTV.al,BBF Music TV,,,AL,,,c/AL,sqi,,FALSE,,,,,https://www.lyngsat.com/logo/tv/bb/bbf-music-tv-al.png
+BBFMusicTV.al,BBF Music TV,,,AL,,,c/AL,sqi,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/bb/bbf-music-tv-al.png
 BblackAfrica.fr,Bblack! Africa,,,FR,,,r/AFR,fra,,FALSE,,,,https://www.bblackafrica-tv.com/,https://i.imgur.com/EVsQZ5v.jpeg
 BblackCaribbean.fr,Bblack! Caribbean,,,FR,,,r/CARIB,eng,,FALSE,,,,https://www.bblackcruise.com/media,https://service.canal-overseas.com/image-api/v1/image/76739b437e7b6ee5a2fd4b15059dc03b
 BBNTurk.tr,BBN Türk,,,TR,,,c/TR,tur,,FALSE,,,,https://www.bbnturk.com.tr/,https://www.lyngsat.com/logo/tv/bb/bbn-turk-tr.png
@@ -2591,7 +2591,7 @@ BratTV.us,Brat TV,,,US,,,c/US,eng,kids,FALSE,,,,,https://i.imgur.com/lhjj94a.png
 Bravo.us,Bravo,,,US,,,c/US,eng,,FALSE,,,,https://www.bravotv.com/,https://zap2it.tmsimg.com/h5/NowShowing/10057/s10057_h5_aa.png
 BravoEast.us,Bravo East,,,US,,,c/US,eng,,FALSE,,,,https://www.bravotv.com/,https://www.directv.com/images/logos/channels/dark/large/579.png
 BravoKids.kr,Bravo Kids,브라보키즈,,KR,,,c/KR,kor,kids,FALSE,2018-08-09,,,http://www.bravokidstv.com/,https://i.imgur.com/UhqgvVW.png
-BravoMusic.rs,Bravo Music,,,RS,,,c/RS,srp,,FALSE,,,,,https://mts.rs/oec/images/tv_channels/ba947e0eefaf6ae199c039b444312344.png
+BravoMusic.rs,Bravo Music,,,RS,,,c/RS,srp,music,FALSE,,,,,https://mts.rs/oec/images/tv_channels/ba947e0eefaf6ae199c039b444312344.png
 BravoNewZealand.nz,Bravo New Zealand,,,NZ,,,c/NZ,eng,,FALSE,,,,http://www.bravotv.co.nz/,https://www.lyngsat.com/logo/tv/bb/bravo_us.png
 BravoNewZealandPlus1.nz,Bravo New Zealand +1,,,NZ,,,c/NZ,eng,,FALSE,,,,http://www.bravotv.co.nz/,https://www.lyngsat.com/logo/tv/bb/bravo_us.png
 BravoWest.us,Bravo West,,,US,,,c/US,eng,,FALSE,,,,https://www.bravotv.com/,https://cdn.tvpassport.com/image/station/100x100/bravousa.png
@@ -3392,7 +3392,7 @@ CCTVDaifu.cn,CCTV Daifu,,,CN,,,c/CN,zho,,FALSE,,,,http://www.cctvdf.com/,https:/
 CCTVDrama.cn,CCTV Drama,,,CN,,,c/CN,zho,,FALSE,,,,http://bbs.tv.cn/channel/tvdrama/,https://www.lyngsat.com/logo/tv/cc/cctv-drama-cn.png
 CCTVEntertainment.cn,CCTV Entertainment,,,CN,,,c/CN,zho,,FALSE,,,,http://www.cntv.cn/,https://upload.wikimedia.org/wikipedia/zh/8/88/CCTV_Entertainment_Channel_Logo.png
 CCTVFashionableWoman.cn,CCTV Fashionable Woman,,,CN,,,c/CN,zho,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cctv-fashionable-woman-cn.png
-CCTVFashionMusic.cn,CCTV Fashion Music,,,CN,,,c/CN,zho,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cctv-fashion-music-cn.png
+CCTVFashionMusic.cn,CCTV Fashion Music,,,CN,,,c/CN,zho,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cctv-fashion-music-cn.png
 CCTVGolfTennis.cn,CCTV Golf & Tennis,,,CN,,,c/CN,zho,,FALSE,,,,http://bbs.tv.cn/channel/golftennis/,https://www.lyngsat.com/logo/tv/cc/cctv-golf-and-tennis-cn.png
 CCTVHealth.cn,CCTV Health,,,CN,,,c/CN,zho,,FALSE,,,,http://www.tv.cn/,https://www.lyngsat.com/logo/tv/cc/cctv_health.png
 CCTVHomeShopping.cn,CCTV Home Shopping,,,CN,,,c/CN,zho,,FALSE,,,,http://www.igocctv.com/,https://upload.wikimedia.org/wikipedia/zh/d/d9/CCTV_Shopping_Channel.png
@@ -3403,7 +3403,7 @@ CCTVPlus1.cn,CCTV+ 1,,,CN,,,c/CN,zho,,FALSE,,,,,
 CCTVPlus2.cn,CCTV+ 2,,,CN,,,c/CN,zho,,FALSE,,,,,
 CCTVShincoAnimation.cn,CCTV Shinco Animation,,,CN,,,c/CN,zho,,FALSE,,,,,https://www.tvchinese.net/uploads/tv/cctvxkdm.jpg
 CCTVSoccer.cn,CCTV Soccer,,,CN,,,c/CN,zho,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cctv_football.png
-CCTVStormMusic.cn,CCTV Storm Music,,,CN,,,c/CN,zho,,FALSE,,,,,https://www.tvchinese.net/uploads/tv/fyyy.jpg
+CCTVStormMusic.cn,CCTV Storm Music,,,CN,,,c/CN,zho,music,FALSE,,,,,https://www.tvchinese.net/uploads/tv/fyyy.jpg
 CCTVTheater.cn,CCTV Theater,,,CN,,,c/CN,zho,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cctv_fengyun_theater.png
 CCTVTheFirstTheater.cn,CCTV The First Theater,,,CN,,,c/CN,zho,,FALSE,,,,,https://www.tvchinese.net/uploads/tv/cctvdyjc.jpg
 CCTVTVGuide.cn,CCTV TV Guide,,,CN,,,c/CN,zho,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cctv_tv_guide.png
@@ -4127,11 +4127,11 @@ CMTAustralia.au,CMT Australia,,,AU,,,c/AU,eng,,FALSE,,,,http://www.cmt.com/,http
 CMTCanada.ca,CMT Canada,,,CA,,,c/CA,eng,,FALSE,,,,http://www.cmt.ca/,https://cdn.tvpassport.com/image/station/100x100/cmtcanada.png
 CMTEast.us,CMT East,,,US,,,c/US,eng,,FALSE,,,,http://www.cmt.com/,https://cdn.tvpassport.com/image/station/100x100/cmt-us.png
 CMTEqualPlay.us,CMT Equal Play,,,US,,,c/US,eng,music,FALSE,,,,https://pluto.tv/en/live-tv/cmt-equal-play,https://images.pluto.tv/channels/5f68f53eb1e5800007390bf8/colorLogoPNG.png
-CMTMusic.us,CMT Music,,,US,,,c/US,eng,,FALSE,,,,http://www.cmt.com/,https://zap2it.tmsimg.com/h5/NowShowing/10138/s10138_h5_aa.png
+CMTMusic.us,CMT Music,,,US,,,c/US,eng,music,FALSE,,,,http://www.cmt.com/,https://zap2it.tmsimg.com/h5/NowShowing/10138/s10138_h5_aa.png
 CMTPlutoTV.us,CMT Pluto TV,,,US,,,c/US,eng,music,FALSE,,,,https://pluto.tv/it/live-tv/cmt-pluto-tv,https://images.pluto.tv/channels/5dcc42446750e200093b15e2/colorLogoPNG.png
 CMTV.pt,CM TV,,,PT,,,c/PT,por,,FALSE,,,,https://www.cm-tv.pt/,https://www.meo.pt/PublishingImages/canais/cmtv-hd.png
 CMTWest.us,CMT West,,,US,,,c/US,eng,,FALSE,,,,http://www.cmt.com/,https://cdn.tvpassport.com/image/station/100x100/cmt-us.png
-CMusicTV.uk,C Music TV,,,UK,,,c/UK,eng,,FALSE,,,,,https://inet-static.mw.elion.ee/images/channels/300x300/155.png
+CMusicTV.uk,C Music TV,,,UK,,,c/UK,eng,music,FALSE,,,,,https://inet-static.mw.elion.ee/images/channels/300x300/155.png
 CN23.ar,CN23,,,AR,,,c/AR,spa,,FALSE,,,,,https://cdn.mitvstatic.com/channels/ar_cn-23_m.png
 CN3Pinamar.ar,CN3 Pinamar,,,AR,,,c/AR,spa,,FALSE,,,,,
 CNA.dz,CNA,,,DZ,,,c/DZ,ara,religious,FALSE,,,,,https://i.imgur.com/4s1NlRf.jpg
@@ -4728,7 +4728,7 @@ DeltaTV.pe,DeltaTV,,,PE,PE-SAM,Pacayzapa,c/PE,spa,,FALSE,,,,https://deltatelevis
 Deluxe139.it,Deluxe 139,,,IT,,,c/IT,ita,,FALSE,,,,,https://www.lyngsat.com/logo/tv/dd/deluxe-139-it.png
 DeluxeLounge.de,Deluxe Lounge,,,DE,,,c/DE,deu,,FALSE,,,,https://www.deluxemusic.tv/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/deluxeloungehd.png
 DeluxeLoungeHD.de,Deluxe Lounge HD,,,DE,,,c/DE,deu,music,FALSE,,,,,https://www.highview.com/fileadmin/Webdata/grafiken/highview/brands/lounge_deluxe_brand_logo_HD_neu.png
-DeluxeMusic.de,Deluxe Music,,,DE,,,c/DE,deu,,FALSE,2005-04-01,,,https://www.deluxemusic.tv/,https://cdn.hd-plus.de/senderlogos/bright-cropped/22584-2.png
+DeluxeMusic.de,Deluxe Music,,,DE,,,c/DE,deu,music,FALSE,2005-04-01,,,https://www.deluxemusic.tv/,https://cdn.hd-plus.de/senderlogos/bright-cropped/22584-2.png
 DemainTV.fr,Demain TV,,,FR,,,c/FR,fra,,FALSE,,,,,https://proxymedia.woopic.com/api/v1/images/553%2Flogos%2Fv2%2Flogos%2Flivetv_demain%2F20170314_120000%2FwebTVLogo%2Flogo_180x96.png
 DemandAfrica.us,Demand Africa,,,US,,,c/US,eng,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/demand-africa,https://images.pluto.tv/channels/5f061242a7951e00075d7413/colorLogoPNG.png
 DemandAfricaMexico.us,Demand Africa Mexico,,,US,,,c/MX,eng,entertainment,FALSE,,,,,https://i.imgur.com/sr5vC8z.jpg
@@ -4770,7 +4770,7 @@ DheeranTV.in,Dheeran TV,,,IN,,,c/IN,hin,,FALSE,,,,https://dheeran.tv/,https://ww
 Dhinchaak.in,Dhinchaak,,,IN,,,c/IN,hin,movies,FALSE,,,,,https://i.imgur.com/T2c6PjU.jpg
 Dhinchaak2.in,Dhinchaak 2,,,IN,,,c/IN,hin,movies,FALSE,,,,https://goldmines.co.in,https://i.imgur.com/AC4ze9o.jpg
 DhivehiChannel.mv,Dhivehi Channel,,,MV,,,c/MV,div,,FALSE,,,,,https://www.lyngsat.com/logo/tv/dd/dhivehi-channel-mv.png
-DhoomMusic.in,Dhoom Music,,,IN,,,c/IN,ben,,FALSE,2010-01-01,,,,https://i.imgur.com/anK9iRa.png
+DhoomMusic.in,Dhoom Music,,,IN,,,c/IN,ben,music,FALSE,2010-01-01,,,,https://i.imgur.com/anK9iRa.png
 Dialogiorybalke.ru,Dialogi o rybalke,,,RU,,,c/RU,rus,,FALSE,,,,,https://www.lyngsat.com/logo/tv/dd/dialogi_o_rybalke_ru.png
 DiamondTV.zm,Diamond TV,,,ZM,,,c/ZM,eng,,FALSE,,,,,https://rndcdn.dstv.com/dstvcms/2017/03/17/Diamond_DStv_New_Logo_4-4_002_xlrg.png
 DianzhangFinanceChannel.cn,Dianzhang Finance Channel,,,CN,,,c/CN,zho,,FALSE,,,,,https://i.imgur.com/N8YdX6W.png
@@ -4848,7 +4848,7 @@ DirecTVSportsSur.us,DirecTV Sports Sur,,,US,,,c/US,spa,,FALSE,,,,https://www.dir
 DirecTVSportsUruguay.uy,DirecTV Sports Uruguay,,,UY,,,c/UY,spa,,FALSE,,,,https://www.directvsports.com/,https://www.lyngsat.com/logo/tv/dd/directv-sports-us.png
 DirecTVSportsVenezuela.ve,DirecTV Sports Venezuela,,,VE,,,c/VE,spa,,FALSE,,,,https://www.directvsports.com/,https://www.lyngsat.com/logo/tv/dd/directv-sports-us.png
 DireTV.et,Dire TV,,,ET,,,c/ET,amh,,FALSE,,,,,https://www.lyngsat.com/logo/tv/dd/dire-tv-et.png
-DiscoPoloMusic.pl,Disco Polo Music,,,PL,,,c/PL,pol,,FALSE,,,,http://www.discopolomusic.pl/,https://ocdn.eu/ptv2-images-transforms/1/TKOktkibG9nby1taWdyYXRlZC9kaXNjby1wb2xvLW11c2ljLnBuZ5KVAmQAwsOVAgAowsM
+DiscoPoloMusic.pl,Disco Polo Music,,,PL,,,c/PL,pol,music,FALSE,,,,http://www.discopolomusic.pl/,https://ocdn.eu/ptv2-images-transforms/1/TKOktkibG9nby1taWdyYXRlZC9kaXNjby1wb2xvLW11c2ljLnBuZ5KVAmQAwsOVAgAowsM
 DiscoverFilm.uk,Discover.Film,,,UK,,,c/UK,eng,,FALSE,,,,,https://i.imgur.com/yjIYUim.jpg
 DiscoverPakistan.pk,Discover Pakistan,,,PK,,,c/PK,eng,,FALSE,,,,https://www.discoverpakistan.tv/,https://www.lyngsat.com/logo/tv/dd/discover-pakistan-pk.png
 DiscoveryAsia.us,Discovery Asia,,,US,,,c/US,eng;tha;vie;zho,,FALSE,2005-02-01,,,http://www.discovery.com/,https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/136_144.png
@@ -5062,7 +5062,7 @@ DMJ.pe,DMJ,,,PE,PE-CUS,Cusco,c/PE,spa,,FALSE,,,,https://www.dmjsur.com/,https://
 DMovies.np,D Movies,,,NP,,,c/NP,nep,movies,FALSE,,,,https://dishhome.com.np/exclusive-channels/dmovies,https://www.lyngsat.com/logo/tv/dd/d-movies-np.png
 DMSat.rs,DM Sat,,,RS,,,c/RS,srp,,FALSE,,,,http://www.dmsat.tv/,https://i.imgur.com/2UHQHO0.png
 DMTVMalang.id,DM TV Malang,,,ID,,,c/ID,ind,,FALSE,,,,https://dmtvmalang.com/,https://www.lyngsat.com/logo/tv/dd/dm-tv-malang-id.png
-DMusic.kh,D Music,,,KH,,,c/KH,khm,,FALSE,,,,,https://www.lyngsat.com/logo/tv/dd/d-music-kh.png
+DMusic.kh,D Music,,,KH,,,c/KH,khm,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/dd/d-music-kh.png
 DNN.in,DNN,,,IN,,,c/IN,hin,,FALSE,,,,,https://www.lyngsat.com/logo/tv/dd/dnn-in.png
 DNT.gh,DNT,,,GH,,,c/GH,eng,,FALSE,,,,https://www.dntghana.com/,https://www.lyngsat.com/logo/tv/dd/dnt-gh.png
 DobbitTVFR.be,Dobbit TV FR,,,BE,,,c/BE,fra,,FALSE,,,,https://www.dobbit.be/fr/home,https://i.imgur.com/7qtn7Lj.png
@@ -5786,7 +5786,7 @@ ETVTelangana.in,ETV Telangana,,,IN,,,c/IN,tel,news,FALSE,,,,http://www.etv.co.in
 ETVTelugu.in,ETV Telugu,,,IN,,,c/IN,tel,,FALSE,,,,http://www.etv.co.in/channels/home?channelId=1,https://www.lyngsat.com/logo/tv/ee/etv_telugu.png
 ETVUttarakhand.in,ETV Uttarakhand,,,IN,,,c/IN,hin,news,FALSE,,,,,
 EUK.uk,E! UK,,,UK,,,c/UK,eng,,FALSE,,,,http://uk.eonline.com/,https://www.lyngsat.com/logo/tv/ee/e_global_us.png
-EuMusic.ua,Eu Music,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ee/eu_music_tv_ua.png
+EuMusic.ua,Eu Music,,,UA,,,c/UA;c/RU,ukr,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/ee/eu_music_tv_ua.png
 Euro90Channel.tr,Euro 90 Channel,,,TR,,,c/TR,tur,,FALSE,,,,https://euro90tv.com/,https://www.lyngsat.com/logo/tv/ee/euro-90-tr.png
 EuroAlTV.de,EuroAl TV,,,DE,,,c/AL,sqi,,FALSE,,,,,https://i.imgur.com/qLaEmIT.png
 Eurochannel.us,Eurochannel,,,US,,,c/US,eng;por;spa,,FALSE,1994-01-01,,,http://www.eurochannel.com/,https://www.programme-tv.net/imgre/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2F34df6f95d8064751.2Epng/80x80/quality/80/eurochannel.png
@@ -6844,7 +6844,7 @@ GolTVLatinAmerica.us,Gol TV Latin America,,,US,,,c/US,eng,,FALSE,,,,,https://cdn
 GolTVSpanish.us,Gol TV Spanish,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/goltv.png
 GolTVUruguay.uy,Gol TV Uruguay,,,UY,,,c/UY,spa,,FALSE,,,,https://latam.goltv.tv/,https://www.lyngsat.com/logo/tv/gg/gol-tv-us.png
 GoncaTV.tr,Gonca TV,,,TR,,,c/TR,tur,,FALSE,,,,http://www.goncatv.com.tr/,https://i.imgur.com/0N5jh8z.jpg
-GoneViralMusic.bb,Gone Viral Music,,,BB,,,c/BB,eng,,FALSE,,,,http://www.goneviraltv.com/,https://zap2it.tmsimg.com/assets/s92068_h3_aa.png
+GoneViralMusic.bb,Gone Viral Music,,,BB,,,c/BB,eng,music,FALSE,,,,http://www.goneviraltv.com/,https://zap2it.tmsimg.com/assets/s92068_h3_aa.png
 GoneViralTV.bb,Gone Viral TV,,,BB,,,c/BB,eng,,FALSE,,,,http://www.goneviraltv.com/,https://zap2it.tmsimg.com/h5/NowShowing/75757/s75757_h5_aa.png
 GoneViralVogue.bb,Gone Viral Vogue,,,BB,,,c/BB,eng,,FALSE,,,,http://www.goneviraltv.com/,https://zap2it.tmsimg.com/assets/s92065_h3_ba.png
 GoneViralXtreme.bb,Gone Viral X-treme,,,BB,,,c/BB,eng,,FALSE,,,,http://www.goneviraltv.com/,https://zap2it.tmsimg.com/assets/s92067_h3_aa.png
@@ -6874,7 +6874,7 @@ GospelCartoon.br,Gospel Cartoon,,,BR,,,c/BR,por,religious,FALSE,,,,,https://i.im
 GospelChannelScandinavia.is,Gospel Channel Scandinavia,,,IS,,,c/IS,isl,,FALSE,,,,,https://www.lyngsat.com/logo/tv/gg/gospel-channel-is.png
 GospelLifeTV.za,GospelLife TV,,,ZA,,,c/ZA,eng,,FALSE,,,,https://www.africaxp.com/,https://www.lyngsat.com/logo/tv/gg/gospel-life-tv-za.png
 GospelMovieTV.br,Gospel Movie TV,,,BR,,,c/BR,por,religious,FALSE,,,,,https://ipgo.xyz/tv/gmovies/imagens/logo_gospelf_site.png
-GospelMusicTV.uk,Gospel Music TV,,,UK,,,c/UK,eng,,FALSE,,,,,https://www.sms.cz/kategorie/televize/bmp/loga/velka/gospel.png
+GospelMusicTV.uk,Gospel Music TV,,,UK,,,c/UK,eng,music,FALSE,,,,,https://www.sms.cz/kategorie/televize/bmp/loga/velka/gospel.png
 GospelTruthTV.us,Gospel Truth TV,,,US,,,c/US,eng,religious,FALSE,,,,,https://i.imgur.com/7vQrPvk.png
 GospelTV.et,Gospel TV,,,ET,,,c/ET,amh,,FALSE,,,,,https://www.lyngsat.com/logo/tv/gg/gospel-tv-et.png
 GoTraveler.us,Go Traveler,,,US,,,c/US,eng,travel,FALSE,,,,,https://od.lk/s/MF8yMzE5OTIyMjBf/Redbox_512x512.png
@@ -7092,7 +7092,7 @@ HawacomTV.lb,Hawacom TV,,,LB,,,c/LB,ara,,FALSE,,,,http://www.hawacom.tv/,https:/
 HawasTV.ae,Hawas TV,,,AE,,,c/AE,ara,general,FALSE,,,,,https://i.imgur.com/rVYdkth.jpg
 Hayat.ba,Hayat,,,BA,,,c/BA,bos,,FALSE,,,,https://www.hayat.ba/,https://i.imgur.com/YMh0973.png
 HayatFolk.ba,Hayat Folk,,,BA,,,c/BA,bos,,FALSE,2012-02-24,,,https://www.hayat.ba/,https://mts.rs/oec/images/tv_channels/90eb9167922378bb41808aa63711cf7c.jpg
-HayatMusic.ba,Hayat Music,,,BA,,,c/BA,bos,,FALSE,2012-01-01,,,https://www.hayat.ba/,https://mts.rs/oec/images/tv_channels/b261d4f3129efc99307a3cf09d5e0d90.jpg
+HayatMusic.ba,Hayat Music,,,BA,,,c/BA,bos,music,FALSE,2012-01-01,,,https://www.hayat.ba/,https://mts.rs/oec/images/tv_channels/b261d4f3129efc99307a3cf09d5e0d90.jpg
 Hayatovci.ba,Hayatovci,,,BA,,,c/BA,bos,,FALSE,2014-05-15,,,https://www.hayat.ba/,https://mtel.ba/oec/images/tv_channels/ea6ac866213bb6aa1f83c45745a8d2db.png
 HayatPlus.ba,Hayat Plus,,,BA,,,c/BA,bos,,FALSE,2006-01-01,,,https://www.hayat.ba/,https://mtel.ba/oec/images/tv_channels/6a7720029bfffe0494a58d8948e07602.png
 HayRiverTV.ca,Hay River TV,,,CA,,,c/CA,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/hh/hay_river_tv_ca.png
@@ -7962,7 +7962,7 @@ ITVYorkshireWest.uk,ITV Yorkshire West,,,UK,,,c/UK,eng,,FALSE,,,,https://www.itv
 IuniorTV.it,Iunior TV,,,IT,,,c/IT,ita,,FALSE,,,,,https://i.imgur.com/FBOJnfT.png
 IVC.ve,IVC,,,VE,,,c/VE,spa,,FALSE,,,,https://www.ivcnetworks.com/,https://www.directv.com/images/logos/channels/dark/large/247.png
 IVCInternacional.ve,IVC Internacional,,,VE,,,c/VE,eng;spa,,FALSE,,,,https://www.ivcnetworks.com/,https://cdn.mitvstatic.com/channels/ar_ivc_m.png
-IvoireTVMusic.fr,Ivoire TV Music,,,FR,,,c/FR,fra,,FALSE,,,,,https://service.canal-overseas.com/image-api/v1/image/4d9c83958458f934e6d1ceccffe42ba9
+IvoireTVMusic.fr,Ivoire TV Music,,,FR,,,c/FR,fra,music,FALSE,,,,,https://service.canal-overseas.com/image-api/v1/image/4d9c83958458f934e6d1ceccffe42ba9
 IzauraTV.hu,Izaura TV,,,HU,,,c/HU,hun,,FALSE,2016-08-14,,,https://tv2play.hu/izauratv,https://www.sms.cz/kategorie/televize/bmp/loga/velka/izaura.png
 IzmailTV.ua,Izmail TV,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,,https://i.imgur.com/mpMjj7o.png
 IzvestiaTV.ru,Izvestia TV,,,RU,,,c/RU,rus,news,FALSE,,,,https://iz.ru/,https://iptvx.one/icn/izvestia.png
@@ -8151,7 +8151,7 @@ Jukebox.de,Jukebox,,,DE,,,c/DE,deu,,FALSE,,,,https://www.jukebox-tv.de/,https://
 JuliaChild.us,Julia Child,,,US,,,c/US,eng,classic,FALSE,,,,https://pluto.tv/en/live-tv/julia-child,https://images.pluto.tv/channels/606b5ee42b54a100079dd593/colorLogoPNG.png
 Junior.de,Junior,,,DE,,,c/DE,deu,,FALSE,,,,https://www.junior.tv/,https://ocdn.eu/ptv2-images-transforms/1/tZpkr1sb2dvLW1pZ3JhdGVkL2p1bmlvci1uaWVtLnBuZ5KVAmQAwsOVAgAowsM
 Junior.il,Junior,,,IL,,,c/IL,heb,,FALSE,,,,,https://www.lyngsat.com/logo/tv/jj/junior_il.png
-JuniorMusic.pl,Junior Music,,,PL,,,c/PL,pol,,FALSE,,,,,https://www.lyngsat.com/logo/tv/jj/junior-music-pl.png
+JuniorMusic.pl,Junior Music,,,PL,,,c/PL,pol,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/jj/junior-music-pl.png
 JuniorTV.al,Junior TV,,,AL,,,c/AL,sqi,,FALSE,2005-04-20,,,https://www.digitalb.al/,https://www.ipko.com/epg/logo/Junior_TV_Logo.png
 JuntaCastillayLeon.es,Junta Castilla y León,,,ES,,,c/ES,spa,,FALSE,,,,,
 Juntos.us,Juntos,,,US,,,c/US,spa,series,FALSE,,,,,https://i.imgur.com/UbomgHT.png
@@ -9730,7 +9730,7 @@ KEMVDT2.us,KEMV-DT2,,Create,US,US-AR,Mt View,s/US-AR,eng,,FALSE,,,,,https://cdn.
 KEMVDT3.us,KEMV-DT3,,PBS Kids,US,US-AR,Mt View,s/US-AR,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/pbskids.png
 KEMYLP1.us,KEMY-LP1,,MyNetworkTV,US,US-CA,Chico,s/US-CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/mnt.png
 KenanKelBrazil.us,Kenan & Kel Brazil,,,US,,,c/BR,por,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/kenan-and-kel,https://images.pluto.tv/channels/5ffcc5130fd98c0007f2e216/colorLogoPNG.png
-KennisMusicChannel.ng,Kennis Music Channel,,,NG,,,c/NG,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/kk/kennis_music_channel.png
+KennisMusicChannel.ng,Kennis Music Channel,,,NG,,,c/NG,eng,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/kk/kennis_music_channel.png
 KENSDT1.us,KENS-DT1,,CBS,US,US-TX,San Antonio,s/US-TX,eng,,FALSE,,,,http://www.kens5.com/,https://i.imgur.com/zV8X5Fi.jpg
 KENSDT2.us,KENS-DT2,,Estrella,US,US-TX,San Antonio,s/US-TX,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/estrella.png
 KENSDT3.us,KENS-DT3,,True Crime Network,US,US-TX,San Antonio,s/US-TX,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/true-crime.png
@@ -10641,7 +10641,7 @@ KKYKCD4.us,KKYK-CD4,,Buzzr TV,US,US-AR,Little Rock,s/US-AR,eng,,FALSE,,,,,https:
 KLAFLD1.us,KLAF-LD1,,NBC,US,US-LA,Lafayette,s/US-LA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/nbc.png
 KlanKosova.rs,Klan Kosova,,,RS,,,c/RS,sqi,,FALSE,2009-02-17,,,https://klankosova.tv/,https://www.lyngsat.com/logo/tv/kk/klan-kosova-al.png
 KlanMacedonia.mk,Klan Macedonia,,,MK,,,c/MK,sqi,,FALSE,,,,http://klanmacedonia.mk/,https://prd-static-mkt.spectar.tv/rev-1636968170/image_transform.php/transform/1/instance_id/1/video_id/16
-KlanMusic.al,Klan Music,,,AL,,,c/AL,sqi,,FALSE,,,,https://tvklan.al/kategoria/programe/musical-musiklan/,https://www.lyngsat.com/logo/tv/kk/klan-music-al.png
+KlanMusic.al,Klan Music,,,AL,,,c/AL,sqi,music,FALSE,,,,https://tvklan.al/kategoria/programe/musical-musiklan/,https://www.lyngsat.com/logo/tv/kk/klan-music-al.png
 KlanNews.al,Klan News,,,AL,,,c/AL,sqi,,FALSE,,,,https://tvklan.al/kategoria/klan-news/,https://www.lyngsat.com/logo/tv/kk/klan-news-al.png
 KlanPlus.al,Klan Plus,,,AL,,,c/AL,sqi,,FALSE,,,,http://klanplus.al/,https://i.imgur.com/9FEBRdH.png
 KLASDT1.us,KLAS-DT1,,CBS,US,US-NV,Las Vegas,s/US-NV,eng,,FALSE,,,,https://www.8newsnow.com/,https://cdn.tvpassport.com/image/station/100x100/cbs.png
@@ -12598,7 +12598,7 @@ KurdMaxKurmanci.iq,KurdMax Kurmanci,,,IQ,,,c/IQ,kmr,,FALSE,,,,https://www.kurdma
 KurdMaxMusic.iq,KurdMax Music,,,IQ,,,c/IQ,kur,music,FALSE,,,,,https://kurdmaxcms.com/asset/image/footer_logo/music_2.png
 KurdMaxShow.iq,KurdMax Show,,,IQ,,,c/IQ,kur,,FALSE,,,,https://kurdmaxshow.tv/,https://kurdmaxcms.com/asset/image/footer_logo/show_2.png
 KurdMaxSorani.iq,KurdMax Sorani,,,IQ,,,c/IQ,ckb,,FALSE,,,,https://www.kurdmax.tv/,https://kurdmaxcms.com/asset/image/footer_logo/%D9%A1_1.png
-KurdMusicTV.de,Kurd Music TV,,,DE,,,c/DE,deu,,FALSE,,,,https://kurdmusic.com/,https://i.imgur.com/VIacb72.png
+KurdMusicTV.de,Kurd Music TV,,,DE,,,c/DE,deu,music,FALSE,,,,https://kurdmusic.com/,https://i.imgur.com/VIacb72.png
 Kurdsat.iq,Kurdsat,,,IQ,,,c/IQ,kur,,FALSE,2000-01-01,,,https://www.kurdsat.tv/,https://www.lyngsat.com/logo/tv/kk/kurdsat_iq.png
 KurdsatNews.iq,Kurdsat News,,,IQ,,,c/IQ,kur,,FALSE,,,,https://www.kurdsatnews.com/,https://www.lyngsat.com/logo/tv/kk/kurdsat_iq_news.png
 KuriakosCine.pt,Kuriakos Cine,,,PT,,,c/PT,por,movies,FALSE,,,,,https://i.imgur.com/CZViCwB.jpg
@@ -13694,7 +13694,7 @@ M4TV.au,M4TV,,,AU,,,c/AU,eng,,FALSE,,,,,https://raw.githubusercontent.com/jnk22/
 M4TVMalayalam.au,M4TV Malayalam,,,AU,,,c/AU,mal,,FALSE,,,,,https://i.imgur.com/2fbxRsU.png
 M5.hu,M5,,,HU,,,c/HU,hun,,FALSE,,,,https://www.mediaklikk.hu/m5/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/m5.png
 M6.fr,M6,,,FR,,,c/FR,fra,entertainment,FALSE,,,,https://www.6play.fr/m6,https://static.epg.best/fr/M6.fr.png
-M6Music.fr,M6 Music,,,FR,,,c/FR,fra,,FALSE,1998-03-05,,,https://www.6play.fr/m6,https://proxymedia.woopic.com/api/v1/images/553%2Flogos%2Fv2%2Flogos%2Flivetv_m6_music%2F20200102_141654%2FwebTVLogo%2Flogo_180x96.png
+M6Music.fr,M6 Music,,,FR,,,c/FR,fra,music,FALSE,1998-03-05,,,https://www.6play.fr/m6,https://proxymedia.woopic.com/api/v1/images/553%2Flogos%2Fv2%2Flogos%2Flivetv_m6_music%2F20200102_141654%2FwebTVLogo%2Flogo_180x96.png
 M6Suisse.ch,M6 Suisse,,,CH,,,c/CH,fra,,FALSE,,,,https://www.6play.fr/m6,https://i.imgur.com/8W7OPMN.png
 M7TV.ml,M7 TV,,,ML,,,c/ML,fra,,FALSE,,,,https://m7tv.ml/,https://www.lyngsat.com/logo/tv/mm/m7-tv-ml.png
 M95TelevisionMarbella.es,M95 Televisión Marbella,,,ES,,,c/ES,spa,,FALSE,,,,,https://graph.facebook.com/m95tvmarbella/picture?width=320&height=320
@@ -14112,7 +14112,7 @@ MGGTV.fr,MGG TV,,,FR,,,c/FR,fra,,FALSE,,,,,https://i.imgur.com/ObKsEop.png
 MGITV.id,MGI TV,,,ID,,,c/ID,ind,,FALSE,,,,https://mgitv.com/,https://www.lyngsat.com/logo/tv/mm/mgi-tv-id.png
 MGMHDUSA.us,MGM HD USA,,,US,,,c/US,eng,,FALSE,,,,http://www.mgmhd.com/,https://i.imgur.com/giHZyYC.png
 MGRTV.gr,MGR TV,,,GR,,,c/GR,ell,,FALSE,,,,,https://i.imgur.com/zPyXLZs.jpg
-Mh1Music.in,Mh 1 Music,,,IN,,,c/IN,pan,,FALSE,,,,https://music.mhone.in/,https://i.imgur.com/ZpnBLhi.png
+Mh1Music.in,Mh 1 Music,,,IN,,,c/IN,pan,music,FALSE,,,,https://music.mhone.in/,https://i.imgur.com/ZpnBLhi.png
 Mh1News.in,Mh 1 News,,,IN,,,c/IN,pan,,FALSE,,,,http://www.mhone.in/mhone-news/,https://www.lyngsat.com/logo/tv/mm/mh1_news.png
 Mh1Prime.in,Mh 1 Prime,,,IN,,,c/IN,hin,,FALSE,,,,https://www.mhone.in/,https://www.lyngsat.com/logo/tv/mm/mh-1-prime-in.png
 MHOTV.id,MHO TV,,,ID,,,c/ID,ind,,FALSE,,,,http://mhotv.id/,https://www.lyngsat.com/logo/tv/mm/mho-tv-id.png
@@ -14693,75 +14693,75 @@ MuseumInternational.fr,Museum International,,,FR,,,c/FR,rus;eng;fra;pol,,FALSE,,
 MuseumTV.be,Museum TV,,,BE,,,c/BE,fra,,FALSE,,,,https://www.museumtv.art/,https://experience-cache.proximustv.be/posterserver/poster/DEFAULT/w-250_h-162/t_2320_000.png
 MuseumTVFast.us,Museum TV Fast,,,US,,,c/US,eng,culture,FALSE,,,,,https://tvpmlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/70/01/66/FRBA3300064WS_20211110T010724.png
 Music1.ir,Music 1,,,IR,,,c/IR,fas,music,FALSE,,,,,
-MusicAir.jp,Music Air,,,JP,,,c/JP,jpn,,FALSE,,,,https://www.musicair.co.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-161-400x400.png
+MusicAir.jp,Music Air,,,JP,,,c/JP,jpn,music,FALSE,,,,https://www.musicair.co.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-161-400x400.png
 MusicBaeble.us,Music Baeble,,,US,,,c/US,eng,series,FALSE,,,,,https://i.imgur.com/zPs2J7w.jpg
-MusicBoxBrazil.br,Music Box Brazil,,,BR,,,c/BR,por,,FALSE,,,,https://boxbrazil.tv.br/prime-box-brazil/,https://cdn.mitvstatic.com/channels/br_music-box-brasil_m.png
+MusicBoxBrazil.br,Music Box Brazil,,,BR,,,c/BR,por,music,FALSE,,,,https://boxbrazil.tv.br/prime-box-brazil/,https://cdn.mitvstatic.com/channels/br_music-box-brasil_m.png
 MusicBoxGeorgia.ge,MusicBox Georgia,,,GE,,,c/GE,kat,music,FALSE,,,,,https://i.imgur.com/ku9kLp8.png
-MusicBoxRussia.ru,Music Box Russia,,,RU,,,c/RU,rus,,FALSE,,,,https://musicboxtv.ru/,https://avatars.mds.yandex.net/get-tv-channel-logos/30303/2a0000016fe5fe29c1c6113e928f11774ecd/214x121
-MusicBoxUkraina.ua,Music Box Ukraina,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,http://www.musicboxua.tv/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/musicbox.png
+MusicBoxRussia.ru,Music Box Russia,,,RU,,,c/RU,rus,music,FALSE,,,,https://musicboxtv.ru/,https://avatars.mds.yandex.net/get-tv-channel-logos/30303/2a0000016fe5fe29c1c6113e928f11774ecd/214x121
+MusicBoxUkraina.ua,Music Box Ukraina,,,UA,,,c/UA;c/RU,ukr,music,FALSE,,,,http://www.musicboxua.tv/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/musicbox.png
 MusicChannelHungary.hu,Music Channel Hungary,,,HU,,,c/HU,ron,music,FALSE,,,,http://1music.hu/,https://www.lyngsat.com/logo/tv/mm/music-channel-hungary-ro-hu.png
 MusicChannelRomania.ro,Music Channel Romania,,,RO,,,c/RO,ron,music,FALSE,,,,https://1music.ro/,https://static.cinemagia.ro/img/tv_station/music-channel.jpg
-MusicChoice70s.us,Music Choice 70s,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoice80s.us,Music Choice 80s,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoice90s.us,Music Choice 90s,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceAdultAlternative.us,Music Choice Adult Alternative,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceAlternative.us,Music Choice Alternative,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceBlues.us,Music Choice Blues,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceClassicalMasterpieces.us,Music Choice Classical Masterpieces,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceClassicCountry.us,Music Choice Classic Country,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceClassicRock.us,Music Choice Classic Rock,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceContemporaryChristian.us,Music Choice Contemporary Christian,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceCountryHits.us,Music Choice Country Hits,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceDanceEDM.us,Music Choice Dance/EDM,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceEasyListening.us,Music Choice Easy Listening,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceGospel.us,Music Choice Gospel,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceHipHopandRB.us,Music Choice Hip-Hop and R&B,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceHipHopClassics.us,Music Choice Hip-Hop Classics,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceHitList.us,Music Choice Hit List,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceIndie.us,Music Choice Indie,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceJazz.us,Music Choice Jazz,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceKidzOnly.us,Music Choice Kidz Only!,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceLightClassical.us,Music Choice Light Classical,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceLoveSongs.us,Music Choice Love Songs,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceMax.us,Music Choice Max,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceMetal.us,Music Choice Metal,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceMexicana.us,Music Choice Mexicana,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceMusicUrbana.us,Music Choice Music Urbana,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoicePartyFavorites.us,Music Choice Party Favorites,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoicePopCountry.us,Music Choice Pop Country,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoicePopHits.us,Music Choice Pop Hits,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoicePopLatino.us,Music Choice Pop Latino,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceRap.us,Music Choice Rap,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceRBClassics.us,Music Choice R&B Classics,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceRBSoul.us,Music Choice R&B Soul,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceReggae.us,Music Choice Reggae,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceRock.us,Music Choice Rock,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceRockHits.us,Music Choice Rock Hits,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceRomances.us,Music Choice Romances,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceSingersSwing.us,Music Choice Singers & Swing,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceSmoothJazz.us,Music Choice Smooth Jazz,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceSoftRock.us,Music Choice Soft Rock,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceSolidGoldOldies.us,Music Choice Solid Gold Oldies,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceSoundscapes.us,Music Choice Soundscapes,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceSoundsofTheSeasons.us,Music Choice Sounds of The Seasons,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceStageScreen.us,Music Choice Stage & Screen,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceTeenBeats.us,Music Choice Teen Beats,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceThrowbackJamz.us,Music Choice Throwback Jamz,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceTodaysCountry.us,Music Choice Todays Country,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceToddlerTunes.us,Music Choice Toddler Tunes,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceTropicales.us,Music Choice Tropicales,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicChoiceY2K.us,Music Choice Y2K,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
-MusicFatafati.in,Music Fatafati,,,IN,,,c/IN,ben,,FALSE,,,,http://www.fatafati.tv/,https://www.lyngsat.com/logo/tv/mm/music_fata_fati_in.png
-MusicIL.il,Music IL,,,IL,,,c/IL,heb,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/music-il-il.png
+MusicChoice70s.us,Music Choice 70s,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoice80s.us,Music Choice 80s,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoice90s.us,Music Choice 90s,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceAdultAlternative.us,Music Choice Adult Alternative,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceAlternative.us,Music Choice Alternative,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceBlues.us,Music Choice Blues,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceClassicalMasterpieces.us,Music Choice Classical Masterpieces,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceClassicCountry.us,Music Choice Classic Country,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceClassicRock.us,Music Choice Classic Rock,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceContemporaryChristian.us,Music Choice Contemporary Christian,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceCountryHits.us,Music Choice Country Hits,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceDanceEDM.us,Music Choice Dance/EDM,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceEasyListening.us,Music Choice Easy Listening,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceGospel.us,Music Choice Gospel,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceHipHopandRB.us,Music Choice Hip-Hop and R&B,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceHipHopClassics.us,Music Choice Hip-Hop Classics,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceHitList.us,Music Choice Hit List,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceIndie.us,Music Choice Indie,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceJazz.us,Music Choice Jazz,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceKidzOnly.us,Music Choice Kidz Only!,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceLightClassical.us,Music Choice Light Classical,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceLoveSongs.us,Music Choice Love Songs,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceMax.us,Music Choice Max,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceMetal.us,Music Choice Metal,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceMexicana.us,Music Choice Mexicana,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceMusicUrbana.us,Music Choice Music Urbana,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoicePartyFavorites.us,Music Choice Party Favorites,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoicePopCountry.us,Music Choice Pop Country,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoicePopHits.us,Music Choice Pop Hits,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoicePopLatino.us,Music Choice Pop Latino,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceRap.us,Music Choice Rap,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceRBClassics.us,Music Choice R&B Classics,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceRBSoul.us,Music Choice R&B Soul,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceReggae.us,Music Choice Reggae,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceRock.us,Music Choice Rock,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceRockHits.us,Music Choice Rock Hits,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceRomances.us,Music Choice Romances,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceSingersSwing.us,Music Choice Singers & Swing,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceSmoothJazz.us,Music Choice Smooth Jazz,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceSoftRock.us,Music Choice Soft Rock,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceSolidGoldOldies.us,Music Choice Solid Gold Oldies,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceSoundscapes.us,Music Choice Soundscapes,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceSoundsofTheSeasons.us,Music Choice Sounds of The Seasons,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceStageScreen.us,Music Choice Stage & Screen,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceTeenBeats.us,Music Choice Teen Beats,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceThrowbackJamz.us,Music Choice Throwback Jamz,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceTodaysCountry.us,Music Choice Todays Country,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceToddlerTunes.us,Music Choice Toddler Tunes,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceTropicales.us,Music Choice Tropicales,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicChoiceY2K.us,Music Choice Y2K,,,US,,,c/US,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/music_choice.png
+MusicFatafati.in,Music Fatafati,,,IN,,,c/IN,ben,music,FALSE,,,,http://www.fatafati.tv/,https://www.lyngsat.com/logo/tv/mm/music_fata_fati_in.png
+MusicIL.il,Music IL,,,IL,,,c/IL,heb,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/music-il-il.png
 MusicIndia.in,Music India,,,IN,,,c/IN,hin,music,FALSE,,,,https://www.musicindiatv.com/,https://i.imgur.com/F7tPCwh.png
-MusicInformationChannel.id,Music Information Channel,,,ID,,,c/ID,ind,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/music-information-channel-id.png
-MusicJapanTV.jp,Music Japan TV,,,JP,,,c/JP,jpn,,FALSE,,,,http://www.mjtv.jp/,https://www.lyngsat.com/logo/tv/mm/music_japan_tv.png
-MusicNow.ae,Music Now,,,AE,,,c/AE,ara,,FALSE,,,,https://alfatv.com/tv/,https://content.osn.com/logo/channel/cropped/NOW.png
-MusicOnTV.jp,Music On! TV,,,JP,,,c/JP,jpn,,FALSE,1998-07-01,,,http://www.m-on.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-162-400x400.png
+MusicInformationChannel.id,Music Information Channel,,,ID,,,c/ID,ind,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/music-information-channel-id.png
+MusicJapanTV.jp,Music Japan TV,,,JP,,,c/JP,jpn,music,FALSE,,,,http://www.mjtv.jp/,https://www.lyngsat.com/logo/tv/mm/music_japan_tv.png
+MusicNow.ae,Music Now,,,AE,,,c/AE,ara,music,FALSE,,,,https://alfatv.com/tv/,https://content.osn.com/logo/channel/cropped/NOW.png
+MusicOnTV.jp,Music On! TV,,,JP,,,c/JP,jpn,music,FALSE,1998-07-01,,,http://www.m-on.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-162-400x400.png
 MUSICPlus.hu,MUSIC +,,,HU,,,c/HU,hun,music,FALSE,,,,,https://i.imgur.com/yKJmkNk.png
 MusicTop.ar,MusicTop,,,AR,,,c/AR,spa,music,FALSE,,,,https://www.diario26.com/,https://cdn.mitvstatic.com/channels/ar_musictop_m.png
-MusicTV.id,Music TV,,,ID,,,c/ID,ind,,FALSE,,,,https://www.mncchannels.com/micro/Music-TV,https://www.mncvision.id/userfiles/image/channel/channel_111.png
-MusicZone.in,Music Zone,,,IN,,,c/IN,hin,,FALSE,,,,https://www.szonline.in/,https://www.lyngsat.com/logo/tv/mm/music_zone_in.png
+MusicTV.id,Music TV,,,ID,,,c/ID,ind,music,FALSE,,,,https://www.mncchannels.com/micro/Music-TV,https://www.mncvision.id/userfiles/image/channel/channel_111.png
+MusicZone.in,Music Zone,,,IN,,,c/IN,hin,music,FALSE,,,,https://www.szonline.in/,https://www.lyngsat.com/logo/tv/mm/music_zone_in.png
 Musig24TV.ch,Musig24 TV,,,CH,,,c/CH,deu,sports,FALSE,,,,,https://i.imgur.com/vwsUnmT.png
 MuslimAccessMovementTV.gh,Muslim Access Movement TV,,,GH,,,c/GH,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/muslim-access-movement-tv-gh.png
 MuslimTV.id,Muslim TV,,,ID,,,c/ID,ind,,FALSE,,,,https://www.mncchannels.com/micro/Muslim-TV,https://www.mncvision.id/userfiles/image/channel/channel_92.png
@@ -14830,9 +14830,9 @@ MyKidz.id,My Kidz,,,ID,,,c/ID,ind,,FALSE,,,,https://www.topas.tv/,https://www.ly
 MyMediaPrime.cm,My Media Prime,,,CM,,,c/CM,eng;fra,,FALSE,,,,,https://service.canal-overseas.com/image-api/v1/image/7b9aca9aeb8805999696955b43f1e30e
 MyMovieEnglish.cm,My Movie English,,,CM,,,c/CM,eng,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my-movie-cm.png
 MyMovieFrench.cm,My Movie French,,,CM,,,c/CM,fra,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my-movie-french-cm.png
-MyMusic.al,My Music,,,AL,,,c/AL,sqi,,FALSE,,,,,https://www.ipko.com/epg/logo/My-Music.png
-MyMusicAfrica.cm,My Music Africa,,,CM,,,c/CM,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my-music-africa-cm.png
-MyMusicChannel.ao,My Music Channel,,,AO,,,c/AO,por,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my-music-channel-ao.png
+MyMusic.al,My Music,,,AL,,,c/AL,sqi,music,FALSE,,,,,https://www.ipko.com/epg/logo/My-Music.png
+MyMusicAfrica.cm,My Music Africa,,,CM,,,c/CM,eng,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my-music-africa-cm.png
+MyMusicChannel.ao,My Music Channel,,,AO,,,c/AO,por,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my-music-channel-ao.png
 MyNetworkTV.us,MyNetworkTV,,,US,,,c/US,eng,,FALSE,,,,,
 MyRadioTV.gr,My Radio TV,,,GR,,,c/GR,ell,,FALSE,,,,,https://i.imgur.com/ZBIyCAl.png
 MyRighteousTV.cm,My Righteous TV,,,CM,,,c/CM,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my_righteous_tv_cm.png
@@ -14874,13 +14874,13 @@ MyTVChannel.cm,My TV Channel,,,CM,,,c/CM,fra,,FALSE,,,,,https://i.imgur.com/BuKv
 MyxMiddleEast.ph,Myx Middle East,,,PH,,,c/PH,eng,,FALSE,,,,https://myx.global/,https://content.osn.com/logo/channel/cropped/MYX.png
 MyxPhilippines.ph,Myx Philippines,,,PH,,,c/PH,eng,,FALSE,,,,https://myx.global/,https://www.lyngsat.com/logo/tv/mm/myx-ph.png
 MyxUSA.us,Myx USA,,,US,,,c/US,eng;jpn;spa;tgl,,FALSE,,,,https://myx.global/,https://www.directv.com/images/logos/channels/dark/large/703.png
-MyZenMusic.fr,MyZen Music,,,FR,,,c/FR,fra,,FALSE,,,,https://www.myzen.tv/,
+MyZenMusic.fr,MyZen Music,,,FR,,,c/FR,fra,music,FALSE,,,,https://www.myzen.tv/,
 MyZenNature.fr,MyZen Nature,,,FR,,,c/FR,fra,,FALSE,,,,https://www.myzen.tv/,https://i.imgur.com/HVt8Ud4.png
 MyZenTV.fr,MyZen TV,,,FR,,,c/FR,fra;eng;rus;spa;tur;bul,,FALSE,,,,https://www.myzen.tv/,https://i.imgur.com/fIi8o0C.png
 MyZenTV4K.fr,MyZen TV 4K,,,FR,,,c/FR,eng;fra;rus,,FALSE,,,,https://www.myzen.tv/,https://tv2go.t-2.net/static/media/img/channels/dark/ios/small/retina/2590226.png
 MzansiBioskop.za,Mzansi Bioskop,,,ZA,,,c/ZA,eng,,FALSE,,,,http://mzansimagic.dstv.com/category/channels/mzansi-bioskop/,https://rndcdn.dstv.com/dstvcms/2016/08/15/DStv_MzansiBioskop_new4-4logo_001_xlrg.png
 MzansiMagic.za,Mzansi Magic,,,ZA,,,c/ZA,eng,,FALSE,2010-07-12,,,http://mzansimagic.dstv.com/category/channels/mzansi-magic/,https://rndcdn.dstv.com/dstvcms/2018/08/10/Mzansi_Magic_Logo_4-3_001_xlrg.png
-MzansiMagicMusic.za,Mzansi Magic Music,,,ZA,,,c/ZA,eng,,FALSE,,,,http://mzansimagic.dstv.com/category/channels/mzansi-music/,https://rndcdn.dstv.com/dstvcms/2020/04/16/MzansiMagicMusic-4-3_xlrg.png
+MzansiMagicMusic.za,Mzansi Magic Music,,,ZA,,,c/ZA,eng,music,FALSE,,,,http://mzansimagic.dstv.com/category/channels/mzansi-music/,https://rndcdn.dstv.com/dstvcms/2020/04/16/MzansiMagicMusic-4-3_xlrg.png
 MzansiWethu.za,Mzansi Wethu,,,ZA,,,c/ZA,eng,,FALSE,,,,http://mzansimagic.dstv.com/category/channels/mzansi-wethu/,https://rndcdn.dstv.com/dstvcms/2016/08/15/DStv_MzansiWethu_new4-4logo_001_xlrg.png
 N1BosnaiHercegovina.ba,N1 Bosna i Hercegovina,,,BA,,,c/BA,srp,news,FALSE,,,,https://ba.n1info.com/,https://www.lyngsat.com/logo/tv/nn/n1_rs.png
 N1Hrvatska.hr,N1 Hrvatska,,,HR,,,c/HR,srp,news,FALSE,,,,https://hr.n1info.com/,https://i.imgur.com/S3BbDJX.png
@@ -15880,7 +15880,7 @@ Number1Damar.tr,Number 1 Damar,,,TR,,,c/TR,tur,,FALSE,,,,,https://izmottvsc23.tv
 Number1Dance.tr,Number 1 Dance,,,TR,,,c/TR,tur,,FALSE,,,,,https://izmottvsc23.tvplus.com.tr:33207/CPS/images/universal/film/poster/fileEntity/20171207/001300/XTV100000717/f8f2d5fc-b122-486a-9ea6-0c7482be9fb9.png
 Number1Turk.tr,Number 1 Türk,,,TR,,,c/TR,tur,,FALSE,,,,https://www.numberone.com.tr/,https://izmottvsc23.tvplus.com.tr:33207/CPS/images/universal/film/poster/20160211/001300/001300000004627816/daf1943f-39ab-4186-b311-ef28e34aa8cd.png
 Number1TV.tr,Number 1 TV,,,TR,,,c/TR,tur,,FALSE,1994-08-01,,,,https://www.novacyprus.com/sites/default/files/2020-04/NR1_NO-BORDER_90X90.png
-NuMusic.mx,Nu Music,,,MX,,,c/MX,spa,,FALSE,,,,,https://cdn.mitvstatic.com/channels/mx_canal-nu_m.png
+NuMusic.mx,Nu Music,,,MX,,,c/MX,spa,music,FALSE,,,,,https://cdn.mitvstatic.com/channels/mx_canal-nu_m.png
 NupeTVAfrica.ng,Nupe TV Africa,,,NG,,,c/NG,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/nn/nupe-tv-africa-ng.png
 NusantaraTV.id,Nusantara-TV,,,ID,,,c/ID,ind,,FALSE,,,,https://www.nusantaratv.com/,https://www.lyngsat.com/logo/tv/nn/nusantara_tv_id.png
 NutaTV.pl,Nuta TV,,,PL,,,c/PL,pol,,FALSE,,,,http://nuta.tv/,https://ocdn.eu/ptv2-images-transforms/1/Uihkrhsb2dvLW1pZ3JhdGVkL251dGF0di5wbmeSlQJkAMLDlQIAKMLD
@@ -16118,7 +16118,7 @@ OneTVDrama3.kh,One TV Drama 3,,,KH,,,c/KH,khm,,FALSE,,,,http://digitalsky.com.kh
 OneTVESchoolCambodia.kh,One TV E-School Cambodia,,,KH,,,c/KH,khm,,FALSE,,,,,https://www.lyngsat.com/logo/tv/oo/one-tv-e-school-cambodia-kh.png
 OneTVKids5.kh,One TV Kids 5,,,KH,,,c/KH,khm,,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Kids-5,https://www.lyngsat.com/logo/tv/oo/one-tv-kids-5-kh.png
 OneTVMovies7.kh,One TV Movies 7,,,KH,,,c/KH,khm,movies,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Movie-HD-7,https://www.lyngsat.com/logo/tv/oo/one-tv-movies-7-kh.png
-OneTVMusic8.kh,One TV Music 8,,,KH,,,c/KH,khm,,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Music-8,https://www.lyngsat.com/logo/tv/oo/one-tv-music-8-kh.png
+OneTVMusic8.kh,One TV Music 8,,,KH,,,c/KH,khm,music,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Music-8,https://www.lyngsat.com/logo/tv/oo/one-tv-music-8-kh.png
 OneTVSabay1.kh,One TV Sabay 1,,,KH,,,c/KH,khm,,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Sabay-1,https://www.lyngsat.com/logo/tv/oo/one-tv-sabay-1-kh.png
 OneTVSports11.kh,One TV Sports 11,,,KH,,,c/KH,khm,,FALSE,,,,http://www.digitalsky.com.kh/EN/Channel-List/OneTV-Sports-11,https://www.lyngsat.com/logo/tv/oo/one-tv-sports-11-kh.png
 OneTVSports9.kh,One TV Sports 9,,,KH,,,c/KH,khm,,FALSE,,,,http://www.digitalsky.com.kh/EN/Channel-List/OneTV-Sports-9,https://www.lyngsat.com/logo/tv/oo/one-tv-sports-9-kh.png
@@ -16259,7 +16259,7 @@ OUN.kr,OUN,,,KR,,,c/KR,kor,,FALSE,,,,http://oun.knou.ac.kr/,https://www.lyngsat.
 OurKiddies.ng,Our Kiddies,,,NG,,,c/NG,eng,,FALSE,,,,https://www.ourtv.ng/our-kiddies/,https://www.lyngsat.com/logo/tv/oo/our-kiddies-ng.png
 OurMoviesGlobe.ng,Our Movies Globe,,,NG,,,c/NG,eng,movies,FALSE,,,,https://www.ourtv.ng/our-movie-globe/,https://www.lyngsat.com/logo/tv/oo/our-tv-ng.png
 OurMoviesNolly.ng,Our Movies Nolly,,,NG,,,c/NG,eng,movies,FALSE,,,,https://www.ourtv.ng/our-movie-nolly/,https://www.lyngsat.com/logo/tv/oo/our-tv-ng.png
-OurMusic.ng,Our Music,,,NG,,,c/NG,eng,,FALSE,,,,https://www.ourtv.ng/our-music/,https://www.lyngsat.com/logo/tv/oo/our-music-ng.png
+OurMusic.ng,Our Music,,,NG,,,c/NG,eng,music,FALSE,,,,https://www.ourtv.ng/our-music/,https://www.lyngsat.com/logo/tv/oo/our-music-ng.png
 OurRootTV.ng,Our Root TV,,,NG,,,c/NG,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/oo/our-root-tv-ng.png
 OurSeries.ng,Our Series,,,NG,,,c/NG,eng,,FALSE,,,,https://www.ourtv.ng/our-series/,https://www.lyngsat.com/logo/tv/oo/our-series-ng.png
 OurSports.ng,Our Sports,,,NG,,,c/NG,eng,,FALSE,,,,https://ourtv.ng/our-sports/,https://www.lyngsat.com/logo/tv/oo/our-sports-ng.png
@@ -16604,8 +16604,8 @@ PinkKoncert.rs,Pink Koncert,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,
 PinkKuvar.rs,Pink Kuvar,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mtel.ba/oec/images/tv_channels/39244b96ded32daa94271dbeb1a4374b.png
 PinkM.me,Pink M,,,ME,,,c/ME,srp,,FALSE,2018-10-22,,,,https://mts.rs/oec/images/tv_channels/7e937947da74f60eeb889352eaa42b4f.jpg
 PinkMovies.rs,Pink Movies,,,RS,,,c/RS,srp,movies,FALSE,,,,http://www.rtvpink.co.rs/,https://mtel.ba/oec/images/tv_channels/be0d53ad208c00beeeb1b35dafa556b7.png
-PinkMusic.rs,Pink Music,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/55e42ca85044b8738914396d92aaa52d.png
-PinkMusic2.rs,Pink Music 2,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://i.imgur.com/48MAXgK.png
+PinkMusic.rs,Pink Music,,,RS,,,c/RS,srp,music,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/55e42ca85044b8738914396d92aaa52d.png
+PinkMusic2.rs,Pink Music 2,,,RS,,,c/RS,srp,music,FALSE,,,,http://www.rtvpink.co.rs/,https://i.imgur.com/48MAXgK.png
 PinknRoll.rs,Pink n Roll,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/8abb9df9cd832d2a67bf30d592c97cd5.png
 PinkoTV.it,Pink' o TV,,,IT,,,c/IT,ita,,FALSE,,,,http://www.pinkotv.com/,https://www.lyngsat.com/logo/tv/pp/pink_o_tv_it.png
 PinkPedia.rs,Pink Pedia,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mtel.ba/oec/images/tv_channels/4f2e530f631bf86047ddd4f95ad8c7f9.png
@@ -16648,7 +16648,7 @@ PlanetaTVBagua.pe,Planeta TV,,,PE,PE-SAM,Bagua,c/PE,spa,,FALSE,,,,,https://graph
 PlanetatvKids.cl,Planetatv Kids,,,CL,,,c/CL,spa,,FALSE,,,,,
 PlanetatvMovie.cl,Planetatv Movie,,,CL,,,c/CL,spa,movies,FALSE,,,,,
 PlanetaTVMoyobamba.pe,Planeta TV,,,PE,PE-SAM,Moyobamba,c/PE,spa,,FALSE,,,,https://moyobamba.com/planetatv/,https://graph.facebook.com/PlanetaTeleInformativo/picture?width=320&height=320
-PlanetatvMusic.cl,Planetatv Music,,,CL,,,c/CL,spa,,FALSE,,,,,
+PlanetatvMusic.cl,Planetatv Music,,,CL,,,c/CL,spa,music,FALSE,,,,,
 PlanetEarth.bg,Planet Earth,,,BG,,,c/BG,bul,,FALSE,,,,,https://tv2go.t-2.net/static/media/img/channels/dark/ios/small/retina/145686.png
 PlanetePlus.fr,Planète+,,,FR,,,c/FR,fra,,FALSE,1988-09-24,,,,https://service.canal-overseas.com/image-api/v1/image/4e29f3c52a6e90555a298c8bcc358b32
 PlanetePlusAE.fr,Planète + A&E,,,FR,,,c/FR,fra,,FALSE,,,,https://www.canalplus.com/chaines/les-chaines-planete,https://service.canal-overseas.com/image-api/v1/image/425153f20b159d48011eee67c786885b
@@ -17202,7 +17202,7 @@ PolsatDoku.pl,Polsat Doku,,,PL,,,c/PL,pol,,FALSE,2017-02-10,,,https://www.polsat
 PolsatFilm.pl,Polsat Film,,,PL,,,c/PL,pol,,FALSE,2009-10-02,,,https://www.polsatfilm.pl/,https://ocdn.eu/ptv2-images-transforms/1/Pegkr1sb2dvLW1pZ3JhdGVkL3BvbHNhdF9maWxtLnBuZ5KVAmQAwsOVAgAowsM
 PolsatFilm2.pl,Polsat Film 2,,,PL,,,c/PL,pol,,FALSE,,,,https://www.polsatfilm.pl/,https://i.imgur.com/6NvYWx9.png
 PolsatGames.pl,Polsat Games,,,PL,,,c/PL,pol,,FALSE,,,,,https://ocdn.eu/ptv2-images-transforms/1/I4Lkr5sb2dvLW1pZ3JhdGVkL3BvbHNhdF9nYW1lcy5wbmeSlQJkAMLDlQIAKMLD
-PolsatMusic.pl,Polsat Music,,,PL,,,c/PL,pol,,FALSE,,,,http://www.polsatmusic.pl/,https://ocdn.eu/ptv2-images-transforms/1/KrCkr5sb2dvLW1pZ3JhdGVkL3BvbHNhdC1tdXNpYy5wbmeSlQJkAMLDlQIAKMLD
+PolsatMusic.pl,Polsat Music,,,PL,,,c/PL,pol,music,FALSE,,,,http://www.polsatmusic.pl/,https://ocdn.eu/ptv2-images-transforms/1/KrCkr5sb2dvLW1pZ3JhdGVkL3BvbHNhdC1tdXNpYy5wbmeSlQJkAMLDlQIAKMLD
 PolsatNews.pl,Polsat News,,,PL,,,c/PL,pol,,FALSE,,,,https://www.polsatnews.pl/,https://ocdn.eu/ptv2-images-transforms/1/UHtkr1sb2dvLW1pZ3JhdGVkL3BvbHNhdF9uZXdzLnBuZ5KVAmQAwsOVAgAowsM
 PolsatNews2.pl,Polsat News 2,,,PL,,,c/PL,pol,,FALSE,2014-06-09,,,http://www.polsatnews.pl/,https://ocdn.eu/ptv2-images-transforms/1/EQUkr9sb2dvLW1pZ3JhdGVkL3BvbHNhdF9uZXdzXzIucG5nkpUCZADCw5UCACjCww
 PolsatPlay.pl,Polsat Play,,,PL,,,c/PL,pol,,FALSE,2008-10-06,,,http://www.polsatplay.pl/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/polsatplay.png
@@ -17408,7 +17408,7 @@ PSISaradee99.th,PSI Saradee 99,,,TH,,,c/TH,tha,,FALSE,,,,https://psisaradee99.co
 PSMNews.mv,PSM News,,,MV,,,c/MV,div,,FALSE,,,,http://psmnews.mv/,https://www.lyngsat.com/logo/tv/pp/psm_news_mv.png
 PSTVHD.cd,PSTV HD,,,CD,,,c/CD,fra,,FALSE,,,,,https://service.canal-overseas.com/image-api/v1/image/5b00c04ef9e48ea4b299c0b85b2bc634
 PTCChakde.in,PTC Chakde,,,IN,,,c/IN,pan,,FALSE,,,,http://www.ptcnetwork.tv/ptc-chakde/,https://www.lyngsat.com/logo/tv/pp/ptc_chakde.png
-PTCMusic.in,PTC Music,,,IN,,,c/IN,pan,,FALSE,,,,https://www.ptcnetwork.com/channel/,https://i.imgur.com/H2CILSM.png
+PTCMusic.in,PTC Music,,,IN,,,c/IN,pan,music,FALSE,,,,https://www.ptcnetwork.com/channel/,https://i.imgur.com/H2CILSM.png
 PTCNews.in,PTC News,,,IN,,,c/IN,pan,,FALSE,2007-01-01,,,https://www.ptcnews.tv/,https://i.imgur.com/QtH1ArG.png
 PTCPunjabi.in,PTC Punjabi,,,IN,,,c/IN,pan,,FALSE,2008-08-06,,,https://www.ptcpunjabi.co.in/,https://i.imgur.com/FQYnf1F.png
 PTCPunjabiCanada.ca,PTC Punjabi Canada,,,CA,,,c/CA,pan,,FALSE,,,,http://www.ptcnetwork.ca/,https://www.lyngsat.com/logo/tv/pp/ptc_punjabi_ca.png
@@ -17491,7 +17491,7 @@ QKinoAlem.kz,Q KinoAlem,,,KZ,,,c/KZ,rus;kaz,,FALSE,,,,,https://www.lyngsat.com/l
 QKinoHit.kz,Q KinoHit,,,KZ,,,c/KZ,rus;kaz,,FALSE,,,,,https://www.lyngsat.com/logo/tv/qq/q-kinohit-kz.png
 QMusic.be,Q-Music,,,BE,,,c/BE,nld,music,FALSE,,,,,https://i.imgur.com/s0CZjmi.png
 Qmusic.nl,Qmusic,,,NL,,,c/NL,nld,music,FALSE,,,,,https://i.imgur.com/P8cVMle.jpg
-QmusicVlaanderen.be,Q-music Vlaanderen,,,BE,,,c/BE,nld,,FALSE,,,,,https://images3.persgroep.net/rcs/NRXqV0B7PY0Lo3p_WJLD3PwrFVo/diocontent/154174236/_fitwidth/500?appId=da11c75db9b73ea0f41f0cd0da631c71
+QmusicVlaanderen.be,Q-music Vlaanderen,,,BE,,,c/BE,nld,music,FALSE,,,,,https://images3.persgroep.net/rcs/NRXqV0B7PY0Lo3p_WJLD3PwrFVo/diocontent/154174236/_fitwidth/500?appId=da11c75db9b73ea0f41f0cd0da631c71
 QomTV.ir,Qom TV,,,IR,,,c/IR,fas,,FALSE,,,,http://qom.irib.ir/tv,https://www.lyngsat.com/logo/tv/qq/qom_tv.png
 Qostanai.kz,Qostanai,,,KZ,,,c/KZ,kaz,,FALSE,,,,http://kostanaytv.kz/,https://www.lyngsat.com/logo/tv/qq/qostanai-kz.png
 QPVN.vn,QPVN,,,VN,,,c/VN,vie,,FALSE,,,,http://www.qpvn.vn/,https://www.lyngsat.com/logo/tv/qq/qpvn_vn.png
@@ -17522,7 +17522,7 @@ QuestTV.ng,Quest TV,,,NG,,,c/NG,eng,,FALSE,,,,https://questfmtv.com/,https://www
 QuestUK.uk,Quest UK,,,UK,,,c/UK,eng,,FALSE,,,,https://www.discoveryplus.co.uk/channel/quest,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb1128.png
 QuestUKPlus1.uk,Quest UK +1,,,UK,,,c/UK,eng,,FALSE,,,,https://www.discoveryplus.co.uk/channel/quest,https://otv-us-web.s3-us-west-2.amazonaws.com/logos/guide/2/Open/92x36_352/Source/31168/questplus1tv.png
 Quicktake.us,Quicktake,,,US,,,c/US,eng,,FALSE,,,,,https://dp6mhagng1yw3.cloudfront.net/entries/12th/5ec877f2-d86f-4253-a507-1c42083431a4.png
-QuieroMusicaenmiIdioma.ar,Quiero Musica en mi Idioma,,,AR,,,c/AR,spa,,FALSE,,,,https://www.qmusica.tv/,https://cdn.mitvstatic.com/channels/ar_quiero_m.png
+QuieroMusicaenmiIdioma.ar,Quiero Musica en mi Idioma,,,AR,,,c/AR,spa,music,FALSE,,,,https://www.qmusica.tv/,https://cdn.mitvstatic.com/channels/ar_quiero_m.png
 QuieroTV.mx,Quiero TV,,,MX,,,c/MX,spa,,FALSE,,,,https://quierotv.mx/,https://i.imgur.com/k0XbBp8.png
 Quillavision.pe,Quillavision,,,PE,PE-CUS,Cusco,c/PE,spa,,FALSE,,,,,https://graph.facebook.com/459651607763457/picture?width=320&height=320
 QuinceUCR.cr,Quince UCR,,,CR,,,c/CR,spa,,FALSE,,,,,https://i.imgur.com/7hRnPcP.png
@@ -19026,7 +19026,7 @@ ShandongTVQiluChannel.cn,Shandong TV Qilu Channel,,,CN,,,c/CN,zho,,FALSE,,,,http
 ShandongTVSportsChannel.cn,Shandong TV Sports Channel,,,CN,,,c/CN,zho,,FALSE,,,,,https://i.imgur.com/GUcgURM.png
 ShandongTVVarietyChannel.cn,Shandong TV Variety Channel,,,CN,,,c/CN,zho,,FALSE,,,,,https://i.imgur.com/YKHVIFj.png
 ShansonTV.ru,Shanson TV,,,RU,,,c/RU,rus,music,FALSE,,,,https://shanson.tv/,https://i.imgur.com/NBWyJJQ.png
-ShantMusic.am,Shant Music,,,AM,,,c/AM,hye,,FALSE,,,,,
+ShantMusic.am,Shant Music,,,AM,,,c/AM,hye,music,FALSE,,,,,
 ShantSerial.am,Shant Serial,,,AM,,,c/AM,hye,,FALSE,,,,https://www.shanttv.com/,https://www.lyngsat.com/logo/tv/ss/shant-serial-am.png
 ShantTV.am,Shant TV,,,AM,,,c/AM,hye,,FALSE,1994-01-01,,,https://www.shanttv.com/,https://i.imgur.com/EbqVba3.png
 ShanxiEconomicInformationChannel.cn,Shanxi Economic Information Channel,,,CN,,,c/CN,zho,,FALSE,,,,,https://apphhplushttps.sxrtv.com/images/2020/12/31/202012311609402311324_90.jpg
@@ -19371,7 +19371,7 @@ SkyNetCartoon.mm,Sky Net Cartoon,,,MM,,,c/MM,mya,,FALSE,,,,,https://www.lyngsat.
 SkyNetHadaya.mm,Sky Net Hadaya,,,MM,,,c/MM,mya,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sky_net_hadaya.png
 SkyNetInternationalDrama.mm,Sky Net International Drama,,,MM,,,c/MM,mya,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sky_net_international_drama.png
 SkyNetKnowledge.mm,Sky Net Knowledge,,,MM,,,c/MM,mya,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sky_net_knowledge.png
-SkyNetMusic.mm,Sky Net Music,,,MM,,,c/MM,mya,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sky_net_music.png
+SkyNetMusic.mm,Sky Net Music,,,MM,,,c/MM,mya,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sky_net_music.png
 SkyNetMyanmarArt.mm,Sky Net Myanmar Art,,,MM,,,c/MM,mya,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sky_net_myanmar_art.png
 SkyNetMyanmarMovies.mm,Sky Net Myanmar Movies,,,MM,,,c/MM,mya,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sky_net_myanmar_movies.png
 SkyNetSports.mm,Sky Net Sports,,,MM,,,c/TH,eng,sports,FALSE,,,,,https://www.img09.xyz/assets/img/ch_logo/sd-skynetsportshd.png
@@ -20138,8 +20138,8 @@ STChineseHomeland.cn,ST Chinese Homeland,,,CN,,,c/CN,zho,,FALSE,,,,http://starsa
 STDadinKowa.cn,ST Dadin Kowa,,,CN,,,c/CN,hau,,FALSE,,,,http://starsat.co.za/,https://www.lyngsat.com/logo/tv/ss/star_times_dadin_kowa.png
 SteelbirdMusic.in,Steelbird Music,,,IN,,,c/IN,hin,music,FALSE,,,,,https://i.imgur.com/5r4gCMh.jpg
 Stereo5TV.it,Stereo 5 TV,,,IT,,,c/IT,ita,,FALSE,,,,,https://i.imgur.com/HnrRo2k.jpg
-StereoAlwaysMoreMusic.us,Stereo Always More Music,,,US,,,c/US,eng,,FALSE,,,,https://www.stereohdtv.com/always-more-music/,https://www.lyngsat.com/logo/tv/ss/stereo-always-more-music-us.png
-StereoSiempreMasMusica.us,Stereo Siempre Mas Musica,,,US,,,c/US,spa,,FALSE,,,,https://www.stereohdtv.com/siempre-mas-musica/,https://www.lyngsat.com/logo/tv/ss/stereo-siempre-mas-musica-us.png
+StereoAlwaysMoreMusic.us,Stereo Always More Music,,,US,,,c/US,eng,music,FALSE,,,,https://www.stereohdtv.com/always-more-music/,https://www.lyngsat.com/logo/tv/ss/stereo-always-more-music-us.png
+StereoSiempreMasMusica.us,Stereo Siempre Mas Musica,,,US,,,c/US,spa,music,FALSE,,,,https://www.stereohdtv.com/siempre-mas-musica/,https://www.lyngsat.com/logo/tv/ss/stereo-siempre-mas-musica-us.png
 StereoTVPeru.pe,Stereo TV Peru,,,PE,PE-CAJ,Jaen,c/PE,spa,music,FALSE,,,,https://radiostereotv.com/,https://graph.facebook.com/StereotvOficial/picture?width=320&height=320
 SterkTV.iq,SterkTV,,,IQ,,,c/IQ,kur,,FALSE,,,,,https://i.imgur.com/IbvZcPc.png
 SterkTV.tr,Sterk TV,,,TR,,,c/TR,tur,,FALSE,,,,,
@@ -20161,7 +20161,7 @@ StingrayBigBand.ca,Stingray Big Band,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpa
 StingrayBluegrass.ca,Stingray Bluegrass,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
 StingrayBroadway.ca,Stingray Broadway,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
 StingrayCeltic.ca,Stingray Celtic,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
-StingrayChamberMusic.ca,Stingray Chamber Music,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
+StingrayChamberMusic.ca,Stingray Chamber Music,,,CA,,,c/CA,eng,music,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
 StingrayChillLounge.ca,Stingray Chill Lounge,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
 StingrayChristianPopRock.ca,Stingray Christian Pop & Rock,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
 StingrayClassica.ca,Stingray Classica,,,CA,,,c/CA,eng;deu;spa;fra,music,FALSE,1995-01-01,2021-04-30,,https://classica.stingray.com/,https://od.lk/s/MF8yMzA5ODU0MDBf/Stingray-Classica_450x450.png
@@ -20169,7 +20169,7 @@ StingrayClassicMastersGrandsclassiques.ca,Stingray Classic Masters / Grands clas
 StingrayClassicRB.ca,Stingray Classic R&B,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
 StingrayClassicRock.ca,Stingray Classic Rock,,,CA,,,c/CA,eng,music,FALSE,,,,,https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/Xumo_456x456.png?raw=true
 StingrayCMT.ca,Stingray CMT,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
-StingrayCMusic.ca,Stingray CMusic,,,CA,,,c/CA,eng,,FALSE,2007-02-20,,,http://cmusic.stingray.com/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/c_music.png
+StingrayCMusic.ca,Stingray CMusic,,,CA,,,c/CA,eng,music,FALSE,2007-02-20,,,http://cmusic.stingray.com/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/c_music.png
 StingrayCountry.ca,Stingray Country,,,CA,,,c/CA,eng;fra,,FALSE,2019-05-13,,,https://country.stingray.com/,https://cdn.tvpassport.com/image/station/100x100/stingray.png
 StingrayCountryClassics.ca,Stingray Country Classics,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
 StingrayDanceClubbin.ca,Stingray Dance Clubbin',,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
@@ -20419,7 +20419,7 @@ STIRRWhistleSportsTV.us,STIRR Whistle Sports,,,US,,,c/US,eng,sports,FALSE,,,,,ht
 STIRRWhoseLineIsItAnyway.us,STIRR Whose Line Is It Anyway,,,US,,,c/US,eng,,FALSE,,,,,https://komonews.com/resources/media2/3x1/full/119/center/90/ed57e0b9-7f78-4203-a1d9-b0f542ca856a-small3x1_stirr_1219_epg_whoselineisitanyway_1920x1080.png?cb=eccbc87e4b5ce2fe28308fd9f2a7baf3
 STIRRWipeoutXtra.us,STIRR Wipeout Xtra,,,US,,,c/US,eng,series,FALSE,,,,,https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/WipeoutXtra_190x190.png?raw=true
 STIRRWiseguy.us,STIRR Wiseguy,,,US,,,c/US,eng,,FALSE,,,,,https://komonews.com/resources/media2/3x1/full/119/center/90/5e3b98cb-3de9-4bb2-b775-e487f3a117ca-small3x1_stirr_1219_epg_wiseguy_1920x1080.png?cb=c81e728d9d4c2f636f067f89cc14862c
-STKasiMusic.cn,ST Kasi Music,,,CN,,,c/CN,eng,,FALSE,,,,https://starsat.co.za/channel/st-kasi-music/,https://www.lyngsat.com/logo/tv/ss/st-kasi-music-cn.png
+STKasiMusic.cn,ST Kasi Music,,,CN,,,c/CN,eng,music,FALSE,,,,https://starsat.co.za/channel/st-kasi-music/,https://www.lyngsat.com/logo/tv/ss/st-kasi-music-cn.png
 STKids.cn,ST Kids,,,CN,,,c/CN,eng;por;swa,,FALSE,,,,http://starsat.co.za/channel/st-kids/,https://www.lyngsat.com/logo/tv/ss/st-kids-cn.png
 STKungfu.cn,ST Kungfu,,,CN,,,c/CN,eng;zho;fra,,FALSE,,,,http://starsat.co.za/,https://www.lyngsat.com/logo/tv/ss/star-kungfu-cn.png
 STMoviesPlus.cn,ST Movies Plus,,,CN,,,c/CN,eng,movies,FALSE,,,,http://starsat.co.za/st-movies-plus/,https://www.lyngsat.com/logo/tv/ss/st-movies-plus-cn.png
@@ -20525,7 +20525,7 @@ SudanBukra.sd,Sudan Bukra,,,SD,,,c/SD,ara,,FALSE,,,,,https://i.imgur.com/tkBFpJu
 SudanBukra.us,Sudan Bukra,,,US,,,c/US,ara,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sudan-bukra-us.png
 SudanDrama.sd,Sudan Drama,,,SD,,,c/SD,ara,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sudan_drama_sd.png
 Sudania24TV.sd,Sudania 24 TV,,,SD,,,c/SD,ara,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sudania_24_tv_sd.png
-SudanMusic.sd,Sudan Music,,,SD,,,c/SD,ara,,FALSE,,,,https://www.taseti.net/,https://www.lyngsat.com/logo/tv/ss/sudan-music-sd.png
+SudanMusic.sd,Sudan Music,,,SD,,,c/SD,ara,music,FALSE,,,,https://www.taseti.net/,https://www.lyngsat.com/logo/tv/ss/sudan-music-sd.png
 SudanNow24.sd,Sudan Now 24,,,SD,,,c/SD,ara,,FALSE,,,,https://24mediagroup.net/,https://www.lyngsat.com/logo/tv/ss/sudan-now-24-sa-sd.png
 SudanSport.sd,Sudan Sport,,,SD,,,c/SD,ara,,FALSE,,,,https://www.taseti.net/,https://www.lyngsat.com/logo/tv/ss/sudan-sport-sd.png
 SudanTV.sd,Sudan TV,,,SD,,,c/SD,ara,,FALSE,1962-01-01,,,,https://www.lyngsat.com/logo/tv/ss/sudan-tv-sd.png
@@ -20552,7 +20552,7 @@ SundanceTVSpain.us,Sundance TV Spain,,,US,,,c/US,eng,,FALSE,,,,http://www.sundan
 SundanceTVWest.us,Sundance TV West,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.sundancetv.com/,https://upload.wikimedia.org/wikipedia/en/thumb/6/6c/SundanceTV.svg/512px-SundanceTV.svg.png
 SunLife.in,Sun Life,,,IN,,,c/IN,tam,,FALSE,,,,http://www.sunnetwork.in/,https://www.lyngsat.com/logo/tv/ss/sun_life.png
 SunMarathi.in,Sun Marathi,,,IN,,,c/IN,mar,,FALSE,,,,http://www.sunnetwork.in/,https://upload.wikimedia.org/wikipedia/en/0/0b/Sun_Marathi.png
-SunMusic.in,Sun Music,,,IN,,,c/IN,tam,,FALSE,2004-09-05,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=9&channelname=SUN%20MUSIC&LanguageID=1&Type=1,https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/417_144.png
+SunMusic.in,Sun Music,,,IN,,,c/IN,tam,music,FALSE,2004-09-05,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=9&channelname=SUN%20MUSIC&LanguageID=1&Type=1,https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/417_144.png
 SunnahJalanPastiTV.id,Sunnah Jalan Pasti TV,,,ID,,,c/ID,ind,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sunnah-jalan-pasti-tv-id.png
 SunnaTV.ng,Sunna TV,,,NG,,,c/NG,eng,,FALSE,,,,,https://service.canal-overseas.com/image-api/v1/image/31b50057f490066fa539e79aaf023296
 SunnaTV.sa,Sunna TV,,,SA,,,c/SA,ara,,FALSE,,,,,https://rndcdn.dstv.com/dstvcms/2020/04/21/SunnaTV_4-3_001_xlrg.png
@@ -20746,7 +20746,7 @@ SwayamPrabha6.in,Swayam Prabha 6,,,IN,,,c/IN,hin,,FALSE,,,,https://www.swayampra
 SwayamPrabha7.in,Swayam Prabha 7,,,IN,,,c/IN,hin,,FALSE,,,,https://www.swayamprabha.gov.in/,https://i.imgur.com/XJvHZOD.png
 SwayamPrabha8.in,Swayam Prabha 8,,,IN,,,c/IN,hin,,FALSE,,,,https://www.swayamprabha.gov.in/,https://i.imgur.com/1PkQY5A.png
 SwayamPrabha9.in,Swayam Prabha 9,,,IN,,,c/IN,hin,,FALSE,,,,https://www.swayamprabha.gov.in/,https://i.imgur.com/L50Ab2E.png
-SweetMusic.th,Sweet Music,,,TH,,,c/TH,tha,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sweet-music-th.png
+SweetMusic.th,Sweet Music,,,TH,,,c/TH,tha,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sweet-music-th.png
 SweetTV.gh,Sweet TV,,,GH,,,c/GH,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sweet-tv-gh.png
 Swiss1.ch,Swiss 1,,,CH,,,c/CH,deu,,FALSE,,,,https://www.swiss1.tv/,https://i.imgur.com/7eZh4sP.png
 SwissSportTV.ch,Swiss Sport TV,,,CH,,,c/CH,deu,sports,FALSE,,,,,https://i.imgur.com/TpmkI69.png
@@ -20838,7 +20838,7 @@ Tapesh2Movies.ir,Tapesh 2 Movies,,,IR,,,c/IR,fas,movies,FALSE,,,,,
 TAPSports.ph,TAP Sports,,,PH,,,c/PH,eng,,FALSE,2019-04-14,,,http://tapdmv.com/tap-sports.html,https://www.lyngsat.com/logo/tv/tt/tap-sports-ph.png
 TAPTV.ph,TAP TV,,,PH,,,c/PH,eng,,FALSE,2019-04-14,,,http://tapdmv.com/TapTV.html,https://www.lyngsat.com/logo/tv/tt/tap-tv-ph.png
 TarafTV.ro,Taraf TV,,,RO,,,c/RO,ron,,FALSE,,,,https://www.taraftv.ro/,https://static.cinemagia.ro/img/tv_station/taraf-tv.jpg
-TarangMusic.in,Tarang Music,,,IN,,,c/IN,ori,,FALSE,2009-01-01,,,https://www.tarangplus.in/all-channels/tarang-music,https://www.lyngsat.com/logo/tv/tt/tarang_music_in.png
+TarangMusic.in,Tarang Music,,,IN,,,c/IN,ori,music,FALSE,2009-01-01,,,https://www.tarangplus.in/all-channels/tarang-music,https://www.lyngsat.com/logo/tv/tt/tarang_music_in.png
 TarangTV.in,Tarang TV,ତରଙ୍ଗ ଭିଜନ୍,,IN,,,c/IN,ori,,FALSE,2008-01-01,,,https://www.tarangplus.in/all-channels/tarang-tv,https://i.imgur.com/4uvywdf.png
 TarimTV.tr,Tarim TV,,,TR,,,c/TR,tur,,FALSE,,,,https://www.tarimtv.gov.tr/,https://izmottvsc23.tvplus.com.tr:33207/CPS/images/universal/film/poster/fileEntity/20180714/001300/XTV100000888/218e974e-f34d-4807-9d5b-f9a157d413d6.png
 Taroteame.es,Tarotéame,,,ES,,,c/ES,spa,religious,FALSE,,,,,https://i.imgur.com/OgEeQzl.jpg
@@ -20853,7 +20853,7 @@ TastemadeFrance.us,Tastemade France,,,US,,,c/FR,fra,cooking,FALSE,,,,,https://i.
 TastemadeGermany.us,Tastemade Germany,,,US,,,c/DE,deu,cooking,FALSE,,,,,https://i.imgur.com/8s6aRwv.png
 TastemadeTravel.us,Tastemade Travel,,,US,,,c/US,eng,cooking,FALSE,,,,,https://i.imgur.com/8s6aRwv.png
 TastemadeUK.us,Tastemade UK,,,US,,,c/UK,eng,cooking,FALSE,,,,https://pluto.tv/en/live-tv/tastemade-gb,https://images.pluto.tv/channels/6086d4fb828c94000771339e/colorLogoPNG.png
-TatarMusicTV.ru,Tatar Music TV,,,RU,,,c/RU,rus,,FALSE,,,,http://tmtv.tatar/,https://www.lyngsat.com/logo/tv/tt/tatar-music-tv-ru.png
+TatarMusicTV.ru,Tatar Music TV,,,RU,,,c/RU,rus,music,FALSE,,,,http://tmtv.tatar/,https://www.lyngsat.com/logo/tv/tt/tatar-music-tv-ru.png
 Tatarstan24.ru,Tatarstan24,,,RU,,,c/RU,rus,,FALSE,,,,,https://i.imgur.com/iLBdrIT.png
 TataSky4K.in,Tata Sky 4K,,,IN,,,c/IN,hin,,FALSE,,,,http://www.tatasky.com/wps/portal/TataSky/campaigns/4k,https://www.lyngsat.com/logo/tv/tt/tata_sky_in_uhd_4k.png
 TataSkyAradhana.in,Tata Sky Aradhana,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-services-spiritual/tata-sky-aradhana,https://www.lyngsat.com/logo/tv/tt/tata-sky-aradhana-in.png
@@ -20872,7 +20872,7 @@ TataSkyFunLearn.in,Tata Sky Fun Learn,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tata
 TataSkyIbaadat.in,Tata Sky Ibaadat,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-services-spiritual/tata-sky-ibaadat,https://www.lyngsat.com/logo/tv/tt/tata-sky-ibaadat-in.png
 TataSkyKidsCinema.in,Tata Sky Kids Cinema,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-kids-cinema,https://www.lyngsat.com/logo/tv/tt/tata-sky-kids-cinema-in.png
 TataSkyMarathiCinema.in,Tata Sky Marathi Cinema,,,IN,,,c/IN,mar,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-services-regional/tata-sky-marathi-cinema,https://www.lyngsat.com/logo/tv/tt/tata-sky-marathi-cinema-in.png
-TataSkyMusicPlus.in,Tata Sky Music+,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/footerpages/mediaroom/TataSkyMusicPlus/,https://www.lyngsat.com/logo/tv/tt/tata-sky-music-plus-in.png
+TataSkyMusicPlus.in,Tata Sky Music+,,,IN,,,c/IN,hin,music,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/footerpages/mediaroom/TataSkyMusicPlus/,https://www.lyngsat.com/logo/tv/tt/tata-sky-music-plus-in.png
 TataSkyShortsTV.in,Tata Sky ShortsTV,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-services-entertainment/tata-sky-shorts-tv,https://www.lyngsat.com/logo/tv/tt/tata-sky-shorts-tv-in.png
 TataSkyTheatre.in,Tata Sky Theatre,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/dth/services/entertainment/theatre,https://www.lyngsat.com/logo/tv/tt/tata-sky-theatre-in.png
 TataSkyVideoshala.in,Tata Sky Videoshala,,,IN,,,c/IN,hin,,FALSE,,,,http://www.tatasky.com/,https://www.lyngsat.com/logo/tv/tt/tata-sky-videoshala-in.png
@@ -21590,7 +21590,7 @@ TMHTV.us,TMH TV,,,US,,,c/US,tir,,FALSE,,,,https://tmhtv.org/,https://www.lyngsat
 TMSTelevizijaTelemark.rs,TMS Televizija Telemark,,,RS,,,c/RS,srp,,FALSE,,,,,https://mts.rs/oec/images/tv_channels/1024bbc343b56e832ba4fc7c99b53d06.png
 TMT.tj,TMT,,,TJ,,,c/TJ,tgk,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/tmt-tj.png
 TMTV.mn,TM TV,,,MN,,,c/MN,mon,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/tm-tv-mn.png
-TMusic.id,T Music,,,ID,,,c/ID,ind,,FALSE,,,,https://www.transvision.co.id/,https://www.lyngsat.com/logo/tv/tt/t_musik_id.png
+TMusic.id,T Music,,,ID,,,c/ID,ind,music,FALSE,,,,https://www.transvision.co.id/,https://www.lyngsat.com/logo/tv/tt/t_musik_id.png
 TMZ.us,TMZ,,,US,,,c/US,eng,entertainment,FALSE,,,,,https://i.imgur.com/wzBD6fy.png
 TN.ar,TN,,,AR,,,c/AR,spa,,FALSE,,,,https://tn.com.ar/,https://cdn.mitvstatic.com/channels/ar_tn_m.png
 TN23.gt,TN 23,,,GT,,,c/GT,spa,,FALSE,,,,https://www.chapintv.com/,https://www.lyngsat-logo.com/logo/tv/tt/tn23-gt.png
@@ -21618,7 +21618,7 @@ TNTFilm.us,TNT Film,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.hd-plus.de/senderlogo
 TNTInternational.ru,TNT International,,,RU,,,c/RU,rus,entertainment,FALSE,,,,http://tnt-online.ru/,https://avatars.mds.yandex.net/get-tv-channel-logos/51763/2a00000162f2e7fc95aee02fbc1efd20c3d6/214x121
 TNTInternationalEurope.ru,TNT International Europe,,,RU,,,c/RU,rus,,FALSE,,,,http://tnt-online.ru/,https://www.lyngsat.com/logo/tv/tt/tnt-ru.png
 TNTMexico.mx,TNT Mexico,,,MX,,,c/MX,spa;eng,,FALSE,,,,http://www.tntla.com/,https://cdn.mitvstatic.com/channels/mx_tnt_m.png
-TNTMusic.ru,TNT Music,,,RU,,,c/RU,rus,,FALSE,,,,https://tntmusic.ru/,https://www.magticom.ge/images/channels/MjAxOC8wOS8xMC81M2IyOTljZi02MmUyLTRkZjYtYWQzNy1mNzgxYmFjZGZhMWQuanBn.jpg
+TNTMusic.ru,TNT Music,,,RU,,,c/RU,rus,music,FALSE,,,,https://tntmusic.ru/,https://www.magticom.ge/images/channels/MjAxOC8wOS8xMC81M2IyOTljZi02MmUyLTRkZjYtYWQzNy1mNzgxYmFjZGZhMWQuanBn.jpg
 TNTPoland.us,TNT Poland,,,US,,,c/US,eng,,FALSE,,,,,https://ocdn.eu/ptv2-images-transforms/1/tZBkrtsb2dvLW1pZ3JhdGVkL3dhcm5lci10di5wbmeSlQJkAMLDlQIAKMLD
 TNTSerie.us,TNT Serie,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.hd-plus.de/senderlogos/bright-cropped/22615-2.png
 TNTSeriesArgentina.ar,TNT Series Argentina,,,AR,,,c/AR,eng;spa,,FALSE,,,,https://www.canaltnt.es/,https://imagenes.gatotv.com/logos/canales/oscuros/tnt_series-mediano.png
@@ -21880,7 +21880,7 @@ TrueFilmHD.th,True Film HD,,,TH,,,c/TH,tha,,FALSE,,,,http://truevisionsgroup.tru
 TrueFilmHD2.th,True Film HD 2,,,TH,,,c/TH,tha,,FALSE,,,,http://truevisionsgroup.truecorp.co.th/,https://www.lyngsat.com/logo/tv/tt/true-film-hd-2-th.png
 TrueInside.th,True Inside,,,TH,,,c/TH,tha;eng,,FALSE,,,,http://truevisionsgroup.truecorp.co.th/,https://www.lyngsat.com/logo/tv/tt/true_inside.png
 TrueMovieHits.th,True Movie Hits,,,TH,,,c/TH,tha,movies,FALSE,,,,http://truevisionsgroup.truecorp.co.th/,https://cms.dmpcdn.com/livetv/2017/10/18/379fa28c-251c-46d6-a1dd-e008c2ec54d0.png
-TrueMusic.th,True Music,,,TH,,,c/TH,tha,,FALSE,,,,http://music.truelife.com/,https://www.lyngsat.com/logo/tv/tt/true_music.png
+TrueMusic.th,True Music,,,TH,,,c/TH,tha,music,FALSE,,,,http://music.truelife.com/,https://www.lyngsat.com/logo/tv/tt/true_music.png
 TruePlookpanya.th,True Plookpanya,,,TH,,,c/TH,tha,,FALSE,,,,,https://cms.dmpcdn.com/livetv/2018/12/17/1d7dc8be-49df-46c7-ac16-4847229c6ab9.png
 TruePremiereFootballHD1.th,True Premiere Football HD 1,,,TH,,,c/TH,tha,,FALSE,,,,http://truevisionsgroup.truecorp.co.th/,https://www.lyngsat.com/logo/tv/tt/true-premiere-football-hd-1-th.png
 TruePremiereFootballHD2.th,True Premiere Football HD 2,,,TH,,,c/TH,tha,,FALSE,,,,http://truevisionsgroup.truecorp.co.th/,https://www.lyngsat.com/logo/tv/tt/true-premiere-football-hd-2-th.png
@@ -21961,7 +21961,7 @@ TulalipTV.us,Tulalip TV,,,US,,,c/US,eng,,FALSE,,,,,https://i.imgur.com/2I3OG2n.p
 TumainiTV.tz,Tumaini TV,,,TZ,,,c/TZ,swa,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/tumaini-tv-tz.png
 TumpisTV.pe,Tumpis TV,,,PE,PE-TUM,Tumbes,c/PE,spa,,FALSE,,,,https://tumpistv.com/,https://graph.facebook.com/tumpisperu/picture?width=320&height=320
 Tunes6.in,Tunes 6,,,IN,,,c/IN,tam,music,FALSE,,,,,https://i.imgur.com/ClpXKNR.png
-Tunes6Music.in,Tunes 6 Music,,,IN,,,c/IN,hin,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/tunes-6-music-in.png
+Tunes6Music.in,Tunes 6 Music,,,IN,,,c/IN,hin,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/tunes-6-music-in.png
 TuningSpain.us,Tuning Spain,,,US,,,c/ES,spa,,FALSE,,,,https://pluto.tv/en/live-tv/tuning-es,https://images.pluto.tv/channels/6076c74daa05ac0007d0eb07/colorLogoPNG.png
 TunisieImmobilierTV.tn,Tunisie Immobilier TV,,,TN,,,c/TN,ara,travel,FALSE,,,,,https://i.imgur.com/cZM2t0P.png
 TunisnaTV.tn,Tunisna TV,,,TN,,,c/TN,ara,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/tunisna-tv-tn.png
@@ -23125,7 +23125,7 @@ UCV3TV.cl,UCV3 TV,,,CL,,,c/CL,spa,,FALSE,,,,,https://vignette.wikia.nocookie.net
 UCVTV.cl,UCV TV,,,CL,,,c/CL,spa,,FALSE,,,,,https://cdn.mitvstatic.com/channels/cl_ucv-tv_m.png
 UdayaComedy.in,Udaya Comedy,,,IN,,,c/IN,kan,,FALSE,,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=30&channelname=Udaya%20Comedy&LanguageID=3&Type=3,https://www.lyngsat.com/logo/tv/ss/sun_udaya_comedy_in.png
 UdayaMovies.in,Udaya Movies,,,IN,,,c/IN,kan,movies,FALSE,2000-05-25,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=28&channelname=UDAYA%20MOVIES&LanguageID=3&Type=3,https://www.lyngsat.com/logo/tv/ss/sun_udaya_movies_in.png
-UdayaMusic.in,Udaya Music,,,IN,,,c/IN,kan,,FALSE,,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=29&channelname=UDAYA%20MUSIC&LanguageID=3&Type=3,https://www.lyngsat.com/logo/tv/ss/sun_udaya_music.png
+UdayaMusic.in,Udaya Music,,,IN,,,c/IN,kan,music,FALSE,,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=29&channelname=UDAYA%20MUSIC&LanguageID=3&Type=3,https://www.lyngsat.com/logo/tv/ss/sun_udaya_music.png
 UdayaNews.in,Udaya News,,,IN,,,c/IN,kan,,FALSE,1998-01-01,2019-02-01,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=31&channelname=UDAYA%20NEWS&LanguageID=3&Type=3,https://www.lyngsat.com/logo/tv/ss/sun_udaya_news.png
 UdayaTV.in,Udaya TV,,,IN,,,c/IN,kan,,FALSE,,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=27&channelname=UDAYA%20TV&LanguageID=3&Type=3,https://i.imgur.com/CdS5QCY.png
 UDG44.mx,UDG44 TV,,,MX,,,c/MX,spa,general,FALSE,,,,,https://graph.facebook.com/UDGTV44/picture?width=320&height=320
@@ -23484,7 +23484,7 @@ VideolandONTV.tw,Videoland ONTV,,,TW,,,c/TW,zho,,FALSE,,,,http://ontv.videoland.
 VideolandSports.tw,Videoland Sports,,,TW,,,c/TW,zho;eng,,FALSE,,,,http://sport.videoland.com.tw/,https://www.lyngsat.com/logo/tv/vv/videoland_sport.png
 Videolina.it,Videolina,,,IT,,,c/IT,ita,,FALSE,,,,https://www.videolina.it/,https://www.lyngsat.com/logo/tv/vv/videolina_it.png
 VideolinaSardegna.it,Videolina Sardegna,,,IT,,,c/IT,ita,,FALSE,,,,,https://www.dinamobasket.com/sites/default/files/videolina2012_tr.png
-VideoMusicaTV.cr,Video Musica TV,,,CR,,,c/CR,spa,,FALSE,,,,,https://www.lyngsat.com/logo/tv/vv/video_musica_tv_cr.png
+VideoMusicaTV.cr,Video Musica TV,,,CR,,,c/CR,spa,music,FALSE,,,,,https://www.lyngsat.com/logo/tv/vv/video_musica_tv_cr.png
 Videonovara.it,Videonovara,,,IT,,,c/IT,ita,,FALSE,,,,,https://i.imgur.com/AJAYgyN.png
 VideoRola.it,Video Rola,,,IT,,,c/IT,ita,music,FALSE,,,,,https://i.imgur.com/MWBk2hQ.jpg
 VideoRola.mx,Video Rola,,,MX,,,c/MX,spa,,FALSE,,,,https://www.videorola.com/,https://www.directv.com/images/logos/channels/dark/large/133.png
@@ -23620,7 +23620,7 @@ VOX2.ir,VOX2,,,IR,,,c/IR,fas,,FALSE,,,,,https://i.imgur.com/DN5wvFg.jpg
 VoxAfrica.uk,VoxAfrica,,,UK,,,c/UK,fra;eng,,FALSE,,,,http://www.voxafrica.com/,https://upload.wikimedia.org/wikipedia/fr/thumb/6/63/Voxafrica-1.png/512px-Voxafrica-1.png
 VoxAustria.at,Vox Austria,,,AT,,,c/AT,deu,,FALSE,,,,https://www.vox.de/,https://tvheute.at/images/channels/VOXA-1641469513-01.png
 VoxGermany.de,Vox Germany,,,DE,,,c/DE,deu,,FALSE,,,,https://www.vox.de/,https://i.imgur.com/Am30qwp.png
-VoxMusicTV.pl,Vox Music TV,,,PL,,,c/PL,pol,,FALSE,,,,https://www.eska.tv/,https://ocdn.eu/ptv2-images-transforms/1/rPgkr5sb2dvLW1pZ3JhdGVkL3ZveC1tdXNpYy10di5wbmeSlQJkAMLDlQIAKMLD
+VoxMusicTV.pl,Vox Music TV,,,PL,,,c/PL,pol,music,FALSE,,,,https://www.eska.tv/,https://ocdn.eu/ptv2-images-transforms/1/rPgkr5sb2dvLW1pZ3JhdGVkL3ZveC1tdXNpYy10di5wbmeSlQJkAMLDlQIAKMLD
 VoxSchweiz.ch,Vox Schweiz,,,CH,,,c/CH,deu,,FALSE,,,,https://www.vox.de/,https://www.lyngsat.com/logo/tv/vv/vox_de.png
 VoxTV.cg,Vox TV,,,CG,,,c/CG,fra,,FALSE,,,,https://www.vox.cg/,https://service.canal-overseas.com/image-api/v1/image/f78eac3b621ae772998467344391aae7
 Voxup.de,Voxup,,,DE,,,c/DE,deu,,FALSE,,,,https://www.vox.de/cms/voxup.html,https://i.imgur.com/9C45EKV.png
@@ -28917,7 +28917,7 @@ ZeeZest.in,Zee Zest,,,IN,,,c/IN,hin;eng;tam;mar,,FALSE,2001-11-01,,,https://www.
 Zelig.it,Zelig,,,IT,,,c/IT,ita,,FALSE,,,,https://www.areazelig.it/,https://www.lyngsat.com/logo/tv/zz/zelig-it.png
 Zenebutik.hu,Zenebutik,,,HU,,,c/HU,hun,,FALSE,,,,https://tv2play.hu/zenebutik,https://www.lyngsat.com/logo/tv/zz/zenebutik_hu.png
 ZeriTV.xk,Zeri TV,,,XK,,,c/XK,sqi,,FALSE,,,,,https://i.imgur.com/UVFCGWS.jpg
-ZerounoTVMusic.it,Zerouno TV Music,,,IT,,,c/IT,ita,,FALSE,,,,,https://www.zerounotvmusic.it/wp-content/uploads/2019/09/cropped-Logo-Zerouno-Tv-Music-per-sito-1-1.png
+ZerounoTVMusic.it,Zerouno TV Music,,,IT,,,c/IT,ita,music,FALSE,,,,,https://www.zerounotvmusic.it/wp-content/uploads/2019/09/cropped-Logo-Zerouno-Tv-Music-per-sito-1-1.png
 ZerounoTVNews.it,Zerouno TV News,,,IT,,,c/IT,ita,,FALSE,,,,,https://i.imgur.com/S4btX3B.png
 Zeste.ca,Zeste,,,CA,,,c/CA,fra,,FALSE,2010-03-22,,,http://www.zeste.tv/,https://cdn.tvpassport.com/image/station/100x100/zeste-2021.png
 ZETCBollywood.in,Z ETC Bollywood,,,IN,,,c/IN,hin,,FALSE,,,,http://www.etc.in/,https://www.lyngsat.com/logo/tv/zz/z-etc-bollywood-in.png

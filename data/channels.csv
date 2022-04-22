@@ -73,13 +73,13 @@ id,name,native_name,network,country,subdivision,city,broadcast_area,languages,ca
 24Horas.cl,24 Horas,,,CL,,,c/CL,spa,,FALSE,,,,https://www.24horas.cl/,https://cdn.mitvstatic.com/channels/cl_tvn-24-h_m.png
 24HourFreeMovies.us,24 Hour Free Movies,,,US,,,c/US,eng,movies,FALSE,,,,,https://i.imgur.com/FiTdDp1.png
 24Kanal.ua,24 Kanal,,,UA,,,c/UA;c/RU,ukr,news,FALSE,,,,https://24tv.ua/,https://www.lyngsat.com/logo/tv/num/24-kanal-ua.png
-24KitchenAdria.us,24 Kitchen Adria,,,US,,,c/US,eng,,FALSE,,,,,https://tv2go.t-2.net/static/media/img/channels/dark/ios/small/retina/145635.png
-24KitchenBulgaria.bg,24 Kitchen Bulgaria,,,BG,,,c/BG,bul,,FALSE,,,,https://www.24kitchen.bg/,https://i.dir.bg/tv/imgs/ch_logos/2012/03/05/te_170916.jpg
-24KitchenHrvatska.hr,24 Kitchen Hrvatska,,,HR,,,c/HR,eng;hrv,,FALSE,,,,https://www.24kitchen.com.hr/,https://i.imgur.com/URxBUzS.png
-24KitchenNederland.nl,24 Kitchen Nederland,,,NL,,,c/NL,nld,,FALSE,,,,http://www.24kitchen.nl/,https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/24Kitchen.png/512px-24Kitchen.png
-24KitchenPortugal.pt,24 Kitchen Portugal,,,PT,,,c/PT,por,,FALSE,,,,https://www.24kitchen.pt/,https://www.meo.pt/PublishingImages/canais/24-kitchen.png
-24KitchenSrbija.rs,24 Kitchen Srbija,,,RS,,,c/RS,srp;eng,,FALSE,,,,https://www.24kitchen.rs/,https://mts.rs/oec/images/tv_channels/fffd745369f4a2cd2ca91350c1bf8e9e.png
-24KitchenTurkey.us,24 Kitchen Turkey,,,US,,,c/US,eng,,FALSE,,,,https://www.24kitchen.com.tr/,https://www.dsmart.com.tr/epg/images/0x50/5d9dc8dfcfef0b5db33df652
+24KitchenAdria.us,24 Kitchen Adria,,,US,,,c/US,eng,cooking,FALSE,,,,,https://tv2go.t-2.net/static/media/img/channels/dark/ios/small/retina/145635.png
+24KitchenBulgaria.bg,24 Kitchen Bulgaria,,,BG,,,c/BG,bul,cooking,FALSE,,,,https://www.24kitchen.bg/,https://i.dir.bg/tv/imgs/ch_logos/2012/03/05/te_170916.jpg
+24KitchenHrvatska.hr,24 Kitchen Hrvatska,,,HR,,,c/HR,eng;hrv,cooking,FALSE,,,,https://www.24kitchen.com.hr/,https://i.imgur.com/URxBUzS.png
+24KitchenNederland.nl,24 Kitchen Nederland,,,NL,,,c/NL,nld,cooking,FALSE,,,,http://www.24kitchen.nl/,https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/24Kitchen.png/512px-24Kitchen.png
+24KitchenPortugal.pt,24 Kitchen Portugal,,,PT,,,c/PT,por,cooking,FALSE,,,,https://www.24kitchen.pt/,https://www.meo.pt/PublishingImages/canais/24-kitchen.png
+24KitchenSrbija.rs,24 Kitchen Srbija,,,RS,,,c/RS,srp;eng,cooking,FALSE,,,,https://www.24kitchen.rs/,https://mts.rs/oec/images/tv_channels/fffd745369f4a2cd2ca91350c1bf8e9e.png
+24KitchenTurkey.us,24 Kitchen Turkey,,,US,,,c/US,eng,cooking,FALSE,,,,https://www.24kitchen.com.tr/,https://www.dsmart.com.tr/epg/images/0x50/5d9dc8dfcfef0b5db33df652
 24Krim.ru,24 Krim,,,RU,,,c/RU,rus,,FALSE,,,,,https://avatars.mds.yandex.net/get-tv-channel-logos/27485/2a0000016b897258c01ac6189d603aed667c/260x160
 24News.in,24 News,,,IN,,,c/IN,mal,news,FALSE,,,,https://www.twentyfournews.com/,https://www.lyngsat.com/logo/tv/num/24_news_in.png
 24NewsHD.pk,24 News HD,,,PK,,,c/PK,urd,news,FALSE,2015-01-01,,,https://www.24newshd.tv/,https://www.lyngsat.com/logo/tv/cc/channel_24_pk.png
@@ -4501,7 +4501,7 @@ CTVComedyChannelWest.ca,CTV Comedy Channel West,,,CA,,,c/CA,eng,,FALSE,,,,https:
 CTVDrama.ca,CTVDrama,,,CA,,,c/CA,eng,,FALSE,,,,,https://myhealthhub.frontline.ca/myhealthhubtv/channellogos/CTV_drama_channel.png
 CTVDramaChannel.ca,CTV Drama Channel,,,CA,,,c/CA,eng,,FALSE,1995-01-01,,,https://www.ctv.ca/drama,https://cdn.tvpassport.com/image/station/100x100/ctv-drama.png
 CTVEdmonton.ca,CTV Edmonton,,,CA,,,c/CA,eng,,FALSE,,,,https://edmonton.ctvnews.ca/,https://www.lyngsat.com/logo/tv/cc/ctv-ca.png
-CTVKitchener.ca,CTV Kitchener,,,CA,,,c/CA,eng,,FALSE,,,,http://kitchener.ctvnews.ca/,https://www.lyngsat.com/logo/tv/cc/ctv-ca.png
+CTVKitchener.ca,CTV Kitchener,,,CA,,,c/CA,eng,cooking,FALSE,,,,http://kitchener.ctvnews.ca/,https://www.lyngsat.com/logo/tv/cc/ctv-ca.png
 CTVLife.ca,CTV Life,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ctv-life.png
 CTVLifeChannel.ca,CTV Life Channel,,,CA,,,c/CA,eng,,FALSE,,,,https://www.ctv.ca/life,https://www.lyngsat.com/logo/tv/cc/ctv-life-channel-ca.png
 CTVMontreal.ca,CTV Montreal,,,CA,,,c/CA,eng,,FALSE,,,,http://montreal.ctvnews.ca/,https://www.lyngsat.com/logo/tv/cc/ctv-ca.png
@@ -7183,7 +7183,7 @@ HeleneetlesgarconsFrance.us,Hélène et les garçons France,,,US,,,c/FR,fra,seri
 HellenicTV.gr,Hellenic TV,,,GR,,,c/GR,ell,,FALSE,1990-12-09,,,https://www.hellenictv.net/,
 Hello.my,Hello,,,MY,,,c/MY,eng,,FALSE,,,,,https://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/702_300.png
 HelloTV.br,Hello! TV,,,BR,,,c/BR,por,,FALSE,,,,http://baitaconteudo.com/canais/,https://www.lyngsat.com/logo/tv/hh/hello-tv-br.png
-HellsKitchenenespanol.us,Hell's Kitchen en español,,,US,,,c/US,eng,,FALSE,,,,https://pluto.tv/en/live-tv/hells-kitchen-en-espanol,https://images.pluto.tv/channels/60492b2794116800073e32dc/colorLogoPNG.png
+HellsKitchenenespanol.us,Hell's Kitchen en español,,,US,,,c/US,eng,cooking,FALSE,,,,https://pluto.tv/en/live-tv/hells-kitchen-en-espanol,https://images.pluto.tv/channels/60492b2794116800073e32dc/colorLogoPNG.png
 HellsKitchenUK.us,Hell's Kitchen UK,,,US,,,c/UK,eng,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/hells-kitchen-gb,https://images.pluto.tv/channels/5e6f38792075160007d85823/colorLogoPNG.png
 HelvetiaOneTV.ch,Helvetia One TV,,,CH,,,c/CH,deu,,FALSE,,,,,https://i.imgur.com/Vy2m0HD.png
 HemaTV.ba,Hema TV,,,BA,,,c/BA,bos,,FALSE,2008-01-01,,,,https://tv2go.t-2.net/static/media/img/channels/dark/ios/small/retina/145580.png
@@ -10495,7 +10495,7 @@ KISUDT1.us,KISU-DT1,,PBS,US,US-ID,Pocatello,s/US-ID,eng,,FALSE,,,,http://idptv.s
 KISUDT2.us,KISU-DT2,,PBS Plus,US,US-ID,Pocatello,s/US-ID,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/pbs.png
 KISUDT3.us,KISU-DT3,,Learn,US,US-ID,Pocatello,s/US-ID,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/pbs.png
 KISUDT4.us,KISU-DT4,,PBS World,US,US-ID,Pocatello,s/US-ID,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/pbsworldchannel.png
-KitchenTV.rs,Kitchen TV,,,RS,,,c/RS,srp,,FALSE,,,,http://kitchentv.rs/,https://mtel.ba/oec/images/tv_channels/ca89ef702ecf53fa21f2ffa819bf76ed.png
+KitchenTV.rs,Kitchen TV,,,RS,,,c/RS,srp,cooking,FALSE,,,,http://kitchentv.rs/,https://mtel.ba/oec/images/tv_channels/ca89ef702ecf53fa21f2ffa819bf76ed.png
 KITEVICTERS.in,KITE VICTERS,,,IN,,,c/IN,mal,,FALSE,,,,https://victers.kite.kerala.gov.in/,https://www.lyngsat.com/logo/tv/kk/kite-victers-in.png
 KITUDT1.us,KITU-DT1,,TBN,US,US-TX,Beaumont,s/US-TX,eng,,FALSE,,,,http://www.communityedtv.org/,https://cdn.tvpassport.com/image/station/100x100/tbn.png
 KITUDT2.us,KITU-DT2,,Hillsong,US,US-TX,Beaumont,s/US-TX,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/hillsong.png

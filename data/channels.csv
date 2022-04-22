@@ -3047,10 +3047,10 @@ CanalPlusActionOuest.fr,Canal + Action Ouest,,,FR,,,c/FR,fra,,FALSE,,,,https://w
 CanalPlusCaledonie.nc,Canal + Calédonie,,,NC,,,c/NC,fra,,FALSE,,,,http://www.canalplus-caledonie.com/,https://www.lyngsat.com/logo/tv/cc/canalplus_fr_caledonie_tv.png
 CanalPlusCaraibes.fr,Canal + Caraïbes,,,FR,,,c/FR,fra,,FALSE,,,,http://www.canalplus-caraibes.com/,https://service.canal-overseas.com/image-api/v1/image/702e588188caa19c38c438d14bfc8870
 CanalPlusChaTate.fr,Canal + Cha Tate,,,FR,,,c/FR,mya,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/canal-plus-chatate-myanmar-fr-mm.png
-CanalPlusCinemaCentre.fr,Canal + Cinéma Centre,,,FR,,,c/FR,fra,,FALSE,,,,http://www.canalplus.fr/pid1748-c-cinema.html,https://service.canal-overseas.com/image-api/v1/image/4c3cbfb7ef61ca387c5987965a835451
-CanalPlusCinemaFrance.fr,Canal + Cinéma France,,,FR,,,c/FR,fra,,FALSE,,,,http://www.canalplus.fr/pid1748-c-cinema.html,https://service.canal-overseas.com/image-api/v1/image/f77d9e81d75535cbf80c3b49ba9a9578
-CanalPlusCinemaOuest.fr,Canal + Cinéma Ouest,,,FR,,,c/FR,fra,,FALSE,,,,http://www.canalplus.fr/pid1748-c-cinema.html,https://service.canal-overseas.com/image-api/v1/image/7fc062349307c58144d1ddf081d69e29
-CanalPlusCinemaReunion.fr,Canal + Cinéma Réunion,,,FR,,,c/FR,fra,,FALSE,,,,http://www.canalplus.fr/pid1748-c-cinema.html,https://service.canal-overseas.com/image-api/v1/image/f77d9e81d75535cbf80c3b49ba9a9578
+CanalPlusCinemaCentre.fr,Canal + Cinéma Centre,,,FR,,,c/FR,fra,movies,FALSE,,,,http://www.canalplus.fr/pid1748-c-cinema.html,https://service.canal-overseas.com/image-api/v1/image/4c3cbfb7ef61ca387c5987965a835451
+CanalPlusCinemaFrance.fr,Canal + Cinéma France,,,FR,,,c/FR,fra,movies,FALSE,,,,http://www.canalplus.fr/pid1748-c-cinema.html,https://service.canal-overseas.com/image-api/v1/image/f77d9e81d75535cbf80c3b49ba9a9578
+CanalPlusCinemaOuest.fr,Canal + Cinéma Ouest,,,FR,,,c/FR,fra,movies,FALSE,,,,http://www.canalplus.fr/pid1748-c-cinema.html,https://service.canal-overseas.com/image-api/v1/image/7fc062349307c58144d1ddf081d69e29
+CanalPlusCinemaReunion.fr,Canal + Cinéma Réunion,,,FR,,,c/FR,fra,movies,FALSE,,,,http://www.canalplus.fr/pid1748-c-cinema.html,https://service.canal-overseas.com/image-api/v1/image/f77d9e81d75535cbf80c3b49ba9a9578
 CanalPlusDecale.fr,Canal + Décalé,,,FR,,,c/FR,fra,,FALSE,,,,https://www.canalplus.com/,https://www.programme-tv.net/imgre/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2F16cd3a4d0f517458.2Epng/80x80/quality/80/canalplus-decale.png
 CanalPlusDocs.fr,Canal + Docs,,,FR,,,c/FR,fra,,FALSE,,,,https://www.canalplus.com/,https://proxymedia.woopic.com/api/v1/images/553%2Flogos%2Fv2%2Flogos%2Flivetv_canalplus_docs%2F20210902_172912%2FwebTVLogo%2Flogo_180x96.png
 CanalPlusDokument.pl,Canal + Dokument,,,PL,,,c/PL,pol,,FALSE,,,,https://www.canalplus.pl/dokument,https://ocdn.eu/ptv2-images-transforms/1/3DsktkgbG9nby1taWdyYXRlZC9jYW5hbC1kb2t1bWVudC5wbmeSlQJkAMLDlQIAKMLD
@@ -20920,7 +20920,7 @@ TCMArgentina.ar,TCM Argentina,,,AR,,,c/AR,spa;eng,,FALSE,,,,,https://cdn.mitvsta
 TCMBrasil.br,TCM Brasil,,,BR,,,c/BR,por;eng;spa,,FALSE,,,,,https://cdn.mitvstatic.com/channels/br_tcm_m.png
 TCMCanada.ca,TCM Canada,,,CA,,,c/CA,eng;spa,,FALSE,,,,https://www.tcm.com/,https://cdn.tvpassport.com/image/station/100x100/tcm.png
 TCMCentralEasternEurope.us,TCM Central & Eastern Europe,,,US,,,c/US,eng,,FALSE,,,,,https://www.sms.cz/kategorie/televize/bmp/loga/velka/TCM.png
-TCMCinema.fr,TCM Cinéma,,,FR,,,c/FR,fra;eng,,FALSE,,,,https://www.canalplus.com/chaines/tcm-cinema,https://www.programme-tv.net/imgre/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2F1380c434ba314175.2Epng/80x80/quality/80/tcm-cinema.png
+TCMCinema.fr,TCM Cinéma,,,FR,,,c/FR,fra;eng,movies,FALSE,,,,https://www.canalplus.com/chaines/tcm-cinema,https://www.programme-tv.net/imgre/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2F1380c434ba314175.2Epng/80x80/quality/80/tcm-cinema.png
 TCMEast.us,TCM East,,,US,,,c/US,eng,classic,FALSE,,,,,https://i.imgur.com/sbrSfhC.jpg
 TCMMovies.uk,TCM Movies,,,UK,,,c/UK,eng,movies,FALSE,1999-10-15,,,http://www.tcmuk.tv/,https://www.lyngsat.com/logo/tv/tt/tcm-movies-us-uk.png
 TCMMoviesPlus1.uk,TCM Movies +1,,,UK,,,c/UK,eng,movies,FALSE,,,,http://www.tcmuk.tv/,https://www.lyngsat.com/logo/tv/tt/tcm-movies-plus1-us-uk.png

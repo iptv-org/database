@@ -2609,12 +2609,12 @@ BrianTV.la,Brian TV,,,LA,,,c/LA,vie,,FALSE,,,,,
 BrideTV.ng,Bride TV,,,NG,,,c/NG,eng,,FALSE,,,,https://bridetv.org/,https://www.lyngsat.com/logo/tv/bb/bride_tv_ng.png
 BridezillasUK.us,Bridezillas UK,,,US,,,c/UK,eng,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/bridezillas-gb,https://images.pluto.tv/channels/60c8807f46b11c0007b800a9/colorLogoPNG.png
 BridgeTV.ru,Bridge TV,,,RU,,,c/RU,rus,music,FALSE,,,,https://bridgetv.ru/,https://i.imgur.com/L71iY9t.png
-BridgeTVClassic.ru,Bridge TV Classic,,,RU,,,c/RU,rus,,FALSE,,,,https://bridgetv.ru/,https://i.imgur.com/YmL9OAN.png
-BridgeTVDeluxe.ru,Bridge TV Deluxe,,,RU,,,c/RU,rus,,FALSE,,,,https://bridgetv.ru/,https://i.imgur.com/XoK6iDf.png
-BridgeTVHits.ru,Bridge TV Hits,,,RU,,,c/RU,rus,,FALSE,,,,https://bridgetv.ru/,https://i.imgur.com/2hYQSC6.png
-BridgeTVQazaqstan.ru,Bridge TV Qazaqstan,,,RU,,,c/RU,rus,,FALSE,,,,,https://i.imgur.com/pdFXfUb.png
-BridgeTVRusskiyHit.ru,Bridge TV Russkiy Hit,,,RU,,,c/RU,rus,,FALSE,,,,https://bridgetv.ru/,https://avatars.mds.yandex.net/get-tv-channel-logos/69315/2a0000016a8d1a3c631e1dacbd5dfab9cdce/160x120
-BridgeTVShlyager.ru,Bridge TV Shlyager,,,RU,,,c/RU,rus,,FALSE,,,,https://bridgetv.ru/,https://i.imgur.com/Z7M0oPS.png
+BridgeTVClassic.ru,Bridge TV Classic,,,RU,,,c/RU,rus,classic;music,FALSE,,,,https://bridgetv.ru/,https://i.imgur.com/YmL9OAN.png
+BridgeTVDeluxe.ru,Bridge TV Deluxe,,,RU,,,c/RU,rus,music,FALSE,,,,https://bridgetv.ru/,https://i.imgur.com/XoK6iDf.png
+BridgeTVHits.ru,Bridge TV Hits,,,RU,,,c/RU,rus,music,FALSE,,,,https://bridgetv.ru/,https://i.imgur.com/2hYQSC6.png
+BridgeTVQazaqstan.ru,Bridge TV Qazaqstan,,,RU,,,c/RU,rus,music,FALSE,,,,,https://i.imgur.com/pdFXfUb.png
+BridgeTVRusskiyHit.ru,Bridge TV Russkiy Hit,,,RU,,,c/RU,rus,music,FALSE,,,,https://bridgetv.ru/,https://avatars.mds.yandex.net/get-tv-channel-logos/69315/2a0000016a8d1a3c631e1dacbd5dfab9cdce/160x120
+BridgeTVShlyager.ru,Bridge TV Shlyager,,,RU,,,c/RU,rus,music,FALSE,,,,https://bridgetv.ru/,https://i.imgur.com/Z7M0oPS.png
 BrighterTV.gh,Brighter TV,,,GH,,,c/GH,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/bb/brighter-tv-gh.png
 BrightRadioTV.ng,Bright Radio TV,,,NG,,,c/NG,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/bb/bright-radio-tv-ng.png
 BrindiamoChannel.it,Brindiamo Channel,,,IT,,,c/IT,ita,,FALSE,,,,,https://i.imgur.com/9eJ3dVa.jpg
@@ -2800,7 +2800,7 @@ CahayaTVBanten.id,Cahaya TV Banten,,,ID,,,c/ID,ind,,FALSE,,,,https://www.cahayab
 Caillou.fr,Caillou,,,FR,,,c/FR,fra,,FALSE,,,,,https://i.imgur.com/4zJqmw6.png
 CajamarcaTV.pe,Cajamarca TV,,,PE,PE-CAJ,Cajamarca,c/PE,spa,,FALSE,,,,https://cajamarcatv.pe/,https://graph.facebook.com/CajamarcaTV/picture?width=320&height=320
 CalaAction.bs,Cala Action,,,BS,,,c/BS,eng,,FALSE,,,,https://www.calaaction.com/,https://www.lyngsat.com/logo/tv/cc/cala-action-bs.png
-CalaClassics.bs,Cala Classics,,,BS,,,c/BS,eng,,FALSE,,,,https://www.calaclassics.com/,https://zap2it.tmsimg.com/h3/NowShowing/80063/s80063_h3_aa.png
+CalaClassics.bs,Cala Classics,,,BS,,,c/BS,eng,classic,FALSE,,,,https://www.calaclassics.com/,https://zap2it.tmsimg.com/h3/NowShowing/80063/s80063_h3_aa.png
 CalaWeather.bs,Cala Weather,,,BS,,,c/BS,eng,weather,FALSE,,,,https://www.calaweather.com/,https://zap2it.tmsimg.com/h3/NowShowing/79913/s79913_h3_aa.png
 CalaWesterns.bs,Cala Westerns,,,BS,,,c/BS,eng,,FALSE,,,,https://www.calawesterns.com/,https://www.lyngsat.com/logo/tv/cc/cala-westerns-bs.png
 Caledonia.nc,Caledonia,,,NC,,,c/NC,fra,,FALSE,,,,https://www.caledonia.nc/,https://www.lyngsat.com/logo/tv/cc/caledonia_nc.png
@@ -3387,7 +3387,7 @@ CCTV7.cn,CCTV 7,,,CN,,,c/CN,zho,,FALSE,,,,http://tv.cctv.com/cctv7/,https://uplo
 CCTV8.cn,CCTV 8,,,CN,,,c/CN,zho,,FALSE,,,,http://tv.cctv.com/cctv8/,https://upload.wikimedia.org/wikipedia/zh/4/49/CCTV-8_Logo.png
 CCTV9.cn,CCTV 9,,,CN,,,c/CN,zho,documentary,FALSE,,,,http://tv.cctv.com/cctv9/,https://upload.wikimedia.org/wikipedia/zh/1/11/CCTV-9_Logo.png
 CCTVBilliards.cn,CCTV Billiards,,,CN,,,c/CN,zho,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cctv-billiards-cn.png
-CCTVClassic.cn,CCTV Classic,,,CN,,,c/CN,zho,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cctv-classic-cn.png
+CCTVClassic.cn,CCTV Classic,,,CN,,,c/CN,zho,classic,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cctv-classic-cn.png
 CCTVDaifu.cn,CCTV Daifu,,,CN,,,c/CN,zho,,FALSE,,,,http://www.cctvdf.com/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-227-400x400.png
 CCTVDrama.cn,CCTV Drama,,,CN,,,c/CN,zho,series,FALSE,,,,http://bbs.tv.cn/channel/tvdrama/,https://www.lyngsat.com/logo/tv/cc/cctv-drama-cn.png
 CCTVEntertainment.cn,CCTV Entertainment,,,CN,,,c/CN,zho,entertainment,FALSE,,,,http://www.cntv.cn/,https://upload.wikimedia.org/wikipedia/zh/8/88/CCTV_Entertainment_Channel_Logo.png
@@ -3877,7 +3877,7 @@ CineMexicano.us,Cine Mexicano,,,US,,,c/US,spa,movies,FALSE,,,,http://www.cinemex
 CineMo.ph,Cine Mo!,,,PH,,,c/PH,tgl,movies,FALSE,,,,,https://content.osn.com/logo/channel/cropped/CIN.png
 CineMundo.pt,Cine Mundo,,,PT,,,c/PT,por,movies,FALSE,,,,http://www.cinemundo.pt/canalcinemundo/,https://www.meo.pt/PublishingImages/canais/cinemundo.png
 CineNostalgia.us,Cine Nostalgia,,,US,,,c/US,spa,movies,FALSE,,,,https://www.cinenostalgia.tv/,https://www.directv.com/images/logos/channels/dark/large/827.png
-CinePlusClassic.be,Ciné+ Classic,,,BE,,,c/BE,fra,,FALSE,,,,,https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Cine%2B_Classic_logo_2011.svg/512px-Cine%2B_Classic_logo_2011.svg.png
+CinePlusClassic.be,Ciné+ Classic,,,BE,,,c/BE,fra,classic,FALSE,,,,,https://upload.wikimedia.org/wikipedia/en/thumb/3/3e/Cine%2B_Classic_logo_2011.svg/512px-Cine%2B_Classic_logo_2011.svg.png
 CinePlusClassic.fr,Cine + Classic,,,FR,,,c/FR,fra,movies,FALSE,,,,http://www.cineplus.fr/cineplusclassic,https://service.canal-overseas.com/image-api/v1/image/1517a5942e2d9bee21fab2db211251de
 CinePlusClub.fr,Cine + Club,,,FR,,,c/FR,fra,movies,FALSE,,,,http://www.cineplus.fr/cineplusclub,https://service.canal-overseas.com/image-api/v1/image/414c8a5129700a559635e03a71a7dc8e
 CinePlusEmotion.fr,Cine + Émotion,,,FR,,,c/FR,fra,movies,FALSE,,,,http://www.cineplus.fr/cineplusemotion,https://service.canal-overseas.com/image-api/v1/image/56e63b08df0212df3d46639c484668ef
@@ -4063,10 +4063,10 @@ ClaroSports.mx,Claro Sports,,,MX,,,r/HISPAM,spa,sports,FALSE,,,,https://www.marc
 ClaroSportsChile.cl,Claro Sports Chile,,,CL,,,c/CL,spa,sports,FALSE,,,,https://www.marca.com/claro-mx/,https://i.imgur.com/gWLj3DV.jpg
 ClassCNBC.us,Class CNBC,,,US,,,c/US,ita,business,FALSE,2000-06-14,,,https://video.milanofinanza.it/,https://upload.wikimedia.org/wikipedia/en/thumb/5/57/Class_CNBC.svg/512px-Class_CNBC.svg.png
 Classica.us,Classica,,,US,,,c/US,eng,music,FALSE,,,,https://pluto.tv/en/live-tv/classica,https://images.pluto.tv/channels/5f779951372da90007fd45e8/colorLogoPNG.png
-ClassicaHD.it,Classica HD,,,IT,,,c/IT,deu,,FALSE,1997-01-01,,,http://www.mondoclassica.it/,https://www.lyngsat.com/logo/tv/cc/classica_it.png
-ClassicalHarmony.fr,Classical Harmony,,,FR,,,c/FR,fra,,FALSE,,,,,https://i.imgur.com/JQaZblm.jpg
-ClassicalHarmony.uk,Classical Harmony,,,UK,,,c/UK,eng,,FALSE,,,,https://english-club.tv/channels/classical-harmony/,https://www.lyngsat.com/logo/tv/cc/classical-harmony-uk.png
-ClassicArtsShowcase.us,Classic Arts Showcase,,,US,,,c/US,eng,,FALSE,,,,https://www.classicartsshowcase.org/,https://www.lyngsat.com/logo/tv/cc/classic-arts-showcase-us.png
+ClassicaHD.it,Classica HD,,,IT,,,c/IT,deu,classic,FALSE,1997-01-01,,,http://www.mondoclassica.it/,https://www.lyngsat.com/logo/tv/cc/classica_it.png
+ClassicalHarmony.fr,Classical Harmony,,,FR,,,c/FR,fra,classic,FALSE,,,,,https://i.imgur.com/JQaZblm.jpg
+ClassicalHarmony.uk,Classical Harmony,,,UK,,,c/UK,eng,classic,FALSE,,,,https://english-club.tv/channels/classical-harmony/,https://www.lyngsat.com/logo/tv/cc/classical-harmony-uk.png
+ClassicArtsShowcase.us,Classic Arts Showcase,,,US,,,c/US,eng,classic,FALSE,,,,https://www.classicartsshowcase.org/,https://www.lyngsat.com/logo/tv/cc/classic-arts-showcase-us.png
 ClassicCinema.us,Classic Cinema,,,US,,,c/US,eng,classic,FALSE,,,,,https://i.imgur.com/tC4AePW.png
 ClassicMoviesChannel.us,Classic Movies Channel,,,US,,,c/US,eng,classic,FALSE,,,,https://pluto.tv/en/live-tv/classic-movies-channel,https://images.pluto.tv/channels/561c5b0dada51f8004c4d855/colorLogoPNG.png
 ClassicRerunsTV.us,Classic Reruns TV,,,US,,,c/US,eng,entertainment,FALSE,,,,,https://classicreruns.com/wp-content/uploads/2021/01/CRTV-1024x1024-logo-nobkg-e1629529582672.png
@@ -4495,7 +4495,7 @@ CTVBravo.tw,CTV Bravo,,,TW,,,c/TW,zho,,FALSE,,,,http://new.ctv.com.tw/,https://w
 CTVBritishColumbia.ca,CTV British Columbia,,,CA,,,c/CA,eng,,FALSE,,,,https://bc.ctvnews.ca/,https://www.lyngsat.com/logo/tv/cc/ctv-ca.png
 CTVCalgary.ca,CTV Calgary,,,CA,,,c/CA,eng,,FALSE,,,,https://calgary.ctvnews.ca/,https://www.lyngsat.com/logo/tv/cc/ctv-ca.png
 CTVCalgaryLethbridge.ca,CTV Calgary Lethbridge,,,CA,,,c/CA,eng,,FALSE,,,,http://calgary.ctvnews.ca/ctvlethbridge,https://www.lyngsat.com/logo/tv/cc/ctv-ca.png
-CTVClassic.tw,CTV Classic,,,TW,,,c/TW,zho,,FALSE,2004-06-01,,,http://new.ctv.com.tw/,https://www.lyngsat.com/logo/tv/cc/ctv_tw_classic.png
+CTVClassic.tw,CTV Classic,,,TW,,,c/TW,zho,classic,FALSE,2004-06-01,,,http://new.ctv.com.tw/,https://www.lyngsat.com/logo/tv/cc/ctv_tw_classic.png
 CTVComedyChannelEast.ca,CTV Comedy Channel East,,,CA,,,c/CA,eng,comedy,FALSE,,,,https://www.ctv.ca/comedy,https://cdn.tvpassport.com/image/station/100x100/ctv-comedy.png
 CTVComedyChannelWest.ca,CTV Comedy Channel West,,,CA,,,c/CA,eng,comedy,FALSE,,,,https://www.ctv.ca/comedy,https://cdn.tvpassport.com/image/station/100x100/ctv-comedy.png
 CTVDrama.ca,CTVDrama,,,CA,,,c/CA,eng,series,FALSE,,,,,https://myhealthhub.frontline.ca/myhealthhubtv/channellogos/CTV_drama_channel.png
@@ -5672,8 +5672,8 @@ ESPNBrasil.br,ESPN Brasil,,,BR,,,c/BR,por;eng;spa,,FALSE,,,,http://www.espn.com.
 ESPNBuzzerBeater.us,ESPN Buzzer Beater,,,US,,,c/US,eng,,FALSE,,,,,
 ESPNCaribbean.us,ESPN Caribbean,,,US,,,c/US,eng,,FALSE,1989-01-01,,,https://espndeportes.espn.com/,https://i.imgur.com/A90wNEs.png
 ESPNChile.cl,ESPN Chile,,,CL,,,c/CL,spa,,FALSE,,,,https://www.espn.cl/,https://i.imgur.com/A90wNEs.png
-ESPNClassicCanada.ca,ESPN Classic Canada,,,CA,,,c/CA,eng,,FALSE,,,,http://www.tsn.ca/classic/,https://cdn.tvpassport.com/image/station/100x100/espn_classics.png
-ESPNClassicUSA.us,ESPN Classic USA,,,US,,,c/US,eng,,FALSE,,,,http://espn.go.com/tvlistings/networks/classic.html,https://cdn.tvpassport.com/image/station/100x100/espn_classics.png
+ESPNClassicCanada.ca,ESPN Classic Canada,,,CA,,,c/CA,eng,classic,FALSE,,,,http://www.tsn.ca/classic/,https://cdn.tvpassport.com/image/station/100x100/espn_classics.png
+ESPNClassicUSA.us,ESPN Classic USA,,,US,,,c/US,eng,classic,FALSE,,,,http://espn.go.com/tvlistings/networks/classic.html,https://cdn.tvpassport.com/image/station/100x100/espn_classics.png
 ESPNCollegeExtra1.us,ESPN College Extra 1,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/espncollegeextra.png
 ESPNCollegeExtra2.us,ESPN College Extra 2,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/espncollegeextra.png
 ESPNCollegeExtra3.us,ESPN College Extra 3,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/espncollegeextra.png
@@ -6271,8 +6271,8 @@ FoxArena.au,Fox Arena,,,AU,,,c/AU,eng,,FALSE,1995-04-22,,,http://www.arenatv.com
 FoxArenaPlus2.au,Fox Arena +2,,,AU,,,c/AU,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ff/fox-arena-au.png
 FoxBulgaria.bg,Fox Bulgaria,,,BG,,,c/BG,bul;eng,,FALSE,,,,http://foxtv.bg/,https://i.dir.bg/tv/imgs/ch_logos/2012/10/08/te_171130.jpg
 FoxBusiness.us,Fox Business,,,US,,,c/US,eng,business,FALSE,2007-10-15,,,https://www.foxbusiness.com/,https://i.imgur.com/61wD4dV.png
-FoxClassicsAustralia.au,Fox Classics Australia,,,AU,,,c/AU,eng,,FALSE,,,,http://www.foxclassics.com.au/,https://i.imgur.com/W2c5wn3.png
-FoxClassicsPlus2Australia.au,Fox Classics +2 Australia,,,AU,,,c/AU,eng,,FALSE,,,,http://www.foxclassics.com.au/,https://www.lyngsat.com/logo/tv/ff/fox_classics_au_plus2.png
+FoxClassicsAustralia.au,Fox Classics Australia,,,AU,,,c/AU,eng,classic,FALSE,,,,http://www.foxclassics.com.au/,https://i.imgur.com/W2c5wn3.png
+FoxClassicsPlus2Australia.au,Fox Classics +2 Australia,,,AU,,,c/AU,eng,classic,FALSE,,,,http://www.foxclassics.com.au/,https://www.lyngsat.com/logo/tv/ff/fox_classics_au_plus2.png
 FoxCollegeSportsAtlantic.us,Fox College Sports Atlantic,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/,https://www.lyngsat.com/logo/tv/ff/fox_college_sports_atlantic.png
 FoxCollegeSportsCentral.us,Fox College Sports Central,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/,https://cdn.tvpassport.com/image/station/100x100/fox_college_sports.png
 FoxCollegeSportsEast.us,Fox College Sports East,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/fox_college_sports.png
@@ -8728,7 +8728,7 @@ KABCDT3.us,KABC-DT3,,THIS,US,US-CA,Los Angeles,s/US-CA,eng,,FALSE,,,,,https://cd
 KABECD1.us,KABE-CD1,,Univision,US,US-CA,Bakersfield,s/US-CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/univision.png
 KABECD2.us,KABE-CD2,,Court TV,US,US-CA,Bakersfield,s/US-CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/court-tv-2019.png
 KabelEinsAustria.at,Kabel Eins Austria,,,AT,,,c/AT,deu,,FALSE,,,,http://www.kabeleins.at/,https://tvheute.at/images/channels/K1A--810345306-01.png
-KabelEinsClassics.de,Kabel Eins Classics,,,DE,,,c/DE,deu,,FALSE,,,,https://www.kabeleinsclassics.de/,https://i.imgur.com/S4giN10.png
+KabelEinsClassics.de,Kabel Eins Classics,,,DE,,,c/DE,deu,classic,FALSE,,,,https://www.kabeleinsclassics.de/,https://i.imgur.com/S4giN10.png
 KabelEinsDokuAustria.at,Kabel Eins Doku Austria,,,AT,,,c/AT,deu,,FALSE,,,,https://www.kabeleinsdoku.at/,https://www.lyngsat.com/logo/tv/kk/kabel_eins_at_doku.png
 KabelEinsDokuGermany.de,Kabel Eins Doku Germany,,,DE,,,c/DE,deu,,FALSE,,,,https://www.kabeleinsdoku.de/,https://i.imgur.com/wltYFZo.png
 KabelEinsGermany.de,Kabel Eins Germany,,,DE,,,c/DE,deu,,FALSE,,,,http://www.kabeleins.de/,https://ocdn.eu/ptv2-images-transforms/1/4lLkrxsb2dvLW1pZ3JhdGVkL2thYmVsLWVpbnMucG5nkpUCZADCw5UCACjCww
@@ -14058,7 +14058,7 @@ MelodieTV.at,Melodie TV,,,AT,,,c/AT,deu,,FALSE,,,,http://www.melodie.tv/,https:/
 Melody.fr,Melody,,,FR,,,c/FR,fra,,FALSE,,,,https://www.melody.tv/,https://www.programme-tv.net/imgre/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2F627c155dadd4f6ca.2Epng/80x80/quality/80/melody.png
 MelodyAflam.eg,Melody Aflam,,,EG,,,c/EG,ara,,FALSE,2006-01-01,2013-04-28,,https://www.melody.net/,https://cdn.tvpassport.com/image/station/100x100/melody-aflam.png
 MelodyChannelColombia.co,Melody Channel Colombia,,,CO,,,c/CO,spa,music,FALSE,,,,,https://melodychannel.tv/wp-content/uploads/2021/01/cropped-logoMelody-2.png
-MelodyClassic.eg,Melody Classic,,,EG,,,c/EG,ara,,FALSE,,,,https://www.melody.net/,https://www.lyngsat.com/logo/tv/mm/melody_tv_eg_classic.png
+MelodyClassic.eg,Melody Classic,,,EG,,,c/EG,ara,music;classic,FALSE,,,,https://www.melody.net/,https://www.lyngsat.com/logo/tv/mm/melody_tv_eg_classic.png
 MelodydAfrique.fr,Melody d'Afrique,,,FR,,,c/FR,fra,,FALSE,,,,https://melodydafrique.tv/,https://proxymedia.woopic.com/api/v1/images/553%2Flogos%2Fv2%2Flogos%2Flivetv_melodyafr%2F20200206_144429%2FwebTVLogo%2Flogo_180x96.png
 MelodyDrama.eg,Melody Drama,,,EG,,,c/EG,ara,series,FALSE,2009-10-01,2013-04-28,,https://www.melody.net/,https://cdn.tvpassport.com/image/station/100x100/melody-drama-logo.png
 MelodyFM.jo,Melody FM Jordan,,,JO,,,c/JO,ara,music,FALSE,,,,,https://i.imgur.com/P9cgM89.png
@@ -16586,7 +16586,7 @@ PinalTV.ml,Pinal TV,,,ML,,,c/ML,fra,,FALSE,,,,https://pinaltv.ml/,https://www.ly
 PingxiangTVNewsChannel.cn,Pingxiang TV News Channel,,,CN,,,c/CN,zho,news,FALSE,,,,,https://i.imgur.com/Kc7htop.jpg
 PinkAction.rs,Pink Action,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mtel.ba/oec/images/tv_channels/2611e6a1774ffe2ceeceb8a0504c3c75.png
 PinkBH.ba,Pink BH,,,BA,,,c/BA,srp,,FALSE,,,,,https://mtel.ba/oec/images/tv_channels/a29e7e1ec6978e96aa1647ac5a5918b9.png
-PinkClassic.rs,Pink Classic,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/90602636845e73404ee7e001844dc711.png
+PinkClassic.rs,Pink Classic,,,RS,,,c/RS,srp,classic,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/90602636845e73404ee7e001844dc711.png
 PinkComedy.rs,Pink Comedy,,,RS,,,c/RS,srp,comedy,FALSE,,,,http://www.rtvpink.co.rs/,https://mtel.ba/oec/images/tv_channels/f80af080ce536036d95c666a96b52e8a.png
 PinkCrimeMystery.rs,Pink Crime & Mystery,,,RS,,,c/RS,srp,series,FALSE,,,,http://www.rtvpink.co.rs/,https://mtel.ba/oec/images/tv_channels/156f52644c7e25429da17d4f88b38f3c.png
 PinkExtra.rs,Pink Extra,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mtel.ba/oec/images/tv_channels/ec344345d2e4a7f1f73999973d81fddb.png
@@ -18256,7 +18256,7 @@ RotanaAmerica.sa,Rotana America,,,SA,,,c/SA,ara,,FALSE,,,,https://rotana.net/,ht
 RotanaCinema.sa,Rotana Cinema,,,SA,,,c/SA,ara,movies,FALSE,2004-12-31,,,http://www.cinema.rotana.net,https://upload.wikimedia.org/wikipedia/commons/1/1f/Rotana_Cinema_EG_New.png
 RotanaCinemaEgypt.eg,Rotana Cinema Egypt,,,EG,,,c/EG,ara,movies,FALSE,,,,https://rotana.net/,https://www.lyngsat.com/logo/tv/rr/rotana_cinema.png
 RotanaCinemaKSA.sa,Rotana Cinema KSA,,,SA,,,c/SA,ara,movies,FALSE,,,,https://rotana.net/,https://rotana.net/assets/themes/TriTheme/images/channels/cinema.png
-RotanaClassic.sa,Rotana Classic,,,SA,,,c/SA,ara,,FALSE,,,,https://rotana.net/,https://cdn.tvpassport.com/image/station/100x100/rotana-classic.png
+RotanaClassic.sa,Rotana Classic,,,SA,,,c/SA,ara,classic,FALSE,,,,https://rotana.net/,https://cdn.tvpassport.com/image/station/100x100/rotana-classic.png
 RotanaClip.sa,Rotana Clip,,,SA,,,c/SA,ara,,FALSE,,,,https://rotana.net/,https://cdn.tvpassport.com/image/station/100x100/rotana-clip.png
 RotanaComedy.sa,Rotana Comedy,,,SA,,,c/SA,ara,comedy,FALSE,,,,https://rotana.net/,https://www.lyngsat.com/logo/tv/rr/rotana-comedy-sa.png
 RotanaDrama.sa,Rotana Drama,,,SA,,,c/SA,ara,general,FALSE,,,,https://rotana.net/,https://media.elcinema.com/tvguide/1147_1.png
@@ -19183,7 +19183,7 @@ SilverbirdTV.ng,Silverbird TV,,,NG,,,c/NG,eng,,FALSE,,,,https://silverbirdtv.com
 SilveriTV.kr,Silver iTV,,,KR,,,c/KR,kor,,FALSE,,,,http://www.silver-itv.co.kr/,https://www.lyngsat.com/logo/tv/ss/silver_i_tv_kr.png
 SilverlineMovieChannel.de,Silverline Movie Channel,,,DE,,,c/DE,deu,movies,FALSE,2003-11-18,,,https://silverline.tv/,https://i.imgur.com/HCSpJgw.png
 SilverScreen.pk,Silver Screen,,,PK,,,c/PK,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/silver_screen_pk.png
-SilverScreenClassics.ca,Silver Screen Classics,,,CA,,,c/CA,eng,,FALSE,2003-09-02,,,http://www.silverscreenclassics.com/,https://cdn.tvpassport.com/image/station/100x100/silverscreen.png
+SilverScreenClassics.ca,Silver Screen Classics,,,CA,,,c/CA,eng,classic,FALSE,2003-09-02,,,http://www.silverscreenclassics.com/,https://cdn.tvpassport.com/image/station/100x100/silverscreen.png
 SilverTV.gh,Silver TV,,,GH,,,c/GH,eng,,FALSE,,,,http://silveronline24.com/silvertv,https://www.lyngsat.com/logo/tv/ss/silver-tv-gh.png
 SimayAzadiIranNationalTV.uk,Simay-Azadi Iran National TV,,,UK,,,c/UK,fas,,FALSE,,,,https://www.iranntv.com/,https://www.lyngsat.com/logo/tv/ss/simay_azadi_iran_national_tv.png
 Simon.ua,Simon,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,,https://i.imgur.com/RaVchcn.jpg
@@ -19941,7 +19941,7 @@ SPOTVGolfHealth.kr,SPOTV Golf & Health,스포티브이 골프 앤 헬스,,KR,,,c
 SPOTVPlus.kr,SPOTV+,,,KR,,,c/KR,kor,sports,FALSE,2012-06-08,2020-05-05,,https://spotv.net/,https://www.lyngsat.com/logo/tv/ss/spo_tv_kr_plus.png
 SpreeTV.au,Spree TV,,,AU,,,c/AU,eng,,FALSE,2013-09-17,,,,https://upload.wikimedia.org/wikipedia/en/d/d2/Spree_TV_2015_logo.png
 SpringsNetwork.za,Springs Network,,,ZA,,,c/ZA,eng,,FALSE,,,,https://www.springsnetwork.tv/,https://www.lyngsat.com/logo/tv/ss/springs-network-za.png
-SPSClassic.mn,SPS Classic,,,MN,,,c/MN,mon,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sps-classic-mn.png
+SPSClassic.mn,SPS Classic,,,MN,,,c/MN,mon,classic,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sps-classic-mn.png
 SPSFight.mn,SPS Fight,,,MN,,,c/MN,mon,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sps-fight-mn.png
 SPSNational.mn,SPS National,,,MN,,,c/MN,mon,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sps-national-mn.png
 SPSPrime.mn,SPS Prime,,,MN,,,c/MN,mon,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/sps-prime-mn.png
@@ -20002,7 +20002,7 @@ StarChineseMoviesLegend.hk,Star Chinese Movies Legend,,,HK,,,c/HK,zho,movies,FAL
 StarChineseMoviesSouthEastAsia.hk,Star Chinese Movies South East Asia,,,HK,,,c/HK,zho;tha,movies,FALSE,,,,,https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch139_160_115
 StarCinema.ua,Star Cinema,,,UA,,,c/UA;c/RU,rus;ukr,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/star-cinema-ua.png
 StarCinema.us,Star Cinema,,,US,,,c/US,eng,movies,FALSE,,,,,https://cdn.mitvstatic.com/channels/cl_fox-premium-cinema_m.png
-StarClassics.us,Star Classics,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.mitvstatic.com/channels/cl_fox-premium-classics_m.png
+StarClassics.us,Star Classics,,,US,,,c/US,eng,classic,FALSE,,,,,https://cdn.mitvstatic.com/channels/cl_fox-premium-classics_m.png
 StarComedy.us,Star Comedy,,,US,,,c/US,eng,comedy,FALSE,,,,,https://cdn.mitvstatic.com/channels/cl_fox-premium-comedy_m.png
 StarEPlus.tz,Star E +,,,TZ,,,c/TZ,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/star_tz_tv.png
 StarFamily.ua,Star Family,,,UA,,,c/UA;c/RU,rus,family,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/star-family-ua.png
@@ -20112,8 +20112,8 @@ StarzEncoreActionEast.us,Starz Encore Action East,,,US,,,c/US,eng;spa,,FALSE,,,,
 StarzEncoreActionWest.us,Starz Encore Action West,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://cdn.tvpassport.com/image/station/100x100/starz-encore-action.png
 StarzEncoreBlackEast.us,Starz Encore Black East,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://www.directv.com/images/logos/channels/dark/large/469.png
 StarzEncoreBlackWest.us,Starz Encore Black West,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://www.lyngsat.com/logo/tv/ss/starz_encore_us_black_east.png
-StarzEncoreClassicEast.us,Starz Encore Classic East,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://www.directv.com/images/logos/channels/dark/large/470.png
-StarzEncoreClassicWest.us,Starz Encore Classic West,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://www.lyngsat.com/logo/tv/ss/starz_encore_us_classic_east.png
+StarzEncoreClassicEast.us,Starz Encore Classic East,,,US,,,c/US,eng;spa,classic,FALSE,,,,https://www.starz.com/,https://www.directv.com/images/logos/channels/dark/large/470.png
+StarzEncoreClassicWest.us,Starz Encore Classic West,,,US,,,c/US,eng;spa,classic,FALSE,,,,https://www.starz.com/,https://www.lyngsat.com/logo/tv/ss/starz_encore_us_classic_east.png
 StarzEncoreEast.us,Starz Encore East,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://cdn.tvpassport.com/image/station/100x100/starz-encore.png
 StarzEncoreFamilyEast.us,Starz Encore Family East,,,US,,,c/US,eng;spa,family,FALSE,,,,https://www.starz.com/,https://www.directv.com/images/logos/channels/dark/large/304.png
 StarzEncoreFamilyWest.us,Starz Encore Family West,,,US,,,c/US,eng;spa,family,FALSE,,,,https://www.starz.com/,https://www.lyngsat.com/logo/tv/ss/starz_encore_us_family_east.png
@@ -22268,7 +22268,7 @@ TVBarrandov.cz,TV Barrandov,,,CZ,,,c/CZ,ces,,FALSE,2009-01-01,,,https://www.barr
 TVBarrigaVerde.br,TV Barriga Verde,,,BR,,,c/BR,por,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/tv-barriga-verde-br.png
 TVBayern.de,TV Bayern,,,DE,,,c/DE,deu,,FALSE,,,,https://www.tvbayernlive.de/,https://www.lyngsat.com/logo/tv/tt/tv-bayern-de.png
 TVBayernLive.de,TV Bayern Live,,,DE,,,c/DE,deu,,FALSE,,,,,https://i.imgur.com/WyJLIzA.jpg
-TVBClassic.hk,TVB Classic,,,HK,,,c/HK,yue,,FALSE,,,,http://www.tvbpayvision.com/channel/details/09/,https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/425_144.png
+TVBClassic.hk,TVB Classic,,,HK,,,c/HK,yue,classic,FALSE,,,,http://www.tvbpayvision.com/channel/details/09/,https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/425_144.png
 TVBDrama.hk,TVB Drama,,,HK,,,c/HK,yue,series,FALSE,,,,,https://i.imgur.com/8gY0AFV.png
 TVBE.hk,TVB E,,,HK,,,c/HK,zho,,FALSE,,,,http://www.tvbusa.com/tvb-jadeworld-satellite-tv/,https://www.lyngsat.com/logo/tv/tt/tvb_hk_e.png
 TVBecej.rs,TV Becej,,,RS,,,c/RS,srp,,FALSE,,,,,https://mts.rs/oec/images/tv_channels/66ec9ba4bc301b25615db1724ff757d1.jpg
@@ -28869,7 +28869,7 @@ ZeeCinemaluHD.in,Zee Cinemalu HD,,,IN,,,c/IN,hin,movies,FALSE,,,,http://www.zeec
 ZeeCinemaMiddleEast.in,Zee Cinema Middle East,,,IN,,,c/IN,hin,movies,FALSE,,,,https://zeecinema.zee5.com/,https://i.imgur.com/uYjCv5p.png
 ZeeCinemaUK.uk,Zee Cinema UK,,,UK,,,c/UK,eng,movies,FALSE,,,,http://zeecinema.zeeuk.com/,https://i.imgur.com/uYjCv5p.png
 ZeeCinemaUSA.us,Zee Cinema USA,,,US,,,c/US,hin,movies,FALSE,,,,http://www.zeetvusa.com/zc-uc.html,https://i.imgur.com/uYjCv5p.png
-ZeeClassic.in,Zee Classic,,,IN,,,c/IN,hin,,FALSE,,,,http://www.zeeclassic.com/,https://i.imgur.com/RwHAFI7.png
+ZeeClassic.in,Zee Classic,,,IN,,,c/IN,hin,classic,FALSE,,,,http://www.zeeclassic.com/,https://i.imgur.com/RwHAFI7.png
 ZeeHindustan.in,Zee Hindustan,,,IN,,,c/IN,hin;tam;tel,,FALSE,2017-05-21,,,https://www.zee5.com/channels/details/zee-hindustan/0-9-zeehindustan,https://i.imgur.com/jtNVKFr.png
 ZeeKannada.in,Zee Kannada,,,IN,,,c/IN,kan,,FALSE,2006-05-11,,,https://zeekannada.zee5.com/,https://i.imgur.com/BuqiVo5.png
 ZeeKeralam.in,Zee Keralam,,,IN,,,c/IN,mal,,FALSE,2018-11-26,,,https://zeekeralam.zee5.com/,https://i.imgur.com/xM3EbDw.png

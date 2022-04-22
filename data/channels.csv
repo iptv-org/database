@@ -1328,7 +1328,7 @@ ARTAflam2.sa,ART Aflam 2,,,SA,,,c/SA,ara,,FALSE,,,,https://www.artonline.tv/,htt
 ARTAmerica.sa,ART America,,,SA,,,c/SA,ara,,FALSE,,,,https://www.artonline.tv/,https://www.lyngsat.com/logo/tv/aa/art_america.png
 ArtaNews.xk,Arta News,,,XK,,,c/XK,sqi,news,FALSE,,,,,https://i.imgur.com/V4ZTL3h.png
 ArtCima.us,Art Cima,,,US,,,c/US,ara,,FALSE,,,,https://my.dish.com/station/ARTCM,https://www.lyngsat.com/logo/tv/aa/art_cima_us.png
-ARTCinema.sa,ART Cinema,,,SA,,,c/SA,ara,,FALSE,,,,https://www.artonline.tv/,https://content.osn.com/logo/channel/cropped/ACM.png
+ARTCinema.sa,ART Cinema,,,SA,,,c/SA,ara,movies,FALSE,,,,https://www.artonline.tv/,https://content.osn.com/logo/channel/cropped/ACM.png
 Arte1.br,Arte 1,,,BR,,,c/BR,por,,FALSE,,,,https://canalarte1.com.br/,https://cdn.mitvstatic.com/channels/br_arte-1_m.png
 ArteAtelier.it,Arte Atelier,,,IT,,,c/IT,ita,,FALSE,,,,http://www.arteatelier.it/,https://www.lyngsat.com/logo/tv/aa/arte_atelier_it.png
 ARTEBelgique.fr,ARTE Belgique,,,FR,,,c/FR,fra,entertainment,FALSE,,,,https://www.arte.tv/fr/,https://www.arte.tv/sites/corporate/wp-content/themes/arte-entreprise/img/arte_logo.png
@@ -1695,7 +1695,7 @@ AzamTwo.tz,Azam Two,,,TZ,,,c/TZ,swa;eng,,FALSE,,,,http://azamtv.co.tz/,https://w
 AzarbayjaneGharbiTV.ir,Azarbayjan-e Gharbi TV,,,IR,,,c/IR,fas,,FALSE,,,,http://urmia.irib.ir/tv,https://s3.ott.tva.tv/rosing-tva-production/4f24a08dc1f313e0e32c_512x512c.png
 AzarbayjanGharbi.ir,Azarbayjan Gharbi,,,IR,,,c/IR,fas,,FALSE,,,,,
 AZATV.hn,AZA TV,,,HN,,,c/HN,spa,,FALSE,,,,,
-AzCinema.mx,Az Cinema,,,MX,,,c/MX,spa,,FALSE,,,,https://www.tvazteca.com/tvpagaazcinema,https://imagenes.gatotv.com/logos/canales/oscuros/tv_azteca_cinema-mediano.png
+AzCinema.mx,Az Cinema,,,MX,,,c/MX,spa,movies,FALSE,,,,https://www.tvazteca.com/tvpagaazcinema,https://imagenes.gatotv.com/logos/canales/oscuros/tv_azteca_cinema-mediano.png
 AzClic.mx,Az Clic,,,MX,,,c/MX,spa,,FALSE,,,,https://www.tvazteca.com/tvpagaazclic,https://imagenes.gatotv.com/logos/canales/oscuros/tv_azteca_clic-mediano.png
 AzCorazon.mx,Az Corazón,,,MX,,,c/MX,spa,,FALSE,,,,https://www.tvazteca.com/tvpagaazcorazon,https://imagenes.gatotv.com/logos/canales/oscuros/tv_azteca_corazon-mediano.png
 AzerbaijanNewsTV.se,Azerbaijan News TV,,,SE,,,c/AZ,aze,news,FALSE,,,,https://www.aznews.tv/,https://www.aznews.tv/wp-content/uploads/2019/04/headerlogo.fw_.png
@@ -2684,7 +2684,7 @@ BTVAction.bg,BTV Action,,,BG,,,c/BG,bul,,FALSE,,,,https://www.btv.bg/action,http
 BTVBusiness.np,BTV Business,,,NP,,,c/NP,nep,business,FALSE,,,,https://businesstvnepal.com/,https://www.lyngsat.com/logo/tv/bb/btv_business_np.png
 BTVChattogram.bd,BTV Chattogram,,,BD,,,c/BD,ben,,FALSE,,,,https://btv.portal.gov.bd/,https://www.lyngsat.com/logo/tv/bb/bangladesh-tv-bd.png
 BTVChittagong.bd,BTV Chittagong,বাংলাদেশ টেলিভিশন চট্টগ্রাম কেন্দ্র,,BD,,,c/BD,ben,,FALSE,1996-12-19,,,,https://i.imgur.com/CMUHtv3.png
-BTVCinema.bg,BTV Cinema,,,BG,,,c/BG,bul,,FALSE,2009-12-07,,,https://www.btv.bg/cinema,https://i.dir.bg/tv/imgs/ch_logos/2016/12/07/te_175228.jpg
+BTVCinema.bg,BTV Cinema,,,BG,,,c/BG,bul,movies,FALSE,2009-12-07,,,https://www.btv.bg/cinema,https://i.dir.bg/tv/imgs/ch_logos/2016/12/07/te_175228.jpg
 BTVComedy.bg,BTV Comedy,,,BG,,,c/BG,bul,comedy,FALSE,,,,https://www.btv.bg/comedy,https://i.dir.bg/tv/imgs/ch_logos/2014/12/05/te_172576.jpg
 BTVLady.bg,BTV Lady,,,BG,,,c/BG,bul,,FALSE,2012-01-28,,,https://www.btv.bg/lady/,https://i.dir.bg/tv/imgs/ch_logos/2016/10/28/te_175083.jpg
 BTVNational.bd,BTV National,,,BD,,,c/BD,ben,,FALSE,,,,https://btv.portal.gov.bd/,https://www.lyngsat.com/logo/tv/bb/bangladesh-tv-bd.png
@@ -3842,36 +3842,36 @@ CineLatinoSpain.us,Cine Latino Spain,,,US,,,c/ES,spa,movies,FALSE,,,,https://plu
 CineLife.us,CineLife,,,US,,,c/US,eng,lifestyle,FALSE,,,,,https://play-lh.googleusercontent.com/TRj4zx_xl4QA3JO7DwqalxZwshmhxEzg0QzP1sT3Uv99p4izfj9S_yPZD4oVkFUxMNA
 Cinema.mn,Cinema,,,MN,,,c/MN,mon,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cinema-mn.png
 Cinema.ru,Cinéma,,,RU,,,c/RU,rus,movies,FALSE,,,,https://cinetv.ru/,https://i.imgur.com/VsJaHRe.png
-Cinema1.ae,Cinema 1,,,AE,,,c/AE,ara,,FALSE,,,,https://alfatv.com/tv/,https://content.osn.com/logo/channel/cropped/CM1.png
-Cinema1Philippines.ph,Cinema 1 Philippines,,,PH,,,c/PH,tgl,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cinema_one_ph.png
-Cinema2.ae,Cinema 2,,,AE,,,c/AE,ara,,FALSE,,,,https://alfatv.com/tv/,https://content.osn.com/logo/channel/cropped/CM2.png
+Cinema1.ae,Cinema 1,,,AE,,,c/AE,ara,movies,FALSE,,,,https://alfatv.com/tv/,https://content.osn.com/logo/channel/cropped/CM1.png
+Cinema1Philippines.ph,Cinema 1 Philippines,,,PH,,,c/PH,tgl,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cinema_one_ph.png
+Cinema2.ae,Cinema 2,,,AE,,,c/AE,ara,movies,FALSE,,,,https://alfatv.com/tv/,https://content.osn.com/logo/channel/cropped/CM2.png
 CinemachiComedy.uk,Cinemachi Comedy,,,UK,,,c/UK,eng,comedy,FALSE,,,,https://www.mimyuni.com/,https://www.lyngsat.com/logo/tv/cc/cinemachi-comedy-uk.png
 CinemachiKids.uk,Cinemachi Kids,,,UK,,,c/UK,eng,kids,FALSE,,,,https://www.mimyuni.com/,https://www.lyngsat.com/logo/tv/cc/cinemachi_kids_bg.png
-CinemaDinamita.mx,Cinema Dinamita,,,MX,,,c/MX,spa,,FALSE,,,,http://www.cinemadinamita.com/,https://imagenes.gatotv.com/logos/canales/oscuros/cinema_dinamita-mediano.png
-CinemaGold.pk,Cinema Gold,,,PK,,,c/PK,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cinema-gold-pk.png
+CinemaDinamita.mx,Cinema Dinamita,,,MX,,,c/MX,spa,movies,FALSE,,,,http://www.cinemadinamita.com/,https://imagenes.gatotv.com/logos/canales/oscuros/cinema_dinamita-mediano.png
+CinemaGold.pk,Cinema Gold,,,PK,,,c/PK,eng,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cinema-gold-pk.png
 CinemaHeaven.kr,Cinema Heaven,시네마천국,,KR,,,c/KR,kor,movies,FALSE,,,,,https://i.imgur.com/Gw2oWoX.png
-Cinemania.rs,Cinemania,,,RS,,,c/RS,srp,,FALSE,,,,http://www.unitedmedia.net/channel/cinemania/,https://www.lyngsat.com/logo/tv/cc/cinemania_rs.png
-CinemaOneGlobal.ph,Cinema One Global,,,PH,,,c/PH,tgl,,FALSE,,,,,https://content.osn.com/logo/channel/cropped/COG.png
-CinemaPlatino.mx,Cinema Platino,,,MX,,,c/MX,spa;eng,,FALSE,,,,http://www.pctvcanales.mx/canales/platino,https://imagenes.gatotv.com/logos/canales/oscuros/cinema_platino-mediano.png
-CinemaPlatino2.mx,Cinema Platino 2,,,MX,,,c/MX,spa,,FALSE,,,,http://www.pctvcanales.mx/canales/platino,https://www.lyngsat.com/logo/tv/cc/cinema-platino-2-mx.png
+Cinemania.rs,Cinemania,,,RS,,,c/RS,srp,movies,FALSE,,,,http://www.unitedmedia.net/channel/cinemania/,https://www.lyngsat.com/logo/tv/cc/cinemania_rs.png
+CinemaOneGlobal.ph,Cinema One Global,,,PH,,,c/PH,tgl,movies,FALSE,,,,,https://content.osn.com/logo/channel/cropped/COG.png
+CinemaPlatino.mx,Cinema Platino,,,MX,,,c/MX,spa;eng,movies,FALSE,,,,http://www.pctvcanales.mx/canales/platino,https://imagenes.gatotv.com/logos/canales/oscuros/cinema_platino-mediano.png
+CinemaPlatino2.mx,Cinema Platino 2,,,MX,,,c/MX,spa,movies,FALSE,,,,http://www.pctvcanales.mx/canales/platino,https://www.lyngsat.com/logo/tv/cc/cinema-platino-2-mx.png
 CinemaPlus.au,Cinema Plus,,,AU,,,c/AU,ell,movies,FALSE,,,,https://tvplus.tv/,https://www.lyngsat.com/logo/tv/cc/cinema-plus-au.png
 CinemaPlus.bg,Cinema+,,,BG,,,c/BG,eng,movies,FALSE,,,,http://tvplus.bg/,https://i.imgur.com/1gsaGZD.png
 CinemaPlus.co,Cinema +,,,CO,,,c/CO,spa,movies,FALSE,,,,http://www.canalcinemaplus.net/,https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Cinema%2B_logo.svg/512px-Cinema%2B_logo.svg.png
-CineMaraton.ro,CineMaraton,,,RO,,,c/RO,ron,,FALSE,,,,https://www.cinemaraton.ro/,https://www.lyngsat.com/logo/tv/cc/cinemaraton-ro.png
-CinemaSegreto.it,Cinema Segreto,,,IT,,,c/IT,ita,,FALSE,,,,,https://i.imgur.com/E9PCiwM.png
-CinemaTV.in,Cinema TV,,,IN,,,c/IN,hin,,FALSE,,,,,https://i.imgur.com/4TtkjCd.png
-CinemaTV.pk,Cinema TV,,,PK,,,c/PK,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cinema_tv.png
-CinemaWorld.my,CinemaWorld,,,MY,,,c/MY,msa,,FALSE,,,,,https://i.imgur.com/gHCOcuF.png
-CinemaWorld.sg,CinemaWorld,,,SG,,,c/SG,eng,,FALSE,,,,https://cinemaworld.asia/,https://www.lyngsat.com/logo/tv/cc/cinema_world_asia.png
+CineMaraton.ro,CineMaraton,,,RO,,,c/RO,ron,movies,FALSE,,,,https://www.cinemaraton.ro/,https://www.lyngsat.com/logo/tv/cc/cinemaraton-ro.png
+CinemaSegreto.it,Cinema Segreto,,,IT,,,c/IT,ita,movies,FALSE,,,,,https://i.imgur.com/E9PCiwM.png
+CinemaTV.in,Cinema TV,,,IN,,,c/IN,hin,movies,FALSE,,,,,https://i.imgur.com/4TtkjCd.png
+CinemaTV.pk,Cinema TV,,,PK,,,c/PK,eng,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cinema_tv.png
+CinemaWorld.my,CinemaWorld,,,MY,,,c/MY,msa,movies,FALSE,,,,,https://i.imgur.com/gHCOcuF.png
+CinemaWorld.sg,CinemaWorld,,,SG,,,c/SG,eng,movies,FALSE,,,,https://cinemaworld.asia/,https://www.lyngsat.com/logo/tv/cc/cinema_world_asia.png
 Cinemax.us,Cinemax,,,US,,,c/US,spa,movies,FALSE,1980-08-01,,,,https://static.epg.best/ph/Cinemax.ph.png
-Cinemax2CentralEurope.us,Cinemax 2 Central Europe,,,US,,,c/US,bul;eng;ron;srp;ces;hun;hrv;slv;pol,,FALSE,,,,http://www.cinemax.eu/,https://i.imgur.com/tUU5Nzh.png
+Cinemax2CentralEurope.us,Cinemax 2 Central Europe,,,US,,,c/US,bul;eng;ron;srp;ces;hun;hrv;slv;pol,movies,FALSE,,,,http://www.cinemax.eu/,https://i.imgur.com/tUU5Nzh.png
 CinemaxAsia.us,Cinemax Asia,,,US,,,c/US,eng;ind;zho;vie;khm;tha,movies,FALSE,,,,http://www.cinemaxasia.com/,https://static.epg.best/ph/Cinemax.ph.png
-CinemaxAsiaPlus1.us,Cinemax Asia +1,,,US,,,c/US,eng,,FALSE,,,,http://www.cinemaxasia.com/,https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/337_144.png
-CinemaxBrasil.br,Cinemax Brasil,,,BR,,,c/BR,por,,FALSE,,,,http://br.cinemax.tv/,https://cdn.mitvstatic.com/channels/br_cinemax-basic_m.png
-CinemaxCentralEurope.us,Cinemax Central Europe,,,US,,,c/US,bul;eng;ron;srp;ces;hun;hrv;slv;pol,,FALSE,,,,http://www.cinemax.eu/,https://i.imgur.com/of4AArl.png
+CinemaxAsiaPlus1.us,Cinemax Asia +1,,,US,,,c/US,eng,movies,FALSE,,,,http://www.cinemaxasia.com/,https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/337_144.png
+CinemaxBrasil.br,Cinemax Brasil,,,BR,,,c/BR,por,movies,FALSE,,,,http://br.cinemax.tv/,https://cdn.mitvstatic.com/channels/br_cinemax-basic_m.png
+CinemaxCentralEurope.us,Cinemax Central Europe,,,US,,,c/US,bul;eng;ron;srp;ces;hun;hrv;slv;pol,movies,FALSE,,,,http://www.cinemax.eu/,https://i.imgur.com/of4AArl.png
 CinemaxEast.us,Cinemax East,,,US,,,c/US,eng;spa,movies,FALSE,,,,http://www.cinemax.com/,https://static.epg.best/ph/Cinemax.ph.png
-CinemaxLatinAmerica.us,Cinemax Latin America,,,US,,,c/US,eng,,FALSE,,,,http://www.hbomax.tv/cinemax/,https://imagenes.gatotv.com/logos/canales/oscuros/cinemax_latinoamerica-mediano.png
-CinemaxWest.us,Cinemax West,,,US,,,c/US,eng;spa,,FALSE,,,,http://www.cinemax.com/,https://cdn.tvpassport.com/image/station/100x100/cinemax.png
+CinemaxLatinAmerica.us,Cinemax Latin America,,,US,,,c/US,eng,movies,FALSE,,,,http://www.hbomax.tv/cinemax/,https://imagenes.gatotv.com/logos/canales/oscuros/cinemax_latinoamerica-mediano.png
+CinemaxWest.us,Cinemax West,,,US,,,c/US,eng;spa,movies,FALSE,,,,http://www.cinemax.com/,https://cdn.tvpassport.com/image/station/100x100/cinemax.png
 CineMexicano.mx,Cine Mexicano,,,MX,,,c/MX,spa;eng,,FALSE,,,,http://www.pctvcanales.mx/canales/cine-mexicano,https://cdn.mitvstatic.com/channels/mx_tvc-cine-mexicano-cmc_m.png
 CineMexicano.us,Cine Mexicano,,,US,,,c/US,spa,,FALSE,,,,http://www.cinemexicano.tv/,https://www.directv.com/images/logos/channels/dark/large/509.png
 CineMo.ph,Cine Mo!,,,PH,,,c/PH,tgl,,FALSE,,,,,https://content.osn.com/logo/channel/cropped/CIN.png
@@ -4056,7 +4056,7 @@ CKYPTV.ca,CKYP-TV,,CTV,CA,CA-MB,The Pas,s/CA-MB,eng,,FALSE,,,,,https://cdn.tvpas
 CKYTTV.ca,CKYT-TV,,CTV,CA,CA-MB,Thompson,s/CA-MB,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ctv-2018.png
 Clan.es,Clan TVE,,,ES,,,c/ES,spa,,FALSE,,,,,https://upload.wikimedia.org/wikipedia/commons/5/5d/Tve_clan.png
 ClanTVE.es,Clan TVE,,,ES,,,c/ES,spa,,FALSE,,,,,https://imagenes.gatotv.com/logos/canales/oscuros/clan_tve-mediano.png
-ClaroCinema.mx,Claro Cinema,,,MX,,,c/MX,spa,,FALSE,,,,,https://i.imgur.com/SOLGQxQ.jpg
+ClaroCinema.mx,Claro Cinema,,,MX,,,c/MX,spa,movies,FALSE,,,,,https://i.imgur.com/SOLGQxQ.jpg
 ClaromusicaTV.co,Claro música TV,,,CO,,,c/CO,spa,,FALSE,,,,http://www.claromusica.com/,https://imagenes.gatotv.com/logos/canales/oscuros/claro_musica-mediano.png
 ClaroSinLimites.mx,Claro Sin Limites,,,MX,,,r/HISPAM,spa,music,FALSE,,,,,
 ClaroSports.mx,Claro Sports,,,MX,,,r/HISPAM,spa,sports,FALSE,,,,https://www.marca.com/claro-mx/,https://www.lyngsat.com/logo/tv/cc/claro_sports_mx.png
@@ -4202,14 +4202,14 @@ ColombeiaTV.ve,Colombeia TV,,,VE,,,c/VE,spa,,FALSE,,,,,https://www.lyngsat.com/l
 Colors.in,Colors,,,IN,,,c/IN,hin,,FALSE,,,,https://www.colorstv.com/,https://www.zap.co.ao/media/cache/movie_thumb/uploads/ao/channels/54bd3c3a5a59d.png
 ColorsAsiaPacific.in,Colors Asia Pacific,,,IN,,,c/IN,hin,,FALSE,,,,http://www.colorstv.com/,https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch780_160_115
 ColorsBangla.in,Colors Bangla,,,IN,,,c/IN,ben,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/colors_bangla.png
-ColorsBanglaCinema.in,Colors Bangla Cinema,,,IN,,,c/IN,ben,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/colors-bangla-cinema-in.png
+ColorsBanglaCinema.in,Colors Bangla Cinema,,,IN,,,c/IN,ben,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/colors-bangla-cinema-in.png
 ColorsCineplex.in,Colors Cineplex,,,IN,,,c/IN,hin,,FALSE,,,,https://www.colorscineplex.com/,https://i.imgur.com/TdxwZkz.png
 ColorsCineplexBollywood.in,Colors Cineplex Bollywood,,,IN,,,c/IN,hin,,FALSE,,,,https://www.colorscineplex.com/,https://i.imgur.com/tUkKoTc.png
 ColorsGujarati.in,Colors Gujarati,,,IN,,,c/IN,guj,,FALSE,,,,,https://i.imgur.com/TwXRKwH.png
-ColorsGujaratiCinema.in,Colors Gujarati Cinema,,,IN,,,c/IN,guj,,FALSE,,,,,https://i.imgur.com/HrtwBpM.png
+ColorsGujaratiCinema.in,Colors Gujarati Cinema,,,IN,,,c/IN,guj,movies,FALSE,,,,,https://i.imgur.com/HrtwBpM.png
 ColorsInfinity.in,Colors Infinity,,,IN,,,c/IN,eng,,FALSE,,,,https://www.colorsinfinity.com/,https://i.imgur.com/ahdRV9p.png
 ColorsKannada.in,Colors Kannada,,,IN,,,c/IN,kan,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/colors-kannada-in.png
-ColorsKannadaCinema.in,Colors Kannada Cinema,,,IN,,,c/IN,kan,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/colors-kannada-cinema-in.png
+ColorsKannadaCinema.in,Colors Kannada Cinema,,,IN,,,c/IN,kan,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/colors-kannada-cinema-in.png
 ColorsMalaysia.my,Colors Malaysia,,,MY,,,c/MY,hin,,FALSE,,,,http://www.colorstv.com/,https://www.lyngsat.com/logo/tv/cc/colors-in.png
 ColorsMarathi.in,Colors Marathi,,,IN,,,c/IN,mar,,FALSE,2001-09-01,,,,https://i.imgur.com/8B9t3S7.png
 ColorsMENA.in,Colors MENA,,,IN,,,c/IN,hin,,FALSE,,,,http://www.colorstv.com/,https://www.lyngsat.com/logo/tv/cc/colors-in.png
@@ -4339,9 +4339,9 @@ CornerstoneTV.us,Cornerstone TV,,,US,,,c/US,eng,religious,FALSE,,,,,https://i.im
 CorTV.mx,CorTV,,,MX,,,c/MX,spa,,FALSE,,,,http://www.cortv.oaxaca.gob.mx/television-2/,https://i.imgur.com/g6ABkaV.png
 CosmopolitanTV.es,Cosmopolitan TV,,,ES,,,c/ES,spa,,FALSE,,,,http://www.cosmopolitantv.es/,https://programacion-tv.elpais.com/imagenes/canales/186.jpg
 CosmopolitanTV.gh,Cosmopolitan TV,,,GH,,,c/GH,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cosmopolitan-gh.png
-CosmoteCinema1.gr,Cosmote Cinema 1,,,GR,,,c/GR,ell,,FALSE,,,,https://www.cosmote.gr/cosmotetv,https://www.cosmote.gr/portal/image/journal/article?img_id=41707954&t=1524412293078
-CosmoteCinema2.gr,Cosmote Cinema 2,,,GR,,,c/GR,ell,,FALSE,,,,https://www.cosmote.gr/cosmotetv,https://www.cosmote.gr/portal/image/journal/article?img_id=41708367&t=1524412309916
-CosmoteCinema3.gr,Cosmote Cinema 3,,,GR,,,c/GR,ell,,FALSE,,,,https://www.cosmote.gr/cosmotetv,https://www.cosmote.gr/portal/image/journal/article?img_id=41707931&t=1524412292383
+CosmoteCinema1.gr,Cosmote Cinema 1,,,GR,,,c/GR,ell,movies,FALSE,,,,https://www.cosmote.gr/cosmotetv,https://www.cosmote.gr/portal/image/journal/article?img_id=41707954&t=1524412293078
+CosmoteCinema2.gr,Cosmote Cinema 2,,,GR,,,c/GR,ell,movies,FALSE,,,,https://www.cosmote.gr/cosmotetv,https://www.cosmote.gr/portal/image/journal/article?img_id=41708367&t=1524412309916
+CosmoteCinema3.gr,Cosmote Cinema 3,,,GR,,,c/GR,ell,movies,FALSE,,,,https://www.cosmote.gr/cosmotetv,https://www.cosmote.gr/portal/image/journal/article?img_id=41707931&t=1524412292383
 CosmoteHistory.gr,Cosmote History,,,GR,,,c/GR,ell,documentary,FALSE,,,,https://www.cosmote.gr/cosmotetv,https://www.cosmote.gr/portal/image/journal/article?img_id=41767946&t=1524483094419
 CosmoteSeries.gr,Cosmote Series,,,GR,,,c/GR,eng,series,FALSE,,,,https://www.cosmote.gr/cosmotetv,https://www.lyngsat.com/logo/tv/cc/cosmote-series-gr.png
 CosmoteSeriesMarathon.gr,Cosmote Series Marathon,,,GR,,,c/GR,ell,series,FALSE,,,,https://www.cosmote.gr/portal/cosmote-series-marathon,https://www.cosmote.gr/portal/image/journal/article?img_id=92969615&t=1598960997667
@@ -4562,7 +4562,7 @@ CWPlusWest.us,CW+ West,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/ima
 CWSeed.us,CW Seed,,,US,,,c/US,eng,entertainment,FALSE,,,,,https://i.imgur.com/PZrtfPb.png
 CycleWorld.us,Cycle World,,,US,,,c/US,eng,auto,FALSE,,,,,https://i.imgur.com/RZE3Pwf.png
 D1TV.hu,D1 TV,,,HU,,,c/HU,hun,,FALSE,,,,http://www.d1tv.hu/,https://www.lyngsat.com/logo/tv/dd/d1-tv-hu.png
-D2hCinema.in,D2h Cinema,,,IN,,,c/IN,hin,,FALSE,,,,https://www.d2h.com/,https://www.lyngsat.com/logo/tv/vv/videocon_d2h_cinema.png
+D2hCinema.in,D2h Cinema,,,IN,,,c/IN,hin,movies,FALSE,,,,https://www.d2h.com/,https://www.lyngsat.com/logo/tv/vv/videocon_d2h_cinema.png
 D2hHollywood.in,D2h Hollywood,,,IN,,,c/IN,hin,,FALSE,,,,https://www.d2h.com/,https://www.lyngsat.com/logo/tv/vv/videocon_d2h_hollywood.png
 D2hHome1.in,D2h Home 1,,,IN,,,c/IN,hin,,FALSE,,,,https://www.d2h.com/,https://www.lyngsat.com/logo/tv/vv/videocon_d2h_home_channel_1.png
 D2hHome2.in,D2h Home 2,,,IN,,,c/IN,hin,,FALSE,,,,https://www.d2h.com/,https://www.lyngsat.com/logo/tv/vv/videocon_d2h_home_channel_2.png
@@ -4832,10 +4832,10 @@ DipsoTV.gr,Dipso TV,,,GR,,,c/GR,ell,,FALSE,,,,,https://i.imgur.com/iL2o7Og.png
 DiputadosTV.ar,Diputados TV,,,AR,,,c/AR,spa,,FALSE,,,,https://dtv.hcdn.gob.ar/,https://cdn.mitvstatic.com/channels/cl_tv-diputados_m.png
 DiraTV.tz,Dira TV,,,TZ,,,c/TZ,swa,,FALSE,,,,,https://www.lyngsat.com/logo/tv/dd/dira-tv-tz.png
 DirectOneTV.lu,Direct One TV,,,LU,,,c/LU,hun,,FALSE,,,,https://www.directone.hu/,https://m7cdn.io/directone/temp/img/logo.png
-DirecTVCinema4K.us,DirecTV Cinema 4K,,,US,,,c/US,eng,,FALSE,,,,http://www.directv.com/,https://www.lyngsat.com/logo/tv/dd/directv-cinema-usa-us.png
-DirecTVCinemaLatinAmerica.us,DirecTV Cinema Latin America,,,US,,,c/US,spa,,FALSE,,,,https://www.directv.com/movies/,https://www.lyngsat.com/logo/tv/dd/directv-cinema-us.png
-DirecTVCinemaScreeningRoom.us,DirecTV Cinema Screening Room,,,US,,,c/US,eng,,FALSE,,,,https://www.directv.com/Channels/Cinema-Screening-Room-100-100?format=SD,https://www.lyngsat.com/logo/tv/dd/directv-cinema-usa-us.png
-DirecTVCinemaUSA.us,DirecTV Cinema USA,,,US,,,c/US,eng,,FALSE,,,,https://www.directv.com/movies/,https://www.lyngsat.com/logo/tv/dd/directv-cinema-usa-us.png
+DirecTVCinema4K.us,DirecTV Cinema 4K,,,US,,,c/US,eng,movies,FALSE,,,,http://www.directv.com/,https://www.lyngsat.com/logo/tv/dd/directv-cinema-usa-us.png
+DirecTVCinemaLatinAmerica.us,DirecTV Cinema Latin America,,,US,,,c/US,spa,movies,FALSE,,,,https://www.directv.com/movies/,https://www.lyngsat.com/logo/tv/dd/directv-cinema-us.png
+DirecTVCinemaScreeningRoom.us,DirecTV Cinema Screening Room,,,US,,,c/US,eng,movies,FALSE,,,,https://www.directv.com/Channels/Cinema-Screening-Room-100-100?format=SD,https://www.lyngsat.com/logo/tv/dd/directv-cinema-usa-us.png
+DirecTVCinemaUSA.us,DirecTV Cinema USA,,,US,,,c/US,eng,movies,FALSE,,,,https://www.directv.com/movies/,https://www.lyngsat.com/logo/tv/dd/directv-cinema-usa-us.png
 DirecTVSports2AmericaLatina.us,DirecTV Sports 2 América Latina,,,US,,,c/US,spa,sports,FALSE,,,,https://www.directvsports.com/,https://www.lyngsat.com/logo/tv/dd/directv-sports-us.png
 DirecTVSports2Sur.us,DirecTV Sports 2 Sur,,,US,,,c/US,spa,sports,FALSE,,,,https://www.directvsports.com/,https://www.lyngsat.com/logo/tv/dd/directv-sports-us.png
 DirecTVSports3Sur.us,DirecTV Sports 3 Sur,,,US,,,c/US,spa,sports,FALSE,,,,https://www.directvsports.com/,https://www.lyngsat.com/logo/tv/dd/directv-sports-us.png
@@ -4950,8 +4950,8 @@ DishBusinessTV.us,Dish Business TV,,,US,,,c/US,eng,business,FALSE,,,,http://www.
 DishBuzz.in,Dish Buzz,,,IN,,,c/IN,hin,,FALSE,,,,,https://i.imgur.com/2P9YOLK.png
 DishBuzz2.in,Dish Buzz 2,,,IN,,,c/IN,hin,,FALSE,,,,,https://i.imgur.com/WGiGY03.png
 DishHomeActionSports.np,DishHome Action Sports,,,NP,,,c/NP,nep,sports,FALSE,,,,http://www.dishhome.com.np/,https://www.lyngsat.com/logo/tv/dd/dish_home_np_sports.png
-DishHomeCinemaGhar108.np,DishHome Cinema Ghar 108,,,NP,,,c/NP,nep,,FALSE,,,,http://www.dishhome.com.np/,https://www.lyngsat.com/logo/tv/dd/dishhome-cinema-ghar-108-np.png
-DishHomeCinemaGhar888.np,DishHome Cinema Ghar 888,,,NP,,,c/NP,nep,,FALSE,,,,http://www.dishhome.com.np/,https://www.lyngsat.com/logo/tv/dd/dishhome-cinema-ghar-888-np.png
+DishHomeCinemaGhar108.np,DishHome Cinema Ghar 108,,,NP,,,c/NP,nep,movies,FALSE,,,,http://www.dishhome.com.np/,https://www.lyngsat.com/logo/tv/dd/dishhome-cinema-ghar-108-np.png
+DishHomeCinemaGhar888.np,DishHome Cinema Ghar 888,,,NP,,,c/NP,nep,movies,FALSE,,,,http://www.dishhome.com.np/,https://www.lyngsat.com/logo/tv/dd/dishhome-cinema-ghar-888-np.png
 DishHomeJunior.np,DishHome Junior,,,NP,,,c/NP,nep,,FALSE,,,,http://www.dishhome.com.np/,https://www.lyngsat.com/logo/tv/dd/dishhome-cartoon-np.png
 DishHomeRamailo.np,DishHome Ramailo,,,NP,,,c/NP,nep,,FALSE,,,,http://www.dishhome.com.np/,https://www.lyngsat.com/logo/tv/dd/dishhome-ramailo-np.png
 DishHomeShowcase.np,DishHome Showcase,,,NP,,,c/NP,nep,,FALSE,,,,http://www.dishhome.com.np/,https://www.lyngsat.com/logo/tv/dd/dish_home_np_showcase.png
@@ -5300,7 +5300,7 @@ EBS.us,EBS,,,US,,,c/US,amh,,FALSE,,,,http://ebstv.tv/,https://rndcdn.dstv.com/ds
 EBS1TV.kr,EBS 1TV,,,KR,,,c/KR,kor,,FALSE,2015-02-11,,,https://www.ebs.co.kr/tv/home,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/512px-EBS_1TV_Logo.svg.png
 EBS2TV.kr,EBS 2TV,,,KR,,,c/KR,kor,,FALSE,2015-02-11,,,http://www.ebs.co.kr/ebs2tv/introduce,https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/EBS_2TV_Logo.svg/512px-EBS_2TV_Logo.svg.png
 EBSAmerica.us,EBS America,,,US,,,c/US,kor,,FALSE,,,,https://www.ebs.co.kr/tv/home,https://www.directv.com/images/logos/channels/dark/large/259.png
-EBSCinema.us,EBS Cinema,,,US,,,c/US,amh,,FALSE,,,,http://ebstv.tv/,https://www.lyngsat.com/logo/tv/ee/ebs_us_cinema.png
+EBSCinema.us,EBS Cinema,,,US,,,c/US,amh,movies,FALSE,,,,http://ebstv.tv/,https://www.lyngsat.com/logo/tv/ee/ebs_us_cinema.png
 EBSEnglish.kr,EBS English,,,KR,,,c/KR,eng;kor,,FALSE,2007-04-06,,,http://www.ebse.co.kr/,https://i.imgur.com/qceaIf7.png
 EBSKids.kr,EBS Kids,EBS 키즈,,KR,,,c/KR,kor,kids,FALSE,2018-01-01,,,http://www.ebs.co.kr/kids,https://i.imgur.com/62oo8Bx.png
 EBSMusika.us,EBS Musika,,,US,,,c/US,amh,,FALSE,,,,http://ebstv.tv/,https://www.lyngsat.com/logo/tv/ee/ebs_us_musika.png
@@ -5770,7 +5770,7 @@ ETVBalyaBharatAssamese.in,ETV Balya Bharat Assamese,,,IN,,,c/IN,asm;eng,,FALSE,,
 ETVBalyaBharatBangla.in,ETV Balya Bharat Bangla,,,IN,,,c/IN,ben;eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ee/etv-balya-bharat-bangla-in.png
 ETVBalyaBharatOdia.in,ETV Balya Bharat Odia,,,IN,,,c/IN,ori;eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ee/etv-balya-bharat-odia-in.png
 ETVChattisgarh.in,ETV Chattisgarh,,,IN,,,c/IN,hin,news,FALSE,,,,,
-ETVCinema.in,ETV Cinema,,,IN,,,c/IN,tel,,FALSE,,,,http://www.etv.co.in/channels/home?channelId=8,https://www.lyngsat.com/logo/tv/ee/etv_in_cinema.png
+ETVCinema.in,ETV Cinema,,,IN,,,c/IN,tel,movies,FALSE,,,,http://www.etv.co.in/channels/home?channelId=8,https://www.lyngsat.com/logo/tv/ee/etv_in_cinema.png
 ETVEntertainment.et,ETV Entertainment,,,ET,,,c/ET,amh,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ee/etv-entertainment-et.png
 ETVGhana.gh,E TV Ghana,,,GH,,,c/GH,afr,,FALSE,,,,https://www.etvghana.com/,https://www.lyngsat.com/logo/tv/ee/e_tv_gh.png
 ETVHD.mn,ETV HD,,,MN,,,c/MN,mon,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ee/etv_mn.png
@@ -8092,8 +8092,8 @@ JohnnyCarsonTV.us,Johnny Carson TV,,,US,,,c/US,eng,classic,FALSE,,,,https://plut
 JoiasVIP.br,Jóias VIP,,,BR,,,c/BR,por,,FALSE,,,,https://www.joiasvip.com.br/,https://www.lyngsat.com/logo/tv/jj/joias_vip.png
 JOIXDTV.jp,Yomiuri Television,,NNN,JP,,,c/JP,jpn,,FALSE,,,,https://www.ytv.co.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/otd/logo-7FD5-101-400x400.png
 JOJ.sk,JOJ,,,SK,,,c/SK,slk,,FALSE,,,,,https://i.imgur.com/wKJpGke.jpg
-JojCinema.sk,Joj Cinema,,,SK,,,c/SK,slk;ces,,FALSE,,,,http://jojcinema.cz/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/joj_cinema.png
-JojCinemaPlus1.sk,Joj Cinema +1,,,SK,,,c/SK,ces,,FALSE,,,,http://jojcinema.cz/,https://www.lyngsat.com/logo/tv/jj/joj_tv_sk_cinema_plus1.png
+JojCinema.sk,Joj Cinema,,,SK,,,c/SK,slk;ces,movies,FALSE,,,,http://jojcinema.cz/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/joj_cinema.png
+JojCinemaPlus1.sk,Joj Cinema +1,,,SK,,,c/SK,ces,movies,FALSE,,,,http://jojcinema.cz/,https://www.lyngsat.com/logo/tv/jj/joj_tv_sk_cinema_plus1.png
 JojFamily.sk,Joj Family,,,SK,,,c/SK,slk;ces,,FALSE,,,,http://jojfamily.blesk.cz/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/joj_family.png
 Jojko.sk,Jojko,,,SK,,,c/SK,slk,,FALSE,,,,https://jojko.joj.sk/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/jojko.png
 JojPlus.sk,Joj Plus,,,SK,,,c/SK,slk,,FALSE,,,,https://plus.joj.sk/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/joj_plus.png
@@ -8926,7 +8926,7 @@ KanalZ.tr,Kanal Z,,,TR,,,c/TR,tur,,FALSE,,,,,https://i.imgur.com/elAlSno.png
 KanaTV.et,Kana TV,,,ET,,,c/ET,amh,,FALSE,2016-04-04,,,https://kanatelevision.com/,https://www.lyngsat.com/logo/tv/kk/kana_tv_et.png
 KanEducational.il,Kan Educational,כאן חינוכית,,IL,,,c/IL,heb,,FALSE,2018-08-15,,,https://www.kankids.org.il/,https://i.imgur.com/Vs55QWR.png
 KANGLP1.us,KANG-LP1,,UniMás,US,US-TX,San Angelo,s/US-TX,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/unimas.png
-KannadaCinemaClub.in,Kannada Cinema Club,,,IN,,,c/IN,kan,,FALSE,,,,,https://www.lyngsat.com/logo/tv/kk/kannada_cinema_club_in.png
+KannadaCinemaClub.in,Kannada Cinema Club,,,IN,,,c/IN,kan,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/kk/kannada_cinema_club_in.png
 KannurOne.in,Kannur One,,,IN,,,c/IN,mal,,FALSE,,,,,https://i.imgur.com/hytRL90.png
 KannurVision.in,Kannur Vision,,,IN,,,c/IN,mal,,FALSE,,,,,https://i.imgur.com/Zo6TFvK.png
 KansaiTV.jp,Kansai TV,,,JP,,,c/JP,jpn,,FALSE,,,,,
@@ -13781,7 +13781,7 @@ MalabarVision.in,Malabar Vision,,,IN,,,c/IN,mal,news,FALSE,,,,,https://i.imgur.c
 Malaimurasu.in,Malaimurasu,,,IN,,,c/IN,tam,news,FALSE,,,,,https://i.imgur.com/uFiHtQX.png
 MalaiMurasuTV.in,Malai Murasu TV,,,IN,,,c/IN,tam,,FALSE,,,,https://www.malaimurasu.com/,https://www.lyngsat.com/logo/tv/mm/malai_murasu_tv_in.png
 MalarTV.in,Malar TV,,,IN,,,c/IN,tam,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/malar-tv-in.png
-MalayalamCinemaClub.in,Malayalam Cinema Club,,,IN,,,c/IN,mal,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/mayalam_cinema_club_in.png
+MalayalamCinemaClub.in,Malayalam Cinema Club,,,IN,,,c/IN,mal,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/mayalam_cinema_club_in.png
 MalchinBirj.mn,Malchin Birj,,,MN,,,c/MN,mon,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/malchin-birj-mn.png
 MalchinTV.mn,Malchin TV,,,MN,,,c/MN,mon,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/malchin-tv-mn.png
 Maleflixxx.ca,Maleflixxx,,,CA,,,c/CA,eng,,FALSE,,,,https://maleflixxx.tv/,https://www.lyngsat.com/logo/tv/aa/aov_maleflixxx.png
@@ -14816,9 +14816,9 @@ MyCamTVMedium.cy,MyCam TV Medium,,,CY,,,c/CY,eng,xxx,TRUE,,,,https://mycamtv.com
 MyCamTVTits.cy,MyCam TV Tits,,,CY,,,c/CY,eng,xxx,TRUE,,,,https://mycamtv.com/,https://cdn.strpst.com/assets/icons/headerlogo_mycamtv.com.png
 MyCamTVYoung.cy,MyCam TV Young,,,CY,,,c/CY,eng,xxx,TRUE,,,,https://mycamtv.com/,https://cdn.strpst.com/assets/icons/headerlogo_mycamtv.com.png
 MyChannelAfrica.ao,My Channel Africa,,,AO,,,c/ZA;c/AO,por,,FALSE,,,,https://mychannelafrica.com/,https://rndcdn.dstv.com/dstvcms/2021/07/21/MyAfricaTV_Logo_4-3_LightBG_V2_xlrg.png
-MyCinema.id,My Cinema,,,ID,,,c/ID,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my-cinema-id.png
-MyCinemaAsia.id,My Cinema Asia,,,ID,,,c/ID,zho,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my-cinema-asia-id.png
-MyCinemaEurope.ch,My Cinema Europe,,,CH,,,c/CH,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my_cinema_europe_kr.png
+MyCinema.id,My Cinema,,,ID,,,c/ID,eng,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my-cinema-id.png
+MyCinemaAsia.id,My Cinema Asia,,,ID,,,c/ID,zho,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my-cinema-asia-id.png
+MyCinemaEurope.ch,My Cinema Europe,,,CH,,,c/CH,eng,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my_cinema_europe_kr.png
 MyDestinationTV.us,MyDestination.TV,,,US,,,c/US,eng,,FALSE,,,,,https://zap2it.tmsimg.com/h3/NowShowing/71303/s71303_h3_aa.png
 MyDirtyMobile.de,My Dirty Mobile,,,DE,,,c/DE,deu,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my_dirty_mobile.png
 MyFamily.id,My Family,,,ID,,,c/ID,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/mm/my-family-id.png
@@ -15677,11 +15677,11 @@ Nova24TV.si,Nova 24 TV,,,SI,,,c/SI,slv,,FALSE,,,,https://nova24tv.si/,https://tv
 Nova24TV2.si,Nova 24 TV 2,,,SI,,,c/SI,slv,,FALSE,,,,,https://tv2go.t-2.net/static/media/img/channels/dark/ios/small/retina/3333680.png
 NovaAction.cz,Nova Action,,,CZ,,,c/CZ,ces,,FALSE,,,,http://action.nova.cz/,https://upload.wikimedia.org/wikipedia/commons/d/d2/Nova-action-logo-2017.png
 NovaBH.ba,Nova BH,,,BA,,,c/BA,srp,,FALSE,,,,https://novabh.tv/,https://i.imgur.com/4wPlivL.png
-NovaCinema.cz,Nova Cinema,,,CZ,,,c/CZ,ces,,FALSE,,,,http://cinema.nova.cz/,https://static.epg.best/cz/NovaCinema.cz.png
-NovaCinema1.gr,Nova Cinema 1,,,GR,,,c/GR,ell,,FALSE,,,,http://www.nova.gr/,https://ssl2.novago.gr/EPG/jsp/images/universal/film/logo/20200210/000100/XTV100000762/d6a2f5e0-dbc0-49c7-9843-e3161ca5ae5d.png
-NovaCinema2.gr,Nova Cinema 2,,,GR,,,c/GR,ell,,FALSE,,,,http://www.nova.gr/,https://ssl2.novago.gr/EPG/jsp/images/universal/film/logo/20200210/000100/XTV100000763/24e05354-d6ad-4949-bcb3-a81d1c1d2cba.png
-NovaCinema3.gr,Nova Cinema 3,,,GR,,,c/GR,ell,,FALSE,,,,http://www.nova.gr/,https://ssl2.novago.gr/EPG/jsp/images/universal/film/logo/20200210/000100/XTV100000566/f4462dd6-79f9-42db-a773-46fb0bdda4b7.png
-NovaCinema4.gr,Nova Cinema 4,,,GR,,,c/GR,ell,,FALSE,,,,http://www.nova.gr/,https://ssl2.novago.gr/EPG/jsp/images/universal/film/logo/20200210/000100/XTV100000567/3e1aaff8-8a7e-4916-a433-584a65a5d2cd.png
+NovaCinema.cz,Nova Cinema,,,CZ,,,c/CZ,ces,movies,FALSE,,,,http://cinema.nova.cz/,https://static.epg.best/cz/NovaCinema.cz.png
+NovaCinema1.gr,Nova Cinema 1,,,GR,,,c/GR,ell,movies,FALSE,,,,http://www.nova.gr/,https://ssl2.novago.gr/EPG/jsp/images/universal/film/logo/20200210/000100/XTV100000762/d6a2f5e0-dbc0-49c7-9843-e3161ca5ae5d.png
+NovaCinema2.gr,Nova Cinema 2,,,GR,,,c/GR,ell,movies,FALSE,,,,http://www.nova.gr/,https://ssl2.novago.gr/EPG/jsp/images/universal/film/logo/20200210/000100/XTV100000763/24e05354-d6ad-4949-bcb3-a81d1c1d2cba.png
+NovaCinema3.gr,Nova Cinema 3,,,GR,,,c/GR,ell,movies,FALSE,,,,http://www.nova.gr/,https://ssl2.novago.gr/EPG/jsp/images/universal/film/logo/20200210/000100/XTV100000566/f4462dd6-79f9-42db-a773-46fb0bdda4b7.png
+NovaCinema4.gr,Nova Cinema 4,,,GR,,,c/GR,ell,movies,FALSE,,,,http://www.nova.gr/,https://ssl2.novago.gr/EPG/jsp/images/universal/film/logo/20200210/000100/XTV100000567/3e1aaff8-8a7e-4916-a433-584a65a5d2cd.png
 NovaEraTV.br,Nova Era TV,,,BR,,,c/BR,por,,FALSE,,,,,https://i.imgur.com/IK3F9Uq.png
 NovaFun.cz,Nova Fun,,,CZ,,,c/CZ,ces,,FALSE,,,,https://tv.nova.cz/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/nova_2.png
 NovaGold.cz,Nova Gold,,,CZ,,,c/CZ,ces,,FALSE,,,,http://gold.nova.cz/,https://static.epg.best/cz/NovaGold.cz.png
@@ -15886,7 +15886,7 @@ NusantaraTV.id,Nusantara-TV,,,ID,,,c/ID,ind,,FALSE,,,,https://www.nusantaratv.co
 NutaTV.pl,Nuta TV,,,PL,,,c/PL,pol,,FALSE,,,,http://nuta.tv/,https://ocdn.eu/ptv2-images-transforms/1/Uihkrhsb2dvLW1pZ3JhdGVkL251dGF0di5wbmeSlQJkAMLDlQIAKMLD
 NVKSakha.ru,NVK Sakha,,,RU,,,c/RU,rus,,FALSE,,,,https://nvk-online.ru/,https://www.lyngsat.com/logo/tv/nn/nvk_sakha_ru.png
 NVKSakhaPokrovsk.ru,NVK Sakha Pokrovsk,,,RU,,,c/RU,rus,,FALSE,,,,https://nvk-online.ru/,https://www.lyngsat.com/logo/tv/nn/nvk_sakha_ru_pokrovsk.png
-NWCinema.tg,NW Cinema,,,TG,,,c/TG,fra,,FALSE,,,,https://www.newworldtv.com/,https://www.lyngsat.com/logo/tv/nn/nw-cinema-tg.png
+NWCinema.tg,NW Cinema,,,TG,,,c/TG,fra,movies,FALSE,,,,https://www.newworldtv.com/,https://www.lyngsat.com/logo/tv/nn/nw-cinema-tg.png
 NWInfo.tg,NW Info,,,TG,,,c/TG,fra,,FALSE,,,,https://www.newworldtv.com/,https://www.lyngsat.com/logo/tv/nn/new-world-tv-tg.png
 NWInfo2.tg,NW Info 2,,,TG,,,c/TG,fra,,FALSE,,,,https://www.newworldtv.com/,https://www.lyngsat.com/logo/tv/nn/new-world-tv-tg.png
 NWMagazine.tg,NW Magazine,,,TG,,,c/TG,fra,,FALSE,,,,https://www.newworldtv.com/,https://www.lyngsat.com/logo/tv/nn/new-world-tv-tg.png
@@ -16111,7 +16111,7 @@ OneTV.ch,One TV,,,CH,,,c/CH,fra,,FALSE,,,,,https://i.imgur.com/ky332eh.png
 OneTV.hk,One TV,,,HK,,,c/HK,zho,,FALSE,,,,http://www.one-tv.com/,https://www.lyngsat.com/logo/tv/oo/one_tv_hk.png
 OneTV.id,One TV,,,ID,,,c/ID,ind,,FALSE,,,,,https://onetvasia.com/sites/onetvasia.com/files/logo-small_0.png
 OneTv.in,One TV,,,IN,,,c/IN,mal,entertainment,FALSE,,,,,https://i.imgur.com/ssMOeaj.png
-OneTVCinema2.kh,One TV Cinema 2,,,KH,,,c/KH,khm,,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Cinema-2,https://www.lyngsat.com/logo/tv/oo/one-tv-cinema-2-kh.png
+OneTVCinema2.kh,One TV Cinema 2,,,KH,,,c/KH,khm,movies,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Cinema-2,https://www.lyngsat.com/logo/tv/oo/one-tv-cinema-2-kh.png
 OneTVDiscover.hk,One TV Discover,,,HK,,,c/HK,zho,,FALSE,,,,http://www.one-tv.com/,https://www.lyngsat.com/logo/tv/oo/one_tv_hk.png
 OneTVDiscovery6.kh,One TV Discovery 6,,,KH,,,c/KH,khm,,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Discovery-6,https://www.lyngsat.com/logo/tv/oo/one-tv-discovery-6-kh.png
 OneTVDrama3.kh,One TV Drama 3,,,KH,,,c/KH,khm,,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Drama-3,https://www.lyngsat.com/logo/tv/oo/one-tv-drama-3-kh.png
@@ -16235,7 +16235,7 @@ OSNSeriesFirst.ae,OSN Series First,,,AE,,,c/AE,eng,series,FALSE,,,,https://www.o
 OSNWoman.ae,OSN Woman,,,AE,,,c/AE,eng;ara,,FALSE,,,,http://www.osn.com/,https://content.osn.com/logo/channel/cropped/OSW.png
 OSNYaHala.ae,OSN Ya Hala,,,AE,,,c/AE,ara;tur,,FALSE,,,,https://www.osn.com/en-ae/explore/channels/oya/osn-ya-hala,https://content.osn.com/logo/channel/cropped/OYA.png
 OSNYaHalaAlOula.ae,OSN Ya Hala Al Oula,,,AE,,,c/AE,ara;tur,,FALSE,,,,https://www.osn.com/en-ae/explore/channels/oyh/osn-ya-hala-al-oula,https://content.osn.com/logo/channel/cropped/OYH.png
-OSNYaHalaCinema.ae,OSN Ya Hala Cinema,,,AE,,,c/AE,ara;tur,,FALSE,,,,https://www.osn.com/en-ae/explore/channels/oyc/osn-yahala-cinema,https://content.osn.com/logo/channel/cropped/OYC.png
+OSNYaHalaCinema.ae,OSN Ya Hala Cinema,,,AE,,,c/AE,ara;tur,movies,FALSE,,,,https://www.osn.com/en-ae/explore/channels/oyc/osn-yahala-cinema,https://content.osn.com/logo/channel/cropped/OYC.png
 Ostrosyuzhetnoye.ru,Ostrosyuzhetnoye,,,RU,,,c/RU,rus,,FALSE,,,,https://www.tricolor.tv/channels/ostrosyuzhetnoe-sd/,https://avatars.mds.yandex.net/get-tv-channel-logos/70787/2a0000016cf789c6567bb6d56d2d3e9cec14/340x200
 OstWest.de,Ost West,,,DE,,,c/DE,rus,,FALSE,,,,https://ostwest.tv/,https://i.imgur.com/VweZQao.png
 OsunStateBroadcastingCorporation.ng,Osun State Broadcasting Corporation,,,NG,,,c/NG,eng,,FALSE,,,,https://osbcng.org/,https://www.lyngsat.com/logo/tv/oo/osun-state-broadcasting-corporation-ng.png
@@ -16625,7 +16625,7 @@ PinkThriller.rs,Pink Thriller,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs
 PinkTV.fr,Pink TV,,,FR,,,c/FR,fra,,FALSE,,,,http://www.pinktv.fr/,https://www.programme-tv.net/imgre/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2Fdb1124e839974f97.2Epng/80x80/quality/80/pink-tv.png
 PinkWestern.rs,Pink Western,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mtel.ba/oec/images/tv_channels/93a327cd9fae5d1f089ca98a383f8d09.png
 PinkWorld.rs,Pink World,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mtel.ba/oec/images/tv_channels/4fe0cd06c858d1102b7cf75122c90e23.png
-PinkWorldCinema.rs,Pink World Cinema,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://www.lyngsat.com/logo/tv/pp/pink-world-cinema-rs.png
+PinkWorldCinema.rs,Pink World Cinema,,,RS,,,c/RS,srp,movies,FALSE,,,,http://www.rtvpink.co.rs/,https://www.lyngsat.com/logo/tv/pp/pink-world-cinema-rs.png
 PinkX.fr,Pink X,,,FR,,,c/FR,fra,,FALSE,,,,https://pinkx.eu/,https://www.lyngsat.com/logo/tv/pp/pink-x-fr.png
 PinkZabava.rs,Pink Zabava,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mtel.ba/oec/images/tv_channels/bbeeab15f75d21f7806b36305f4f4f36.png
 PinoyBoxOfficeGlobal.ph,Pinoy Box Office Global,,,PH,,,c/PH,tgl,,FALSE,,,,https://pbo.com.ph/,https://www.directv.com/images/logos/channels/dark/large/224.png
@@ -16686,7 +16686,7 @@ PlayEntertainment.pk,Play Entertainment,,,PK,,,c/PK,urd,,FALSE,2015-12-01,,,http
 PlayersTV.us,Players TV,,,US,,,c/CA,eng,sports,FALSE,,,,,https://i.imgur.com/d3EaS41.png
 PlaymenTV.ca,Playmen TV,,,CA,,,c/CA,eng,,FALSE,2005-04-12,,,http://exxxtasy.com/playmentv/,https://cdn.tvpassport.com/image/station/100x100/playmen.png
 PlayMoreBlack.be,Play More Black,,,BE,,,c/BE,nld,,FALSE,,,,https://www.goplay.be/,
-PlayMoreCinema.be,Play More Cinema,,,BE,,,c/BE,nld,,FALSE,,,,https://www.goplay.be/,
+PlayMoreCinema.be,Play More Cinema,,,BE,,,c/BE,nld,movies,FALSE,,,,https://www.goplay.be/,
 PlayMoreKicks.be,Play More Kicks,,,BE,,,c/BE,nld,,FALSE,,,,https://www.goplay.be/,
 PlaySports1.be,Play Sports 1,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.goplay.be/,
 PlaySports2.be,Play Sports 2,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.goplay.be/,
@@ -17314,10 +17314,10 @@ PremierTennis.ph,Premier Tennis,,,PH,,,c/PH,eng,,FALSE,,,,http://tapdmv.com/Prem
 PremiumAction.it,Premium Action,,,IT,,,c/IT,ita,,FALSE,,,,,https://i.imgur.com/dLEPxFw.png
 PremiumBoxOffice.cn,Premium Box Office,,,CN,,,c/CN,eng,,FALSE,,,,,https://i.imgur.com/NFotHZr.png
 PremiumChannel.at,Premium Channel,,,AT,,,c/AT,deu,,FALSE,,,,,https://i.imgur.com/XLeth50.jpg
-PremiumCinema1.it,Premium Cinema 1,,,IT,,,c/IT,ita,,FALSE,,,,,
-PremiumCinema1Plus24.it,Premium Cinema 1 +24,,,IT,,,c/IT,ita,,FALSE,,,,,
-PremiumCinema2.it,Premium Cinema 2,,,IT,,,c/IT,ita,,FALSE,,,,,
-PremiumCinema3.it,Premium Cinema 3,,,IT,,,c/IT,ita,,FALSE,,,,,
+PremiumCinema1.it,Premium Cinema 1,,,IT,,,c/IT,ita,movies,FALSE,,,,,
+PremiumCinema1Plus24.it,Premium Cinema 1 +24,,,IT,,,c/IT,ita,movies,FALSE,,,,,
+PremiumCinema2.it,Premium Cinema 2,,,IT,,,c/IT,ita,movies,FALSE,,,,,
+PremiumCinema3.it,Premium Cinema 3,,,IT,,,c/IT,ita,movies,FALSE,,,,,
 PremiumCrime.it,Premium Crime,,,IT,,,c/IT,ita,,FALSE,,,,,https://i.imgur.com/Ig0br70.png
 PremiumShoppingTV.ch,Premium Shopping TV,,,CH,,,c/CH,deu,,FALSE,,,,,https://i.imgur.com/m9Vy1Uh.png
 PremiumStories.it,Premium Stories,,,IT,,,c/IT,ita,,FALSE,,,,,
@@ -17356,12 +17356,12 @@ PrimeTV.us,Prime TV,,,US,,,c/US,eng,,FALSE,,,,,https://www.directv.com/images/lo
 Primocanale.it,Primocanale,,,IT,,,c/IT,ita,,FALSE,,,,,https://i.imgur.com/ltoMTJV.png
 Prise2.ca,Prise 2,,,CA,,,c/CA,fra,,FALSE,2006-02-09,,,http://www.prise2.tv/,https://cdn.tvpassport.com/image/station/100x100/prise2.png
 PrismAfrica.zm,Prism Africa,,,ZM,,,c/ZM,eng,,FALSE,,,,http://prismafrica.net/,https://www.lyngsat.com/logo/tv/pp/prism_africa_zm.png
-PrivateCinema.tw,Private Cinema,,,TW,,,c/TW,zho,,FALSE,,,,,https://www.lyngsat.com/logo/tv/pp/private-cinema.png
+PrivateCinema.tw,Private Cinema,,,TW,,,c/TW,zho,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/pp/private-cinema.png
 PrivateTV.nl,Private TV,,,NL,,,c/NL,eng;spa,xxx,TRUE,,,,http://www.privatetelevision.com/,https://i.imgur.com/MPEgk7e.png
 PRNK.ru,PRNK,,,RU,,,c/RU,rus,,FALSE,,,,,https://i.imgur.com/cenLmbr.png
 Pro100TV.ru,Pro 100 TV,,,RU,,,c/RU,rus,,FALSE,,,,http://mult-channel.ru/,https://www.lyngsat.com/logo/tv/pp/pro_100_ru.png
 Pro2.ro,Pro 2,,,RO,,,c/RO,ron,,FALSE,,,,http://www.pro2.ro/,https://static.cinemagia.ro/img/tv_station/pro-2.jpg
-ProCinema.ro,Pro Cinema,,,RO,,,c/RO,ron,,FALSE,2004-04-19,,,http://www.procinema.ro/,https://static.cinemagia.ro/img/tv_station/pro-cinema-hd.jpg
+ProCinema.ro,Pro Cinema,,,RO,,,c/RO,ron,movies,FALSE,2004-04-19,,,http://www.procinema.ro/,https://static.cinemagia.ro/img/tv_station/pro-cinema-hd.jpg
 ProdvizhenieMoskva.ru,Prodvizhenie Moskva,,,RU,,,c/RU,rus,,FALSE,,,,https://www.pro-tv.info/,https://avatars.mds.yandex.net/get-tv-channel-logos/54380/2a00000177016cad653b0d8e2745a86cebce/214x121
 ProdvizhenieSibir.ru,Prodvizhenie Sibir,,,RU,,,c/RU,rus,,FALSE,,,,https://www.pro-tv.info/,https://www.lyngsat.com/logo/tv/pp/prodvizhenie_tv_ru.png
 ProfessionalBaseball1.kr,Professional Baseball 1,프로야구 1,,KR,,,c/KR,kor,sports,FALSE,,,,,https://i.imgur.com/NK4gvyo.png
@@ -18033,7 +18033,7 @@ RedTV.rs,Red TV,,,RS,,,c/RS,srp,,FALSE,,,,https://redportal.rs/,https://mtel.ba/
 RedUno.bo,Red Uno,,,BO,,,c/BO,spa,,FALSE,,,,https://www.reduno.com.bo/,https://comteco.com.bo/img/upload/canales/iZ7Gvp.png
 Reduta.sk,Reduta,,,SK,,,c/SK,slk,,FALSE,,,,,
 ReelPXAction.us,Reel PX Action,,,US,,,c/US,eng,,FALSE,,,,https://www.bastionegroup.com/#portfolio,https://www.lyngsat.com/logo/tv/rr/reel-px-action-us.png
-ReelPXCinema.us,Reel PX Cinema,,,US,,,c/US,eng,,FALSE,,,,https://www.bastionegroup.com/#portfolio,https://www.lyngsat.com/logo/tv/rr/reel-px-cinema-us.png
+ReelPXCinema.us,Reel PX Cinema,,,US,,,c/US,eng,movies,FALSE,,,,https://www.bastionegroup.com/#portfolio,https://www.lyngsat.com/logo/tv/rr/reel-px-cinema-us.png
 ReelPXUnlimited.us,Reel PX Unlimited,,,US,,,c/US,eng,,FALSE,,,,https://www.bastionegroup.com/#portfolio,https://www.lyngsat.com/logo/tv/rr/reel-px-unlimited-us.png
 Reelz.us,Reelz,,,US,,,c/US,eng,documentary,FALSE,,,,https://www.reelz.com/,https://i.imgur.com/UQjtEqR.png
 ReelzChannelXUMO.us,Reelz Channel XUMO,,,US,,,c/US,eng,documentary,FALSE,,,,,https://i.imgur.com/UQjtEqR.png
@@ -19142,7 +19142,7 @@ Shraddha.in,Shraddha,,,IN,,,c/IN,hin,,FALSE,,,,,
 ShraddhaMhOne.in,Shraddha Mh One,,,IN,,,c/IN,hin,,FALSE,,,,https://shraddha.mhone.in/,https://www.lyngsat.com/logo/tv/mm/mh1_shraddha.png
 ShraddhaTV.lk,Shraddha TV,,,LK,,,c/LK,sin,,FALSE,2012-09-29,,,https://www.shraddha.lk/,https://www.lyngsat.com/logo/tv/ss/shraddha_tv_lk.png
 ShreeNavgrahChannel.in,Shree Navgrah Channel,,,IN,,,c/IN,hin,,FALSE,,,,,https://www.lyngsat.com/logo/tv/nn/navgrah_channel_in.png
-ShubhCinema.in,Shubh Cinema,,,IN,,,c/IN,hin,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/shubh-cinema-in.png
+ShubhCinema.in,Shubh Cinema,,,IN,,,c/IN,hin,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/shubh-cinema-in.png
 Shubhsandesh.in,Shubhsandesh,,,IN,,,c/IN,hin,religious,FALSE,,,,,https://i.imgur.com/ibnqDAD.png
 ShubhsandeshTV.in,Shubhsandesh TV,,,IN,,,c/IN,hin,,FALSE,,,,https://www.shubhsandeshtv.com/,https://www.lyngsat.com/logo/tv/ss/shubhsandesh_tv.png
 ShubhTV.in,Shubh TV,,,IN,,,c/IN,hin,,FALSE,,,,,https://i.imgur.com/mO8SoJ8.png
@@ -20000,8 +20000,8 @@ StarChineseChannel.hk,Star Chinese Channel,,,HK,,,c/HK,zho,,FALSE,1991-10-21,,,h
 StarChineseChannelInternational.hk,Star Chinese Channel International,,,HK,,,c/HK,zho,,FALSE,,,,https://www.dngtw.tw/scc/,https://www.lyngsat.com/logo/tv/ss/star_chinese_international.png
 StarChineseMoviesLegend.hk,Star Chinese Movies Legend,,,HK,,,c/HK,zho,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/star_chinese_movies_legend.png
 StarChineseMoviesSouthEastAsia.hk,Star Chinese Movies South East Asia,,,HK,,,c/HK,zho;tha,movies,FALSE,,,,,https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch139_160_115
-StarCinema.ua,Star Cinema,,,UA,,,c/UA;c/RU,rus;ukr,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/star-cinema-ua.png
-StarCinema.us,Star Cinema,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.mitvstatic.com/channels/cl_fox-premium-cinema_m.png
+StarCinema.ua,Star Cinema,,,UA,,,c/UA;c/RU,rus;ukr,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/star-cinema-ua.png
+StarCinema.us,Star Cinema,,,US,,,c/US,eng,movies,FALSE,,,,,https://cdn.mitvstatic.com/channels/cl_fox-premium-cinema_m.png
 StarClassics.us,Star Classics,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.mitvstatic.com/channels/cl_fox-premium-classics_m.png
 StarComedy.us,Star Comedy,,,US,,,c/US,eng,comedy,FALSE,,,,,https://cdn.mitvstatic.com/channels/cl_fox-premium-comedy_m.png
 StarEPlus.tz,Star E +,,,TZ,,,c/TZ,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/star_tz_tv.png
@@ -20101,8 +20101,8 @@ Starz1East.ca,Starz 1 East,,,CA,,,c/CA,eng,,FALSE,,,,https://www.starz.ca/,https
 Starz1West.ca,Starz 1 West,,,CA,,,c/CA,eng,,FALSE,,,,https://www.starz.ca/,https://cdn.tvpassport.com/image/station/100x100/starz1.png
 Starz2East.ca,Starz 2 East,,,CA,,,c/CA,eng,,FALSE,,,,https://www.starz.ca/,https://cdn.tvpassport.com/image/station/100x100/starz2.png
 Starz2West.ca,Starz 2 West,,,CA,,,c/CA,eng,,FALSE,,,,https://www.starz.ca/,https://cdn.tvpassport.com/image/station/100x100/starz2.png
-StarzCinemaEast.us,Starz Cinema East,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://www.directv.com/images/logos/channels/dark/large/951.png
-StarzCinemaWest.us,Starz Cinema West,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://cdn.tvpassport.com/image/station/100x100/starz_cinema.png
+StarzCinemaEast.us,Starz Cinema East,,,US,,,c/US,eng;spa,movies,FALSE,,,,https://www.starz.com/,https://www.directv.com/images/logos/channels/dark/large/951.png
+StarzCinemaWest.us,Starz Cinema West,,,US,,,c/US,eng;spa,movies,FALSE,,,,https://www.starz.com/,https://cdn.tvpassport.com/image/station/100x100/starz_cinema.png
 StarzComedyEast.us,Starz Comedy East,,,US,,,c/US,eng;spa,comedy,FALSE,,,,https://www.starz.com/,https://www.directv.com/images/logos/channels/dark/large/745.png
 StarzComedyWest.us,Starz Comedy West,,,US,,,c/US,eng;spa,comedy,FALSE,,,,https://www.starz.com/,https://www.lyngsat.com/logo/tv/ss/starz_us_comedy_east.png
 StarzEast.us,Starz East,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://www.directv.com/images/logos/channels/dark/large/747.png
@@ -20685,7 +20685,7 @@ SurTVIlo.pe,SurTV,,,PE,PE-MOQ,Ilo,c/PE,spa,,FALSE,,,,https://surtvilo.pe/,https:
 SURTVItapua.py,SUR TV Itapúa,,,PY,,,c/PY,spa,,FALSE,,,,,https://pbs.twimg.com/profile_images/804016687108521985/L4G3JMvc_400x400.jpg
 Survivor.us,Survivor,,,US,,,c/US,eng,series,FALSE,,,,https://pluto.tv/en/live-tv/survivor-ptv1,https://images.pluto.tv/channels/5f21e7b24744c60007c1f6fc/colorLogoPNG.png
 SuryaBhojpuri.in,Surya Bhojpuri,,,IN,,,c/IN,bho,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/surya-bhojpuri-in.png
-SuryaCinema.in,Surya Cinema,,,IN,,,c/IN,hin,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/surya-cinema-in.png
+SuryaCinema.in,Surya Cinema,,,IN,,,c/IN,hin,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/surya-cinema-in.png
 SuryaComedy.in,Surya Comedy,,,IN,,,c/IN,mal,comedy,FALSE,2017-04-29,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=55&channelname=Surya%20Comedy,https://www.lyngsat.com/logo/tv/ss/sun_surya_comedy.png
 SuryaMovies.in,Surya Movies,,,IN,,,c/IN,mal,movies,FALSE,,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=45&channelname=Surya%20Movies&LanguageID=4&Type=4,https://www.lyngsat.com/logo/tv/ss/sun_surya_movies.png
 SuryaMusic.in,Surya Music,,,IN,,,c/IN,mal,music,FALSE,,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=47&channelname=SURYA%20MUSIC&LanguageID=4&Type=4,https://i.imgur.com/jsC8FC7.png
@@ -20821,7 +20821,7 @@ Tamasha.ir,Tamasha,,,IR,,,c/IR,fas,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt
 Tamazight.ma,Tamazight,,,MA,,,c/MA,ara,general,FALSE,,,,http://www.tamazight-tv.ma/,https://i.imgur.com/uC6IF9P.png
 TambaraTV.ne,Tambara TV,,,NE,,,c/NE,fra,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/tambara-tv-ne.png
 TamilanTV.in,Tamilan TV,,,IN,,,c/IN,tam,,FALSE,,,,https://www.tamilantelevision.com/,https://www.lyngsat.com/logo/tv/tt/tamilan_tv.png
-TamilCinemaClub.in,Tamil Cinema Club,,,IN,,,c/IN,tam,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/tamil_cinema_club_in.png
+TamilCinemaClub.in,Tamil Cinema Club,,,IN,,,c/IN,tam,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/tamil_cinema_club_in.png
 TamilVisionTV.ca,TamilVision-TV,,,CA,,,c/CA;c/IN,tam,,FALSE,,,,,https://i.imgur.com/jSWRXdg.png
 Tamyr.ru,Tamyr,,,RU,,,c/RU,bak,kids,FALSE,,,,,https://i.imgur.com/ySedtZl.png
 Tanasuh.ly,Tanasuh,,,LY,,,c/LY,ara,,FALSE,,,,,https://tanasuh.tv/wp-content/uploads/2018/01/Website-LOGO-01.png
@@ -20857,10 +20857,10 @@ TatarMusicTV.ru,Tatar Music TV,,,RU,,,c/RU,rus,music,FALSE,,,,http://tmtv.tatar/
 Tatarstan24.ru,Tatarstan24,,,RU,,,c/RU,rus,,FALSE,,,,,https://i.imgur.com/iLBdrIT.png
 TataSky4K.in,Tata Sky 4K,,,IN,,,c/IN,hin,,FALSE,,,,http://www.tatasky.com/wps/portal/TataSky/campaigns/4k,https://www.lyngsat.com/logo/tv/tt/tata_sky_in_uhd_4k.png
 TataSkyAradhana.in,Tata Sky Aradhana,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-services-spiritual/tata-sky-aradhana,https://www.lyngsat.com/logo/tv/tt/tata-sky-aradhana-in.png
-TataSkyBanglaCinema.in,Tata Sky Bangla Cinema,,,IN,,,c/IN,ben,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-bangla-cinema,https://www.lyngsat.com/logo/tv/tt/tata-sky-bangla-cinema-in.png
+TataSkyBanglaCinema.in,Tata Sky Bangla Cinema,,,IN,,,c/IN,ben,movies,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-bangla-cinema,https://www.lyngsat.com/logo/tv/tt/tata-sky-bangla-cinema-in.png
 TataSkyBeauty.in,Tata Sky Beauty,,,IN,,,c/IN,eng,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-services-learn/tata-sky-beauty,https://www.lyngsat.com/logo/tv/tt/tata-sky-beauty-in.png
 TataSkyBollywoodPremiere.in,Tata Sky Bollywood Premiere,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/tata-sky-bollywood-premiere,https://www.lyngsat.com/logo/tv/tt/tata-sky-bollywood-premiere-in.png
-TataSkyClassicCinema.in,Tata Sky Classic Cinema,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/tata-sky-classic-cinema,https://www.lyngsat.com/logo/tv/tt/tata-sky-classic-cinema-in.png
+TataSkyClassicCinema.in,Tata Sky Classic Cinema,,,IN,,,c/IN,hin,movies,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/tata-sky-classic-cinema,https://www.lyngsat.com/logo/tv/tt/tata-sky-classic-cinema-in.png
 TataSkyClassroom.in,Tata Sky Classroom,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/tata-sky-classroom,https://www.lyngsat.com/logo/tv/tt/tata-sky-classroom-in.png
 TataSkyComedy.in,Tata Sky Comedy,,,IN,,,c/IN,hin,comedy,FALSE,,,,http://www.tatasky.com/wps/portal/TataSky/tataskycomedy,https://www.lyngsat.com/logo/tv/tt/tata_sky_in_comedy.png
 TataSkyCooking.in,Tata Sky Cooking,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tataskyservices/tata-sky-cooking,https://www.lyngsat.com/logo/tv/tt/tata-sky-cooking-in.png
@@ -20871,7 +20871,7 @@ TataSkyFitness.in,Tata Sky Fitness,,,IN,,,c/IN,eng,,FALSE,,,,https://www.tatasky
 TataSkyFunLearn.in,Tata Sky Fun Learn,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tataskyservices/tata-sky-fun-learn,https://www.lyngsat.com/logo/tv/tt/tata-sky-fun-learn-in.png
 TataSkyIbaadat.in,Tata Sky Ibaadat,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-services-spiritual/tata-sky-ibaadat,https://www.lyngsat.com/logo/tv/tt/tata-sky-ibaadat-in.png
 TataSkyKidsCinema.in,Tata Sky Kids Cinema,,,IN,,,c/IN,hin,kids,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-kids-cinema,https://www.lyngsat.com/logo/tv/tt/tata-sky-kids-cinema-in.png
-TataSkyMarathiCinema.in,Tata Sky Marathi Cinema,,,IN,,,c/IN,mar,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-services-regional/tata-sky-marathi-cinema,https://www.lyngsat.com/logo/tv/tt/tata-sky-marathi-cinema-in.png
+TataSkyMarathiCinema.in,Tata Sky Marathi Cinema,,,IN,,,c/IN,mar,movies,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-services-regional/tata-sky-marathi-cinema,https://www.lyngsat.com/logo/tv/tt/tata-sky-marathi-cinema-in.png
 TataSkyMusicPlus.in,Tata Sky Music+,,,IN,,,c/IN,hin,music,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/footerpages/mediaroom/TataSkyMusicPlus/,https://www.lyngsat.com/logo/tv/tt/tata-sky-music-plus-in.png
 TataSkyShortsTV.in,Tata Sky ShortsTV,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-services-entertainment/tata-sky-shorts-tv,https://www.lyngsat.com/logo/tv/tt/tata-sky-shorts-tv-in.png
 TataSkyTheatre.in,Tata Sky Theatre,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/dth/services/entertainment/theatre,https://www.lyngsat.com/logo/tv/tt/tata-sky-theatre-in.png
@@ -21288,7 +21288,7 @@ TelpinCanal2.ar,Telpin Canal 2,,,AR,,,c/AR,spa,,FALSE,,,,,https://i.imgur.com/B2
 TelpinTV.ar,Telpin TV,,,AR,,,c/AR,spa,,FALSE,,,,,
 TelplyusTV.ru,Telplyus TV,,,RU,,Astrahan,c/RU,rus,,FALSE,,,,,https://i.imgur.com/HjIci5q.png
 teltOwkanal.de,teltOwkanal,,,DE,,,c/DE,deu,,FALSE,,,,,https://i.imgur.com/05UB2YT.png
-TeluguCinemaClub.in,Telugu Cinema Club,,,IN,,,c/IN,tel,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/telugu_cinema_club_in.png
+TeluguCinemaClub.in,Telugu Cinema Club,,,IN,,,c/IN,tel,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/telugu_cinema_club_in.png
 TelvzaTV.tn,Telvza TV,,,TN,,,c/TN,ara,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/telvza-tv-tn.png
 TemanggungTV.id,Temanggung TV,,,ID,,,c/ID,ind,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/temanggung-tv-id.png
 TemkoTV.gh,Temko TV,,,GH,,,c/GH,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/temko-tv-gh.png
@@ -21384,8 +21384,8 @@ TheCarolBurnettShow.us,The Carol Burnett Show,,,US,,,c/US,eng,classic,FALSE,,,,h
 TheChallenge.us,The Challenge,,,US,,,c/US,eng,series,FALSE,,,,https://pluto.tv/en/live-tv/the-challenge,https://images.pluto.tv/channels/5d48685da7e9f476aa8a1888/colorLogoPNG.png
 TheChannelTV.ca,The Channel TV,,,CA,,,c/CA,ben;eng,general,FALSE,,,,,https://i.imgur.com/08c6W9l.png
 TheChurchTV.ng,The Church TV,,,NG,,,c/NG,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/the-church-tv-ng.png
-TheCinema.jp,The Cinema,,,JP,,,c/JP,jpn,,FALSE,,,,https://www.thecinema.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-133-400x400.png
-TheCinema4K.jp,The Cinema 4K,,,JP,,,c/JP,jpn,,FALSE,,,,https://www.thecinema.jp/cinema4k/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65527-418-400x400.png
+TheCinema.jp,The Cinema,,,JP,,,c/JP,jpn,movies,FALSE,,,,https://www.thecinema.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-133-400x400.png
+TheCinema4K.jp,The Cinema 4K,,,JP,,,c/JP,jpn,movies,FALSE,,,,https://www.thecinema.jp/cinema4k/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65527-418-400x400.png
 TheCountryNetwork.us,The Country Network,,,US,,,c/US,eng,music,FALSE,,,,,https://media-uspx.mybtv.net/logos/TCN.png
 TheCowboyChannel.us,The Cowboy Channel,,,US,,,c/US,eng,,FALSE,,,,,https://upload.wikimedia.org/wikipedia/en/1/1f/The_Cowboy_Channel.png
 TheCraftistry.us,The Craftistry,,,US,,,c/US,eng,lifestyle,FALSE,,,,,https://i.imgur.com/KIzpKhL.png
@@ -23151,7 +23151,7 @@ UlkeTV.tr,Ülke TV,,,TR,,,c/TR,tur,,FALSE,,,,https://www.ulketv.com.tr/,https://
 ULosLagosTV.cl,U Los Lagos TV,,,CL,,,c/CL,spa,,FALSE,,,,,
 UlsanMBCTV.kr,Ulsan MBC TV,울산MBC TV,,KR,,,c/KR,kor,,FALSE,1971-01-25,,,http://www.usmbc.co.kr/,https://i.imgur.com/CcPklOT.png
 UltraFamilia.us,Ultra Familia,,,US,,,c/US,eng,,FALSE,,,,http://www.olympusat.com/networks/ultra-familia,https://cdn.tvpassport.com/image/station/100x100/ultra-familia.png
-UltraHDCinema.ru,Ultra HD Cinema,,,RU,,,c/RU,rus,,FALSE,,,,https://www.tricolor.tv/channels/ultra-hd-cinema/,https://www.lyngsat.com/logo/tv/uu/ultra-hd-cinema-ru.png
+UltraHDCinema.ru,Ultra HD Cinema,,,RU,,,c/RU,rus,movies,FALSE,,,,https://www.tricolor.tv/channels/ultra-hd-cinema/,https://www.lyngsat.com/logo/tv/uu/ultra-hd-cinema-ru.png
 UltraNature.fr,Ultra Nature,,,FR,,,c/FR,fra,,FALSE,2016-05-19,,,,https://i.imgur.com/fqGn4P0.png
 UlusalKanal.tr,Ulusal Kanal,,,TR,,,c/TR,tur,,FALSE,2000-01-01,,,https://www.ulusal.com.tr/,https://i.imgur.com/1lqkOUc.png
 UlziiTV.mn,Ulzii TV,,,MN,,,c/MN,mon,,FALSE,,,,,https://www.lyngsat.com/logo/tv/uu/ulzii-tv-mn.png
@@ -23499,7 +23499,7 @@ ViewerTV.ng,Viewer TV,,,NG,,,c/NG,eng,,FALSE,,,,https://viewertv.com.ng/,https:/
 VijaySuper.in,Vijay Super,,,IN,,,c/IN,tam,,FALSE,,,,,https://www.lyngsat.com/logo/tv/vv/vijay-super-hk-in.png
 VijayTV.hk,Vijay TV,,,HK,,,c/HK,tam,,FALSE,,,,,https://i.imgur.com/a1OC5uP.png
 Viki.kr,Viki,,,KR,,,c/KR,kor,xxx,TRUE,,,,http://skylifetv.co.kr/viki/,https://i.imgur.com/aCDdc13.png
-VillageCinemas.gr,Village Cinemas,,,GR,,,c/GR,eng,,FALSE,,,,http://www.villagecinemas.gr/,https://www.cosmote.gr/portal/image/journal/article?img_id=41707453&t=1524412278439
+VillageCinemas.gr,Village Cinemas,,,GR,,,c/GR,eng,movies,FALSE,,,,http://www.villagecinemas.gr/,https://www.cosmote.gr/portal/image/journal/article?img_id=41707453&t=1524412278439
 VinhLongTV1.vn,Vinh Long TV 1,,,VN,,,c/VN,vie,,FALSE,,,,https://www.thvl.vn/,https://www.lyngsat.com/logo/tv/vv/vinh_long_tv1.png
 VinhLongTV2.vn,Vinh Long TV 2,,,VN,,,c/VN,vie,,FALSE,,,,https://www.thvl.vn/,https://www.lyngsat.com/logo/tv/vv/vinh_long_tv2.png
 VinhPhucTV.vn,Vinh Phuc TV,,,VN,,,c/VN,vie,,FALSE,,,,http://vinhphuctv.vn/,https://www.lyngsat.com/logo/tv/vv/vinh_phuc_tv_vn.png
@@ -23546,7 +23546,7 @@ ViuTVsix.hk,ViuTVsix,,,HK,,,c/HK,zho,,FALSE,2017-03-31,,,,https://images.now-tv.
 Viva.il,Viva,,,IL,,,c/IL,heb,,FALSE,,,,https://viva.walla.co.il/item/1683908,https://www.lyngsat.com/logo/tv/vv/viva_il.png
 Viva.mg,Viva,,,MG,,,c/MG,fra,,FALSE,,,,,https://www.lyngsat.com/logo/tv/vv/viva_tv_mg.png
 VivaCanal5.do,Viva Canal 5,,,DO,,,c/DO,spa,,FALSE,,,,,
-VivaCinema.ph,Viva Cinema,,,PH,,,c/PH,tgl,,FALSE,,,,http://www.viva.com.ph/,https://viva.com.ph/storage/setting/5/logo.png
+VivaCinema.ph,Viva Cinema,,,PH,,,c/PH,tgl,movies,FALSE,,,,http://www.viva.com.ph/,https://viva.com.ph/storage/setting/5/logo.png
 VivacomArena.bg,Vivacom Arena,,,BG,,,c/BG,bul,,FALSE,,,,http://www.vivacom.bg/bg/tv/ceni-i-oferti/vivacom-arena,https://www.lyngsat.com/logo/tv/vv/vivacom-arena-bg.png
 VivaNicaraguaCanal13.ni,Viva Nicaragua Canal 13,,,NI,,,c/NI,spa,,FALSE,,,,https://www.vivanicaragua.com.ni/,https://static.wikia.nocookie.net/logopedia/images/9/97/VivaCanal13current.png
 VivaPlus.il,Viva Plus,,,IL,,,c/IL,heb,,FALSE,,,,https://viva.walla.co.il/item/1888338,https://www.lyngsat.com/logo/tv/vv/viva_plus_il.png
@@ -26902,7 +26902,7 @@ WOWKDT3.us,WOWK-DT3,,Laff,US,US-WV,Huntington,s/US-WV,eng,,FALSE,,,,,https://cdn
 WOWKDT4.us,WOWK-DT4,,Rewind TV US,US,US-WV,Huntington,s/US-WV,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/rewind-us.png
 WowNowKids.us,Wow Now Kids,,,US,,,c/US,eng,kids,FALSE,,,,,https://i.imgur.com/AWXw9LW.jpg
 Wowow4K.jp,Wowow 4K,,,JP,,,c/JP,jpn,,FALSE,,,,,https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-000b-191-400x400.png
-WowowCinema.jp,Wowow Cinema,,,JP,,,c/JP,jpn,,FALSE,,,,http://www.wowow.co.jp/cinema_ch/,https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-193-400x400.png
+WowowCinema.jp,Wowow Cinema,,,JP,,,c/JP,jpn,movies,FALSE,,,,http://www.wowow.co.jp/cinema_ch/,https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-193-400x400.png
 WowowLive.jp,Wowow Live,,,JP,,,c/JP,jpn,,FALSE,,,,http://www.wowow.co.jp/live_ch/,https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-192-400x400.png
 WowowPlus.jp,Wowow Plus,,,JP,,,c/JP,jpn,,FALSE,,,,https://www.wowowplus.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-536-400x400.png
 WowowPrime.jp,Wowow Prime,,,JP,,,c/JP,jpn,,FALSE,,,,http://www.wowow.co.jp/prime_ch/,https://tvguide.myjcom.jp/monomedia/ch_logo/bsd/logo-0004-191-400x400.png
@@ -28849,7 +28849,7 @@ ZeeAflam.in,Zee Aflam,,,IN,,,c/IN,ara,,FALSE,2008-10-06,,,http://www.zeeaflam.co
 ZeeAlem.et,Zee Alem,,,ET,,,c/ET,amh,,FALSE,,,,,https://rndcdn.dstv.com/dstvcms/2020/06/22/ZEEAlem_Logo_4-3_001_xlrg.png
 ZeeAlwan.in,Zee Alwan,,,IN,,,c/IN,ara,,FALSE,2012-10-10,,,http://www.zeealwan.com/,https://i.imgur.com/86fftF6.png
 ZeeAnmol.in,Zee Anmol,,,IN,,,c/IN,hin,,FALSE,,,,https://www.zee5.com/live-tv/zee-anmol/,https://i.imgur.com/LBwunzk.png
-ZeeAnmolCinema.in,Zee Anmol Cinema,,,IN,,,c/IN,hin,,FALSE,,,,https://www.zeeentertainment.com/business_channels/hindi-movie-cluster/zee-anmol-cinema/,https://i.imgur.com/XURqMFH.png
+ZeeAnmolCinema.in,Zee Anmol Cinema,,,IN,,,c/IN,hin,movies,FALSE,,,,https://www.zeeentertainment.com/business_channels/hindi-movie-cluster/zee-anmol-cinema/,https://i.imgur.com/XURqMFH.png
 ZeeBangla.in,Zee Bangla,,,IN,,,c/IN,ben,movies,FALSE,,,,https://zeebangla.zee5.com/,https://i.imgur.com/zTGTWa8.png
 ZeeBanglaCinema.in,Zee Bangla Cinema,,,IN,,,c/IN,ben,movies,FALSE,,,,http://zeebanglacinema.com/,https://i.imgur.com/1nPtakc.png
 ZeeBanglaHD.in,Zee Bangla HD,,,IN,,,c/IN,hin,movies,FALSE,,,,https://zeebangla.zee5.com/,https://i.imgur.com/BCKdM1e.png
@@ -28861,14 +28861,14 @@ ZeeBusiness.in,Zee Business,,,IN,,,c/IN,eng,business,FALSE,,,,https://www.zeebiz
 ZeeCafe.in,Zee Café,,,IN,,,c/IN,eng,,FALSE,2000-03-15,,,https://zeecafe.zee5.com/,https://i.imgur.com/9eX5dN3.png
 ZeeCafeHD.in,Zee Café HD,,,IN,,,c/IN,eng,,FALSE,,,,https://zeecafe.zee5.com/,https://i.imgur.com/eXcPF1O.png
 ZeeChitramandir.in,Zee Chitramandir,,,IN,,,c/IN,mar,,FALSE,,,,,https://i.imgur.com/kwSoGsU.png
-ZeeCinema.in,Zee Cinema,,,IN,,,c/IN,hin,,FALSE,,,,https://zeecinema.zee5.com/,https://i.imgur.com/uYjCv5p.png
-ZeeCinemaAfrica.in,Zee Cinema Africa,,,IN,,,c/IN,hin,,FALSE,,,,https://zeecinema.zee5.com/,https://i.imgur.com/uYjCv5p.png
-ZeeCinemaAsia.in,Zee Cinema Asia,,,IN,,,c/IN,hin,,FALSE,,,,https://zeecinema.zee5.com/,https://i.imgur.com/uYjCv5p.png
-ZeeCinemalu.in,Zee Cinemalu,,,IN,,,c/IN,tel;hin,,FALSE,,,,http://www.zeecinemalu.com/,https://i.imgur.com/PFeDyY9.png
-ZeeCinemaluHD.in,Zee Cinemalu HD,,,IN,,,c/IN,hin,,FALSE,,,,http://www.zeecinemalu.com/,https://i.imgur.com/QAXQwml.png
-ZeeCinemaMiddleEast.in,Zee Cinema Middle East,,,IN,,,c/IN,hin,,FALSE,,,,https://zeecinema.zee5.com/,https://i.imgur.com/uYjCv5p.png
-ZeeCinemaUK.uk,Zee Cinema UK,,,UK,,,c/UK,eng,,FALSE,,,,http://zeecinema.zeeuk.com/,https://i.imgur.com/uYjCv5p.png
-ZeeCinemaUSA.us,Zee Cinema USA,,,US,,,c/US,hin,,FALSE,,,,http://www.zeetvusa.com/zc-uc.html,https://i.imgur.com/uYjCv5p.png
+ZeeCinema.in,Zee Cinema,,,IN,,,c/IN,hin,movies,FALSE,,,,https://zeecinema.zee5.com/,https://i.imgur.com/uYjCv5p.png
+ZeeCinemaAfrica.in,Zee Cinema Africa,,,IN,,,c/IN,hin,movies,FALSE,,,,https://zeecinema.zee5.com/,https://i.imgur.com/uYjCv5p.png
+ZeeCinemaAsia.in,Zee Cinema Asia,,,IN,,,c/IN,hin,movies,FALSE,,,,https://zeecinema.zee5.com/,https://i.imgur.com/uYjCv5p.png
+ZeeCinemalu.in,Zee Cinemalu,,,IN,,,c/IN,tel;hin,movies,FALSE,,,,http://www.zeecinemalu.com/,https://i.imgur.com/PFeDyY9.png
+ZeeCinemaluHD.in,Zee Cinemalu HD,,,IN,,,c/IN,hin,movies,FALSE,,,,http://www.zeecinemalu.com/,https://i.imgur.com/QAXQwml.png
+ZeeCinemaMiddleEast.in,Zee Cinema Middle East,,,IN,,,c/IN,hin,movies,FALSE,,,,https://zeecinema.zee5.com/,https://i.imgur.com/uYjCv5p.png
+ZeeCinemaUK.uk,Zee Cinema UK,,,UK,,,c/UK,eng,movies,FALSE,,,,http://zeecinema.zeeuk.com/,https://i.imgur.com/uYjCv5p.png
+ZeeCinemaUSA.us,Zee Cinema USA,,,US,,,c/US,hin,movies,FALSE,,,,http://www.zeetvusa.com/zc-uc.html,https://i.imgur.com/uYjCv5p.png
 ZeeClassic.in,Zee Classic,,,IN,,,c/IN,hin,,FALSE,,,,http://www.zeeclassic.com/,https://i.imgur.com/RwHAFI7.png
 ZeeHindustan.in,Zee Hindustan,,,IN,,,c/IN,hin;tam;tel,,FALSE,2017-05-21,,,https://www.zee5.com/channels/details/zee-hindustan/0-9-zeehindustan,https://i.imgur.com/jtNVKFr.png
 ZeeKannada.in,Zee Kannada,,,IN,,,c/IN,kan,,FALSE,2006-05-11,,,https://zeekannada.zee5.com/,https://i.imgur.com/BuqiVo5.png

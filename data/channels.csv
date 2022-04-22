@@ -140,7 +140,7 @@ id,name,native_name,network,country,subdivision,city,broadcast_area,languages,ca
 4Edu.mm,4 Edu,,,MM,,,c/MM,mya,,FALSE,,,,http://www.forevergroup.com.mm/,https://www.lyngsat.com/logo/tv/num/4_tv_mm_edu.png
 4EylulTV.tr,4 Eylül TV,,,TR,,,c/TR,tur,,FALSE,,,,,https://www.lyngsat.com/logo/tv/num/4-eylul-tv-tr.png
 4FunDance.pl,4 Fun Dance,,,PL,,,c/PL,pol,,FALSE,,,,https://4fun.tv/dance,https://ocdn.eu/ptv2-images-transforms/1/Y8Vkrxsb2dvLW1pZ3JhdGVkLzRmdW4tZGFuY2UucG5nkpUCZADCw5UCACjCww
-4FunKids.pl,4 Fun Kids,,,PL,,,c/PL,pol,,FALSE,,,,https://4fun.tv/kids,https://www.sms.cz/kategorie/televize/bmp/loga/velka/4funkids.png
+4FunKids.pl,4 Fun Kids,,,PL,,,c/PL,pol,kids,FALSE,,,,https://4fun.tv/kids,https://www.sms.cz/kategorie/televize/bmp/loga/velka/4funkids.png
 4FunTV.pl,4 Fun TV,,,PL,,,c/PL,pol,,FALSE,,,,https://4fun.tv/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/4funtv.png
 4Kanal.ua,4 Kanal,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,https://4channel.com.ua/,https://www.lyngsat.com/logo/tv/num/4-kanal-ua.png
 4KHeritage.us,4K Heritage,,,US,,,c/US,eng;fra,,FALSE,,,,https://4kheritage.tv/,https://www.lyngsat.com/logo/tv/num/4k-heritage-us.png
@@ -279,7 +279,7 @@ A1.ru,A1,,,RU,,,c/RU,rus;eng,series,FALSE,,,,http://amediatv.ru/a1/,https://i.im
 A1.ua,A1,,,UA,,Odesa,c/UA,ukr,,FALSE,,,,,https://i.imgur.com/0DUi5fO.jpg
 A12TV.fr,A12 TV,,,FR,,,c/FR,fra,,FALSE,,,,https://a12television.com/,https://www.lyngsat.com/logo/tv/aa/a12-tv-fr.png
 A1EntertainmentTV.pk,A1 Entertainment TV,,,PK,,,c/PK,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/aa/a1-entertainment-tv-pk.png
-A1Kids.ng,A1 Kids,,,NG,,,c/NG,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/aa/a1-kids-ng.png
+A1Kids.ng,A1 Kids,,,NG,,,c/NG,eng,kids,FALSE,,,,,https://www.lyngsat.com/logo/tv/aa/a1-kids-ng.png
 A1TV.in,A1 TV,,,IN,,,c/IN,hin,,FALSE,,,,http://www.a1live.in/,https://www.lyngsat.com/logo/tv/aa/a1_tv_in.png
 A1TV.me,A1 TV,,,ME,,,c/ME,srp,,FALSE,,,,,https://tv2go.t-2.net/static/media/img/channels/dark/ios/small/retina/145771.png
 A1TV.uk,A1 TV,,,UK,,,c/UK,eng,,FALSE,,,,,https://a1uk.tv/images/icms_logo.png
@@ -330,13 +330,13 @@ ABCCentral.us,ABC Central,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/
 ABCEast.us,ABC East,,,US,,,c/US,eng,,FALSE,,,,,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/ABC-2021-LOGO.svg/512px-ABC-2021-LOGO.svg.png
 ABChannel.it,AB Channel,,,IT,,,c/IT,ita,,FALSE,,,,,https://i.imgur.com/y5564NI.png
 ABCKids.au,ABC Kids,,,AU,,,c/AU,eng,kids,FALSE,,,,,https://static-s.aa-cdn.net/img/ios/960892021/6dcf6804c2d739fe765563a1f28f493e
-ABCKidsNSW.au,ABC Kids NSW,,,AU,,,c/AU,eng,,FALSE,,,,https://www.abc.net.au/abckids/,https://www.lyngsat.com/logo/tv/aa/abc-kids-au.png
-ABCKidsNT.au,ABC Kids NT,,,AU,,,c/AU,eng,,FALSE,,,,https://www.abc.net.au/abckids/,https://www.lyngsat.com/logo/tv/aa/abc-kids-au.png
-ABCKidsQueensland.au,ABC Kids Queensland,,,AU,,,c/AU,eng,,FALSE,,,,https://www.abc.net.au/abckids/,https://www.lyngsat.com/logo/tv/aa/abc-kids-au.png
-ABCKidsSA.au,ABC Kids SA,,,AU,,,c/AU,eng,,FALSE,,,,https://www.abc.net.au/abckids/,https://www.lyngsat.com/logo/tv/aa/abc-kids-au.png
-ABCKidsSouthEast.au,ABC Kids South East,,,AU,,,c/AU,eng,,FALSE,,,,https://www.abc.net.au/abckids/,https://www.lyngsat.com/logo/tv/aa/abc-kids-au.png
-ABCKidsVictoria.au,ABC Kids Victoria,,,AU,,,c/AU,eng,,FALSE,,,,https://www.abc.net.au/abckids/,https://www.lyngsat.com/logo/tv/aa/abc-kids-au.png
-ABCKidsWA.au,ABC Kids WA,,,AU,,,c/AU,eng,,FALSE,,,,https://www.abc.net.au/abckids/,https://www.lyngsat.com/logo/tv/aa/abc-kids-au.png
+ABCKidsNSW.au,ABC Kids NSW,,,AU,,,c/AU,eng,kids,FALSE,,,,https://www.abc.net.au/abckids/,https://www.lyngsat.com/logo/tv/aa/abc-kids-au.png
+ABCKidsNT.au,ABC Kids NT,,,AU,,,c/AU,eng,kids,FALSE,,,,https://www.abc.net.au/abckids/,https://www.lyngsat.com/logo/tv/aa/abc-kids-au.png
+ABCKidsQueensland.au,ABC Kids Queensland,,,AU,,,c/AU,eng,kids,FALSE,,,,https://www.abc.net.au/abckids/,https://www.lyngsat.com/logo/tv/aa/abc-kids-au.png
+ABCKidsSA.au,ABC Kids SA,,,AU,,,c/AU,eng,kids,FALSE,,,,https://www.abc.net.au/abckids/,https://www.lyngsat.com/logo/tv/aa/abc-kids-au.png
+ABCKidsSouthEast.au,ABC Kids South East,,,AU,,,c/AU,eng,kids,FALSE,,,,https://www.abc.net.au/abckids/,https://www.lyngsat.com/logo/tv/aa/abc-kids-au.png
+ABCKidsVictoria.au,ABC Kids Victoria,,,AU,,,c/AU,eng,kids,FALSE,,,,https://www.abc.net.au/abckids/,https://www.lyngsat.com/logo/tv/aa/abc-kids-au.png
+ABCKidsWA.au,ABC Kids WA,,,AU,,,c/AU,eng,kids,FALSE,,,,https://www.abc.net.au/abckids/,https://www.lyngsat.com/logo/tv/aa/abc-kids-au.png
 ABCMe.au,ABC Me,,,AU,,,c/AU,eng,,FALSE,2001-04-01,,,https://www.abc.net.au/abcme/,https://www.lyngsat.com/logo/tv/aa/abc_au_3_me.png
 ABCMeNSW.au,ABC Me NSW,,,AU,,,c/AU,eng,,FALSE,,,,https://www.abc.net.au/abcme/,https://www.lyngsat.com/logo/tv/aa/abc_au_3_me.png
 ABCMeNT.au,ABC Me NT,,,AU,,,c/AU,eng,,FALSE,,,,https://www.abc.net.au/abcme/,https://www.lyngsat.com/logo/tv/aa/abc_au_3_me.png
@@ -612,7 +612,7 @@ AgapeTV.za,Agape TV,,,ZA,,,c/ZA,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/a
 AgapeTVNetwork.tz,Agape TV Network,,,TZ,,,c/TZ,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/aa/agape_tv_network.png
 AghaniAghani.lb,Aghani Aghani,,,LB,,,c/LB,ara,music,FALSE,,,,,https://aghaniaghani.com/images/logo.png
 AghaniAghaniTV.lb,Aghani Aghani TV,,,LB,,,c/LB,ara,,FALSE,,,,https://aghaniaghani.com/,https://content.osn.com/logo/channel/cropped/AGH.png
-AghapyKids.us,Aghapy Kids,,,US,,,c/US,eng,,FALSE,,,,https://www.aghapykids.com/,https://www.lyngsat.com/logo/tv/aa/aghapy-kids-us.png
+AghapyKids.us,Aghapy Kids,,,US,,,c/US,eng,kids,FALSE,,,,https://www.aghapykids.com/,https://www.lyngsat.com/logo/tv/aa/aghapy-kids-us.png
 AghapyTV.eg,Aghapy TV,,,EG,,,c/EG,ara,religious,FALSE,2005-01-01,,,http://www.aghapy.tv/,https://www.lyngsat.com/logo/tv/aa/aghapy_tv.png
 AgroBrasilTV.br,AgroBrasil TV,,,BR,,,c/BR,por,outdoor,FALSE,,,,http://agrobrasiltv.com.br/,https://www.costadosol.tv.br/site/wp-content/uploads/2017/12/agro-brasil.png
 AgroCanal.br,AgroCanal,,,BR,,,c/BR,por,,FALSE,,,,https://sba1.com/,https://www.lyngsat.com/logo/tv/aa/agro_canal.png
@@ -670,7 +670,7 @@ AKCTV.us,AKC TV,,,US,,,c/US,eng,outdoor,FALSE,,,,,https://i.imgur.com/2nzRS60.pn
 AKCTVMeettheBreeds.us,AKC TV Meet the Breeds,,,US,,,c/US,eng,outdoor,FALSE,,,,,https://i.imgur.com/2nzRS60.png
 AKCTVPuppies.us,AKC TV Puppies,,,US,,,c/US,eng,outdoor,FALSE,,,,,https://i.imgur.com/2nzRS60.png
 AKDCalcuttaNews.in,AKD Calcutta News,,,IN,,,c/IN,ben,news,FALSE,,,,https://calcuttanews.tv/,https://calcuttanews.tv/images/cnwotag.png
-AkiliKids.ke,Akili Kids!,,,KE,,,c/KE,eng,,FALSE,,,,https://akilikids.co.ke/,https://rndcdn.dstv.com/dstvcms/2021/03/02/Akili_Kids_logo_4-3_001_xlrg.png
+AkiliKids.ke,Akili Kids!,,,KE,,,c/KE,eng,kids,FALSE,,,,https://akilikids.co.ke/,https://rndcdn.dstv.com/dstvcms/2021/03/02/Akili_Kids_logo_4-3_001_xlrg.png
 AkilliTV.tr,Akilli TV,,,TR,,,c/TR,tur,,FALSE,,,,https://www.akilli.tv/,https://izmottvsc23.tvplus.com.tr:33207/CPS/images/universal/film/poster/20140406/001300/001300000008478998/8a5fe430-9a6e-4835-92fb-245947ce17fc.png
 AkitTV.tr,Akit TV,,,TR,,,c/TR,tur,,FALSE,,,,https://www.akittv.com.tr/,https://i.ibb.co/zG7NM55/Jagn7PG.png
 AkiTV.do,AkíTV,,,DO,,,c/DO,spa,,FALSE,,,,,https://i.imgur.com/NnFDTl9.jpg
@@ -859,7 +859,7 @@ AlMajdAlHadeethAlNabawy.sa,Al-Majd Al Hadeeth Al Nabawy,,,SA,,,c/SA,ara,,FALSE,,
 AlMajdAlTabeeaiyah.sa,Al-Majd Al Tabeeaiyah,,,SA,,,c/SA,ara,,FALSE,,,,https://almajdtv.com/,https://www.lyngsat.com/logo/tv/aa/al_majd_sa_al_tabeeaiyah.png
 AlMajdDocumentary.sa,Al-Majd Documentary,,,SA,,,c/SA,ara,,FALSE,,,,https://almajdtv.com/,https://www.lyngsat.com/logo/tv/aa/al_majd_sa_documentary.png
 AlMajdHolyQuran.sa,Al-Majd Holy Quran,,,SA,,,c/SA,ara,,FALSE,,,,https://almajdtv.com/,https://www.lyngsat.com/logo/tv/aa/al_majd_sa_holy_quran.png
-AlMajdKids.sa,Al-Majd Kids,,,SA,,,c/SA,ara,,FALSE,,,,https://almajdtv.com/,https://www.lyngsat.com/logo/tv/aa/al_majd_sa_kids.png
+AlMajdKids.sa,Al-Majd Kids,,,SA,,,c/SA,ara,kids,FALSE,,,,https://almajdtv.com/,https://www.lyngsat.com/logo/tv/aa/al_majd_sa_kids.png
 AlMajdPublicChannel.sa,Al-Majd Public Channel,,,SA,,,c/SA,ara,,FALSE,,,,https://almajdtv.com/,https://www.lyngsat.com/logo/tv/aa/al_majd_sa_tv.png
 AlMajdScientific.sa,Al-Majd Scientific,,,SA,,,c/SA,ara,,FALSE,,,,https://almajdtv.com/,https://www.lyngsat.com/logo/tv/ss/sl-majd-scientific-sa.png
 AlMajlisTV.kw,Al-Majlis TV,,,KW,,,c/KW,ara,,FALSE,,,,http://www.almajlistv.com/,https://content.osn.com/logo/channel/cropped/KTM.png
@@ -1205,8 +1205,8 @@ APlus.mx,A+,,,MX,,,c/MX,spa,,FALSE,,,,https://www.tvazteca.com/amastv,https://im
 APlus.pk,A Plus,,,PK,,,c/PK,urd,,FALSE,,,,,https://www.lyngsat.com/logo/tv/aa/a-plus-pakistan.png
 APlusInternationalFrance.fr,A+ International France,,,FR,,,c/FR,fra,,FALSE,,,,https://www.a-plus.com/,https://upload.wikimedia.org/wikipedia/fr/thumb/8/83/A%2B_tele_2014_logo.png/512px-A%2B_tele_2014_logo.png
 APlusIvoire.ci,A+ Ivoire,,,CI,,,c/CI,fra,,FALSE,,,,https://www.a-plus.com/,https://upload.wikimedia.org/wikipedia/fr/thumb/8/83/A%2B_tele_2014_logo.png/512px-A%2B_tele_2014_logo.png
-APlusKidsTV.lk,A Plus Kids TV,,,LK,,,c/LK,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/aa/a-plus-kids-tv-lk.png
-APlusKidsTV.uk,A+ Kids TV,,,UK,,,c/UK,eng,,FALSE,,,,https://apluskidstv.com/,https://service.canal-overseas.com/image-api/v1/image/e2979fea399a935666d89a261f2649a0
+APlusKidsTV.lk,A Plus Kids TV,,,LK,,,c/LK,eng,kids,FALSE,,,,,https://www.lyngsat.com/logo/tv/aa/a-plus-kids-tv-lk.png
+APlusKidsTV.uk,A+ Kids TV,,,UK,,,c/UK,eng,kids,FALSE,,,,https://apluskidstv.com/,https://service.canal-overseas.com/image-api/v1/image/e2979fea399a935666d89a261f2649a0
 APN.in,APN,,,IN,,,c/IN,hin,,FALSE,,,,https://www.apnlive.com/,https://www.lyngsat.com/logo/tv/aa/apn_news_in.png
 ApnaChannel.pk,Apna Channel,,,PK,,,c/PK,eng,,FALSE,2004-10-14,,,http://apna.tv/,https://www.lyngsat.com/logo/tv/aa/apna-channel-pk.png
 ApnaPunjab.in,Apna Punjab,,,IN,,,c/IN,hin,,FALSE,,,,,
@@ -3070,7 +3070,7 @@ CanalPlusGita.fr,Canal + Gita,,,FR,,,c/FR,mya,,FALSE,,,,,https://www.lyngsat.com
 CanalPlusGrandEcran.fr,Canal + Grand Ecran,,,FR,,,c/FR,fra;eng,,FALSE,,,,https://www.canalplus.com/,https://i0.wp.com/www.planetecsat.com/wp-content/uploads/2022/01/CANALP_GRAND_ECRAN_1lignes_RVB_2021_06_07-07-01-22.png?w=509&ssl=1
 CanalPlusHaHa.fr,Canal + Ha Ha!,,,FR,,,c/FR,mya,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/canal-plus-haha-myanmar-fr-mm.png
 CanalPlusHaiti.fr,Canal + Haïti,,,FR,,,c/FR,fra,,FALSE,,,,,https://service.canal-overseas.com/image-api/v1/image/8e008cbdfe533e349f842782904283f3
-CanalPlusKids.fr,Canal + Kids,,,FR,,,c/FR,fra,,FALSE,,,,https://www.canalplus.com/,https://i.imgur.com/dG6Gh60.png
+CanalPlusKids.fr,Canal + Kids,,,FR,,,c/FR,fra,kids,FALSE,,,,https://www.canalplus.com/,https://i.imgur.com/dG6Gh60.png
 CanalPlusKuchnia.pl,Canal + Kuchnia,,,PL,,,c/PL,pol,,FALSE,,,,https://canalpluskuchnia.pl/,https://ocdn.eu/ptv2-images-transforms/1/ddUkrlsb2dvLW1pZ3JhdGVkL2t1Y2huaWEucG5nkpUCZADCw5UCACjCww
 CanalPlusMaeMadi.fr,Canal + Mae Madi,,,FR,,,c/FR,mya,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/canal-plus-maemadi-myanmar-fr-mm.png
 CanalPlusMotoGp.fr,Canal + MotoGP,,,FR,,,c/FR,fra,,FALSE,,,,https://www.canalplus.com/,https://i.imgur.com/LX6II27.png
@@ -3846,7 +3846,7 @@ Cinema1.ae,Cinema 1,,,AE,,,c/AE,ara,,FALSE,,,,https://alfatv.com/tv/,https://con
 Cinema1Philippines.ph,Cinema 1 Philippines,,,PH,,,c/PH,tgl,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cinema_one_ph.png
 Cinema2.ae,Cinema 2,,,AE,,,c/AE,ara,,FALSE,,,,https://alfatv.com/tv/,https://content.osn.com/logo/channel/cropped/CM2.png
 CinemachiComedy.uk,Cinemachi Comedy,,,UK,,,c/UK,eng,comedy,FALSE,,,,https://www.mimyuni.com/,https://www.lyngsat.com/logo/tv/cc/cinemachi-comedy-uk.png
-CinemachiKids.uk,Cinemachi Kids,,,UK,,,c/UK,eng,,FALSE,,,,https://www.mimyuni.com/,https://www.lyngsat.com/logo/tv/cc/cinemachi_kids_bg.png
+CinemachiKids.uk,Cinemachi Kids,,,UK,,,c/UK,eng,kids,FALSE,,,,https://www.mimyuni.com/,https://www.lyngsat.com/logo/tv/cc/cinemachi_kids_bg.png
 CinemaDinamita.mx,Cinema Dinamita,,,MX,,,c/MX,spa,,FALSE,,,,http://www.cinemadinamita.com/,https://imagenes.gatotv.com/logos/canales/oscuros/cinema_dinamita-mediano.png
 CinemaGold.pk,Cinema Gold,,,PK,,,c/PK,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/cinema-gold-pk.png
 CinemaHeaven.kr,Cinema Heaven,시네마천국,,KR,,,c/KR,kor,movies,FALSE,,,,,https://i.imgur.com/Gw2oWoX.png
@@ -4086,7 +4086,7 @@ ClipMyHorseTV.de,ClipMyHorse TV,,,DE,,,c/DE,deu,,FALSE,,,,https://www.clipmyhors
 ClipsTV.pe,ClipsTV,,,PE,PE-ICA,Ica,c/PE,spa,,FALSE,,,,,https://graph.facebook.com/clipstv/picture?width=320&height=320
 CliqueTV.fr,Clique TV,,,FR,,,c/FR,fra,,FALSE,,,,https://www.clique.tv/,https://service.canal-overseas.com/image-api/v1/image/63b7d309d7ba78f035a81ae2648e5ea7
 CloudflareTV.us,Cloudflare TV,,,US,,,c/US,eng,education,FALSE,,,,,https://blog-cloudflare-com-assets.storage.googleapis.com/2020/06/twitter-1-1.png
-CloudserverKids90.cl,Cloudserver Kids90,,,CL,,,c/CL,spa,,FALSE,,,,,
+CloudserverKids90.cl,Cloudserver Kids90,,,CL,,,c/CL,spa,kids,FALSE,,,,,
 CloudserverLatamCSTV.cl,Cloudserver Latam CSTV,,,CL,,,c/CL,spa,,FALSE,,,,,
 CloudsTV.tz,Clouds TV,,,TZ,,,c/TZ,eng,,FALSE,,,,http://cloudsmedia.com/profile/clouds-tv/,https://www.lyngsat.com/logo/tv/cc/clouds_tz_tv.png
 CLTV36.ph,CLTV 36,,,PH,,,c/PH,tgl,,FALSE,,,,http://cltv36.tv/,https://www.lyngsat.com/logo/tv/cc/cltv-36-ph.png
@@ -4566,7 +4566,7 @@ D2hCinema.in,D2h Cinema,,,IN,,,c/IN,hin,,FALSE,,,,https://www.d2h.com/,https://w
 D2hHollywood.in,D2h Hollywood,,,IN,,,c/IN,hin,,FALSE,,,,https://www.d2h.com/,https://www.lyngsat.com/logo/tv/vv/videocon_d2h_hollywood.png
 D2hHome1.in,D2h Home 1,,,IN,,,c/IN,hin,,FALSE,,,,https://www.d2h.com/,https://www.lyngsat.com/logo/tv/vv/videocon_d2h_home_channel_1.png
 D2hHome2.in,D2h Home 2,,,IN,,,c/IN,hin,,FALSE,,,,https://www.d2h.com/,https://www.lyngsat.com/logo/tv/vv/videocon_d2h_home_channel_2.png
-D2hKids.in,D2h Kids,,,IN,,,c/IN,hin,,FALSE,,,,https://www.d2h.com/,https://www.lyngsat.com/logo/tv/vv/videocon_d2h_kids.png
+D2hKids.in,D2h Kids,,,IN,,,c/IN,hin,kids,FALSE,,,,https://www.d2h.com/,https://www.lyngsat.com/logo/tv/vv/videocon_d2h_kids.png
 D2hMovies1.in,D2h Movies 1,,,IN,,,c/IN,hin,movies,FALSE,,,,https://www.d2h.com/,https://www.lyngsat.com/logo/tv/vv/videocon_d2h_movies1.png
 D2hMovies2.in,D2h Movies 2,,,IN,,,c/IN,hin,movies,FALSE,,,,https://www.d2h.com/,https://www.lyngsat.com/logo/tv/vv/videocon_d2h_movies2.png
 D2hSajda.in,D2h Sajda,,,IN,,,c/IN,hin,,FALSE,,,,https://www.d2h.com/,https://www.lyngsat.com/logo/tv/dd/d2h-sajda-in.png
@@ -4704,8 +4704,8 @@ DDUttarPradesh.in,DD Uttar Pradesh,,,IN,,,c/IN,hin,,FALSE,,,,https://prasarbhara
 DDYadagiri.in,DD Yadagiri,,,IN,,,c/IN,tel,,FALSE,1977-10-23,,,https://prasarbharati.gov.in/doordarshan/,https://i.imgur.com/gZLOe0L.png
 DeadlyWomenUK.us,Deadly Women UK,,,US,,,c/UK,eng,documentary,FALSE,,,,https://pluto.tv/en/live-tv/deadly-women-gb,https://images.pluto.tv/channels/5ca1df0d50be2571e393ad31/colorLogoPNG.png
 DeAJunior.it,DeA Junior,,,IT,,,c/IT,ita,,FALSE,,,,https://www.deajunior.it/,https://www.lyngsat.com/logo/tv/dd/dea-junior-it.png
-DeAKids.it,DeA Kids,,,IT,,,c/IT,ita,,FALSE,2008-10-01,,,https://www.deakids.it/,https://www.lyngsat.com/logo/tv/dd/dea-kids-it.png
-DeAKidsPlus1.it,DeA Kids +1,,,IT,,,c/IT,ita,,FALSE,,,,https://www.deakids.it/,https://www.lyngsat.com/logo/tv/ss/sky_it_dea_kids_plus1.png
+DeAKids.it,DeA Kids,,,IT,,,c/IT,ita,kids,FALSE,2008-10-01,,,https://www.deakids.it/,https://www.lyngsat.com/logo/tv/dd/dea-kids-it.png
+DeAKidsPlus1.it,DeA Kids +1,,,IT,,,c/IT,ita,kids,FALSE,,,,https://www.deakids.it/,https://www.lyngsat.com/logo/tv/ss/sky_it_dea_kids_plus1.png
 DealorNoDeal.us,Deal or No Deal,,,US,,,c/US,eng,series,FALSE,,,,https://pluto.tv/en/live-tv/deal-or-no-deal,https://images.pluto.tv/channels/5e9debf8c881310007d7bde1/colorLogoPNG.png
 DebubTV.et,Debub TV,,,ET,,,c/ET,amh,,FALSE,,,,,https://www.lyngsat.com/logo/tv/dd/debub-tv-et.png
 Decades.us,Decades,,,US,,,c/US,eng,,FALSE,,,,https://www.decades.com/,https://cdn.tvpassport.com/image/station/100x100/decades.png
@@ -4909,12 +4909,12 @@ DiscoveryHistoryPlus1.uk,Discovery History +1,,,UK,,,c/UK,eng,,FALSE,,,,http://w
 DiscoveryHomeHealthBrasil.br,Discovery Home & Health Brasil,,,BR,,,c/BR,por;eng,,FALSE,,,,http://discoverymulher.uol.com.br/,https://cdn.mitvstatic.com/channels/br_discovery-home-health_m.png
 DiscoveryHomeHealthLatinAmerica.us,Discovery Home & Health Latin America,,,US,,,c/US,eng,,FALSE,,,,https://www.tudiscovery.com/discoveryhh,https://i.imgur.com/bp8p4bU.jpg
 DiscoveryHomeHealthSur.us,Discovery Home & Health Sur,,,US,,,c/US,spa;por;eng,,FALSE,,,,https://www.tudiscovery.com/discoveryhh,https://www.lyngsat.com/logo/tv/dd/discovery-home-and-health-us.png
-DiscoveryKidsAmericaLatina.us,Discovery Kids América Latina,,,US,,,c/US,spa;eng,,FALSE,,,,http://www.tudiscoverykids.com/,https://imagenes.gatotv.com/logos/canales/oscuros/discovery_kids-mediano.png
-DiscoveryKidsArgentina.ar,Discovery Kids Argentina,,,AR,,,c/AR,spa,,FALSE,,,,http://www.tudiscoverykids.com/,https://www.lyngsat.com/logo/tv/dd/discovery-kids-america-latina-us.png
-DiscoveryKidsBrasil.br,Discovery Kids Brasil,,,BR,,,c/BR,por,,FALSE,,,,http://www.discoverykidsbrasil.com/,https://cdn.mitvstatic.com/channels/br_discovery-kids_m.png
-DiscoveryKidsChile.cl,Discovery Kids Chile,,,CL,,,c/CL,spa;eng,,FALSE,,,,http://www.tudiscoverykids.com/,https://cdn.mitvstatic.com/channels/cl_discovery-kids_m.png
-DiscoveryKidsColombia.co,Discovery Kids Colombia,,,CO,,,c/CO,spa;eng,,FALSE,,,,http://www.tudiscoverykids.com/,https://cdn.mitvstatic.com/channels/co_discovery-kids_m.png
-DiscoveryKidsIndia.in,Discovery Kids India,,,IN,,,c/IN,eng;mal;hin;tam;tel,,FALSE,,,,,https://i.imgur.com/g4xlmBk.png
+DiscoveryKidsAmericaLatina.us,Discovery Kids América Latina,,,US,,,c/US,spa;eng,kids,FALSE,,,,http://www.tudiscoverykids.com/,https://imagenes.gatotv.com/logos/canales/oscuros/discovery_kids-mediano.png
+DiscoveryKidsArgentina.ar,Discovery Kids Argentina,,,AR,,,c/AR,spa,kids,FALSE,,,,http://www.tudiscoverykids.com/,https://www.lyngsat.com/logo/tv/dd/discovery-kids-america-latina-us.png
+DiscoveryKidsBrasil.br,Discovery Kids Brasil,,,BR,,,c/BR,por,kids,FALSE,,,,http://www.discoverykidsbrasil.com/,https://cdn.mitvstatic.com/channels/br_discovery-kids_m.png
+DiscoveryKidsChile.cl,Discovery Kids Chile,,,CL,,,c/CL,spa;eng,kids,FALSE,,,,http://www.tudiscoverykids.com/,https://cdn.mitvstatic.com/channels/cl_discovery-kids_m.png
+DiscoveryKidsColombia.co,Discovery Kids Colombia,,,CO,,,c/CO,spa;eng,kids,FALSE,,,,http://www.tudiscoverykids.com/,https://cdn.mitvstatic.com/channels/co_discovery-kids_m.png
+DiscoveryKidsIndia.in,Discovery Kids India,,,IN,,,c/IN,eng;mal;hin;tam;tel,kids,FALSE,,,,,https://i.imgur.com/g4xlmBk.png
 DiscoveryLifeChannel.us,Discovery Life Channel,,,US,,,c/US,eng,,FALSE,,,,https://www.discoverylife.com/,https://www.directv.com/images/logos/channels/dark/large/005.png
 DiscoveryLifePoland.us,Discovery Life Poland,,,US,,,c/US,eng,,FALSE,,,,http://www.discoverychannel.pl/,https://ocdn.eu/ptv2-images-transforms/1/JFwktkgbG9nby1taWdyYXRlZC9kaXNjb3ZlcnktbGlmZS5wbmeSlQJkAMLDlQIAKMLD
 DiscoveryScience.us,Discovery Science,,,US,,,c/US,ces;eng;hun;tur;rus,,FALSE,,,,http://www.sciencechannel.com/,https://i.dir.bg/tv/imgs/ch_logos/2008/04/17/te_38062.jpg
@@ -5380,7 +5380,7 @@ EJTV.cr,EJTV,,,CR,,,r/HISPAM,spa,religious,FALSE,,,,https://ejtv.tv/,https://gra
 EkattorTV.bd,Ekattor TV,,,BD,,,c/BD,ben,,FALSE,,,,https://ekattor.tv/,https://www.lyngsat.com/logo/tv/ee/ekattor_tv.png
 EkhbariyaTV.sa,Ekhbariya TV,,,SA,,,c/SA,ara,,FALSE,,,,https://www.alekhbariya.net/,https://www.lyngsat.com/logo/tv/ee/ekhbariya-tv-sa.png
 EkhOronTV.mn,Ekh Oron TV,,,MN,,,c/MN,mon,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ee/ekh-oron-tv-mn.png
-EKids.bg,EKids,,,BG,,,c/BG,bul,,FALSE,,,,http://www.ekids.bg/,https://i.dir.bg/tv/imgs/ch_logos/2019/03/04/te_175832.jpg
+EKids.bg,EKids,,,BG,,,c/BG,bul,kids,FALSE,,,,http://www.ekids.bg/,https://i.dir.bg/tv/imgs/ch_logos/2019/03/04/te_175832.jpg
 EkinTurk.tr,Ekin Türk,,,TR,,,c/TR,tur,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ee/ekin_tv_tr_turk.png
 EkizTV.cl,Ekiz TV,,,CL,,Rancagua,c/CL,spa,,FALSE,,,,https://ekiztv.cl/,https://i.imgur.com/wY4aFux.jpg
 Ekklisia.gr,Ekklisia,,,GR,,,c/GR,ell,,FALSE,,,,,https://i.imgur.com/nxoHQqz.png
@@ -7008,7 +7008,7 @@ H1.am,H1,,,AM,,,c/AM,hye,general,FALSE,,,,,https://upload.wikimedia.org/wikipedi
 H2.am,H2,,,AM,,,c/AM,hye,general,FALSE,,,,http://www.tv.am/,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Armenian_Second_TV_Channel_logo.svg/512px-Armenian_Second_TV_Channel_logo.svg.png
 H2.us,H2,,,US,,,c/TH,tha,documentary,FALSE,,,,,https://www.img09.xyz/assets/img/ch_logo/hd-history2.png
 HaariDrama.id,Haari Drama,,,ID,,,c/ID,ind,,FALSE,,,,,https://www.lyngsat.com/logo/tv/hh/haari_drama.png
-HaariKids.id,Haari Kids,,,ID,,,c/ID,ind,,FALSE,,,,,https://www.lyngsat.com/logo/tv/hh/haari_kids.png
+HaariKids.id,Haari Kids,,,ID,,,c/ID,ind,kids,FALSE,,,,,https://www.lyngsat.com/logo/tv/hh/haari_kids.png
 HaariMovie.id,Haari Movie,,,ID,,,c/ID,ind,movies,FALSE,,,,,https://www.lyngsat.com/logo/tv/hh/haari_movie.png
 Haber61TV.tr,Haber61 TV,,,TR,,,c/TR,tur,,FALSE,,,,,https://i.imgur.com/RhPIYKu.jpg
 HaberGlobal.tr,Haber Global,,,TR,,,c/TR,tur,,FALSE,,,,https://www.haberglobal.com.tr/,https://www.dsmart.com.tr/epg/images/0x50/5f607969cfef0b1593f28f74
@@ -7044,7 +7044,7 @@ HallmarkMoviesMysteriesEast.us,Hallmark Movies & Mysteries East,,,US,,,c/US,eng,
 HallmarkMoviesMysteriesWest.us,Hallmark Movies & Mysteries West,,,US,,,c/US,eng,movies,FALSE,,,,http://www.hallmarkmoviesandmysteries.com/,https://cdn.tvpassport.com/image/station/100x100/hmm.png
 Hallypop.kr,Hallypop,,,KR,,,c/KR,kor,,FALSE,,,,,https://i.imgur.com/FCFAAJb.png
 HalomTV.hu,Halom TV,,,HU,,,c/HU,hun,,FALSE,,,,,https://i.imgur.com/Qykeedm.png
-HalowKidsHD.it,Halow Kids HD,,,IT,,,c/IT,ita,,FALSE,,,,,
+HalowKidsHD.it,Halow Kids HD,,,IT,,,c/IT,ita,kids,FALSE,,,,,
 HamaikaTelebista.es,Hamaika Telebista,,,ES,,,c/ES,spa,,FALSE,,,,,https://i.imgur.com/HR3G3Ie.png
 Hamburg1.de,Hamburg 1,,,DE,,,c/DE,deu,,FALSE,,,,,https://i.imgur.com/9TRhahY.png
 HAMEDAN.ir,HAMEDAN,,,IR,,,c/IR,fas,,FALSE,,,,,
@@ -7859,7 +7859,7 @@ IraqiaNews.iq,Iraqia News,,,IQ,,,c/IQ,ara,news,FALSE,,,,http://imn.iq/,https://w
 IraqiaSport.iq,Iraqia Sport,,,IQ,,,c/IQ,ara,sports,FALSE,,,,http://imn.iq/,https://i.imgur.com/zL78RX9.png
 IraqiaSyriac.iq,Iraqia Syriac,,,IQ,,,c/IQ,ara,,FALSE,,,,http://imn.iq/,https://www.lyngsat.com/logo/tv/ii/iraqia-syriac-iq.png
 IraqiaTurkmen.iq,Iraqia Türkmen,,,IQ,,,c/IQ,tuk,,FALSE,,,,http://imn.iq/,https://www.lyngsat.com/logo/tv/ii/imn-turkmen-iq.png
-IraqKids.iq,Iraq Kids,,,IQ,,,c/IQ,ara,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ii/iraq-kids-iq.png
+IraqKids.iq,Iraq Kids,,,IQ,,,c/IQ,ara,kids,FALSE,,,,,https://www.lyngsat.com/logo/tv/ii/iraq-kids-iq.png
 IraqNow.iq,Iraq Now,,,IQ,,,c/IQ,ara,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ii/iraq_now_iq.png
 IRIB1.ir,IRIB 1,,,IR,,,c/IR,fas,,FALSE,,,,https://tv1.ir/,https://s3.ott.tva.tv/rosing-tva-production/831342b5dc81d07ebec7_512x512c.png
 IRIB2.ir,IRIB 2,,,IR,,,c/IR,fas,,FALSE,,,,,https://s3.ott.tva.tv/rosing-tva-production/bec73f72f63958fc6998_512x512c.png
@@ -10338,16 +10338,16 @@ KIDKDT1.us,KIDK-DT1,,Dabl,US,US-ID,Idaho Falls,s/US-ID,eng,,FALSE,,,,http://www.
 KIDKDT2.us,KIDK-DT2,,FOX,US,US-ID,Idaho Falls,s/US-ID,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/foxcable.png
 Kidoodle.us,Kidoodle.TV,,,US,,,c/CA,eng,kids,FALSE,,,,,https://i.imgur.com/MaFtbM5.png
 KidoodleTV.us,Kidoodle.TV,,,US,,,c/CA,eng,kids,FALSE,,,,,https://i.imgur.com/MaFtbM5.png
-KidsArena.gh,Kids Arena,,,GH,,,c/GH,eng,,FALSE,,,,https://viewsat.world/,https://www.lyngsat.com/logo/tv/kk/kids-arena-gh.png
-KidsChoiceAwards2022Germany.us,Kids' Choice Awards 2022 Germany,,,US,,,c/DE,deu,,FALSE,,,,https://pluto.tv/en/live-tv/kids-choice-awards-de,https://images.pluto.tv/channels/5be1c20b53ed2c6334ebc4f2/colorLogoPNG.png
+KidsArena.gh,Kids Arena,,,GH,,,c/GH,eng,kids,FALSE,,,,https://viewsat.world/,https://www.lyngsat.com/logo/tv/kk/kids-arena-gh.png
+KidsChoiceAwards2022Germany.us,Kids' Choice Awards 2022 Germany,,,US,,,c/DE,deu,kids,FALSE,,,,https://pluto.tv/en/live-tv/kids-choice-awards-de,https://images.pluto.tv/channels/5be1c20b53ed2c6334ebc4f2/colorLogoPNG.png
 KidsClick.us,KidsClick,,,US,,,c/US,eng,kids,FALSE,,,,,https://raw.githubusercontent.com/geonsey/Free2ViewTV/master/images/logos/KidsClick.png
 KidsFlix.us,KidsFlix,,,US,,,c/US,eng,kids,FALSE,,,,,https://i.imgur.com/ZbAVzad.png
 KidsMovieClub.us,Kids Movie Club,,,US,,,c/US,eng,kids,FALSE,,,,https://pluto.tv/en/live-tv/kids-movie-club,https://images.pluto.tv/channels/5db0ad56edc89300090d2ebb/colorLogoPNG.png
-KidsStation.jp,Kids Station,,,JP,,,c/JP,jpn,,FALSE,,,,http://www.kids-station.com/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-552-400x400.png
-KidsStreet.us,Kids Street,,,US,,,c/US,eng;spa,,FALSE,2017-01-16,,,https://kidsstreet.com/,https://cdn.tvpassport.com/image/station/100x100/kids-street.png
-KidsTalkTalk.kr,Kids Talk Talk,,,KR,,,c/KR,kor,,FALSE,,,,http://skylifetv.co.kr/kidstalktalkplus/,https://www.lyngsat.com/logo/tv/kk/kids_talk_talk_kr.png
+KidsStation.jp,Kids Station,,,JP,,,c/JP,jpn,kids,FALSE,,,,http://www.kids-station.com/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65406-552-400x400.png
+KidsStreet.us,Kids Street,,,US,,,c/US,eng;spa,kids,FALSE,2017-01-16,,,https://kidsstreet.com/,https://cdn.tvpassport.com/image/station/100x100/kids-street.png
+KidsTalkTalk.kr,Kids Talk Talk,,,KR,,,c/KR,kor,kids,FALSE,,,,http://skylifetv.co.kr/kidstalktalkplus/,https://www.lyngsat.com/logo/tv/kk/kids_talk_talk_kr.png
 KidsTV.gr,Kids TV,,,GR,,,c/GR,ell,kids,FALSE,,,,,https://i.imgur.com/7sUmqv2.png
-KidsTV.id,Kids TV,,,ID,,,c/ID,ind,,FALSE,,,,https://www.mncchannels.com/micro/Kids-TV,https://www.mncvision.id/userfiles/image/channel/channel_46.png
+KidsTV.id,Kids TV,,,ID,,,c/ID,ind,kids,FALSE,,,,https://www.mncchannels.com/micro/Kids-TV,https://www.mncvision.id/userfiles/image/channel/channel_46.png
 KIDTLD2.us,KIDT-LD2,,My Network TV,US,US-TX,Stamford,s/US-TX,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/mnt.png
 KIDTLD3.us,KIDT-LD3,,Cozi TV,US,US-TX,Stamford,s/US-TX,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/cozitv.png
 KIDULD2.us,KIDU-LD2,,My Network TV,US,US-TX,Brownwood,s/US-TX,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/mnt.png
@@ -13558,7 +13558,7 @@ LokshahiNews.in,Lokshahi News,,,IN,,,c/IN,mar,news,FALSE,,,,https://www.lokshahi
 LOKTV.nl,LOK TV,,,NL,,,c/NL,nld,,FALSE,,,,,https://i.imgur.com/gKOcxmL.png
 Lol.rs,Lol,,,RS,,,c/RS,srp,,FALSE,,,,http://www.pink.rs/lol,https://mts.rs/oec/images/tv_channels/737622800e0230c139e7ec5662889ece.png
 LOLAfrica.za,LOL Africa,,,ZA,,,c/ZA,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ll/lol-africa-za.png
-LollyKids.uk,Lolly Kids,,,UK,,,c/UK,eng,,FALSE,,,,https://www.lollykidstv.com/,https://www.lyngsat.com/logo/tv/ll/lolly-kids.png
+LollyKids.uk,Lolly Kids,,,UK,,,c/UK,eng,kids,FALSE,,,,https://www.lollykidstv.com/,https://www.lyngsat.com/logo/tv/ll/lolly-kids.png
 LoloTV.lv,Lolo TV,,,LV,,,c/LV,rus,,FALSE,,,,http://www.lolotv.lv/,https://inet-static.mw.elion.ee/images/channels/300x300/222.png
 LolweTV.ke,Lolwe TV,,,KE,,,c/KE,eng,,FALSE,,,,https://www.lolwe.tv/,https://www.lyngsat.com/logo/tv/ll/lolwe-tv-ke.png
 LolyTV.ch,Loly TV,,,CH,,,c/CH,deu,,FALSE,,,,,https://i.imgur.com/o3S8gxU.png
@@ -13631,7 +13631,7 @@ Loviribolov.rs,Lov i ribolov,,,RS,,,c/RS,srp,,FALSE,,,,,https://i.imgur.com/rZmk
 Loyola.zm,Loyola,,,ZM,,,c/ZM,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ll/loyola-zm.png
 LPB.us,LPB,,,US,,,c/US,eng,,FALSE,,,,http://www.lpb.org/,https://www.lyngsat.com/logo/tv/ww/wlpb-tv-us-la.png
 LPB3.us,LPB 3,,,US,,,c/US,eng,,FALSE,,,,http://www.lpb.org/,https://www.lyngsat.com/logo/tv/ww/wlpb-tv-us-la.png
-LPBKids.us,LPB Kids,,,US,,,c/US,eng,,FALSE,,,,http://www.lpb.org/,https://www.lyngsat.com/logo/tv/ww/wlpb-tv-us-la.png
+LPBKids.us,LPB Kids,,,US,,,c/US,eng,kids,FALSE,,,,http://www.lpb.org/,https://www.lyngsat.com/logo/tv/ww/wlpb-tv-us-la.png
 LRPTelevision.cl,LRP Televisión,,,CL,,,c/CL,spa,,FALSE,,,,,
 LRTLituanica.lt,LRT Lituanica,,,LT,,,c/LT,lit,,FALSE,2007-09-23,,,http://www.lrt.lt/televizija/,https://www.lyngsat.com/logo/tv/ll/lrt_lt_lituanica.png
 LRTPlius.lt,LRT Plius,,,LT,,,c/LT,lit,,FALSE,2003-02-16,,,http://www.lrt.lt/televizija/,https://www.lyngsat.com/logo/tv/ll/lrt-plius-lt.png
@@ -13660,7 +13660,7 @@ LuckyDog.us,Lucky Dog,,,US,,,c/US,eng,,FALSE,,,,,https://i.imgur.com/1j4gwL3.png
 LuckyJacktv.lu,Lucky Jack.tv,,,LU,,,c/LU,fra,,FALSE,2010-09-26,,,,https://proxymedia.woopic.com/api/v1/images/553%2Flogos%2Fv2%2Flogos%2Flivetv_luckyjack%2F20151026_092415%2FwebTVLogo%2Flogo_180x96.png
 LuckyPicks.gr,Lucky Picks,,,GR,,,c/GR,eng,,FALSE,,,,https://zeusplay.com/services/lucky-picks/,https://www.lyngsat.com/logo/tv/ll/lucky-picks-gr.png
 LuckyTV.gh,Lucky TV,,,GH,,,c/GH,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ll/lucky-tv-gh.png
-Ludikids.fr,Ludikids,,,FR,,,c/FR,fra,,FALSE,,,,,https://service.canal-overseas.com/image-api/v1/image/b4c2e7743672886a4705494bf0ea4b60
+Ludikids.fr,Ludikids,,,FR,,,c/FR,fra,kids,FALSE,,,,,https://service.canal-overseas.com/image-api/v1/image/b4c2e7743672886a4705494bf0ea4b60
 LumenChristiTVNetwork.ng,Lumen Christi TV Network,,,NG,,,c/NG,eng,,FALSE,,,,https://www.lumenchristitv.com/,https://rndcdn.dstv.com/dstvcms/2018/07/11/LumenChristi_logo_4-3_lightbackground_xlrg.png
 Lupinthe3rd.us,Lupin the 3rd,,,US,,,c/US,eng,animation,FALSE,,,,https://pluto.tv/en/live-tv/lupin-the-3rd,https://images.pluto.tv/channels/60f74ba51c82ac000776c669/colorLogoPNG.png
 LustPur.de,Lust Pur,,,DE,,,c/DE,deu,xxx,TRUE,,,,http://www.lustpur.tv/,https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Lust_Pur_TV_Logo.svg/512px-Lust_Pur_TV_Logo.svg.png
@@ -13734,7 +13734,7 @@ MagentaSport.de,Magenta Sport,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.magent
 MaghrebArabePress.ma,Maghreb Arabe Press,,,MA,,,c/MA,ara,,FALSE,,,,,
 MaghrebTV.be,Maghreb TV,,,BE,,,c/BE,fra,,FALSE,,,,https://maghrebtelevision.com/,https://maghrebtelevision.com/wp-content/uploads/2019/10/logo-plat-MAGHREB-TV-02-.png
 Magic.uk,Magic,,,UK,,,c/UK,eng,,FALSE,,,,http://www.magic.co.uk/tv,https://i.imgur.com/HXfKkwj.png
-MagicKids.ar,Magic Kids,,,AR,,,r/HISPAM,spa,,FALSE,,,,,
+MagicKids.ar,Magic Kids,,,AR,,,r/HISPAM,spa,kids,FALSE,,,,,
 MagicSportTV.rw,Magic Sport TV,,,RW,,,c/RW,eng,,FALSE,,,,https://rba.co.rw/,https://i.imgur.com/GFsSvvD.png
 MagicTV.bg,Magic TV,,,BG,,,c/BG,bul,,FALSE,,,,https://www.magic.bg/,https://www.lyngsat.com/logo/tv/mm/magic-tv-bg.png
 MagicTV.gr,Magic TV,,,GR,,,c/GR,ell,music,FALSE,,,,,https://i.imgur.com/QZQhg6C.png
@@ -14947,8 +14947,8 @@ Nasim.ir,Nasim,,,IR,,,c/IR,fas,,FALSE,,,,https://tvnasim.ir/,https://s3.ott.tva.
 NastoyashcheyeVremya.cz,Nastoyashcheye Vremya,,,CZ,,,c/RU;c/UA,rus,,FALSE,,,,https://www.currenttime.tv/,https://www.magticom.ge/images/channels/MjAyMS8xMC8xOC80NmM5NTVjMy1iNzliLTQ3MGUtOTI1Yy0wNmZiMTExZDQxMzVOLVZSRU1JQV8tXzU2MF94XzQwOC5wbmc=.jpg
 NasulTV.ro,Nasul TV,,,RO,,,c/RO,ron,,FALSE,,,,https://www.nasul.tv/,https://static.cinemagia.ro/img/tv_station/nasul-tv.jpg
 Natali.ua,Natali,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,,https://www.lyngsat.com/logo/tv/nn/natali-ua.png
-NatGeoKids.us,Nat Geo Kids,,,US,,,c/US,spa;eng,,FALSE,,,,http://www.natgeokidsla.com/,https://cdn.mitvstatic.com/channels/ar_nat-geo-kids_m.png
-NatGeoKidsBrasil.br,Nat Geo Kids Brasil,,,BR,,,c/BR,por;eng,,FALSE,,,,http://www.natgeokids.com.br/,https://cdn.mitvstatic.com/channels/br_nat-geo-kids_m.png
+NatGeoKids.us,Nat Geo Kids,,,US,,,c/US,spa;eng,kids,FALSE,,,,http://www.natgeokidsla.com/,https://cdn.mitvstatic.com/channels/ar_nat-geo-kids_m.png
+NatGeoKidsBrasil.br,Nat Geo Kids Brasil,,,BR,,,c/BR,por;eng,kids,FALSE,,,,http://www.natgeokids.com.br/,https://cdn.mitvstatic.com/channels/br_nat-geo-kids_m.png
 NatGeoMundo.us,Nat Geo Mundo,,,US,,,c/US,spa,,FALSE,,,,http://www.natgeomundo.com/,https://www.directv.com/images/logos/channels/dark/large/354.png
 NatGeoPeople.us,Nat Geo People,,,US,,,c/US,ron;pol;eng,,FALSE,1999-11-01,,,http://natgeotv.com/asia/ngp,https://ocdn.eu/ptv2-images-transforms/1/OgyktkgbG9nby1taWdyYXRlZC9uYXQtZ2VvLXBlb3BsZS5wbmeSlQJkAMLDlQIAKMLD
 NatGeoPeopleAsia.us,Nat Geo People Asia,,,US,,,c/US,eng,,FALSE,,,,http://natgeotv.com/asia/adventure,https://www.lyngsat.com/logo/tv/nn/nat_geo_people_asia.png
@@ -15561,7 +15561,7 @@ NihonEigaSenmonChannel.jp,Nihon Eiga Senmon Channel,,,JP,,,c/JP,jpn,,FALSE,,,,ht
 NihonJidai4K.jp,Nihon Jidai 4K,,,JP,,,c/JP,jpn,,FALSE,,,,https://www.nihon-eiga.com/nihon-jidai4k/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65527-419-400x400.png
 NikaTV.ru,Nika TV,,,RU,,,c/RU,rus,,FALSE,,,,https://nikatv.ru/,https://nikatv.ru/public/img/logo2.png
 NikiJunior.ua,Niki Junior,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,,https://www.lyngsat.com/logo/tv/nn/niki-junior-ua.png
-NikiKids.ua,Niki Kids,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,,https://www.lyngsat.com/logo/tv/nn/niki-kids-ua.png
+NikiKids.ua,Niki Kids,,,UA,,,c/UA;c/RU,ukr,kids,FALSE,,,,,https://www.lyngsat.com/logo/tv/nn/niki-kids-ua.png
 NikkeiCNBC.jp,Nikkei CNBC,,,JP,,,c/JP,jpn,business,FALSE,1990-04-01,,,http://www.nikkei-cnbc.co.jp/,https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Nikkei_CNBC.svg/512px-Nikkei_CNBC.svg.png
 NileCinema.eg,Nile Cinema,,,EG,,,c/EG,ara,movies,FALSE,,,,http://www.niletc.tv/Channel/cinema,https://i.imgur.com/XAYcgQb.png
 NileComedy.eg,Nile Comedy,,,EG,,,c/EG,ara,comedy,FALSE,,,,http://www.niletc.tv/Channel/comedy,https://i.imgur.com/FaOo1v7.png
@@ -15787,7 +15787,7 @@ NRKTegnsprak.no,NRK Tegnspråk,,,NO,,,c/NO,nor,,FALSE,2001-10-01,,,http://www.nr
 NRT.iq,NRT,,,IQ,,,c/IQ,kur,,FALSE,,,,https://www.nrttv.com/,https://www.lyngsat.com/logo/tv/nn/nrt-iq.png
 NRT2.de,NRT 2,,,DE,,,c/DE,deu,,FALSE,,,,,
 NRT2.iq,NRT 2,,,IQ,,,c/IQ,ara,,FALSE,,,,https://www.nrttv.com/nrt2/,https://www.lyngsat.com/logo/tv/nn/nrt-2-iq.png
-NRT3Kids.iq,NRT 3 Kids,,,IQ,,,c/IQ,ara,,FALSE,,,,,https://www.lyngsat.com/logo/tv/nn/nrt-3-kids-iq.png
+NRT3Kids.iq,NRT 3 Kids,,,IQ,,,c/IQ,ara,kids,FALSE,,,,,https://www.lyngsat.com/logo/tv/nn/nrt-3-kids-iq.png
 NRT4.iq,NRT 4,,,IQ,,,c/IQ,ara,,FALSE,,,,,https://www.lyngsat.com/logo/tv/nn/nrt-4-iq.png
 NRTTV.iq,NRT TV,,,IQ,,,c/IQ,kur,,FALSE,,,,,https://i.imgur.com/4li5hRA.png
 NRTV.ch,NRTV,,,CH,,,c/CH,fra,,FALSE,,,,,https://i.imgur.com/tIrgAni.png
@@ -16116,7 +16116,7 @@ OneTVDiscover.hk,One TV Discover,,,HK,,,c/HK,zho,,FALSE,,,,http://www.one-tv.com
 OneTVDiscovery6.kh,One TV Discovery 6,,,KH,,,c/KH,khm,,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Discovery-6,https://www.lyngsat.com/logo/tv/oo/one-tv-discovery-6-kh.png
 OneTVDrama3.kh,One TV Drama 3,,,KH,,,c/KH,khm,,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Drama-3,https://www.lyngsat.com/logo/tv/oo/one-tv-drama-3-kh.png
 OneTVESchoolCambodia.kh,One TV E-School Cambodia,,,KH,,,c/KH,khm,,FALSE,,,,,https://www.lyngsat.com/logo/tv/oo/one-tv-e-school-cambodia-kh.png
-OneTVKids5.kh,One TV Kids 5,,,KH,,,c/KH,khm,,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Kids-5,https://www.lyngsat.com/logo/tv/oo/one-tv-kids-5-kh.png
+OneTVKids5.kh,One TV Kids 5,,,KH,,,c/KH,khm,kids,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Kids-5,https://www.lyngsat.com/logo/tv/oo/one-tv-kids-5-kh.png
 OneTVMovies7.kh,One TV Movies 7,,,KH,,,c/KH,khm,movies,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Movie-HD-7,https://www.lyngsat.com/logo/tv/oo/one-tv-movies-7-kh.png
 OneTVMusic8.kh,One TV Music 8,,,KH,,,c/KH,khm,music,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Music-8,https://www.lyngsat.com/logo/tv/oo/one-tv-music-8-kh.png
 OneTVSabay1.kh,One TV Sabay 1,,,KH,,,c/KH,khm,,FALSE,,,,http://digitalsky.com.kh/EN/Channel-List/OneTV-Sabay-1,https://www.lyngsat.com/logo/tv/oo/one-tv-sabay-1-kh.png
@@ -16220,7 +16220,7 @@ OSNAction.ae,OSN Action,,,AE,,,c/AE,eng,,FALSE,,,,https://www.osn.com/en-ae/expl
 OSNComedy.ae,OSN Comedy,,,AE,,,c/AE,eng,comedy,FALSE,,,,https://www.osn.com/en-ae/explore/channels/oco/osn-comedy,https://content.osn.com/logo/channel/cropped/OCO.png
 OSNEnigma.ae,OSN Enigma,,,AE,,,c/AE,eng,,FALSE,,,,https://www.osn.com/en-ae/explore/channels/ocm/osn-enigma,https://content.osn.com/logo/channel/cropped/OCM.png
 OSNFamily.ae,OSN Family,,,AE,,,c/AE,eng;ara,,FALSE,,,,https://www.osn.com/en-ae/explore/channels/ofm/osn-family,https://content.osn.com/logo/channel/cropped/OFM.png
-OSNKids.ae,OSN Kids,,,AE,,,c/AE,eng;ara,,FALSE,,,,https://www.osn.com/en-ae/explore/channels/omk/osn-kids,https://content.osn.com/logo/channel/cropped/OMK.png
+OSNKids.ae,OSN Kids,,,AE,,,c/AE,eng;ara,kids,FALSE,,,,https://www.osn.com/en-ae/explore/channels/omk/osn-kids,https://content.osn.com/logo/channel/cropped/OMK.png
 OSNKidZone.ae,OSN Kid Zone,,,AE,,,c/AE,eng;ara,,FALSE,,,,http://www.osn.com/en-ae/explore/channels/kdz/osn-kid-zone-tv,https://content.osn.com/logo/channel/cropped/KDZ.png
 OSNLiving.ae,OSN Living,,,AE,,,c/AE,eng;ara,,FALSE,,,,https://www.osn.com/en-ae/explore/channels/olh/osn-living,https://content.osn.com/logo/channel/cropped/OLH.png
 OSNMezze.ae,OSN Mezze,,,AE,,,c/AE,eng,,FALSE,,,,https://www.osn.com/en-ae/explore/channels/omz/osn-mezze,https://content.osn.com/logo/channel/cropped/OMZ.png
@@ -16334,7 +16334,7 @@ PamirTV.af,Pamir TV,,,AF,,,c/AF,pus,music,FALSE,,,,http://www.pamirtv.com/,https
 PamukkaleTV.tr,Pamukkale TV,,,TR,,,c/TR,tur,,FALSE,,,,http://pamukkaletv.com/,https://www.lyngsat.com/logo/tv/pp/pamukkale_tv_tr.png
 PanAfricanTV.gh,Pan African TV,,,GH,,,c/GH,eng,,FALSE,,,,https://panafricantv.com/,https://www.lyngsat.com/logo/tv/pp/pan-african-tv-gh.png
 PanamericanaTV.pe,Panamericana TV,,,PE,,,c/PE,spa,general,FALSE,,,,https://panamericana.pe/,https://i.imgur.com/uQhEDES.png
-PandaKids.pt,Panda Kids,,,PT,,,c/PT,por,,FALSE,,,,https://tuamc.tv/canal-panda/,https://www.meo.pt/PublishingImages/canais/panda-kids.png
+PandaKids.pt,Panda Kids,,,PT,,,c/PT,por,kids,FALSE,,,,https://tuamc.tv/canal-panda/,https://www.meo.pt/PublishingImages/canais/panda-kids.png
 Panico.mx,Pánico,,,MX,,,c/MX,spa;eng,,FALSE,,,,http://www.pctvcanales.mx/canales/panico.aspx,https://imagenes.gatotv.com/logos/canales/oscuros/panico-mediano.png
 PannonRTV.hu,Pannon RTV,,,HU,,,c/HU,hun,,FALSE,,,,,https://i.imgur.com/Dl9xtgo.png
 PannonTV.rs,Pannon TV,,,RS,,,c/RS,hun,,FALSE,,,,https://pannonrtv.com/,https://mts.rs/oec/images/tv_channels/f6b46bb51ef539ebcfbb7c7b91c1ca2f.png
@@ -16427,8 +16427,8 @@ PBSAmerica.uk,PBS America,,,UK,,,c/UK,eng,general,FALSE,2011-11-01,,,http://www.
 PBSEast.us,PBS East,,,US,,,c/US,eng,education,FALSE,,,,http://www.pbs.org/,https://d1qbemlbhjecig.cloudfront.net/prod/filer_public/pbs-digital-studios-bento-live-pbs/icons/1fcc0dd46e_PBS_favicon.png
 PBSGeorgiaPublicTelevision.us,PBS Georgia Public Television,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/pbs.png
 PBSKID.us,PBSKI-D,,PBS Kids,US,US-MN,Duluth,s/US-MN,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/pbskids.png
-PBSKids.us,PBS Kids,,,US,,,c/US,eng,,FALSE,,,,https://pbskids.org/,https://rndcdn.dstv.com/dstvcms/2018/06/18/PBSKIDSLOGO_600x450_LightBKGRD_xlrg.png
-PBSKids247.us,PBS Kids 24/7,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/pbskids.png
+PBSKids.us,PBS Kids,,,US,,,c/US,eng,kids,FALSE,,,,https://pbskids.org/,https://rndcdn.dstv.com/dstvcms/2018/06/18/PBSKIDSLOGO_600x450_LightBKGRD_xlrg.png
+PBSKids247.us,PBS Kids 24/7,,,US,,,c/US,eng,kids,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/pbskids.png
 PBSKidsAKST.us,PBS Kids Alaska,,,US,,,c/US,eng,education;kids,FALSE,,,,,https://i.imgur.com/ambc9le.png
 PBSKidsEST.us,PBS Kids Eastern/Central,,,US,,,c/US,eng,education;kids,FALSE,,,,,https://i.imgur.com/ambc9le.png
 PBSKidsHAST.us,PBS Kids Hawaii,,,US,,,c/US,eng,education;kids,FALSE,,,,,https://i.imgur.com/ambc9le.png
@@ -16599,7 +16599,7 @@ PinkfongBabyShark.us,Pinkfong Baby Shark,,,US,,,c/US,eng,kids,FALSE,,,,,https://
 PinkHits.rs,Pink Hits,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/e23489f9ddfd2350155c71ceaf3759d3.png
 PinkHits2.rs,Pink Hits 2,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/407f75eedaec9f8b4a75836ecc484c5a.png
 PinkHorror.rs,Pink Horror,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/d0608638721499a0fc69ef076790a75d.png
-PinkKids.rs,Pink Kids,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/7a155c0bd19be902f845456fdbd95fab.png
+PinkKids.rs,Pink Kids,,,RS,,,c/RS,srp,kids,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/7a155c0bd19be902f845456fdbd95fab.png
 PinkKoncert.rs,Pink Koncert,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mtel.ba/oec/images/tv_channels/6e4ab583ca61bfa9941171c5892598d2.png
 PinkKuvar.rs,Pink Kuvar,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mtel.ba/oec/images/tv_channels/39244b96ded32daa94271dbeb1a4374b.png
 PinkM.me,Pink M,,,ME,,,c/ME,srp,,FALSE,2018-10-22,,,,https://mts.rs/oec/images/tv_channels/7e937947da74f60eeb889352eaa42b4f.jpg
@@ -16620,7 +16620,7 @@ PinkSI.rs,Pink SI,,,RS,,,c/RS,srp,,FALSE,2010-09-30,2012-02-29,,,https://tv2go.t
 PinkSoap.rs,Pink Soap,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/0523c06fc30709d347e6028f30264059.png
 PinkSrbija.rs,Pink Srbija,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/4a7725a4f7324e01b4f986c3aeb390ee.png
 PinkStyle.rs,Pink Style,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/69e3e84fe77527e5dd9277ca60ba11bf.png
-PinkSuperKids.rs,Pink Super Kids,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/3b5bc901983940816fc840ee26390f8d.png
+PinkSuperKids.rs,Pink Super Kids,,,RS,,,c/RS,srp,kids,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/3b5bc901983940816fc840ee26390f8d.png
 PinkThriller.rs,Pink Thriller,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mts.rs/oec/images/tv_channels/ba363e0ab4c5f6647c94823d437373d0.png
 PinkTV.fr,Pink TV,,,FR,,,c/FR,fra,,FALSE,,,,http://www.pinktv.fr/,https://www.programme-tv.net/imgre/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2Fdb1124e839974f97.2Epng/80x80/quality/80/pink-tv.png
 PinkWestern.rs,Pink Western,,,RS,,,c/RS,srp,,FALSE,,,,http://www.rtvpink.co.rs/,https://mtel.ba/oec/images/tv_channels/93a327cd9fae5d1f089ca98a383f8d09.png
@@ -16645,7 +16645,7 @@ PlanetaKids.es,Planeta Kids,,,ES,,,c/ES,spa,kids,FALSE,,,,,https://i.imgur.com/C
 PlanetaMultimedios.ar,Planeta Multimedios,,,AR,,,c/AR,spa,music,FALSE,,,,,
 PlanetaTV.bg,Planeta TV,,,BG,,,c/BG,bul,,FALSE,2001-11-13,,,http://www.planeta.tv/,https://www.lyngsat.com/logo/tv/pp/planeta-tv-bg.png
 PlanetaTVBagua.pe,Planeta TV,,,PE,PE-SAM,Bagua,c/PE,spa,,FALSE,,,,,https://graph.facebook.com/planetatvperu/picture?width=320&height=320
-PlanetatvKids.cl,Planetatv Kids,,,CL,,,c/CL,spa,,FALSE,,,,,
+PlanetatvKids.cl,Planetatv Kids,,,CL,,,c/CL,spa,kids,FALSE,,,,,
 PlanetatvMovie.cl,Planetatv Movie,,,CL,,,c/CL,spa,movies,FALSE,,,,,
 PlanetaTVMoyobamba.pe,Planeta TV,,,PE,PE-SAM,Moyobamba,c/PE,spa,,FALSE,,,,https://moyobamba.com/planetatv/,https://graph.facebook.com/PlanetaTeleInformativo/picture?width=320&height=320
 PlanetatvMusic.cl,Planetatv Music,,,CL,,,c/CL,spa,music,FALSE,,,,,
@@ -18374,7 +18374,7 @@ RTLPassionGermany.de,RTL Passion Germany,,,DE,,,c/DE,deu,,FALSE,,,,http://www.rt
 RTLPassionHrvatska.hr,RTL Passion Hrvatska,,,HR,,,c/HR,hrv,,FALSE,,,,https://www.rtl.hr/,https://i.imgur.com/fD8K6Yj.png
 RTLPlus.hu,RTL +,,,HU,,,c/HU,hun,,FALSE,,,,https://rtl.hu/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/RTL%2B_logo.svg/512px-RTL%2B_logo.svg.png
 RTLSchweiz.ch,RTL Schweiz,,,CH,,,c/CH,deu,,FALSE,,,,https://www.rtl.de/,https://i.imgur.com/WuFXPZd.png
-RTLTelekids.nl,RTL Telekids,,,NL,,,c/NL,nld,,FALSE,2012-09-03,,,,https://i.imgur.com/qbOql4J.png
+RTLTelekids.nl,RTL Telekids,,,NL,,,c/NL,nld,kids,FALSE,2012-09-03,,,,https://i.imgur.com/qbOql4J.png
 RTLTVI.be,RTL TVI,,,BE,,,c/BE;c/LU,fra,,FALSE,,,,http://www.rtl.be/tv/rtltvi,https://i.imgur.com/yjtxdmh.png
 RTLUHD.de,RTL UHD,,,DE,,,c/DE,deu,,FALSE,,,,https://www.rtl.de/cms/specials/rtl-hd/sendungen-in-uhd.html,https://i.imgur.com/3wQbMJA.png
 RTLUp.de,RTL Up,,,DE,,,c/CH;c/DE,deu,,FALSE,,,,https://www.rtl-up.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/RTLup_Logo_2021.svg/512px-RTLup_Logo_2021.svg.png
@@ -18806,7 +18806,7 @@ Sat1Osterreich.at,Sat 1 Österreich,,,AT,,,c/AT,deu,,FALSE,,,,http://www.sat1.at
 Sat1RheinlandPfalzHessen.de,Sat 1 Rheinland-Pfalz/Hessen,,,DE,,,c/DE,deu,,FALSE,,,,http://www.1730live.de/,https://www.lyngsat.com/logo/tv/ss/sat1_de.png
 Sat1Schweiz.ch,Sat 1 Schweiz,,,CH,,,c/CH,deu,,FALSE,,,,http://www.sat1.ch/,https://www.lyngsat.com/logo/tv/ss/sat1_ch.png
 Sat7Arabic.cy,Sat 7 Arabic,,,CY,,,c/CY,ara,,FALSE,,,,https://sat7.org/our-channels/channel-overview/sat-7-arabic,https://www.lyngsat.com/logo/tv/ss/sat7_arabic.png
-Sat7Kids.cy,Sat 7 Kids,,,CY,,,c/CY,ara,,FALSE,,,,http://sat7kids.com/,https://www.lyngsat.com/logo/tv/ss/sat7_kids.png
+Sat7Kids.cy,Sat 7 Kids,,,CY,,,c/CY,ara,kids,FALSE,,,,http://sat7kids.com/,https://www.lyngsat.com/logo/tv/ss/sat7_kids.png
 Sat7Pars.cy,Sat 7 Pars,,,CY,,,c/CY,fas,,FALSE,,,,http://sat7.org/our-channels/channel-overview/sat-7-pars,https://www.lyngsat.com/logo/tv/ss/sat7_pars.png
 Sat7Turk.cy,Sat 7 Türk,,,CY,,,c/CY;c/TR,tur,,FALSE,,,,https://www.sat7turk.com/,https://i.imgur.com/cKQIK4i.png
 SatelTV.pe,SatelTV,,,PE,,Puno,c/PE,spa,,FALSE,,,,http://radiosatel.pe/satel-tv/,https://graph.facebook.com/SatelPeru/picture?width=320&height=320
@@ -20021,7 +20021,7 @@ StarHubTV.sg,StarHub TV,,,SG,,,c/SG,eng,,FALSE,,,,,https://upload.wikimedia.org/
 StarJalsha.in,Star Jalsha,,,IN,,,c/IN,ben,,FALSE,2001-08-01,,,https://www.hotstar.com/channels/star-jalsha,https://i.imgur.com/FBckKr0.png
 StarJalshaHD.in,Star Jalsha HD,,,IN,,,c/IN,hin,,FALSE,,,,https://www.hotstar.com/channels/star-jalsha,https://i.imgur.com/1naLLsy.png
 StarKentrikisElladas.gr,Star Kentrikis Elladas,,,GR,,,c/GR,ell,,FALSE,,,,https://tvstar.gr/,https://www.cosmote.gr/portal/image/journal/article?img_id=110772706&t=1624434035822
-StarKids.tz,Star Kids,,,TZ,,,c/TZ,swa,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/star_tz_tv.png
+StarKids.tz,Star Kids,,,TZ,,,c/TZ,swa,kids,FALSE,,,,,https://www.lyngsat.com/logo/tv/ss/star_tz_tv.png
 StarLife.hk,StarLife,,,HK,,,c/HK,eng,,FALSE,,,,,https://rndcdn.dstv.com/dstvcms/2018/08/24/StarLife_logo_4-3_003_xlrg.png
 StarLifeBrasil.br,Star Life Brasil,,,BR,,,c/BR,por;eng,,FALSE,,,,https://www.star-brasil.com/,https://cdn.mitvstatic.com/channels/mx_fox-life_m.png
 StarLifeChile.cl,Star Life Chile,,,CL,,,c/CL,spa,,FALSE,,,,https://www.star-latam.com/,https://imagenes.gatotv.com/logos/canales/oscuros/star_life-mediano.png
@@ -20126,8 +20126,8 @@ StarzEncoreWesternsEast.us,Starz Encore Westerns East,,,US,,,c/US,eng;spa,,FALSE
 StarzEncoreWesternsWest.us,Starz Encore Westerns West,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://cdn.tvpassport.com/image/station/100x100/starz-encore-westerns.png
 StarzInBlackEast.us,Starz In Black East,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://cdn.tvpassport.com/image/station/100x100/starzinblack.png
 StarzInBlackWest.us,Starz In Black West,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://www.lyngsat.com/logo/tv/ss/starz_us_in_black_east.png
-StarzKidsFamilyEast.us,Starz Kids & Family East,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://www.directv.com/images/logos/channels/dark/large/749.png
-StarzKidsFamilyWest.us,Starz Kids & Family West,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://cdn.tvpassport.com/image/station/100x100/starz_family.png
+StarzKidsFamilyEast.us,Starz Kids & Family East,,,US,,,c/US,eng;spa,kids,FALSE,,,,https://www.starz.com/,https://www.directv.com/images/logos/channels/dark/large/749.png
+StarzKidsFamilyWest.us,Starz Kids & Family West,,,US,,,c/US,eng;spa,kids,FALSE,,,,https://www.starz.com/,https://cdn.tvpassport.com/image/station/100x100/starz_family.png
 StarzWest.us,Starz West,,,US,,,c/US,eng;spa,,FALSE,,,,https://www.starz.com/,https://cdn.tvpassport.com/image/station/100x100/starz.png
 STATV.kr,STATV,스타티비,,KR,,,c/KR,kor,sports,FALSE,2020-03-16,,,http://www.statv.net/,https://i.imgur.com/Jc0dBHW.png
 STB.kr,STB,,,KR,,,c/KR,kor,,FALSE,,,,https://www.stb.co.kr/,https://www.lyngsat.com/logo/tv/ss/stb_kr.png
@@ -20210,7 +20210,7 @@ StingrayKaraoke.us,Stingray Karaoke,,,US,,,c/US,eng,music,FALSE,,,,,https://www.
 StingrayKaraokeAustralia.ca,Stingray Karaoke Australia,,,CA,,,c/CA,eng,music,FALSE,,,,,https://i.imgur.com/XkBOu3Q.jpg
 StingrayKaraokeSweden.ca,Stingray Karaoke Sweden,,,CA,,,c/CA,eng,music,FALSE,,,,,https://i.imgur.com/XkBOu3Q.jpg
 StingrayKarokeNetherland.ca,Stingray Karoke Netherland,,,CA,,,c/CA,eng,music,FALSE,,,,,https://i.imgur.com/XkBOu3Q.jpg
-StingrayKidsStuff.ca,Stingray Kids Stuff,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
+StingrayKidsStuff.ca,Stingray Kids Stuff,,,CA,,,c/CA,eng,kids,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
 StingrayLatinoTropical.ca,Stingray Latino Tropical,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
 StingrayLatinoUrbana.ca,Stingray Latino Urbana,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
 StingrayLePalmares.ca,Stingray Le Palmarès,,,CA,,,c/CA,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/stingray.png
@@ -20420,7 +20420,7 @@ STIRRWhoseLineIsItAnyway.us,STIRR Whose Line Is It Anyway,,,US,,,c/US,eng,,FALSE
 STIRRWipeoutXtra.us,STIRR Wipeout Xtra,,,US,,,c/US,eng,series,FALSE,,,,,https://github.com/geonsey/Free2ViewTV/blob/master/images/logos/WipeoutXtra_190x190.png?raw=true
 STIRRWiseguy.us,STIRR Wiseguy,,,US,,,c/US,eng,,FALSE,,,,,https://komonews.com/resources/media2/3x1/full/119/center/90/5e3b98cb-3de9-4bb2-b775-e487f3a117ca-small3x1_stirr_1219_epg_wiseguy_1920x1080.png?cb=c81e728d9d4c2f636f067f89cc14862c
 STKasiMusic.cn,ST Kasi Music,,,CN,,,c/CN,eng,music,FALSE,,,,https://starsat.co.za/channel/st-kasi-music/,https://www.lyngsat.com/logo/tv/ss/st-kasi-music-cn.png
-STKids.cn,ST Kids,,,CN,,,c/CN,eng;por;swa,,FALSE,,,,http://starsat.co.za/channel/st-kids/,https://www.lyngsat.com/logo/tv/ss/st-kids-cn.png
+STKids.cn,ST Kids,,,CN,,,c/CN,eng;por;swa,kids,FALSE,,,,http://starsat.co.za/channel/st-kids/,https://www.lyngsat.com/logo/tv/ss/st-kids-cn.png
 STKungfu.cn,ST Kungfu,,,CN,,,c/CN,eng;zho;fra,,FALSE,,,,http://starsat.co.za/,https://www.lyngsat.com/logo/tv/ss/star-kungfu-cn.png
 STMoviesPlus.cn,ST Movies Plus,,,CN,,,c/CN,eng,movies,FALSE,,,,http://starsat.co.za/st-movies-plus/,https://www.lyngsat.com/logo/tv/ss/st-movies-plus-cn.png
 STN.so,STN,,,SO,,,c/SO,som,,FALSE,,,,,https://rndcdn.dstv.com/dstvcms/2017/06/20/DStv_STNt_Logo_4-3_xlrg.png
@@ -20810,7 +20810,7 @@ TakarazukaSkyStage.jp,Takarazuka Sky Stage,,,JP,,,c/JP,jpn,,FALSE,,,,https://www
 TakbeerTV.uk,Takbeer TV,,,UK,,,c/UK,ara,,FALSE,2010-01-14,,,http://takbeer.tv/,https://www.lyngsat.com/logo/tv/tt/takbeer-tv-uk.png
 TakeshisCastleGermany.us,Takeshi's Castle Germany,,,US,,,c/DE,deu,comedy,FALSE,,,,https://pluto.tv/en/live-tv/takeshis-castle-de,https://images.pluto.tv/channels/6054a9f4bc8a5f000771504c/colorLogoPNG.png
 Takt.ru,Takt,,,RU,,Kursk,c/RU,rus,,FALSE,,,,,https://i.imgur.com/3zuGnwy.jpeg
-TalaKidsClub.jo,Tala Kids Club,,,JO,,,c/JO,ara,,FALSE,,,,http://www.talakidsclub.com/,https://www.lyngsat.com/logo/tv/tt/tala-kids-club-jo.png
+TalaKidsClub.jo,Tala Kids Club,,,JO,,,c/JO,ara,kids,FALSE,,,,http://www.talakidsclub.com/,https://www.lyngsat.com/logo/tv/tt/tala-kids-club-jo.png
 Talentvision.ca,Talentvision,,,CA,,,c/CA,eng,,FALSE,1993-01-01,,,https://www.talentvisiontv.com/,https://cdn.tvpassport.com/image/station/100x100/talentvision.png
 TaliinMongolTV.mn,Taliin Mongol TV,,,MN,,,c/MN,mon,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/taliin-mongol-tv-mn.png
 TalimTV.kz,Talim TV,,,KZ,,,c/KZ,kaz,,FALSE,,,,https://asylarna.kz/,https://www.lyngsat.com/logo/tv/tt/talim-tv-kz.png
@@ -20870,7 +20870,7 @@ TataSkyFamilyHealth.in,Tata Sky Family Health,,,IN,,,c/IN,hin,,FALSE,,,,https://
 TataSkyFitness.in,Tata Sky Fitness,,,IN,,,c/IN,eng,,FALSE,,,,https://www.tatasky.com/dth/services/learn/fitness,https://www.lyngsat.com/logo/tv/tt/tata-sky-fitness-in.png
 TataSkyFunLearn.in,Tata Sky Fun Learn,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tataskyservices/tata-sky-fun-learn,https://www.lyngsat.com/logo/tv/tt/tata-sky-fun-learn-in.png
 TataSkyIbaadat.in,Tata Sky Ibaadat,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-services-spiritual/tata-sky-ibaadat,https://www.lyngsat.com/logo/tv/tt/tata-sky-ibaadat-in.png
-TataSkyKidsCinema.in,Tata Sky Kids Cinema,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-kids-cinema,https://www.lyngsat.com/logo/tv/tt/tata-sky-kids-cinema-in.png
+TataSkyKidsCinema.in,Tata Sky Kids Cinema,,,IN,,,c/IN,hin,kids,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-kids-cinema,https://www.lyngsat.com/logo/tv/tt/tata-sky-kids-cinema-in.png
 TataSkyMarathiCinema.in,Tata Sky Marathi Cinema,,,IN,,,c/IN,mar,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-services-regional/tata-sky-marathi-cinema,https://www.lyngsat.com/logo/tv/tt/tata-sky-marathi-cinema-in.png
 TataSkyMusicPlus.in,Tata Sky Music+,,,IN,,,c/IN,hin,music,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/footerpages/mediaroom/TataSkyMusicPlus/,https://www.lyngsat.com/logo/tv/tt/tata-sky-music-plus-in.png
 TataSkyShortsTV.in,Tata Sky ShortsTV,,,IN,,,c/IN,hin,,FALSE,,,,https://www.tatasky.com/wps/portal/TataSky/services/tata-sky-services-entertainment/tata-sky-shorts-tv,https://www.lyngsat.com/logo/tv/tt/tata-sky-shorts-tv-in.png
@@ -22032,7 +22032,7 @@ TV2Charlie.dk,TV 2 Charlie,,,DK,,,c/DK,dan,,FALSE,2004-10-01,,,http://charlie.tv
 TV2Comedy.hu,TV 2 Comedy,,,HU,,,c/HU,hun,comedy,FALSE,,,,https://tv2play.hu/tv2comedy,https://www.lyngsat.com/logo/tv/tt/tv-2-comedy-hu.png
 TV2Fri.dk,TV 2 Fri,,,DK,,,c/DK,dan,,FALSE,2013-05-05,,,http://fri.tv2.dk/,https://images.ctfassets.net/989y85n5kcxs/4XeiEiJDpVVWbvTlLASs9G/1145e20b45e9cba89515d5a504fe5db5/TV_2_Fri_Ensfarvet_Groen_RGB.png
 TV2Fyn.dk,TV 2 Fyn,,,DK,,,c/DK,dan,,FALSE,,,,https://www.tv2fyn.dk/,https://vignette1.wikia.nocookie.net/logopedia/images/6/6e/TV_2_Fyn.png
-TV2Kids.hu,TV 2 Kids,,,HU,,,c/HU,hun,,FALSE,,,,https://tv2play.hu/tv2kids,https://www.lyngsat.com/logo/tv/tt/tv-2-kids-hu.png
+TV2Kids.hu,TV 2 Kids,,,HU,,,c/HU,hun,kids,FALSE,,,,https://tv2play.hu/tv2kids,https://www.lyngsat.com/logo/tv/tt/tv-2-kids-hu.png
 TV2Livsstil.no,TV 2 Livsstil,,,NO,,,c/NO,nor,,FALSE,2015-11-02,,,http://www.tv2.no/kanaler/livsstil/,https://images.ctfassets.net/989y85n5kcxs/7wiRzkOszQW1hgoyAlrHFP/56bac294cd7004cbc2b4bdf23a81a138/tv_2_livsstil_uten_bakgrunn_-_png_0.png
 TV2Lorry.dk,TV 2 Lorry,,,DK,,,c/DK,dan,,FALSE,,,,http://www.lorry.dk/,https://i.imgur.com/IxJIiLJ.jpg
 TV2Midtvest.dk,TV 2 Midtvest,,,DK,,,c/DK,dan,,FALSE,,,,https://www.tvmidtvest.dk/,https://www.lyngsat.com/logo/tv/tt/tv2_midt_vest_dk.png
@@ -22200,7 +22200,7 @@ TVAFilm.ir,TVA Film,,,IR,,,c/IR,fas,movies,FALSE,,,,,https://s3.ott.tva.tv/rosin
 TVAfrica.gh,TV Africa,,,GH,,,c/GH,eng,,FALSE,,,,https://tvafricagh.org/,https://rndcdn.dstv.com/dstvcms/2018/01/26/OneAfrica_4-3_light_background_001_xlrg.png
 TVAGatineauOttawa.ca,TVA Gatineau-Ottawa,,,CA,,,c/CA,fra,,FALSE,,,,http://www.tvagatineau.ca/,https://www.lyngsat.com/logo/tv/tt/tva-gatineau-ottawa-ca.png
 TVAgro.co,TV Agro,,,CO,,,c/CO,spa,,FALSE,,,,,https://cdn.mitvstatic.com/channels/gt_tv-agro_m.png
-TVAKids.ir,TVA Kids,,,IR,,,c/IR,fas,,FALSE,,,,,https://s3.ott.tva.tv/rosing-tva-production/81f8929a7aeadce968d5_512x512c.png
+TVAKids.ir,TVA Kids,,,IR,,,c/IR,fas,kids,FALSE,,,,,https://s3.ott.tva.tv/rosing-tva-production/81f8929a7aeadce968d5_512x512c.png
 TVAL.br,TVAL,,,BR,,,c/BR,por,,FALSE,,,,http://agenciaal.alesc.sc.gov.br/index.php/tval,https://www.lyngsat.com/logo/tv/tt/tval-br.png
 TVAlBayane.ci,TV Al Bayane,,,CI,,,c/CI,fra,,FALSE,,,,http://albayane.ci/,https://service.canal-overseas.com/image-api/v1/image/050f8bebb30dee71145a6fe52266b2f8
 TVALERJ.br,TV ALERJ,,,BR,,,c/BR,por,,FALSE,,,,http://www.alerj.rj.gov.br/,https://www.lyngsat.com/logo/tv/tt/tv_alerj_br.png
@@ -23209,9 +23209,9 @@ UnitelLaPaz.bo,Unitel La Paz,,,BO,,,c/BO,spa,,FALSE,,,,https://unitel.bo/,https:
 UnitelSantaCruz.bo,Unitel Santa Cruz,,,BO,,,c/BO,spa,,FALSE,,,,https://unitel.bo/,https://cdn.mitvstatic.com/channels/pe_unitel_m.png
 UniTV.ca,UnisTV,,,CA,,,c/CA,fra,,FALSE,,,,,https://myhealthhub.frontline.ca/myhealthhubtv/channellogos/UNIS.png
 UniTVPortoAlegre.br,UniTV Porto Alegre,,,BR,,,c/BR,por,education,FALSE,,,,,https://i.imgur.com/GmA5uuk.png
-UniversalKids.us,Universal Kids,,,US,,,c/US,eng,,FALSE,2005-09-26,,,,https://cdn.tvpassport.com/image/station/100x100/universalkids.png
-UniversalKidsEast.us,Universal Kids East,,,US,,,c/US,eng,,FALSE,,,,https://www.universalkids.com/,https://www.directv.com/images/logos/channels/dark/large/150.png
-UniversalKidsWest.us,Universal Kids West,,,US,,,c/US,eng,,FALSE,,,,https://www.universalkids.com/,https://www.lyngsat.com/logo/tv/uu/universal-kids-us.png
+UniversalKids.us,Universal Kids,,,US,,,c/US,eng,kids,FALSE,2005-09-26,,,,https://cdn.tvpassport.com/image/station/100x100/universalkids.png
+UniversalKidsEast.us,Universal Kids East,,,US,,,c/US,eng,kids,FALSE,,,,https://www.universalkids.com/,https://www.directv.com/images/logos/channels/dark/large/150.png
+UniversalKidsWest.us,Universal Kids West,,,US,,,c/US,eng,kids,FALSE,,,,https://www.universalkids.com/,https://www.lyngsat.com/logo/tv/uu/universal-kids-us.png
 UniversalLivingFaithNetwork.us,Universal Living Faith Network,,,US,,,c/US,eng,,FALSE,,,,https://ulfn.org/,https://www.directv.com/images/logos/channels/dark/large/255.png
 UniversalTV.uk,Universal TV,,,UK,,,c/UK,som,,FALSE,,2015-05-01,,https://universaltvsomali.net/,https://www.lyngsat.com/logo/tv/uu/universal_somali_tv.png
 UniversalTVAfrica.us,Universal TV Africa,,,US,,,c/US,eng,,FALSE,,,,http://www.universaltv.co.za/,https://rndcdn.dstv.com/dstvcms/2018/10/08/UniversalTV_logo_43_003_xlrg.png
@@ -23566,7 +23566,7 @@ Vizyon58TV.tr,Vizyon 58 TV,,,TR,,,c/TR,tur,,FALSE,,,,,
 VlaamsParlementTV.be,Vlaams Parlement TV,,,BE,,,c/BE,nld,,FALSE,,,,https://www.vlaamsparlement.be/nl/tv,https://experience-cache.proximustv.be/posterserver/poster/DEFAULT/w-250_h-162/t_1102_001.png
 Vlending.kr,Vlending,,,KR,,,c/KR,kor,,FALSE,,,,https://www.vlending.kr/,https://i.imgur.com/bycwH6W.png
 Vme.us,V me,,,US,,,c/US,spa,,FALSE,,,,http://www.vmetv.com/,https://www.directv.com/images/logos/channels/dark/large/795.png
-VmeKids.us,Vme Kids,,,US,,,c/US,spa,,FALSE,2010-09-01,,,http://www.vmekids.com/,https://upload.wikimedia.org/wikipedia/en/9/9d/Vme_Kids_Logo.png
+VmeKids.us,Vme Kids,,,US,,,c/US,spa,kids,FALSE,2010-09-01,,,http://www.vmekids.com/,https://upload.wikimedia.org/wikipedia/en/9/9d/Vme_Kids_Logo.png
 VmesteRF.ru,Vmeste RF,,,RU,,,c/RU,rus,,FALSE,,,,https://vmeste-rf.tv/,https://avatars.mds.yandex.net/get-tv-channel-logos/1656757/2a000001703efa3b743e4fd720ec96375736/170x100
 Vmirezhivotnykh.ru,V mire zhivotnykh,,,RU,,,c/RU,rus,,FALSE,,,,http://www.animalfamily.tv/,https://avatars.mds.yandex.net/get-tv-channel-logos/30303/2a00000160985cdc27f579fe325bca50071f/160x120
 VMLatino.cr,VM Latino,,,CR,,,c/CR,spa,music,FALSE,,,,,https://www.m3u.cl/logo/1062_Canal_VM_Latino.png
@@ -23680,7 +23680,7 @@ VTM2.be,VTM 2,,,BE,,,c/BE,nld,,FALSE,1995-01-31,,,https://vtm.be/,https://images
 VTM3.be,VTM 3,,,BE,,,c/BE,nld,,FALSE,2000-08-25,,,https://vtm.be/,https://images4.persgroep.net/rcs/dRviNhv21jm7qXNOhaH6TLclRng/diocontent/174554019/_fitwidth/500?appId=da11c75db9b73ea0f41f0cd0da631c71
 VTM4.be,VTM 4,,,BE,,,c/BE,nld,,FALSE,,,,https://vtm.be/,https://images2.persgroep.net/rcs/7iJl15QWIYDfJlXb5QPuOIWzRxw/diocontent/174554018/_fitwidth/500?appId=da11c75db9b73ea0f41f0cd0da631c71
 VTMGold.be,VTM Gold,,,BE,,,c/BE,nld,,FALSE,,,,https://vtm.be/,https://images2.persgroep.net/rcs/eWRwrR_W6xFfk-UlI9Xxd4goCd0/diocontent/200039101/_fitwidth/500?appId=da11c75db9b73ea0f41f0cd0da631c71
-VTMKids.be,VTM Kids,,,BE,,,c/BE,nld,,FALSE,2009-10-01,,,https://vtmkids.be/,https://images4.persgroep.net/rcs/PfpgPxsqOUwUp2Jt8UW3bM63o2c/diocontent/137970826/_fitwidth/500?appId=da11c75db9b73ea0f41f0cd0da631c71
+VTMKids.be,VTM Kids,,,BE,,,c/BE,nld,kids,FALSE,2009-10-01,,,https://vtmkids.be/,https://images4.persgroep.net/rcs/PfpgPxsqOUwUp2Jt8UW3bM63o2c/diocontent/137970826/_fitwidth/500?appId=da11c75db9b73ea0f41f0cd0da631c71
 VTU.in,VTU,,,IN,,,c/IN,hin,,FALSE,,,,http://elearning.vtu.ac.in/,https://www.lyngsat.com/logo/tv/vv/vtu.png
 VTV.ar,VTV,,,AR,,,c/AR,spa,,FALSE,,,,,https://graph.facebook.com/vertvgs/picture?width=320&height=320
 VTV.by,VTV,,,BY,,,c/BY,rus,,FALSE,,,,http://www.v-tv.by/,https://www.lyngsat.com/logo/tv/vv/vtv-by.png

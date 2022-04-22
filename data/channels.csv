@@ -2259,7 +2259,7 @@ BeritaSatuNewsChannel.id,Berita Satu News Channel,,,ID,,,c/ID,ind,news,FALSE,,,,
 BeritaSatuWorld.id,Berita Satu World,,,ID,,,c/ID,ind;eng,news,FALSE,,,,,https://i.imgur.com/GIGcX5K.png
 BerkahShopTV.id,Berkah Shop TV,,,ID,,,c/ID,ind,shop,FALSE,,,,https://berkahshopping.com/,https://www.lyngsat.com/logo/tv/bb/berkah-shop-tv-id.png
 BernamaTV.my,Bernama TV,,,MY,,,c/MY,msa,,FALSE,,,,https://www.bernama.com/,https://astrocontent.s3.amazonaws.com/Images/ChannelLogo/Pos/502_300.png
-BeSeries.be,Be Séries,,,BE,,,c/BE,fra,,FALSE,,,,,https://upload.wikimedia.org/wikipedia/fr/thumb/b/bc/Be_S%C3%A9ries_logo.png/512px-Be_S%C3%A9ries_logo.png
+BeSeries.be,Be Séries,,,BE,,,c/BE,fra,series,FALSE,,,,,https://upload.wikimedia.org/wikipedia/fr/thumb/b/bc/Be_S%C3%A9ries_logo.png/512px-Be_S%C3%A9ries_logo.png
 BesiktasWebTV.tr,Besiktas Web TV,,,TR,,,c/TR,tur,,FALSE,,,,,https://i.ibb.co/bRhnM6W/qti5aea.png
 Besma.sa,Besma,,,SA,,,c/SA,ara,,FALSE,,,,https://almajdtv.com/,https://www.lyngsat.com/logo/tv/aa/al_majd_sa_besmah.png
 Besmart.id,Besmart,,,ID,,,c/ID,ind,,FALSE,,,,https://mncvision.id/,https://www.mncvision.id/userfiles/image/channel/channel_112.png
@@ -3085,8 +3085,8 @@ CanalPlusPremium.pl,Canal + Premium,,,PL,,,c/PL,pol,,FALSE,,,,https://pl.canalpl
 CanalPlusPuTuTue.fr,Canal + Pu Tu Tue,,,FR,,,c/FR,mya,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/canal-plus-pututue-myanmar-fr-mm.png
 CanalPlusReunion.fr,Canal + Réunion,,,FR,,,c/FR,fra,,FALSE,,,,http://www.canalplus-reunion.com/,https://service.canal-overseas.com/image-api/v1/image/702e588188caa19c38c438d14bfc8870
 CanalPlusSeriale.pl,Canal + Seriale,,,PL,,,c/PL,pol,,FALSE,,,,https://pl.canalplus.com/,https://ocdn.eu/ptv2-images-transforms/1/d_Lkr9sb2dvLW1pZ3JhdGVkL2NhbmFsLXNlcmlhbGUucG5nkpUCZADCw5UCACjCww
-CanalPlusSeriesFrance.fr,Canal + Séries France,,,FR,,,c/FR,fra,,FALSE,,,,https://www.canalplus.com/series/,https://service.canal-overseas.com/image-api/v1/image/31db6fcee75e0e591f451635620e409b
-CanalPlusSeriesReunion.fr,Canal + Séries Réunion,,,FR,,,c/FR,fra,,FALSE,,,,https://www.canalplus.com/series/,https://service.canal-overseas.com/image-api/v1/image/31db6fcee75e0e591f451635620e409b
+CanalPlusSeriesFrance.fr,Canal + Séries France,,,FR,,,c/FR,fra,series,FALSE,,,,https://www.canalplus.com/series/,https://service.canal-overseas.com/image-api/v1/image/31db6fcee75e0e591f451635620e409b
+CanalPlusSeriesReunion.fr,Canal + Séries Réunion,,,FR,,,c/FR,fra,series,FALSE,,,,https://www.canalplus.com/series/,https://service.canal-overseas.com/image-api/v1/image/31db6fcee75e0e591f451635620e409b
 CanalPlusSport1.fr,Canal + Sport 1,,,FR,,,c/FR,fra,sports,FALSE,,,,https://www.mycanal.fr/sport/,https://service.canal-overseas.com/image-api/v1/image/0196a023576a7e11cb863b3b1d2d0f4d
 CanalPlusSport2.fr,Canal + Sport 2,,,FR,,,c/FR,fra,sports,FALSE,,,,https://www.mycanal.fr/sport/,https://service.canal-overseas.com/image-api/v1/image/2eceae315d2dfe9647b190d4bc9d5a7f
 CanalPlusSport2Poland.pl,Canal + Sport 2 Poland,,,PL,,,c/PL,pol,sports,FALSE,,,,https://tv.pl.canalplus.com/sport/oferta-sportowa,https://ocdn.eu/ptv2-images-transforms/1/oFAkr9sb2dvLW1pZ3JhdGVkL2NhbmFsLXNwb3J0LTIucG5nkpUCZADCw5UCACjCww
@@ -18957,7 +18957,7 @@ Seri.my,Seri,,,MY,,,c/MY,msa,,FALSE,,,,https://www.siriusmalaysia.tv/,https://ww
 SerialUHD.ru,Serial UHD,,,RU,,,c/RU,rus,series,FALSE,,,,https://www.tricolor.tv/channels/serial-uhd/,https://i.imgur.com/iVtblN2.png
 SerieClub.fr,Série Club,,,FR,,,c/FR,fra,,FALSE,,,,https://pro.m6.fr/serieclub/,https://proxymedia.woopic.com/api/v1/images/553%2Flogos%2Fv2%2Flogos%2Flivetv_serie_club%2F20170405_200000%2FwebTVLogo%2Flogo_180x96.png
 SeriesconN.us,Series con Ñ,,,US,,,c/US,eng,series,FALSE,,,,https://pluto.tv/en/live-tv/series-con-n,https://images.pluto.tv/channels/60fb3087fbbc120007fc46be/colorLogoPNG.png
-SeriesPlus.ca,Séries Plus,,,CA,,,c/CA,fra,,FALSE,,,,https://www.seriesplus.com/,https://cdn.tvpassport.com/image/station/100x100/seriesplus.png
+SeriesPlus.ca,Séries Plus,,,CA,,,c/CA,fra,series,FALSE,,,,https://www.seriesplus.com/,https://cdn.tvpassport.com/image/station/100x100/seriesplus.png
 SeriesPlusHD.th,Series + HD,,,TH,,,c/TH,tha,series,FALSE,,,,http://www.ipmtv.tv/,https://www.lyngsat.com/logo/tv/ii/ipm_series_plus_hd.png
 SerieTeenItaly.us,Serie Teen Italy,,,US,,,c/IT,ita,series,FALSE,,,,https://pluto.tv/en/live-tv/serie-teen-it,https://images.pluto.tv/channels/60940639add5910008c0cdd1/colorLogoPNG.png
 SERTV.pa,SER TV,,,PA,,,c/PA,spa,,FALSE,,,,https://sertv.gob.pa/,https://www.lyngsat.com/logo/tv/ss/ser_tv_pa.png

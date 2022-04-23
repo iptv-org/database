@@ -153,7 +153,7 @@ id,name,native_name,network,country,subdivision,city,broadcast_area,languages,ca
 51RadioTV.it,51 Radio TV,,,IT,,,c/IT,ita,,FALSE,,,,,https://www.51news.it/images/loghi/logo_tv_radio_51news.png
 54UnityTV.th,54 Unity TV,,,TH,,,c/TH,tha,,FALSE,,,,,https://www.lyngsat.com/logo/tv/uu/unity_tv_54_th.png
 5AABTV.ca,5AAB TV,,,CA,,,c/CA,eng,,FALSE,,,,,https://i.imgur.com/k9M5ydW.png
-5Action.uk,5 Action,,,UK,,,c/UK,eng,entertainment,FALSE,,,,,
+5Action.uk,5 Action,,,UK,,,c/UK,eng,entertainment,FALSE,2022-01-19,,,http://www.channel5.com/channels/5action,https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/5Action_logo.svg/512px-5Action_logo.svg.png
 5BuildingBritainUK.us,5 Building Britain UK,,,US,,,c/UK,eng,documentary,FALSE,,,,https://pluto.tv/en/live-tv/5-building-britain-gb,https://images.pluto.tv/channels/5ddf901280e3550009139c86/colorLogoPNG.png
 5CopsUK.us,5 Cops UK,,,US,,,c/UK,eng,documentary,FALSE,,,,https://pluto.tv/en/live-tv/5-cops-gb,https://images.pluto.tv/channels/5d2c571faeb3e2738ae27933/colorLogoPNG.png
 5CruisingwithJaneMcDonaldUK.us,5 Cruising with Jane McDonald UK,,,US,,,c/UK,eng,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/5-cruising-with-jane-mcdonald-gb,https://images.pluto.tv/channels/6152da8b32a1450008391e85/colorLogoPNG.png
@@ -1798,67 +1798,71 @@ BalkanMusicTV.mk,Balkan Music TV,,,MK,,,c/MK,mkd,music,FALSE,,,,,https://prd-sta
 BalkanTrip.rs,Balkan Trip,,,RS,,,c/RS,srp,,FALSE,,,,http://balkantrip.tv/,https://mts.rs/oec/images/tv_channels/89a961e1c5716bb4dcbbc5e5ba639243.jpg
 BalkanTV.rs,Balkan TV,,,RS,,,c/RS,srp,,FALSE,,,,,https://mts.rs/oec/images/tv_channels/c5fc48342bcbfb8aad4d046f4b4d9a36.png
 BalleBalle.in,Balle Balle,,,IN,,,c/IN,hin,,FALSE,,,,https://balleballe.tv/,https://i.imgur.com/ZhDlzTA.png
-BallySportsArizona.us,Bally Sports Arizona,,,US,,,c/US,eng,sports,FALSE,1996-09-07,,,https://www.foxsports.com/arizona,https://cdn.tvpassport.com/image/station/100x100/ballysports-az.png
-BallySportsArizonaAlternate.us,Bally Sports Arizona Alternate,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/arizona,https://www.lyngsat.com/logo/tv/bb/bally-sports-arizona-us.png
-BallySportsArizonaExtra.us,Bally Sports Arizona Extra,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports-azx.png
-BallySportsArizonaNorthernNewMexico.us,Bally Sports Arizona Northern New Mexico,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports-az.png
-BallySportsArizonaPlus.us,Bally Sports Arizona+,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports-azplus.png
-BallySportsDetroit.us,Bally Sports Detroit,,,US,,,c/US,eng,sports,FALSE,1997-09-17,,,https://www.foxsports.com/detroit,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsDetroitPlus.us,Bally Sports Detroit+,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsFlorida.us,Bally Sports Florida,,,US,,,c/US,eng,sports,FALSE,1987-12-29,,,https://www.foxsports.com/florida,https://www.lyngsat.com/logo/tv/bb/bally-sports-florida-us.png
-BallySportsFlorida1.us,Bally Sports Florida 1,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports-florida.png
-BallySportsFlorida2.us,Bally Sports Florida 2,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports-florida.png
-BallySportsFloridaAlternate.us,Bally Sports Florida Alternate,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/florida,https://www.lyngsat.com/logo/tv/bb/bally-sports-florida-us.png
-BallySportsFloridaPlus.us,Bally Sports Florida Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/florida,https://www.lyngsat.com/logo/tv/bb/bally-sports-florida-us.png
-BallySportsGreatLakes.us,Bally Sports Great Lakes,,,US,,,c/US,eng,sports,FALSE,2006-03-12,,,https://www.foxsports.com/ohio,https://cdn.tvpassport.com/image/station/100x100/ballysports-greatlakes.png
-BallySportsIndiana.us,Bally Sports Indiana,,,US,,,c/US,eng,sports,FALSE,2006-11-01,,,https://www.foxsports.com/indiana,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsKansasCity.us,Bally Sports Kansas City,,,US,,,c/US,eng,sports,FALSE,2008-03-31,,,https://www.foxsports.com/kansas-city,https://www.lyngsat.com/logo/tv/bb/bally-sports-kansas-city-us.png
-BallySportsMidwest.us,Bally Sports Midwest,,,US,,,c/US,eng,sports,FALSE,1989-11-01,,,https://www.foxsports.com/midwest,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsMidwestAlternate.us,Bally Sports Midwest Alternate,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/midwest,https://www.lyngsat.com/logo/tv/bb/bally-sports-midwest-us.png
-BallySportsMidwestKansasCity.us,Bally Sports Midwest Kansas City,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsMidwestKansasState.us,Bally Sports Midwest Kansas State,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsMidwestNebraska.us,Bally Sports Midwest Nebraska,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsMidwestPlus.us,Bally Sports Midwest Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/midwest,https://www.lyngsat.com/logo/tv/bb/bally-sports-midwest-us.png
-BallySportsMidwestPlusStLouis.us,Bally Sports Midwest+ St Louis,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsMidwestStLouis.us,Bally Sports Midwest St Louis,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsNetbase.us,Bally Sports Netbase,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/,https://www.lyngsat.com/logo/tv/bb/bally-sports-us.png
-BallySportsNewOrleans.us,Bally Sports New Orleans,,,US,,,c/US,eng,sports,FALSE,2012-10-31,,,https://www.foxsports.com/southwest,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsNorth.us,Bally Sports North,,,US,,,c/US,eng,sports,FALSE,1989-03-01,,,https://www.foxsports.com/north,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsNorthMinnesota.us,Bally Sports North Minnesota,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/north,https://www.lyngsat.com/logo/tv/bb/bally-sports-us.png
-BallySportsNorthPlus.us,Bally Sports North+,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsOhio.us,Bally Sports Ohio,,,US,,,c/US,eng,sports,FALSE,1989-02-09,,,https://www.foxsports.com/ohio,https://cdn.tvpassport.com/image/station/100x100/ballysports-ohio.png
-BallySportsOhioCincinnati.us,Bally Sports Ohio Cincinnati,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/ohio,https://www.lyngsat.com/logo/tv/bb/bally-sports-ohio-us.png
-BallySportsOhioCincinnatiPlus.us,Bally Sports Ohio Cincinnati Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/ohio,https://www.lyngsat.com/logo/tv/bb/bally-sports-ohio-us.png
-BallySportsOhioCleveland.us,Bally Sports Ohio Cleveland,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/ohio,https://www.lyngsat.com/logo/tv/bb/bally-sports-ohio-us.png
-BallySportsOhioPlus.us,Bally Sports Ohio+,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports-ohio.png
-BallySportsOklahoma.us,Bally Sports Oklahoma,,,US,,,c/US,eng,sports,FALSE,2008-10-29,,,https://www.foxsports.com/southwest,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSanDiego.us,Bally Sports San Diego,,,US,,,c/US,eng,sports,FALSE,2012-03-17,,,https://www.foxsports.com/san-diego,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSanDiegoPlus.us,Bally Sports San Diego Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/san-diego,https://www.lyngsat.com/logo/tv/bb/bally-sports-san-diego-us.png
-BallySportsSoCal.us,Bally Sports SoCal,,,US,,,c/US,eng,sports,FALSE,1997-01-27,,,https://www.foxsports.com/west,https://cdn.tvpassport.com/image/station/100x100/ballysports-socal.png
-BallySportsSoCalPlus.us,Bally Sports SoCal Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/west,https://www.lyngsat.com/logo/tv/bb/bally-sports-socal-us.png
-BallySportsSouth.us,Bally Sports South,,,US,,,c/US,eng,sports,FALSE,1990-08-29,,,https://www.foxsports.com/south,https://www.lyngsat.com/logo/tv/bb/bally-sports-south-us.png
-BallySportsSouthCarolinas.us,Bally Sports South Carolinas,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSoutheast.us,Bally Sports Southeast,,,US,,,c/US,eng,sports,FALSE,2006-10-13,,,https://www.foxsports.com/south,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSoutheastGeorgia.us,Bally Sports Southeast Georgia,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSoutheastNashville.us,Bally Sports Southeast Nashville,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSoutheastNorthCarolina.us,Bally Sports Southeast North Carolina,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSoutheastSouthCarolina.us,Bally Sports Southeast South Carolina,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSoutheastTennessee.us,Bally Sports Southeast Tennessee,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSoutheastTennesseeEast.us,Bally Sports Southeast Tennessee East,,,US,,,c/US,eng,sports,FALSE,,,,,
-BallySportsSouthNashville.us,Bally Sports South Nashville,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSouthwest.us,Bally Sports Southwest,,,US,,,c/US,eng,sports,FALSE,1983-01-04,,,https://www.foxsports.com/southwest,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSouthwestAlternate.us,Bally Sports Southwest Alternate,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/southwest,https://www.lyngsat.com/logo/tv/bb/bally-sports-southwest-us.png
-BallySportsSouthwestDallas.us,Bally Sports Southwest Dallas,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSouthwestHouston.us,Bally Sports Southwest Houston,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSouthwestOklahoma2.us,Bally Sports Southwest Oklahoma 2,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSouthwestPlus.us,Bally Sports Southwest Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/southwest,https://www.lyngsat.com/logo/tv/bb/bally-sports-southwest-us.png
-BallySportsSouthwestSanAntonio.us,Bally Sports Southwest San Antonio,,,US,,,c/US,eng,sports,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsSun.us,Bally Sports Sun,,,US,,,c/US,eng,sports,FALSE,1988-03-04,,,https://www.foxsports.com/florida,https://www.lyngsat.com/logo/tv/bb/bally-sports-sun-us.png
-BallySportsSunPlus.us,Bally Sports Sun Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/florida,https://www.lyngsat.com/logo/tv/bb/bally-sports-sun-us.png
-BallySportsWest.us,Bally Sports West,,,US,,,c/US,eng,sports,FALSE,1985-10-19,,,https://www.foxsports.com/west,https://cdn.tvpassport.com/image/station/100x100/ballysports-west.png
-BallySportsWestPlus.us,Bally Sports West Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/west,https://www.lyngsat.com/logo/tv/bb/bally-sports-west-us.png
-BallySportsWisconsin.us,Bally Sports Wisconsin,,,US,,,c/US,eng,sports,FALSE,2007-04-01,,,https://www.foxsports.com/wisconsin,https://cdn.tvpassport.com/image/station/100x100/ballysports.png
-BallySportsWisconsinPlus.us,Bally Sports Wisconsin Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.foxsports.com/wisconsin,https://www.lyngsat.com/logo/tv/bb/bally-sports-wisconsin-us.png
+BallySportsArizona.us,Bally Sports Arizona,,,US,,,c/US,eng,sports,FALSE,1996-09-07,,,https://www.ballysports.com/arizona/,https://upload.wikimedia.org/wikipedia/en/b/be/Bally_Sports_Arizona_logo.png
+BallySportsArizonaExtra.us,Bally Sports Arizona Extra,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/arizona/,https://i.imgur.com/nHukFdP.png
+BallySportsArizonaPlus.us,Bally Sports Arizona Plus,,,US,,,c/US,eng,sports,FALSE,2008-04-25,,,https://www.ballysports.com/arizona/,https://i.imgur.com/T8pfm9g.png
+BallySportsDetroit.us,Bally Sports Detroit,,,US,,,c/US,eng,sports,FALSE,1997-09-17,,,http://www.ballysports.com/detroit,https://i.imgur.com/gVpWNc3.png
+BallySportsDetroitPlus.us,Bally Sports Detroit Plus,,,US,,,c/US,eng,sports,FALSE,2007-01-01,,,http://www.ballysports.com/detroit,https://i.imgur.com/yKzIAI4.png
+BallySportsFlorida.us,Bally Sports Florida,,,US,,,c/US,eng,sports,FALSE,1987-12-29,,,https://www.ballysports.com/florida-sun/,https://i.imgur.com/V1XSgDr.png
+BallySportsFloridaPlus.us,Bally Sports Florida Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/florida-sun/,https://i.imgur.com/MjiG9UE.png
+BallySportsGreatLakes.us,Bally Sports Great Lakes,,,US,,,c/US,eng,sports,FALSE,2006-03-12,,,https://www.ballysports.com/ohio-greatlakes/,https://i.imgur.com/IJKo2Jt.png
+BallySportsIndiana.us,Bally Sports Indiana,,,US,,,c/US,eng,sports,FALSE,2006-11-01,,,https://www.ballysports.com/indiana/,https://i.imgur.com/Sn3rcjP.png
+BallySportsIndianaPlus.us,Bally Sports Indiana Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/indiana/,https://i.imgur.com/35Y585h.png
+BallySportsKansasCity.us,Bally Sports Kansas City,,,US,,,c/US,eng,sports,FALSE,2008-03-31,,,https://www.ballysports.com/kansas-city/,https://i.imgur.com/RKM4iKv.png
+BallySportsKansasCityPlus.us,Bally Sports Kansas City Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/kansas-city/,https://i.imgur.com/BjxESsw.png
+BallySportsMidwest.us,Bally Sports Midwest,,,US,,,c/US,eng,sports,FALSE,1989-11-01,,,https://www.ballysports.com/midwest/,https://i.imgur.com/0k1Y11G.png
+BallySportsMidwestCentralDownstateIllinois.us,Bally Sports Midwest Central & Downstate Illinois,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/midwest/,https://i.imgur.com/0k1Y11G.png
+BallySportsMidwestIowa.us,Bally Sports Midwest Iowa,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/midwest/,https://i.imgur.com/0k1Y11G.png
+BallySportsMidwestNebraska.us,Bally Sports Midwest Nebraska,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/midwest/,https://i.imgur.com/0k1Y11G.png
+BallySportsMidwestPlus.us,Bally Sports Midwest Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/midwest/,https://i.imgur.com/g7AezNk.png
+BallySportsMidwestSoutheastMissouri.us,Bally Sports Midwest Southeast Missouri,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/midwest/,https://i.imgur.com/0k1Y11G.png
+BallySportsMidwestSouthwestMidMissouri.us,Bally Sports Midwest Southwest & Mid-Missouri	,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/midwest/,https://i.imgur.com/0k1Y11G.png
+BallySportsMidwestStLouis.us,Bally Sports Midwest St Louis,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/midwest/,https://i.imgur.com/0k1Y11G.png
+BallySportsNewOrleans.us,Bally Sports New Orleans,,,US,,,c/US,eng,sports,FALSE,2012-10-31,,,https://www.ballysports.com/southwest/,https://i.imgur.com/aSxG4AL.png
+BallySportsNewOrleansPlus.us,Bally Sports New Orleans Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/southwest/,https://i.imgur.com/jh3RFwp.png
+BallySportsNorth.us,Bally Sports North,,,US,,,c/US,eng,sports,FALSE,1989-03-01,,,http://ballysports.com/north,https://i.imgur.com/st7BNkn.png
+BallySportsNorthExtra.us,Bally Sports North Extra,,,US,,,c/US,eng,sports,FALSE,,,,http://ballysports.com/north,https://i.imgur.com/uXQODir.png
+BallySportsNorthPlus.us,Bally Sports North Plus,,,US,,,c/US,eng,sports,FALSE,,,,http://ballysports.com/north,https://i.imgur.com/0bRnotE.png
+BallySportsOhio.us,Bally Sports Ohio,,,US,,,c/US,eng,sports,FALSE,1989-02-09,,,https://www.ballysports.com/ohio-greatlakes,https://i.imgur.com/7SLneBF.png
+BallySportsOhioCincinnati.us,Bally Sports Ohio Cincinnati,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/ohio-greatlakes,https://i.imgur.com/7SLneBF.png
+BallySportsOhioCleveland.us,Bally Sports Ohio Cleveland,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/ohio-greatlakes,https://i.imgur.com/7SLneBF.png
+BallySportsOhioPlus.us,Bally Sports Ohio Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/ohio-greatlakes,https://i.imgur.com/bQ2SYrt.png
+BallySportsOklahoma.us,Bally Sports Oklahoma,,,US,,,c/US,eng,sports,FALSE,2008-10-29,,,https://www.ballysports.com/southwest/,https://i.imgur.com/1iAR96j.png
+BallySportsOklahomaPlus.us,Bally Sports Oklahoma Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/southwest/,https://i.imgur.com/MUfCsVE.png
+BallySportsSanDiego.us,Bally Sports San Diego,,,US,,,c/US,eng,sports,FALSE,2012-03-17,,,https://www.ballysports.com/san-diego/,https://i.imgur.com/zQ2mTxA.png
+BallySportsSanDiegoPlus.us,Bally Sports San Diego Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/san-diego/,https://i.imgur.com/EGXaoel.png
+BallySportsSoCal.us,Bally Sports SoCal,,,US,,,c/US,eng,sports,FALSE,1997-01-27,,,https://www.ballysports.com/west-socal/,https://i.imgur.com/02alPOX.png
+BallySportsSoCalPlus.us,Bally Sports SoCal Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/west-socal/,https://i.imgur.com/J80y1dA.png
+BallySportsSouth.us,Bally Sports South,,,US,,,c/US,eng,sports,FALSE,1990-08-29,,,https://www.ballysports.com/south/,https://i.imgur.com/HE0h13u.png
+BallySportsSouthAlabama.us,Bally Sports South Alabama,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/HE0h13u.png
+BallySportsSoutheast.us,Bally Sports Southeast,,,US,,,c/US,eng,sports,FALSE,2006-10-13,,,https://www.ballysports.com/south/,https://i.imgur.com/u1aehLm.png
+BallySportsSoutheastAlabama.us,Bally Sports Southeast Alabama,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/u1aehLm.png
+BallySportsSoutheastGeorgia.us,Bally Sports Southeast Georgia,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/u1aehLm.png
+BallySportsSoutheastKentucky.us,Bally Sports Southeast Kentucky,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/u1aehLm.png
+BallySportsSoutheastMississippi.us,Bally Sports Southeast Mississippi,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/u1aehLm.png
+BallySportsSoutheastNorthCarolina.us,Bally Sports Southeast North Carolina,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/u1aehLm.png
+BallySportsSoutheastPlus.us,Bally Sports Southeast Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/Bsgt2m6.png
+BallySportsSoutheastSouthCarolina.us,Bally Sports Southeast South Carolina,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/u1aehLm.png
+BallySportsSoutheastTennessee.us,Bally Sports Southeast Tennessee,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/u1aehLm.png
+BallySportsSouthGeorgia.us,Bally Sports South Georgia,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/HE0h13u.png
+BallySportsSouthKentucky.us,Bally Sports South Kentucky,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/HE0h13u.png
+BallySportsSouthMississippi.us,Bally Sports South Mississippi,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/HE0h13u.png
+BallySportsSouthNorthCarolinas.us,Bally Sports South North Carolinas,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/HE0h13u.png
+BallySportsSouthPlus.us,Bally Sports South Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/kD4PYYB.png
+BallySportsSouthSouthCarolinas.us,Bally Sports South South Carolinas,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/HE0h13u.png
+BallySportsSouthTennessee.us,Bally Sports South Tennessee,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/south/,https://i.imgur.com/HE0h13u.png
+BallySportsSouthwest.us,Bally Sports Southwest,,,US,,,c/US,eng,sports,FALSE,1983-01-04,,,https://www.ballysports.com/southwest/,https://i.imgur.com/zsQOT6O.png
+BallySportsSouthwestArkansas.us,Bally Sports Southwest Arkansas,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/southwest/,https://i.imgur.com/zsQOT6O.png
+BallySportsSouthwestDallasFortWorth.us,Bally Sports Southwest Dallas Fort Worth,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/southwest/,https://i.imgur.com/zsQOT6O.png
+BallySportsSouthwestHouston.us,Bally Sports Southwest Houston,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/southwest/,https://i.imgur.com/zsQOT6O.png
+BallySportsSouthwestPlus.us,Bally Sports Southwest Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/southwest/,https://i.imgur.com/DfwFcLK.png
+BallySportsSouthwestSanAntonio.us,Bally Sports Southwest San Antonio,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/southwest/,https://i.imgur.com/zsQOT6O.png
+BallySportsSun.us,Bally Sports Sun,,,US,,,c/US,eng,sports,FALSE,1988-03-04,,,https://www.ballysports.com/florida-sun/,https://i.imgur.com/KGCvUre.png
+BallySportsSunPlus.us,Bally Sports Sun Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/florida-sun/,https://i.imgur.com/pjNEx6D.png
+BallySportsWest.us,Bally Sports West,,,US,,,c/US,eng,sports,FALSE,1985-10-19,,,https://www.ballysports.com/west-socal/,https://i.imgur.com/6cWtNFs.png
+BallySportsWestPlus.us,Bally Sports West Plus,,,US,,,c/US,eng,sports,FALSE,,,,https://www.ballysports.com/west-socal/,https://i.imgur.com/FaMVqFa.png
+BallySportsWisconsin.us,Bally Sports Wisconsin,,,US,,,c/US,eng,sports,FALSE,2007-04-01,,,http://ballysports.com/wisconsin,https://i.imgur.com/zoBPRT0.png
+BallySportsWisconsinPlus.us,Bally Sports Wisconsin Plus,,,US,,,c/US,eng,sports,FALSE,,,,http://ballysports.com/wisconsin,https://i.imgur.com/v5Z5LSY.png
 BaltaTV.ua,Balta TV,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,,
 BaltijosTV.lt,Baltijos TV,,,LT,,,c/LT,lit,,FALSE,,,,http://www.btv.lt/,https://www.lyngsat.com/logo/tv/bb/baltijos-tv-lt.png
 BaltiTV.md,Balti TV,,,MD,,,c/MD,rus,,FALSE,,,,,https://btv.md/wp-content/uploads/2018/11/BTV.png
@@ -1894,8 +1898,8 @@ BangkokChannel.th,Bangkok Channel,,,TH,,,c/TH,tha,,FALSE,,,,,https://www.lyngsat
 BanglaTalkies.in,Bangla Talkies,,,IN,,,c/IN,ben,,FALSE,2018-11-21,,,,https://www.lyngsat.com/logo/tv/bb/bangla-talkies.png
 BanglaTV.bd,Bangla TV,,,BD,,,c/BD,ben,,FALSE,,,,https://banglatv.tv/,https://www.lyngsat.com/logo/tv/bb/bangla-tv-bd.png
 BanglaVision.bd,Bangla Vision,,,BD,,,c/BD,ben,general,FALSE,,,,https://www.bvnews24.com/,https://i.imgur.com/doJuPjL.png
-BangU.us,Bang U,,,US,,,c/US,eng,,FALSE,,,,,https://www.directv.com/images/logos/channels/dark/large/458.png
-BangUXX5.us,Bang U XX.5,,,US,,,c/US,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/bb/bang_u_us.png
+BangU.us,Bang U,,,US,,,c/US,eng,xxx,TRUE,,,,,https://i.imgur.com/8B2SrKW.png
+BangUXX5.us,Bang U XX.5,,,US,,,c/US,eng,xxx,TRUE,,,,,https://www.lyngsat.com/logo/tv/bb/bang_u_us.png
 BansalNews.in,Bansal News,,,IN,,,c/IN,hin,news,FALSE,,,,https://bansalnews.com/,https://www.lyngsat.com/logo/tv/bb/bansal-news-in.png
 BantambaTV.sn,Bantamba TV,,,SN,,,c/SN,eng;fra,,FALSE,,,,https://2stv.net/category/bantambatv/,https://service.canal-overseas.com/image-api/v1/image/1ad90161b3036b27f6821fa54079371e
 Baraem.qa,Baraem,,,QA,,,c/QA,ara,kids,FALSE,2009-01-16,,,https://baraem.tv/,https://i.imgur.com/I8dVAgf.png
@@ -1956,8 +1960,8 @@ BBCFirstPoland.uk,BBC First Poland,,,UK,,,c/UK,eng,,FALSE,,,,https://www.bbcpols
 BBCFirstSouthAfrica.za,BBC First South Africa,,,ZA,,,c/ZA,eng,,FALSE,,,,http://www.bbcsouthafrica.com/channels/first/,https://www.lyngsat.com/logo/tv/bb/bbc-first-uk.png
 BBCFirstTurkey.uk,BBC First Turkey,,,UK,,,c/UK,eng,,FALSE,,,,https://www.bbcchannels.com/bbc-turkiye/kanallar/first/,https://cms.bbcturkiye.com/sites/default/files/2021-08/BBC%20Earth_mob.png
 BBCFood.us,BBC Food,,,US,,,c/US,eng,cooking,FALSE,2002-06-16,2008-12-26,,https://pluto.tv/en/live-tv/bbc-food,https://images.pluto.tv/channels/5fb5844bf5514d0007945bda/colorLogoPNG.png
-BBCFour.uk,BBC Four,,,UK,,,c/UK,eng,,FALSE,2002-03-02,,,http://www.bbc.co.uk/bbcfour/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/bbcfour.png
-BBCFourHD.uk,BBC Four HD,,,UK,,,c/UK,eng,,FALSE,,,,,
+BBCFour.uk,BBC Four,,,UK,,,c/UK,eng,,FALSE,2002-03-02,,,http://www.bbc.co.uk/bbcfour/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/512px-BBC_Four_logo_2021.svg.png
+BBCFourHD.uk,BBC Four HD,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcfour/,https://upload.wikimedia.org/wikipedia/en/thumb/5/58/BBC_Four_HD_Logo.svg/512px-BBC_Four_HD_Logo.svg.png
 BBCHD.uk,BBC HD,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbchd.com/,https://www.lyngsat.com/logo/tv/bb/bbc_hd_uk.png
 BBCHome.us,BBC Home,,,US,,,c/US,eng,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/bbc-home,https://images.pluto.tv/channels/5fb5836fe745b600070fc743/colorLogoPNG.png
 BBCKids.us,BBC Kids,,,US,,,c/US,eng,kids,FALSE,,,,https://pluto.tv/en/live-tv/bbc-kids,https://images.pluto.tv/channels/60fb00b4b6455d0007493b0b/colorLogoPNG.png
@@ -1968,36 +1972,45 @@ BBCLifestylePoland.uk,BBC Lifestyle Poland,,,UK,,,c/UK,eng,lifestyle,FALSE,,,,ht
 BBCLifestyleSouthAfrica.za,BBC Lifestyle South Africa,,,ZA,,,c/ZA,eng,lifestyle,FALSE,,,,http://www.bbcsouthafrica.com/channels/lifestyle/,https://cdn.dstv.com/www.dstv.com/dstvchannels/NowLogos/BBC_Lifestyle_small.png
 BBCNews.uk,BBC News,,,UK,,,r/INT,eng,news,FALSE,,,,http://news.bbc.co.uk/,https://raw.githubusercontent.com/Tapiosinn/tv-logos/master/countries/united-kingdom/bbc-news-uk.png
 BBCNewsArabic.uk,BBC News Arabic,بي بي سي نيوز عربي,,UK,,,c/UK,eng,news,FALSE,2008-03-11,,,https://www.bbc.co.uk/arabic,https://cdn.tvpassport.com/image/station/100x100/bbc-arabic.png
-BBCOne.uk,BBC One,,,UK,,,c/UK,eng,,FALSE,1936-11-02,,,http://www.bbc.co.uk/bbcone/,https://otv-us-web.s3-us-west-2.amazonaws.com/logos/guide/2/Open/92x36_352/Source/28209/bbconehdtv.png
-BBCOneCambridge.uk,BBC One Cambridge,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCOneChannelIslands.gg,BBC One Channel Islands,,,GG,,,c/GG,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneDelay.uk,BBC One Delay,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneEast.uk,BBC One East,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCOneEastEast.uk,BBC One East East,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneEastMidlands.uk,BBC One East Midlands,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneEastWest.uk,BBC One East West,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneEastYorkshire.uk,BBC One East Yorkshire,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCOneEastYorkshireLincolnshire.uk,BBC One East Yorkshire & Lincolnshire,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneHD.uk,BBC One HD,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCOneLondon.uk,BBC One London,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://otv-us-web.s3-us-west-2.amazonaws.com/logos/guide/2/Open/92x36_352/Source/24865/bbconelondon_colordark.png
-BBCOneNorthEast.uk,BBC One North East,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCOneNorthEastCumbria.uk,BBC One North East & Cumbria,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneNorthernIreland.uk,BBC One Northern Ireland,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneNorthernIrelandHD.uk,BBC One Northern Ireland HD,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCOneNorthWest.uk,BBC One North West,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneOxford.uk,BBC One Oxford,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneScotland.uk,BBC One Scotland,,,UK,,,c/UK,eng,news,FALSE,1952-03-14,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/c/c1/BBC_One_Scotland_2021.png
-BBCOneScotlandHD.uk,BBC One Scotland HD,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCOneSouth.uk,BBC One South,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneSouthEast.uk,BBC One South East,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneSouthWest.uk,BBC One South West,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneWales.uk,BBC One Wales,,,UK,GB-WLS,,s/GB-WLS,eng,,FALSE,1964-02-09,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneWalesHD.uk,BBC One Wales HD,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCOneWest.uk,BBC One West,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneWestMidlands.uk,BBC One West Midlands,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCOneYorks.uk,BBC One Yorks,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCOneYorkshireNorthMidlands.uk,BBC One Yorkshire & North Midlands,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://www.lyngsat.com/logo/tv/bb/bbc-one-uk.png
-BBCParliament.uk,BBC Parliament,,,UK,,,c/UK,eng,legislative,FALSE,,,,https://www.bbc.co.uk/tv/bbcparliament,https://otv-us-web.s3-us-west-2.amazonaws.com/logos/guide/2/Open/92x36_352/Source/24973/bbcparliamerntchannel.png
+BBCOne.uk,BBC One,,,UK,,,c/UK,eng,general,FALSE,1936-11-02,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneCambridgeshire.uk,BBC One Cambridgeshire,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneCambridgeshireHD.uk,BBC One Cambridgeshire HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneChannelIslands.gg,BBC One Channel Islands,,,GG,,,c/GG,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneChannelIslandsHD.gg,BBC One Channel Islands HD,,,GG,,,c/GG,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneEast.uk,BBC One East,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneEastHD.uk,BBC One East HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneEastMidlands.uk,BBC One East Midlands,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneEastMidlandsHD.uk,BBC One East Midlands HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneHD.uk,BBC One HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneLondon.uk,BBC One London,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneLondonHD.uk,BBC One London HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneNorthEastCumbria.uk,BBC One North East & Cumbria,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneNorthEastCumbriaHD.uk,BBC One North East & Cumbria HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneNorthernIreland.uk,BBC One Northern Ireland,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/BBC_One_Northern_Ireland_2021.svg/512px-BBC_One_Northern_Ireland_2021.svg.png
+BBCOneNorthernIrelandHD.uk,BBC One Northern Ireland HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/BBC_One_Northern_Ireland_2021.svg/512px-BBC_One_Northern_Ireland_2021.svg.png
+BBCOneNorthWest.uk,BBC One North West,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneNorthWestHD.uk,BBC One North West HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneOxfordshire.uk,BBC One Oxfordshire,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneOxfordshireHD.uk,BBC One Oxfordshire HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneScotland.uk,BBC One Scotland,,,UK,,,c/UK,eng,general,FALSE,1952-03-14,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/c/c1/BBC_One_Scotland_2021.png
+BBCOneScotlandHD.uk,BBC One Scotland HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/c/c1/BBC_One_Scotland_2021.png
+BBCOneSouth.uk,BBC One South,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneSouthEast.uk,BBC One South East,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneSouthEastHD.uk,BBC One South East HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneSouthHD.uk,BBC One South HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneSouthWest.uk,BBC One South West,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneSouthWestHD.uk,BBC One South West HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneWales.uk,BBC One Wales,,,UK,GB-WLS,,s/GB-WLS,eng,general,FALSE,1964-02-09,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/BBC_One_Wales_2021.svg/512px-BBC_One_Wales_2021.svg.png
+BBCOneWalesHD.uk,BBC One Wales HD,,,UK,GB-WLS,,s/GB-WLS,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/BBC_One_Wales_2021.svg/512px-BBC_One_Wales_2021.svg.png
+BBCOneWest.uk,BBC One West,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneWestHD.uk,BBC One West HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneWestMidlands.uk,BBC One West Midlands,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneWestMidlandsHD.uk,BBC One West Midlands HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneYorkshire.uk,BBC One Yorkshire,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneYorkshireHD.uk,BBC One Yorkshire HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneYorksLincs.uk,BBC One Yorks & Lincs,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCOneYorksLincsHD.uk,BBC One Yorks & Lincs HD,,,UK,,,c/UK,eng,general,FALSE,,,,http://www.bbc.co.uk/bbcone/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/BBC_One_logo_2021.svg/512px-BBC_One_logo_2021.svg.png
+BBCParliament.uk,BBC Parliament,,,UK,,,c/UK,eng,legislative,FALSE,,,,http://bbc.co.uk/tv/bbcparliament,https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/BBC_Parliament_Logo.svg/512px-BBC_Parliament_Logo.svg.png
 BBCPersian.uk,BBC Persian,,,UK,,,c/UK,fas,news,FALSE,,,,https://www.bbc.com/persian,https://upload.wikimedia.org/wikipedia/en/4/44/BBC_News_Persian_Logo.jpg
 BBCRedButton1.uk,BBC Red Button 1,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/redbutton,https://i.imgur.com/g2Aga13.png
 BBCRedButton10.uk,BBC Red Button 10,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/redbutton,https://i.imgur.com/g2Aga13.png
@@ -2023,24 +2036,18 @@ BBCRedButton6.uk,BBC Red Button 6,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk
 BBCRedButton7.uk,BBC Red Button 7,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/redbutton,https://i.imgur.com/g2Aga13.png
 BBCRedButton8.uk,BBC Red Button 8,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/redbutton,https://i.imgur.com/g2Aga13.png
 BBCRedButton9.uk,BBC Red Button 9,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/redbutton,https://i.imgur.com/g2Aga13.png
-BBCScotland.uk,BBC Scotland,,,UK,,,c/UK,eng,,FALSE,,,,https://www.bbc.com/scotland,https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BBC_Scotland_2021.svg/512px-BBC_Scotland_2021.svg.png
-BBCScotlandHD.uk,BBC Scotland HD,,,UK,,,c/UK,eng,,FALSE,,,,https://www.bbc.com/scotland,
+BBCScotland.uk,BBC Scotland,,,UK,,,c/UK,eng,,FALSE,2019-02-24,,,https://www.bbc.com/scotland,https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BBC_Scotland_2021.svg/512px-BBC_Scotland_2021.svg.png
+BBCScotlandHD.uk,BBC Scotland HD,,,UK,,,c/UK,eng,,FALSE,,,,https://www.bbc.com/scotland,https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BBC_Scotland_2021.svg/512px-BBC_Scotland_2021.svg.png
 BBCThree.uk,BBC Three,,,UK,,,c/UK,eng,,FALSE,2003-02-09,,,https://www.bbc.co.uk/bbcthree,https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/BBC_Three_2022.svg/512px-BBC_Three_2022.svg.png
 BBCTorontoGaundaPunjab.ca,BBC Toronto Gaunda Punjab,,,CA,,,c/CA,eng,,FALSE,,,,,https://i.imgur.com/uSX4YXL.png
 BBCTravelGermany.us,BBC Travel Germany,,,US,,,c/DE,deu,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/bbc-travel-de,https://images.pluto.tv/channels/60e4519e6873180007d3cddb/colorLogoPNG.png
-BBCTwo.uk,BBC Two,,,UK,,,c/UK,eng,,FALSE,1964-04-21,,,http://www.bbc.co.uk/bbctwo/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/bbctwo.png
-BBCTwoDelay.uk,BBC Two Delay,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbctwo/,https://www.lyngsat.com/logo/tv/bb/bbc-two-uk.png
-BBCTwoEngland.uk,BBC Two England,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbctwo/,https://www.lyngsat.com/logo/tv/bb/bbc-two-uk.png
-BBCTwoHD.uk,BBC Two HD,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCTwoNorthenIreland.uk,BBC Two Northen Ireland,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCTwoNorthernIreland.uk,BBC Two Northern Ireland,,,UK,,,c/UK,eng,,FALSE,,2006-10-28,,http://www.bbc.co.uk/bbctwo/,https://www.lyngsat.com/logo/tv/bb/bbc-two-uk.png
-BBCTwoNorthernIrelandHD.uk,BBC Two Northern Ireland HD,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCTwoWales.uk,BBC Two Wales,,,UK,GB-WLS,,s/GB-WLS,eng,,FALSE,,2009-01-02,,http://www.bbc.co.uk/bbctwo/,https://www.lyngsat.com/logo/tv/bb/bbc-two-uk.png
-BBCUHDTrial1.uk,BBC UHD Trial 1,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCUHDTrial2.uk,BBC UHD Trial 2,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCUHDTrial3.uk,BBC UHD Trial 3,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCUHDTrial4.uk,BBC UHD Trial 4,,,UK,,,c/UK,eng,,FALSE,,,,,
-BBCUHDTrial5.uk,BBC UHD Trial 5,,,UK,,,c/UK,eng,,FALSE,,,,,
+BBCTwo.uk,BBC Two,,,UK,,,c/UK,eng,,FALSE,1964-04-21,,,http://www.bbc.co.uk/bbctwo/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/512px-BBC_Two_logo_2021.svg.png
+BBCTwoEngland.uk,BBC Two England,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbctwo/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/512px-BBC_Two_logo_2021.svg.png
+BBCTwoHD.uk,BBC Two HD,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbctwo/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/512px-BBC_Two_logo_2021.svg.png
+BBCTwoNorthernIreland.uk,BBC Two Northern Ireland,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbctwo/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/512px-BBC_Two_logo_2021.svg.png
+BBCTwoNorthernIrelandHD.uk,BBC Two Northern Ireland HD,,,UK,,,c/UK,eng,,FALSE,,,,http://www.bbc.co.uk/bbctwo/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/512px-BBC_Two_logo_2021.svg.png
+BBCTwoWales.uk,BBC Two Wales,,,UK,GB-WLS,,s/GB-WLS,eng,,FALSE,,,,http://www.bbc.co.uk/bbctwo/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/512px-BBC_Two_logo_2021.svg.png
+BBCTwoWalesHD.uk,BBC Two Wales HD,,,UK,GB-WLS,,s/GB-WLS,eng,,FALSE,,,,http://www.bbc.co.uk/bbctwo/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/BBC_Two_logo_2021.svg/512px-BBC_Two_logo_2021.svg.png
 BBCUKTVAustralia.au,BBC UKTV Australia,,,AU,,,c/AU,eng,,FALSE,,,,http://www.uktv.com.au/,https://www.lyngsat.com/logo/tv/bb/bbc_uktv_au.png
 BBCUKTVAustraliaPlus2.au,BBC UKTV Australia +2,,,AU,,,c/AU,eng,,FALSE,,,,http://www.uktv.com.au/,https://www.lyngsat.com/logo/tv/bb/bbc_uktv_au.png
 BBCUKTVNewZealand.nz,BBC UKTV New Zealand,,,NZ,,,c/NZ,eng,,FALSE,,,,https://www.bbcnewzealand.com/channels/uktv/,https://www.lyngsat.com/logo/tv/bb/bbc_uktv_au.png
@@ -5409,33 +5416,33 @@ ElDoce.ar,El Doce,,,AR,,,c/AR,spa,,FALSE,,,,https://eldoce.tv/,https://www.lyngs
 eldoTV.lu,eldo.TV,,,LU,,,c/LU,ltz,,FALSE,,,,,https://i.imgur.com/4ntor8S.png
 ElectricNow.us,Electric Now,,,US,,,c/US,eng,entertainment,FALSE,,,,,https://od.lk/s/MF8yMjgzOTI0NjRf/ElectricNow_300x300.png
 ElectronTV.td,Electron TV,,,TD,,,c/TD,fra,,FALSE,,,,https://electrontvtchad.com/,https://service.canal-overseas.com/image-api/v1/image/c1358d40649c2a00beb9f378a51c0968
-ElektrikaTV.cz,Elektrika TV,,,CZ,,,c/CZ,ces,,FALSE,,,,,
+ElektrikaTV.cz,Elektrika TV,,,CZ,,,c/CZ,ces,,FALSE,,,,https://elektrika.tv/,https://i.imgur.com/EEbDVaD.png
 ElencantadordeperrosSpain.us,El encantador de perros Spain,,,US,,,c/ES,spa,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/el-encantador-de-perros,https://images.pluto.tv/channels/60e45687313c5f0007bc8e94/colorLogoPNG.png
-ElevenProLeague1FR.be,Eleven Pro League 1 FR,,,BE,,,c/BE,fra,sports,FALSE,,,,https://bienvenue.elevensports.be/,https://www.lyngsat.com/logo/tv/ee/eleven-pro-league-1-fr-uk-be.png
-ElevenProLeague1NL.be,Eleven Pro League 1 NL,,,BE,,,c/BE,nld,sports,FALSE,,,,https://welkom.elevensports.be/,https://www.lyngsat.com/logo/tv/ee/eleven-pro-league-1-nl-uk-be.png
-ElevenProLeague2FR.be,Eleven Pro League 2 FR,,,BE,,,c/BE,fra,sports,FALSE,,,,https://welkom.elevensports.be/homepage/bienvenue,https://experience-cache.proximustv.be/posterserver/poster/DEFAULT/w-250_h-162/t_JPL2_000.png
-ElevenProLeague2NL.be,Eleven Pro League 2 NL,,,BE,,,c/BE,nld,sports,FALSE,,,,https://welkom.elevensports.be/,https://experience-cache.proximustv.be/posterserver/poster/DEFAULT/w-250_h-162/t_JPL2_000.png
-ElevenProLeague3FR.be,Eleven Pro League 3 FR,,,BE,,,c/BE,fra,sports,FALSE,,,,https://welkom.elevensports.be/homepage/bienvenue,https://experience-cache.proximustv.be/posterserver/poster/DEFAULT/w-250_h-162/t_JPL3_000.png
-ElevenProLeague3NL.be,Eleven Pro League 3 NL,,,BE,,,c/BE,nld,sports,FALSE,,,,https://welkom.elevensports.be/,https://experience-cache.proximustv.be/posterserver/poster/DEFAULT/w-250_h-162/t_JPL3_000.png
-ElevenSports1FR.uk,Eleven Sports 1 FR,,,UK,,,c/UK,eng,sports,FALSE,,,,,
-ElevenSports1NL.uk,Eleven Sports 1 NL,,,UK,,,c/UK,eng,sports,FALSE,,,,,
-ElevenSports1Poland.uk,Eleven Sports 1 Poland,,,UK,,,c/UK,eng,sports,FALSE,,,,https://www.elevensports.pl/,https://ocdn.eu/ptv2-images-transforms/1/F84ktkhbG9nby1taWdyYXRlZC9lbGV2ZW4tc3BvcnRzLTEucG5nkpUCZADCw5UCACjCww
-ElevenSports1Portugal.pt,Eleven Sports 1 Portugal,,,PT,,,c/PT,por,sports,FALSE,,,,https://www.elevensports.pt/,https://www.lyngsat.com/logo/tv/ee/eleven-sports-1-portugal-uk-pt.png
-ElevenSports1Taiwan.tw,Eleven Sports 1 Taiwan,,,TW,,,c/TW,zho,sports,FALSE,,,,https://www.elevensports.tw/,https://www.lyngsat.com/logo/tv/ee/eleven-sports-1-portugal-uk-pt.png
-ElevenSports2FR.uk,Eleven Sports 2 FR,,,UK,,,c/BE,fra,sports,FALSE,,,,https://welkom.elevensports.be/homepage/bienvenue,https://experience-cache.proximustv.be/posterserver/poster/DEFAULT/w-250_h-162/t_esn2_004.png
-ElevenSports2NL.uk,Eleven Sports 2 NL,,,UK,,,c/UK,eng,sports,FALSE,,,,,
-ElevenSports2Poland.uk,Eleven Sports 2 Poland,,,UK,,,c/UK,eng,sports,FALSE,,,,https://www.elevensports.pl/,https://ocdn.eu/ptv2-images-transforms/1/DdQktkhbG9nby1taWdyYXRlZC9lbGV2ZW4tc3BvcnRzLTIucG5nkpUCZADCw5UCACjCww
-ElevenSports2Portugal.pt,Eleven Sports 2 Portugal,,,PT,,,c/PT,por,sports,FALSE,,,,https://www.elevensports.pt/,https://www.lyngsat.com/logo/tv/ee/eleven-sports-2-portugal-uk-pt.png
-ElevenSports3FR.uk,Eleven Sports 3 FR,,,UK,,,c/BE,fra,sports,FALSE,,,,https://welkom.elevensports.be/homepage/bienvenue,https://experience-cache.proximustv.be/posterserver/poster/DEFAULT/w-250_h-162/t_esn3_004.png
-ElevenSports3NL.uk,Eleven Sports 3 NL,,,UK,,,c/BE,nld,sports,FALSE,,,,https://welkom.elevensports.be/,https://experience-cache.proximustv.be/posterserver/poster/DEFAULT/w-250_h-162/t_esn3_004.png
-ElevenSports3Poland.uk,Eleven Sports 3 Poland,,,UK,,,c/UK,eng,sports,FALSE,,,,https://www.elevensports.pl/,https://ocdn.eu/program-tv-transforms/1/dXCktlEYWRtL2IzNzk5OGMwYTExODlhNWNmYzA4ZWY5OTQwNTllNTQ4N2Q3N2U2Y2RkMWVlMTIxMGU4NTRmYjdiYzllNmNmNjKSlQJkAMLDlQIAKMLD
-ElevenSports3Portugal.pt,Eleven Sports 3 Portugal,,,PT,,,c/PT,por,sports,FALSE,,,,https://www.elevensports.pt/,https://www.lyngsat.com/logo/tv/ee/eleven-sports-3-portugal-uk-pt.png
-ElevenSports4Poland.uk,Eleven Sports 4 Poland,,,UK,,,c/UK,eng,sports,FALSE,,,,https://www.elevensports.pl/,https://ocdn.eu/program-tv-transforms/1/dXCktlEYWRtL2IzNzk5OGMwYTExODlhNWNmYzA4ZWY5OTQwNTllNTQ4N2Q3N2U2Y2RkMWVlMTIxMGU4NTRmYjdiYzllNmNmNjKSlQJkAMLDlQIAKMLD
-ElevenSports4Portugal.pt,Eleven Sports 4 Portugal,,,PT,,,c/PT,por,sports,FALSE,,,,https://www.elevensports.pt/,https://www.lyngsat.com/logo/tv/ee/eleven-sports-4-portugal-uk-pt.png
-ElevenSports5Portugal.pt,Eleven Sports 5 Portugal,,,PT,,,c/PT,por,sports,FALSE,,,,https://www.elevensports.pt/,https://www.lyngsat.com/logo/tv/ee/eleven-sports-network-uk.png
-ElevenSports6Portugal.pt,Eleven Sports 6 Portugal,,,PT,,,c/PT,por,sports,FALSE,,,,https://www.elevensports.pt/,https://www.lyngsat.com/logo/tv/ee/eleven-sports-network-uk.png
-ElevenSportsUSA.us,Eleven Sports USA,,,US,,,c/US,eng,sports,FALSE,,,,http://elevensportsusa.com/,https://www.directv.com/images/logos/channels/dark/large/102.png
-ElevenTaiwan.tw,Eleven Taiwan,,,TW,,,c/TW,zho,,FALSE,,,,https://www.elevensports.tw/,https://www.lyngsat.com/logo/tv/ee/eleven-sports-network-uk.png
+Eleven1Belgium.be,Eleven 1 Belgium,,,BE,,,c/BE;c/LU,nld;fra,sports,FALSE,2020-08-01,,,https://www.elevensports.be/,https://i.imgur.com/STN37zd.png
+Eleven1Portugal.pt,Eleven 1 Portugal,,,PT,,,c/PT,por,sports,FALSE,2020-08-01,,,https://www.elevensports.pt/,https://i.imgur.com/STN37zd.png
+Eleven1Taiwan.tw,Eleven 1 Taiwan,,,TW,,,c/TW,zho,sports,FALSE,,,,https://www.elevensports.tw/,https://i.imgur.com/STN37zd.png
+Eleven2Belgium.be,Eleven 2 Belgium,,,BE,,,c/BE;c/LU,nld;fra,sports,FALSE,2020-08-01,,,https://www.elevensports.be/,https://i.imgur.com/bGRgFwo.png
+Eleven2Portugal.pt,Eleven 2 Portugal,,,PT,,,c/PT,por,sports,FALSE,2020-08-01,,,https://www.elevensports.pt/,https://i.imgur.com/bGRgFwo.png
+Eleven2Taiwan.tw,Eleven 2 Taiwan,,,TW,,,c/TW,zho,sports,FALSE,,,,https://www.elevensports.tw/,https://i.imgur.com/bGRgFwo.png
+Eleven3Belgium.be,Eleven 3 Belgium,,,BE,,,c/BE;c/LU,nld;fra,sports,FALSE,2020-08-01,,,https://www.elevensports.be/,https://i.imgur.com/lrcWrFs.png
+Eleven3Portugal.pt,Eleven 3 Portugal,,,PT,,,c/PT,por,sports,FALSE,2020-08-01,,,https://www.elevensports.pt/,https://i.imgur.com/lrcWrFs.png
+Eleven4Portugal.pt,Eleven 4 Portugal,,,PT,,,c/PT,por,sports,FALSE,2020-08-01,,,https://www.elevensports.pt/,https://i.imgur.com/OUGHmuH.png
+Eleven5Portugal.pt,Eleven 5 Portugal,,,PT,,,c/PT,por,sports,FALSE,2020-08-01,,,https://www.elevensports.pt/,https://i.imgur.com/rw8Qr1l.png
+Eleven6Portugal.pt,Eleven 6 Portugal,,,PT,,,c/PT,por,sports,FALSE,2020-08-01,,,https://www.elevensports.pt/,https://i.imgur.com/0dAM5uT.png
+ElevenProLeague1.be,Eleven Pro League 1,,,BE,,,c/BE;c/LU,nld;fra,sports,FALSE,,,,https://elevensports.be/,https://upload.wikimedia.org/wikipedia/fr/thumb/8/8d/Eleven_Pro_League.png/512px-Eleven_Pro_League.png
+ElevenProLeague2.be,Eleven Pro League 2,,,BE,,,c/BE;c/LU,nld;fra,sports,FALSE,,,,https://elevensports.be/,https://upload.wikimedia.org/wikipedia/fr/thumb/8/8d/Eleven_Pro_League.png/512px-Eleven_Pro_League.png
+ElevenProLeague3.be,Eleven Pro League 3,,,BE,,,c/BE;c/LU,nld;fra,sports,FALSE,,,,https://elevensports.be/,https://upload.wikimedia.org/wikipedia/fr/thumb/8/8d/Eleven_Pro_League.png/512px-Eleven_Pro_League.png
+ElevenSports1Poland.pl,Eleven Sports 1 Poland,,,PL,,,c/PL,eng,sports,FALSE,,,,https://www.elevensports.pl/,https://i.imgur.com/AOu4FXH.png
+ElevenSports1Portugal.pt,Eleven Sports 1 Portugal,,,PT,,,c/PT,por,sports,FALSE,2015-01-01,2020-08-01,Eleven1Portugal.pt,https://www.elevensports.pt/,https://i.imgur.com/AOu4FXH.png
+ElevenSports2Poland.pl,Eleven Sports 2 Poland,,,PL,,,c/PL,eng,sports,FALSE,,,,https://www.elevensports.pl/,https://i.imgur.com/bTIRgqG.png
+ElevenSports2Portugal.pt,Eleven Sports 2 Portugal,,,PT,,,c/PT,por,sports,FALSE,2015-01-01,2020-08-01,Eleven2Portugal.pt,https://www.elevensports.pt/,https://i.imgur.com/bTIRgqG.png
+ElevenSports3Poland.pl,Eleven Sports 3 Poland,,,PL,,,c/PL,eng,sports,FALSE,,,,https://www.elevensports.pl/,https://i.imgur.com/bWjGol4.png
+ElevenSports3Portugal.pt,Eleven Sports 3 Portugal,,,PT,,,c/PT,por,sports,FALSE,2015-01-01,2020-08-01,Eleven3Portugal.pt,https://www.elevensports.pt/,https://i.imgur.com/bWjGol4.png
+ElevenSports4Poland.pl,Eleven Sports 4 Poland,,,PL,,,c/PL,eng,sports,FALSE,,,,https://www.elevensports.pl/,https://i.imgur.com/SEKXaAW.png
+ElevenSports4Portugal.pt,Eleven Sports 4 Portugal,,,PT,,,c/PT,por,sports,FALSE,2015-01-01,2020-08-01,Eleven4Portugal.pt,https://www.elevensports.pt/,https://i.imgur.com/SEKXaAW.png
+ElevenSports5Portugal.pt,Eleven Sports 5 Portugal,,,PT,,,c/PT,por,sports,FALSE,2015-01-01,2020-08-01,Eleven5Portugal.pt,https://www.elevensports.pt/,https://i.imgur.com/fgEj4vD.png
+ElevenSports6Portugal.pt,Eleven Sports 6 Portugal,,,PT,,,c/PT,por,sports,FALSE,2015-01-01,2020-08-01,Eleven6Portugal.pt,https://www.elevensports.pt/,https://i.imgur.com/kIGt4b7.png
+ElevenSportsUSA.us,Eleven Sports USA,,,US,,,c/US,eng,sports,FALSE,,,,http://elevensportsusa.com/,https://i.imgur.com/1AcP6IA.png
 ElFadjerTV.dz,El Fadjer TV,قناة الفجر,,DZ,,,c/DZ,ara,,FALSE,,,,http://www.elfadjr.dz.tv/,https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/El_Fadjer_TV.png/512px-El_Fadjer_TV.png
 ElFinancieroBloomberg.mx,El Financiero Bloomberg,,,MX,,,c/MX,spa,,FALSE,,,,https://www.elfinanciero.com.mx/tv,https://cdn.mitvstatic.com/channels/mx_el-financiero-bloomberg_m.png
 ElFuturoentumano.es,El Futuro en tu mano,,,ES,,,c/ES,spa,religious,FALSE,,,,,
@@ -5561,13 +5568,12 @@ EpicDrama.se,Epic Drama,,,SE,,,c/SE,eng;tur;bul;hun;srp;ces;lit;rus;pol,series,F
 EpicTV.in,Epic TV,,,IN,,,c/IN,hin;eng,,FALSE,2014-11-19,,,,https://i.imgur.com/XsRrnc5.png
 Epiqa.it,Epiqa,,,IT,,,c/IT,ita,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ee/epiqa-it.png
 EpirusTV1.gr,Epirus TV1,,,GR,,,c/GR,ell,,FALSE,1990-01-01,,,https://www.epirustv1.eu/,https://upload.wikimedia.org/wikipedia/en/6/6e/Epirus_TV1_logo.png
-Epix2.us,Epix 2,,,US,,,c/US,eng;spa,,FALSE,,,,http://www.epix.com/,https://www.lyngsat.com/logo/tv/ee/epix-2-us.png
-Epix2East.us,Epix2 East,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/epix2019_2.png
-Epix2West.us,Epix2 West,,,US,,,c/US,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/epix2019_2.png
-EpixDriveIn.us,Epix Drive-In,,,US,,,c/US,eng;spa,,FALSE,,,,http://www.epix.com/,https://cdn.tvpassport.com/image/station/100x100/epix2019_drive.png
-EpixEast.us,Epix East,,,US,,,c/US,eng;spa,,FALSE,,,,http://www.epix.com/,https://cdn.tvpassport.com/image/station/100x100/epix2019.png
-EpixHits.us,Epix Hits,,,US,,,c/US,eng;spa,,FALSE,,,,http://www.epix.com/,https://cdn.tvpassport.com/image/station/100x100/epix2019_hits.png
-EpixWest.us,Epix West,,,US,,,c/US,eng;spa,,FALSE,,,,http://www.epix.com/,https://cdn.tvpassport.com/image/station/100x100/epix2019.png
+Epix2East.us,Epix 2 East,,,US,,,c/US,eng;spa,movies,FALSE,,,,http://www.epix.com/,https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Epix2_logo.svg/512px-Epix2_logo.svg.png
+Epix2West.us,Epix 2 West,,,US,,,c/US,eng;spa,movies,FALSE,,,,http://www.epix.com/,https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Epix2_logo.svg/512px-Epix2_logo.svg.png
+EpixDriveIn.us,Epix Drive-In,,,US,,,c/US,eng;spa,movies,FALSE,,,,http://www.epix.com/,https://upload.wikimedia.org/wikipedia/en/thumb/1/1f/Epix_Drive-In_logo.svg/512px-Epix_Drive-In_logo.svg.png
+EpixEast.us,Epix East,,,US,,,c/US,eng;spa,movies,FALSE,,,,http://www.epix.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Epix_Logo_2019.svg/512px-Epix_Logo_2019.svg.png
+EpixHits.us,Epix Hits,,,US,,,c/US,eng;spa,movies,FALSE,,,,http://www.epix.com/,https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Epix_Hits_logo.svg/512px-Epix_Hits_logo.svg.png
+EpixWest.us,Epix West,,,US,,,c/US,eng;spa,movies,FALSE,,,,http://www.epix.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Epix_Logo_2019.svg/512px-Epix_Logo_2019.svg.png
 EpocaTV.co,Época TV,,,CO,,,c/CO,spa,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ee/epoca_tv.png
 EPoland.us,E! Poland,,,US,,,c/US,eng,,FALSE,,,,http://uk.eonline.com/,https://www.lyngsat.com/logo/tv/ee/e_global_us.png
 Epoque.ua,Epoque,,,UA,,,c/UA;c/RU,ukr;rus,,FALSE,,,,https://korysnetv.com/telekanaly/epokha,https://www.lyngsat.com/logo/tv/ee/epoque_tv_ua.png
@@ -13235,20 +13241,20 @@ La2HD.es,La 2 HD,,,ES,,,c/ES;c/AD,spa,documentary,FALSE,,,,https://www.rtve.es/t
 LA34LongAn.vn,LA34 Long An,,,VN,,,c/VN,vie,,FALSE,,,,,
 La4Italy.it,La 4 Italy,,,IT,,,c/IT,ita,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ll/la-4-italia-it.png
 La5.it,La 5,,,IT,,,c/IT,ita,,FALSE,,,,https://www.mediasetplay.mediaset.it/la5,https://www.sms.cz/kategorie/televize/bmp/loga/velka/la5.png
-La7.es,La 7,,,ES,,,c/ES,spa,,FALSE,,,,,https://www.movistarplus.es/recorte/m-NEO/canal/CYLTV.png
+La7.es,La 7,,,ES,,,c/ES,spa,,FALSE,,,,https://www.cyltv.es/,https://i.imgur.com/haWbhrS.png
 La7.it,La 7,,,IT,,,c/IT,ita,,FALSE,,,,https://www.la7.it/,https://i.imgur.com/TnwjCAj.png
 La7d.it,La 7 d,,,IT,,,c/IT,ita,,FALSE,,,,https://www.la7.it/la7d,https://i.imgur.com/75Msd1i.png
-La8Avila.es,La 8 Avila,,,ES,,,c/ES,spa,,FALSE,,,,,
-La8Bierzo.es,La 8 Bierzo,,,ES,,,c/ES,spa,,FALSE,,,,,
-La8Burgos.es,La 8 Burgos,,,ES,,,c/ES,spa,,FALSE,,,,,
-La8Leon.es,La 8 Leon,,,ES,,,c/ES,spa,,FALSE,,,,,
-La8Mediterraneo.es,La 8 Mediterráneo,,,ES,,,c/ES,spa,,FALSE,,,,,
-La8Palencia.es,La 8 Palencia,,,ES,,,c/ES,spa,,FALSE,,,,,
-La8Salamanca.es,La 8 Salamanca,,,ES,,,c/ES,spa,,FALSE,,,,,
-La8Segovia.es,La 8 Segovia,,,ES,,,c/ES,spa,,FALSE,,,,,
-La8Soria.es,La 8 Soria,,,ES,,,c/ES,spa,,FALSE,,,,,
-La8Valladolid.es,La 8 Valladolid,,,ES,,,c/ES,spa,,FALSE,,,,,
-La8Zamora.es,La 8 Zamora,,,ES,,,c/ES,spa,,FALSE,,,,,
+La8Avila.es,La 8 Ávila,,,ES,,,c/ES,spa,,FALSE,,,,https://www.cyltv.es/La8Avila,https://i.imgur.com/oVtVKw0.png
+La8Bierzo.es,La 8 Bierzo,,,ES,,,c/ES,spa,,FALSE,,,,https://www.cyltv.es/La8Bierzo,https://i.imgur.com/Euy5tr0.png
+La8Burgos.es,La 8 Burgos,,,ES,,,c/ES,spa,,FALSE,,,,https://www.cyltv.es/La8Burgos,https://i.imgur.com/Uu7XQ15.png
+La8Leon.es,La 8 León,,,ES,,,c/ES,spa,,FALSE,,,,https://www.cyltv.es/La8Leon,https://i.imgur.com/0cauvlI.png
+La8Mediterraneo.es,La 8 Mediterraneo,,,ES,,,c/ES,spa,,FALSE,,,,https://www.laocho.tv/,https://i.imgur.com/3Bc61uN.png
+La8Palencia.es,La 8 Palencia,,,ES,,,c/ES,spa,,FALSE,,,,https://www.cyltv.es/La8Palencia,https://i.imgur.com/ays4l8A.png
+La8Salamanca.es,La 8 Salamanca,,,ES,,,c/ES,spa,,FALSE,,,,https://www.cyltv.es/La8Salamanca,https://i.imgur.com/DiM5iWn.png
+La8Segovia.es,La 8 Segovia,,,ES,,,c/ES,spa,,FALSE,,,,https://www.cyltv.es/La8Segovia,https://i.imgur.com/ePhoNJl.png
+La8Soria.es,La 8 Soria,,,ES,,,c/ES,spa,,FALSE,,,,https://www.cyltv.es/La8Soria,https://i.imgur.com/pTC3bLN.png
+La8Valladolid.es,La 8 Valladolid,,,ES,,,c/ES,spa,,FALSE,,,,https://www.cyltv.es/La8Valladolid,https://i.imgur.com/WEHmZ0R.png
+La8Zamora.es,La 8 Zamora,,,ES,,,c/ES,spa,,FALSE,,,,https://www.cyltv.es/La8Zamora,https://i.imgur.com/cJepz8T.png
 La9.it,La 9,,,IT,,,c/IT,ita,,FALSE,,,,http://www.la9.it/,https://www.lyngsat.com/logo/tv/ll/la-9-it.png
 LaAbeja.pe,La Abeja,,,PE,,,c/PE,spa,news,FALSE,,,,https://www.laabeja.pe/tv/,https://graph.facebook.com/laabeja.pe/picture?width=320&height=320
 LaayouneTV.eh,Laayoune TV,,,EH,,,c/EH,ara,,FALSE,,,,http://www.alaoula.ma/laayoune_tv.php?lang=fr,https://www.lyngsat.com/logo/tv/ss/snrt_1_laayoune.png
@@ -16664,10 +16670,10 @@ PlatinumPlus.au,Platinum Plus,,,AU,,,c/AU,eng,,FALSE,,,,https://tvplus.tv/,https
 PlattelandsTV.be,Plattelands TV,,,BE,,,c/BE,nld,,FALSE,,,,https://plattelandstv.be/,https://experience-cache.proximustv.be/posterserver/poster/DEFAULT/w-250_h-162/t_0062_002.png
 PlatziTV.es,Platzi TV,,,ES,,,r/HISPAM;c/ES,spa,education,FALSE,,,,https://platzi.com/blog/conoce-platzi-tv/,https://platform-static.cdn.mdstrm.com/player/logo/s-live-5b9076d18ef7b22560354649.png?184
 Play247.be,Play 24/7,,,BE,,,c/BE,nld,,FALSE,,,,https://www.goplay.be/,https://www.programme-tv.net/imgre/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2F8fd0f90bfbaa84e1.2Epng/80x80/quality/80/vier.png
-Play4.be,Play 4,,,BE,,,c/BE,nld,,FALSE,,,,https://www.goplay.be/,https://www.programme-tv.net/imgre/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2F8fd0f90bfbaa84e1.2Epng/80x80/quality/80/vier.png
-Play5.be,Play 5,,,BE,,,c/BE,nld,,FALSE,,,,https://www.goplay.be/,https://www.programme-tv.net/imgre/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2Fchannel.2F81b2814d00b3f945.2Epng/80x80/quality/80/play5.png
-Play6.be,Play 6,,,BE,,,c/BE,nld,,FALSE,,,,https://www.goplay.be/,https://www.lyngsat.com/logo/tv/pp/play-6-be.png
-Play7.be,Play 7,,,BE,,,c/BE,nld,,FALSE,,,,https://www.goplay.be/,https://www.lyngsat.com/logo/tv/pp/play-7-be.png
+Play4.be,Play4,,,BE,,,c/BE,nld,,FALSE,1995-02-01,,,https://www.goplay.be/,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Play4_2021.svg/512px-Play4_2021.svg.png
+Play5.be,Play5,,,BE,,,c/BE,nld,,FALSE,2004-10-01,,,https://www.goplay.be/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Play5_2021.svg/512px-Play5_2021.svg.png
+Play6.be,Play6,,,BE,,,c/BE,nld,,FALSE,2016-10-06,,,https://www.goplay.be/,https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Play6_2021.svg/512px-Play6_2021.svg.png
+Play7.be,Play7,,,BE,,,c/BE,nld,,FALSE,,,,https://www.goplay.be/,https://i.imgur.com/BSnof2S.png
 PlayboyChannelJapan.jp,Playboy Channel Japan,,,JP,,,c/JP,eng,xxx,TRUE,,,,http://www.pbj.co.jp/,https://tvguide.myjcom.jp/monomedia/ch_logo/jcom/logo-65534-290-400x400.png
 PlayboyTV.us,Playboy TV,,,US,,,c/US,eng,xxx,TRUE,,,,http://www.playboytv.com/,https://i.imgur.com/k00nQ6l.png
 PlayboyTVAsia.us,Playboy TV Asia,,,US,,,r/SAS,eng,xxx,TRUE,,,,http://www.playboytv.com/,https://i.imgur.com/k00nQ6l.png
@@ -16683,16 +16689,16 @@ PlayboyTVUK.uk,Playboy TV UK,,,UK,,,c/UK,eng,xxx,TRUE,,,,https://www.playboytv.e
 PlayEntertainment.pk,Play Entertainment,,,PK,,,c/PK,urd,entertainment,FALSE,2015-12-01,,,https://www.playentertainment.tv/,https://www.lyngsat.com/logo/tv/pp/play-entertainment-pk.png
 PlayersTV.us,Players TV,,,US,,,c/CA,eng,sports,FALSE,,,,,https://i.imgur.com/d3EaS41.png
 PlaymenTV.ca,Playmen TV,,,CA,,,c/CA,eng,,FALSE,2005-04-12,,,http://exxxtasy.com/playmentv/,https://cdn.tvpassport.com/image/station/100x100/playmen.png
-PlayMoreBlack.be,Play More Black,,,BE,,,c/BE,nld,,FALSE,,,,https://www.goplay.be/,
-PlayMoreCinema.be,Play More Cinema,,,BE,,,c/BE,nld,movies,FALSE,,,,https://www.goplay.be/,
-PlayMoreKicks.be,Play More Kicks,,,BE,,,c/BE,nld,,FALSE,,,,https://www.goplay.be/,
-PlaySports1.be,Play Sports 1,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.goplay.be/,
-PlaySports2.be,Play Sports 2,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.goplay.be/,
-PlaySports3.be,Play Sports 3,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.goplay.be/,
-PlaySports4.be,Play Sports 4,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.goplay.be/,
-PlaySports5.be,Play Sports 5,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.goplay.be/,
-PlaySportsGolf.be,Play Sports Golf,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.goplay.be/,
-PlaySportsOpen.be,Play Sports Open,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.goplay.be/,
+PlayMoreBlack.be,Play More Black,,,BE,,,c/BE,nld,movies,FALSE,,,,https://www2.telenet.be/nl/producten/tv-en-entertainment/play-more/,https://i.imgur.com/698oEkL.png
+PlayMoreCinema.be,Play More Cinema,,,BE,,,c/BE,nld,movies,FALSE,,,,https://www2.telenet.be/nl/producten/tv-en-entertainment/play-more/,https://i.imgur.com/l7vVin6.png
+PlayMoreKicks.be,Play More Kicks,,,BE,,,c/BE,nld,movies,FALSE,,,,https://www2.telenet.be/nl/producten/tv-en-entertainment/play-more/,https://i.imgur.com/7YdankH.png
+PlaySports1.be,Play Sports 1,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.playsports.be/,https://i.imgur.com/nOdZZnr.png
+PlaySports2.be,Play Sports 2,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.playsports.be/,https://i.imgur.com/7VSwLhr.png
+PlaySports3.be,Play Sports 3,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.playsports.be/,https://i.imgur.com/XMMDTON.png
+PlaySports4.be,Play Sports 4,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.playsports.be/,https://i.imgur.com/Mwkfciy.png
+PlaySports5.be,Play Sports 5,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.playsports.be/,https://i.imgur.com/oW9ZJK7.png
+PlaySportsGolf.be,Play Sports Golf,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.playsports.be/,https://i.imgur.com/1cjwcAq.png
+PlaySportsOpen.be,Play Sports Open,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.playsports.be/,https://i.imgur.com/LmM4nDu.png
 PlayTV.cm,Play TV,,,CM,,,c/CM,fra,music,FALSE,,,,,https://i.imgur.com/mvgRAZw.jpg
 PlayTV.gr,Play TV,,,GR,,,c/GR,ell,music,FALSE,,,,,https://i.imgur.com/100uuWA.png
 PlayWorks.us,Play.Works,,,US,,,c/US,eng,entertainment,FALSE,,,,,https://i.imgur.com/McoboB1.png
@@ -18896,10 +18902,10 @@ Screamfest.us,Screamfest,,,US,,,c/US,eng,movies,FALSE,,,,,https://app.digiticket
 Screen.kr,Screen,,,KR,,,c/KR,kor,,FALSE,,,,http://www.imtcast.com/screen/,https://www.lyngsat.com/logo/tv/ss/screen_tv_kr.png
 ScreenDreams.us,Screen Dreams,,,US,,,c/US,eng,relax,FALSE,,,,,https://i.imgur.com/6hIfTMC.jpg
 ScreenGolfzon.kr,Screen Golfzon,스크린골프존,,KR,,,c/KR,kor,sports,FALSE,,,,http://tv.golfzon.com/,https://i.imgur.com/c4vAxmI.png
-ScreenPix.us,ScreenPix,,,US,,,c/US,eng,,FALSE,,,,,
-ScreenPixAction.us,ScreenPix Action,,,US,,,c/US,eng,movies,FALSE,,,,,
-ScreenPixVoices.us,ScreenPix Voices,,,US,,,c/US,eng,,FALSE,,,,,
-ScreenPixWesterns.us,ScreenPix Westerns,,,US,,,c/US,eng,,FALSE,,,,,
+ScreenPix.us,ScreenPix,,,US,,,c/US,eng,movies,FALSE,2019-12-12,,,http://epix.com/,https://upload.wikimedia.org/wikipedia/en/7/7a/ScreenPix_Logo_2019.png
+ScreenPixAction.us,ScreenPix Action,,,US,,,c/US,eng,movies,FALSE,2019-12-12,,,http://epix.com/,https://i.imgur.com/Ch48icp.png
+ScreenPixVoices.us,ScreenPix Voices,,,US,,,c/US,eng,movies,FALSE,2019-12-12,,,http://epix.com/,https://i.imgur.com/49EtpDA.png
+ScreenPixWesterns.us,ScreenPix Westerns,,,US,,,c/US,eng,movies,FALSE,2019-12-12,,,http://epix.com/,https://i.imgur.com/RA7xIV7.png
 SCTV.id,SCTV,,,ID,,,c/ID,ind,general,FALSE,,,,https://www.sctv.co.id/,https://www.mncvision.id/userfiles/image/channel/channel_89.png
 SCTV1.vn,SCTV 1,,,VN,,,c/VN,vie,,FALSE,,,,http://www.sctv.com.vn/,https://www.lyngsat.com/logo/tv/ss/sctv_vn.png
 SCTV13.vn,SCTV 13,,,VN,,,c/VN,vie,,FALSE,,,,http://www.sctv.com.vn/,https://www.lyngsat.com/logo/tv/ss/sctv_vn.png
@@ -19248,8 +19254,9 @@ SkyA.jp,Sky A,,,JP,,,c/JP,jpn,,FALSE,,,,http://www.sky-a.co.jp/,https://tvguide.
 SkyAC.kr,Sky A&C,,,KR,,,c/KR,kor,,FALSE,,,,https://tv.skylife.co.kr/skyanc,https://www.lyngsat.com/logo/tv/ss/sky_life_kr_arts_culture.png
 SkyArena.nz,Sky Arena,,,NZ,,,c/NZ,eng,,FALSE,2011-03-01,,,https://www.sky.co.nz/sky-arena,https://www.lyngsat.com/logo/tv/ss/sky-arena-nz.png
 SkyArte.it,Sky Arte,,,IT,,,c/IT,ita,,FALSE,,,,https://arte.sky.it/,https://upload.wikimedia.org/wikipedia/commons/f/f8/Logo_sky_arte_2018-2021.png
-SkyArts.nz,Sky Arts,,,NZ,,,c/NZ,eng,,FALSE,2000-01-01,,,http://www.sky.co.nz/sky-arts,https://www.lyngsat.com/logo/tv/ss/sky-arts-nz.png
 SkyArts.uk,Sky Arts,,,UK,,,c/UK;c/IE,eng,,FALSE,2000-01-01,,,https://www.sky.com/watch/channel/sky-arts,https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Sky_Arts_2020.png/512px-Sky_Arts_2020.png
+SkyArtsHDGermany.de,Sky Arts HD Germany,,,DE,,,c/DE;c/CH;c/AT,deu,,FALSE,2016-07-21,2019-04-02,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Sky_arts_HD_Logo_Germany_2016.png/512px-Sky_arts_HD_Logo_Germany_2016.png
+SkyArtsNewZealand.nz,Sky Arts New Zealand,,,NZ,,,c/NZ,eng,,FALSE,2000-01-01,,,http://www.sky.co.nz/sky-arts,https://i.imgur.com/E2KDY7N.png
 SkyAtlantic.de,Sky Atlantic,,,DE,,,c/DE;c/CH;c/AT,deu,,FALSE,2011-02-01,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sky_Atlantic_-_Logo_2020.svg/512px-Sky_Atlantic_-_Logo_2020.svg.png
 SkyAtlantic.it,Sky Atlantic,,,IT,,,c/IT,ita,,FALSE,2011-02-01,,,http://skyatlantic.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sky_Atlantic_-_Logo_2020.svg/512px-Sky_Atlantic_-_Logo_2020.svg.png
 SkyAtlantic.uk,Sky Atlantic,,,UK,,,c/UK;c/IE,eng,,FALSE,2011-02-01,,,http://www.sky.com/watch/channel/sky-atlantic,https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Sky_Atlantic_-_Logo_2020.svg/512px-Sky_Atlantic_-_Logo_2020.svg.png
@@ -19451,59 +19458,60 @@ SkySerienShows.de,Sky Serien & Shows,,,DE,,,c/DE,deu,entertainment;series,FALSE,
 SkyShop.vn,SkyShop,,,VN,,,c/VN,vie,shop,FALSE,,,,,
 SkyShowcaseHD.uk,Sky Showcase HD,,,UK,,,c/UK,eng,,FALSE,,,,,
 SkySport.it,Sky Sport,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://i.imgur.com/zp6eGvV.png
-SkySport1.de,Sky Sport 1,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/4aJIHkU.png
+SkySport1.de,Sky Sport 1,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Sky_Sport_1_DE_Logo_2020.svg/512px-Sky_Sport_1_DE_Logo_2020.svg.png
 SkySport1.nz,Sky Sport 1,,,NZ,,,c/NZ,eng,sports,FALSE,,,,https://www.sky.co.nz/sky-sport,https://www.lyngsat.com/logo/tv/ss/sky-sport-nz.png
-SkySport10.de,Sky Sport 10,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/vF1xved.png
+SkySport10.de,Sky Sport 10,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/a/a5/Sky_Sport_10_Logo_2020.png/512px-Sky_Sport_10_Logo_2020.png
 SkySport10.it,Sky Sport 10,,,IT,,,c/IT,ita,sports,FALSE,,,,http://www.sky.it/pacchetti-offerte/sky-calcio.html,https://www.lyngsat.com/logo/tv/ss/sky-sport-it.png
-SkySport10HD.de,Sky Sport 10 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/SKwjbQk.png
-SkySport11.de,Sky Sport 11,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/UsskoPj.png
+SkySport10HD.de,Sky Sport 10 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/c/ca/Sky_Sport_10_HD_Logo_2020.png/512px-Sky_Sport_10_HD_Logo_2020.png
+SkySport11.de,Sky Sport 11,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/b/b9/Sky_Sport_11_Logo_2020.png/512px-Sky_Sport_11_Logo_2020.png
 SkySport11.it,Sky Sport 11,,,IT,,,c/IT,ita,sports,FALSE,,,,http://www.sky.it/pacchetti-offerte/sky-calcio.html,https://www.lyngsat.com/logo/tv/ss/sky-sport-it.png
-SkySport11HD.de,Sky Sport 11 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
+SkySport11HD.de,Sky Sport 11 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/4/47/Sky_Sport_11_HD_Logo_2020.png/512px-Sky_Sport_11_HD_Logo_2020.png
 SkySport12.de,Sky Sport 12,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/WC8nffI.png
 SkySport12HD.de,Sky Sport 12 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/bhENXcF.png
 SkySport13.de,Sky Sport 13,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/NxOoPEl.png
 SkySport13HD.de,Sky Sport 13 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/yQxMMEb.png
 SkySport14.de,Sky Sport 14,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/GazRbay.png
 SkySport14HD.de,Sky Sport 14 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/bNMpjth.png
-SkySport1HD.de,Sky Sport 1 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/TcCe92S.png
-SkySport2.de,Sky Sport 2,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://cdn.hd-plus.de/senderlogos/bright-cropped/19988-2.png
+SkySport1HD.de,Sky Sport 1 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/c/c5/Sky_Sport_1_HD_-_Logo_2020.png/512px-Sky_Sport_1_HD_-_Logo_2020.png
+SkySport2.de,Sky Sport 2,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Sky_Sport_2_DE_Logo_2020.svg/512px-Sky_Sport_2_DE_Logo_2020.svg.png
 SkySport2.it,Sky Sport 2,,,IT,,,c/IT,ita,sports,FALSE,,,,http://www.sky.it/pacchetti-offerte/sky-calcio.html,https://www.lyngsat.com/logo/tv/ss/sky-sport-it.png
 SkySport2.nz,Sky Sport 2,,,NZ,,,c/NZ,eng,sports,FALSE,,,,https://www.sky.co.nz/sky-sport,https://www.lyngsat.com/logo/tv/ss/sky-sport-nz.png
 SkySport24.it,Sky Sport 24,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sky_Sport_24_-_Logo_2020.svg/512px-Sky_Sport_24_-_Logo_2020.svg.png
 SkySport24HD.it,Sky Sport 24 HD,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Sky_Sport_24_HD_-_Logo_2020.svg/512px-Sky_Sport_24_HD_-_Logo_2020.svg.png
-SkySport2HD.de,Sky Sport 2 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySport3.de,Sky Sport 3,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/fWG1P6W.png
+SkySport2HD.de,Sky Sport 2 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/a/ab/Sky_Sport_2_HD_-_Logo_2020.png/512px-Sky_Sport_2_HD_-_Logo_2020.png
+SkySport3.de,Sky Sport 3,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Sky_Sport_3_DE_Logo_2020.svg/512px-Sky_Sport_3_DE_Logo_2020.svg.png
 SkySport3.it,Sky Sport 3,,,IT,,,c/IT,ita,sports,FALSE,,,,http://www.sky.it/pacchetti-offerte/sky-calcio.html,https://www.lyngsat.com/logo/tv/ss/sky-sport-it.png
 SkySport3.nz,Sky Sport 3,,,NZ,,,c/NZ,eng,sports,FALSE,,,,https://www.sky.co.nz/sky-sport,https://www.lyngsat.com/logo/tv/ss/sky-sport-nz.png
-SkySport3HD.de,Sky Sport 3 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/QdY07C9.png
-SkySport4.de,Sky Sport 4,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/hB9iZy6.png
+SkySport3HD.de,Sky Sport 3 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/1/1d/Sky_Sport_3_HD_-_Logo_2020.png/512px-Sky_Sport_3_HD_-_Logo_2020.png
+SkySport4.de,Sky Sport 4,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Sky_Sport_4_DE_Logo_2020.svg/512px-Sky_Sport_4_DE_Logo_2020.svg.png
 SkySport4.it,Sky Sport 4,,,IT,,,c/IT,ita,sports,FALSE,,,,http://www.sky.it/pacchetti-offerte/sky-calcio.html,https://www.lyngsat.com/logo/tv/ss/sky-sport-it.png
 SkySport4.nz,Sky Sport 4,,,NZ,,,c/NZ,eng,sports,FALSE,,,,https://www.sky.co.nz/sky-sport,https://www.lyngsat.com/logo/tv/ss/sky-sport-nz.png
-SkySport4HD.de,Sky Sport 4 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/zILGUr5.png
-SkySport5.de,Sky Sport 5,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/SleDovi.png
+SkySport4HD.de,Sky Sport 4 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/2/2a/Sky_Sport_4_HD_Logo_2020.png/512px-Sky_Sport_4_HD_Logo_2020.png
+SkySport5.de,Sky Sport 5,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sky_Sport_5_DE_Logo_2020.svg/512px-Sky_Sport_5_DE_Logo_2020.svg.png
 SkySport5.it,Sky Sport 5,,,IT,,,c/IT,ita,sports,FALSE,,,,http://www.sky.it/pacchetti-offerte/sky-calcio.html,https://www.lyngsat.com/logo/tv/ss/sky-sport-it.png
 SkySport5.nz,Sky Sport 5,,,NZ,,,c/NZ,eng,sports,FALSE,,,,https://www.sky.co.nz/sky-sport,https://www.lyngsat.com/logo/tv/ss/sky-sport-nz.png
-SkySport5HD.de,Sky Sport 5 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/uO8dkkA.png
-SkySport6.de,Sky Sport 6,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/iJZxgTn.png
+SkySport5HD.de,Sky Sport 5 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/5/58/Sky_Sport_5_HD_Logo_2020.png/512px-Sky_Sport_5_HD_Logo_2020.png
+SkySport6.de,Sky Sport 6,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/5/57/Sky_Sport_6_Logo_2020.png/512px-Sky_Sport_6_Logo_2020.png
 SkySport6.it,Sky Sport 6,,,IT,,,c/IT,ita,sports,FALSE,,,,http://www.sky.it/pacchetti-offerte/sky-calcio.html,https://www.lyngsat.com/logo/tv/ss/sky-sport-it.png
 SkySport6.nz,Sky Sport 6,,,NZ,,,c/NZ,eng,sports,FALSE,,,,https://www.sky.co.nz/sky-sport,https://www.lyngsat.com/logo/tv/ss/sky-sport-nz.png
-SkySport6HD.de,Sky Sport 6 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySport7.de,Sky Sport 7,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/vnkqhWr.png
+SkySport6HD.de,Sky Sport 6 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/7/70/Sky_Sport_6_HD_Logo_2020.png/512px-Sky_Sport_6_HD_Logo_2020.png
+SkySport7.de,Sky Sport 7,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/a/a2/Sky_Sport_7_Logo_2020.png/512px-Sky_Sport_7_Logo_2020.png
 SkySport7.it,Sky Sport 7,,,IT,,,c/IT,ita,sports,FALSE,,,,http://www.sky.it/pacchetti-offerte/sky-calcio.html,https://www.lyngsat.com/logo/tv/ss/sky-sport-it.png
 SkySport7BeINSports.nz,Sky Sport 7 BeIN Sports,,,NZ,,,c/NZ,eng,sports,FALSE,,,,https://www.sky.co.nz/sky-sport,https://i.imgur.com/SAQwRnL.png
-SkySport7HD.de,Sky Sport 7 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySport8.de,Sky Sport 8,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/f7ev9Tw.png
+SkySport7HD.de,Sky Sport 7 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/0/04/Sky_Sport_7_HD_Logo_2020.png/512px-Sky_Sport_7_HD_Logo_2020.png
+SkySport8.de,Sky Sport 8,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/2/28/Sky_Sport_8_Logo_2020.png/512px-Sky_Sport_8_Logo_2020.png
 SkySport8.it,Sky Sport 8,,,IT,,,c/IT,ita,sports,FALSE,,,,http://www.sky.it/pacchetti-offerte/sky-calcio.html,https://www.lyngsat.com/logo/tv/ss/sky-sport-it.png
 SkySport8.nz,Sky Sport 8,,,NZ,,,c/NZ,eng,sports,FALSE,,,,https://www.sky.co.nz/sky-sport,https://www.lyngsat.com/logo/tv/ss/sky-sport-nz.png
-SkySport8HD.de,Sky Sport 8 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySport9.de,Sky Sport 9,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/5ovvDyZ.png
+SkySport8HD.de,Sky Sport 8 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/a/a9/Sky_Sport_8_HD_Logo_2020.png/512px-Sky_Sport_8_HD_Logo_2020.png
+SkySport9.de,Sky Sport 9,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/b/b0/Sky_Sport_9_Logo_2020.png/512px-Sky_Sport_9_Logo_2020.png
 SkySport9.it,Sky Sport 9,,,IT,,,c/IT,ita,sports,FALSE,,,,http://www.sky.it/pacchetti-offerte/sky-calcio.html,https://www.lyngsat.com/logo/tv/ss/sky-sport-it.png
 SkySport9.nz,Sky Sport 9,,,NZ,,,c/NZ,eng,sports,FALSE,,,,https://www.sky.co.nz/sky-sport,https://www.lyngsat.com/logo/tv/ss/sky-sport-nz.png
-SkySport9HD.de,Sky Sport 9 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
+SkySport9HD.de,Sky Sport 9 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/a/a1/Sky_Sport_9_HD_Logo_2020.png/512px-Sky_Sport_9_HD_Logo_2020.png
 SkySportAction.it,Sky Sport Action,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sky_Sport_Action.svg/512px-Sky_Sport_Action.svg.png
 SkySportActionHD.it,Sky Sport Action HD,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Sky_Sport_Action_HD.svg/512px-Sky_Sport_Action_HD.svg.png
 SkySportArena.it,Sky Sport Arena,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Sky_Sport_Arena_-_Logo_2020.svg/512px-Sky_Sport_Arena_-_Logo_2020.svg.png
 SkySportArenaHD.it,Sky Sport Arena HD,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sky_Sport_Arena_HD_-_Logo_2020.svg/512px-Sky_Sport_Arena_HD_-_Logo_2020.svg.png
+SkySportAustria.at,Sky Sport Austria,,,AT,,,c/AT,deu,sports,FALSE,,,,https://www.sky.at/,https://upload.wikimedia.org/wikipedia/de/thumb/6/60/Sky_Sport_Austria_2020.svg/512px-Sky_Sport_Austria_2020.svg.png
 SkySportAustria1.at,Sky Sport Austria 1,,,AT,,,c/AT,deu,sports,FALSE,,,,https://www.skysportaustria.at/,https://i.imgur.com/bB0HZDu.png
 SkySportAustria2.at,Sky Sport Austria 2,,,AT,,,c/AT,deu,sports,FALSE,,,,https://www.skysportaustria.at/,https://i.imgur.com/hK1hNlT.png
 SkySportAustria3.at,Sky Sport Austria 3,,,AT,,,c/AT,deu,sports,FALSE,,,,https://www.skysportaustria.at/,https://i.imgur.com/Kq7lhcY.png
@@ -19511,39 +19519,46 @@ SkySportAustria4.at,Sky Sport Austria 4,,,AT,,,c/AT,deu,sports,FALSE,,,,https://
 SkySportAustria5.at,Sky Sport Austria 5,,,AT,,,c/AT,deu,sports,FALSE,,,,https://www.skysportaustria.at/,https://i.imgur.com/PnI3ZAB.png
 SkySportAustria6.at,Sky Sport Austria 6,,,AT,,,c/AT,deu,sports,FALSE,,,,https://www.skysportaustria.at/,https://i.imgur.com/zNilG3u.png
 SkySportAustria7.at,Sky Sport Austria 7,,,AT,,,c/AT,deu,sports,FALSE,,,,https://www.skysportaustria.at/,https://i.imgur.com/4QH8heA.png
-SkySportBundesliga1.de,Sky Sport Bundesliga 1,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/cEsK7Md.png
-SkySportBundesliga10.de,Sky Sport Bundesliga 10,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesliga10HD.de,Sky Sport Bundesliga 10 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesliga1HD.de,Sky Sport Bundesliga 1 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/GVtItqi.png
-SkySportBundesliga2.de,Sky Sport Bundesliga 2,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://cdn.hd-plus.de/senderlogos/bright-cropped/24554-2.png
-SkySportBundesliga2HD.de,Sky Sport Bundesliga 2 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesliga3.de,Sky Sport Bundesliga 3,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://cdn.hd-plus.de/senderlogos/bright-cropped/24555-2.png
-SkySportBundesliga3HD.de,Sky Sport Bundesliga 3 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesliga4.de,Sky Sport Bundesliga 4,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://cdn.hd-plus.de/senderlogos/bright-cropped/24556-2.png
-SkySportBundesliga4HD.de,Sky Sport Bundesliga 4 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesliga5.de,Sky Sport Bundesliga 5,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesliga5HD.de,Sky Sport Bundesliga 5 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesliga6.de,Sky Sport Bundesliga 6,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesliga6HD.de,Sky Sport Bundesliga 6 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesliga7.de,Sky Sport Bundesliga 7,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesliga7HD.de,Sky Sport Bundesliga 7 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesliga8.de,Sky Sport Bundesliga 8,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesliga8HD.de,Sky Sport Bundesliga 8 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesliga9.de,Sky Sport Bundesliga 9,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesliga9HD.de,Sky Sport Bundesliga 9 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,
-SkySportBundesligaUHD.de,Sky Sport Bundesliga UHD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://i.imgur.com/LrdRGOU.png
+SkySportAustriaHD.at,Sky Sport Austria HD,,,AT,,,c/AT,deu,sports,FALSE,,,,https://www.sky.at/,https://upload.wikimedia.org/wikipedia/de/thumb/6/6b/Sky_Sport_Austria_HD_Logo_2020.png/512px-Sky_Sport_Austria_HD_Logo_2020.png
+SkySportBundesliga1.de,Sky Sport Bundesliga 1,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Sky_Sport_Bundesliga_1_DE_Logo_2020.svg/512px-Sky_Sport_Bundesliga_1_DE_Logo_2020.svg.png
+SkySportBundesliga10.de,Sky Sport Bundesliga 10,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/2/22/Sky_Sport_Bundesliga_10_Logo_2020.png/512px-Sky_Sport_Bundesliga_10_Logo_2020.png
+SkySportBundesliga10HD.de,Sky Sport Bundesliga 10 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Sky_Sport_Bundesliga_10_HD_Logo_2020.png/512px-Sky_Sport_Bundesliga_10_HD_Logo_2020.png
+SkySportBundesliga1HD.de,Sky Sport Bundesliga 1 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Sky_Sport_Bundesliga_1_HD_Logo_2020.png/512px-Sky_Sport_Bundesliga_1_HD_Logo_2020.png
+SkySportBundesliga2.de,Sky Sport Bundesliga 2,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/8/86/Sky_Sport_Bundesliga_2_Logo_2020.png/512px-Sky_Sport_Bundesliga_2_Logo_2020.png
+SkySportBundesliga2HD.de,Sky Sport Bundesliga 2 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sky_Sport_Bundesliga_2_HD_Logo_2020.png/512px-Sky_Sport_Bundesliga_2_HD_Logo_2020.png
+SkySportBundesliga3.de,Sky Sport Bundesliga 3,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/d/de/Sky_Sport_Bundesliga_3_Logo_2020.png/512px-Sky_Sport_Bundesliga_3_Logo_2020.png
+SkySportBundesliga3HD.de,Sky Sport Bundesliga 3 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Sky_Sport_Bundesliga_3_HD_Logo_2020.png/512px-Sky_Sport_Bundesliga_3_HD_Logo_2020.png
+SkySportBundesliga4.de,Sky Sport Bundesliga 4,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/f/f6/Sky_Sport_Bundesliga_4_Logo_2020.png/512px-Sky_Sport_Bundesliga_4_Logo_2020.png
+SkySportBundesliga4HD.de,Sky Sport Bundesliga 4 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Sky_Sport_Bundesliga_4_HD_Logo_2020.png/512px-Sky_Sport_Bundesliga_4_HD_Logo_2020.png
+SkySportBundesliga5.de,Sky Sport Bundesliga 5,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/c/cd/Sky_Sport_Bundesliga_5_Logo_2020.png/512px-Sky_Sport_Bundesliga_5_Logo_2020.png
+SkySportBundesliga5HD.de,Sky Sport Bundesliga 5 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sky_Sport_Bundesliga_5_HD_Logo_2020.png/512px-Sky_Sport_Bundesliga_5_HD_Logo_2020.png
+SkySportBundesliga6.de,Sky Sport Bundesliga 6,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/a/ad/Sky_Sport_Bundesliga_6_Logo_2020.png/512px-Sky_Sport_Bundesliga_6_Logo_2020.png
+SkySportBundesliga6HD.de,Sky Sport Bundesliga 6 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Sky_Sport_Bundesliga_6_HD_Logo_2020.png/512px-Sky_Sport_Bundesliga_6_HD_Logo_2020.png
+SkySportBundesliga7.de,Sky Sport Bundesliga 7,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/e/eb/Sky_Sport_Bundesliga_7_Logo_2020.png/512px-Sky_Sport_Bundesliga_7_Logo_2020.png
+SkySportBundesliga7HD.de,Sky Sport Bundesliga 7 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sky_Sport_Bundesliga_7_HD_Logo_2020.png/512px-Sky_Sport_Bundesliga_7_HD_Logo_2020.png
+SkySportBundesliga8.de,Sky Sport Bundesliga 8,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/4/4f/Sky_Sport_Bundesliga_8_Logo_2020.png/512px-Sky_Sport_Bundesliga_8_Logo_2020.png
+SkySportBundesliga8HD.de,Sky Sport Bundesliga 8 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Sport_Bundesliga_8_HD_Logo_2020.png/512px-Sky_Sport_Bundesliga_8_HD_Logo_2020.png
+SkySportBundesliga9.de,Sky Sport Bundesliga 9,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/7/70/Sky_Sport_Bundesliga_9_Logo_2020.png/512px-Sky_Sport_Bundesliga_9_Logo_2020.png
+SkySportBundesliga9HD.de,Sky Sport Bundesliga 9 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Sky_Sport_Bundesliga_9_HD_Logo_2020.png/512px-Sky_Sport_Bundesliga_9_HD_Logo_2020.png
+SkySportBundesligaUHD.de,Sky Sport Bundesliga UHD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Sky_Sport_Bundesliga_UHD_Logo_2020.png/512px-Sky_Sport_Bundesliga_UHD_Logo_2020.png
 SkySportCalcio.it,Sky Sport Calcio,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Sky_Sport_Calcio.svg/512px-Sky_Sport_Calcio.svg.png
 SkySportCalcioHD.it,Sky Sport Calcio HD,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Sky_Sport_Calcio_HD.svg/512px-Sky_Sport_Calcio_HD.svg.png
-SkySportF1.de,Sky Sport F1,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/mehr-sport/formel-1-170562,https://www.lyngsat.com/logo/tv/ss/sky-sport-f1-de.png
+SkySportF1.de,Sky Sport F1,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/mehr-sport/formel-1-170562,https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/512px-Sky_Sport_F1_-_Logo_2020.svg.png
 SkySportF1.it,Sky Sport F1,,,IT,,,c/IT,ita,sports,FALSE,,,,http://sport.sky.it/sport/formula1/home.html,https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/512px-Sky_Sport_F1_-_Logo_2020.svg.png
+SkySportF1HD.de,Sky Sport F1 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/mehr-sport/formel-1-170562,https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Sky_Sport_F1_-_Logo_2020.svg/512px-Sky_Sport_F1_-_Logo_2020.svg.png
 SkySportF1HD.it,Sky Sport F1 HD,,,IT,,,c/IT,ita,sports,FALSE,,,,http://sport.sky.it/sport/formula1/home.html,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sky_Sport_F1_HD_-_Logo_2020.svg/512px-Sky_Sport_F1_HD_-_Logo_2020.svg.png
 SkySportFootball.it,Sky Sport Football,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Sky_Sport_Football_-_Logo_2020.svg/512px-Sky_Sport_Football_-_Logo_2020.svg.png
 SkySportFootballHD.it,Sky Sport Football HD,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Sky_Sport_Football_HD_-_Logo_2020.svg/512px-Sky_Sport_Football_HD_-_Logo_2020.svg.png
+SkySportKompakt1HD.de,Sky Sport Kompakt 1 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Sky_Sport_Kompakt_1_HD_Logo.png/512px-Sky_Sport_Kompakt_1_HD_Logo.png
+SkySportKompakt2HD.de,Sky Sport Kompakt 2 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Sky_Sport_Kompakt_2_HD_Logo.png/512px-Sky_Sport_Kompakt_2_HD_Logo.png
+SkySportKompakt3HD.de,Sky Sport Kompakt 3 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Sky_Sport_Kompakt_3_HD_Logo.png/512px-Sky_Sport_Kompakt_3_HD_Logo.png
+SkySportKompakt4HD.de,Sky Sport Kompakt 4 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Sky_Sport_Kompakt_4_HD_Logo.png/512px-Sky_Sport_Kompakt_4_HD_Logo.png
+SkySportKompakt5HD.de,Sky Sport Kompakt 5 HD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Sky_Sport_Kompakt_5_HD_Logo.png/512px-Sky_Sport_Kompakt_5_HD_Logo.png
 SkySportMotoGP.it,Sky Sport Moto GP,,,IT,,,c/IT,ita,sports,FALSE,,,,http://sport.sky.it/sport/motogp/,https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Sky_Sport_MotoGP_-_Logo_2020.svg/512px-Sky_Sport_MotoGP_-_Logo_2020.svg.png
 SkySportMotoGPHD.it,Sky Sport Moto GP HD,,,IT,,,c/IT,ita,sports,FALSE,,,,http://sport.sky.it/sport/motogp/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Sky_Sport_MotoGP_HD_-_Logo_2020.svg/512px-Sky_Sport_MotoGP_HD_-_Logo_2020.svg.png
 SkySportNBA.it,Sky Sport NBA,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sky_Sport_NBA_-_Logo_2020.svg/512px-Sky_Sport_NBA_-_Logo_2020.svg.png
 SkySportNBAHD.it,Sky Sport NBA HD,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Sky_Sport_NBA_HD_-_Logo_2020.svg/512px-Sky_Sport_NBA_HD_-_Logo_2020.svg.png
-SkySportNews.de,Sky Sport News,,,DE,,,c/DE,deu,sports,FALSE,,,,https://sport.sky.de/,https://cdn.hd-plus.de/senderlogos/bright-cropped/22014-2.png
+SkySportNews.de,Sky Sport News,,,DE,,,c/DE,deu,sports,FALSE,,,,https://sport.sky.de/,https://upload.wikimedia.org/wikipedia/de/thumb/c/cc/Sky_Sport_News_2020.svg/512px-Sky_Sport_News_2020.svg.png
 SkySportNews.nz,Sky Sport News,,,NZ,,,c/NZ,eng,sports,FALSE,,,,https://www.sky.co.nz/sky-sport,https://www.lyngsat.com/logo/tv/ss/sky-sport-nz.png
 SkySports.kr,Sky Sports,,,KR,,,c/KR,kor,sports,FALSE,2014-08-01,,,http://www.sky-k.co.kr/,https://i.imgur.com/tdmsXvp.png
 SkySports1.mx,Sky Sports 1,,,MX,,,c/MX,spa,sports,FALSE,,,,http://www.sky.com.mx/,https://imagenes.gatotv.com/logos/canales/oscuros/sky_sports_1_mexico-mediano.png
@@ -19581,7 +19596,7 @@ SkySportsPremierLeague.uk,Sky Sports Premier League,,,UK,,,c/UK;c/IE,eng,sports,
 SkySportsRacing.uk,Sky Sports Racing,,,UK,,,c/UK;c/IE,eng,sports,FALSE,,2004-03-29,,https://www.skysports.com/racing,https://i.imgur.com/Wn1fS4q.png
 SkySportTennis.it,Sky Sport Tennis,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sky_Sport_Tennis.svg/512px-Sky_Sport_Tennis.svg.png
 SkySportTennisHD.it,Sky Sport Tennis HD,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Sky_Sport_Tennis_HD.svg/512px-Sky_Sport_Tennis_HD.svg.png
-SkySportUHD.de,Sky Sport UHD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://www.lyngsat.com/logo/tv/ss/sky-sport-uhd-de.png
+SkySportUHD.de,Sky Sport UHD,,,DE,,,c/DE,deu,sports,FALSE,,,,https://www.sky.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Sky_Sport_UHD_DE_Logo_09_2020.png/512px-Sky_Sport_UHD_DE_Logo_09_2020.png
 SkySportUno.it,Sky Sport Uno,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Sky_Sport_Uno_-_Logo_2020.svg/512px-Sky_Sport_Uno_-_Logo_2020.svg.png
 SkySportUnoHD.it,Sky Sport Uno HD,,,IT,,,c/IT,ita,sports,FALSE,,,,https://sport.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sky_Sport_Uno_HD_-_Logo_2020.svg/512px-Sky_Sport_Uno_HD_-_Logo_2020.svg.png
 SkyTG24.it,Sky TG 24,,,IT,,,c/IT,ita,,FALSE,,,,https://tg24.sky.it/,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Sky_TG24_-_Logo_2021.svg/512px-Sky_TG24_-_Logo_2021.svg.png
@@ -19837,7 +19852,8 @@ Sport1.ua,Sport 1,,,UA,,,c/UA;c/RU,ukr,sports,FALSE,,,,,https://i.imgur.com/wBJI
 Sport10.be,Sport 10,,,BE,,,c/BE,nld,sports,FALSE,,,,https://www.sport10.be/,https://uploads-ssl.webflow.com/614c35e6eb33faf0c3c50d91/614c7bd82fc9a77a279bafb4_Logo%20Sport10%20vector-p-500.png
 Sport1Czechia.hu,Sport 1 Czechia,,,HU,,,c/HU,ces;slk,sports,FALSE,,,,http://www.sport1tv.cz/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/sport1.png
 Sport1Hungary.hu,Sport 1 Hungary,,,HU,,,c/HU,hun,sports,FALSE,,,,http://www.sport1tv.hu/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/hu_sport1.png
-Sport1Plus.de,Sport 1+,,,DE,,,c/DE,deu;eng,sports,FALSE,,,,https://tv.sport1.de/sport1plus/,https://cdn.hd-plus.de/senderlogos/bright-cropped/24565-2.png
+Sport1Plus.de,Sport 1+,,,DE,,,c/DE,deu;eng,sports,FALSE,,,,https://tv.sport1.de/sport1plus/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Logo_Sport1%2B_2013.svg/512px-Logo_Sport1%2B_2013.svg.png
+Sport1PlusHD.de,Sport 1+ HD,,,DE,,,c/DE,deu;eng,sports,FALSE,,,,https://tv.sport1.de/sport1plus/,https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Logo_Sport1%2BHD_2013.svg/512px-Logo_Sport1%2BHD_2013.svg.png
 Sport2.il,Sport 2,,,IL,,,c/IL,heb,sports,FALSE,,,,https://sport1.maariv.co.il/,https://www.lyngsat.com/logo/tv/ss/sport-2-il.png
 Sport24.uk,Sport 24,,,UK,,,c/UK,eng,sports,FALSE,,,,https://sport24live.com/,https://www.lyngsat.com/logo/tv/ss/sport-24-uk.png
 Sport2Czechia.hu,Sport 2 Czechia,,,HU,,,c/HU,ces;slk,sports,FALSE,,,,http://www.sport1tv.cz/,https://www.sms.cz/kategorie/televize/bmp/loga/velka/sport2.png
@@ -19849,6 +19865,7 @@ Sportal.bg,Sportal.bg,,,BG,,,c/BG,bul,sports,FALSE,,,,,
 SportalTV.bg,Sportal TV,,,BG,,,c/BG,bul,sports,FALSE,,,,https://www.sportal.bg/,https://www.lyngsat.com/logo/tv/ss/sportal-tv-bg.png
 SportcastGolf2.tw,Sportcast Golf 2,,,TW,,,c/TW,zho,sports,FALSE,,,,http://www.sportcast.com.tw/golf.php?item_id=2&i=4,https://www.lyngsat.com/logo/tv/ss/sportcast-golf-2-tw.png
 SportdigitalFussball.de,Sportdigital Fussball,,,DE,,,c/DE,deu;eng,sports,FALSE,,,,https://start.sportdigital.de/,https://i.imgur.com/QHSi3uE.png
+SportdigitalHD.de,Sportdigital HD,,,DE,,,c/DE,deu;eng,sports,FALSE,,,,https://start.sportdigital.de/,https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Sport-Digital_hd.svg/512px-Sport-Digital_hd.svg.png
 SportenFrance.fr,Sport en France,,,FR,,,c/FR,fra,sports,FALSE,2019-05-28,,,https://www.sportenfrance.com/,https://proxymedia.woopic.com/api/v1/images/553%2Flogos%2Fv2%2Flogos%2Flivetv_sportenfrance%2F20190513_093153%2FwebTVLogo%2Flogo_180x96.png
 SportExtra.ro,Sport Extra,,,RO,,,c/RO,ron,sports,FALSE,2020-03-02,,,https://www.sportextra.ro/,https://static.cinemagia.ro/img/tv_station/sport-extra.jpg
 SportingTV.pt,Sporting TV,,,PT,,,c/PT,por,sports,FALSE,2014-07-17,,,http://www.sporting.pt/,https://www.meo.pt/PublishingImages/canais/sporting-tv.png
@@ -19962,13 +19979,10 @@ SSport.tr,S Sport,,,TR,,,c/TR,tur;eng,sports,FALSE,,,,https://www.ssport.tv/,htt
 SSport2.tr,S Sport 2,,,TR,,,c/TR,tur;eng,sports,FALSE,,,,https://www.ssport.tv/,https://www.dsmart.com.tr/epg/images/0x50/5ff5d2f7cfef0b15933651d9
 SSSRTV.ru,SSSR TV,,,RU,,,c/RU,rus,,FALSE,,,,,https://i.imgur.com/nbU9acb.jpeg
 STAdepa.cn,ST Adepa,,,CN,,,c/CN,eng,,FALSE,,,,https://www.startimestv.com/,https://www.lyngsat.com/logo/tv/ss/st-adepa-cn.png
-Stadium.us,Stadium,,,US,,,c/US,eng,sports,FALSE,,,,,https://i.imgur.com/n38w3FD.png
-Stadium1.us,Stadium 1,,,US,,,c/US,eng,sports,FALSE,,,,,
-Stadium2.us,Stadium 2,,,US,,,c/US,eng,sports,FALSE,,,,,
-Stadium3.us,Stadium 3,,,US,,,c/US,eng,sports,FALSE,,,,,
-StadiumCollegeSportsAtlantic.us,Stadium College Sports Atlantic,,,US,,,c/US,eng,sports,FALSE,,,,,
-StadiumCollegeSportsCentral.us,Stadium College Sports Central,,,US,,,c/US,eng,sports,FALSE,,,,,
-StadiumCollegeSportsPacific.us,Stadium College Sports Pacific,,,US,,,c/US,eng,sports,FALSE,,,,,
+Stadium.us,Stadium,,,US,,,c/US,eng,sports,FALSE,2017-08-21,,,https://watchstadium.com/,https://upload.wikimedia.org/wikipedia/en/thumb/5/53/Stadium_%28sports_network%29_logo.svg/512px-Stadium_%28sports_network%29_logo.svg.png
+StadiumCollegeSportsAtlantic.us,Stadium College Sports Atlantic,,,US,,,c/US,eng,sports,FALSE,2004-09-04,,,https://watchstadium.com/,https://i.imgur.com/TxENpC1.png
+StadiumCollegeSportsCentral.us,Stadium College Sports Central,,,US,,,c/US,eng,sports,FALSE,2004-09-04,,,https://watchstadium.com/,https://i.imgur.com/Cr8Auw8.png
+StadiumCollegeSportsPacific.us,Stadium College Sports Pacific,,,US,,,c/US,eng,sports,FALSE,2004-09-04,,,https://watchstadium.com/,https://i.imgur.com/pFWaAv4.png
 STAfrica2.cn,ST Africa 2,,,CN,,,r/AFR,eng,,FALSE,,,,https://www.startimestv.com/,https://i.imgur.com/rdMdGTv.png
 StandUpTV.us,Stand-Up TV,,,US,,,c/US,eng,comedy,FALSE,,,,https://pluto.tv/en/live-tv/stand-up-tv,https://images.pluto.tv/channels/5637d31f319573e26b64040b/colorLogoPNG.png
 Star.gr,Star,,,GR,,,c/GR,ell,,FALSE,,,,,https://i.imgur.com/4HSJigE.png
@@ -22470,16 +22484,15 @@ TVGEvento5.es,TVG Evento 5,,,ES,,,c/ES,spa,,FALSE,,,,,https://graph.facebook.com
 TVGideoes.br,TV Gideoes,,,BR,,,c/BR,por,religious,FALSE,,,,,https://www.gideoes.com.br/wp-content/uploads/2018/12/logotipo-tvgideoes.png
 TVGInfantil.es,TVG Infantil,,,ES,,,c/ES,glg,,FALSE,,,,,https://i.imgur.com/KgbNv4G.png
 TVGirona.es,TV Girona,,,ES,,,c/ES,cat,,FALSE,,,,,https://i.imgur.com/khRXhT1.png
-TVGloboBrasilia.br,TV Globo Brasília,,,BR,,,c/BR,por,,FALSE,,,,http://g1.globo.com/distrito-federal/,https://cdn.mitvstatic.com/channels/globo_m.jpg
-TVGloboCeara.br,TV Globo Ceará,,,BR,,,c/BR,por,,FALSE,,,,,
-TVGloboInternacionalAfrica.br,TV Globo Internacional Africa,,,BR,,,c/BR,por,,FALSE,,,,https://globointernacional.globo.com/Africa/Paginas/home.aspx,https://www.zap.co.ao/media/cache/movie_thumb/uploads/ao/channels/5fbfdb3a582ef.png
-TVGloboInternacionalAmericas.br,TV Globo Internacional Américas,,,BR,,,c/BR,por;spa,,FALSE,,,,http://globointernacional.globo.com/Americas/Paginas/home.aspx,https://www.directv.com/images/logos/channels/dark/large/700.png
-TVGloboMinas.br,TV Globo Minas,,,BR,,,c/BR,por,,FALSE,,,,http://redeglobo.globo.com/globominas/,
-TVGloboNordeste.br,TV Globo Nordeste,,,BR,,,c/BR,por,,FALSE,,,,http://redeglobo.globo.com/globonordeste/,https://cdn.mitvstatic.com/channels/br_globo-nordeste-hd_m.png
-TVGloboPernambuco.br,TV Globo Pernambuco,,,BR,,,c/BR,por,,FALSE,,,,http://g1.globo.com/pernambuco/,
-TVGloboPremium.br,TV Globo Premium,,,BR,,,c/BR,por,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/tv-globo-premium-br.png
-TVGloboRiodeJaneiro.br,TV Globo Rio de Janeiro,,,BR,,,c/BR,por,,FALSE,,,,https://redeglobo.globo.com/,https://cdn.mitvstatic.com/channels/globo_m.jpg
-TVGloboSaoPaulo.br,TV Globo São Paulo,,,BR,,,c/BR,por,,FALSE,,,,https://g1.globo.com/sp/sao-paulo/,https://cdn.mitvstatic.com/channels/globo_m.jpg
+TVGloboBrasilia.br,TV Globo Brasilia,TV Globo Brasília,,BR,,,c/BR,por,,FALSE,,,,http://redeglobo.globo.com/globobrasilia,https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/Logotipo_da_TV_Globo.png/512px-Logotipo_da_TV_Globo.png
+TVGloboInternacionalAfrica.br,TV Globo Internacional Africa,TV Globo Internacional África,,BR,,,r/AFR,por,,FALSE,,,,https://globointernacional.globo.com/Africa/Paginas/home.aspx,https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/Logotipo_da_TV_Globo.png/512px-Logotipo_da_TV_Globo.png
+TVGloboInternacionalAmericas.br,TV Globo Internacional Americas,TV Globo Internacional Américas,,BR,,,r/AMER,por;spa,,FALSE,,,,http://globointernacional.globo.com/Americas/Paginas/home.aspx,https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/Logotipo_da_TV_Globo.png/512px-Logotipo_da_TV_Globo.png
+TVGloboInternacionalAsia.br,TV Globo Internacional Asia,,,BR,,,r/SAS;r/OCE,por,,FALSE,,,,https://globointernacional.globo.com/Asia/Paginas/home.aspx,https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/Logotipo_da_TV_Globo.png/512px-Logotipo_da_TV_Globo.png
+TVGloboInternacionalEuropa.br,TV Globo Internacional Europa,,,BR,,,r/EUR,por,,FALSE,,,,https://globointernacional.globo.com/Europa/Paginas/home.aspx,https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/Logotipo_da_TV_Globo.png/512px-Logotipo_da_TV_Globo.png
+TVGloboMinas.br,TV Globo Minas,,,BR,,,c/BR,por,,FALSE,,,,http://redeglobo.globo.com/globominas/,https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/Logotipo_da_TV_Globo.png/512px-Logotipo_da_TV_Globo.png
+TVGloboNordeste.br,TV Globo Nordeste,,,BR,,,c/BR,por,,FALSE,,,,http://redeglobo.globo.com/globonordeste/,https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/Logotipo_da_TV_Globo.png/512px-Logotipo_da_TV_Globo.png
+TVGloboRiodeJaneiro.br,TV Globo Rio de Janeiro,,,BR,,,c/BR,por,,FALSE,,,,http://redeglobo.globo.com/rio,https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/Logotipo_da_TV_Globo.png/512px-Logotipo_da_TV_Globo.png
+TVGloboSaoPaulo.br,TV Globo Sao Paulo,TV Globo São Paulo,,BR,,,c/BR,por,,FALSE,,,,http://redeglobo.globo.com/sao-paulo,https://upload.wikimedia.org/wikipedia/pt/thumb/9/9e/Logotipo_da_TV_Globo.png/512px-Logotipo_da_TV_Globo.png
 TVGloria.mz,TV Glória,,,MZ,,,c/MZ,por,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/tv-gloria-mz.png
 TVGMomento.es,TVG Momento,,,ES,,,c/ES,glg,,FALSE,,,,,https://i.imgur.com/QkhxAuY.png
 TVGMPlus.rs,TV GM Plus,,,RS,,,c/RS,srp,,FALSE,,,,,https://mts.rs/oec/images/tv_channels/b426469dec8af9626be777d2d7712767.jpg
@@ -23092,15 +23105,35 @@ TyCSportsInternacional.ar,TyC Sports Internacional,,,AR,,,c/AR,spa,sports,FALSE,
 TYTNetwork.us,TYT Network,,,US,,,c/US,eng,news,FALSE,,,,https://pluto.tv/en/live-tv/tyt-network,https://images.pluto.tv/channels/5331d5fb753499095a00045a/colorLogoPNG.png
 TZiK.fr,TZiK,,,FR,,,c/FR,eng,music,FALSE,,,,https://www.tzik.com/,https://i.imgur.com/6Iw1YRL.png
 U.ru,U,,,RU,,,c/RU,rus,entertainment,FALSE,,,,https://www.u-tv.ru/,https://upload.wikimedia.org/wikipedia/ru/a/ac/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%AE%C2%BB_%28%D1%81_3_%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F_2018_%D0%B3%D0%BE%D0%B4%D0%B0%29.png
-UADonbas.ua,UA: Donbas,UA: Донбас,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,https://dn.suspilne.media/,https://i.imgur.com/OiQyhb5.png
-UAKrym.ua,UA: Krym,UA: Крим,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,https://crimea.suspilne.media/,https://i.imgur.com/8HKYVwg.png
-UAKultura.ua,UA: Kultura,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,,
+UABukovina.ua,UA: Bukovina,UA: Буковина,,UA,,,c/UA;c/RU,ukr,general,FALSE,,,,https://cv.suspilne.media/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/U%CE%9B._Bukovina.svg/512px-U%CE%9B._Bukovina.svg.png
+UACherkasy.ua,UA: Cherkasy,UA: Черкаси,,UA,,,c/UA;c/RU,ukr,general,FALSE,1954-01-01,,,https://ck.suspilne.media/,https://i.imgur.com/qikZAAP.png
+UAChernihiv.ua,UA: Chernihiv,UA: Чернігів,,UA,,,c/UA;c/RU,ukr,general,FALSE,1933-01-01,,,https://cn.suspilne.media/,https://i.imgur.com/PpMHkf1.png
+UACrimea.ua,UA: Crimea,UA: Крим,,UA,,,c/UA;c/RU,ukr,general,FALSE,2010-11-30,,,https://crimea.suspilne.media/,https://i.imgur.com/8HKYVwg.png
+UACulture.ua,UA: Culture,UA: Культура,,UA,,,c/UA;c/RU,ukr,culture,FALSE,2002-01-01,,,https://suspilne.media/culture/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/UA_Kultura_logo.png/512px-UA_Kultura_logo.png
+UADnipro.ua,UA: Dnipro,UA: Дніпро,,UA,,,c/UA;c/RU,ukr,general,FALSE,1958-04-30,,,https://dp.suspilne.media/,https://i.imgur.com/PaNsRhc.png
+UADonbas.ua,UA: Donbas,UA: Донбас,,UA,,,c/UA;c/RU,ukr,general,FALSE,1956-06-21,,,https://dn.suspilne.media/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/U%CE%9B._Donbas.svg/512px-U%CE%9B._Donbas.svg.png
+UAFirst.ua,UA: First,UA: Перший,,UA,,,c/UA;c/RU,ukr,general,FALSE,1951-11-06,,,https://tv.suspilne.media/,https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_UA-%D0%9F%D0%B5%D1%80%D1%88%D0%B8%D0%B9_2017.svg/512px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_UA-%D0%9F%D0%B5%D1%80%D1%88%D0%B8%D0%B9_2017.svg.png
+UAKarpati.ua,UA: Karpati,UA: Карпати,,UA,,,c/UA;c/RU,ukr,general,FALSE,1940-01-01,,,https://if.suspilne.media/,https://i.imgur.com/yLrzxe9.png
+UAKharkiv.ua,UA: Kharkiv,UA: Харків,,UA,,,c/UA;c/RU,ukr,general,FALSE,1951-01-01,,,https://kh.suspilne.media/,https://i.imgur.com/Bcj5Nyi.png
+UAKherson.ua,UA: Kherson,UA: Херсон,,UA,,,c/UA;c/RU,ukr,general,FALSE,1959-01-01,,,https://ks.suspilne.media/,https://i.imgur.com/7vnDL5M.png
+UAKropyvnytskyi.ua,UA: Kropyvnytskyi,UA: Кропивницький,,UA,,,c/UA;c/RU,ukr,general,FALSE,,,,https://kr.suspilne.media/,https://i.imgur.com/zoyZMoF.png
+UAKyiv.ua,UA: Kyiv,UA: Київ,,UA,,,c/UA;c/RU,ukr,general,FALSE,1995-12-12,,,https://central.suspilne.media/,https://i.imgur.com/ZdwPAit.png
 UALRTV.us,UALR TV,,,US,,,c/US,eng,,FALSE,,,,,https://i.imgur.com/MrLTXL1.jpg
-UAOdesa.ua,UA: Odesa,,,UA,,Odesa,c/UA,ukr,,FALSE,,,,,
-UAPershiy.ua,UA: Pershiy,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,,
+UALviv.ua,UA: Lviv,UA: Львів,,UA,,,c/UA;c/RU,ukr,general,FALSE,1957-12-24,,,https://lv.suspilne.media/,https://i.imgur.com/9FocIk7.png
+UAMykolaiv.ua,UA: Mykolaiv,UA: Миколаїв,,UA,,,c/UA;c/RU,ukr,general,FALSE,1959-01-01,,,https://mk.suspilne.media/,https://i.imgur.com/1DNf0cv.png
+UAOdesa.ua,UA: Odesa,UA: Одеса,,UA,,Odesa,c/UA;c/RU,ukr,general,FALSE,1958-11-05,,,https://od.suspilne.media/,https://i.imgur.com/UbymJ5U.png
+UAPodillya.ua,UA: Podillya,UA: Поділля,,UA,,,c/UA;c/RU,ukr,general,FALSE,1991-09-01,,,https://km.suspilne.media/,https://i.imgur.com/0TDc55l.png
+UAPoltava.ua,UA: Poltava,UA: Полтава,,UA,,,c/UA;c/RU,ukr,general,FALSE,1977-07-01,,,https://pl.suspilne.media/,https://i.imgur.com/Gd6oFwv.png
+UARivne.ua,UA: Rivne,UA: Рівне,,UA,,,c/UA;c/RU,ukr,general,FALSE,1995-01-01,,,https://rv.suspilne.media/,https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/UA-%D0%A0%D1%96%D0%B2%D0%BD%D0%B5.svg/512px-UA-%D0%A0%D1%96%D0%B2%D0%BD%D0%B5.svg.png
+UASumy.ua,UA: Sumy,UA: Суми,,UA,,,c/UA;c/RU,ukr,general,FALSE,1961-01-01,,,https://sm.suspilne.media/,https://i.imgur.com/vzbBrgP.png
+UATernopil.ua,UA: Ternopil,UA: Тернопіль,,UA,,,c/UA;c/RU,ukr,general,FALSE,1940-01-01,,,https://te.suspilne.media/,https://i.imgur.com/Tm66wnW.png
 UATV.cl,UATV,,,CL,,,c/CL,spa,,FALSE,,,,,https://uatv.cl/wp-content/uploads/2016/01/marcauatv_2.png
-UATV.ua,UA TV,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,https://uatv.ua/,https://i.imgur.com/lNH1pkZ.jpg
-UAZakarpattya.ua,UA: Zakarpattya,,,UA,,,c/UA;c/RU,ukr,,FALSE,,,,,
+UATV.ua,UATV,,,UA,,,c/UA;c/RU,ukr,general,FALSE,2015-10-01,,,https://uatv.ua/,https://upload.wikimedia.org/wikipedia/uk/thumb/d/d8/Logo_uatv.svg/512px-Logo_uatv.svg.png
+UAVinnytsia.ua,UA: Vinnytsia,UA: Вінниця,,UA,,,c/UA;c/RU,ukr,general,FALSE,1932-01-01,,,https://vn.suspilne.media/,https://i.imgur.com/N4ExKGH.png
+UAVolyn.ua,UA: Volyn,UA: Волинь,,UA,,,c/UA;c/RU,ukr,general,FALSE,1991-11-25,,,https://vo.suspilne.media/,https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/U%CE%9B._Volyn.svg/512px-U%CE%9B._Volyn.svg.png
+UAZakarpattia.ua,UA: Zakarpattia,UA: Закарпаття,,UA,,,c/UA;c/RU,ukr,general,FALSE,,,,https://uz.suspilne.media/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/UAZakarpattya.svg/512px-UAZakarpattya.svg.png
+UAZaporizhia.ua,UA: Zaporizhia,UA: Запоріжжя,,UA,,,c/UA;c/RU,ukr,general,FALSE,1959-07-10,,,https://zp.suspilne.media/,https://i.imgur.com/jOP5btt.png
+UAZhitomir.ua,UA: Zhitomir,UA: Житомир,,UA,,,c/UA;c/RU,ukr,general,FALSE,,,,https://zt.suspilne.media/,https://i.imgur.com/6i10NFF.png
 UBCStarTV.ug,UBC Star TV,,,UG,,,c/UG,eng,,FALSE,,,,https://ubc.go.ug/tv/star-tv/,https://www.lyngsat.com/logo/tv/uu/ubc-star-ug.png
 UBCTV.kr,UBC TV,,,KR,,,c/KR,kor,,FALSE,1997-09-01,,,http://web.ubc.co.kr/wp/tv,https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Ubc_logo2.svg/512px-Ubc_logo2.svg.png
 UBCTV.ug,UBC TV,,,UG,,,c/UG,eng,,FALSE,,,,https://ubc.go.ug/tv/ubc-tv/,https://rndcdn.dstv.com/dstvcms/2020/10/21/UBC_NEW_2020_logo_4-3-LightBackground_xlrg.png
@@ -23307,22 +23340,22 @@ Vamos.es,#Vamos,,,ES,,,c/ES,spa,,FALSE,,,,http://www.movistarplus.es/vamos,
 VamosBar.es,#Vamos Bar,,,ES,,,c/ES,spa,,FALSE,,,,http://www.movistarplus.es/vamos,
 VamosBar1.es,#Vamos Bar 1,,,ES,,,c/ES,spa,,FALSE,,,,http://www.movistarplus.es/vamos,
 VamosBar2.es,#Vamos Bar 2,,,ES,,,c/ES,spa,,FALSE,,,,http://www.movistarplus.es/vamos,
-VANDEGujarat1.in,VANDE Gujarat 1,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat10.in,VANDE Gujarat 10,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat11.in,VANDE Gujarat 11,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat12.in,VANDE Gujarat 12,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat13.in,VANDE Gujarat 13,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat14.in,VANDE Gujarat 14,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat15.in,VANDE Gujarat 15,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat16.in,VANDE Gujarat 16,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat2.in,VANDE Gujarat 2,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat3.in,VANDE Gujarat 3,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat4.in,VANDE Gujarat 4,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat5.in,VANDE Gujarat 5,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat6.in,VANDE Gujarat 6,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat7.in,VANDE Gujarat 7,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat8.in,VANDE Gujarat 8,,,IN,,,c/IN,hin,,FALSE,,,,,
-VANDEGujarat9.in,VANDE Gujarat 9,,,IN,,,c/IN,hin,,FALSE,,,,,
+VandeGujarat1.in,Vande Gujarat 1,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/rO6ai6H.png
+VandeGujarat10.in,Vande Gujarat 10,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/qVl6UCe.png
+VandeGujarat11.in,Vande Gujarat 11,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/kpTaJL2.png
+VandeGujarat12.in,Vande Gujarat 12,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/OEl7SZk.png
+VandeGujarat13.in,Vande Gujarat 13,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/7WOE07c.png
+VandeGujarat14.in,Vande Gujarat 14,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/lYQoOob.png
+VandeGujarat15.in,Vande Gujarat 15,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/nfMTQek.png
+VandeGujarat16.in,Vande Gujarat 16,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/ojWCtqf.png
+VandeGujarat2.in,Vande Gujarat 2,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/iGP2h5L.png
+VandeGujarat3.in,Vande Gujarat 3,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/IU6dkhQ.png
+VandeGujarat4.in,Vande Gujarat 4,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/p0cn0fV.png
+VandeGujarat5.in,Vande Gujarat 5,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/6ia8OAD.png
+VandeGujarat6.in,Vande Gujarat 6,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/RknYdDX.png
+VandeGujarat7.in,Vande Gujarat 7,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/BE8r1St.png
+VandeGujarat8.in,Vande Gujarat 8,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/ygBPWcI.png
+VandeGujarat9.in,Vande Gujarat 9,,,IN,,,c/IN,hin,,FALSE,2015-01-01,,,http://bisag.gujarat.gov.in/,https://i.imgur.com/6ueNdcx.png
 VanithaTV.in,Vanitha TV,,,IN,,,c/IN,tel,,FALSE,,,,,https://www.lyngsat.com/logo/tv/vv/vanitha_tv.png
 VanityFair.us,Vanity Fair,,,US,,,c/US,eng,lifestyle,FALSE,,,,,https://i.imgur.com/KMUYfnz.jpg
 VanphenhTV.vn,Vanphenh TV,,,VN,,,c/VN,vie,,FALSE,,,,,

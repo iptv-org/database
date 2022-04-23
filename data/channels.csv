@@ -2885,10 +2885,10 @@ Canal29.cl,Canal 29,,,CL,,,c/CL,spa,,FALSE,,,,,https://i.imgur.com/iQ5Umwj.jpg
 Canal2International.cm,Canal 2 International,,,CM,,,c/CM,fra,,FALSE,,,,http://www.canal2international.net/,https://service.canal-overseas.com/image-api/v1/image/98792d8bc7ba60dcb29ce857a71079cd
 Canal2Jujuy.ar,Canal 2 Jujuy,,,AR,,,c/AR,spa,,FALSE,,,,,
 Canal2Movies.cm,Canal 2 Movies,,,CM,,,c/CM,fra,movies,FALSE,,,,http://www.canal2international.net/,https://service.canal-overseas.com/image-api/v1/image/2c1149a7c5c63890f8edc3c364873d5a
-Canal2SanAntonio.cl,Canal 2 San Antonio,,,CL,,,c/CL,spa,,FALSE,,,,,
+Canal2SanAntonio.cl,Canal 2,,,CL,CL-VS,San Antonio,c/CL,spa,,FALSE,,,,https://cablenoticias.cl/canal2/,https://graph.facebook.com/canal2tvsanantonio/picture?width=320&height=320
 Canal3.bf,Canal 3,,,BF,,,c/BF,fra,,FALSE,,,,,https://service.canal-overseas.com/image-api/v1/image/aca3517fc5eb3225cf344a90944adc1a
 Canal3.gt,Canal 3,,,GT,,,c/GT,spa,,FALSE,,,,https://www.chapintv.com/,https://www.lyngsat-logo.com/logo/tv/cc/canal3_super_canal.png
-Canal33.cl,Canal 33,,,CL,,,c/CL,spa,,FALSE,,,,,https://www.canal33.cl/assets/images/logo.png
+Canal33.cl,Canal 33,,,CL,CL-AR,Temuco,c/CL,spa,culture,FALSE,,,,https://www.canal33.cl/,https://www.canal33.cl/assets/images/logo.png
 Canal33.ro,Canal33,,,RO,,,c/RO,ron,business,FALSE,,,,,https://i.imgur.com/BxUibFh.png
 Canal33.sv,Canal 33,,,SV,,,c/SV,spa,,FALSE,,,,,https://canal33.tv/home/wp-content/uploads/2019/08/200.png
 Canal33Madrid.es,Canal 33 Madrid,,,ES,,,c/ES,spa,,FALSE,,,,,https://i.imgur.com/1zJpDIX.png
@@ -2923,7 +2923,7 @@ Canal6.ni,Canal 6,,,NI,,,c/NI,spa,,FALSE,,,,https://canal6.com.ni/,https://uploa
 Canal6.sv,Canal 6,,,SV,,,c/SV,spa,,FALSE,,,,,https://cdn.mitvstatic.com/channels/sv_canal-6-nacional_m.png
 Canal6Nacional.mx,Canal 6 Nacional,,,MX,,,c/MX,spa,,FALSE,,,,https://www.multimedios.com/television,https://www.directv.com/images/logos/channels/dark/large/049.png
 Canal6USA.us,Canal 6 USA,,,US,,,c/US,spa,,FALSE,,,,https://www.multimedios.com/television,https://www.lyngsat.com/logo/tv/cc/canal-6-mx.png
-Canal74SanAntonio.cl,Canal 74,,,CL,CL-VS,San Antonio,c/CL,spa,,FALSE,,,,https://www.canal74.cl/,
+Canal74SanAntonio.cl,Canal 74,,,CL,CL-VS,San Antonio,c/CL,spa,,FALSE,,,,https://www.canal74.cl/,https://pbs.twimg.com/profile_images/1233210919070638081/LFXXLzrw_400x400.jpg
 Canal7Chubut.ar,Canal 7 Chubut,,,AR,,,c/AR,spa,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/canal-7-chubut-ar.png
 Canal7Jujuy.ar,Canal 7 Jujuy,,,AR,,,c/AR,spa,,FALSE,,,,http://www.radiovisionjujuy.com.ar/canal7dejujuy,https://cdn.mitvstatic.com/channels/cl_canal-7_m.png
 Canal7SALTA.ar,Canal 7 SALTA,,,AR,,,c/AR,spa,,FALSE,,,,,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3v0JfX-x7l_CBLGgk-PyioJ4pEOIlRkwaOA&usqp=CAU
@@ -3018,7 +3018,7 @@ CanalInstitucional.co,Canal Institucional,,,CO,,,c/CO,spa,,FALSE,2004-02-02,,,ht
 CanalInstitucionalTV.co,Canal Institucional TV,,,CO,,,c/CO,spa,general,FALSE,,,,,https://cdn.colombia.com/canales/canal-institucional-tv-2599.jpg
 CanalIPE.pe,Canal IPe,,IRTP,PE,PE-LIM,Lima,c/PE,spa,family,FALSE,,,,https://www.canalipe.tv/,https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Identidad_Peruana_ipe_2020.png/1200px-Identidad_Peruana_ipe_2020.png
 CanalISB.cl,Canal ISB,,,CL,,,c/CL,spa,,FALSE,,,,,https://cdn.mitvstatic.com/channels/cl_isb-tv_m.png
-CanalISBIglesiaSanBernardo.cl,Canal ISB Iglesia San Bernardo,,,CL,,,c/CL,spa,religious,FALSE,,,,,
+CanalISBIglesiaSanBernardo.cl,Canal ISB Iglesia San Bernardo,,,CL,CL-RM,San Bernardo,c/CL,spa,religious,FALSE,,,,https://www.canalisb.cl/,https://graph.facebook.com/canalisb.cl/picture?width=320&height=320
 CanaliTV.gr,Canali TV,,,GR,,,c/GR,ell,,FALSE,,,,,https://i.imgur.com/bGIdE9N.png
 CanalJ.fr,Canal J,,,FR,,,c/FR,fra,,FALSE,1985-12-23,,,https://www.canalj.fr/,https://service.canal-overseas.com/image-api/v1/image/0fdbc55b5f70f322cb5d2b656ad32519
 CanalLatino.cl,Canal Latino,,,CL,,,c/CL,spa,,FALSE,,,,,https://i.imgur.com/uvo7FGG.png
@@ -7848,6 +7848,7 @@ IqraaAfricaEurope.sa,Iqraa Africa & Europe,,,SA,,,c/SA,fra;eng,religious,FALSE,,
 IqraaArabic.sa,Iqraa Arabic,,,SA,,,c/SA,ara,religious,FALSE,,,,https://iqraa.com/,https://iqraa.com/assets/images/Logo/Iqraa-Logo.png
 IqraBangla.uk,Iqra Bangla,,,UK,,,c/UK,ben,religious,FALSE,,,,https://iqra.tv/iqra-bangla/,https://i.imgur.com/6keloXk.png
 IqraTV.uk,Iqra TV,,,UK,,,c/UK,urd,religious,FALSE,,,,https://iqra.tv/,https://iqra.tv/wp-content/uploads/2019/12/IQ-logo-light-120px.png
+IquiqueTV.cl,Iquique TV,,,CL,CL-TA,Iquique,c/CN,spa,,FALSE,,,,https://iquiquetv.cl/,https://graph.facebook.com/iquiquetvhd/picture?width=320&height=320
 IranBeauty.ir,Iran Beauty,,,IR,,,c/IR,fas,,FALSE,,,,,https://i.imgur.com/e8vc8vh.jpg
 IraneAryaeeTV.ir,Irane Aryaee TV,,,IR,,,c/IR,fas,legislative,FALSE,,,,https://www.ieatv.com/,https://www.ieatv.com/images/image1157.png
 IraneFardaTV.us,IraneFarda TV,,,US,,,c/US,eng,,FALSE,,,,http://iranefardalive.com/,https://i.imgur.com/ZgLljZy.png

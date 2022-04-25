@@ -23,7 +23,11 @@ const csv2jsonOptions = {
 		subdivision: nullable,
 		city: nullable,
 		network: nullable,
-		website: nullable
+		launched: nullable,
+		closed: nullable,
+		website: nullable,
+		native_name: nullable,
+		replaced_by: nullable
 	}
 }
 

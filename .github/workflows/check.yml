@@ -13,7 +13,7 @@ jobs:
       - id: files
         uses: tj-actions/changed-files@v12.2
         with:
-          files: \.csv$
+          files: 'data'
       - name: validate
         if: steps.files.outputs.any_changed == 'true'
         run: |

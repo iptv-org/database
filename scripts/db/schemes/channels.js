@@ -1,12 +1,16 @@
-const Joi = require('joi')
+const Joi = require('joi').extend(require('@joi/date'))
+const path = require('path')
 
 module.exports = {
 	id: Joi.string()
 		.regex(/^[A-Za-z0-9]+\.[a-z]{2}$/)
 		.required(),
 	name: Joi.string()
-		.regex(/^[\sa-zA-Z\u00C0-\u00FF0-9-!:&.+'/»#%°$@?()]+$/)
+		.regex(/^[\sa-zA-Z\u00C0-\u00FF0-9-!:&.+'/»#%°$@?()¡]+$/)
 		.required(),
+	native_name: Joi.string()
+		.regex(/^[^",]+$/)
+		.allow(null),
 	network: Joi.string().allow(null),
 	country: Joi.string()
 		.regex(/^[A-Z]{2}$/)
@@ -29,6 +33,11 @@ module.exports = {
 	),
 	categories: Joi.array().items(Joi.string().regex(/^[a-z]+$/)),
 	is_nsfw: Joi.boolean().strict().required(),
+	launched: Joi.date().format('YYYY-MM-DD').raw().allow(null),
+	closed: Joi.date().format('YYYY-MM-DD').raw().allow(null),
+	replaced_by: Joi.string()
+		.regex(/^[A-Za-z0-9]+\.[a-z]{2}$/)
+		.allow(null),
 	website: Joi.string()
 		.uri({
 			scheme: ['http', 'https']
@@ -37,6 +46,14 @@ module.exports = {
 	logo: Joi.string()
 		.uri({
 			scheme: ['https']
+		})
+		.custom((value, helper) => {
+			const ext = path.extname(value)
+			if (!ext || /(\.png|\.jpeg|\.jpg)/i.test(ext)) {
+				return true
+			} else {
+				return helper.message(`"logo" has an invalid file extension "${ext}"`)
+			}
 		})
 		.allow(null)
 }

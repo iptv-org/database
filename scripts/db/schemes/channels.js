@@ -55,5 +55,5 @@ module.exports = {
 				return helper.message(`"logo" has an invalid file extension "${ext}"`)
 			}
 		})
-		.allow(null)
+		.required()
 }

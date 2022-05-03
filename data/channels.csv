@@ -1743,9 +1743,9 @@ BabaIjebu3.ng,Baba Ijebu 3,,,NG,,,c/NG,eng,,FALSE,,,,https://babaijebu.ng/,https
 BabaIjebu4.ng,Baba Ijebu 4,,,NG,,,c/NG,eng,,FALSE,,,,https://babaijebu.ng/,https://www.lyngsat.com/logo/tv/bb/baba-ijebu-ng.png
 BabaTV.ug,Baba TV,,,UG,,,c/UG,eng,,FALSE,,,,,https://rndcdn.dstv.com/dstvcms/2019/08/05/BaBaTV_Logo-4-3_(002)_xlrg.png
 Babecall.uk,Babecall,,,UK,,,c/UK,eng,,FALSE,,,,https://babecall.com/,https://www.lyngsat.com/logo/tv/bb/babecall-uk.png
-Babestation.uk,Babestation,,,UK,,,c/UK,eng,,FALSE,,,,https://www.babestation.tv/,https://www.lyngsat.com/logo/tv/bb/babestation_uk.png
-Babestation24.de,Babestation 24,,,DE,,,c/DE,deu,,FALSE,,,,https://www.babestation24.com/,https://www.lyngsat.com/logo/tv/bb/babestation-24-uk-de.png
-BabesTV.us,Babes TV,,,US,,,c/US,eng;rus,,FALSE,,,,https://www.babes.com/,https://mtel.ba/oec/images/tv_channels/45ff2a7d805349edb10c84854ae6733c.png
+Babestation.uk,Babestation,,,UK,,,c/UK,eng,xxx,TRUE,,,,https://www.babestation.tv/,https://www.lyngsat.com/logo/tv/bb/babestation_uk.png
+Babestation24.de,Babestation 24,,,DE,,,c/DE,deu,xxx,TRUE,,,,https://www.babestation24.com/,https://www.lyngsat.com/logo/tv/bb/babestation-24-uk-de.png
+BabesTV.us,Babes TV,,,US,,,c/US,eng,xxx,TRUE,,,,https://www.babes.com/,https://mtel.ba/oec/images/tv_channels/45ff2a7d805349edb10c84854ae6733c.png
 BabyFirst.us,BabyFirst,,,US,,,c/US,eng;zho;spa;fra;tur;deu;kor;jpn;por;pol;rus;ara;heb;hun;ron,kids,FALSE,2006-05-11,,,https://www.babyfirsttv.com/,https://images.pluto.tv/channels/5f4fb4cf605ddf000748e16f/colorLogoPNG.png
 BabyFirstBrazil.us,BabyFirst Brazil,,,US,,,c/BR,por,kids,FALSE,,,,https://pluto.tv/en/live-tv/babyfirst-ptv1,https://images.pluto.tv/channels/5f4fb4cf605ddf000748e16f/colorLogoPNG.png
 BabylonTV.iq,Babylon TV,,,IQ,,,c/IQ,ara,,FALSE,,,,,https://www.lyngsat.com/logo/tv/bb/babylon_tv_iq.png
@@ -3561,7 +3561,6 @@ Channel24Sports.sa,Channel 24 Sports,,,SA,,,c/SA,ara,sports,FALSE,,,,https://24m
 Channel29.et,Channel 29,,,ET,,,c/ET,amh,,FALSE,,,,,https://www.lyngsat.com/logo/tv/cc/channel-29.png
 Channel3.th,Channel 3,,,TH,,,c/TH,tha;eng,,FALSE,,,,http://www.ch3thailand.com/,https://cms.dmpcdn.com/livetv/2020/06/23/c93cf2c0-b54f-11ea-8fac-236a281cd6c5_original.png
 Channel4.uk,Channel 4,,,UK,,,c/UK,eng,,FALSE,1982-11-02,,,http://www.channel4.com/,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb1621.png
-Channel4U.id,Channel 4U,,,ID,,,c/ID,ind,,FALSE,,,,https://maxstream.tv/,https://seeklogo.com/images/C/channel-4u-maxstream-logo-E4A5CAF8C2-seeklogo.com.png
 Channel44.au,Channel 44,,,AU,,,c/AU,eng,,FALSE,,,,https://c44.com.au/,https://i.imgur.com/YJvH9xY.png
 Channel44.ug,Channel 44,,,UG,,,c/UG,eng,,FALSE,,,,https://channel44-tv.com/,https://rndcdn.dstv.com/dstvcms/2017/11/22/DStv_Channel44_4-3_001_xlrg.png
 Channel4Ireland.ie,Channel 4 Ireland,,,IE,,,c/IE,eng,,FALSE,,,,https://www.channel4.com/,https://www.lyngsat.com/logo/tv/cc/channel_4_uk.png
@@ -3577,6 +3576,7 @@ Channel4Scotland.uk,Channel 4 Scotland,,,UK,,,c/UK,eng,,FALSE,,,,https://www.cha
 Channel4ScotlandPlus1.uk,Channel 4 Scotland +1,,,UK,,,c/UK,eng,,FALSE,,,,https://www.channel4.com/,https://www.lyngsat.com/logo/tv/cc/channel-4-plus-1-uk.png
 Channel4SouthEast.uk,Channel 4 South & East,,,UK,,,c/UK,eng,,FALSE,,,,https://www.channel4.com/,https://www.lyngsat.com/logo/tv/cc/channel_4_uk.png
 Channel4SouthEastPlus1.uk,Channel 4 South & East +1,,,UK,,,c/UK,eng,,FALSE,,,,https://www.channel4.com/,https://www.lyngsat.com/logo/tv/cc/channel-4-plus-1-uk.png
+Channel4U.id,Channel 4U,,,ID,,,c/ID,ind,,FALSE,,,,https://maxstream.tv/,https://seeklogo.com/images/C/channel-4u-maxstream-logo-E4A5CAF8C2-seeklogo.com.png
 Channel5.th,Channel 5,,,TH,,,c/TH,tha,,FALSE,,,,,https://www.tv5.co.th/tv5hd1-web/img/tv5hd1_logo_light.png
 Channel5.uk,Channel 5,,,UK,,,c/UK,eng,,FALSE,,,,https://www.channel5.com/channels/channel-5,https://otv-us-web.s3-us-west-2.amazonaws.com/logos/guide/2/Open/92x36_352/Source/25094/channel5tv_colordark.png
 Channel5Delay.uk,Channel 5 Delay,,,UK,,,c/UK,eng,,FALSE,,,,https://www.channel5.com/channels/channel-5,https://www.lyngsat.com/logo/tv/cc/channel-5-uk.png
@@ -5936,7 +5936,6 @@ FactInternational.jo,Fact International,,,JO,,,c/JO,ara,,FALSE,,,,http://factjo.
 FactoriadeFiccion.es,Factoria de Ficción,,,ES,,,c/ES,spa,,FALSE,,,,https://www.factoriadeficcion.com/,https://programacion-tv.elpais.com/imagenes/canales/506.jpg
 FadakTV.uk,Fadak TV,,,UK,,,c/UK,ara,religious,FALSE,,,,,https://upload.wikimedia.org/wikipedia/commons/1/13/FadakTV.png
 FahhaiTV.th,Fahhai TV,,,TH,,,c/TH,tha,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ff/fahhai-tv-th.png
-FajarTV.id,Fajar TV,,Jawa Pos Multimedia,ID,ID-SN,Makassar,s/ID-SN,ind,,FALSE,2007-12-31,,,,https://upload.wikimedia.org/wikipedia/id/4/43/FAJARTV_2014.png
 FailArmy.us,FailArmy,,,US,,,c/US,eng,comedy,FALSE,,,,https://pluto.tv/en/live-tv/failarmy,https://images.pluto.tv/channels/554158e864526b29254ff105/colorLogoPNG.png
 FailArmyBrazil.us,FailArmy Brazil,,,US,,,c/BR,por,comedy,FALSE,,,,https://pluto.tv/en/live-tv/failarmy-ptv1,https://images.pluto.tv/channels/5f5141c1605ddf000748eb1b/colorLogoPNG.png
 FailArmyFrance.us,FailArmy France,,,US,,,c/CH;c/FR,fra,comedy,FALSE,,,,https://pluto.tv/en/live-tv/fail-army-fr,https://images.pluto.tv/channels/5f8ecd9169d2d4000864a974/colorLogoPNG.png
@@ -5957,6 +5956,7 @@ FaithTV.ke,Faith TV,,,KE,,,c/KE,eng,,FALSE,,,,,https://www.lyngsat.com/logo/tv/f
 FaithTV.us,Faith TV,,,US,,,c/US,eng,religious,FALSE,,,,https://pluto.tv/en/live-tv/faith-tv,https://images.pluto.tv/channels/5c58a539fae3812612f33ca3/colorLogoPNG.png
 FaithUK.uk,Faith UK,,,UK,,,c/UK,afr,,FALSE,,,,https://uk.myfaith.tv/,https://www.lyngsat.com/logo/tv/ff/faith-uk-za.png
 FaithWorldTV.uk,Faith World TV,,,UK,,,c/UK,eng,,FALSE,,,,https://www.faithworldtv.com/,https://www.lyngsat.com/logo/tv/ff/faith_world_tv_uk.png
+FajarTV.id,Fajar TV,,Jawa Pos Multimedia,ID,ID-SN,Makassar,s/ID-SN,ind,,FALSE,2007-12-31,,,,https://upload.wikimedia.org/wikipedia/id/4/43/FAJARTV_2014.png
 FajerTV1.ps,Fajer TV 1,,,PS,,,c/PS,ara,general,FALSE,,,,http://www.alfajertv.com/,https://i.imgur.com/H8SaZXN.png
 FajerTV2.ps,Fajer TV 2,,,PS,,,c/PS,ara,general,FALSE,,,,http://www.alfajertv.com/,https://i.imgur.com/H8SaZXN.png
 FaktMarathi.in,Fakt Marathi,,,IN,,,c/IN,mar,entertainment,FALSE,,,,https://faktmarathitv.com/,https://i.imgur.com/y0VS4QN.png
@@ -18541,7 +18541,8 @@ SanaTV.in,Sana TV,,,IN,,,c/IN,tam,entertainment,FALSE,,,,,https://i.imgur.com/D0
 SandeshNews.in,Sandesh News,,,IN,,,c/IN,guj,news,FALSE,,,,https://sandesh.com/,https://i.imgur.com/1aPx1D8.png
 SandzackaTVMreza.rs,Sandzacka TV Mreza,,,RS,,,c/RS,srp,,FALSE,,,,,https://mts.rs/oec/images/tv_channels/5596d58e72c34a6418a575035ff5a115.png
 SandzakTV.rs,Sandzak TV,,,RS,,,c/RS,srp,,FALSE,,,,,https://mts.rs/oec/images/tv_channels/78b8b0fe8b35f5afd2a9971e91adb2d4.png
-SanFranciscoGovTV.us,San Francisco GovTV,,,US,,,c/US,eng,,FALSE,,,,,
+SanFranciscoGovTV.us,San Francisco GovTV,,,US,US-CA,San Francisco,c/US,eng,legislative,FALSE,,,,https://sfgovtv.org/,https://i.imgur.com/CY0eni1.png
+SanFranciscoGovTV2.us,San Francisco GovTV2,,,US,US-CA,San Francisco,c/US,eng,legislative,FALSE,,,,https://sfgovtv.org/,https://i.imgur.com/So7Qg1k.png
 SangajiTV.id,Sangaji TV,,,ID,,Yogyakarta,c/ID,ind,,FALSE,,,,,https://www.sangajitv.co.id/logo.png
 SangatTelevision.uk,Sangat Television,,,UK,,,c/UK,eng,,FALSE,,,,,https://i.imgur.com/KcPEkHh.png
 SangatTV.uk,Sangat TV,,,UK,,,c/UK,eng,,FALSE,2010-09-01,,,http://sangattelevision.org/,https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/400/160/skychb3355.png
@@ -20971,11 +20972,11 @@ TelestanciyaMir.ru,Telestanciya Mir,,,RU,,Novosibirsk,c/RU,rus,,FALSE,,,,,https:
 Telestar1.ro,Telestar1,,,RO,,,c/RO,ron,,FALSE,,,,,https://i.imgur.com/qSd8DTI.png
 Telesud.fr,Telesud,,,FR,,,c/FR,fra,,FALSE,,,,https://www.telesud.com/,https://service.canal-overseas.com/image-api/v1/image/b4da4d9e38738f7883d5fad106e56646
 TelesudTrapani.it,Telesud Trapani,,,IT,,,c/IT,ita,,FALSE,,,,https://www.telesudweb.it/,https://i.imgur.com/sf1nA3i.png
-Telesur.ve,Telesur,,,VE,,,c/VE,spa,,FALSE,2005-07-24,,,https://www.telesurtv.net/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/TeleSUR-Logo.svg/512px-TeleSUR-Logo.svg.png
+Telesur.ve,Telesur,,Telesur,VE,,,c/VE;r/HISPAM,spa,news,FALSE,2005-07-24,,,https://www.telesurtv.net/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/TeleSUR-Logo.svg/512px-TeleSUR-Logo.svg.png
 TelesurCamana.pe,Telesur Camana,,Telesur Perú,PE,PE-ARE,Camana,c/PE,spa,,FALSE,,,,https://www.telesur.com.pe/telesur/streaming,https://i.imgur.com/bbhgIN4.png
 TelesurCanal10.do,Telesur Canal,,,DO,,,c/DO,spa,,FALSE,,,,,https://www.telesur.com.do/images/telesur_canal_10_logo2.png
 TeleSURCostaRica.cr,TeleSUR Costa Rica,,,CR,,,c/CR,spa,,FALSE,,,,,https://i.imgur.com/r5p97Ex.jpg
-TelesurEnglish.ve,Telesur English,,,VE,,,c/VE,eng,,FALSE,,,,https://www.telesurenglish.net/,https://comteco.com.bo/img/upload/canales/1yD2hc.png
+TelesurEnglish.ve,Telesur English,,Telesur,VE,,,c/VE;c/US,eng,news,FALSE,,,,https://www.telesurenglish.net/,https://comteco.com.bo/img/upload/canales/1yD2hc.png
 TelesurIlo.pe,Telesur Ilo,,Telesur Perú,PE,PE-MOQ,Ilo,c/PE,spa,,FALSE,,,,https://www.telesur.com.pe/telesur/streaming,https://i.imgur.com/bbhgIN4.png
 TelesurMollendo.pe,Telesur Mollendo,,Telesur Perú,PE,PE-ARE,Mollendo,c/PE,spa,,FALSE,,,,https://www.telesur.com.pe/telesur/streaming,https://i.imgur.com/bbhgIN4.png
 TelesurMoquegua.pe,Telesur Moquegua,,Telesur Perú,PE,PE-MOQ,Moquegua,c/PE,spa,,FALSE,,,,https://www.telesur.com.pe/telesur/streaming,https://i.imgur.com/bbhgIN4.png
@@ -21499,28 +21500,30 @@ TPAInternacional.ao,TPA Internacional,,,AO,,,c/AO,por,,FALSE,,,,https://www.tpa.
 TPlusE.ca,T+E,,,CA,,,c/CA,eng,,FALSE,,,,https://www.tandetv.com/,https://cdn.tvpassport.com/image/station/100x100/tandetv.png
 TPTO.pe,TPTO TV,,,PE,PE-SAM,Tarapoto,c/PE,spa,,FALSE,,,,https://www.tpto.org/,https://i.imgur.com/SC5xxMn.png
 TR35.tr,TR 35,,,TR,,,c/TR,tur,,FALSE,,,,https://tr35.com.tr/,https://izmottvsc23.tvplus.com.tr:33207/CPS/images/universal/film/poster/fileEntity/20190625/001300/XTV100001081/24d98008-bbe0-413b-b49b-1a927b87a2d2.png
-TraceAfricaEnglish.fr,Trace Africa English,,,FR,,,c/FR,eng,,FALSE,,,,http://trace.tv/trace-africa/,https://www.lyngsat.com/logo/tv/tt/trace_fr_africa.png
-TraceAfricaFrench.fr,Trace Africa French,,,FR,,,c/FR,fra,,FALSE,,,,http://fr.trace.tv/trace-africa/,https://service.canal-overseas.com/image-api/v1/image/be3db950e6f9f19609f6ec78ded7864f
-TraceAfrikora.fr,Trace Afrikora,,,FR,,,c/FR,fra,,FALSE,,,,https://trace.company/activities/television/trace-afrikora/,https://service.canal-overseas.com/image-api/v1/image/377d54755f49ea932ac2dede95226ce5
-TraceAyiti.fr,Trace Ayiti,,,FR,,,c/FR,fra,,FALSE,,,,https://trace.company/activities/television/trace-ayiti/,https://service.canal-overseas.com/image-api/v1/image/a09364193f0fab3dfa567b0e5c1b8533
-TraceBrazuca.fr,Trace Brazuca,,,FR,,,c/FR,por,,FALSE,,,,https://trace.company/activities/television/trace-brazuca/,https://cdn.mitvstatic.com/channels/br_trace-brazuca_m.png
-TraceCaribbean.fr,Trace Caribbean,,,FR,,,c/FR,fra,,FALSE,,,,https://trace.tv/trace-tropical/,https://service.canal-overseas.com/image-api/v1/image/afe6486f5fde96c0dab8e2425dc33db3
-TraceGospel.fr,Trace Gospel,,,FR,,,c/FR,fra,religious,FALSE,,,,http://tracegospel.tv/,https://service.canal-overseas.com/image-api/v1/image/42646029bf3d9e08872a895fe5d45d83
-TraceGospelEnglishSpeakingAfrica.fr,Trace Gospel English Speaking Africa,,,FR,,,c/FR,eng,religious,FALSE,,,,http://tracegospel.tv/,https://rndcdn.dstv.com/dstvcms/2020/04/02/TRACEGospel_logo_4-3_001_xlrg.png
-TraceGospelSouthAfrica.za,Trace Gospel South Africa,,,ZA,,,c/ZA,eng,religious,FALSE,,,,http://tracegospel.tv/,https://www.lyngsat.com/logo/tv/tt/trace_fr_gospel.png
-TraceHits.uk,Trace Hits,,,UK,,,c/UK,eng,,FALSE,2002-09-16,,,https://trace.tv/uk/,https://i.imgur.com/t5ieygc.png
-TraceJama.fr,Trace Jama,,,FR,,,c/FR,eng,,FALSE,,,,https://trace.company/activities/television/trace-jama/,https://rndcdn.dstv.com/dstvcms/2020/02/28/TraceJama_Logo_4-3_001_xlrg.png
-TraceKitoko.fr,Trace Kitoko,,,FR,,,c/FR,fra,,FALSE,,,,,https://service.canal-overseas.com/image-api/v1/image/3f84db30b0313bfdc6aaa4f33ba4463a
-TraceLatina.fr,Trace Latina,,,FR,,,c/FR,eng,,FALSE,2010-03-25,2020-06-01,,https://trace.company/activities/television/trace-latina/,https://service.canal-overseas.com/image-api/v1/image/cdc37d99bc44ca2127712b28d1e291ca
-TraceMuzika.fr,Trace Muzika,,,FR,,,c/FR,fra,music,FALSE,,,,https://trace.tv/traceprime/,https://rndcdn.dstv.com/dstvcms/2020/04/08/TRACE_Muzika_logo_4-3_001_xlrg.png
-TraceMziki.fr,Trace Mziki,,,FR,,,c/FR,eng,,FALSE,,,,https://trace.tv/trace-mziki/,https://rndcdn.dstv.com/dstvcms/2017/06/22/DStv_TraceMziki_Logo_4-3_003_xlrg.png
-TraceNaija.fr,Trace Naija,,,FR,,,c/FR,eng,,FALSE,,,,http://trace.tv/trace-naija/,https://rndcdn.dstv.com/dstvcms/2016/06/14/DStvNowApp_TraceUrban_new4-4logo_001_xlrg.png
-TraceSportStars.fr,Trace Sport Stars,,,FR,,,c/FR,eng;fra;rus,sports,FALSE,,,,http://trace.tv/trace-sport-stars/,https://cdn.mitvstatic.com/channels/co_trace-sports-stars_m.png
-TraceToca.fr,Trace Toca,,,FR,,,c/FR,por,,FALSE,,,,https://fr.trace.tv/trace-toca/,https://rndcdn.dstv.com/dstvcms/2016/09/14/DStv_Trace_Toca_new4-3logo_xlrg.png
-TraceUrban.fr,Trace Urban,,,FR,,,c/FR,fra;eng;por,,FALSE,2003-04-23,,,http://trace.tv/trace-urban/,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Trace_Urban_logo_2010.svg/512px-Trace_Urban_logo_2010.svg.png
-TraceUrbanHD.fr,Trace Urban HD,,,FR,,,c/FR,fra;eng;por,,FALSE,,,,http://trace.tv/trace-urban/,https://i.imgur.com/izcJqaK.png
-TraceVanillaIslands.fr,Trace Vanilla Islands,,,FR,,,c/FR,fra,,FALSE,,,,https://trace.company/activities/television/trace-vanillaislands/,https://service.canal-overseas.com/image-api/v1/image/257b29511b4b856007926b45cfc47cd0
-TraceVault.uk,Trace Vault,,,UK,,,c/UK,eng,,FALSE,2003-03-12,,,https://trace.tv/uk/,https://www.lyngsat.com/logo/tv/tt/trace-vault-fr.png
+TraceAfrica.fr,Trace Africa,,,FR,,,c/FR,eng;fra,music,FALSE,2011-11-15,,,http://trace.tv/trace-africa/,https://upload.wikimedia.org/wikipedia/fr/thumb/2/2f/Trace_Africa_logo_2011.svg/langfr-512px-Trace_Africa_logo_2011.svg.png
+TraceAfrikora.fr,Trace Afrikora,,,FR,,,c/FR,fra,music,FALSE,,,,https://trace.company/activities/television/trace-afrikora/,https://i.imgur.com/58ManLO.png
+TraceAyiti.fr,Trace Ayiti,,,FR,,,c/FR,fra,music,FALSE,2018-01-01,,,https://trace.company/activities/television/trace-ayiti/,https://i.imgur.com/nDpqaI2.png
+TraceBrazuca.fr,Trace Brazuca,,,FR,,,c/FR,por,music,FALSE,,,,https://trace.company/activities/television/trace-brazuca/,https://i.imgur.com/DFBocPu.png
+TraceCaribbean.fr,Trace Caribbean,,,FR,,,c/FR,fra,music,FALSE,2009-02-12,,,https://trace.tv/trace-tropical/,https://i.imgur.com/o1skkUP.png
+TraceGospel.fr,Trace Gospel,,,FR,,,c/FR,fra,music;religious,FALSE,2015-11-23,,,http://tracegospel.tv/,https://upload.wikimedia.org/wikipedia/fr/thumb/b/b8/Logo_gospel-1.png/512px-Logo_gospel-1.png
+TraceHipHop.fr,Trace Hip-Hop,,,FR,,,c/FR,fra,music,FALSE,2019-04-02,,,http://fr.trace.tv/trace-urban/,https://i.imgur.com/SAX8YXf.png
+TraceHits.uk,Trace Hits,,,UK,,,c/UK,eng,music,FALSE,2002-09-16,,,https://traceplus.tv/,https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/TRACE_Hits.png/512px-TRACE_Hits.png
+TraceJama.fr,Trace Jama,,,FR,,,c/FR,eng,music,FALSE,,,,https://trace.company/activities/television/trace-jama/,https://i.imgur.com/jqG9x1n.png
+TraceKitoko.fr,Trace Kitoko,,,FR,,,c/FR,fra,music,FALSE,,,,,https://i.imgur.com/dL7J2qE.png
+TraceLatina.uk,Trace Latina,,,UK,,,c/UK,eng,music,FALSE,2010-03-25,2020-06-01,,https://trace.company/activities/television/trace-latina/,https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/TRACE_Latina_Logo.png/512px-TRACE_Latina_Logo.png
+TraceMuzika.fr,Trace Muzika,,,FR,,,c/FR,fra,music,FALSE,,,,https://trace.tv/traceprime/,https://i.imgur.com/oZ7HOaF.png
+TraceMziki.fr,Trace Mziki,,,FR,,,c/FR,eng,music,FALSE,,,,https://trace.tv/trace-mziki/,https://i.imgur.com/pQvxL6n.png
+TraceNaija.fr,Trace Naija,,,FR,,,c/FR,eng,music,FALSE,,,,http://trace.tv/trace-naija/,https://i.imgur.com/RJYqlRe.png
+TracePrime.fr,Trace Prime,,,FR,,,c/FR,fra,music,FALSE,2016-01-01,2018-01-01,TraceAyiti.fr,https://trace.company/activities/television/trace-ayiti/,https://i.imgur.com/y9NkNQ0.png
+TraceSportStars.fr,Trace Sport Stars,,,FR,,,c/FR,eng;fra;rus,sports,FALSE,2011-06-01,,,http://www.trace.tv/fr/tv/sport,https://i.imgur.com/viaRX12.png
+TraceSportStarsHD.fr,Trace Sport Stars HD,,,FR,,,c/FR,eng;fra;rus,sports,FALSE,,,,http://www.trace.tv/fr/tv/sport,https://i.imgur.com/YqfcpsE.png
+TraceToca.fr,Trace Toca,,,FR,,,r/AFR,por,music,FALSE,2014-07-22,,,https://fr.trace.tv/trace-toca/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Trace_Toca.png/512px-Trace_Toca.png
+TraceTocaHD.fr,Trace Toca HD,,,FR,,,r/AFR,por,music,FALSE,,,,https://fr.trace.tv/trace-toca/,https://i.imgur.com/N4F07SK.png
+TraceUrban.fr,Trace Urban,,,FR,,,c/FR,fra;eng;por,music,FALSE,2010-12-15,,,http://trace.tv/trace-urban/,https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Trace_Urban_logo_2010.svg/512px-Trace_Urban_logo_2010.svg.png
+TraceUrbanHD.fr,Trace Urban HD,,,FR,,,c/FR,fra;eng;por,music,FALSE,,,,http://trace.tv/trace-urban/,https://i.imgur.com/EsjnosX.png
+TraceVanilla.fr,Trace Vanilla,,,FR,,,c/FR,fra,music,FALSE,,,,https://trace.company/activities/television/trace-vanillaislands/,https://i.imgur.com/jyuqeZA.png
+TraceVanillaIslands.fr,Trace Vanilla Islands,,,FR,,,c/FR,fra,music,FALSE,,,,https://trace.company/activities/television/trace-vanillaislands/,https://i.imgur.com/SOleKzK.png
+TraceVault.uk,Trace Vault,,,UK,,,c/UK,eng,music,FALSE,2003-03-12,,,https://trace.tv/uk/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/TRACE_Vault_2020.png/512px-TRACE_Vault_2020.png
 TradeTV.mn,Trade TV,,,MN,,,c/MN,mon,,FALSE,,,,,https://www.lyngsat.com/logo/tv/tt/trade-tv-mn.png
 TRANoticias.do,TRA Noticias,,,DO,,,c/DO,spa,news,FALSE,,,,http://www.teleradioamerica.com/,https://www.lyngsat.com/logo/tv/tt/tra-noticias-do.png
 Trans7.id,Trans 7,,,ID,,,c/ID,ind,general,FALSE,2001-11-25,,,https://www.trans7.co.id/,https://www.lyngsat.com/logo/tv/tt/trans_7_id.png

@@ -3524,7 +3524,7 @@ CGTNDocumentary.cn,CGTN Documentary,,,CN,,,r/INT,eng,documentary,FALSE,2011-01-0
 CGTNEurope.cn,CGTN Europe,,,CN,,,r/AFR,eng,news,FALSE,,,,https://www.cgtn.com/tv,https://i.imgur.com/BcqshRH.png
 CGTNFrench.cn,CGTN French,CGTN Français,,CN,,,c/FR,fra,news,FALSE,,,,https://francais.cgtn.com/,https://i.imgur.com/7TDIP66.png
 CGTNRussian.cn,CGTN Russian,CGTN Pусский,,CN,,,c/RU,rus,news,FALSE,,,,https://russian.cgtn.com/,https://i.imgur.com/LyYGWys.png
-CGTNSpanish.cn,CGTN Spanish,CGTN Español,,CN,,,c/ES,spa,news,FALSE,,,,https://espanol.cgtn.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png
+CGTNSpanish.cn,CGTN Spanish,CGTN Español,,CN,,,r/HISPAM,spa,news,FALSE,,,,https://espanol.cgtn.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png
 CGTV.us,CGTV,,,US,US-IL,Champaign,s/US-IL,eng,legislative,FALSE,,,,,https://i.imgur.com/hNdQFtK.jpg
 Ch4Teen.kw,Ch4Teen,,,KW,,,c/KW,ara,religious,FALSE,,,,,https://i.imgur.com/JeG9K1y.png
 ChacoTV.ar,Chaco TV,,,AR,,,c/AR,spa,,FALSE,,,,http://www.chaco.tv/,https://i.imgur.com/JbxMs5i.png
@@ -4520,10 +4520,10 @@ Cuatro.es,Cuatro,,,ES,,,c/ES,spa,,FALSE,,,,https://www.cuatro.com/,https://image
 Cuatro4TVVallUxa.es,Cuatro 4 TV Vall Uxa,,,ES,,,c/ES,spa,,FALSE,,,,,https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReUVLq8nJbqLUY6jVbJvX0VMaoj1HVYu-OKg&usqp=CAU
 CubaMaxTV.us,CubaMax TV,,,US,,,c/US,spa,,FALSE,,,,http://www.dishlatino.com/cubamaxtv/,https://www.lyngsat.com/logo/tv/cc/cuba_max_tv_us.png
 CubaPlay.us,CubaPlay,,,US,,,c/US,spa,,FALSE,,,,https://www.olympusat.com/networks/cubaplay,https://www.lyngsat.com/logo/tv/cc/cubaplay-us.png
-CubaVision.cu,CubaVision,,,CU,,,c/CU,spa,,FALSE,,,,,https://www.tvcubana.icrt.cu/images/logos-canales/logo-mascara/cubavision.jpg
-CubavisionInternacional.cu,Cubavisión Internacional,,,CU,,,c/CU,spa,,FALSE,,,,https://www.tvcubana.icrt.cu/cubavision/,https://www.meo.pt/PublishingImages/canais/cubavision.png
-CubavisionNacional.cu,Cubavisión Nacional,,,CU,,,c/CU,spa,,FALSE,,,,https://www.tvcubana.icrt.cu/cubavision/,https://www.tvcubana.icrt.cu/images/logos-canales/logo-mascara/cubavision.jpg
-CubavisionPlus.cu,Cubavisión Plus,,,CU,,,c/CU,spa,,FALSE,,,,,https://www.tvcubana.icrt.cu/images/logos-canales/logo-mascara/cv+.jpg
+CubaVision.cu,CubaVision,,ICRT,CU,,,c/CU,spa,,FALSE,,,,,https://www.tvcubana.icrt.cu/images/logos-canales/logo-mascara/cubavision.jpg
+CubavisionInternacional.cu,Cubavisión Internacional,,ICRT,CU,,,r/HISPAM,spa,general,FALSE,,,,https://www.tvcubana.icrt.cu/cartelera-de-la-tv-cubana/cubavision-internacional,https://www.meo.pt/PublishingImages/canais/cubavision.png
+CubavisionNacional.cu,Cubavisión Nacional,,ICRT,CU,,,c/CU,spa,general,FALSE,,,,https://www.tvcubana.icrt.cu/cartelera-de-la-tv-cubana/cubavision,https://www.tvcubana.icrt.cu/images/logos-canales/logo-mascara/cubavision.jpg
+CubavisionPlus.cu,Cubavisión Plus,,ICRT,CU,,,c/CU,spa,,FALSE,,,,,https://www.tvcubana.icrt.cu/images/logos-canales/logo-mascara/cv+.jpg
 Cubayo.uk,Cubayo,,,UK,,,c/UK,eng,,FALSE,,,,https://www.mimyuni.com/,https://www.zap.co.ao/media/cache/movie_thumb/uploads/ao/channels/60dd88eebc8d5.png
 Cufo.al,Çufo,,,AL,,,c/AL,sqi,kids,FALSE,,,,https://www.digitalb.al/,https://i.imgur.com/cjVAXnZ.png
 Cuisines.fr,Cuisines,,,FR,,,c/FR,fra,,FALSE,,,,,https://service.canal-overseas.com/image-api/v1/image/70a108a24caf0f6b108bbbdb4a197eba
@@ -7225,7 +7225,7 @@ HipTV.ng,Hip TV,,,NG,,,c/NG,eng,,FALSE,,,,,https://rndcdn.dstv.com/dstvcms/2016/
 HiroshimaWeatherInformation.jp,Hiroshima Weather Information,,,JP,,,c/JP,jpn,weather,FALSE,,,,,https://i.imgur.com/ZoYNgdd.png
 HirTV.hu,Hír TV,,,HU,,,c/HU,hun,,FALSE,,,,https://hirtv.hu/,https://upload.wikimedia.org/wikipedia/commons/e/e6/Hirtvujlogo05.jpg
 HiruTV.lk,Hiru TV,,,LK,,,c/LK,sin,,FALSE,2012-05-23,,,https://www.hirutv.lk/,https://i.imgur.com/u4et3kY.png
-HispanTV.ir,Hispan TV,,,IR,,,c/IR,spa,,FALSE,2011-12-21,,,https://www.hispantv.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HispanTv_logo.svg/512px-HispanTv_logo.svg.png
+HispanTV.ir,Hispan TV,,,IR,,,r/HISPAM,spa,news,FALSE,2011-12-21,,,https://www.hispantv.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/HispanTv_logo.svg/512px-HispanTv_logo.svg.png
 Hispasat4KTV.es,Hispasat 4K TV,,,ES,,,c/ES,spa,,FALSE,,,,http://www.hispasat.com/,https://www.lyngsat.com/logo/tv/hh/hispasat_4k_tv_es.png
 HistoireTV.fr,Histoire TV,,,FR,,,c/FR,fra,,FALSE,1997-07-14,,,http://www.histoire.fr/,https://i.imgur.com/Bmqm629.png
 Historia.ca,Historia,,,CA,,,c/CA,fra,,FALSE,,,,https://www.historiatv.com/,https://cdn.tvpassport.com/image/station/100x100/historia.png
@@ -13283,6 +13283,7 @@ LaVozdeMaria.do,La Voz de María,,,DO,,,c/DO,spa,,FALSE,,,,http://www.lavozdemar
 LaVozDeTucuman.ar,La Voz de Tucuman,,,AR,,,c/AR,spa,,FALSE,,,,,https://lavozdetucuman.com/wp-content/uploads/2021/11/LOGOTRANSPARENTE2-1-600x187.png
 LawCrime.us,Law & Crime,,,US,,,c/US,eng,documentary,FALSE,,,,https://lawandcrime.com/,https://i.imgur.com/HY64Nhe.png
 LawCrimeXUMO.us,Law & Crime XUMO,,,US,,,c/US,eng,documentary,FALSE,,,,,https://i.imgur.com/HY64Nhe.png
+LaX.pr,La X FM,,,PR,,,c/PR,spa,music,FALSE,,,,https://lax.fm/portal/la-x-radio-visual/,https://lax.fm/portal/wp-content/uploads/2015/10/header-logo.jpg
 LaxSportsNetwork.us,Lax Sports Network,,,US,,,c/UK,eng,sports,FALSE,,,,,https://od.lk/s/MF8yMzA3OTUzMjZf/LSN_720x720.png
 LaxSportsNetworkTV.us,Lax Sports Network TV,,,US,,,c/US,eng,sports,FALSE,,,,,https://i.imgur.com/Lt9ZUYA.png
 LazioStyleTV.it,Lazio Style TV,,,IT,,,c/IT,ita,,FALSE,,,,,https://www.lyngsat.com/logo/tv/ll/lazio_style_tv.png
@@ -16524,7 +16525,7 @@ PlanetaHD.bg,Planeta HD,,,BG,,,c/BG,bul,,FALSE,,,,http://planeta.tv/bg/planeta-h
 PlanetaJuniorTVSpain.us,Planeta Junior TV Spain,,,US,,,c/ES,spa,kids,FALSE,,,,https://pluto.tv/en/live-tv/planeta-junior-tv-es,https://images.pluto.tv/channels/609501978c069d00074e0dd2/colorLogoPNG.png
 PlanetaKids.es,Planeta Kids,,,ES,,,c/ES,spa,kids,FALSE,,,,,https://i.imgur.com/CMRkI5N.jpg
 PlanetaTV.bg,Planeta TV,,,BG,,,c/BG,bul,,FALSE,2001-11-13,,,http://www.planeta.tv/,https://www.lyngsat.com/logo/tv/pp/planeta-tv-bg.png
-PlanetaTVBagua.pe,Planeta TV,,,PE,PE-SAM,Bagua,c/PE,spa,,FALSE,,,,,https://i.imgur.com/lUwnB07.png
+PlanetaTVBagua.pe,Planeta TV,,,PE,PE-SAM,Bagua,c/PE,spa,,FALSE,,,,,https://i.imgur.com/vl0HCNO.png
 PlanetaTVKids.cl,PlanetaTV Kids,,PlanetaTV Chile,CL,,,c/CL,spa,kids,FALSE,,,,https://planetatv.online/,https://i.imgur.com/wPeT7UL.png
 PlanetaTVMovie.cl,PlanetaTV Movie,,PlanetaTV Chile,CL,,,c/CL,spa,movies,FALSE,,,,https://planetatv.online/,https://i.imgur.com/wPeT7UL.png
 PlanetaTVMoyobamba.pe,Planeta TV,,,PE,PE-SAM,Moyobamba,c/PE,spa,,FALSE,,,,https://moyobamba.com/planetatv/,https://i.imgur.com/qWKjXO8.png
@@ -17489,7 +17490,7 @@ RadioFrecciaTV.it,Radio Freccia TV,,,IT,,,c/IT,ita,,FALSE,,,,https://www.radiofr
 RadioGovoritMoskva.ru,Radio Govorit Moskva,,,RU,,Moscow,c/RU,rus,,FALSE,,,,,https://i.imgur.com/lmVoN3H.png
 RadioHit.by,Radio Hit,,,BY,,Orsk,c/BY,rus,,FALSE,,,,,https://i.imgur.com/oXoGORi.jpg
 RadioIbizaTV.it,Radio Ibiza TV,,,IT,,,c/IT,ita,,FALSE,,,,,https://i.imgur.com/sH8FGqv.png
-RadioIdeal.hn,Radio Ideal,,,HN,,La Esperanza,c/HN,spa,,FALSE,,,,https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.idealfm104-7.com%2F%3Ffbclid%3DIwAR3YXkz1fm_r2wYgGaRvOjOmTT_XZ8pmeLAbI5yUGhWEHybF5fAsFNsCdFk&h=AT3SYUR90vqCH5YZapuOLW2D6ES3KrL0yDeBivr7ztxxwOJXj8rZ1E3q1Vkf_2tVMtKSBe-l1l3gXOA1llZSm3uQjZtRyO5EtturYETjyyexr96YnOqoGBtGLU0-qbMBHqzD1VTcmXg,https://i.imgur.com/ozX5RO1.png
+RadioIdeal.hn,Radio Ideal,,,HN,,La Esperanza,c/HN,spa,,FALSE,,,,http://www.idealfm104-7.com/,https://i.imgur.com/ozX5RO1.png
 RadioIglesias.it,Radio Iglesias,,,IT,,,c/IT,ita,,FALSE,,,,,https://i.imgur.com/ZrkOBZY.png
 RadioIglesiasSardegna.it,Radio Iglesias Sardegna,,,IT,,,c/IT,ita,,FALSE,,,,,https://i.imgur.com/KDtVpLl.png
 RadioImpacto2.ec,Radio Impacto 2,,,EC,,,c/EC,spa,,FALSE,,,,http://impactosatelital.com/,https://i.imgur.com/YvK1hm7.png
@@ -17537,7 +17538,7 @@ RadioTelevisionMelilla.es,Radio Televisión Melilla,,,ES,,,c/ES,spa,,FALSE,,,,,h
 RadioTelevisionMogan.es,Radio Televisión Mogán,,,ES,,,c/ES,spa,,FALSE,,,,,https://i.imgur.com/AaltTzv.png
 RadioTelevizijaBanovina.hr,Radio Televizija Banovina,,,HR,,,c/HR,hrv,,FALSE,,,,,https://i.imgur.com/7q3g8AS.png
 RadioTicinoChannel.it,Radio Ticino Channel,,,IT,,,c/CH;c/IT,ita,,FALSE,,,,,https://i.imgur.com/RxOUcfo.png
-RadioTropicalTarapoto.pe,Radio Tropical,,,PE,PE-SAM,Tarapoto,c/PE,spa,,FALSE,,,,https://radiotropical.pe/,https://pbs.twimg.com/profile_images/1331243814548287489/RCVGVH6L_400x400.jpg
+RadioTropicalTarapoto.pe,Radio Tropical,,,PE,PE-SAM,Tarapoto,c/PE,spa,,FALSE,,,,https://radiotropical.pe/,https://i.imgur.com/ztVRg6Y.jpg
 RadioTVBinacional.pe,Radio TV Binacional,,,PE,PE-PUN,Desaguadero,c/BO;c/PE,spa,,FALSE,,,,http://www.radiotvbinacional.com/,https://i.imgur.com/0aqiIqi.png
 RadioTVCharles.pe,Radio TV Charles,,,PE,PE-CAJ,Bambamarca,c/PE,spa,,FALSE,,,,http://www.radiotvcharles.com/,https://i.imgur.com/6AAMTcS.png
 RadioTVJuanjui.pe,Radio TV Juanjui,,,PE,PE-SAM,Juanjui,c/PE,spa,,FALSE,,,,https://radiotvjuanjui.com/tv-vivo/,https://i.imgur.com/kn9w87L.png
@@ -20973,13 +20974,13 @@ Telestar1.ro,Telestar1,,,RO,,,c/RO,ron,,FALSE,,,,,https://i.imgur.com/qSd8DTI.pn
 Telesud.fr,Telesud,,,FR,,,c/FR,fra,,FALSE,,,,https://www.telesud.com/,https://service.canal-overseas.com/image-api/v1/image/b4da4d9e38738f7883d5fad106e56646
 TelesudTrapani.it,Telesud Trapani,,,IT,,,c/IT,ita,,FALSE,,,,https://www.telesudweb.it/,https://i.imgur.com/sf1nA3i.png
 Telesur.ve,Telesur,,Telesur,VE,,,c/VE;r/HISPAM,spa,news,FALSE,2005-07-24,,,https://www.telesurtv.net/,https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/TeleSUR-Logo.svg/512px-TeleSUR-Logo.svg.png
-TelesurCamana.pe,Telesur Camana,,Telesur Perú,PE,PE-ARE,Camana,c/PE,spa,,FALSE,,,,https://www.telesur.com.pe/telesur/streaming,https://i.imgur.com/bbhgIN4.png
+TelesurCamana.pe,Telesur Camana,,Telesur Perú,PE,PE-ARE,Camana,s/PE-ARE,spa,,FALSE,,,,https://www.telesur.com.pe/telesur/streaming,https://i.imgur.com/bbhgIN4.png
 TelesurCanal10.do,Telesur Canal,,,DO,,,c/DO,spa,,FALSE,,,,,https://www.telesur.com.do/images/telesur_canal_10_logo2.png
 TeleSURCostaRica.cr,TeleSUR Costa Rica,,,CR,,,c/CR,spa,,FALSE,,,,,https://i.imgur.com/r5p97Ex.jpg
 TelesurEnglish.ve,Telesur English,,Telesur,VE,,,c/VE;c/US,eng,news,FALSE,,,,https://www.telesurenglish.net/,https://comteco.com.bo/img/upload/canales/1yD2hc.png
-TelesurIlo.pe,Telesur Ilo,,Telesur Perú,PE,PE-MOQ,Ilo,c/PE,spa,,FALSE,,,,https://www.telesur.com.pe/telesur/streaming,https://i.imgur.com/bbhgIN4.png
-TelesurMollendo.pe,Telesur Mollendo,,Telesur Perú,PE,PE-ARE,Mollendo,c/PE,spa,,FALSE,,,,https://www.telesur.com.pe/telesur/streaming,https://i.imgur.com/bbhgIN4.png
-TelesurMoquegua.pe,Telesur Moquegua,,Telesur Perú,PE,PE-MOQ,Moquegua,c/PE,spa,,FALSE,,,,https://www.telesur.com.pe/telesur/streaming,https://i.imgur.com/bbhgIN4.png
+TelesurIlo.pe,Telesur Ilo,,Telesur Perú,PE,PE-MOQ,Ilo,s/PE-MOQ,spa,,FALSE,,,,https://www.telesur.com.pe/telesur/streaming,https://i.imgur.com/bbhgIN4.png
+TelesurMollendo.pe,Telesur Mollendo,,Telesur Perú,PE,PE-ARE,Mollendo,s/PE-ARE,spa,,FALSE,,,,https://www.telesur.com.pe/telesur/streaming,https://i.imgur.com/bbhgIN4.png
+TelesurMoquegua.pe,Telesur Moquegua,,Telesur Perú,PE,PE-MOQ,Moquegua,s/PE-MOQ,spa,,FALSE,,,,https://www.telesur.com.pe/telesur/streaming,https://i.imgur.com/bbhgIN4.png
 TelesurTacna.pe,Telesur Tacna,,Telesur Perú,PE,PE-TAC,Tacna,c/PE,spa,,FALSE,,,,https://www.telesur.com.pe/telesur/streaming,https://i.imgur.com/bbhgIN4.png
 TeleSwizz.ch,TeleSwizz,,,CH,,,c/CH,fra,,FALSE,,,,,https://i.imgur.com/wGhVqsN.png
 TeleTchad.td,Télé Tchad,,,TD,,,c/TD,fra,,FALSE,,,,,https://service.canal-overseas.com/image-api/v1/image/56566b7b5524647ff7b09ca6afed35d6
@@ -23302,6 +23303,7 @@ VivaNicaraguaCanal13.ni,Viva Nicaragua Canal 13,,,NI,,,c/NI,spa,,FALSE,,,,https:
 VivaPlus.il,Viva Plus,,,IL,,,c/IL,heb,,FALSE,,,,https://viva.walla.co.il/item/1888338,https://www.lyngsat.com/logo/tv/vv/viva_plus_il.png
 VIVARussia.ru,VIVA Russia,,,RU,,,c/RU,rus,music,FALSE,,,,,https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/VIVA_2011_logo.svg/512px-VIVA_2011_logo.svg.png
 VivaSheli.il,Viva Sheli,,,IL,,,c/IL,heb,,FALSE,,,,https://viva.walla.co.il/,https://www.lyngsat.com/logo/tv/vv/viva-sheli-il.png
+VivaTV.pe,VivaTV,,,PE,,,c/PE,spa,general,FALSE,,,,https://www.vivatv.pe/,https://www.vivatv.pe/panel/archivos-panel/logotipo/Logo-27lb2-24.png
 Vive.ve,Vive,,,VE,,,c/VE,spa,education,FALSE,2003-11-11,,,http://www.vive.gob.ve/,https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Vivetv.png/512px-Vivetv.png
 VividRed.us,Vivid Red,,,US,,,c/US,eng,xxx,TRUE,,,,http://vividtv.com/,https://i.imgur.com/KXRZ2O7.png
 VividTouch.us,Vivid Touch,,,US,,,c/US,eng,xxx,TRUE,,,,http://vividtv.com/,https://ocdn.eu/ptv2-images-transforms/1/5ZEkr1sb2dvLW1pZ3JhdGVkL3ZpdmlkLXRvdWNoLnBuZ5KVAmQAwsOVAgAowsM
@@ -26621,7 +26623,7 @@ WOWTDT1.us,WOWT-DT1,,NBC,US,US-NE,Omaha,s/US-NE,eng,,FALSE,,,,http://www.wowt.co
 WOWTDT2.us,WOWT-DT2,,Cozi TV,US,US-NE,Omaha,s/US-NE,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/cozitv.png
 WOWTDT4.us,WOWT-DT4,,ION,US,US-NE,Omaha,s/US-NE,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/ion_2016.png
 WOWTDT5.us,WOWT-DT5,,Start TV,US,US-NE,Omaha,s/US-NE,eng,,FALSE,,,,,https://cdn.tvpassport.com/image/station/100x100/start-tv.png
-WOWTV.sv,WOW TV,,,SV,,,c/SV;c/PE,spa,general,FALSE,,,,,https://forounivers.com/uploads/monthly_2020_05/large.wowtv2020.png.4fa9c9f8cb5ec86eb2b81a45780bdc93.png
+WOWTV.sv,WOW TV,,,SV,,,c/SV;c/PE,spa,general,FALSE,,,,https://wowelsalvador.com/,https://wowelsalvador.com/imagen/logo2.png
 WPANDT1.us,WPAN-DT1,,Infomercials,US,US-FL,Fort Walton Beach,s/US-FL,eng,,FALSE,,,,http://www.blabtv.com/,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/As_seen_on_TV.svg/512px-As_seen_on_TV.svg.png
 WPBADT1.us,WPBA-DT1,,ALTPBA,US,US-GA,Atlanta,s/US-GA,eng,,FALSE,,,,http://www.wpba.org/,https://cdn.tvpassport.com/image/station/100x100/pbs.png
 WPBFDT1.us,WPBF-DT1,,ABC,US,US-FL,West Palm Beach,s/US-FL,eng,news,FALSE,,,,http://www.wpbf.com/,https://cdn.tvpassport.com/image/station/100x100/abc.png

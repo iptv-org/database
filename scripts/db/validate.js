@@ -147,6 +147,28 @@ function findDuplicatesById(rows) {
 	return errors
 }
 
+// function findDuplicatesByName(rows) {
+// 	rows = rows.map(row => {
+// 		row.name = row.name.toLowerCase()
+
+// 		return row
+// 	})
+
+// 	const errors = []
+// 	const schema = Joi.array().unique((a, b) => a.name === b.name)
+// 	const { error } = schema.validate(rows, { abortEarly: false })
+// 	if (error) {
+// 		error.details.forEach(detail => {
+// 			errors.push({
+// 				line: detail.context.pos + 2,
+// 				message: `entry with the name "${detail.context.value.name}" already exists`
+// 			})
+// 		})
+// 	}
+
+// 	return errors
+// }
+
 function validateChannelCategories(row, i) {
 	const errors = []
 	row.categories.forEach(category => {

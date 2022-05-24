@@ -10,6 +10,7 @@ module.exports = {
 		.required(),
 	native_name: Joi.string()
 		.regex(/^[^",]+$/)
+		.invalid(Joi.ref('name'))
 		.allow(null),
 	network: Joi.string().allow(null),
 	country: Joi.string()

@@ -37,10 +37,10 @@ All data is stored in the [/data](data) folder as [CSV](https://en.wikipedia.org
 
 ### categories
 
-| Field | Description                                                    | Required | Example |
-| ----- | -------------------------------------------------------------- | -------- | ------- |
-| id    | Category ID. Should be the same as the name but in lower case. | Required | `news`  |
-| name  | Category name in one word.                                     | Required | `News`  |
+| Field | Description    | Required | Example |
+| ----- | -------------- | -------- | ------- |
+| id    | Category ID.   | Required | `news`  |
+| name  | Category name. | Required | `News`  |
 
 ### languages
 

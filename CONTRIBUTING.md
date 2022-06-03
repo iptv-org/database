@@ -1,10 +1,10 @@
 # Contributing Guide
 
-### How do I add a channel to the database?
+### How to add a channel to the database or edit its description?
 
 1. Download the repository to your computer. The easiest way to do this is via [GitHub Desktop](https://desktop.github.com/).
 2. Open [data/channels.csv](data/channels.csv) file in one of the spreadsheet editors (such as [Google Sheets](https://www.google.com/sheets/about/), [LibreOffice](https://www.libreoffice.org/discover/libreoffice/), ...).
-3. Add channel to the table and save the file.
+3. Make the necessary changes and save the file.
 4. Make a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) with all changes. This can also be done via [GitHub Desktop](https://desktop.github.com/).
 
 ## Data Scheme

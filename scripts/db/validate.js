@@ -26,17 +26,17 @@ async function main() {
 	for (let filepath of allFiles) {
 		if (!filepath.endsWith('.csv')) continue
 
-		const eol = await file.eol(filepath)
-		if (eol !== 'CRLF')
-			return handleError(`Error: file must have line endings with CRLF (${filepath})`)
-
 		const csvString = await file.read(filepath)
 		if (/\s+$/.test(csvString))
 			return handleError(`Error: empty lines at the end of file not allowed (${filepath})`)
 
-		const rows = csvString.split('\r\n')
+		const rows = csvString.split(/\r\n/)
 		const headers = rows[0].split(',')
 		for (let [i, line] of rows.entries()) {
+			if (line.indexOf('\n') > -1)
+				return handleError(
+					`Error: row ${i + 1} has the wrong line ending character, should be CRLF (${filepath})`
+				)
 			if (line.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/).length !== headers.length)
 				return handleError(`Error: row ${i + 1} has the wrong number of columns (${filepath})`)
 		}

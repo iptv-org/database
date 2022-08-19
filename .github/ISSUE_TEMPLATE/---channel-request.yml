@@ -12,7 +12,7 @@ body:
   - type: input
     attributes:
       label: Channel Name
-      description: Official channel name in English. May include: `a-z`, `à-ÿ`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `(`, `)`
+      description: Official channel name in English
       placeholder: 'Anhui TV'
     validations:
       required: true
@@ -46,7 +46,7 @@ body:
   - type: input
     attributes:
       label: City (optional)
-      description: Name of the city from which the channel is transmitted. May only contain `a-z`, `à-ÿ`, `0-9`, `space`, `-`, `'`
+      description: Name of the city from which the channel is transmitted
       placeholder: 'Hefei'
 
   - type: input

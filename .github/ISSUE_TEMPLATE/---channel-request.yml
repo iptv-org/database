@@ -71,7 +71,7 @@ body:
       description: List of categories to which this channel belongs separated by `;`. A list of all supported categories can be found in [data/categories.csv](data/categories.csv)
       placeholder: 'animation;kids'
 
-  - type: input
+  - type: dropdown
     attributes:
       label: NSFW
       description: Indicates whether the channel broadcasts adult content

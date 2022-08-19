@@ -32,7 +32,7 @@ body:
   - type: input
     attributes:
       label: Country
-      description: Country code from which the channel is transmitted. A list of all supported countries and their codes can be found in [data/countries.csv](data/countries.csv) 
+      description: Country code from which the channel is transmitted. A list of all supported countries and their codes can be found in [data/countries.csv](https://github.com/iptv-org/database/blob/master/data/countries.csv) 
       placeholder: 'CN'
     validations:
       required: true
@@ -40,7 +40,7 @@ body:
   - type: input
     attributes:
       label: Subdivision (optional)
-      description: Code of the subdivision (e.g., provinces or states) from which the broadcast is transmitted. A list of all supported subdivisions and their codes can be found in [data/subdivisions.csv](data/subdivisions.csv)
+      description: Code of the subdivision (e.g., provinces or states) from which the broadcast is transmitted. A list of all supported subdivisions and their codes can be found in [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv)
       placeholder: 'CN-AH'
 
   - type: input
@@ -60,7 +60,7 @@ body:
   - type: input
     attributes:
       label: Languages
-      description: List of languages in which the channel is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](data/languages.csv)
+      description: List of languages in which the channel is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](https://github.com/iptv-org/database/blob/master/data/languages.csv)
       placeholder: 'zho;eng'
     validations:
       required: true
@@ -68,7 +68,7 @@ body:
   - type: input
     attributes:
       label: Categories (optional)
-      description: List of categories to which this channel belongs separated by `;`. A list of all supported categories can be found in [data/categories.csv](data/categories.csv)
+      description: List of categories to which this channel belongs separated by `;`. A list of all supported categories can be found in [data/categories.csv](https://github.com/iptv-org/database/blob/master/data/categories.csv)
       placeholder: 'animation;kids'
 
   - type: dropdown

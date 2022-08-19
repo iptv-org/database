@@ -76,8 +76,8 @@ body:
       label: NSFW
       description: Indicates whether the channel broadcasts adult content
       options:
-        - FALSE
-        - TRUE
+        - 'FALSE'
+        - 'TRUE'
     validations:
       required: true
 

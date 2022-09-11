@@ -2,9 +2,9 @@
 
 User editable database for TV channels.
 
-All data is stored in the [/data](data) folder as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) (Comma-separated values) files and can be edited with any spreadsheet editor (such as [Google Sheets](https://www.google.com/sheets/about/), [LibreOffice](https://www.libreoffice.org/discover/libreoffice/), ...).
-
 ![channels.csv](.readme/preview.png)
+
+All data is stored in the [/data](data) folder as [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) (Comma-separated values) files and can be edited with any spreadsheet editor (such as [Google Sheets](https://www.google.com/sheets/about/), [LibreOffice](https://www.libreoffice.org/discover/libreoffice/), ...).
 
 ## Contribution
 

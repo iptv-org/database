@@ -35,7 +35,7 @@ module.exports = {
 	categories: Joi.array().items(Joi.string().regex(/^[a-z]+$/)),
 	is_nsfw: Joi.boolean().strict().required(),
 	launched: Joi.date().format('YYYY-MM-DD').raw().allow(null),
-	closed: Joi.date().format('YYYY-MM-DD').raw().allow(null),
+	closed: Joi.date().format('YYYY-MM-DD').raw().allow(null).greater(Joi.ref('launched')),
 	replaced_by: Joi.string()
 		.regex(/^[A-Za-z0-9]+\.[a-z]{2}$/)
 		.allow(null),

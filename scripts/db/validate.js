@@ -1,3 +1,4 @@
+const { transliterate } = require('transliteration')
 const { logger, file, csv } = require('../core')
 const { program } = require('commander')
 const schemes = require('./schemes')
@@ -70,11 +71,13 @@ async function main() {
 		if (!schemes[filename]) return handleError(`Error: "${filename}" scheme is missing`)
 
 		const rows = files[filename]
+		const rowsCopy = JSON.parse(JSON.stringify(rows))
 
 		let fileErrors = []
 		if (filename === 'channels') {
-			fileErrors = fileErrors.concat(findDuplicatesById(rows))
-			for (const [i, row] of rows.entries()) {
+			fileErrors = fileErrors.concat(findDuplicatesById(rowsCopy))
+			for (const [i, row] of rowsCopy.entries()) {
+				fileErrors = fileErrors.concat(validateChannelId(row, i))
 				fileErrors = fileErrors.concat(validateChannelBroadcastArea(row, i))
 				fileErrors = fileErrors.concat(validateChannelSubdivision(row, i))
 				fileErrors = fileErrors.concat(validateChannelCategories(row, i))
@@ -83,19 +86,19 @@ async function main() {
 				fileErrors = fileErrors.concat(validateChannelCountry(row, i))
 			}
 		} else if (filename === 'blocklist') {
-			for (const [i, row] of rows.entries()) {
-				fileErrors = fileErrors.concat(validateChannelId(row, i))
+			for (const [i, row] of rowsCopy.entries()) {
+				fileErrors = fileErrors.concat(validateChannel(row, i))
 			}
 		} else if (filename === 'countries') {
-			for (const [i, row] of rows.entries()) {
+			for (const [i, row] of rowsCopy.entries()) {
 				fileErrors = fileErrors.concat(validateCountryLanguage(row, i))
 			}
 		} else if (filename === 'subdivisions') {
-			for (const [i, row] of rows.entries()) {
+			for (const [i, row] of rowsCopy.entries()) {
 				fileErrors = fileErrors.concat(validateSubdivisionCountry(row, i))
 			}
 		} else if (filename === 'regions') {
-			for (const [i, row] of rows.entries()) {
+			for (const [i, row] of rowsCopy.entries()) {
 				fileErrors = fileErrors.concat(validateRegionCountries(row, i))
 			}
 		}
@@ -127,13 +130,13 @@ main()
 
 function findDuplicatesById(rows) {
 	rows = rows.map(row => {
-		row.id = row.id.toLowerCase()
+		row.normId = row.id.toLowerCase()
 
 		return row
 	})
 
 	const errors = []
-	const schema = Joi.array().unique((a, b) => a.id === b.id)
+	const schema = Joi.array().unique((a, b) => a.normId === b.normId)
 	const { error } = schema.validate(rows, { abortEarly: false })
 	if (error) {
 		error.details.forEach(detail => {
@@ -168,6 +171,34 @@ function findDuplicatesById(rows) {
 
 // 	return errors
 // }
+
+function validateChannelId(row, i) {
+	const errors = []
+
+	let name = normalize(row.name)
+	let code = row.country
+	let expected = `${name}.${code}`.toLowerCase()
+
+	if (expected !== row.normId) {
+		errors.push({
+			line: i + 2,
+			message: `"${row.id}" must be derived from the channel name "${row.name}" and the country code "${row.country}"`
+		})
+	}
+
+	function normalize(name) {
+		let translit = transliterate(name)
+
+		return translit
+			.replace(/^@/i, 'At')
+			.replace(/^&/i, 'And')
+			.replace(/\+/gi, 'Plus')
+			.replace(/\s\-/gi, ' Minus')
+			.replace(/[^a-z\d]+/gi, '')
+	}
+
+	return errors
+}
 
 function validateChannelCategories(row, i) {
 	const errors = []
@@ -252,7 +283,7 @@ function validateChannelLanguages(row, i) {
 	return errors
 }
 
-function validateChannelId(row, i) {
+function validateChannel(row, i) {
 	const errors = []
 	if (!db.channels[row.channel]) {
 		errors.push({

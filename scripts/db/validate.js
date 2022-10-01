@@ -176,10 +176,10 @@ function validateChannelId(row, i) {
 	const errors = []
 
 	let name = normalize(row.name)
-	let code = row.country
-	let expected = `${name}.${code}`.toLowerCase()
+	let code = row.country.toLowerCase()
+	let expected = `${name}.${code}`
 
-	if (expected !== row.normId) {
+	if (expected !== row.id) {
 		errors.push({
 			line: i + 2,
 			message: `"${row.id}" must be derived from the channel name "${row.name}" and the country code "${row.country}"`

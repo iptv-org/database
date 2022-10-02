@@ -1,0 +1,29 @@
+name: 🗑️ Remove channel
+description: Request to remove a channel from the database
+title: 'Remove: '
+labels: []
+
+body:
+  - type: input
+    attributes:
+      label: Channel ID
+      description: The ID of the channel that should be removed
+      placeholder: 'AnhuiTV.cn'
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Reason
+      description: Select the reason for removal from the list below
+      options:
+        - 'Duplicate'
+        - 'Not a TV channel'
+        - 'Other'
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Notes
+      description: 'Any additional info'

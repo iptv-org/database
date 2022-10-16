@@ -13,6 +13,7 @@ module.exports = {
 		.invalid(Joi.ref('name'))
 		.allow(null),
 	network: Joi.string().allow(null),
+	owner: Joi.string().allow(null),
 	country: Joi.string()
 		.regex(/^[A-Z]{2}$/)
 		.required(),

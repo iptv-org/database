@@ -23,7 +23,7 @@ const csv2jsonOptions = {
 		subdivision: nullable,
 		city: nullable,
 		network: nullable,
-		owner: nullable,
+		owners: listParser,
 		launched: nullable,
 		closed: nullable,
 		website: nullable,

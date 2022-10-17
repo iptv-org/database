@@ -32,8 +32,14 @@ body:
   - type: input
     attributes:
       label: Network
-      description: Network of which this channel is a part.
+      description: Network of which this channel is a part. May contain any characters except `,` and `"`.
       placeholder: 'Anhui'
+
+  - type: input
+    attributes:
+      label: Owners
+      description: List of channel owners separated by `;`. May contain any characters except `,` and `"`.
+      placeholder: 'China Central Television'
 
   - type: input
     attributes:

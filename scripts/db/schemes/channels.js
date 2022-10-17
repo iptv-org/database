@@ -12,8 +12,10 @@ module.exports = {
 		.regex(/^[^",]+$/)
 		.invalid(Joi.ref('name'))
 		.allow(null),
-	network: Joi.string().allow(null),
-	owner: Joi.string().allow(null),
+	network: Joi.string()
+		.regex(/^[^",]+$/)
+		.allow(null),
+	owners: Joi.array().items(Joi.string().regex(/^[^",]+$/)),
 	country: Joi.string()
 		.regex(/^[A-Z]{2}$/)
 		.required(),

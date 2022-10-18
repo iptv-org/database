@@ -8,10 +8,11 @@ module.exports = {
 	name: Joi.string()
 		.regex(/^[\sa-z\u00C0-\u00FF0-9-čâộăšİ!:&.+'/»#%°$@?()¡]+$/i)
 		.required(),
-	native_name: Joi.string()
-		.regex(/^[^",]+$/)
-		.invalid(Joi.ref('name'))
-		.allow(null),
+	alt_names: Joi.array().items(
+		Joi.string()
+			.regex(/^[^",]+$/)
+			.invalid(Joi.ref('name'))
+	),
 	network: Joi.string()
 		.regex(/^[^",]+$/)
 		.allow(null),

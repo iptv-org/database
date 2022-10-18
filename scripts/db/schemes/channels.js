@@ -6,12 +6,13 @@ module.exports = {
 		.regex(/^[A-Za-z0-9]+\.[a-z]{2}$/)
 		.required(),
 	name: Joi.string()
-		.regex(/^[\sa-z\u00C0-\u00FF0-9-čâộăšİ!:&.+'/»#%°$@?()¡]+$/i)
+		.regex(/^[a-z0-9-!:&.+'/»#%°$@?()\s]+$/i)
 		.required(),
-	native_name: Joi.string()
-		.regex(/^[^",]+$/)
-		.invalid(Joi.ref('name'))
-		.allow(null),
+	alt_names: Joi.array().items(
+		Joi.string()
+			.regex(/^[^",]+$/)
+			.invalid(Joi.ref('name'))
+	),
 	network: Joi.string()
 		.regex(/^[^",]+$/)
 		.allow(null),

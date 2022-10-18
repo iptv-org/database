@@ -14,21 +14,21 @@ const csv2jsonOptions = {
 	delimiter: ',',
 	eol: '\r\n',
 	colParser: {
-		countries: listParser,
-		languages: listParser,
-		categories: listParser,
-		broadcast_area: listParser,
-		is_nsfw: boolParser,
-		logo: nullable,
-		subdivision: nullable,
-		city: nullable,
+		alt_names: listParser,
 		network: nullable,
 		owners: listParser,
+		subdivision: nullable,
+		city: nullable,
+		broadcast_area: listParser,
+		languages: listParser,
+		categories: listParser,
+		is_nsfw: boolParser,
 		launched: nullable,
 		closed: nullable,
+		replaced_by: nullable,
 		website: nullable,
-		native_name: nullable,
-		replaced_by: nullable
+		logo: nullable,
+		countries: listParser
 	}
 }
 

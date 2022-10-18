@@ -20,13 +20,13 @@ body:
   - type: input
     attributes:
       label: Channel Name
-      description: Official channel name in English
+      description: Official channel name in English or call sign. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `(`, `)`
       placeholder: 'Anhui TV'
 
   - type: input
     attributes:
-      label: Native Name
-      description: Channel name in the original language. Used when different from `name`. May contain any characters except `,` and `"`
+      label: Alternative Names (optional)
+      description: List of alternative channel names separated by `;`. May contain any characters except `,` and `"`
       placeholder: '安徽卫视'
 
   - type: input

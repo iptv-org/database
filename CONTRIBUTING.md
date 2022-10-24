@@ -55,12 +55,12 @@
 
 ### countries
 
-| Field | Description                                                                                | Required | Example      |
-| ----- | ------------------------------------------------------------------------------------------ | -------- | ------------ |
-| name  | Official name of the country                                                               | Required | `Martinique` |
-| code  | [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code of the country | Required | `MQ`         |
-| lang  | Official language in the country                                                           | Required | `fra`        |
-| flag  | Country flag emoji                                                                         | Required | `🇲🇶`         |
+| Field     | Description                                                                                                                                             | Required | Example   |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------- |
+| name      | Official name of the country                                                                                                                            | Required | `Canada`  |
+| code      | [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code of the country                                                              | Required | `CA`      |
+| languages | List of official languages of the country separated by `;`. A list of all supported languages can be found in [data/languages.csv](data/languages.csv). | Required | `eng;fra` |
+| flag      | Country flag emoji                                                                                                                                      | Required | `🇨🇦`      |
 
 ### subdivisions
 

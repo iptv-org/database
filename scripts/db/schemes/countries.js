@@ -7,9 +7,11 @@ module.exports = {
 	code: Joi.string()
 		.regex(/^[A-Z]{2}$/)
 		.required(),
-	lang: Joi.string()
-		.regex(/^[a-z]{3}$/)
-		.required(),
+	languages: Joi.array().items(
+		Joi.string()
+			.regex(/^[a-z]{3}$/)
+			.required()
+	),
 	flag: Joi.string()
 		.regex(/^[\uD83C][\uDDE6-\uDDFF][\uD83C][\uDDE6-\uDDFF]$/)
 		.required()

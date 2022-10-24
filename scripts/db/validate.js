@@ -91,7 +91,7 @@ async function main() {
 			}
 		} else if (filename === 'countries') {
 			for (const [i, row] of rowsCopy.entries()) {
-				fileErrors = fileErrors.concat(validateCountryLanguage(row, i))
+				fileErrors = fileErrors.concat(validateCountryLanguages(row, i))
 			}
 		} else if (filename === 'subdivisions') {
 			for (const [i, row] of rowsCopy.entries()) {
@@ -295,13 +295,15 @@ function validateChannel(row, i) {
 	return errors
 }
 
-function validateCountryLanguage(row, i) {
+function validateCountryLanguages(row, i) {
 	const errors = []
-	if (!db.languages[row.lang]) {
-		errors.push({
-			line: i + 2,
-			message: `"${row.code}" has the wrong language "${row.lang}"`
-		})
+	for (let lang of row.languages) {
+		if (!db.languages[lang]) {
+			errors.push({
+				line: i + 2,
+				message: `"${row.code}" has the wrong language "${lang}"`
+			})
+		}
 	}
 
 	return errors

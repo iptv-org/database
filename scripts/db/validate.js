@@ -76,6 +76,7 @@ async function main() {
 		let fileErrors = []
 		if (filename === 'channels') {
 			fileErrors = fileErrors.concat(findDuplicatesById(rowsCopy))
+			// fileErrors = fileErrors.concat(findDuplicatesByName(rowsCopy))
 			for (const [i, row] of rowsCopy.entries()) {
 				fileErrors = fileErrors.concat(validateChannelId(row, i))
 				fileErrors = fileErrors.concat(validateChannelBroadcastArea(row, i))
@@ -129,48 +130,40 @@ async function main() {
 main()
 
 function findDuplicatesById(rows) {
-	rows = rows.map(row => {
-		row.normId = row.id.toLowerCase()
-
-		return row
-	})
-
 	const errors = []
-	const schema = Joi.array().unique((a, b) => a.normId === b.normId)
-	const { error } = schema.validate(rows, { abortEarly: false })
-	if (error) {
-		error.details.forEach(detail => {
+	const buffer = {}
+	rows.forEach((row, i) => {
+		const normId = row.id.toLowerCase()
+		if (buffer[normId]) {
 			errors.push({
-				line: detail.context.pos + 2,
-				message: `entry with the id "${detail.context.value.id}" already exists`
+				line: i + 2,
+				message: `entry with the id "${row.id}" already exists`
 			})
-		})
-	}
+		}
+
+		buffer[normId] = true
+	})
 
 	return errors
 }
 
-// function findDuplicatesByName(rows) {
-// 	rows = rows.map(row => {
-// 		row.name = row.name.toLowerCase()
+function findDuplicatesByName(rows) {
+	const errors = []
+	const buffer = {}
+	rows.forEach((row, i) => {
+		const normName = row.name.toLowerCase()
+		if (buffer[normName]) {
+			errors.push({
+				line: i + 2,
+				message: `entry with the name "${row.name}" already exists`
+			})
+		}
 
-// 		return row
-// 	})
+		buffer[normName] = true
+	})
 
-// 	const errors = []
-// 	const schema = Joi.array().unique((a, b) => a.name === b.name)
-// 	const { error } = schema.validate(rows, { abortEarly: false })
-// 	if (error) {
-// 		error.details.forEach(detail => {
-// 			errors.push({
-// 				line: detail.context.pos + 2,
-// 				message: `entry with the name "${detail.context.value.name}" already exists`
-// 			})
-// 		})
-// 	}
-
-// 	return errors
-// }
+	return errors
+}
 
 function validateChannelId(row, i) {
 	const errors = []

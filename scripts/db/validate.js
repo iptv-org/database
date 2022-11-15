@@ -186,7 +186,7 @@ function validateChannelId(row, i) {
 			.replace(/^@/i, 'At')
 			.replace(/^&/i, 'And')
 			.replace(/\+/gi, 'Plus')
-			.replace(/\s\-/gi, ' Minus')
+			.replace(/\s\-(\d)/gi, ' Minus$1')
 			.replace(/[^a-z\d]+/gi, '')
 	}
 

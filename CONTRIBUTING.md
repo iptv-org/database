@@ -7,6 +7,12 @@
 3. Make the necessary changes and save the file.
 4. Make a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) with all changes. This can also be done via [GitHub Desktop](https://desktop.github.com/).
 
+**IMPORTANT:** Since different programs process CSV files differently before publishing an edited file, please make sure that:
+
+- no extra columns (commas) were added to the file
+- only [CRLF](https://developer.mozilla.org/en-US/docs/Glossary/CRLF) is used to indicate the end of a line
+- no empty lines at the end of the file
+
 ## Data Scheme
 
 - [channels](#channels)

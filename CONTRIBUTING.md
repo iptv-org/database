@@ -43,7 +43,7 @@
 | closed         | Date on which the channel closed (`YYYY-MM-DD`).                                                                                                                                                                  | Optional | `2020-05-31`                   |
 | replaced_by    | The ID of the channel that this channel was replaced by.                                                                                                                                                          | Optional | `CCTV1.cn`                     |
 | website        | Official website URL.                                                                                                                                                                                             | Optional | `http://www.ahtv.cn/`          |
-| logo           | Logo URL. Only URL with HTTPS protocol are allowed. Supported image types: `PNG`, `JPEG`.                                                                                                                         | Required | `https://example.com/logo.png` |
+| logo           | Logo URL. Only URL with HTTPS protocol are allowed. Supported image types: `PNG`, `JPEG`. Max size: 512x512 pixels.                                                                                               | Required | `https://example.com/logo.png` |
 
 ### categories
 

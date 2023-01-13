@@ -122,10 +122,10 @@
   "resolved" "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
   "version" "0.4.0"
 
-"autocrop-js@^0.0.2":
-  "integrity" "sha512-P6maQj4GdQ9cjysIUCzX20zvcm6I2/m3RXXiIyiCiUKqF8A+80zMr7Qi8DVsVK5YFGBdbphcYDtB3PAyhLLwqQ=="
-  "resolved" "https://registry.npmjs.org/autocrop-js/-/autocrop-js-0.0.2.tgz"
-  "version" "0.0.2"
+"autocrop-js@^0.2.0":
+  "integrity" "sha512-ocGuyZz/3X9GeR0cdXmZF+5JWx96P7wJnEkOjqIYJ92itp8qHPbvyCTkK0lthWBxux8xyG8xgKpSMV0Wfb+d3A=="
+  "resolved" "https://registry.npmjs.org/autocrop-js/-/autocrop-js-0.2.0.tgz"
+  "version" "0.2.0"
   dependencies:
     "image-js" "^0.35.2"
     "lodash" "^4.17.21"

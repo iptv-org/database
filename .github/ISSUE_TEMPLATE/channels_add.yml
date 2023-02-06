@@ -114,7 +114,7 @@ body:
   - type: input
     attributes:
       label: Logo
-      description: Logo URL
+      description: Logo URL. Only URL with HTTPS protocol are allowed. Supported image types: `PNG`, `JPEG`. Max size: 512x512 pixels
       placeholder: 'https://example.com/logo.png'
     validations:
       required: true

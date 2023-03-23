@@ -1,7 +1,7 @@
 name: 🗑️ Remove channel
 description: Request to remove a channel from the database
 title: 'Remove: '
-labels: []
+labels: ['channels:remove']
 
 body:
   - type: input

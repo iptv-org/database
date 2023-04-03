@@ -1,7 +1,7 @@
 name: ➕ Add channel
 description: Request to add a channel into the database
 title: 'Add: '
-labels: []
+labels: ['channels:add']
 
 body:
   - type: markdown

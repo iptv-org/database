@@ -1,7 +1,7 @@
 name: ✏️ Edit channel
 description: Request to edit channel description
 title: 'Edit: '
-labels: []
+labels: ['channels:edit']
 
 body:
   - type: input

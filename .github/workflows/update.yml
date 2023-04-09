@@ -25,7 +25,7 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ steps.create-app-token.outputs.token }}
-          branch: bot/auto-update
+          branch: bot/patch
           branch-suffix: timestamp
           delete-branch: true
           add-paths: |

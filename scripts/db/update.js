@@ -38,7 +38,7 @@ async function main() {
     channels = _.orderBy(channels, [channels => channels.id.toLowerCase()], ['asc'])
     await csv.save(filepath, channels)
 
-    const output = processedIssues.map(issue => `Closes #${issue.number}`).join('\r\n')
+    const output = processedIssues.map(issue => `closes #${issue.number}`).join(', ')
     console.log(`OUTPUT=${output}`)
   } catch (err) {
     console.log(err.message)

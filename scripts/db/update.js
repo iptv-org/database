@@ -39,7 +39,7 @@ async function main() {
     await csv.save(filepath, channels)
 
     const output = processedIssues.map(issue => `Closes #${issue.number}`).join('\r\n')
-    console.log(`OUTPUT=${JSON.stringify(output)}`)
+    console.log(`OUTPUT=${output}`)
   } catch (err) {
     console.log(err.message)
   }

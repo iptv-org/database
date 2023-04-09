@@ -78,7 +78,7 @@ function parseIssue(issue) {
   const channel = {}
   const fields = {
     'Channel Name': 'name',
-    'Alternative Names (optional)': 'alt_name',
+    'Alternative Names (optional)': 'alt_names',
     'Network (optional)': 'network',
     'Owners (optional)': 'owners',
     Country: 'country',

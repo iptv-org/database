@@ -24,8 +24,6 @@ async function main() {
     await editChannels()
     await addChannels()
 
-    console.log(channels[463])
-
     channels = _.orderBy(channels, [channels => channels.id.toLowerCase()], ['asc'])
     await csv.save(filepath, channels)
 

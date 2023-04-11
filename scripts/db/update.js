@@ -13,27 +13,18 @@ const DATA_DIR = process.env.DATA_DIR || './data'
 const OWNER = 'iptv-org'
 const REPO = 'database'
 
+let channels = []
+let processedIssues = []
+
 async function main() {
   try {
     const filepath = `${DATA_DIR}/channels.csv`
-    let channels = await csv.fromFile(filepath)
-    const issues = await fetchIssues('channels:add,approved')
-    const processedIssues = []
-    issues.map(parseIssue).forEach(({ issue, channel }) => {
-      if (!channel) {
-        updateIssue(issue, { labels: ['channels:add', 'rejected:invalid'] })
-        return
-      }
+    channels = await csv.fromFile(filepath)
 
-      const found = channels.find(c => c.id === channel.id)
-      if (found) {
-        updateIssue(issue, { labels: ['channels:add', 'rejected:duplicate'] })
-        return
-      }
+    await editChannels()
+    await addChannels()
 
-      channels.push(channel)
-      processedIssues.push(issue)
-    })
+    console.log(channels[463])
 
     channels = _.orderBy(channels, [channels => channels.id.toLowerCase()], ['asc'])
     await csv.save(filepath, channels)
@@ -46,6 +37,53 @@ async function main() {
 }
 
 main()
+
+async function editChannels() {
+  const issues = await fetchIssues('channels:edit,approved')
+  issues.map(parseIssue).forEach(({ issue, channel }) => {
+    if (!channel) {
+      updateIssue(issue, { labels: ['channels:edit', 'rejected:invalid'] })
+      return
+    }
+
+    const index = _.findIndex(channels, { id: channel.id })
+    if (!index) {
+      updateIssue(issue, { labels: ['channels:edit', 'rejected:invalid'] })
+      return
+    }
+
+    const found = channels[index]
+
+    for (let prop in channel) {
+      if (channel[prop] !== undefined) {
+        found[prop] = channel[prop]
+      }
+    }
+
+    channels.splice(index, 1, found)
+
+    processedIssues.push(issue)
+  })
+}
+
+async function addChannels() {
+  const issues = await fetchIssues('channels:add,approved')
+  issues.map(parseIssue).forEach(({ issue, channel }) => {
+    if (!channel) {
+      updateIssue(issue, { labels: ['channels:add', 'rejected:invalid'] })
+      return
+    }
+
+    const found = channels.find(c => c.id === channel.id)
+    if (found) {
+      updateIssue(issue, { labels: ['channels:add', 'rejected:duplicate'] })
+      return
+    }
+
+    channels.push(channel)
+    processedIssues.push(issue)
+  })
+}
 
 async function fetchIssues(labels) {
   const issues = await octokit.paginate('GET /repos/{owner}/{repo}/issues', {
@@ -77,20 +115,31 @@ function parseIssue(issue) {
   const buffer = {}
   const channel = {}
   const fields = {
+    'Channel ID (required)': 'id',
     'Channel Name': 'name',
+    'Alternative Names': 'alt_names',
     'Alternative Names (optional)': 'alt_names',
+    Network: 'network',
     'Network (optional)': 'network',
+    Owners: 'owners',
     'Owners (optional)': 'owners',
     Country: 'country',
+    Subdivision: 'subdivision',
     'Subdivision (optional)': 'subdivision',
+    City: 'city',
     'City (optional)': 'city',
     'Broadcast Area': 'broadcast_area',
     Languages: 'languages',
+    Categories: 'categories',
     'Categories (optional)': 'categories',
     NSFW: 'is_nsfw',
+    Launched: 'launched',
     'Launched (optional)': 'launched',
+    Closed: 'closed',
     'Closed (optional)': 'closed',
+    'Replaced By': 'replaced_by',
     'Replaced By (optional)': 'replaced_by',
+    Website: 'website',
     'Website (optional)': 'website',
     Logo: 'logo'
   }
@@ -112,7 +161,9 @@ function parseIssue(issue) {
     channel[field] = buffer[field]
   }
 
-  channel.id = generateChannelId(channel.name, channel.country)
+  if (!channel.id) {
+    channel.id = generateChannelId(channel.name, channel.country)
+  }
 
   return { issue, channel }
 }

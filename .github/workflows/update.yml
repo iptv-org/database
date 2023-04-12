@@ -1,0 +1,41 @@
+name: update
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: tibdex/github-app-token@v1
+        id: create-app-token
+        with:
+          app_id: ${{ secrets.APP_ID }}
+          private_key: ${{ secrets.APP_PRIVATE_KEY }}
+      - run: npm install
+      - run: GITHUB_TOKEN=${{ steps.create-app-token.outputs.token }} npm run db:update --silent >> $GITHUB_OUTPUT
+        id: issue-process
+      - name: Commit Changes
+        run: |
+          git config user.name ${{ github.actor }}
+          git config user.email '${{ github.actor }}@users.noreply.github.com'
+          git add data/channels.csv
+          git commit -m "[Bot] Update channels.csv" --no-verify
+          git status
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ steps.create-app-token.outputs.token }}
+          branch: bot/patch
+          branch-suffix: timestamp
+          delete-branch: true
+          add-paths: |
+            data/*.csv
+          title: '[Bot] Update database'
+          body: |
+            This pull request is created by [update][1] workflow.
+
+            ${{ steps.issue-process.outputs.OUTPUT }}
+
+            [1]: https://github.com/iptv-org/database/actions/runs/${{ github.run_id }}

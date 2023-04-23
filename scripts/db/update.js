@@ -58,6 +58,8 @@ async function editChannels() {
       }
     }
 
+    found.id = generateChannelId(found.name, found.country)
+
     channels.splice(index, 1, found)
 
     processedIssues.push(issue)

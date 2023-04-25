@@ -84,8 +84,8 @@ body:
       options:
         - 'FALSE'
         - 'TRUE'
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: input
     attributes:

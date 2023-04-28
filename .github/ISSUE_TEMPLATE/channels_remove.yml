@@ -6,7 +6,7 @@ labels: ['channels:remove']
 body:
   - type: input
     attributes:
-      label: Channel ID
+      label: Channel ID (required)
       description: The ID of the channel that should be removed
       placeholder: 'AnhuiTV.cn'
     validations:
@@ -14,7 +14,7 @@ body:
 
   - type: dropdown
     attributes:
-      label: Reason
+      label: Reason (required)
       description: Select the reason for removal from the list below
       options:
         - 'Duplicate'

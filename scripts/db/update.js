@@ -21,6 +21,7 @@ async function main() {
     const filepath = `${DATA_DIR}/channels.csv`
     channels = await csv.fromFile(filepath)
 
+    await removeChannels()
     await editChannels()
     await addChannels()
 
@@ -36,6 +37,26 @@ async function main() {
 
 main()
 
+async function removeChannels() {
+  const issues = await fetchIssues('channels:remove,approved')
+  issues.map(parseIssue).forEach(({ issue, channel }) => {
+    if (!channel) {
+      updateIssue(issue, { labels: ['channels:remove', 'rejected:invalid'] })
+      return
+    }
+
+    const index = _.findIndex(channels, { id: channel.id })
+    if (index < 0) {
+      updateIssue(issue, { labels: ['channels:remove', 'rejected:wrong_id'] })
+      return
+    }
+
+    channels.splice(index, 1)
+
+    processedIssues.push(issue)
+  })
+}
+
 async function editChannels() {
   const issues = await fetchIssues('channels:edit,approved')
   issues.map(parseIssue).forEach(({ issue, channel }) => {
@@ -46,7 +67,7 @@ async function editChannels() {
 
     const index = _.findIndex(channels, { id: channel.id })
     if (!index) {
-      updateIssue(issue, { labels: ['channels:edit', 'rejected:invalid'] })
+      updateIssue(issue, { labels: ['channels:edit', 'rejected:wrong_id'] })
       return
     }
 
@@ -57,6 +78,8 @@ async function editChannels() {
         found[prop] = channel[prop]
       }
     }
+
+    found.id = generateChannelId(found.name, found.country)
 
     channels.splice(index, 1, found)
 

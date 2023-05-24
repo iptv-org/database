@@ -165,12 +165,12 @@ function parseIssue(issue) {
     Logo: 'logo'
   }
 
-  const matches = issue.body.match(/### ([^\r\n]+)[^\w\d]+([^\r\n]+)/g)
+  const matches = issue.body.match(/### ([^\r\n]+)\s+([^\r\n]+)/g)
 
   if (!matches) return { issue, channel: null }
 
   matches.forEach(item => {
-    const [, fieldLabel, value] = item.match(/### ([^\r\n]+)[^\w\d]+([^\r\n]+)/)
+    const [, fieldLabel, value] = item.match(/### ([^\r\n]+)\s+([^\r\n]+)/)
     const field = fields[fieldLabel]
 
     if (!field) return

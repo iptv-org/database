@@ -14,4 +14,4 @@ jobs:
           app_id: ${{ secrets.APP_ID }}
           private_key: ${{ secrets.APP_PRIVATE_KEY }}
       - run: npm install
-      - run: GITHUB_TOKEN=${{ steps.create-app-token.outputs.token }} npm run db:update >> $GITHUB_OUTPUT
+      - run: GITHUB_TOKEN=${{ steps.create-app-token.outputs.token }} npm run db:update

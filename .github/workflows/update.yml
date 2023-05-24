@@ -23,6 +23,6 @@ jobs:
           git config user.name ${{ github.actor }}
           git config user.email '${{ github.actor }}@users.noreply.github.com'
           git add data/channels.csv
-          git commit -m "[Bot] Update channels.csv" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/database/actions/runs/${{ github.run_id }}) workflow." -m "${{ steps.issue-process.outputs.OUTPUT }}" --no-verify
+          git diff --quiet && git diff --staged --quiet || git commit -m "[Bot] Update channels.csv" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/database/actions/runs/${{ github.run_id }}) workflow." -m "${{ steps.issue-process.outputs.OUTPUT }}" --no-verify
           git status
           git push

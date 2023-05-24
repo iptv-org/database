@@ -6,6 +6,8 @@ on:
 jobs:
   main:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
     steps:
       - uses: actions/checkout@v3
       - uses: tibdex/github-app-token@v1

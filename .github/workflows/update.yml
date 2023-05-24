@@ -16,13 +16,12 @@ jobs:
       - run: npm install
       - run: GITHUB_TOKEN=${{ steps.create-app-token.outputs.token }} npm run db:update --silent >> $GITHUB_OUTPUT
         id: issue-process
-      - name: Validate Changes
-        run: npm run db:validate -- data/channels.csv
       - name: Commit Changes
+        if: steps.issue-process.outputs.OUTPUT != 0
         run: |
           git config user.name ${{ github.actor }}
           git config user.email '${{ github.actor }}@users.noreply.github.com'
           git add data/channels.csv
-          git commit -m "[Bot] Update channels.csv" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/database/actions/runs/${{ github.run_id }}) workflow." -m "${{ steps.issue-process.outputs.OUTPUT }}" --no-verify
+          git commit -m "[Bot] Update channels.csv" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/database/actions/runs/${{ github.run_id }}) workflow." -m "${{ steps.issue-process.outputs.OUTPUT }}"
           git status
           git push

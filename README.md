@@ -1,4 +1,4 @@
-# Database [![check](https://github.com/iptv-org/database/actions/workflows/check.yml/badge.svg)](https://github.com/iptv-org/database/actions/workflows/check.yml)
+# Database [![update](https://github.com/iptv-org/database/actions/workflows/update.yml/badge.svg)](https://github.com/iptv-org/database/actions/workflows/update.yml)
 
 User editable database for TV channels.
 

@@ -66,7 +66,7 @@ async function editChannels() {
     }
 
     const index = _.findIndex(channels, { id: channel.id })
-    if (!index) {
+    if (index < 0) {
       updateIssue(issue, { labels: ['channels:edit', 'rejected:wrong_id'] })
       return
     }

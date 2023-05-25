@@ -53,7 +53,7 @@ module.exports = {
       scheme: ['https']
     })
     .custom((value, helper) => {
-      const ext = path.extname(value)
+      const ext = path.extname(path.basename(value))
       if (!ext || /(\.png|\.jpeg|\.jpg)/i.test(ext)) {
         return true
       } else {

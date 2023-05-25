@@ -7,12 +7,14 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - uses: tibdex/github-app-token@v1
         id: create-app-token
         with:
           app_id: ${{ secrets.APP_ID }}
           private_key: ${{ secrets.APP_PRIVATE_KEY }}
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ steps.create-app-token.outputs.token }}
       - run: npm install
       - run: GITHUB_TOKEN=${{ steps.create-app-token.outputs.token }} npm run db:update --silent >> $GITHUB_OUTPUT
         id: issue-process

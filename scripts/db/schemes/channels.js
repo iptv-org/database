@@ -1,5 +1,6 @@
 const Joi = require('joi').extend(require('@joi/date'))
 const path = require('path')
+const url = require('url')
 
 module.exports = {
   id: Joi.string()
@@ -53,7 +54,7 @@ module.exports = {
       scheme: ['https']
     })
     .custom((value, helper) => {
-      const ext = path.extname(value)
+      const ext = path.extname(url.parse(value).pathname)
       if (!ext || /(\.png|\.jpeg|\.jpg)/i.test(ext)) {
         return true
       } else {

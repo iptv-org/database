@@ -62,7 +62,7 @@ body:
   - type: input
     attributes:
       label: Broadcast Area
-      description: List of codes describing the broadcasting area of the channel. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`
+      description: List of codes describing the broadcasting area of the channel separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`
       placeholder: 's/CN-AH'
 
   - type: input
@@ -114,7 +114,7 @@ body:
   - type: input
     attributes:
       label: Logo
-      description: "Logo URL. Only URL with HTTPS protocol are allowed. Supported image types: `PNG`, `JPEG`. Max size: 512x512 pixels"
+      description: "Logo URL. Only URL with HTTPS protocol are allowed. Supported image types: `PNG`, `JPEG`. Max size: 512x512 pixels. The link should not be [geo-blocked](https://en.wikipedia.org/wiki/Geo-blocking)"
       placeholder: 'https://example.com/logo.png'
 
   - type: textarea

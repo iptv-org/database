@@ -130,7 +130,7 @@ body:
     id: logo
     attributes:
       label: Logo
-      description: "Logo URL. Only URL with HTTPS protocol are allowed. Supported image types: `PNG`, `JPEG`. Max size: 512x512 pixels"
+      description: "Logo URL. Only URL with HTTPS protocol are allowed. Supported image types: `PNG`, `JPEG`. Max size: 512x512 pixels. The link should not be [geo-blocked](https://en.wikipedia.org/wiki/Geo-blocking)"
       placeholder: 'https://example.com/logo.png'
     validations:
       required: true

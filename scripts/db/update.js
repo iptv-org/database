@@ -5,9 +5,7 @@ const { paginateRest } = require('@octokit/plugin-paginate-rest')
 const CustomOctokit = Octokit.plugin(paginateRest)
 const _ = require('lodash')
 
-const octokit = new CustomOctokit({
-  auth: process.env.GITHUB_TOKEN
-})
+const octokit = new CustomOctokit()
 
 const DATA_DIR = process.env.DATA_DIR || './data'
 const OWNER = 'iptv-org'
@@ -40,16 +38,10 @@ main()
 async function removeChannels() {
   const issues = await fetchIssues('channels:remove,approved')
   issues.map(parseIssue).forEach(({ issue, channel }) => {
-    if (!channel) {
-      updateIssue(issue, { labels: ['channels:remove', 'rejected:invalid'] })
-      return
-    }
+    if (!channel) return
 
     const index = _.findIndex(channels, { id: channel.id })
-    if (index < 0) {
-      updateIssue(issue, { labels: ['channels:remove', 'rejected:wrong_id'] })
-      return
-    }
+    if (index < 0) return
 
     channels.splice(index, 1)
 
@@ -60,16 +52,10 @@ async function removeChannels() {
 async function editChannels() {
   const issues = await fetchIssues('channels:edit,approved')
   issues.map(parseIssue).forEach(({ issue, channel }) => {
-    if (!channel) {
-      updateIssue(issue, { labels: ['channels:edit', 'rejected:invalid'] })
-      return
-    }
+    if (!channel) return
 
     const index = _.findIndex(channels, { id: channel.id })
-    if (index < 0) {
-      updateIssue(issue, { labels: ['channels:edit', 'rejected:wrong_id'] })
-      return
-    }
+    if (index < 0) return
 
     const found = channels[index]
 
@@ -90,16 +76,10 @@ async function editChannels() {
 async function addChannels() {
   const issues = await fetchIssues('channels:add,approved')
   issues.map(parseIssue).forEach(({ issue, channel }) => {
-    if (!channel) {
-      updateIssue(issue, { labels: ['channels:add', 'rejected:invalid'] })
-      return
-    }
+    if (!channel) return
 
     const found = channels.find(c => c.id === channel.id)
-    if (found) {
-      updateIssue(issue, { labels: ['channels:add', 'rejected:duplicate'] })
-      return
-    }
+    if (found) return
 
     channels.push(channel)
     processedIssues.push(issue)
@@ -120,22 +100,10 @@ async function fetchIssues(labels) {
   return issues
 }
 
-async function updateIssue(issue, { labels }) {
-  await octokit.request('PATCH /repos/{owner}/{repo}/issues/{issue_number}', {
-    owner: OWNER,
-    repo: REPO,
-    issue_number: issue.number,
-    labels,
-    headers: {
-      'X-GitHub-Api-Version': '2022-11-28'
-    }
-  })
-}
-
 function parseIssue(issue) {
   const buffer = {}
   const channel = {}
-  const fields = {
+  const fieldLabels = {
     'Channel ID (required)': 'id',
     'Channel Name': 'name',
     'Alternative Names': 'alt_names',
@@ -165,17 +133,17 @@ function parseIssue(issue) {
     Logo: 'logo'
   }
 
-  const matches = issue.body.match(/### ([^\r\n]+)\s+([^\r\n]+)/g)
+  const fields = issue.body.split('###')
 
-  if (!matches) return { issue, channel: null }
+  if (!fields.length) return { issue, channel: null }
 
-  matches.forEach(item => {
-    const [, fieldLabel, value] = item.match(/### ([^\r\n]+)\s+([^\r\n]+)/)
-    const field = fields[fieldLabel]
+  fields.forEach(item => {
+    const [fieldLabel, , value] = item.split(/\r?\n/)
+    const field = fieldLabel ? fieldLabels[fieldLabel.trim()] : null
 
     if (!field) return
 
-    buffer[field] = value === '_No response_' ? undefined : value.trim()
+    buffer[field] = value.includes('_No response_') ? undefined : value.trim()
   })
 
   for (let field of Object.keys(channelScheme)) {

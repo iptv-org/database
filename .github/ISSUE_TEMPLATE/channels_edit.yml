@@ -63,7 +63,7 @@ body:
     attributes:
       label: Broadcast Area
       description: List of codes describing the broadcasting area of the channel separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`
-      placeholder: 's/CN-AH'
+      placeholder: 'c/CN;r/EUR'
 
   - type: input
     attributes:

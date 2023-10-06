@@ -1,0 +1,28 @@
+name: 🔏 Block channel
+description: Request to add a channel to the blocklist
+title: 'Block: '
+labels: ['blocklist:add']
+
+body:
+  - type: input
+    id: id
+    attributes:
+      label: Channel ID
+      description: The ID of the channel that should be blocked
+      placeholder: 'AnhuiTV.cn'
+    validations:
+      required: true
+
+  - type: input
+    id: ref
+    attributes:
+      label: Reference
+      description: Link to the official request for channel removal
+      placeholder: 'https://github.com/iptv-org/iptv/issues/1831'
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Notes (optional)
+      description: 'Any additional information'

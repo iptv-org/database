@@ -1,13 +1,22 @@
-name: ➕ Add channel
-description: Request to add a channel into the database
-title: 'Add: '
-labels: ['channels:add']
+name: ✏️ Edit channel
+description: Request to edit channel description
+title: 'Edit: '
+labels: ['channels:edit']
 
 body:
+  - type: input
+    id: id
+    attributes:
+      label: Channel ID (required)
+      description: The ID of the channel that should be updated
+      placeholder: 'AnhuiTV.cn'
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: |
-        Please fill out the issue form as much as you can so we could efficiently process your request
+        What exactly needs to be changed?
 
   - type: input
     id: name
@@ -15,27 +24,25 @@ body:
       label: Channel Name
       description: "Official channel name in English or call sign. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`"
       placeholder: 'Anhui TV'
-    validations:
-      required: true
 
   - type: input
-    id: alt_name
+    id: alt_names
     attributes:
-      label: Alternative Names (optional)
+      label: Alternative Names
       description: List of alternative channel names separated by `;`. May contain any characters except `,` and `"`
       placeholder: '安徽卫视'
 
   - type: input
     id: network
     attributes:
-      label: Network (optional)
+      label: Network
       description: Network of which this channel is a part. May contain any characters except `,` and `"`
       placeholder: 'Anhui'
 
   - type: input
     id: owners
     attributes:
-      label: Owners (optional)
+      label: Owners
       description: List of channel owners separated by `;`. May contain any characters except `,` and `"`
       placeholder: 'China Central Television'
 
@@ -45,20 +52,18 @@ body:
       label: Country
       description: Country code from which the channel is transmitted. A list of all supported countries and their codes can be found in [data/countries.csv](https://github.com/iptv-org/database/blob/master/data/countries.csv) 
       placeholder: 'CN'
-    validations:
-      required: true
 
   - type: input
     id: subdivision
     attributes:
-      label: Subdivision (optional)
+      label: Subdivision
       description: Code of the subdivision (e.g., provinces or states) from which the broadcast is transmitted. A list of all supported subdivisions and their codes can be found in [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv)
       placeholder: 'CN-AH'
 
   - type: input
     id: city
     attributes:
-      label: City (optional)
+      label: City
       description: Name of the city from which the channel is transmitted
       placeholder: 'Hefei'
 
@@ -67,9 +72,7 @@ body:
     attributes:
       label: Broadcast Area
       description: List of codes describing the broadcasting area of the channel separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`
-      placeholder: 's/CN-AH'
-    validations:
-      required: true
+      placeholder: 'c/CN;r/EUR'
 
   - type: input
     id: languages
@@ -77,13 +80,11 @@ body:
       label: Languages
       description: List of languages in which the channel is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](https://github.com/iptv-org/database/blob/master/data/languages.csv)
       placeholder: 'zho;eng'
-    validations:
-      required: true
 
   - type: input
     id: categories
     attributes:
-      label: Categories (optional)
+      label: Categories
       description: List of categories to which this channel belongs separated by `;`. A list of all supported categories can be found in [data/categories.csv](https://github.com/iptv-org/database/blob/master/data/categories.csv)
       placeholder: 'animation;kids'
 
@@ -101,28 +102,28 @@ body:
   - type: input
     id: launched
     attributes:
-      label: Launched (optional)
+      label: Launched
       description: Launch date of the channel (`YYYY-MM-DD`)   
       placeholder: '2016-07-28'
 
   - type: input
     id: closed
     attributes:
-      label: Closed (optional)
+      label: Closed
       description: Date on which the channel closed (`YYYY-MM-DD`)   
       placeholder: '2020-05-31'
 
   - type: input
     id: replaced_by
     attributes:
-      label: Replaced By (optional)
+      label: Replaced By
       description: The ID of the channel that this channel was replaced by
       placeholder: 'CCTV1.cn'
 
   - type: input
     id: website
     attributes:
-      label: Website (optional)
+      label: Website
       description: Official website URL
       placeholder: 'http://www.ahtv.cn/'
 
@@ -132,10 +133,9 @@ body:
       label: Logo
       description: "Logo URL. Only URL with HTTPS protocol are allowed. Supported image types: `PNG`, `JPEG`. Max size: 512x512 pixels. The link should not be [geo-blocked](https://en.wikipedia.org/wiki/Geo-blocking)"
       placeholder: 'https://example.com/logo.png'
-    validations:
-      required: true
 
   - type: textarea
+    id: notes
     attributes:
       label: Notes
-      description: 'Anything else we should know about this channel?'
+      description: 'Anything else we should know?'

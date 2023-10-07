@@ -1,9 +1,8 @@
 import { Collection, Storage, File, Dictionary, Logger } from '@freearhey/core'
 import { DATA_DIR } from '../constants'
-import { transliterate } from 'transliteration'
 import { program } from 'commander'
 import Joi from 'joi'
-import { CSVParser } from '../core'
+import { CSVParser, IDCreator } from '../core'
 import chalk from 'chalk'
 
 program.argument('[filepath]', 'Path to file to validate').parse(process.argv)
@@ -217,26 +216,13 @@ function findDuplicatesBy(rows: { [key: string]: string }[], key: string) {
 function validateChannelId(row: { [key: string]: string }, i: number) {
   const errors = new Collection()
 
-  const name = normalize(row.name)
-  const code = row.country.toLowerCase()
-  const expected = `${name}.${code}`
+  const expectedId = new IDCreator().create(row.name, row.country)
 
-  if (expected !== row.id) {
+  if (expectedId !== row.id) {
     errors.push({
       line: i + 2,
       message: `"${row.id}" must be derived from the channel name "${row.name}" and the country code "${row.country}"`
     })
-  }
-
-  function normalize(name: string) {
-    const translit = transliterate(name)
-
-    return translit
-      .replace(/^@/i, 'At')
-      .replace(/^&/i, 'And')
-      .replace(/\+/gi, 'Plus')
-      .replace(/\s-(\d)/gi, ' Minus$1')
-      .replace(/[^a-z\d]+/gi, '')
   }
 
   return errors

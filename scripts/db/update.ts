@@ -1,4 +1,4 @@
-import { CSV, IssueLoader, CSVParser } from '../core'
+import { CSV, IssueLoader, CSVParser, IDCreator } from '../core'
 import { Channel, Blocked, Issue } from '../models'
 import { DATA_DIR } from '../constants'
 import { Storage, Collection } from '@freearhey/core'
@@ -8,6 +8,7 @@ let channels = new Collection()
 const processedIssues = new Collection()
 
 async function main() {
+  const idCreator = new IDCreator()
   const dataStorage = new Storage(DATA_DIR)
   const parser = new CSVParser()
 
@@ -20,8 +21,8 @@ async function main() {
   const loader = new IssueLoader()
 
   await removeChannels({ loader })
-  await editChannels({ loader })
-  await addChannels({ loader })
+  await editChannels({ loader, idCreator })
+  await addChannels({ loader, idCreator })
   await blockChannels({ loader })
   await unblockChannels({ loader })
 
@@ -65,7 +66,7 @@ async function removeChannels({ loader }: { loader: IssueLoader }) {
   })
 }
 
-async function editChannels({ loader }: { loader: IssueLoader }) {
+async function editChannels({ loader, idCreator }: { loader: IssueLoader; idCreator: IDCreator }) {
   const issues = await loader.load({ labels: ['channels:edit,approved'] })
   issues.forEach((issue: Issue) => {
     const data = issue.data
@@ -80,7 +81,7 @@ async function editChannels({ loader }: { loader: IssueLoader }) {
     if (data.has('name') || data.has('country')) {
       const name = data.get('name') || found.name
       const country = data.get('country') || found.country
-      channelId = generateChannelId(name, country)
+      channelId = idCreator.create(name, country)
     }
 
     found.update({
@@ -107,13 +108,13 @@ async function editChannels({ loader }: { loader: IssueLoader }) {
   })
 }
 
-async function addChannels({ loader }: { loader: IssueLoader }) {
+async function addChannels({ loader, idCreator }: { loader: IssueLoader; idCreator: IDCreator }) {
   const issues = await loader.load({ labels: ['channels:add,approved'] })
   issues.forEach((issue: Issue) => {
     const data = issue.data
     if (data.missing('name') || data.missing('country')) return
 
-    const channelId = generateChannelId(data.get('name'), data.get('country'))
+    const channelId = idCreator.create(data.get('name'), data.get('country'))
 
     const found: Channel = channels.first((channel: Channel) => channel.id === channelId)
     if (found) return
@@ -181,14 +182,4 @@ async function blockChannels({ loader }: { loader: IssueLoader }) {
 
     processedIssues.push(issue)
   })
-}
-
-function generateChannelId(name: string, country: string): string {
-  const slug = name
-    .replace(/\+/gi, 'Plus')
-    .replace(/^@/gi, 'At')
-    .replace(/[^a-z\d]+/gi, '')
-  country = country.toLowerCase()
-
-  return `${slug}.${country}`
 }

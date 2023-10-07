@@ -25,11 +25,11 @@ async function main() {
   await blockChannels({ loader })
   await unblockChannels({ loader })
 
-  channels = channels.orderBy([(channel: Channel) => channel.id], ['asc'])
+  channels = sortBy(channels, 'id')
   const channelsOutput = new CSV({ items: channels }).toString()
   await dataStorage.save('channels.csv', channelsOutput)
 
-  blocklist = blocklist.orderBy([record => record.channel.toLowerCase()], ['asc'])
+  blocklist = sortBy(blocklist, 'channel')
   const blocklistOutput = new CSV({ items: blocklist }).toString()
   await dataStorage.save('blocklist.csv', blocklistOutput)
 
@@ -38,6 +38,18 @@ async function main() {
 }
 
 main()
+
+function sortBy(channels: Collection, key: string) {
+  const items = channels.all().sort((a, b) => {
+    const normA = a[key].toLowerCase()
+    const normB = b[key].toLowerCase()
+    if (normA < normB) return -1
+    if (normA > normB) return 1
+    return 0
+  })
+
+  return new Collection(items)
+}
 
 async function removeChannels({ loader }: { loader: IssueLoader }) {
   const issues = await loader.load({ labels: ['channels:remove,approved'] })

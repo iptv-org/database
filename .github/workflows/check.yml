@@ -7,15 +7,20 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
-          fetch-depth: 0
-      - id: files
-        uses: tj-actions/changed-files@v12.2
+          fetch-depth: 2
+      - uses: actions/setup-node@v3
+        if: ${{ !env.ACT }}
         with:
-          files: 'data'
+          node-version: 18
+          cache: 'npm'
+      - uses: tj-actions/changed-files@v35
+        id: files
+        with:
+          files: data/*.csv
+      - name: install dependencies
+        run: npm install
       - name: validate
         if: steps.files.outputs.any_changed == 'true'
-        run: |
-          npm install
-          npm run db:validate -- ${{ steps.files.outputs.all_changed_files }}
+        run: npm run db:validate -- ${{ steps.files.outputs.all_changed_files }}

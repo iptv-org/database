@@ -8,7 +8,7 @@ All data is stored in the [/data](data) folder as [CSV](https://en.wikipedia.org
 
 ## API
 
-All data is also available via API documentation for which can be found in the [iptv-org/api](https://github.com/iptv-org/api) repository.
+All data is also available through the API, documentation for which can be found in the [iptv-org/api](https://github.com/iptv-org/api) repository.
 
 ## Resources
 

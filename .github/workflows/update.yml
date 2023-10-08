@@ -7,25 +7,40 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - uses: tibdex/github-app-token@v1
+      - uses: actions/checkout@v3
+      - uses: tibdex/github-app-token@v1.8.2
+        if: ${{ !env.ACT }}
         id: create-app-token
         with:
           app_id: ${{ secrets.APP_ID }}
           private_key: ${{ secrets.APP_PRIVATE_KEY }}
       - uses: actions/checkout@v3
+        if: ${{ !env.ACT }}
         with:
           token: ${{ steps.create-app-token.outputs.token }}
-      - run: npm install
-      - run: npm run db:update --silent >> $GITHUB_OUTPUT
-        id: issue-process
-      - name: Validate Changes
+      - uses: actions/setup-node@v3
+        if: ${{ !env.ACT }}
+        with:
+          node-version: 18
+          cache: 'npm'
+      - name: install dependencies
+        run: npm install
+      - name: update data
+        id: db-update
+        run: npm run db:update --silent >> $GITHUB_OUTPUT
+      - name: validate changes
         run: npm run db:validate
-      - name: Commit Changes
-        if: steps.issue-process.outputs.OUTPUT != 0
+      - name: setup git
         run: |
           git config user.name "iptv-bot[bot]"
           git config user.email "84861620+iptv-bot[bot]@users.noreply.github.com"
-          git add data/channels.csv
-          git commit -m "[Bot] Update channels.csv" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/database/actions/runs/${{ github.run_id }}) workflow." -m "${{ steps.issue-process.outputs.OUTPUT }}" --no-verify
+      - run: git status
+      - name: commit changes
+        if: steps.db-update.outputs.OUTPUT != 0
+        run: |
+          git add data/*.csv
           git status
-          git push
+          git commit -m "[Bot] Update data" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/database/actions/runs/${{ github.run_id }}) workflow." -m "${{ steps.db-update.outputs.OUTPUT }}" --no-verify
+      - name: push all changes to the repository
+        if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
+        run: git push

@@ -2,46 +2,45 @@
   "name": "@iptv-org/database",
   "scripts": {
     "act:check": "act pull_request -W .github/workflows/check.yml",
+    "act:update": "act workflow_dispatch -W .github/workflows/update.yml",
     "act:deploy": "act push -W .github/workflows/deploy.yml",
-    "db:validate": "node scripts/db/validate.js",
-    "db:export": "node scripts/db/export.js",
-    "db:update": "node scripts/db/update.js"
+    "db:validate": "ts-node scripts/db/validate.ts",
+    "db:export": "ts-node scripts/db/export.ts",
+    "db:update": "ts-node scripts/db/update.ts",
+    "lint": "npx eslint ./scripts/**/*.ts ./scripts/**/*.js ./tests/**/*.ts",
+    "test": "jest --runInBand"
   },
   "pre-commit": [
     "db:validate"
   ],
   "private": true,
   "author": "Arhey",
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|js)$": "ts-jest"
+    },
+    "testRegex": "tests/(.*?/)?.*test.(js|ts)$"
+  },
   "dependencies": {
+    "@freearhey/core": "^0.2.1",
     "@joi/date": "^2.1.0",
+    "@json2csv/formatters": "^7.0.3",
+    "@json2csv/node": "^7.0.3",
+    "@json2csv/transforms": "^7.0.3",
     "@octokit/core": "^4.2.0",
     "@octokit/plugin-paginate-rest": "^6.0.0",
-    "autocrop-js": "^0.2.0",
-    "axios": "^0.25.0",
+    "@octokit/plugin-rest-endpoint-methods": "^7.1.3",
+    "@types/jest": "^29.5.5",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
     "chalk": "^4.1.2",
-    "cheerio": "^1.0.0-rc.10",
-    "cli-progress": "^3.11.2",
     "commander": "^9.0.0",
-    "crlf": "^1.1.1",
-    "crypto": "^1.0.1",
     "csvtojson": "^2.0.10",
-    "dayjs": "^1.11.0",
-    "form-data": "^4.0.0",
-    "glob": "^7.2.0",
-    "iso-639-2": "^3.0.1",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "jest": "^29.7.0",
     "joi": "^17.6.0",
-    "json2csv": "^6.0.0-alpha.0",
-    "lodash": "^4.17.21",
-    "mz": "^2.7.0",
-    "node-cleanup": "^2.1.2",
     "pre-commit": "^1.2.2",
-    "probe-image-size": "^7.2.3",
-    "sharp": "^0.31.1",
-    "signale": "^1.4.0",
-    "slugify": "^1.6.5",
-    "transliteration": "^2.2.0",
-    "wikijs": "^6.3.3",
-    "wtf_wikipedia": "^10.0.0",
-    "wtf-plugin-image": "^1.0.0"
+    "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.1"
   }
 }

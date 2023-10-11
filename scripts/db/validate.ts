@@ -129,11 +129,11 @@ async function main() {
     }
 
     const schema = Joi.object(schemes[filename])
-    rows.forEach((row: string | string[] | boolean, i: number) => {
+    rows.all().forEach((row: { [key: string]: string }, i: number) => {
       const { error } = schema.validate(row, { abortEarly: false })
       if (error) {
         error.details.forEach(detail => {
-          fileErrors.push({ line: i + 2, message: detail.message })
+          fileErrors.push({ line: i + 2, row, message: detail.message })
         })
       }
     })
@@ -142,7 +142,8 @@ async function main() {
       logger.info(`\n${chalk.underline(filepath)}`)
       fileErrors.forEach(err => {
         const position = err.line.toString().padEnd(6, ' ')
-        logger.info(` ${chalk.gray(position)} ${err.message}`)
+        const id = err.row && err.row.id ? ` ${err.row.id}:` : ''
+        logger.info(` ${chalk.gray(position)}${id} ${err.message}`)
       })
       globalErrors = globalErrors.concat(fileErrors)
     }

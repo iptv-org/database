@@ -22,7 +22,7 @@
     "testRegex": "tests/(.*?/)?.*test.(js|ts)$"
   },
   "dependencies": {
-    "@freearhey/core": "^0.2.1",
+    "@freearhey/core": "^0.2.2",
     "@joi/date": "^2.1.0",
     "@json2csv/formatters": "^7.0.3",
     "@json2csv/node": "^7.0.3",

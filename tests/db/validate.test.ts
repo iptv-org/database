@@ -68,8 +68,13 @@ describe('db:validate', () => {
       process.exit(1)
     } catch (error) {
       expect((error as ExecError).status).toBe(1)
-      expect((error as ExecError).stdout).toContain('"aaa.us" is missing in the channels.csv')
-      expect((error as ExecError).stdout).toContain('1 error(s)')
+      expect((error as ExecError).stdout).toContain(
+        '2      "aaa.us" is missing in the channels.csv'
+      )
+      expect((error as ExecError).stdout).toContain(
+        '2      002RadioTV.do: "website" must be a valid uri with a scheme matching the http|https pattern'
+      )
+      expect((error as ExecError).stdout).toContain('2 error(s)')
     }
   })
 

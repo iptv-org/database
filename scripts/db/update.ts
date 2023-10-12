@@ -84,25 +84,27 @@ async function editChannels({ loader, idCreator }: { loader: IssueLoader; idCrea
       channelId = idCreator.create(name, country)
     }
 
-    found.update({
+    const updated = new Channel({
       id: channelId,
       name: data.get('name'),
-      alt_names: data.get('alt_names'),
+      alt_names: data.has('alt_names') ? data.get('alt_names').split(';') : [],
       network: data.get('network'),
-      owners: data.get('owners'),
+      owners: data.has('owners') ? data.get('owners').split(';') : [],
       country: data.get('country'),
       subdivision: data.get('subdivision'),
       city: data.get('city'),
-      broadcast_area: data.get('broadcast_area'),
-      languages: data.get('languages'),
-      categories: data.get('categories'),
-      is_nsfw: data.get('is_nsfw'),
+      broadcast_area: data.has('broadcast_area') ? data.get('broadcast_area').split(';') : [],
+      languages: data.has('languages') ? data.get('languages').split(';') : [],
+      categories: data.has('categories') ? data.get('categories').split(';') : [],
+      is_nsfw: data.has('is_nsfw') ? data.get('is_nsfw') === 'TRUE' : false,
       launched: data.get('launched'),
       closed: data.get('closed'),
       replaced_by: data.get('replaced_by'),
       website: data.get('website'),
       logo: data.get('logo')
     })
+
+    found.merge(updated)
 
     processedIssues.push(issue)
   })

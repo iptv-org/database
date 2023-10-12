@@ -75,11 +75,18 @@ export class Channel {
     this.logo = logo
   }
 
-  update(data: { [key: string]: string }) {
-    for (const key in data) {
-      if (this[key] && data[key]) {
-        this[key] = data[key]
-      }
+  data() {
+    const { ...object } = this
+
+    return object
+  }
+
+  merge(channel: Channel) {
+    const data: { [key: string]: string | string[] | boolean } = channel.data()
+    for (const prop in data) {
+      if (data[prop] === undefined) continue
+      if (Array.isArray(data[prop]) && !data[prop].length) continue
+      this[prop] = data[prop]
     }
   }
 }

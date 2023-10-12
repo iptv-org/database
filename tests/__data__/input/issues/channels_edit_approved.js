@@ -140,7 +140,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel ID (required)\n\nBeijingSatelliteTV.cn\n\n### Channel Name\n\nbeIN Movies Turk\n\n### Alternative Names\n\nbeIN Movies Türk\n\n### Network\n\n_No response_\n\n### Owners\n\n_No response_\n\n### Country\n\nTR\n\n### Subdivision\n\n_No response_\n\n### City\n\n_No response_\n\n### Broadcast Area\n\nc/TR\n\n### Languages\n\ntur\n\n### Categories\n\nmovies\n\n### NSFW\n\nFALSE\n\n### Launched\n\n1979-05-16\n\n### Closed\n\n_No response_\n\n### Replaced By\n\n_No response_\n\n### Website\n\nhttp://www.digiturk.com.tr/\n\n### Logo\n\nhttps://i.imgur.com/nw8Sa2z.png\n\n### Notes\n\n_No response_',
+    body: '### Channel ID (required)\n\nBeijingSatelliteTV.cn\n\n### Channel Name\n\nbeIN Movies Turk\n\n### Alternative Names\n\nbeIN Movies Türk\n\n### Network\n\nBBC\n\n### Owners\n\nGazprom Media\n\n### Country\n\nTR\n\n### Subdivision\n\nUS-CA\n\n### City\n\nLondon\n\n### Broadcast Area\n\nc/TR\n\n### Languages\n\ntur\n\n### Categories\n\nmovies\n\n### NSFW\nTRUE\n\n### Launched\n\n1979-05-16\n\n### Closed\n\n1980-05-16\n\n### Replaced By\n\nM5.hu\n\n### Website\n\nhttp://www.digiturk.com.tr/\n\n### Logo\n\nhttps://i.imgur.com/nw8Sa2z.png\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/5701/reactions',
       total_count: 0,

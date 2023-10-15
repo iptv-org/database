@@ -85,7 +85,7 @@ export class Channel {
     const data: { [key: string]: string | string[] | boolean } = channel.data()
     for (const prop in data) {
       if (data[prop] === undefined) continue
-      if (Array.isArray(data[prop]) && !data[prop].length) continue
+      if (Array.isArray(data[prop]) && !(data[prop] as string[]).length) continue
       this[prop] = data[prop]
     }
   }

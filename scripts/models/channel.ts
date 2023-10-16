@@ -1,41 +1,41 @@
 type ChannelProps = {
   id: string
-  name: string
-  alt_names: string[]
-  network: string
-  owners: string[]
-  country: string
-  subdivision: string
-  city: string
-  broadcast_area: string[]
-  languages: string[]
-  categories: string[]
-  is_nsfw: boolean
-  launched: string
-  closed: string
-  replaced_by: string
-  website: string
-  logo: string
+  name?: string
+  alt_names?: string[]
+  network?: string
+  owners?: string[]
+  country?: string
+  subdivision?: string
+  city?: string
+  broadcast_area?: string[]
+  languages?: string[]
+  categories?: string[]
+  is_nsfw?: boolean
+  launched?: string
+  closed?: string
+  replaced_by?: string
+  website?: string
+  logo?: string
 }
 
 export class Channel {
   id: string
-  name: string
-  alt_names: string[]
-  network: string
-  owners: string[]
-  country: string
-  subdivision: string
-  city: string
-  broadcast_area: string[]
-  languages: string[]
-  categories: string[]
-  is_nsfw: boolean
-  launched: string
-  closed: string
-  replaced_by: string
-  website: string
-  logo: string
+  name?: string
+  alt_names?: string[]
+  network?: string
+  owners?: string[]
+  country?: string
+  subdivision?: string
+  city?: string
+  broadcast_area?: string[]
+  languages?: string[]
+  categories?: string[]
+  is_nsfw?: boolean
+  launched?: string
+  closed?: string
+  replaced_by?: string
+  website?: string
+  logo?: string
 
   constructor({
     id,
@@ -82,10 +82,9 @@ export class Channel {
   }
 
   merge(channel: Channel) {
-    const data: { [key: string]: string | string[] | boolean } = channel.data()
+    const data: { [key: string]: string | string[] | boolean | undefined } = channel.data()
     for (const prop in data) {
       if (data[prop] === undefined) continue
-      if (Array.isArray(data[prop]) && !(data[prop] as string[]).length) continue
       this[prop] = data[prop]
     }
   }

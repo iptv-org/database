@@ -1,5 +1,5 @@
-import { CSV, IssueLoader, CSVParser, IDCreator } from '../core'
-import { Channel, Blocked, Issue } from '../models'
+import { CSV, IssueLoader, CSVParser, IDCreator, Issue, IssueData } from '../core'
+import { Channel, Blocked } from '../models'
 import { DATA_DIR } from '../constants'
 import { Storage, Collection } from '@freearhey/core'
 
@@ -57,7 +57,9 @@ async function removeChannels({ loader }: { loader: IssueLoader }) {
   issues.forEach((issue: Issue) => {
     if (issue.data.missing('channel_id')) return
 
-    const found = channels.first((channel: Channel) => channel.id === issue.data.get('channel_id'))
+    const found = channels.first(
+      (channel: Channel) => channel.id === issue.data.getString('channel_id')
+    )
     if (!found) return
 
     channels.remove((channel: Channel) => channel.id === found.id)
@@ -69,55 +71,41 @@ async function removeChannels({ loader }: { loader: IssueLoader }) {
 async function editChannels({ loader, idCreator }: { loader: IssueLoader; idCreator: IDCreator }) {
   const issues = await loader.load({ labels: ['channels:edit,approved'] })
   issues.forEach((issue: Issue) => {
-    const data = issue.data
+    const data: IssueData = issue.data
     if (data.missing('channel_id')) return
 
     const found: Channel = channels.first(
-      (channel: Channel) => channel.id === data.get('channel_id')
+      (channel: Channel) => channel.id === data.getString('channel_id')
     )
     if (!found) return
 
     let channelId = found.id
     if (data.has('name') || data.has('country')) {
-      const name = data.get('name') || found.name
-      const country = data.get('country') || found.country
-      channelId = idCreator.create(name, country)
+      const name = data.getString('name') || found.name
+      const country = data.getString('country') || found.country
+      if (name && country) {
+        channelId = idCreator.create(name, country)
+      }
     }
 
-    const deleteSymbol = '~'
     const updated = new Channel({
       id: channelId,
-      name: data.get('name') !== deleteSymbol ? data.get('name') : '',
-      alt_names:
-        data.has('alt_names') && data.get('alt_names') !== deleteSymbol
-          ? data.get('alt_names').split(';')
-          : [],
-      network: data.get('network') !== deleteSymbol ? data.get('network') : '',
-      owners:
-        data.has('owners') && data.get('owners') !== deleteSymbol
-          ? data.get('owners').split(';')
-          : [],
-      country: data.get('country') !== deleteSymbol ? data.get('country') : '',
-      subdivision: data.get('subdivision') !== deleteSymbol ? data.get('subdivision') : '',
-      city: data.get('city') !== deleteSymbol ? data.get('city') : '',
-      broadcast_area:
-        data.has('broadcast_area') && data.get('broadcast_area') !== deleteSymbol
-          ? data.get('broadcast_area').split(';')
-          : [],
-      languages:
-        data.has('languages') && data.get('languages') !== deleteSymbol
-          ? data.get('languages').split(';')
-          : [],
-      categories:
-        data.has('categories') && data.get('categories') !== deleteSymbol
-          ? data.get('categories').split(';')
-          : [],
-      is_nsfw: data.has('is_nsfw') ? data.get('is_nsfw') === 'TRUE' : false,
-      launched: data.get('launched') !== deleteSymbol ? data.get('launched') : '',
-      closed: data.get('closed') !== deleteSymbol ? data.get('closed') : '',
-      replaced_by: data.get('replaced_by') !== deleteSymbol ? data.get('replaced_by') : '',
-      website: data.get('website') !== deleteSymbol ? data.get('website') : '',
-      logo: data.get('logo') !== deleteSymbol ? data.get('logo') : ''
+      name: data.getString('name'),
+      alt_names: data.getArray('alt_names'),
+      network: data.getString('network'),
+      owners: data.getArray('owners'),
+      country: data.getString('country'),
+      subdivision: data.getString('subdivision'),
+      city: data.getString('city'),
+      broadcast_area: data.getArray('broadcast_area'),
+      languages: data.getArray('languages'),
+      categories: data.getArray('categories'),
+      is_nsfw: data.getBoolean('is_nsfw'),
+      launched: data.getString('launched'),
+      closed: data.getString('closed'),
+      replaced_by: data.getString('replaced_by'),
+      website: data.getString('website'),
+      logo: data.getString('logo')
     })
 
     found.merge(updated)
@@ -129,10 +117,13 @@ async function editChannels({ loader, idCreator }: { loader: IssueLoader; idCrea
 async function addChannels({ loader, idCreator }: { loader: IssueLoader; idCreator: IDCreator }) {
   const issues = await loader.load({ labels: ['channels:add,approved'] })
   issues.forEach((issue: Issue) => {
-    const data = issue.data
-    if (data.missing('name') || data.missing('country')) return
+    const data: IssueData = issue.data
+    const name = data.getString('name')
+    const country = data.getString('country')
 
-    const channelId = idCreator.create(data.get('name'), data.get('country'))
+    if (!name || !country) return
+
+    const channelId = idCreator.create(name, country)
 
     const found: Channel = channels.first((channel: Channel) => channel.id === channelId)
     if (found) return
@@ -140,22 +131,22 @@ async function addChannels({ loader, idCreator }: { loader: IssueLoader; idCreat
     channels.push(
       new Channel({
         id: channelId,
-        name: data.get('name'),
-        alt_names: data.get('alt_names'),
-        network: data.get('network'),
-        owners: data.get('owners'),
-        country: data.get('country'),
-        subdivision: data.get('subdivision'),
-        city: data.get('city'),
-        broadcast_area: data.get('broadcast_area'),
-        languages: data.get('languages'),
-        categories: data.get('categories'),
-        is_nsfw: data.get('is_nsfw'),
-        launched: data.get('launched'),
-        closed: data.get('closed'),
-        replaced_by: data.get('replaced_by'),
-        website: data.get('website'),
-        logo: data.get('logo')
+        name: data.getString('name'),
+        alt_names: data.getArray('alt_names'),
+        network: data.getString('network'),
+        owners: data.getArray('owners'),
+        country: data.getString('country'),
+        subdivision: data.getString('subdivision'),
+        city: data.getString('city'),
+        broadcast_area: data.getArray('broadcast_area'),
+        languages: data.getArray('languages'),
+        categories: data.getArray('categories'),
+        is_nsfw: data.getBoolean('is_nsfw'),
+        launched: data.getString('launched'),
+        closed: data.getString('closed'),
+        replaced_by: data.getString('replaced_by'),
+        website: data.getString('website'),
+        logo: data.getString('logo')
       })
     )
 
@@ -170,7 +161,7 @@ async function unblockChannels({ loader }: { loader: IssueLoader }) {
     if (data.missing('channel_id')) return
 
     const found: Blocked = blocklist.first(
-      (blocked: Blocked) => blocked.channel === data.get('channel_id')
+      (blocked: Blocked) => blocked.channel === data.getString('channel_id')
     )
     if (!found) return
 
@@ -187,14 +178,18 @@ async function blockChannels({ loader }: { loader: IssueLoader }) {
     if (data.missing('channel_id')) return
 
     const found: Blocked = blocklist.first(
-      (blocked: Blocked) => blocked.channel === data.get('channel_id')
+      (blocked: Blocked) => blocked.channel === data.getString('channel_id')
     )
     if (found) return
 
+    const channel = data.getString('channel_id')
+    const ref = data.getString('ref')
+    if (!channel || !ref) return
+
     blocklist.push(
       new Blocked({
-        channel: data.get('channel_id'),
-        ref: data.get('ref')
+        channel,
+        ref
       })
     )
 

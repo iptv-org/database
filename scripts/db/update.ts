@@ -84,24 +84,40 @@ async function editChannels({ loader, idCreator }: { loader: IssueLoader; idCrea
       channelId = idCreator.create(name, country)
     }
 
+    const deleteSymbol = '~'
     const updated = new Channel({
       id: channelId,
-      name: data.get('name'),
-      alt_names: data.has('alt_names') ? data.get('alt_names').split(';') : [],
-      network: data.get('network'),
-      owners: data.has('owners') ? data.get('owners').split(';') : [],
-      country: data.get('country'),
-      subdivision: data.get('subdivision'),
-      city: data.get('city'),
-      broadcast_area: data.has('broadcast_area') ? data.get('broadcast_area').split(';') : [],
-      languages: data.has('languages') ? data.get('languages').split(';') : [],
-      categories: data.has('categories') ? data.get('categories').split(';') : [],
+      name: data.get('name') !== deleteSymbol ? data.get('name') : '',
+      alt_names:
+        data.has('alt_names') && data.get('alt_names') !== deleteSymbol
+          ? data.get('alt_names').split(';')
+          : [],
+      network: data.get('network') !== deleteSymbol ? data.get('network') : '',
+      owners:
+        data.has('owners') && data.get('owners') !== deleteSymbol
+          ? data.get('owners').split(';')
+          : [],
+      country: data.get('country') !== deleteSymbol ? data.get('country') : '',
+      subdivision: data.get('subdivision') !== deleteSymbol ? data.get('subdivision') : '',
+      city: data.get('city') !== deleteSymbol ? data.get('city') : '',
+      broadcast_area:
+        data.has('broadcast_area') && data.get('broadcast_area') !== deleteSymbol
+          ? data.get('broadcast_area').split(';')
+          : [],
+      languages:
+        data.has('languages') && data.get('languages') !== deleteSymbol
+          ? data.get('languages').split(';')
+          : [],
+      categories:
+        data.has('categories') && data.get('categories') !== deleteSymbol
+          ? data.get('categories').split(';')
+          : [],
       is_nsfw: data.has('is_nsfw') ? data.get('is_nsfw') === 'TRUE' : false,
-      launched: data.get('launched'),
-      closed: data.get('closed'),
-      replaced_by: data.get('replaced_by'),
-      website: data.get('website'),
-      logo: data.get('logo')
+      launched: data.get('launched') !== deleteSymbol ? data.get('launched') : '',
+      closed: data.get('closed') !== deleteSymbol ? data.get('closed') : '',
+      replaced_by: data.get('replaced_by') !== deleteSymbol ? data.get('replaced_by') : '',
+      website: data.get('website') !== deleteSymbol ? data.get('website') : '',
+      logo: data.get('logo') !== deleteSymbol ? data.get('logo') : ''
     })
 
     found.merge(updated)

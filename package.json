@@ -7,7 +7,7 @@
     "db:validate": "ts-node scripts/db/validate.ts",
     "db:export": "ts-node scripts/db/export.ts",
     "db:update": "ts-node scripts/db/update.ts",
-    "lint": "npx eslint ./scripts/**/*.ts ./scripts/**/*.js ./tests/**/*.ts",
+    "lint": "npx eslint \"{scripts,tests}/**/*.{ts,js}\"",
     "test": "jest --runInBand"
   },
   "pre-commit": [

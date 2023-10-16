@@ -96,8 +96,6 @@ body:
       options:
         - 'FALSE'
         - 'TRUE'
-    validations:
-      required: true
 
   - type: input
     id: launched

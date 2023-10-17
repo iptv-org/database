@@ -61,7 +61,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel ID (required)\n\nM5.hu\n\n### Channel Name\n\n_No response_\n\n### Alternative Names\n\n_No response_\n\n### Network\n\n_No response_\n\n### Owners\n\nDuna Médiaszolgáltató Nonprofit Zrt.\n\n### Country\n\n_No response_\n\n### Subdivision\n\n_No response_\n\n### City\n\n_No response_\n\n### Broadcast Area\n\n_No response_\n\n### Languages\n\n_No response_\n\n### Categories\n\n_No response_\n\n### NSFW\n\nFALSE\n\n### Launched\n\n_No response_\n\n### Closed\n\n~\n\n### Replaced By\n\n_No response_\n\n### Website\n\n_No response_\n\n### Logo\n\n_No response_\n\n### Notes\n\n_No response_',
+    body: '### Channel ID (required)\n\nM5.hu\n\n### Channel Name\n\n_No response_\n\n### Alternative Names\n\n_No response_\n\n### Network\n\n_No response_\n\n### Owners\n\nDuna Médiaszolgáltató Nonprofit Zrt.\n\n### Country\n\n_No response_\n\n### Subdivision\n\n_No response_\n\n### City\n\n_No response_\n\n### Broadcast Area\n\n_No response_\n\n### Languages\n\n_No response_\n\n### Categories\n\n~\n\n### NSFW\n\nNone\n\n### Launched\n\n_No response_\n\n### Closed\n\n~\n\n### Replaced By\n\n_No response_\n\n### Website\n\n_No response_\n\n### Logo\n\n_No response_\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/5901/reactions',
       total_count: 0,

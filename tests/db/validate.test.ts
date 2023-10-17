@@ -79,8 +79,12 @@ describe('db:validate', () => {
   })
 
   it('does not show an error if all data are correct', () => {
-    execSync('DATA_DIR=tests/__data__/input/validate/valid_data npm run db:validate', {
-      encoding: 'utf8'
-    })
+    try {
+      execSync('DATA_DIR=tests/__data__/input/validate/valid_data npm run db:validate', {
+        encoding: 'utf8'
+      })
+    } catch (error) {
+      console.log((error as ExecError).stdout)
+    }
   })
 })

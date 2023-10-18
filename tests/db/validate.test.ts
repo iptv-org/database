@@ -85,6 +85,7 @@ describe('db:validate', () => {
       })
     } catch (error) {
       console.log((error as ExecError).stdout)
+      process.exit(1)
     }
   })
 })

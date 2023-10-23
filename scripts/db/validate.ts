@@ -23,12 +23,11 @@ async function main() {
     if (file.extension() !== 'csv') continue
 
     const csv = await dataStorage.load(file.basename())
-    if (/\s+$/.test(csv))
-      return handleError(`Error: empty lines at the end of file not allowed (${filepath})`)
 
     const rows = csv.split(/\r\n/)
     const headers = rows[0].split(',')
     for (const [i, line] of rows.entries()) {
+      if (!line.trim()) continue
       if (line.indexOf('\n') > -1)
         return handleError(
           `Error: row ${i + 1} has the wrong line ending character, should be CRLF (${filepath})`

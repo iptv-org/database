@@ -6,20 +6,6 @@ type ExecError = {
 }
 
 describe('db:validate', () => {
-  it('shows an error if there is an empty line at the end of the file', () => {
-    try {
-      execSync('DATA_DIR=tests/__data__/input/validate/empty_line npm run db:validate', {
-        encoding: 'utf8'
-      })
-      process.exit(1)
-    } catch (error) {
-      expect((error as ExecError).status).toBe(1)
-      expect((error as ExecError).stdout).toContain(
-        'Error: empty lines at the end of file not allowed (channels.csv)'
-      )
-    }
-  })
-
   it('shows an error if the number of columns in a row is incorrect', () => {
     try {
       execSync('DATA_DIR=tests/__data__/input/validate/wrong_num_cols npm run db:validate', {

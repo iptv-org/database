@@ -45,11 +45,13 @@ module.exports = {
     .regex(/^[A-Za-z0-9]+\.[a-z]{2}$/)
     .allow(null),
   website: Joi.string()
+    .regex(/,/, { invert: true })
     .uri({
       scheme: ['http', 'https']
     })
     .allow(null),
   logo: Joi.string()
+    .regex(/,/, { invert: true })
     .uri({
       scheme: ['https']
     })

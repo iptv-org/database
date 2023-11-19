@@ -29,7 +29,7 @@ module.exports = {
     .allow(null),
   broadcast_area: Joi.array().items(
     Joi.string()
-      .regex(/^(s\/[A-Z]{2}-[A-Z0-9]{1,3}|c\/[A-Z]{2}|r\/[A-Z0-9]{3,7})$/)
+      .regex(/^(s\/[A-Z]{2}-[A-Z0-9]{1,3}|c\/[A-Z]{2}|r\/[A-Z0-9]{2,7})$/)
       .required()
   ),
   languages: Joi.array().items(

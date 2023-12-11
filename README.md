@@ -20,7 +20,7 @@ If you have a question or an idea, you can post it in the [Discussions](https://
 
 ## Contribution
 
-Please make sure to read the [Contributing Guide](https://github.com/iptv-org/epg/blob/master/CONTRIBUTING.md) before sending [issue](https://github.com/iptv-org/epg/issues) or a [pull request](https://github.com/iptv-org/epg/pulls).
+Please make sure to read the [Contributing Guide](CONTRIBUTING.md) before sending [issue](https://github.com/iptv-org/epg/issues) or a [pull request](https://github.com/iptv-org/epg/pulls).
 
 And thank you to everyone who has already contributed!
 

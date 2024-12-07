@@ -1,5 +1,6 @@
 import { Collection, Storage, File, Dictionary, Logger } from '@freearhey/core'
 import { DATA_DIR } from '../constants'
+import schemesData from '../schemes'
 import { program } from 'commander'
 import Joi from 'joi'
 import { CSVParser, IDCreator } from '../core'
@@ -10,7 +11,7 @@ program.argument('[filepath]', 'Path to file to validate').parse(process.argv)
 const logger = new Logger()
 const buffer = new Dictionary()
 const files = new Dictionary()
-const schemes: { [key: string]: object } = require('../schemes')
+const schemes: { [key: string]: object } = schemesData
 
 async function main() {
   const dataStorage = new Storage(DATA_DIR)

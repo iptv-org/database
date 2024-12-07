@@ -1,6 +1,6 @@
-const Joi = require('joi')
+import Joi from 'joi'
 
-module.exports = {
+export default {
   name: Joi.string()
     .regex(/^[\sA-Z\u00C0-\u00FF().,-]+$/i)
     .required(),

@@ -1,8 +1,11 @@
-const Joi = require('joi').extend(require('@joi/date'))
-const path = require('path')
-const url = require('url')
+import BaseJoi from 'joi'
+import JoiDate from '@joi/date'
+import path from 'path'
+import url from 'url'
 
-module.exports = {
+const Joi = BaseJoi.extend(JoiDate)
+
+export default {
   id: Joi.string()
     .regex(/^[A-Za-z0-9]+\.[a-z]{2}$/)
     .required(),

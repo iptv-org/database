@@ -15,19 +15,24 @@ export class IssueLoader {
     if (TESTING) {
       switch (labels) {
         case 'channels:add,approved':
-          issues = require('../../tests/__data__/input/issues/channels_add_approved.js')
+          issues = (await import('../../tests/__data__/input/issues/channels_add_approved.js'))
+            .default
           break
         case 'channels:edit,approved':
-          issues = require('../../tests/__data__/input/issues/channels_edit_approved.js')
+          issues = (await import('../../tests/__data__/input/issues/channels_edit_approved.js'))
+            .default
           break
         case 'channels:remove,approved':
-          issues = require('../../tests/__data__/input/issues/channels_remove_approved.js')
+          issues = (await import('../../tests/__data__/input/issues/channels_remove_approved.js'))
+            .default
           break
         case 'blocklist:add,approved':
-          issues = require('../../tests/__data__/input/issues/blocklist_add_approved.js')
+          issues = (await import('../../tests/__data__/input/issues/blocklist_add_approved.js'))
+            .default
           break
         case 'blocklist:remove,approved':
-          issues = require('../../tests/__data__/input/issues/blocklist_remove_approved.js')
+          issues = (await import('../../tests/__data__/input/issues/blocklist_remove_approved.js'))
+            .default
           break
       }
     } else {

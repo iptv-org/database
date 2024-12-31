@@ -43,6 +43,9 @@ describe('db:validate', () => {
     } catch (error) {
       expect((error as ExecError).status).toBe(1)
       expect((error as ExecError).stdout).toContain('entry with the id "aaa" already exists')
+      expect((error as ExecError).stdout).toContain(
+        'entry with the channel "002RadioTV.do" and ref "eee" already exists'
+      )
     }
   })
 

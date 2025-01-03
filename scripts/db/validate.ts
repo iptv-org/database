@@ -43,7 +43,7 @@ async function main() {
     let grouped
     switch (filename) {
       case 'blocklist':
-        grouped = data.keyBy(item => item.channel)
+        grouped = data.keyBy(item => item.channel + item.ref)
         break
       case 'categories':
       case 'channels':
@@ -70,7 +70,7 @@ async function main() {
     let fileErrors = new Collection()
     switch (filename) {
       case 'channels':
-        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, 'id'))
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['id']))
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(validateChannelId(row, i))
           fileErrors = fileErrors.concat(validateChannelBroadcastArea(row, i))
@@ -92,12 +92,13 @@ async function main() {
         }
         break
       case 'blocklist':
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['channel', 'ref']))
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(validateChannel(row.channel, i))
         }
         break
       case 'countries':
-        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, 'code'))
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['code']))
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(
             checkValue(i, row, 'code', 'languages', buffer.get('languages'))
@@ -105,7 +106,7 @@ async function main() {
         }
         break
       case 'subdivisions':
-        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, 'code'))
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['code']))
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(
             checkValue(i, row, 'code', 'country', buffer.get('countries'))
@@ -113,7 +114,7 @@ async function main() {
         }
         break
       case 'regions':
-        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, 'code'))
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['code']))
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(
             checkValue(i, row, 'code', 'countries', buffer.get('countries'))
@@ -121,10 +122,10 @@ async function main() {
         }
         break
       case 'categories':
-        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, 'id'))
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['id']))
         break
       case 'languages':
-        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, 'code'))
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['code']))
         break
     }
 
@@ -195,16 +196,17 @@ function validateChannel(channelId: string, i: number) {
   return errors
 }
 
-function findDuplicatesBy(rows: { [key: string]: string }[], key: string) {
+function findDuplicatesBy(rows: { [key: string]: string }[], keys: string[]) {
   const errors = new Collection()
   const buffer = new Dictionary()
 
   rows.forEach((row, i) => {
-    const normId = row[key].toLowerCase()
+    const normId = keys.map(key => row[key].toLowerCase()).join()
     if (buffer.has(normId)) {
+      const fieldsList = keys.map(key => `${key} "${row[key]}"`).join(' and ')
       errors.push({
         line: i + 2,
-        message: `entry with the ${key} "${row[key]}" already exists`
+        message: `entry with the ${fieldsList} already exists`
       })
     }
 

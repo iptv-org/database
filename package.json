@@ -23,7 +23,6 @@
     "testRegex": "tests/(.*?/)?.*test.(js|ts)$"
   },
   "dependencies": {
-    "@eslint/eslintrc": "^3.2.0",
     "@eslint/js": "^9.16.0",
     "@freearhey/core": "^0.2.2",
     "@joi/date": "^2.1.0",
@@ -39,7 +38,7 @@
     "chalk": "^4.1.2",
     "commander": "^9.0.0",
     "csvtojson": "^2.0.10",
-    "eslint": "^9.16.0",
+    "eslint": "^9.18.0",
     "eslint-config-prettier": "^9.0.0",
     "fs-extra": "^11.2.0",
     "globals": "^15.13.0",

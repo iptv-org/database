@@ -85,6 +85,8 @@ async function editChannels({ loader, idCreator }: { loader: IssueLoader; idCrea
       const country = data.getString('country') || found.country
       if (name && country) {
         channelId = idCreator.create(name, country)
+        updateBlocklistId(found.id, channelId)
+        updateChannelReplacedBy(found.id, channelId)
       }
     }
 
@@ -194,5 +196,25 @@ async function blockChannels({ loader }: { loader: IssueLoader }) {
     )
 
     processedIssues.push(issue)
+  })
+}
+
+function updateBlocklistId(oldId: string, newId: string) {
+  const filtered: Collection = blocklist.filter((blocked: Blocked) => blocked.channel === oldId)
+  if (filtered.isEmpty()) return
+
+  filtered.forEach(item => {
+    item.channel = newId
+  })
+}
+
+function updateChannelReplacedBy(channelId: string, newReplacedBy: string) {
+  const filtered: Collection = channels.filter(
+    (channel: Channel) => channel.replaced_by === channelId
+  )
+  if (filtered.isEmpty()) return
+
+  filtered.forEach(item => {
+    item.replaced_by = newReplacedBy
   })
 }

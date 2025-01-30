@@ -11,6 +11,7 @@ export default {
     .required(),
   name: Joi.string()
     .regex(/^[a-z0-9-!:&.+'/»#%°$@?|¡–\s_—]+$/i)
+    .regex(/^((?!\s-\s).)*$/)
     .required(),
   alt_names: Joi.array().items(
     Joi.string()

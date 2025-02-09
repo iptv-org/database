@@ -1,10 +1,41 @@
 # Contributing Guide
 
+- [How to?](#how-to)
 - [Data Scheme](#data-scheme)
 - [Channel Logo Guidelines](#channel-logo-guidelines)
 - [Project Structure](#project-structure)
 - [Scripts](#scripts)
 - [Workflows](#workflows)
+
+## How to?
+
+### How to add a new channel to the database?
+
+The easiest way is to send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aadd&projects=&template=__channels_add.yml&title=Add%3A+). Just fill in all the information you know about the channel and press send. Once your request is approved, the channel will automatically be added to the database.
+
+If you want to add more than one channel, you can do it directly by editing the [data/channels.csv](data/channels.csv) file in any text editor. After editing the file, just [commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) all changes and send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+
+**IMPORTANT:** Before sending the request, make sure that the number of columns in the file has not changed and that all rows end with [CRLF](https://developer.mozilla.org/en-US/docs/Glossary/CRLF). Otherwise we will not be able to review this request.
+
+### How to edit channel description?
+
+As with adding a channel, this can be done in several ways.
+
+The first option is to send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aedit&projects=&template=__channels_edit.yml&title=Edit%3A+). Just specify the ID of the channel you want to edit and the new data. To delete a value, insert `~` in the desired field. After your request is approved, the channel description will be automatically updated.
+
+The second option is to edit the [data/channels.csv](data/channels.csv) file using a text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+
+**IMPORTANT:** Before sending the request, make sure that the number of columns in the file has not changed and that all rows end with [CRLF](https://developer.mozilla.org/en-US/docs/Glossary/CRLF). Otherwise we will not be able to review this request.
+
+### How to remove a channel from the database?
+
+To remove a channel just fill out this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aremove&projects=&template=__channels_remove.yml&title=Remove%3A+) with channel ID and the reason for deletion.
+
+**NOTE:** Closing a channel is not a reason to remove it from the database. In this case you just need to mark the channel as closed.
+
+### How to mark a channel as closed?
+
+To do this, use this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aedit&projects=&template=__channels_edit.yml&title=Edit%3A+). In it, in the "Closed" field you will need to specify at least the approximate date of closing. And there you can also specify the ID of the channel that replaced it, if necessary.
 
 ## Data Scheme
 
@@ -106,17 +137,27 @@ Since finding a suitable logo for the channel is not always possible, this list 
 
 ## Project Structure
 
-- `.github/`
-  - `ISSUE_TEMPLATE/`: issue templates for the repository.
-  - `workflows`: contains [GitHub actions](https://docs.github.com/en/actions/quickstart) workflows.
-  - `CODE_OF_CONDUCT.md`: rules you shouldn't break if you don't want to get banned.
-- `.readme/`
-  - `preview.png`: image displayed in the `README.md`.
-- `data/`: contains all data.
-- `scripts/`: contains all scripts used in the repository.
-- `tests/`: contains tests to check the scripts.
-- `CONTRIBUTING.md`: file you are currently reading.
-- `README.md`: project description displayed on the home page.
+```
+database/
+├── .github/
+|   ├── ISSUE_TEMPLATE      # issue templates for the repository
+|   ├── workflows           # contains GitHub actions workflows
+|   ├── CODE_OF_CONDUCT.md  # rules you shouldn't break if you don't want to get banned
+├── .husky/
+|   ├── pre-commit          # commands to run before each commit
+├── .readme/
+|   ├── preview.png         # image displayed in the README.md
+├── data/                   # contains all data
+├── scripts/                # contains all scripts used in the repository
+├── tests/                  # contains tests to check the scripts
+├── .prettierrc.js          # configuration file for Prettier
+├── eslint.config.mjs       # configuration file for ESLint
+├── package.json            # project manifest file
+├── tsconfig.json           # configuration file for TypeScript
+├── LICENSE                 # license text
+├── CONTRIBUTING.md         # file you are currently reading
+├── README.md               # project description displayed on the home page
+```
 
 ## Scripts
 

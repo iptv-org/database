@@ -107,6 +107,7 @@ List of channels blocked at the request of copyright holders.
 | Field   | Description                                     | Required | Example                           |
 | ------- | ----------------------------------------------- | -------- | --------------------------------- |
 | channel | Channel ID                                      | Required | `AnimalPlanetAfrica.us`           |
+| reason  | Reason for blocking                             | Required | `dmca`                            |
 | ref     | Link to removal request or DMCA takedown notice | Required | `https://example.com/issues/0000` |
 
 ## Channel Logo Guidelines

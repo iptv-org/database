@@ -61,7 +61,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel ID\n\nHGTVHungary.hu\n\n### Reference\n\nhttps://github.com/iptv-org/iptv/issues/1831\n\n### Notes (optional)\n\n_No response_',
+    body: '### Channel ID\n\nHGTVHungary.hu\n\n### Reason\n\nNSFW\n\n### Reference\n\nhttps://github.com/iptv-org/iptv/issues/1831\n\n### Notes (optional)\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/5897/reactions',
       total_count: 0,

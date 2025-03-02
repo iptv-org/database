@@ -13,6 +13,17 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      description: Reason for blocking the channel
+      options:
+        - 'DMCA'
+        - 'NSFW'
+    validations:
+      required: true
+
   - type: input
     id: ref
     attributes:

@@ -185,12 +185,14 @@ async function blockChannels({ loader }: { loader: IssueLoader }) {
     if (found) return
 
     const channel = data.getString('channel_id')
+    const reason = data.getString('reason')?.toLowerCase()
     const ref = data.getString('ref')
-    if (!channel || !ref) return
+    if (!channel || !reason || !ref) return
 
     blocklist.push(
       new Blocked({
         channel,
+        reason,
         ref
       })
     )

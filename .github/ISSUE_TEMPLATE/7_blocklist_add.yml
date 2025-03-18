@@ -5,7 +5,7 @@ labels: ['blocklist:add']
 
 body:
   - type: input
-    id: id
+    id: channel
     attributes:
       label: Channel ID
       description: The ID of the channel that should be blocked
@@ -28,7 +28,7 @@ body:
     id: ref
     attributes:
       label: Reference
-      description: Link to the official request for channel removal
+      description: Link to DMCA notice or approved channel removal request
       placeholder: 'https://github.com/iptv-org/iptv/issues/1831'
     validations:
       required: true
@@ -36,4 +36,4 @@ body:
   - type: textarea
     attributes:
       label: Notes (optional)
-      description: 'Any additional information'
+      description: 'Anything else we should know?'

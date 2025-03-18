@@ -1,0 +1,109 @@
+name: ✏️ Edit feed
+description: Request to edit feed description
+title: 'Edit: '
+labels: ['feeds:edit']
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please specify exactly what should be changed. To delete an existing value without replacement use the `~` symbol.
+
+  - type: input
+    id: channel_id
+    attributes:
+      label: Channel ID (required)
+      description: ID of the channel to which this feed belongs
+      placeholder: 'HBO.us'
+    validations:
+      required: true
+
+  - type: input
+    id: feed_id
+    attributes:
+      label: Feed ID (required)
+      description: The ID of the feed that should be updated
+      placeholder: 'West'
+    validations:
+      required: true
+
+  - type: input
+    id: feed_name
+    attributes:
+      label: Feed Name
+      description: "Name of the feed in English. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `|`, `¡`"
+      placeholder: 'West HD'
+
+  - type: dropdown
+    id: is_main
+    attributes:
+      label: Main Feed
+      description: Indicates if this feed is the main for the channel
+      options:
+        - 'FALSE'
+        - 'TRUE'
+
+  - type: input
+    id: broadcast_area
+    attributes:
+      label: Broadcast Area
+      description: "List of codes describing the broadcasting area of the feed separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`. A full list of supported codes can be found here: [countries](https://github.com/iptv-org/database/blob/master/data/countries.csv), [subdivisions](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv), [regions](https://github.com/iptv-org/database/blob/master/data/regions.csv)"
+      placeholder: 'c/CN'
+
+  - type: input
+    id: timezones
+    attributes:
+      label: Timezones
+      description: List of broadcast time zones separated by `;`. A list of all supported timezones and their codes can be found in [data/timezones.csv](https://github.com/iptv-org/database/blob/master/data/timezones.csv)
+      placeholder: 'Asia/Shanghai'
+
+  - type: input
+    id: languages
+    attributes:
+      label: Languages
+      description: List of languages in which the feed is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](https://github.com/iptv-org/database/blob/master/data/languages.csv)
+      placeholder: 'zho;eng'
+
+  - type: input
+    id: video_format
+    attributes:
+      label: Format
+      description: Video format of the broadcast
+      options:
+        - '4320p'
+        - '2160p'
+        - '1080p'
+        - '1080i'
+        - '720p'
+        - '576p'
+        - '576i'
+        - '480p'
+        - '480i'
+        - '360p'
+        - '240p'
+
+  - type: input
+    id: launched
+    attributes:
+      label: Launched
+      description: Launch date of the feed (`YYYY-MM-DD`)   
+      placeholder: '2016-07-28'
+
+  - type: input
+    id: closed
+    attributes:
+      label: Closed
+      description: Date on which the feed closed (`YYYY-MM-DD`)   
+      placeholder: '2020-05-31'
+
+  - type: input
+    id: replaced_by
+    attributes:
+      label: Replaced By
+      description: "ID of the channel and feed this feed was replaced with. Possible values: `<channel_id>` or `<channel_id>@<feed_id>`"
+      placeholder: 'CCTV1.cn@SD'
+
+  - type: textarea
+    attributes:
+      label: Notes
+      description: 'Anything else we should know?'

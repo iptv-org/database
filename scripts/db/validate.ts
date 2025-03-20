@@ -79,14 +79,12 @@ async function main() {
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(validateChannelId(row, i))
           fileErrors = fileErrors.concat(validateChannelBroadcastArea(row, i))
+          fileErrors = fileErrors.concat(validateReplacedBy(row, i))
           fileErrors = fileErrors.concat(
             checkValue(i, row, 'id', 'subdivision', buffer.get('subdivisions'))
           )
           fileErrors = fileErrors.concat(
             checkValue(i, row, 'id', 'categories', buffer.get('categories'))
-          )
-          fileErrors = fileErrors.concat(
-            checkValue(i, row, 'id', 'replaced_by', buffer.get('channels'))
           )
           fileErrors = fileErrors.concat(
             checkValue(i, row, 'id', 'languages', buffer.get('languages'))
@@ -102,9 +100,7 @@ async function main() {
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(validateChannel(row.channel, i))
           fileErrors = fileErrors.concat(validateTimezones(row, i))
-          fileErrors = fileErrors.concat(
-            checkValue(i, row, 'id', 'replaced_by', buffer.get('channels'))
-          )
+          fileErrors = fileErrors.concat(validateReplacedBy(row, i))
         }
         break
       case 'blocklist':
@@ -194,6 +190,30 @@ function checkValue(
       })
     }
   })
+
+  return errors
+}
+
+function validateReplacedBy(row: { [key: string]: string }, i: number) {
+  const errors = new Collection()
+
+  if (!row.replaced_by) return errors
+
+  const channels = buffer.get('channels')
+  const feeds = buffer.get('feeds')
+  const [channelId, feedId] = row.replaced_by.split('@')
+
+  if (channels.missing(channelId)) {
+    errors.push({
+      line: i + 2,
+      message: `"${row.id}" has an invalid replaced_by "${row.replaced_by}"`
+    })
+  } else if (feedId && feeds.missing(channelId + feedId)) {
+    errors.push({
+      line: i + 2,
+      message: `"${row.id}" has an invalid replaced_by "${row.replaced_by}"`
+    })
+  }
 
   return errors
 }

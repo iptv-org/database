@@ -62,6 +62,9 @@ describe('db:validate', () => {
       expect((error as ExecError).status).toBe(1)
       expect((error as ExecError).stdout).toContain('"aaa.us" is missing in the channels.csv')
       expect((error as ExecError).stdout).toContain(
+        '"002RadioTV.do" has an invalid replaced_by "002RadioTV.do@4K"'
+      )
+      expect((error as ExecError).stdout).toContain(
         '002RadioTV.do: "website" must be a valid uri with a scheme matching the http|https pattern'
       )
       expect((error as ExecError).stdout).toContain(
@@ -75,7 +78,7 @@ describe('db:validate', () => {
       expect((error as ExecError).stdout).toContain(
         'SD: "video_format" with value "576I" fails to match the required pattern'
       )
-      expect((error as ExecError).stdout).toContain('7 error(s)')
+      expect((error as ExecError).stdout).toContain('8 error(s)')
     }
   })
 

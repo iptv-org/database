@@ -4,9 +4,14 @@ title: 'Remove: '
 labels: ['channels:remove']
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Deleting a channel will also delete all associated feeds and records in the blocklist.
+
   - type: input
     attributes:
-      label: Channel ID (required)
+      label: Channel ID
       description: The ID of the channel that should be removed
       placeholder: 'AnhuiTV.cn'
     validations:
@@ -14,7 +19,7 @@ body:
 
   - type: dropdown
     attributes:
-      label: Reason (required)
+      label: Reason
       description: Select the reason for removal from the list below
       options:
         - 'Duplicate'
@@ -25,5 +30,5 @@ body:
 
   - type: textarea
     attributes:
-      label: Notes
-      description: 'Any additional information'
+      label: Notes (optional)
+      description: 'Anything else we should know?'

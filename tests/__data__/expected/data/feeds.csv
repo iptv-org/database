@@ -1,0 +1,10 @@
+channel,id,name,is_main,broadcast_area,timezones,languages,video_format,launched,closed,replaced_by
+0TV.dk,SD,SD,TRUE,c/DK,Europe/Copenhagen,dan,576i,,,
+1000xHoraTV.uy,HD,HD,TRUE,c/CN,Africa/Johannesburg;Africa/Kigali,zho,576i,2020-01-01,2021-01-01,M5.hu@HD
+1000xHoraTV.uy,SD,SD,FALSE,c/UY,America/Montevideo,spa,576i,,,M5.hu@HD
+beINMoviesTurk.tr,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i,,,
+M5.hu,HD,HD,TRUE,c/BR,Africa/Dakar;Africa/El_Aaiun,por;spa,1080i,2020-01-01,,0TV.dk@SD
+M5.hu,West,West,FALSE,c/DO,America/Santo_Domingo,spa,480i,,2021-01-01,
+WenzhouEconomicandEducation.cn,SD,SD,TRUE,c/CN,Africa/Johannesburg;Africa/Kigali,zho,576i,,,
+YiwuBusinessChannel.cn,SD,SD,TRUE,c/CN,Africa/Johannesburg;Africa/Kigali,zho,576i,,,
+YiwuNewsIntegratedChannel.cn,SD,SD,TRUE,c/CN,Africa/Johannesburg;Africa/Kigali,zho,576i,,,

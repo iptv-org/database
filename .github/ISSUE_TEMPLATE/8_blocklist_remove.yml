@@ -5,24 +5,17 @@ labels: ['blocklist:remove']
 
 body:
   - type: input
+    id: channel
     attributes:
-      label: Channel ID (required)
+      label: Channel ID
       description: The ID of the channel that should be removed
       placeholder: 'AnhuiTV.cn'
-    validations:
-      required: true
-
-  - type: dropdown
-    attributes:
-      label: Reason (required)
-      description: Select the reason for removal from the list below
-      options:
-        - 'Invalid channel id'
-        - 'Other'
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: Notes
-      description: 'Any additional information'
+      description: 'Describe in detail the reason for removing the channel from the blocklist'
+    validations:
+      required: true

@@ -1,0 +1,21 @@
+name: 🕊️ Unblock channel
+description: Request to remove a channel from the blocklist
+title: 'Unblock: '
+labels: ['blocklist:remove']
+
+body:
+  - type: input
+    id: channel
+    attributes:
+      label: Channel ID
+      description: The ID of the channel that should be removed
+      placeholder: 'AnhuiTV.cn'
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Notes
+      description: 'Describe in detail the reason for removing the channel from the blocklist'
+    validations:
+      required: true

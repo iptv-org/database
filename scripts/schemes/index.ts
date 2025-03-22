@@ -5,6 +5,8 @@ import { default as languages } from './languages'
 import { default as regions } from './regions'
 import { default as subdivisions } from './subdivisions'
 import { default as blocklist } from './blocklist'
+import { default as feeds } from './feeds'
+import { default as timezones } from './timezones'
 
 export default {
   channels,
@@ -13,5 +15,7 @@ export default {
   languages,
   regions,
   subdivisions,
-  blocklist
+  blocklist,
+  feeds,
+  timezones
 }

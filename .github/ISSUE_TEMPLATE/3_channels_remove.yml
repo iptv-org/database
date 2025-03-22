@@ -1,0 +1,34 @@
+name: 🗑️ Remove channel
+description: Request to remove a channel from the database
+title: 'Remove: '
+labels: ['channels:remove']
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Deleting a channel will also delete all associated feeds and records in the blocklist.
+
+  - type: input
+    attributes:
+      label: Channel ID
+      description: The ID of the channel that should be removed
+      placeholder: 'AnhuiTV.cn'
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Reason
+      description: Select the reason for removal from the list below
+      options:
+        - 'Duplicate'
+        - 'Not a TV channel'
+        - 'Other'
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Notes (optional)
+      description: 'Anything else we should know?'

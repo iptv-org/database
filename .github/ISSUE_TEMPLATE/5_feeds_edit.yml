@@ -64,7 +64,7 @@ body:
       description: List of languages in which the feed is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](https://github.com/iptv-org/database/blob/master/data/languages.csv)
       placeholder: 'zho;eng'
 
-  - type: input
+  - type: dropdown
     id: video_format
     attributes:
       label: Format

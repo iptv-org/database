@@ -139,7 +139,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
     id: video_format
     attributes:
       label: Format

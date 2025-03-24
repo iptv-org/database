@@ -1,0 +1,38 @@
+name: 🗑️ Remove feed
+description: Request to remove a feed from the database
+title: 'Remove: '
+labels: ['feeds:remove']
+
+body:
+  - type: input
+    id: channel_id
+    attributes:
+      label: Channel ID
+      description: ID of the channel to which this feed belongs
+      placeholder: 'HBO.us'
+    validations:
+      required: true
+
+  - type: input
+    id: feed_id
+    attributes:
+      label: Feed ID
+      description: The ID of the feed that should be updated
+      placeholder: 'West'
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Reason
+      description: Select the reason for removal from the list below
+      options:
+        - 'Duplicate'
+        - 'Other'
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Notes (optional)
+      description: 'Anything else we should know?'

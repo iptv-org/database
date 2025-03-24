@@ -4,6 +4,11 @@ title: 'Edit: '
 labels: ['channels:edit']
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Please specify exactly what should be changed. To delete an existing value without replacement use the `~` symbol.
+  
   - type: input
     id: id
     attributes:
@@ -12,11 +17,6 @@ body:
       placeholder: 'AnhuiTV.cn'
     validations:
       required: true
-
-  - type: markdown
-    attributes:
-      value: |
-        Please specify exactly what should be changed. To delete an existing value without replacement use the `~` symbol.
 
   - type: input
     id: name
@@ -68,20 +68,6 @@ body:
       placeholder: 'Hefei'
 
   - type: input
-    id: broadcast_area
-    attributes:
-      label: Broadcast Area
-      description: List of codes describing the broadcasting area of the channel separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`
-      placeholder: 'c/CN;r/EUR'
-
-  - type: input
-    id: languages
-    attributes:
-      label: Languages
-      description: List of languages in which the channel is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](https://github.com/iptv-org/database/blob/master/data/languages.csv)
-      placeholder: 'zho;eng'
-
-  - type: input
     id: categories
     attributes:
       label: Categories
@@ -96,27 +82,6 @@ body:
       options:
         - 'FALSE'
         - 'TRUE'
-
-  - type: input
-    id: launched
-    attributes:
-      label: Launched
-      description: Launch date of the channel (`YYYY-MM-DD`)   
-      placeholder: '2016-07-28'
-
-  - type: input
-    id: closed
-    attributes:
-      label: Closed
-      description: Date on which the channel closed (`YYYY-MM-DD`)   
-      placeholder: '2020-05-31'
-
-  - type: input
-    id: replaced_by
-    attributes:
-      label: Replaced By
-      description: The ID of the channel that this channel was replaced by
-      placeholder: 'CCTV1.cn'
 
   - type: input
     id: website

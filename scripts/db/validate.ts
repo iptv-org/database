@@ -3,8 +3,9 @@ import { DATA_DIR } from '../constants'
 import schemesData from '../schemes'
 import { program } from 'commander'
 import Joi from 'joi'
-import { CSVParser, IDCreator } from '../core'
+import { CSVParser } from '../core'
 import chalk from 'chalk'
+import { createChannelId } from '../utils'
 
 program.argument('[filepath]', 'Path to file to validate').parse(process.argv)
 
@@ -42,11 +43,15 @@ async function main() {
 
     let grouped
     switch (filename) {
+      case 'feeds':
+        grouped = data.keyBy(item => item.channel + item.id)
+        break
       case 'blocklist':
         grouped = data.keyBy(item => item.channel + item.ref)
         break
       case 'categories':
       case 'channels':
+      case 'timezones':
         grouped = data.keyBy(item => item.id)
         break
       default:
@@ -74,6 +79,7 @@ async function main() {
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(validateChannelId(row, i))
           fileErrors = fileErrors.concat(validateChannelBroadcastArea(row, i))
+          fileErrors = fileErrors.concat(validateReplacedBy(row, i))
           fileErrors = fileErrors.concat(
             checkValue(i, row, 'id', 'subdivision', buffer.get('subdivisions'))
           )
@@ -81,14 +87,20 @@ async function main() {
             checkValue(i, row, 'id', 'categories', buffer.get('categories'))
           )
           fileErrors = fileErrors.concat(
-            checkValue(i, row, 'id', 'replaced_by', buffer.get('channels'))
-          )
-          fileErrors = fileErrors.concat(
             checkValue(i, row, 'id', 'languages', buffer.get('languages'))
           )
           fileErrors = fileErrors.concat(
             checkValue(i, row, 'id', 'country', buffer.get('countries'))
           )
+        }
+        break
+      case 'feeds':
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['channel', 'id']))
+        fileErrors = fileErrors.concat(validateMainFeeds(rowsCopy))
+        for (const [i, row] of rowsCopy.entries()) {
+          fileErrors = fileErrors.concat(validateChannel(row.channel, i))
+          fileErrors = fileErrors.concat(validateTimezones(row, i))
+          fileErrors = fileErrors.concat(validateReplacedBy(row, i))
         }
         break
       case 'blocklist':
@@ -182,6 +194,30 @@ function checkValue(
   return errors
 }
 
+function validateReplacedBy(row: { [key: string]: string }, i: number) {
+  const errors = new Collection()
+
+  if (!row.replaced_by) return errors
+
+  const channels = buffer.get('channels')
+  const feeds = buffer.get('feeds')
+  const [channelId, feedId] = row.replaced_by.split('@')
+
+  if (channels.missing(channelId)) {
+    errors.push({
+      line: i + 2,
+      message: `"${row.id}" has an invalid replaced_by "${row.replaced_by}"`
+    })
+  } else if (feedId && feeds.missing(channelId + feedId)) {
+    errors.push({
+      line: i + 2,
+      message: `"${row.id}" has an invalid replaced_by "${row.replaced_by}"`
+    })
+  }
+
+  return errors
+}
+
 function validateChannel(channelId: string, i: number) {
   const errors = new Collection()
   const channels = buffer.get('channels')
@@ -201,7 +237,7 @@ function findDuplicatesBy(rows: { [key: string]: string }[], keys: string[]) {
   const buffer = new Dictionary()
 
   rows.forEach((row, i) => {
-    const normId = keys.map(key => row[key].toLowerCase()).join()
+    const normId = keys.map(key => row[key].toString().toLowerCase()).join()
     if (buffer.has(normId)) {
       const fieldsList = keys.map(key => `${key} "${row[key]}"`).join(' and ')
       errors.push({
@@ -216,10 +252,31 @@ function findDuplicatesBy(rows: { [key: string]: string }[], keys: string[]) {
   return errors
 }
 
+function validateMainFeeds(rows: { [key: string]: string }[]) {
+  const errors = new Collection()
+  const buffer = new Dictionary()
+
+  rows.forEach((row, i) => {
+    const normId = `${row.channel}${row.is_main}`
+    if (buffer.has(normId)) {
+      errors.push({
+        line: i + 2,
+        message: `entry with the channel "${row.channel}" and is_main "true" already exists`
+      })
+    }
+
+    if (row.is_main) {
+      buffer.set(normId, true)
+    }
+  })
+
+  return errors
+}
+
 function validateChannelId(row: { [key: string]: string }, i: number) {
   const errors = new Collection()
 
-  const expectedId = new IDCreator().create(row.name, row.country)
+  const expectedId = createChannelId(row.name, row.country)
 
   if (expectedId !== row.id) {
     errors.push({
@@ -247,6 +304,22 @@ function validateChannelBroadcastArea(row: { [key: string]: string[] }, i: numbe
       errors.push({
         line: i + 2,
         message: `"${row.id}" has the wrong broadcast_area "${areaCode}"`
+      })
+    }
+  })
+
+  return errors
+}
+
+function validateTimezones(row: { [key: string]: string[] }, i: number) {
+  const errors = new Collection()
+  const timezones = buffer.get('timezones')
+
+  row.timezones.forEach((timezone: string) => {
+    if (timezones.missing(timezone)) {
+      errors.push({
+        line: i + 2,
+        message: `"${row.channel}@${row.id}" has the wrong timezone "${timezone}"`
       })
     }
   })

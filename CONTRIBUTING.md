@@ -11,9 +11,9 @@
 
 ### How to add a new channel to the database?
 
-The easiest way is to send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aadd&projects=&template=__channels_add.yml&title=Add%3A+). Just fill in all the information you know about the channel and press send. Once your request is approved, the channel will automatically be added to the database.
+The easiest way is to send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aadd&projects=&template=1_channels_add.yml&title=Add%3A+). Just fill in all the information you know about the channel and press send. Once your request is approved, the channel will automatically be added to the database.
 
-If you want to add more than one channel, you can do it directly by editing the [data/channels.csv](data/channels.csv) file in any text editor. After editing the file, just [commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) all changes and send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+If you want to add more than one channel, you can do it directly by editing the [data/channels.csv](data/channels.csv) file in any text editor. After that, just [commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) all changes and send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
 **IMPORTANT:** Before sending the request, make sure that the number of columns in the file has not changed and that all rows end with [CRLF](https://developer.mozilla.org/en-US/docs/Glossary/CRLF). Otherwise we will not be able to review this request.
 
@@ -21,7 +21,7 @@ If you want to add more than one channel, you can do it directly by editing the 
 
 As with adding a channel, this can be done in several ways.
 
-The first option is to send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aedit&projects=&template=__channels_edit.yml&title=Edit%3A+). Just specify the ID of the channel you want to edit and the new data. To delete a value, insert `~` in the desired field. After your request is approved, the channel description will be automatically updated.
+The first option is to send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aedit&projects=&template=2_channels_edit.yml&title=Edit%3A+). Just specify the ID of the channel you want to edit and the new data. To delete a value, insert `~` in the desired field. After your request is approved, the channel description will be automatically updated.
 
 The second option is to edit the [data/channels.csv](data/channels.csv) file using a text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
@@ -29,13 +29,35 @@ The second option is to edit the [data/channels.csv](data/channels.csv) file usi
 
 ### How to remove a channel from the database?
 
-To remove a channel just fill out this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aremove&projects=&template=__channels_remove.yml&title=Remove%3A+) with channel ID and the reason for deletion.
+To remove a channel fill out this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aremove&projects=&template=3_channels_remove.yml&title=Remove%3A+) with channel ID and the reason for deletion.
 
-**NOTE:** Closing a channel is not a reason to remove it from the database. In this case you just need to mark the channel as closed.
+**NOTE:** Closing a channel is not a reason to remove it from the database.
 
 ### How to mark a channel as closed?
 
-To do this, use this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aedit&projects=&template=__channels_edit.yml&title=Edit%3A+). In it, in the "Closed" field you will need to specify at least the approximate date of closing. And there you can also specify the ID of the channel that replaced it, if necessary.
+To do this, you need to mark the main feed of the channel as closed. [How to mark a feed as closed?](#how-to-mark-a-feed-as-closed?)
+
+### How to add a new feed to the database?
+
+_Option 1:_ Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aadd&projects=&template=4_feeds_add.yml&title=Add%3A+). Fill in all the information you know about the feed and press send. Once your request is approved, the feed will automatically be added to the database.
+
+_Option 2:_ Edit the [data/feeds.csv](data/feeds.csv) file using a text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+
+### How to edit feed description?
+
+_Option 1:_ Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aedit&projects=&template=5_feeds_edit.yml&title=Edit%3A+). Specify the ID of the channel and feed you want to edit and the new data. To delete a value, insert `~` in the desired field. After your request is approved, the feed description will be automatically updated.
+
+_Option 2:_ Edit the [data/feeds.csv](data/feeds.csv) file using a text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+
+### How to remove a feed from the database?
+
+To remove a feed just fill out this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aremove&projects=&template=6_feeds_remove.yml&title=Remove%3A+).
+
+**NOTE:** Ceased broadcasting is no reason to remove a feed from the database. In this case you just need to mark the feed as closed.
+
+### How to mark a feed as closed?
+
+To do this, use this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aedit&projects=&template=5_feeds_edit.yml&title=Edit%3A+). In it, in the "Closed" field you will need to specify at least the approximate date of broadcast termination. And there you can also specify the ID of the channel and feed that replaced it, if necessary.
 
 ## Data Scheme
 
@@ -51,15 +73,31 @@ To do this, use this [form](https://github.com/iptv-org/database/issues/new?assi
 | country        | Country code from which the channel is transmitted. A list of all supported countries and their codes can be found in [data/countries.csv](data/countries.csv)                                                                                                                              | Required | `CN`                           |
 | subdivision    | Code of the subdivision (e.g., provinces or states) from which the broadcast is transmitted. A list of all supported subdivisions and their codes can be found in [data/subdivisions.csv](data/subdivisions.csv).                                                                           | Optional | `CN-AH`                        |
 | city           | The name of the city in English from which the channel is broadcast. May contain any characters except `,` and `"`.                                                                                                                                                                         | Optional | `Hefei`                        |
-| broadcast_area | List of codes describing the broadcasting area of the channel separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`.                                                                                                                           | Required | `c/CN;r/ASIA`                  |
-| languages      | List of languages in which the channel is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](data/languages.csv).                                                                                                           | Required | `zho;eng`                      |
+| broadcast_area | [DEPRECATED] List of codes describing the broadcasting area of the channel separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`.                                                                                                              | Required | `c/CN;r/ASIA`                  |
+| languages      | [DEPRECATED] List of languages in which the channel is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](data/languages.csv).                                                                                              | Required | `zho;eng`                      |
 | categories     | List of categories to which this channel belongs separated by `;`. A list of all supported categories can be found in [data/categories.csv](data/categories.csv).                                                                                                                           | Optional | `animation;kids`               |
 | is_nsfw        | Indicates whether the channel broadcasts adult content (`TRUE` or `FALSE`).                                                                                                                                                                                                                 | Required | `FALSE`                        |
-| launched       | Launch date of the channel (`YYYY-MM-DD`).                                                                                                                                                                                                                                                  | Optional | `2016-07-28`                   |
-| closed         | Date on which the channel closed (`YYYY-MM-DD`).                                                                                                                                                                                                                                            | Optional | `2020-05-31`                   |
-| replaced_by    | The ID of the channel that this channel was replaced by.                                                                                                                                                                                                                                    | Optional | `CCTV1.cn`                     |
+| launched       | [DEPRECATED] Launch date of the channel (`YYYY-MM-DD`).                                                                                                                                                                                                                                     | Optional | `2016-07-28`                   |
+| closed         | [DEPRECATED] Date on which the channel closed (`YYYY-MM-DD`).                                                                                                                                                                                                                               | Optional | `2020-05-31`                   |
+| replaced_by    | [DEPRECATED] The ID of the channel that this channel was replaced by.                                                                                                                                                                                                                       | Optional | `CCTV1.cn`                     |
 | website        | Official website URL.                                                                                                                                                                                                                                                                       | Optional | `http://www.ahtv.cn/`          |
 | logo           | Logo URL. Only URL with [HTTPS](https://ru.wikipedia.org/wiki/HTTPS) protocol are allowed. Supported image types: `PNG`, `JPEG`. Max size: 512x512 pixels. The link should not be [geo-blocked](https://en.wikipedia.org/wiki/Geo-blocking). May contain any characters except `,` and `"`. | Required | `https://example.com/logo.png` |
+
+### feeds
+
+| Field          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Required | Example               |
+| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------------- |
+| channel        | ID of the channel to which this feed belongs.                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Required | `HBO.us`              |
+| id             | Unique feed ID derived from the `name`. May only contain Latin letters and numbers.                                                                                                                                                                                                                                                                                                                                                                                                                            | Required | `West`                |
+| name           | Name of the feed in English. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, <code>\|</code>, `¡`.                                                                                                                                                                                                                                                                                                                                              | Required | `West`                |
+| is_main        | Indicates if this feed is the main for the channel (`TRUE` or `FALSE`).                                                                                                                                                                                                                                                                                                                                                                                                                                        | Required | `FALSE`               |
+| broadcast_area | List of codes describing the broadcasting area of the feed separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>` is allowed. A full list of supported codes can be found here: [data/countries.csv](https://github.com/iptv-org/database/blob/master/data/countries.csv), [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv), [data/regions.csv](https://github.com/iptv-org/database/blob/master/data/regions.csv). | Required | `s/US-CA;s/US-ID`     |
+| timezones      | List of timezones in which the feed is broadcast separated by `;`. A list of all supported timezones and their codes can be found in [data/timezones.csv](data/timezones.csv).                                                                                                                                                                                                                                                                                                                                 | Required | `America/Los_Angeles` |
+| languages      | List of languages in which the feed is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](data/languages.csv).                                                                                                                                                                                                                                                                                                                                 | Required | `eng;spa`             |
+| video_format   | Video format of the feed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Required | `1080i`               |
+| launched       | Launch date of the feed (`YYYY-MM-DD`).                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Optional | `2016-07-28`          |
+| closed         | Date on which the feed ceased broadcasting (`YYYY-MM-DD`).                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Optional | `2020-05-31`          |
+| replaced_by    | ID of the channel and feed this feed was replaced with. Possible values: `<channel_id>` or `<channel_id>@<feed_id>`.                                                                                                                                                                                                                                                                                                                                                                                           | Optional | `HBO.us@East`         |
 
 ### categories
 
@@ -86,11 +124,11 @@ To do this, use this [form](https://github.com/iptv-org/database/issues/new?assi
 
 ### subdivisions
 
-| Field   | Description                                                                    | Required | Example            |
-| ------- | ------------------------------------------------------------------------------ | -------- | ------------------ |
-| country | Country code of the division                                                   | Required | `CA`               |
-| name    | Official subdivision name                                                      | Required | `British Columbia` |
-| code    | [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) code of the subdivision | Required | `CA-BC`            |
+| Field   | Description                                                                                | Required | Example            |
+| ------- | ------------------------------------------------------------------------------------------ | -------- | ------------------ |
+| country | [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code of the country | Required | `CA`               |
+| name    | Official subdivision name                                                                  | Required | `British Columbia` |
+| code    | [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) code of the subdivision             | Required | `CA-BC`            |
 
 ### regions
 
@@ -99,6 +137,14 @@ To do this, use this [form](https://github.com/iptv-org/database/issues/new?assi
 | name      | Official name of the region                                                                                            | Required | `Central Asia`   |
 | code      | Abbreviated designation for the region. May only contain Latin letters in upper case. The minimum length is 3 letters. | Required | `CAS`            |
 | countries | List of country codes in the region                                                                                    | Required | `KG;KZ;TJ;TM;UZ` |
+
+### timezones
+
+| Field      | Description                                                               | Required | Example               |
+| ---------- | ------------------------------------------------------------------------- | -------- | --------------------- |
+| id         | Timezone ID from [tz database](https://en.wikipedia.org/wiki/Tz_database) | Required | `Africa/Johannesburg` |
+| utc_offset | [UTC offset](https://en.wikipedia.org/wiki/UTC_offset) for this time zone | Required | `+02:00`              |
+| countries  | List of countries included in this time zone                              | Required | `ZA;LS;SZ`            |
 
 ### blocklist
 

@@ -41,25 +41,39 @@ async function main() {
     const data = await parser.parse(csv)
     const filename = file.name()
 
-    let grouped
     switch (filename) {
       case 'feeds':
-        grouped = data.keyBy(item => item.channel + item.id)
+        buffer.set(
+          'feeds',
+          data.keyBy(item => item.channel + item.id)
+        )
+        buffer.set(
+          'feedsByChannel',
+          data.filter(item => item.is_main).keyBy(item => item.channel)
+        )
         break
       case 'blocklist':
-        grouped = data.keyBy(item => item.channel + item.ref)
+        buffer.set(
+          'blocklist',
+          data.keyBy(item => item.channel + item.ref)
+        )
         break
       case 'categories':
       case 'channels':
       case 'timezones':
-        grouped = data.keyBy(item => item.id)
+        buffer.set(
+          filename,
+          data.keyBy(item => item.id)
+        )
         break
       default:
-        grouped = data.keyBy(item => item.code)
+        buffer.set(
+          filename,
+          data.keyBy(item => item.code)
+        )
         break
     }
 
-    buffer.set(filename, grouped)
     files.set(filename, data)
   }
 
@@ -78,6 +92,7 @@ async function main() {
         fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['id']))
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(validateChannelId(row, i))
+          fileErrors = fileErrors.concat(validateMainFeed(row, i))
           fileErrors = fileErrors.concat(validateChannelBroadcastArea(row, i))
           fileErrors = fileErrors.concat(validateReplacedBy(row, i))
           fileErrors = fileErrors.concat(
@@ -96,7 +111,7 @@ async function main() {
         break
       case 'feeds':
         fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['channel', 'id']))
-        fileErrors = fileErrors.concat(validateMainFeeds(rowsCopy))
+        fileErrors = fileErrors.concat(findDuplicateMainFeeds(rowsCopy))
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(validateChannel(row.channel, i))
           fileErrors = fileErrors.concat(validateTimezones(row, i))
@@ -232,6 +247,20 @@ function validateChannel(channelId: string, i: number) {
   return errors
 }
 
+function validateMainFeed(row: { [key: string]: string }, i: number) {
+  const errors = new Collection()
+  const feedsByChannel = buffer.get('feedsByChannel')
+
+  if (feedsByChannel.missing(row.id)) {
+    errors.push({
+      line: i + 2,
+      message: `"${row.id}" channel does not have a main feed`
+    })
+  }
+
+  return errors
+}
+
 function findDuplicatesBy(rows: { [key: string]: string }[], keys: string[]) {
   const errors = new Collection()
   const buffer = new Dictionary()
@@ -252,7 +281,7 @@ function findDuplicatesBy(rows: { [key: string]: string }[], keys: string[]) {
   return errors
 }
 
-function validateMainFeeds(rows: { [key: string]: string }[]) {
+function findDuplicateMainFeeds(rows: { [key: string]: string }[]) {
   const errors = new Collection()
   const buffer = new Dictionary()
 

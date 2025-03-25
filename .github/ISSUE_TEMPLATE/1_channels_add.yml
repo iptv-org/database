@@ -106,7 +106,7 @@ body:
     id: feed_name
     attributes:
       label: Feed Name
-      description: "Name of the feed in English. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `|`, `¡`"
+      description: "Unique for this channel feed name in English. For example: `HD`, `East`, `French`, `+1`, etc. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `|`, `¡`"
       placeholder: 'SD'
       value: 'SD'
     validations:

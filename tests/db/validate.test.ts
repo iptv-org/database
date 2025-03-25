@@ -65,6 +65,10 @@ describe('db:validate', () => {
         '"002RadioTV.do" has an invalid replaced_by "002RadioTV.do@4K"'
       )
       expect((error as ExecError).stdout).toContain(
+        '"10Channel.do" channel does not have a main feed'
+      )
+      expect((error as ExecError).stdout).toContain('"24B.do" channel does not have a main feed')
+      expect((error as ExecError).stdout).toContain(
         '002RadioTV.do: "website" must be a valid uri with a scheme matching the http|https pattern'
       )
       expect((error as ExecError).stdout).toContain(
@@ -78,7 +82,7 @@ describe('db:validate', () => {
       expect((error as ExecError).stdout).toContain(
         'SD: "video_format" with value "576I" fails to match the required pattern'
       )
-      expect((error as ExecError).stdout).toContain('8 error(s)')
+      expect((error as ExecError).stdout).toContain('10 error(s)')
     }
   })
 

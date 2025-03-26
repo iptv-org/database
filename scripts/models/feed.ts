@@ -7,9 +7,6 @@ type FeedProps = {
   timezones?: string[]
   languages?: string[]
   video_format?: string
-  launched?: string
-  closed?: string
-  replaced_by?: string
 }
 
 export class Feed {
@@ -21,9 +18,6 @@ export class Feed {
   timezones: string[]
   languages: string[]
   video_format?: string
-  launched?: string
-  closed?: string
-  replaced_by?: string
 
   constructor({
     channel,
@@ -33,10 +27,7 @@ export class Feed {
     broadcast_area,
     timezones,
     languages,
-    video_format,
-    launched,
-    closed,
-    replaced_by
+    video_format
   }: FeedProps) {
     this.channel = channel
     this.id = id
@@ -46,9 +37,6 @@ export class Feed {
     this.timezones = timezones || []
     this.languages = languages || []
     this.video_format = video_format
-    this.launched = launched
-    this.closed = closed
-    this.replaced_by = replaced_by
   }
 
   data() {

@@ -32,10 +32,5 @@ export default {
   ),
   video_format: Joi.string()
     .regex(/^\d+(i|p)$/)
-    .allow(null),
-  launched: Joi.date().format('YYYY-MM-DD').raw().allow(null),
-  closed: Joi.date().format('YYYY-MM-DD').raw().allow(null).greater(Joi.ref('launched')),
-  replaced_by: Joi.string()
-    .regex(/^[A-Za-z0-9]+\.[a-z]{2}($|@[A-Za-z0-9]+$)/)
     .allow(null)
 }

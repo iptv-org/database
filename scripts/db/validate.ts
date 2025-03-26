@@ -115,7 +115,6 @@ async function main() {
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(validateChannel(row.channel, i))
           fileErrors = fileErrors.concat(validateTimezones(row, i))
-          fileErrors = fileErrors.concat(validateReplacedBy(row, i))
         }
         break
       case 'blocklist':

@@ -116,10 +116,7 @@ async function editFeeds() {
       broadcast_area: data.getArray('broadcast_area'),
       timezones: data.getArray('timezones'),
       languages: data.getArray('languages'),
-      video_format: data.getString('video_format'),
-      launched: data.getString('launched'),
-      closed: data.getString('closed'),
-      replaced_by: data.getString('replaced_by')
+      video_format: data.getString('video_format')
     })
 
     found.merge(updated)
@@ -169,10 +166,7 @@ async function addFeeds() {
         broadcast_area: data.getArray('broadcast_area'),
         timezones: data.getArray('timezones'),
         languages: data.getArray('languages'),
-        video_format: data.getString('video_format'),
-        launched: data.getString('launched'),
-        closed: data.getString('closed'),
-        replaced_by: data.getString('replaced_by')
+        video_format: data.getString('video_format')
       })
     )
 
@@ -381,12 +375,6 @@ function onFeedIdChange(channelId: string, feedId: string, newFeedId: string) {
       channel.replaced_by = `${channelId}@${newFeedId}`
     }
   })
-
-  feeds.forEach((feed: Feed) => {
-    if (feed.replaced_by && feed.replaced_by === `${channelId}@${feedId}`) {
-      feed.replaced_by = `${channelId}@${newFeedId}`
-    }
-  })
 }
 
 function onFeedNewMain(channelId: string, feedId: string) {
@@ -403,12 +391,6 @@ function onFeedRemoval(channelId: string, feedId: string) {
       channel.replaced_by = ''
     }
   })
-
-  feeds.forEach((feed: Feed) => {
-    if (feed.replaced_by && feed.replaced_by === `${channelId}@${feedId}`) {
-      feed.replaced_by = ''
-    }
-  })
 }
 
 function onChannelIdChange(channelId: string, newChannelId: string) {
@@ -421,10 +403,6 @@ function onChannelIdChange(channelId: string, newChannelId: string) {
   feeds.forEach((feed: Feed) => {
     if (feed.channel === channelId) {
       feed.channel = newChannelId
-    }
-
-    if (feed.replaced_by && feed.replaced_by.includes(channelId)) {
-      feed.replaced_by = feed.replaced_by.replace(channelId, newChannelId)
     }
   })
 
@@ -443,9 +421,4 @@ function onChannelRemoval(channelId: string) {
   })
 
   feeds.remove((feed: Feed) => feed.channel === channelId)
-  feeds.forEach((feed: Feed) => {
-    if (feed.replaced_by && feed.replaced_by.includes(channelId)) {
-      feed.replaced_by = ''
-    }
-  })
 }

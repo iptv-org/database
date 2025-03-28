@@ -1,8 +1,8 @@
-channel,id,name,is_main,broadcast_area,timezones,languages,video_format,launched,closed,replaced_by
-002RadioTV.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i,,,
-01TV.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i,,,
-0TV.dk,SD,SD,TRUE,c/DK,Europe/Copenhagen,dan,576i,,,01TV.fr@SD
-1000xHoraTV.uy,SD,SD,TRUE,c/UY,America/Montevideo,spa,576i,,,M5.hu@SD
-BeijingSatelliteTV.cn,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i,,,002RadioTV.do@SD
-M5.hu,SD,SD,FALSE,c/DO,America/Santo_Domingo,spa,480i,,2021-01-01,002RadioTV.do@SD
-M5.hu,West,West,TRUE,c/DO,America/Santo_Domingo,spa,480i,,2021-01-01,
+channel,id,name,is_main,broadcast_area,timezones,languages,video_format
+002RadioTV.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
+01TV.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
+0TV.dk,SD,SD,TRUE,c/DK,Europe/Copenhagen,dan,576i
+1000xHoraTV.uy,SD,SD,TRUE,c/UY,America/Montevideo,spa,576i
+BeijingSatelliteTV.cn,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
+M5.hu,SD,SD,FALSE,c/DO,America/Santo_Domingo,spa,480i
+M5.hu,West,West,TRUE,c/DO,America/Santo_Domingo,spa,480i

@@ -65,20 +65,23 @@ describe('db:validate', () => {
         '"002RadioTV.do" has an invalid replaced_by "002RadioTV.do@4K"'
       )
       expect((error as ExecError).stdout).toContain(
+        '"10Channel.do" channel does not have a main feed'
+      )
+      expect((error as ExecError).stdout).toContain('"24B.do" channel does not have a main feed')
+      expect((error as ExecError).stdout).toContain(
         '002RadioTV.do: "website" must be a valid uri with a scheme matching the http|https pattern'
       )
       expect((error as ExecError).stdout).toContain(
         'entry with the channel "002RadioTV.do" and is_main "true" already exists'
       )
       expect((error as ExecError).stdout).toContain('"0TV.dk" is missing in the channels.csv')
-      expect((error as ExecError).stdout).toContain('"SD" has an invalid replaced_by "M5.hu@HD"')
       expect((error as ExecError).stdout).toContain(
         '"0TV.dk@SD" has the wrong timezone "Europe/Copenhagen"'
       )
       expect((error as ExecError).stdout).toContain(
         'SD: "video_format" with value "576I" fails to match the required pattern'
       )
-      expect((error as ExecError).stdout).toContain('8 error(s)')
+      expect((error as ExecError).stdout).toContain('9 error(s)')
     }
   })
 

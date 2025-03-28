@@ -86,27 +86,6 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: launched
-    attributes:
-      label: Launched (optional)
-      description: Launch date of the feed (`YYYY-MM-DD`)   
-      placeholder: '2016-07-28'
-
-  - type: input
-    id: closed
-    attributes:
-      label: Closed (optional)
-      description: Date on which the feed closed (`YYYY-MM-DD`)   
-      placeholder: '2020-05-31'
-
-  - type: input
-    id: replaced_by
-    attributes:
-      label: Replaced By (optional)
-      description: "ID of the channel and feed this feed was replaced with. Possible values: `<channel_id>` or `<channel_id>@<feed_id>`"
-      placeholder: 'CCTV1.cn@SD'
-
   - type: textarea
     attributes:
       label: Notes

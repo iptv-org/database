@@ -35,7 +35,7 @@ To remove a channel fill out this [form](https://github.com/iptv-org/database/is
 
 ### How to mark a channel as closed?
 
-To do this, you need to mark the main feed of the channel as closed. [How to mark a feed as closed?](#how-to-mark-a-feed-as-closed?)
+To do this, use this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aedit&projects=&template=2_channels_edit.yml&title=Edit%3A+). In it, in the "Closed" field you will need to specify at least the approximate date of closing. And there you can also specify the ID of the channel that replaced it, if necessary.
 
 ### How to add a new feed to the database?
 
@@ -51,13 +51,7 @@ _Option 2:_ Edit the [data/feeds.csv](data/feeds.csv) file using a text editor a
 
 ### How to remove a feed from the database?
 
-To remove a feed just fill out this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aremove&projects=&template=6_feeds_remove.yml&title=Remove%3A+).
-
-**NOTE:** Ceased broadcasting is no reason to remove a feed from the database. In this case you just need to mark the feed as closed.
-
-### How to mark a feed as closed?
-
-To do this, use this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aedit&projects=&template=5_feeds_edit.yml&title=Edit%3A+). In it, in the "Closed" field you will need to specify at least the approximate date of broadcast termination. And there you can also specify the ID of the channel and feed that replaced it, if necessary.
+Just fill out this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aremove&projects=&template=6_feeds_remove.yml&title=Remove%3A+).
 
 ## Data Scheme
 
@@ -77,9 +71,9 @@ To do this, use this [form](https://github.com/iptv-org/database/issues/new?assi
 | languages      | [DEPRECATED] List of languages in which the channel is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](data/languages.csv).                                                                                              | Required | `zho;eng`                      |
 | categories     | List of categories to which this channel belongs separated by `;`. A list of all supported categories can be found in [data/categories.csv](data/categories.csv).                                                                                                                           | Optional | `animation;kids`               |
 | is_nsfw        | Indicates whether the channel broadcasts adult content (`TRUE` or `FALSE`).                                                                                                                                                                                                                 | Required | `FALSE`                        |
-| launched       | [DEPRECATED] Launch date of the channel (`YYYY-MM-DD`).                                                                                                                                                                                                                                     | Optional | `2016-07-28`                   |
-| closed         | [DEPRECATED] Date on which the channel closed (`YYYY-MM-DD`).                                                                                                                                                                                                                               | Optional | `2020-05-31`                   |
-| replaced_by    | [DEPRECATED] The ID of the channel that this channel was replaced by.                                                                                                                                                                                                                       | Optional | `CCTV1.cn`                     |
+| launched       | Launch date of the channel (`YYYY-MM-DD`).                                                                                                                                                                                                                                                  | Optional | `2016-07-28`                   |
+| closed         | Date on which the channel closed (`YYYY-MM-DD`).                                                                                                                                                                                                                                            | Optional | `2020-05-31`                   |
+| replaced_by    | The ID of the channel that this channel was replaced by.                                                                                                                                                                                                                                    | Optional | `CCTV1.cn`                     |
 | website        | Official website URL.                                                                                                                                                                                                                                                                       | Optional | `http://www.ahtv.cn/`          |
 | logo           | Logo URL. Only URL with [HTTPS](https://ru.wikipedia.org/wiki/HTTPS) protocol are allowed. Supported image types: `PNG`, `JPEG`. Max size: 512x512 pixels. The link should not be [geo-blocked](https://en.wikipedia.org/wiki/Geo-blocking). May contain any characters except `,` and `"`. | Required | `https://example.com/logo.png` |
 
@@ -95,9 +89,6 @@ To do this, use this [form](https://github.com/iptv-org/database/issues/new?assi
 | timezones      | List of timezones in which the feed is broadcast separated by `;`. A list of all supported timezones and their codes can be found in [data/timezones.csv](data/timezones.csv).                                                                                                                                                                                                                                                                                                                                 | Required | `America/Los_Angeles` |
 | languages      | List of languages in which the feed is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](data/languages.csv).                                                                                                                                                                                                                                                                                                                                 | Required | `eng;spa`             |
 | video_format   | Video format of the feed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Required | `1080i`               |
-| launched       | Launch date of the feed (`YYYY-MM-DD`).                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Optional | `2016-07-28`          |
-| closed         | Date on which the feed ceased broadcasting (`YYYY-MM-DD`).                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Optional | `2020-05-31`          |
-| replaced_by    | ID of the channel and feed this feed was replaced with. Possible values: `<channel_id>` or `<channel_id>@<feed_id>`.                                                                                                                                                                                                                                                                                                                                                                                           | Optional | `HBO.us@East`         |
 
 ### categories
 

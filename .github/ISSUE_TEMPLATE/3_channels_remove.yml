@@ -10,6 +10,7 @@ body:
         Deleting a channel will also delete all associated feeds and records in the blocklist.
 
   - type: input
+    id: id
     attributes:
       label: Channel ID
       description: The ID of the channel that should be removed
@@ -18,6 +19,7 @@ body:
       required: true
 
   - type: dropdown
+    id: reason
     attributes:
       label: Reason
       description: Select the reason for removal from the list below
@@ -29,6 +31,7 @@ body:
       required: true
 
   - type: textarea
+    id: notes
     attributes:
       label: Notes (optional)
       description: 'Anything else we should know?'

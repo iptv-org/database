@@ -338,6 +338,7 @@ channel,id,name,is_main,broadcast_area,timezones,languages,video_format
 7NN.es,SD,SD,TRUE,c/ES,Europe/Madrid,spa,576i
 7Plus.ch,SD,SD,TRUE,c/CH,Europe/Zurich,deu,576i
 7PlusNickSchweiz.ch,SD,SD,TRUE,c/CH,Europe/Zurich,deu,576i
+7RadioVisione.it,HD,HD,TRUE,c/IT,Europe/Rome,ita,720p
 7Sky.iq,SD,SD,TRUE,c/IQ,Asia/Baghdad,ara,576i
 7SMusic.in,SD,SD,TRUE,c/IN,Asia/Kolkata,tam,576i
 7SpiritsTV.et,SD,SD,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
@@ -8698,6 +8699,7 @@ EuroGirlsonGirls.cz,SD,SD,TRUE,c/CZ,Europe/Prague,eng,576i
 EuroIndieMusicChartTV.it,SD,SD,TRUE,r/INT,Europe/Rome,ita,576i
 EurolatinaTV.es,SD,SD,TRUE,s/ES-MD,Europe/Madrid,spa,576i
 EuromedTV.fr,SD,SD,TRUE,r/EU;c/US,Europe/Paris,fra,576i
+Euronews.pl,FAST,FAST,TRUE,c/PL,Europe/Warsaw,pol,1080p
 EuronewsAlbania.al,SD,SD,TRUE,c/AL,Europe/Paris,sqi,576i
 EuronewsBulgaria.bg,SD,SD,TRUE,c/BG,Europe/Paris,bul,576i
 EuronewsEnglish.fr,HD,HD,FALSE,r/INT,Europe/Paris,eng,1080i
@@ -19454,6 +19456,7 @@ MCPSSTV.us,SD,SD,TRUE,s/US-AL,America/Chicago,eng,480i
 MCPSTV.us,SD,SD,TRUE,s/US-MD,America/New_York,eng,480i
 MCRTVNF.cg,SD,SD,TRUE,c/CG,Africa/Brazzaville,fra,576i
 MCTV.bd,SD,SD,TRUE,c/BD,Asia/Dhaka,ben,576i
+MCTV.de,HD,HD,TRUE,c/DE,Europe/Berlin,tur;deu,576i
 MCTV.mg,SD,SD,TRUE,c/MG,Indian/Antananarivo,fra;mlg,576i
 MCTV.us,SD,SD,TRUE,s/US-CA,America/New_York,eng;spa,480i
 MCTV191.us,SD,SD,TRUE,s/US-MI,America/Chicago,eng,480i

@@ -1,16 +1,18 @@
 import { Collection, Storage, File, Dictionary, Logger } from '@freearhey/core'
 import { DATA_DIR } from '../constants'
+import schemesData from '../schemes'
 import { program } from 'commander'
 import Joi from 'joi'
-import { CSVParser, IDCreator } from '../core'
+import { CSVParser } from '../core'
 import chalk from 'chalk'
+import { createChannelId } from '../utils'
 
 program.argument('[filepath]', 'Path to file to validate').parse(process.argv)
 
 const logger = new Logger()
 const buffer = new Dictionary()
 const files = new Dictionary()
-const schemes: { [key: string]: object } = require('../schemes')
+const schemes: { [key: string]: object } = schemesData
 
 async function main() {
   const dataStorage = new Storage(DATA_DIR)
@@ -39,21 +41,39 @@ async function main() {
     const data = await parser.parse(csv)
     const filename = file.name()
 
-    let grouped
     switch (filename) {
+      case 'feeds':
+        buffer.set(
+          'feeds',
+          data.keyBy(item => item.channel + item.id)
+        )
+        buffer.set(
+          'feedsByChannel',
+          data.filter(item => item.is_main).keyBy(item => item.channel)
+        )
+        break
       case 'blocklist':
-        grouped = data.keyBy(item => item.channel)
+        buffer.set(
+          'blocklist',
+          data.keyBy(item => item.channel + item.ref)
+        )
         break
       case 'categories':
       case 'channels':
-        grouped = data.keyBy(item => item.id)
+      case 'timezones':
+        buffer.set(
+          filename,
+          data.keyBy(item => item.id)
+        )
         break
       default:
-        grouped = data.keyBy(item => item.code)
+        buffer.set(
+          filename,
+          data.keyBy(item => item.code)
+        )
         break
     }
 
-    buffer.set(filename, grouped)
     files.set(filename, data)
   }
 
@@ -69,18 +89,17 @@ async function main() {
     let fileErrors = new Collection()
     switch (filename) {
       case 'channels':
-        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, 'id'))
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['id']))
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(validateChannelId(row, i))
+          fileErrors = fileErrors.concat(validateMainFeed(row, i))
           fileErrors = fileErrors.concat(validateChannelBroadcastArea(row, i))
+          fileErrors = fileErrors.concat(validateReplacedBy(row, i))
           fileErrors = fileErrors.concat(
             checkValue(i, row, 'id', 'subdivision', buffer.get('subdivisions'))
           )
           fileErrors = fileErrors.concat(
             checkValue(i, row, 'id', 'categories', buffer.get('categories'))
-          )
-          fileErrors = fileErrors.concat(
-            checkValue(i, row, 'id', 'replaced_by', buffer.get('channels'))
           )
           fileErrors = fileErrors.concat(
             checkValue(i, row, 'id', 'languages', buffer.get('languages'))
@@ -90,13 +109,22 @@ async function main() {
           )
         }
         break
+      case 'feeds':
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['channel', 'id']))
+        fileErrors = fileErrors.concat(findDuplicateMainFeeds(rowsCopy))
+        for (const [i, row] of rowsCopy.entries()) {
+          fileErrors = fileErrors.concat(validateChannel(row.channel, i))
+          fileErrors = fileErrors.concat(validateTimezones(row, i))
+        }
+        break
       case 'blocklist':
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['channel', 'ref']))
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(validateChannel(row.channel, i))
         }
         break
       case 'countries':
-        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, 'code'))
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['code']))
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(
             checkValue(i, row, 'code', 'languages', buffer.get('languages'))
@@ -104,7 +132,7 @@ async function main() {
         }
         break
       case 'subdivisions':
-        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, 'code'))
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['code']))
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(
             checkValue(i, row, 'code', 'country', buffer.get('countries'))
@@ -112,7 +140,7 @@ async function main() {
         }
         break
       case 'regions':
-        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, 'code'))
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['code']))
         for (const [i, row] of rowsCopy.entries()) {
           fileErrors = fileErrors.concat(
             checkValue(i, row, 'code', 'countries', buffer.get('countries'))
@@ -120,10 +148,10 @@ async function main() {
         }
         break
       case 'categories':
-        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, 'id'))
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['id']))
         break
       case 'languages':
-        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, 'code'))
+        fileErrors = fileErrors.concat(findDuplicatesBy(rowsCopy, ['code']))
         break
     }
 
@@ -180,6 +208,30 @@ function checkValue(
   return errors
 }
 
+function validateReplacedBy(row: { [key: string]: string }, i: number) {
+  const errors = new Collection()
+
+  if (!row.replaced_by) return errors
+
+  const channels = buffer.get('channels')
+  const feeds = buffer.get('feeds')
+  const [channelId, feedId] = row.replaced_by.split('@')
+
+  if (channels.missing(channelId)) {
+    errors.push({
+      line: i + 2,
+      message: `"${row.id}" has an invalid replaced_by "${row.replaced_by}"`
+    })
+  } else if (feedId && feeds.missing(channelId + feedId)) {
+    errors.push({
+      line: i + 2,
+      message: `"${row.id}" has an invalid replaced_by "${row.replaced_by}"`
+    })
+  }
+
+  return errors
+}
+
 function validateChannel(channelId: string, i: number) {
   const errors = new Collection()
   const channels = buffer.get('channels')
@@ -194,16 +246,31 @@ function validateChannel(channelId: string, i: number) {
   return errors
 }
 
-function findDuplicatesBy(rows: { [key: string]: string }[], key: string) {
+function validateMainFeed(row: { [key: string]: string }, i: number) {
+  const errors = new Collection()
+  const feedsByChannel = buffer.get('feedsByChannel')
+
+  if (feedsByChannel.missing(row.id)) {
+    errors.push({
+      line: i + 2,
+      message: `"${row.id}" channel does not have a main feed`
+    })
+  }
+
+  return errors
+}
+
+function findDuplicatesBy(rows: { [key: string]: string }[], keys: string[]) {
   const errors = new Collection()
   const buffer = new Dictionary()
 
   rows.forEach((row, i) => {
-    const normId = row[key].toLowerCase()
+    const normId = keys.map(key => row[key].toString().toLowerCase()).join()
     if (buffer.has(normId)) {
+      const fieldsList = keys.map(key => `${key} "${row[key]}"`).join(' and ')
       errors.push({
         line: i + 2,
-        message: `entry with the ${key} "${row[key]}" already exists`
+        message: `entry with the ${fieldsList} already exists`
       })
     }
 
@@ -213,10 +280,31 @@ function findDuplicatesBy(rows: { [key: string]: string }[], key: string) {
   return errors
 }
 
+function findDuplicateMainFeeds(rows: { [key: string]: string }[]) {
+  const errors = new Collection()
+  const buffer = new Dictionary()
+
+  rows.forEach((row, i) => {
+    const normId = `${row.channel}${row.is_main}`
+    if (buffer.has(normId)) {
+      errors.push({
+        line: i + 2,
+        message: `entry with the channel "${row.channel}" and is_main "true" already exists`
+      })
+    }
+
+    if (row.is_main) {
+      buffer.set(normId, true)
+    }
+  })
+
+  return errors
+}
+
 function validateChannelId(row: { [key: string]: string }, i: number) {
   const errors = new Collection()
 
-  const expectedId = new IDCreator().create(row.name, row.country)
+  const expectedId = createChannelId(row.name, row.country)
 
   if (expectedId !== row.id) {
     errors.push({
@@ -244,6 +332,22 @@ function validateChannelBroadcastArea(row: { [key: string]: string[] }, i: numbe
       errors.push({
         line: i + 2,
         message: `"${row.id}" has the wrong broadcast_area "${areaCode}"`
+      })
+    }
+  })
+
+  return errors
+}
+
+function validateTimezones(row: { [key: string]: string[] }, i: number) {
+  const errors = new Collection()
+  const timezones = buffer.get('timezones')
+
+  row.timezones.forEach((timezone: string) => {
+    if (timezones.missing(timezone)) {
+      errors.push({
+        line: i + 2,
+        message: `"${row.channel}@${row.id}" has the wrong timezone "${timezone}"`
       })
     }
   })

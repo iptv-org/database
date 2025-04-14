@@ -21,7 +21,10 @@ const opts = {
     replaced_by: nullable,
     website: nullable,
     logo: nullable,
-    countries: listParser
+    countries: listParser,
+    timezones: listParser,
+    is_main: boolParser,
+    video_format: nullable
   }
 }
 

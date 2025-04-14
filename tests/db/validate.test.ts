@@ -43,10 +43,16 @@ describe('db:validate', () => {
     } catch (error) {
       expect((error as ExecError).status).toBe(1)
       expect((error as ExecError).stdout).toContain('entry with the id "aaa" already exists')
+      expect((error as ExecError).stdout).toContain(
+        'entry with the channel "002RadioTV.do" and ref "eee" already exists'
+      )
+      expect((error as ExecError).stdout).toContain(
+        'entry with the channel "002RadioTV.do" and id "SD" already exists'
+      )
     }
   })
 
-  it('shows an error if an invalid value is specified', () => {
+  it('shows an error if the data contains an error', () => {
     try {
       execSync('DATA_DIR=tests/__data__/input/validate/invalid_value npm run db:validate', {
         encoding: 'utf8'
@@ -54,13 +60,28 @@ describe('db:validate', () => {
       process.exit(1)
     } catch (error) {
       expect((error as ExecError).status).toBe(1)
+      expect((error as ExecError).stdout).toContain('"aaa.us" is missing in the channels.csv')
       expect((error as ExecError).stdout).toContain(
-        '2      "aaa.us" is missing in the channels.csv'
+        '"002RadioTV.do" has an invalid replaced_by "002RadioTV.do@4K"'
       )
       expect((error as ExecError).stdout).toContain(
-        '2      002RadioTV.do: "website" must be a valid uri with a scheme matching the http|https pattern'
+        '"10Channel.do" channel does not have a main feed'
       )
-      expect((error as ExecError).stdout).toContain('2 error(s)')
+      expect((error as ExecError).stdout).toContain('"24B.do" channel does not have a main feed')
+      expect((error as ExecError).stdout).toContain(
+        '002RadioTV.do: "website" must be a valid uri with a scheme matching the http|https pattern'
+      )
+      expect((error as ExecError).stdout).toContain(
+        'entry with the channel "002RadioTV.do" and is_main "true" already exists'
+      )
+      expect((error as ExecError).stdout).toContain('"0TV.dk" is missing in the channels.csv')
+      expect((error as ExecError).stdout).toContain(
+        '"0TV.dk@SD" has the wrong timezone "Europe/Copenhagen"'
+      )
+      expect((error as ExecError).stdout).toContain(
+        'SD: "video_format" with value "576I" fails to match the required pattern'
+      )
+      expect((error as ExecError).stdout).toContain('9 error(s)')
     }
   })
 

@@ -31,4 +31,4 @@ jobs:
         run: npm install
       - name: validate
         if: steps.files.outputs.any_changed == 'true'
-        run: npm run db:validate -- ${{ steps.files.outputs.all_changed_files }}
+        run: npm run db:validate

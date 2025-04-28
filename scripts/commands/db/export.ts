@@ -1,6 +1,7 @@
+import { DATA_DIR, API_DIR } from '../../constants'
 import { Storage, File } from '@freearhey/core'
-import { DATA_DIR, API_DIR } from '../constants'
-import { CSVParser } from '../core'
+import { CSVParser } from '../../core'
+import { CSVParserRow } from '../../types/csvParser'
 
 async function main() {
   const dataStorage = new Storage(DATA_DIR)
@@ -12,7 +13,8 @@ async function main() {
     const file = new File(filepath)
     const filename = file.name()
     const data = await dataStorage.load(file.basename())
-    const items = await parser.parse(data)
+    const parsed = await parser.parse(data)
+    const items = parsed.map((row: CSVParserRow) => row.data)
 
     await apiStorage.save(`${filename}.json`, items.toJSON())
   }

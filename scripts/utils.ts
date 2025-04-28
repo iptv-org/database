@@ -20,5 +20,6 @@ function normalize(string: string) {
     .replace(/^&/i, 'And')
     .replace(/\+/gi, 'Plus')
     .replace(/\s-(\d)/gi, ' Minus$1')
+    .replace(/^-(\d)/gi, 'Minus$1')
     .replace(/[^a-z\d]+/gi, '')
 }

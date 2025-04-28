@@ -12,7 +12,7 @@ export class SubdivisionValidator extends Validator {
   validate(subdivision: Subdivision): Collection {
     const { countriesKeyByCode }: DataLoaderData = this.data
 
-    let errors = new Collection()
+    const errors = new Collection()
 
     const joiResults = subdivision.getSchema().validate(subdivision.data(), { abortEarly: false })
     if (joiResults.error) {

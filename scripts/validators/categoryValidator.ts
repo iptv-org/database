@@ -9,7 +9,7 @@ export class CategoryValidator extends Validator {
   }
 
   validate(category: Category): Collection {
-    let errors = new Collection()
+    const errors = new Collection()
 
     const joiResults = category.getSchema().validate(category.data(), { abortEarly: false })
     if (joiResults.error) {

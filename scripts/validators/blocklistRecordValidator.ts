@@ -12,7 +12,7 @@ export class BlocklistRecordValidator extends Validator {
   validate(blocklistRecord: BlocklistRecord): Collection {
     const { channelsKeyById }: DataLoaderData = this.data
 
-    let errors = new Collection()
+    const errors = new Collection()
 
     const joiResults = blocklistRecord
       .getSchema()

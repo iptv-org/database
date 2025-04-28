@@ -18,7 +18,7 @@ export class FeedValidator extends Validator {
       timezonesKeyById
     }: DataLoaderData = this.data
 
-    let errors = new Collection()
+    const errors = new Collection()
 
     const joiResults = feed.getSchema().validate(feed.data(), { abortEarly: false })
     if (joiResults.error) {

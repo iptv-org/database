@@ -1,4 +1,4 @@
 export type CSVParserRow = {
   line: number
-  data: any
+  data: { [key: string]: string }
 }

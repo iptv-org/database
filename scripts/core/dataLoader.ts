@@ -27,7 +27,7 @@ export class DataLoader {
   async load(): Promise<DataLoaderData> {
     const files = await this.storage.list('*.csv')
 
-    let data: DataLoaderData = {
+    const data: DataLoaderData = {
       channels: new Collection(),
       feeds: new Collection(),
       categories: new Collection(),
@@ -55,7 +55,7 @@ export class DataLoader {
       const csv = await this.storage.load(file.basename())
       const rows = csv.split(/\r\n/)
       const headers = rows[0].split(',')
-      let errors = new Collection()
+      const errors = new Collection()
       for (const [i, line] of rows.entries()) {
         if (!line.trim()) continue
         if (line.indexOf('\n') > -1) {

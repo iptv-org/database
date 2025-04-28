@@ -12,7 +12,7 @@ export class RegionValidator extends Validator {
   validate(region: Region): Collection {
     const { countriesKeyByCode }: DataLoaderData = this.data
 
-    let errors = new Collection()
+    const errors = new Collection()
 
     const joiResults = region.getSchema().validate(region.data(), { abortEarly: false })
     if (joiResults.error) {

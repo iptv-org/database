@@ -12,7 +12,7 @@ export class CountryValidator extends Validator {
   validate(country: Country): Collection {
     const { languagesKeyByCode }: DataLoaderData = this.data
 
-    let errors = new Collection()
+    const errors = new Collection()
 
     const joiResults = country.getSchema().validate(country.data(), { abortEarly: false })
     if (joiResults.error) {

@@ -1,4 +1,4 @@
-import { CSV, IssueLoader, CSVParser, Issue, IssueData } from '../../core'
+import { CSV, IssueLoader, Issue, IssueData } from '../../core'
 import { createChannelId, createFeedId } from '../../utils'
 import { Channel, Feed, BlocklistRecord } from '../../models'
 import { Storage, Collection, Logger } from '@freearhey/core'
@@ -11,7 +11,6 @@ const dataStorage = new Storage(DATA_DIR)
 const logger = new Logger({ level: -999 })
 
 async function main() {
-  const parser = new CSVParser()
   const issueLoader = new IssueLoader()
   const dataLoader = new DataLoader({ storage: dataStorage })
 
@@ -101,7 +100,7 @@ async function editFeeds(issues: Collection, data: DataLoaderData) {
     )
     if (!found) return
 
-    let channelId: string | undefined = found.channelId
+    const channelId: string | undefined = found.channelId
     let feedId: string | undefined = found.id
     if (issueData.has('feed_name')) {
       const name = issueData.getString('feed_name') || found.name

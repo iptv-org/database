@@ -12,7 +12,7 @@ export class TimezoneValidator extends Validator {
   validate(timezone: Timezone): Collection {
     const { countriesKeyByCode }: DataLoaderData = this.data
 
-    let errors = new Collection()
+    const errors = new Collection()
 
     const joiResults = timezone.getSchema().validate(timezone.data(), { abortEarly: false })
     if (joiResults.error) {

@@ -9,7 +9,7 @@ export class LanguageValidator extends Validator {
   }
 
   validate(language: Language): Collection {
-    let errors = new Collection()
+    const errors = new Collection()
 
     const joiResults = language.getSchema().validate(language.data(), { abortEarly: false })
     if (joiResults.error) {

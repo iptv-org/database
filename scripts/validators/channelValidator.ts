@@ -18,7 +18,7 @@ export class ChannelValidator extends Validator {
       categoriesKeyById
     }: DataLoaderData = this.data
 
-    let errors = new Collection()
+    const errors = new Collection()
 
     const joiResults = channel.getSchema().validate(channel.data(), { abortEarly: false })
     if (joiResults.error) {

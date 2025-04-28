@@ -238,7 +238,7 @@ function findDuplicatesBy(items: Collection, keys: string[]) {
   const duplicates = new Collection()
   const buffer = new Dictionary()
 
-  items.forEach((item, i = 0) => {
+  items.forEach((item: { [key: string]: string | number }) => {
     const normId = keys.map(key => item[key].toString().toLowerCase()).join()
     if (buffer.has(normId)) {
       duplicates.add(item)

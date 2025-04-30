@@ -1,1 +1,7 @@
-npm run db:validate
+#!/bin/sh
+
+data_changed="$(git diff --staged --name-only --diff-filter=ACMR -- 'data/*.csv' | sed 's| |\\ |g')"
+        
+if [ ! -z "$data_changed" ]; then
+    npm run db:validate
+fi

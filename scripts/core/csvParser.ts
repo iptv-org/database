@@ -30,9 +30,12 @@ const opts = {
 
 export class CSVParser {
   async parse(data: string): Promise<Collection> {
-    const items = await csv2json(opts).fromString(data)
+    const parsed = await csv2json(opts).fromString(data)
+    const rows = parsed.map((data, i) => {
+      return { line: i + 2, data }
+    })
 
-    return new Collection(items)
+    return new Collection(rows)
   }
 }
 

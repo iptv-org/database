@@ -17,7 +17,7 @@ export class IssueLoader {
 
     let issues: object[] = []
     if (TESTING) {
-      issues = (await import('../../tests/__data__/input/update/issues.js')).default
+      issues = (await import('../../tests/__data__/input/db/update/issues.js')).default
     } else {
       issues = await octokit.paginate(octokit.rest.issues.listForRepo, {
         owner: OWNER,

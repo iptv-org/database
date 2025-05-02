@@ -15,7 +15,9 @@ export class IssueData {
   }
 
   getBoolean(key: string): boolean | undefined {
-    return this.missing(key) ? undefined : this._data.get(key)
+    if (this.missing(key)) return undefined
+
+    return this._data.get(key) === 'TRUE' ? true : false
   }
 
   getString(key: string): string | undefined {

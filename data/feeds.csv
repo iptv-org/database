@@ -2390,6 +2390,7 @@ AwesomenessTV.us,UK,UK,FALSE,c/UK,Europe/London,eng,576i
 AwesomenessTV.us,US,US,TRUE,c/US,America/New_York,eng,480i
 AwesomeTV.my,SD,SD,TRUE,c/MY,Asia/Kuala_Lumpur,msa,576i
 AwraasTV.uk,SD,SD,TRUE,c/UK,America/Toronto,ara,576i
+AWTV.br,HD,HD,TRUE,c/BR,America/Sao_Paulo,por,1080p
 AxarquiaTV.es,SD,SD,TRUE,s/ES-AN,Europe/Madrid,spa,576i
 AxessTV.se,SD,SD,TRUE,c/SE,Europe/Stockholm,swe,576i
 AxialTV.md,SD,SD,TRUE,c/MD,Europe/Chisinau,ron,576i
@@ -19507,6 +19508,7 @@ MDATelevision.ve,SD,SD,TRUE,c/VE,America/Caracas,spa,480i
 MDF1.de,SD,SD,TRUE,c/DE,Europe/Berlin,deu,576i
 MDL.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
 MDRFernsehen.de,SD,SD,TRUE,c/DE,Europe/Berlin,deu,576i
+MDTV.id,HD,HD,TRUE,c/ID,Asia/Jakarta,ind,1080p
 Me.za,SD,SD,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 MeaningfulTelevision.gd,SD,SD,TRUE,c/GD,America/Grenada,eng,480i
 MEATV.us,SD,SD,TRUE,c/US,America/New_York,ara,480i
@@ -24526,6 +24528,7 @@ RadioToppers.nl,SD,SD,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RadioTouchTV.cl,SD,SD,TRUE,c/CL,America/Santiago,spa,480i
 RadioTributoValentina.cl,SD,SD,TRUE,c/CL,America/Santiago,spa,480i
 RadioTropical.pe,SD,SD,TRUE,c/PE,America/Lima,spa,480i
+RadioTurrialbaTVSports.cr,SD,SD,TRUE,c/CR;s/CR-C,America/Costa_Rica,spa,576i
 RadioTVBantaba.gw,SD,SD,TRUE,c/GW,Africa/Bissau,por,576i
 RadioTVBasseTerre.gp,SD,SD,TRUE,c/GP,America/Guadeloupe,fra,480i
 RadioTVBinacional.pe,SD,SD,TRUE,s/BO-L;s/PE-PUN,America/Lima,spa,480i
@@ -36955,7 +36958,8 @@ WPCBDT1.us,SD,SD,TRUE,s/US-PA,America/New_York,eng,480i
 WPCBDT2.us,SD,SD,TRUE,s/US-PA,America/New_York,eng,480i
 WPCBDT3.us,SD,SD,TRUE,s/US-PA,America/New_York,eng,480i
 WPCBDT4.us,SD,SD,TRUE,s/US-PA,America/New_York,eng,480i
-WPCHHD.us,SD,SD,TRUE,s/US-GA,America/New_York,eng,480i
+WPCHHD.us,HD,HD,TRUE,c/US,America/New_York,eng,1080i
+WPCHHD.us,SD,SD,FALSE,s/US-GA,America/New_York,eng,480i
 WPCHTV1.us,SD,SD,TRUE,s/US-GA,America/New_York,eng,480i
 WPCHTV2.us,SD,SD,TRUE,s/US-GA,America/New_York,eng,480i
 WPCHTV3.us,SD,SD,TRUE,s/US-GA,America/New_York,eng,480i

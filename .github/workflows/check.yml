@@ -8,8 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 2
       - uses: actions/setup-node@v3
         if: ${{ !env.ACT }}
         with:
@@ -18,9 +16,9 @@ jobs:
       - name: changed files
         id: files
         run: |
-          FILES=data/*.csv
+          git fetch origin master:master
           ANY_CHANGED=false
-          ALL_CHANGED_FILES=$(git diff --name-only "${FILES}" | tr '\n' ' ')
+          ALL_CHANGED_FILES=$(git diff --name-only master -- data/ | tr '\n' ' ')
           if [ -n "${ALL_CHANGED_FILES}" ]; then
             ANY_CHANGED=true
           fi

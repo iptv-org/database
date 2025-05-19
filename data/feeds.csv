@@ -188,6 +188,7 @@ channel,id,name,is_main,broadcast_area,timezones,languages,video_format
 360.ru,HD,HD,FALSE,c/RU,Europe/Moscow,rus,1080i
 360.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
 360.tr,SD,SD,TRUE,c/TR,Europe/Istanbul,tur,576i
+360AfricaTV.ss,SD,SD,TRUE,c/SS,Africa/Juba,eng;pga,576i
 360News.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
 360TuneBox.nl,SD,SD,TRUE,c/NL,Europe/Amsterdam,eng,576i
 360TV.ar,SD,SD,TRUE,s/AR-C,America/Argentina/Buenos_Aires,spa,576i
@@ -23926,6 +23927,7 @@ PrestigeThiesTV.sn,SD,SD,TRUE,c/SN,Africa/Dakar,fra,576i
 PresumiendoMexico.mx,SD,SD,TRUE,c/MX,America/Mexico_City,spa,480i
 PreviewChannel.sg,SD,SD,TRUE,c/SG,Asia/Singapore,eng,576i
 Priamyi.ua,SD,SD,TRUE,c/UA,Europe/Kyiv,ukr,576i
+PRIDEtvLATAM.cl,HD,HD,TRUE,r/LATAM,America/Santiago;America/Mexico_City;America/Lima;America/Argentina/Buenos_Aires,spa;eng,1080p
 Priklyucheniya.ru,HD,HD,FALSE,c/RU,Europe/Moscow,rus,1080i
 Priklyucheniya.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
 Prima.cz,Plus1,+1,FALSE,c/CZ,Europe/Prague,ces,576i

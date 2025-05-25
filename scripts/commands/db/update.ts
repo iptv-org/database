@@ -407,4 +407,8 @@ function onChannelRemoval(channelId: string, data: DataLoaderData) {
   })
 
   data.feeds.remove((feed: Feed) => feed.channelId === channelId)
+
+  data.blocklistRecords.remove(
+    (blocklistRecord: BlocklistRecord) => blocklistRecord.channelId === channelId
+  )
 }

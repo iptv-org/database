@@ -1754,6 +1754,7 @@ ANTV.ve,SD,SD,TRUE,c/VE,America/Caracas,spa,480i
 AnVienTV.vn,SD,SD,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 AnwarTV.ml,SD,SD,TRUE,c/ML,Africa/Bamako,fra,576i
 AnwarTV2.iq,SD,SD,TRUE,c/IQ,Asia/Baghdad,ara,576i
+AnytimeTV.za,HD,HD,TRUE,c/ZA,Africa/Johannesburg,eng,1080p
 AnzoateguiTV.ve,SD,SD,TRUE,c/VE,Europe/Madrid,spa,480i
 AOC1.us,SD,SD,TRUE,s/US-LA,America/Chicago,eng,480i
 AOC2.us,SD,SD,TRUE,s/US-LA,America/Chicago,eng,480i
@@ -9447,6 +9448,7 @@ ForeverKids.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 FORMediaTV.gr,SD,SD,TRUE,c/GR;s/GR-E,Europe/Athens,ell,576i
 Formula.ge,SD,SD,TRUE,c/GE,Asia/Tbilisi,kat,576i
 Foro.mx,SD,SD,TRUE,c/MX,America/Mexico_City,spa,480i
+ForoTV.pe,SD,SD,TRUE,c/PE,America/Lima,spa,576i
 FortalezaTVCueto.bo,SD,SD,TRUE,c/BO,America/La_Paz,spa,480i
 FortisTV.ng,SD,SD,TRUE,c/NG,Africa/Lagos,eng,576i
 FORTTV.ug,SD,SD,TRUE,c/UG,Africa/Kampala,eng,576i
@@ -28866,7 +28868,6 @@ TAMTV.ve,SD,SD,TRUE,c/VE,America/Caracas,spa,480i
 TamuTV.ke,SD,SD,TRUE,c/KE,Africa/Nairobi,eng,576i
 Tamyr.ru,SD,SD,TRUE,c/RU,Europe/Moscow,bak,576i
 TanasuhTV.ly,HD,HD,TRUE,c/LY,Africa/Tripoli,ara,1080i
-TanasuhTV.ly,SD,SD,FALSE,c/LY,Europe/Athens,ara,576i
 TandaoTV.ke,SD,SD,TRUE,c/KE,Africa/Nairobi,eng;swh,576i
 TangoTV.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 TangoTV.us,SD,SD,TRUE,r/HISPAM,America/New_York,spa,480i
@@ -30096,7 +30097,8 @@ TNTSeriesLatinAmerica.us,Brazil,Brazil,FALSE,c/BR,America/Sao_Paulo,por,480i
 TNTSeriesLatinAmerica.us,Mexico,Mexico,FALSE,c/MX,America/Mexico_City,eng;spa,480i
 TNTSeriesLatinAmerica.us,Panregional,Panregional,TRUE,c/CO;c/CL;c/PA;c/PE;c/EC;c/BO;c/VE;r/CENAMER;r/CARIB,America/New_York,spa,480i
 TNTSeriesLatinAmerica.us,South,South,FALSE,c/AR;c/PY;c/UY,America/New_York,spa,480i
-TNTSports.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
+TNTSports.ar,HD,HD,TRUE,c/AR;c/BO;c/CO;c/PY;c/UY;c/VE;c/DO;r/CENAMER,America/Santiago,spa,1080i
+TNTSports.ar,SD,SD,FALSE,c/AR;c/BO;c/CO;c/PY;c/UY;c/VE;c/DO;r/CENAMER,America/Argentina/Buenos_Aires,spa,576i
 TNTSports.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 TNTSports.cl,SD,SD,TRUE,c/CL,America/Santiago,spa,480i
 TNTSports.mx,SD,SD,TRUE,c/MX,America/Mexico_City,spa,480i
@@ -31499,6 +31501,7 @@ TVLiberal.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 TVLiberdade.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 TVLibertad.mx,SD,SD,TRUE,c/MX,America/Mexico_City,spa,480i
 TVLibre.uy,SD,SD,TRUE,c/UY,America/Montevideo,spa,576i
+TVLifeAmerica.br,HD,HD,TRUE,c/BR,America/Sao_Paulo,por,720p
 TVLimburg.be,HD,HD,FALSE,c/BE,Europe/Brussels,nld,1080i
 TVLimburg.be,SD,SD,TRUE,c/BE,Europe/Brussels,nld,576i
 TVLiptov.sk,SD,SD,TRUE,c/SK,Europe/Bratislava,slk,576i

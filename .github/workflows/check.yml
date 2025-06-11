@@ -8,19 +8,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 2
       - uses: actions/setup-node@v3
         if: ${{ !env.ACT }}
         with:
           node-version: '22.12.0'
           cache: 'npm'
-      - uses: tj-actions/changed-files@v35
+      - name: changed files
         id: files
-        with:
-          files: data/*.csv
+        run: |
+          git fetch origin master:master
+          ANY_CHANGED=false
+          ALL_CHANGED_FILES=$(git diff --name-only master -- data/ | tr '\n' ' ')
+          if [ -n "${ALL_CHANGED_FILES}" ]; then
+            ANY_CHANGED=true
+          fi
+          echo "all_changed_files=$ALL_CHANGED_FILES" >> "$GITHUB_OUTPUT"
+          echo "any_changed=$ANY_CHANGED" >> "$GITHUB_OUTPUT"
       - name: install dependencies
+        if: steps.files.outputs.any_changed == 'true'
         run: npm install
       - name: validate
         if: steps.files.outputs.any_changed == 'true'
-        run: npm run db:validate -- ${{ steps.files.outputs.all_changed_files }}
+        run: npm run db:validate

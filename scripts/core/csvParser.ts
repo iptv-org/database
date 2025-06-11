@@ -21,15 +21,21 @@ const opts = {
     replaced_by: nullable,
     website: nullable,
     logo: nullable,
-    countries: listParser
+    countries: listParser,
+    timezones: listParser,
+    is_main: boolParser,
+    video_format: nullable
   }
 }
 
 export class CSVParser {
   async parse(data: string): Promise<Collection> {
-    const items = await csv2json(opts).fromString(data)
+    const parsed = await csv2json(opts).fromString(data)
+    const rows = parsed.map((data, i) => {
+      return { line: i + 2, data }
+    })
 
-    return new Collection(items)
+    return new Collection(rows)
   }
 }
 

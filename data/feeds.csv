@@ -4112,7 +4112,6 @@ Canal162.mx,SD,SD,TRUE,s/MX-PUE,America/Mexico_City,spa,480i
 Canal16ArceCable.sv,SD,SD,TRUE,c/SV,America/El_Salvador,spa,576i
 Canal16PacificoTV.ar,SD,SD,TRUE,s/AR-A,America/Argentina/Salta,spa,576i
 Canal17NuevaGuinea.ni,SD,SD,TRUE,c/NI,America/Managua,spa,480i
-Canal17TVNosara.cr,SD,SD,TRUE,c/CR,America/Costa_Rica,spa,480i
 Canal180.pt,SD,SD,TRUE,c/PT,Europe/Lisbon,por,576i
 Canal1MarMenorTorrePacheco.es,SD,SD,TRUE,s/ES-MC,Europe/Madrid,spa,576i
 Canal2.co,SD,SD,TRUE,s/CO-VAC,America/Bogota,spa,480i
@@ -10116,6 +10115,7 @@ Globo.pt,SD,SD,TRUE,c/PT,Europe/Lisbon,por,576i
 GloboNews.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 GloboNow.pt,SD,SD,TRUE,c/PT,Europe/Lisbon,por,576i
 GloboOn.ao,SD,SD,TRUE,c/AO;c/MZ,Africa/Luanda,por,576i
+GloboplayNovelas.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 GloboTV.hn,SD,SD,TRUE,c/HN,America/Tegucigalpa,spa,480i
 GloboTV.hu,SD,SD,TRUE,c/HU,Europe/Budapest,hun,576i
 Globovision.ve,SD,SD,TRUE,c/VE,America/Caracas,spa,480i
@@ -25831,16 +25831,21 @@ RUSHStories.th,SD,SD,TRUE,c/TH,Asia/Bangkok,tha,576i
 RushStreet.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 Russia1.ru,Chita,Chita,FALSE,c/RU,Asia/Chita,rus,576i
 Russia1.ru,HD,HD,FALSE,c/RU,Europe/Moscow,rus,1080i
+Russia1.ru,Irkutsk,Irkutsk,FALSE,s/RU-IRK,Asia/Irkutsk,rus,576i
 Russia1.ru,Kaluga,Kaluga,FALSE,c/RU,Europe/Moscow,rus,576i
 Russia1.ru,MariyEl,Mariy El,FALSE,c/RU,Europe/Moscow,rus,576i
 Russia1.ru,Perm,Perm,FALSE,c/RU,Asia/Yekaterinburg,rus,576i
 Russia1.ru,Plus6,+6,FALSE,c/RU,Europe/Moscow,rus,576i
 Russia1.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
 Russia1.ru,Tomsk,Tomsk,FALSE,c/RU,Asia/Tomsk,rus,576i
+Russia24.ru,Birobidzhan,Birobidzhan,FALSE,s/RU-YEV,Asia/Vladivostok,rus,576i
 Russia24.ru,Chita,Chita,FALSE,c/RU,Asia/Chita,rus,576i
+Russia24.ru,Irkutsk,Irkutsk,FALSE,s/RU-IRK,Asia/Irkutsk,rus,576i
 Russia24.ru,Kuban,Kuban,FALSE,c/RU,Europe/Moscow,rus,576i
 Russia24.ru,NizhniyNovgorod,Nizhniy Novgorod,FALSE,c/RU,Europe/Moscow,rus,576i
+Russia24.ru,Omsk,Omsk,FALSE,s/RU-OMS,Asia/Omsk,rus,576i
 Russia24.ru,Perm,Perm,FALSE,c/RU,Asia/Yekaterinburg,rus,576i
+Russia24.ru,Petropavlosk,Petropavlosk,FALSE,s/RU-KAM,Asia/Kamchatka,rus,576i
 Russia24.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
 Russia24.ru,Sochi,Sochi,FALSE,c/RU,Europe/Moscow,rus,576i
 Russia24.ru,Tomsk,Tomsk,FALSE,c/RU,Asia/Tomsk,rus,576i
@@ -31690,6 +31695,7 @@ TVNorge.no,HD,HD,FALSE,c/NO,Europe/Oslo,nor,1080i
 TVNorge.no,SD,SD,TRUE,c/NO,Europe/Oslo,nor,576i
 TVNorteChiclayo.pe,SD,SD,TRUE,c/PE,America/Lima,spa,480i
 TVNorteOcotal.ni,SD,SD,TRUE,c/NI,America/Managua,spa,480i
+TVNosara.cr,SD,SD,TRUE,c/CR,America/Costa_Rica,spa,480i
 TVNova.cz,HD,HD,FALSE,c/CZ,Europe/Prague,ces,1080i
 TVNova.cz,Plus1HD,+1 HD,FALSE,c/CZ,Europe/Prague,ces,1080i
 TVNova.cz,SD,SD,TRUE,c/CZ,Europe/Prague,ces,576i
@@ -33096,7 +33102,6 @@ VITV.vn,SD,SD,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 ViuChannel.hk,SD,SD,TRUE,c/HK,Asia/Hong_Kong,zho;yue,576i
 ViuTV.hk,SD,SD,TRUE,c/HK,Asia/Hong_Kong,zho;yue,576i
 ViuTVsix.hk,SD,SD,TRUE,c/HK,Asia/Hong_Kong,zho,576i
-Viva.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 Viva.il,SD,SD,TRUE,c/IL,Asia/Jerusalem,heb,576i
 Viva.mg,SD,SD,TRUE,c/MG,Indian/Antananarivo,fra;mlg,576i
 VivaCanal33.pa,SD,SD,TRUE,c/PA,America/Panama,spa,480i
@@ -39170,7 +39175,7 @@ YantaiEconomyScienceTechnologyChannel.cn,SD,SD,TRUE,c/CN,Asia/Shanghai,zho,576i
 YantaiMovieChannel.cn,SD,SD,TRUE,c/CN,Asia/Shanghai,zho,576i
 YantaiPublicChannel.cn,SD,SD,TRUE,c/CN,Asia/Shanghai,zho,576i
 Yaquelaveritequicompte.us,France,France,TRUE,c/FR,Europe/Paris,fra,576i
-YaracuyanaTV.ve,SD,SD,TRUE,c/VE,America/Santiago,spa,480i
+YaracuyanaTV.ve,SD,SD,TRUE,c/VE,America/Caracas,spa,480i
 Yaravision.ve,SD,SD,TRUE,c/VE,America/Caracas,spa,480i
 YarlTV.lk,SD,SD,TRUE,c/LK,Asia/Colombo,sin,576i
 YarmoukTV.jo,SD,SD,TRUE,c/JO,Asia/Amman,ara,576i

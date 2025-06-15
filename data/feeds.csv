@@ -154,6 +154,7 @@ channel,id,name,is_main,broadcast_area,timezones,languages,video_format
 2GB.au,SD,SD,TRUE,c/AU,Australia/Sydney,eng,576i
 2M.ma,SD,SD,TRUE,c/MA,Africa/Casablanca,ara,576i
 2MMENA.ma,SD,SD,TRUE,r/MENA,Africa/Casablanca,ara,576i
+2MMonde.ma,Plus1,+1,FALSE,c/MA,Africa/Casablanca,ara;fra,1080i
 2MMonde.ma,SD,SD,TRUE,r/ARAB,Africa/Casablanca,ara;fra,576i
 2Plus2.ua,SD,SD,TRUE,c/UA,Europe/Kyiv,ukr,576i
 2Plus2Marathon.ua,SD,SD,TRUE,c/UA,Europe/Kyiv,ukr,576i
@@ -10165,6 +10166,7 @@ GNT.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 GNTV.lt,SD,SD,TRUE,c/LT,Europe/Vilnius,lit,576i
 GNTV.ug,SD,SD,TRUE,c/UG,Africa/Kampala,eng,576i
 GNTVJunior.gh,SD,SD,TRUE,c/GH,Africa/Accra,eng,576i
+GO242.bs,SD,SD,TRUE,c/BS,America/Nassau,eng,576i
 Go2Travel.tr,SD,SD,TRUE,c/TR,Europe/Istanbul,eng,576i
 Go2Travel.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 Go3Films.ee,SD,SD,TRUE,c/EE;c/LV;c/LT,Europe/Tallinn,est;lav;lit,576i
@@ -11129,6 +11131,7 @@ HoikeKauaiChannel53.us,SD,SD,TRUE,s/US-HI,Pacific/Honolulu,eng,480i
 HoikeKauaiChannel54.us,SD,SD,TRUE,s/US-HI,Pacific/Honolulu,eng,480i
 HOiTV.nl,SD,SD,TRUE,c/NL,Europe/Amsterdam,nld,576i
 HokkaidoNewsUHB.jp,SD,SD,TRUE,c/JP,Asia/Tokyo,jpn,480i
+HOLAPlay.es,SD,SD,TRUE,c/ES,Europe/Madrid,spa,1080p
 HolaTV.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
 HolaTVLatinAmerica.us,SD,SD,TRUE,r/HISPAM,America/New_York,spa,480i
 HollyWire.us,SD,SD,TRUE,c/US,America/Chicago,eng,480i
@@ -11458,6 +11461,7 @@ HWCAMGovernmentAccess.us,SD,SD,TRUE,s/US-MA,Australia/Melbourne,eng,480i
 HyaTV.eg,SD,SD,TRUE,c/EG,Africa/Cairo,ara,576i
 HyderTV.ca,SD,SD,TRUE,c/CA;c/IN,America/Toronto,hin,480i
 Hype2.rs,SD,SD,TRUE,c/RS,Europe/Belgrade,srp,576i
+HypeRadioTV.cw,SD,SD,TRUE,c/CW,Europe/Amsterdam,pap;nld;eng;spa,576i
 HypeTV.jm,SD,SD,TRUE,c/JM,Australia/Hobart,eng,480i
 HypeTV.rs,SD,SD,TRUE,c/RS,Europe/Belgrade,srp,576i
 HypeVisualRadio.nl,SD,SD,TRUE,c/NL,Europe/Amsterdam,nld;eng,576i
@@ -18271,6 +18275,7 @@ KZVULD1.us,SD,SD,TRUE,s/US-CA,America/Los_Angeles,eng,480i
 L1.pe,SD,SD,TRUE,c/PE,America/Lima,spa,480i
 L1Max.pe,SD,SD,TRUE,c/PE,America/Lima,spa,480i
 L1TV.nl,SD,SD,TRUE,c/NL,Europe/Amsterdam,nld,576i
+La1.es,HEVC,HEVC,FALSE,c/ES,Europe/Madrid,spa,1080p
 La1.es,SD,SD,TRUE,c/ES,Europe/Madrid,spa,576i
 La1Canarias.es,SD,SD,TRUE,s/ES-CN,Europe/Madrid,spa,576i
 La1Catalunya.es,SD,SD,TRUE,s/ES-CT,Europe/Madrid,cat,576i
@@ -18599,6 +18604,8 @@ LEOTV.cz,SD,SD,TRUE,c/CZ,Europe/Prague,ces,576i
 LEOTVGOLD.cz,SD,SD,TRUE,c/CZ,Europe/Prague,ces,576i
 LepantoTV.gr,SD,SD,TRUE,c/GR,Europe/Athens,ell,576i
 LePhareTV.cd,SD,SD,TRUE,c/CD,Africa/Kinshasa,fra,576i
+LEquipe.fr,Live1,Live1,FALSE,c/FR,Europe/Paris,fra,1080p
+LEquipe.fr,Live2,Live2,FALSE,c/FR,Europe/Paris,fra,1080p
 LEquipe.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
 LeralTV.sn,SD,SD,TRUE,c/SN,Africa/Dakar,fra,576i
 LesAnneesfac.us,France,France,TRUE,c/FR,Europe/Paris,fra,576i
@@ -22497,7 +22504,7 @@ ONT.by,SD,SD,TRUE,c/BY,Europe/Minsk,rus,576i
 ONT.kr,SD,SD,TRUE,c/KR,Asia/Seoul,kor,480i
 OntarioHockeyLeague.ca,SD,SD,TRUE,c/CA,Europe/London,eng,480i
 OntarioParliamentaryNetwork.ca,SD,SD,TRUE,c/CA,America/Toronto,eng,480i
-OntarioPublicAccessChannel.us,SD,SD,TRUE,s/CA-ON,America/Boise,eng,480i
+OntarioPublicAccessChannel.us,SD,SD,TRUE,s/US-CA,America/Boise,eng,480i
 OnTheCase.us,UK,UK,TRUE,c/UK,Europe/London,eng,576i
 OnTimeSports.eg,SD,SD,TRUE,c/EG,Africa/Cairo,ara,576i
 OnTimeSports2.eg,SD,SD,TRUE,c/EG,Africa/Cairo,ara,576i
@@ -25328,7 +25335,7 @@ RodjaTV.id,SD,SD,TRUE,c/ID,Asia/Jakarta,ind,576i
 RodnoeKino.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
 Rodnoykanal.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
 Rohi.pk,SD,SD,TRUE,c/PK,Asia/Karachi,lah,576i
-ROITV.yt,SD,SD,TRUE,c/YT,Indian/Mayotte,fra,576i
+ROITV.yt,SD,SD,TRUE,c/YT,Indian/Mayotte,fra;swb;eng,576i
 RojavaTV.sy,SD,SD,TRUE,c/SY,Asia/Damascus,kur,576i
 ROK.uk,SD,SD,TRUE,c/NG,Europe/London,eng,576i
 ROK2.uk,SD,SD,TRUE,c/NG,Europe/London,eng,576i

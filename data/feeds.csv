@@ -196,6 +196,7 @@ channel,id,name,is_main,broadcast_area,timezones,languages,video_format
 360TV.ar,SD,SD,TRUE,s/AR-C,America/Argentina/Buenos_Aires,spa,576i
 360TV.lv,SD,SD,TRUE,c/LV,Europe/Riga,lav,576i
 363TV.tr,SD,SD,TRUE,c/TR,Europe/Istanbul,tur,576i
+365BLK.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 365daysTV.ru,HD,HD,FALSE,c/RU,Europe/Moscow,rus,1080i
 365daysTV.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
 365TV.tr,SD,SD,TRUE,c/TR,Europe/Istanbul,tur,576i
@@ -368,6 +369,7 @@ channel,id,name,is_main,broadcast_area,timezones,languages,video_format
 7two.au,Melbourne,Melbourne,FALSE,s/AU-VIC,Australia/Melbourne,eng,576i
 7two.au,Perth,Perth,FALSE,s/AU-WA,Australia/Perth,eng,576i
 7two.au,Sydney,Sydney,TRUE,s/AU-NSW,Australia/Sydney,eng,576i
+7YOUME.it,HD,HD,TRUE,c/IT,Europe/Rome,ita,720p
 80sRewind.us,SD,SD,TRUE,c/US,America/Santiago,eng,480i
 86.ru,SD,SD,TRUE,c/RU,Asia/Yekaterinburg,rus,576i
 88Films.us,SD,SD,TRUE,c/US,America/New_York,zho,480i
@@ -19490,7 +19492,7 @@ MBC3.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Riyadh,ara,576i
 MBC3.mu,SD,SD,TRUE,c/MU,Asia/Riyadh,fra,576i
 MBC3USA.us,SD,SD,TRUE,c/US,Asia/Riyadh,ara;eng,480i
 MBC4.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,ara,576i
-MBC5.ae,SD,SD,TRUE,c/AE;c/EG;c/MA,Asia/Dubai,ara,576i
+MBC5.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,ara,576i
 MBCAction.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,eng;ara,576i
 MBCAmerica.us,SD,SD,TRUE,c/US,America/Santiago,kor;eng,480i
 MBCBollywood.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,eng;hin;ara,576i
@@ -29766,7 +29768,6 @@ Thats90s.uk,MCRFreeview,MCR Freeview,FALSE,c/UK,Europe/London,eng,576i
 Thats90s.uk,SD,SD,TRUE,c/UK,Europe/London,eng,576i
 ThatsTV.uk,Freeview,Freeview,FALSE,c/UK,Europe/London,eng,576i
 ThatsTV.uk,SD,SD,TRUE,c/UK,Europe/London,eng,576i
-THE365.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 TheAddamsFamily.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 TheAfricaChannel.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 TheAmazingRace.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
@@ -31643,6 +31644,7 @@ TVMix.rs,SD,SD,TRUE,c/RS,Europe/Belgrade,srp,576i
 TVMlava.rs,SD,SD,TRUE,c/RS,Europe/Belgrade,srp,576i
 TVMN.pl,SD,SD,TRUE,c/PL,Europe/Warsaw,pol,576i
 TVMnewsPlus.mt,SD,SD,TRUE,c/MT,Europe/Malta,mlt,576i
+TVModelo.br,SD,SD,TRUE,s/BR-PA,America/Belem,por,720p
 TVModum.no,SD,SD,TRUE,c/NO,Europe/Oslo,nor,576i
 TVMohelnice.cz,SD,SD,TRUE,c/CZ,Europe/Prague,ces,576i
 TVMojanaCanal4.co,SD,SD,TRUE,c/CO,America/Guatemala,spa,480i

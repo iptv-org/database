@@ -127,6 +127,7 @@ channel,id,name,is_main,broadcast_area,timezones,languages,video_format
 247TV.bo,SD,SD,TRUE,c/BO,America/La_Paz,spa,480i
 24B.ir,SD,SD,TRUE,c/IR,Asia/Tehran,fas,576i
 24Horas.cl,SD,SD,TRUE,c/CL,America/Santiago,spa,480i
+24Horas.es,HEVC,HEVC,FALSE,c/ES;c/EH;c/GQ;r/HISPAM,Europe/Madrid,spa,1080p
 24Horas.es,SD,SD,TRUE,c/ES,Europe/Madrid,spa;eng,576i
 24HorasCanarias.es,SD,SD,TRUE,s/ES-CN,Europe/Madrid,spa;eng,576i
 24HorasCatalunya.es,SD,SD,TRUE,s/ES-CT,Europe/Madrid,cat;eng,576i
@@ -4636,6 +4637,7 @@ CanalSur.ec,SD,SD,TRUE,c/EC,America/Guayaquil,spa,480i
 CanalSur.es,SD,SD,TRUE,s/ES-AN,Europe/Madrid,spa,576i
 CanalSUR.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
 CanalSur2.es,SD,SD,TRUE,s/ES-AN,Europe/Madrid,spa,576i
+CanalSurAndalucia.es,HEVC,HEVC,FALSE,s/ES-AN,Europe/Madrid,esp,1080p
 CanalSurAndalucia.es,SD,SD,TRUE,s/ES-AN,Europe/Madrid,spa,576i
 CanalSurNoticias.es,SD,SD,TRUE,s/ES-AN,Europe/Madrid,spa,576i
 CanalSurPatagonia.cl,SD,SD,TRUE,c/CL,America/Santiago,spa,480i
@@ -6127,6 +6129,7 @@ CKYPTV.ca,SD,SD,TRUE,s/CA-MB,America/Winnipeg,eng,480i
 CKYTTV.ca,SD,SD,TRUE,s/CA-MB,America/Winnipeg,eng,480i
 CL3Cablevision.ar,SD,SD,TRUE,s/AR-S,America/Argentina/Buenos_Aires,spa,576i
 ClackamasCountyGovernmentChannel.us,SD,SD,TRUE,s/US-OR,America/New_York,eng,480i
+Clan.es,HEVC,HEVC,FALSE,c/ES,Europe/Madrid,spa,1080p
 Clan.es,SD,SD,TRUE,c/ES,Europe/Madrid,spa,576i
 ClanInternacional.es,SD,SD,TRUE,r/LATAM,Europe/Madrid,spa,576i
 Clarity4K.us,SD,SD,TRUE,c/US,America/Chicago,eng,480i
@@ -18284,6 +18287,7 @@ La1.es,HEVC,HEVC,FALSE,c/ES,Europe/Madrid,spa,1080p
 La1.es,SD,SD,TRUE,c/ES,Europe/Madrid,spa,576i
 La1Canarias.es,SD,SD,TRUE,s/ES-CN,Europe/Madrid,spa,576i
 La1Catalunya.es,SD,SD,TRUE,s/ES-CT,Europe/Madrid,cat,576i
+La2.es,HEVC,HEVC,FALSE,c/ES,Europe/Madrid,spa,1080p
 La2.es,SD,SD,TRUE,c/ES;c/AD,Europe/Madrid,spa,576i
 La2Canarias.es,SD,SD,TRUE,s/ES-CN,Europe/Madrid,spa,576i
 La2Catalunya.es,SD,SD,TRUE,s/ES-CT,Europe/Madrid,cat,576i
@@ -21833,6 +21837,7 @@ NosTelevision.es,SD,SD,TRUE,c/ES,Europe/Madrid,glg,576i
 NosTVBonaire.bq,SD,SD,TRUE,c/BQ,America/Kralendijk,pap;nld,480i
 Notele.be,HD,HD,FALSE,c/BE,Europe/Brussels,nld,1080i
 Notele.be,SD,SD,TRUE,c/BE,Europe/Brussels,nld,576i
+NOTFM.gp,SD,SD,TRUE,c/GP;c/MQ;c/LC;c/DM,America/Guadeloupe,fra,576i
 NothingScripted.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 Noticias16.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
 NoticiasCaracolAhora.co,SD,SD,TRUE,c/CO,America/Bogota,spa,480i
@@ -23448,7 +23453,8 @@ PlutoTVChefkoch.us,US,US,TRUE,c/US,America/New_York,deu,480i
 PlutoTVCiencia.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
 PlutoTVCine.us,France,France,FALSE,c/FR,Europe/Paris,fra,576i
 PlutoTVCine.us,US,US,TRUE,c/US,America/New_York,eng,480i
-PlutoTVCineAccion.us,Spain,Spain,TRUE,c/ES,Europe/Madrid,spa,576i
+PlutoTVCineAccion.us,Spain,Spain,FALSE,c/ES,Europe/Madrid,spa,576i
+PlutoTVCineAccion.us,US,US,TRUE,c/US;r/HISPAM,America/New_York,spa,576i
 PlutoTVCineClasico.us,Spain,Spain,TRUE,c/ES,Europe/Madrid,spa,576i
 PlutoTVCineClassicos.us,Brazil,Brazil,TRUE,c/BR,America/Sao_Paulo,por,480i
 PlutoTVCineComedia.us,Brazil,Brazil,FALSE,c/BR,America/Sao_Paulo,por,480i
@@ -29258,6 +29264,7 @@ TeleCuracao.cw,SD,SD,TRUE,c/CW,America/Curacao,pap;nld;eng,480i
 TeleD.ch,SD,SD,TRUE,c/CH,Europe/Zurich,deu,576i
 TeleDanli.hn,SD,SD,TRUE,c/HN,America/Tegucigalpa,spa,480i
 TeleDehon.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
+Teledeporte.es,HEVC,HEVC,FALSE,c/ES,Europe/Madrid,spa,1080p
 Teledeporte.es,SD,SD,TRUE,c/ES,Europe/Madrid,spa,576i
 TelediarioTV.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Telediez.ar,SD,SD,TRUE,s/AR-W,America/Argentina/Buenos_Aires,spa,576i
@@ -32373,6 +32380,7 @@ UBS.mn,SD,SD,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
 UBTVBrawijaya.id,SD,SD,TRUE,s/ID-JI,Asia/Jakarta,ind,576i
 UcanKusTV.tr,SD,SD,TRUE,c/TR,Europe/Istanbul,tur,576i
 UcayalinadeTelevision.pe,SD,SD,TRUE,s/PE-UCA,America/Lima,spa,480i
+UCBGospelTV.sr,SD,SD,TRUE,c/SR,America/Paramaribo,nld,576i
 UCBTV.uk,SD,SD,TRUE,c/UK,Europe/London,eng,576i
 UchalyTV.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
 UChannel.id,SD,SD,TRUE,c/ID,Asia/Jakarta,ind,576i
@@ -37528,6 +37536,7 @@ WRGTDT3.us,SD,SD,TRUE,s/US-OH,America/New_York,eng,480i
 WRGTDT4.us,SD,SD,TRUE,s/US-OH,America/New_York,eng,480i
 WRGTDT5.us,SD,SD,TRUE,s/US-OH,America/New_York,eng,480i
 WRGXLD1.us,SD,SD,TRUE,s/US-AL,America/Chicago,eng,480i
+WRHM7.gy,SD,SD,TRUE,c/GY,America/Guyana,eng,480i
 WRICDT1.us,SD,SD,TRUE,s/US-VA,Australia/Brisbane,eng,480i
 WRICDT2.us,SD,SD,TRUE,s/US-VA,Australia/Brisbane,eng,480i
 WRICDT3.us,SD,SD,TRUE,s/US-VA,Australia/Brisbane,eng,480i

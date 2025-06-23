@@ -149,6 +149,7 @@ channel,id,name,is_main,broadcast_area,timezones,languages,video_format
 24TV.tr,SD,SD,TRUE,c/TR,Europe/Istanbul,tur,576i
 24x7LiveHolyMass.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 25TV.es,SD,SD,TRUE,s/ES-CT,Europe/Madrid,cat,576i
+284Media.vg,SD,SD,TRUE,c/VG,America/Tortola,eng,576i
 28kanala.es,SD,SD,TRUE,c/ES,Europe/Madrid,eus,576i
 2ATV.sn,SD,SD,TRUE,c/SN,Africa/Dakar,fra,576i
 2EFTV.ci,SD,SD,TRUE,c/CI,Africa/Abidjan,fra,576i
@@ -3557,6 +3558,7 @@ BoasNovas.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 BoasNovasBelem.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 BoaVontadeTV.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 Bober.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
+BobEsponja.us,LATAM,LATAM,FALSE,c/US;r/HISPAM,America/New_York,spa,576i
 BobEsponja.us,Spain,Spain,TRUE,c/ES,Europe/Madrid,spa,576i
 Bobleponge.us,France,France,TRUE,c/FR,Europe/Paris,fra,576i
 BoblepongePlus.us,France,France,TRUE,c/FR,Europe/Paris,eng,576i
@@ -4637,7 +4639,7 @@ CanalSur.ec,SD,SD,TRUE,c/EC,America/Guayaquil,spa,480i
 CanalSur.es,SD,SD,TRUE,s/ES-AN,Europe/Madrid,spa,576i
 CanalSUR.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
 CanalSur2.es,SD,SD,TRUE,s/ES-AN,Europe/Madrid,spa,576i
-CanalSurAndalucia.es,HEVC,HEVC,FALSE,s/ES-AN,Europe/Madrid,esp,1080p
+CanalSurAndalucia.es,HEVC,HEVC,FALSE,s/ES-AN,Europe/Madrid,spa,1080p
 CanalSurAndalucia.es,SD,SD,TRUE,s/ES-AN,Europe/Madrid,spa,576i
 CanalSurNoticias.es,SD,SD,TRUE,s/ES-AN,Europe/Madrid,spa,576i
 CanalSurPatagonia.cl,SD,SD,TRUE,c/CL,America/Santiago,spa,480i
@@ -5724,7 +5726,7 @@ Cine21.in,SD,SD,TRUE,c/IN,Asia/Kolkata,tel,576i
 Cine34.it,HD,HD,FALSE,c/IT,Europe/Rome,ita,1080i
 Cine34.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
 Cine5.tr,SD,SD,TRUE,c/TR,Europe/Istanbul,tur,576i
-CineAdrenalina.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
+CineAdrenalina.us,SD,SD,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
 CineAr.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 cinebox.bg,SD,SD,TRUE,c/BG,Europe/Sofia,bul,576i
 CineBrasilTV.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
@@ -9179,7 +9181,6 @@ FeelGoodTV.nl,SD,SD,TRUE,c/NL,Europe/Amsterdam,nld,576i
 FehervarTV.hu,SD,SD,TRUE,c/HU,Europe/Budapest,hun,576i
 FEM.no,SD,SD,TRUE,c/NO,America/Toronto,nor,576i
 FEM3.hu,SD,SD,TRUE,c/HU,Europe/Budapest,hun,576i
-FenerbahceTV.tr,SD,SD,TRUE,c/TR,Europe/Istanbul,tur,576i
 FenFolkTV.bg,SD,SD,TRUE,c/BG,Europe/Sofia,bul,576i
 FengshangShoppingChannel.cn,SD,SD,TRUE,c/CN,Asia/Shanghai,zho,576i
 FeniksplusKino.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
@@ -19574,6 +19575,7 @@ MCTV.de,HD,HD,TRUE,c/DE,Europe/Berlin,tur;deu,576i
 MCTV.mg,SD,SD,TRUE,c/MG,Indian/Antananarivo,fra;mlg,576i
 MCTV.us,SD,SD,TRUE,s/US-CA,America/New_York,eng;spa,480i
 MCTV191.us,SD,SD,TRUE,s/US-MI,America/Chicago,eng,480i
+MCTVChannel118.bb,SD,SD,TRUE,c/BB,America/Barbados,eng,576i
 MDATelevision.ve,SD,SD,TRUE,c/VE,America/Caracas,spa,480i
 MDF1.de,SD,SD,TRUE,c/DE,Europe/Berlin,deu,576i
 MDL.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
@@ -23455,13 +23457,16 @@ PlutoTVCine.us,France,France,FALSE,c/FR,Europe/Paris,fra,576i
 PlutoTVCine.us,US,US,TRUE,c/US,America/New_York,eng,480i
 PlutoTVCineAccion.us,Spain,Spain,FALSE,c/ES,Europe/Madrid,spa,576i
 PlutoTVCineAccion.us,US,US,TRUE,c/US;r/HISPAM,America/New_York,spa,576i
-PlutoTVCineClasico.us,Spain,Spain,TRUE,c/ES,Europe/Madrid,spa,576i
+PlutoTVCineClasico.us,Spain,Spain,FALSE,c/ES,Europe/Madrid,spa,576i
+PlutoTVCineClasico.us,US,US,TRUE,c/US;r/HISPAM,America/New_York,spa,576i
 PlutoTVCineClassicos.us,Brazil,Brazil,TRUE,c/BR,America/Sao_Paulo,por,480i
 PlutoTVCineComedia.us,Brazil,Brazil,FALSE,c/BR,America/Sao_Paulo,por,480i
 PlutoTVCineComedia.us,Spain,Spain,TRUE,c/ES,Europe/Madrid,spa,576i
 PlutoTVCineDrama.us,Brazil,Brazil,FALSE,c/BR,America/Sao_Paulo,por,480i
-PlutoTVCineDrama.us,Spain,Spain,TRUE,c/ES,Europe/Madrid,spa,576i
-PlutoTVCineEstelar.us,Spain,Spain,TRUE,c/ES,Europe/Madrid,spa,576i
+PlutoTVCineDrama.us,Spain,Spain,FALSE,c/ES,Europe/Madrid,spa,576i
+PlutoTVCineDrama.us,US,US,TRUE,c/US;r/HISPAM,America/New_York,spa,576i
+PlutoTVCineEstelar.us,Spain,Spain,FALSE,c/ES,Europe/Madrid,spa,576i
+PlutoTVCineEstelar.us,US,US,TRUE,c/US;r/HISPAM,America/New_York,spa,576i
 PlutoTVCineFamilia.us,Brazil,Brazil,TRUE,c/BR,America/Sao_Paulo,por,480i
 PlutoTVCinemaItaliano.us,Italy,Italy,TRUE,c/IT,Europe/Rome,ita,576i
 PlutoTVCineRetro.us,France,France,TRUE,c/FR,Europe/Paris,fra,576i
@@ -25982,7 +25987,8 @@ SaguaVision.cu,SD,SD,TRUE,c/CU,America/Havana,spa,576i
 SahanaNews.in,SD,SD,TRUE,c/IN,Asia/Kolkata,hin,576i
 SahandTV.ir,SD,SD,TRUE,c/IR,Asia/Tehran,fas,576i
 SahanTV.so,SD,SD,TRUE,c/SO,Africa/Mogadishu,som,576i
-Sahara24.mr,SD,SD,TRUE,c/MR,Africa/Nouakchott,ara,576i
+Sahara24.mr,HD,HD,TRUE,s/MR-13,Africa/Nouakchott,ara,1080i
+Sahara24.mr,SD,SD,FALSE,c/MR,Africa/Nouakchott,ara,576i
 SaharAfghanistan.ir,SD,SD,TRUE,c/IR;c/AF,Asia/Tehran,pus,576i
 SaharaOne.in,SD,SD,TRUE,c/IN,Asia/Kolkata,hin,576i
 SaharaTV.td,SD,SD,TRUE,c/TD,Africa/Ndjamena,fra,576i

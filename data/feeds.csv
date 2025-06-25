@@ -2560,6 +2560,7 @@ Babestation.uk,SD,SD,TRUE,c/UK,America/Toronto,eng,576i
 Babestation24.ch,SD,SD,TRUE,c/DE;c/CH,Europe/Zurich,deu,576i
 BabesTV.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 BabyFirst.us,Brazil,Brazil,FALSE,c/BR,America/Sao_Paulo,por,480i
+BabyFirst.us,Spanish,Spanish,FALSE,c/US;r/HISPAM,America/New_York,spa,576i
 BabyFirst.us,US,US,TRUE,c/US,America/Santiago,eng;zho;spa;fra;tur;deu;kor;jpn;por;pol;rus;ara;heb;hun;ron,480i
 BabylonTV.iq,SD,SD,TRUE,c/IQ,Asia/Baghdad,ara,576i
 BabySharkTV.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
@@ -5870,7 +5871,7 @@ Cinevault80s.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 CinevaultWesterns.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 CineverseSelects.us,SD,SD,TRUE,c/US,America/Santiago,eng,480i
 CinevisionCanal19.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
-CineXOXO.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
+CineXOXO.us,SD,SD,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
 CIPATV.ca,SD,SD,TRUE,s/CA-SK,America/Regina,eng,480i
 CIPATV1.ca,SD,SD,TRUE,s/CA-SK,America/Toronto,eng,480i
 CIPATV2.ca,SD,SD,TRUE,s/CA-SK,America/Toronto,eng,480i
@@ -6396,7 +6397,7 @@ Combate.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 CombateWorld.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 CombosTV.cn,SD,SD,TRUE,c/CN,Asia/Shanghai,zho,576i
 COMBrasil.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
-ComediaMadeinSpain.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
+ComediaMadeinSpain.us,SD,SD,TRUE,c/US;c/ES,America/New_York,spa,480i
 ComediaporMovistarPlusPlus.es,SD,SD,TRUE,c/ES;c/AD,Europe/Madrid,spa,576i
 ComediePlus.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra;eng,576i
 Comedy.au,Plus2,+2,FALSE,c/AU,Australia/Sydney,eng,576i
@@ -6685,7 +6686,7 @@ CSFilm.cz,SD,SD,TRUE,c/CZ,Europe/Prague,ces,576i
 CSHistory.cz,SD,SD,TRUE,c/CZ,Europe/Prague,ces,576i
 CSHorror.cz,SD,SD,TRUE,c/CZ,Europe/Prague,ces,576i
 CSI.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
-CSIenespanol.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
+CSIenespanol.us,SD,SD,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
 CSMystery.cz,SD,SD,TRUE,c/CZ,Europe/Prague,ces,576i
 CSPAN.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 CSPAN2.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
@@ -11830,7 +11831,7 @@ INTV.bo,SD,SD,TRUE,c/BO,America/Argentina/Mendoza,spa,480i
 INTV.ua,SD,SD,TRUE,c/UA,Europe/Kyiv,ukr,576i
 INTVAustralia.au,SD,SD,TRUE,c/AU,Australia/Melbourne,mkd,576i
 InvasivaTV.py,SD,SD,TRUE,c/PY,America/Asuncion,spa,576i
-Investiga.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
+Investiga.us,SD,SD,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
 Investigation.ca,SD,SD,TRUE,c/CA,America/Toronto,fra,480i
 InvestigationDiscovery.au,SD,SD,TRUE,c/AU,Australia/Sydney,eng,576i
 InvestigationDiscovery.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
@@ -23691,8 +23692,8 @@ PlutoTVSeries.us,Brazil,Brazil,FALSE,c/BR,America/Sao_Paulo,por,480i
 PlutoTVSeries.us,France,France,FALSE,c/FR,Europe/Paris,fra,576i
 PlutoTVSeries.us,Spain,Spain,FALSE,c/ES,Europe/Madrid,spa,576i
 PlutoTVSeries.us,UK,UK,TRUE,c/UK,Europe/London,eng,576i
-PlutoTVSeriesComedia.us,Spain,Spain,FALSE,c/ES,Europe/Madrid,spa,576i
-PlutoTVSeriesComedia.us,US,US,TRUE,c/US,America/New_York,eng,480i
+PlutoTVSeriesComedia.us,Spain,Spain,TRUE,c/ES,Europe/Madrid,spa,576i
+PlutoTVSeriesComedia.us,US,US,FALSE,c/US;r/HISPAM,America/New_York,spa,480i
 PlutoTVSeriesLatinas.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
 PlutoTVSeriesRetro.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
 PlutoTVSherlock.us,UK,UK,TRUE,c/UK,Europe/London,eng,576i
@@ -25507,7 +25508,7 @@ RTECTropicana.cd,SD,SD,TRUE,c/CD,Africa/Kinshasa,fra,576i
 RTEE.cd,SD,SD,TRUE,c/CD,Africa/Kinshasa,fra,576i
 RTEjr.ie,SD,SD,TRUE,c/IE,Europe/Dublin,eng,576i
 RTEKA.cd,SD,SD,TRUE,c/CD,Africa/Lubumbashi,fra;lin,576i
-RTenEspanol.ru,SD,SD,TRUE,c/ES;r/SOUTHAM;c/US,Europe/Moscow,spa,576i
+RTenEspanol.ru,SD,SD,TRUE,c/ES;c/US;r/HISPAM,Europe/Moscow,spa,576i
 RTENews.ie,SD,SD,TRUE,c/IE,Europe/Dublin,eng,576i
 RTEOne.ie,HD,HD,FALSE,c/IE,Europe/Dublin,eng;gle,1080i
 RTEOne.ie,Plus1,+1,FALSE,c/IE,Europe/Dublin,eng;gle,576i
@@ -26430,7 +26431,7 @@ SerieB.ro,SD,SD,TRUE,c/RO,Europe/Bucharest,ron,576i
 SerieClub.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
 SerieMax.ci,SD,SD,TRUE,c/CI,Africa/Abidjan,fra,576i
 Series2porMovistarPlusPlus.es,SD,SD,TRUE,c/ES;c/AD,Europe/Madrid,spa,576i
-SeriesconN.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
+SeriesconN.us,SD,SD,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
 SeriesPlus.ca,SD,SD,TRUE,c/CA,America/Toronto,fra,480i
 SeriesPlusHD.th,SD,SD,TRUE,c/TH,Asia/Bangkok,tha,576i
 SeriesporMovistarPlusPlus.es,SD,SD,TRUE,c/ES;c/AD,Europe/Madrid,spa,576i

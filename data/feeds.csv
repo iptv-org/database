@@ -3594,8 +3594,12 @@ Bolivision.bo,SD,SD,TRUE,c/BO,America/La_Paz,spa,480i
 Bollyshow.il,SD,SD,TRUE,c/IL,Asia/Jerusalem,heb,576i
 Bollywood.ru,HD,HD,FALSE,c/RU,Europe/Moscow,rus,1080i
 Bollywood.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
+BollywoodClassic.ro,Romania,Romania,FALSE,c/RO,Europe/Bucharest,hin;ron,576i
+BollywoodClassic.ro,Russia,Russia,FALSE,c/RU,Europe/Moscow,rus;hin,576i
 BollywoodClassic.ro,SD,SD,TRUE,c/RO,Europe/Bucharest,ron,576i
 BollywoodFilm.ro,SD,SD,TRUE,c/RO,Europe/Bucharest,ron,576i
+BollywoodHD.ro,Romania,Romania,FALSE,c/RO,Europe/Bucharest,hin;ron,576i
+BollywoodHD.ro,Russia,Russia,FALSE,c/RU,Europe/Moscow,hin;rus,576i
 BollywoodHD.ro,SD,SD,TRUE,c/RO,Europe/Bucharest,hin;eng,576i
 BollywoodTV.ro,SD,SD,TRUE,c/RO,Europe/Bucharest,ron,576i
 BolNews.pk,SD,SD,TRUE,c/PK,Asia/Karachi,urd,576i
@@ -23467,6 +23471,7 @@ PlutoTVCineDrama.us,Brazil,Brazil,FALSE,c/BR,America/Sao_Paulo,por,480i
 PlutoTVCineDrama.us,Spain,Spain,FALSE,c/ES,Europe/Madrid,spa,576i
 PlutoTVCineDrama.us,US,US,TRUE,c/US;r/HISPAM,America/New_York,spa,576i
 PlutoTVCineEstelar.us,Spain,Spain,FALSE,c/ES,Europe/Madrid,spa,576i
+PlutoTVCineEstelar.us,SpainPlus,Spain+,FALSE,c/ES,Europe/Madrid,spa,576i
 PlutoTVCineEstelar.us,US,US,TRUE,c/US;r/HISPAM,America/New_York,spa,576i
 PlutoTVCineFamilia.us,Brazil,Brazil,TRUE,c/BR,America/Sao_Paulo,por,480i
 PlutoTVCinemaItaliano.us,Italy,Italy,TRUE,c/IT,Europe/Rome,ita,576i
@@ -23474,7 +23479,7 @@ PlutoTVCineRetro.us,France,France,TRUE,c/FR,Europe/Paris,fra,576i
 PlutoTVCineRomance.us,Brazil,Brazil,TRUE,c/BR,America/Sao_Paulo,por,480i
 PlutoTVCineRomantico.us,Spain,Spain,TRUE,c/ES,Europe/Madrid,spa,576i
 PlutoTVCineSucessos.us,Brazil,Brazil,TRUE,c/BR,America/Sao_Paulo,por,480i
-PlutoTVCineSuspenso.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
+PlutoTVCineSuspenso.us,SD,SD,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
 PlutoTVCineTerror.us,Brazil,Brazil,TRUE,c/BR,America/Sao_Paulo,por,480i
 PlutoTVClassicTV.us,UK,UK,TRUE,c/UK,Europe/London,eng,576i
 PlutoTVCMTWesterns.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
@@ -29911,7 +29916,7 @@ TheTitanicChannel.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 TheUltimateMusicChannel.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 TheVisitorChannel.lc,SD,SD,TRUE,c/LC,America/St_Lucia,eng,480i
 TheVoice.bg,SD,SD,TRUE,c/BG,Europe/Sofia,bul,576i
-TheWalkingDeadenEspanol.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
+TheWalkingDeadenEspanol.us,SD,SD,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
 TheWalkingDeadUniverse.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 TheWalkTV.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 TheWallStreetJournalLive.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
@@ -33258,6 +33263,7 @@ VouliTV.cy,SD,SD,TRUE,c/CY,Asia/Nicosia,ell,576i
 VOVTV.vn,SD,SD,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 VOX.at,HD,HD,FALSE,c/AT,Europe/Vienna,deu,1080i
 VOX.at,SD,SD,TRUE,c/AT,Europe/Vienna,deu,576i
+VOX.de,HD,HD,FALSE,c/DE,Europe/Berlin,deu,1080i
 VOX.de,SD,SD,TRUE,c/DE,Europe/Berlin,deu,576i
 VOX.no,SD,SD,TRUE,c/NO,Europe/Oslo,nor,576i
 VOX1.ir,SD,SD,TRUE,c/IR,Asia/Tehran,fas,576i
@@ -34571,7 +34577,17 @@ WDRBDT1.us,SD,SD,TRUE,s/US-KY,America/Kentucky/Louisville,eng,480i
 WDRBDT2.us,SD,SD,TRUE,s/US-KY,America/Kentucky/Louisville,eng,480i
 WDRBDT3.us,SD,SD,TRUE,s/US-KY,America/New_York,eng,480i
 WDRBDT4.us,SD,SD,TRUE,s/US-KY,America/New_York,eng,480i
-WDRFernsehen.de,SD,SD,TRUE,c/DE,Europe/Berlin,deu,576i
+WDRFernsehen.de,Aachen,Aachen,FALSE,s/DE-NW,Europe/Berlin,deu,576i
+WDRFernsehen.de,Bielefeld,Bielefeld,FALSE,s/DE-NW,Europe/Berlin,deu,576i
+WDRFernsehen.de,Bonn,Bonn,FALSE,s/DE-NW,Europe/Berlin,deu,576i
+WDRFernsehen.de,Dortmund,Dortmund,FALSE,s/DE-NW,Europe/Berlin,deu,576i
+WDRFernsehen.de,Duisburg,Duisburg,FALSE,s/DE-NW,Europe/Berlin,deu,576i
+WDRFernsehen.de,Dusseldorf,Dusseldorf,FALSE,s/DE-NW,Europe/Berlin,deu,576i
+WDRFernsehen.de,Essen,Essen,FALSE,s/DE-NW,Europe/Berlin,deu,576i
+WDRFernsehen.de,Koln,Koln,TRUE,s/DE-NW,Europe/Berlin,deu,576i
+WDRFernsehen.de,Munster,Munster,FALSE,s/DE-NW,Europe/Berlin,deu,576i
+WDRFernsehen.de,Siegen,Siegen,FALSE,s/DE-NW,Europe/Berlin,deu,576i
+WDRFernsehen.de,Wuppertal,Wuppertal,FALSE,s/DE-NW,Europe/Berlin,deu,576i
 WDSCDT1.us,SD,SD,TRUE,s/US-FL,America/New_York,eng,480i
 WDSCDT2.us,SD,SD,TRUE,s/US-FL,America/New_York,eng,480i
 WDSCDT3.us,SD,SD,TRUE,s/US-FL,America/New_York,eng,480i

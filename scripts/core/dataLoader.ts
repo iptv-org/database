@@ -12,7 +12,8 @@ import {
   Subdivision,
   Region,
   Timezone,
-  Category
+  Category,
+  Logo
 } from '../models'
 
 export class DataLoader {
@@ -39,13 +40,15 @@ export class DataLoader {
       countries: new Collection(),
       feedsGroupedByChannelId: new Dictionary(),
       feedsKeyByStreamId: new Dictionary(),
+      feedsKeyById: new Dictionary(),
       channelsKeyById: new Dictionary(),
       countriesKeyByCode: new Dictionary(),
       subdivisionsKeyByCode: new Dictionary(),
       categoriesKeyById: new Dictionary(),
       regionsKeyByCode: new Dictionary(),
       timezonesKeyById: new Dictionary(),
-      languagesKeyByCode: new Dictionary()
+      languagesKeyByCode: new Dictionary(),
+      logos: new Collection()
     }
 
     for (const filepath of files) {
@@ -95,6 +98,12 @@ export class DataLoader {
           data.feeds = feeds
           data.feedsGroupedByChannelId = feeds.groupBy((feed: Feed) => feed.channelId)
           data.feedsKeyByStreamId = feeds.keyBy((feed: Feed) => feed.getStreamId())
+          data.feedsKeyById = feeds.keyBy((feed: Feed) => feed.id)
+          break
+        }
+        case 'logos': {
+          const logos = parsed.map((row: CSVParserRow) => new Logo(row.data).setLine(row.line))
+          data.logos = logos
           break
         }
         case 'blocklist': {

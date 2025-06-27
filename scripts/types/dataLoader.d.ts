@@ -4,6 +4,7 @@ export type DataLoaderData = {
   feeds: Collection
   feedsGroupedByChannelId: Dictionary
   feedsKeyByStreamId: Dictionary
+  feedsKeyById: Dictionary
   channels: Collection
   categories: Collection
   countries: Collection
@@ -19,6 +20,7 @@ export type DataLoaderData = {
   regionsKeyByCode: Dictionary
   timezonesKeyById: Dictionary
   languagesKeyByCode: Dictionary
+  logos: Collection
 }
 
 export type DataLoaderProps = {

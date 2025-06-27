@@ -30,13 +30,17 @@ export class IssueData {
       : this._data.get(key)
   }
 
+  getNumber(key: string): number | undefined {
+    const string = this.getString(key)
+
+    return string ? Number(string) : undefined
+  }
+
   getArray(key: string): string[] | undefined {
     const deleteSymbol = '~'
 
-    return this.missing(key)
-      ? undefined
-      : this._data.get(key) === deleteSymbol
-      ? []
-      : this._data.get(key).split(';')
+    if (this._data.missing(key)) return undefined
+
+    return this._data.get(key) === deleteSymbol ? [] : this._data.get(key).split('\r\n')
   }
 }

@@ -1,22 +1,13 @@
-name: ✏️ Edit channel
-description: Request to edit channel description
-title: 'Edit: '
-labels: ['channels:edit']
+name: ➕ Add channel
+description: Request to add a channel into the database
+title: 'Add: '
+labels: ['channels:add']
 
 body:
   - type: markdown
     attributes:
       value: |
-        Please specify exactly what should be changed. To delete an existing value without replacement use the `~` symbol. To edit `broadcast_area`, `languages`, `timezones` and `video_formats` use this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aedit&projects=&template=5_feeds_edit.yml&title=Edit%3A+).
-  
-  - type: input
-    id: id
-    attributes:
-      label: Channel ID (required)
-      description: The ID of the channel that should be updated
-      placeholder: 'AnhuiTV.cn'
-    validations:
-      required: true
+        Please fill out the issue form as much as you can so we could efficiently process your request
 
   - type: input
     id: name
@@ -24,25 +15,27 @@ body:
       label: Channel Name
       description: "Official channel name in English or call sign. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `|`, `¡`"
       placeholder: 'Anhui TV'
+    validations:
+      required: true
 
   - type: input
-    id: alt_names
+    id: alt_name
     attributes:
-      label: Alternative Names
+      label: Alternative Names (optional)
       description: List of alternative channel names separated by `;`. May contain any characters except `,` and `"`
       placeholder: '安徽卫视'
 
   - type: input
     id: network
     attributes:
-      label: Network
+      label: Network (optional)
       description: Network of which this channel is a part. May contain any characters except `,` and `"`
       placeholder: 'Anhui'
 
   - type: input
     id: owners
     attributes:
-      label: Owners
+      label: Owners (optional)
       description: List of channel owners separated by `;`. May contain any characters except `,` and `"`
       placeholder: 'China Central Television'
 
@@ -52,25 +45,27 @@ body:
       label: Country
       description: Country code from which the channel is transmitted. A list of all supported countries and their codes can be found in [data/countries.csv](https://github.com/iptv-org/database/blob/master/data/countries.csv) 
       placeholder: 'CN'
+    validations:
+      required: true
 
   - type: input
     id: subdivision
     attributes:
-      label: Subdivision
+      label: Subdivision (optional)
       description: Code of the subdivision (e.g., provinces or states) from which the broadcast is transmitted. A list of all supported subdivisions and their codes can be found in [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv)
       placeholder: 'CN-AH'
 
   - type: input
     id: city
     attributes:
-      label: City
+      label: City (optional)
       description: Name of the city from which the channel is transmitted
       placeholder: 'Hefei'
 
   - type: input
     id: categories
     attributes:
-      label: Categories
+      label: Categories (optional)
       description: List of categories to which this channel belongs separated by `;`. A list of all supported categories can be found in [data/categories.csv](https://github.com/iptv-org/database/blob/master/data/categories.csv)
       placeholder: 'animation;kids'
 
@@ -82,6 +77,8 @@ body:
       options:
         - 'FALSE'
         - 'TRUE'
+    validations:
+      required: true
 
   - type: input
     id: launched
@@ -107,7 +104,7 @@ body:
   - type: input
     id: website
     attributes:
-      label: Website
+      label: Website (optional)
       description: Official website URL
       placeholder: 'http://www.ahtv.cn/'
 
@@ -117,9 +114,74 @@ body:
       label: Logo
       description: "Logo URL. Only URL with HTTPS protocol are allowed. Supported image types: `PNG`, `JPEG`. Max size: 512x512 pixels. The link should not be [geo-blocked](https://en.wikipedia.org/wiki/Geo-blocking)"
       placeholder: 'https://example.com/logo.png'
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Main Feed
+        Description of the main feed of the channel
+
+  - type: input
+    id: feed_name
+    attributes:
+      label: Feed Name
+      description: "Unique for this channel feed name in English. For example: `HD`, `East`, `French`, `+1`, etc. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `|`, `¡`"
+      placeholder: 'SD'
+      value: 'SD'
+    validations:
+      required: true
+
+  - type: input
+    id: broadcast_area
+    attributes:
+      label: Broadcast Area
+      description: "List of codes describing the broadcasting area of the feed separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`. A full list of supported codes can be found here: [countries](https://github.com/iptv-org/database/blob/master/data/countries.csv), [subdivisions](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv), [regions](https://github.com/iptv-org/database/blob/master/data/regions.csv)"
+      placeholder: 'c/CN'
+    validations:
+      required: true
+
+  - type: input
+    id: timezones
+    attributes:
+      label: Timezones
+      description: List of broadcast time zones separated by `;`. A list of all supported timezones and their codes can be found in [data/timezones.csv](https://github.com/iptv-org/database/blob/master/data/timezones.csv)
+      placeholder: 'Asia/Shanghai'
+    validations:
+      required: true
+
+  - type: input
+    id: languages
+    attributes:
+      label: Languages
+      description: List of languages in which the feed is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](https://github.com/iptv-org/database/blob/master/data/languages.csv)
+      placeholder: 'zho;eng'
+    validations:
+      required: true
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      description: Video format of the broadcast
+      default: 6
+      options:
+        - '4320p'
+        - '2160p'
+        - '1080p'
+        - '1080i'
+        - '720p'
+        - '576p'
+        - '576i'
+        - '480p'
+        - '480i'
+        - '360p'
+        - '240p'
+    validations:
+      required: true
 
   - type: textarea
-    id: notes
     attributes:
       label: Notes
       description: 'Anything else we should know?'

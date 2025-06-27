@@ -1,37 +1,38 @@
-name: 🗑️ Remove channel
-description: Request to remove a channel from the database
+name: 🗑️ Remove feed
+description: Request to remove a feed from the database
 title: 'Remove: '
-labels: ['channels:remove']
+labels: ['feeds:remove']
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Deleting a channel will also delete all associated feeds and records in the blocklist.
-
   - type: input
-    id: id
+    id: channel_id
     attributes:
       label: Channel ID
-      description: The ID of the channel that should be removed
-      placeholder: 'AnhuiTV.cn'
+      description: ID of the channel to which this feed belongs
+      placeholder: 'HBO.us'
+    validations:
+      required: true
+
+  - type: input
+    id: feed_id
+    attributes:
+      label: Feed ID
+      description: The ID of the feed that should be removed
+      placeholder: 'West'
     validations:
       required: true
 
   - type: dropdown
-    id: reason
     attributes:
       label: Reason
       description: Select the reason for removal from the list below
       options:
         - 'Duplicate'
-        - 'Not a TV channel'
         - 'Other'
     validations:
       required: true
 
   - type: textarea
-    id: notes
     attributes:
       label: Notes (optional)
       description: 'Anything else we should know?'

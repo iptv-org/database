@@ -1,0 +1,94 @@
+name: ✏️ Edit logo
+description: Request to edit logo description
+title: 'Edit: '
+labels: ['logos:edit']
+
+body:
+  - type: input
+    id: logo_url
+    attributes:
+      label: Logo URL (required)
+      description: URL of the logo to be edited
+      placeholder: 'https://example.com/logo.png'
+    validations:
+      required: true
+
+  - type: input
+    id: channel_id
+    attributes:
+      label: Channel ID
+      description: Allows to refine the request
+      placeholder: 'France3.fr'
+
+  - type: input
+    id: feed_id
+    attributes:
+      label: Feed ID
+      description: Allows to refine the request
+      placeholder: 'Alpes'
+
+  - type: markdown
+    attributes:
+      value: |
+        Please specify exactly what should be changed. To delete an existing value without replacement use the `~` symbol.
+
+  - type: input
+    id: new_logo_url
+    attributes:
+      label: New Logo URL
+      description: "Logo URL. Supported formats: `PNG`, `JPEG`, `SVG`, `GIF`, `WebP`, `AVIF`, `APNG`. Only URLs with [HTTPS](https://ru.wikipedia.org/wiki/HTTPS) protocol are supported"
+      placeholder: 'https://example.com/logo.png'
+
+  - type: input
+    id: new_channel_id
+    attributes:
+      label: New Channel ID
+      description: ID of the channel to which this logo belongs
+      placeholder: 'France3.fr'
+
+  - type: input
+    id: new_feed_id
+    attributes:
+      label: New Feed ID
+      description: ID of the feed to which this logo belongs
+      placeholder: 'Alpes'
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: "List of keywords describing this version of the logo separated by `;`. May include: `a-z`, `0-9` and `-`"
+      placeholder: 'horizontal;white'
+
+  - type: input
+    id: width
+    attributes:
+      label: Width
+      description: The width of the image in pixels
+      placeholder: '512'
+
+  - type: input
+    id: height
+    attributes:
+      label: Height
+      description: The height of the image in pixels
+      placeholder: '512'
+
+  - type: dropdown
+    id: format
+    attributes:
+      label: Format
+      description: Image format
+      options:
+        - 'PNG'
+        - 'JPEG'
+        - 'SVG'
+        - 'GIF'
+        - 'WebP'
+        - 'AVIF'
+        - 'APNG'
+
+  - type: textarea
+    attributes:
+      label: Notes
+      description: 'Anything else we should know?'

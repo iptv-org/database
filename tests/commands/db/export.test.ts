@@ -28,6 +28,7 @@ describe('db:export', () => {
       content('expected/db/export/api/timezones.json')
     )
     expect(content('output/api/feeds.json')).toEqual(content('expected/db/export/api/feeds.json'))
+    expect(content('output/api/logos.json')).toEqual(content('expected/db/export/api/logos.json'))
   })
 })
 

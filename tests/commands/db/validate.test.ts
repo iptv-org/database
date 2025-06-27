@@ -63,7 +63,10 @@ describe('db:validate', () => {
       expect((error as ExecError).stdout).toContain(
         'feed with channel "002RadioTV.do" and id "SD" already exists'
       )
-      expect((error as ExecError).stdout).toContain('3 error(s)')
+      expect((error as ExecError).stdout).toContain(
+        'logo with channelId "002RadioTV.do", feedId "" and url "https://i.imgur.com/7oNe8xj.png" already exists'
+      )
+      expect((error as ExecError).stdout).toContain('4 error(s)')
     }
   })
 
@@ -99,9 +102,17 @@ describe('db:validate', () => {
         '"0TV.dk@SD" has the wrong timezones "Europe/Copenhagen"'
       )
       expect((error as ExecError).stdout).toContain(
-        '0TV.dk@SD: "video_format" with value "576I" fails to match the required pattern'
+        '0TV.dk@SD: "format" with value "576I" fails to match the required pattern'
       )
-      expect((error as ExecError).stdout).toContain('10 error(s)')
+      expect((error as ExecError).stdout).toContain(
+        '"format" must be one of [SVG, PNG, JPEG, GIF, WebP, AVIF, APNG, null]'
+      )
+      expect((error as ExecError).stdout).toContain(
+        '"url" must be a valid uri with a scheme matching the https pattern'
+      )
+      expect((error as ExecError).stdout).toContain('"1NOMO.vu" is missing from the channels.csv')
+      expect((error as ExecError).stdout).toContain('"DD" is missing from the feeds.csv')
+      expect((error as ExecError).stdout).toContain('14 error(s)')
     }
   })
 

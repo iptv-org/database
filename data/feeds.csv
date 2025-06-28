@@ -5869,7 +5869,8 @@ CineStarTVPremiere2.rs,SD,SD,TRUE,c/RS,Europe/Berlin,hrv,576i
 CineStarTVPremiere2.si,SD,SD,TRUE,c/SI,Europe/Berlin,slv;eng,576i
 CineSureno.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
 CinesVerdi.es,SD,SD,TRUE,c/ES,Europe/Madrid,spa,576i
-CineTerror.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
+CineTerror.us,LATAM,LATAM,FALSE,c/US;r/HISPAM,America/New_York,spa,576i
+CineTerror.us,SD,SD,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
 CineTV.mu,SD,SD,TRUE,c/MU,Indian/Mauritius,fra;eng,576i
 Cinevault80s.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 CinevaultWesterns.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
@@ -6286,6 +6287,7 @@ CNBCTV18PrimeHD.in,SD,SD,TRUE,c/IN,Asia/Kolkata,hin,576i
 CNBCUK.uk,HD,HD,FALSE,c/UK;c/IE,America/Toronto,eng,1080i
 CNBCUK.uk,SD,SD,TRUE,c/UK,America/Toronto,eng,576i
 CNBCWorld.us,SD,SD,TRUE,r/INT,America/New_York,eng,480i
+CNBTV.tn,SD,SD,TRUE,r/MAGHREB;c/EG,Africa/Tunis,ara,576i
 CNC.kh,SD,SD,TRUE,c/KH,Asia/Phnom_Penh,khm,576i
 CNC3.tt,SD,SD,TRUE,c/TT,America/Port_of_Spain,spa,480i
 CNCCajamarca.pe,SD,SD,TRUE,c/PE,America/Lima,spa,480i
@@ -23420,7 +23422,7 @@ PlusTVAfrica.ng,SD,SD,TRUE,c/NG,Africa/Lagos,eng,576i
 PlusTVMachagai.ar,SD,SD,TRUE,s/AR-H,America/Argentina/Buenos_Aires,spa,576i
 PlutoTVAction.us,France,France,FALSE,c/FR,Europe/Paris,fra,576i
 PlutoTVAction.us,UK,UK,FALSE,c/UK,Europe/London,eng,576i
-PlutoTVAction.us,US,US,TRUE,c/US,America/New_York,spa,480i
+PlutoTVAction.us,US,US,TRUE,c/US,America/New_York,eng,480i
 PlutoTVActionSports.us,Spain,Spain,FALSE,c/ES,Europe/Madrid,spa,576i
 PlutoTVActionSports.us,US,US,TRUE,c/US,America/New_York,eng,480i
 PlutoTVAdrenalinaFreezone.us,Brazil,Brazil,TRUE,c/BR,America/Sao_Paulo,por,480i
@@ -23569,6 +23571,7 @@ PlutoTVHogar.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
 PlutoTVHome.us,Germany,Germany,FALSE,c/DE,Europe/Berlin,deu,576i
 PlutoTVHome.us,UK,UK,FALSE,c/UK,Europe/London,eng,576i
 PlutoTVHome.us,US,US,TRUE,c/US,America/New_York,eng,480i
+PlutoTVHorror.us,Spain,Spain,FALSE,c/ES,Europe/Madrid,spa,576i
 PlutoTVHorror.us,UK,UK,FALSE,c/UK,Europe/London,eng,576i
 PlutoTVHorror.us,US,US,TRUE,c/US,America/New_York,eng,480i
 PlutoTVHumor.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
@@ -24576,6 +24579,7 @@ RadioSTV.rs,SD,SD,TRUE,c/RS,Europe/Belgrade,srp,576i
 RadioSublimeGraciaTV.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 RadiosUnidasTelevision.co,SD,SD,TRUE,c/CO,America/Bogota,spa,480i
 RadioSuyaiTV.cl,HD,HD,TRUE,r/LATAM,America/Santiago,spa,1080p
+RadioSWHTV.lv,SD,SD,TRUE,c/LV,Europe/Riga,lav,576i
 RadioTaorminaSicilia.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
 RadiotecaWebstereo.cl,SD,SD,TRUE,c/CL,America/Santiago,spa,480i
 RadioTele4VEH.ht,SD,SD,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
@@ -24725,6 +24729,7 @@ RaiNews24.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
 RaiPremium.it,HD,HD,FALSE,c/IT,Europe/Rome,ita,1080i
 RaiPremium.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
 RaiRadio2Visual.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
+RaiScuola.it,HD,HD,FALSE,c/IT,Europe/Rome,ita,576i
 RaiScuola.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
 RaiSport.it,HD,HD,FALSE,c/IT,Europe/Rome,ita,1080i
 RaiSport.it,HDHEVC,HD HEVC,FALSE,c/IT,Europe/Rome,ita,1080i

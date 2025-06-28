@@ -762,6 +762,7 @@ AdoracionReal.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
 AdoramTV.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
 AdosTV.tg,SD,SD,TRUE,c/TG,Africa/Lome,fra,576i
 ADOTV.bj,SD,SD,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
+AdrenalinaPuraTV.us,SD,SD,TRUE,c/US;r/HISPAM,America/New_York,spa,576i
 AdrenalinaSportsNetwork.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
 AdriaMusicTelevision.de,SD,SD,TRUE,c/DE;c/SI,Europe/Ljubljana,deu,576i
 AdriaNetTV.al,SD,SD,TRUE,c/AL,Europe/Tirane,sqi,576i
@@ -1070,11 +1071,10 @@ AlAoula.ma,MiddleEast,Middle East,FALSE,c/MA,Africa/Casablanca,ara;fra;spa,576i
 AlAoula.ma,SD,SD,TRUE,c/MA,Africa/Casablanca,ara;fra;spa,576i
 AlaqariaTV.dz,SD,SD,TRUE,c/DZ,Africa/Algiers,ara,576i
 AlAqsaTV.ps,SD,SD,TRUE,c/PS,Asia/Gaza,ara,576i
-Alarabiya.ae,SD,SD,TRUE,c/AE,Asia/Riyadh,ara,576i
-AlArabiyaBusiness.ae,SD,SD,TRUE,c/AE,Asia/Dubai,ara,576i
-AlArabiyaBusiness.sa,SD,SD,TRUE,c/SA,Asia/Riyadh,ara,576i
-AlarabiyaPortrait.ae,SD,SD,TRUE,c/AE,Asia/Dubai,ara,576i
-AlArabiyaPrograms.ae,SD,SD,TRUE,r/ARAB,Asia/Dubai,ara,576i
+Alarabiya.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Riyadh,ara,576i
+AlArabiyaBusiness.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,ara,576i
+AlarabiyaPortrait.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,ara,576i
+AlArabiyaPrograms.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,ara,576i
 AlArabyTV.qa,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Qatar,ara,576i
 AlArabyTV2.qa,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Qatar,ara,576i
 AlassemaTV.eg,SD,SD,TRUE,c/EG,Africa/Cairo,ara,576i
@@ -1163,7 +1163,7 @@ AlGhadPlus.eg,SD,SD,TRUE,c/EG,Africa/Cairo,ara,576i
 AlGhadTV.eg,SD,SD,TRUE,c/EG,Africa/Cairo,ara,576i
 Alghadye.ye,SD,SD,TRUE,c/YE,Asia/Aden,ara,576i
 AlghurfahTV.ye,SD,SD,TRUE,c/YE,Asia/Aden,ara,576i
-AlHadath.sa,SD,SD,TRUE,c/AE,Asia/Riyadh,ara,576i
+AlHadath.sa,SD,SD,TRUE,c/SA;r/ARAB,Asia/Riyadh,ara,576i
 AlHadathAlyoum.eg,SD,SD,TRUE,c/EG,Africa/Cairo,ara,576i
 AlHakikaTV.jo,SD,SD,TRUE,c/JO,Asia/Amman,ara,576i
 AlhaqeqaAldawlia.jo,SD,SD,TRUE,c/JO,Asia/Amman,ara,576i
@@ -2032,8 +2032,8 @@ AsenaTV.uk,SD,SD,TRUE,c/UK;c/ER,America/Toronto,tir,576i
 AsfiyahiTV.sn,SD,SD,TRUE,c/SN,Africa/Dakar,fra,576i
 Asgabat.tm,SD,SD,TRUE,c/TM,Asia/Ashgabat,tuk,576i
 AshamTV.et,SD,SD,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
-AsharqDiscovery.sa,SD,SD,TRUE,c/SA,Asia/Riyadh,ara,576i
-AsharqDocumentary.sa,SD,SD,TRUE,c/SA,Asia/Riyadh,ara,576i
+AsharqDiscovery.sa,SD,SD,TRUE,c/SA;r/ARAB,Asia/Riyadh,ara,576i
+AsharqDocumentary.sa,SD,SD,TRUE,c/SA;r/ARAB,Asia/Riyadh,ara,576i
 AsharqNews.sa,SD,SD,TRUE,c/SA,Asia/Riyadh,ara,576i
 AsharqNewsPortrait.sa,SD,SD,TRUE,c/SA,Asia/Riyadh,ara,576i
 AsharqRadio.sa,SD,SD,TRUE,c/SA,Asia/Riyadh,ara,576i
@@ -4533,6 +4533,7 @@ CanalPlusAction.et,SD,SD,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 CanalPlusActionCentre.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusActionMyanmar.fr,SD,SD,TRUE,c/FR,Europe/Paris,mya,576i
 CanalPlusActionOuest.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
+CanalPlusBoxOffice.fr,French,French,TRUE,c/FR,Europe/Paris,fra,1080p
 CanalPlusCaledonie.nc,SD,SD,TRUE,c/NC,Pacific/Noumea,fra,576i
 CanalPlusCaraibes.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusChaTate.mm,SD,SD,TRUE,c/MM,Asia/Yangon,mya,480i
@@ -33773,7 +33774,6 @@ WAMIDT4.us,SD,SD,TRUE,s/US-FL,America/New_York,eng,480i
 WAMIDT5.us,SD,SD,TRUE,s/US-FL,America/New_York,eng,480i
 WANALD1.us,SD,SD,TRUE,s/US-FL,Europe/Rome,eng,480i
 Wanasah.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,ara,576i
-WanasahTV.sa,SD,SD,TRUE,c/SA,Asia/Riyadh,ara,576i
 WANDDT1.us,SD,SD,TRUE,s/US-IL,America/Chicago,eng,480i
 WANDDT2.us,SD,SD,TRUE,s/US-IL,America/Chicago,eng,480i
 WANDDT3.us,SD,SD,TRUE,s/US-IL,America/Chicago,eng,480i

@@ -1109,6 +1109,7 @@ AlbUKTV.uk,SD,SD,TRUE,c/UK,America/Toronto,sqi;eng,576i
 AlcanceTV.mx,SD,SD,TRUE,c/MX,America/Hermosillo,spa,480i
 AlcanceTV.ve,SD,SD,TRUE,c/VE,America/Caracas,spa,480i
 AlcarriaTV.es,SD,SD,TRUE,c/ES,America/Mexico_City,spa,576i
+ALCARRIZOSTV.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,576i
 AlDafrahTV.ae,SD,SD,TRUE,c/AE,Asia/Dubai,ara,576i
 AlDawahTV.bd,SD,SD,TRUE,c/BD,Asia/Dhaka,ben,576i
 AlDiwaniyah.iq,SD,SD,TRUE,c/IQ,Asia/Baghdad,ara,576i
@@ -2621,7 +2622,7 @@ BalanzanTV.ml,SD,SD,TRUE,c/ML,Africa/Bamako,fra,576i
 Balapan.kz,SD,SD,TRUE,c/KZ,Asia/Almaty,kaz,576i
 Balastan.kg,SD,SD,TRUE,r/CAS,Asia/Bishkek,kir;rus,576i
 BalatonTV.hu,SD,SD,TRUE,c/HU,Europe/Budapest,hun,576i
-BalchiTV.aw,SD,SD,TRUE,c/AW,America/La_Paz,nld;pap,480i
+BalchiTV.aw,SD,SD,TRUE,c/AW,America/Aruba,nld;pap,480i
 BalikpapanTV.id,SD,SD,TRUE,s/ID-KI,Asia/Makassar,ind,576i
 BaliTV.id,SD,SD,TRUE,s/ID-BA,Asia/Makassar,ind,576i
 BaliUnitedTV.id,SD,SD,TRUE,c/ID,Asia/Jakarta,ind,576i
@@ -4124,6 +4125,7 @@ Canal162.mx,SD,SD,TRUE,s/MX-PUE,America/Mexico_City,spa,480i
 Canal16ArceCable.sv,SD,SD,TRUE,c/SV,America/El_Salvador,spa,576i
 Canal16PacificoTV.ar,SD,SD,TRUE,s/AR-A,America/Argentina/Salta,spa,576i
 Canal17NuevaGuinea.ni,SD,SD,TRUE,c/NI,America/Managua,spa,480i
+Canal17RTVD.do,HD,HD,TRUE,c/DO,America/Santo_Domingo,spa,576i
 Canal180.pt,SD,SD,TRUE,c/PT,Europe/Lisbon,por,576i
 Canal1MarMenorTorrePacheco.es,SD,SD,TRUE,s/ES-MC,Europe/Madrid,spa,576i
 Canal2.co,SD,SD,TRUE,s/CO-VAC,America/Bogota,spa,480i
@@ -4146,7 +4148,7 @@ Canal21Rioverde.mx,SD,SD,TRUE,c/MX,America/Mexico_City,spa,480i
 Canal21Tachira.ve,SD,SD,TRUE,c/VE,America/Santo_Domingo,spa,480i
 Canal21TV.ar,SD,SD,TRUE,s/AR-N,America/Argentina/Cordoba,spa,576i
 Canal22.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
-Canal22Aruba.aw,SD,SD,TRUE,c/AW,America/La_Paz,nld;pap,480i
+Canal22Aruba.aw,SD,SD,TRUE,c/AW,America/Aruba,nld;pap,480i
 Canal22Internacional.mx,SD,SD,TRUE,c/US,America/Mexico_City,spa,480i
 Canal22MetropolitanayNacional.mx,SD,SD,TRUE,c/MX,America/Mexico_City,spa,480i
 Canal22Nacional.mx,SD,SD,TRUE,c/MX,America/Mexico_City,spa,480i
@@ -8307,6 +8309,7 @@ ElOussraTV.mr,SD,SD,TRUE,c/MR,Africa/Nouakchott,ara,576i
 ElPaisTV.es,SD,SD,TRUE,c/ES,Europe/Madrid,spa,576i
 ElPalomarTV.ar,SD,SD,TRUE,s/AR-T,America/Argentina/Buenos_Aires,spa,576i
 ElPinguinoTV.cl,SD,SD,TRUE,c/CL,America/Santiago,spa,480i
+ElPitucoTV.do,HD,HD,TRUE,c/DO,America/Santo_Domingo,spa,720p
 ElPuebloTelevision.pe,SD,SD,TRUE,s/PE-ARE,America/Lima,spa,480i
 ElPuertoTV.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
 ElRadio9090FM.eg,SD,SD,TRUE,c/EG,Africa/Cairo,ara,576i
@@ -8314,6 +8317,7 @@ ElRey.us,SD,SD,TRUE,c/US,America/Chicago,eng,480i
 ElrodiTV.al,SD,SD,TRUE,c/AL,Europe/Tirane,sqi,576i
 ElRoiTV.gt,SD,SD,TRUE,c/GT,America/Guatemala,spa,480i
 ElSegundoMedia.us,SD,SD,TRUE,s/US-CA,America/New_York,eng,480i
+ElSeis6.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,576i
 ElSelloTVMadariaga.ar,SD,SD,TRUE,s/AR-B,America/Argentina/Buenos_Aires,spa,576i
 ElSembradorNuevaEvangelizacionESNE.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
 ElshaddaiTelevisionNetwork.uk,SD,SD,TRUE,c/UK,America/Toronto,amh,576i
@@ -19496,16 +19500,20 @@ MBC.mw,SD,SD,TRUE,c/MW,Africa/Blantyre,eng;nya,576i
 MBC.uk,HD,HD,TRUE,c/UK,Europe/London,eng,1080p
 MBC.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 MBC1.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Riyadh,ara,576i
-MBC1.mu,SD,SD,TRUE,c/MU,Asia/Riyadh,fra,576i
+MBC1.mu,SD,SD,TRUE,c/MU,Indian/Mauritius,fra;eng;hin;mfe,576i
+MBC11.mu,SD,SD,TRUE,c/MU,Indian/Mauritius,fra;eng;hin,576i
+MBC16.mu,SD,SD,TRUE,c/MU,Indian/Mauritius,hin,576i
 MBC1USA.us,SD,SD,TRUE,c/US,Asia/Riyadh,eng;ara,480i
 MBC2.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Riyadh,ara;eng,576i
-MBC2.mu,SD,SD,TRUE,c/MU,Asia/Riyadh,fra,576i
+MBC2.mu,SD,SD,TRUE,c/MU,Indian/Mauritius,fra;eng;hin;mfe;tel;mar;urd;cmn,576i
 MBC2.mw,SD,SD,TRUE,c/MW,Africa/Blantyre,eng;nya,576i
 MBC3.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Riyadh,ara,576i
-MBC3.mu,SD,SD,TRUE,c/MU,Asia/Riyadh,fra,576i
+MBC3.mu,SD,SD,TRUE,c/MU,Indian/Mauritius,fra;eng;hin;mfe,576i
 MBC3USA.us,SD,SD,TRUE,c/US,Asia/Riyadh,ara;eng,480i
 MBC4.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,ara,576i
+MBC4.mu,SD,SD,TRUE,c/MU,Indian/Mauritius,hin,576i
 MBC5.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,ara,576i
+MBC5.mu,SD,SD,TRUE,c/MU,Indian/Mauritius,eng;fra,576i
 MBCAction.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,eng;ara,576i
 MBCAmerica.us,SD,SD,TRUE,c/US,America/Santiago,kor;eng,480i
 MBCBollywood.ae,SD,SD,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,eng;hin;ara,576i
@@ -23483,7 +23491,6 @@ PlutoTVCineRomance.us,Brazil,Brazil,TRUE,c/BR,America/Sao_Paulo,por,480i
 PlutoTVCineRomantico.us,Spain,Spain,TRUE,c/ES,Europe/Madrid,spa,576i
 PlutoTVCineSucessos.us,Brazil,Brazil,TRUE,c/BR,America/Sao_Paulo,por,480i
 PlutoTVCineSuspenso.us,SD,SD,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
-PlutoTVCineTerror.us,Brazil,Brazil,TRUE,c/BR,America/Sao_Paulo,por,480i
 PlutoTVClassicTV.us,UK,UK,TRUE,c/UK,Europe/London,eng,576i
 PlutoTVCMTWesterns.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 PlutoTVCocina.us,Spain,Spain,TRUE,c/ES,Europe/Madrid,spa,576i
@@ -30680,6 +30687,7 @@ TurbionDigitalTV.bo,SD,SD,TRUE,c/BO,America/La_Paz,spa,480i
 TurboMixRadioTV.pe,SD,SD,TRUE,c/PE,America/Lima,spa,480i
 TurboTV.sk,SD,SD,TRUE,c/SK,Europe/Bratislava,slk,576i
 TurfMovil.cl,SD,SD,TRUE,c/CL,America/Santiago,spa,480i
+TurismoHD.us,HD,HD,TRUE,c/US,America/New_York,eng;spa,720p
 TurismoTravelTV.cl,SD,SD,TRUE,c/CL,America/Santiago,spa,480i
 TurismoVisionArgentina.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 TuristikTV.mx,SD,SD,TRUE,s/MX-ROO,America/Mexico_City,spa,480i

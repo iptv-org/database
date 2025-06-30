@@ -13,7 +13,8 @@ import {
   Channel,
   Country,
   Region,
-  Feed
+  Feed,
+  Logo
 } from '../../models'
 import {
   BlocklistRecordValidator,
@@ -24,7 +25,8 @@ import {
   ChannelValidator,
   CountryValidator,
   RegionValidator,
-  FeedValidator
+  FeedValidator,
+  LogoValidator
 } from '../../validators'
 
 let totalErrors = 0
@@ -36,6 +38,7 @@ async function main() {
 
   validateChannels(data)
   validateFeeds(data)
+  validateLogo(data)
   validateRegions(data)
   validateBlocklist(data)
   validateCategories(data)
@@ -88,6 +91,28 @@ function validateFeeds(data: DataLoaderData) {
   })
 
   if (errors.count()) displayErrors('feeds.csv', errors)
+
+  totalErrors += errors.count()
+}
+
+function validateLogo(data: DataLoaderData) {
+  let errors = new Collection()
+
+  findDuplicatesBy(data.logos, ['channelId', 'feedId', 'url']).forEach((logo: Logo) => {
+    errors.add({
+      line: logo.getLine(),
+      message: `logo with channelId "${logo.channelId}", feedId "${logo.feedId ?? ''}" and url "${
+        logo.url
+      }" already exists`
+    })
+  })
+
+  const validator = new LogoValidator({ data })
+  data.logos.forEach((logo: Logo) => {
+    errors = errors.concat(validator.validate(logo))
+  })
+
+  if (errors.count()) displayErrors('logos.csv', errors)
 
   totalErrors += errors.count()
 }
@@ -239,7 +264,7 @@ function findDuplicatesBy(items: Collection, keys: string[]) {
   const buffer = new Dictionary()
 
   items.forEach((item: { [key: string]: string | number }) => {
-    const normId = keys.map(key => item[key].toString().toLowerCase()).join()
+    const normId = keys.map(key => (item[key] ?? '').toString().toLowerCase()).join()
     if (buffer.has(normId)) {
       duplicates.add(item)
     }

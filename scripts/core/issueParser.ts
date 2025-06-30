@@ -15,7 +15,7 @@ const FIELDS = new Dictionary({
   City: 'city',
   'Broadcast Area': 'broadcast_area',
   Timezones: 'timezones',
-  Format: 'video_format',
+  Format: 'format',
   Languages: 'languages',
   Categories: 'categories',
   NSFW: 'is_nsfw',
@@ -26,26 +26,35 @@ const FIELDS = new Dictionary({
   Logo: 'logo',
   Reason: 'reason',
   Notes: 'notes',
-  Reference: 'ref'
+  Reference: 'ref',
+  'Logo URL': 'logo_url',
+  Tags: 'tags',
+  Width: 'width',
+  Height: 'height',
+  'New Channel ID': 'new_channel_id',
+  'New Feed ID': 'new_feed_id',
+  'New Logo URL': 'new_logo_url'
 })
 
 export class IssueParser {
   parse(issue: { number: number; body: string; labels: { name: string }[] }): Issue {
     if (!issue.body) throw new Error('Issue body is missing')
 
-    const fields = issue.body.split('###')
+    const fields = typeof issue.body === 'string' ? issue.body.split('###') : []
 
     const data = new Dictionary()
     fields.forEach((field: string) => {
-      let [_label, , _value] = field.split(/\r?\n/)
+      const parsed = typeof field === 'string' ? field.split(/\r?\n/).filter(Boolean) : []
+      let _label = parsed.shift()
       _label = _label ? _label.replace(/ \(optional\)| \(required\)/, '').trim() : ''
+      let _value = parsed.join('\r\n')
       _value = _value ? _value.trim() : ''
 
       if (!_label || !_value) return data
 
       const id: string = FIELDS.get(_label)
-      const value: string | undefined =
-        _value === '_No response_' || _value === 'None' ? undefined : _value
+      const value: string =
+        _value.toLowerCase() === '_no response_' || _value.toLowerCase() === 'none' ? '' : _value
 
       if (!id) return
 

@@ -1,13 +1,13 @@
-name: ✏️ Edit feed
-description: Request to edit feed description
-title: 'Edit: '
-labels: ['feeds:edit']
+name: ➕ Add feed
+description: Request to add a channel feed into the database
+title: 'Add: '
+labels: ['feeds:add']
 
 body:
   - type: markdown
     attributes:
       value: |
-        Please specify exactly what should be changed. To delete an existing value without replacement use the `~` symbol.
+        Please fill out the issue form as much as you can so we could efficiently process your request.
 
   - type: input
     id: channel_id
@@ -19,20 +19,13 @@ body:
       required: true
 
   - type: input
-    id: feed_id
-    attributes:
-      label: Feed ID (required)
-      description: The ID of the feed that should be updated
-      placeholder: 'West'
-    validations:
-      required: true
-
-  - type: input
     id: feed_name
     attributes:
       label: Feed Name
       description: "Unique for this channel feed name in English. For example: `HD`, `East`, `French`, `+1`, etc. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `|`, `¡`"
-      placeholder: 'West HD'
+      placeholder: 'SD'
+    validations:
+      required: true
 
   - type: dropdown
     id: is_main
@@ -42,13 +35,17 @@ body:
       options:
         - 'FALSE'
         - 'TRUE'
+    validations:
+      required: true
 
   - type: input
     id: broadcast_area
     attributes:
       label: Broadcast Area
-      description: "List of codes describing the broadcasting area of the feed separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`. A full list of supported codes can be found here: [countries](https://github.com/iptv-org/database/blob/master/data/countries.csv), [subdivisions](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv), [regions](https://github.com/iptv-org/database/blob/master/data/regions.csv)"
+      description: "List of codes describing the broadcasting area of the feed separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`. A full list of supported codes can be found here: [data/countries.csv](https://github.com/iptv-org/database/blob/master/data/countries.csv), [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv), [data/regions.csv](https://github.com/iptv-org/database/blob/master/data/regions.csv)"
       placeholder: 'c/CN'
+    validations:
+      required: true
 
   - type: input
     id: timezones
@@ -56,6 +53,8 @@ body:
       label: Timezones
       description: List of broadcast time zones separated by `;`. A list of all supported timezones and their codes can be found in [data/timezones.csv](https://github.com/iptv-org/database/blob/master/data/timezones.csv)
       placeholder: 'Asia/Shanghai'
+    validations:
+      required: true
 
   - type: input
     id: languages
@@ -63,12 +62,15 @@ body:
       label: Languages
       description: List of languages in which the feed is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](https://github.com/iptv-org/database/blob/master/data/languages.csv)
       placeholder: 'zho;eng'
+    validations:
+      required: true
 
   - type: dropdown
-    id: video_format
+    id: format
     attributes:
       label: Format
       description: Video format of the broadcast
+      default: 6
       options:
         - '4320p'
         - '2160p'
@@ -81,6 +83,8 @@ body:
         - '480i'
         - '360p'
         - '240p'
+    validations:
+      required: true
 
   - type: textarea
     attributes:

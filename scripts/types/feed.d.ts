@@ -6,5 +6,5 @@ export type FeedData = {
   broadcast_area: string[]
   timezones: string[]
   languages: string[]
-  video_format?: string
+  format?: string
 }

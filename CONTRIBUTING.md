@@ -2,7 +2,6 @@
 
 - [How to?](#how-to)
 - [Data Scheme](#data-scheme)
-- [Channel Logo Guidelines](#channel-logo-guidelines)
 - [Project Structure](#project-structure)
 - [Scripts](#scripts)
 - [Workflows](#workflows)
@@ -11,7 +10,7 @@
 
 ### How to add a new channel to the database?
 
-The easiest way is to send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aadd&projects=&template=1_channels_add.yml&title=Add%3A+). Just fill in all the information you know about the channel and press send. Once your request is approved, the channel will automatically be added to the database.
+The easiest way is to send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aadd&projects=&template=01_channels_add.yml&title=Add%3A+). Just fill in all the information you know about the channel and press send. Once your request is approved, the channel will automatically be added to the database.
 
 If you want to add more than one channel, you can do it directly by editing the [data/channels.csv](data/channels.csv) file in any text editor. After that, just [commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) all changes and send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
@@ -21,7 +20,7 @@ If you want to add more than one channel, you can do it directly by editing the 
 
 As with adding a channel, this can be done in several ways.
 
-The first option is to send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aedit&projects=&template=2_channels_edit.yml&title=Edit%3A+). Just specify the ID of the channel you want to edit and the new data. To delete a value, insert `~` in the desired field. After your request is approved, the channel description will be automatically updated.
+The first option is to send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aedit&projects=&template=02_channels_edit.yml&title=Edit%3A+). Just specify the ID of the channel you want to edit and the new data. To delete a value, insert `~` in the desired field. After your request is approved, the channel description will be automatically updated.
 
 The second option is to edit the [data/channels.csv](data/channels.csv) file using a text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
@@ -29,53 +28,67 @@ The second option is to edit the [data/channels.csv](data/channels.csv) file usi
 
 ### How to remove a channel from the database?
 
-To remove a channel fill out this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aremove&projects=&template=3_channels_remove.yml&title=Remove%3A+) with channel ID and the reason for deletion.
+To remove a channel fill out this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aremove&projects=&template=03_channels_remove.yml&title=Remove%3A+) with channel ID and the reason for deletion.
 
 **NOTE:** Closing a channel is not a reason to remove it from the database.
 
 ### How to mark a channel as closed?
 
-To do this, use this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aedit&projects=&template=2_channels_edit.yml&title=Edit%3A+). In it, in the "Closed" field you will need to specify at least the approximate date of closing. And there you can also specify the ID of the channel that replaced it, if necessary.
+To do this, use this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aedit&projects=&template=02_channels_edit.yml&title=Edit%3A+). In it, in the "Closed" field you will need to specify at least the approximate date of closing. And there you can also specify the ID of the channel that replaced it, if necessary.
 
 ### How to add a new feed to the database?
 
-_Option 1:_ Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aadd&projects=&template=4_feeds_add.yml&title=Add%3A+). Fill in all the information you know about the feed and press send. Once your request is approved, the feed will automatically be added to the database.
+_Option 1:_ Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aadd&projects=&template=04_feeds_add.yml&title=Add%3A+). Fill in all the information you know about the feed and press send. Once your request is approved, the feed will automatically be added to the database.
 
 _Option 2:_ Edit the [data/feeds.csv](data/feeds.csv) file using a text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
 ### How to edit feed description?
 
-_Option 1:_ Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aedit&projects=&template=5_feeds_edit.yml&title=Edit%3A+). Specify the ID of the channel and feed you want to edit and the new data. To delete a value, insert `~` in the desired field. After your request is approved, the feed description will be automatically updated.
+_Option 1:_ Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aedit&projects=&template=05_feeds_edit.yml&title=Edit%3A+). Specify the ID of the channel and feed you want to edit and the new data. To delete a value, insert `~` in the desired field. After your request is approved, the feed description will be automatically updated.
 
 _Option 2:_ Edit the [data/feeds.csv](data/feeds.csv) file using a text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
 ### How to remove a feed from the database?
 
-Just fill out this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aremove&projects=&template=6_feeds_remove.yml&title=Remove%3A+).
+Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aremove&projects=&template=06_feeds_remove.yml&title=Remove%3A+). Once your request is approved, the feed will automatically be removed from the database.
+
+### How to add a new logo to the database?
+
+_Option 1:_ Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=logos%3Aadd&projects=&template=07_logos_add.yml&title=Add%3A+). Fill in all the information you know about the logo and press send. Once your request is approved, the logo will automatically be added to the database.
+
+_Option 2:_ Edit the [data/logos.csv](data/logos.csv) file using a text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+
+### How to edit logo description?
+
+_Option 1:_ Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=logos%3Aedit&projects=&template=08_logos_edit.yml&title=Edit%3A+). Specify the ID of the channel and logo you want to edit and the new data. To delete a value, insert `~` in the desired field. After your request is approved, the logo description will be automatically updated.
+
+_Option 2:_ Edit the [data/logos.csv](data/logos.csv) file using a text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+
+### How to remove a logo from the database?
+
+Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=logos%3Aremove&projects=&template=09_logos_remove.yml&title=Remove%3A+). Once your request is approved, the logo will automatically be removed from the database.
 
 ## Data Scheme
 
 ### channels
 
-| Field          | Description                                                                                                                                                                                                                                                                                 | Required | Example                        |
-| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------ |
-| id             | Unique channel ID derived from the `name` and `country` separated by dot. May only contain Latin letters, numbers and dot.                                                                                                                                                                  | Required | `AnhuiTV.cn`                   |
-| name           | Official channel name in English or call sign. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, <code>\|</code>, `¡`.                                                                                                         | Required | `Anhui TV`                     |
-| alt_names      | List of alternative channel names separated by `;`. May contain any characters except `,` and `"`.                                                                                                                                                                                          | Optional | `安徽卫视;AHTV`                |
-| network        | Network of which this channel is a part. May contain any characters except `,` and `"`.                                                                                                                                                                                                     | Optional | `Anhui`                        |
-| owners         | List of channel owners separated by `;`. May contain any characters except `,` and `"`.                                                                                                                                                                                                     | Optional | `China Central Television`     |
-| country        | Country code from which the channel is transmitted. A list of all supported countries and their codes can be found in [data/countries.csv](data/countries.csv)                                                                                                                              | Required | `CN`                           |
-| subdivision    | Code of the subdivision (e.g., provinces or states) from which the broadcast is transmitted. A list of all supported subdivisions and their codes can be found in [data/subdivisions.csv](data/subdivisions.csv).                                                                           | Optional | `CN-AH`                        |
-| city           | The name of the city in English from which the channel is broadcast. May contain any characters except `,` and `"`.                                                                                                                                                                         | Optional | `Hefei`                        |
-| broadcast_area | [DEPRECATED] List of codes describing the broadcasting area of the channel separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`.                                                                                                              | Required | `c/CN;r/ASIA`                  |
-| languages      | [DEPRECATED] List of languages in which the channel is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](data/languages.csv).                                                                                              | Required | `zho;eng`                      |
-| categories     | List of categories to which this channel belongs separated by `;`. A list of all supported categories can be found in [data/categories.csv](data/categories.csv).                                                                                                                           | Optional | `animation;kids`               |
-| is_nsfw        | Indicates whether the channel broadcasts adult content (`TRUE` or `FALSE`).                                                                                                                                                                                                                 | Required | `FALSE`                        |
-| launched       | Launch date of the channel (`YYYY-MM-DD`).                                                                                                                                                                                                                                                  | Optional | `2016-07-28`                   |
-| closed         | Date on which the channel closed (`YYYY-MM-DD`).                                                                                                                                                                                                                                            | Optional | `2020-05-31`                   |
-| replaced_by    | The ID of the channel that this channel was replaced by.                                                                                                                                                                                                                                    | Optional | `CCTV1.cn`                     |
-| website        | Official website URL.                                                                                                                                                                                                                                                                       | Optional | `http://www.ahtv.cn/`          |
-| logo           | Logo URL. Only URL with [HTTPS](https://ru.wikipedia.org/wiki/HTTPS) protocol are allowed. Supported image types: `PNG`, `JPEG`. Max size: 512x512 pixels. The link should not be [geo-blocked](https://en.wikipedia.org/wiki/Geo-blocking). May contain any characters except `,` and `"`. | Required | `https://example.com/logo.png` |
+| Field       | Description                                                                                                                                                                                                                                                                                              | Required | Example                        |
+| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------ |
+| id          | Unique channel ID derived from the `name` and `country` separated by dot. May only contain Latin letters, numbers and dot.                                                                                                                                                                               | Required | `AnhuiTV.cn`                   |
+| name        | Official channel name in English or call sign. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, <code>\|</code>, `¡`.                                                                                                                      | Required | `Anhui TV`                     |
+| alt_names   | List of alternative channel names separated by `;`. May contain any characters except `,` and `"`.                                                                                                                                                                                                       | Optional | `安徽卫视;AHTV`                |
+| network     | Network of which this channel is a part. May contain any characters except `,` and `"`.                                                                                                                                                                                                                  | Optional | `Anhui`                        |
+| owners      | List of channel owners separated by `;`. May contain any characters except `,` and `"`.                                                                                                                                                                                                                  | Optional | `China Central Television`     |
+| country     | Country code from which the channel is transmitted. A list of all supported countries and their codes can be found in [data/countries.csv](data/countries.csv)                                                                                                                                           | Required | `CN`                           |
+| subdivision | Code of the subdivision (e.g., provinces or states) from which the broadcast is transmitted. A list of all supported subdivisions and their codes can be found in [data/subdivisions.csv](data/subdivisions.csv).                                                                                        | Optional | `CN-AH`                        |
+| city        | The name of the city in English from which the channel is broadcast. May contain any characters except `,` and `"`.                                                                                                                                                                                      | Optional | `Hefei`                        |
+| categories  | List of categories to which this channel belongs separated by `;`. A list of all supported categories can be found in [data/categories.csv](data/categories.csv).                                                                                                                                        | Optional | `animation;kids`               |
+| is_nsfw     | Indicates whether the channel broadcasts adult content (`TRUE` or `FALSE`).                                                                                                                                                                                                                              | Required | `FALSE`                        |
+| launched    | Launch date of the channel (`YYYY-MM-DD`).                                                                                                                                                                                                                                                               | Optional | `2016-07-28`                   |
+| closed      | Date on which the channel closed (`YYYY-MM-DD`).                                                                                                                                                                                                                                                         | Optional | `2020-05-31`                   |
+| replaced_by | The ID of the channel that this channel was replaced by.                                                                                                                                                                                                                                                 | Optional | `CCTV1.cn`                     |
+| website     | Official website URL.                                                                                                                                                                                                                                                                                    | Optional | `http://www.ahtv.cn/`          |
+| logo        | [DEPRECATED] Logo URL. Only URL with [HTTPS](https://ru.wikipedia.org/wiki/HTTPS) protocol are allowed. Supported image types: `PNG`, `JPEG`. Max size: 512x512 pixels. The link should not be [geo-blocked](https://en.wikipedia.org/wiki/Geo-blocking). May contain any characters except `,` and `"`. | Required | `https://example.com/logo.png` |
 
 ### feeds
 
@@ -88,7 +101,19 @@ Just fill out this [form](https://github.com/iptv-org/database/issues/new?assign
 | broadcast_area | List of codes describing the broadcasting area of the feed separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>` is allowed. A full list of supported codes can be found here: [data/countries.csv](https://github.com/iptv-org/database/blob/master/data/countries.csv), [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv), [data/regions.csv](https://github.com/iptv-org/database/blob/master/data/regions.csv). | Required | `s/US-CA;s/US-ID`     |
 | timezones      | List of timezones in which the feed is broadcast separated by `;`. A list of all supported timezones and their codes can be found in [data/timezones.csv](data/timezones.csv).                                                                                                                                                                                                                                                                                                                                 | Required | `America/Los_Angeles` |
 | languages      | List of languages in which the feed is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](data/languages.csv).                                                                                                                                                                                                                                                                                                                                 | Required | `eng;spa`             |
-| video_format   | Video format of the feed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Required | `1080i`               |
+| format         | Video format of the feed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Required | `1080i`               |
+
+### logos
+
+| Field   | Description                                                                                                                                                                                                                         | Required | Example                        |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------ |
+| channel | Channel ID.                                                                                                                                                                                                                         | Required | `France3.fr`                   |
+| feed    | Feed ID.                                                                                                                                                                                                                            | Optional | `Alpes`                        |
+| tags    | List of keywords describing this version of the logo separated by `;`. May include: `a-z`, `0-9` and `-`.                                                                                                                           | Optional | `horizontal;white`             |
+| width   | The width of the image in pixels.                                                                                                                                                                                                   | Required | `1000`                         |
+| height  | The height of the image in pixels.                                                                                                                                                                                                  | Required | `468`                          |
+| format  | Image format. One of: `PNG`, `JPEG`, `SVG`, `GIF`, `WebP`, `AVIF`, `APNG`.                                                                                                                                                          | Optional | `SVG`                          |
+| url     | Logo URL. Only URLs with [HTTPS](https://ru.wikipedia.org/wiki/HTTPS) protocol are supported. Also the link should not be [geo-blocked](https://en.wikipedia.org/wiki/Geo-blocking). May contain any characters except `,` and `"`. | Required | `https://example.com/logo.svg` |
 
 ### categories
 
@@ -146,32 +171,6 @@ List of channels blocked at the request of copyright holders.
 | channel | Channel ID                                      | Required | `AnimalPlanetAfrica.us`           |
 | reason  | Reason for blocking                             | Required | `dmca`                            |
 | ref     | Link to removal request or DMCA takedown notice | Required | `https://example.com/issues/0000` |
-
-## Channel Logo Guidelines
-
-Since finding a suitable logo for the channel is not always possible, this list contains only recommendations and should just help you in choosing a logo from several options.
-
-1. If the channel logo has several versions, it is better to choose a color one.
-
-   That way there is less chance of the logo blending in with the background.
-
-   <img src="https://user-images.githubusercontent.com/7253922/235551685-34cbb982-078f-42b8-9fb3-2800afc80abe.png" width="600"/>
-
-2. If the logo has changed over time, use the latest version.
-
-   <img src="https://user-images.githubusercontent.com/7253922/235551700-e2ee6823-c6bc-4688-ad4c-081911703f42.png" width="600"/>
-
-3. If the channel has several versions of the logo, it is better to use the one used on air.
-
-   <img src="https://user-images.githubusercontent.com/7253922/235551795-4d89c2bc-f9eb-4ac2-88d4-2149a870776f.png" width="600"/>
-
-   <img src="https://user-images.githubusercontent.com/7253922/235551738-3e6680ff-af77-4d22-af6d-cbaab7400b66.png" width="600"/>
-
-4. If there is a transparent background around the logo is better to cut it.
-
-   That way it's much easier to scale the logo later.
-
-   <img src="https://user-images.githubusercontent.com/7253922/235551815-b9925ac5-85ac-458a-bf0b-a9d57eb2547d.png" width="600"/>
 
 ## Project Structure
 

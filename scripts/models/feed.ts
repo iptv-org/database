@@ -1,10 +1,10 @@
 import { Collection, Dictionary } from '@freearhey/core'
 import { FeedData } from '../types/feed'
+import { IssueData } from '../core'
 import { createFeedId } from '../utils'
 import { Model } from './model'
 import JoiDate from '@joi/date'
 import BaseJoi from 'joi'
-import { IssueData } from '../core'
 
 const Joi = BaseJoi.extend(JoiDate)
 
@@ -16,7 +16,7 @@ export class Feed extends Model {
   broadcastAreaCodes: Collection
   timezoneIds: Collection
   languageCodes: Collection
-  videoFormat?: string
+  format?: string
 
   constructor(data: FeedData) {
     super()
@@ -28,7 +28,7 @@ export class Feed extends Model {
     this.broadcastAreaCodes = new Collection(data.broadcast_area)
     this.timezoneIds = new Collection(data.timezones)
     this.languageCodes = new Collection(data.languages)
-    this.videoFormat = data.video_format
+    this.format = data.format
   }
 
   setId(id: string): this {
@@ -44,7 +44,7 @@ export class Feed extends Model {
       broadcast_area: issueData.getArray('broadcast_area'),
       timezones: issueData.getArray('timezones'),
       languages: issueData.getArray('languages'),
-      video_format: issueData.getString('video_format')
+      format: issueData.getString('format')
     }
 
     if (data.feed_name !== undefined) this.name = data.feed_name
@@ -53,7 +53,7 @@ export class Feed extends Model {
       this.broadcastAreaCodes = new Collection(data.broadcast_area)
     if (data.timezones !== undefined) this.timezoneIds = new Collection(data.timezones)
     if (data.languages !== undefined) this.languageCodes = new Collection(data.languages)
-    if (data.video_format !== undefined) this.videoFormat = data.video_format
+    if (data.format !== undefined) this.format = data.format
 
     return this
   }
@@ -107,7 +107,7 @@ export class Feed extends Model {
       broadcast_area: this.broadcastAreaCodes.all(),
       timezones: this.timezoneIds.all(),
       languages: this.languageCodes.all(),
-      video_format: this.videoFormat
+      format: this.format
     }
   }
 
@@ -139,7 +139,7 @@ export class Feed extends Model {
           .regex(/^[a-z]{3}$/)
           .required()
       ),
-      video_format: Joi.string()
+      format: Joi.string()
         .regex(/^\d+(i|p)$/)
         .allow(null)
     })

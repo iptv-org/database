@@ -1,10 +1,10 @@
-import { CSV, IssueLoader, Issue, IssueData } from '../../core'
-import { createChannelId, createFeedId } from '../../utils'
-import { Channel, Feed, BlocklistRecord } from '../../models'
+import { CSV, IssueLoader, Issue, IssueData, ImageProcessor } from '../../core'
+import { Channel, Feed, BlocklistRecord, Logo } from '../../models'
 import { Storage, Collection, Logger } from '@freearhey/core'
-import { DATA_DIR } from '../../constants'
-import { DataLoader } from '../../core/dataLoader'
+import { createChannelId, createFeedId } from '../../utils'
 import { DataLoaderData } from '../../types/dataLoader'
+import { DataLoader } from '../../core/dataLoader'
+import { DATA_DIR } from '../../constants'
 
 const processedIssues = new Collection()
 const dataStorage = new Storage(DATA_DIR)
@@ -29,6 +29,9 @@ async function main() {
   await addChannels(issues, data)
   await blockChannels(issues, data)
   await unblockChannels(issues, data)
+  await removeLogos(issues, data)
+  await editLogos(issues, data)
+  await addLogos(issues, data)
 
   logger.info('saving data...')
   await save(data)
@@ -57,6 +60,12 @@ async function save(data: DataLoaderData) {
     .map((blocklistRecord: BlocklistRecord) => blocklistRecord.data())
   const blocklistOutput = new CSV({ items: blocklistRecords }).toString()
   await dataStorage.save('blocklist.csv', blocklistOutput)
+
+  const logos = data.logos
+    .sortBy((logo: Logo) => `${logo.channelId}${logo.feedId}${logo.url}`.toLowerCase())
+    .map((logo: Logo) => logo.data())
+  const logosOutput = new CSV({ items: logos }).toString()
+  await dataStorage.save('logos.csv', logosOutput)
 }
 
 async function removeFeeds(issues: Collection, data: DataLoaderData) {
@@ -138,7 +147,7 @@ async function addFeeds(issues: Collection, data: DataLoaderData) {
       issueData.missing('broadcast_area') ||
       issueData.missing('timezones') ||
       issueData.missing('languages') ||
-      issueData.missing('video_format')
+      issueData.missing('format')
     )
       return
 
@@ -163,7 +172,7 @@ async function addFeeds(issues: Collection, data: DataLoaderData) {
       broadcast_area: issueData.getArray('broadcast_area') || [],
       timezones: issueData.getArray('timezones') || [],
       languages: issueData.getArray('languages') || [],
-      video_format: issueData.getString('video_format')
+      format: issueData.getString('format')
     })
 
     data.feeds.add(newFeed)
@@ -180,16 +189,13 @@ async function removeChannels(issues: Collection, data: DataLoaderData) {
   requests.forEach((issue: Issue) => {
     const issueData: IssueData = issue.data
 
-    if (issueData.missing('channel_id')) return
+    const channelId = issueData.getString('channel_id')
 
-    const found = data.channels.first(
-      (channel: Channel) => channel.id === issueData.getString('channel_id')
-    )
-    if (!found) return
+    if (!channelId) return
 
-    data.channels.remove((channel: Channel) => channel.id === found.id)
+    data.channels.remove((channel: Channel) => channel.id === channelId)
 
-    onChannelRemoval(found.id, data)
+    onChannelRemoval(channelId, data)
 
     processedIssues.push(issue)
   })
@@ -222,6 +228,11 @@ async function editChannels(issues: Collection, data: DataLoaderData) {
 
     if (!channelId) return
 
+    if (issueData.has('logo')) {
+      const logoUrl = issueData.getString('logo') || ''
+      onChannelLogoChange(found.logoUrl, logoUrl, data)
+    }
+
     found.update(issueData).setId(channelId)
 
     processedIssues.push(issue)
@@ -233,7 +244,7 @@ async function addChannels(issues: Collection, data: DataLoaderData) {
     issue => issue.labels.includes('channels:add') && issue.labels.includes('approved')
   )
 
-  requests.forEach((issue: Issue) => {
+  for (const issue of requests.all()) {
     const issueData: IssueData = issue.data
 
     if (
@@ -245,7 +256,7 @@ async function addChannels(issues: Collection, data: DataLoaderData) {
       issueData.missing('broadcast_area') ||
       issueData.missing('timezones') ||
       issueData.missing('languages') ||
-      issueData.missing('video_format')
+      issueData.missing('format')
     )
       return
 
@@ -277,21 +288,10 @@ async function addChannels(issues: Collection, data: DataLoaderData) {
     })
     data.channels.add(newChannel)
 
-    const feedName = issueData.getString('feed_name') || 'SD'
-    const newFeed = new Feed({
-      channel: channelId,
-      id: createFeedId(feedName),
-      name: feedName,
-      is_main: true,
-      broadcast_area: issueData.getArray('broadcast_area') || [],
-      timezones: issueData.getArray('timezones') || [],
-      languages: issueData.getArray('languages') || [],
-      video_format: issueData.getString('video_format')
-    })
-    data.feeds.add(newFeed)
+    await onChannelAddition(channelId, issueData, data)
 
     processedIssues.push(issue)
-  })
+  }
 }
 
 async function unblockChannels(issues: Collection, data: DataLoaderData) {
@@ -350,6 +350,114 @@ async function blockChannels(issues: Collection, data: DataLoaderData) {
   })
 }
 
+async function removeLogos(issues: Collection, data: DataLoaderData) {
+  const requests = issues.filter(
+    issue => issue.labels.includes('logos:remove') && issue.labels.includes('approved')
+  )
+
+  requests.forEach((issue: Issue) => {
+    const issueData: IssueData = issue.data
+
+    const logoUrls = issueData.getArray('logo_url') || []
+
+    if (!logoUrls.length) return
+
+    logoUrls.forEach((logoUrl: string) => {
+      data.logos.remove((logo: Logo) => {
+        let result = logo.url === logoUrl
+        if (issueData.has('channel_id'))
+          result = result && logo.channelId === issueData.getString('channel_id')
+        if (issueData.has('feed_id'))
+          result = result && logo.feedId === issueData.getString('feed_id')
+
+        return result
+      })
+    })
+
+    processedIssues.push(issue)
+  })
+}
+
+async function editLogos(issues: Collection, data: DataLoaderData) {
+  const requests = issues.filter(
+    issue => issue.labels.includes('logos:edit') && issue.labels.includes('approved')
+  )
+
+  const imageProcessor = new ImageProcessor()
+  for (const issue of requests.all()) {
+    const issueData: IssueData = issue.data
+    if (issueData.missing('logo_url')) return
+
+    const filtered: Collection = data.logos.filter((logo: Logo) => {
+      let result = logo.url === issueData.getString('logo_url')
+      if (issueData.has('channel_id'))
+        result = result && logo.channelId === issueData.getString('channel_id')
+      if (issueData.has('feed_id'))
+        result = result && logo.feedId === issueData.getString('feed_id')
+
+      return result
+    })
+    if (filtered.isEmpty()) return
+
+    for (const found of filtered.all()) {
+      found.update(issueData)
+
+      if (issueData.has('new_logo_url')) {
+        const newLogoUrl = issueData.getString('new_logo_url')
+        if (newLogoUrl) {
+          const imageInfo = await imageProcessor.probe(newLogoUrl)
+          found.setWidth(imageInfo.width)
+          found.setHeight(imageInfo.height)
+          found.setFormat(imageInfo.format)
+        }
+      }
+
+      if (issueData.has('width')) found.setWidth(issueData.getNumber('width') || 0)
+      if (issueData.has('height')) found.setHeight(issueData.getNumber('height') || 0)
+      if (issueData.has('format')) found.setFormat(issueData.getString('format') || '')
+    }
+
+    processedIssues.push(issue)
+  }
+}
+
+async function addLogos(issues: Collection, data: DataLoaderData) {
+  const requests = issues.filter(
+    issue => issue.labels.includes('logos:add') && issue.labels.includes('approved')
+  )
+
+  const imageProcessor = new ImageProcessor()
+  for (const issue of requests.all()) {
+    const issueData: IssueData = issue.data
+
+    const channelId = issueData.getString('channel_id')
+    const feedId = issueData.getString('feed_id') || ''
+    const logoUrl = issueData.getString('logo_url')
+    if (!channelId || !logoUrl) return
+
+    const found: Logo = data.logos.first(
+      (logo: Logo) => logo.channelId === channelId && logo.feedId === feedId && logo.url === logoUrl
+    )
+    if (found) return
+
+    const imageInfo = await imageProcessor.probe(logoUrl)
+
+    const newLogo = new Logo({
+      channel: channelId,
+      feed: feedId,
+      url: logoUrl,
+      tags: issueData.getArray('tags') || [],
+      width: imageInfo.width,
+      height: imageInfo.height,
+      format: imageInfo.format
+    })
+
+    data.logos.add(newLogo)
+
+    processedIssues.push(issue)
+  }
+}
+
 function onFeedIdChange(
   channelId: string,
   feedId: string,
@@ -359,6 +467,12 @@ function onFeedIdChange(
   data.channels.forEach((channel: Channel) => {
     if (channel.replacedBy && channel.replacedBy === `${channelId}@${feedId}`) {
       channel.replacedBy = `${channelId}@${newFeedId}`
+    }
+  })
+
+  data.logos.forEach((logo: Logo) => {
+    if (logo.channelId === channelId && logo.feedId === feedId) {
+      logo.feedId = newFeedId
     }
   })
 }
@@ -377,6 +491,8 @@ function onFeedRemoval(channelId: string, feedId: string, data: DataLoaderData) 
       channel.replacedBy = ''
     }
   })
+
+  data.logos.remove((logo: Logo) => logo.channelId === channelId && logo.feedId === feedId)
 }
 
 function onChannelIdChange(channelId: string, newChannelId: string, data: DataLoaderData) {
@@ -397,6 +513,20 @@ function onChannelIdChange(channelId: string, newChannelId: string, data: DataLo
       blocklistRecord.channelId = newChannelId
     }
   })
+
+  data.logos.forEach((logo: Logo) => {
+    if (logo.channelId === channelId) {
+      logo.channelId = newChannelId
+    }
+  })
+}
+
+function onChannelLogoChange(logoUrl: string, newLogoUrl: string, data: DataLoaderData) {
+  data.logos.forEach((logo: Logo) => {
+    if (logo.url === logoUrl) {
+      logo.url = newLogoUrl
+    }
+  })
 }
 
 function onChannelRemoval(channelId: string, data: DataLoaderData) {
@@ -411,4 +541,35 @@ function onChannelRemoval(channelId: string, data: DataLoaderData) {
   data.blocklistRecords.remove(
     (blocklistRecord: BlocklistRecord) => blocklistRecord.channelId === channelId
   )
+
+  data.logos.remove((logo: Logo) => logo.channelId === channelId)
+}
+
+async function onChannelAddition(channelId: string, issueData: IssueData, data: DataLoaderData) {
+  const feedName = issueData.getString('feed_name') || 'SD'
+  const newFeed = new Feed({
+    channel: channelId,
+    id: createFeedId(feedName),
+    name: feedName,
+    is_main: true,
+    broadcast_area: issueData.getArray('broadcast_area') || [],
+    timezones: issueData.getArray('timezones') || [],
+    languages: issueData.getArray('languages') || [],
+    format: issueData.getString('format')
+  })
+  data.feeds.add(newFeed)
+
+  const imageProcessor = new ImageProcessor()
+  const logoUrl = issueData.getString('logo') || ''
+  const imageInfo = await imageProcessor.probe(logoUrl)
+
+  const newLogo = new Logo({
+    channel: channelId,
+    tags: [],
+    width: imageInfo.width,
+    height: imageInfo.height,
+    format: imageInfo.format,
+    url: logoUrl
+  })
+  data.logos.add(newLogo)
 }

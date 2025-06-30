@@ -1,0 +1,46 @@
+name: 🗑️ Remove logo
+description: Request to remove a logo from the database
+title: 'Remove: '
+labels: ['logos:remove']
+
+body:
+  - type: textarea
+    id: logo_url
+    attributes:
+      label: Logo URL (required)
+      description: List of logo URLs to be deleted. One per line.
+      placeholder: 'https://example.com/logo.png'
+    validations:
+      required: true
+
+  - type: input
+    id: channel_id
+    attributes:
+      label: Channel ID
+      description: Allows to refine the request
+      placeholder: 'France3.fr'
+
+  - type: input
+    id: feed_id
+    attributes:
+      label: Feed ID
+      description: Allows to refine the request
+      placeholder: 'Alpes'
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason (required)
+      description: Select the reason for removal from the list below
+      options:
+        - 'Not loading'
+        - 'Geo-blocked'
+        - 'Other'
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: 'Anything else we should know?'

@@ -1,0 +1,52 @@
+name: ➕ Add logo
+description: Request to add a channel logo into the database
+title: 'Add: '
+labels: ['logos:add']
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the form as much as you can so we could efficiently process your request.
+
+  - type: input
+    id: channel_id
+    attributes:
+      label: Channel ID (required)
+      description: ID of the channel to which this logo belongs
+      placeholder: 'France3.fr'
+    validations:
+      required: true
+
+  - type: input
+    id: feed_id
+    attributes:
+      label: Feed ID
+      description: ID of the feed to which this logo belongs
+      placeholder: 'Alpes'
+
+  - type: input
+    id: logo_url
+    attributes:
+      label: Logo URL (required)
+      description: "Logo URL. Supported formats: `PNG`, `JPEG`, `SVG`, `GIF`, `WebP`, `AVIF`, `APNG`. Only URLs with [HTTPS](https://ru.wikipedia.org/wiki/HTTPS) protocol are supported."
+      placeholder: 'https://example.com/logo.png'
+    validations:
+      required: true
+
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: "List of keywords describing this version of the logo separated by `;`. May include: `a-z`, `0-9` and `-`."
+      placeholder: 'horizontal;white'
+
+  - type: markdown
+    attributes:
+      value: |
+        `width`, `height` and `format` will be calculated automatically
+
+  - type: textarea
+    attributes:
+      label: Notes
+      description: 'Anything else we should know?'

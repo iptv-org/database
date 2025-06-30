@@ -24,7 +24,11 @@ const opts = {
     countries: listParser,
     timezones: listParser,
     is_main: boolParser,
-    video_format: nullable
+    format: nullable,
+    feed: nullable,
+    tags: listParser,
+    width: numberParser,
+    height: numberParser
   }
 }
 
@@ -52,6 +56,10 @@ function boolParser(value: string) {
     default:
       return value
   }
+}
+
+function numberParser(value: string) {
+  return Number(value)
 }
 
 function nullable(value: string) {

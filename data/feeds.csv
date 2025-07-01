@@ -762,6 +762,7 @@ AdoracionReal.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
 AdoramTV.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
 AdosTV.tg,SD,SD,TRUE,c/TG,Africa/Lome,fra,576i
 ADOTV.bj,SD,SD,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
+AdrenalinaPuraTV.us,Brazil,Brazil,FALSE,c/BR,America/Sao_Paulo,por,576i
 AdrenalinaPuraTV.us,SD,SD,TRUE,c/US;r/HISPAM,America/New_York,spa,576i
 AdrenalinaSportsNetwork.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
 AdriaMusicTelevision.de,SD,SD,TRUE,c/DE;c/SI,Europe/Ljubljana,deu,576i
@@ -1109,7 +1110,7 @@ AlbUKTV.uk,SD,SD,TRUE,c/UK,America/Toronto,sqi;eng,576i
 AlcanceTV.mx,SD,SD,TRUE,c/MX,America/Hermosillo,spa,480i
 AlcanceTV.ve,SD,SD,TRUE,c/VE,America/Caracas,spa,480i
 AlcarriaTV.es,SD,SD,TRUE,c/ES,America/Mexico_City,spa,576i
-ALCARRIZOSTV.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,576i
+AlcarrizosTV.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,576i
 AlDafrahTV.ae,SD,SD,TRUE,c/AE,Asia/Dubai,ara,576i
 AlDawahTV.bd,SD,SD,TRUE,c/BD,Asia/Dhaka,ben,576i
 AlDiwaniyah.iq,SD,SD,TRUE,c/IQ,Asia/Baghdad,ara,576i
@@ -1122,6 +1123,7 @@ AlEkhbariya.sa,SD,SD,TRUE,c/SA,Asia/Riyadh,ara,576i
 AleKinoPlus.pl,SD,SD,TRUE,c/PL,Europe/Warsaw,pol,576i
 AlephBusiness.ro,SD,SD,TRUE,c/RO,Europe/Bucharest,ron,576i
 AlephNews.ro,SD,SD,TRUE,c/RO,Europe/Bucharest,ron,576i
+AlerteaMalibu.us,Canada,Canada,FALSE,c/CA,America/Toronto,fra,576i
 AlerteaMalibu.us,France,France,TRUE,c/FR,Europe/Paris,fra,576i
 AlerthAlnabawiChannel.jo,SD,SD,TRUE,c/JO,Asia/Amman,ara,576i
 AlertTV.gr,SD,SD,TRUE,c/GR;s/GR-I,Europe/Athens,ell,576i
@@ -3560,9 +3562,10 @@ BoasNovas.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 BoasNovasBelem.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 BoaVontadeTV.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 Bober.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
+BobEsponja.us,Brazil,Brazil,FALSE,c/BR,America/Sao_Paulo,por,576i
 BobEsponja.us,LATAM,LATAM,FALSE,c/US;r/HISPAM,America/New_York,spa,576i
 BobEsponja.us,Spain,Spain,TRUE,c/ES,Europe/Madrid,spa,576i
-Bobleponge.us,France,France,TRUE,c/FR,Europe/Paris,fra,576i
+Bobleponge.us,France,France,TRUE,c/FR;c/CA,Europe/Paris,fra,576i
 BoblepongePlus.us,France,France,TRUE,c/FR,Europe/Paris,eng,576i
 BOCTV.gh,SD,SD,TRUE,c/GH,Africa/Accra,eng,576i
 BodenseeTV.ch,SD,SD,TRUE,c/CH,Europe/Zurich,deu,576i
@@ -5872,6 +5875,7 @@ CineStarTVPremiere2.rs,SD,SD,TRUE,c/RS,Europe/Berlin,hrv,576i
 CineStarTVPremiere2.si,SD,SD,TRUE,c/SI,Europe/Berlin,slv;eng,576i
 CineSureno.us,SD,SD,TRUE,c/US,America/New_York,spa,480i
 CinesVerdi.es,SD,SD,TRUE,c/ES,Europe/Madrid,spa,576i
+CineTerror.us,Brazil,Brazil,FALSE,c/BR,America/Sao_Paulo,por,576i
 CineTerror.us,LATAM,LATAM,FALSE,c/US;r/HISPAM,America/New_York,spa,576i
 CineTerror.us,SD,SD,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
 CineTV.mu,SD,SD,TRUE,c/MU,Indian/Mauritius,fra;eng,576i
@@ -7851,6 +7855,7 @@ DreamTurk.tr,SD,SD,TRUE,c/TR,Europe/Istanbul,tur,576i
 DreamTV.in,SD,SD,TRUE,c/IN,Asia/Kolkata,mal,576i
 DreamTV.mn,SD,SD,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
 DreamTV.ug,SD,SD,TRUE,c/UG,Africa/Kampala,eng;lug,576i
+DreamWorks.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,1080p
 DreamWorksChannel.au,SD,SD,TRUE,c/AU,Australia/Sydney,eng,576i
 DreamWorksChannel.es,SD,SD,TRUE,c/ES,Europe/Madrid,eng,576i
 DreamWorksChannelAsia.us,SD,SD,TRUE,r/SEA,America/New_York,eng,480i
@@ -11689,6 +11694,7 @@ ImanTV.us,SD,SD,TRUE,c/US;c/AF,America/New_York,pus,480i
 ImasTV.es,SD,SD,TRUE,c/ES,Europe/Madrid,spa,576i
 ImayamTV.in,SD,SD,TRUE,c/IN,Asia/Kolkata,tam,576i
 IMC.id,SD,SD,TRUE,c/ID,Asia/Jakarta,ind,576i
+IMEARTH.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,1080p
 ImediTV.ge,SD,SD,TRUE,c/GE,Asia/Tbilisi,kat,576i
 Imervizia.ge,SD,SD,TRUE,c/GE,Asia/Tbilisi,kat,576i
 ImmaculataTV.ch,SD,SD,TRUE,c/CH,Europe/Zurich,deu,576i
@@ -12406,6 +12412,7 @@ JOUGDTV.jp,SD,SD,TRUE,s/JP-35,Asia/Tokyo,jpn,480i
 JOUHDTV.jp,SD,SD,TRUE,c/JP,Asia/Tokyo,jpn,480i
 JOUKDTV.jp,SD,SD,TRUE,s/JP-05,Asia/Tokyo,jpn,480i
 JOUPDTV.jp,SD,SD,TRUE,s/JP-29,Africa/Bamako,jpn,480i
+JournalDuGolf.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,1080p
 Journy.us,SD,SD,TRUE,c/US,America/Santiago,eng,480i
 JOURNYPresentsAmericatheBeautiful.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 JournysBourdainAllDay.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
@@ -19372,6 +19379,7 @@ MarkizaInternational.sk,SD,SD,TRUE,c/CZ,Europe/Bratislava,slk,576i
 MarkizaKlasik.sk,SD,SD,TRUE,c/SK,Europe/Bratislava,slk,576i
 MarkizaKrimi.sk,SD,SD,TRUE,c/SK,Europe/Bratislava,slk,576i
 MarkizaPlus.sk,SD,SD,TRUE,c/SK,Europe/Prague,slk,576i
+MarmitonTV.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,1080p
 MarneuliTV.ge,SD,SD,TRUE,c/GE,Asia/Tbilisi,kat,576i
 MaronasEntertainment.uy,SD,SD,TRUE,c/UY,America/Montevideo,spa,576i
 MaroussiotikaTV.gr,SD,SD,TRUE,c/GR,Europe/Athens,ell,576i
@@ -19595,7 +19603,9 @@ MCTVChannel118.bb,SD,SD,TRUE,c/BB,America/Barbados,eng,576i
 MDATelevision.ve,SD,SD,TRUE,c/VE,America/Caracas,spa,480i
 MDF1.de,SD,SD,TRUE,c/DE,Europe/Berlin,deu,576i
 MDL.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
-MDRFernsehen.de,SD,SD,TRUE,c/DE,Europe/Berlin,deu,576i
+MDRFernsehen.de,Sachsen,Sachsen,TRUE,s/DE-SN,Europe/Berlin,deu,576i
+MDRFernsehen.de,SachsenAnhalt,Sachsen Anhalt,FALSE,s/DE-ST,Europe/Berlin,deu,576i
+MDRFernsehen.de,Thuringen,Thuringen,FALSE,s/DE-TH,Europe/Berlin,deu,576i
 MDTV.id,HD,HD,TRUE,c/ID,Asia/Jakarta,ind,1080p
 Me.za,SD,SD,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 MeaningfulTelevision.gd,SD,SD,TRUE,c/GD,America/Grenada,eng,480i
@@ -21237,8 +21247,11 @@ NCUTV.jm,SD,SD,TRUE,c/JM,America/Jamaica,eng,480i
 NCV.in,SD,SD,TRUE,c/IN,Asia/Kolkata,mal,576i
 NCWLifeChannel.us,SD,SD,TRUE,s/US-WA,America/Los_Angeles,eng,480i
 NdaarTV.ml,SD,SD,TRUE,c/ML,Africa/Bamako,fra,576i
-NDRFernsehen.de,SD,SD,TRUE,c/DE,Europe/Berlin,deu,576i
-NDRFernsehenInternational.de,SD,SD,TRUE,r/INT,Europe/Berlin,deu,576i
+NDRFernsehen.de,Hamburg,Hamburg,TRUE,s/DE-HH,Europe/Berlin,deu,576i
+NDRFernsehen.de,MecklenburgVorpommern,Mecklenburg Vorpommern,FALSE,s/DE-MV,Europe/Berlin,deu,576i
+NDRFernsehen.de,Niedersachsen,Niedersachsen,FALSE,s/DE-NI,Europe/Berlin,deu,576i
+NDRFernsehen.de,SchleswigHolstein,Schleswig Holstein,FALSE,s/DE-SH,Europe/Berlin,deu,576i
+NDRFernsehenInternational.de,SD,SD,TRUE,c/DE;r/INT,Europe/Berlin,deu,576i
 NDTV24x7.in,SD,SD,TRUE,c/IN,Asia/Kolkata,eng,576i
 NDTVGoodTimes.in,SD,SD,TRUE,c/IN,Asia/Kolkata,eng;hin;tam,576i
 NDTVIndia.in,SD,SD,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -29365,6 +29378,7 @@ TeleMar.cu,SD,SD,TRUE,c/CU,America/Havana,spa,576i
 Telemar.ec,SD,SD,TRUE,c/EC,America/Guayaquil,spa,480i
 TelemarCampeche.mx,SD,SD,TRUE,c/MX,America/Mexico_City,spa,480i
 TeleMaroc.ma,SD,SD,TRUE,c/MA,Africa/Casablanca,ara;fra,576i
+TeleMas.cr,SD,SD,TRUE,c/CR,America/Costa_Rica,spa,576i
 Telemas.hn,SD,SD,TRUE,c/HN,America/Tegucigalpa,spa,480i
 TelemastersTV.us,SD,SD,TRUE,c/US;c/HT,America/New_York,fra;hat,480i
 Telemax.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
@@ -31868,6 +31882,7 @@ TVPirkIrImk.lt,SD,SD,TRUE,c/LT,Europe/Vilnius,lit,576i
 TVPirot.rs,SD,SD,TRUE,c/RS,Europe/Belgrade,srp,576i
 TVPirveli.ge,SD,SD,TRUE,c/GE,Asia/Tbilisi,kat,576i
 TVPitchoun.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
+TVPitchounKidsMusic.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,1080p
 TVPKobieta.pl,SD,SD,TRUE,c/PL,Europe/Warsaw,pol,576i
 TVPKultura.pl,SD,SD,TRUE,c/PL,Europe/Warsaw,pol,576i
 TVPKultura2.pl,SD,SD,TRUE,c/PL,Europe/Warsaw,pol,576i
@@ -32816,7 +32831,7 @@ VBCNews.in,SD,SD,TRUE,c/IN,Asia/Kolkata,mal,576i
 VBMediaTV.mx,SD,SD,TRUE,c/MX;s/MX-QUE,America/Mexico_City,spa,480i
 VBS.ca,SD,SD,TRUE,c/CA,America/Toronto,vie,480i
 VBSTV.us,SD,SD,TRUE,c/US;c/VN,America/New_York,vie,480i
-VBTC.vu,SD,SD,TRUE,c/VU,Pacific/Efate,eng;bis,576i
+VBTC.vu,SD,SD,TRUE,c/VU,Pacific/Efate,eng;fra;bis,576i
 VC3TV.vc,SD,SD,TRUE,c/VC,America/St_Vincent,eng;svc,480i
 VCALTV.vn,SD,SD,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 VCAT.us,SD,SD,TRUE,s/US-CA,America/Los_Angeles,eng,480i

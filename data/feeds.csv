@@ -1,6 +1,5 @@
 channel,id,name,is_main,broadcast_area,timezones,languages,format
 002RadioTV.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
-01TV.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
 0TV.dk,SD,SD,TRUE,c/DK,Europe/Copenhagen,dan,576i
 10.au,Adelaide,Adelaide,FALSE,s/AU-SA,Australia/Adelaide,eng,576i
 10.au,Brisbane,Brisbane,FALSE,s/AU-QLD,Australia/Brisbane,eng,576i
@@ -1949,7 +1948,7 @@ ArlaadiTV.so,SD,SD,TRUE,c/SO,Africa/Mogadishu,som,576i
 ArlingtonIndependentMedia.us,SD,SD,TRUE,s/US-VA,America/Chicago,eng,480i
 ArmaTV.am,SD,SD,TRUE,c/AM,Asia/Yerevan,hye,576i
 Armenia1.am,SD,SD,TRUE,c/AM,Asia/Yerevan,hye,576i
-Armenia2.am,SD,SD,TRUE,c/AR;c/US,Asia/Yerevan,hye,576i
+Armenia2.am,SD,SD,TRUE,c/AM,Asia/Yerevan,hye,576i
 ArmeniaHayKino.am,SD,SD,TRUE,c/AM,Asia/Yerevan,hye,576i
 ArmeniaJanTV.am,SD,SD,TRUE,c/AM,Asia/Yerevan,hye,576i
 ArmeniaKomedi.am,SD,SD,TRUE,c/AM,Asia/Yerevan,hye,576i
@@ -3716,7 +3715,8 @@ BredaNuTV.nl,SD,SD,TRUE,c/NL,Europe/Amsterdam,nld,576i
 BreezeTV.nz,SD,SD,TRUE,c/NZ,Pacific/Auckland,eng,576i
 BremertonKitsapAccessTelevision.us,SD,SD,TRUE,s/US-WA,America/Los_Angeles,eng,480i
 BrevardGovernmentAccessTV.us,SD,SD,TRUE,s/US-FL,America/New_York,eng,480i
-BRFernsehen.de,HD,HD,TRUE,c/DE,Europe/Berlin,deu,720p
+BRFernsehen.de,Nord,Nord,TRUE,s/DE-BY,Europe/Berlin,deu,1080p
+BRFernsehen.de,Sud,Sud,FALSE,s/DE-BY,Europe/Berlin,deu,1080p
 BRFTV.be,SD,SD,TRUE,c/BE,Europe/Brussels,deu,576i
 BrhanTV.se,SD,SD,TRUE,c/SE,Europe/Stockholm,amh,576i
 BrianTV.la,SD,SD,TRUE,c/LA,Asia/Vientiane,vie,576i
@@ -9879,6 +9879,7 @@ GamberoRossoChannel.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
 GameChannel.cn,SD,SD,TRUE,c/CN,Asia/Shanghai,zho,576i
 GameOne.fr,Plus1,+1,FALSE,c/FR,Europe/Madrid,fra,576i
 GameOne.fr,SD,SD,TRUE,c/FR,Europe/Madrid,fra,576i
+GameOneMusicHD.fr,HD,HD,TRUE,c/FR,Europe/Paris,fra,1080p
 GameplayCallofDuty.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 GameplayFortnite.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 GameplayRoblox.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
@@ -29146,6 +29147,7 @@ TeaTV.vn,SD,SD,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 TeaTVKhmer.vn,SD,SD,TRUE,c/VN,Asia/Ho_Chi_Minh,vie;eng,576i
 TebeoTV.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
 TebeSud.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
+TechCo.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
 TechnoWarehouse.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 TechScience365.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 TechStorm.sg,SD,SD,TRUE,c/SG,Asia/Singapore,eng;zho,576i

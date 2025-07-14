@@ -7720,7 +7720,6 @@ DobleCTelevision.pe,SD,SD,TRUE,s/PE-JUN,America/Lima,spa,480i
 DobrogeaTV.ro,SD,SD,TRUE,c/RO,Europe/Bucharest,ron,576i
 DocBox.mn,SD,SD,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
 DoceMisiones.ar,SD,SD,TRUE,c/AR,America/Argentina/Cordoba,spa,576i
-Docos.au,SD,SD,TRUE,c/AU,Australia/Sydney,eng,576i
 Doctor.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
 DoctorLive.in,SD,SD,TRUE,c/IN,Asia/Kolkata,mal,576i
 Doctors.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
@@ -8354,6 +8353,7 @@ EmanTv.iq,HD,HD,TRUE,c/IQ,Asia/Baghdad,kur,1080p
 EmaratTV.ae,SD,SD,TRUE,c/AE,Asia/Dubai,ara,576i
 EMAX.tr,SD,SD,TRUE,c/TR,Europe/Istanbul,tur,576i
 EmaxTV.pe,SD,SD,TRUE,c/PE,America/Lima,spa,480i
+EmaxTV.sv,SD,SD,TRUE,c/SV,America/El_Salvador,spa,576i
 EMCITV.fr,SD,SD,TRUE,c/FR,Europe/Paris,fra,576i
 EMCITVAfrique.cd,SD,SD,TRUE,r/AFR,Africa/Kinshasa,fra,576i
 EMCITVAmerica.ca,SD,SD,TRUE,r/AMER,America/Toronto,fra,480i
@@ -8491,8 +8491,8 @@ ERFWebTV.de,SD,SD,TRUE,c/DE,Europe/Berlin,deu,576i
 ERIMedia.ge,SD,SD,TRUE,c/GE,Asia/Tbilisi,kat,576i
 ERIPM.us,SD,SD,TRUE,c/US;c/ER,America/New_York,tig,480i
 EriSat.us,SD,SD,TRUE,c/US,America/Santiago,amh,480i
-ERiTV1.er,SD,SD,TRUE,c/ER,Africa/Nairobi,tir,576i
-ERiTV2.er,SD,SD,TRUE,c/ER,Africa/Nairobi,ara,576i
+ERiTV1.er,SD,SD,TRUE,c/ER,Africa/Nairobi,tir;tig;ara;eng,576i
+ERiTV2.er,SD,SD,TRUE,c/ER,Africa/Nairobi,tir;tig;ara;eng,576i
 ErloTelebista.es,SD,SD,TRUE,s/ES-PV,Europe/Madrid,eus,576i
 Eromania4K.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus;eng,576i
 Eropulsde.de,SD,SD,TRUE,c/DE,Europe/Berlin,rus;deu,576i
@@ -9063,6 +9063,7 @@ FamilyTies.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 FamilyTime.us,SD,SD,TRUE,c/US,Asia/Riyadh,spa,480i
 FamilyTV.gh,SD,SD,TRUE,c/GH,Africa/Accra,eng,576i
 FamilyTV.ke,SD,SD,TRUE,c/KE,Africa/Nairobi,eng,576i
+Famous.au,HD,HD,TRUE,c/AU,Australia/Sydney,eng,1080i
 FamousTV.gh,SD,SD,TRUE,c/GH,Africa/Accra,eng,576i
 FamypancTV.es,SD,SD,TRUE,c/ES,Europe/Madrid,spa,576i
 FAN.ru,HD,HD,FALSE,c/RU,Europe/Moscow,rus,1080i
@@ -20385,6 +20386,7 @@ MTA5Africa.uk,SD,SD,TRUE,c/UK,America/Toronto,eng;fra;urd;swa,576i
 MTA6Asia.uk,SD,SD,TRUE,c/UK,America/Toronto,urd;eng;ind;tam;ara;ben,576i
 MTA7Asia.uk,SD,SD,TRUE,c/UK,America/Toronto,hin;urd;eng;tam;mal;ara;ben,576i
 MTA8America.uk,SD,SD,TRUE,c/UK,America/Toronto,eng,576i
+MTAGambia.gm,SD,SD,TRUE,c/GM,Africa/Banjul,eng;mnk,576i
 MTATV.id,SD,SD,TRUE,c/ID,Asia/Jakarta,ind,576i
 MtavariArkhi.ge,SD,SD,TRUE,c/GE,Asia/Tbilisi,kat;eng,576i
 MtBluePublicTV.us,SD,SD,TRUE,s/US-TX,America/Denver,eng,480i
@@ -30694,6 +30696,7 @@ TukiTV.sk,SD,SD,TRUE,c/SK,Europe/Bratislava,slk,576i
 TulalipTV.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 TulipTVYouTube.jp,SD,SD,TRUE,c/JP,Asia/Tokyo,jpn,480i
 TulsaPublicSchools.us,SD,SD,TRUE,s/US-OK,America/Chicago,eng,480i
+TUM.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 TumainiTV.tz,SD,SD,TRUE,c/TZ,Africa/Dar_es_Salaam,swa,576i
 TumpisTV.pe,SD,SD,TRUE,c/PE,America/Lima,spa,480i
 TuMusicaHD.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
@@ -32518,7 +32521,6 @@ UN24.ve,SD,SD,TRUE,c/VE,America/Caracas,spa,480i
 UNABTV.co,SD,SD,TRUE,c/CO,America/Bogota,spa,480i
 UnafricaTV.bj,SD,SD,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 UNAHUTV.hn,SD,SD,TRUE,c/HN,America/Tegucigalpa,spa,480i
-UNAMTransmedia.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 UnareTV.ve,SD,SD,TRUE,c/VE,America/Caracas,spa,480i
 UNATV.rs,SD,SD,TRUE,c/RS,Europe/Belgrade,srp,576i
 Unbeaten.us,SD,SD,TRUE,c/US,America/New_York,eng,480i

@@ -39,8 +39,8 @@ export class ImageProcessor {
       const imageInfo = await probe(url).catch(() => {})
 
       if (imageInfo) {
-        width = imageInfo.width
-        height = imageInfo.height
+        width = Math.round(imageInfo.width)
+        height = Math.round(imageInfo.height)
         format = formatsByMimeType[imageInfo.mime]
       }
 

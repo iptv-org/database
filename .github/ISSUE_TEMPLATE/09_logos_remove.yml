@@ -4,7 +4,7 @@ title: 'Remove: '
 labels: ['logos:remove']
 
 body:
-  - type: textarea
+  - type: input
     id: logo_url
     attributes:
       label: Logo URL (required)

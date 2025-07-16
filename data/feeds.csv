@@ -156,7 +156,7 @@ channel,id,name,is_main,broadcast_area,timezones,languages,format
 2M.ma,SD,SD,TRUE,c/MA,Africa/Casablanca,ara,576i
 2MMENA.ma,SD,SD,TRUE,r/MENA,Africa/Casablanca,ara,576i
 2MMonde.ma,Plus1,+1,FALSE,c/MA,Africa/Casablanca,ara;fra,1080i
-2MMonde.ma,SD,SD,TRUE,r/ARAB,Africa/Casablanca,ara;fra,576i
+2MMonde.ma,SD,SD,TRUE,c/MA,Africa/Casablanca,ara;fra,576i
 2Plus2.ua,SD,SD,TRUE,c/UA,Europe/Kyiv,ukr,576i
 2Plus2Marathon.ua,SD,SD,TRUE,c/UA,Europe/Kyiv,ukr,576i
 2STV.sn,SD,SD,TRUE,c/SN,Africa/Dakar,fra;wol;fuc,576i
@@ -3562,8 +3562,8 @@ BoasNovasBelem.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 BoaVontadeTV.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
 Bober.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
 BobEsponja.us,Brazil,Brazil,FALSE,c/BR,America/Sao_Paulo,por,576i
-BobEsponja.us,LATAM,LATAM,FALSE,c/US;r/HISPAM,America/New_York,spa,576i
-BobEsponja.us,Spain,Spain,TRUE,c/ES,Europe/Madrid,spa,576i
+BobEsponja.us,SD,SD,TRUE,c/US;r/HISPAM,America/New_York,spa,576i
+BobEsponja.us,Spain,Spain,FALSE,c/ES,Europe/Madrid,spa,576i
 Bobleponge.us,France,France,TRUE,c/FR;c/CA,Europe/Paris,fra,576i
 BoblepongePlus.us,France,France,TRUE,c/FR,Europe/Paris,eng,576i
 BOCTV.gh,SD,SD,TRUE,c/GH,Africa/Accra,eng,576i
@@ -7246,6 +7246,7 @@ DespiertaTV.mx,SD,SD,TRUE,c/MX,America/Mexico_City,spa,480i
 DestinationAmerica.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 DestinationTV.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 DestinyVoicesTV.ke,SD,SD,TRUE,c/KE,Africa/Nairobi,eng,576i
+DetectiveConan.us,France,France,FALSE,c/FR,Europe/Paris,fra,720p
 DetectiveConan.us,Spain,Spain,TRUE,c/ES,Europe/Madrid,spa,720p
 DetrasdelaRazon.cl,SD,SD,TRUE,c/CL,America/Santiago,spa,480i
 DetroitChannel10.us,SD,SD,TRUE,s/US-MI,America/Detroit,eng,480i
@@ -11548,8 +11549,9 @@ iCABLESportsPlus3.hk,SD,SD,TRUE,c/HK,Asia/Hong_Kong,yue,576i
 ICAMEducationChannel.us,SD,SD,TRUE,s/US-KS,Europe/London,eng,480i
 ICAMGovernmentChannel.us,SD,SD,TRUE,s/US-KS,Europe/London,eng,480i
 ICAMPublicChannel.us,SD,SD,TRUE,s/US-KS,Europe/London,eng,480i
+iCarly.us,East,East,TRUE,c/US,America/New_York,eng;spa,720p
 iCarly.us,France,France,FALSE,c/FR,Europe/Paris,fra,576i
-iCarly.us,Germany,Germany,TRUE,c/DE,Europe/Berlin,deu,576i
+iCarly.us,Germany,Germany,FALSE,c/DE,Europe/Berlin,deu,576i
 iCarly.us,Spain,Spain,FALSE,c/ES,Europe/Madrid,spa,576i
 iCarlyPlus.us,Germany,Germany,TRUE,c/DE,Europe/Berlin,deu,576i
 IcaroTV.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
@@ -18555,6 +18557,7 @@ Lausitzwelle.de,SD,SD,TRUE,c/DE,Europe/Berlin,deu,576i
 LaVictoriaTV.ec,SD,SD,TRUE,c/EC,America/Guayaquil,spa,480i
 LaVoixduRoutierTV.bj,SD,SD,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 LaVoz24h.es,SD,SD,TRUE,c/ES,Europe/Madrid,spa,576i
+LaVozdeJesusHD.do,HD,HD,TRUE,c/US,America/New_York,eng;spa,720p
 LaVozdelTropico.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
 LaVozdeMaria.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
 LaVozdeTucuman.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
@@ -31115,7 +31118,8 @@ TVAvisen.dk,SD,SD,TRUE,c/DK,Europe/Copenhagen,dan,576i
 TVAWest.ca,SD,SD,TRUE,c/CA,America/Toronto,fra,480i
 TVB1.us,SD,SD,TRUE,c/US,America/New_York,zho,480i
 TVBacka.rs,SD,SD,TRUE,c/RS,Europe/Belgrade,srp,576i
-TVBahia.br,SD,SD,TRUE,c/BR,America/Sao_Paulo,por,480i
+TVBahia.br,HD,HD,TRUE,c/BR,America/Sao_Paulo,por,1080i
+TVBahia.br,SD,SD,FALSE,c/BR,America/Sao_Paulo,por,480i
 TVBahoriston.tj,SD,SD,TRUE,c/TJ,Asia/Dushanbe,tgk,576i
 TVBajoCero.cl,SD,SD,TRUE,c/CL,America/Santiago,spa,480i
 TVBanat.rs,SD,SD,TRUE,c/RS,Europe/Belgrade,srp,576i

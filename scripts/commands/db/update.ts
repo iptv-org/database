@@ -21,17 +21,17 @@ async function main() {
   const data = await dataLoader.load()
 
   logger.info('processing issues...')
-  await removeFeeds(issues, data)
-  await removeChannels(issues, data)
-  await editFeeds(issues, data)
-  await editChannels(issues, data)
-  await addFeeds(issues, data)
-  await addChannels(issues, data)
-  await blockChannels(issues, data)
-  await unblockChannels(issues, data)
   await removeLogos(issues, data)
   await editLogos(issues, data)
   await addLogos(issues, data)
+  await removeFeeds(issues, data)
+  await editFeeds(issues, data)
+  await addFeeds(issues, data)
+  await removeChannels(issues, data)
+  await editChannels(issues, data)
+  await addChannels(issues, data)
+  await blockChannels(issues, data)
+  await unblockChannels(issues, data)
 
   logger.info('saving data...')
   await save(data)
@@ -66,6 +66,115 @@ async function save(data: DataLoaderData) {
     .map((logo: Logo) => logo.data())
   const logosOutput = new CSV({ items: logos }).toString()
   await dataStorage.save('logos.csv', logosOutput)
+}
+
+async function removeLogos(issues: Collection, data: DataLoaderData) {
+  const requests = issues.filter(
+    issue => issue.labels.includes('logos:remove') && issue.labels.includes('approved')
+  )
+
+  requests.forEach((issue: Issue) => {
+    const issueData: IssueData = issue.data
+
+    const logoUrls = issueData.getArray('logo_url') || []
+
+    if (!logoUrls.length) return
+
+    logoUrls.forEach((logoUrl: string) => {
+      data.logos.remove((logo: Logo) => {
+        let result = logo.url === logoUrl
+        if (issueData.has('channel_id'))
+          result = result && logo.channelId === issueData.getString('channel_id')
+        if (issueData.has('feed_id'))
+          result = result && logo.feedId === issueData.getString('feed_id')
+
+        return result
+      })
+    })
+
+    processedIssues.push(issue)
+  })
+}
+
+async function editLogos(issues: Collection, data: DataLoaderData) {
+  const requests = issues.filter(
+    issue => issue.labels.includes('logos:edit') && issue.labels.includes('approved')
+  )
+
+  const imageProcessor = new ImageProcessor()
+  for (const issue of requests.all()) {
+    const issueData: IssueData = issue.data
+    if (issueData.missing('logo_url')) continue
+
+    const filtered: Collection = data.logos.filter((logo: Logo) => {
+      let result = logo.url === issueData.getString('logo_url')
+      if (issueData.has('channel_id'))
+        result = result && logo.channelId === issueData.getString('channel_id')
+      if (issueData.has('feed_id'))
+        result = result && logo.feedId === issueData.getString('feed_id')
+
+      return result
+    })
+
+    if (filtered.isEmpty()) continue
+
+    for (const found of filtered.all()) {
+      found.update(issueData)
+
+      if (issueData.has('new_logo_url')) {
+        const newLogoUrl = issueData.getString('new_logo_url')
+        if (newLogoUrl) {
+          const imageInfo = await imageProcessor.probe(newLogoUrl)
+          found.setWidth(imageInfo.width)
+          found.setHeight(imageInfo.height)
+          found.setFormat(imageInfo.format)
+        }
+      }
+
+      if (issueData.has('width')) found.setWidth(issueData.getNumber('width') || 0)
+      if (issueData.has('height')) found.setHeight(issueData.getNumber('height') || 0)
+      if (issueData.has('format')) found.setFormat(issueData.getString('format') || '')
+    }
+
+    processedIssues.push(issue)
+  }
+}
+
+async function addLogos(issues: Collection, data: DataLoaderData) {
+  const requests = issues.filter(
+    issue => issue.labels.includes('logos:add') && issue.labels.includes('approved')
+  )
+
+  const imageProcessor = new ImageProcessor()
+  for (const issue of requests.all()) {
+    const issueData: IssueData = issue.data
+
+    const channelId = issueData.getString('channel_id')
+    const feedId = issueData.getString('feed_id') || ''
+    const logoUrl = issueData.getString('logo_url')
+    if (!channelId || !logoUrl) continue
+
+    const found: Logo = data.logos.first(
+      (logo: Logo) => logo.channelId === channelId && logo.feedId === feedId && logo.url === logoUrl
+    )
+    if (found) continue
+
+    const imageInfo = await imageProcessor.probe(logoUrl)
+
+    const newLogo = new Logo({
+      channel: channelId,
+      feed: feedId,
+      url: logoUrl,
+      tags: issueData.getArray('tags') || [],
+      width: imageInfo.width,
+      height: imageInfo.height,
+      format: imageInfo.format
+    })
+
+    data.logos.add(newLogo)
+
+    processedIssues.push(issue)
+  }
 }
 
 async function removeFeeds(issues: Collection, data: DataLoaderData) {
@@ -258,16 +367,16 @@ async function addChannels(issues: Collection, data: DataLoaderData) {
       issueData.missing('languages') ||
       issueData.missing('format')
     )
-      return
+      continue
 
     const channelId = createChannelId(
       issueData.getString('channel_name'),
       issueData.getString('country')
     )
-    if (!channelId) return
+    if (!channelId) continue
 
     const found: Channel = data.channels.first((channel: Channel) => channel.id === channelId)
-    if (found) return
+    if (found) continue
 
     const newChannel = new Channel({
       id: channelId,
@@ -292,30 +401,6 @@ async function addChannels(issues: Collection, data: DataLoaderData) {
 
     processedIssues.push(issue)
   }
-}
-
-async function unblockChannels(issues: Collection, data: DataLoaderData) {
-  const requests = issues.filter(
-    issue => issue.labels.includes('blocklist:remove') && issue.labels.includes('approved')
-  )
-
-  requests.forEach((issue: Issue) => {
-    const issueData: IssueData = issue.data
-
-    if (issueData.missing('channel_id')) return
-
-    const found: BlocklistRecord = data.blocklistRecords.first(
-      (blocklistRecord: BlocklistRecord) =>
-        blocklistRecord.channelId === issueData.getString('channel_id')
-    )
-    if (!found) return
-
-    data.blocklistRecords.remove(
-      (blocklistRecord: BlocklistRecord) => blocklistRecord.channelId === found.channelId
-    )
-
-    processedIssues.push(issue)
-  })
 }
 
 async function blockChannels(issues: Collection, data: DataLoaderData) {
@@ -350,112 +435,28 @@ async function blockChannels(issues: Collection, data: DataLoaderData) {
   })
 }
 
-async function removeLogos(issues: Collection, data: DataLoaderData) {
+async function unblockChannels(issues: Collection, data: DataLoaderData) {
   const requests = issues.filter(
-    issue => issue.labels.includes('logos:remove') && issue.labels.includes('approved')
+    issue => issue.labels.includes('blocklist:remove') && issue.labels.includes('approved')
   )
 
   requests.forEach((issue: Issue) => {
     const issueData: IssueData = issue.data
 
-    const logoUrls = issueData.getArray('logo_url') || []
+    if (issueData.missing('channel_id')) return
 
-    if (!logoUrls.length) return
+    const found: BlocklistRecord = data.blocklistRecords.first(
+      (blocklistRecord: BlocklistRecord) =>
+        blocklistRecord.channelId === issueData.getString('channel_id')
+    )
+    if (!found) return
 
-    logoUrls.forEach((logoUrl: string) => {
-      data.logos.remove((logo: Logo) => {
-        let result = logo.url === logoUrl
-        if (issueData.has('channel_id'))
-          result = result && logo.channelId === issueData.getString('channel_id')
-        if (issueData.has('feed_id'))
-          result = result && logo.feedId === issueData.getString('feed_id')
-
-        return result
-      })
-    })
+    data.blocklistRecords.remove(
+      (blocklistRecord: BlocklistRecord) => blocklistRecord.channelId === found.channelId
+    )
 
     processedIssues.push(issue)
   })
-}
-
-async function editLogos(issues: Collection, data: DataLoaderData) {
-  const requests = issues.filter(
-    issue => issue.labels.includes('logos:edit') && issue.labels.includes('approved')
-  )
-
-  const imageProcessor = new ImageProcessor()
-  for (const issue of requests.all()) {
-    const issueData: IssueData = issue.data
-    if (issueData.missing('logo_url')) return
-
-    const filtered: Collection = data.logos.filter((logo: Logo) => {
-      let result = logo.url === issueData.getString('logo_url')
-      if (issueData.has('channel_id'))
-        result = result && logo.channelId === issueData.getString('channel_id')
-      if (issueData.has('feed_id'))
-        result = result && logo.feedId === issueData.getString('feed_id')
-
-      return result
-    })
-    if (filtered.isEmpty()) return
-
-    for (const found of filtered.all()) {
-      found.update(issueData)
-
-      if (issueData.has('new_logo_url')) {
-        const newLogoUrl = issueData.getString('new_logo_url')
-        if (newLogoUrl) {
-          const imageInfo = await imageProcessor.probe(newLogoUrl)
-          found.setWidth(imageInfo.width)
-          found.setHeight(imageInfo.height)
-          found.setFormat(imageInfo.format)
-        }
-      }
-
-      if (issueData.has('width')) found.setWidth(issueData.getNumber('width') || 0)
-      if (issueData.has('height')) found.setHeight(issueData.getNumber('height') || 0)
-      if (issueData.has('format')) found.setFormat(issueData.getString('format') || '')
-    }
-
-    processedIssues.push(issue)
-  }
-}
-
-async function addLogos(issues: Collection, data: DataLoaderData) {
-  const requests = issues.filter(
-    issue => issue.labels.includes('logos:add') && issue.labels.includes('approved')
-  )
-
-  const imageProcessor = new ImageProcessor()
-  for (const issue of requests.all()) {
-    const issueData: IssueData = issue.data
-
-    const channelId = issueData.getString('channel_id')
-    const feedId = issueData.getString('feed_id') || ''
-    const logoUrl = issueData.getString('logo_url')
-    if (!channelId || !logoUrl) return
-
-    const found: Logo = data.logos.first(
-      (logo: Logo) => logo.channelId === channelId && logo.feedId === feedId && logo.url === logoUrl
-    )
-    if (found) return
-
-    const imageInfo = await imageProcessor.probe(logoUrl)
-
-    const newLogo = new Logo({
-      channel: channelId,
-      feed: feedId,
-      url: logoUrl,
-      tags: issueData.getArray('tags') || [],
-      width: imageInfo.width,
-      height: imageInfo.height,
-      format: imageInfo.format
-    })
-
-    data.logos.add(newLogo)
-
-    processedIssues.push(issue)
-  }
 }
 
 function onFeedIdChange(

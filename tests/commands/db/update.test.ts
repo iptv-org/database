@@ -27,7 +27,7 @@ describe('db:update', () => {
     expect(content('output/data/feeds.csv')).toEqual(content('expected/db/update/data/feeds.csv'))
     expect(content('output/data/logos.csv')).toEqual(content('expected/db/update/data/logos.csv'))
     expect(stdout).toEqual(
-      'OUTPUT=closes #6871, closes #5871, closes #7901, closes #17612, closes #5901, closes #5902, closes #5903, closes #5701, closes #8900, closes #9900, closes #5900, closes #5899, closes #5898, closes #5897, closes #5891, closes #9871, closes #9902, closes #9903, closes #9901'
+      'OUTPUT=closes #9871, closes #9902, closes #9903, closes #9904, closes #9905, closes #9901, closes #6871, closes #7901, closes #17612, closes #9907, closes #8900, closes #9900, closes #5871, closes #5901, closes #5902, closes #5903, closes #5701, closes #9906, closes #5900, closes #5899, closes #5898, closes #5897, closes #5891'
     )
   })
 })

@@ -1,6 +1,6 @@
-channel,id,name,is_main,broadcast_area,timezones,languages,format
-0TV.dk,SD,SD,TRUE,c/BE,Europe/Copenhagen,dan,576I
-002RadioTV.do,SD,SD,TRUE,c/DO,Africa/Accra,dan,576i
-002RadioTV.do,HD,HD,TRUE,c/DO,Africa/Accra,dan,576i
-24B.do,SD,SD,FALSE,c/DO,Africa/Accra,dan,576i
-10Channel.do,SD,SD,TRUE,c/DO,Africa/Accra,dan,576i
+channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
+0TV.dk,SD,SD,,TRUE,c/BE,Europe/Copenhagen,dan,576I
+002RadioTV.do,SD,SD,,TRUE,c/DO,Africa/Accra,dan,576i
+002RadioTV.do,HD,HD,,TRUE,c/DO,Africa/Accra,dan,576i
+24B.do,SD,SD,,FALSE,c/DO,Africa/Accra,dan,576i
+10Channel.do,SD,SD,,TRUE,c/DO,Africa/Accra,dan,576i

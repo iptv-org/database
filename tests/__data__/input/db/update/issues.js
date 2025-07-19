@@ -456,7 +456,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel ID (required)\n\nM5.hu\n\n### Channel Name\n\n_No response_\n\n### Alternative Names\n\n_No response_\n\n### Network\n\n_No response_\n\n### Owners\n\nDuna Médiaszolgáltató Nonprofit Zrt.\n\n### Country\n\n_No response_\n\n### Subdivision\n\n_No response_\n\n### City\n\n_No response_\n\n### Broadcast Area\n\n_No response_\n\n### Languages\n\n_No response_\n\n### Categories\n\n~\n\n### NSFW\n\nNone\n\n### Launched\n\n_No response_\n\n### Closed\n\n~\n\n### Replaced By\n\n_No response_\n\n### Website\n\n_No response_\n\n### Logo\n\nhttps://i.imgur.com/8GVp3fW.png\n\n### Notes\n\n_No response_',
+    body: '### Channel ID (required)\n\nM5.hu\n\n### Channel Name\n\n_No response_\n\n### Alternative Names\n\n_No response_\n\n### Network\n\n_No response_\n\n### Owners\n\nDuna Médiaszolgáltató Nonprofit Zrt.\n\n### Country\n\n_No response_\n\n### Subdivision\n\n_No response_\n\n### City\n\n_No response_\n\n### Broadcast Area\n\n_No response_\n\n### Languages\n\n_No response_\n\n### Categories\n\n~\n\n### NSFW\n\nNone\n\n### Launched\n\n_No response_\n\n### Closed\n\n~\n\n### Replaced By\n\n_No response_\n\n### Website\n\n_No response_\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/5901/reactions',
       total_count: 0,
@@ -535,7 +535,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel ID (required)\n\n1000xHoraTV.uy\n\n### Channel Name\n\n_No response_\n\n### Alternative Names\n\n_No response_\n\n### Network\n\n_No response_\n\n### Owners\n\n_No response_\n\n### Country\n\n_No response_\n\n### Subdivision\n\n_No response_\n\n### City\n\n_No response_\n\n### Broadcast Area\n\n_No response_\n\n### Languages\n\n_No response_\n\n### Categories\n\n_No response_\n\n### NSFW\n\nNone\n\n### Launched\n\n2020-01-01\n\n### Closed\n\n2021-01-01\n\n### Replaced By\n\n_No response_\n\n### Website\n\n_No response_\n\n### Logo\n\n_No response_\n\n### Notes\n\n_No response_',
+    body: '### Channel ID (required)\n\n1000xHoraTV.uy\n\n### Channel Name\n\n_No response_\n\n### Alternative Names\n\n_No response_\n\n### Network\n\n_No response_\n\n### Owners\n\n_No response_\n\n### Country\n\n_No response_\n\n### Subdivision\n\n_No response_\n\n### City\n\n_No response_\n\n### Broadcast Area\n\n_No response_\n\n### Languages\n\n_No response_\n\n### Categories\n\n_No response_\n\n### NSFW\n\nNone\n\n### Launched\n\n2020-01-01\n\n### Closed\n\n2021-01-01\n\n### Replaced By\n\n_No response_\n\n### Website\n\n_No response_\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/5902/reactions',
       total_count: 0,
@@ -614,7 +614,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel ID (required)\n\nM5.hu\n\n### Channel Name\n\n_No response_\n\n### Alternative Names\n\n_No response_\n\n### Network\n\n_No response_\n\n### Owners\n\n_No response_\n\n### Country\n\n_No response_\n\n### Subdivision\n\n_No response_\n\n### City\n\n_No response_\n\n### Broadcast Area\n\n_No response_\n\n### Languages\n\n_No response_\n\n### Categories\n\n_No response_\n\n### NSFW\n\nNone\n\n### Launched\n\n2020-01-01\n\n### Closed\n\n_No response_\n\n### Replaced By\n\n0TV.dk@SD\n\n### Website\n\n_No response_\n\n### Logo\n\n_No response_\n\n### Notes\n\n_No response_',
+    body: '### Channel ID (required)\n\nM5.hu\n\n### Channel Name\n\n_No response_\n\n### Alternative Names\n\n_No response_\n\n### Network\n\n_No response_\n\n### Owners\n\n_No response_\n\n### Country\n\n_No response_\n\n### Subdivision\n\n_No response_\n\n### City\n\n_No response_\n\n### Broadcast Area\n\n_No response_\n\n### Languages\n\n_No response_\n\n### Categories\n\n_No response_\n\n### NSFW\n\nNone\n\n### Launched\n\n2020-01-01\n\n### Closed\n\n_No response_\n\n### Replaced By\n\n0TV.dk@SD\n\n### Website\n\n_No response_\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/5903/reactions',
       total_count: 0,
@@ -693,7 +693,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel ID (required)\n\nBeijingSatelliteTV.cn\n\n### Channel Name\n\nbeIN Movies Turk\n\n### Alternative Names\n\nbeIN Movies Türk\n\n### Network\n\nBBC\n\n### Owners\n\nGazprom Media\n\n### Country\n\nTR\n\n### Subdivision\n\nUS-CA\n\n### City\n\nLondon\n\n### Broadcast Area\n\nc/TR\n\n### Languages\n\ntur\n\n### Categories\n\nmovies\n\n### NSFW\nTRUE\n\n### Launched\n\n1979-05-16\n\n### Closed\n\n1980-05-16\n\n### Replaced By\n\nM5.hu\n\n### Website\n\nhttp://www.digiturk.com.tr/\n\n### Logo\n\n_No response_\n\n### Notes\n\n_No response_',
+    body: '### Channel ID (required)\n\nBeijingSatelliteTV.cn\n\n### Channel Name\n\nbeIN Movies Turk\n\n### Alternative Names\n\nbeIN Movies Türk\n\n### Network\n\nBBC\n\n### Owners\n\nGazprom Media\n\n### Country\n\nTR\n\n### Subdivision\n\nUS-CA\n\n### City\n\nLondon\n\n### Broadcast Area\n\nc/TR\n\n### Languages\n\ntur\n\n### Categories\n\nmovies\n\n### NSFW\nTRUE\n\n### Launched\n\n1979-05-16\n\n### Closed\n\n1980-05-16\n\n### Replaced By\n\nM5.hu\n\n### Website\n\nhttp://www.digiturk.com.tr/\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/5701/reactions',
       total_count: 0,
@@ -851,7 +851,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel ID\n\n1000xHoraTV.uy\n\n### Feed Name\n\nHD\n\n### Main Feed\n\nTRUE\n\n### Broadcast Area\n\nc/CN\n\n### Languages\n\nzho\n\n### Timezones\n\nAfrica/Johannesburg;Africa/Kigali\n\n### Format\n\n576i\n\n### Notes\n\n_No response_',
+    body: '### Channel ID\n\n1000xHoraTV.uy\n\n### Feed Name\n\nHD\n\n### Alternative Names\n\nOeste;Este\n\n### Main Feed\n\nTRUE\n\n### Broadcast Area\n\nc/CN\n\n### Languages\n\nzho\n\n### Timezones\n\nAfrica/Johannesburg;Africa/Kigali\n\n### Format\n\n576i\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/8900/reactions',
       total_count: 0,
@@ -930,7 +930,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel ID (required)\n\nM5.hu\n\n### Feed ID (required)\n\nSD\n\n### Feed Name\n\nHD\n\n### Main Feed\n\nTRUE\n\n### Broadcast Area\n\nc/BR\n\n### Timezones\n\nAfrica/Dakar;Africa/El_Aaiun\n\n### Languages\n\npor;spa\n\n### Format\n\n1080i\n\n### Notes\n\n_No response_',
+    body: '### Channel ID (required)\n\nM5.hu\n\n### Feed ID (required)\n\nSD\n\n### Alternative Names\n\nMéditerranée;Sud\n\n### Feed Name\n\nHD\n\n### Main Feed\n\nTRUE\n\n### Broadcast Area\n\nc/BR\n\n### Timezones\n\nAfrica/Dakar;Africa/El_Aaiun\n\n### Languages\n\npor;spa\n\n### Format\n\n1080i\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/7901/reactions',
       total_count: 0,
@@ -1171,7 +1171,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel ID\n\nTrueCrime.uk\n\n### Feed Name\n\n+1\n\n### Main Feed\n\nFALSE\n\n### Broadcast Area\n\nc/UK\n\n### Languages\n\neng\n\n### Timezones\n\nEurope/London\n\n### Format\n\n576i\n\n### Notes\n\n_No response_',
+    body: '### Channel ID\n\nTrueCrime.uk\n\n### Feed Name\n\n+1\n\n### Alternative Names\n\n_No response_\n\n### Main Feed\n\nFALSE\n\n### Broadcast Area\n\nc/UK\n\n### Languages\n\neng\n\n### Timezones\n\nEurope/London\n\n### Format\n\n576i\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/9900/reactions',
       total_count: 0,
@@ -1724,7 +1724,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel ID (required)\n\nZugloTV.hu\n\n### Channel Name\n\nZTV World\n\n### Alternative Names\n\n_No response_\n\n### Network\n\n_No response_\n\n### Owners\n\n_No response_\n\n### Country\n\n_No response_\n\n### Subdivision\n\n_No response_\n\n### City\n\n_No response_\n\n### Broadcast Area\n\n_No response_\n\n### Languages\n\n_No response_\n\n### Categories\n\n_No response_\n\n### NSFW\n\nNone\n\n### Launched\n\n_No response_\n\n### Closed\n\n_No response_\n\n### Replaced By\n\n_No response_\n\n### Website\n\n_No response_\n\n### Logo\n\n_No response_\n\n### Notes\n\n_No response_',
+    body: '### Channel ID (required)\n\nZugloTV.hu\n\n### Channel Name\n\nZTV World\n\n### Alternative Names\n\n_No response_\n\n### Network\n\n_No response_\n\n### Owners\n\n_No response_\n\n### Country\n\n_No response_\n\n### Subdivision\n\n_No response_\n\n### City\n\n_No response_\n\n### Broadcast Area\n\n_No response_\n\n### Languages\n\n_No response_\n\n### Categories\n\n_No response_\n\n### NSFW\n\nNone\n\n### Launched\n\n_No response_\n\n### Closed\n\n_No response_\n\n### Replaced By\n\n_No response_\n\n### Website\n\n_No response_\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/9906/reactions',
       total_count: 0,

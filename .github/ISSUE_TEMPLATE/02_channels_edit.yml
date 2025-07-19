@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please specify exactly what should be changed. To delete an existing value without replacement use the `~` symbol. To edit `broadcast_area`, `languages`, `timezones` and `formats` use this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aedit&projects=&template=5_feeds_edit.yml&title=Edit%3A+).
+        Please specify exactly what should be changed. To delete an existing value without replacement use the `~` symbol. To edit `broadcast_area`, `languages`, `timezones` and `formats` use this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aedit&projects=&template=05_feeds_edit.yml&title=Edit%3A+). To edit `logo` use this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=logos%3Aedit&projects=&template=08_logos_edit.yml&title=Edit%3A+).
   
   - type: input
     id: id
@@ -22,7 +22,7 @@ body:
     id: name
     attributes:
       label: Channel Name
-      description: "Official channel name in English or call sign. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `|`, `¡`"
+      description: "Official channel name in Latin letters or call sign. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `|`, `¡`"
       placeholder: 'Anhui TV'
 
   - type: input
@@ -110,13 +110,6 @@ body:
       label: Website
       description: Official website URL
       placeholder: 'http://www.ahtv.cn/'
-
-  - type: input
-    id: logo
-    attributes:
-      label: Logo
-      description: "Logo URL. Only URL with HTTPS protocol are allowed. Supported image types: `PNG`, `JPEG`. Max size: 512x512 pixels. The link should not be [geo-blocked](https://en.wikipedia.org/wiki/Geo-blocking)"
-      placeholder: 'https://example.com/logo.png'
 
   - type: textarea
     id: notes

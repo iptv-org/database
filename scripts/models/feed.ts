@@ -12,6 +12,7 @@ export class Feed extends Model {
   channelId: string
   id: string
   name: string
+  altNames: Collection
   isMain: boolean
   broadcastAreaCodes: Collection
   timezoneIds: Collection
@@ -24,6 +25,7 @@ export class Feed extends Model {
     this.channelId = data.channel
     this.id = data.id
     this.name = data.name
+    this.altNames = new Collection(data.alt_names)
     this.isMain = data.is_main
     this.broadcastAreaCodes = new Collection(data.broadcast_area)
     this.timezoneIds = new Collection(data.timezones)
@@ -40,6 +42,7 @@ export class Feed extends Model {
   update(issueData: IssueData): this {
     const data = {
       feed_name: issueData.getString('feed_name'),
+      alt_names: issueData.getArray('alt_names'),
       is_main: issueData.getBoolean('is_main'),
       broadcast_area: issueData.getArray('broadcast_area'),
       timezones: issueData.getArray('timezones'),
@@ -48,6 +51,7 @@ export class Feed extends Model {
     }
 
     if (data.feed_name !== undefined) this.name = data.feed_name
+    if (data.alt_names !== undefined) this.altNames = new Collection(data.alt_names)
     if (data.is_main !== undefined) this.isMain = data.is_main
     if (data.broadcast_area !== undefined)
       this.broadcastAreaCodes = new Collection(data.broadcast_area)
@@ -103,6 +107,7 @@ export class Feed extends Model {
       channel: this.channelId,
       id: this.id,
       name: this.name,
+      alt_names: this.altNames.all(),
       is_main: this.isMain,
       broadcast_area: this.broadcastAreaCodes.all(),
       timezones: this.timezoneIds.all(),
@@ -123,6 +128,11 @@ export class Feed extends Model {
         .regex(/^[a-z0-9-!:&.+'/»#%°$@?|¡–\s_—]+$/i)
         .regex(/^((?!\s-\s).)*$/)
         .required(),
+      alt_names: Joi.array().items(
+        Joi.string()
+          .regex(/^[^",]+$/)
+          .invalid(Joi.ref('name'))
+      ),
       is_main: Joi.boolean().strict().required(),
       broadcast_area: Joi.array().items(
         Joi.string()

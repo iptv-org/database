@@ -117,10 +117,11 @@ Send a request through this [form](https://github.com/iptv-org/database/issues/n
 
 ### categories
 
-| Field | Description   | Required | Example |
-| ----- | ------------- | -------- | ------- |
-| id    | Category ID   | Required | `news`  |
-| name  | Category name | Required | `News`  |
+| Field       | Description                       | Required | Example                      |
+| ----------- | --------------------------------- | -------- | ---------------------------- |
+| id          | Category ID                       | Required | `news`                       |
+| name        | Category name                     | Required | `News`                       |
+| description | Short description of the category | Required | `Programming is mostly news` |
 
 ### languages
 

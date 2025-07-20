@@ -17,7 +17,10 @@
     "transform": {
       "^.+\\.(ts|js)$": "ts-jest"
     },
-    "testRegex": "tests/(.*?/)?.*test.(js|ts)$"
+    "testRegex": "tests/(.*?/)?.*test.(js|ts)$",
+    "setupFilesAfterEnv": [
+      "jest-expect-message"
+    ]
   },
   "dependencies": {
     "@eslint/js": "^9.16.0",
@@ -43,6 +46,7 @@
     "globals": "^16.3.0",
     "husky": "^9.1.7",
     "jest": "^30.0.4",
+    "jest-expect-message": "^1.1.3",
     "joi": "^17.13.3",
     "probe-image-size": "^7.2.3",
     "ts-jest": "^29.4.0",

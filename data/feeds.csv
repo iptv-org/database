@@ -7184,6 +7184,7 @@ DeltaTV.bo,SD,SD,TRUE,s/BO-L,America/La_Paz,spa,480i
 DELTATV.gr,SD,SD,TRUE,c/GR,Europe/Athens,ell,576i
 DeltaTV.nl,SD,SD,TRUE,c/NL,Europe/Amsterdam,nld,576i
 DeltaTV.pe,SD,SD,TRUE,c/PE,America/Lima,spa,480i
+DeltaTVCanal50.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,576i
 DeltaTVTukole.ug,SD,SD,TRUE,c/UG,Africa/Kampala,eng;lug,576i
 DeltaTVUSA.am,SD,SD,TRUE,c/US,Asia/Yerevan,hue,576i
 DeltonaTV.us,SD,SD,TRUE,s/US-FL,America/New_York,eng,480i
@@ -8181,7 +8182,7 @@ EfarinaTV.id,SD,SD,TRUE,c/ID,Asia/Jakarta,ind,576i
 EfathaTV.tz,SD,SD,TRUE,c/TZ,Africa/Dar_es_Salaam,eng;swa,576i
 EfektoTV.mx,SD,SD,TRUE,c/MX,America/Mexico_City,spa,480i
 EfesoTelevision.mx,SD,SD,TRUE,c/MX,America/Mexico_City,spa,480i
-EFKSTV.ws,SD,SD,TRUE,c/WS,Pacific/Apia,smo,576i
+EFKSTV.ws,SD,SD,TRUE,c/WS,Pacific/Apia,eng;smo,576i
 EfusivaTV.uy,SD,SD,TRUE,c/UY,America/Montevideo,spa,576i
 EgemTVUsak.tr,SD,SD,TRUE,c/TR,Europe/Istanbul,tur,576i
 EgeTurkTV.tr,SD,SD,TRUE,c/TR,Europe/Istanbul,tur,576i
@@ -12266,6 +12267,7 @@ JilinRuralChannel.cn,SD,SD,TRUE,c/CN,Asia/Shanghai,zho,576i
 JilinSatelliteTV.cn,SD,SD,TRUE,c/CN,Asia/Shanghai,zho,576i
 JilinTVStation.cn,SD,SD,TRUE,c/CN,Asia/Shanghai,zho,576i
 Jim.fi,SD,SD,TRUE,c/FI,Europe/Helsinki,fin,576i
+JimaniTV.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,576i
 JimJam.hu,SD,SD,TRUE,c/HU,America/Toronto,hun;eng,576i
 JimJam.ro,SD,SD,TRUE,c/RO,America/Toronto,eng;ron,576i
 JimJamEurope.uk,SD,SD,TRUE,r/EUR,America/Toronto,eng;por;ces;slk;heb,576i
@@ -20199,6 +20201,7 @@ MonseTeve.ec,SD,SD,TRUE,c/EC,America/Guayaquil,spa,480i
 MonsterJam.pl,SD,SD,TRUE,c/PL;r/EUR,Europe/Warsaw,eng,576i
 MonsterMovies.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 MonteCarloDigitalTelevision.fr,HD,HD,TRUE,c/FR,Europe/Paris,eng,1080p
+MontecristiDigital8.do,HD,HD,TRUE,c/DO,America/Santo_Domingo,spa,720p
 MonteMaria.mx,SD,SD,TRUE,c/MX,America/Mexico_City,spa,480i
 MonterricoTV.pe,SD,SD,TRUE,c/PE,America/Lima,spa,480i
 MontgomeryChannel.us,SD,SD,TRUE,s/US-MD,America/New_York,eng,480i
@@ -25137,6 +25140,7 @@ ReefTV.vi,SD,SD,TRUE,c/VI,America/St_Thomas,eng,480i
 ReelPXAction.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 ReelPXCinema.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 ReelPXUnlimited.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
+REELTV.ci,SD,SD,TRUE,c/CI,Africa/Abidjan,fra,576i
 Reelz.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 ReelzChannelXUMO.us,SD,SD,TRUE,c/US,America/New_York,eng,480i
 RefletsdAfriqueTV.cm,SD,SD,TRUE,c/CM,Africa/Douala,eng,576i
@@ -29313,6 +29317,7 @@ TeleClusone.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
 Telecolor.ve,SD,SD,TRUE,c/VE,America/Caracas,spa,480i
 TelecolorLombardia.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
 TelecolorYurimaguas.pe,SD,SD,TRUE,c/PE,America/Lima,spa,480i
+TelecomercioTV.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,576i
 TelecondorSatelital.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 TeleCongo.cg,SD,SD,TRUE,c/CG,Africa/Brazzaville,fra;mkw;lin,576i
 Telecontacto.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
@@ -29338,6 +29343,7 @@ Teledoce.uy,SD,SD,TRUE,c/UY,America/Montevideo,spa,576i
 Teledom.de,SD,SD,TRUE,c/DE,Europe/Berlin,rus,576i
 TeleDom.ru,HD,HD,FALSE,c/RU,Europe/Moscow,rus,1080i
 TeleDom.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
+TeleDominicanaTV.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,576i
 TeleEcole.sn,SD,SD,TRUE,c/SN,Africa/Dakar,fra,576i
 TeleElSalvador.sv,SD,SD,TRUE,c/SV,America/El_Salvador,spa,480i
 TeleElx.es,SD,SD,TRUE,s/ES-VC,Europe/Madrid,spa,576i
@@ -29470,6 +29476,7 @@ Telenovela.kr,SD,SD,TRUE,c/KR,Asia/Seoul,kor,480i
 TeleNovelaChannel.ph,SD,SD,TRUE,c/PH,Asia/Manila,tgl;eng,480i
 Telenovella.ru,SD,SD,TRUE,c/RU,Europe/Moscow,rus,576i
 Telenovisa43.do,SD,SD,TRUE,s/DO-27,America/Santo_Domingo,spa,480i
+TeleOla44.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,576i
 TeleOnce.gt,SD,SD,TRUE,c/GT,America/Guatemala,spa,480i
 TeleOnce.pr,SD,SD,TRUE,c/PR,America/Argentina/San_Juan,spa,480i
 TeleOne16.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
@@ -29587,6 +29594,7 @@ Teletur.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
 TeleTurquino.cu,SD,SD,TRUE,c/CU,America/Havana,spa,480i
 TeleTusciaSabina2000.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
 Teleunion.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
+TeleUniversalDC.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,576i
 Teleuniverso.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
 Teleuniverso.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
 TeleUno.cr,SD,SD,TRUE,c/CR,America/Costa_Rica,spa,480i
@@ -29596,6 +29604,7 @@ TeleVariete.ht,SD,SD,TRUE,c/HT,America/Port-au-Prince,fra,480i
 Televen.ve,SD,SD,TRUE,c/VE,America/Caracas,spa,480i
 TeleVenezia.it,SD,SD,TRUE,c/IT,Europe/Rome,ita,576i
 Telever.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
+TeleviaductoCanal14.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,576i
 TeleviaductoCanal3.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
 Televicentro.hn,SD,SD,TRUE,c/HN,America/Tegucigalpa,spa,480i
 TeleVid.co,SD,SD,TRUE,c/CO,America/Bogota,spa,480i

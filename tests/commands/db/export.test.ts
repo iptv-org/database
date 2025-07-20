@@ -1,5 +1,7 @@
+import { pathToFileURL } from 'node:url'
 import { execSync } from 'child_process'
 import * as fs from 'fs-extra'
+import { glob } from 'glob'
 import os from 'os'
 
 beforeEach(() => {
@@ -18,22 +20,23 @@ describe('db:export', () => {
     const stdout = execSync(cmd, { encoding: 'utf8' })
     if (process.env.DEBUG === 'true') console.log(cmd, stdout)
 
-    expect(content('output/api/blocklist.json')).toEqual(
-      content('expected/db/export/api/blocklist.json')
-    )
-    expect(content('output/api/channels.json')).toEqual(
-      content('expected/db/export/api/channels.json')
-    )
-    expect(content('output/api/timezones.json')).toEqual(
-      content('expected/db/export/api/timezones.json')
-    )
-    expect(content('output/api/feeds.json')).toEqual(content('expected/db/export/api/feeds.json'))
-    expect(content('output/api/logos.json')).toEqual(content('expected/db/export/api/logos.json'))
+    const files = glob.sync('tests/__data__/expected/db/export/api/*.json').map(filepath => {
+      const fileUrl = pathToFileURL(filepath).toString()
+      const pathToRemove = pathToFileURL('tests/__data__/expected/db/export/api/').toString()
+
+      return fileUrl.replace(pathToRemove, '')
+    })
+
+    files.forEach(filepath => {
+      expect(content(`tests/__data__/output/api/${filepath}`), filepath).toBe(
+        content(`tests/__data__/expected/db/export/api/${filepath}`)
+      )
+    })
   })
 })
 
 function content(filepath: string) {
-  return fs.readFileSync(`tests/__data__/${filepath}`, {
+  return fs.readFileSync(pathToFileURL(filepath), {
     encoding: 'utf8'
   })
 }

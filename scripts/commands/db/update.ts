@@ -356,7 +356,7 @@ async function addChannels(issues: Collection, data: DataLoaderData) {
       issueData.missing('channel_name') ||
       issueData.missing('country') ||
       issueData.missing('is_nsfw') ||
-      issueData.missing('logo') ||
+      issueData.missing('logo_url') ||
       issueData.missing('feed_name') ||
       issueData.missing('broadcast_area') ||
       issueData.missing('timezones') ||
@@ -548,7 +548,7 @@ async function onChannelAddition(channelId: string, issueData: IssueData, data: 
   data.feeds.add(newFeed)
 
   const imageProcessor = new ImageProcessor()
-  const logoUrl = issueData.getString('logo') || ''
+  const logoUrl = issueData.getString('logo_url') || ''
   const imageInfo = await imageProcessor.probe(logoUrl)
 
   const newLogo = new Logo({

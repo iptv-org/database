@@ -4381,7 +4381,7 @@ CanalAlphaJura.ch,SD,SD,TRUE,c/CH,Europe/Zurich,deu,576i
 CanalAlphaNE.ch,SD,SD,TRUE,c/CH,Europe/Zurich,fra,576i
 CanalAlphaNeuchatel.ch,SD,SD,TRUE,c/CH,Europe/Zurich,deu,576i
 CanalAltaFrontera.cl,SD,SD,TRUE,s/CL-BI,America/Santiago,spa,480i
-CanalAmericaTV.do,SD,SD,TRUE,c/US,America/New_York,eng;spa,576i
+CanalAmericaTV.do,SD,SD,TRUE,c/US;c/DO,America/New_York,eng;spa,576i
 CanalAntigua.gt,SD,SD,TRUE,c/GT,America/Guatemala,spa,480i
 CanalArmoniaTV.ec,SD,SD,TRUE,c/EC,America/Guayaquil,spa,480i
 CanalAtlas.be,SD,SD,TRUE,c/BE,Europe/Brussels,fra,576i
@@ -18576,7 +18576,7 @@ Lausitzwelle.de,SD,SD,TRUE,c/DE,Europe/Berlin,deu,576i
 LaVictoriaTV.ec,SD,SD,TRUE,c/EC,America/Guayaquil,spa,480i
 LaVoixduRoutierTV.bj,SD,SD,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 LaVoz24h.es,SD,SD,TRUE,c/ES,Europe/Madrid,spa,576i
-LaVozdeJesusHD.do,HD,HD,TRUE,c/US,America/New_York,eng;spa,720p
+LaVozdeJesusHD.do,HD,HD,TRUE,c/US;c/DO,America/New_York,eng;spa,720p
 LaVozdelTropico.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
 LaVozdeMaria.do,SD,SD,TRUE,c/DO,America/Santo_Domingo,spa,480i
 LaVozdeTucuman.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
@@ -30769,7 +30769,7 @@ TurbionDigitalTV.bo,SD,SD,TRUE,c/BO,America/La_Paz,spa,480i
 TurboMixRadioTV.pe,SD,SD,TRUE,c/PE,America/Lima,spa,480i
 TurboTV.sk,SD,SD,TRUE,c/SK,Europe/Bratislava,slk,576i
 TurfMovil.cl,SD,SD,TRUE,c/CL,America/Santiago,spa,480i
-TurismoHD.do,HD,HD,TRUE,c/US,America/New_York,eng;spa,720p
+TurismoHD.do,HD,HD,TRUE,c/US;c/DO,America/New_York,eng;spa,720p
 TurismoTravelTV.cl,SD,SD,TRUE,c/CL,America/Santiago,spa,480i
 TurismoVisionArgentina.ar,SD,SD,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 TuristikTV.mx,SD,SD,TRUE,s/MX-ROO,America/Mexico_City,spa,480i

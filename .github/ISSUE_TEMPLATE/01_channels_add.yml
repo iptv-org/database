@@ -13,7 +13,7 @@ body:
     id: name
     attributes:
       label: Channel Name
-      description: "Official channel name in Latin letters or call sign. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `|`, `¡`"
+      description: "Official channel name in English or call sign. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `|`, `¡`"
       placeholder: 'Anhui TV'
     validations:
       required: true
@@ -138,7 +138,7 @@ body:
     id: feed_name
     attributes:
       label: Feed Name
-      description: "Unique for this channel feed name in Latin letters. For example: `HD`, `East`, `French`, `+1`, etc. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `|`, `¡`"
+      description: "Unique for this channel feed name in English. For example: `HD`, `East`, `French`, `+1`, etc. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `|`, `¡`"
       placeholder: 'SD'
       value: 'SD'
     validations:

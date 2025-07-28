@@ -108,14 +108,25 @@ body:
       description: Official website URL
       placeholder: 'http://www.ahtv.cn/'
 
-  - type: input
-    id: logo
+  - type: markdown
     attributes:
-      label: Logo
-      description: "Logo URL. Only URL with HTTPS protocol are allowed. Supported image types: `PNG`, `JPEG`. Max size: 512x512 pixels. The link should not be [geo-blocked](https://en.wikipedia.org/wiki/Geo-blocking)"
+      value: |
+        ## Logo
+        Description of the main logo of the channel
+
+  - type: input
+    id: logo_url
+    attributes:
+      label: Logo URL
+      description: "Logo URL. Supported formats: `PNG`, `JPEG`, `SVG`, `GIF`, `WebP`, `AVIF`, `APNG`. Only URLs with [HTTPS](https://ru.wikipedia.org/wiki/HTTPS) protocol are supported. The link should not be [geo-blocked](https://en.wikipedia.org/wiki/Geo-blocking)"
       placeholder: 'https://example.com/logo.png'
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        `width`, `height` and `format` of the logo will be calculated automatically
 
   - type: markdown
     attributes:

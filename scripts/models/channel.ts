@@ -24,7 +24,6 @@ export class Channel extends Model {
   closedDateString?: string
   replacedBy?: string
   websiteUrl?: string
-  logoUrl: string
   feeds?: Collection
 
   constructor(data: ChannelData) {
@@ -44,7 +43,6 @@ export class Channel extends Model {
     this.closedDateString = data.closed
     this.replacedBy = data.replaced_by
     this.websiteUrl = data.website
-    this.logoUrl = data.logo
   }
 
   setId(id: string): this {
@@ -67,8 +65,7 @@ export class Channel extends Model {
       launched: issueData.getString('launched'),
       closed: issueData.getString('closed'),
       replaced_by: issueData.getString('replaced_by'),
-      website: issueData.getString('website'),
-      logo: issueData.getString('logo')
+      website: issueData.getString('website')
     }
 
     if (data.channel_name !== undefined) this.name = data.channel_name
@@ -84,7 +81,6 @@ export class Channel extends Model {
     if (data.closed !== undefined) this.closedDateString = data.closed
     if (data.replaced_by !== undefined) this.replacedBy = data.replaced_by
     if (data.website !== undefined) this.websiteUrl = data.website
-    if (data.logo !== undefined) this.logoUrl = data.logo
 
     return this
   }
@@ -181,8 +177,7 @@ export class Channel extends Model {
       launched: this.launchedDateString,
       closed: this.closedDateString,
       replaced_by: this.replacedBy,
-      website: this.websiteUrl,
-      logo: this.logoUrl
+      website: this.websiteUrl
     }
   }
 
@@ -225,13 +220,7 @@ export class Channel extends Model {
         .uri({
           scheme: ['http', 'https']
         })
-        .allow(null),
-      logo: Joi.string()
-        .regex(/,/, { invert: true })
-        .uri({
-          scheme: ['https']
-        })
-        .required()
+        .allow(null)
     })
   }
 }

@@ -9,7 +9,7 @@ body:
     attributes:
       label: Channel ID
       description: ID of the channel to which this feed belongs
-      placeholder: 'HBO.us'
+      placeholder: 'France3.fr'
     validations:
       required: true
 
@@ -18,7 +18,7 @@ body:
     attributes:
       label: Feed ID
       description: The ID of the feed that should be removed
-      placeholder: 'West'
+      placeholder: 'Alpes'
     validations:
       required: true
 

@@ -23,7 +23,6 @@ const FIELDS = new Dictionary({
   Closed: 'closed',
   'Replaced By': 'replaced_by',
   Website: 'website',
-  Logo: 'logo',
   Reason: 'reason',
   Notes: 'notes',
   Reference: 'ref',

@@ -1,9 +1,9 @@
-id,name,alt_names,network,owners,country,subdivision,city,categories,is_nsfw,launched,closed,replaced_by,website,logo
-002RadioTV.do,002 Radio TV,,,,DO,,,general,FALSE,,,,https://www.002radio.com/,https://i.imgur.com/7oNe8xj.png
-0TV.dk,0-TV,,,,DK,,København,general,FALSE,,,01TV.fr@SD,https://0-tv.dk/,https://i.imgur.com/aR5q6mA.png
-1000xHoraTV.uy,1000xHora TV,,,,UY,,Montevideo,auto,FALSE,,,M5.hu@SD,https://www.1000xhoratv.com/,https://i.imgur.com/wP3bbYr.png
-BeijingSatelliteTV.cn,Beijing Satellite TV,北京卫视,,,CN,,Beijing,general,FALSE,,,002RadioTV.do@SD,https://www.brtn.cn/btv/,https://i.imgur.com/vsktAez.png
-M5.hu,M5,,,,HU,,,auto,TRUE,,2021-01-01,002RadioTV.do@SD,https://www.mediaklikk.hu/m5/,https://i.imgur.com/y21wFd0.png
-Channel82.bm,Channel 82,,,,BM,,,,FALSE,,,,,https://i.imgur.com/y21wFd0.png
-ZugloTV.hu,Zuglo TV,,,,HU,,,entertainment,FALSE,,,,,https://i.imgur.com/wPqCtwR.png
-ZutTV.ve,Zut TV,,,,VE,,,music,FALSE,,,,https://www.zut.tv/,https://i.imgur.com/M6tCZ0p.png
+id,name,alt_names,network,owners,country,subdivision,city,categories,is_nsfw,launched,closed,replaced_by,website
+002RadioTV.do,002 Radio TV,,,,DO,,,general,FALSE,,,,https://www.002radio.com/
+0TV.dk,0-TV,,,,DK,,København,general,FALSE,,,01TV.fr@SD,https://0-tv.dk/
+1000xHoraTV.uy,1000xHora TV,,,,UY,,Montevideo,auto,FALSE,,,M5.hu@SD,https://www.1000xhoratv.com/
+BeijingSatelliteTV.cn,Beijing Satellite TV,北京卫视,,,CN,,Beijing,general,FALSE,,,002RadioTV.do@SD,https://www.brtn.cn/btv/
+M5.hu,M5,,,,HU,,,auto,TRUE,,2021-01-01,002RadioTV.do@SD,https://www.mediaklikk.hu/m5/
+Channel82.bm,Channel 82,,,,BM,,,,FALSE,,,,
+ZugloTV.hu,Zuglo TV,,,,HU,,,entertainment,FALSE,,,,
+ZutTV.ve,Zut TV,,,,VE,,,music,FALSE,,,,https://www.zut.tv/

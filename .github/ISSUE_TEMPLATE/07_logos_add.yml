@@ -29,7 +29,7 @@ body:
     id: logo_url
     attributes:
       label: Logo URL (required)
-      description: "Logo URL. Supported formats: `PNG`, `JPEG`, `SVG`, `GIF`, `WebP`, `AVIF`, `APNG`. Only URLs with [HTTPS](https://ru.wikipedia.org/wiki/HTTPS) protocol are supported."
+      description: "Logo URL. Supported formats: `PNG`, `JPEG`, `SVG`, `GIF`, `WebP`, `AVIF`, `APNG`. Only URLs with [HTTPS](https://ru.wikipedia.org/wiki/HTTPS) protocol are supported. The link should not be [geo-blocked](https://en.wikipedia.org/wiki/Geo-blocking)."
       placeholder: 'https://example.com/logo.png'
     validations:
       required: true

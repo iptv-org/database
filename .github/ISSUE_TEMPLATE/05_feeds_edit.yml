@@ -14,7 +14,7 @@ body:
     attributes:
       label: Channel ID (required)
       description: ID of the channel to which this feed belongs
-      placeholder: 'HBO.us'
+      placeholder: 'France3.fr'
     validations:
       required: true
 
@@ -23,7 +23,7 @@ body:
     attributes:
       label: Feed ID (required)
       description: The ID of the feed that should be updated
-      placeholder: 'West'
+      placeholder: 'Mediterranee'
     validations:
       required: true
 
@@ -32,7 +32,14 @@ body:
     attributes:
       label: Feed Name
       description: "Unique for this channel feed name in English. For example: `HD`, `East`, `French`, `+1`, etc. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, `|`, `¡`"
-      placeholder: 'West HD'
+      placeholder: 'Mediterranee HD'
+
+  - type: input
+    id: alt_names
+    attributes:
+      label: Alternative Names
+      description: List of alternative feed names separated by `;`. May contain any characters except `,` and `"`
+      placeholder: 'Méditerranée HD'
 
   - type: dropdown
     id: is_main
@@ -48,21 +55,21 @@ body:
     attributes:
       label: Broadcast Area
       description: "List of codes describing the broadcasting area of the feed separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`. A full list of supported codes can be found here: [countries](https://github.com/iptv-org/database/blob/master/data/countries.csv), [subdivisions](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv), [regions](https://github.com/iptv-org/database/blob/master/data/regions.csv)"
-      placeholder: 'c/CN'
+      placeholder: 's/FR-IDF'
 
   - type: input
     id: timezones
     attributes:
       label: Timezones
       description: List of broadcast time zones separated by `;`. A list of all supported timezones and their codes can be found in [data/timezones.csv](https://github.com/iptv-org/database/blob/master/data/timezones.csv)
-      placeholder: 'Asia/Shanghai'
+      placeholder: 'Europe/Paris'
 
   - type: input
     id: languages
     attributes:
       label: Languages
       description: List of languages in which the feed is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](https://github.com/iptv-org/database/blob/master/data/languages.csv)
-      placeholder: 'zho;eng'
+      placeholder: 'fra;eng'
 
   - type: dropdown
     id: format

@@ -277,6 +277,7 @@ async function addFeeds(issues: Collection, data: DataLoaderData) {
       channel: channelId,
       id: feedId,
       name: feedName,
+      alt_names: issueData.getArray('alt_names') || [],
       is_main: issueData.getBoolean('is_main') || false,
       broadcast_area: issueData.getArray('broadcast_area') || [],
       timezones: issueData.getArray('timezones') || [],
@@ -337,11 +338,6 @@ async function editChannels(issues: Collection, data: DataLoaderData) {
 
     if (!channelId) return
 
-    if (issueData.has('logo')) {
-      const logoUrl = issueData.getString('logo') || ''
-      onChannelLogoChange(found.logoUrl, logoUrl, data)
-    }
-
     found.update(issueData).setId(channelId)
 
     processedIssues.push(issue)
@@ -360,7 +356,7 @@ async function addChannels(issues: Collection, data: DataLoaderData) {
       issueData.missing('channel_name') ||
       issueData.missing('country') ||
       issueData.missing('is_nsfw') ||
-      issueData.missing('logo') ||
+      issueData.missing('logo_url') ||
       issueData.missing('feed_name') ||
       issueData.missing('broadcast_area') ||
       issueData.missing('timezones') ||
@@ -392,8 +388,7 @@ async function addChannels(issues: Collection, data: DataLoaderData) {
       launched: issueData.getString('launched'),
       closed: issueData.getString('closed'),
       replaced_by: issueData.getString('replaced_by'),
-      website: issueData.getString('website'),
-      logo: issueData.getString('logo') || ''
+      website: issueData.getString('website')
     })
     data.channels.add(newChannel)
 
@@ -522,14 +517,6 @@ function onChannelIdChange(channelId: string, newChannelId: string, data: DataLo
   })
 }
 
-function onChannelLogoChange(logoUrl: string, newLogoUrl: string, data: DataLoaderData) {
-  data.logos.forEach((logo: Logo) => {
-    if (logo.url === logoUrl) {
-      logo.url = newLogoUrl
-    }
-  })
-}
-
 function onChannelRemoval(channelId: string, data: DataLoaderData) {
   data.channels.forEach((channel: Channel) => {
     if (channel.replacedBy && channel.replacedBy.includes(channelId)) {
@@ -561,7 +548,7 @@ async function onChannelAddition(channelId: string, issueData: IssueData, data: 
   data.feeds.add(newFeed)
 
   const imageProcessor = new ImageProcessor()
-  const logoUrl = issueData.getString('logo') || ''
+  const logoUrl = issueData.getString('logo_url') || ''
   const imageInfo = await imageProcessor.probe(logoUrl)
 
   const newLogo = new Logo({

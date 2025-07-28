@@ -33,9 +33,10 @@ export default [
     },
 
     rules: {
+      '@typescript-eslint/no-require-imports': 'off',
       '@typescript-eslint/no-var-requires': 'off',
       'no-case-declarations': 'off',
-      'linebreak-style': ['error', 'unix'],
+      'linebreak-style': ['error', process.env.CI ? 'unix' : 'windows'],
 
       quotes: [
         'error',

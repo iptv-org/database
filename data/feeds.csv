@@ -7879,6 +7879,7 @@ DreamWorks.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,1080p
 DreamWorksChannel.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 DreamWorksChannel.es,SD,SD,,TRUE,c/ES,Europe/Madrid,eng,576i
 DreamWorksChannelAsia.us,SD,SD,,TRUE,r/SEA,America/New_York,eng,480i
+DreamWorksChannelAsia.us,Vietnam,Vietnam,,FALSE,c/VN,Asia/Ho_Chi_Minh,vie;eng,1080i
 DreamWorksChannelLatinAmerica.us,SD,SD,,TRUE,r/HISPAM,America/New_York,spa,480i
 DreamWorksChannelMiddleEast.us,SD,SD,,TRUE,r/MIDEAST,America/New_York,eng,480i
 DreamzTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
@@ -10390,7 +10391,9 @@ GranducatoTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 GrandYoffTV.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,fra,576i
 GranTV.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 GrapheTV.mq,SD,SD,,TRUE,c/MQ,America/Martinique,fra,480i
+Graphite.us,Minus1,-1,,FALSE,c/US,America/Anchorage,eng,480p
 Graphite.us,West,West,,TRUE,c/US,America/Los_Angeles,eng,480p
+GraphiteHD.us,Minus1,-1,,FALSE,c/US,America/Anchorage,eng,720p
 GraphiteHD.us,West,West,,TRUE,c/US,America/Los_Angeles,eng,720p
 GravitasAdrenaline.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 GravitasDocumentaries.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -22606,6 +22609,7 @@ OnTimeSports2.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 OnTimeSports3.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 Ontustik.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz,576i
 ONTV.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
+ONTV46.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,576i
 OnTV4U.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 ONTVEducationAccess.us,SD,SD,,TRUE,s/US-MI,America/New_York,eng,480i
 ONTVGovernmentAccess.us,SD,SD,,TRUE,s/US-MI,America/New_York,eng,480i
@@ -24676,16 +24680,19 @@ RadioTeleEvangileSansLimite.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
 RadioTeleFepaco.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 RadioTeleFraterniteBuenaMuntu.cd,SD,SD,,TRUE,c/CD,Africa/Lubumbashi,fra,576i
 RadioTeleFulbe.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,fra;fuc,576i
+RadioTeleFullGospel.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,576i
 RadioTeleGalaxie.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 RadioTeleGinen.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
-RadioTeleHit.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+RadioTeleHit.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 RadioTeleKajou.us,SD,SD,,TRUE,c/US;c/HT,America/New_York,fra,480i
+RadioTeleMonopole.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat;eng,576i
 RadioTeleNakay.mg,SD,SD,,TRUE,c/MG,Indian/Antananarivo,mlg,576i
 RadioTelePainVivant.us,SD,SD,,TRUE,c/US,America/New_York,fra,480i
 RadioTelePititManmanMari.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
 RadioTelePlanetCompas.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 RadioTelePrince.us,SD,SD,,TRUE,c/US;c/HT,America/New_York,fra,480i
 RadioTelePuissance.us,SD,SD,,TRUE,c/US;c/HT,America/New_York,fra;eng,480i
+RadioTeleScoop.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,576i
 RadioTeleSentinel.us,SD,SD,,TRUE,c/US;c/HT,America/New_York,fra;hat,480i
 RadioTeleShalom.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 RadioTeleSilo.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -26676,7 +26683,6 @@ SharjahRadioQuran.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,ara,576i
 SharjahSports.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,ara;eng,576i
 SharjahTV.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,ara,576i
 SharonTV.us,SD,SD,,TRUE,s/US-MA,America/New_York,eng,480i
-SharqiyaTV.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,ara,576i
 SharqRadioTV.af,SD,SD,,TRUE,c/AF,Asia/Kabul,pus,576i
 ShawPayPerView1.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 ShawPayPerView11.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
@@ -29242,6 +29248,7 @@ TeenNick.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 TeenNickArabia.ae,SD,SD,,TRUE,r/MENA,Asia/Dubai,ara,576i
 TeenNickLatinAmerica.us,SD,SD,,TRUE,r/LATAM,America/New_York,spa;eng,480i
 TEF.es,SD,SD,,TRUE,s/ES-IB,Europe/Madrid,cat;spa,576i
+TEFROREVChaine48.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,576i
 TegarTVJogja.id,SD,SD,,TRUE,s/ID-YO,Asia/Jakarta,ind,576i
 TegarTVLampung.id,SD,SD,,TRUE,s/ID-LA,Asia/Jakarta,ind,576i
 TehelkaTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
@@ -29593,6 +29600,7 @@ Teleselva.pe,SD,SD,,TRUE,s/PE-JUN,America/Lima,spa,480i
 TeleSenegalTV.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,fra,576i
 TeleSesel.sc,SD,SD,,TRUE,c/SC,Indian/Mahe,crs;eng;fra,576i
 TeleShopping.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
+TeleSignal.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,576i
 TelesirioWebTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 Telesistema.cr,SD,SD,,TRUE,c/CR,America/La_Paz,spa,480i
 Telesistema11.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i

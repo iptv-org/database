@@ -500,6 +500,7 @@ ABC.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 ABCAmbaTV.cm,SD,SD,,TRUE,c/CM,Africa/Douala,eng,576i
 ABCArts.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 ABCAustralia.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
+ABCAustralia.au,Vietnam,Vietnam,,FALSE,c/VN,Australia/Sydney,eng,1080p
 ABChannel.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 ABCKids.au,Adelaide,Adelaide,,FALSE,s/AU-SA,Australia/Adelaide,eng,576i
 ABCKids.au,Brisbane,Brisbane,,FALSE,s/AU-QLD,Australia/Brisbane,eng,576i
@@ -2610,6 +2611,7 @@ BahrainQuran.bh,SD,SD,,TRUE,c/BH,Asia/Bahrain,ara,576i
 BahrainSports1.bh,SD,SD,,TRUE,c/BH,Asia/Bahrain,ara,576i
 BahrainSports2.bh,SD,SD,,TRUE,c/BH,Asia/Bahrain,ara,576i
 BahrainTV.bh,SD,SD,,TRUE,c/BH,Asia/Bahrain,ara,576i
+Bahry.kw,HD,HD,,TRUE,c/KW,Asia/Kuwait,ara,1080p
 BaichengTV.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 BailenTV.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 BainaTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
@@ -3234,6 +3236,7 @@ BestCableMasCumbia.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 BestCableMusic.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 BestCablePeru.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 BestCableSportsPeru.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
+BestClasicosTV.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,576i
 BestDealTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 BestDirect.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 BestofDanceTV.ee,SD,SD,,TRUE,c/EE,Europe/Tallinn,eng,576i
@@ -3394,6 +3397,7 @@ BikeChannel.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita,1080i
 BikeChannel.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 BilalTV.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 Bild.de,SD,SD,,TRUE,c/CH;c/DE,Europe/Berlin,deu,576i
+BililiTV.cg,SD,SD,,TRUE,c/CG,Africa/Brazzaville,fra,576i
 BilimIlim.kg,SD,SD,,TRUE,r/CAS,Asia/Bishkek,kir;rus,576i
 BilliardsTV.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 BilliardTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -3989,6 +3993,7 @@ CABTV.cd,SD,SD,,TRUE,c/CD,Africa/Lubumbashi,fra,576i
 Cacavision.es,SD,SD,,TRUE,c/ES,Europe/Madrid,por,576i
 CacciaePesca.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 CaceresTeVe.es,SD,SD,,TRUE,s/ES-EX,Europe/Madrid,spa,576i
+CaciqueTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 CACITV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 CACTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 Cadena103TV.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
@@ -4943,8 +4948,8 @@ CBC.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 CBCDrama.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 CBCNewsNetwork.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 CBCSofra.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
-CBCSport.az,HD,HD,,FALSE,c/AZ,Asia/Baku,aze,1080i
-CBCSport.az,SD,SD,,TRUE,c/AZ,Asia/Baku,aze,576i
+CBCSport.az,HD,HD,,TRUE,c/AZ,Asia/Baku,aze,1080i
+CBCSport.az,SD,SD,,FALSE,c/AZ,Asia/Baku,aze,576i
 CBCTDT.ca,SD,SD,,TRUE,s/CA-PE,America/Halifax,eng,480i
 CBCTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 CBCTV.zm,SD,SD,,TRUE,c/ZM,Africa/Lusaka,eng,576i
@@ -6855,6 +6860,7 @@ CVTVChannel192.us,SD,SD,,TRUE,s/US-VT,America/New_York,eng,480i
 CVTVChannel194.us,SD,SD,,TRUE,s/US-VT,America/New_York,eng,480i
 CVTVChannel21.us,SD,SD,,TRUE,s/US-WA,America/Vancouver,eng,480i
 CVTVChannel23.us,SD,SD,,TRUE,s/US-WA,America/Vancouver,eng,480i
+CVVisionTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,576i
 CW.us,Central,Central,,FALSE,c/US,America/Chicago,eng,480i
 CW.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 CW.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
@@ -7874,6 +7880,7 @@ DreamWorks.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,1080p
 DreamWorksChannel.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 DreamWorksChannel.es,SD,SD,,TRUE,c/ES,Europe/Madrid,eng,576i
 DreamWorksChannelAsia.us,SD,SD,,TRUE,r/SEA,America/New_York,eng,480i
+DreamWorksChannelAsia.us,Vietnam,Vietnam,,FALSE,c/VN,Asia/Ho_Chi_Minh,vie;eng,1080i
 DreamWorksChannelLatinAmerica.us,SD,SD,,TRUE,r/HISPAM,America/New_York,spa,480i
 DreamWorksChannelMiddleEast.us,SD,SD,,TRUE,r/MIDEAST,America/New_York,eng,480i
 DreamzTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
@@ -8443,6 +8450,7 @@ EntellaTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 Enter10Bangla.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 Enter10Rangeela.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 Enter959.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
+EnterateRD.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 EnterFilm.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 EntermeiTele.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 Enterr10.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -8776,6 +8784,7 @@ ETVPublicAccess.us,SD,SD,,TRUE,s/US-MN,America/New_York,eng,480i
 eTvRete7.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 ETVRwanda.rw,SD,SD,,TRUE,c/RW,Africa/Kigali,eng,576i
 ETVTelangana.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
+ETVTelugu.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tel,1080i
 ETVTelugu.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 ETVYelijochalem.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 EulessGovernmentAccessChannel.us,SD,SD,,TRUE,s/US-TX,America/New_York,eng,480i
@@ -10384,6 +10393,10 @@ GranducatoTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 GrandYoffTV.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,fra,576i
 GranTV.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 GrapheTV.mq,SD,SD,,TRUE,c/MQ,America/Martinique,fra,480i
+Graphite.us,Minus1,-1,,FALSE,c/US,America/Anchorage,eng,480p
+Graphite.us,West,West,,TRUE,c/US,America/Los_Angeles,eng,480p
+GraphiteHD.us,Minus1,-1,,FALSE,c/US,America/Anchorage,eng,720p
+GraphiteHD.us,West,West,,TRUE,c/US,America/Los_Angeles,eng,720p
 GravitasAdrenaline.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 GravitasDocumentaries.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 GravitasMovies.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -10528,7 +10541,7 @@ GuatusoTV.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,480i
 GuaTV.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 GuayapeTV.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 GuaymateTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
-Gubbare.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+Gubbare.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin;tam;tel,576i
 GuberniaKhabarovsk.ru,SD,SD,,TRUE,c/RU,Asia/Vladivostok,rus,576i
 GuberniaSamara.ru,SD,SD,,TRUE,c/RU,Europe/Samara,rus,576i
 Guberniya33.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
@@ -11796,6 +11809,7 @@ InfoMediaNews.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 InformacionTV.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa;cat,576i
 InformatiaTV.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 InformerTV.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
+InformeTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 InfosportPlus.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 InfoTV.cm,SD,SD,,TRUE,c/CM,Africa/Douala,fra,576i
 InfoTV.lt,SD,SD,,TRUE,c/LT,Europe/Vilnius,lit,576i
@@ -18404,6 +18418,7 @@ LaGuineeFe.gn,SD,SD,,TRUE,c/GN,Africa/Conakry,fra,576i
 LagunaTV.by,SD,SD,,TRUE,c/BY,Europe/Minsk,bel;rus,576i
 LaHermandadSalsera.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 LaHermosaStereoTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
+LaHoraTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 LahoreNews.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,urd,576i
 LahoreRang.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,urd,576i
 LaiChauTV.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
@@ -18522,6 +18537,7 @@ LaReinaTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 LaResistencia.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 LaResistenciaporMovistarPlusPlus.es,SD,SD,,TRUE,c/ES;c/AD,Europe/Madrid,spa,576i
 LaRiberena.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
+LarivisionTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 LaRock22.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,480i
 LaRosadeGuadalupe.us,SD,SD,,TRUE,c/ES,America/New_York,spa,480i
 LaRutaTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
@@ -18576,7 +18592,7 @@ Lausitzwelle.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 LaVictoriaTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 LaVoixduRoutierTV.bj,SD,SD,,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 LaVoz24h.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
-LaVozdeJesusHD.do,HD,HD,,TRUE,c/US;c/DO,America/New_York,eng;spa,720p
+LaVozdeJesusHD.do,HD,HD,,TRUE,c/AG;c/AI;c/AR;c/AW;c/BB;c/BL;c/BM;c/BO;c/BR;c/BS;c/BV;c/BZ;c/CA;c/CL;c/CO;c/CR;c/CU;c/CW;c/DM;c/DO;c/EC;c/FK;c/GD;c/GF;c/GL;c/GP;c/GS;c/GT;c/GY;c/HN;c/HT;c/JM;c/KN;c/KY;c/LC;c/MF;c/MQ;c/MS;c/MX;c/NI;c/PA;c/PE;c/PM;c/PR;c/PY;c/SR;c/SV;c/SX;c/TC;c/TT;c/US;c/UY;c/VC;c/VE;c/VG;c/VI,America/New_York,eng;spa,720p
 LaVozdelTropico.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 LaVozdeMaria.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 LaVozdeTucuman.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
@@ -19124,6 +19140,7 @@ Luxury.ru,HD,HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
 Luxury.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 LuyaaTV.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,swa,576i
 LuysTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur;hye,576i
+LuzDivinaTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 LuzhouNewsChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 LuzhouPublicLifestyleChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 LuzhouSciTechEducationChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
@@ -19533,6 +19550,7 @@ Mayavision.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 Mayotte1ere.yt,SD,SD,,TRUE,c/YT,Indian/Mayotte,fra;swb,576i
 MayotteOneTV.yt,SD,SD,,TRUE,c/YT,Indian/Mayotte,fra,576i
 Mayyazhi.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
+MazhavilManorama.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,mal,1080i
 MazhavilManorama.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
 Mazzika.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 MBC.mw,SD,SD,,TRUE,c/MW,Africa/Blantyre,eng;nya,576i
@@ -19962,6 +19980,7 @@ mioStadium106.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,eng,576i
 mioStadium107.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,eng,576i
 mioStadium108.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,eng,576i
 MIPCTV.tg,SD,SD,,TRUE,c/TG,Africa/Lome,fra,576i
+MiPuebloTv.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 Mir.ru,Plus2,+2,,FALSE,c/RU,Europe/Moscow,rus,576i
 Mir.ru,Plus3,+3,,FALSE,c/RU,Europe/Moscow,rus,576i
 Mir.ru,Plus4,+4,,FALSE,c/RU,Europe/Moscow,rus,576i
@@ -22593,6 +22612,7 @@ OnTimeSports2.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 OnTimeSports3.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 Ontustik.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz,576i
 ONTV.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
+ONTV46.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,576i
 OnTV4U.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 ONTVEducationAccess.us,SD,SD,,TRUE,s/US-MI,America/New_York,eng,480i
 ONTVGovernmentAccess.us,SD,SD,,TRUE,s/US-MI,America/New_York,eng,480i
@@ -22808,6 +22828,7 @@ OWN.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 OXAHHD.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,eng,576i
 OxigenoTV.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 OXIRTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
+OxiTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 Oxygen.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 Oxygen.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 OxygenHD.ss,SD,SD,,TRUE,c/SS,Africa/Juba,eng,576i
@@ -24652,35 +24673,39 @@ RadioSWHTV.lv,SD,SD,,TRUE,c/LV,Europe/Riga,lav,576i
 RadioTaorminaSicilia.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 RadiotecaWebstereo.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 RadioTele4VEH.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
-RadioTele6Univers.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+RadioTele6Univers.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 RadioTeleAmenFM.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
-RadioTeleCaramel.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
-RadioTeleControle.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+RadioTeleCaramel.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
+RadioTeleControle.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 RadioTeleEbenezer.cd,SD,SD,,TRUE,c/CD,Africa/Lubumbashi,fra,576i
-RadioTeleEclair.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+RadioTeleEclair.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 RadioTeleEvangileSansLimite.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
 RadioTeleFepaco.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 RadioTeleFraterniteBuenaMuntu.cd,SD,SD,,TRUE,c/CD,Africa/Lubumbashi,fra,576i
 RadioTeleFulbe.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,fra;fuc,576i
-RadioTeleGalaxie.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+RadioTeleFullGospel.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,576i
+RadioTeleGalaxie.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 RadioTeleGinen.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
-RadioTeleHit.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+RadioTeleHit.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 RadioTeleKajou.us,SD,SD,,TRUE,c/US;c/HT,America/New_York,fra,480i
+RadioTeleMonopole.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat;eng,576i
 RadioTeleNakay.mg,SD,SD,,TRUE,c/MG,Indian/Antananarivo,mlg,576i
 RadioTelePainVivant.us,SD,SD,,TRUE,c/US,America/New_York,fra,480i
 RadioTelePititManmanMari.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
-RadioTelePlanetCompas.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+RadioTelePlanetCompas.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 RadioTelePrince.us,SD,SD,,TRUE,c/US;c/HT,America/New_York,fra,480i
 RadioTelePuissance.us,SD,SD,,TRUE,c/US;c/HT,America/New_York,fra;eng,480i
+RadioTeleScoop.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,576i
 RadioTeleSentinel.us,SD,SD,,TRUE,c/US;c/HT,America/New_York,fra;hat,480i
-RadioTeleShalom.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+RadioTeleShalom.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 RadioTeleSilo.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 RadioTeleStanneCharitab.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
 RadioTeleSuperStar.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
 RadioTeleVictoire.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
 RadioTelevisaoCrista.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
+RadioTelevisionCaraibes.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 RadioTelevisionCeuta.es,SD,SD,,TRUE,s/ES-CE,Europe/Madrid,spa,576i
-RadioTelevisionHirondelle.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+RadioTelevisionHirondelle.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 RadioTelevisionMarbella.es,SD,SD,,TRUE,s/ES-AN,Europe/Madrid,spa,576i
 RadioTelevisionMogan.es,SD,SD,,TRUE,s/ES-CN,Europe/Madrid,spa,576i
 RadioTelevisionShilo.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
@@ -25638,7 +25663,8 @@ RTL1025RomeoJuliet.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 RTL1025TV.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita,1080i
 RTL1025TV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 RTL2.hr,SD,SD,,TRUE,c/HR,Europe/Zagreb,hrv;hun,576i
-RTL4.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+RTL4.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
+RTL4.nl,SD,SD,,FALSE,c/NL,Europe/Amsterdam,nld,576i
 RTL5.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RTL7.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RTL8.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
@@ -26660,7 +26686,6 @@ SharjahRadioQuran.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,ara,576i
 SharjahSports.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,ara;eng,576i
 SharjahTV.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,ara,576i
 SharonTV.us,SD,SD,,TRUE,s/US-MA,America/New_York,eng,480i
-SharqiyaTV.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,ara,576i
 SharqRadioTV.af,SD,SD,,TRUE,c/AF,Asia/Kabul,pus,576i
 ShawPayPerView1.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 ShawPayPerView11.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
@@ -28449,6 +28474,7 @@ StonehamTV.us,SD,SD,,TRUE,s/US-MA,America/New_York,eng,480i
 StopklatkaTV.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 StopSatelliteTaxChannel.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 StoriesbyAMC.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+StormTV.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,576i
 StortingetHS1.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 StortingetHS2.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 StortingetN202.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
@@ -29225,6 +29251,7 @@ TeenNick.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 TeenNickArabia.ae,SD,SD,,TRUE,r/MENA,Asia/Dubai,ara,576i
 TeenNickLatinAmerica.us,SD,SD,,TRUE,r/LATAM,America/New_York,spa;eng,480i
 TEF.es,SD,SD,,TRUE,s/ES-IB,Europe/Madrid,cat;spa,576i
+TEFROREVChaine48.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,576i
 TegarTVJogja.id,SD,SD,,TRUE,s/ID-YO,Asia/Jakarta,ind,576i
 TegarTVLampung.id,SD,SD,,TRUE,s/ID-LA,Asia/Jakarta,ind,576i
 TehelkaTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
@@ -29240,7 +29267,7 @@ Tele1.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,deu,576i
 Tele1.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,480i
 Tele1.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 Tele10.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
-Tele20.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+Tele20.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 Tele2000.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 Tele2WebRetiro.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 TELE4Ojocaliente.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
@@ -29267,7 +29294,7 @@ Telealacarte5.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
 Telealacarte6.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
 Telealtura.do,SD,SD,,TRUE,s/DO-13,America/Santo_Domingo,spa,480i
 TeleAmalfi.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
-TeleAmaniY.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+TeleAmaniY.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 Teleamazonas.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 Teleamazonas.pe,SD,SD,,TRUE,s/PE-AMA,America/Lima,spa,480i
 TeleAmbienteTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
@@ -29361,6 +29388,7 @@ TeleCulturelleMedias.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
 Telecupole.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 TeleCuracao.cw,SD,SD,,TRUE,c/CW,America/Curacao,pap;nld;eng,480i
 TeleD.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,deu,576i
+TeleDajabonTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 TeleDanli.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 TeleDehon.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 Teledeporte.es,HEVC,HEVC,,FALSE,c/ES,Europe/Madrid,spa,1080p
@@ -29405,7 +29433,7 @@ TeleGohelle.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 TeleGold.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 Telegranda.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 TeleGrenoble.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
-TeleHaiti.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+TeleHaiti.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat;eng,480i
 TeleHit.mx,SD,SD,,TRUE,r/HISPAM,America/Mexico_City,spa;eng,480i
 TeleHitEstadosUnidos.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 TelehitMusica.mx,SD,SD,,TRUE,r/HISPAM,America/Mexico_City,spa,480i
@@ -29425,7 +29453,7 @@ Teleliberta.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 TeleLiguriaSud.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 Telelima.pe,SD,SD,,TRUE,s/PE-LIM,America/Lima,spa,480i
 Telelombardia.it,SD,SD,,TRUE,c/CH;c/IT,Europe/Rome,ita,576i
-TeleLouange.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+TeleLouange.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 TeleM.md,SD,SD,,TRUE,c/MD,Europe/Chisinau,ron,576i
 TeleM1.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,deu,576i
 Telemadrid.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
@@ -29519,7 +29547,7 @@ Telepace3.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 Telepace4.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita;fra;eng,576i
 TelepaceNews.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita;eng;fra,576i
 TelepaceTrento.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
-TelePacific.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+TelePacific.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 Telepacifico.co,SD,SD,,TRUE,s/CO-CAU;s/CO-CHO;s/CO-NAR;s/CO-VAC,America/Bogota,spa,480i
 TelePaks.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 TelePam.us,SD,SD,,TRUE,c/US;c/HT,America/New_York,fra;hat;eng,480i
@@ -29530,7 +29558,7 @@ TelePeru.pe,SD,SD,,TRUE,s/PE-LIM,America/Lima,spa,480i
 Telepetroleo.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 TelePinar.cu,SD,SD,,TRUE,c/CU,America/Havana,spa,480i
 TeleplaySureste.mx,SD,SD,,TRUE,s/MX-YUC,America/Mexico_City,spa,480i
-TelePluriel.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+TelePluriel.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 TelePlus.mu,SD,SD,,TRUE,c/MU,Indian/Mauritius,fra;mfe,576i
 TelePordenone.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 TelePortalCanal531.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
@@ -29575,13 +29603,14 @@ Teleselva.pe,SD,SD,,TRUE,s/PE-JUN,America/Lima,spa,480i
 TeleSenegalTV.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,fra,576i
 TeleSesel.sc,SD,SD,,TRUE,c/SC,Indian/Mahe,crs;eng;fra,576i
 TeleShopping.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
+TeleSignal.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,576i
 TelesirioWebTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 Telesistema.cr,SD,SD,,TRUE,c/CR,America/La_Paz,spa,480i
 Telesistema11.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 Telesistema3y7.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 TeleSocopo.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 Telesol.ar,SD,SD,,TRUE,s/AR-J,America/Argentina/Buenos_Aires,spa,576i
-TeleSoleil.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+TeleSoleil.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 TelesolTV.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 Telesport.al,SD,SD,,TRUE,c/AL,Europe/Tirane,sqi,576i
 Telestar1.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
@@ -29631,7 +29660,7 @@ Teleuniverso.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 TeleUno.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,480i
 TeleUV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 Televallo.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
-TeleVariete.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+TeleVariete.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 Televen.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 TeleVenezia.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 Telever.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
@@ -29707,7 +29736,7 @@ TelevisionOlanchana.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 TelevisionOriental.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 TelevisionRivense.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,480i
 TelevisionSantiaguena.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,576i
-TelevisionSNL.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+TelevisionSNL.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 TelevisionTarapoto.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 TelevisionUNAL.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 TelevisionX.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
@@ -30217,7 +30246,7 @@ TNCTVED.us,SD,SD,,TRUE,s/US-MA,America/New_York,eng,480i
 TNE.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 TNECanal58.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 TNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
-TNH.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+TNH.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 TNICanal51.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 TNLive.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
 TNLTV.lk,SD,SD,,TRUE,c/LK,Asia/Colombo,eng;sin,576i
@@ -30325,7 +30354,7 @@ Tollywood.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 TOLOnews.af,SD,SD,,TRUE,c/AF,Asia/Kabul,pus,576i
 ToloTV.af,SD,SD,,TRUE,c/AF,Asia/Kabul,pus,576i
 Tolyatti24.ru,SD,SD,,TRUE,c/RU,Europe/Samara,rus,576i
-TomAndJerry.us,HD,HD,,TRUE,c/US,America/New_York,eng,720p
+TomAndJerry.us,HD,HD,,TRUE,c/AG;c/AI;c/AR;c/AW;c/BB;c/BL;c/BM;c/BO;c/BR;c/BS;c/BV;c/BZ;c/CA;c/CL;c/CO;c/CR;c/CU;c/CW;c/DM;c/DO;c/EC;c/FK;c/GD;c/GF;c/GL;c/GP;c/GS;c/GT;c/GY;c/HN;c/HT;c/JM;c/KN;c/KY;c/LC;c/MF;c/MQ;c/MS;c/MX;c/NI;c/PA;c/PE;c/PM;c/PR;c/PY;c/SR;c/SV;c/SX;c/TC;c/TT;c/US;c/UY;c/VC;c/VE;c/VG;c/VI,America/New_York,eng,720p
 TomatoTV.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 TommyTeleshopping.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 TongchuanEducationalChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
@@ -30769,7 +30798,7 @@ TurbionDigitalTV.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
 TurboMixRadioTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 TurboTV.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 TurfMovil.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
-TurismoHD.do,HD,HD,,TRUE,c/US;c/DO,America/New_York,eng;spa,720p
+TurismoHD.do,HD,HD,,TRUE,c/AG;c/AI;c/AR;c/AW;c/BB;c/BL;c/BM;c/BO;c/BR;c/BS;c/BV;c/BZ;c/CA;c/CL;c/CO;c/CR;c/CU;c/CW;c/DM;c/DO;c/EC;c/FK;c/GD;c/GF;c/GL;c/GP;c/GS;c/GT;c/GY;c/HN;c/HT;c/JM;c/KN;c/KY;c/LC;c/MF;c/MQ;c/MS;c/MX;c/NI;c/PA;c/PE;c/PM;c/PR;c/PY;c/SR;c/SV;c/SX;c/TC;c/TT;c/US;c/UY;c/VC;c/VE;c/VG;c/VI,America/New_York,eng;spa,720p
 TurismoTravelTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 TurismoVisionArgentina.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 TuristikTV.mx,SD,SD,,TRUE,s/MX-ROO,America/Mexico_City,spa,480i
@@ -30808,7 +30837,7 @@ TV1.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 TV1.tz,SD,SD,,TRUE,c/TZ,Africa/Dar_es_Salaam,swa,576i
 TV10.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
 TV10.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
-TV10.rw,SD,SD,,TRUE,c/RW,Africa/Kigali,kin,576i
+TV10.rw,SD,SD,,TRUE,c/RW,Africa/Kigali,eng;kin,576i
 TV10.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 TV10.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 TV10.us,SD,SD,,TRUE,s/US-VA,America/New_York,eng,480i
@@ -31260,7 +31289,6 @@ TVCancaoNovaRioGrandedoSul.br,SD,SD,,TRUE,s/BR-RS,America/Sao_Paulo,por,480i
 TVCandides.br,SD,SD,,TRUE,s/BR-MG,America/Sao_Paulo,por,480i
 TVCapitalLucelia.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 TVCapixaba.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
-TVCaraibes.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
 TVCaravelas.br,SD,SD,,TRUE,s/BR-MG,America/Sao_Paulo,por,480i
 TVCARiB.sx,SD,SD,,TRUE,c/SX,America/Lower_Princes,fra;eng,480i
 TVCARiBCinema.sx,SD,SD,,TRUE,c/SX,America/Montserrat,nld;eng,576i
@@ -31524,6 +31552,7 @@ TVHDTropical.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
 TVHellin.es,SD,SD,,TRUE,s/ES-CM,Europe/Madrid,spa,576i
 TVHercegNovi.me,SD,SD,,TRUE,c/ME,Europe/Podgorica,cnr,576i
 TVHigueyDigital.do,SD,SD,,TRUE,s/DO-11,America/Santo_Domingo,spa,480i
+TVHispanic.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,576i
 TVHispanic.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 TVHitPlusBatocina.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 TVHits.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
@@ -32014,7 +32043,7 @@ TVQSports.gt,SD,SD,,TRUE,r/HISPAM,America/Guatemala,spa,480i
 TvQTabasco.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 TVQuiModena.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 TVQuintaRegion.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
-TVQuisqueya.us,SD,SD,,TRUE,s/US-FL,America/New_York,spa,480i
+TVQuisqueya.us,SD,SD,,TRUE,c/US;c/DO,America/New_York,spa,480i
 TVR.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 TVR.es,SD,SD,,TRUE,s/ES-RI,Europe/Madrid,spa,576i
 TVR.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -32605,6 +32634,7 @@ UnifiSports1.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,msa;eng,576i
 UnifiSports2.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,msa;eng,576i
 UnifiSports3.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,msa;eng,576i
 UnifiSports4.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,msa;eng,576i
+Unifranz.bo,HD,HD,,TRUE,c/BO;s/BO-L;r/LATAM,America/La_Paz,spa,720p
 Unikum.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 UniMas.us,Central,Central,,FALSE,c/US,America/New_York,eng,480i
 UniMas.us,East,East,,TRUE,c/US,America/New_York,eng,480i
@@ -39730,6 +39760,7 @@ ZonaM.md,SD,SD,,TRUE,c/MD,Europe/Chisinau,ron,576i
 ZonaMusicTV.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,480i
 ZonaPlayTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 ZonaPlus.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
+ZonavisionTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,576i
 ZondaTV.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 ZoneThree6.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 Zoom.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i

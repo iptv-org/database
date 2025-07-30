@@ -500,6 +500,7 @@ ABC.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 ABCAmbaTV.cm,SD,SD,,TRUE,c/CM,Africa/Douala,eng,576i
 ABCArts.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 ABCAustralia.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
+ABCAustralia.au,Vietnam,Vietnam,,FALSE,c/VN,Australia/Sydney,eng,1080p
 ABChannel.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 ABCKids.au,Adelaide,Adelaide,,FALSE,s/AU-SA,Australia/Adelaide,eng,576i
 ABCKids.au,Brisbane,Brisbane,,FALSE,s/AU-QLD,Australia/Brisbane,eng,576i
@@ -4947,8 +4948,8 @@ CBC.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 CBCDrama.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 CBCNewsNetwork.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 CBCSofra.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
-CBCSport.az,HD,HD,,FALSE,c/AZ,Asia/Baku,aze,1080i
-CBCSport.az,SD,SD,,TRUE,c/AZ,Asia/Baku,aze,576i
+CBCSport.az,HD,HD,,TRUE,c/AZ,Asia/Baku,aze,1080i
+CBCSport.az,SD,SD,,FALSE,c/AZ,Asia/Baku,aze,576i
 CBCTDT.ca,SD,SD,,TRUE,s/CA-PE,America/Halifax,eng,480i
 CBCTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 CBCTV.zm,SD,SD,,TRUE,c/ZM,Africa/Lusaka,eng,576i
@@ -8783,6 +8784,7 @@ ETVPublicAccess.us,SD,SD,,TRUE,s/US-MN,America/New_York,eng,480i
 eTvRete7.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 ETVRwanda.rw,SD,SD,,TRUE,c/RW,Africa/Kigali,eng,576i
 ETVTelangana.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
+ETVTelugu.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tel,1080i
 ETVTelugu.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 ETVYelijochalem.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 EulessGovernmentAccessChannel.us,SD,SD,,TRUE,s/US-TX,America/New_York,eng,480i
@@ -19548,6 +19550,7 @@ Mayavision.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 Mayotte1ere.yt,SD,SD,,TRUE,c/YT,Indian/Mayotte,fra;swb,576i
 MayotteOneTV.yt,SD,SD,,TRUE,c/YT,Indian/Mayotte,fra,576i
 Mayyazhi.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
+MazhavilManorama.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,mal,1080i
 MazhavilManorama.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
 Mazzika.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 MBC.mw,SD,SD,,TRUE,c/MW,Africa/Blantyre,eng;nya,576i
@@ -32631,6 +32634,7 @@ UnifiSports1.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,msa;eng,576i
 UnifiSports2.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,msa;eng,576i
 UnifiSports3.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,msa;eng,576i
 UnifiSports4.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,msa;eng,576i
+Unifranz.bo,HD,HD,,TRUE,c/BO;s/BO-L;r/LATAM,America/La_Paz,spa,720p
 Unikum.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 UniMas.us,Central,Central,,FALSE,c/US,America/New_York,eng,480i
 UniMas.us,East,East,,TRUE,c/US,America/New_York,eng,480i

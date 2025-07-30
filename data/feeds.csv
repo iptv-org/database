@@ -4963,6 +4963,7 @@ CBeebies.uk,HD,HD,,FALSE,c/UK,Europe/London,eng,1080i
 CBeebies.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 CBeebiesAfrica.uk,SD,SD,,TRUE,r/AFR,Europe/London,eng,576i
 CBeebiesAsia.uk,SD,SD,,TRUE,r/SEA,Europe/London,eng,576i
+CBeebiesAsia.uk,Vietnam,Vietnam,,FALSE,c/VN,Asia/Ho_Chi_Minh,vie;eng,1080p
 CBeebiesLatinAmerica.uk,SD,SD,,TRUE,r/HISPAM,Europe/London,spa;eng,576i
 CBeebiesMiddleEast.uk,SD,SD,,TRUE,r/MIDEAST,Europe/London,ara;eng,576i
 CBETDT.ca,SD,SD,,TRUE,s/CA-ON,America/Detroit,eng,480i
@@ -8765,6 +8766,7 @@ ETVBalBharatTelugu.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel;eng,576i
 ETVBalyaBharatAssamese.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,asm;eng,576i
 ETVBalyaBharatBangla.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ben;eng,576i
 ETVBalyaBharatOdia.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ori;eng,576i
+ETVCinema.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tel,1080i
 ETVCinema.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 ETVCommunityEvents.us,SD,SD,,TRUE,s/US-MN,America/New_York,eng,480i
 ETVEntertainment.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
@@ -8779,6 +8781,7 @@ ETVN.au,SD,SD,,TRUE,c/AU,Australia/Brisbane,eng,576i
 ETVNews.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 etvNewsSport.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,afr,576i
 ETVPlus.ee,SD,SD,,TRUE,c/EE,Europe/Tallinn,rus;est,576i
+ETVPlus.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tel,1080i
 ETVPlus.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 ETVPublicAccess.us,SD,SD,,TRUE,s/US-MN,America/New_York,eng,480i
 eTvRete7.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
@@ -9658,24 +9661,24 @@ France3.fr,Bretagne,Bretagne,,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,CentreValdeLoire,Centre-Val de Loire,,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,ChampagneArdenne,Champagne-Ardenne,,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,CorseViaStella,Corse Via Stella,,FALSE,c/FR,Europe/Paris,fra,576i
-France3.fr,CotedAzur,Cote d'Azur,,FALSE,c/FR,Europe/Paris,fra,576i
-France3.fr,FrancheComte,Franche-Comte,,FALSE,c/FR,Europe/Paris,fra,576i
+France3.fr,CotedAzur,Cote d'Azur,Côte d'Azur,FALSE,c/FR,Europe/Paris,fra,576i
+France3.fr,FrancheComte,Franche-Comte,Franche-Comté,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,HauteNormandie,Haute-Normandie,,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,HD,HD,,FALSE,c/FR,Europe/Paris,fra,1080i
 France3.fr,LanguedocRoussillon,Languedoc-Roussillon,,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,Limousin,Limousin,,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,Lorraine,Lorraine,,FALSE,c/FR,Europe/Paris,fra,576i
-France3.fr,MidiPyrenees,Midi-Pyrenees,,FALSE,c/FR,Europe/Paris,fra,576i
+France3.fr,MidiPyrenees,Midi-Pyrenees,Midi-Pyrénées,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,NordPasdeCalais,Nord Pas-de-Calais,,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,NormandieCaen,Normandie Caen,,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,NormandieRouen,Normandie Rouen,,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,NouvelleAquitaine,Nouvelle-Aquitaine,,FALSE,c/FR,Europe/Paris,fra,576i
-France3.fr,ParisIledeFrance,Paris Ile-de-France,,FALSE,c/FR,Europe/Paris,fra,576i
+France3.fr,ParisIledeFrance,Paris Ile-de-France,Paris Île-de-France,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,PaysdelaLoire,Pays de la Loire,,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,Picardie,Picardie,,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,PoitouCharentes,Poitou-Charentes,,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,ProvenceAlpes,Provence-Alpes,,FALSE,c/FR,Europe/Paris,fra,576i
-France3.fr,RhoneAlpes,Rhone-Alpes,,FALSE,c/FR,Europe/Paris,fra,576i
+France3.fr,RhoneAlpes,Rhone-Alpes,Rhône-Alpes,FALSE,c/FR,Europe/Paris,fra,576i
 France3.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 France4.fr,HD,HD,,FALSE,c/FR,Europe/Paris,fra,1080i
 France4.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -18592,7 +18595,7 @@ Lausitzwelle.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 LaVictoriaTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 LaVoixduRoutierTV.bj,SD,SD,,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 LaVoz24h.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
-LaVozdeJesusHD.do,HD,HD,,TRUE,c/AG;c/AI;c/AR;c/AW;c/BB;c/BL;c/BM;c/BO;c/BR;c/BS;c/BV;c/BZ;c/CA;c/CL;c/CO;c/CR;c/CU;c/CW;c/DM;c/DO;c/EC;c/FK;c/GD;c/GF;c/GL;c/GP;c/GS;c/GT;c/GY;c/HN;c/HT;c/JM;c/KN;c/KY;c/LC;c/MF;c/MQ;c/MS;c/MX;c/NI;c/PA;c/PE;c/PM;c/PR;c/PY;c/SR;c/SV;c/SX;c/TC;c/TT;c/US;c/UY;c/VC;c/VE;c/VG;c/VI,America/New_York,eng;spa,720p
+LaVozdeJesusHD.do,HD,HD,,TRUE,c/US;c/DO,America/New_York,eng;spa,720p
 LaVozdelTropico.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 LaVozdeMaria.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 LaVozdeTucuman.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
@@ -30354,7 +30357,7 @@ Tollywood.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 TOLOnews.af,SD,SD,,TRUE,c/AF,Asia/Kabul,pus,576i
 ToloTV.af,SD,SD,,TRUE,c/AF,Asia/Kabul,pus,576i
 Tolyatti24.ru,SD,SD,,TRUE,c/RU,Europe/Samara,rus,576i
-TomAndJerry.us,HD,HD,,TRUE,c/AG;c/AI;c/AR;c/AW;c/BB;c/BL;c/BM;c/BO;c/BR;c/BS;c/BV;c/BZ;c/CA;c/CL;c/CO;c/CR;c/CU;c/CW;c/DM;c/DO;c/EC;c/FK;c/GD;c/GF;c/GL;c/GP;c/GS;c/GT;c/GY;c/HN;c/HT;c/JM;c/KN;c/KY;c/LC;c/MF;c/MQ;c/MS;c/MX;c/NI;c/PA;c/PE;c/PM;c/PR;c/PY;c/SR;c/SV;c/SX;c/TC;c/TT;c/US;c/UY;c/VC;c/VE;c/VG;c/VI,America/New_York,eng,720p
+TomAndJerry.us,HD,HD,,TRUE,c/US;c/DO,America/New_York,eng,720p
 TomatoTV.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 TommyTeleshopping.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 TongchuanEducationalChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
@@ -30798,7 +30801,7 @@ TurbionDigitalTV.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
 TurboMixRadioTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 TurboTV.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 TurfMovil.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
-TurismoHD.do,HD,HD,,TRUE,c/AG;c/AI;c/AR;c/AW;c/BB;c/BL;c/BM;c/BO;c/BR;c/BS;c/BV;c/BZ;c/CA;c/CL;c/CO;c/CR;c/CU;c/CW;c/DM;c/DO;c/EC;c/FK;c/GD;c/GF;c/GL;c/GP;c/GS;c/GT;c/GY;c/HN;c/HT;c/JM;c/KN;c/KY;c/LC;c/MF;c/MQ;c/MS;c/MX;c/NI;c/PA;c/PE;c/PM;c/PR;c/PY;c/SR;c/SV;c/SX;c/TC;c/TT;c/US;c/UY;c/VC;c/VE;c/VG;c/VI,America/New_York,eng;spa,720p
+TurismoHD.do,HD,HD,,TRUE,c/US;c/DO,America/New_York,eng;spa,720p
 TurismoTravelTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 TurismoVisionArgentina.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 TuristikTV.mx,SD,SD,,TRUE,s/MX-ROO,America/Mexico_City,spa,480i
@@ -31552,8 +31555,7 @@ TVHDTropical.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
 TVHellin.es,SD,SD,,TRUE,s/ES-CM,Europe/Madrid,spa,576i
 TVHercegNovi.me,SD,SD,,TRUE,c/ME,Europe/Podgorica,cnr,576i
 TVHigueyDigital.do,SD,SD,,TRUE,s/DO-11,America/Santo_Domingo,spa,480i
-TVHispanic.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,576i
-TVHispanic.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
+TVHispanic.us,SD,SD,,TRUE,c/US;c/DO,America/New_York,spa,480i
 TVHitPlusBatocina.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 TVHits.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 TVHomolje.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i

@@ -1379,7 +1379,7 @@ Andflix.in,&flix,,,Zee Entertainment Enterprises,IN,,Mumbai,movies,FALSE,,,,http
 AndinaTV.bo,Andina TV,,,,BO,,La Paz,general,FALSE,,,,https://www.redandinaoruro.com/
 AndishehTV.us,Andisheh TV,,,,US,US-CA,Woodland Hills,general,FALSE,2006-06-09,2017-01-01,,https://www.andishehlive.com/
 AndorraTV.ad,Andorra TV,Andorra Televisió;ATV,,Radio i Televisio d'Andorra,AD,,Andorra-la-Vella,general,FALSE,1995-12-04,,,https://www.andorradifusio.ad/
-AndoTV.cn,Ando TV,,,,CN,,,,FALSE,,,,http://www.qhtb.cn/
+AndoTV.cn,Ando TV,,,,CN,,,religious,FALSE,,,,http://www.qhtb.cn/
 AndoverTV.us,Andover TV,,,,US,US-MA,Andover,general,FALSE,,,,https://andovertv.org/
 Andpictures.in,&pictures,,,Zee Entertainment Enterprises,IN,,Mumbai,movies,FALSE,2015-03-02,,,https://andtv.zee5.com/
 AndpriveHD.in,&prive HD,&privé HD,,Zee Entertainment Enterprises,IN,,Mumbai,movies,FALSE,2017-09-24,,,
@@ -4195,6 +4195,7 @@ CannellaResponseTVVerizonFios.us,Cannella Response TV Verizon Fios,,,,US,US-CA,L
 CannesLerinsTV.fr,Cannes Lerins TV,Cannes Lérins TV,,Cannes Lérins Médias,FR,,Cannes,general,FALSE,,,,https://lerins-radio.fr/
 CantabriaTV.es,Cantabria TV,,,,ES,ES-CB,Santander,general,FALSE,,,,http://www.cantabriatv.es/
 CanThoTV.vn,Can Tho TV,,,,VN,,Can Tho City,general,FALSE,,,,https://canthotv.vn/
+CanThoTV2.vn,Can Tho TV 2,,,,VN,,Can Tho City,science;education,FALSE,2025-08-01,,,http://haugiangtivi.vn/
 CantinaTV.ve,Cantina TV,,,,VE,,Caracas,music,FALSE,,,,http://www.cantinatv.com/
 CantinazoTV.co,Cantinazo TV,,,Máx Media S.A.S.,CO,,Bogotá,music,FALSE,,,,https://cantinazotv.com/
 CantonCommunityTVGovernmentStation.us,Canton Community TV Government Station,CCTV Government Station,,,US,US-MA,Canton,legislative,FALSE,,,,https://www.cantoncommunitytv.org/stations
@@ -6271,6 +6272,7 @@ DaNangTV2.vn,Da Nang TV2,,,,VN,,Da Nang,general,FALSE,,,,
 DanayaTV.ml,Danaya TV,,,,ML,,Bamako,general,FALSE,,,,
 DanceChannel.jp,Dance Channel,ダンスチャンネル,,Nagoya TV Next Co. Ltd.,JP,,Tokyo,music,FALSE,,,,https://www.dance-ch.jp/
 DanceFM.cl,Dance FM,,,,CL,CL-AP,Santiago,music,FALSE,,,,https://www.dancefm.cl/live/
+DanceHits80.ru,DanceHits80,,,,RU,,,music,FALSE,,,,http://denvs.ru
 DanceStarTV.us,DanceStar TV,,,,US,US-NV,Las Vegas,music,FALSE,,,,http://www.dancestar.org/tv
 DanceTelevision.nl,Dance Television,DT,,,NL,,Amsterdam,music,FALSE,,,,https://www.dancetv.net/
 DanceTV.ar,Dance TV,,,,AR,,,music,FALSE,,,,
@@ -9627,7 +9629,7 @@ HastiTV.uk,Hasti TV,,,,UK,,London,general,FALSE,,,,https://hastitv.com/
 HaTinhTV.vn,Ha Tinh TV,,,,VN,,Ha Tinh,general,FALSE,,,,https://hatinhtv.vn/
 Hatoscsatorna.hu,Hatoscsatorna,Hatos Csatorna,,,HU,,Budapest,general,FALSE,,,,https://hatoscsatorna.hu/
 HatunTV.pe,Hatun TV,,,Best Cable,PE,PE-LIM,Lima,music,FALSE,,,,https://bestcableperu.com.pe/canal99.html
-HauGiangTV.vn,Hau Giang TV,,,,VN,,Vi Thanh,general,FALSE,,,,https://haugiangtivi.vn/
+HauGiangTV.vn,Hau Giang TV,,,,VN,,Vi Thanh,general,FALSE,,2025-06-30,CanThoTV2.vn,https://haugiangtivi.vn/
 HauntTV.us,Haunt TV,,,,US,,,entertainment,FALSE,,,,https://haunt-tv.com/usa/
 HauptstadtTV.de,Hauptstadt.TV,,,,DE,,Potsdam,general,FALSE,,,,https://www.hauptstadt.tv/
 Hausa7TV.cm,Hausa 7 TV,,,,CM,,,culture,FALSE,,,,
@@ -29647,7 +29649,7 @@ TVR24.ru,TVR24,ТВР24,,,RU,,Sergiyev Posad,,FALSE,,,,https://tvr24.tv/
 TVR3.ro,TVR 3,,,Televiziunea Română,RO,,,general,FALSE,2008-10-10,,,http://www.tvr.ro/
 TVRaca.rs,TV Raca,ТВ Рача;Televizija Rača,,Saša Miljojković,RS,,Rača,,FALSE,,,,
 TVRaiar.ao,TV Raiar,,,,AO,,Luanda,general,FALSE,,,,
-TVRain.ru,TV Rain,Дождь,,,RU,,,,FALSE,2010-04-27,,,https://tvrain.ru/
+TVRain.nl,TV Rain,Дождь,,TVR Studios B.V.,NL,,,,FALSE,2010-04-27,,,https://tvrain.ru/
 TVRaj.sk,TV Raj,,,,SK,,,,FALSE,,,,https://www.tvraj.sk/
 TVRas.rs,TV Ras,ТВ Рас,,Zoran Kordić,RS,,,,FALSE,,,,http://www.rastv.rs/
 TVRaTimBum.br,TV Ra Tim Bum,TV Rá Tim Bum,,,BR,,,,FALSE,,,,
@@ -30503,7 +30505,6 @@ VeoTelevision.co,Veo Television,Veo Televisión,,,CO,CO-VAC,Guadalajara,,FALSE,,
 VepacoTV.ve,Vepaco TV,,,,VE,,,music,FALSE,2015-08-31,,,http://vepacotv.com.ve/
 VePlus.ve,Ve Plus,Venevisión Plus,,,VE,,,,FALSE,2007-12-01,,,http://veplusgo.com/
 Vera24.ru,Vera 24,Вера 24,,,RU,,,religious,FALSE,,,,https://vera24.tv/
-Vera24TV.us,Vera 24 TV,Вера 24,,,US,,,religious,FALSE,,,,https://vera24.tv/
 VeracidadChannel.mx,Veracidad Channel,,,,MX,,,,FALSE,,,,http://veracidadchannel.com/
 VeracruzMultimediosTV.mx,Veracruz Multimedios TV,VMTV,,,MX,MX-VER,Álamo Temapache,entertainment,FALSE,,,,
 VeraPlus.uy,Vera+,,,,UY,,,,FALSE,,,,https://tv.vera.com.uy/envivo

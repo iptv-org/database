@@ -4728,6 +4728,7 @@ CannesLerinsTV.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CantabriaTV.es,SD,SD,,TRUE,s/ES-CB,Europe/Madrid,spa,576i
 CanThoTV.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 CanThoTV2.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
+CanThoTV3.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576p
 CantinaTV.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 CantinazoTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 CantonCommunityTVGovernmentStation.us,SD,SD,,TRUE,s/US-MA,America/New_York,eng,480i
@@ -18357,7 +18358,8 @@ La2.es,HEVC,HEVC,,FALSE,c/ES,Europe/Madrid,spa,1080p
 La2.es,SD,SD,,TRUE,c/ES;c/AD,Europe/Madrid,spa,576i
 La2Canarias.es,SD,SD,,TRUE,s/ES-CN,Europe/Madrid,spa,576i
 La2Catalunya.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
-LA34LongAnTV.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
+LA34LongAnTV.vn,HD,HD,,TRUE,c/VN,Asia/Bangkok,vie,1080i
+LA34LongAnTV.vn,SD,SD,,FALSE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 LA36.us,SD,SD,,TRUE,s/US-CA,America/Santiago,eng,480i
 La4Italia.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 La5.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita,1080i

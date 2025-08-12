@@ -2180,7 +2180,7 @@ AXNMovies.es,AXN Movies,AXN White Spain;Sony Entertainment Television Spain,,Son
 AXNMovies.pt,AXN Movies,AXN Black Portugal;Animax Portugal,,Sony Pictures Television,PT,,,movies,FALSE,2008-01-01,,,https://www.axn.pt/axnmovies
 AXNMystery.jp,AXN Mystery,AXNミステリー,,Sony Pictures Television,JP,,Singapore,movies,FALSE,2008-11-04,2023-10-01,,https://www.mystery.co.jp/
 AXNSciFi.ru,AXN Sci Fi,,,,RU,,,movies,FALSE,2006-05-29,2017-02-28,,
-AXNSpin.hr,AXN Spin,,,Antenna Group,HR,,,entertainment,FALSE,2012-01-11,,,http://www.axnspin.com/
+AXNSpin.hu,AXN Spin,,,Antenna Group,HU,,,entertainment,FALSE,2012-01-11,,,http://www.axnspin.com/
 AXNWhite.us,AXN White,,,Sony Pictures Television,US,,,entertainment,FALSE,,,,http://www.axnwhite.com/
 AXSTV.us,AXS TV,,,AXS TV LLC,US,US-CO,Denver,music,FALSE,2001-09-06,,,http://www.axs.tv/
 AXSTVNOW.us,AXS TV NOW,,,AXS TV LLC,US,US-CO,Denver,documentary,FALSE,,,,https://www.axs.tv/channel/axs-tv-now-concerts-documentaries-xumo/
@@ -5677,7 +5677,6 @@ CNA.sg,CNA,Channel NewsAsia,,,SG,,Singapore,news,FALSE,1999-03-01,,,https://www.
 CNAInternational.sg,CNA International,Channel NewsAsia International,CNA,,SG,,Singapore,news,FALSE,,,,https://www.channelnewsasia.com/international
 CnArDeportes.ar,CnAr Deportes,,,,AR,,,sports,FALSE,,,,
 CnArNoticias.ar,CnAr Noticias,,,,AR,,,news,FALSE,,,,
-CNBC.it,CNBC,,,,IT,,Milan,general,FALSE,,,,https://www.sky.it/
 CNBC.us,CNBC,,,Comcast,US,US-NJ,Englewood Cliffs,business,FALSE,1989-04-17,,,https://www.cnbc.com/
 CNBCAfrica.za,CNBC Africa,,,Africa Business News,ZA,,Johannesburg,business,FALSE,2007-06-01,,,https://www.cnbcafrica.com/
 CNBCArabiya.ae,CNBC Arabiya,CNBC عربية,,Middle East Business News,AE,,Dubai,business,FALSE,2003-01-01,,,https://www.cnbcarabia.com/
@@ -9335,8 +9334,7 @@ GravitasAdrenaline.us,Gravitas Adrenaline,,,Gravitas Ventures LLC,US,US-CA,El Se
 GravitasDocumentaries.us,Gravitas Documentaries,,,Gravitas Ventures LLC,US,US-CA,El Segundo,documentary,FALSE,,,,https://watch.plex.tv/live-tv/channel/gravitas-documentaries
 GravitasMovies.us,Gravitas Movies,,,Gravitas Ventures LLC,US,US-CA,El Segundo,movies,FALSE,,,,
 GREATaction.uk,GREAT! action,GREAT! movies action;Sony Movies Action;Movies4Men;Matinee Movies,,Narrative Entertainment UK Ltd,UK,,London,movies,FALSE,2021-05-14,,,https://www.greatnetwork.com/moviesaction/
-GreatAmericanCountry.us,Great American Country,,,,US,US-CA,Sacramento,outdoor,FALSE,,,,
-GreatAmericanFamily.us,Great American Family,,,,US,US-CA,Sacramento,family,FALSE,,,,
+GreatAmericanFamily.us,Great American Family,Great American Country,,,US,US-CA,Sacramento,family,FALSE,,,,
 GreatAmericanLiving.us,Great American Living,,,,US,US-CA,Sacramento,lifestyle,FALSE,,,,https://www.greatamericanliving.tv/
 GreatCommissionTV.ph,Great Commission TV,,,,PH,,Manila,family,FALSE,,,,http://www.gctv.asia/
 GreatDominionTV.mw,Great Dominion TV,,,,MW,,Lilongwe,religious,FALSE,,,,
@@ -20149,7 +20147,6 @@ NHKKishouSaigai.jp,NHK Kishou-Saigai,NHK気象・災害,NHK,Citizens of Japan,JP
 NHKWorldEspanol.jp,NHK World Espanol,NHK World Español,,Citizens of Japan,JP,JP-13,Tokyo,news;culture,FALSE,,,,https://www3.nhk.or.jp/nhkworld/es/
 NHKWorldJapan.jp,NHK World-Japan,NHK World,,Government of Japan,JP,JP-13,Tokyo,news;culture,FALSE,1998-04-01,,,https://www3.nhk.or.jp/nhkworld/
 NHKWorldPremium.jp,NHK World Premium,NHK WP,,NHK World-Japan,JP,JP-13,Tokyo,entertainment,FALSE,1998-04-01,,,http://www.nhkworldpremium.com/
-NHKWorldTV.it,NHK World TV,,,,IT,,,general,FALSE,,,,https://www.sky.it/
 NHLCenterIce1.us,NHL Center Ice 1,,,Xfinity,US,US-PA,Philadelphia,sports,FALSE,1995-10-01,,,http://www.nhl.com/
 NHLCenterIce10.us,NHL Center Ice 10,,,Xfinity,US,US-PA,Philadelphia,sports,FALSE,1995-10-01,,,http://www.nhl.com/
 NHLCenterIce11.us,NHL Center Ice 11,,,Xfinity,US,US-PA,Philadelphia,sports,FALSE,1995-10-01,,,http://www.nhl.com/
@@ -25315,7 +25312,7 @@ SkySportAustria7.at,Sky Sport Austria 7,,,,AT,,,sports,FALSE,2021-01-01,,,https:
 SkySportBar1.it,Sky Sport Bar 1,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySportBar2.it,Sky Sport Bar 2,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySportBar3.it,Sky Sport Bar 3,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
-SkySportBasket.it,Sky Sport Basket,,,Sky Group Limited,IT,,,sports,FALSE,2025-07-01,,,https://sport.sky.it/
+SkySportBasket.it,Sky Sport Basket,Sky Sport NBA,,Sky Group Limited,IT,,,sports,FALSE,2025-07-01,,,https://sport.sky.it/
 SkySportBundesliga.de,Sky Sport Bundesliga,Sky Bundesliga;Sky Fussball Bundesliga,,,DE,,,sports,FALSE,,,,https://www.sky.de/
 SkySportBundesliga1.de,Sky Sport Bundesliga 1,Sky Bundesliga 1;Sky Fussball Bundesliga 1,,,DE,,,sports,FALSE,,,,https://www.sky.de/
 SkySportBundesliga10.de,Sky Sport Bundesliga 10,,,,DE,,,sports,FALSE,,,,https://www.sky.de/
@@ -25343,7 +25340,6 @@ SkySportMax.it,Sky Sport Max,,,Sky Group Limited,IT,,,sports,FALSE,,,,https://sp
 SkySportMix.de,Sky Sport Mix,,,,DE,,,sports,FALSE,2022-01-01,,,https://www.sky.de/
 SkySportMix.it,Sky Sport Mix,,,Sky Group Limited,IT,,,sports,FALSE,2016-01-01,2018-01-01,,https://www.sky.de/
 SkySportMotoGP.it,Sky Sport Moto GP,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://sport.sky.it/sport/motogp/
-SkySportNBA.it,Sky Sport NBA,,,Sky Group Limited,IT,,,sports,FALSE,,2025-07-01,SkySportBasket.it,https://sport.sky.it/
 SkySportNews.de,Sky Sport News,,,,DE,,,sports,FALSE,2011-01-01,,,https://sport.sky.de/
 SkySportNews.nz,Sky Sport News,,,,NZ,,,sports,FALSE,,,,https://www.sky.co.nz/sky-sport
 SkySportPremierLeague.de,Sky Sport Premier League,,,,DE,,,sports,FALSE,2022-01-01,,,https://sport.sky.de/

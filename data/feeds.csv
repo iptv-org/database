@@ -24165,7 +24165,7 @@ PremierSports4.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
 PremierSports5.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
 PremierTennis.ph,SD,SD,,TRUE,c/PH,Asia/Manila,eng,480i
 PremiumAction.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
-PremiumActionPlus24.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
+PremiumAction.it,Plus24,+24,,FALSE,c/IT,Europe/Rome,ita,576i
 PremiumBoxOffice.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,eng,576i
 PremiumChannel.at,SD,SD,,TRUE,c/AT,Europe/Vienna,deu,576i
 PremiumCinema1.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
@@ -27105,8 +27105,8 @@ SkyCinemaDrama.uk,HD,HD,,FALSE,c/UK,Europe/London,eng,1080i
 SkyCinemaDrama.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 SkyCinemaDue.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita,1080i
 SkyCinemaDue.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
-SkyCinemaDuePlus24.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita,1080i
-SkyCinemaDuePlus24.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
+SkyCinemaDue.it,Plus24,+24,,FALSE,c/IT,Europe/Rome,ita,576i
+SkyCinemaDue.it,Plus24HD,+24 HD,,FALSE,c/IT,Europe/Rome,ita,1080i
 SkyCinemaFamily.de,HD,HD,,FALSE,c/DE,Europe/Berlin,deu,1080i
 SkyCinemaFamily.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 SkyCinemaFamily.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita,1080i

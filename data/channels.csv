@@ -96,10 +96,10 @@ id,name,alt_names,network,owners,country,subdivision,city,categories,is_nsfw,lau
 247TV.bo,24/7 TV,,,Grupo 24/7 Comunicaciones S.R.L.,BO,,Santa Cruz de la Sierra,news,FALSE,,,,
 24B.ir,24B,,,GEM Group,IR,,Istanbul,music,FALSE,,,,https://gemonline.tv/
 24Horas.cl,24 Horas,24 Horas Play;24 Play,TVN,Television Nacional de Chile,CL,,Santiago,news,FALSE,,,,https://www.24horas.cl/
-24Horas.es,24 Horas,Canal 24 Horas;24h,TVE,RTVE SA,ES,,Madrid,news,FALSE,1997-09-15,,,http://www.rtve.es/alacarta/tve/24-horas/
-24HorasCanarias.es,24 Horas Canarias,Canal 24 Horas Canarias,TVE,RTVE SA,ES,ES-CN,Madrid,news,FALSE,1997-09-15,,,https://www.rtve.es/play/videos/directo/tve-canarias/24-h-can/
-24HorasCatalunya.es,24 Horas Catalunya,Canal 24 Horas Catalunya,TVE,RTVE SA,ES,ES-CT,Madrid,news,FALSE,1997-09-15,,,https://www.rtve.es/play/videos/directo/tve-catalunya/24h-cat/
-24HorasInternacional.es,24 Horas Internacional,Canal 24 Horas Internacional,TVE,RTVE SA,ES,,Madrid,news,FALSE,1997-09-15,,,https://www.rtve.es/television/tve-internacional
+24Horas.es,24 Horas,Canal 24 Horas;24h,TVE,RTVE SA,ES,,Madrid,news;public,FALSE,1997-09-15,,,http://www.rtve.es/alacarta/tve/24-horas/
+24HorasCanarias.es,24 Horas Canarias,Canal 24 Horas Canarias,TVE,RTVE SA,ES,ES-CN,Madrid,news;public,FALSE,1997-09-15,,,https://www.rtve.es/play/videos/directo/tve-canarias/24-h-can/
+24HorasCatalunya.es,24 Horas Catalunya,Canal 24 Horas Catalunya,TVE,RTVE SA,ES,ES-CT,Madrid,news;public,FALSE,1997-09-15,,,https://www.rtve.es/play/videos/directo/tve-catalunya/24h-cat/
+24HorasInternacional.es,24 Horas Internacional,Canal 24 Horas Internacional,TVE,RTVE SA,ES,,Madrid,news;public,FALSE,1997-09-15,,,https://www.rtve.es/television/tve-internacional
 24HourFreeMovies.us,24 Hour Free Movies,,,Future Today Inc.,US,US-CA,Menlo Park,movies,FALSE,,,,https://channelstore.roku.com/en-ca/details/9901df514a904063a91fd54fb1f2971c/24-hour-movie-channel
 24Kanal.ua,24 Kanal,24 Канал,,,UA,,Kyiv,news,FALSE,,,,https://24tv.ua/online/
 24Kitchen.us,24Kitchen,,,The Walt Disney Company,US,,Burbank,cooking,FALSE,,,,https://www.24kitchen.bg/
@@ -145,7 +145,7 @@ id,name,alt_names,network,owners,country,subdivision,city,categories,is_nsfw,lau
 312TV.kg,312 TV,312 ТВ;312 Сериал,312 TV,TUZ.KG,KG,,Bishkek,entertainment,FALSE,,,,http://312tv.kg
 313Digital.sn,313 Digital,,,,SN,,Dakar,news,FALSE,,,,
 31Kanal.kz,31 Kanal,31 канал,,,KZ,,Almaty,general,FALSE,1993-04-12,,,https://31.kz/
-324.es,3/24,,,,ES,ES-CT,Sant Joan Despi,news,FALSE,2003-01-01,,,https://www.ccma.cat/tv3/directe/324/
+324.es,3/24,,,,ES,ES-CT,Sant Joan Despi,news;public,FALSE,2003-01-01,,,https://www.ccma.cat/tv3/directe/324/
 33TV.uy,33 TV,,,,UY,,Treinta y Tres,general,FALSE,,,,
 34100TV.gr,34100 TV,,,,GR,,Chalcis,movies,FALSE,,,,https://34100tv.com/
 359TV.bg,359TV,,,,BG,,Sofia,music,FALSE,,,,https://359hiphop.com/live/
@@ -1192,7 +1192,7 @@ Alsace20.fr,Alsace 20,,,Alice Media,FR,,Strasbourg,general,FALSE,2006-01-01,,,ht
 AlsaciasTelevision.hn,Alsacias Television,Alsacias Televisión,,,HN,,La Entrada,general,FALSE,,,,https://www.atv.hn/
 AlSaeedah.eg,Al-Saeedah,قناة السعيدة الفضائية,,,EG,,Cairo,education,FALSE,,,,http://www.alsaeedah-tv.com/
 AlSafwa.ae,Al Safwa,,,Orbit Group,AE,,Abu Dhabi,news;culture,FALSE,,,,https://alfatv.com/tv/
-AlSahatTV.ye,Al-Sahat TV,الساحات,,,YE,,,religious,FALSE,,,,
+AlSahatTV.ye,Al-Sahat TV,الساحات,,,YE,,,religious,FALSE,,,,https://alsahattv.com.ye/live.php
 AlSahraaTV.sa,Al Sahraa TV,,,,SA,,Riyadh,religious,FALSE,,,,http://www.alsahraa.tv/index.php
 AlSalamTV.iq,Al Salam TV,السلام,,,IQ,,Baghdad,religious,FALSE,,,,
 Alsat.mk,Alsat,Алсат;Albanian Satellite;Alsat-M;Алсат-М,,,MK,,Skopje,general,FALSE,2006-03-01,,,http://alsat-m.tv
@@ -1371,7 +1371,7 @@ ANBNews.in,ANB News,,,,IN,,Delhi,news,FALSE,,,,https://anbnews.in/Index.aspx
 ANC.ph,ANC,,,,PH,,Quezon City,news,FALSE,,,,https://news.abs-cbn.com/anc
 ANCGlobal.ph,ANC Global,,,,PH,,Quezon City,news,FALSE,,,,https://news.abs-cbn.com/anc
 ANCTelevision.co,ANC Television,ANC Televisión,,,CO,,Bogotá,entertainment,FALSE,,,,https://anctelevision.com/
-AndaluciaTelevision.es,Andalucia Television,Andalucía Televisión;Andalucía TV;Canal Sur HD,,Radio y Television de Andalucia,ES,ES-AN,Seville,education;news,FALSE,2015-02-28,,,https://www.canalsur.es/tv_directo-1193.html
+AndaluciaTelevision.es,Andalucia Television,Andalucía Televisión;Andalucía TV;Canal Sur HD,,Radio y Television de Andalucia,ES,ES-AN,Seville,general;public,FALSE,2015-02-28,,,https://www.canalsur.es/tv_directo-1193.html
 AndersonCountyTV.us,Anderson County TV,ACTV,,,US,US-TN,Clinton,general,FALSE,,,,https://www.andersoncounty.tv/live
 AndersonCountyTV2.us,Anderson County TV 2,ACTV 2,,,US,US-TN,Clinton,general,FALSE,,,,https://www.andersoncounty.tv/live2
 AndesTelevision.pe,Andes Television,Andes Televisión,,,PE,PE-PUN,Sicusani,religious,FALSE,,,,https://radiosicuani.com/ANDESTV/
@@ -1596,8 +1596,8 @@ ArabicaTV.lb,Arabica TV,أرابيكا‎,,,LB,,Beirut,music,FALSE,,,,https://ww
 ArabiTV.es,Arabi TV,Arabí TV,,,ES,ES-MC,Yecla,general,FALSE,,,,https://www.arabitv.es/
 ArabTV.cl,ArabTV,,,,CL,,Santiago,culture,FALSE,,,,https://www.arabtv.cl/
 AradanaTV.in,Aradana TV,,,Aradana Broadcasting Intn'l Pvt. Ltd,IN,,Secunderabad,religious,FALSE,,,,http://www.aradanatv.com/
-AragonTV.es,Aragon TV,Aragón TV,,CARTV−Televisión Autonómica de Aragón S.A.,ES,ES-AR,Zaragoza,general,FALSE,2006-04-21,,,http://www.aragontelevision.es/
-AragonTVInternacional.es,Aragon TV Internacional,Aragón TV Internacional,,CARTV−Televisión Autonómica de Aragón S.A.,ES,ES-AR,Zaragoza,general,FALSE,2006-04-21,,,http://www.aragontelevision.es/
+AragonTV.es,Aragon TV,Aragón TV,,CARTV−Televisión Autonómica de Aragón S.A.,ES,ES-AR,Zaragoza,general;public,FALSE,2006-04-21,,,http://www.aragontelevision.es/
+AragonTVInternacional.es,Aragon TV Internacional,Aragón TV Internacional,,CARTV−Televisión Autonómica de Aragón S.A.,ES,ES-AR,Zaragoza,general;public,FALSE,2006-04-21,,,http://www.aragontelevision.es/
 AranikoTelevision.np,Araniko Television,,,,NP,,Kathmandu,general,FALSE,2013-01-01,,,
 AraratTV.am,Ararat TV,Արարատ ՀԸ,,F TV LLC,AM,,Yerevan,culture,FALSE,2022-01-01,,,
 AraraTV.et,Arara TV,,,,ET,,Nekemte,religious,FALSE,,,,https://www.araratv.tv/
@@ -1638,6 +1638,7 @@ ArenaSport1.rs,Arena Sport 1,Arena Sport 1 Srbija,,Telekom Srbjia,RS,,Belgrade,s
 ArenaSport1.si,Arena Sport 1,Arena Sport 1 Slovenija,,Telekom Srbjia,SI,,Belgrade,sports,FALSE,2020-01-01,,,https://www.tvarenasport.si/
 ArenaSport1.sk,Arena Sport 1,,,Telekom Srbjia,SK,,Belgrade,sports,FALSE,,,,http://arenatv.sk/
 ArenaSport10.hr,Arena Sport 10,Arena Sport 10 Hrvatska,,Telekom Srbjia,HR,,Belgrade,sports,FALSE,,,,http://www.tvarenasport.hr/
+ArenaSport10.rs,Arena Sport 10,Arena Sport 10 Srbija,,Telekom Srbjia,RS,,Belgrade,sports,FALSE,2025-03-28,,,https://www.tvarenasport.com/
 ArenaSport1Premium.rs,Arena Sport 1 Premium,Arena Sport 1 Premium Srbija,,Telekom Srbjia,RS,,Belgrade,sports,FALSE,2009-01-01,,,https://www.tvarenasport.com/
 ArenaSport1Premium.si,Arena Sport 1 Premium,Arena Sport 1 Premium Slovenija,,Telekom Srbjia,SI,,Belgrade,sports,FALSE,2020-01-01,,,https://www.tvarenasport.si/
 ArenaSport1x2.rs,Arena Sport 1x2,Arena Sport 1x2 Srbija,,Telekom Srbjia,RS,,Belgrade,sports,FALSE,2009-01-01,,,https://www.tvarenasport.com/
@@ -1659,9 +1660,11 @@ ArenaSport4.hr,Arena Sport 4,Arena Sport 4 Hrvatska,,Telekom Srbjia,HR,,Belgrade
 ArenaSport4.me,Arena Sport 4,Arena Sport 4 Crna Gora,,Telekom Srbjia,ME,,Belgrade,sports,FALSE,,,,https://www.tvarenasport.com/me
 ArenaSport4.rs,Arena Sport 4,Arena Sport 4 Srbija,,Telekom Srbjia,RS,,Belgrade,sports,FALSE,2009-01-01,,,https://www.tvarenasport.com/
 ArenaSport4.si,Arena Sport 4,Arena Sport 4 Slovenija,,Telekom Srbjia,SI,,Belgrade,sports,FALSE,2020-01-01,,,https://www.tvarenasport.si/
+ArenaSport4Premium.rs,Arena Sport 4 Premium,Arena Sport 4 Premium Srbija,,Telekom Srbjia,RS,,Belgrade,sports,FALSE,2025-07-22,,,https://www.tvarenasport.com/
 ArenaSport5.hr,Arena Sport 5,Arena Sport 5 Hrvatska,,Telekom Srbjia,HR,,Belgrade,sports,FALSE,,,,http://www.tvarenasport.hr/
 ArenaSport5.me,Arena Sport 5,Arena Sport 5 Crna Gora,,Telekom Srbjia,ME,,Belgrade,sports,FALSE,,,,https://www.tvarenasport.com/me
 ArenaSport5.rs,Arena Sport 5,Arena Sport 5 Srbija,,Telekom Srbjia,RS,,Belgrade,sports,FALSE,2009-01-01,,,https://www.tvarenasport.com/
+ArenaSport5Premium.rs,Arena Sport 5 Premium,Arena Sport 5 Premium Srbija,,Telekom Srbjia,RS,,Belgrade,sports,FALSE,2025-07-22,,,https://www.tvarenasport.com/
 ArenaSport6.hr,Arena Sport 6,Arena Sport 6 Hrvatska,,Telekom Srbjia,HR,,Belgrade,sports,FALSE,,,,http://www.tvarenasport.hr/
 ArenaSport6.rs,Arena Sport 6,Arena Sport 6 Srbija,,Telekom Srbjia,RS,,Belgrade,sports,FALSE,,,,https://www.tvarenasport.com/
 ArenaSport7.hr,Arena Sport 7,Arena Sport 7 Hrvatska,,Telekom Srbjia,HR,,Belgrade,sports,FALSE,,,,http://www.tvarenasport.hr/
@@ -1669,6 +1672,9 @@ ArenaSport7.rs,Arena Sport 7,Arena Sport 7 Srbija,,Telekom Srbjia,RS,,Belgrade,s
 ArenaSport8.hr,Arena Sport 8,Arena Sport 8 Hrvatska,,Telekom Srbjia,HR,,Belgrade,sports,FALSE,,,,http://www.tvarenasport.hr/
 ArenaSport8.rs,Arena Sport 8,Arena Sport 8 Srbija,,Telekom Srbjia,RS,,Belgrade,sports,FALSE,2009-01-01,,,https://www.tvarenasport.com/
 ArenaSport9.hr,Arena Sport 9,Arena Sport 9 Hrvatska,,Telekom Srbjia,HR,,Belgrade,sports,FALSE,,,,http://www.tvarenasport.hr/
+ArenaSport9.rs,Arena Sport 9,Arena Sport 9 Srbija,,Telekom Srbjia,RS,,Belgrade,sports,FALSE,2025-03-28,,,https://www.tvarenasport.com/
+ArenaSportAdrenalin.rs,Arena Sport Adrenalin,Arena Sport Adrenalin Srbija,,Telekom Srbjia,RS,,Belgrade,sports,FALSE,2025-07-23,,,https://www.tvarenasport.com/
+ArenaSportTenis.rs,Arena Sport Tenis,Arena Sport Tenis Srbija,,Telekom Srbjia,RS,,Belgrade,sports,FALSE,2025-07-23,,,https://www.tvarenasport.com/
 ArenaTelevision.np,Arena Television,,,,NP,,Itahari,entertainment,FALSE,2014-01-01,,,https://www.arenatelevision.com.np/
 Arewa24.ng,Arewa 24,,,Network AREWA24 Limited,NG,,Kano,lifestyle,FALSE,2014-01-01,,,https://arewa24.com/
 AreWeThereYet.us,Are We There Yet?,,,,US,,,series,FALSE,,,,https://watch.plex.tv/live-tv/channel/are-we-there-yet
@@ -1698,6 +1704,7 @@ AristoTV.de,Aristo TV,,,,DE,,Frankfurt,,FALSE,,,,http://www.aristo-tv.de/
 ArkadagTV.tm,Arkadag TV,,,State Committee of Turkmenistan on TV Radio and Film,TM,,Arkadag,general,FALSE,2023-09-01,,,http://turkmentv.gov.tm/
 Arkhyz24.ru,Arkhyz 24,Архыз 24,,,RU,,Karachay-Cherkessia,,FALSE,,,,https://arkhyz24.ru/
 ArkofGodTV.cm,Ark of God TV,,,Ark Of God's Covenant Ministry,CM,,Buea,religious,FALSE,,,,https://www.johnchi.org/ark-of-god-tv-live
+Arktika24.ru,Arktika 24,Арктика 24,ВГТРК,ВГТРК,RU,RU-ARK,Arkhangel'sk,general,FALSE,2022-06-16,,,
 ArkTV.ug,Ark TV,,,Bro Ronnie Makabai,UG,,Entebbe,religious,FALSE,,,,https://www.holycityentebbe.org/
 ArlaadiTV.so,Arlaadi TV,,,Arlaadi Media Network,SO,,Mogadishu,general,FALSE,,,,https://arlaadimedia.com/
 ArlingtonIndependentMedia.us,Arlington Independent Media,AIM,,,US,US-VA,Arlington,general,FALSE,1982-01-01,,,https://arlingtonmedia.org/
@@ -1881,7 +1888,7 @@ AstroRania.my,Astro Rania,,,Astro,MY,,Kuala Lumpur,entertainment,FALSE,2020-05-2
 AstroRia.my,Astro Ria,,,Astro,MY,,Kuala Lumpur,general,FALSE,1996-06-01,,,http://www.astro.com.my/channels/
 AstroSensasi.sg,Astro Sensasi,Hub Sensasi;Sensasi,,Astro,SG,,Singapore,general,FALSE,2007-08-07,,,http://www.starhub.com/entertainment/channel/sensasi.html
 AstroShow.es,AstroShow,,,,ES,ES-MD,,religious,FALSE,,,,https://www.astroshow.es/
-AstroShuangXing.my,Astro Shuang Xing,Astro双星,,Astro,MY,,Kuala Lumpur,entertainment,FALSE,2003-02-01,,,http://shx.astro.com.my/
+AstroShuangXing.my,Astro Shuang Xing,Astro 双星,,Astro,MY,,Kuala Lumpur,entertainment,FALSE,2003-01-01,2023-08-28,,https://www.astro.com.my
 AstroSuperSport.my,Astro SuperSport,,,Astro,MY,,Kuala Lumpur,sports,FALSE,1997-08-03,2024-10-07,AstroPremierLeague.my,https://www.astro.com.my/
 AstroSuperSport2.my,Astro SuperSport 2,,,Astro,MY,,Kuala Lumpur,sports,FALSE,2009-11-18,2024-10-07,AstroPremierLeague2.my,https://www.astro.com.my/
 AstroSuperSport3.my,Astro SuperSport 3,,,Astro,MY,,Kuala Lumpur,sports,FALSE,2010-08-12,2024-10-07,AstroPremierLeague3.my,https://www.astro.com.my/
@@ -1910,6 +1917,7 @@ ASUTV19.us,ASU-TV 19,,,,US,US-GA,Albany,education,FALSE,,,,https://www.asurams.e
 AswajaTV.id,Aswaja TV,,,,ID,,Kota Tangerang Selatan,religious,FALSE,2015-07-25,,,https://www.aswajatv.com/
 Asylum.us,Asylum,,,,US,US-CA,Burbank,movies,FALSE,1997-01-01,,,http://theasylum.cc/
 AT5.nl,AT5,,,,NL,,Amsterdam,general,FALSE,1992-04-01,,,http://www.at5.nl/
+AtabalTV.do,Atabal TV,,,,DO,,,general,FALSE,,,,https://www.tvdominicana.net/livetv/watch/atabaltv/51
 AtacamaNoticias.cl,Atacama Noticias,,,,CL,CL-AT,Copiapo,news,FALSE,,,,https://www.atacamanoticias.cl/
 AtacamaTV.cl,Atacama TV,,,,CL,CL-AT,Copiapó,,FALSE,,,,http://atacamatelevision.com/
 AtamekenBusiness.kz,Atameken Business,,,,KZ,,Astana,business,FALSE,2016-05-23,,,https://inbusiness.kz/
@@ -2303,6 +2311,7 @@ Balapan.kz,Balapan,,,Qazaqstan Radio and Television Corporation,KZ,,Nur-Sultan,k
 Balastan.kg,Balastan,Баластан;УТРК Баластан;КТРК Баластан,,National Broadcasting Corporation of the Kyrgyz Republic,KG,,Bishkek,kids,FALSE,2013-10-01,,,https://www.utrk.kg/kg/live/tv?channel=49
 BalatonTV.hu,Balaton TV,,,,HU,,,,FALSE,,,,https://balatontelevizio.hu/
 BalchiTV.aw,Balchi TV,,,,AW,,Santa Cruz,culture,FALSE,,,,https://www.balchitv.com/
+BaletOpera.ru,Balet Opera,Балет Опера,TvikselTV,,RU,,,culture,FALSE,,,,
 BalikpapanTV.id,Balikpapan TV,BTV,Jawa Pos Multimedia,,ID,ID-KI,Balikpapan,general,FALSE,2011-01-22,,,https://balikpapantv.co.id/
 BaliTV.id,Bali TV,,Indonesia Network,Bali Post Media Group,ID,ID-BA,Denpasar,culture,FALSE,2002-05-26,,,https://balitv.tv/
 BaliUnitedTV.id,Bali United TV,,,Bali United,ID,,Gianyar,sports,FALSE,2016-10-19,,,https://www.baliutd.com/tv/
@@ -2496,6 +2505,7 @@ BBCEntertainment.uk,BBC Entertainment,BBC Prime,,BBC,UK,,London,entertainment,FA
 BBCFirst.uk,BBC First,,,BBC Studios,UK,,London,entertainment,FALSE,2014-08-03,,,https://www.bbcchannels.com/
 BBCFood.us,BBC Food,,Pluto TV,,US,,,cooking,FALSE,2002-06-16,2008-12-26,,https://pluto.tv/en/live-tv/bbc-food
 BBCFour.uk,BBC Four,,,BBC,UK,,London,documentary;culture,FALSE,2002-03-02,,,http://www.bbc.co.uk/bbcfour/
+BBCFourCBeebies.uk,BBC Four/CBeebies,,,BBC,UK,,London,kids;general;animation,FALSE,,,,http://www.bbc.co.uk/
 BBCHD.uk,BBC HD,,,BBC,UK,,London,general,FALSE,,2013-03-25,BBCTwo.uk@HD,http://www.bbchd.com/
 BBCHomeGarden.us,BBC Home & Garden,,Pluto TV,,US,,,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/bbc-home
 BBCKids.us,BBC Kids,,Pluto TV,,US,,,kids,FALSE,,,,https://pluto.tv/en/live-tv/bbc-kids
@@ -2535,6 +2545,7 @@ BBCRedButton9.uk,BBC Red Button 9,,,BBC,UK,,London,,FALSE,1999-09-23,,,http://ww
 BBCRedButtonHD.uk,BBC Red Button HD,,,BBC,UK,,London,,FALSE,2013-06-01,2013-11-25,,http://www.bbc.co.uk/redbutton
 BBCScotland.uk,BBC Scotland,,,BBC,UK,,Glasgow,general,FALSE,1923-01-01,,,https://www.bbc.co.uk/tv/bbcscotland
 BBCThree.uk,BBC Three,,,BBC,UK,,London,general,FALSE,2003-02-09,,,https://www.bbc.co.uk/bbcthree
+BBCThreeCBBC.uk,BBC Three/CBBC,,,BBC,UK,,London,family;kids;animation,FALSE,2022-02-01,,,http://www.bbc.co.uk/
 BBCTorontoGaundaPunjab.ca,BBC Toronto Gaunda Punjab,,,,CA,CA-ON,Toronto,general,FALSE,,,,https://bbctoronto.com/
 BBCTravel.us,BBC Travel,,Pluto TV,,US,,,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/bbc-travel-de
 BBCTwo.uk,BBC Two,,,BBC,UK,,London,general,FALSE,1964-04-21,,,http://www.bbc.co.uk/bbctwo/
@@ -2569,6 +2580,7 @@ BCATvGovernmentAccess.us,BCATv Government Access,,,,US,US-MA,Boxford,legislative
 BCATvPublicAccess.us,BCATv Public Access,,,,US,US-MA,Boxford,general,FALSE,,,,https://www.boxfordcabletv.com/
 BCCGaming.us,BCC Gaming,,,,US,,,comedy,FALSE,,,,
 BCI24News.gr,BCI 24 News,,,BCI Media,GR,,East York,news,FALSE,,,,https://eu1.vectromdigital.com:2020/public/bcipasxa
+BCNGospelTV.es,BCN Gospel TV,BCN Gospel Channel,,,ES,,Barcelona,general,FALSE,,,,https://live1.ovalcast.com/broadcaster/bcngospeltv/hybrid/player
 BCNTV.bs,BCN TV,,,Bahamas Christian Network,BS,,Nassau,religious,FALSE,,,,https://bcntv.net/
 BCNTV.rw,BCN TV,,,Bible Communication Center,RW,,Kigali,religious,FALSE,,,,https://bcntv.org/
 BCOSTV.ng,BCOS TV,,,Broadcasting Corporation of Oyo State,NG,,Ibadan,general,FALSE,,,,
@@ -3082,10 +3094,10 @@ BodyinBalance.gr,Body in Balance,,,,GR,,,,FALSE,,,,http://www.bodyinbalance.gr/
 BodySex.pt,Body Sex,,,,PT,,,xxx,TRUE,,,,https://www.meo.pt/tv/canais-programacao/guia-tv/canal?canal=BODYSEX
 BogBlagTV.us,BogBlag TV,БОГ БЛАГ ТВ,,Jesus Unlimited,US,US-CA,Sacramento,religious,FALSE,,,,https://bogblag.tv/smotri/
 BoimaTV.bf,Boima TV,,,,BF,,Ouagadougou,general,FALSE,,,,https://boima.tv/
-Boing.es,Boing,,,,ES,,,kids,FALSE,2008-11-28,,,http://www.boing.es/
-Boing.fr,Boing,,,,FR,,,kids,FALSE,,,,http://www.boingtv.fr/
+Boing.es,Boing,,,Mediaset Espana; Warner Bros. Discovery EMEA,ES,,,kids,FALSE,2008-11-28,,,http://www.boing.es/
+Boing.fr,Boing,,,,FR,,,kids,FALSE,,2023-04-03,CartoonitoWesternEurope.uk,http://www.boingtv.fr/
 Boing.it,Boing,,,Boing SpA,IT,,,kids,FALSE,2004-11-20,,,https://www.boingtv.it/
-BoingAfrica.it,Boing Africa,,,,IT,,,kids,FALSE,,,,
+BoingAfrica.it,Boing Africa,,,Warner Bros. Discovery EMEA,IT,,,kids,FALSE,,,,
 BoingPlus.it,Boing Plus,Pop,,Boing SpA,IT,,,kids,FALSE,2019-07-11,,,https://www.boingtv.it/
 BoiseStateTelevision.us,Boise State Television,BTV,,,US,US-ID,Boise,education,FALSE,,,,https://www.boisestate.edu/btv/
 BoishakhiTV.bd,Boishakhi TV,,,,BD,,,general,FALSE,,,,http://boishakhionline.com/
@@ -3496,7 +3508,7 @@ CalamochaTV.es,Calamocha TV,,,,ES,ES-AR,,general,FALSE,,,,https://www.mijilocatv
 CalaWeather.bs,Cala Weather,,,,BS,,,weather,FALSE,,,,https://www.calaweather.com/
 CalaWesterns.bs,Cala Westerns,,,,BS,,,movies,FALSE,,,,https://www.calawesterns.com/
 CalchaquiTV.ar,Calchaqui TV,Calchaquí TV,,,AR,AR-T,Tafí del Valle,,FALSE,,,,https://www.calchaquitv.com.ar/
-CalderaVision.cl,Caldera Vision,Caldera Visión,,,CL,CL-AT,Caldera,,FALSE,,,,http://www.calderavision.cl/en-vivo/
+CalderaVision.cl,Caldera Vision,Caldera Visión,,,CL,CL-AT,Caldera,general,FALSE,,,,http://www.calderavision.cl/en-vivo/
 Caledonia.nc,Caledonia,,,,NC,,Koné,general,FALSE,2017-05-04,,,https://www.caledonia.nc/
 CaliforniaMediosTV.mx,California Medios TV,,,,MX,MX-BCN,Tecate,general,FALSE,,,,https://californiamedios.com/
 CaliforniaMusicChannel.us,California Music Channel,,,,US,,,music,FALSE,,,,
@@ -3575,7 +3587,7 @@ Canal11Machagai.ar,Canal 11 Machagai,,,,AR,AR-H,Machagai,,FALSE,,,,
 Canal11TreintayTres.uy,Canal 11 Treinta y Tres,,,,UY,,,general,FALSE,,,,
 Canal11TuTV.sv,Canal 11 TuTV,,,Red Salvadoreña de Medios;Albavisión,SV,,Antiguo Cuscatlán,general,FALSE,2014-04-10,,,http://www.canal11.com.sv/
 Canal11TV.uy,Canal 11 TV,Canal 11 Las Piedras,,,UY,,Las Piedras,general,FALSE,,,,https://tv.vera.com.uy/canal/6055
-Canal12.co,Canal 12,,,,CO,CO-CES,Valledupar,,FALSE,,,,http://www.canal12valledupar.com/
+Canal12.co,Canal 12,,,,CO,CO-CES,Valledupar,general,FALSE,,,,http://www.canal12valledupar.com/
 Canal12.ni,Canal 12,Canal 12 Nicavisión,,Grupo Peters S.A.,NI,,Managua,general,FALSE,1992-12-11,,,http://www.canal12.com.ni/
 Canal12.sv,Canal 12,,,Red Salvadoreña de Medios;Albavisión,SV,,Antiguo Cuscatlán,general,FALSE,1984-12-15,,,https://www.canal12.com.sv/
 Canal12Durango.mx,Canal 12 Durango,,,,MX,,Durango,general,FALSE,,,,
@@ -3790,6 +3802,7 @@ Canal6Posadas.ar,Canal 6 Posadas,,,,AR,AR-N,Posadas,,FALSE,,,,https://www.notici
 Canal6Tecpan.mx,Canal 6 Tecpan,Canal 6 Tecpán,,,MX,MX-GRO,Tecpán de Galeana,general,FALSE,,,,http://canal6tecpan.com.mx/
 Canal6Tv.mx,Canal 6 Tv,,,,MX,MX-CMX,Ixtapaluca,general,FALSE,,,,https://www.canal6tv.com/
 Canal6USA.us,Canal 6 USA,,,,US,,,,FALSE,,,,https://www.multimedios.com/television
+Canal70.do,Canal 70,,,,DO,,,general,FALSE,,,,https://gia.tv/watchssh101.php?sn=cnal70tv
 Canal74SanAntonio.cl,Canal 74 San Antonio,,,,CL,CL-VS,San Antonio,,FALSE,,,,https://www.canal74.cl/
 Canal79LaCosta.ar,Canal 79 La Costa,,,,AR,AR-B,Santa Teresita,,FALSE,,,,https://canal79tv.com.ar/la-costa/
 Canal79MardelPlata.ar,Canal 79 Mar del Plata,,Canal 79 Reporte y Clima,,AR,AR-B,Mar del Plata,,FALSE,,,,https://canal79tv.com.ar/mardelplata/
@@ -3946,8 +3959,8 @@ CanaleEuropaTV.it,Canale Europa TV,,,,IT,,Milan,general,FALSE,,,,https://www.can
 CanaleItalia.it,Canale Italia,,,,IT,,Rubano,general,FALSE,,,,https://canaleitalia.it/
 CanaleItalia83.it,Canale Italia 83,,,,IT,,Veneto,general,FALSE,2004-01-01,,,https://canaleitalia.it/
 CanaleItalia84.it,Canale Italia 84,,,,IT,,Veneto,general,FALSE,2004-01-01,,,https://canaleitalia.it/
-CanalExtremadura.es,Canal Extremadura,Canal Extremadura Televisión,,CEXMA,ES,ES-EX,Merida,general,FALSE,2006-02-15,,,http://www.canalextremadura.es/
-CanalExtremaduraSatelite.es,Canal Extremadura Satelite,Canal Extremadura Satélite;Canal Extremadura Sat,,CEXMA,ES,ES-EX,Merida,general,FALSE,,,,https://www.canalextremadura.es/
+CanalExtremadura.es,Canal Extremadura,Canal Extremadura Televisión,,CEXMA,ES,ES-EX,Merida,general;public,FALSE,2006-02-15,,,http://www.canalextremadura.es/
+CanalExtremaduraSatelite.es,Canal Extremadura Satelite,Canal Extremadura Satélite;Canal Extremadura Sat,,CEXMA,ES,ES-EX,Merida,general;public,FALSE,,,,https://www.canalextremadura.es/
 CanalFBN.co,Canal FBN,,,,CO,,Roldanillo,entertainment,FALSE,,,,http://canalfbn.com/
 CanalFDR.br,Canal FDR,TV O Povo,Rede Futura,,BR,BR-CE,Fortaleza,general;education,FALSE,,,,https://fdr.org.br/canalfdr/
 CanalFutura.br,Canal Futura,,,Fundacao Roberto Marinho,BR,,Rio De Janeiro,education,FALSE,1998-03-01,,,https://www.futura.org.br/
@@ -4132,11 +4145,11 @@ CanalSimitv.co,Canal Simitv,,,,CO,,Simijaca,general,FALSE,,,,
 CanalSol.gq,Canal Sol,,,Sol Media S.A.,GQ,,Malabo,general,FALSE,,,,https://www.canalsol.com/
 CanalSonTV.co,Canal Son TV,,,,CO,,Bogota,music,FALSE,,,,
 CanalSur.ec,Canal Sur,,,,EC,,Loja,general,FALSE,,,,https://www.loja.gob.ec/contenido/canal-sur
-CanalSur.es,Canal Sur,Andalucía Televisión;Andalucía TV,,Radio y Televisión de Andalucía,ES,ES-AN,Seville,general,FALSE,1989-02-28,,,http://canalsur.es/television
+CanalSur.es,Canal Sur,Andalucía Televisión;Andalucía TV,,Radio y Televisión de Andalucía,ES,ES-AN,Seville,general;public,FALSE,1989-02-28,,,http://canalsur.es/television
 CanalSUR.us,Canal SUR,,,,US,US-FL,Key Biscayne,general,FALSE,,,,http://plus.canalsur.com/
-CanalSur2.es,Canal Sur 2,Canal 2 Andalucía;Canal Sur 2 Accesible,,Radio y Televisión de Andalucía,ES,ES-AN,Seville,general,FALSE,1998-01-01,,,http://canalsur.es/television
-CanalSurAndalucia.es,Canal Sur Andalucia,Canal Sur Andalucía;Andalucía Televisión,,Radio y Televisión de Andalucía,ES,ES-AN,Seville,general,FALSE,1996-02-01,,,http://www.canalsur.es/television-544.html
-CanalSurNoticias.es,Canal Sur Noticias,CanalSur Noticias,,Radio y Televisión de Andalucía,ES,ES-AN,Seville,news,FALSE,,,,
+CanalSur2.es,Canal Sur 2,Canal 2 Andalucía;Canal Sur 2 Accesible,,Radio y Televisión de Andalucía,ES,ES-AN,Seville,general;public,FALSE,1998-01-01,,,http://canalsur.es/television
+CanalSurAndalucia.es,Canal Sur Andalucia,Canal Sur Andalucía;Andalucía Televisión,,Radio y Televisión de Andalucía,ES,ES-AN,Seville,general;public,FALSE,1996-02-01,,,http://www.canalsur.es/television-544.html
+CanalSurNoticias.es,Canal Sur Noticias,CanalSur Noticias,,Radio y Televisión de Andalucía,ES,ES-AN,Seville,news;public,FALSE,,,,
 CanalSurPatagonia.cl,Canal Sur Patagonia,,,,CL,CL-AI,Coyhaique,,FALSE,,,,https://www.canalsurpatagonia.cl/
 CanalSURTV.co,Canal SURTV,,,,CO,,Itagüí,general,FALSE,,,,
 CanalSurvisionAlerce.cl,Canal Survision Alerce,,,,CL,CL-LL,Alerce,,FALSE,,,,https://tvsurvision.cl/
@@ -5057,6 +5070,7 @@ CHTV.hk,CHTV,China Satellite TV;中华卫视,,,HK,,,,FALSE,2009-06-28,2020-10-28
 CHTV.hn,CHTV,,,,HN,,Tegucigalpa,general,FALSE,2013-06-10,,,http://chtv.hn/
 ChuckTV.sk,Chuck TV,,,,SK,,,,FALSE,2021-05-07,2022-12-31,,https://www.chucktv.eu/
 ChukyoTVNews.jp,Chukyo TV News,中京テレビNEWS,,,JP,,Nagoya,news,FALSE,1969-04-01,,,https://www.ctv.co.jp/news/
+ChumbakTV.in,Chumbak TV,,Shemaroo Entertainment,Shemaroo Entertainment,IN,,,entertainment,FALSE,,,,
 ChunghwaTV.kr,Chunghwa TV,중화TV,,CJ ENM Entertainment Division,KR,,Seoul,movies;series,FALSE,2004-05-10,,,http://zhtv.tving.com/zhtv
 ChupacaTelevision.pe,Chupaca Television,Chupaca Televisión,,,PE,PE-JUN,Chupaca,general,FALSE,,,,https://chupacatelevision.com/
 ChurcampaTV.pe,Churcampa TV,,,,PE,,Churcampa,general,FALSE,,,,
@@ -5331,6 +5345,27 @@ CityChannelPittsburgh.us,City Channel Pittsburgh,,,,US,US-PA,Pittsburgh,legislat
 CITYDT.ca,CITY-DT,,Citytv,Rogers Communications,CA,CA-ON,Toronto,general,FALSE,1972-09-28,,,http://www.citytv.com/toronto
 CITYDT2.ca,CITY-DT-2,,Citytv,Rogers Communications,CA,CA-ON,Woodstock,general,FALSE,,,,http://www.citytv.com/toronto
 CITYDT3.ca,CITY-DT-3,,Citytv,Rogers Communications,CA,CA-ON,Ottawa,general,FALSE,,,,http://www.citytv.com/toronto
+CityEdenAutoGid.ru,City Eden AutoGid,Сити Эдем АвтоГид,,Сити Эдем Групп,RU,,,auto,FALSE,,,,https://www.cityeden.info/
+CityEdenBirmaPlay.ru,City Eden Birma Play,Сити Эдем Бирма Play,,Сити Эдем Групп,RU,,,music,FALSE,,,,https://www.cityeden.info/
+CityEdenClassicMusic.ru,City Eden Classic Music,Сити Эдем Классическая Музыка,,Сити Эдем Групп,RU,,,music,FALSE,,,,https://www.cityeden.info/
+CityEdenKinoAction.ru,City Eden KinoAction,Сити Эдем КиноЭкшен,,Сити Эдем Групп,RU,,,movies,FALSE,,,,https://www.cityeden.info/
+CityEdenKinoArt.ru,City Eden KinoArt,Сити Эдем КиноАрт,,Сити Эдем Групп,RU,,,movies,FALSE,,,,https://www.cityeden.info/
+CityEdenKinoAsia.ru,City Eden KinoAsia,Сити Эдем КиноАзия,,Сити Эдем Групп,RU,,,movies,FALSE,,,,https://www.cityeden.info/
+CityEdenKinoDetektiv.ru,City Eden KinoDetektiv,Сити Эдем КиноДетектив,,Сити Эдем Групп,RU,,,movies,FALSE,,,,https://www.cityeden.info/
+CityEdenKinoDok.ru,City Eden KinoDok,Сити Эдем КиноДок,,Сити Эдем Групп,RU,,,documentary;series,FALSE,,,,https://www.cityeden.info/
+CityEdenKinoDrama.ru,City Eden KinoDrama,Сити Эдем КиноДрама,,Сити Эдем Групп,RU,,,movies,FALSE,,,,https://www.cityeden.info/
+CityEdenKinoFantastika.ru,City Eden KinoFantastika,Сити Эдем КиноФантастика,,Сити Эдем Групп,RU,,,movies,FALSE,,,,https://www.cityeden.info/
+CityEdenKinoKlassika.ru,City Eden KinoKlassika,Сити Эдем КиноКлассика,,Сити Эдем Групп,RU,,,movies,FALSE,,,,https://www.cityeden.info/
+CityEdenKinoKomediya.ru,City Eden KinoKomediya,Сити Эдем КиноКомедия,,Сити Эдем Групп,RU,,,movies,FALSE,,,,https://www.cityeden.info/
+CityEdenKinoMistika.ru,City Eden KinoMistika,Сити Эдем КиноМистика,,Сити Эдем Групп,RU,,,movies,FALSE,,,,https://www.cityeden.info/
+CityEdenKinoSemya.ru,City Eden KinoSemya,Сити Эдем КиноСемья,,Сити Эдем Групп,RU,,,movies,FALSE,,,,https://www.cityeden.info/
+CityEdenMeditationMusic.ru,City Eden Meditation Music,Сити Эдем Meditation Music,,Сити Эдем Групп,RU,,,music,FALSE,,,,https://www.cityeden.info/
+CityEdenMedZdrav.ru,City Eden MedZdrav,Сити Эдем МедЗдрав,,Сити Эдем Групп,RU,,,lifestyle,FALSE,,,,https://www.cityeden.info/
+CityEdenPlay.ru,City Eden Play,Сити Эдем Play,,Сити Эдем Групп,RU,,,music,FALSE,,,,https://www.cityeden.info/
+CityEdenReceptyGurmana.ru,City Eden Recepty Gurmana,Сити Эдем Рецепты Гурмана,,Сити Эдем Групп,RU,,,cooking,FALSE,,,,https://www.cityeden.info/
+CityEdenSirtakiTV.ru,City Eden Sirtaki TV,Сити Эдем Сиртаки ТВ,,Сити Эдем Групп,RU,,,music,FALSE,,,,https://www.cityeden.info/
+CityEdenTeleNovella.ru,City Eden TeleNovella,Сити Эдем ТелеНовелла,,Сити Эдем Групп,RU,,,series,FALSE,,,,https://www.cityeden.info/
+CityEdenTV.ru,City Eden TV,Сити Эдем TV,,Сити Эдем Групп,RU,,,general;religious,FALSE,,,,https://www.cityeden.info/
 CityHallTV.us,City Hall TV,,,,US,US-NY,Yonkers,general,FALSE,,,,https://www.yonkersny.gov/government/city-hall-tv
 CityLink.us,CityLink,,,,US,US-SD,Sioux Falls,general,FALSE,,,,https://www.siouxfalls.org/live
 CityMusicTV.be,City Music TV,,,,BE,,,music,FALSE,,,,
@@ -5530,8 +5565,8 @@ CKYPTV.ca,CKYP-TV,,CTV,Bell Media,CA,CA-MB,The Pas,general,FALSE,,,,https://winn
 CKYTTV.ca,CKYT-TV,,CTV,Bell Media,CA,CA-MB,Thompson,general,FALSE,,,,https://winnipeg.ctvnews.ca/
 CL3Cablevision.ar,CL3 Cablevision,CL3,,,AR,AR-S,Chañar Ladeado,,FALSE,,,,http://www.cl3cablevision.com.ar/
 ClackamasCountyGovernmentChannel.us,Clackamas County Government Channel,CCGC,,,US,US-OR,Oregon City,general,FALSE,,,,https://www.clackamas.us/cable
-Clan.es,Clan,,TVE,RTVE,ES,,Madrid,kids,FALSE,2005-12-12,,,http://www.rtve.es/infantil/
-ClanInternacional.es,Clan Internacional,,TVE,RTVE,ES,,Madrid,kids,FALSE,,,,http://www.rtve.es/infantil/
+Clan.es,Clan,,TVE,RTVE,ES,,Madrid,kids;public,FALSE,2005-12-12,,,http://www.rtve.es/infantil/
+ClanInternacional.es,Clan Internacional,,TVE,RTVE,ES,,Madrid,kids;public,FALSE,,,,http://www.rtve.es/infantil/
 Clarity4K.us,Clarity 4K,,,,US,US-IL,Chicago,general,FALSE,,,,http://www.channelclarity.com/
 ClarkCountyTV.us,Clark County TV,CCTV,,,US,US-NV,Las Vegas,general,FALSE,,,,https://www.clarkcountynv.gov/government/board_of_county_commissioners/county_meeting_agendas.php
 ClaroCinema.mx,Claro Cinema,,,America Movil,MX,,Mexico City,movies,FALSE,,,,https://www.claro.com/
@@ -5582,7 +5617,7 @@ ClipsTV.pe,ClipsTV,,,,PE,PE-ICA,Ica,,FALSE,,,,
 CliqueTV.fr,Clique TV,,,,FR,,Issy-les-Moulineaux,general,FALSE,,,,https://www.clique.tv/
 ClixTV.us,ClixTV,,,,US,US-CA,Venice,,FALSE,,,,https://watch.plex.tv/live-tv/channel/clixtv
 CLOGTV.gh,CLOG TV,,,CLOGSAG,GH,,Accra,general,FALSE,,,,https://clogsag.org.gh/clogsag/
-CloudflareTV.us,Cloudflare TV,,,,US,US-CA,San Francisco,education,FALSE,,,,https://www.cloudflare.com/en-ca/
+CloudflareTV.us,Cloudflare TV,,,,US,US-CA,San Francisco,education,FALSE,,,,https://cloudflare.tv/
 CloudserverCloudFM.cl,Cloudserver CloudFM,,Cloudserver Latam,,CL,,,music,FALSE,,,,https://www.cloudserverlatam.com/television/
 CloudserverLatamCSTV.cl,Cloudserver Latam CSTV,,Cloudserver Latam,,CL,,,entertainment,FALSE,,,,https://www.cloudserverlatam.com/television/
 CloudserverLatamKids90.cl,Cloudserver Latam Kids90,,Cloudserver Latam,,CL,,,kids,FALSE,,,,https://www.cloudserverlatam.com/television/
@@ -5610,7 +5645,7 @@ CMBTelevision.co,CMB Television,CMB Televisión,,,CO,CO-CUN,Bogotá,religious,FA
 CMCTV.hr,CMC TV,,,Croatia Records,HR,,Zagreb,music,FALSE,2005-06-01,,,https://cmc.com.hr/
 CMElCanaldelaMusica.ar,CM El Canal de la Musica,CM El Canal de la Música,,Grupo Olmos,AR,,Buenos Aires,music,FALSE,1996-04-01,,,http://cmmusica.com.ar/
 CML13TV.cd,CML13 TV,,,Congo Media Libre,CD,,Kinshasa,news,FALSE,,,,
-CMMTV.es,CMM TV,Castilla-La Mancha Media,,Castilla-La Mancha Media,ES,ES-CM,Toledo,general,FALSE,2001-12-13,,,https://www.cmmedia.es/
+CMMTV.es,CMM TV,Castilla-La Mancha Media,,Castilla-La Mancha Media,ES,ES-CM,Toledo,general;public,FALSE,2001-12-13,,,https://www.cmmedia.es/
 CMNtv.us,CMNtv,,,,US,US-MI,Troy,general,FALSE,,,,http://cmntv.org/
 CMoreAction.se,C More Action,Canal+ Action;Canal+ Film 3,,Telia Company,SE,,Stockholm,entertainment,FALSE,2005-09-01,2023-08-14,,https://www.cmore.se/
 CMoreEmotion.se,C More Emotion,Canal+ Emotion;Canal+ Drama;Canal+ Mix;Canal+;FilmNet 1;FilmNet Plus+;FilmNet,,Telia Company,SE,,Stockholm,,FALSE,1985-01-01,2023-08-14,,https://www.cmore.se/
@@ -5713,7 +5748,7 @@ CNNPrimaNews.cz,CNN Prima News,,,FTV Prima,CZ,,Prague,news,FALSE,2020-05-03,,,ht
 CNNRePlay.us,CNN RePlay,,Pluto TV,Warner Bros. Discovery,US,,,news,FALSE,,,,https://pluto.tv/en/live-tv/5421f71da6af422839419cb3
 CNNTurk.tr,CNN Turk,CNN Türk,,Demiroren Group,TR,,Istanbul,news,FALSE,1999-10-11,,,https://www.cnnturk.com/
 CNRTelevision.mx,CNR Television,CNR Televisión,,,MX,MX-BCN,Rosarito,general,FALSE,,,,https://www.cnrnoticias.tv/
-CNSChannel6.gy,CNS Channel 6,,,,GY,,Georgetown,news,FALSE,,,,
+CNSChannel6.gy,CNS Channel 6,,,Chandra Narine Sharma,GY,,Georgetown,news,FALSE,1992-06-07,2025-01-07,IgniteTelevision.gy,
 CNSTV.jm,CNS TV,,,FP Communications Group,JM,,Portmore,news;sports,FALSE,,,,https://cnstvjamaica.wixsite.com/cnstv
 CNTV.cd,CNTV,Canal Numérique,,,CD,,Kinshasa,entertainment,FALSE,,,,
 CNTV.pe,CN TV,,Cable Netword,,PE,PE-LIM,Lima,general,FALSE,,,,http://www.cablenetword.com/canal.html
@@ -5738,6 +5773,7 @@ CollywoodTV.cm,Collywood TV,,,,CM,,Yaoundé,movies,FALSE,,,,https://www.collywoo
 ColmaxTV.fr,Colmax TV,,,,FR,,,xxx,TRUE,,,,https://www.colmax.com/
 Colombeia.ve,Colombeia,,,Sistema Bolivariano de Comunicación e Información,VE,,Caracas,education,FALSE,,,,https://www.colombeia.edu.ve/
 ColomboTV.lk,Colombo TV,,,,LK,,Colombo,general,FALSE,,,,
+ColomeTV.do,Colome TV,,,,DO,,,general,FALSE,,,,https://colometv.com/#/other/vivo
 ColorBlindTV.bz,Color Blind TV,CBTV,,Color Blind Media Productions,BZ,,Belize City,entertainment,FALSE,,,,http://www.colorblind.bz/
 ColorfulDramaChannel.cn,Colorful Drama Channel,七彩戏剧,,,CN,,,entertainment,FALSE,,,,
 Colors.in,Colors,,,Viacom18,IN,,Mumbai,entertainment,FALSE,2008-07-21,,,https://www.colorstv.com/
@@ -6461,6 +6497,7 @@ DeLaFoiTV.cd,De La Foi TV,,,,CD,,Kinshasa,religious,FALSE,,,,
 DelEsteTV.uy,Del Este TV,,,,UY,,Punta del Este,music,FALSE,,,,https://www.radiodeleste.com.uy/
 DelfiTV.lt,Delfi TV,,,,LT,,Vilnius,general,FALSE,,,,https://www.delfi.lt/video/puslapis/tv
 DeliveranceTV.ke,Deliverance TV,,,Around the Globe Deliverance Ministry,KE,,Nairobi,religious,FALSE,,,,https://atgdeliveranceministry.co.ke/tv.html
+DelPuebloTV.do,Del Pueblo TV,,,,DO,,,general,FALSE,,,,https://www.tvdominicana.net/livetv/watch/delpueblotv/49
 DeltaTV.am,Delta TV,Դելտա-TV;Дельта ТВ,,DELTA TV LLC,AM,,Gyumri,news,FALSE,2019-01-01,,,http://www.deltatv.am/channel/%D4%B4%D5%A5%D5%AC%D5%BF%D5%A1-TV
 DeltaTV.bo,Delta TV,,,,BO,BO-L,Copacabana,general,FALSE,,,,https://institutodeltabolivia.org/delta-tv/
 DELTATV.gr,DELTA TV,Δέλτα TV,,,GR,,Marousi,general,FALSE,,,,https://deltatv.gr/
@@ -6537,6 +6574,7 @@ DetroitChannel21.us,Detroit Channel 21,,,,US,US-MI,Detroit,general,FALSE,,,,http
 DetroitChannel22.us,Detroit Channel 22,,,,US,US-MI,Detroit,education,FALSE,,,,http://reflect-detroit-vod.cablecast.tv/CablecastPublicSite/?channel=2
 DetroitChannel68.us,Detroit Channel 68,,,,US,US-MI,Detroit,general,FALSE,,,,http://reflect-detroit-vod.cablecast.tv/CablecastPublicSite/?channel=4
 Detskimir.ru,Detski mir,Детский мир;НТВ-Плюс Детский мир,,Mediamart,RU,,Moscow,kids,FALSE,2018-05-14,,,https://www.detskiymir.tv/
+Detskoekino.ru,Detskoe kino,Детское кино,TvikselTV,,RU,,,movies,FALSE,,,,
 DeUltimoMinutoTV.do,De Ultimo Minuto TV,De Último Minuto TV,,,DO,,Santo Domingo,news,FALSE,,,,https://deultimominuto.net/
 DeutschlandsGayChat.de,Deutschlands GayChat,,,,DE,,,lifestyle,FALSE,,,,
 DevilsFilm.ca,Devils Film,,,Gamma Entertainment,CA,CA-QC,Montreal,xxx,TRUE,,,,https://devilsfilm.org/
@@ -7174,8 +7212,11 @@ E.pl,E!,Entertainment,NBCUniversal International Networks,NBCUniversal;Sky Group
 E.ro,E!,,,NBCUniversal;Sky Group,RO,,Amsterdam,entertainment,FALSE,2011-12-01,,,https://www.eonline.com/
 E.uk,E!,E! Entertainment,,NBCUniversal;Sky Group,UK,,Amsterdam,entertainment,FALSE,2012-10-08,2023-12-31,,http://uk.eonline.com/
 E.us,E!,Entertainment;Movietime,,NBCUniversal,US,US-CA,Los Angeles,entertainment,FALSE,1987-07-31,,,http://www.eonline.com/
+E1.gy,E1,ENet Channel 1,,ENet,GY,,Georgetown,entertainment,FALSE,,,,https://www.enetworks.gy/tv/
 E1TV.pk,E1 TV,,,,PK,,,,FALSE,,,,
+E2.gy,E2,ENet Channel 2,,ENet,GY,,Georgetown,entertainment,FALSE,,,,https://www.enetworks.gy/tv/
 E24.in,E 24,,,BAG Films & Media,IN,,New Delhi,entertainment,FALSE,2008-03-28,,,https://e24.news24online.com/
+E3.gy,E3,ENet Channel 3,,ENet,GY,,Georgetown,entertainment,FALSE,,,,https://www.enetworks.gy/tv/
 E4.ie,E4,,,,IE,,,entertainment,FALSE,,,,
 E4.uk,E4,,,Channel Four Television Corporation,UK,,London,entertainment,FALSE,2001-01-18,,,https://www.channel4.com/collection/e4
 E40.py,E40,Estacion 40,,TC Accion,PY,,Asuncion,music,FALSE,2019-01-01,,,https://estacion40.com.py/
@@ -7347,8 +7388,8 @@ EgyptianTV.eg,Egyptian TV,,,,EG,,Cairo,general,FALSE,,,,https://www.maspero.eg/
 EgyptQuranKareem.eg,Egypt Quran Kareem,,,,EG,,,religious,FALSE,,,,
 EHTTVChannel97.us,EHT-TV Channel 97,,,,US,US-NJ,Egg Harbor Township,education,FALSE,,,,https://www.eht.k12.nj.us/district_services/EHTTV
 EiseiGekijo.jp,Eisei Gekijo,衛星劇場,,Shochiku Broadcasting Co. Ltd.,JP,,Tokyo,movies,FALSE,,,,https://eigeki.com/
-EITB.es,EITB,Euskal Irrati Telebista;Basque Radio and Television,,Department of Culture of the Basque Government,ES,,Bilbao,general,FALSE,1982-05-20,,,https://www.eitb.eus/
-EiTB2.es,EiTB 2,,,Department of Culture of the Basque Government,ES,,Bilbao,general,FALSE,,,,https://www.eitb.eus/
+EITB.es,EITB,Euskal Irrati Telebista;Basque Radio and Television,,Department of Culture of the Basque Government,ES,ES-PV,Bilbao,general;public,FALSE,1982-05-20,,,https://www.eitb.eus/
+EiTB2.es,EiTB 2,,,Department of Culture of the Basque Government,ES,ES-PV,Bilbao,general;public,FALSE,,,,https://www.eitb.eus/
 EkattorTV.bd,Ekattor TV,একাত্তর,,Meghna Group of Industries,BD,,Dhaka,news,FALSE,2012-06-21,,,https://ekattor.tv/
 EkhonTV.bd,Ekhon TV,এখন,,City Group,BD,,Dhaka,business,FALSE,2022-06-09,,,https://www.ekhon.tv/
 EKids.bg,EKids,,,Evrokom,BG,,Sofia,kids,FALSE,,,,http://www.ekids.bg/
@@ -7361,8 +7402,8 @@ EkranMovies.ir,Ekran Movies,,,EkranMovies Group,IR,,,movies,FALSE,,,,
 EkusheyTV.bd,Ekushey TV,একুশে টেলিভিশন,,S. Alam Group of Industries,BD,,Dhaka,news,FALSE,2000-04-14,,,https://www.ekushey-tv.com/
 El10TV.ar,El 10 TV,Televisión Salteña,,,AR,,Salta,general,FALSE,,,,https://el10tv.com/
 El15TV.sv,El 15 TV,Canal 15 Usulután,,,SV,,Usulután,general,FALSE,,,,https://el15tv.com/
-El33.es,El 33,Canal 33,,Televisio de Catalunya,ES,ES-CT,Barcelona,culture,FALSE,1988-01-01,,,http://www.ccma.cat/cultura/
-El33SX3.es,El 33/SX3,,,,ES,ES-CT,Barcelona,culture,FALSE,,,,https://www.ccma.cat/tv3/directe/33/
+El33.es,El 33,Canal 33,,Televisio de Catalunya,ES,ES-CT,Barcelona,culture;public,FALSE,1988-01-01,,,http://www.ccma.cat/cultura/
+El33SX3.es,El 33/SX3,,,,ES,ES-CT,Barcelona,culture;public,FALSE,,,,https://www.ccma.cat/tv3/directe/33/
 El75TV.do,El 75 TV,,,Grupo Corripio,DO,,Santo Domingo,entertainment,FALSE,1979-10-01,,,https://el75tv.com/
 El9TV.es,El 9 TV,,,,ES,ES-CT,Barcelona,general,FALSE,,,,https://el9nou.cat/el9tv/
 ElAdjwaaTV.dz,El Adjwaa TV,قنـاة الأجــواء,,Bouchakor Zoubiri,DZ,,Algiers,general,FALSE,2013-10-05,2022-11-15,,
@@ -7584,6 +7625,7 @@ Entrenosotras.us,Entre nosotras,,,,US,,,series,FALSE,,,,https://pluto.tv/en/live
 EntrepreneursTV.cd,Entrepreneurs TV,,,,CD,,Kinshasa,business,FALSE,,,,https://entrepreneurs-tv.com/
 EntrepreneurTV.us,EntrepreneurTV,,,,US,US-CA,Irvine,business,FALSE,,,,https://www.entrepreneur.com/tv
 Entretendo.br,Entretendo,,,,BR,,Sao Paulo,entertainment,FALSE,,,,http://baitaconteudo.com/canais/
+EntunoTV.do,Entuno TV,,,,DO,,,general,FALSE,,,,https://www.tvdominicana.net/livetv/details/entuno-tv/50
 EntusiastTV.ee,Entusiast TV,,,,EE,,Tartu,,FALSE,,,,
 ENTV.hn,EN TV,,,,HN,,,religious,FALSE,,,,
 ENTV.sa,EN TV,,,,SA,,,general,FALSE,,,,
@@ -7759,7 +7801,7 @@ ESPNPremium.cl,ESPN Premium,,,,CL,,,sports,FALSE,,,,
 ESPNU.us,ESPNU,,,The Walt Disney Company,US,US-CT,Bristol,sports,FALSE,2005-03-04,,,http://espn.go.com/college-sports/
 EspoirduMondeTV.bf,Espoir du Monde TV,,,,BF,,Ouagadougou,religious,FALSE,,,,https://www.cipdsntempleespoirdumonde.org/espoir-du-monde-tv
 EspoirTV.cd,Espoir TV,,,,CD,,Kinshasa,general,FALSE,,,,
-Esport3.es,Esport3,,,Televisio de Catalunya,ES,ES-CT,Sant Joan Despi,sports,FALSE,2011-02-05,,,http://www.ccma.cat/esport3/
+Esport3.es,Esport3,,,Televisio de Catalunya,ES,ES-CT,Sant Joan Despi,public;sports,FALSE,2011-02-05,,,http://www.ccma.cat/esport3/
 eSports1.de,eSports1,,,,DE,,,sports,FALSE,2019-01-24,,,https://www.esports1.de/
 eSportsMaxTV.ve,eSports Max TV,,,Grupo Lorini,VE,,,animation,FALSE,,,,http://esportsmaxnetwork.com/
 eSportsTVHD.se,eSportsTV HD,,,,SE,,,sports,FALSE,,,,
@@ -7790,12 +7832,12 @@ ESTV.us,ESTV,Esports TV,,,US,US-CA,Los Angeles,sports,FALSE,,,,https://www.estv.
 ESTVCanalPeninsular.ec,ESTV Canal Peninsular,,,,EC,,Santa Elena,general,FALSE,,,,https://www.estvymediosaliados.com/
 EStyloTV.do,EStylo TV,,,,DO,,,culture,FALSE,,,,https://canalesdominicanos.live/estylo-tv/
 EswatiniTV.sz,Eswatini TV,,,Government of Eswatini,SZ,,Mbabane,general,FALSE,1978-02-01,,,http://www.swazitv.co.sz/
-ETB1.es,ETB 1,ETB Bat,,EITB,ES,ES-PV,Bilbao,general,FALSE,1983-02-16,,,https://www.eitb.eus/es/television/
-ETB2.es,ETB 2,,,EITB,ES,ES-PV,Bilbao,general,FALSE,1986-05-31,,,https://www.eitb.eus/es/television/
-ETB3.es,ETB 3,,,EITB,ES,ES-PV,Bilbao,kids,FALSE,2008-10-10,,,https://www.eitb.eus/es/television/
-ETB4.es,ETB 4,,,EITB,ES,ES-PV,Bilbao,sports,FALSE,2014-10-29,,,https://www.eitb.eus/es/television/
-ETBBasque.es,ETB Basque,EiTB Basque;Canal Vasco;ETB Sat,,EITB,ES,ES-PV,Bilbao,culture,FALSE,1996-06-03,,,https://www.eitb.eus/es/television/
-ETBEvents1.es,ETB Events 1,ETB Eventos 1,,,ES,,Bilbao,,FALSE,,,,https://www.eitb.eus/es/television/
+ETB1.es,ETB 1,ETB Bat,,Department of Culture of the Basque Government,ES,ES-PV,Bilbao,general;public,FALSE,1983-02-16,,,https://www.eitb.eus/es/television/
+ETB2.es,ETB 2,,,Department of Culture of the Basque Government,ES,ES-PV,Bilbao,general;public,FALSE,1986-05-31,,,https://www.eitb.eus/es/television/
+ETB3.es,ETB 3,,,Department of Culture of the Basque Government,ES,ES-PV,Bilbao,kids;public,FALSE,2008-10-10,,,https://www.eitb.eus/es/television/
+ETB4.es,ETB 4,,,Department of Culture of the Basque Government,ES,ES-PV,Bilbao,sports;public,FALSE,2014-10-29,,,https://www.eitb.eus/es/television/
+ETBBasque.es,ETB Basque,EiTB Basque;Canal Vasco;ETB Sat,,Department of Culture of the Basque Government,ES,ES-PV,Bilbao,culture;public,FALSE,1996-06-03,,,https://www.eitb.eus/es/television/
+ETBEvents1.es,ETB Events 1,ETB Eventos 1,,Department of Culture of the Basque Government,ES,ES-PV,Bilbao,general;public,FALSE,,,,https://www.eitb.eus/es/television/
 ETC.ph,ETC,,,Solar Entertainment Corporation,PH,,Manila,entertainment,FALSE,2004-08-23,,,https://etc.com.ph/
 ETCTV.cl,ETC TV,,,Megamedia,CL,,Santiago,animation,FALSE,1996-08-01,,,https://www.etc.cl/
 ETCTV.eg,ETC TV,,,,EG,,Cairo,general,FALSE,,,,https://etc-tv.com/
@@ -8031,6 +8073,7 @@ ExtraPlus.ni,ExtraPlus,Canal 37,,Manuel Espinoza Enríquez,NI,,Managua,entertain
 ExtraTV.hr,Extra TV,,,,HR,,Zagreb,music,FALSE,,,,https://extrafm.hr/extra-tv/
 ExtraTV.it,Extra TV,Canale 194,,,IT,,Lazio,general,FALSE,2021-03-19,,,https://www.extratv.it/
 ExtraTV42.cr,Extra TV 42,,,,CR,,San Jose,general,FALSE,,,,https://www.extratv42.com/
+ExtremaKidsTV.cr,Extrema Kids TV,,,,CR,,,animation;kids,FALSE,,,,https://extrematv.org/extrema-kids
 ExtremaTV.cr,Extrema TV,,,,CR,,Cartago,religious,FALSE,,,,https://extrematv.org/
 ExtremaTV.us,Extrema TV,,,,US,US-LA,Hammond,,FALSE,,,,
 Extreme.si,Extreme,,,,SI,,Ljubljana,xxx,TRUE,,,,https://tv2go.t-2.net/tv/epg/1000646/
@@ -8198,7 +8241,7 @@ FastSports1.am,Fast Sports 1,,,Fast Media,AM,,Yerevan,sports,FALSE,2021-01-01,,,
 FastSports2.am,Fast Sports 2,,,Fast Media,AM,,Yerevan,sports,FALSE,2021-01-01,,,https://www.fasttv.am/live/fastsports2
 Faststream.nl,Faststream,,,,NL,,,sports,FALSE,,,,https://spiintl.com/channels/faststream
 FastTV.gh,Fast TV,,,,GH,,Kumasi,general,FALSE,,,,
-FastTV.us,Fast TV,MotorTrend Fast TV,,Warner Brothers;MotorTrend,US,,,,FALSE,2022-10-26,,,https://watch.motortrend.com/
+FastTV.us,Fast TV,MotorTrend Fast TV,,The Hearst Corporation; MotorTrend,US,,,,FALSE,2022-10-26,,,https://watch.motortrend.com/
 FastwayNews.in,Fastway News,,,Fastway DTH Network,IN,,Ayodhya,news,FALSE,2015-09-19,,,https://www.fastway.in/
 Fatafeat.ae,Fatafeat,فتافيت,,Warner Bros. Discovery,AE,,Dubai,cooking,FALSE,2006-12-26,,,http://www.fatafeat.com/
 FatehTV.in,Fateh TV,,,,IN,,Ludhiana,religious,FALSE,,,,https://www.fatehtvonline.com/
@@ -8800,8 +8843,8 @@ GalaxyTV.ug,Galaxy TV,,,,UG,,Kampala,music,FALSE,,,,https://galaxytv.ug/
 GalaxyTVLagos.ng,Galaxy TV Lagos,,,,NG,,Lagos,news,FALSE,,,,https://www.galaxytvonline.com/
 GalaxyUniversalNetwork.za,Galaxy Universal Network,,,,ZA,,Midrand,,FALSE,,,,https://www.galaxyun.tv/
 GalerasTV.co,Galeras TV,,CNC,,CO,,Pasto,music,FALSE,,,,http://www.cncpasto.com/galeras-tv/
-GaliciaTVAmerica.es,Galicia TV America,TVG América,CRTVG,CRTVG,ES,ES-GA,Santiago de Compostela,general,FALSE,,,,http://www.crtvg.es/tvg
-GaliciaTVEuropa.es,Galicia TV Europa,TVG Europa,CRTVG,CRTVG,ES,ES-GA,Santiago de Compostela,general,FALSE,1985-07-24,,,http://www.crtvg.es/tvg
+GaliciaTVAmerica.es,Galicia TV America,TVG América,CRTVG,CRTVG,ES,ES-GA,Santiago de Compostela,general;public,FALSE,,,,http://www.crtvg.es/tvg
+GaliciaTVEuropa.es,Galicia TV Europa,TVG Europa,CRTVG,CRTVG,ES,ES-GA,Santiago de Compostela,general;public,FALSE,1985-07-24,,,http://www.crtvg.es/tvg
 GaliKurdistan.iq,Gali Kurdistan,,,,IQ,,As Sulaymaniyah,news,FALSE,,,,https://www.gksat.tv/live.aspx
 GalleroSoy.do,Gallero Soy,,,,DO,,Santo Domingo,sports,FALSE,,,,https://gallerosoy.com/
 GallopTV.za,Gallop TV,,,,ZA,,Durban,sports,FALSE,,,,https://www.galloptv.co.za/
@@ -9299,7 +9342,7 @@ GravitasAdrenaline.us,Gravitas Adrenaline,,,Gravitas Ventures LLC,US,US-CA,El Se
 GravitasDocumentaries.us,Gravitas Documentaries,,,Gravitas Ventures LLC,US,US-CA,El Segundo,documentary,FALSE,,,,https://watch.plex.tv/live-tv/channel/gravitas-documentaries
 GravitasMovies.us,Gravitas Movies,,,Gravitas Ventures LLC,US,US-CA,El Segundo,movies,FALSE,,,,
 GREATaction.uk,GREAT! action,GREAT! movies action;Sony Movies Action;Movies4Men;Matinee Movies,,Narrative Entertainment UK Ltd,UK,,London,movies,FALSE,2021-05-14,,,https://www.greatnetwork.com/moviesaction/
-GreatAmericanCountry.us,Great American Country,,,,US,US-CA,Sacramento,outdoor,FALSE,,,,
+GreatAmericanFamily.us,Great American Family,Great American Country,,,US,US-CA,Sacramento,family,FALSE,,,,
 GreatAmericanLiving.us,Great American Living,,,,US,US-CA,Sacramento,lifestyle,FALSE,,,,https://www.greatamericanliving.tv/
 GreatCommissionTV.ph,Great Commission TV,,,,PH,,Manila,family,FALSE,,,,http://www.gctv.asia/
 GreatDominionTV.mw,Great Dominion TV,,,,MW,,Lilongwe,religious,FALSE,,,,
@@ -9667,7 +9710,7 @@ HBOCentralEurope.hu,HBO Central Europe,,HBO Europe,Warner Bros. Discovery,HU,,Bu
 HBOComedy.us,HBO Comedy,,,Warner Bros. Discovery,US,US-NY,New York City,comedy,FALSE,1999-05-06,,,http://www.hbo.com/comedy/
 HBODefined.in,HBO Defined,,,,IN,,,,FALSE,,2015-12-31,,http://www.hbodefined.in/
 HBOFamily.br,HBO Family,HBO Family Brasil,,,BR,,Sao Paulo,family,FALSE,,,,https://br.hbomax.tv/hbofamily
-HBOFamily.us,HBO Family,,,Warner Bros. Discovery,US,US-NY,New York City,family,FALSE,1996-12-01,,,http://www.hbofamily.com/
+HBOFamily.us,HBO Family,,,Warner Bros. Discovery,US,US-NY,New York City,family,FALSE,1996-12-01,2025-08-15,,http://www.hbofamily.com/
 HBOFamilyAsia.sg,HBO Family Asia,,HBO Asia,HBO Asia Pte Ltd,SG,,Singapore,family,FALSE,2006-03-16,,,http://www.hboasia.com/family/
 HBOFamilyLatinAmerica.us,HBO Family Latin America,,,,US,,,family,FALSE,,,,http://www.hbolatam.com/
 HBOHawaii.us,HBO Hawaii,,,Warner Bros. Discovery,US,US-NY,New York City,movies;series,FALSE,,,,http://www.hbo.com/
@@ -9729,7 +9772,7 @@ HeavenTV.et,Heaven TV,,,,ET,,Addis Ababa,religious,FALSE,,,,
 HebeiTV.cn,Hebei TV,河北电视台,,,CN,,Shijiazhuang,general,FALSE,,,,http://www.hebtv.com.cn/
 HebiNewsChannel.cn,Hebi News Channel,,,,CN,,Henan,news,FALSE,,,,
 HebronSat.ps,Hebron Sat,,,,PS,,Gaza City,general,FALSE,,,,
-HebronTV.ps,Hebron TV,,,,PS,,Gaza City,,FALSE,,,,
+HebronTV.in,Hebron TV,,,,IN,,,religious,FALSE,,,,https://hebrontv.in/
 HechosEcuador.ec,Hechos Ecuador,,,,EC,,,general,FALSE,,,,https://www.hechosecuador.com/
 HegyvidekTV.hu,Hegyvidek TV,HTV;Hegyvidék TV,,,HU,,Budapest,general,FALSE,,,,https://hegyvidektv.hu/
 HeilongjiangTV.cn,Heilongjiang TV,黑龙江电视台,,,CN,,Harbin,general,FALSE,,,,http://www.hljtv.com/
@@ -10353,7 +10396,7 @@ i24NEWSUpdates.il,i24NEWS Updates,,,Israel Television News Company,IL,,Tel Aviv,
 IAmChannel.id,I Am Channel,,,,ID,,,religious,FALSE,,,,https://iamchannel.org/
 IAsia.th,I-Asia,,,,TH,,Bangkok,travel,FALSE,,,,https://www.iasiaonline.com/
 IasiTVLife.ro,IasiTV Life,,,,RO,,Iasi,general,FALSE,,,,https://iasitvlife.ro/
-IB3.es,IB3,,,Ens Public de Radiotelevisio de les Illes Balears,ES,,Santa Ponca,general,FALSE,2005-09-05,,,https://ib3.org/
+IB3.es,IB3,,,Ens Public de Radiotelevisio de les Illes Balears,ES,ES-IB,Santa Ponca,general;public,FALSE,2005-09-05,,,https://ib3.org/
 IBAChannel.cm,IBA Channel,International Business Africa,,Media Press Africa,CM,,Douala,business,FALSE,,,,
 IBBTV.tr,IBB TV,,,,TR,,Istanbul,general,FALSE,,,,
 IBC13.ph,IBC 13,DZTV-TV;Channel 13,,International Broadcasting Corporation,PH,,Quezon City,general,FALSE,1960-03-01,,,https://ibctv.com.ph/
@@ -10836,7 +10879,7 @@ ITV1.uk,ITV1,ITV,ITV,ITV plc,UK,,London,general,FALSE,1955-09-22,,,https://www.i
 ITV2.uk,ITV2,,ITV,ITV plc,UK,,London,general,FALSE,1998-12-07,,,https://www.itv.com/hub/itv2
 ITV3.uk,ITV3,,ITV,ITV plc,UK,,London,entertainment,FALSE,,,,https://www.itv.com/hub/itv3
 ITV4.uk,ITV4,,ITV,ITV plc,UK,,London,general,FALSE,,,,https://www.itv.com/hub/itv4
-ITVBe.uk,ITVBe,,ITV,ITV plc,UK,,London,entertainment,FALSE,2014-10-08,,,https://www.itv.com/hub/itvbe
+ITVBe.uk,ITVBe,,ITV,ITV plc,UK,,London,entertainment,FALSE,2014-10-08,2025-06-09,ITVQuiz.uk,https://www.itv.com/hub/itvbe
 ITVBenin.ng,ITV Benin,,,Chief Gabriel Osawaru Igbinedion,NG,,Benin City,general,FALSE,1998-11-07,,,https://www.itvradiong.com/live-benin/
 ITVBrazil.br,ITV Brazil,,,,BR,,Belem,education,FALSE,,,,http://itvbrasil.tv.br/
 ITVDeportes.mx,ITV Deportes,InternetvDeportes,,,MX,MX-CMX,Mexico City,entertainment;sports,FALSE,,,,
@@ -10851,8 +10894,10 @@ ITVNKinshasa.cd,ITVN Kinshasa,,,Impact Television Network,CD,,Kinshasa,religious
 ITVNUSA.us,ITVN USA,,,,US,US-IL,Lombard,culture,FALSE,,,,http://www.itvn.pl/
 ITVPatagonia.cl,ITV Patagonia,,,,CL,CL-MA,Punta Arenas,general,FALSE,,,,https://www.itvpatagonia.com/
 ITVPersianMusic.ir,ITV Persian Music,آی تی وی موزیک,,,IR,,Tehran,music,FALSE,,,,https://www.iradios.ca/itv
+ITVQuiz.uk,ITV Quiz,,ITV UK,ITV plc,UK,,London,entertainment,FALSE,2025-06-09,,,
 ITVShopping.mt,ITV Shopping,,,,MT,,,shop,FALSE,,,,https://www.itv.com.mt/
 IUAtv.ua,I-UA.tv,,,,UA,,Kyiv,news,FALSE,2016-01-01,,,https://i-ua.tv/
+IuniorTV.it,Iunior TV,Junior TV,,,IT,,,kids,FALSE,2004-04-08,,,https://iuniortv.blogspot.com/2021/06/iunior-tv-e-una-televisione-tematica.html
 IVC.ve,IVC,,,Ole Distribution,VE,,Caracas,general,FALSE,2015-10-16,,,https://www.ivcnetworks.com/
 IVCInternacional.ve,IVC Internacional,,,Ole Distribution,VE,,Caracas,general,FALSE,,,,https://www.ivcnetworks.com/
 IvoireChannel.ci,Ivoire Channel,,,,CI,,,music,FALSE,,,,https://ivoirechannel.ci/
@@ -11206,6 +11251,7 @@ JoyPrime.gh,Joy Prime,,,The Multimedia Group,GH,,Accra,general,FALSE,,,,http://m
 JoyTV.ca,Joy TV,,,ZoomerMedia,CA,CA-ON,Toronto,general,FALSE,2008-09-01,2013-08-01,,http://www.joytv.ca/
 JoyTV.lr,Joy TV,,,,LR,,Monrovia,general,FALSE,,,,
 JOZKDTV.jp,JOZK-DTV,NHK総合テレビジョン,NHK G,日本放送協会,JP,JP-38,Matsuyama,general,FALSE,2006-10-01,,,https://www.nhk.or.jp/matsuyama/
+JPDTV.do,JPD TV,,,,DO,,,general,FALSE,,,,https://juanpabloduartetv.com/
 JPMTV.id,JPM TV,,Jawa Pos Multimedia,Jawa Pos Group,ID,,Jakarta,general,FALSE,2016-01-17,,,
 JPNews.br,JP News,,,Antonio Augusto Amaral de Carvalho Filho,BR,,Sao Paulo,news,FALSE,,,,https://jovempan.com.br/jpnews
 JPopsukiTV.us,JPopsuki TV,,,,US,,,music,FALSE,,,,https://jpopsuki.eu/media.php
@@ -11250,7 +11296,6 @@ Junior.il,Junior,,,,IL,,,kids,FALSE,,,,
 JuniorMusic.pl,Junior Music,,,,PL,,Warsaw,music,FALSE,,,,
 JuniorsTV.gr,Junior's TV,,,Junior's TV S.A.,GR,GR-I,,kids,FALSE,1992-12-03,1999-11-17,SmileTV.gr,
 JuniorTV.al,Junior TV,,,Digit-Alb,AL,,Tirana,kids,FALSE,2005-04-20,,,https://www.digitalb.al/
-JuniorTV.it,Junior TV,,,,IT,,,kids,FALSE,2004-04-08,,,
 JunobnaTV.ss,Junobna TV,,,Adil Faris Mayat,SS,,Juba,general,FALSE,,,,
 JuntadeCastillayLeon.es,Junta de Castilla y Leon,Junta de Castilla y León,,,ES,ES-CL,Valladolid,legislative,FALSE,,,,https://www.jcyl.es/
 JuntosTV.cl,Juntos TV,,,,CL,CL-BI,Yumbel,general,FALSE,,,,https://www.juntostvchile.cl/
@@ -13438,7 +13483,7 @@ KhaleejAlArab1.lb,Khaleej Al Arab 1,,,,LB,,,,FALSE,,,,
 KhaleejAlArab2.lb,Khaleej Al Arab 2,,,,LB,,,,FALSE,,,,
 KhalijeFarsTV.ir,Khalij-e Fars TV,شبکه هرمزگان,,IRIB,IR,,,general,FALSE,,,,http://khalijefars.irib.ir/tv
 KhalijiComedy.sa,Khaliji Comedy,خليجي كوميدي,Shahid,MBC Group,SA,,Riyadh,comedy,FALSE,,,,
-KhanhHoaTV.vn,Khanh Hoa TV,,,,VN,,,general,FALSE,,,,http://khanhhoa.tv/
+KhanhHoaTV.vn,Khanh Hoa TV,,,,VN,,Khanh Hoa,general,FALSE,,,,http://khanhhoa.tv/
 KhartoumTV.sd,Khartoum TV,الخرطوم,,,SD,,Khartoum,general,FALSE,,,,
 KhaterehTV.de,Khatereh TV,,,,DE,,Wasserliesch,culture,FALSE,,,,http://khatereh.online/
 Khatlon.tj,Khatlon,,,,TJ,,Dushnabe,general,FALSE,,,,
@@ -13717,11 +13762,13 @@ KingTV.cd,King TV,,,King TV,CD,,Kinshasa,religious,FALSE,,,,https://kingtelevisi
 KingTV.pk,King TV,,,King TV,PK,,Lahore,religious,FALSE,,,,http://www.kingtelevision.tv/
 KingTV.ug,King TV,,,King TV,UG,,Kampala,religious,FALSE,,,,
 KINO.si,KINO,POP Non Stop Kino,,CME,SI,,Ljubljana,movies,FALSE,2013-01-01,,,https://pro-plus.si/
+Kino1.ru,Kino 1,Кино 1,TvikselTV,,RU,,,movies,FALSE,,,,
 Kino1.ua,Kino 1,,,Surface TV,UA,,Kyiv,movies,FALSE,2017-01-01,,,https://www.poverkhnost.tv/pages/index.php?c=10&s=155
 Kino1.xk,Kino 1,,,,XK,,Pristina,movies,FALSE,,,,https://www.artmotion.net/tv/
 Kino18Plus.ru,Kino 18+,Кино 18+,TvikselTV,,RU,,Moscow,movies,TRUE,,,,https://catcast.tv/tvikseltv_kino18
 Kino18PlusInternational.ru,Kino 18+ International,Кино 18+ International,TvikselTV,,RU,,Moscow,movies,TRUE,,,,https://catcast.tv/%D0%BA%D0%B8%D0%BD%D0%BE-18international
 Kino1International.ru,Kino 1 International,Кино 1 International,,,RU,,,movies,FALSE,,,,
+Kino2.ru,Kino 2,Кино 2,TvikselTV,,RU,,,movies,FALSE,,,,
 Kino2.xk,Kino 2,,,,XK,,Pristina,movies,FALSE,,,,https://www.artmotion.net/tv/
 Kino24.ru,Kino 24,Kino24,,ООО Теледистрибьюция,RU,,Pskov,movies,FALSE,2016-03-07,,,http://www.teledistribution.ru
 Kino7.ee,Kino 7,Кино 7,,Duo Media Networks,EE,,Tallinn,movies,FALSE,,,,https://kino7.ee/ru
@@ -17049,33 +17096,33 @@ KZVULD1.us,KZVU-LD1,,MyNetworkTV,Sinclair,US,US-CA,Chico,entertainment,FALSE,199
 L1.pe,L1,,,Federación Peruana de Fútbol,PE,,Lima,sports,FALSE,2023-02-03,,,https://www.l1max.com/
 L1Max.pe,L1 Max,,,Federación Peruana de Fútbol,PE,,Lima,sports,FALSE,2023-02-03,,,https://www.l1max.com/
 L1TV.nl,L1 TV,,,,NL,,Maastricht,general,FALSE,1988-01-01,,,https://www.l1.nl/
-La1.es,La 1,,TVE,RTVE,ES,,Madrid,general,FALSE,1956-10-28,,,http://www.rtve.es/television/
-La1Canarias.es,La 1 Canarias,,TVE,RTVE,ES,ES-CN,Madrid,general,FALSE,,,,http://www.rtve.es/television/tve-canarias/
-La1Catalunya.es,La 1 Catalunya,,TVE,RTVE,ES,ES-CT,Madrid,general,FALSE,,,,https://www.rtve.es/television/catalunya/
-La2.es,La 2,,TVE,RTVE,ES,,Madrid,documentary,FALSE,1966-10-15,,,https://www.rtve.es/television/
-La2Canarias.es,La 2 Canarias,,TVE,RTVE,ES,ES-CN,Madrid,documentary,FALSE,,,,http://www.rtve.es/television/tve-canarias/
-La2Catalunya.es,La 2 Catalunya,,TVE,RTVE,ES,ES-CT,Madrid,documentary,FALSE,,,,https://www.rtve.es/television/catalunya/
+La1.es,La 1,,TVE,RTVE,ES,,Madrid,general;public,FALSE,1956-10-28,,,http://www.rtve.es/television/
+La1Canarias.es,La 1 Canarias,,TVE,RTVE,ES,ES-CN,Madrid,general;public,FALSE,,,,http://www.rtve.es/television/tve-canarias/
+La1Catalunya.es,La 1 Catalunya,,TVE,RTVE,ES,ES-CT,Madrid,general;public,FALSE,,,,https://www.rtve.es/television/catalunya/
+La2.es,La 2,,TVE,RTVE,ES,,Madrid,general;public,FALSE,1966-10-15,,,https://www.rtve.es/television/
+La2Canarias.es,La 2 Canarias,,TVE,RTVE,ES,ES-CN,Madrid,general;public,FALSE,,,,http://www.rtve.es/television/tve-canarias/
+La2Catalunya.es,La 2 Catalunya,,TVE,RTVE,ES,ES-CT,Madrid,general;public,FALSE,,,,https://www.rtve.es/television/catalunya/
 LA34LongAnTV.vn,LA34 Long An TV,,,,VN,,Tan An,general,FALSE,,,,https://la34.com.vn/
 LA36.us,LA36,,,,US,US-CA,Los Angeles,education,FALSE,,,,http://la36.org/
 La4Italia.it,La4 Italia,,,,IT,,Milan,,FALSE,2012-01-28,,,
 La5.it,La5,,,MFE - MediaForEurope,IT,,Milan,entertainment,FALSE,2010-05-12,,,https://www.mediasetplay.mediaset.it/la5
 La5ta.pe,La 5ta,,,,PE,PE-LIM,Lima,general,FALSE,,,,https://la5ta.pe/
-La7.es,La 7,7RM;7 Televisión Región de Murcia,,Television Autonomica de Murcia,ES,ES-MC,Murcia,general,FALSE,2006-09-20,,,https://www.la7tv.es/
+La7.es,La 7,7RM;7 Televisión Región de Murcia,,Television Autonomica de Murcia,ES,ES-MC,Murcia,general;public,FALSE,2006-09-20,,,https://www.la7tv.es/
 LA7.it,LA7,Telemontecarlo,,Cairo Communication,IT,,Milan,general,FALSE,2001-06-24,,,https://www.la7.it/
 LA7d.it,LA7d,,,Cairo Communication,IT,,Milan,general,FALSE,2010-03-22,,,https://www.la7.it/la7d
-La7deCyLTV.es,La 7 de CyLTV,,,Television Autonomica de Murcia,ES,ES-CM,Valladolid,,FALSE,,,,https://www.cyltv.es/
+La7deCyLTV.es,La 7 de CyLTV,,,Castilla y León Televisión,ES,ES-CL,Valladolid,general;public,FALSE,,,,https://www.cyltv.es/
 LA7TV.mg,LA7 TV,,,,MG,,Antananarivo,general,FALSE,,,,
-La8Avila.es,La 8 Avila,La 8 Ávila,,Promecal,ES,ES-CM,Avila,general,FALSE,2009-03-09,,,https://www.cyltv.es/La8Avila
-La8Bierzo.es,La 8 Bierzo,,,Promecal,ES,ES-CM,Bierzo,general,FALSE,2009-03-09,,,https://www.cyltv.es/La8Bierzo
-La8Burgos.es,La 8 Burgos,,,Promecal,ES,ES-CM,Burgos,general,FALSE,2009-03-09,,,https://www.cyltv.es/La8Burgos
-La8Leon.es,La 8 Leon,La 8 León,,Promecal,ES,ES-CM,León,general,FALSE,2009-03-09,,,https://www.cyltv.es/La8Leon
+La8Avila.es,La 8 Avila,La 8 Ávila,,Promecal,ES,ES-CL,Avila,general;public,FALSE,2009-03-09,,,https://www.cyltv.es/La8Avila
+La8Bierzo.es,La 8 Bierzo,,,Promecal,ES,ES-CL,Bierzo,general;public,FALSE,2009-03-09,,,https://www.cyltv.es/La8Bierzo
+La8Burgos.es,La 8 Burgos,,,Promecal,ES,ES-CL,Burgos,general;public,FALSE,2009-03-09,,,https://www.cyltv.es/La8Burgos
+La8Leon.es,La 8 Leon,La 8 León,,Promecal,ES,ES-CL,León,general;public,FALSE,2009-03-09,,,https://www.cyltv.es/La8Leon
 La8Mediterraneo.es,La 8 Mediterraneo,La 8 Mediterráneo;La Ocho TV,,Promecal,ES,ES-VC,Valencia,general,FALSE,2009-03-09,,,https://www.laocho.tv/
-La8Palencia.es,La 8 Palencia,,,Promecal,ES,ES-CM,Palencia,general,FALSE,2009-03-09,,,https://www.cyltv.es/La8Palencia
-La8Salamanca.es,La 8 Salamanca,,,Promecal,ES,ES-CM,Salamanca,general,FALSE,2009-03-09,,,https://www.cyltv.es/La8Salamanca
-La8Segovia.es,La 8 Segovia,,La 8,Castilla y León Televisión,ES,ES-CL,Segovia,general,FALSE,2009-03-09,,,https://www.cyltv.es/La8Segovia
-La8Soria.es,La 8 Soria,,,Promecal,ES,ES-CM,Soria,general,FALSE,2009-03-09,,,https://www.cyltv.es/La8Soria
-La8Valladolid.es,La 8 Valladolid,,,Promecal,ES,ES-CM,Valladolid,general,FALSE,2009-03-09,,,https://www.cyltv.es/La8Valladolid
-La8Zamora.es,La 8 Zamora,,,Promecal,ES,ES-CM,Zamora,general,FALSE,2009-03-09,,,https://www.cyltv.es/La8Zamora
+La8Palencia.es,La 8 Palencia,,,Promecal,ES,ES-CL,Palencia,general;public,FALSE,2009-03-09,,,https://www.cyltv.es/La8Palencia
+La8Salamanca.es,La 8 Salamanca,,,Promecal,ES,ES-CL,Salamanca,general;public,FALSE,2009-03-09,,,https://www.cyltv.es/La8Salamanca
+La8Segovia.es,La 8 Segovia,,La 8,Castilla y León Televisión,ES,ES-CL,Segovia,general;public,FALSE,2009-03-09,,,https://www.cyltv.es/La8Segovia
+La8Soria.es,La 8 Soria,,,Promecal,ES,ES-CL,Soria,general;public,FALSE,2009-03-09,,,https://www.cyltv.es/La8Soria
+La8Valladolid.es,La 8 Valladolid,,,Promecal,ES,ES-CL,Valladolid,general;public,FALSE,2009-03-09,,,https://www.cyltv.es/La8Valladolid
+La8Zamora.es,La 8 Zamora,,,Promecal,ES,ES-CL,Zamora,general;public,FALSE,2009-03-09,,,https://www.cyltv.es/La8Zamora
 La8ZaragozaTV.es,La 8 Zaragoza TV,,,Visualización Zaragoza,ES,ES-AR,Zaragoza,general,FALSE,,,,http://www.la8zaragoza.tv/
 La9.it,La 9,,,,IT,,Padova,general,FALSE,1973-05-06,,,http://www.la9.it/
 La981TV.hn,La 98.1 TV,,,,HN,,Tegucigalpa,music,FALSE,,,,https://www.la98.hn/
@@ -17095,6 +17142,7 @@ LaChaine32.fr,La Chaine 32,La Chaîne 32,,,FR,,Coudekerque-Branche,general,FALSE
 LaChaineDisney.ca,La Chaine Disney,La Chaîne Disney,Disney Channel,Teletoon Canada Inc.,CA,CA-QC,Montreal,kids,FALSE,2015-01-01,,,http://www.disneylachaine.ca/
 LaChaineMeteo.fr,La Chaine Meteo,La Chaîne Météo,,Météo consult,FR,,Vernouillet,weather,FALSE,1995-06-21,,,https://www.lachainemeteo.com/
 LaChaineNormande.fr,La Chaine Normande,La Chaîne Normande,,,FR,,Rouen,family,FALSE,2011-10-14,2022-09-28,,
+LachaineOQEE.fr,La chaine OQEE,La chaîne OQEE,OQee,Free France,FR,,Paris,movies;series,FALSE,2025-02-05,,,https://oqee.tv/home/channels/1231/play
 LaChicaInvisible.us,La Chica Invisible,,Pluto TV,,US,,,series,FALSE,,,,https://pluto.tv/en/live-tv/la-chica-invisible-es
 LaChilenaTV.cl,La Chilena TV,La Red Chilena de Television,,,CL,,Santiago,general,FALSE,,,,https://lachilena.tutv.cl/
 LaChretienneTV.bj,La Chretienne TV,La Chrétienne TV,,,BJ,,Cotonou,religious,FALSE,,,,
@@ -17275,6 +17323,7 @@ Latinos1TV.ch,Latinos 1 TV,,,,CH,,,,FALSE,,,,
 LatinosNCTV.us,Latinos NCTV,,,,US,,,,FALSE,,,,
 LatinosRadio.cl,Latinos Radio,,,,CL,,Santiago,music,FALSE,,,,https://latinosradio.cl/
 LatinZone.us,Latin Zone,,,Urban Business Strategies,US,US-FL,Jacksonville,music,FALSE,2018-06-01,,,https://latinzonetv.com/
+LatinZoneTV.us,Latin Zone TV,,,,US,,,music,FALSE,,,,https://www.vivalivetv.com/channel/the-latin-zone
 LaTop1029.hn,La Top 102.9,,,,HN,,San Pedro Sula,music,FALSE,,,,https://www.latop.hn/
 LaTop1077.hn,La Top 107.7,,,,HN,,San Pedro Sula,music,FALSE,,,,https://www.latop.hn/
 LaTr3.it,La Tr3,Canale 83,,,IT,,Marsala,general,FALSE,,,,
@@ -17307,6 +17356,7 @@ LaxmiTelevision.np,Laxmi Television,,,,NP,,Syangja,general,FALSE,,,,
 LayeneTV.sn,Layene TV,,,,SN,,Dakar,religious,FALSE,,,,http://www.layene.sn/
 LazioStyleChannel.it,Lazio Style Channel,,,SS Lazio,IT,,Rome,sports,FALSE,2012-09-02,,,https://www.sslazio.it/
 LazioTV.it,Lazio TV,,,,IT,,Terracina,general,FALSE,,,,https://www.laziotv.it/
+LB2International.lb,LB2 International,,LBCI,Lebanese Broadcasting Corporation International;Pierre Daher,LB,,,general,FALSE,,,,
 LBC.sa,LBC,إل بي سي,,,SA,,,general,FALSE,,2009-08-09,,http://rotana.net/vod-channels/lbc/
 LBCEurope.lb,LBC Europe,,,Pierre Daher,LB,,Adma,general,FALSE,,,,https://www.lbcgroup.tv/
 LBCInternational.lb,LBC International,المؤسسةللإرسال انترناسيونال اللبنانية,,Pierre Daher,LB,,Adma,general,FALSE,1985-08-23,,,https://www.lbcgroup.tv/
@@ -17359,6 +17409,7 @@ LemarTV.af,Lemar TV,لمر,,MOBY Group,AF,,Kabul,entertainment,FALSE,2006-01-01,
 LeMediaTV.fr,Le Media TV,Le Média TV,,,FR,,Paris,news,FALSE,,,,https://www.lemediatv.fr/
 Lemieletlesabeilles.us,Le miel et les abeilles,,Pluto TV,,US,,,series,FALSE,,,,https://pluto.tv/en/live-tv/le-miel-et-les-abeilles-fr
 Lemiracledelamour.us,Le miracle de l'amour,,Pluto TV,,US,,,series,FALSE,,,,https://pluto.tv/en/live-tv/le-miracles-de-lamour-fr
+LenaTV.do,Lena TV,,,,DO,,,general,FALSE,,,,https://www.vivalivetv.com/channel/lena-radio-tv
 LencaTV.hn,Lenca TV,,,,HN,,La Esperanza,news,FALSE,,,,http://www.lencatelevision.com/
 LeNouveauManagerTV.bj,Le Nouveau Manager TV,,,Le Nouveau Manager Médias,BJ,,Cotonou,business,FALSE,,,,https://lenouveaumanager.info/
 LenTV24.ru,LenTV24,ЛенТВ24,,,RU,,Saint Petersburg,general,FALSE,1994-01-01,,,https://lentv24.ru/
@@ -17831,6 +17882,7 @@ LYTV2.cn,LYTV-2,都市生活频道,,,CN,,Luoyang,lifestyle,FALSE,1975-09-15,,,ht
 LYTV3.cn,LYTV-3,科教政法频道,,,CN,,Luoyang,education,FALSE,1975-09-15,,,http://www.lytv.com.cn/dist/index.html
 LYTV4.cn,LYTV-4,影视文娱频道,,,CN,,Luoyang,news;general,FALSE,2014-01-01,,,http://www.lytv.com.cn/dist/index.html
 Lyubimoe.ru,Lyubimoe,Любимое,,,RU,,Moscow,movies,FALSE,,,,https://www.tricolor.tv/channels/lyubimoe/
+LyubimoeIndijskoeKino.ru,Lyubimoe Indijskoe Kino,Любимое Индийское Кино,,,RU,,,movies,FALSE,,,,
 LyubimoeTV.ru,Lyubimoe.TV,Любимое.ТВ,,,RU,,Moscow,kids,FALSE,,,,https://www.planeta-online.tv/channels/6/live.html
 M1.hu,M1,,,Duna Médiaszolgáltató Nonprofit Zrt.,HU,,Budapest,news,FALSE,2015-03-15,,,https://mediaklikk.hu/m1/
 M1.lt,M-1,,,15min grupe,LT,,Vilnius,music,FALSE,1989-12-31,,,https://www.m-1.fm/
@@ -17988,6 +18040,7 @@ MalayalamCinemaClub.in,Malayalam Cinema Club,,,,IN,,Chennai,movies,FALSE,,,,
 MalbecPlay.ar,Malbec Play,,,,AR,,,entertainment,FALSE,,,,https://malbecplay.com/
 MalchinBirj.mn,Malchin Birj,,,,MN,,Ulaanbaatar,culture,FALSE,,,,https://www.malchin.tv/
 MalchinTV.mn,Malchin TV,,,,MN,,Ulaanbaatar,culture,FALSE,,,,https://www.malchin.tv/
+MalderMegahit.ru,Malder Megahit,Малдер Мегахит,,,RU,,,movies,FALSE,,,,
 MaldivesTV.mv,Maldives TV,,,Public Service Media,MV,,Male,travel,FALSE,,,,https://maldivestv.mv/
 MaleflixxxTelevision.ca,Maleflixxx Television,,,Channel Zero,CA,CA-ON,Toronto,xxx,TRUE,2004-11-01,,,https://maleflixxx.tv/
 Maleo.id,Maleo,,,,ID,,,,FALSE,,,,http://www.ninmedia.tv/
@@ -18283,7 +18336,7 @@ MCEU.de,MC EU,,,Itep Pictures GmbH,DE,,Oberthausen,entertainment,FALSE,,,,http:/
 MChannel.id,M Channel,,,,ID,,,,FALSE,,,,
 MChannel.mz,M Channel,,,,MZ,,,entertainment,FALSE,,,,
 MChannel.th,M Channel,,,Major Katana Broadcasting Co Ltd,TH,,Bangkok,,FALSE,,,,
-MCITelevision.co,MCI Television,,MCI Radio,MCI INC.,CO,CO-BOY,San Pablo De Borbur,movies;family;general,FALSE,2021-09-29,,,https://mciradio.com.co
+MCITelevision.co,MCI Television,,MCI Radio,MCI INC.,CO,CO-BOY,San Pablo De Borbur,movies;family;general,FALSE,2021-09-29,,,https://canalmci.com.co/
 McKinneyTV.us,McKinney TV,,,,US,US-TX,McKinney,legislative,FALSE,,,,https://www.mckinneytexas.org/229/Video-Production
 McLeodsDaughters.us,McLeod's Daughters,,Pluto TV,,US,,,series,FALSE,,,,https://pluto.tv/en/live-tv/mcleods-daughters-gb
 MCM.fr,MCM,,,Groupe M6,FR,,Neuilly-sur-Seine,music,FALSE,1989-07-01,,,http://www.mcm.fr/
@@ -18939,7 +18992,7 @@ MotorsportTV.ru,Motorsport.TV,Моторспорт.ТВ,,Signal Media,RU,,Moscow
 MotorsportTVFast.us,Motorsport TV Fast,,,Motorsport Network,US,US-NY,New York City,sports,FALSE,2015-01-01,,,https://motorsport.tv/motorsporttv/video/motorsporttv-fast/175854
 MotorSurMedia.py,Motor Sur Media,,,,PY,,Encarnacion,auto,FALSE,,,,https://iptv.com.py/motorsur/
 MotorTrend.it,Motor Trend,,,Warner Bros. Discovery,IT,,London,auto,FALSE,2018-04-29,,,http://www.motortrendtv.it/
-MotorTrend.us,Motor Trend,,,TNT Sports,US,US-CA,El Segundo,auto,FALSE,2002-06-17,,,https://www.motortrend.com/
+MotorTrend.us,Motor Trend,,,The Hearst Corporation,US,US-CA,El Segundo,auto,FALSE,2002-06-17,,,https://www.motortrend.com/
 MotorTV.it,Motor TV,,,,IT,,,auto,FALSE,,,,
 Motorvision.de,Motorvision,Motorvision TV,,German Car TV Programm GmbH,DE,,Munich,auto,FALSE,,,,https://motorvision.tv/
 MotorvisionPlus.de,Motorvision+,,,German Car TV Programm GmbH,DE,,Munich,auto,FALSE,2009-01-01,,,https://motorvision.tv/
@@ -19352,6 +19405,9 @@ MuzSoyuz.ru,Muz Soyuz,Муз Союз,,,RU,,Yekaterinburg,music;religious,FALSE,
 MuzTV.az,Muz TV,MTV Azərbaycan,,,AZ,,Baku,music,FALSE,2012-05-11,,,http://www.muz-tv.az/
 MuzTV.ru,Muz-TV,Муз-ТВ,,UTH Russia,RU,,Moscow,music,FALSE,,,,https://muz-tv.ru/
 Muzvar.ua,Muzvar,Музвар,,Oleksiy Dontsov;Yulian Novak,UA,,Kyiv,music,FALSE,,,,https://muzvar.com/en/contact/
+Muzyka1.ru,Muzyka 1,Музыка 1,TvikselTV,,RU,,,music,FALSE,,,,
+Muzyka2.ru,Muzyka 2,Музыка 2,TvikselTV,,RU,,,music,FALSE,,,,
+MuzykaKino.ru,Muzyka Kino,Музыка Кино,TvikselTV,,RU,,,music,FALSE,,,,
 MuzykaPervogo.ru,Muzyka Pervogo,Музыка Первого;MuzikaPervogo,,Government of Russia,RU,,Moscow,music,FALSE,2005-12-01,,,https://www.muz1.tv/
 MUZZIK.rs,MUZZIK,,,Original Film d.o.o.,RS,,Belgrade,music,FALSE,,,,https://www.muzzik.tv/
 MuzzikHipHop.rs,Muzzik HipHop,,,Original Film d.o.o.,RS,,Belgrade,music,FALSE,,,,https://www.muzzik.tv/
@@ -20182,6 +20238,7 @@ NiceTV.np,Nice TV,,,,NP,,Kathmandu,,FALSE,,,,https://nicetvnepal.com/
 NiceTVKenya.ke,Nice TV Kenya,,,,KE,,Nairobi,general,FALSE,,,,https://nicetvkenya.com/
 NickClasico.us,Nick Clasico,Nick Clásico,Nickelodeon,,US,,,kids,FALSE,,,,
 NickClassico.us,Nick Classico,Nick Clássico,Nickelodeon,,US,,,kids,FALSE,,,,https://pluto.tv/en/live-tv/nick-classico-ptv1
+NickComedyCentralPlus1.de,Nick/Comedy Central +1,Nickelodeon;Comedy Central +1,,Paramount Networks EMEAA,DE,,,comedy;kids,FALSE,,,,
 Nickelodeon.au,Nickelodeon,,Nickelodeon,Paramount Networks UK & Australia,AU,,London,kids,FALSE,1995-10-23,,,http://www.nick.com.au/
 Nickelodeon.bg,Nickelodeon,,Nickelodeon,Paramount Networks EMEAA,BG,,London,kids,FALSE,1998-11-15,,,http://www.nick.bg/
 Nickelodeon.br,Nickelodeon,,Nickelodeon,Paramount Networks Americas,BR,,Sao Paulo,kids,FALSE,1996-12-20,,,https://nickelodeon.com.br/
@@ -20334,7 +20391,7 @@ NingxiaEconomicChannel.cn,Ningxia Economic Channel,经济频道,,,CN,,Yinchuan,b
 NingxiaPublicChannel.cn,Ningxia Public Channel,公共频道,,,CN,,Yinchuan,general,FALSE,,,,http://www.nxtv.com.cn/tv/gg/
 NingxiaSatelliteChannel.cn,Ningxia Satellite Channel,卫视频道;宁夏卫视,,,CN,,Yinchuan,entertainment,FALSE,1970-10-01,,,http://www.nxtv.com.cn/tv/ws/
 NinhBinhTV.vn,Ninh Binh TV,,,,VN,,Ninh Binh,general,FALSE,,,,https://nbtv.vn/
-NinhThuanTV.vn,Ninh Thuan TV,,,,VN,,Ninh Thuan,general,FALSE,,,,http://www.ninhthuantv.vn/
+NinhThuanTV.vn,Ninh Thuan TV,Thuan Hai TV;TNT Ninh Thuan;Khanh Hoa TV 1,,,VN,,Khanh Hoa,general,FALSE,,,,http://www.ninhthuantv.vn/
 NinjaKidzTV.us,Ninja Kidz TV,,,,US,US-UT,Draper,kids,FALSE,,,,https://www.ninja-kidz.com/
 NinosporBBCKids.us,Ninos por BBC Kids,Niños por BBC Kids,Pluto TV,,US,,,kids,FALSE,,,,https://pluto.tv/en/live-tv/ninos-por-bbc-kids
 NipponTVPlus.jp,Nippon TV Plus,,,,JP,JP-13,Tokyo,,FALSE,,,,https://www.ntv.co.jp/
@@ -20445,6 +20502,7 @@ NoticiasCaracolAhora.co,Noticias Caracol Ahora,,,,CO,,Bogota,news,FALSE,,,,https
 Noticiero90Minutos.co,Noticiero 90 Minutos,,,Telepacific,CO,,Cali,news,FALSE,1988-01-01,,,https://90minutos.co/
 NOTIMATV.ni,NOTIMATV,,,,NI,,Matagalpa,general,FALSE,,,,https://radionotimat.com/
 NotioiTV.gr,Notioi TV,,,,GR,,Glyfada,general,FALSE,,,,https://www.notioi.gr/
+NotisurTV.do,Notisur TV,,,,DO,,,general,FALSE,,,,https://www.notisurbani.com/index.php
 NotiUnoTV.pr,NotiUno TV,,,,PR,,San Juan,news,FALSE,,,,https://www.notiuno.com/notiuno-tv/
 NotosTv.gr,Notos Tv,,,,GR,,Heraklion,general,FALSE,,,,https://notostv.gr/
 NottsTV.uk,Notts TV,,,Notts TV Limited,UK,,Nottingham,general,FALSE,2014-05-27,,,http://www.nottstv.com/
@@ -20521,6 +20579,7 @@ NovelasPlus.pl,Novelas+,,,,PL,,,,FALSE,2020-12-28,,,
 NovelasTV.fr,Novelas TV,,,Thema,FR,,Paris,series,FALSE,2016-07-14,,,https://www.novelas.tv/
 NovelaTV.pl,Novela TV,,,Polcast Television,PL,,Warsaw,series,FALSE,2012-05-14,,,http://www.novela.tv/
 Novelisima.us,Novelisima,Novelísima,,,US,US-FL,Miami,series,FALSE,,,,https://www.novelisima.com/live-broadcast
+NovgorOblTV.ru,NovgorOblTV,Новгородское областное телевидение;НовгорОблТв,,,RU,RU-NGR,,general,FALSE,,,,https://novgorod-tv.ru/
 NoviyMir.de,Noviy Mir,,,,DE,,Dusseldorf,entertainment,FALSE,2016-02-14,,,https://n-w.tv/
 NOVO19.fr,NOVO19,,Ouest-France,Groupe SIPA Ouest-France,FR,,Rennes,general,FALSE,2025-09-01,,,
 NovoeRadio.ru,Novoe Radio,Новое Радио,,,RU,,Krasnogorsk,music,FALSE,,,,https://newradio.ru/
@@ -20661,6 +20720,7 @@ NTDTVChina.us,NTD TV China,,,Epoch Media Group,US,US-NY,New York City,general,FA
 NTDTVEurope.us,NTD TV Europe,,,Epoch Media Group,US,US-NY,New York City,general,FALSE,,,,https://www.ntdtv.com/
 NTITV.cg,NTI TV,,,,CG,,Pointe-Noire,general,FALSE,,,,
 NTK.kz,NTK,НТК,,,KZ,,Almaty,general,FALSE,,,,http://www.ntk.kz/
+NTK21.ru,NTK 21,НТК 21;Новая телекомпания,,РИА Биробиджан,RU,RU-YEV,,general,FALSE,,,,https://riabir.ru
 NTKTV.ua,NTK TV,TV,,,UA,,Kolomyia,general,FALSE,,,,https://www.ntktv.ua/
 NTM.ru,NTM,НТМ,,NTM RUS OOO,RU,,Moscow,general,FALSE,,,,https://ntm13.ru/
 NTN.it,NTN,Nuova TV Nazionale,,Giorgio Mendella,IT,,Pistoia,general,FALSE,,,,https://www.nuovatvnazionale.it/
@@ -22372,7 +22432,6 @@ PremierSports4.mn,Premier Sports 4,,,Unitel Group,MN,,Ulaanbaatar,sports,FALSE,,
 PremierSports5.mn,Premier Sports 5,,,Unitel Group,MN,,Ulaanbaatar,sports,FALSE,,,,https://www.psn.mn/
 PremierTennis.ph,Premier Tennis,,,,PH,,,sports,FALSE,,,,http://tapdmv.com/PremierTennis.html
 PremiumAction.it,Premium Action,,,,IT,,,movies,FALSE,2013-04-01,2022-01-10,,
-PremiumActionPlus24.it,Premium Action +24,,,,IT,,,movies,FALSE,2015-06-23,2022-01-10,,
 PremiumBoxOffice.cn,Premium Box Office,,,,CN,,,,FALSE,,,,
 PremiumChannel.at,Premium Channel,,,,AT,,,,FALSE,,,,
 PremiumCinema1.it,Premium Cinema 1,,,,IT,,,movies,FALSE,2020-07-01,2022-01-10,,
@@ -22451,6 +22510,7 @@ PriorLakeTelevision.us,Prior Lake Television,PLTV,,,US,US-MN,Prior Lake,legislat
 Prise2.ca,Prise 2,,,Groupe TVA,CA,,,,FALSE,2006-02-09,,,http://www.prise2.tv/
 PrismAfrica.zm,Prism Africa,,,,ZM,,,music,FALSE,,,,http://prismafrica.net/
 PrismaTV.ve,Prisma TV,,,,VE,,Cumaná,general,FALSE,,,,
+PRITV.pr,PRI TV,,,,PR,,,general,FALSE,,,,https://www.vivalivetv.com/channel/puerto-rico-isla-tv
 PrivateCinema.tw,Private Cinema,,,,TW,,,movies,FALSE,,,,
 PrivateSpice.fr,Private Spice,Private Gold,,,FR,,,xxx,TRUE,2001-01-01,2015-01-01,,
 PrivateTV.nl,Private TV,Daring! TV;XXX Xtreme,Sapphire Media,Sapphire Media International bv,NL,,,xxx,TRUE,2005-06-27,,,https://www.privatetelevision.com/
@@ -23589,6 +23649,7 @@ RNZ.nz,RNZ,Radio New Zealand,,,NZ,,,general;news,FALSE,,,,https://www.rnz.co.nz/
 Roar.us,Roar,TBD,Roar,Sinclair Broadcast Group,US,,,entertainment,FALSE,,,,https://watchroar.com/
 RobertTV.tz,Robert TV,,,,TZ,,Bukoba,religious,FALSE,,,,https://roberttvtanzania.com/
 ROBTV.be,ROB TV,,,,BE,,,,FALSE,,,,
+RocavisionTV.do,Rocavision TV,,,,DO,,,general,FALSE,,,,https://www.tvdominicana.net/livetv/watch/roka-vision/48
 RoccoTV.cl,Rocco TV,,,,CL,CL-AI,Coyhaique,,FALSE,,,,https://roccotv.cl/
 RochesterCommunityTV.us,Rochester Community TV,RCTV,,,US,US-NY,Rochester,general,FALSE,,,,https://www.rctvmediacenter.org/watch
 RochesterGovernmentChannel.us,Rochester Government Channel,,,,US,US-NH,Rochester,legislative,FALSE,,,,https://rochesternh.viebit.com/index.php?folder=ALL
@@ -23757,6 +23818,7 @@ RTECTropicana.cd,RTEC Tropicana,,,,CD,,Kinshasa,general,FALSE,2001-01-22,,,
 RTEE.cd,RTEE,Radio Télé Évangile Éternel,,,CD,,Kinshasa,religious,FALSE,,,,
 RTEjr.ie,RTEjr,RTÉjr,,Raidió Teilifís Éireann,IE,,,,FALSE,,,,http://www.rte.ie/rtejr/
 RTEKA.cd,RTEKA,Radio Télévision EKA;EKA TV,,,CD,,Bukavu,general,FALSE,,,,
+RTelevision.do,R Television,,,,DO,,,general,FALSE,,,,https://www.tvdominicana.net/livetv/watch/r-television/38
 RTenEspanol.ru,RT en Espanol,RT en Español,RT,TV-Novosti,RU,,,news,FALSE,2009-12-28,,,https://actualidad.rt.com/
 RTENews.ie,RTE News,RTÉ News,,,IE,,,news,FALSE,,,,https://www.rte.ie/news/
 RTEOne.ie,RTE One,RTÉ One;RTÉ 1;RTÉ;Telefís Éireann,,Raidió Teilifís Éireann,IE,,,,FALSE,1961-12-31,,,https://www.rte.ie/tv/
@@ -24253,6 +24315,7 @@ SamaAlkhaleejTV.qa,Sama Alkhaleej TV,,,,QA,,,general,FALSE,,,,
 SamaaTV.pk,Samaa TV,,,Park View Limited,PK,,,,FALSE,2007-12-08,,,https://www.samaa.tv/
 SamacharPlus24x7.in,Samachar Plus 24x7,,,,IN,,,news,FALSE,,,,
 SamaDubai.ae,Sama Dubai,,,,AE,,,general,FALSE,,,,http://www.samadubai.ae/
+Samara24.ru,Samara 24,Самара 24,ВГТРК,ВГТРК,RU,RU-SAM,,general,FALSE,,,,
 SamaraGIS.ru,Samara-GIS,Самара-ГИС,,,RU,,Samara,,FALSE,,,,https://samaragis.ru/efir/
 SamarraTV.iq,Samarra TV,قناة سامراء الفضائية,,,IQ,,,,FALSE,2013-01-01,,,http://www.samarra.tv/
 SamaTV.sy,Sama TV,,,,SY,,,general,FALSE,2012-09-07,,,https://www.sama-tv.net/
@@ -24561,6 +24624,7 @@ SenadoTV.py,Senado TV,,,,PY,,,legislative,FALSE,,,,http://www.senado.gov.py/inde
 SenalACN.cu,Senal ACN,Señal ACN,,,CU,,,news,FALSE,,,,http://www.acn.cu/canal-senal-acn
 SenalColombia.co,Senal Colombia,Señal Colombia,,Government of Colombia,CO,,,general,FALSE,1970-02-09,,,https://www.senalcolombia.tv/
 SenaldeVida.do,Senal de Vida,Señal de Vida,,,DO,,,,FALSE,,,,
+SenalDigitalTV.do,Senal Digital TV,,,,DO,,,general,FALSE,,,,https://canalesdominicanos.live/senal-digital-tv/
 SenalesTV.do,Senales TV,Señales TV,,,DO,,,lifestyle,FALSE,,,,https://senalestv.com/
 SenalPacande.co,Senal Pacande,Señal Pacande,,,CO,,Natagaima,general,FALSE,,,,
 SenalPeruTV.pe,Senal Peru TV,Señal Perú TV,,,PE,PE-LIM,,,FALSE,,,,https://xn--sealperutv-u9a.pe/
@@ -24697,13 +24761,11 @@ ShalomTV.ng,Shalom TV,,,,NG,,,,FALSE,,,,
 ShalomTV.sr,Shalom TV,,,,SR,,Paramaribo,religious,FALSE,,,,https://shalomsuriname.com/
 Shalun.ru,Shalun,Шалун,,Goodtime Media,RU,,Moscow,xxx,TRUE,2016-01-01,,,https://shalun.tv/
 ShamaliaTV.sd,Shamalia TV,,,,SD,,,,FALSE,,,,
-ShamFM.sy,Sham FM,,,,SY,,,music,FALSE,,,,
-ShamIPTV.sy,Sham IPTV,,,,SY,,,music,FALSE,,,,
+ShamFMTV.sy,Sham FM TV,,,,SY,,,music,FALSE,,,,https://sham.fm/
 ShammahTV.bf,Shammah TV,,,,BF,,Ouagadougou,religious,FALSE,,,,
 ShamshadTV.af,Shamshad TV,,,Fazel Karim Fazel,AF,,,entertainment,FALSE,2006-01-01,,,https://shamshadtv.tv/
 ShamsTV.af,Shams TV,شبکه آموزشی شمس,,,AF,,,education,FALSE,,,,https://www.darya.net/
 ShamsTV.iq,Shams TV,شمس,,,IQ,,Erbil,news,FALSE,2025-01-19,,,https://shams.tv
-ShamTV.sy,Sham TV,,,,SY,,,music,FALSE,,,,http://sham.fm/
 ShandongEducationTV.cn,Shandong Education TV,,,,CN,,,education,FALSE,,,,http://www.iqilu.com/
 ShandongHomeShoppingChannel.cn,Shandong Home Shopping Channel,居家购物频道,,,CN,,Jinan,shop,FALSE,2007-07-01,,,http://v.iqilu.com/
 ShandongInternationalChannel.cn,Shandong International Channel,国际频道,,,CN,,Jinan,general,FALSE,2005-08-18,,,http://v.iqilu.com/
@@ -24867,6 +24929,7 @@ SiamChannel.th,Siam Channel,,,,TH,,,,FALSE,,,,https://www.mvtv.co.th/channel/sia
 SIAR.my,SIAR,,,,MY,,,movies,FALSE,,,,https://unifi.com.my/tv
 SiauliuTV.lt,Siauliu TV,Šiaulių TV,,,LT,,,,FALSE,,,,https://stv.lt/
 SIBCTV.sb,SIBC TV,,,Solomon Islands Broadcasting Corporation,SB,,Honiara,general,FALSE,2023-11-17,,,https://www.sibconline.com.sb/
+Sibir24.ru,Sibir 24,Сибирь 24,ВГТРК,ВГТРК,RU,RU-NVS,,general,FALSE,,,,
 SibukaMaisha.tz,Sibuka Maisha,,,,TZ,,,,FALSE,,,,
 SIC.pt,SIC,,,Impresa,PT,,,general,FALSE,1992-10-06,,,https://sic.pt/
 SICAltaDefinicao.pt,SIC Alta Definicao,SIC Alta Definição,,,PT,,,,FALSE,2024-04-20,,,https://opto.sic.pt/
@@ -25015,6 +25078,7 @@ SkwadPlay.us,Skwad Play,,,,US,,,kids,FALSE,,,,https://www.skwadplay.com/
 Sky5.nz,Sky 5,,,Sky Network Television Ltd.,NZ,,,,FALSE,1994-12-03,,,https://www.sky.co.nz/discover/sky-starter
 SkyA.jp,Sky A,スカイＡ,,skyA Inc,JP,,,,FALSE,,,,http://www.sky-a.co.jp/
 skyAC.kr,skyA&C,,,,KR,,,,FALSE,,,,https://tv.skylife.co.kr/skyanc
+SkyAdventure.it,Sky Adventure,,,Sky Group Limited,IT,,,documentary,FALSE,2025-07-01,,,
 SkyArena.nz,Sky Arena,,,Sky Network Television,NZ,,,,FALSE,2011-03-01,,,https://www.sky.co.nz/sky-arena
 SkyArte.it,Sky Arte,,,Sky Group Limited,IT,,,,FALSE,2012-11-01,,,https://arte.sky.it/
 SkyArts.ie,Sky Arts,,,,IE,,,,FALSE,,,,
@@ -25030,6 +25094,8 @@ SkyBoxOffice041.nz,Sky Box Office 041,SBO Movies 2,,,NZ,,,,FALSE,,,,https://www.
 SkyBoxOffice042.nz,Sky Box Office 042,SBO Movies 3,,,NZ,,,,FALSE,,,,https://www.sky.co.nz/sky-box-office
 SkyBoxOffice043.nz,Sky Box Office 043,SBO Movies 4,,,NZ,,,,FALSE,,,,https://www.sky.co.nz/sky-box-office
 SkyBoxSets.nz,Sky Box Sets,,,Sky Network Television,NZ,,,,FALSE,2017-08-01,,,https://www.sky.co.nz/boxsets
+SkyCalcio10.it,Sky Calcio 10,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
+SkyCalcio11.it,Sky Calcio 11,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkyCinema4K.it,Sky Cinema 4K,,,Comcast Corporation,IT,,,movies,FALSE,2022-01-28,2023-07-01,,https://tg24.sky.it/spettacolo/skycinema/home.html
 SkyCinemaAction.de,Sky Cinema Action,Sky Action,,Comcast Corporation,DE,,,movies,FALSE,2009-07-04,,,https://www.sky.de/
 SkyCinemaAction.it,Sky Cinema Action,Sky Cinema Max,,Comcast Corporation,IT,,,movies,FALSE,2008-12-20,,,https://tg24.sky.it/spettacolo/skycinema/home.html
@@ -25044,7 +25110,6 @@ SkyCinemaComedy.uk,Sky Cinema Comedy,,,Comcast Corporation,UK,,,movies;comedy,FA
 SkyCinemaDrama.it,Sky Cinema Drama,,,Comcast Corporation,IT,,,movies,FALSE,,,,https://tg24.sky.it/spettacolo/skycinema/home.html
 SkyCinemaDrama.uk,Sky Cinema Drama,Sky Cinema Christmas,,Comcast Corporation,UK,,,movies,FALSE,,,,https://www.sky.com/tv/cinema
 SkyCinemaDue.it,Sky Cinema Due,Sky Cinema Cult;Cult;Cult Network Italia,,Comcast Corporation,IT,,,movies,FALSE,2011-08-01,,,https://tg24.sky.it/spettacolo/skycinema/home.html
-SkyCinemaDuePlus24.it,Sky Cinema Due +24,,,Comcast Corporation,IT,,,movies,FALSE,2019-03-08,,,https://tg24.sky.it/spettacolo/skycinema/home.html
 SkyCinemaFamily.de,Sky Cinema Family,,,Comcast Corporation,DE,,,movies,FALSE,2016-01-01,,,https://www.sky.de/
 SkyCinemaFamily.it,Sky Cinema Family,,,Comcast Corporation,IT,,,movies,FALSE,,,,https://tg24.sky.it/spettacolo/skycinema/home.html
 SkyCinemaFamily.uk,Sky Cinema Family,,,Comcast Corporation,UK,,,movies,FALSE,,,,https://www.sky.com/tv/cinema
@@ -25214,42 +25279,40 @@ SkyShowtime1.se,Sky Showtime 1,,,,SE,,,,FALSE,,,,https://www.skyshowtime.com/se
 SkyShowtime2.fi,SkyShowtime 2,SkyShowtime 2 HD,,,FI,,,,FALSE,,,,
 SkyShowtime2.se,Sky Showtime 2,,,,SE,,,,FALSE,,,,https://www.skyshowtime.com/se
 SkySport.de,Sky Sport,Premiere Sport 1,,,DE,,,sports,FALSE,1999-01-01,,,https://www.sky.de/
-SkySport.it,Sky Sport,,,Sky Group Limited,IT,,,sports,FALSE,2003-07-31,,,http://www.sky.it/
 SkySport.nz,Sky Sport,,,,NZ,,,sports,FALSE,,,,https://www.sky.co.nz/sky-sport
 SkySport1.de,Sky Sport 1,Premiere Sport 1,,,DE,,,sports,FALSE,1999-01-01,,,https://www.sky.de/
 SkySport1.nz,Sky Sport 1,,,,NZ,,,sports,FALSE,,,,https://www.sky.co.nz/sky-sport
 SkySport10.de,Sky Sport 10,,,,DE,,,sports,FALSE,,,,https://www.sky.de/
-SkySport10.it,Sky Sport 10,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySport11.de,Sky Sport 11,,,,DE,,,sports,FALSE,,,,https://www.sky.de/
-SkySport11.it,Sky Sport 11,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySport12.de,Sky Sport 12,,,,DE,,,sports,FALSE,,,,https://www.sky.de/
 SkySport13.de,Sky Sport 13,,,,DE,,,sports,FALSE,,,,https://www.sky.de/
 SkySport14.de,Sky Sport 14,,,,DE,,,sports,FALSE,,,,https://www.sky.de/
 SkySport2.de,Sky Sport 2,Premiere Sport 2,,,DE,,,sports,FALSE,1999-01-01,,,https://www.sky.de/
-SkySport2.it,Sky Sport 2,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySport2.nz,Sky Sport 2,,,,NZ,,,sports,FALSE,,,,https://www.sky.co.nz/sky-sport
 SkySport24.it,Sky Sport 24,,,,IT,,,sports,FALSE,,,,https://sport.sky.it/
+SkySport251.it,Sky Sport 251,,,Sky Group Limited,IT,,,sports,FALSE,2003-07-31,,,http://www.sky.it/
+SkySport252.it,Sky Sport 252,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
+SkySport253.it,Sky Sport 253,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
+SkySport254.it,Sky Sport 254,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
+SkySport255.it,Sky Sport 255,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
+SkySport256.it,Sky Sport 256,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
+SkySport257.it,Sky Sport 257,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
+SkySport258.it,Sky Sport 258,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
+SkySport259.it,Sky Sport 259,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySport3.de,Sky Sport 3,,,,DE,,,sports,FALSE,2015-01-01,,,https://www.sky.de/
-SkySport3.it,Sky Sport 3,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySport3.nz,Sky Sport 3,,,,NZ,,,sports,FALSE,,,,https://www.sky.co.nz/sky-sport
 SkySport4.de,Sky Sport 4,,,,DE,,,sports,FALSE,2016-01-01,,,https://www.sky.de/
-SkySport4.it,Sky Sport 4,,,,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySport4.nz,Sky Sport 4,,,,NZ,,,sports,FALSE,,,,https://www.sky.co.nz/sky-sport
 SkySport4K.it,Sky Sport 4K,,,Sky Group Limited,IT,,,sports,FALSE,2021-08-20,,,https://www.sky.it/
 SkySport5.de,Sky Sport 5,,,,DE,,,sports,FALSE,2016-01-01,,,https://www.sky.de/
-SkySport5.it,Sky Sport 5,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySport5.nz,Sky Sport 5,,,,NZ,,,sports,FALSE,,,,https://www.sky.co.nz/sky-sport
 SkySport6.de,Sky Sport 6,,,,DE,,,sports,FALSE,,,,https://www.sky.de/
-SkySport6.it,Sky Sport 6,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySport6.nz,Sky Sport 6,,,,NZ,,,sports,FALSE,,,,https://www.sky.co.nz/sky-sport
 SkySport7.de,Sky Sport 7,,,,DE,,,sports,FALSE,,,,https://www.sky.de/
-SkySport7.it,Sky Sport 7,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySport7.nz,Sky Sport 7,,,,NZ,,,sports,FALSE,,,,https://www.sky.co.nz/sky-sport
 SkySport8.de,Sky Sport 8,,,,DE,,,sports,FALSE,,,,https://www.sky.de/
-SkySport8.it,Sky Sport 8,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySport8.nz,Sky Sport 8,,,,NZ,,,sports,FALSE,,,,https://www.sky.co.nz/sky-sport
 SkySport9.de,Sky Sport 9,,,,DE,,,sports,FALSE,,,,https://www.sky.de/
-SkySport9.it,Sky Sport 9,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySport9.nz,Sky Sport 9,,,,NZ,,,sports,FALSE,,,,https://www.sky.co.nz/sky-sport
 SkySportAction.it,Sky Sport Action,,,Sky Group Limited,IT,,,sports,FALSE,,,,https://sport.sky.it/
 SkySportArena.it,Sky Sport Arena,,,Sky Group Limited,IT,,,sports,FALSE,,,,https://sport.sky.it/
@@ -25264,6 +25327,7 @@ SkySportAustria7.at,Sky Sport Austria 7,,,,AT,,,sports,FALSE,2021-01-01,,,https:
 SkySportBar1.it,Sky Sport Bar 1,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySportBar2.it,Sky Sport Bar 2,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
 SkySportBar3.it,Sky Sport Bar 3,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://www.sky.it/
+SkySportBasket.it,Sky Sport Basket,Sky Sport NBA,,Sky Group Limited,IT,,,sports,FALSE,2025-07-01,,,https://sport.sky.it/
 SkySportBundesliga.de,Sky Sport Bundesliga,Sky Bundesliga;Sky Fussball Bundesliga,,,DE,,,sports,FALSE,,,,https://www.sky.de/
 SkySportBundesliga1.de,Sky Sport Bundesliga 1,Sky Bundesliga 1;Sky Fussball Bundesliga 1,,,DE,,,sports,FALSE,,,,https://www.sky.de/
 SkySportBundesliga10.de,Sky Sport Bundesliga 10,,,,DE,,,sports,FALSE,,,,https://www.sky.de/
@@ -25286,11 +25350,11 @@ SkySportKompakt2.de,Sky Sport Kompakt 2,,,,DE,,,sports,FALSE,,,,https://www.sky.
 SkySportKompakt3.de,Sky Sport Kompakt 3,,,,DE,,,sports,FALSE,,,,https://www.sky.de/
 SkySportKompakt4.de,Sky Sport Kompakt 4,,,,DE,,,sports,FALSE,,,,https://www.sky.de/
 SkySportKompakt5.de,Sky Sport Kompakt 5,,,,DE,,,sports,FALSE,,,,https://www.sky.de/
+SkySportLegend.it,Sky Sport Legend,,,Sky Group Limited,IT,,,sports,FALSE,2025-07-01,,,http://www.sky.it/
 SkySportMax.it,Sky Sport Max,,,Sky Group Limited,IT,,,sports,FALSE,,,,https://sport.sky.it/
 SkySportMix.de,Sky Sport Mix,,,,DE,,,sports,FALSE,2022-01-01,,,https://www.sky.de/
 SkySportMix.it,Sky Sport Mix,,,Sky Group Limited,IT,,,sports,FALSE,2016-01-01,2018-01-01,,https://www.sky.de/
 SkySportMotoGP.it,Sky Sport Moto GP,,,Sky Group Limited,IT,,,sports,FALSE,,,,http://sport.sky.it/sport/motogp/
-SkySportNBA.it,Sky Sport NBA,,,Sky Group Limited,IT,,,sports,FALSE,,,,https://sport.sky.it/
 SkySportNews.de,Sky Sport News,,,,DE,,,sports,FALSE,2011-01-01,,,https://sport.sky.de/
 SkySportNews.nz,Sky Sport News,,,,NZ,,,sports,FALSE,,,,https://www.sky.co.nz/sky-sport
 SkySportPremierLeague.de,Sky Sport Premier League,,,,DE,,,sports,FALSE,2022-01-01,,,https://sport.sky.de/
@@ -25425,6 +25489,7 @@ SmithsonianChannelLatinAmerica.us,Smithsonian Channel Latin America,,,,US,,,scie
 SmithsonianChannelSelects.us,Smithsonian Channel Selects,,Pluto TV,,US,,,science,FALSE,,,,https://pluto.tv/en/live-tv/smithsonian-channel-selects
 SMNI.ph,SMNI,,,,PH,,,,FALSE,,,,https://smni.com/
 SMNINewsChannel.ph,SMNI News Channel,,,,PH,,,news,FALSE,,,,http://www.smninewschannel.com/
+SmotrimChestnyyDetektiv.ru,Smotrim Chestnyy Detektiv,Смотрим Честный Детектив,ВГТРК,ВГТРК,RU,,,series,FALSE,,,,
 SMOTV.cr,SMO TV,,,,CR,,,religious,FALSE,,,,
 SMSSomaliTV.uk,SMS Somali TV,,,Somali Media Services,UK,,London,news,FALSE,,,,https://somalisms.com/
 SMSTV.so,SMS TV,,,,SO,,Mogadishu,news,FALSE,,,,https://somalisms.com/
@@ -26549,6 +26614,7 @@ SuperTVOristano.it,Super TV Oristano,,,,IT,,Oristano,general,FALSE,,,,http://www
 SuperTVSmederevo.rs,Super TV Smederevo,,,,RS,,Smederevo,general,FALSE,,,,https://tvsuper.rs/
 SuperTVTuismilCanal7.gt,Super TV Tuismil Canal 7,,,,GT,,Tacaná,general,FALSE,,,,
 SuperyachtTV.mc,Superyacht TV,,,,MC,,,lifestyle,FALSE,,,,https://superyacht.tv/
+Supremateve.do,Supremateve,,,,DO,,,general,FALSE,,,,https://supremateve.com/
 SupremeMasterTV.tw,Supreme Master TV,,,,TW,,,,FALSE,,,,http://suprememastertv.com/
 SupremeTV.lk,Supreme TV,,,Supreme Global Holdings,LK,,,,FALSE,2019-12-19,,,https://www.supremetv.lk/
 SupremeTV.sr,Supreme TV,,,,SR,,Paramaribo,general,FALSE,,,,
@@ -26587,7 +26653,7 @@ SuspilneDnipro.ua,Suspilne. Dnipro,Суспільне. Дніпро;Днепро
 SuspilneDonbas.ua,Suspilne. Donbas,Суспільне. Донбас;UΛ: Донбасс,,National Public Television and Radio Company of Ukraine,UA,,,general,FALSE,2018-01-16,,,https://dn.suspilne.media/
 SuspilneIvanoFrankivsk.ua,Suspilne. Ivano-Frankivsk,Суспільне. Івано-Франківськ;UΛ: Карпати,,National Public Television and Radio Company of Ukraine,UA,,,,FALSE,2018-04-19,,,https://if.suspilne.media/
 SuspilneKharkiv.ua,Suspilne. Kharkiv,Суспільне. Харків;UΛ: Харьков,,National Public Television and Radio Company of Ukraine,UA,,Kharkiv,general,FALSE,1951-02-23,,,https://kh.suspilne.media/
-SuspilneKherson.ua,Suspilne. Kherson,Суспільне. Херсон;9 канал;Скифия;UΛ: Херсон,,National Public Television and Radio Company of Ukraine,UA,,Kherson,general,FALSE,1959-05-01,,,https://ks.suspilne.media/
+SuspilneKherson.ua,Suspilne. Kherson,Суспільне. Херсон;9 канал;Скифия;UΛ: Херсон,,National Public Television and Radio Company of Ukraine,UA,,Kherson,general,FALSE,1959-05-01,2022-03-02,Tavriya.ru,https://ks.suspilne.media/
 SuspilneKhmelnytskyi.ua,Suspilne. Khmelnytskyi,Суспільне. Хмельницький;ХТБ;Подолье-Центр;UΛ: Поділля,,National Public Television and Radio Company of Ukraine,UA,,,,FALSE,1991-09-01,,,https://km.suspilne.media/
 SuspilneKropyvnytskyi.ua,Suspilne. Kropyvnytskyi,Суспільне. Кропивницький;UΛ: Кропивницкий,,National Public Television and Radio Company of Ukraine,UA,,Kropyvnytskyi,general,FALSE,1960-04-16,,,https://kr.suspilne.media/
 SuspilneKrym.ua,Suspilne. Krym,Суспільне. Крим;UΛ: Крым;ТРК,,National Public Television and Radio Company of Ukraine,UA,,,general,FALSE,1959-01-25,,,https://crimea.suspilne.media/
@@ -26874,6 +26940,7 @@ TATV1.cn,TATV-1,综合频道,,,CN,,Taian,news,FALSE,,,,
 TATV2.cn,TATV-2,公共频道,,,CN,,Taian,lifestyle,FALSE,,,,
 TATV3.cn,TATV-3,教科频道,,,CN,,Taian,education;science,FALSE,,,,
 TauraruwaTV.ne,Tauraruwa TV,,,,NE,,Niamey,entertainment,FALSE,,,,
+Tavriya.ru,Tavriya,Таврия,,,RU,UA-65,,general,FALSE,2022-08-18,,,
 TavushTV.am,Tavush TV,,,Tavush Media,AM,,Noyemberyan,general,FALSE,2010-01-01,,,https://tavushmedia.am/en/tv/
 TawafTV.id,Tawaf TV,,,,ID,,,,FALSE,,,,https://www.tawaf.tv/
 TawhidTV.sn,Tawhid TV,,,,SN,,Dakar,religious,FALSE,,,,
@@ -26932,13 +26999,13 @@ Tchad24TV.td,Tchad24 TV,,,Fondation Grand Cœur,TD,,N'Djamena,news,FALSE,2020-07
 TchadInfosTV.td,Tchad Infos TV,,,,TD,,N'Djamena,news,FALSE,2023-06-15,,,https://tchadinfos.com/
 TchamanTV.ci,Tchaman TV,,,,CI,,Abidjan,general,FALSE,,,,https://www.tchamantv.ci/
 TCI.it,TCI,,,,IT,,,,FALSE,,,,https://www.tci-italia.it/
-TCM.ca,TCM,Turner Classic Movies Canada,,,CA,,,classic;movies,FALSE,,,,https://www.tcm.com/
+TCM.ca,TCM,Turner Classic Movies Canada,,Warner Bros. Discovery,CA,,,classic;movies,FALSE,,,,https://www.tcm.com/
 TCM.es,TCM,,,,ES,,,movies,FALSE,,,,http://www.canaltcm.com/
-TCM.us,TCM,Turner Classic Movies East,,,US,,,classic;movies,FALSE,,,,https://www.tcm.com/
+TCM.us,TCM,Turner Classic Movies East,,Warner Bros. Discovery,US,,,classic;movies,FALSE,,,,https://www.tcm.com/
 TCM10HD.br,TCM 10 HD,,,,BR,BR-RN,Cabo Mossoró,news,FALSE,,,,
 TCMCinema.fr,TCM Cinema,TCM Cinéma,,,FR,,,movies,FALSE,,,,https://www.canalplus.com/chaines/tcm-cinema
-TCMLatinAmerica.us,TCM Latin America,,,,US,,,,FALSE,,,,http://www.tcmla.com/
-TCMMovies.uk,TCM Movies,,,,UK,,,movies,FALSE,1999-10-15,,,http://www.tcmuk.tv/
+TCMLatinAmerica.us,TCM Latin America,,,Warner Bros. Discovery EMEA,US,,,,FALSE,,,,http://www.tcmla.com/
+TCMMovies.uk,TCM Movies,,,,UK,,,movies,FALSE,1999-10-15,2023-07-06,,http://www.tcmuk.tv/
 TCNN47.th,TCNN 47,,,,TH,,,,FALSE,,,,
 TCSMTV.cv,TCSM TV,,,,CV,,Santa Maria,general,FALSE,,,,https://tcsm.cv/
 TCSPlus.sv,TCS+,,,Telecorporación Salvadoreña,SV,,Antiguo Cuscatlán,general,FALSE,2017-09-25,,,https://www.tcsgo.com/
@@ -27042,7 +27109,7 @@ TeleAmaniY.ht,Tele Amani-Y,Télé Amani-Y,,,HT,,Saint-Marc,general,FALSE,,,,
 Teleamazonas.ec,Teleamazonas,,,Grupo Teleamazonas,EC,,,,FALSE,1974-02-22,,,https://www.teleamazonas.com/
 Teleamazonas.pe,Teleamazonas,,,,PE,PE-AMA,Chachapoyas,,FALSE,,,,https://teleamazonas.pe/tv-en-vivo/
 TeleAmbienteTV.it,TeleAmbiente TV,,,,IT,,,science;culture,FALSE,,,,https://www.teleambiente.it/
-TeleAmiga.co,Tele Amiga,,,,CO,,,,FALSE,,,,https://teleamiga.tv/
+TeleAmiga.co,Tele Amiga,,,,CO,,,general,FALSE,,,,https://teleamiga.tv/
 TeleAmistad.ni,Tele Amistad,,,,NI,,Somoto,general,FALSE,,,,
 TeleAndina.ec,TeleAndina,,,,EC,,,,FALSE,,,,https://amtec.com.co/wp/canal-teleandina/
 TeleAntillas.do,Tele Antillas,,,,DO,,,,FALSE,,,,https://teleantillas.com.do/
@@ -27186,6 +27253,7 @@ Teleislas.co,Teleislas,,,,CO,CO-SAP,San Andres,general,FALSE,,,,https://teleisla
 Telejato.it,Telejato,,,,IT,,Partinico,news,FALSE,,,,https://www.telejato.it/
 TeleJonio.it,TeleJonio,,,,IT,,Chiaravalle,general,FALSE,,,,http://www.telejonio.com/
 TeleJunin.ar,TeleJunin,TeleJunín,,,AR,AR-B,Junin,,FALSE,,,,https://www.telejunin.com.ar/
+TelekanalKrasnodar.ru,Telekanal Krasnodar,Телеканал Краснодар;ТК Краснодар,,,RU,RU-KDA,,general,FALSE,,,,https://tvkrasnodar.ru/
 TelekanalRAI.ua,Telekanal RAI,Телерадіокомпанія РАІ,,RAI Media Group,UA,,Ivano-Frankivsk,general,FALSE,,,,https://rai.ua/
 TeleKreol.re,Tele Kreol,Télé Kréol,,Thierry Araye,RE,,Sainte-Clotilde,general,FALSE,2004-06-15,,,http://www.kreol.tv/
 Telekriti.gr,Telekriti,Τηλεκρήτη,Telekriti Media Group,Telekriti,GR,,Ierapetra,general,FALSE,1994-12-23,,,https://www.telekriti.com/
@@ -27796,6 +27864,7 @@ TigoSports.py,Tigo Sports,,,,PY,,,sports,FALSE,2014-02-01,,,http://www.tigosport
 TigoSports.sv,Tigo Sports,,,,SV,,,sports,FALSE,,,,http://www.tigosports.com.sv/
 TigoSportsPlus.py,Tigo Sports+,,,,PY,,,sports,FALSE,2018-06-06,,,http://www.tigosports.com.py/
 TigraiTV.et,Tigrai TV,ቴሌቪዥን ትግራይ,,The Tigray National Regional State,ET,,Mekelle,general,FALSE,,,,https://tigraitv.com/en/home/
+TigueritoTV.do,Tiguerito TV,,,,DO,,,animation;kids,FALSE,,,,https://www.tigueritos.com/
 TiJi.fr,TiJi,,,M6 Group,FR,,,kids,FALSE,2000-01-01,,,https://www.tiji.fr/
 TiJi.ru,TiJi,,,,RU,,,kids,FALSE,2009-04-01,,,https://tiji.ru/
 TIKBohumin.cz,TIK Bohumin,TIK Bohumín,,,CZ,,Bohumín,general,FALSE,,,,https://tik.tvmarko.cz/
@@ -28169,7 +28238,7 @@ TravelTV.es,Travel TV,,,,ES,,,travel,FALSE,,,,http://traveltve.com/
 Travelxp.in,Travelxp,,,Celebrities Management Private Limited,IN,,Mumbai,travel,FALSE,2011-02-02,,,http://www.travelxp.tv/
 TravelxpTamil.in,Travelxp Tamil,,,,IN,,,travel,FALSE,,,,http://www.travelxptamil.com/
 TraVinhTV.vn,Tra Vinh TV,,,,VN,,,,FALSE,,,,http://travinhtv.vn/
-TraVinhTV2.vn,Tra Vinh TV 2,,,,VN,,Tra Vinh,general,FALSE,,,,https://travinhtv.vn/
+TraVinhTV2.vn,Tra Vinh TV 2,,,,VN,,Tra Vinh,science;education,FALSE,,2025-06-30,,https://travinhtv.vn/
 TravisCountyTV.us,Travis County TV,TCTV,,,US,US-TX,Austin,general,FALSE,,,,https://www.traviscountytx.gov/tctv
 TRCBologna.it,TRC Bologna,,,,IT,,Bologna,general,FALSE,,,,https://www.bolognaindiretta.it/trc-bologna/
 TRCModena.it,TRC Modena,,,,IT,,Modena,general,FALSE,,,,https://www.bolognaindiretta.it/trc-modena/
@@ -28215,6 +28284,7 @@ TringSport1.al,Tring Sport 1,,,,AL,,,sports,FALSE,,,,http://www.tring.al/
 TringSport2.al,Tring Sport 2,,,,AL,,,sports,FALSE,,,,http://www.tring.al/
 TringSport3.al,Tring Sport 3,,,,AL,,,sports,FALSE,,,,http://www.tring.al/
 TringSport4.al,Tring Sport 4,,,,AL,,,sports,FALSE,,,,http://www.tring.al/
+TringSport5.al,Tring Sport 5,,,,AL,,,sports,FALSE,,,,http://www.tring.al/
 TringSportNews.al,Tring Sport News,,,,AL,,,sports,FALSE,,,,http://www.tring.al/
 TringSuper.al,Tring Super,,,,AL,,,movies,FALSE,,,,http://www.tring.al/
 TringTring.al,Tring Tring,,,,AL,,,kids,FALSE,,,,http://www.tring.al/
@@ -28484,7 +28554,7 @@ TV100National.in,TV 100 National,,,,IN,,,,FALSE,,,,http://www.tv100.info/
 TV101.rs,TV 101,,,RTV 101 d.o.o.,RS,,,,FALSE,,,,
 TV10Rivera.uy,TV 10 Rivera,,,Canal 10 TV Rivera Ltda,UY,,Rivera,general,FALSE,1968-05-18,,,https://tv10rivera.com.uy/
 TV10SanJuan.do,TV 10 San Juan,,,,DO,DO-22,,general,FALSE,,,,https://tv10sanjuan.com.do/
-TV12.se,TV12,,,,SE,,,,FALSE,2014-01-01,,,https://www.tv4play.se/kanaler/tv12
+TV12.se,TV12,,,TV4 Group,SE,,,,FALSE,2014-01-01,,,https://www.tv4play.se/kanaler/tv12
 TV13.hu,TV13,,,Angyalföld Média Közalapítvány,HU,,Budapest,general,FALSE,,,,https://tv13.hu/
 TV15.kg,TV15,Пирамида;Pyramida;Piramida,,TV15 Media Group,KG,,Bishkek,general,FALSE,1994-12-06,,,https://pyramida.kg
 TV15.sx,TV15,,,,SX,,Philipsburg,general,FALSE,,,,
@@ -28587,7 +28657,7 @@ TV4.hu,TV4,,,Digital Media and Communications Zrt.,HU,,,,FALSE,,,,https://tv4.ne
 TV4.lv,TV4,,,,LV,,Riga,entertainment;sports,FALSE,2021-04-01,,,https://www.cetri.lv/
 TV4.mn,TV 4,,,,MN,,,,FALSE,,,,
 TV4.pl,TV4,,,,PL,,,,FALSE,,,,https://www.tv4.pl/
-TV4.se,TV4,,,,SE,,,,FALSE,,,,https://www.tv4.se/
+TV4.se,TV4,,,TV4 Group,SE,,,,FALSE,,,,https://www.tv4.se/
 TV4.tr,TV 4,,,,TR,,,,FALSE,,,,https://www.tv4.com.tr/
 TV4.ua,TV-4,,,,UA,,Ternopil,,FALSE,1991-10-30,,,https://tv4.te.ua/
 TV4.us,TV4,,,,US,US-AZ,Bullhead City,legislative,FALSE,,,,https://www.bullheadcity.com/government/tv4
@@ -28597,24 +28667,27 @@ TV43.do,TV43,,,,DO,,San Pedro de Macorís,general,FALSE,,,,https://www.tv43.net/
 TV45.ni,TV 45,3ABN Nicaragua;Canal 45,,Ministerio de la Iglesia Adventista del Séptimo Día,NI,,Managua,religious,FALSE,,,,http://tv45nicaragua.com/
 TV47Kenya.ke,TV47 Kenya,,,Cape Media Ltd,KE,,,general,FALSE,,,,https://tv47.co.ke/
 TV4Fakta.se,TV4 Fakta,,,TV4 Group,SE,,,documentary,FALSE,2005-09-15,,,http://tv4fakta.se/
-TV4FaktaXL.se,TV4 Fakta XL,,,TV4,SE,,,,FALSE,2012-08-13,2017-09-30,,http://www.tv4faktaxl.se/
-TV4Film.se,TV4 Film,,,,SE,,,movies,FALSE,2004-04-18,,,http://tv4.se/tv4film
-TV4Fotboll.se,TV4 Fotboll,C More Fotboll;Canal+ Fotboll,,,SE,,,sports,FALSE,,,,http://www.cmore.se/
-TV4Guld.se,TV4 Guld,,,,SE,,,classic,FALSE,2006-11-03,,,http://www.tv4.se/guld
-TV4Hits.se,TV4 Hits,C More Hits;Canal+ Hits;Canal+ Film 2;Canal+ Blå/Canal+ Sininen,,,SE,,,,FALSE,2004-05-01,,,http://www.cmore.se/
-TV4Hockey.se,TV4 Hockey,C More Hockey;Canal+ Hockey,,,SE,,,sports,FALSE,2010-08-27,,,http://www.cmore.se/
-TV4Komedi.se,TV4 Komedi,,,TV4 AB,SE,,,,FALSE,2006-11-03,2017-09-30,,https://www.tv4.se/tv4komedi
+TV4FaktaXL.se,TV4 Fakta XL,,,TV4 Group,SE,,,,FALSE,2012-08-13,2017-09-30,,http://www.tv4faktaxl.se/
+TV4Film.se,TV4 Film,,,TV4 Group,SE,,,movies,FALSE,2004-04-18,,,http://tv4.se/tv4film
+TV4Fotboll.se,TV4 Fotboll,C More Fotboll;Canal+ Fotboll,,TV4 Group,SE,,,sports,FALSE,,,,http://www.cmore.se/
+TV4Guld.se,TV4 Guld,,,TV4 Group,SE,,,classic,FALSE,2006-11-03,,,http://www.tv4.se/guld
+TV4Hits.se,TV4 Hits,C More Hits;Canal+ Hits;Canal+ Film 2;Canal+ Blå/Canal+ Sininen,,TV4 Group,SE,,,,FALSE,2004-05-01,,,http://www.cmore.se/
+TV4Hockey.se,TV4 Hockey,C More Hockey;Canal+ Hockey,,TV4 Group,SE,,,sports,FALSE,2010-08-27,,,http://www.cmore.se/
+TV4Komedi.se,TV4 Komedi,,,TV4 Group,SE,,,,FALSE,2006-11-03,2017-09-30,,https://www.tv4.se/tv4komedi
 TV4LaVall.es,TV4 La Vall,,,,ES,ES-VC,Vall d'Uixó,,FALSE,,,,https://teve4lavall.com/
-TV4Motor.se,TV4 Motor,C More Golf;C More Mix,,,SE,,,sports,FALSE,2016-01-01,,,http://www.cmore.se/
+TV4Motor.se,TV4 Motor,C More Golf;C More Mix,,TV4 Group,SE,,,sports,FALSE,2016-01-01,,,http://www.cmore.se/
+TV4News.se,TV4 News,,,TV4 Group,SE,,Stockholm,news,FALSE,2012-01-24,2013-08-31,,http://www.tv4news.se/
 TV4S.rs,TV 4S,ТВ 4С,,Vesna Stojiljković,RS,,Bojnik,,FALSE,,,,
-TV4Sport.se,TV4 Sport,TV4 Sport-Expressen;Sport,,TV4 Gruppen;Expressen,SE,,Stockholm,sports,FALSE,2005-03-17,2018-01-31,,
-TV4Sportkanalen.se,TV4 Sportkanalen,,,TV4 Media,SE,,,sports,FALSE,2017-10-04,,,https://www.sportkanalen.se/
-TV4SportLive1.se,TV4 Sport Live 1,TV4 Sport Live 1;TV 2 Sport Premium 5;C More Live;Canal+ Sport 3,,,SE,,,,FALSE,,,,http://www.cmore.se/
-TV4SportLive2.se,TV4 Sport Live 2,TV 2 Sport Premium 6;C More Live 2;Canal+ Extra 1,,,SE,,,,FALSE,,,,http://www.cmore.se/
-TV4SportLive3.se,TV4 Sport Live 3,TV 2 Sport Premium 7;C More Live 3;Canal+ Extra 2,,,SE,,,,FALSE,,,,http://www.cmore.se/
-TV4SportLive4.se,TV4 Sport Live 4,TV 2 Sport Premium 8;C More Live 4;Canal+ Extra 3,,,SE,,,,FALSE,,,,http://www.cmore.se/
-TV4Stars.se,TV4 Stars,C More Stars,,,SE,,,,FALSE,,,,http://www.cmore.se/
-TV4Tennis.se,TV4 Tennis,C More Live 5,,,SE,,,sports,FALSE,2017-01-01,,,http://www.cmore.se/
+TV4ScienceFiction.se,TV4 Science Fiction,,,TV4 Group,SE,,Stockholm,,FALSE,2008-02-29,2012-08-05,,
+TV4Sport.se,TV4 Sport,TV4 Sport-Expressen;Sport,,TV4 Group,SE,,Stockholm,sports,FALSE,2005-03-17,2018-01-31,,
+TV4Sportkanalen.se,TV4 Sportkanalen,,,TV4 Group,SE,,,sports,FALSE,2017-10-04,,,https://www.sportkanalen.se/
+TV4SportLive1.se,TV4 Sport Live 1,TV4 Sport Live 1;TV 2 Sport Premium 5;C More Live;Canal+ Sport 3,,TV4 Group,SE,,,,FALSE,,,,http://www.cmore.se/
+TV4SportLive2.se,TV4 Sport Live 2,TV 2 Sport Premium 6;C More Live 2;Canal+ Extra 1,,TV4 Group,SE,,,,FALSE,,,,http://www.cmore.se/
+TV4SportLive3.se,TV4 Sport Live 3,TV 2 Sport Premium 7;C More Live 3;Canal+ Extra 2,,TV4 Group,SE,,,,FALSE,,,,http://www.cmore.se/
+TV4SportLive4.se,TV4 Sport Live 4,TV 2 Sport Premium 8;C More Live 4;Canal+ Extra 3,,TV4 Group,SE,,,,FALSE,,,,http://www.cmore.se/
+TV4SportXtra.se,TV4 Sport Xtra,,,TV4 Group,SE,,Europe/Stockholm,sports,FALSE,2012-05-04,2014-03-28,TV12.se,http://www.tv4sportxtra.se/
+TV4Stars.se,TV4 Stars,C More Stars,,TV4 Group,SE,,,,FALSE,,,,http://www.cmore.se/
+TV4Tennis.se,TV4 Tennis,C More Live 5,,TV4 Group,SE,,,sports,FALSE,2017-01-01,,,http://www.cmore.se/
 TV4TNG.ch,TV4TNG,,,,CH,,,,FALSE,,,,
 TV5.dz,TV5,الجزائرية الخامسة;Coran TV;قناة القرآن الكريم,,EPTV,DZ,,Algiers,religious,FALSE,,,,http://entv.dz/
 TV5.fi,TV5,TV5 HD,,Warner Bros. Discovery EMEA,FI,,Helsinki,,FALSE,2008-09-10,,,https://www.dplay.fi/kanavat/tv5
@@ -29545,7 +29618,7 @@ TVPampaNorte.br,TV Pampa Norte,,,,BR,,,,FALSE,,,,https://www.tvpampa.com.br/
 TVPancevo.rs,TV Pancevo,TV Pančevo;ТВ Панчево;ТВП,,Radoica Milosavljević,RS,,,,FALSE,,,,http://www.rtvpancevo.rs/
 TVPanon.rs,TV Panon,ТВ Панон,,Nacionalni savet mađarske nacionalne manjine;Reformatska hrišćanska crkva u Srbij;Jedinstvo mađarske manjine;Kulturni savez Vojvođanskih mađara;Subotička biskupija;Evangelistička hrišćanska crkva a.v. u Srbiji;Fondacija Laslo Sekereš;Iren Gabrić Molnar;Tamaš Korhec;Andor Deli;Zoltan Jegeš,RS,,Subotica,,FALSE,,,,http://www.pannonrtv.com/
 TVPanorama.sk,TV Panorama,TV Panoráma,,Zdenko Šmondrk,SK,,Žarnovica,general,FALSE,,,,https://panoramapro.sk/
-TVPanou.ht,TV Panou,,,,HT,,,,FALSE,,,,
+TVPanou.ht,TV Panou,,,,HT,,,general,FALSE,,,,
 TVPantanalMS.br,TV Pantanal MS,,,,BR,,,,FALSE,,,,
 TVPaprika.cz,TV Paprika,,,AMC Networks Inc.,CZ,,,lifestyle;travel,FALSE,,,,http://www.tvpaprika.cz/
 TVPaprika.hu,TV Paprika,,,AMC Networks Central Europe Kft.,HU,,,lifestyle;travel,FALSE,2004-11-05,,,http://www.tvpaprika.hu/
@@ -30282,6 +30355,7 @@ UptownMusicTV.dk,Uptown Music TV,,,,DK,,,music,FALSE,,,,https://uptown.tv/
 UPTV.mg,UP TV,,,,MG,,Antananarivo,entertainment,FALSE,2022-06-18,,,
 UpTV.us,Up TV,,,InterMedia Partners,US,,,,FALSE,2004-10-30,,,https://www.uptv.com/
 UpuManaTV4.ws,Upu Mana TV4,,,Catholic Media Communication,WS,,Apia,religious,FALSE,,,,
+Ural24.ru,Ural 24,Урал 24,ВГТРК,ВГТРК,RU,,,general,FALSE,,,,
 UranioTV.pe,Uranio TV,,,,PE,PE-SAM,Yurimaguas,,FALSE,,,,https://uraniotv.pe/
 UrbanAfricaTV.sn,Urban Africa TV,,,Urban Media Group,SN,,Dakar,music,FALSE,,,,https://urbanmedia.group/urbanafricatv/
 UrbanaPublicTelevision.us,Urbana Public Television,UPTV,,,US,US-IL,Urbana,general,FALSE,1995-01-01,,,https://urbanaillinois.us/UPTV
@@ -30530,6 +30604,7 @@ VeryTV.th,Very TV,,,,TH,,,,FALSE,,,,
 VeseljakTV.si,Veseljak TV,,,,SI,,,,FALSE,,,,
 VesterbroLokalTV.dk,Vesterbro Lokal TV,,,,DK,,København,general,FALSE,,,,https://vesterbrolokaltv.dk/
 Vesti.rs,Vesti,Вести,,Pink Media Group d.o.o.,RS,,,,FALSE,,,,http://www.pink.rs/
+VestiFM.ru,Vesti FM,Вести FM,,,RU,,,news,FALSE,,,,https://vgtrk.ru/radiovesti
 VestnikNadyma.ru,Vestnik Nadyma,Вестник Надыма,,,RU,,Nadym,,FALSE,,,,http://trknadym.ru/
 VeteranNewsNetwork.us,Veteran News Network,,,,US,US-FL,Jacksonville,news,FALSE,,,,https://news.va.gov/
 VeteransAffairsKnowledgeNetwork1.us,Veterans Affairs Knowledge Network 1,,,,US,,,education,FALSE,,,,https://www.va.gov/
@@ -30705,10 +30780,10 @@ VillageCinemas.gr,Village Cinemas,,,,GR,,,movies,FALSE,,,,http://www.villagecine
 VillaManteroTV.ar,Villa Mantero TV,,,,AR,,,,FALSE,,,,https://tv.villamantero.com.ar/
 VILLEtv.us,VILLEtv,,,,US,US-NJ,Somerville,general,FALSE,,,,http://villetv22.tzo.com:5901/CablecastPublicSite/watch/1?channel=1
 VimaTV.gr,Vima TV,Βήμα Τηλεόραση;ΗΡΤ;Ηπειρωτική Ραδιοφωνία Τηλεόραση,,Panipeirotiki Tileorasi T.V. S.A.,GR,GR-D,Ioannina,news,FALSE,,,,https://www.vimanews.gr/
-VinhLongTV1.vn,Vinh Long TV 1,,,,VN,,,,FALSE,,,,https://www.thvl.vn/
-VinhLongTV2.vn,Vinh Long TV 2,,,,VN,,,,FALSE,,,,https://www.thvl.vn/
-VinhLongTV3.vn,Vinh Long TV 3,THVL3,,,VN,,Vinh Long,general,FALSE,,,,https://www.thvli.vn/live/thvl3-hd
-VinhLongTV4.vn,Vinh Long TV 4,THVL4,,,VN,,Vinh Long,general,FALSE,,,,https://www.thvli.vn/live/thvl4-hd
+VinhLongTV1.vn,Vinh Long TV 1,,,,VN,,Vinh Long,news;general,FALSE,,,,https://www.thvl.vn/
+VinhLongTV2.vn,Vinh Long TV 2,,,,VN,,Vinh Long,culture;entertainment,FALSE,,,,https://www.thvl.vn/
+VinhLongTV3.vn,Vinh Long TV 3,THVL3,,,VN,,Vinh Long,movies;entertainment,FALSE,,,,https://www.thvli.vn/live/thvl3-hd
+VinhLongTV4.vn,Vinh Long TV 4,THVL4,,,VN,,Vinh Long,culture;travel;sports;entertainment,FALSE,,,,https://www.thvli.vn/live/thvl4-hd
 VinhPhucTV.vn,Vinh Phuc TV,,,,VN,,,,FALSE,,,,http://vinhphuctv.vn/
 VinilosTV.pe,Vinilos TV,,,,PE,PE-SAM,Moyobamba,music,FALSE,2023-06-01,,,https://playmax.tv/
 VintageMusic.cr,Vintage Music,,,,CR,,,music,FALSE,,,,
@@ -30719,9 +30794,16 @@ VIPTV.aw,VIP TV,,,,AW,,Noord,music,FALSE,,,,http://www.viponlineradio.com/vip-tv
 VipTV.th,Vip TV,,,,TH,,,,FALSE,,,,
 VirgendeChiquinquira.co,Virgen de Chiquinquira,Virgen de Chiquinquirá,,,CO,,Chiquinquirá,religious,FALSE,,,,https://virgendechiquinquira.com/
 VirgendeNatividaddeParuro.pe,Virgen de Natividad de Paruro,,,,PE,PE-PUN,Paruro,religious,FALSE,,,,https://virgendenatividadparuro.net.pe/
+VirginMediaExtra1.ie,Virgin Media Extra 1,Virgin Media Sport Extra 1,Virgin Media Television,Virgin Media Ireland,IE,,Dublin,sports,FALSE,2018-09-18,,,https://www.virginmediatelevision.ie/
+VirginMediaExtra2.ie,Virgin Media Extra 2,Virgin Media Sport Extra 2,Virgin Media Television,Virgin Media Ireland,IE,,Dublin,sports,FALSE,2018-09-18,,,https://www.virginmediatelevision.ie/
 VirginMediaFour.ie,Virgin Media Four,Four,Virgin Media Television,Virgin Media Ireland,IE,,,,FALSE,2022-08-24,,,https://www.virginmediatelevision.ie/
 VirginMediaMore.ie,Virgin Media More,,Virgin Media Television,Virgin Media Ireland,IE,,,,FALSE,2022-04-12,,,https://www.virginmedia.ie/more
 VirginMediaOne.ie,Virgin Media One,Virgin One;TV3;TV Three,Virgin Media Television,Virgin Media Ireland,IE,,,,FALSE,1998-09-20,,,https://www.virginmediatelevision.ie/
+VirginMediaSport.ie,Virgin Media Sport,,Virgin Media Television,Virgin Media Ireland,IE,,Dublin,sports,FALSE,2018-08-30,2022-04-12,VirginMediaMore.ie,https://www.virginmediatelevision.ie
+VirginMediaSportExtra3.ie,Virgin Media Sport Extra 3,,Virgin Media Television,Virgin Media Ireland,IE,,Dublin,sports,FALSE,2018-08-30,2022-04-07,,https://www.virginmediatelevision.ie/
+VirginMediaSportExtra4.ie,Virgin Media Sport Extra 4,,Virgin Media Television,Virgin Media Ireland,IE,,Dublin,sports,FALSE,2018-08-30,2022-04-07,,https://www.virginmediatelevision.ie/
+VirginMediaSportExtra5.ie,Virgin Media Sport Extra 5,,Virgin Media Television,Virgin Media Ireland,IE,,Dublin,sports,FALSE,2018-08-30,2022-04-07,,https://www.virginmediatelevision.ie/
+VirginMediaSportExtra6.ie,Virgin Media Sport Extra 6,,Virgin Media Television,Virgin Media Ireland,IE,,Dublin,sports,FALSE,2018-08-30,2022-04-07,,https://www.virginmediatelevision.ie/
 VirginMediaThree.ie,Virgin Media Three,Virgin Three;be3;UTV Ireland,Virgin Media Television,Virgin Media Ireland,IE,,,,FALSE,2015-01-01,,,https://www.virginmediatelevision.ie/
 VirginMediaTwo.ie,Virgin Media Two,Virgin Two;3e;Channel 6,Virgin Media Television,Virgin Media Ireland,IE,,,,FALSE,2006-03-30,,,https://www.virginmediatelevision.ie/
 VirginRadioTV.it,Virgin Radio TV,,,,IT,,,,FALSE,2010-11-11,,,https://www.virginradio.it/
@@ -30756,6 +30838,13 @@ VissaTV.in,Vissa TV,,,,IN,,,,FALSE,,,,http://www.vissatv.in/
 VistaarNews.in,Vistaar News,,,,IN,,Bhopal,news,FALSE,,,,https://vistaarnews.com/
 VistaraNews.in,Vistara News,,,,IN,,Bangalore,news,FALSE,,,,https://vistaranews.com/
 VisualRadio.it,Visual Radio,,,,IT,,,,FALSE,,,,
+VitalBasketball.ru,Vital Basketball,,A21 Network,,RU,,,sports,FALSE,,,,https://vslive.pw/
+VitalDrive.ru,Vital Drive,,A21 Network,,RU,,,sports,FALSE,,,,https://a21network.ru/
+VitalFootball.ru,Vital Football,,A21 Network,,RU,,,sports,FALSE,,,,https://vslive.pw/
+VitalPlus.ru,Vital Plus,,A21 Network,,RU,,,sports,FALSE,,,,https://vslive.pw/
+VitalSnooker.ru,Vital Snooker,,A21 Network,,RU,,,sports,FALSE,,,,https://vslive.pw/
+VitalSport.ru,Vital Sport,,A21 Network,,RU,,,sports,FALSE,,,,https://vslive.pw/
+VitalTennis.ru,Vital Tennis,,A21 Network,,RU,,,sports,FALSE,,,,https://vslive.pw/
 VITATV.ua,VITA TV,ВІТА ТБ,,Vinnytsia City Council,UA,,Vinnytsia,general,FALSE,1993-01-01,,,http://vitatv.com.ua/
 Vitebsk.by,Vitebsk,Витебск,,,BY,,,,FALSE,,,,https://vtv.by/
 VITECAzoresTV.pt,VITEC Azores TV,,,,PT,,Angra do Heroísmo,general,FALSE,,,,https://www.azorestv.com/
@@ -30877,6 +30966,7 @@ VOOsportWorld4.be,VOOsport World 4,,,,BE,,,sports,FALSE,,,,https://www.voo.be/en
 VoprosyiOtvety.ru,Voprosy i Otvety,Вопросы и ответы,,Stream,RU,,,entertainment,FALSE,2009-10-01,,,http://tv-stream.ru/channels
 Vorterix.ar,Vorterix,,,,AR,,,entertainment,FALSE,,,,https://vorterix.com/
 VosgesTV.fr,Vosges TV,,,,FR,,,,FALSE,,,,https://www.viavosges.tv/
+Vostok24.ru,Vostok 24,Восток 24,ВГТРК,,RU,RU-PRI,Vladivostok,general,FALSE,,,,
 VostokTV.ru,Vostok TV,Восток ТВ,,,RU,,,,FALSE,,,,http://vostok.tv/
 VosTV.bo,Vos TV,,,,BO,BO-L,El Alto,,FALSE,,,,
 VosTV.ni,Vos TV,,,Grupo Pellas,NI,,Managua,general,FALSE,2010-07-27,,,https://www.vostv.com.ni/
@@ -31560,7 +31650,7 @@ WBFFDT1.us,WBFF-DT1,,FOX,,US,US-MD,Baltimore,,FALSE,,,,http://www.foxbaltimore.c
 WBFFDT2.us,WBFF-DT2,,MyNetworkTV,,US,US-MD,Baltimore,,FALSE,,,,
 WBFFDT3.us,WBFF-DT3,,TBD TV,,US,US-MD,Baltimore,,FALSE,,,,
 WBFFDT4.us,WBFF-DT4,,CHARGE!,,US,US-MD,Baltimore,,FALSE,,,,
-WBFSDT1.us,WBFS-DT1,,MyNetworkTV,,US,US-FL,Miami,,FALSE,,,,https://miami.cbslocal.com/
+WBFSDT1.us,WBFS-DT1,CW Miami 33,CW,,US,US-FL,Miami,,FALSE,,,,https://miami.cbslocal.com/
 WBFSDT2.us,WBFS-DT2,,Movies!,,US,US-FL,Miami,,FALSE,,,,
 WBFSDT3.us,WBFS-DT3,,CHARGE!,,US,US-FL,Miami,,FALSE,,,,
 WBFSDT4.us,WBFS-DT4,,TBD TV,,US,US-FL,Miami,,FALSE,,,,
@@ -32563,6 +32653,7 @@ WFORDT4.us,WFOR-DT4,,FAVE TV,,US,US-FL,Miami,,FALSE,,,,
 WFOXDT1.us,WFOX-DT1,,FOX,,US,US-FL,Jacksonville,,FALSE,,,,https://www.fox30jax.com/
 WFOXDT2.us,WFOX-DT2,,MNT/MeTV,,US,US-FL,Jacksonville,,FALSE,,,,
 WFOXDT3.us,WFOX-DT3,,H&I,,US,US-FL,Jacksonville,,FALSE,,,,
+WFOXDT4.us,WFOX-DT4,Telemundo Jacksonville,Telemundo,,US,US-FL,Jacksonville,,FALSE,,,,https://www.actionnewsjax.com/telemundo_jacksonville/
 WFPACD1.us,WFPA-CD1,,UniMás,,US,US-PA,Philadelphia,,FALSE,,,,
 WFPACD2.us,WFPA-CD2,,GetTV,,US,US-PA,Philadelphia,,FALSE,,,,
 WFPACD3.us,WFPA-CD3,,Quest,,US,US-PA,Philadelphia,,FALSE,,,,
@@ -34620,10 +34711,10 @@ Wowly.cl,Wowly,,,Wowly Media Group,CL,,,entertainment,FALSE,,,,https://beta.wowl
 WOWmxTV.mx,WOWmx.TV,,,,MX,,,news,FALSE,,,,https://www.wowmx.tv/
 WowNowKids.us,Wow Now Kids,,,,US,,,kids,FALSE,,,,
 Wowow4K.jp,Wowow 4K,,,,JP,,,,FALSE,,,,
-WOWOWCinema.jp,WOWOW Cinema,,,,JP,,,movies,FALSE,,,,http://www.wowow.co.jp/cinema_ch/
-WOWOWLive.jp,WOWOW Live,,,,JP,,,,FALSE,,,,http://www.wowow.co.jp/live_ch/
+WOWOWCinema.jp,WOWOW Cinema,WOWOWシネマ,,WOWOW INC,JP,,,movies,FALSE,,,,http://www.wowow.co.jp/cinema_ch/
+WOWOWLive.jp,WOWOW Live,WOWOWライブ,,WOWOW INC,JP,,,,FALSE,,,,http://www.wowow.co.jp/live_ch/
 WOWOWPlus.jp,WOWOW Plus,WOWOWプラス,,WOWOW PLUS INC,JP,,,movies,FALSE,,,,https://www.wowowplus.jp/
-WOWOWPrime.jp,WOWOW Prime,,,,JP,,,,FALSE,,,,http://www.wowow.co.jp/prime_ch/
+WOWOWPrime.jp,WOWOW Prime,WOWOWプライム,,WOWOW INC,JP,,,,FALSE,,,,http://www.wowow.co.jp/prime_ch/
 WowShopChinese.my,WowShop Chinese,,,,MY,,,shop,FALSE,,,,https://www.cjwowshop.com.my/
 WowShopMalay.my,WowShop Malay,,,,MY,,,shop,FALSE,,,,https://www.cjwowshop.com.my/
 WOWTDT1.us,WOWT-DT1,,NBC,,US,US-NE,Omaha,,FALSE,,,,http://www.wowt.com/
@@ -34740,7 +34831,7 @@ WPKDDT3.us,WPKD-DT3,,Grit,CBS News and Stations,US,US-PA,Jeannette,entertainment
 WPKDDT4.us,WPKD-DT4,,Movies!,CBS News and Stations,US,US-PA,Jeannette,movies,FALSE,,,,https://www.cbsnews.com/pittsburgh/kdkaplus/
 WPKDDT5.us,WPKD-DT5,,HSN,CBS News and Stations,US,US-PA,Jeannette,shop,FALSE,,,,https://www.cbsnews.com/pittsburgh/kdkaplus/
 WPKDDT6.us,WPKD-DT6,,Nosey,CBS News and Stations,US,US-PA,Jeannette,entertainment,FALSE,,,,https://www.cbsnews.com/pittsburgh/kdkaplus/
-WPLGDT1.us,WPLG-DT1,,ABC,,US,US-FL,Miami,news,FALSE,,,,http://www.local10.com/
+WPLGDT1.us,WPLG-DT1,WPLG Local 10,Independent,,US,US-FL,Miami,news,FALSE,,,,http://www.local10.com/
 WPLGDT2.us,WPLG-DT2,,MeTV,,US,US-FL,Miami,,FALSE,,,,
 WPLGDT3.us,WPLG-DT3,,H&I,,US,US-FL,Miami,,FALSE,,,,
 WPMCCD1.us,WPMC-CD1,,Fox,,US,US-VA,Mappsville,,FALSE,,,,
@@ -35153,7 +35244,7 @@ WRLWCD1.us,WRLW-CD1,,Heartland,,US,US-IN,Salem,,FALSE,,,,https://www.getafteritm
 WRLWCD2.us,WRLW-CD2,,REV'N,,US,US-IN,Salem,,FALSE,,,,
 WRLWCD3.us,WRLW-CD3,,Action,,US,US-IN,Salem,,FALSE,,,,
 WRMDCA1.us,WRMD-CA1,,,,US,,,,FALSE,,,,
-WRMDCD1.us,WRMD-CD1,,Telemundo,,US,US-FL,Tampa,,FALSE,,,,
+WRMDCD1.us,WRMD-CD1,Telemundo 49,Telemundo,,US,US-FL,Tampa,,FALSE,,,,https://www.telemundo49.com/
 WRMTV.tz,WRM TV,,,,TZ,,Dar es Salaam,religious,FALSE,,,,https://wrm.or.tz/
 WRNNDT1.us,WRNN-DT1,,ShopHQ,,US,US-NY,Kingston,,FALSE,,,,http://www.rnntv.com/
 WRNNDT2.us,WRNN-DT2,,Circle,,US,US-NY,Kingston,,FALSE,,,,
@@ -35294,7 +35385,7 @@ WSFGLD5.us,WSFG-LD5,,Family Channel USA,,US,US-AL,Berry,,FALSE,,,,
 WSFGLD6.us,WSFG-LD6,,TBN,,US,US-AL,Berry,,FALSE,,,,
 WSFJDT1.us,WSFJ-DT1,,Bounce,,US,US-OH,Columbus,,FALSE,,,,
 WSFJDT2.us,WSFJ-DT2,,Grit TV,,US,US-OH,Newark,,FALSE,,,,
-WSFLDT1.us,WSFL-DT1,,CW,,US,US-FL,Miami,,FALSE,,,,http://sflcw.com/
+WSFLDT1.us,WSFL-DT1,,Independent,,US,US-FL,Miami,,FALSE,,,,https://www.wsfltv.com/
 WSFLDT2.us,WSFL-DT2,,Court TV,,US,US-FL,Miami,,FALSE,,,,
 WSFLDT3.us,WSFL-DT3,,Antenna,,US,US-FL,Miami,,FALSE,,,,
 WSFLDT4.us,WSFL-DT4,,TrueReal,,US,US-FL,Miami,,FALSE,,,,
@@ -35413,7 +35504,7 @@ WSVIDT3.vi,WSVI-DT3,,VI TV,Atlas News and Information Services Inc,VI,,Christian
 WSVIDT4.vi,WSVI-DT4,,Tracking The Tropics,Atlas News and Information Services Inc,VI,,Christiansted,weather,FALSE,,,,https://publicfiles.fcc.gov/tv-profile/WSVI
 WSVIDT5.vi,WSVI-DT5,,,,VI,,Christiansted,religious,FALSE,,,,https://www.asseenonchannel8.com/
 WSVNDT1.us,WSVN-DT1,,FOX,,US,US-FL,Miami,,FALSE,,,,http://www.wsvn.com/
-WSVNDT2.us,WSVN-DT2,,The Grio,,US,US-FL,Miami,,FALSE,,,,
+WSVNDT2.us,WSVN-DT2,ABC Miami,ABC,,US,US-FL,Miami,,FALSE,2025-08-04,,,https://www.wsvn.com
 WSVNDT3.us,WSVN-DT3,,Ion Plus,Sunbeam Television Corporation,US,US-FL,Miami,entertainment,FALSE,,,,https://wsvn.com/
 WSVTLD1.us,WSVT-LD1,,Daystar,,US,US-FL,Tampa,,FALSE,,,,
 WSWBDT1.us,WSWB-DT1,,CW,,US,US-PA,Scranton,,FALSE,,,,
@@ -35602,7 +35693,7 @@ WTOCDT1.us,WTOC-DT1,,CBS,,US,US-GA,Savannah,,FALSE,,,,http://www.wtoctv.com/
 WTOCDT2.us,WTOC-DT2,,Bounce,,US,US-GA,Savannah,,FALSE,,,,
 WTOCDT3.us,WTOC-DT3,,Circle,,US,US-GA,Savannah,,FALSE,,,,
 WTOCDT4.us,WTOC-DT4,,Grit TV,,US,US-GA,Savannah,,FALSE,,,,
-WTOGDT1.us,WTOG-DT1,,CW,,US,US-FL,Tampa Bay,,FALSE,,,,https://tampa.cbslocal.com/
+WTOGDT1.us,WTOG-DT1,Tampa Bay 44,Independent,,US,US-FL,Tampa Bay,,FALSE,,,,https://www.tampabay44.com/
 WTOGDT2.us,WTOG-DT2,,Start TV,,US,US-FL,Tampa,,FALSE,,,,
 WTOGDT3.us,WTOG-DT3,,FAVE TV,,US,US-FL,Tampa Bay,,FALSE,,,,
 WTOGDT4.us,WTOG-DT4,,Dabl,,US,US-FL,St Petersburg,,FALSE,,,,
@@ -35647,7 +35738,7 @@ WTSPDT1.us,WTSP-DT1,,CBS,,US,US-FL,Tampa Bay,,FALSE,,,,http://www.tampabays10.co
 WTSPDT2.us,WTSP-DT2,,Twist,,US,US-FL,St Petersburg,,FALSE,,,,
 WTSPDT3.us,WTSP-DT3,,True Crime Network,,US,US-FL,Tampa,,FALSE,,,,
 WTSPDT4.us,WTSP-DT4,,Quest,,US,US-FL,Tampa,,FALSE,,,,
-WTTADT1.us,WTTA-DT1,,MyNetworkTV,,US,US-FL,Tampa Bay,,FALSE,,,,https://www.wfla.com/great-38/
+WTTADT1.us,WTTA-DT1,CW Tampa Bay,CW,,US,US-FL,Tampa Bay,,FALSE,,,,https://www.wfla.com/the-cw-tampa-bay/
 WTTADT2.us,WTTA-DT2,,Cozi TV,,US,US-FL,St Petersburg,,FALSE,,,,
 WTTEDT1.us,WTTE-DT1,,TBD TV,,US,US-OH,Columbus,,FALSE,,,,http://www.wtte28.com/
 WTTEDT2.us,WTTE-DT2,,Antenna,,US,US-OH,Columbus,,FALSE,,,,
@@ -36786,6 +36877,7 @@ YantaiComprehensiveNewsChannel.cn,Yantai Comprehensive News Channel,新闻综合
 YantaiEconomyScienceTechnologyChannel.cn,Yantai Economy Science & Technology Channel,经济科技频道,,,CN,,Yantai,science;education,FALSE,1984-07-01,,,http://www.yantaitv.cn/
 YantaiMovieChannel.cn,Yantai Movie Channel,影视频道,,,CN,,Yantai,movies,FALSE,1984-07-01,,,
 YantaiPublicChannel.cn,Yantai Public Channel,公共频道,,,CN,,Yantai,general,FALSE,2005-01-10,,,
+YaPervyy.ru,YaPervyy,ЯПервый;Первый Ярославский,,,RU,RU-YAR,,general,FALSE,2013-09-16,,,https://1yar.tv/
 Yaquelaveritequicompte.us,Y'a que la verite qui compte,Y'a que la vérité qui compte,Pluto TV,,US,,,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/y-a-que-la-verite-qui-compte-fr
 YaracuyanaTV.ve,Yaracuyana TV,,,,VE,,San Felipe,general,FALSE,,,,
 Yaravision.ve,Yaravision,,,,VE,,Chivacoa,general,FALSE,,,,
@@ -36979,6 +37071,7 @@ ZanTV.af,Zan TV,تلویزیون زن,,Hamid Samar,AF,,Kabul,lifestyle,FALSE,,,,
 ZaozhuangComprehensiveNewsChannel.cn,Zaozhuang Comprehensive News Channel,新闻综合频道,,,CN,,Zaozhuang,news,FALSE,1985-10-01,,,http://www.lncm.cn/zhibo/list.php?catid=63
 ZaozhuangLifestyleEducationChannel.cn,Zaozhuang Lifestyle & Education Channel,生活教育频道,,,CN,,Zaozhuang,lifestyle;education,FALSE,,,,
 ZaozhuangPublicChannel.cn,Zaozhuang Public Channel,公共频道,,,CN,,Zaozhuang,general,FALSE,1993-01-01,,,
+Zapad24.ru,Zapad 24,Запад 24,ВГТРК,ВГТРК,RU,RU-KGD,,general,FALSE,,,,
 ZapadoslovenskaTV.sk,Zapadoslovenska TV,Západoslovenská TV;ZSTV,,,SK,,Bratislava,general,FALSE,,,,https://zstv.sk/
 ZapFilmes1.ao,Zap Filmes 1,,,ZAP Telecomunicações,AO,,Luanda,movies,FALSE,,,,https://www.zap.co.ao/
 ZapFilmes2.ao,Zap Filmes 2,,,ZAP Telecomunicações,AO,,Luanda,movies,FALSE,,,,https://www.zap.co.ao/

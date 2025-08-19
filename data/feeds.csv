@@ -1726,7 +1726,7 @@ Antena21.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 Antena3.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 Antena3CNN.ro,HD,HD,,FALSE,c/RO,Europe/Bucharest,ron,1080i
 Antena3CNN.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
-Antena3Internacional.es,SD,SD,,TRUE,r/HISPAM,Europe/Madrid,spa,576i
+Antena3Internacional.es,SD,SD,,TRUE,c/ES;r/HISPAM,Europe/Madrid,spa,576i
 Antena4Jardin.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 Antena7.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 Antena91.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
@@ -4070,6 +4070,7 @@ CAMED.us,SD,SD,,TRUE,s/US-MA,America/New_York,eng,480i
 CameradeiDeputati.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 CameraSmileTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 CaminoRealTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
+CaminosMedia.ve,HD,HD,,TRUE,c/VE,America/Caracas,spa,1080p
 CamnetTV.zm,SD,SD,,TRUE,c/ZM,Africa/Lusaka,eng,576i
 CamoesTV.ca,SD,SD,,TRUE,c/CA;c/PT,America/Toronto,eng;por,480i
 CampeonesTV.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,480i
@@ -21170,6 +21171,7 @@ NationalGeographic.uk,SD,SD,,TRUE,c/UK;c/IS;c/MT;c/IE,Europe/London,eng,576i
 NationalGeographic.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 NationalGeographic.us,HDEast,HD East,,FALSE,c/US,America/New_York,eng,1080i
 NationalGeographic.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
+NationalGeographicAbuDhabi.ae,HD,HD,,FALSE,r/ARAB,Asia/Dubai,ara,1080p
 NationalGeographicAbuDhabi.ae,SD,SD,,TRUE,r/ARAB,Asia/Dubai,ara,576i
 NationalGeographicLatinAmerica.us,Panregional,Panregional,,TRUE,r/LATAM;r/CARIB,America/New_York,spa,480i
 NationalGeographicLatinAmerica.us,South,South,,FALSE,c/AR;c/PY;c/UY,America/New_York,spa,480i
@@ -30581,7 +30583,7 @@ TPA2.ao,SD,SD,,TRUE,c/AO,Africa/Luanda,por,576i
 TPA7.es,SD,SD,,TRUE,s/ES-AS,Europe/Madrid,spa,576i
 TPA8.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 TPA9HD.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
-TPAi.ao,SD,SD,,TRUE,r/INT,Africa/Luanda,por,576i
+TPAi.ao,SD,SD,,TRUE,r/EUR,Africa/Luanda,por,576i
 TPANoticias.ao,SD,SD,,TRUE,c/AO,Africa/Luanda,por,576i
 TPlusE.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 TPTOChannel.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i

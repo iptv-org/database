@@ -15,7 +15,8 @@ export class FeedValidator extends Validator {
       countriesKeyByCode,
       subdivisionsKeyByCode,
       regionsKeyByCode,
-      timezonesKeyById
+      timezonesKeyById,
+      citiesKeyByCode
     }: DataLoaderData = this.data
 
     const errors = new Collection()
@@ -44,7 +45,12 @@ export class FeedValidator extends Validator {
     }
 
     if (
-      !feed.hasValidBroadcastAreaCodes(countriesKeyByCode, subdivisionsKeyByCode, regionsKeyByCode)
+      !feed.hasValidBroadcastAreaCodes(
+        countriesKeyByCode,
+        subdivisionsKeyByCode,
+        regionsKeyByCode,
+        citiesKeyByCode
+      )
     ) {
       errors.add({
         line: feed.getLine(),

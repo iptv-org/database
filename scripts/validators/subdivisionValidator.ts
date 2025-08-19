@@ -10,7 +10,7 @@ export class SubdivisionValidator extends Validator {
   }
 
   validate(subdivision: Subdivision): Collection {
-    const { countriesKeyByCode }: DataLoaderData = this.data
+    const { countriesKeyByCode, subdivisionsKeyByCode }: DataLoaderData = this.data
 
     const errors = new Collection()
 
@@ -28,6 +28,13 @@ export class SubdivisionValidator extends Validator {
       errors.add({
         line: subdivision.getLine(),
         message: `"${subdivision.code}" has an invalid country "${subdivision.countryCode}"`
+      })
+    }
+
+    if (!subdivision.hasValidParent(subdivisionsKeyByCode)) {
+      errors.add({
+        line: subdivision.getLine(),
+        message: `"${subdivision.code}" has an invalid parent "${subdivision.parent}"`
       })
     }
 

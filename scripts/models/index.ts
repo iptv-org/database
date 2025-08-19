@@ -1,6 +1,7 @@
 export * from './blocklistRecord'
 export * from './category'
 export * from './channel'
+export * from './city'
 export * from './country'
 export * from './feed'
 export * from './language'

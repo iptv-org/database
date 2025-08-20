@@ -8,65 +8,25 @@
 
 ## How to?
 
-### How to add a new channel to the database?
+### How to add a new entry to the database?
 
-The easiest way is to send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aadd&projects=&template=01_channels_add.yml&title=Add%3A+). Just fill in all the information you know about the channel and press send. Once your request is approved, the channel will automatically be added to the database.
+The easiest way is to submit a request using one of the available [forms](https://github.com/iptv-org/database/issues/new/choose). Simply enter all the information you know and click "Submit". Once your request is approved, the entry will be automatically added to the database.
 
-If you want to add more than one channel, you can do it directly by editing the [data/channels.csv](data/channels.csv) file in any text editor. After that, just [commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) all changes and send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
-
-**IMPORTANT:** Before sending the request, make sure that the number of columns in the file has not changed and that all rows end with [CRLF](https://developer.mozilla.org/en-US/docs/Glossary/CRLF). Otherwise we will not be able to review this request.
-
-### How to edit channel description?
-
-As with adding a channel, this can be done in several ways.
-
-The first option is to send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aedit&projects=&template=02_channels_edit.yml&title=Edit%3A+). Just specify the ID of the channel you want to edit and the new data. To delete a value, insert `~` in the desired field. After your request is approved, the channel description will be automatically updated.
-
-The second option is to edit the [data/channels.csv](data/channels.csv) file using a text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
+If you want to add more than one entry, you can do so directly by editing the file in the [data/](data/) folder using any text editor. After that, just [commit](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits) all changes and send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
 **IMPORTANT:** Before sending the request, make sure that the number of columns in the file has not changed and that all rows end with [CRLF](https://developer.mozilla.org/en-US/docs/Glossary/CRLF). Otherwise we will not be able to review this request.
 
-### How to remove a channel from the database?
+### How to edit a database entry?
 
-To remove a channel fill out this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aremove&projects=&template=03_channels_remove.yml&title=Remove%3A+) with channel ID and the reason for deletion.
+The first option is to send a request through one of the available [forms](https://github.com/iptv-org/database/issues/new/choose). Simply enter the new data in the form and click "Submit". To delete a value, insert `~` in the desired field. Once your request has been approved, the entry will be automatically updated.
 
-**NOTE:** Closing a channel is not a reason to remove it from the database.
+The second option is to edit the file in the [data/](data/) folder using any text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
-### How to mark a channel as closed?
+**IMPORTANT:** Before sending the request, make sure that the number of columns in the file has not changed and that all rows end with [CRLF](https://developer.mozilla.org/en-US/docs/Glossary/CRLF). Otherwise we will not be able to review this request.
 
-To do this, use this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=channels%3Aedit&projects=&template=02_channels_edit.yml&title=Edit%3A+). In it, in the "Closed" field you will need to specify at least the approximate date of closing. And there you can also specify the ID of the channel that replaced it, if necessary.
+### How to delete an entry from the database?
 
-### How to add a new feed to the database?
-
-_Option 1:_ Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aadd&projects=&template=04_feeds_add.yml&title=Add%3A+). Fill in all the information you know about the feed and press send. Once your request is approved, the feed will automatically be added to the database.
-
-_Option 2:_ Edit the [data/feeds.csv](data/feeds.csv) file using a text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
-
-### How to edit feed description?
-
-_Option 1:_ Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aedit&projects=&template=05_feeds_edit.yml&title=Edit%3A+). Specify the ID of the channel and feed you want to edit and the new data. To delete a value, insert `~` in the desired field. After your request is approved, the feed description will be automatically updated.
-
-_Option 2:_ Edit the [data/feeds.csv](data/feeds.csv) file using a text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
-
-### How to remove a feed from the database?
-
-Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=feeds%3Aremove&projects=&template=06_feeds_remove.yml&title=Remove%3A+). Once your request is approved, the feed will automatically be removed from the database.
-
-### How to add a new logo to the database?
-
-_Option 1:_ Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=logos%3Aadd&projects=&template=07_logos_add.yml&title=Add%3A+). Fill in all the information you know about the logo and press send. Once your request is approved, the logo will automatically be added to the database.
-
-_Option 2:_ Edit the [data/logos.csv](data/logos.csv) file using a text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
-
-### How to edit logo description?
-
-_Option 1:_ Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=logos%3Aedit&projects=&template=08_logos_edit.yml&title=Edit%3A+). Specify the ID of the channel and logo you want to edit and the new data. To delete a value, insert `~` in the desired field. After your request is approved, the logo description will be automatically updated.
-
-_Option 2:_ Edit the [data/logos.csv](data/logos.csv) file using a text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
-
-### How to remove a logo from the database?
-
-Send a request through this [form](https://github.com/iptv-org/database/issues/new?assignees=&labels=logos%3Aremove&projects=&template=09_logos_remove.yml&title=Remove%3A+). Once your request is approved, the logo will automatically be removed from the database.
+To do this, you need to fill out one of the [forms](https://github.com/iptv-org/database/issues/new/choose), and once your request has been approved, the entry will be automatically deleted.
 
 ## Data Scheme
 
@@ -91,17 +51,17 @@ Send a request through this [form](https://github.com/iptv-org/database/issues/n
 
 ### feeds
 
-| Field          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | Required | Example                      |
-| -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------- |
-| channel        | ID of the channel to which this feed belongs.                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Required | `France3.fr`                 |
-| id             | Unique feed ID derived from the `name`. May only contain Latin letters and numbers.                                                                                                                                                                                                                                                                                                                                                                                                                            | Required | `Mediterranee`               |
-| name           | Name of the feed in English. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, <code>\|</code>, `¡`.                                                                                                                                                                                                                                                                                                                                              | Required | `Mediterranee`               |
-| alt_names      | List of alternative feed names separated by `;`. May contain any characters except `,` and `"`.                                                                                                                                                                                                                                                                                                                                                                                                                | Optional | `Méditerranée;Mediterranean` |
-| is_main        | Indicates if this feed is the main for the channel (`TRUE` or `FALSE`).                                                                                                                                                                                                                                                                                                                                                                                                                                        | Required | `FALSE`                      |
-| broadcast_area | List of codes describing the broadcasting area of the feed separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>` is allowed. A full list of supported codes can be found here: [data/countries.csv](https://github.com/iptv-org/database/blob/master/data/countries.csv), [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv), [data/regions.csv](https://github.com/iptv-org/database/blob/master/data/regions.csv). | Required | `s/FR-IDF;s/FR-NOR`          |
-| timezones      | List of timezones in which the feed is broadcast separated by `;`. A list of all supported timezones and their codes can be found in [data/timezones.csv](data/timezones.csv).                                                                                                                                                                                                                                                                                                                                 | Required | `Europe/Paris`               |
-| languages      | List of languages in which the feed is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](data/languages.csv).                                                                                                                                                                                                                                                                                                                                 | Required | `fra;eng`                    |
-| format         | Video format of the feed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | Required | `1080i`                      |
+| Field          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Required | Example                      |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ---------------------------- |
+| channel        | ID of the channel to which this feed belongs.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Required | `France3.fr`                 |
+| id             | Unique feed ID derived from the `name`. May only contain Latin letters and numbers.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   | Required | `Mediterranee`               |
+| name           | Name of the feed in English. May include: `a-z`, `0-9`, `space`, `-`, `!`, `:`, `&`, `.`, `+`, `'`, `/`, `»`, `#`, `%`, `°`, `$`, `@`, `?`, <code>\|</code>, `¡`.                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Required | `Mediterranee`               |
+| alt_names      | List of alternative feed names separated by `;`. May contain any characters except `,` and `"`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Optional | `Méditerranée;Mediterranean` |
+| is_main        | Indicates if this feed is the main for the channel (`TRUE` or `FALSE`).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | Required | `FALSE`                      |
+| broadcast_area | List of codes describing the broadcasting area of the feed separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`, `ct/<city_code>` is allowed. A full list of supported codes can be found here: [data/regions.csv](https://github.com/iptv-org/database/blob/master/data/regions.csv), [data/countries.csv](https://github.com/iptv-org/database/blob/master/data/countries.csv), [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv), [data/cities.csv](https://github.com/iptv-org/database/blob/master/data/cities.csv). | Required | `s/FR-IDF;s/FR-NOR`          |
+| timezones      | List of timezones in which the feed is broadcast separated by `;`. A list of all supported timezones and their codes can be found in [data/timezones.csv](data/timezones.csv).                                                                                                                                                                                                                                                                                                                                                                                                                                        | Required | `Europe/Paris`               |
+| languages      | List of languages in which the feed is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](data/languages.csv).                                                                                                                                                                                                                                                                                                                                                                                                                                        | Required | `fra;eng`                    |
+| format         | Video format of the feed.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Required | `1080i`                      |
 
 ### logos
 
@@ -141,11 +101,22 @@ Send a request through this [form](https://github.com/iptv-org/database/issues/n
 
 ### subdivisions
 
-| Field   | Description                                                                                | Required | Example            |
-| ------- | ------------------------------------------------------------------------------------------ | -------- | ------------------ |
-| country | [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code of the country | Required | `CA`               |
-| name    | Official subdivision name                                                                  | Required | `British Columbia` |
-| code    | [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) code of the subdivision             | Required | `CA-BC`            |
+| Field   | Description                                                                                | Required | Example     |
+| ------- | ------------------------------------------------------------------------------------------ | -------- | ----------- |
+| country | [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code of the country | Required | `BD`        |
+| name    | Official subdivision name                                                                  | Required | `Bandarban` |
+| code    | [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) code of the subdivision             | Required | `BD-01`     |
+| parent  | [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) code of the parent subdivision      | Optional | `BD-B`      |
+
+### cities
+
+| Field       | Description                                                                                                          | Required | Example   |
+| ----------- | -------------------------------------------------------------------------------------------------------------------- | -------- | --------- |
+| country     | [ISO 3166-1 alpha-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code of the country where the city is located | Required | `CN`      |
+| subdivision | [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-2) code of the subdivision where the city is located             | Optional | `CN-SD`   |
+| name        | Official city name                                                                                                   | Required | `Yantai`  |
+| code        | [UN/LOCODE](https://en.wikipedia.org/wiki/UN/LOCODE) of the city                                                     | Required | `CNYAT`   |
+| wikidata_id | ID of this city in [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)                                      | Required | `Q210493` |
 
 ### regions
 

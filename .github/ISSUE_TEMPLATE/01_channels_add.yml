@@ -1,4 +1,4 @@
-name: ➕ Add channel
+name: '➕ channels/add'
 description: Request to add a channel into the database
 title: 'Add: '
 labels: ['channels:add']
@@ -19,7 +19,7 @@ body:
       required: true
 
   - type: input
-    id: alt_name
+    id: alt_names
     attributes:
       label: Alternative Names (optional)
       description: List of alternative channel names separated by `;`. May contain any characters except `,` and `"`

@@ -15,6 +15,7 @@ import {
   Category,
   Logo
 } from '../models'
+import { City } from '../models/city'
 
 export class DataLoader {
   storage: Storage
@@ -37,6 +38,8 @@ export class DataLoader {
       timezones: new Collection(),
       regions: new Collection(),
       subdivisions: new Collection(),
+      cities: new Collection(),
+      citiesKeyByCode: new Dictionary(),
       countries: new Collection(),
       feedsGroupedByChannelId: new Dictionary(),
       feedsKeyByStreamId: new Dictionary(),
@@ -159,6 +162,12 @@ export class DataLoader {
           data.subdivisionsKeyByCode = subdivisions.keyBy(
             (subdivision: Subdivision) => subdivision.code
           )
+          break
+        }
+        case 'cities': {
+          const cities = parsed.map((row: CSVParserRow) => new City(row.data).setLine(row.line))
+          data.cities = cities
+          data.citiesKeyByCode = cities.keyBy((subdivision: Subdivision) => subdivision.code)
           break
         }
       }

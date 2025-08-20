@@ -1,0 +1,52 @@
+name: '✏️ cities/edit'
+description: Request to edit city description
+title: 'Edit: '
+labels: ['cities:edit']
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please specify exactly what should be changed. To delete an existing value without replacement use the `~` symbol.
+
+  - type: input
+    id: city_code
+    attributes:
+      label: City Code (required)
+      description: The code of the city that should be updated
+      placeholder: 'CNYAT'
+    validations:
+      required: true
+
+  - type: input
+    id: city_name
+    attributes:
+      label: City Name
+      description: Official name of the city
+      placeholder: 'Yantai'
+
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: Country code where the city is located. A list of all supported countries and their codes can be found in [data/countries.csv](https://github.com/iptv-org/database/blob/master/data/countries.csv) 
+      placeholder: 'CN'
+
+  - type: input
+    id: subdivision
+    attributes:
+      label: Subdivision
+      description: Code of the subdivision in which the city is located. A list of all supported subdivisions and their codes can be found in [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv)
+      placeholder: 'CN-SD'
+
+  - type: input
+    id: wikidata_id
+    attributes:
+      label: Wikidata ID
+      description: ID of this city in [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
+      placeholder: 'Q210493'
+
+  - type: textarea
+    attributes:
+      label: Notes
+      description: 'Anything else we should know?'

@@ -1,2 +1,3 @@
-country,name,code
-AD,Andorra la Vella,AD-07
+country,code,name,parent
+AD,AD-07,Andorra la Vella,
+AD,AD-02,Canillo,AD-05

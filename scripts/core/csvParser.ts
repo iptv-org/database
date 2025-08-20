@@ -28,7 +28,8 @@ const opts = {
     feed: nullable,
     tags: listParser,
     width: numberParser,
-    height: numberParser
+    height: numberParser,
+    parent: nullable
   }
 }
 

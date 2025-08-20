@@ -1,6 +1,7 @@
 export * from './blocklistRecordValidator'
 export * from './categoryValidator'
 export * from './channelValidator'
+export * from './cityValidator'
 export * from './countryValidator'
 export * from './feedValidator'
 export * from './languageValidator'

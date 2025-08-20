@@ -1,0 +1,58 @@
+name: '➕ cities/add'
+description: Request to add a city into the database
+title: 'Add: '
+labels: ['cities:add']
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the form as much as you can so we could efficiently process your request.
+
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: Country code where the city is located. A list of all supported countries and their codes can be found in [data/countries.csv](https://github.com/iptv-org/database/blob/master/data/countries.csv) 
+      placeholder: 'CN'
+    validations:
+      required: true
+
+  - type: input
+    id: subdivision
+    attributes:
+      label: Subdivision (optional)
+      description: Code of the subdivision in which the city is located. A list of all supported subdivisions and their codes can be found in [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv)
+      placeholder: 'CN-SD'
+
+  - type: input
+    id: city_name
+    attributes:
+      label: City Name
+      description: Official name of the city
+      placeholder: 'Yantai'
+    validations:
+      required: true
+
+  - type: input
+    id: city_code
+    attributes:
+      label: City Code
+      description: [UN/LOCODE](https://en.wikipedia.org/wiki/UN/LOCODE) of the city. The complete list of codes can be found at [unlocode.info](https://unlocode.info/)
+      placeholder: 'CNYAT'
+    validations:
+      required: true
+
+  - type: input
+    id: wikidata_id
+    attributes:
+      label: Wikidata ID
+      description: ID of this city in [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
+      placeholder: 'Q210493'
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Notes (optional)
+      description: 'Anything else we should know?'

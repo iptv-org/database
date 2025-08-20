@@ -1,5 +1,5 @@
 import { CSV, IssueLoader, Issue, IssueData, ImageProcessor } from '../../core'
-import { Channel, Feed, BlocklistRecord, Logo } from '../../models'
+import { Channel, Feed, BlocklistRecord, Logo, City } from '../../models'
 import { Storage, Collection, Logger } from '@freearhey/core'
 import { createChannelId, createFeedId } from '../../utils'
 import { DataLoaderData } from '../../types/dataLoader'
@@ -30,6 +30,9 @@ async function main() {
   await removeChannels(issues, data)
   await editChannels(issues, data)
   await addChannels(issues, data)
+  await removeCities(issues, data)
+  await editCities(issues, data)
+  await addCities(issues, data)
   await blockChannels(issues, data)
   await unblockChannels(issues, data)
 
@@ -66,6 +69,17 @@ async function save(data: DataLoaderData) {
     .map((logo: Logo) => logo.data())
   const logosOutput = new CSV({ items: logos }).toString()
   await dataStorage.save('logos.csv', logosOutput)
+
+  const cities = data.cities
+    .orderBy(
+      (city: City) =>
+        `${city.countryCode}_${city.subdivisionCode || ''}_${city.code}`.toLowerCase(),
+      'asc',
+      true
+    )
+    .map((city: City) => city.data())
+  const citiesOutput = new CSV({ items: cities }).toString()
+  await dataStorage.save('cities.csv', citiesOutput)
 }
 
 async function removeLogos(issues: Collection, data: DataLoaderData) {
@@ -398,6 +412,83 @@ async function addChannels(issues: Collection, data: DataLoaderData) {
   }
 }
 
+async function removeCities(issues: Collection, data: DataLoaderData) {
+  const requests = issues.filter(
+    issue => issue.labels.includes('cities:remove') && issue.labels.includes('approved')
+  )
+
+  requests.forEach((issue: Issue) => {
+    const issueData: IssueData = issue.data
+
+    const cityCode = issueData.getString('city_code')
+    if (!cityCode) return
+
+    const found: City = data.cities.first((city: City) => city.code === cityCode)
+    if (!found) return
+
+    data.cities.remove((city: City) => city.code === found.code)
+
+    onCityRemoval(found.code, data)
+
+    processedIssues.push(issue)
+  })
+}
+
+async function editCities(issues: Collection, data: DataLoaderData) {
+  const requests = issues.filter(
+    issue => issue.labels.includes('cities:edit') && issue.labels.includes('approved')
+  )
+
+  requests.forEach((issue: Issue) => {
+    const issueData: IssueData = issue.data
+
+    const cityCode = issueData.getString('city_code')
+    if (!cityCode) return
+
+    const found: City = data.cities.first((city: City) => city.code === cityCode)
+    if (!found) return
+
+    found.update(issueData)
+
+    processedIssues.push(issue)
+  })
+}
+
+async function addCities(issues: Collection, data: DataLoaderData) {
+  const requests = issues.filter(
+    issue => issue.labels.includes('cities:add') && issue.labels.includes('approved')
+  )
+
+  for (const issue of requests.all()) {
+    const issueData: IssueData = issue.data
+
+    if (
+      issueData.missing('country') ||
+      issueData.missing('city_name') ||
+      issueData.missing('city_code') ||
+      issueData.missing('wikidata_id')
+    )
+      continue
+
+    const cityCode = issueData.getString('city_code')
+    if (!cityCode) continue
+
+    const found: City = data.cities.first((city: City) => city.code === cityCode)
+    if (found) continue
+
+    const newCity = new City({
+      code: cityCode,
+      name: issueData.getString('city_name') || '',
+      country: issueData.getString('country') || '',
+      subdivision: issueData.getString('subdivision') || null,
+      wikidata_id: issueData.getString('wikidata_id') || ''
+    })
+    data.cities.add(newCity)
+
+    processedIssues.push(issue)
+  }
+}
+
 async function blockChannels(issues: Collection, data: DataLoaderData) {
   const requests = issues.filter(
     issue => issue.labels.includes('blocklist:add') && issue.labels.includes('approved')
@@ -539,6 +630,7 @@ async function onChannelAddition(channelId: string, issueData: IssueData, data: 
     channel: channelId,
     id: createFeedId(feedName),
     name: feedName,
+    alt_names: [],
     is_main: true,
     broadcast_area: issueData.getArray('broadcast_area') || [],
     timezones: issueData.getArray('timezones') || [],
@@ -560,4 +652,15 @@ async function onChannelAddition(channelId: string, issueData: IssueData, data: 
     url: logoUrl
   })
   data.logos.add(newLogo)
+}
+
+async function onCityRemoval(cityCode: string, data: DataLoaderData) {
+  const broadcastAreaCode = `ct/${cityCode}`
+  data.feeds.forEach((feed: Feed) => {
+    if (feed.broadcastAreaCodes.includes(broadcastAreaCode)) {
+      feed.broadcastAreaCodes = feed.broadcastAreaCodes.filter(
+        (areaCode: string) => areaCode !== broadcastAreaCode
+      )
+    }
+  })
 }

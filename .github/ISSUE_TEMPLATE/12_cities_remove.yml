@@ -1,0 +1,29 @@
+name: '🗑️ cities/remove'
+description: Request to remove a city from the database
+title: 'Remove: '
+labels: ['cities:remove']
+
+body:
+  - type: input
+    id: city_code
+    attributes:
+      label: City Code
+      description: The code of the city that should be removed
+      placeholder: 'CNYAT'
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: Reason
+      description: Select the reason for removal from the list below
+      options:
+        - 'Not a city'
+        - 'Other'
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Notes (optional)
+      description: 'Anything else we should know?'

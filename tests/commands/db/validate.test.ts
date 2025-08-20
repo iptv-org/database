@@ -1,5 +1,4 @@
 import { execSync } from 'child_process'
-import os from 'os'
 
 type ExecError = {
   status: number
@@ -8,10 +7,7 @@ type ExecError = {
 
 describe('db:validate', () => {
   it('shows an error if the number of columns in a row is incorrect', () => {
-    let ENV_VAR = 'DATA_DIR=tests/__data__/input/db/validate/wrong_num_cols'
-    if (os.platform() === 'win32') {
-      ENV_VAR = 'SET "DATA_DIR=tests/__data__/input/db/validate/wrong_num_cols" &&'
-    }
+    const ENV_VAR = 'cross-env DATA_DIR=tests/__data__/input/db/validate/wrong_num_cols'
     const cmd = `${ENV_VAR} npm run db:validate`
     try {
       const stdout = execSync(cmd, { encoding: 'utf8' })
@@ -25,10 +21,7 @@ describe('db:validate', () => {
   })
 
   it('shows an error if one of the lines ends with an invalid character', () => {
-    let ENV_VAR = 'DATA_DIR=tests/__data__/input/db/validate/invalid_line_ending'
-    if (os.platform() === 'win32') {
-      ENV_VAR = 'SET "DATA_DIR=tests/__data__/input/db/validate/invalid_line_ending" &&'
-    }
+    const ENV_VAR = 'cross-env DATA_DIR=tests/__data__/input/db/validate/invalid_line_ending'
     const cmd = `${ENV_VAR} npm run db:validate`
     try {
       const stdout = execSync(cmd, { encoding: 'utf8' })
@@ -44,10 +37,7 @@ describe('db:validate', () => {
   })
 
   it('shows an error if there are duplicates in the file', () => {
-    let ENV_VAR = 'DATA_DIR=tests/__data__/input/db/validate/duplicate'
-    if (os.platform() === 'win32') {
-      ENV_VAR = 'SET "DATA_DIR=tests/__data__/input/db/validate/duplicate" &&'
-    }
+    const ENV_VAR = 'cross-env DATA_DIR=tests/__data__/input/db/validate/duplicate'
     const cmd = `${ENV_VAR} npm run db:validate`
     try {
       const stdout = execSync(cmd, { encoding: 'utf8' })
@@ -71,10 +61,7 @@ describe('db:validate', () => {
   })
 
   it('shows an error if the data contains an error', () => {
-    let ENV_VAR = 'DATA_DIR=tests/__data__/input/db/validate/invalid_value'
-    if (os.platform() === 'win32') {
-      ENV_VAR = 'SET "DATA_DIR=tests/__data__/input/db/validate/invalid_value" &&'
-    }
+    const ENV_VAR = 'cross-env DATA_DIR=tests/__data__/input/db/validate/invalid_value'
     const cmd = `${ENV_VAR} npm run db:validate`
     try {
       const stdout = execSync(cmd, { encoding: 'utf8' })
@@ -112,15 +99,19 @@ describe('db:validate', () => {
       )
       expect((error as ExecError).stdout).toContain('"1NOMO.vu" is missing from the channels.csv')
       expect((error as ExecError).stdout).toContain('"DD" is missing from the feeds.csv')
-      expect((error as ExecError).stdout).toContain('14 error(s)')
+      expect((error as ExecError).stdout).toContain('"AD-02" has an invalid parent "AD-05"')
+      expect((error as ExecError).stdout).toContain('city with code "ADCAN" already exists')
+      expect((error as ExecError).stdout).toContain(
+        'city with wikidata_id "Q386802" already exists'
+      )
+      expect((error as ExecError).stdout).toContain('"ADENC" has an invalid country "BD"')
+      expect((error as ExecError).stdout).toContain('"ADENC" has an invalid subdivision "BD-03"')
+      expect((error as ExecError).stdout).toContain('19 error(s)')
     }
   })
 
   it('does not show an error if all data are correct', () => {
-    let ENV_VAR = 'DATA_DIR=tests/__data__/input/db/validate/valid_data'
-    if (os.platform() === 'win32') {
-      ENV_VAR = 'SET "DATA_DIR=tests/__data__/input/db/validate/valid_data" &&'
-    }
+    const ENV_VAR = 'cross-env DATA_DIR=tests/__data__/input/db/validate/valid_data'
     const cmd = `${ENV_VAR} npm run db:validate`
     try {
       const stdout = execSync(cmd, { encoding: 'utf8' })

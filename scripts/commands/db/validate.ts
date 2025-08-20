@@ -13,6 +13,7 @@ import {
   Channel,
   Country,
   Region,
+  City,
   Feed,
   Logo
 } from '../../models'
@@ -25,6 +26,7 @@ import {
   ChannelValidator,
   CountryValidator,
   RegionValidator,
+  CityValidator,
   FeedValidator,
   LogoValidator
 } from '../../validators'
@@ -42,6 +44,7 @@ async function main() {
   validateRegions(data)
   validateBlocklist(data)
   validateCategories(data)
+  validateCities(data)
   validateCountries(data)
   validateSubdivisions(data)
   validateLanguages(data)
@@ -215,6 +218,33 @@ function validateSubdivisions(data: DataLoaderData) {
   })
 
   if (errors.count()) displayErrors('subdivisions.csv', errors)
+
+  totalErrors += errors.count()
+}
+
+function validateCities(data: DataLoaderData) {
+  let errors = new Collection()
+
+  findDuplicatesBy(data.cities, ['code']).forEach((city: City) => {
+    errors.add({
+      line: city.getLine(),
+      message: `city with code "${city.code}" already exists`
+    })
+  })
+
+  findDuplicatesBy(data.cities, ['wikidataId']).forEach((city: City) => {
+    errors.add({
+      line: city.getLine(),
+      message: `city with wikidata_id "${city.wikidataId}" already exists`
+    })
+  })
+
+  const validator = new CityValidator({ data })
+  data.cities.forEach((city: City) => {
+    errors = errors.concat(validator.validate(city))
+  })
+
+  if (errors.count()) displayErrors('cities.csv', errors)
 
   totalErrors += errors.count()
 }

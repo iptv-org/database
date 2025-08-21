@@ -2,4 +2,4 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 KSTVKids.ua,HD,HD,,TRUE,c/UA,America/Santo_Domingo,ukr,480i
 PeoplesWeather.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 PeoplesWeather.do,HD,HD,,FALSE,c/DO,America/Santo_Domingo,spa,1080i
-PeoplesWeather.do,West,West,,FALSE,c/DO,America/Santo_Domingo,spa,1080i
+PeoplesWeather.do,West,West,,FALSE,c/DO;ct/DOSCL,America/Santo_Domingo,spa,1080i

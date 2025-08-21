@@ -8,7 +8,7 @@
     "db:export": "tsx scripts/commands/db/export.ts",
     "db:update": "tsx scripts/commands/db/update.ts",
     "lint": "npx eslint \"{scripts,tests}/**/*.{ts,js}\"",
-    "test": "jest --runInBand",
+    "test": "cross-env npx jest --runInBand",
     "prepare": "husky"
   },
   "private": true,
@@ -40,6 +40,7 @@
     "async-es": "^3.2.6",
     "chalk": "^5.4.1",
     "commander": "^14.0.0",
+    "cross-env": "^10.0.0",
     "csvtojson": "^2.0.10",
     "eslint": "^9.19.0",
     "eslint-config-prettier": "^10.1.8",

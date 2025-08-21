@@ -81,7 +81,8 @@ export class Feed extends Model {
   hasValidBroadcastAreaCodes(
     countriesKeyByCode: Dictionary,
     subdivisionsKeyByCode: Dictionary,
-    regionsKeyByCode: Dictionary
+    regionsKeyByCode: Dictionary,
+    citiesKeyByCode: Dictionary
   ): boolean {
     const hasInvalid = this.broadcastAreaCodes.find((areaCode: string) => {
       const [type, code] = areaCode.split('/')
@@ -92,6 +93,8 @@ export class Feed extends Model {
           return subdivisionsKeyByCode.missing(code)
         case 'r':
           return regionsKeyByCode.missing(code)
+        case 'ct':
+          return citiesKeyByCode.missing(code)
       }
     })
 
@@ -136,7 +139,7 @@ export class Feed extends Model {
       is_main: Joi.boolean().strict().required(),
       broadcast_area: Joi.array().items(
         Joi.string()
-          .regex(/^(s\/[A-Z]{2}-[A-Z0-9]{1,3}|c\/[A-Z]{2}|r\/[A-Z0-9]{2,7})$/)
+          .regex(/^(s\/[A-Z]{2}-[A-Z0-9]{1,3}|c\/[A-Z]{2}|r\/[A-Z0-9]{2,7}|ct\/[A-Z0-9]{5})$/)
           .required()
       ),
       timezones: Joi.array().items(

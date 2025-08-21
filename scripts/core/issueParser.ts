@@ -32,7 +32,10 @@ const FIELDS = new Dictionary({
   Height: 'height',
   'New Channel ID': 'new_channel_id',
   'New Feed ID': 'new_feed_id',
-  'New Logo URL': 'new_logo_url'
+  'New Logo URL': 'new_logo_url',
+  'City Name': 'city_name',
+  'City Code': 'city_code',
+  'Wikidata ID': 'wikidata_id'
 })
 
 export class IssueParser {

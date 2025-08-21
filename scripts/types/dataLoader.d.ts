@@ -13,6 +13,8 @@ export type DataLoaderData = {
   timezones: Collection
   regions: Collection
   subdivisions: Collection
+  cities: Collection
+  citiesKeyByCode: Dictionary
   channelsKeyById: Dictionary
   countriesKeyByCode: Dictionary
   subdivisionsKeyByCode: Dictionary

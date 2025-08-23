@@ -4801,7 +4801,8 @@ Carac1.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
 Carac2.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
 Carac3.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
 Carac4.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
-Carac5.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
+Carac5.ch,HD,HD,,TRUE,c/FR;c/CH;c/BE;c/MC,Europe/Zurich,fra,1080p
+Carac5.ch,SD,SD,,FALSE,c/CH,Europe/Zurich,fra,576i
 CaracolaTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 CaracolInternacional.co,SD,SD,,TRUE,r/HISPAM,America/Bogota,spa,480i
 CaracolTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
@@ -9205,8 +9206,8 @@ Farscape.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 FarsiTV.us,SD,SD,,TRUE,c/US;c/IR,America/New_York,fas,480i
 FarsTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 FashionAfricaTV.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,eng,576i
-FashionBox.nl,HD,HD,,FALSE,r/INT,Europe/Amsterdam,eng,1080i
-FashionBox.nl,SD,SD,,TRUE,r/INT,Europe/Amsterdam,eng,576i
+FashionBox.nl,HD,HD,,FALSE,r/EUR;r/ASIA;r/SSA,Europe/Amsterdam,eng,1080i
+FashionBox.nl,SD,SD,,TRUE,r/EUR;r/ASIA;r/SSA,Europe/Amsterdam,eng,576i
 FashionFinds.us,SD,SD,,TRUE,s/US-PA,America/New_York,eng,480i
 FashionLifeStyle.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,eng,576i
 FashionN.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
@@ -9240,14 +9241,14 @@ FashionTVTokyo.fr,SD,SD,,TRUE,c/FR,Europe/Paris,eng,576i
 FashionTVUHD.fr,SD,SD,,TRUE,c/FR,Europe/Paris,eng,576i
 FasoTV.bf,SD,SD,,TRUE,c/BF,Africa/Ouagadougou,fra,576i
 FassoTVKankan.gn,SD,SD,,TRUE,c/GN,Africa/Conakry,fra,576i
-FastFunBox.nl,SD,SD,,TRUE,r/INT,Europe/Warsaw,eng,576i
+FastFunBox.nl,SD,SD,,TRUE,r/EUR;r/ASIA;r/SSA,Europe/Warsaw,eng,576i
 FastFunBox.ru,HD,HD,,FALSE,c/RU,Europe/Warsaw,rus,1080i
 FastFunBox.ru,SD,SD,,TRUE,c/RU,Europe/Warsaw,rus,576i
 FastSports.am,SD,SD,,TRUE,c/AM,Asia/Yerevan,hye,576i
 FastSports.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,urd;eng,576i
 FastSports1.am,SD,SD,,TRUE,c/AM,Asia/Yerevan,hye,576i
 FastSports2.am,SD,SD,,TRUE,c/AM,Asia/Yerevan,hye,576i
-Faststream.nl,SD,SD,,TRUE,r/INT,Europe/Amsterdam,eng,576i
+Faststream.nl,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,Europe/Amsterdam,eng,576i
 FastTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 FastTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 FastwayNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -9324,9 +9325,9 @@ FiestaMax.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 FIFAPlus.pl,SD,SD,,TRUE,c/PL;r/EUR,Europe/Warsaw,eng,576i
 FifthGear.us,UK,UK,,TRUE,c/UK,Europe/London,eng,576i
 Fight.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
-FightBox.nl,HD,HD,,FALSE,r/INT,Europe/Amsterdam,eng,1080i
+FightBox.nl,HD,HD,,FALSE,r/EUR;r/MENA;r/SSA;r/ASIA,Europe/Amsterdam,eng,1080i
 FightBox.nl,Poland,Poland,,FALSE,c/PL,Europe/Amsterdam,pol,576i
-FightBox.nl,SD,SD,,TRUE,r/INT,Europe/Amsterdam,eng,576i
+FightBox.nl,SD,SD,,TRUE,r/EUR;r/MENA;r/SSA;r/ASIA,Europe/Amsterdam,eng,576i
 FightFactor.uk,SD,SD,,TRUE,c/UK,America/Toronto,eng,576i
 FightingSpirit.fr,SD,SD,,TRUE,c/FR,Europe/Paris,eng;fra,576i
 FIGHTINGTVSamurai.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
@@ -9334,7 +9335,7 @@ FightKlub.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 FightNetwork.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 FightNight.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 FightSports.us,SD,SD,,TRUE,r/INT,America/New_York,eng,480i
-Fightstream.nl,SD,SD,,TRUE,r/INT,Europe/Amsterdam,eng,576i
+Fightstream.nl,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,Europe/Amsterdam,eng,576i
 FijiOne.fj,SD,SD,,TRUE,c/FJ,Pacific/Fiji,eng;hin;fij,576i
 FijiTV.fj,SD,SD,,TRUE,c/FJ,Pacific/Fiji,eng,576i
 Filamchi.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -9365,7 +9366,7 @@ FilmBoxAction.nl,Africa,Africa,,TRUE,r/AFR,Europe/Amsterdam,eng,576i
 FilmBoxAction.nl,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,eng,576i
 FilmBoxAfrica.nl,SD,SD,,TRUE,r/AFR,Europe/Amsterdam,eng,576i
 FilmBoxArthouse.nl,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
-FilmBoxArthouse.nl,SD,SD,,TRUE,r/INT,Europe/Amsterdam,eng,576i
+FilmBoxArthouse.nl,SD,SD,,TRUE,r/EUR;r/ASIA;r/MENA,Europe/Amsterdam,eng,576i
 FilmBoxBaltics.nl,SD,SD,,TRUE,c/EE;c/LV;c/LT,Europe/Amsterdam,eng,576i
 FilmBoxExtra.nl,Bulgary,Bulgary,,FALSE,c/BG,Europe/Amsterdam,bul,576i
 FilmBoxExtra.nl,CzechRepublic,Czech Republic,,FALSE,c/CZ;c/SK,Europe/Amsterdam,ces,576i
@@ -9856,7 +9857,7 @@ FullLifeTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 FullMusica.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 FullTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 FunBox.cl,SD,SD,,TRUE,r/HISPAM,America/Santiago,spa,480i
-FunBoxUHD.nl,SD,SD,,TRUE,r/INT,Europe/Amsterdam,eng,576i
+FunBoxUHD.nl,SD,SD,,TRUE,r/EUR;r/MENA,Europe/Amsterdam,eng,576i
 FundacionMulticanal.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 FunnyAF.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 FunnyorDie.us,SD,SD,,TRUE,c/US,America/Los_Angeles,eng,480i
@@ -9986,8 +9987,8 @@ GameShowNetwork.us,Caribbean,Caribbean,,FALSE,c/US,America/New_York,eng,480i
 GameShowNetwork.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 GameShowNetwork.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 GameSpot.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
-Gametoon.nl,HD,HD,,FALSE,r/INT,Europe/Amsterdam,eng,1080i
-Gametoon.nl,SD,SD,,TRUE,r/INT,Europe/Amsterdam,eng,576i
+Gametoon.nl,HD,HD,,FALSE,r/EMEA,Europe/Amsterdam,eng,1080i
+Gametoon.nl,SD,SD,,TRUE,r/EMEA,Europe/Amsterdam,eng,576i
 GameTV.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 GameTV.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,deu,576i
 GamingonVerizon.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -11905,7 +11906,7 @@ InnovaFMTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 INNOVTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 InooroTV.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,eng,576i
 Inova.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
-INPLUS.nl,SD,SD,,TRUE,r/INT,Europe/Amsterdam,eng,576i
+INPLUS.nl,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,Europe/Amsterdam,eng,576i
 INPOTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 InRatingTV.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 InsajderTVkanal.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
@@ -23118,8 +23119,8 @@ PasifikaTV.nz,SD,SD,,TRUE,c/NZ,Pacific/Auckland,eng,576i
 Pasiones.us,SD,SD,,TRUE,c/US;c/CU,America/New_York,spa,480i
 PasionesLatinAmerica.us,SD,SD,,TRUE,r/HISPAM;r/CARIB,America/New_York,spa,480i
 PasoTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
-PassieXXX.nl,HD,HD,,FALSE,r/INT,Europe/Amsterdam,nld,1080i
-PassieXXX.nl,SD,SD,,TRUE,r/INT,Europe/Amsterdam,nld,576i
+PassieXXX.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
+PassieXXX.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 PassioneLotto.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 PassionNovelas.ci,SD,SD,,TRUE,c/CI,Africa/Abidjan,fra,576i
 PassionTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
@@ -33398,7 +33399,7 @@ VisionTV.us,SD,SD,,TRUE,s/US-FL,America/New_York,eng,480i
 VisionTVChannel.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 VisionTVMusica.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 Visir.is,SD,SD,,TRUE,c/IS,Atlantic/Reykjavik,isl,576i
-VisitXTV.nl,SD,SD,,TRUE,r/INT,Europe/Amsterdam,deu,576i
+VisitXTV.nl,SD,SD,,TRUE,r/EUR,Europe/Amsterdam,deu,576i
 VismayaNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
 VissaTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 VistaarNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -37344,7 +37345,7 @@ WOWKDT4.us,SD,SD,,TRUE,s/US-WV,America/New_York,eng,480i
 Wowly.cl,SD,SD,,TRUE,c/CL;r/HISPAM,America/Santiago,spa,480i
 WOWmxTV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 WowNowKids.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
-Wowow4K.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
+WOWOW4K.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 WOWOWCinema.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 WOWOWLive.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 WOWOWPlus.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i

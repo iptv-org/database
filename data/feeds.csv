@@ -1207,8 +1207,8 @@ AlJanoubTV.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,ara,576i
 AlJawadainTV.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,ara,576i
 AlJazeera.qa,Arabic,Arabic,,TRUE,r/ARAB,Asia/Qatar,ara,576i
 AlJazeera.qa,ArabicHD,Arabic HD,,FALSE,r/ARAB,Asia/Qatar,ara,1080i
-AlJazeera.qa,English,English,,FALSE,r/INT,Asia/Qatar,eng,576i
-AlJazeera.qa,EnglishHD,English HD,,FALSE,r/INT,Asia/Qatar,eng,1080i
+AlJazeera.qa,English,English,,FALSE,r/AMER;r/EMEA;r/APAC,Asia/Qatar,eng,576i
+AlJazeera.qa,EnglishHD,English HD,,FALSE,r/AMER;r/EMEA;r/APAC,Asia/Qatar,eng,1080i
 AlJazeeraBalkans.ba,SD,SD,,TRUE,c/BA;c/HR;c/MK;c/RS;c/ME;c/SI,Europe/Sarajevo,hbs,576i
 AlJazeeraDocumentary.qa,SD,SD,,TRUE,r/ARAB,Asia/Qatar,ara,576i
 AlJazeeraMubasher.qa,SD,SD,,TRUE,r/ARAB,Asia/Qatar,ara,576i
@@ -1959,7 +1959,7 @@ ArirangRadio.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 ArirangTV.kr,HD,HD,,FALSE,c/KR,Asia/Seoul,eng,1080i
 ArirangTV.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,eng,480i
 ArirangUN.kr,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,Asia/Seoul,eng,480i
-ArirangWorld.kr,SD,SD,,TRUE,r/INT,Asia/Seoul,eng;kor;spa;rus;zho;ara;ind,480i
+ArirangWorld.kr,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,Asia/Seoul,eng;kor;spa;rus;zho;ara;ind,480i
 Aris24.ru,SD,SD,,TRUE,s/RU-BA,Asia/Yekaterinburg,rus,576i
 AriseNews.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 ARISEPlay.uk,SD,SD,,TRUE,c/UK,America/Toronto,eng,576i
@@ -3463,7 +3463,7 @@ Bis.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 BisoTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 BisratTV.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 BiswaBangla24.us,SD,SD,,TRUE,c/US;c/BD,America/New_York,ben,480i
-BITE.uk,SD,SD,,TRUE,r/INT,Europe/London,eng,576i
+BITE.uk,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,Europe/London,eng,576i
 BitlisTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 bitMe.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 bitMeLatinAmerica.mx,SD,SD,,TRUE,r/HISPAM,America/Mexico_City,spa,480i
@@ -8877,21 +8877,21 @@ EuromedTV.fr,SD,SD,,TRUE,r/EU;c/US,Europe/Paris,fra,576i
 Euronews.pl,FAST,FAST,,TRUE,c/PL,Europe/Warsaw,pol,1080p
 EuronewsAlbania.al,SD,SD,,TRUE,c/AL,Europe/Paris,sqi,576i
 EuronewsBulgaria.bg,SD,SD,,TRUE,c/BG,Europe/Paris,bul,576i
-EuronewsEnglish.fr,HD,HD,,FALSE,r/INT,Europe/Paris,eng,1080i
-EuronewsEnglish.fr,SD,SD,,TRUE,r/INT,Europe/Paris,eng,576i
+EuronewsEnglish.fr,HD,HD,,FALSE,r/NORAM;r/EMEA;r/APAC,Europe/Paris,eng,1080i
+EuronewsEnglish.fr,SD,SD,,TRUE,r/NORAM;r/EMEA;r/APAC,Europe/Paris,eng,576i
 EuronewsFrench.fr,HD,HD,,FALSE,r/INT,Europe/Paris,fra,1080i
 EuronewsFrench.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 EuronewsGeorgia.ge,SD,SD,,TRUE,c/GE,Europe/Paris,kat,576i
-EuronewsGerman.fr,HD,HD,,FALSE,r/INT,Europe/Paris,deu,1080i
-EuronewsGerman.fr,SD,SD,,TRUE,r/INT,Europe/Paris,deu,576i
-EuronewsGreek.fr,SD,SD,,TRUE,r/INT,Europe/Paris,ell,576i
-EuronewsHungarian.fr,SD,SD,,TRUE,r/INT,Europe/Paris,hun,576i
-EuronewsItalian.fr,SD,SD,,TRUE,r/INT,Europe/Paris,ita,576i
+EuronewsGerman.fr,HD,HD,,FALSE,r/EUR;r/SSA,Europe/Paris,deu,1080i
+EuronewsGerman.fr,SD,SD,,TRUE,r/EUR;r/SSA,Europe/Paris,deu,576i
+EuronewsGreek.fr,SD,SD,,TRUE,r/MENA;r/SEA,Europe/Paris,ell,576i
+EuronewsHungarian.fr,SD,SD,,TRUE,c/HU,Europe/Paris,hun,576i
+EuronewsItalian.fr,SD,SD,,TRUE,r/EUR;r/MENA,Europe/Paris,ita,576i
 EuronewsPortuguese.fr,SD,SD,,TRUE,r/INT,Europe/Paris,por,576i
 EuronewsRomania.ro,SD,SD,,TRUE,c/RO,Europe/Paris,ron,576i
 EuronewsRussian.fr,SD,SD,,TRUE,c/RU,Europe/Paris,rus,576i
 EuronewsSerbia.rs,SD,SD,,TRUE,c/RS,Europe/Paris,srp,576i
-EuronewsSpanish.fr,SD,SD,,TRUE,r/INT,Europe/Paris,spa,576i
+EuronewsSpanish.fr,SD,SD,,TRUE,r/AMER;r/EUR,Europe/Paris,spa,576i
 EuropaEuropa.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa;eng,576i
 EuropaPlusTV.ru,HD,HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
 EuropaPlusTV.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
@@ -9713,8 +9713,8 @@ FrameTV.al,SD,SD,,TRUE,c/AL,Europe/Tirane,sqi,576i
 France2.fr,HD,HD,,FALSE,c/FR,Europe/Paris,fra,1080i
 France2.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 France24.fr,Arabic,Arabic,,FALSE,r/ARAB;r/MAGHREB,Europe/Paris,ara,576i
-France24.fr,English,English,,FALSE,r/INT,Europe/Paris,eng,576i
-France24.fr,EnglishHD,English HD,,FALSE,r/INT,Europe/Paris,eng,1080i
+France24.fr,English,English,,FALSE,r/AMER;r/EMEA;r/APAC,Europe/Paris,eng,576i
+France24.fr,EnglishHD,English HD,,FALSE,r/AMER;r/EMEA;r/APAC,Europe/Paris,eng,1080i
 France24.fr,French,French,,TRUE,c/FR,Europe/Paris,fra,576i
 France24.fr,FrenchHD,French HD,,FALSE,c/FR,Europe/Paris,fra,1080i
 France24.fr,Spanish,Spanish,,FALSE,r/HISPAM;c/ES,America/Bogota,spa,576i
@@ -13787,8 +13787,8 @@ KBSStory.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 KBSTV.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
 KBSVDT1.us,SD,SD,,TRUE,s/US-CA,America/Sao_Paulo,aii;eng,480i
 KBSW.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
-KBSWorld.kr,HD,HD,,FALSE,r/INT,Asia/Seoul,kor;eng,1080i
-KBSWorld.kr,SD,SD,,TRUE,r/INT,Asia/Seoul,kor;eng,480i
+KBSWorld.kr,HD,HD,,FALSE,r/NORAM;r/EMEA;r/APAC,Asia/Seoul,kor;eng,1080i
+KBSWorld.kr,SD,SD,,TRUE,r/NORAM;r/EMEA;r/APAC,Asia/Seoul,kor;eng,480i
 KBSWorldJapan.jp,SD,SD,,TRUE,c/KR;c/JP,Asia/Seoul,jpn;kor,480i
 KBTCDT1.us,SD,SD,,TRUE,s/US-WA,America/Los_Angeles,eng,480i
 KBTCDT2.us,SD,SD,,TRUE,s/US-WA,America/Los_Angeles,eng,480i
@@ -20576,8 +20576,8 @@ MTV2.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 MTV2.us,East,East,,TRUE,c/US,America/New_York,eng;spa,480i
 MTV2.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa,480i
 MTV3.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin;swe,576i
-MTV80s.uk,SD,SD,,TRUE,r/INT,America/Toronto,eng,576i
-MTV90s.uk,SD,SD,,TRUE,r/INT,America/Toronto,eng,576i
+MTV80s.uk,SD,SD,,TRUE,r/AMER;r/EUR;r/MIDEAST;c/NZ,America/Toronto,eng,576i
+MTV90s.uk,SD,SD,,TRUE,r/SEA;r/EUR;r/MENA,America/Toronto,eng,576i
 MTVAfrica.za,SD,SD,,TRUE,r/AFR,Africa/Johannesburg,eng,576i
 MTVAitio.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 MTVAitio.se,SD,SD,,TRUE,c/SE,Europe/Helsinki,swe,576i
@@ -20610,7 +20610,7 @@ MTVDenmark.dk,SD,SD,,TRUE,c/DK,Europe/Copenhagen,eng,576i
 MTVEmbarazadaalos16.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 MTVenEspanol.us,SD,SD,,TRUE,c/US,America/New_York,eng;spa,480i
 MTVEnVivo.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
-MTVGlobal.uk,SD,SD,,TRUE,r/INT,America/Toronto,eng,576i
+MTVGlobal.uk,SD,SD,,TRUE,r/EUR;r/MIDEAST,America/Toronto,eng,576i
 MTVGoodVibes.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 MTVGuyana.gy,SD,SD,,TRUE,c/GY,Atlantic/St_Helena,eng,480i
 MTVHits.au,HD,HD,,FALSE,c/AU,America/Toronto,eng,1080i
@@ -21366,7 +21366,7 @@ NBTV3.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 NBTV4.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 NBTV5.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 NBTV6.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
-NBTWorld.th,SD,SD,,TRUE,r/INT,Asia/Bangkok,eng,576i
+NBTWorld.th,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,Asia/Bangkok,eng,576i
 NCAASeasonTicket0.us,SD,SD,,TRUE,c/US,America/Indiana/Indianapolis,eng,480i
 NCAASeasonTicket1.us,SD,SD,,TRUE,c/US,America/Indiana/Indianapolis,eng,480i
 NCAASeasonTicket2.us,SD,SD,,TRUE,c/US,America/Indiana/Indianapolis,eng,480i
@@ -25673,7 +25673,7 @@ RSTVRajyaSabha.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 RSVHonduras.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 RT.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 RT.ru,HD,HD,,FALSE,r/EMEA;r/APAC,Europe/Moscow,eng,1080i
-RT.ru,SD,SD,,TRUE,r/INT,Europe/Moscow,eng,576i
+RT.ru,SD,SD,,TRUE,r/EMEA;r/APAC,Europe/Moscow,eng,576i
 RTA.af,SD,SD,,TRUE,c/AF,Asia/Kabul,prd,576i
 RTA.mg,SD,SD,,TRUE,c/MG,Indian/Antananarivo,fra;mlg,576i
 RTAEducation.af,SD,SD,,TRUE,c/AF,Asia/Kabul,pus,576i
@@ -25707,7 +25707,7 @@ RTD5.dj,SD,SD,,TRUE,c/DJ,Africa/Djibouti,ara,576i
 RTD6.dj,SD,SD,,TRUE,c/DJ,Africa/Djibouti,fra,576i
 RTD7.dj,SD,SD,,TRUE,c/DJ,Africa/Djibouti,fra,576i
 RTDE.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
-RTDocumentary.ru,English,English,,TRUE,r/INT,Europe/Moscow,eng,576i
+RTDocumentary.ru,English,English,,TRUE,r/AMER;r/EMEA;r/APAC,Europe/Moscow,eng,576i
 RTDocumentary.ru,Hindi,Hindi,,FALSE,c/IN,Europe/Moscow,hin,576i
 RTDocumentary.ru,Russian,Russian,,FALSE,c/RU,Europe/Moscow,rus,576i
 RTDocumentary.ru,RussianHD,Russian HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
@@ -27283,7 +27283,7 @@ SkyNewsExtra.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 SkyNewsExtra1.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 SkyNewsExtra2.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 SkyNewsExtra3.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
-SkyNewsInternational.uk,SD,SD,,TRUE,r/INT,Europe/London,eng,576i
+SkyNewsInternational.uk,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,Europe/London,eng,576i
 SkyNewsNewZealand.nz,SD,SD,,TRUE,c/NZ,Pacific/Auckland,eng,576i
 SkyNewsRegional.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 SkyNewsWeather.uk,SD,SD,,TRUE,c/UK,America/Toronto,eng,576i
@@ -29119,7 +29119,7 @@ TagyTV.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
 TahaTV.lb,SD,SD,,TRUE,c/LB,Asia/Beirut,ara,576i
 TaivasTV7.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 TaiwanIndigenousTV.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
-TaiwanPlusTV.tw,SD,SD,,TRUE,r/INT,Asia/Taipei,eng,480i
+TaiwanPlusTV.tw,SD,SD,,TRUE,c/US;r/SAS,Asia/Taipei,eng,480i
 TAKARAZUKASKYSTAGE.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 TakbeerTV.uk,SD,SD,,TRUE,c/UK,Europe/London,ara,576i
 TakeshisCastle.us,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
@@ -30771,8 +30771,8 @@ TRTSpor.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 TRTSporYildiz.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 TRTTurk.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 TRTTurkPlus8.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
-TRTWorld.tr,HD,HD,,FALSE,r/INT,Europe/Istanbul,eng,1080i
-TRTWorld.tr,SD,SD,,TRUE,r/INT,Europe/Istanbul,eng,576i
+TRTWorld.tr,HD,HD,,FALSE,r/AMER;r/EMEA;r/APAC,Europe/Istanbul,eng,1080i
+TRTWorld.tr,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,Europe/Istanbul,eng,576i
 TRU.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 True4U.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 TrueAfrican.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
@@ -37283,7 +37283,7 @@ WorldPokerTour.us,Italy,Italy,,FALSE,c/IT,Europe/Rome,ita,576i
 WorldPokerTour.us,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,eng,576i
 WorldPokerTour.us,Spain,Spain,,FALSE,c/ES,Europe/Madrid,spa,576i
 WorldPokerTour.us,UK,UK,,FALSE,c/UK,Europe/London,eng,576i
-WorldPokerTour.us,US,US,,TRUE,r/INT,America/New_York,eng,480i
+WorldPokerTour.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 WorldTurkTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 WorldTV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 WorldTV.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i

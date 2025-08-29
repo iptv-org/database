@@ -1,11 +1,11 @@
-id,name,alt_names,network,owners,country,subdivision,city,categories,is_nsfw,launched,closed,replaced_by,website
-0TV.dk,0-TV,,,,DK,,København,general,FALSE,,,,https://0-tv.dk/
-1000xHoraTV.uy,1000xHora TV,,,,UY,,Montevideo,auto,FALSE,2020-01-01,2021-01-01,M5.hu@HD,https://www.1000xhoratv.com/
-beINMoviesTurk.tr,beIN Movies Turk,beIN Movies Türk,BBC,Gazprom Media,TR,US-CA,London,movies,TRUE,1979-05-16,1980-05-16,M5.hu,http://www.digiturk.com.tr/
-Channel82.bm,Channel 82,,,,BM,,,,FALSE,,,,
-M5.hu,M5,,,Duna Médiaszolgáltató Nonprofit Zrt.,HU,,,,TRUE,2020-01-01,,0TV.dk@SD,https://www.mediaklikk.hu/m5/
-WenzhouEconomicandEducation.cn,Wenzhou Economic and Education,,,,CN,,Wenzhou,science,FALSE,,,,
-YiwuBusinessChannel.cn,Yiwu Business Channel,,,,CN,,,business,FALSE,,,,
-YiwuNewsIntegratedChannel.cn,Yiwu News Integrated Channel,,,,CN,,,news,FALSE,,,,
-ZTVWorld.hu,ZTV World,,,,HU,,,entertainment,FALSE,,,,
-ZutTV.ve,Zut TV,,,,VE,,,music,FALSE,,,,https://www.zut.tv/
+id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,replaced_by,website
+0TV.dk,0-TV,,,,DK,general,FALSE,,,,https://0-tv.dk/
+1000xHoraTV.uy,1000xHora TV,,,,UY,auto,FALSE,2020-01-01,2021-01-01,M5.hu@HD,https://www.1000xhoratv.com/
+beINMoviesTurk.tr,beIN Movies Turk,beIN Movies Türk,BBC,Gazprom Media,TR,movies,TRUE,1979-05-16,1980-05-16,M5.hu,http://www.digiturk.com.tr/
+Channel82.bm,Channel 82,,,,BM,,FALSE,,,,
+M5.hu,M5,,,Duna Médiaszolgáltató Nonprofit Zrt.,HU,,TRUE,2020-01-01,,0TV.dk@SD,https://www.mediaklikk.hu/m5/
+WenzhouEconomicandEducation.cn,Wenzhou Economic and Education,,,,CN,science,FALSE,,,,
+YiwuBusinessChannel.cn,Yiwu Business Channel,,,,CN,business,FALSE,,,,
+YiwuNewsIntegratedChannel.cn,Yiwu News Integrated Channel,,,,CN,news,FALSE,,,,
+ZTVWorld.hu,ZTV World,,,,HU,entertainment,FALSE,,,,
+ZutTV.ve,Zut TV,,,,VE,music,FALSE,,,,https://www.zut.tv/

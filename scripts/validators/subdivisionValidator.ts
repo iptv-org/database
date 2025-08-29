@@ -34,7 +34,7 @@ export class SubdivisionValidator extends Validator {
     if (!subdivision.hasValidParent(subdivisionsKeyByCode)) {
       errors.add({
         line: subdivision.getLine(),
-        message: `"${subdivision.code}" has an invalid parent "${subdivision.parent}"`
+        message: `"${subdivision.code}" has an invalid parent "${subdivision.parentCode}"`
       })
     }
 

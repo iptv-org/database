@@ -395,8 +395,6 @@ async function addChannels(issues: Collection, data: DataLoaderData) {
       network: issueData.getString('network'),
       owners: issueData.getArray('owners'),
       country: issueData.getString('country') || '',
-      subdivision: issueData.getString('subdivision'),
-      city: issueData.getString('city'),
       categories: issueData.getArray('categories'),
       is_nsfw: issueData.getBoolean('is_nsfw') || false,
       launched: issueData.getString('launched'),

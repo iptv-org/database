@@ -5,8 +5,6 @@ export type ChannelData = {
   network?: string
   owners?: string[]
   country: string
-  subdivision?: string
-  city?: string
   categories?: string[]
   is_nsfw: boolean
   launched?: string

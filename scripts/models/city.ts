@@ -3,12 +3,14 @@ import { CityData } from '../types/city'
 import { IssueData } from '../core'
 import { Model } from './model'
 import Joi from 'joi'
+import { Subdivision } from './subdivision'
 
 export class City extends Model {
   code: string
   name: string
   countryCode: string
   subdivisionCode?: string
+  subdivision?: Subdivision
   wikidataId: string
 
   constructor(data: CityData) {
@@ -19,6 +21,14 @@ export class City extends Model {
     this.countryCode = data.country
     this.subdivisionCode = data.subdivision || undefined
     this.wikidataId = data.wikidata_id
+  }
+
+  withSubdivision(subdivisionsKeyByCode: Dictionary): this {
+    if (!this.subdivisionCode) return this
+
+    this.subdivision = subdivisionsKeyByCode.get(this.subdivisionCode)
+
+    return this
   }
 
   hasValidCountryCode(countriesKeyByCode: Dictionary) {

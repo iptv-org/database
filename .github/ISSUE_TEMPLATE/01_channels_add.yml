@@ -49,20 +49,6 @@ body:
       required: true
 
   - type: input
-    id: subdivision
-    attributes:
-      label: Subdivision (optional)
-      description: Code of the subdivision (e.g., provinces or states) from which the broadcast is transmitted. A list of all supported subdivisions and their codes can be found in [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv)
-      placeholder: 'CN-AH'
-
-  - type: input
-    id: city
-    attributes:
-      label: City (optional)
-      description: Name of the city from which the channel is transmitted
-      placeholder: 'Hefei'
-
-  - type: input
     id: categories
     attributes:
       label: Categories (optional)
@@ -148,7 +134,7 @@ body:
     id: broadcast_area
     attributes:
       label: Broadcast Area
-      description: "List of codes describing the broadcasting area of the feed separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`. A full list of supported codes can be found here: [countries](https://github.com/iptv-org/database/blob/master/data/countries.csv), [subdivisions](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv), [regions](https://github.com/iptv-org/database/blob/master/data/regions.csv)"
+      description: "List of codes describing the broadcasting area of the feed separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`, `ct/<city_code>`. A full list of supported codes can be found here: [data/regions.csv](https://github.com/iptv-org/database/blob/master/data/regions.csv), [data/countries.csv](https://github.com/iptv-org/database/blob/master/data/countries.csv), [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv), [data/cities.csv](https://github.com/iptv-org/database/blob/master/data/cities.csv)"
       placeholder: 'c/CN'
     validations:
       required: true

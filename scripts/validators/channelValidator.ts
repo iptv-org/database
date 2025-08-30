@@ -62,13 +62,6 @@ export class ChannelValidator extends Validator {
       })
     }
 
-    if (!channel.hasValidSubdivisionCode(subdivisionsKeyByCode)) {
-      errors.add({
-        line: channel.getLine(),
-        message: `"${channel.id}" has an invalid subdivision "${channel.subdivisionCode}"`
-      })
-    }
-
     if (!channel.hasValidCategoryIds(categoriesKeyById)) {
       errors.add({
         line: channel.getLine(),

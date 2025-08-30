@@ -1,11 +1,11 @@
 import { Dictionary, Collection } from '@freearhey/core'
 import { ChannelData } from '../types/channel'
 import { createChannelId } from '../utils'
+import { IssueData } from '../core'
 import JoiDate from '@joi/date'
 import { Model } from './model'
 import { Feed } from './feed'
 import BaseJoi from 'joi'
-import { IssueData } from '../core'
 
 const Joi = BaseJoi.extend(JoiDate)
 
@@ -16,8 +16,6 @@ export class Channel extends Model {
   networkName?: string
   ownerNames?: Collection
   countryCode: string
-  subdivisionCode?: string
-  cityName?: string
   categoryIds?: Collection
   isNSFW: boolean
   launchedDateString?: string
@@ -35,8 +33,6 @@ export class Channel extends Model {
     this.networkName = data.network
     this.ownerNames = data.owners ? new Collection(data.owners) : undefined
     this.countryCode = data.country
-    this.subdivisionCode = data.subdivision
-    this.cityName = data.city
     this.categoryIds = data.categories ? new Collection(data.categories) : undefined
     this.isNSFW = data.is_nsfw
     this.launchedDateString = data.launched
@@ -58,8 +54,6 @@ export class Channel extends Model {
       network: issueData.getString('network'),
       owners: issueData.getArray('owners'),
       country: issueData.getString('country'),
-      subdivision: issueData.getString('subdivision'),
-      city: issueData.getString('city'),
       categories: issueData.getArray('categories'),
       is_nsfw: issueData.getBoolean('is_nsfw'),
       launched: issueData.getString('launched'),
@@ -73,8 +67,6 @@ export class Channel extends Model {
     if (data.network !== undefined) this.networkName = data.network
     if (data.owners !== undefined) this.ownerNames = new Collection(data.owners)
     if (data.country !== undefined) this.countryCode = data.country
-    if (data.subdivision !== undefined) this.subdivisionCode = data.subdivision
-    if (data.city !== undefined) this.cityName = data.city
     if (data.categories !== undefined) this.categoryIds = new Collection(data.categories)
     if (data.is_nsfw !== undefined) this.isNSFW = data.is_nsfw
     if (data.launched !== undefined) this.launchedDateString = data.launched
@@ -134,10 +126,6 @@ export class Channel extends Model {
     return countriesKeyByCode.has(this.countryCode)
   }
 
-  hasValidSubdivisionCode(subdivisionsKeyByCode: Dictionary): boolean {
-    return !this.subdivisionCode || subdivisionsKeyByCode.has(this.subdivisionCode)
-  }
-
   hasValidCategoryIds(categoriesKeyById: Dictionary): boolean {
     const hasInvalid = this.getCategoryIds().find((id: string) => categoriesKeyById.missing(id))
 
@@ -170,8 +158,6 @@ export class Channel extends Model {
       network: this.networkName,
       owners: this.getOwnerNames().all(),
       country: this.countryCode,
-      subdivision: this.subdivisionCode,
-      city: this.cityName,
       categories: this.getCategoryIds().all(),
       is_nsfw: this.isNSFW,
       launched: this.launchedDateString,
@@ -202,12 +188,6 @@ export class Channel extends Model {
       country: Joi.string()
         .regex(/^[A-Z]{2}$/)
         .required(),
-      subdivision: Joi.string()
-        .regex(/^[A-Z]{2}-[A-Z0-9]{1,3}$/)
-        .allow(null),
-      city: Joi.string()
-        .regex(/^[^",]+$/)
-        .allow(null),
       categories: Joi.array().items(Joi.string().regex(/^[a-z]+$/)),
       is_nsfw: Joi.boolean().strict().required(),
       launched: Joi.date().format('YYYY-MM-DD').raw().allow(null),

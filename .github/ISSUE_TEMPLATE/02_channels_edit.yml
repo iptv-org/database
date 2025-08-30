@@ -54,20 +54,6 @@ body:
       placeholder: 'CN'
 
   - type: input
-    id: subdivision
-    attributes:
-      label: Subdivision
-      description: Code of the subdivision (e.g., provinces or states) from which the broadcast is transmitted. A list of all supported subdivisions and their codes can be found in [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv)
-      placeholder: 'CN-AH'
-
-  - type: input
-    id: city
-    attributes:
-      label: City
-      description: Name of the city from which the channel is transmitted
-      placeholder: 'Hefei'
-
-  - type: input
     id: categories
     attributes:
       label: Categories

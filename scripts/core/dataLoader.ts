@@ -177,6 +177,9 @@ export class DataLoader {
       channel.withFeeds(data.feedsGroupedByChannelId)
     )
 
+    data.cities = data.cities.map((city: City) => city.withSubdivision(data.subdivisionsKeyByCode))
+    data.citiesKeyByCode = data.cities.keyBy((subdivision: Subdivision) => subdivision.code)
+
     return data
   }
 }

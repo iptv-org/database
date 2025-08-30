@@ -7,7 +7,7 @@ export class Subdivision extends Model {
   code: string
   name: string
   countryCode: string
-  parent: string
+  parentCode: string
 
   constructor(data: SubdivisionData) {
     super()
@@ -15,7 +15,7 @@ export class Subdivision extends Model {
     this.code = data.code
     this.name = data.name
     this.countryCode = data.country
-    this.parent = data.parent
+    this.parentCode = data.parent
   }
 
   hasValidCountryCode(countriesKeyByCode: Dictionary): boolean {
@@ -23,9 +23,9 @@ export class Subdivision extends Model {
   }
 
   hasValidParent(subdivisionsKeyByCode: Dictionary): boolean {
-    if (!this.parent) return true
+    if (!this.parentCode) return true
 
-    return subdivisionsKeyByCode.has(this.parent)
+    return subdivisionsKeyByCode.has(this.parentCode)
   }
 
   data(): SubdivisionData {
@@ -33,7 +33,7 @@ export class Subdivision extends Model {
       code: this.code,
       name: this.name,
       country: this.countryCode,
-      parent: this.parent
+      parent: this.parentCode
     }
   }
 

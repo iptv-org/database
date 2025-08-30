@@ -12,7 +12,6 @@ const FIELDS = new Dictionary({
   Owners: 'owners',
   Country: 'country',
   Subdivision: 'subdivision',
-  City: 'city',
   'Broadcast Area': 'broadcast_area',
   Timezones: 'timezones',
   Format: 'format',

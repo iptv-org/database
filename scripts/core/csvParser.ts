@@ -11,7 +11,6 @@ const opts = {
     network: nullable,
     owners: listParser,
     subdivision: nullable,
-    city: nullable,
     broadcast_area: listParser,
     languages: listParser,
     categories: listParser,

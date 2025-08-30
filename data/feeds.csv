@@ -1210,7 +1210,8 @@ AlJazeera.qa,ArabicHD,Arabic HD,,FALSE,r/ARAB,Asia/Qatar,ara,1080i
 AlJazeera.qa,English,English,,FALSE,r/AMER;r/EMEA;r/APAC,Asia/Qatar,eng,576i
 AlJazeera.qa,EnglishHD,English HD,,FALSE,r/AMER;r/EMEA;r/APAC,Asia/Qatar,eng,1080i
 AlJazeeraBalkans.ba,SD,SD,,TRUE,c/BA;c/HR;c/MK;c/RS;c/ME;c/SI,Europe/Sarajevo,hbs,576i
-AlJazeeraDocumentary.qa,SD,SD,,TRUE,r/ARAB,Asia/Qatar,ara,576i
+AlJazeeraDocumentary.qa,HD,HD,,FALSE,c/QA;r/ARAB,Asia/Qatar,ara,1080p
+AlJazeeraDocumentary.qa,SD,SD,,TRUE,c/QA;r/ARAB,Asia/Qatar,ara,576i
 AlJazeeraMubasher.qa,SD,SD,,TRUE,r/ARAB,Asia/Qatar,ara,576i
 AlJazeeraMubasher24.qa,SD,SD,,TRUE,r/ARAB,Asia/Qatar,ara,576i
 AlJazeeraMubasherBroadcast2.qa,SD,SD,,TRUE,r/ARAB,Asia/Qatar,ara,576i
@@ -9322,8 +9323,8 @@ FidesTV.bo,SD,SD,,TRUE,c/BO,America/Argentina/Mendoza,spa,480i
 FidoTV.us,SD,SD,,TRUE,c/US,America/Chicago,eng,480i
 FieldStream.us,SD,SD,,TRUE,c/US,America/Chicago,eng,480i
 FiestaMax.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
-FIFAPlus.pl,SD,SD,,TRUE,c/PL;r/EUR,Europe/Warsaw,eng,576i
 FIFAPlus.uk,English,English,,TRUE,r/AMER;r/EMEA;r/APAC,Europe/London,eng,720p
+FIFAPlus.pl,Poland,Poland,,TRUE,c/PL,Europe/London,eng,720p
 FifthGear.us,UK,UK,,TRUE,c/UK,Europe/London,eng,576i
 Fight.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 FightBox.nl,HD,HD,,FALSE,r/EUR;r/MENA;r/SSA;r/ASIA,Europe/Amsterdam,eng,1080i
@@ -21738,7 +21739,7 @@ Nickelodeon.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 Nickelodeon.cz,SD,SD,,TRUE,c/CZ,America/Toronto,ces,576i
 Nickelodeon.de,SD,SD,,TRUE,c/DE;c/AT;c/LI;c/LU;c/CH,Europe/Berlin,deu;eng,576i
 Nickelodeon.dk,SD,SD,,TRUE,c/DK;c/GL,Europe/Copenhagen,dan,576i
-Nickelodeon.es,SD,SD,,TRUE,c/ES;c/PT;c/AD;c/AO;c/MZ;c/CV;c/GQ,Europe/Madrid,spa;por;eng,576i
+Nickelodeon.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 Nickelodeon.fr,Plus1,+1,,FALSE,c/FR,Europe/Paris,fra,576i
 Nickelodeon.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Nickelodeon.gr,HD,HD,,FALSE,c/GR,Europe/Athens,ell;eng,1080i
@@ -31146,8 +31147,8 @@ TV5Monde.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 TV5MondeAfrica.fr,SD,SD,,TRUE,r/AFR,Europe/Paris,fra,576i
 TV5MondeAsia.fr,SD,SD,,TRUE,r/SEA,Europe/Paris,fra,576i
 TV5MondeEurope.fr,SD,SD,,TRUE,r/EUR,Europe/Paris,fra,576i
-TV5MondeFranceBelgiumSwitzerlandMonaco.fr,HD,HD,,FALSE,c/BE;c/FR;c/SZ;c/MC,Europe/Paris,fra,1080i
-TV5MondeFranceBelgiumSwitzerlandMonaco.fr,SD,SD,,TRUE,c/BE;c/FR;c/SZ;c/MC,Europe/Paris,fra,576i
+TV5MondeFranceBelgiumSwitzerlandMonaco.fr,HD,HD,,FALSE,c/BE;c/CH;c/FR;c/MN,Europe/Paris,fra,1080i
+TV5MondeFranceBelgiumSwitzerlandMonaco.fr,SD,SD,,TRUE,c/BE;c/CH;c/FR;c/MN,Europe/Paris,fra,576i
 TV5MondeInfo.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 TV5MondeLatinAmerica.fr,SD,SD,,TRUE,r/LATAM,Europe/Paris,fra;spa,576i
 TV5MondeMaghrebOrient.fr,SD,SD,,TRUE,r/MAGHREB,Europe/Paris,fra,576i
@@ -39764,6 +39765,7 @@ Zee24Taas.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mar,576i
 ZeeAction.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 ZeeAflam.ae,SD,SD,,TRUE,r/ARAB,Asia/Dubai,ara,576i
 ZeeAlem.za,SD,SD,,TRUE,c/ET,Africa/Johannesburg,amh,576i
+ZeeAlwan.ae,Egypt,Egypt,,FALSE,c/EG,Africa/Cairo,ara,576i
 ZeeAlwan.ae,SD,SD,,TRUE,r/ARAB,Asia/Dubai,ara,576i
 ZeeAnmol.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 ZeeAnmolCinema.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i

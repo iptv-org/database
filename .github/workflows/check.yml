@@ -26,11 +26,14 @@ jobs:
       - name: install dependencies
         if: steps.files.outputs.any_changed == 'true'
         run: npm install
-      - name: Use action to check for CRLF endings
+      - name: check if files are crlf
         uses: kforeverisback/check-crlf-extended@v2
         continue-on-error: false
         with:
           directory: ./data
+          line_ending_type: 'CRLF'
+          include_pattern: '*.csv'
+          pattern_type: 'glob'
       - name: validate
         if: steps.files.outputs.any_changed == 'true'
         run: npm run db:validate

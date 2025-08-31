@@ -34,7 +34,6 @@ jobs:
         continue-on-error: false
         with:
           directory: ./data
-          line_ending_type: 'CRLF'
       - name: setup git
         run: |
           git config user.name "iptv-bot[bot]"

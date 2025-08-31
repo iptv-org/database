@@ -31,7 +31,6 @@ jobs:
         continue-on-error: false
         with:
           directory: ./data
-          line_ending_type: 'CRLF'
       - name: validate
         if: steps.files.outputs.any_changed == 'true'
         run: npm run db:validate

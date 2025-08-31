@@ -36,7 +36,7 @@ jobs:
           directory: ./data
           line_ending_type: 'CRLF'
           include_pattern: '*.csv'
-          pattern_type: 'glob'
+          pattern_type: 'shell_glob'
       - name: setup git
         run: |
           git config user.name "iptv-bot[bot]"

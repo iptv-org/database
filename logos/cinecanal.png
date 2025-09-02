@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comteco R.L.</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <style>
+        .cookie-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 9999;  /* Aseguramos que esté por encima de todo */
+            align-items: flex-start;  /* Alineamos al inicio */
+            padding-top: 20px;  /* Espacio desde arriba */
+            box-sizing: border-box;
+        }
+
+        .cookie-modal[aria-hidden="false"] {
+            display: flex;
+            justify-content: center;
+        }
+
+        .cookie-modal-content {
+            background: #FFFFFF;
+            border-radius: 3px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            margin: 0 auto;  /* Centrado horizontal */
+        }
+
+        /* Resto de tus estilos para el modal */
+        /* ... */
+
+        /* Estilos responsivos */
+        .responsive-container {
+            width: 100%;
+            max-width: none;  /* Eliminamos el max-width */
+            padding: 0;  /* Eliminamos el padding */
+            margin: 0;  /* Eliminamos el margin */
+        }
+    </style>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LVHW9E1F5K"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-LVHW9E1F5K');
+    </script>
+</head>
+
+<body>
+    
+    <script src="js/script_links.js"></script>
+    <div class="preloader">
+        <div class="preloader_image"></div>
+    </div>
+
+    <!-- Modal de cookies -->
+    <div id="cookieModal" class="cookie-modal" aria-hidden="true">
+        <div class="cookie-modal-content">
+            <p class="cookie-text">
+                Comteco R.L. requiere conozca sus políticas de uso de cookies antes de seguir navegando en nuestro portal.
+            </p>
+            <div class="modal-buttons">
+                <button type="button" class="btn decline-button" id="continueButton">Descartar</button>
+                <button type="button" class="btn accept-button" id="continuesButton">Leer Políticas</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenido principal -->
+    <div id="canvas">
+        <div id="box_wrapper">
+            <section class="page_topline ls s-borderbottom c-my-20">
+	<div class="container-fluid">
+		<div class="row align-items-center">
+			<div class="col-md-6 text-md-left text-center">
+				<ul class="top-includes">
+					<li>
+						<span class="icon-inline">
+							<!--span class="icon-styled color-main2 fs-14">
+								<i class="fa fa-slack" aria-hidden="true"></i>
+							</span-->
+							<span class="small-text">
+								<i class="fa fa-slack" aria-hidden="true" style="color: #bb1919;"></i>&nbsp;
+								<a class="hover-main2" href="https://certificado.comteco.com.bo/" target="_blank">
+									<font color="#bb1919"> <b>Certificados Aportaci&oacute;n Digital</b> </font>
+								</a>
+								&nbsp;<i class="fa fa-slack" aria-hidden="true" style="color: #bb1919;"></i>
+							</span>
+						</span>
+					</li>
+					<li>
+						<span class="icon-inline">
+							<span class="icon-styled color-main fs-14">
+								<i class="fa fa-credit-card-alt" aria-hidden="true" style="color: #C0C0C0;"></i>
+							</span>
+							<span class="small-text">
+								<!--a class="hover-main2" href="cmt_facturas_pagos.php">Pago de Facturas</a-->
+								<a class="hover-main2" href="/pago_facturas">Pagar Facturas</a>
+							</span>
+						</span>
+					</li>
+					<li>
+						<span class="icon-inline">
+							<span class="icon-styled color-main fs-14">
+								<i class="fa fa-file-text" aria-hidden="true" style="color: #C0C0C0;"></i>
+							</span>
+							<span class="small-text">
+								<a class="hover-main2" href="/descarga_facturas">Descarga de Facturas</a>
+							</span>
+						</span>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-6 text-center text-md-right d-none d-md-block">
+				<ul class="top-includes">
+					<li>
+						<span class="icon-inline">
+							<span class="icon-styled color-main2 fs-14">
+								<i class="fa fa-money" aria-hidden="true" style="color: #C0C0C0;"></i>
+							</span>
+							<span class="small-text">
+								<a class="hover-main2" href="/tarifas_vigentes">Tarifas Vigentes</a>
+							</span>
+						</span>
+					</li>
+					<!--li>
+						<span class="icon-inline">
+							<span class="icon-styled color-main2 fs-14">
+								<i class="fa fa-television" aria-hidden="true"></i>
+							</span>
+							<span class="small-text">
+								<a class="hover-main2" href="https://goontv.com.bo/" target="_blank">Go ON Tv</a>
+							</span>
+						</span>
+					</li-->
+					<li>
+						<span class="icon-inline">
+							<span class="icon-styled color-main2 fs-14">
+								<i class="fa fa-user-plus" aria-hidden="true" style="color: #C0C0C0;"></i>
+							</span>
+							<span class="small-text">
+								<a class="hover-main2" href="https://micuenta.comteco.com.bo/" target="_blank">AutoServicio</a>
+							</span>
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section>            <div class="header_absolute header_layout_1">
+	<!-- header with two Bootstrap columns - left for logo and right for navigation and includes (search, social icons, additional links and buttons etc -->
+	<header class="page_header ls justify-nav-end">
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<div class="col-xl-2 col-lg-4 col-md-5 col-11">
+					<!--a href="./" class="logo">
+						<span class="logo-text py-20"><strong>Maxi</strong>com</span>
+					</a-->
+					&nbsp;
+				</div>
+				<div class="col-xl-9 col-lg-8 col-md-7 col-1">
+					<div class="nav-wrap">
+
+						<!-- MenuPrincipal -->
+						<nav class="top-nav">
+							<ul class="nav sf-menu">										
+								<!-- Inicio -->
+								<li class="active">
+									<a href="index.php"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;<b>Inicio</b></a>
+								</li>
+								<!-- Inicio -->
+
+								<!-- MiComteco -->
+								<li>
+									<a href="#"><i class="fa fa-building" aria-hidden="true"></i>&nbsp;<b>Mi Comteco</b></a>
+									<ul>
+										<li>
+											<!--a href="mi_coope_nos.php">Nosotros</a-->
+											<a href="/quienes_somos">Nosotros</a>
+										</li>
+										<li>
+											<a href="/acerca_de">Valores</a>
+										</li>
+										<li>
+											<a href="/estructura_organica">Estructura</a>
+										</li>
+										<li>
+											<a href="/estados_financieros">Datos Financieros</a>
+										</li>
+										<li>
+											<a href="estatutos_reglamentos">Estatutos</a>
+										</li>
+										<!--li>
+											<a href="#">Resp. Social Empresarial</a>
+										</li-->
+									</ul>
+								</li>
+								<!-- MiComteco -->
+
+								<!-- Hogar -->
+								<li>
+									<a href="#"><i class="fa fa-database" aria-hidden="true"></i>&nbsp;<b>Hogar</b></a>
+									<ul>
+										<li>
+											<a href="/fijacom">FijaCOM</a>
+										</li>
+										<li>
+											<a href="/internet">Internet</a>
+										</li>
+										<!--li>
+											<a href="cmt_productos_servicios_paqts.php">Paquetes</a>
+										</li-->
+										<li>
+											<a href="/telefonia">Telefonia</a>
+										</li>
+										<li>
+											<a href="/television">Tv. Paga</a>
+										</li>
+										<hr>
+										<li>
+											<a href="/planes_vigentes">Planes Nuevos</a>
+										</li>												
+									</ul>												
+								</li>
+								<!-- Hogar -->
+
+								<!-- Prensa -->
+								<li>
+									<a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i>&nbsp;<b>Prensa</b></a>
+									<ul>
+										<li>
+											<a href="/comunicados_prensa">Comunicados</a>
+										</li>
+										<li>
+											<a href="/concurso_precios">Concurso de Precios</a>
+										</li>
+										<li>
+											<a href="/fechas_corte">Fechas de Corte</a>
+										</li>
+										<li>
+											<a href="/cotizaciones">Forms. Cotizaciones</a>
+										</li>
+										<li>
+											<a href="/mediciones_calidad">Indicadores ATT</a>
+										</li>
+										<li>
+											<a href="/licitaciones">Licitaciones</a>
+										</li>												
+										<li>
+											<a href="/velocidades_minimas">Velocidades Minimas</a>
+										</li>
+									</ul>												
+								</li>
+								<!-- Prensa -->
+
+								<!-- Atn. al Cliente -->
+								<li>
+									<a href="#"><i class="fa fa-headphones" aria-hidden="true"></i>&nbsp;<b>Atn. al Cliente</b></a>
+									<ul>
+										<!--li>
+											<a href="cmt_actualiza_datos_factura.php">Actualizar Datos Factura</a>
+										</li-->
+										
+
+										<!--li>
+											<a href="cmt_blogs.php">Blogs</a>
+										</li-->
+										
+										<li>
+											<a href="/calculadora">Calculadora Ancho de Banda</a>
+										</li>
+										<li>
+											<a href="https://certificado.comteco.com.bo/">Certificado de Aportacion</a>
+										</li>
+										<li>
+											<a href="/guia_telefonica">Guia Telefonica</a>
+										</li>
+										<li>
+											<a href="/velocidad_web">Incremento Velocidad</a>
+										</li>
+										<li>
+											<a href="/paics">Paics</a>
+										</li>
+										<li>
+											<a href="/cobranzas">Puntos de Cobranza</a>
+										</li>
+										<li>
+											<a href="pdfs/reglamentos/TerminosCondicionesVIG.pdf" target="_Blank">Terminos & Condiciones</a>
+										</li>
+										<!--li>
+											<a href="cmt_sorteo26/cuponeria/index.php">Zonas de Cobertura</a>
+										</li-->																									
+									</ul>												
+								</li>
+								<!-- Atn. al Cliente -->
+
+								<!-- Faq's >
+								<li>
+									<a href="faqs.php">FAQs</a>
+								</li>
+								< Faq's -->
+
+								<!-- contactos -->
+								<li>
+									<a href="/contactos"><i class="fa fa-comments" aria-hidden="true"></i>&nbsp;<b>Contactos</b></a>
+								</li>
+								<!-- contactos -->
+							</ul>
+						</nav>
+						<!-- MenuPrincipal -->
+
+						<!--hidding includes on small devices. They are duplicated in topline-->
+						<ul class="top-includes d-none d-xl-block search-icon">
+							<li>
+								<!-- Faqs Buscar-->
+								<span>
+									<a href="/preguntas_frecuentes">
+										<i class="fa fa-question-circle" style="color: white;"></i>
+									</a>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- header toggler -->
+		<span class="toggle_menu"><span></span></span>
+	</header>
+
+	<div class="page_header_wrapper main-header-side">
+		<div class="page_header_side header_slide header_side_right aaaa ls">
+			<span class="toggle_menu toggle_menu_side header-slide"><span></span></span>
+			<div class="scrollbar-macosx">
+				<div class="side_header_inner">
+					<div class="header-side-menu">
+						<!-- main side nav start -->
+						<nav class="mainmenu_side_wrapper">
+							<ul class="nav menu-click">
+								<li>
+									<a href="mi_coope_nos.php">
+										<i class="color-main7 fa fa-building"></i>
+										MiComteco
+									</a>
+								</li>
+								<li>
+									<a href="cmt_productos_servicios_web.php">
+										<i class="color-main7 fa fa-home"></i>
+										Hogar
+									</a>
+								</li>
+								<li>
+									<a href="cmt_frm_cotizaciones.php">
+										<i class="color-main7 fa fa-newspaper-o"></i>
+										Prensa
+									</a>
+								</li>
+								<li>
+									<a href="cmt_guia_telf.php">
+										<i class="color-main7 fa fa-users"></i>
+										Atn. al Cliente
+									</a>
+								</li>
+								<li>
+									<a href="seccion_faqs.php">
+										<i class="color-main7 fa fa-search"></i>
+										FAQ's
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<!-- eof main side nav -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>            <section class="page_slider">
+	<div id="particles-js"></div>
+	<div class="flexslider" data-nav="false">
+		<ul class="slides">
+			<li class="ds">
+				<img src="images/slides/slide0_big.webp" class="img-fluid" style="width: 100%; height: auto; object-fit: cover; display: block;" alt="Comteco R.L.">
+			</li>
+			<li class="ds">
+				<img src="images/slides/slide1_big.webp" class="img-fluid" style="width: 100%; height: auto; object-fit: cover; display: block;" alt="Comteco R.L.">
+			</li>
+			<li class="ds">
+				<img src="images/slides/slide2_big.webp" class="img-fluid" style="width: 100%; height: auto; object-fit: cover; display: block;" alt="Comteco R.L.">
+			</li>
+			<li class="ds">
+				<img src="images/slides/slide3_big.webp" class="img-fluid" style="width: 100%; height: auto; object-fit: cover; display: block;" alt="Comteco R.L.">
+			</li>
+		</ul>
+	</div>
+</section>            <section class="s-py-80 s-py-lg-120 s-py-xl-160 ls ms">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 offset-lg-2" id="price">
+				<h1 class="text-center">PRODUCTOS</h1>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="s-pb-80 s-pb-lg-120 s-pb-xl-160 ls blog-carousel overflow-visible" id="blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="owl-carousel" data-autoplay="true" data-loop="false" data-responsive-lg="3" data-responsive-md="2" data-responsive-sm="2" data-nav="false" data-dots="false" data-margin="60">							
+					<article class="vertical-item text-center text-md-left post type-post status-publish format-standard has-post-thumbnail">
+						<div class="item-media post-thumbnail">
+							<div class="item-media">
+								<img src="images/gallery/produ_fijacom.jpg" alt="">
+								<div class="media-links">
+									<a class="abs-link" title="" href="cmt_productos_servicios_fijacom.php"></a>
+								</div>
+								<div class="post-data">
+									<img src="images/gallery/fija.png" alt="">
+								</div>
+							</div>
+						</div><!-- .post-thumbnail -->
+						<div class="item-content">
+							<header class="entry-header">
+								<div class="entry-meta small-text color-darkgrey">
+									<span class="like-count">
+										<h6>FIJACOM</h6>
+									</span>
+									<span class="comment-count">
+										<i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;<b>2 Planes - Servicios</b>
+									</span>
+								</div>
+								<!-- .entry-meta -->
+							</header>
+							<!-- .entry-header -->
+						</div><!-- .item-content -->
+					</article><!-- #post-## -->
+					
+					<article class="vertical-item text-center text-md-left post type-post status-publish format-standard has-post-thumbnail">
+						<div class="item-media post-thumbnail">
+							<div class="item-media">
+								<img src="images/gallery/produ_internet.jpg" alt="">
+								<div class="media-links">
+									<a class="abs-link" title="" href="cmt_productos_servicios_web.php"></a>
+								</div>
+								<div class="post-data">
+									<img src="images/gallery/web.png" alt="">
+								</div>
+							</div>
+						</div><!-- .post-thumbnail -->
+						<div class="item-content">
+							<header class="entry-header">
+								<div class="entry-meta small-text color-darkgrey">
+									<span class="like-count">
+										<h6>INTERNET</h6>
+									</span>
+									<span class="comment-count">
+										<i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;<b>10 Planes - Servicios</b>
+									</span>
+								</div>
+								<!-- .entry-meta -->
+							</header>
+							<!-- .entry-header -->
+						</div><!-- .item-content -->
+					</article><!-- #post-## -->
+					
+					<article class="vertical-item text-center text-md-left post type-post status-publish format-standard has-post-thumbnail">
+						<div class="item-media post-thumbnail">
+							<div class="item-media">
+								<img src="images/gallery/produ_paquetes.jpg" alt="">
+								<div class="media-links">
+									<a class="abs-link" title="" href="#"></a>
+								</div>
+								<div class="post-data">
+									<img src="images/gallery/paqts.png" alt="">
+								</div>
+							</div>
+						</div><!-- .post-thumbnail -->
+						<div class="item-content">
+							<header class="entry-header">
+								<div class="entry-meta small-text color-darkgrey">
+									<span class="like-count">
+										<h6>PAQUETES</h6>
+									</span>
+									<span class="comment-count">
+										<i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;<b>0 Planes - Servicios</b>
+									</span>
+								</div>
+								<!-- .entry-meta -->
+							</header>
+							<!-- .entry-header -->
+						</div><!-- .item-content -->
+					</article><!-- #post-## -->
+				</div><!-- .testimonials-slider -->
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="s-pb-80 s-pb-lg-120 s-pb-xl-160 ls blog-carousel overflow-visible" id="blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="owl-carousel" data-autoplay="true" data-loop="false" data-responsive-lg="3" data-responsive-md="2" data-responsive-sm="2" data-nav="false" data-dots="false" data-margin="60">
+					<article class="vertical-item text-center text-md-left post type-post status-publish format-standard has-post-thumbnail">
+						<div class="item-media post-thumbnail">
+							<div class="item-media">
+								<img src="images/gallery/produ_ttff.jpg" alt="">
+								<div class="media-links">
+									<a class="abs-link" title="" href="cmt_productos_servicios_ttff.php"></a>
+								</div>
+								<div class="post-data">
+									<img src="images/gallery/ttff.png" alt="">
+									<!--a href="#">
+										<h6>02<span>oct</span></h6>
+									</a-->
+								</div>
+							</div>
+						</div><!-- .post-thumbnail -->
+						<div class="item-content">
+							<header class="entry-header">
+								<div class="entry-meta small-text color-darkgrey">
+									<span class="like-count">
+										<h6>TELEFONIA</h6>
+									</span>
+									<span class="comment-count">
+										<i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;<b>3 Planes - Servicios</b>
+									</span>
+								</div>
+								<!-- .entry-meta -->
+							</header>
+							<!-- .entry-header -->
+						</div><!-- .item-content -->
+					</article><!-- #post-## -->
+					
+					<article class="vertical-item text-center text-md-left post type-post status-publish format-standard has-post-thumbnail">
+						<div class="item-media post-thumbnail">
+							<div class="item-media">
+								<img src="images/gallery/produ_tv.jpg" alt="">
+								<div class="media-links">
+									<a class="abs-link" title="" href="cmt_productos_servicios_tvpaga.php"></a>
+								</div>
+								<div class="post-data">
+										<!--h6>27<span>sept</span></h6-->
+										<img src="images/gallery/tv.png" alt="">
+								</div>
+							</div>
+						</div><!-- .post-thumbnail -->
+						<div class="item-content">
+							<header class="entry-header">
+								<div class="entry-meta small-text color-darkgrey">
+									<span class="like-count">
+										<h6>TV PAGA</h6>
+									</span>
+									<span class="comment-count">
+										<i class="fa fa-caret-right" aria-hidden="true"></i>&nbsp;<b>5 Planes - Servicios</b>
+									</span>
+								</div>
+								<!-- .entry-meta -->
+							</header>
+							<!-- .entry-header -->
+						</div><!-- .item-content -->
+					</article><!-- #post-## -->
+				</div><!-- .testimonials-slider -->
+			</div>
+		</div>
+	</div>
+</section>            <footer class="page_footer ls ms s-pt-80 s-pb-70 s-py-lg-120 s-pt-xl-135 s-pb-xl-105 c-gutter-60 text-center text-md-left">
+	<div class="container">
+		<div class="row">
+			<div class="divider-20 d-none d-xl-block"></div>
+
+			<div class="col-md-6 col-xl-3 order-xl-1 order-md-1 animate" data-animation="fadeInUp">
+				<div class="widget widget_text">
+					<!--h4 class="widget-title">Central</h4-->
+					<p>
+						<img src="images/logoCMT.png" alt="">
+					</p>
+					<p style="color:#5F5F5F;font-size:13px;" align="justify">
+						<b>Edif. COMTECO</b> [Planta Baja]
+						<br>Av. Ballivián Esq. La Paz Nro. 713
+						<br><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;[4] 4251000
+						<br>Horarios de Atencion
+						<br>08:00 a 16:00 [Lun a Vie]
+						<br>09:00 a 12:00 [Sab]
+					</p>
+					<!--p class="social-heading" style="color:#5F5F5F;font-size:13px;" align="justify">
+</p-->
+<p class="social-icons" style="color:#5F5F5F;font-size:13px;" align="justify">
+	Nuestras <b>Redes Sociales</b>
+	<br>
+	<a href="https://www.instagram.com/soycomteco?igsh=MTFoNGFkanIwdGp6YQ==" class="fa fa-instagram color-white" title="instagram" target="_blank"></a>
+	<a href="https://www.linkedin.com/company/comtecorl/mycompany/" class="fa fa-linkedin color-white" title="linked in" target="_blank"></a>
+	<a href="https://www.tiktok.com/@comteco" class="fa fa-tumblr color-white" title="tik tok" target="_blank"></a>
+	<a href="https://www.youtube.com/@comtecobolivia6613" class="fa fa-youtube-play color-white" title="youtube" target="_blank"></a>
+	<a href="https://api.whatsapp.com/send/?phone=59144200400&text&type=phone_number&app_absent=0" class="fa fa-whatsapp color-white" title="whats app" target="_blank"></a>
+</p>				</div>
+			</div>
+			<div class="col-md-6 col-xl-3 order-xl-2 order-md-4 animate" data-animation="fadeInUp">
+				<div class="widget links">
+					<h4 class="widget-title">&nbsp;</h4>
+					<p style="color:#5F5F5F;font-size:13px;" align="justify">
+						<b>oficina QUILLACOLLO</b>
+						<br>Av. Gral. Camacho y N. Aguirre
+						<br><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;[4] 4263342 - 4367966
+						<br>Horarios de Atencion
+						<br>08:00 a 18:00 [Lun a Vie]
+						<br>09:00 a 12:00 [Sab]
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-3 order-xl-3 order-md-3 animate" data-animation="fadeInUp">
+				<div class="widget services-links">
+					<h4 class="widget-title">&nbsp;</h4>
+					<p style="color:#5F5F5F;font-size:13px;" align="justify">
+						<b>help DESK</b>
+						<br><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;[4] 4200135
+						<br>Horarios de Atencion
+						<br>07:00 a 22:00 [Lun a Sab]
+						<br>08:00 a 21:00 [Dom & Feriados]
+					</p>
+					<br>
+					<p style="color:#5F5F5F;font-size:13px;" align="left">
+						<b>Empresa Supervisada por</b>
+						<img src="images/logoATT.jpg" alt="">
+					</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-xl-3 order-xl-4 order-md-2 animate" data-animation="fadeInUp">
+				<div class="widget widget_icons_list">
+					<h4 class="widget-title">&nbsp;</h4>
+					<p style="color:#5F5F5F;font-size:13px;" align="justify">
+						<b>ventas DIGITALES</b>
+						<br><i class="fa fa-phone-square" aria-hidden="true"></i>&nbsp;[4] 4200400
+						<br><i class="fa fa-whatsapp" aria-hidden="true"></i>&nbsp;[4] 4 - 4200400						
+					</p>
+					<br>
+					<p class="social-icons"  style="color:#5F5F5F;font-size:13px;" align="justify">
+	<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>&nbsp;<b>Call Center</b>
+	<br> Lunes a Sábado de 07:00 a 20:00 
+    <br> Domingos de 08:00 a 20:00
+    <br> Feriados de 07:00 a 20:00
+</p>
+				</div>
+				<div class="divider-45 d-none d-md-block d-xlz-none"></div>
+			</div>
+		</div>
+	</div>
+</footer>
+<section class="page_copyright ds s-py-10 copyright-bg">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="divider-15 d-none d-lg-block"></div>
+			<div class="col-md-12 text-center">
+				<p>&copy; <span class="copyright_year">2025</span> Comteco R.L.</p>
+			</div>
+			<div class="divider-15 d-none d-lg-block"></div>
+		</div>
+	</div>
+</section>        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/compressed.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Script para el modal de cookies -->
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const modal = document.getElementById("cookieModal");
+        const continueButton = document.getElementById("continueButton");
+        const continuesButton = document.getElementById("continuesButton");
+        
+        if (!hasConsented && (window.location.pathname.endsWith("index.php") || window.location.pathname === "/")) {
+            modal.style.display = "flex";
+        }
+
+        continueButton.addEventListener("click", function() {
+            fetch('cmt_save_consent.php', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({consent_type: 'Declined Clicked'})
+            })
+            .then(response => response.json())
+            .then(data => {
+                modal.style.display = "none";
+            })
+            .catch(error => console.error('Error:', error));
+        });
+
+        continuesButton.addEventListener("click", function() {
+            window.location.href = 'mi_coope_cookies.php';
+        });
+    });
+    </script>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- START Botmaker WebChat -->
+<script>
+
+    (function () {
+        let js = document.createElement('script');
+        js.type = 'text/javascript';
+        js.async = 1;
+        js.src = 'https://go.botmaker.com/rest/webchat/p/A0OOT0M7WA/init.js';
+        document.body.appendChild(js);
+    })();
+
+</script>
+<!-- END Botmaker WebChat-->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    
+</body>
+</html>

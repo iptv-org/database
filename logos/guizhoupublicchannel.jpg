@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="星火網絡體育電視直播網收集了全球網絡各大電視臺，包括主流的CCTV5,北京衛視、湖南衛視、浙江衛視、TVB翡翠電視臺以及鳳凰衛視等在線免費線上電視提供給全球海外華人觀看,同時還有比較熱鬧體育比賽五大聯賽（英超、德甲、西甲、意甲、法甲）又及足球直播、籃球直播等各在熱鬧體育比賽線上服務平臺。" />
+    <meta name="keywords" content="星火直播港臺直播，星火體育直播,電視直播線上看,籃球在線直播,足球線上直播,星火直播海外版,星火直播官網" />
+    <script type="130ed8f1151c3b172874776b-text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script disable-devtool-auto src='/js/disable-devtool.js' type="130ed8f1151c3b172874776b-text/javascript"></script>
+    <!-- Google Tag Manager -->
+    <script type="130ed8f1151c3b172874776b-text/javascript">(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({'gtm.start':
+                new Date().getTime(), event: 'gtm.js'});
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l!= 'dataLayer'? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document,'script', 'dataLayer', 'GTM-TSM5DQKT');</script>
+    <!-- End Google Tag Manager -->
+    <title>星火電視直播-體育直播線上看-電視直播線上看-星火港臺直播 www.kds.tw</title>
+    <link href="style_pc.css?v=202201200102" rel="stylesheet" media="screen">
+    <style>
+     .match-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+     .team-name {
+            max-width: 500px; 
+            white-space: normal; 
+            overflow: visible; 
+            text-overflow: clip; 
+            line-height: 1.5; 
+        }
+
+     .right_saishi {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+     .right_saishi.no-vs {
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    
+<div class="top_box">
+    <div class="top_dh">
+        <div style="float:left; margin-right:100px;"><a href="index.html"><img src="images/pc_logo.png" border="0" /></a></div>
+        <div class="top_link" ><a href="index.html" style="color:#4a7fe7">首頁</a></div>
+        <div class="top_link" ><a href="football-list-0-1.html" >足球</a></div>
+        <div class="top_link" ><a href="basketball-list-0-1.html" >籃球</a></div>
+        <div class="top_link" ><a href="movie.html" >影視</a></div>
+        <div class="top_link">
+        <a href="tv.html" >電視</a>
+        
+            
+            
+        </div>
+    </div>
+</div>
+
+<script type="130ed8f1151c3b172874776b-text/javascript">
+    // 获取所有顶部链接
+    var topLinks = document.querySelectorAll('.top_link a');
+
+    // 遍历链接，为每个链接添加点击事件监听器
+    topLinks.forEach(function(link) {
+        link.addEventListener('click', function(event) {
+            // 移除所有链接的样式
+            topLinks.forEach(function(link) {
+                link.removeAttribute('style');
+            });
+            // 为当前点击的链接添加样式
+            this.setAttribute('style', 'color:#4a7fe7');
+        });
+    });
+</script>
+
+<!-- Google Tag Manager -->
+<script type="130ed8f1151c3b172874776b-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDL472CH');</script>
+<!-- End Google Tag Manager -->
+
+    
+    <div class="body_box">
+        <div class="body_left">
+
+                        <div class="left_list">
+                <div class="left_first">足球</div>
+                                    <div class="left_link"><a href="football-list-10104-0.html" >英超</a></div>
+                                    <div class="left_link"><a href="football-list-10105-0.html" >意甲</a></div>
+                                    <div class="left_link"><a href="football-list-10106-0.html" >德甲</a></div>
+                                    <div class="left_link"><a href="football-list-10107-0.html" >法甲</a></div>
+                                    <div class="left_link"><a href="football-list-10108-0.html" >西甲</a></div>
+                                    <div class="left_link"><a href="football-list-10109-0.html" >日职联</a></div>
+                                    <div class="left_link"><a href="football-list-10110-0.html" >英甲</a></div>
+                                    <div class="left_link"><a href="football-list-10118-0.html" >英足总杯</a></div>
+                                    <div class="left_link"><a href="football-list-10119-0.html" >西杯</a></div>
+                                    <div class="left_link"><a href="football-list-10122-0.html" >葡超</a></div>
+                            </div>
+            
+            <div class="left_list">
+                <div class="left_first"></div>
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8698255600561309" crossorigin="anonymous" type="130ed8f1151c3b172874776b-text/javascript"></script>
+                <!-- SHare Dom -->
+                <ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8698255600561309"
+     data-ad-slot="9117654761"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+                <script type="130ed8f1151c3b172874776b-text/javascript">
+     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+
+                        <div class="left_list">
+                <div class="left_first">篮球</div>
+                                    <div class="left_link"><a href="basketball-list-10111-0.html" >NBA</a></div>
+                                    <div class="left_link"><a href="basketball-list-10113-0.html" >CBA</a></div>
+                                    <div class="left_link"><a href="basketball-list-10186-0.html" >WCBA</a></div>
+                                    <div class="left_link"><a href="basketball-list-10317-0.html" >WNBA</a></div>
+                                    <div class="left_link"><a href="basketball-list-10654-0.html" >G-NBA</a></div>
+                            </div>
+            
+                        <div class="left_list">
+                <div class="left_first">体育频道推荐</div>
+                                    <div class="left_link"><a href="tv-show-20319-1.html" target="_self">LaLigaTV 1</a></div>
+                                    <div class="left_link"><a href="tv-show-20320-1.html" target="_self">IN News</a></div>
+                                    <div class="left_link"><a href="tv-show-20321-1.html" target="_self">Bin Sport</a></div>
+                                    <div class="left_link"><a href="tv-show-20322-1.html" target="_self">Bein NBA</a></div>
+                                    <div class="left_link"><a href="tv-show-20323-1.html" target="_self">Bein Sport 1</a></div>
+                                    <div class="left_link"><a href="tv-show-20324-1.html" target="_self">Bein Sport 2</a></div>
+                                    <div class="left_link"><a href="tv-show-20325-1.html" target="_self">Bein Sport 3</a></div>
+                                    <div class="left_link"><a href="tv-show-20326-1.html" target="_self">Bein Sport 4</a></div>
+                                    <div class="left_link"><a href="tv-show-20327-1.html" target="_self">Bein Sport 5</a></div>
+                                    <div class="left_link"><a href="tv-show-20328-1.html" target="_self">Bein Sport 6</a></div>
+                            </div>
+
+            <div class="left_list">
+                <div class="left_first">热门频道</div>
+                                    <div class="left_link"><a href="tv-show-20018-1.html" target="_self">湖南卫视</a></div>
+                                    <div class="left_link"><a href="tv-show-20019-1.html" target="_self">浙江卫视</a></div>
+                                    <div class="left_link"><a href="tv-show-20020-1.html" target="_self">江苏卫视</a></div>
+                                    <div class="left_link"><a href="tv-show-20052-1.html" target="_self">翡翠台</a></div>
+                                    <div class="left_link"><a href="tv-show-20165-1.html" target="_self">Nippon TV</a></div>
+                            </div>
+            
+        </div>
+
+        <div class="body_right">
+
+                            <div class="right_date"><span>2025-09-02 周二</span></div>
+
+                                    <div class="right_saishi ">
+                                                <div class="r_0">
+                            <div>更新中</div>
+                        </div>
+                        <div class="r_1">23:00</div>
+                        <div class="r_2 team-name">冰岛</div>
+                                                <div class="r_2"><img src="https://cdn.sportnanoapi.com/basketball/team/8b62f8455fb49ede7c5f5b45aed7850a.jpg"></div>
+                                                                        <div class="r_3">VS</div>
+                                                                        <div class="r_4"><img src="https://cdn.sportnanoapi.com/basketball/team/35ddc4d975ebf4ca72e69c453bc89d44.png"></div>
+                                                <div class="r_4 team-name">斯洛文尼亚</div>
+                        <div class="r_5">
+                                                            <span class="part_dianji_guankan">未开始</span>
+                                                        </div>
+                        <div class="r_6"><a href="basketball-show-47948-1.html" style="color:#095fa8" target="_blank"><span class="part_dianji_guankan">观看直播</span></a></div>
+                    </div>
+                                    <div class="right_saishi no-vs">
+                                                <div class="r_0">
+                            <div>美网</div>
+                        </div>
+                        <div class="r_1">23:00</div>
+                        <div class="r_2 team-name">美国网球公开赛-美国网球公开赛 - 1/4决赛</div>
+                                                                                                <div class="r_4 team-name"></div>
+                        <div class="r_5">
+                                                            <span class="part_dianji_guankan">未开始</span>
+                                                        </div>
+                        <div class="r_6"><a href="other-show-48300-1.html" style="color:#095fa8" target="_blank"><span class="part_dianji_guankan">观看直播</span></a></div>
+                    </div>
+                                    <div class="right_saishi ">
+                                                <div class="r_0">
+                            <div>更新中</div>
+                        </div>
+                        <div class="r_1">23:15</div>
+                        <div class="r_2 team-name">塞浦路斯</div>
+                                                <div class="r_2"><img src="https://cdn.sportnanoapi.com/basketball/team/27e09766091836d4d546cdbe519231b1.png"></div>
+                                                                        <div class="r_3">VS</div>
+                                                                        <div class="r_4"><img src="https://cdn.sportnanoapi.com/basketball/team/67f100aa28472723819d70f3f6e7308a.jpg"></div>
+                                                <div class="r_4 team-name">格鲁吉亚</div>
+                        <div class="r_5">
+                                                            <span class="part_dianji_guankan">未开始</span>
+                                                        </div>
+                        <div class="r_6"><a href="basketball-show-47949-1.html" style="color:#095fa8" target="_blank"><span class="part_dianji_guankan">观看直播</span></a></div>
+                    </div>
+                
+                <div style="clear:both; height:20px;"></div>
+                            <div class="right_date"><span>2025-09-03 周三</span></div>
+
+                                    <div class="right_saishi ">
+                                                <div class="r_0">
+                            <div>更新中</div>
+                        </div>
+                        <div class="r_1">02:30</div>
+                        <div class="r_2 team-name">法国</div>
+                                                <div class="r_2"><img src="https://cdn.sportnanoapi.com/basketball/team/cc88501884467ebc8dae1bb1d67ffe52.png"></div>
+                                                                        <div class="r_3">VS</div>
+                                                                        <div class="r_4"><img src="https://cdn.sportnanoapi.com/basketball/team/96e1bb2e49b3544cb3a8765512305b91.png"></div>
+                                                <div class="r_4 team-name">波兰</div>
+                        <div class="r_5">
+                                                            <span class="part_dianji_guankan">未开始</span>
+                                                        </div>
+                        <div class="r_6"><a href="basketball-show-47950-1.html" style="color:#095fa8" target="_blank"><span class="part_dianji_guankan">观看直播</span></a></div>
+                    </div>
+                                    <div class="right_saishi no-vs">
+                                                <div class="r_0">
+                            <div>BWF</div>
+                        </div>
+                        <div class="r_1">08:30</div>
+                        <div class="r_2 team-name">中国大师赛 - 1号场地</div>
+                                                                                                <div class="r_4 team-name"></div>
+                        <div class="r_5">
+                                                            <span class="part_dianji_guankan">未开始</span>
+                                                        </div>
+                        <div class="r_6"><a href="other-show-48301-1.html" style="color:#095fa8" target="_blank"><span class="part_dianji_guankan">观看直播</span></a></div>
+                    </div>
+                                    <div class="right_saishi no-vs">
+                                                <div class="r_0">
+                            <div>BWF</div>
+                        </div>
+                        <div class="r_1">08:30</div>
+                        <div class="r_2 team-name">中国大师赛 - 2号场地</div>
+                                                                                                <div class="r_4 team-name"></div>
+                        <div class="r_5">
+                                                            <span class="part_dianji_guankan">未开始</span>
+                                                        </div>
+                        <div class="r_6"><a href="other-show-48302-1.html" style="color:#095fa8" target="_blank"><span class="part_dianji_guankan">观看直播</span></a></div>
+                    </div>
+                                    <div class="right_saishi no-vs">
+                                                <div class="r_0">
+                            <div>BWF</div>
+                        </div>
+                        <div class="r_1">08:30</div>
+                        <div class="r_2 team-name">中国大师赛 - 3号场地</div>
+                                                                                                <div class="r_4 team-name"></div>
+                        <div class="r_5">
+                                                            <span class="part_dianji_guankan">未开始</span>
+                                                        </div>
+                        <div class="r_6"><a href="other-show-48303-1.html" style="color:#095fa8" target="_blank"><span class="part_dianji_guankan">观看直播</span></a></div>
+                    </div>
+                                    <div class="right_saishi no-vs">
+                                                <div class="r_0">
+                            <div>BWF</div>
+                        </div>
+                        <div class="r_1">08:30</div>
+                        <div class="r_2 team-name">中国大师赛 - 4号场地</div>
+                                                                                                <div class="r_4 team-name"></div>
+                        <div class="r_5">
+                                                            <span class="part_dianji_guankan">未开始</span>
+                                                        </div>
+                        <div class="r_6"><a href="other-show-48304-1.html" style="color:#095fa8" target="_blank"><span class="part_dianji_guankan">观看直播</span></a></div>
+                    </div>
+                                    <div class="right_saishi ">
+                                                <div class="r_0">
+                            <div>更新中</div>
+                        </div>
+                        <div class="r_1">18:00</div>
+                        <div class="r_2 team-name">荷兰</div>
+                                                <div class="r_2"><img src="https://cdn.sportnanoapi.com/basketball/team/a3c2e88791f48bd1adb9322ecefb8de1.gif"></div>
+                                                                        <div class="r_3">VS</div>
+                                                                        <div class="r_4"><img src="https://cdn.sportnanoapi.com/basketball/team/174ead45f85e0d25654016139877b60d.png"></div>
+                                                <div class="r_4 team-name">日本</div>
+                        <div class="r_5">
+                                                            <span class="part_dianji_guankan">未开始</span>
+                                                        </div>
+                        <div class="r_6"><a href="basketball-show-47951-1.html" style="color:#095fa8" target="_blank"><span class="part_dianji_guankan">观看直播</span></a></div>
+                    </div>
+                                    <div class="right_saishi ">
+                                                <div class="r_0">
+                            <div>更新中</div>
+                        </div>
+                        <div class="r_1">18:30</div>
+                        <div class="r_2 team-name">黑山</div>
+                                                <div class="r_2"><img src="https://cdn.sportnanoapi.com/basketball/team/d611867da29bd4ebe52826f8622c96d6.jpg"></div>
+                                                                        <div class="r_3">VS</div>
+                                                                        <div class="r_4"><img src="https://cdn.sportnanoapi.com/basketball/team/04e3131ae3231376830cdce512fd1a86.jpg"></div>
+                                                <div class="r_4 team-name">英国</div>
+                        <div class="r_5">
+                                                            <span class="part_dianji_guankan">未开始</span>
+                                                        </div>
+                        <div class="r_6"><a href="basketball-show-47952-1.html" style="color:#095fa8" target="_blank"><span class="part_dianji_guankan">观看直播</span></a></div>
+                    </div>
+                                    <div class="right_saishi ">
+                                                <div class="r_0">
+                            <div>更新中</div>
+                        </div>
+                        <div class="r_1">19:35</div>
+                        <div class="r_2 team-name">陕西女篮</div>
+                                                <div class="r_2"><img src="https://cdn.sportnanoapi.com/basketball/team/cca7be2b96d0457fafb7bf93c53b38f0.png"></div>
+                                                                        <div class="r_3">VS</div>
+                                                                        <div class="r_4"><img src="https://cdn.sportnanoapi.com/basketball/team/415ab35a4c95d359ed755183ed9f8c1e.png"></div>
+                                                <div class="r_4 team-name">北极星</div>
+                        <div class="r_5">
+                                                            <span class="part_dianji_guankan">未开始</span>
+                                                        </div>
+                        <div class="r_6"><a href="basketball-show-52571-1.html" style="color:#095fa8" target="_blank"><span class="part_dianji_guankan">观看直播</span></a></div>
+                    </div>
+                                    <div class="right_saishi ">
+                                                <div class="r_0">
+                            <div>更新中</div>
+                        </div>
+                        <div class="r_1">19:45</div>
+                        <div class="r_2 team-name">爱沙尼亚</div>
+                                                <div class="r_2"><img src="https://cdn.sportnanoapi.com/basketball/team/8a1fc9ba426ed89a179dc32d727c2633.gif"></div>
+                                                                        <div class="r_3">VS</div>
+                                                                        <div class="r_4"><img src="https://cdn.sportnanoapi.com/basketball/team/fee0d1affd6617522d25de0486295bc3.gif"></div>
+                                                <div class="r_4 team-name">葡萄牙</div>
+                        <div class="r_5">
+                                                            <span class="part_dianji_guankan">未开始</span>
+                                                        </div>
+                        <div class="r_6"><a href="basketball-show-47953-1.html" style="color:#095fa8" target="_blank"><span class="part_dianji_guankan">观看直播</span></a></div>
+                    </div>
+                
+                <div style="clear:both; height:20px;"></div>
+                            <div class="right_date"><span>2025-09-04 周四</span></div>
+
+                
+                <div style="clear:both; height:20px;"></div>
+                            <div class="right_date"><span>2025-09-05 周五</span></div>
+
+                
+                <div style="clear:both; height:20px;"></div>
+                            <div class="right_date"><span>2025-09-06 周六</span></div>
+
+                
+                <div style="clear:both; height:20px;"></div>
+                    </div>
+    </div>
+    
+
+
+    <div class="foot">
+	<div>本站所有直播信號和視頻錄像電視信號等均由用戶搜集或從搜索引擎整理獲得，所有內容均來自互聯網或者第三方平臺，我們不存儲任何內容，如有侵犯您的權益請與我們聯系！Email:admin(at)kds.tw</div>
+	<div>Copyright &copy; 2025 www.kds.tw All Rights Reserved</div>
+<!--Start of Tawk.to Script-->
+<script type="130ed8f1151c3b172874776b-text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/629397c47b967b117991d40c/1g488hmdc';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WDL472CH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script type="130ed8f1151c3b172874776b-text/javascript">
+// 获取当前页面的URL路径（如 "/index.php" 或 "/news/detail?id=123"）
+const currentPage = encodeURIComponent(window.location.pathname + window.location.search);
+
+function updateOnlineCount() {
+    const xhr = new XMLHttpRequest();
+    // 补充完整的page参数
+    xhr.open('GET', `http://www.kds.tw/api/genzong?page=${currentPage}`, true);
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            document.getElementById('online-count').textContent = xhr.responseText;
+        }
+    };
+    xhr.send();
+}
+
+// 每分钟刷新一次
+setInterval(updateOnlineCount, 60000);
+updateOnlineCount(); // 立即执行一次
+</script>
+
+</div>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="130ed8f1151c3b172874776b-|49" defer></script><script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'978dc5da0a70351b',t:'MTc1NjgyNDEzNA=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"cea7b52989c24045af90d98f2277fde6","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>    

@@ -29,6 +29,14 @@ jobs:
         run: npm run db:update --silent >> $GITHUB_OUTPUT
       - name: validate changes
         run: npm run db:validate
+      - name: check if files are crlf
+        uses: kforeverisback/check-crlf-extended@v2
+        continue-on-error: false
+        with:
+          directory: ./data
+          line_ending_type: 'CRLF'
+          include_pattern: '*.csv'
+          pattern_type: 'shell_glob'
       - name: setup git
         run: |
           git config user.name "iptv-bot[bot]"

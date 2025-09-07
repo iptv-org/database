@@ -2323,8 +2323,8 @@ ATV.am,SD,SD,,TRUE,c/AM,Asia/Yerevan,hye,576i
 ATV.at,HD,HD,,FALSE,c/AT,Europe/Vienna,deu,1080i
 ATV.at,SD,SD,,TRUE,c/AT,Europe/Vienna,deu,576i
 ATV.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,bos,576i
-ATV.be,HD,HD,,FALSE,c/BE,Europe/Brussels,nld,1080i
-ATV.be,SD,SD,,TRUE,c/BE,Europe/Brussels,nld,576i
+ATV.be,HD,HD,,FALSE,s/BE-VAN,Europe/Brussels,nld,1080i
+ATV.be,SD,SD,,TRUE,s/BE-VAN,Europe/Brussels,nld,576i
 ATV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 ATV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 ATV.gn,SD,SD,,TRUE,c/GN,Africa/Conakry,fra,576i
@@ -19709,6 +19709,7 @@ MBC1.ae,SD,SD,,TRUE,r/ARAB;r/MAGHREB,Asia/Riyadh,ara,576i
 MBC1.mu,SD,SD,,TRUE,c/MU,Indian/Mauritius,fra;eng;hin;mfe,576i
 MBC11.mu,SD,SD,,TRUE,c/MU,Indian/Mauritius,fra;eng;hin,576i
 MBC16.mu,SD,SD,,TRUE,c/MU,Indian/Mauritius,hin,576i
+MBC1Egypt.eg,HD,HD,,TRUE,c/EG,Africa/Cairo,ara,1080p
 MBC1USA.us,SD,SD,,TRUE,c/US,Asia/Riyadh,eng;ara,480i
 MBC2.ae,SD,SD,,TRUE,r/ARAB;r/MAGHREB,Asia/Riyadh,ara;eng,576i
 MBC2.mu,SD,SD,,TRUE,c/MU,Indian/Mauritius,fra;eng;hin;mfe;tel;mar;urd;cmn,576i
@@ -21853,7 +21854,6 @@ NickelodeonLatinAmerica.us,North,North,,FALSE,c/MX,America/New_York,spa,480i
 NickelodeonLatinAmerica.us,Panregional,Panregional,,TRUE,c/CO;c/VE;c/PE;c/CL;c/EC;c/BO;r/CENAMER;c/DO,America/New_York,spa,480i
 NickelodeonPlus.gr,SD,SD,,TRUE,ct/GRSKG,Europe/Athens,ell,576i
 NickelodeonScandinavia.nl,SD,SD,,TRUE,c/NO;c/FI;c/DK,Europe/Amsterdam,eng,576i
-NickelodeonSonic.in,SD,SD,,TRUE,c/IN;c/NP;c/BD,Asia/Kolkata,eng,576i
 NickelodeonTeen.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 NickelodeonUkrainePlutoTV.ua,SD,SD,,TRUE,c/PT;c/PL;c/DE,Europe/Kyiv,eng,576i
 NickelodeonWallonia.be,SD,SD,,TRUE,c/BE;c/LU,Europe/Brussels,fra,576i
@@ -23342,6 +23342,7 @@ PersianaComedy.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
 PersianaDocumentary.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
 PersianaFamily.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
 PersianaFamilyPlus.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
+PersianaFight.fr,HD,HD,,TRUE,c/IR,Asia/Tehran,fas,720p
 PersianaGameTech.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
 PersianaHD.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
 PersianaIranian.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
@@ -27830,6 +27831,7 @@ Songbird.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 SongdewTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 SONGTVArmenia.am,SD,SD,,TRUE,c/AM,Asia/Yerevan,hye,576i
 SONGTVRussia.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
+Sonic.in,SD,SD,,TRUE,c/IN;c/NP;c/BD,Asia/Kolkata,eng,576i
 SonicTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 SoniderosTV.us,SD,SD,,TRUE,c/US;c/MX,America/New_York,spa,480i
 SonLatino.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i

@@ -1347,6 +1347,7 @@ AlphaChannel.br,SD,SD,,TRUE,s/BR-SP,America/Sao_Paulo,por,480i
 AlphaChannel.sr,SD,SD,,TRUE,c/SR,America/Paramaribo,nld;eng,480i
 AlphaDigital.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
 AlphaetOmegaTV.ci,SD,SD,,TRUE,c/CI,Africa/Abidjan,fra,576i
+AlphaKids.sr,SD,SD,,TRUE,c/SR,America/Paramaribo,nld;eng,576i
 AlphaSat.gr,SD,SD,,TRUE,c/GR,Europe/Athens,ell,576i
 AlphaTV.gr,HD,HD,,FALSE,c/GR,Europe/Athens,ell,1080i
 AlphaTV.gr,SD,SD,,TRUE,c/GR,Europe/Athens,ell,576i
@@ -7225,7 +7226,7 @@ DDMadhyaPradesh.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 DDMalayalam.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
 DDManipur.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 DDMeghalaya.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
-DDMizoram.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+DDMizoram.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,lus;eng,576i
 DDNagaland.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 DDNational.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,hin,1080i
 DDNational.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -21301,6 +21302,7 @@ NationFirst.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 NationTV.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 Nativa.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 NativaTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
+NativaTV.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,576i
 NativaTVSatipo.pe,SD,SD,,TRUE,ct/PESIP,America/Lima,spa,480i
 NativityTV.ps,SD,SD,,TRUE,c/PS,Africa/Johannesburg,ara,576i
 NATTV.us,SD,SD,,TRUE,c/US;c/TH,America/New_York,tha,480i
@@ -23253,6 +23255,7 @@ PCCtv.us,SD,SD,,TRUE,ct/USPSD,America/Los_Angeles,eng,480i
 PCCTVFlorida.us,SD,SD,,TRUE,s/US-FL,America/New_York,eng,480i
 PCGTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 PCMMediaTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
+PCN15.gy,SD,SD,,TRUE,c/GY,America/Guyana,eng,576i
 PCNTV.us,SD,SD,,TRUE,ct/USXDZ,America/New_York,eng,480i
 PCTChannel26.us,SD,SD,,TRUE,ct/USPFQ,America/New_York,eng;spa,480i
 PCTChannel27.us,SD,SD,,TRUE,s/US-CA,America/New_York,eng;spa,480i
@@ -25147,6 +25150,7 @@ RBTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 RBTV.us,SD,SD,,TRUE,ct/USRBC,America/New_York,eng,480i
 RBTVJogja.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 RBW.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
+RCATelevision.gy,SD,SD,,TRUE,c/GY,America/Guyana,eng,576i
 RCCTV.py,SD,SD,,TRUE,ct/PYFLM,America/Asuncion,spa,576i
 RCGTV.cm,SD,SD,,TRUE,c/CM,Africa/Douala,fra,576i
 RCGTV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
@@ -33414,6 +33418,7 @@ ViendoMovies.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 VienThaoTV.us,SD,SD,,TRUE,c/US,America/New_York,vie,480i
 VietfaceTV.us,SD,SD,,TRUE,c/US,America/New_York,vie,480i
 VietMyTV.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
+VietnamToday.vn,HD,HD,,TRUE,c/VN,Asia/Ho_Chi_Minh,eng;vie,1080p
 VietSkyTV.us,SD,SD,,TRUE,ct/USGGR,America/New_York,vie,480i
 VietvNetwork.us,SD,SD,,TRUE,c/US,America/New_York,vie,480i
 ViewerTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i

@@ -6413,6 +6413,8 @@ CNBCWorld.us,SD,SD,,TRUE,r/NORAM,America/New_York,eng,480i
 CNBTV.tn,SD,SD,,TRUE,r/MAGHREB;c/EG,Africa/Tunis,ara,576i
 CNC.kh,SD,SD,,TRUE,c/KH,Asia/Phnom_Penh,khm,576i
 CNC3.tt,SD,SD,,TRUE,c/TT,America/Port_of_Spain,spa,480i
+CNCArauca.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
+CNCBoyaca.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 CNCCajamarca.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 CNCCali.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 CNCCartagena.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
@@ -6423,6 +6425,7 @@ CNCMedellin.co,SD,SD,,FALSE,c/CO,America/Bogota,spa,480i
 CNCMonteria.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 CNCPasto.co,SD,SD,,TRUE,ct/COPSO,America/Bogota,spa,480i
 CNCSantanderdeQuilichao.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
+CNCSantaRosa.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 CNCTulua.co,SD,SD,,TRUE,ct/COULQ,America/Bogota,spa,480i
 CNCTV.us,SD,SD,,TRUE,ct/USSAN,America/Los_Angeles,eng;spa,480i
 CNCTVGranma.cu,SD,SD,,TRUE,c/CU,America/Havana,spa,480i
@@ -9392,6 +9395,7 @@ FijiOne.fj,SD,SD,,TRUE,c/FJ,Pacific/Fiji,eng;hin;fij,576i
 FijiTV.fj,SD,SD,,TRUE,c/FJ,Pacific/Fiji,eng,576i
 Filamchi.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 FilamchiBhojpuri.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,bho,576i
+FilinfoTV.bf,SD,SD,,TRUE,c/BF,Africa/Ouagadougou,fra,576i
 FilipinoTV.ca,SD,SD,,TRUE,c/CA,America/Toronto,tgl,480i
 Film1Action.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld;eng,576i
 Film1Drama.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
@@ -9615,6 +9619,7 @@ FoodTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 Foodxp.uk,SD,SD,,TRUE,c/UK,America/Toronto,hin,576i
 Football.ru,HD,HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
 Football.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
+FootballChannel.mo,SD,SD,,TRUE,c/MO,Asia/Macau,zho,576i
 FootballDailyXUMO.us,SD,SD,,TRUE,c/US,America/Los_Angeles,eng,480i
 FootballHub.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 FootPlus.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -11402,11 +11407,13 @@ HopeChannelPolska.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 HopeChannelRussia.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 HopeChannelSingapore.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,eng,576i
 HopeChannelTanzania.tz,SD,SD,,TRUE,c/TZ,Africa/Dar_es_Salaam,eng,576i
+HopeChannelTonga.to,SD,SD,,TRUE,c/TO,Pacific/Tongatapu,eng;ton,576i
 HopeChannelTuvalu.tv,SD,SD,,TRUE,c/TV,Pacific/Funafuti,eng,576i
 HopeChannelTV.cd,SD,SD,,TRUE,c/CD,Africa/Lubumbashi,fra,576i
 HopeChannelUganda.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
 HopeChannelUK.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 HopeChannelUkraine.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
+HopeChannelVanuatu.vu,SD,SD,,TRUE,c/VU,Pacific/Efate,eng,576i
 HopeChannelZambia.zm,SD,SD,,TRUE,c/ZM,Africa/Lusaka,eng,576i
 HopeMediaItalia.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 HopeTV.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,eng,576i
@@ -19819,7 +19826,11 @@ MCTV.de,HD,HD,,TRUE,c/DE,Europe/Berlin,tur;deu,576i
 MCTV.mg,SD,SD,,TRUE,c/MG,Indian/Antananarivo,fra;mlg,576i
 MCTV.us,SD,SD,,TRUE,ct/USMBA,America/New_York,eng;spa,480i
 MCTV191.us,SD,SD,,TRUE,ct/USILD,America/Chicago,eng,480i
+MCTVChannel1.mo,SD,SD,,TRUE,c/MO,Asia/Macau,zho,576i
 MCTVChannel118.bb,SD,SD,,TRUE,c/BB,America/Barbados,eng,576i
+MCTVChannel3HD.mo,HD,HD,,TRUE,c/MO,Asia/Macau,zho,1080i
+MCTViNews.mo,SD,SD,,TRUE,c/MO,Asia/Macau,zho,576i
+MCTVInfoSportsChannel.mo,SD,SD,,TRUE,c/MO,Asia/Macau,zho,576i
 MDATelevision.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 MDF1.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 MDL.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -28137,6 +28148,7 @@ SportOne.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 SportPlus.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,eng,576i
 SportPlusTV.gr,SD,SD,,TRUE,c/GR,Europe/Athens,ell,576i
 SportsChannel.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,heb,576i
+SportsChannel.mo,SD,SD,,TRUE,c/MO,Asia/Macau,zho,576i
 SportsChannelNetwork.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 SportsConnect.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 SportsGrid.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i

@@ -209,7 +209,7 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 4KidsTV.dz,4Kids TV,,,,DZ,kids,FALSE,,,,https://4kids-tv.com/
 4KUniverse.us,4KUniverse,,,Matthew Mancinelli,US,general,FALSE,2016-10-01,,,https://4kuniversenow.com/
 4Kurd.fr,4Kurd,,,Persiana Media Group,FR,music,FALSE,,,,https://www.persianagroup.tv/live/persiana-4kurdhd
-4Music.fr,4 Music,,,,FR,music,FALSE,,,,
+4Music.fr,4 Music,,,Persiana Media Group,FR,music,FALSE,,,,https://persianagroup.tv/
 4Music.uk,4Music,,Box Plus,HM Government,UK,music,FALSE,2008-08-15,2024-07-01,,https://www.boxplus.com/
 4Plus.ch,4+,,,,CH,movies,FALSE,,,,https://www.oneplus.ch/
 4seven.uk,4seven,,,HM Government,UK,entertainment,FALSE,2012-07-04,,,https://www.channel4.com/
@@ -6442,6 +6442,7 @@ DAZN5.uk,DAZN 5,DAZN Eleven 5;Eleven 5;Eleven Sports 5,,Andrea Radrizzani,UK,spo
 DAZN6.uk,DAZN 6,DAZN Eleven 6;Eleven 6;Eleven Sports 6,,Andrea Radrizzani,UK,sports,FALSE,2018-01-01,,,https://www.elevensports.pt/
 DAZNCombat.uk,DAZN Combat,,,Access Industries,UK,sports,FALSE,2016-08-10,,,https://www.dazn.com/
 DAZNF1.uk,DAZN F1,,,Access Industries,UK,sports,FALSE,2021-03-01,,,https://www.dazn.com/es-ES/l/sports/
+DAZNFAST.de,DAZN FAST,,,,DE,sports,FALSE,,,,
 DAZNLaLiga.uk,DAZN LaLiga,,,Access Industries,UK,sports,FALSE,2022-08-01,,,https://www.dazn.com/es-ES/l/sports/
 DAZNLaLiga2.uk,DAZN LaLiga 2,,,Access Industries,UK,sports,FALSE,2022-08-01,,,https://www.dazn.com/es-ES/l/sports/
 DAZNLaLiga3.uk,DAZN LaLiga 3,,,Access Industries,UK,sports,FALSE,2022-08-01,,,https://www.dazn.com/es-ES/l/sports/
@@ -21788,6 +21789,7 @@ PerlaTV.ni,Perla TV,,,,NI,general,FALSE,,,,
 Perlavision.cu,Perlavision,Perlavisión,ICRT,,CU,general,FALSE,2000-09-05,,,https://www.perlavision.cu/
 PerryMason.us,Perry Mason,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/perry-mason
 PersadaTV.id,Persada TV,,,Digdaya Media Nusantara,ID,general,FALSE,2021-02-20,,,https://www.persada.tv/
+PersanaDocs.fr,Persana Docs,,,Persiana Media Group,FR,documentary,FALSE,,,,https://persianagroup.tv/
 PershiyNezalezhniy.ua,Pershiy Nezalezhniy,Перший Незалежний,,Roman Lyubitsky,UA,news,FALSE,2019-11-01,2022-02-03,UkrLive.ua,http://pnk.tv/
 PershiyXTVMedia.ua,Pershiy XTV Media,,XTV Media,,UA,news,FALSE,,,,https://trk1tv.xtvmedia.pp.ua/
 Pershyi.ua,Pershyi,Перший;First;UΛ: Перший;Перший національний;УТ1;УТ;Suspilne TV;Suspilne Pershyi;UA:Pershyi;Pershyi Natsionalnyi;Pershyi kanal;UT-1;Ukrainske Telebachennia,,National Public Television and Radio Company of Ukraine,UA,general,FALSE,1939-02-01,,,https://tv.suspilne.media/
@@ -21803,6 +21805,7 @@ PersianaEmirates.fr,Persiana Emirates,,,Persiana Media Group,FR,series,FALSE,,,,
 PersianaFamily.fr,Persiana Family,,,Persiana Media Group,FR,movies,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaFamilyPlus.fr,Persiana Family+,,,Persiana Media Group,FR,movies,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaFight.fr,Persiana Fight,,,Persiana Media Group,FR,sports,FALSE,,,,https://www.persianagroup.tv/
+PersianaFolk.fr,Persiana Folk,,,Persiana Media Group,FR,music,FALSE,,,,https://www.persianagroup.tv/
 PersianaGameTech.fr,Persiana Game & Tech,,,Persiana Media Group,FR,entertainment,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaHD.fr,Persiana HD,,,Persiana Media Group,FR,movies,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaIranian.fr,Persiana Iranian,,,Persiana Media Group,FR,movies,FALSE,2016-01-01,,,https://persianagroup.tv/
@@ -21815,12 +21818,16 @@ PersianaNostalgia.fr,Persiana Nostalgia,,,Persiana Media Group,FR,music;classic,
 PersianaPlus.fr,Persiana Plus,,,Persiana Media Group,FR,movies,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaPlusOne.fr,Persiana Plus One,,,Persiana Media Group,FR,movies,FALSE,,,,https://www.persianagroup.tv/
 PersianaRap.fr,Persiana Rap,,,Persiana Media Group,FR,music,FALSE,2016-01-01,,,https://persianagroup.tv/
+PersianaReality.fr,Persiana Reality,,,Persiana Media Group,FR,,FALSE,,,,https://www.persianagroup.tv/
 PersianaScience.fr,Persiana Science,,,Persiana Media Group,FR,science,FALSE,2016-01-01,,,https://www.persianagroup.tv/live/persiana-science
+PersianaSeries.fr,Persiana Series,,,Persiana Media Group,FR,series,FALSE,,,,https://www.persianagroup.tv/
 PersianaSonnati.fr,Persiana Sonnati,,,Persiana Media Group,FR,music,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaSports.fr,Persiana Sports,,,Persiana Media Group,FR,sports,FALSE,2016-01-01,,,https://persianagroup.tv/
+PersianaTeen.fr,Persiana Teen,,,Persiana Media Group,FR,kids,FALSE,,,,https://www.persianagroup.tv/
 PersianaTravel.fr,Persiana Travel,,,,FR,documentary,FALSE,,,,
 PersianaTurkiye.fr,Persiana Turkiye,,,Persiana Media Group,FR,entertainment,FALSE,2016-01-01,,,https://www.persianagroup.tv/live/persiana-turkiye
 PersianaTwo.fr,Persiana Two,,Persiana,Persiana Media Group,FR,general,FALSE,2016-01-01,,,https://www.persianagroup.tv/live/persiana-two
+PersianaVibe.fr,Persiana Vibe,,,Persiana Media Group,FR,music,FALSE,,,,https://www.persianagroup.tv/
 PersianBazaarTV.us,Persian Bazaar TV,,,Pars Television Network,US,entertainment,FALSE,,,,http://www.persianbazaartv.com/
 PersianFilm.ir,Persian Film,,,,IR,movies,FALSE,,,,http://pfilm.wns.live/
 PersianTV1.ir,Persian TV1,,,IRIB,IR,shop,FALSE,,,,https://persiantv1.com/
@@ -22520,9 +22527,9 @@ PreachTV.us,Preach TV,,,,US,,FALSE,,,,https://preachtv.live/
 PreciousTV.gh,Precious TV,,,,GH,,FALSE,,,,https://precious.tv/
 Premialnoe.ru,Premialnoe,Премиальное,,,RU,movies,FALSE,,,,https://www.tricolor.tv/channels/premialnoe-sd/
 PremieraTV.md,Premiera TV,,,Binamex-M SRL,MD,entertainment,FALSE,,,,
+Premiere10.br,Premiere 10,PFC10;Premiere FC 10,Premiere PPV,Grupo Globo,BR,sports,FALSE,,,,http://premierefc.globo.com/
 PremiereClubes.br,Premiere Clubes,,,,BR,sports,FALSE,,,,http://globotv.globo.com/sportv/premiere-clubes/
 PremiereFC1.br,Premiere FC 1,,,,BR,sports,FALSE,,,,http://premierefc.globo.com/
-PremiereFC10.br,Premiere FC 10,,,,BR,sports,FALSE,,,,http://premierefc.globo.com/
 PremiereFC2.br,Premiere FC 2,,,,BR,sports,FALSE,,,,http://premierefc.globo.com/
 PremiereFC24h.br,Premiere FC 24h,,,,BR,sports,FALSE,,,,http://premierefc.globo.com/
 PremiereFC3.br,Premiere FC 3,,,,BR,sports,FALSE,,,,http://premierefc.globo.com/
@@ -26123,6 +26130,7 @@ StarHubTV.sg,StarHub TV,,,,SG,,FALSE,,,,
 StarJalsha.in,Star Jalsha,,Disney Star,Disney India,IN,entertainment,FALSE,2008-09-08,,,https://www.hotstar.com/channels/star-jalsha
 StarKentrikisElladas.gr,Star Kentrikis Elladas,Star Κεντρικής Ελλάδας,,Star Channel S.A.,GR,general;news,FALSE,1993-03-16,,,https://tvstar.gr/
 StarKids.tz,Star Kids,,,,TZ,kids,FALSE,,,,
+StarKiran.in,Star Kiran,,Disney Star,Disney India;JioStar,IN,entertainment,FALSE,2022-06-06,,,https://www.hotstar.com/channels/star-kiran
 StarLife.bg,Star Life,Fox Life,,The Walt Disney Company Bulgaria EOOD,BG,series,FALSE,,,,https://www.starchannel-bg.com/
 StarLife.pt,Star Life,,The Walt Disney Company Portugal,The Walt Disney Company Iberia S.L.,PT,lifestyle,FALSE,,,,https://www.startv.pt/programacao/starlife
 StarLife.si,Star Life,Fox Life,,The Walt Disney Company Bulgaria EOOD,SI,series,FALSE,,,,https://www.starchannel-si.com/
@@ -26620,6 +26628,7 @@ SunnaTV.sa,Sunna TV,,,,SA,,FALSE,,,,
 SunnaTV2.ng,Sunna TV 2,,,,NG,,FALSE,,,,http://sunnah-tv.com/
 SunnaTVAyneha.ne,Sunna TV Ayneha,,,,NE,religious,FALSE,,,,
 SunnaTVSavana.ng,Sunna TV Savana,,,,NG,,FALSE,,,,http://sunnah-tv.com/
+SunNeo.in,Sun Neo,,Sun TV Network,SUN Group,IN,entertainment,FALSE,,,,https://www.sunnetwork.in/tv-channel-details.aspx?Channelid=75&channelname=Sun%20Neo&type=7
 SunNews.in,Sun News,,,,IN,news,FALSE,,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=10&channelname=SUN%20NEWS&LanguageID=1&Type=1
 SunnmoreLIVE.no,Sunnmore LIVE,Sunnmøre LIVE,,,NO,general,FALSE,,,,https://slive.no/
 SunoNewsHD.pk,Suno News HD,,,,PK,news,FALSE,,,,https://www.sunonews.tv/

@@ -7185,6 +7185,7 @@ DAZNCombat.uk,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,eng,576i
 DAZNCombat.uk,SD,SD,,TRUE,c/UK,America/Toronto,eng,576i
 DAZNF1.uk,Spain,Spain,,TRUE,c/ES,America/Toronto,spa,576i
 DAZNF1.uk,Spain4K,Spain 4K,,FALSE,c/ES,America/Toronto,spa,576i
+DAZNFAST.de,HD,HD,,TRUE,c/DE,Europe/Berlin,deu,1080p
 DAZNLaLiga.uk,Spain,Spain,,TRUE,c/ES,America/Toronto,eng,576i
 DAZNLaLiga2.uk,Spain,Spain,,TRUE,c/ES,America/Toronto,eng,576i
 DAZNLaLiga3.uk,Spain,Spain,,TRUE,c/ES,America/Toronto,eng,576i
@@ -12344,7 +12345,14 @@ JapanimTV.be,SD,SD,,TRUE,c/BE,Europe/Brussels,fra,576i
 JasminTV.lu,SD,SD,,TRUE,c/LU,Europe/Luxembourg,eng,576i
 JaszsagiTersegiTV.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 JavananTV.ir,SD,SD,,TRUE,c/US;c/IR,America/New_York,fas,480i
+JawaPosTV.id,Bali,Bali,,FALSE,s/ID-BA,Asia/Makassar,ind,576p
+JawaPosTV.id,Bandung,Bandung,,FALSE,s/ID-JB,Asia/Jakarta,ind,576p
+JawaPosTV.id,Cianjur,Cianjur,,FALSE,s/ID-JB,Asia/Jakarta,ind,720p
+JawaPosTV.id,Jakarta,Jakarta,,FALSE,ct/IDJKT,Asia/Jakarta,ind,720p
+JawaPosTV.id,Madiun,Madiun,,FALSE,ct/IDMDI,Asia/Jakarta,ind,720p
+JawaPosTV.id,Magelang,Magelang,,FALSE,s/ID-JT,Asia/Jakarta,ind,720p
 JawaPosTV.id,SD,SD,,TRUE,ct/IDSUB,Asia/Jakarta,ind,576i
+JawaPosTV.id,Semarang,Semarang,,FALSE,ct/IDSRG,Asia/Jakarta,ind,720p
 JawaTV.sr,SD,SD,,TRUE,c/SR,America/Paramaribo,nld,480i
 JawharaTV.tn,SD,SD,,TRUE,c/TN,Africa/Tunis,ara,576i
 JayaMax.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
@@ -23384,6 +23392,7 @@ PerlaTV.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,480i
 Perlavision.cu,SD,SD,,TRUE,c/CU,America/Havana,spa,480i
 PerryMason.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PersadaTV.id,SD,SD,,TRUE,s/ID-JB,Asia/Jakarta,ind,576i
+PersanaDocs.fr,HD,HD,,TRUE,c/IR,Asia/Tehran,fas,720p
 PershiyNezalezhniy.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 PershiyXTVMedia.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576p
 Pershyi.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
@@ -23399,6 +23408,7 @@ PersianaEmirates.fr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,720p
 PersianaFamily.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
 PersianaFamilyPlus.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
 PersianaFight.fr,HD,HD,,TRUE,c/IR,Asia/Tehran,fas,720p
+PersianaFolk.fr,HD,HD,,TRUE,c/IR,Asia/Tehran,fas,720p
 PersianaGameTech.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
 PersianaHD.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
 PersianaIranian.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
@@ -23411,12 +23421,16 @@ PersianaNostalgia.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
 PersianaPlus.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
 PersianaPlusOne.fr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,720p
 PersianaRap.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
+PersianaReality.fr,HD,HD,,TRUE,c/IR,Asia/Tehran,fas,720p
 PersianaScience.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
+PersianaSeries.fr,HD,HD,,TRUE,c/IR,Asia/Tehran,fas,720p
 PersianaSonnati.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
 PersianaSports.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
+PersianaTeen.fr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,720p
 PersianaTravel.fr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,720p
 PersianaTurkiye.fr,SD,SD,,TRUE,c/IR;c/TR,Europe/Paris,fas;tur,576i
 PersianaTwo.fr,SD,SD,,TRUE,c/IR,Europe/Paris,fas,576i
+PersianaVibe.fr,HD,HD,,TRUE,c/IR,Asia/Tehran,fas,720p
 PersianBazaarTV.us,SD,SD,,TRUE,c/US;c/IR,America/New_York,fas,480i
 PersianFilm.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 PersianTV1.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
@@ -24284,9 +24298,9 @@ PreciousTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 Premialnoe.ru,HD,HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
 Premialnoe.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 PremieraTV.md,SD,SD,,TRUE,c/MD,Europe/Chisinau,ron;rus,576i
+Premiere10.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 PremiereClubes.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 PremiereFC1.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
-PremiereFC10.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 PremiereFC2.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 PremiereFC24h.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 PremiereFC3.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
@@ -28366,6 +28380,7 @@ StarJalsha.in,HD,HD,,FALSE,c/IN;c/BD,Asia/Kolkata,ben,1080i
 StarJalsha.in,SD,SD,,TRUE,c/IN;c/BD,Asia/Kolkata,ben,576i
 StarKentrikisElladas.gr,SD,SD,,TRUE,ct/GRLAM,Europe/Athens,ell,576i
 StarKids.tz,SD,SD,,TRUE,c/TZ,Africa/Dar_es_Salaam,swa,576i
+StarKiran.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ori,576i
 StarLife.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 StarLife.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 StarLife.si,HD,HD,,FALSE,c/SI,Europe/Ljubljana,slv,576i
@@ -28914,6 +28929,7 @@ SunnaTV.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,ara,576i
 SunnaTV2.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 SunnaTVAyneha.ne,SD,SD,,TRUE,c/NE,Africa/Niamey,fra,576i
 SunnaTVSavana.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,hau,576i
+SunNeo.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 SunNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
 SunnmoreLIVE.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 SunoNewsHD.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,urd,576i

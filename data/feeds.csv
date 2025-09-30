@@ -251,7 +251,7 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 4KHERiTAGE.us,SD,SD,,TRUE,c/US,America/New_York,eng;fra,480i
 4KidsTV.dz,SD,SD,,TRUE,c/DZ,Africa/Algiers,ara;fra;eng,576i
 4KUniverse.us,SD,SD,,TRUE,c/US,America/Santiago,eng,480i
-4Kurd.fr,SD,SD,,TRUE,c/IR,Europe/Paris,kur,576i
+4Kurd.fr,SD,SD,,TRUE,c/IR,Europe/Paris,kur;fas,576i
 4Music.fr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,720p
 4Music.uk,SD,SD,,TRUE,c/UK,America/Toronto,eng,576i
 4Plus.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,deu,576i
@@ -11761,7 +11761,7 @@ IciRDI.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
 ICitiTV.us,SD,SD,,TRUE,c/US,America/New_York,zho,480i
 ICMtv.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 ICnet1.ca,SD,SD,,TRUE,c/CA,America/Toronto,fas,480i
-ICnet2.ca,SD,SD,,TRUE,c/IR,America/Toronto,fas;eng,480i
+ICnet2.ca,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
 icnet3.ca,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,720p
 ICONETV.bj,SD,SD,,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 IcrtvColima.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
@@ -31129,7 +31129,7 @@ TurkHaberTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 Turkistan.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz;rus,576i
 TurkiyeGazeteRadyoTelevizyon.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 TurkmeneliTV.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,tur,576i
-Turkmenistan.tm,SD,SD,,TRUE,c/TM,Asia/Ashgabat,tuk;rus;eng;fra;cmn;ara;fas,576i
+Turkmenistan.tm,SD,SD,,TRUE,c/TM,Asia/Ashgabat,tuk;rus;eng;fra;cmn;ara,576i
 TurkmenistanSport.tm,SD,SD,,TRUE,c/TM,Asia/Ashgabat,tuk,576i
 TurkmenOwazy.tm,SD,SD,,TRUE,c/TM,Asia/Ashgabat,tuk,576i
 TurksatSaat.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i

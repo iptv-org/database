@@ -124,7 +124,6 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 247News.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,eng,576i
 247Retro.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 247TV.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
-24B.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 24Horas.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 24Horas.es,HEVC,HEVC,,FALSE,c/ES;c/EH;c/GQ;r/HISPAM,Europe/Madrid,spa,1080p
 24Horas.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
@@ -10135,6 +10134,7 @@ GeghamaTV.am,SD,SD,,TRUE,c/AM,Asia/Yerevan,hye,576i
 GelongalChannel.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,fra,576i
 GEM.mc,SD,SD,,TRUE,c/MC,Europe/Paris,eng,576i
 GEM.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,jpn;eng;zho,576i
+GEM24B.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,576i
 GEMAcademy.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
 GEMArabia.tr,SD,SD,,TRUE,c/IR,America/Toronto,ara,480i
 GEMAZ.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
@@ -10160,10 +10160,11 @@ GEMLatino.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
 GEMLife.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
 GEMMifa.tr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 GEMMifaPlus.tr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
+GEMModernEconomy.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,576i
 GEMNature.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
 GEMOnyx.tr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 GEMPixel.tr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
-GEMPlus.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
+GEMTVPlus.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
 Gemporia.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 GEMProperty.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
 GEMRiver.tr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
@@ -20404,7 +20405,6 @@ MocaVisionCanal48.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 Moconomy.pl,SD,SD,,TRUE,c/PL;r/EU,Europe/Warsaw,pol,576i
 MoconomyEconomyFinanceInfotainment.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 ModaHuancayoTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
-ModernEconomy.ir,SD,SD,,TRUE,c/IR,Europe/Istanbul,fas,576i
 ModernEducationChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 MOFTV.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,eng,576i
 MOGPATV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i

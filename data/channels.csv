@@ -89,12 +89,11 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 22ArabTV.sa,22 Arab TV,,,,SA,,FALSE,,,,
 24.sk,:24,,RTVS,Government of Slovakia,SK,news,FALSE,,,,http://www.rtvs.sk/televizia/tv
 247.ec,24/7,,,,EC,news,FALSE,,,,https://veinticuatro-siete.com/
-247BoxTV.ir,247 Box TV,,,,IR,entertainment,FALSE,,,,https://gemonline.tv/
+247BoxTV.ir,247 Box TV,,,,IR,entertainment,FALSE,,,,https://247box.live/
 247CanaldeNoticias.ar,24/7 Canal de Noticias,,,,AR,news,FALSE,,,,https://cn247.tv/
 247News.pk,24/7 News,,,,PK,news,FALSE,,,,https://247news.com.pk/
 247Retro.us,247 Retro,,,,US,classic,FALSE,,,,http://www.247retro.com/
 247TV.bo,24/7 TV,,,Grupo 24/7 Comunicaciones S.R.L.,BO,news,FALSE,,,,
-24B.ir,24B,,,GEM Group,IR,music,FALSE,,,,https://gemonline.tv/
 24Horas.cl,24 Horas,24 Horas Play;24 Play,TVN,Television Nacional de Chile,CL,news,FALSE,,,,https://www.24horas.cl/
 24Horas.es,24 Horas,Canal 24 Horas;24h,TVE,RTVE SA,ES,news;public,FALSE,1997-09-15,,,http://www.rtve.es/alacarta/tve/24-horas/
 24HorasCanarias.es,24 Horas Canarias,Canal 24 Horas Canarias,TVE,RTVE SA,ES,news;public,FALSE,1997-09-15,,,https://www.rtve.es/play/videos/directo/tve-canarias/24-h-can/
@@ -208,16 +207,16 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 4KHERiTAGE.us,4K HERiTAGE,,,,US,documentary,FALSE,,,,https://4kheritage.tv/
 4KidsTV.dz,4Kids TV,,,,DZ,kids,FALSE,,,,https://4kids-tv.com/
 4KUniverse.us,4KUniverse,,,Matthew Mancinelli,US,general,FALSE,2016-10-01,,,https://4kuniversenow.com/
-4Kurd.fr,4Kurd,,,Persiana Media Group,FR,music,FALSE,,,,https://www.persianagroup.tv/live/persiana-4kurdhd
-4Music.fr,4 Music,,,Persiana Media Group,FR,music,FALSE,,,,https://persianagroup.tv/
+4Kurd.fr,4Kurd,,,Persiana Media Group,FR,music,FALSE,,,,https://4kurd.persiana.live/
+4Music.fr,4 Music,,,Persiana Media Group,FR,music,FALSE,,,,https://4music.persiana.live/
 4Music.uk,4Music,,Box Plus,HM Government,UK,music,FALSE,2008-08-15,2024-07-01,,https://www.boxplus.com/
 4Plus.ch,4+,,,,CH,movies,FALSE,,,,https://www.oneplus.ch/
 4seven.uk,4seven,,,HM Government,UK,entertainment,FALSE,2012-07-04,,,https://www.channel4.com/
 4SightNews.in,4 Sight News,,,4Sight Broadcasting Pvt Ltd,IN,news,FALSE,,,,
-4Sports.fr,4 Sports,4 اسپورت,,,FR,sports,FALSE,,,,https://persianagroup.tv/
+4Sports.fr,4 Sports,,,Persiana Media Group,FR,sports,FALSE,,,,https://persianagroup.tv/
 4SyteTV.gh,4Syte TV,,,,GH,music,FALSE,,,,
 4TCI.tc,4TCI,,,,TC,general,FALSE,,,,
-4Turk.fr,4 Turk,شبکه تلویزیونی فورتورک,,Persiana Group,FR,entertainment,FALSE,,,,https://www.aparatchi.com/iran-live-tv/farsi-film-tv/4-turk-tv
+4Turk.fr,4 Turk,,,Persiana Media Group,FR,entertainment,FALSE,,,,https://4turk.persiana.live/
 4TVNews.in,4TV News,,,Fame Media Pvt. Ltd,IN,news,FALSE,2014-04-02,,,http://www.4tvhyd.com/
 4UTV.tr,4U TV,۴یو تی‌وی,,,TR,entertainment,FALSE,,,,https://4utv.tv/en/
 504TV.hn,504 TV,,,,HN,entertainment,FALSE,,,,https://504tvhn.com/
@@ -9005,48 +9004,50 @@ GeghamaTV.am,Geghama TV,,,Geghama Media Group,AM,,FALSE,2010-01-01,,,https://geg
 GelongalChannel.sn,Gelongal Channel,,,,SN,entertainment,FALSE,,,,
 GEM.mc,GEM,,,GEM Global Environment Media,MC,education;kids,FALSE,,,,https://gem-tv.com/tv
 GEM.sg,GEM,,,KC Global Media,SG,entertainment,FALSE,2016-06-27,,,https://www.gemtvasia.com/
-GEMAcademy.tr,GEM Academy,,,Gem Group,TR,movies,FALSE,,,,https://gemonline.tv/
-GEMArabia.tr,GEM Arabia,,,Gem Group,TR,music,FALSE,,,,https://gemonline.tv/
-GEMAZ.tr,GEM AZ,,,Gem Group,TR,music,FALSE,,,,https://gemonline.tv/
-GEMBollywood.tr,GEM Bollywood,,,Gem Group,TR,movies,FALSE,,,,https://gemonline.tv/
-GEMClassic.tr,GEM Classic,,,Gem Group,TR,classic,FALSE,,,,https://gemonline.tv/
-GEMComedy.tr,GEM Comedy,,,Gem Group,TR,comedy,FALSE,,,,https://gemonline.tv/
-GEMCrypto.tr,GEM Crypto,,,Gem Group,TR,business,FALSE,,,,https://gemonline.tv/
-GEMDrama.tr,GEM Drama,,,Gem Group,TR,movies,FALSE,,,,https://gemonline.tv/
-GEMDramaPlus.tr,GEM Drama +,,,Gem Group,TR,movies,FALSE,,,,https://gemonline.tv/
+GEM24B.tr,GEM 24B,,,GEM Group,TR,music,FALSE,,,,https://www.gemgroup.tv/
+GEMAcademy.tr,GEM Academy,,,Gem Group,TR,movies,FALSE,,,,https://www.gemgroup.tv/
+GEMArabia.tr,GEM Arabia,,,Gem Group,TR,music,FALSE,,,,https://www.gemgroup.tv/
+GEMAZ.tr,GEM AZ,,,Gem Group,TR,music,FALSE,,,,https://www.gemgroup.tv/
+GEMBollywood.tr,GEM Bollywood,,,Gem Group,TR,movies,FALSE,,,,https://www.gemgroup.tv/
+GEMClassic.tr,GEM Classic,,,Gem Group,TR,classic,FALSE,,,,https://www.gemgroup.tv/
+GEMComedy.tr,GEM Comedy,,,Gem Group,TR,comedy,FALSE,,,,https://www.gemgroup.tv/
+GEMCrypto.tr,GEM Crypto,,,Gem Group,TR,business,FALSE,,,,https://www.gemgroup.tv/
+GEMDrama.tr,GEM Drama,,,Gem Group,TR,movies,FALSE,,,,https://www.gemgroup.tv/
+GEMDramaPlus.tr,GEM Drama +,,,Gem Group,TR,movies,FALSE,,,,https://www.gemgroup.tv/
 GemeenteWestlandTV.nl,Gemeente Westland TV,,,,NL,general,FALSE,,,,https://www.gemeentewestland.nl/contact-en-openingstijden
 GemeindeTV.at,Gemeinde TV,,,,AT,general,FALSE,2022-10-01,,,https://www.gemeindetv.at/
-GEMFilm.tr,GEM Film,,,Gem Group,TR,movies,FALSE,,,,https://gemonline.tv/
-GEMFit.tr,GEM Fit,,,Gem Group,TR,sports,FALSE,,,,https://gemonline.tv/
-GEMFood.tr,GEM Food,,,Gem Group,TR,cooking,FALSE,,,,https://gemonline.tv/
+GEMFilm.tr,GEM Film,,,Gem Group,TR,movies,FALSE,,,,https://www.gemgroup.tv/
+GEMFit.tr,GEM Fit,,,Gem Group,TR,sports,FALSE,,,,https://www.gemgroup.tv/
+GEMFood.tr,GEM Food,,,Gem Group,TR,cooking,FALSE,,,,https://www.gemgroup.tv/
 GeminiComedy.in,Gemini Comedy,,,SUN Group,IN,comedy,FALSE,,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=42&channelname=GEMINI%20COMEDY&LanguageID=2&Type=2
 GeminiLife.in,Gemini Life,,,SUN Group,IN,lifestyle,FALSE,,,,http://www.sunnetwork.in/
 GeminiMovies.in,Gemini Movies,,,SUN Group,IN,movies,FALSE,,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=26&channelname=GEMINI%20MOVIES&LanguageID=2&Type=2
 GeminiMusic.in,Gemini Music,,,SUN Group,IN,music,FALSE,,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=34&channelname=GEMINI%20MUSIC&LanguageID=2&Type=2
 GeminiTV.in,Gemini TV,,,SUN Group,IN,general,FALSE,1995-02-09,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=4&channelname=GEMINI%20TV&LanguageID=2&Type=2
-GEMJunior.tr,GEM Junior,,,Gem Group,TR,kids,FALSE,,,,https://gemonline.tv/
-GEMKids.tr,GEM Kids,,,Gem Group,TR,kids,FALSE,,,,https://gemonline.tv/
-GEMLatino.tr,GEM Latino,,,Gem Group,TR,culture,FALSE,,,,https://gemonline.tv/
-GEMLife.tr,GEM Life,,,Gem Group,TR,lifestyle,FALSE,,,,https://gemonline.tv/
-GEMMifa.tr,GEM Mifa,,,,TR,music,FALSE,,,,https://gemonline.tv/
-GEMMifaPlus.tr,GEM Mifa +,,,,TR,music,FALSE,,,,https://gemonline.tv/
-GEMNature.tr,GEM Nature,,,Gem Group,TR,documentary,FALSE,,,,https://gemonline.tv/
-GEMOnyx.tr,GEM Onyx,Gem Onyx TV,,,TR,movies,FALSE,,,,https://gemonline.tv/
-GEMPixel.tr,GEM Pixel,,,Gem Group,TR,movies,FALSE,,,,https://gemonline.tv/
-GEMPlus.tr,GEM +,,,Gem Group,TR,movies,FALSE,,,,https://gemonline.tv/
+GEMJunior.tr,GEM Junior,,,Gem Group,TR,kids,FALSE,,,,https://www.gemgroup.tv/
+GEMKids.tr,GEM Kids,,,Gem Group,TR,kids,FALSE,,,,https://www.gemgroup.tv/
+GEMLatino.tr,GEM Latino,,,Gem Group,TR,culture,FALSE,,,,https://www.gemgroup.tv/
+GEMLife.tr,GEM Life,,,Gem Group,TR,lifestyle,FALSE,,,,https://www.gemgroup.tv/
+GEMMifa.tr,GEM Mifa,,,Gem Group,TR,music,FALSE,,,,https://www.gemgroup.tv/
+GEMMifaPlus.tr,GEM Mifa +,,,Gem Group,TR,music,FALSE,,,,https://www.gemgroup.tv/
+GEMModernEconomy.tr,GEM Modern Economy,,,Gem Group,TR,business,FALSE,,,,https://www.gemgroup.tv/
+GEMNature.tr,GEM Nature,,,Gem Group,TR,documentary,FALSE,,,,https://www.gemgroup.tv/
+GEMOnyx.tr,GEM Onyx,,,Gem Group,TR,movies,FALSE,,,,https://www.gemgroup.tv/
+GEMPixel.tr,GEM Pixel,,,Gem Group,TR,movies,FALSE,,,,https://www.gemgroup.tv/
+GEMTVPlus.tr,GEM TV +,,,Gem Group,TR,movies,FALSE,,,,https://www.gemgroup.tv/
 Gemporia.uk,Gemporia,,,Gemporia Partnership Ltd,UK,shop,FALSE,2004-10-08,,,https://www.gemporia.com/
-GEMProperty.tr,GEM Property,,,Gem Group,TR,business,FALSE,,,,https://gemonline.tv/
-GEMRiver.tr,GEM River,,,,TR,entertainment,FALSE,,,,https://gemonline.tv/
-GEMRiverPlus.tr,GEM River +,,,,TR,entertainment,FALSE,,,,https://gemonline.tv/
-GEMRubix.tr,GEM Rubix,,,,TR,movies,FALSE,,,,https://gemonline.tv/
-GEMRubixPlus.tr,GEM Rubix +,,,,TR,movies,FALSE,,,,https://gemonline.tv/
-GEMSeries.tr,GEM Series,,,Gem Group,TR,series,FALSE,,,,https://gemonline.tv/
-GEMSeriesPlus.tr,GEM Series +,,,Gem Group,TR,series,FALSE,,,,https://gemonline.tv/
+GEMProperty.tr,GEM Property,,,Gem Group,TR,business,FALSE,,,,https://www.gemgroup.tv/
+GEMRiver.tr,GEM River,,,Gem Group,TR,entertainment,FALSE,,,,https://www.gemgroup.tv/
+GEMRiverPlus.tr,GEM River +,,,Gem Group,TR,entertainment,FALSE,,,,https://www.gemgroup.tv/
+GEMRubix.tr,GEM Rubix,,,Gem Group,TR,movies,FALSE,,,,https://www.gemgroup.tv/
+GEMRubixPlus.tr,GEM Rubix +,,,Gem Group,TR,movies,FALSE,,,,https://www.gemgroup.tv/
+GEMSeries.tr,GEM Series,,,Gem Group,TR,series,FALSE,,,,https://www.gemgroup.tv/
+GEMSeriesPlus.tr,GEM Series +,,,Gem Group,TR,series,FALSE,,,,https://www.gemgroup.tv/
 GemShoppingNetwork.us,Gem Shopping Network,,,Gem Shopping Network Inc,US,shop,FALSE,,,,https://www.gemshopping.com/
-GEMSport.tr,GEM Sport,,,Gem Group,TR,sports,FALSE,,,,https://gemonline.tv/
+GEMSport.tr,GEM Sport,,,Gem Group,TR,sports,FALSE,,,,https://www.gemgroup.tv/
 GemsTV.uk,Gems TV,,,Gemporia Partnership Ltd,UK,shop,FALSE,,2010-04-15,,http://www.gems.tv/
-GEMTravel.tr,GEM Travel,,,Gem Group,TR,travel,FALSE,,,,https://gemonline.tv/
-GEMTV.tr,GEM TV,,,Gem Group,TR,movies,FALSE,2006-01-01,,,https://gemonline.tv/
+GEMTravel.tr,GEM Travel,,,Gem Group,TR,travel,FALSE,,,,https://www.gemgroup.tv/
+GEMTV.tr,GEM TV,,,Gem Group,TR,movies,FALSE,2006-01-01,,,https://www.gemgroup.tv/
 Gen.py,Gen,,,Nacion Media Group,PY,general,FALSE,2017-06-07,,,https://www.gen.com.py/
 GeneracionKpop.cl,Generacion Kpop,Generación Kpop,,,CL,music,FALSE,,,,http://www.generacionkpop.net/
 GenerationsTV.fr,Generations TV,,,,FR,,FALSE,,,,
@@ -10537,7 +10538,7 @@ ICitiTV.us,ICiti TV,,,,US,,FALSE,,,,http://www.edimediainc.com/zh/%E7%92%B0%E7%9
 ICMtv.uy,ICMtv,Iglesia Católica Montevideo,,,UY,religious,FALSE,,,,https://icmtv.uy/
 ICnet1.ca,ICnet 1,,,,CA,religious,FALSE,,,,https://icnet.tv/
 ICnet2.ca,ICnet 2,,,,CA,religious,FALSE,,,,https://icnet.tv/
-icnet3.ca,icnet 3,,,,CA,,FALSE,,,,
+icnet3.ca,icnet 3,,,,CA,religious,FALSE,,,,https://icnet.tv/
 ICONETV.bj,ICONE TV,,,,BJ,news,FALSE,,,,https://iconetv.bj/
 IcrtvColima.mx,Icrtv Colima,,,,MX,legislative,FALSE,,,,http://www.icrtvcolima.com/
 ICS.cn,ICS,上海外语频道,,Shanghai Media Group,CN,general,FALSE,2008-01-01,,,https://www.shanghaieye.com.cn/
@@ -18356,7 +18357,7 @@ MaxTV.ch,Max TV,,,,CH,general,FALSE,2001-01-01,,,http://www.maxtv.ch/
 MaxTV.co,MaxTV,,,,CO,entertainment,FALSE,,,,https://gia.tv/watchssh101.php?psid=639
 MaxTV.gh,Max TV,,,,GH,general,FALSE,,,,http://www.maxtvgh.com/
 MAXtvPromoKanal.hr,MAXtv Promo Kanal,,,Hrvatski Telekom,HR,shop,FALSE,,,,https://maxtv.hrvatskitelekom.hr/#/home
-Maxx.ir,Maxx,,,,IR,entertainment,FALSE,2006-01-01,,,https://gemonline.tv/
+Maxx.ir,Maxx,,,,IR,entertainment,FALSE,2006-01-01,,,
 MaxxEmpireTV.gh,Maxx Empire TV,,,,GH,music,FALSE,,,,http://maxxempireonline.com/
 MayaChannel.th,Maya Channel,,,Maya Channel 2002 Co Ltd,TH,entertainment,FALSE,,,,http://www.maya-channel.com/
 MayaTV.hn,Maya TV,Canal 66,,,HN,news,FALSE,2004-05-01,,,https://mayatv.hn/
@@ -18991,7 +18992,6 @@ MocaVisionCanal48.do,Moca Vision Canal 48,Moca Visión Canal 48,,Televiaducto S.
 Moconomy.pl,Moconomy,Moconomy - Gospodarka i Finanse,,,PL,,FALSE,,,,https://www.rakuten.tv
 MoconomyEconomyFinanceInfotainment.us,Moconomy Economy & Finance Infotainment,,,,US,business;documentary,FALSE,,,,https://watch.plex.tv/live-tv/channel/moconomy-economy-and-finance-infotainment
 ModaHuancayoTV.pe,Moda Huancayo TV,,,,PE,,FALSE,,,,https://www.modahuancayotv.com/
-ModernEconomy.ir,Modern Economy,,,,IR,business,FALSE,,,,https://gemonline.tv/
 ModernEducationChannel.cn,Modern Education Channel,现代教育频道,,Guangdong Radio and Television,CN,education,FALSE,,,,https://www.gdtv.cn/tvChannelDetail/43
 MOFTV.ke,MOF TV,Mountain of Fire TV,,,KE,religious,FALSE,,,,https://mountainoffiretv.com/
 MOGPATV.gh,MOGPA TV,,,,GH,religious,FALSE,,,,https://mogpa.org/
@@ -21808,32 +21808,31 @@ PersianaBillboard.fr,Persiana Billboard,,,Persiana Media Group,FR,music,FALSE,20
 PersianaCinema.fr,Persiana Cinema,,,Persiana Media Group,FR,movies,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaClassic.fr,Persiana Classic,,,Persiana Media Group,FR,movies;classic,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaComedy.fr,Persiana Comedy,,,Persiana Media Group,FR,comedy,FALSE,2016-01-01,,,https://persianagroup.tv/
-PersianaDocs.fr,Persiana Docs,,,Persiana Media Group,FR,documentary,FALSE,,,PersianaDocs.fr,https://persianagroup.tv/
-PersianaDocumentary.fr,Persiana Documentary,,,Persiana Media Group,FR,documentary,FALSE,2016-01-01,,,https://persianagroup.tv/
+PersianaDocs.fr,Persiana Docs,,,Persiana Media Group,FR,documentary,FALSE,,,,https://persianagroup.tv/
 PersianaEmirates.fr,Persiana Emirates,,,Persiana Media Group,FR,series,FALSE,,,,https://www.persianagroup.tv/
 PersianaFamily.fr,Persiana Family,,,Persiana Media Group,FR,movies,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaFamilyPlus.fr,Persiana Family+,,,Persiana Media Group,FR,movies,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaFight.fr,Persiana Fight,,,Persiana Media Group,FR,sports,FALSE,,,,https://www.persianagroup.tv/
 PersianaFolk.fr,Persiana Folk,,,Persiana Media Group,FR,music,FALSE,,,,https://www.persianagroup.tv/
-PersianaGameTech.fr,Persiana Game & Tech,,,Persiana Media Group,FR,entertainment,FALSE,2016-01-01,,,https://persianagroup.tv/
+PersianaGameTech.fr,Persiana Game & Tech,,,Persiana Media Group,FR,entertainment,FALSE,2016-01-01,2025-01-01,,https://persianagroup.tv/
 PersianaHD.fr,Persiana HD,,,Persiana Media Group,FR,movies,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaIranian.fr,Persiana Iranian,,,Persiana Media Group,FR,movies,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaJunior.fr,Persiana Junior,,,Persiana Media Group,FR,kids,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaKorea.fr,Persiana Korea,,,Persiana Media Group,FR,movies,FALSE,2016-01-01,,,https://persianagroup.tv/
-PersianaLatino.fr,Persiana Latino,,Persiana,Persiana Media Group,FR,movies,FALSE,2023-03-20,,,https://www.persianagroup.tv/
-PersianaMedical.fr,Persiana Medical,,,,FR,education,FALSE,,,,
+PersianaLatino.fr,Persiana Latino,,,Persiana Media Group,FR,movies,FALSE,2023-03-20,,,https://www.persianagroup.tv/
+PersianaMedical.fr,Persiana Medical,,,Persiana Media Group,FR,education,FALSE,,,,https://www.persianagroup.tv/
 PersianaMusic.fr,Persiana Music,,,Persiana Media Group,FR,music,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaNostalgia.fr,Persiana Nostalgia,,,Persiana Media Group,FR,music;classic,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaPlus.fr,Persiana Plus,,,Persiana Media Group,FR,movies,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaPlusOne.fr,Persiana Plus One,,,Persiana Media Group,FR,movies,FALSE,,,,https://www.persianagroup.tv/
 PersianaRap.fr,Persiana Rap,,,Persiana Media Group,FR,music,FALSE,2016-01-01,,,https://persianagroup.tv/
-PersianaReality.fr,Persiana Reality,,,Persiana Media Group,FR,,FALSE,,,,https://www.persianagroup.tv/
+PersianaReality.fr,Persiana Reality,,,Persiana Media Group,FR,entertainment,FALSE,,,,https://www.persianagroup.tv/
 PersianaScience.fr,Persiana Science,,,Persiana Media Group,FR,science,FALSE,2016-01-01,,,https://www.persianagroup.tv/live/persiana-science
 PersianaSeries.fr,Persiana Series,,,Persiana Media Group,FR,series,FALSE,,,,https://www.persianagroup.tv/
 PersianaSonnati.fr,Persiana Sonnati,,,Persiana Media Group,FR,music,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaSports.fr,Persiana Sports,,,Persiana Media Group,FR,sports,FALSE,2016-01-01,,,https://persianagroup.tv/
 PersianaTeen.fr,Persiana Teen,,,Persiana Media Group,FR,kids,FALSE,,,,https://www.persianagroup.tv/
-PersianaTravel.fr,Persiana Travel,,,,FR,documentary,FALSE,,,,
+PersianaTravel.fr,Persiana Travel,,,Persiana Media Group,FR,documentary,FALSE,,,,https://www.persianagroup.tv/
 PersianaTurkiye.fr,Persiana Turkiye,,,Persiana Media Group,FR,entertainment,FALSE,2016-01-01,,,https://www.persianagroup.tv/live/persiana-turkiye
 PersianaTwo.fr,Persiana Two,,Persiana,Persiana Media Group,FR,general,FALSE,2016-01-01,,,https://www.persianagroup.tv/live/persiana-two
 PersianaVibe.fr,Persiana Vibe,,,Persiana Media Group,FR,music,FALSE,,,,https://www.persianagroup.tv/
@@ -22380,7 +22379,7 @@ PokemonKidsTVEnglish.jp,Pokemon Kids TV English,Pokémon Kids TV English,,,JP,an
 PokemonKidsTVJapanese.jp,Pokemon Kids TV Japanese,Pokémon Kids TV Japanese;ポケモン Kids TV,,,JP,animation;kids,FALSE,,,,
 PokerGo.us,PokerGo,,Pluto TV,,US,sports,FALSE,,,,https://pluto.tv/en/live-tv/pokergo
 PokerNightInAmerica.us,Poker Night In America,,,,US,sports,FALSE,,,,https://pokernight.com/
-PokerTV.fr,Poker TV,,,,FR,sports,FALSE,,,,https://persianagroup.tv/
+PokerTV.fr,Poker TV,,,Persiana Media Group,FR,sports,FALSE,,2025-01-01,,https://persianagroup.tv/
 PokharaTV.np,Pokhara TV,,,,NP,general,FALSE,,,,
 Polar2.cz,Polar2,,,,CZ,general,FALSE,,,,https://polar.cz/polar2
 PolarisTV.kr,Polaris TV,폴라리스TV,,,KR,,FALSE,2005-01-01,,,http://polaristv.com/

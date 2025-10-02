@@ -5649,7 +5649,6 @@ ChemodanTV.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr;eng,576i
 ChengteTV.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
 ChenzhouPublicChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 ChenzouNewsChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
-Cherie25.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CheriflaTV.ml,SD,SD,,TRUE,c/ML,Africa/Bamako,fra;bam,576i
 Cherniveckiypromin.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 CherryBomb.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
@@ -5931,6 +5930,7 @@ CineMexicano.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa;eng,480i
 CineMexicano.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 CineMo.ph,SD,SD,,TRUE,c/PH,Asia/Manila,tgl,480i
 CineMundo.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
+CineNanar.fr,SD,SD,,TRUE,c/FR;c/CH,Europe/Paris,fra,576i
 CineNostalgia.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 CinePlus.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 CinePlusClassic.be,SD,SD,,TRUE,c/BE,Europe/Paris,fra,576i
@@ -10164,7 +10164,6 @@ GEMModernEconomy.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,576i
 GEMNature.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
 GEMOnyx.tr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 GEMPixel.tr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
-GEMTVPlus.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
 Gemporia.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 GEMProperty.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
 GEMRiver.tr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
@@ -10178,6 +10177,7 @@ GEMSport.tr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 GemsTV.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 GEMTravel.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
 GEMTV.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
+GEMTVPlus.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
 Gen.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
 GeneracionKpop.cl,SD,SD,,TRUE,r/HISPAM,America/Santiago,kor;spa,480i
 GenerationsTV.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -18539,8 +18539,6 @@ La2.es,HEVC,HEVC,,FALSE,c/ES,Europe/Madrid,spa,1080p
 La2.es,SD,SD,,TRUE,c/ES;c/AD,Europe/Madrid,spa,576i
 La2Canarias.es,SD,SD,,TRUE,s/ES-CN,Europe/Madrid,spa,576i
 La2Catalunya.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
-LA34LongAnTV.vn,HD,HD,,TRUE,c/VN,Asia/Bangkok,vie,1080i
-LA34LongAnTV.vn,SD,SD,,FALSE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 LA36.us,SD,SD,,TRUE,ct/USLAX,America/Santiago,eng,480i
 La4Italia.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 La5.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita,1080i
@@ -25666,6 +25664,7 @@ RLPROTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 RLVTV.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 RLWTV.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 RMCDecouverte.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+RMCLife.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 RMCSport1.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 RMCSport1.fr,UHD,UHD,,FALSE,c/FR,Europe/Paris,fra,2160p
 RMCSport2.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -29421,6 +29420,8 @@ TawhidTV.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,fra,576i
 TaybaTV.sd,SD,SD,,TRUE,c/SD,Africa/Khartoum,ara,576i
 Tayna.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 TayNinhTV.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
+TayNinhTV1.vn,HD,HD,,TRUE,c/VN,Asia/Bangkok,vie,1080i
+TayNinhTV1.vn,SD,SD,,FALSE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 TaynyGalaktiki.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 TAYTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 Tb1.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,bos,576i

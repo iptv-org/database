@@ -39,9 +39,7 @@ const FIELDS = new Dictionary({
 
 export class IssueParser {
   parse(issue: { number: number; body: string; labels: { name: string }[] }): Issue {
-    if (!issue.body) throw new Error('Issue body is missing')
-
-    const fields = typeof issue.body === 'string' ? issue.body.split('###') : []
+    const fields = issue.body && typeof issue.body === 'string' ? issue.body.split('###') : []
 
     const data = new Dictionary()
     fields.forEach((field: string) => {

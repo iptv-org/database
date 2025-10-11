@@ -39,7 +39,7 @@ const FIELDS = new Dictionary({
 
 export class IssueParser {
   parse(issue: { number: number; body: string; labels: { name: string }[] }): Issue {
-    const fields = issue.body && typeof issue.body === 'string' ? issue.body.split('###') : []
+    const fields = typeof issue.body === 'string' ? issue.body.split('###') : []
 
     const data = new Dictionary()
     fields.forEach((field: string) => {

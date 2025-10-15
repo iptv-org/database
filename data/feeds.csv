@@ -217,6 +217,9 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 3AW.au,SD,SD,,TRUE,c/AU,Australia/Melbourne,eng,576i
 3CatCameresdeltemps.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
 3CatElbunquer.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
+3CatExclusiu1.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
+3CatExclusiu2.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
+3CatExclusiu3.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
 3CatInfo.es,SD,SD,,TRUE,c/ES;c/AD,Europe/Madrid,cat,576i
 3CatPlatsbruts.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
 3eeshAlAanTV.ae,SD,SD,,TRUE,r/ARAB,Asia/Dubai,ara,576i
@@ -3583,6 +3586,7 @@ BloombergTVMalaysia.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,msa,576i
 BloombergTVMongolia.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
 BloomingtonTV.us,SD,SD,,TRUE,ct/USBQI,America/Indiana/Indianapolis,eng,480i
 BlueAction.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,deu,576i
+BlueBloods.us,SD,SD,,TRUE,c/US,America/New_York,eng,720p
 BlueCity.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,deu,576i
 BluediamondTV.bj,SD,SD,,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 BlueEvent1.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,deu,576i
@@ -3698,7 +3702,7 @@ BonaoTV.do,SD,SD,,TRUE,ct/DOBNO,America/Santo_Domingo,spa,480i
 bonappetit.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 BonceTV.cw,SD,SD,,TRUE,c/CW,America/Curacao,nld;pap,480i
 BonchesLatinosTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
-BonDiaTV.es,SD,SD,,TRUE,c/ES,Europe/Madrid,cat,576i
+BonDiaTV.es,SD,SD,,TRUE,s/ES-CT;s/ES-IB;s/ES-VC,Europe/Madrid,cat,576i
 BOneTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 BOneTV.id,SD,SD,,TRUE,s/ID-JI,Asia/Jakarta,ind,576i
 Bonferey.ne,SD,SD,,TRUE,c/NE,Africa/Niamey,fra;hau;dje;ara;fuh,576i
@@ -5167,9 +5171,6 @@ CCIChannel.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 CCM.hk,SD,SD,,TRUE,r/SEA,Asia/Hong_Kong,zho;ind,576i
 CCM.us,SD,SD,,TRUE,ct/USRKV,America/New_York,eng,480i
 CCMadeinGermany.us,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
-CCMAExclusiu1.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
-CCMAExclusiu2.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
-CCMAExclusiu3.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
 CCMC.us,SD,SD,,TRUE,s/US-KY,America/New_York,eng,480i
 CCMTelevision.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 CCNTV6.tt,SD,SD,,TRUE,c/TT,America/Port_of_Spain,spa,480i

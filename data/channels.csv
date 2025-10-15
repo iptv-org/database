@@ -175,6 +175,9 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 3AW.au,3AW,,,,AU,news,FALSE,,,,https://www.3aw.com.au/
 3CatCameresdeltemps.es,3Cat Cameres del temps,3Cat Càmeres del temps,3Cat,Corporació Catalana de Mitjans Audiovisuals,ES,public;weather,FALSE,,,,https://www.3cat.cat/3cat/directes/beauties/
 3CatElbunquer.es,3Cat El bunquer,3Cat El búnquer,3Cat,Corporació Catalana de Mitjans Audiovisuals,ES,comedy;public,FALSE,,,,https://www.3cat.cat/3cat/directes/fc5/
+3CatExclusiu1.es,3Cat Exclusiu 1,CCMA Exclusiu 1,3Cat,Corporació Catalana de Mitjans Audiovisuals,ES,news;public,FALSE,,,,https://www.3cat.cat/3cat/directes/oca1/
+3CatExclusiu2.es,3Cat Exclusiu 2,CCMA Exclusiu 2,3Cat,Corporació Catalana de Mitjans Audiovisuals,ES,news;public,FALSE,,,,https://www.3cat.cat/3cat/directes/oca2/
+3CatExclusiu3.es,3Cat Exclusiu 3,CCMA Exclusiu 3,3Cat,Corporació Catalana de Mitjans Audiovisuals,ES,news;public,FALSE,,,,https://www.3cat.cat/3cat/directes/oca3/
 3CatInfo.es,3CatInfo,324;3/24,3Cat,Corporació Catalana de Mitjans Audiovisuals,ES,news;public,FALSE,2003-01-01,,,https://www.3cat.cat/3catinfo/
 3CatPlatsbruts.es,3Cat Plats bruts,,3Cat,Corporació Catalana de Mitjans Audiovisuals,ES,classic;comedy;public;series,FALSE,,,,https://www.3cat.cat/3cat/directes/fc1/
 3eeshAlAanTV.ae,3eesh Al Aan TV,القصّة في تجدد,,,AE,general,FALSE,,,,https://www.alaan.tv/program/3eesh-alaan
@@ -1603,7 +1606,7 @@ APTV.gh,AP TV,Action Power TV,,Action Power of Faith Ministries,GH,entertainment
 APTV.mq,APTV,Albert Palmier Télévision,,,MQ,religious,FALSE,,,,http://www.aptv.fr/
 APTV.us,APTV,Asbury Park TV,,,US,general,FALSE,,,,https://www.asburyparktv.com/
 ApuliaWebTV.it,Apulia Web TV,,,,IT,general,FALSE,,,,https://www.apuliawebtv.it/
-APunt.es,A Punt,À Punt,,Corporació Audiovisual de la Comunitat Valenciana S.A.,ES,general;public,FALSE,2017-08-30,,,https://www.apuntmedia.es/
+APunt.es,A Punt,À Punt,,Corporació Valenciana de Mitjans de Comunicació,ES,general;public,FALSE,2017-08-30,,,https://www.apuntmedia.es/
 ApureTV.ve,Apure TV,,,,VE,general,FALSE,,,,https://apuretv.com/
 Aqjaiyq.kz,Aqjaiyq,,,Qazaqstan Radio and Television Corporation,KZ,general,FALSE,1964-09-26,,,http://oraltv.kz/
 Aqlvoy.uz,Aqlvoy,,,Ministry of Preschool Education,UZ,kids,FALSE,2021-03-22,,,https://aqlvoy.uz/
@@ -3059,6 +3062,7 @@ BloombergTVMalaysia.my,Bloomberg TV Malaysia,,,Enmedia Ventures Sdn. Bhd.,MY,bus
 BloombergTVMongolia.mn,Bloomberg TV Mongolia,,,,MN,business,FALSE,,,,http://bloombergtv.mn/
 BloomingtonTV.us,Bloomington TV,BTV,,,US,general,FALSE,,,,https://reflect-bcit.cablecast.tv/CablecastPublicSite/watch/4?channel=2
 BlueAction.ch,Blue Action,,,,CH,movies,FALSE,,,,https://tv.blue.ch/
+BlueBloods.us,Blue Bloods,,Pluto TV,CBS,US,series,FALSE,2023-01-01,,,
 BlueCity.ch,Blue City,,,,CH,,FALSE,,,,https://tv.blue.ch/
 BluediamondTV.bj,Bluediamond TV,,,,BJ,lifestyle,FALSE,,,,https://bluediamondtv.com/
 BlueEvent1.ch,Blue Event 1,,,,CH,,FALSE,,,,https://tv.blue.ch/
@@ -3165,7 +3169,7 @@ BonaoTV.do,Bonao TV,,,,DO,general,FALSE,,,,https://www.bonaotv.com/
 bonappetit.us,bon appetit,bon appétit,,,US,cooking,FALSE,,,,
 BonceTV.cw,Bonce TV,,,,CW,entertainment,FALSE,,,,https://www.bonce.tv/
 BonchesLatinosTV.do,Bonches Latinos TV,,,,DO,entertainment,FALSE,,,,https://boncheslatinos.com/
-BonDiaTV.es,Bon Dia TV,,,,ES,,FALSE,,,,
+BonDiaTV.es,Bon Dia TV,Bon Dia Televisió,3Cat,Corporació Catalana de Mitjans Audiovisuals;Ens Públic de Radiotelevisió de les Illes Balears;Corporació Valenciana de Mitjans de Comunicació,ES,general;public,FALSE,2018-11-27,,,https://www.bondiatv.org/
 BOneTV.cd,B-One TV,,,Jean-Pierre Mutamba,CD,entertainment,FALSE,,,,https://b-onetv.cd/
 BOneTV.id,B-One TV,,,,ID,,FALSE,,,,
 Bonferey.ne,Bonferey,,,,NE,news,FALSE,2008-02-08,,,
@@ -4553,9 +4557,6 @@ CCIChannel.hn,CCI Channel,,,,HN,religious,FALSE,,,,https://www.ccichannel.tv/
 CCM.hk,CCM,Celestial Classic Movies;天映經典頻道,,,HK,movies,FALSE,,,,https://www.cmclassic.tv/index.php?location/HK
 CCM.us,CCM,County Cable Montgomery,,,US,general,FALSE,,,,https://www.montgomerycountymd.gov/ccm/index.html
 CCMadeinGermany.us,CC Made in Germany,,Pluto TV,,US,comedy,FALSE,,,,https://pluto.tv/en/live-tv/cc-made-in-germany-de
-CCMAExclusiu1.es,CCMA Exclusiu 1,,,,ES,,FALSE,,,,https://www.ccma.cat/tv3/directe-avancat/exclusiu/oca1/
-CCMAExclusiu2.es,CCMA Exclusiu 2,,,,ES,,FALSE,,,,https://www.ccma.cat/tv3/directe-avancat/exclusiu/oca2/
-CCMAExclusiu3.es,CCMA Exclusiu 3,,,,ES,,FALSE,,,,https://www.ccma.cat/tv3/directe/roda-de-premsa-del-consell-executiu-de-la-generalitat/oca3/
 CCMC.us,CCMC,,,,US,general,FALSE,,,,https://campbellmedia.org/live/
 CCMTelevision.co,CCM Television,CCM Televisión,,Corporación CCM TELEVISIÓN,CO,general,FALSE,,,,https://ccmtelevision.tv/
 CCNTV6.tt,CCN TV 6,,,Caribbean Communications Network,TT,general,FALSE,1991-08-31,,,https://www.tv6tnt.com/

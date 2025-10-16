@@ -547,20 +547,14 @@ ABCNewsLive9.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 ABCNewsNepal.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 ABCSpark.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 ABCSuriname.sr,SD,SD,,TRUE,c/SR,America/Paramaribo,nld;srn,480i
-ABCTV.au,ACT,ACT,,FALSE,s/AU-ACT,Australia/Sydney,eng,576i
-ABCTV.au,Adelaide,Adelaide,,FALSE,s/AU-SA,Australia/Adelaide,eng,576i
-ABCTV.au,Brisbane,Brisbane,,FALSE,s/AU-QLD,Australia/Brisbane,eng,576i
-ABCTV.au,Hobart,Hobart,,FALSE,s/AU-TAS,Australia/Hobart,eng,576i
-ABCTV.au,Melbourne,Melbourne,,FALSE,s/AU-VIC,Australia/Melbourne,eng,576i
-ABCTV.au,NSW,NSW,,FALSE,s/AU-NSW,Australia/Sydney,eng,576i
-ABCTV.au,NT,NT,,FALSE,s/AU-NT,Australia/Sydney,eng,576i
-ABCTV.au,Perth,Perth,,FALSE,s/AU-WA,Australia/Perth,eng,576i
-ABCTV.au,QLD,QLD,,FALSE,s/AU-QLD,Australia/Brisbane,eng,576i
-ABCTV.au,SA,SA,,FALSE,s/AU-SA,Australia/Adelaide,eng,576i
-ABCTV.au,Sydney,Sydney,,TRUE,s/AU-NSW,Australia/Sydney,eng,576i
-ABCTV.au,TAS,TAS,,FALSE,s/AU-TAS,Australia/Hobart,eng,576i
-ABCTV.au,VIC,VIC,,FALSE,s/AU-VIC,Australia/Melbourne,eng,576i
-ABCTV.au,WA,WA,,FALSE,s/AU-WA,Australia/Perth,eng,576i
+ABCTV.au,ACT,ACT,Australian Capital Territory;Canberra,FALSE,s/AU-ACT,Australia/Sydney,eng,1080i
+ABCTV.au,NSW,NSW,New South Wales;Sydney,TRUE,s/AU-NSW,Australia/Sydney,eng,1080i
+ABCTV.au,NT,NT,Northern Territory;Darwin,FALSE,s/AU-NT,Australia/Darwin,eng,1080i
+ABCTV.au,QLD,QLD,Queensland;Brisbane,FALSE,s/AU-QLD,Australia/Brisbane,eng,1080i
+ABCTV.au,SA,SA,South Australia;Adelaide,FALSE,s/AU-SA,Australia/Adelaide,eng,1080i
+ABCTV.au,TAS,TAS,Tasmania;Hobart,FALSE,s/AU-TAS,Australia/Hobart,eng,1080i
+ABCTV.au,VIC,VIC,Victoria;Melbourne,FALSE,s/AU-VIC,Australia/Melbourne,eng,1080i
+ABCTV.au,WA,WA,Western Australia;Perth,FALSE,s/AU-WA,Australia/Perth,eng,1080i
 ABCTV.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
 ABCtv.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 ABCTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
@@ -34434,7 +34428,10 @@ WalfTV.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,fra;wol,576i
 WaliifTV.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,orm,576i
 WalingTelevision.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 WalkerTexasRanger.us,Canada,Canada,,FALSE,c/CA,America/Toronto,eng,576i
+WalkerTexasRanger.us,Denmark,Denmark,,FALSE,c/DK,Europe/Copenhagen,eng;dan,720p
 WalkerTexasRanger.us,France,France,,TRUE,c/FR,Europe/Paris,fra,576i
+WalkerTexasRanger.us,Norway,Norway,,FALSE,c/NO,Europe/Oslo,eng;nor,720p
+WalkerTexasRanger.us,Sweden,Sweden,,FALSE,c/SE,Europe/Stockholm,eng;swe,720p
 WallisFutuna1ere.wf,SD,SD,,TRUE,c/WF,Pacific/Wallis,fra;wls;fud,576i
 WalpoleEducationChannel.us,SD,SD,,TRUE,ct/USWPL,America/New_York,eng,480i
 WalpoleMediaTV.us,SD,SD,,TRUE,ct/USWPL,America/New_York,eng,480i

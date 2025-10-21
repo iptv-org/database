@@ -79,7 +79,7 @@ describe('db:validate', () => {
         '002RadioTV.do: "website" must be a valid uri with a scheme matching the http|https pattern'
       )
       expect((error as ExecError).stdout).toContain(
-        '"002RadioTV.do" has an more than one main feed'
+        '"002RadioTV.do" has more than one main feed'
       )
       expect((error as ExecError).stdout).toContain('"0TV.dk@SD" has the wrong channel "0TV.dk"')
       expect((error as ExecError).stdout).toContain(

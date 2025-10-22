@@ -44,7 +44,7 @@ export class ChannelValidator extends Validator {
     if (channel.hasMoreThanOneMainFeed()) {
       errors.add({
         line: channel.getLine(),
-        message: `"${channel.id}" has an more than one main feed`
+        message: `"${channel.id}" has more than one main feed`
       })
     }
 

@@ -2894,6 +2894,7 @@ BBCNews.uk,SouthAsia,South Asia,,FALSE,r/SAS,America/Toronto,eng,576i
 BBCNews.uk,UK,UK,,FALSE,c/UK,America/Toronto,eng,576i
 BBCNews.uk,UKHD,UK HD,,FALSE,c/UK,America/Toronto,eng,1080i
 BBCNewsArabic.uk,HD,HD,,TRUE,r/MIDEAST,America/Toronto,eng,720p
+BBCNL.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
 BBCNordic.uk,SD,SD,,TRUE,r/NEU;c/DK;c/SE;c/NO;c/IS,Europe/London,dan;eng;fin;isl;nor;swe,576i
 BBCOne.uk,Cambridgeshire,Cambridgeshire,,FALSE,c/UK,Europe/London,eng,576i
 BBCOne.uk,CambridgeshireHD,Cambridgeshire HD,,FALSE,c/UK,Europe/London,eng,1080i
@@ -8804,10 +8805,10 @@ ESPN.au,SD,SD,,TRUE,r/OCE,Europe/London,eng,576i
 ESPN.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 ESPN.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,eng,1080i
 ESPN.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
-ESPN.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+ESPN.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
 ESPN.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
 ESPN2.au,SD,SD,,TRUE,r/OCE,Australia/Sydney,eng,576i
-ESPN2.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+ESPN2.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
 ESPN2.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
 ESPN2Africa.za,SD,SD,,TRUE,r/AFR,Africa/Johannesburg,eng;fra,576i
 ESPN2Caribbean.us,SD,SD,,TRUE,r/CARIB,America/New_York,eng,480i
@@ -8818,12 +8819,12 @@ ESPN2LatinAmerica.us,Colombia,Colombia,,FALSE,c/CO,America/Bogota,spa,480i
 ESPN2LatinAmerica.us,Mexico,Mexico,,FALSE,c/MX,America/Mexico_City,spa,480i
 ESPN2LatinAmerica.us,South,South,,TRUE,c/BO;c/PY;c/PE;c/UY,America/Argentina/Buenos_Aires,spa,480i
 ESPN3.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
-ESPN3.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+ESPN3.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
 ESPN3LatinAmerica.us,Argentina,Argentina,,FALSE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 ESPN3LatinAmerica.us,North,North,,FALSE,r/CENAMER;c/DO,Europe/London,spa,480i
 ESPN3LatinAmerica.us,South,South,,TRUE,c/BO;c/CL;c/CO;c/EC;c/PY;c/UY;c/VE,Europe/London,spa,480i
 ESPN4.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
-ESPN4.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+ESPN4.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
 ESPN4LatinAmerica.us,CentralAmerica,Central America,,FALSE,r/CENAMER;c/DO,Europe/London,spa,480i
 ESPN4LatinAmerica.us,Mexico,Mexico,,FALSE,c/MX,Europe/London,spa,480i
 ESPN4LatinAmerica.us,South,South,,TRUE,c/BO;c/CO;c/EC;c/PY;c/PE;c/UY;c/VE,Europe/London,spa,480i
@@ -8862,6 +8863,7 @@ ESPNPremium.ar,HD,HD,,FALSE,c/AR,America/Argentina/Buenos_Aires,spa,1080i
 ESPNPremium.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 ESPNPremium.cl,SD,SD,,TRUE,c/CL,America/Argentina/Buenos_Aires,spa,576i
 ESPNU.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
+ESPNUHD.nl,UHD,UHD,,TRUE,c/NL,Europe/Amsterdam,nld,2160p
 EspoirduMondeTV.bf,SD,SD,,TRUE,c/BF,Africa/Ouagadougou,fra,576i
 EspoirTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 Esport3.es,Originals,Originals,,FALSE,s/ES-CT,Europe/Madrid,cat,576i
@@ -11245,6 +11247,7 @@ HGTV.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 HGTV.ie,SD,SD,,TRUE,c/IE,Europe/Dublin,eng,576i
 HGTV.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita;eng,1080i
 HGTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita;eng,576i
+HGTV.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
 HGTV.nz,SD,SD,,TRUE,c/NZ,Pacific/Auckland,eng,576i
 HGTV.pl,SD,SD,,TRUE,c/PL,America/New_York,pol,576i
 HGTV.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,eng,576i
@@ -21787,6 +21790,7 @@ NET.mt,SD,SD,,TRUE,c/MT,Europe/Malta,mlt,576i
 Net25.ph,SD,SD,,TRUE,c/PH,Asia/Manila,tgl;eng,480i
 Net2TV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 NET5.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+NET5.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 NetalkoleTV.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
 NethraTV.lk,SD,SD,,TRUE,c/LK,Asia/Colombo,tam,576i
 NetmaxTV.gr,SD,SD,,TRUE,c/GR,Europe/Athens,ell,576i
@@ -22508,17 +22512,19 @@ NPCRadioeTV.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 NPlus.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 NPlusBajio.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 NPlusMedia.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
-NPO1.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 NPO1.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+NPO1.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
+NPO1.nl,UHD,UHD,,FALSE,c/NL,Europe/Amsterdam,nld,2160p
 NPO1extra.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
-NPO2.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
+NPO1extra.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 NPO2.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+NPO2.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 NPO2extra.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
-NPO3.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
+NPO2extra.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 NPO3.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
-NPONieuws.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+NPO3.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 NPOPolitiekenNieuws.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
-NPOZappelinExtra.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+NPOPolitiekenNieuws.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 NPY.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
 NRBTV.ca,SD,SD,,TRUE,c/CA,Europe/London,ben,480i
 NRBTV.us,SD,SD,,TRUE,c/US,America/Chicago,eng,480i
@@ -22927,6 +22933,7 @@ OmroepTilburg.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepVenlo.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepVenray.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepVlaardingen.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+OmroepWest.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepZeeland.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmropFryslan.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld;fry,576i
 On4TV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
@@ -26165,11 +26172,14 @@ RTL1025Traffic.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 RTL1025TV.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita,1080i
 RTL1025TV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 RTL2.hr,SD,SD,,TRUE,c/HR,Europe/Zagreb,hrv;hun,576i
-RTL4.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
-RTL4.nl,SD,SD,,FALSE,c/NL,Europe/Amsterdam,nld,576i
+RTL4.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+RTL4.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 RTL5.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+RTL5.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 RTL7.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+RTL7.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 RTL8.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+RTL8.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 RTL9.lu,SD,SD,,TRUE,c/LU;c/FR;c/MC;c/CH,Europe/Luxembourg,fra,576i
 RTLAdria.hr,SD,SD,,TRUE,c/HR,Europe/Zagreb,hrv,576i
 RTLClub.be,HD,HD,,FALSE,c/BE,Europe/Brussels,fra,1080i
@@ -26209,6 +26219,7 @@ RTLup.de,SD,SD,,TRUE,c/CH;c/DE,Europe/Berlin,deu,576i
 RTLWebRadioTV.lu,SD,SD,,TRUE,c/LU,Europe/Luxembourg,ltz,576i
 RTLWest.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 RTLZ.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+RTLZ.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 RTLZwee.lu,SD,SD,,TRUE,c/LU,Europe/Luxembourg,ltz;fra;deu,576i
 RTLZwei.de,HD,HD,,FALSE,c/DE,Europe/Berlin,deu,1080i
 RTLZwei.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
@@ -26840,7 +26851,9 @@ SBS.au,Sydney,Sydney,,TRUE,s/AU-NSW,Australia/Sydney,eng,576i
 SBS.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 SBS.us,SD,SD,,TRUE,r/AFR,America/New_York,som,480i
 SBS6.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+SBS6.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 SBS9.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+SBS9.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 SBSBiz.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,eng;kor,480i
 SBSFL.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 SBSFL.kr,UHD,UHD,,FALSE,c/KR,Asia/Seoul,kor,2160p
@@ -28014,7 +28027,8 @@ SlagerMuzika.cz,SD,SD,,TRUE,c/CZ;c/SK,Europe/Prague,ces,576i
 SlagerOriginal.cz,SD,SD,,TRUE,c/CZ;c/SK,Europe/Prague,ces,576i
 SlagerPremium.cz,SD,SD,,TRUE,c/CZ;c/SK,Europe/Prague,ces,576i
 SlagerTV.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
-Slam.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+SLAMTV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+SLAMTV.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 Slam1005FM.tt,SD,SD,,TRUE,c/TT,America/Port_of_Spain,eng,576i
 SLBCTV.sl,SD,SD,,TRUE,c/SL,Africa/Freetown,eng,576i
 SLC6.us,SD,SD,,TRUE,ct/USSXA,Asia/Kolkata,eng,480i
@@ -28605,8 +28619,8 @@ StarChannel.gr,HD,HD,,FALSE,c/GR,Europe/Athens,ell,1080i
 StarChannel.gr,SD,SD,,TRUE,c/GR,Europe/Athens,ell,576i
 StarChannel.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 StarChannel.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa;eng,480i
-StarChannel.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
-StarChannel.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+STARChannel.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+STARChannel.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 StarChannel.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 StarChannel.si,HD,HD,,FALSE,c/SI,Europe/Ljubljana,slv,1080i
 StarChannel.si,SD,SD,,TRUE,c/SI,Europe/Ljubljana,slv,576i
@@ -30993,6 +31007,7 @@ ToonmaxTV.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 ToonToon.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 TooshehTV.us,SD,SD,,TRUE,c/US,America/New_York,fas,480i
 TOPBarca.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,eng,576i
+Top40TV.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
 TopCalcio24.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 TopChannel.al,SD,SD,,TRUE,c/AL,Europe/Tirane,sqi,576i
 TopChannel.gr,SD,SD,,TRUE,ct/GRKZI,Europe/Athens,ell,576i
@@ -32498,7 +32513,6 @@ tvNMoviesAsia.hk,HD,HD,,FALSE,c/MY;c/ID;c/SG;c/BN;c/TH;c/VN;c/PH;c/HK,Asia/Hong_
 tvNMoviesAsia.hk,SD,SD,,TRUE,c/MY;c/ID;c/SG;c/BN;c/TH;c/VN;c/PH;c/HK,Asia/Hong_Kong,kor;eng;zho;ind;tha,576i
 TVNoe.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
 TVNoePlus.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
-TVNoord.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 TVNord.md,SD,SD,,TRUE,c/MD,Europe/Chisinau,ron;rus,576i
 TVNord.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 TVNordkysten.dk,SD,SD,,TRUE,c/DK,Europe/Copenhagen,dan,576i
@@ -32555,7 +32569,8 @@ TVOost.be,SD,SD,,TRUE,c/BE,Europe/Brussels,nld,576i
 TVOpinion.xk,SD,SD,,TRUE,c/XK,Europe/Belgrade,sqi,576i
 TVOPiura.pe,SD,SD,,TRUE,ct/PEPIU,America/Lima,spa,480i
 TVOpoja.xk,SD,SD,,TRUE,c/XK,Europe/Belgrade,sqi,576i
-TVOrange.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+TVOranje.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+TVOranje.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 TVOravia.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 TVOrbis.mk,SD,SD,,TRUE,c/MK,Europe/Skopje,mkd,576i
 TVOrion.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
@@ -32759,8 +32774,6 @@ TVRI.id,WestSulawesi,West Sulawesi,,FALSE,s/ID-SR,Asia/Jakarta,ind,576i
 TVRI.id,WestSumatra,West Sumatra,,FALSE,s/ID-SS,Asia/Jakarta,ind,576i
 TVRI.id,Yogyakarta,Yogyakarta,,FALSE,s/ID-YO,Asia/Jakarta,ind,576i
 TVRIasi.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
-TVRijnmond.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
-TVRijnmondExtra.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 TVRiK.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 TVRimava.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 TVRInfo.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
@@ -33096,7 +33109,6 @@ TVWarehouse.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 TVWebCamocim.br,SD,SD,,TRUE,ct/BRCMC,America/Fortaleza,por,480i
 TVWebParana.br,SD,SD,,TRUE,s/BR-PR,America/Sao_Paulo,por,480i
 TVWest.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
-TVWest.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 TVWest.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,nyn;cgg;nyo;ttj,576i
 TVWestsachsen.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 TVWielkopolska.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
@@ -33672,7 +33684,7 @@ VeriteTV.uk,SD,SD,,TRUE,c/UK;c/CD,Europe/London,fra,576i
 VermontCommunityTelevision.us,SD,SD,,TRUE,ct/USBTV,America/New_York,eng,480i
 VernierVisions.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
 Veronica.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
-VeronicaDisneyXD.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+Veronica.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 VertsPaturagesTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 VeryLocal.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 VeryTV.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
@@ -33750,7 +33762,8 @@ ViaOccitanieMontpellier.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 ViaOccitaniePaysCatalan.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 ViaOccitaniePaysGardois.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 ViaOccitanieToulouse.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
-ViaplayTv.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+ViaplayTV.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
+ViaplayTVPlus.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
 ViaplayXtra.uk,HD,HD,,FALSE,c/UK;c/IE,Europe/London,eng,1080i
 ViaplayXtra.uk,SD,SD,,TRUE,c/UK;c/IE,Europe/London,eng,576i
 Viasat2.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun;eng,576i
@@ -40426,13 +40439,14 @@ ZiboLifestyleChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 ZiboNewsChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 ZiboScienceEducationChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 ZICOTV.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,sqi,576i
-ZiggoSport.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
-ZiggoSportDocu.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
-ZiggoSportGolf.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
-ZiggoSportRacing.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
-ZiggoSportSelect.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
-ZiggoSportTennis.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
-ZiggoSportVoetbal.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+ZiggoSport.nl,SD,SD,,FALSE,c/NL,Europe/Amsterdam,nld,576i
+ZiggoSport.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
+ZiggoSport2.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
+ZiggoSport3.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
+ZiggoSport4.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
+ZiggoSport5.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
+ZiggoSport6.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
+ZiggoSportExtra.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
 ZIKPROMOTV.cm,SD,SD,,TRUE,c/CM,Africa/Douala,fra,576i
 ZillarBartaNews.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,ben,720p
 ZilzalClassic.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i

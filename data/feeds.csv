@@ -203,6 +203,7 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 365TV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 366TV.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 38TV.cl,SD,SD,,TRUE,ct/CLSCL,America/Santiago,spa,480i
+3ABNCanada.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 3ABNEnglish.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 3ABNFrench.us,SD,SD,,TRUE,c/US,America/New_York,fra,480i
 3ABNGhana.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
@@ -10900,7 +10901,7 @@ GuruTV.lk,SD,SD,,TRUE,c/LK,Asia/Colombo,sin,576i
 GustoTV.ca,SD,SD,,TRUE,r/HISPAM,America/Toronto,eng,480i
 GuteLauneTV.de,HD,HD,,FALSE,c/DE,Europe/Berlin,deu,1080i
 GuteLauneTV.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
-GuyanaLearningChannelTrustJunior.gy,SD,SD,,TRUE,c/GY,Atlantic/St_Helena,eng,480i
+GuyanaLearningChannelTrustJunior.gy,SD,SD,,TRUE,c/GY,America/Guyana,eng,480i
 Guyane1ere.gf,SD,SD,,TRUE,c/GF,America/Cayenne,fra,480i
 GuyBaiTV.us,SD,SD,,TRUE,c/US;c/GY,America/New_York,eng,480i
 GuySports1.us,SD,SD,,TRUE,c/US;c/GY,America/Los_Angeles,eng,480i
@@ -28059,9 +28060,9 @@ SlagerMuzika.cz,SD,SD,,TRUE,c/CZ;c/SK,Europe/Prague,ces,576i
 SlagerOriginal.cz,SD,SD,,TRUE,c/CZ;c/SK,Europe/Prague,ces,576i
 SlagerPremium.cz,SD,SD,,TRUE,c/CZ;c/SK,Europe/Prague,ces,576i
 SlagerTV.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
+Slam1005FM.tt,SD,SD,,TRUE,c/TT,America/Port_of_Spain,eng,576i
 SLAMTV.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 SLAMTV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
-Slam1005FM.tt,SD,SD,,TRUE,c/TT,America/Port_of_Spain,eng,576i
 SLBCTV.sl,SD,SD,,TRUE,c/SL,Africa/Freetown,eng,576i
 SLC6.us,SD,SD,,TRUE,ct/USSXA,Asia/Kolkata,eng,480i
 SLCtv.us,SD,SD,,TRUE,ct/USSLC,America/Denver,eng,480i

@@ -268,6 +268,7 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 6TVGorlovka.ru,6 TV Gorlovka,6 ТВ Горловка,,,RU,general,FALSE,1993-10-04,,,https://ok.ru/gorlovka6tv
 6TVTelangana.in,6TV Telangana,6TV తెలంగాణ,,,IN,news,FALSE,2012-07-03,,,https://6tvtelugu.com/
 6TVTelugu.in,6 TV Telugu,,,,IN,news,FALSE,2012-07-03,,,http://6tvtelugu.com/
+6WiseTv.us,6 Wise Tv,Wise Tv,,,US,family,FALSE,,,,
 7080TV.it,70-80 TV,,,,IT,music,FALSE,,,,https://www.70-80.it/tv-player/
 70sCinema.us,70s Cinema,,Pluto TV,,US,movies,FALSE,,,,https://pluto.tv/en/live-tv/70s-cinema
 77CableAccess.us,77 Cable Access,,,,US,education,FALSE,,,,https://librarymedia.net/77-cable-access-simulcast/
@@ -3883,11 +3884,13 @@ Canal8Carolino.uy,Canal 8 Carolino,,,Cable Carolino,UY,general,FALSE,,,,https://
 Canal8Catacaos.pe,Canal 8 Catacaos,,,,PE,general,FALSE,,,,https://www.canal8catacaos.com/
 Canal8Catamarca.ar,Canal 8 Catamarca,,,,AR,,FALSE,,,,https://canal8catamarca.com.ar/
 Canal8CCProducciones.py,Canal 8 C&C Producciones,,,,PY,general,FALSE,,,,
+Canal8Digioriente.co,Canal 8 Digioriente,,,Digioriente S.A.S.,CO,general,FALSE,,,,https://www.digioriente.net.co/
 Canal8Durazno.uy,Canal 8 Durazno,,,,UY,general,FALSE,,,,https://tv.vera.com.uy/content/2s6pf
 Canal8EventosHD.uy,Canal 8 Eventos HD,Canal 8 Tacuarembó,,DANEC Realizaciones,UY,entertainment,FALSE,2025-01-09,,,https://www.cabledosmil.com.uy/
 Canal8LosChiles.cr,Canal 8 Los Chiles,Canal Ocho Frontera,,,CR,general,FALSE,,,,
 Canal8MardelPlata.ar,Canal 8 Mar del Plata,,,,AR,,FALSE,,,,https://canal8mardelplata.com.ar/
 Canal8Mercedes.uy,Canal 8 Mercedes,Tele 8 Mercedes,,,UY,general,FALSE,,,,http://www.canal8mercedes.com/
+Canal8Regional.co,Canal 8 Regional,,,,CO,general,FALSE,,,,
 Canal8RioBranco.uy,Canal 8 Rio Branco,Canal 8 Río Branco,,,UY,general,FALSE,,,,
 Canal8Rivera.uy,Canal 8 Rivera,,,,UY,general,FALSE,,,,
 Canal8Salta.ar,Canal 8 Salta,,,,AR,,FALSE,,,,https://canal8.info/
@@ -4188,6 +4191,7 @@ CanalPortada.es,Canal Portada,,,,ES,,FALSE,,,,
 CanalPro.py,Canal Pro,,,,PY,business,FALSE,,,,https://www.canalpro.com.py/
 CanalProgramacao.ao,Canal Programacao,Canal Programação,,ZAP Telecomunicações,AO,general,FALSE,,,,https://www.zap.co.ao/
 CanalProvincial.ar,Canal Provincial,,,,AR,general,FALSE,,,,https://canalprovincial.com.ar/
+CanalPuertoCable.co,Canal Puerto Cable,,,Asiscom SAS,CO,general,FALSE,,,,https://asiscomsas.com/
 CanalPyC.co,Canal PyC,,,,CO,news,FALSE,,,,https://canalpyc.com/
 CanalQ.pt,Canal Q,,,Produções Fictícias,PT,entertainment,FALSE,2010-03-29,,,http://www.canalq.pt/
 CanalRCN.co,Canal RCN,RCN Televisión,,Organizacion Ardila Lulle,CO,general,FALSE,1998-07-10,,,https://www.canalrcn.com/
@@ -8671,6 +8675,7 @@ FlouCine.us,Flou Cine,,,Canela Media Inc,US,movies,FALSE,,,,https://www.canela.t
 FlowerMoundTV.us,Flower Mound TV,FMTV,,,US,legislative,FALSE,,,,https://www.flower-mound.com/946/Flower-Mound-TV-FMTV
 FlowersTV.in,Flowers TV,,,Insight Media,IN,entertainment,FALSE,,,,http://www.flowerstv.in/
 FlowersTVUSA.us,Flowers TV USA,,,,US,culture,FALSE,,,,https://flowerstv.us/
+FlowSports1.tt,Flow Sports 1,,,C&W Communications Plc.,TT,sports,FALSE,2015-11-26,,,https://watch.streambluu.com/
 FLSport.gy,FL Sport,Freelancer Sport,,,GY,sports,FALSE,,,,https://flsport.gy/
 FLTV.us,FLTV,,,,US,legislative,FALSE,,,,https://www.fortlauderdale.gov/
 FLTVWebChannel1.us,FLTV Web Channel 1,,,,US,general,FALSE,,,,https://fingerlakestv.org/live/
@@ -9761,6 +9766,12 @@ GurSikhSabhaTV.ca,GurSikh Sabha TV,,,,CA,religious,FALSE,,,,https://www.gsabha.c
 GuruTV.lk,Guru TV,,,,LK,education,FALSE,,,,https://guru.lk/
 GustoTV.ca,Gusto TV,,,Gusto Media Worldwide,CA,cooking,FALSE,,,,https://gustotv.com/
 GuteLauneTV.de,Gute Laune TV,,,High View Holding GmbH,DE,music,FALSE,2005-10-18,,,https://www.gutelaunetv.de/
+GuyanaLearningChannel.gy,Guyana Learning Channel,,,Guyana Learning Channel Trust,GY,education,FALSE,,,,https://education.gov.gy/onlinelearning/learningchannel/
+GuyanaLearningChannelDiscover.gy,Guyana Learning Channel Discover,,,Guyana Learning Channel Trust,GY,science,FALSE,,,,https://education.gov.gy/onlinelearning/learningchannel/
+GuyanaLearningChannelElementary.gy,Guyana Learning Channel Elementary,,,Guyana Learning Channel Trust,GY,education,FALSE,,,,https://education.gov.gy/onlinelearning/learningchannel/
+GuyanaLearningChannelElevate.gy,Guyana Learning Channel Elevate,,,Guyana Learning Channel Trust,GY,education,FALSE,,,,https://education.gov.gy/onlinelearning/learningchannel/
+GuyanaLearningChannelPlus.gy,Guyana Learning Channel +,,,Guyana Learning Channel Trust,GY,culture,FALSE,,,,https://education.gov.gy/onlinelearning/learningchannel/
+GuyanaLearningChannelTeen.gy,Guyana Learning Channel Teen,,,Guyana Learning Channel Trust,GY,education,FALSE,,,,https://education.gov.gy/onlinelearning/learningchannel/
 GuyanaLearningChannelTrustJunior.gy,Guyana Learning Channel Trust Junior,,,Guyana Learning Channel Trust,GY,education,FALSE,2021-01-01,,,https://education.gov.gy/en/index.php/component/tags/tag/guyana-learning-channel
 Guyane1ere.gf,Guyane 1ere,Guyane 1ère;Guyane La Première,,France Televisions,GF,general,FALSE,1967-01-15,,,https://la1ere.francetvinfo.fr/guyane/
 GuyBaiTV.us,GuyBai TV,,,Guyana TV Network,US,general,FALSE,,,,https://guyanatvnetwork.com/
@@ -18036,6 +18047,7 @@ LoretoTV.ec,Loreto TV,,,,EC,general,FALSE,,,,https://loretotv.com/
 LoriaTV.ad,Loria TV,Lòria TV,,,AD,general,FALSE,,,,http://www.loriatv.com/
 LoriTVR.am,Lori TVR,,,,AM,general,FALSE,,,,https://www.loritv.am/
 LosAltosTelevision.mx,Los Altos Television,Los Altos Televisión,,,MX,entertainment,FALSE,,,,
+LosAngelesTVRadio.py,Los Angeles TV Radio,Los Ángeles TV Radio,,,PY,music,FALSE,,,,https://losangelestvradio.com/
 LosarchivosdelFBI.us,Los archivos del FBI,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/los-archivos-del-fbi-es
 LosAsesinatosdeMidsomer.us,Los Asesinatos de Midsomer,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/los-asesinatos-de-midsomer-es
 LosPrimerosTV.ar,Los Primeros TV,,,,AR,news,FALSE,,,,https://losprimeros.tv/
@@ -19591,6 +19603,7 @@ MultiSports5.fr,MultiSports 5,,,Canal+,FR,sports,FALSE,,,,http://www.canalsat.fr
 MultiSports6.fr,MultiSports 6,,,Canal+,FR,sports,FALSE,,,,http://www.canalsat.fr/
 Multivision.cu,Multivision,Multivisión,ICRT,,CU,general,FALSE,2008-07-07,,,https://www.tvcubana.icrt.cu/cartelera-de-la-tv-cubana/multivision
 MultivisionCanal3.gt,Multivision Canal 3,Multivisión Canal 3,,,GT,general,FALSE,,,,https://multivisioncanal3.com/
+MultivisionCanal8.co,Multivision Canal 8,Multivisión Canal 8,,Grupo Empresarial Multivisión S.A.S.,CO,general,FALSE,,,,https://www.multivision.com.co/
 MultivisionFederal.ar,Multivision Federal,Multivisión Federal,,,AR,news,FALSE,,,,https://multivision.tv/
 MultivisionSports.gt,Multivision Sports,Multivisión Sports,,,GT,sports,FALSE,,,,https://multivisioncanal3.com/
 MultizonasTV.cr,Multizonas TV,,,,CR,education,FALSE,,,,https://cloudvideo.servers10.com/public/8068
@@ -22916,6 +22929,7 @@ ProkopTVXXX.ru,Prokop TV XXX,,,,RU,xxx,FALSE,,,,https://tvlider.net/
 ProLyubov.ru,Pro Lyubov,Про Любовь,,,RU,,FALSE,,,,https://www.tricolor.tv/channels/pro-lyubov/
 PromarTV.ve,PromarTV,,,Producciones Mariano C.A.,VE,general,FALSE,1995-11-01,,,https://www.promar.tv/
 PromiusPickxInfoChannel.be,Promius Pickx InfoChannel,,,,BE,,FALSE,,,,https://www.pickx.be/
+PromoChannel.sh,Promo Channel,,,Sure South Atlantic Ltd.,SH,general,FALSE,,,,https://www.sure.co.sh/television/
 PromoKino.ru,Promo Kino,Промо Кино,,,RU,movies,FALSE,,,,https://www.tricolor.ru/
 PromoTV.ru,Promo TV,Промо ТВ,,,RU,,FALSE,,,,https://www.tricolor.tv/channels/promo-tv/
 PromoUltraHD.ru,Promo Ultra HD,Промо Ultra HD,,,RU,,FALSE,,,,https://www.tricolor.tv/channels/promo-uhd/
@@ -23763,7 +23777,7 @@ RedeMeioNorte.br,Rede Meio Norte,,,,BR,,FALSE,,,,https://www.meionorte.com/tv-me
 RedeMetropole.br,Rede Metropole,Rede Metrópole,,,BR,general,FALSE,,,,http://redemetropole.com/
 RedeMinas.br,Rede Minas,,,,BR,education,FALSE,,,,http://redeminas.tv/
 RedemptionTelevisionMinistry.za,Redemption Television Ministry,RTM,,,ZA,religious,FALSE,,,,http://www.redemptiontm.tv/
-RedeMundoTV.br,Rede Mundo TV,,,Rede Mundo de Comunicação,BR,entertainment,FALSE,,,,https://www.redemundotv.com.br/
+RedeMundoTV.br,Rede Mundo TV,Mundo TV,,Rede Mundo de Comunicação,BR,entertainment,FALSE,2006-07-03,,,https://redemundotv.com.br
 RedeNGT.br,Rede NGT,,,,BR,entertainment,FALSE,,,,https://redengt.com.br/
 RedePremiumTV.br,Rede Premium TV,,,Rede Mundo de Comunicação,BR,entertainment,FALSE,,,,https://redepremiumtv.com.br/
 RedeQDM.br,Rede QDM,,,,BR,general,FALSE,,,,https://clube.atitudenew.com/redeqdm/
@@ -26390,6 +26404,7 @@ StarAction.us,Star Action,,,,US,movies,FALSE,,,,
 StarActionPlus3.us,Star Action +3,,,,US,movies,FALSE,,,,
 StarAfricaTV.ke,Star Africa TV,,,Star Africa Media Group,KE,entertainment,FALSE,,,,
 StarAsia.pk,Star Asia,,,,PK,,FALSE,,,,http://starasianews.tv/
+StaraTV.id,Stara TV,,Stara TV,,ID,,FALSE,,,,https://stream.staratv.id/
 StarBharat.in,Star Bharat,Life OK;Star One,Disney Star,Disney India,IN,entertainment,FALSE,2017-08-28,,,http://www.hotstar.com/channels/star-bharat
 StarBS10.jp,Star BS10,,,,JP,,FALSE,,,,
 StarChannel.bg,Star Channel,Fox,,The Walt Disney Company Bulgaria,BG,movies,FALSE,2012-10-15,,,http://starchannel-bg.com/
@@ -29516,6 +29531,7 @@ TVCentr.ru,TV Centr,ТВ Центр;ТВЦ;TV Tsentr,,Government of Moscow,RU,,F
 TVCentrafricaine.cf,TV Centrafricaine,,,,CF,general,FALSE,1974-02-22,,,
 TVCentral.sk,TV Central,Televízia Central,,,SK,,FALSE,,,,http://cetv.sk/
 TVCentrInternational.ru,TV Centr International,ТВ Центр International,,ТВ Центр International;ТВЦ,RU,,FALSE,,,,http://www.tvc.ru/
+TVCentro.co,TV Centro,,,,CO,entertainment,FALSE,,,,https://tvcentrotucanal.com
 TVCentro272HD.hn,TV Centro 27.2 HD,,,,HN,entertainment,FALSE,,,,https://centroradialhn.net/
 TVCentroAmerica.br,TV Centro America,TV Centro América,,,BR,,FALSE,,,,http://redeglobo.globo.com/tvcentroamerica/
 TVCentroAmericaCuiaba.br,TV Centro America Cuiaba,TV Centro América Cuiabá,,,BR,,FALSE,,,,http://redeglobo.globo.com/tvcentroamerica/

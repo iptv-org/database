@@ -316,6 +316,7 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 6TVGorlovka.ru,SD,SD,,TRUE,s/UA-14,Europe/Kyiv,rus;ukr,576i
 6TVTelangana.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 6TVTelugu.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
+6WiseTv.us,SD,SD,,TRUE,r/SOUTHAM,America/Detroit,spa,720p
 7080TV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 70sCinema.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 77CableAccess.us,SD,SD,,TRUE,ct/USTNF,America/New_York,eng,480i
@@ -4429,11 +4430,13 @@ Canal8Carolino.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Canal8Catacaos.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 Canal8Catamarca.ar,SD,SD,,TRUE,ct/ARSFV,America/Argentina/Buenos_Aires,spa,576i
 Canal8CCProducciones.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
+Canal8Digioriente.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 Canal8Durazno.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Canal8EventosHD.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Canal8LosChiles.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,576i
 Canal8MardelPlata.ar,SD,SD,,TRUE,ct/ARMDQ,America/Argentina/Buenos_Aires,spa,576i
 Canal8Mercedes.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
+Canal8Regional.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 Canal8RioBranco.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Canal8Rivera.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Canal8Salta.ar,SD,SD,,TRUE,s/AR-A,America/Argentina/Buenos_Aires,spa,576i
@@ -4737,6 +4740,7 @@ CanalPortada.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 CanalPro.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
 CanalProgramacao.ao,SD,SD,,TRUE,c/AO,Africa/Luanda,por,576i
 CanalProvincial.ar,SD,SD,,TRUE,ct/ARSMG,America/El_Salvador,spa,576i
+CanalPuertoCable.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 CanalPyC.co,SD,SD,,TRUE,ct/COIBE,America/Bogota,spa,480i
 CanalQ.pt,SD,SD,,TRUE,c/AO;c/MZ;c/PT,Europe/Lisbon,por,576i
 CanalRCN.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
@@ -9716,6 +9720,7 @@ FlouCine.us,SD,SD,,TRUE,c/US,America/New_York,spa;eng,480i
 FlowerMoundTV.us,SD,SD,,TRUE,ct/USXFG,America/New_York,eng,480i
 FlowersTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
 FlowersTVUSA.us,SD,SD,,TRUE,c/US,America/Chicago,mal;eng,480i
+FlowSports1.tt,SD,SD,,TRUE,c/TT;c/AI;c/AG;c/BB;c/BS;c/DM;c/KY;c/CW;c/GD;c/JM;c/KN;c/LC;c/BM,America/Port_of_Spain,eng,576i
 FLSport.gy,SD,SD,,TRUE,c/GY,Atlantic/St_Helena,eng,480i
 FLTV.us,SD,SD,,TRUE,ct/USFLL,America/New_York,eng,480i
 FLTVWebChannel1.us,SD,SD,,TRUE,ct/USCND,America/New_York,eng,480i
@@ -10909,6 +10914,12 @@ GuruTV.lk,SD,SD,,TRUE,c/LK,Asia/Colombo,sin,576i
 GustoTV.ca,SD,SD,,TRUE,r/HISPAM,America/Toronto,eng,480i
 GuteLauneTV.de,HD,HD,,FALSE,c/DE,Europe/Berlin,deu,1080i
 GuteLauneTV.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
+GuyanaLearningChannel.gy,SD,SD,,TRUE,c/GY,America/Guyana,eng,576i
+GuyanaLearningChannelDiscover.gy,SD,SD,,TRUE,c/GY,America/Guyana,eng,576i
+GuyanaLearningChannelElementary.gy,SD,SD,,TRUE,c/GY,America/Guyana,eng,576i
+GuyanaLearningChannelElevate.gy,SD,SD,,TRUE,c/GY,America/Guyana,eng,576i
+GuyanaLearningChannelPlus.gy,SD,SD,,TRUE,c/GY,America/Guyana,eng,576i
+GuyanaLearningChannelTeen.gy,SD,SD,,TRUE,c/GY,America/Guyana,eng,576i
 GuyanaLearningChannelTrustJunior.gy,SD,SD,,TRUE,c/GY,America/Guyana,eng,480i
 Guyane1ere.gf,SD,SD,,TRUE,c/GF,America/Cayenne,fra,480i
 GuyBaiTV.us,SD,SD,,TRUE,c/US;c/GY,America/New_York,eng,480i
@@ -19411,6 +19422,7 @@ LoretoTV.ec,SD,SD,,TRUE,s/EC-D,America/Mazatlan,spa,480i
 LoriaTV.ad,SD,SD,,TRUE,c/AD,Europe/Andorra,cat,576i
 LoriTVR.am,SD,SD,,TRUE,c/AM,Asia/Yerevan,hye,576i
 LosAltosTelevision.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
+LosAngelesTVRadio.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
 LosarchivosdelFBI.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 LosAsesinatosdeMidsomer.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 LosPrimerosTV.ar,SD,SD,,TRUE,c/AR,America/Argentina/Tucuman,spa,576i
@@ -21050,6 +21062,7 @@ MultiSports5.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 MultiSports6.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Multivision.cu,SD,SD,,TRUE,c/CU,America/Havana,spa,480i
 MultivisionCanal3.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
+MultivisionCanal8.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 MultivisionFederal.ar,SD,SD,,TRUE,c/AR,America/Argentina/Salta,spa,576i
 MultivisionSports.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 MultizonasTV.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,480i
@@ -24715,6 +24728,7 @@ ProkopTVXXX.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,eng,576i
 ProLyubov.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 PromarTV.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 PromiusPickxInfoChannel.be,SD,SD,,TRUE,c/BE,Europe/Brussels,nld,576i
+PromoChannel.sh,SD,SD,,TRUE,c/SH,Atlantic/St_Helena,eng,576i
 PromoKino.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 PromoTV.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 PromoUltraHD.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
@@ -28656,6 +28670,7 @@ StarAction.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 StarActionPlus3.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 StarAfricaTV.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,eng;swa,576i
 StarAsia.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,eng,576i
+StaraTV.id,SumedangMajalengka,Sumedang & Majalengka,,TRUE,ct/ID5SU,Asia/Jakarta,ind;sun,720p
 StarBharat.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,hin,1080i
 StarBharat.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 StarBS10.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
@@ -32016,6 +32031,7 @@ TVCentr.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 TVCentrafricaine.cf,SD,SD,,TRUE,c/CF,Africa/Bangui,fra;sag,576i
 TVCentral.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 TVCentrInternational.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
+TVCentro.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 TVCentro272HD.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 TVCentroAmerica.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 TVCentroAmericaCuiaba.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i

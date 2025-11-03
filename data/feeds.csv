@@ -2162,7 +2162,7 @@ AssParade.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 AsSunnahTV.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 AssyrianANB.us,SD,SD,,TRUE,c/US,America/La_Paz,ara,480i
 AstanaTV.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz,576i
-AsthaTV.id,HD,HD,,TRUE,r/SEA;c/ID;s/ID-JK;ct/IDJKT,Asia/Jakarta,ind,1080p
+AsthaTV.id,HD,HD,,TRUE,ct/IDJKT,Asia/Jakarta,ind,1080p
 Astrahan24.ru,SD,SD,,TRUE,s/RU-AST,Europe/Astrakhan,rus,576i
 AstrahanRuSport.ru,SD,SD,,TRUE,s/RU-AST,Europe/Astrakhan,rus,576i
 AstrahanRuTV.ru,SD,SD,,TRUE,s/RU-AST,Europe/Astrakhan,rus,576i
@@ -9554,6 +9554,11 @@ FidoTV.us,SD,SD,,TRUE,c/US,America/Chicago,eng,480i
 FieldStream.us,SD,SD,,TRUE,c/US,America/Chicago,eng,480i
 FiestaMax.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 FIFAPlus.uk,English,English,,TRUE,r/AMER;r/EMEA;r/APAC,Europe/London,eng,720p
+FIFAPlus.uk,French,French,Français,FALSE,c/FR;c/BE;c/CH,Europe/Paris,fra,576i
+FIFAPlus.uk,German,German,,FALSE,c/AT;c/DE;c/CH,Europe/Berlin,deu,576i
+FIFAPlus.uk,Italy,Italy,,FALSE,c/IT;c/VA;c/SM,Europe/Rome,ita,576i
+FIFAPlus.uk,Spain,Spain,,FALSE,c/ES;r/EUR,Europe/Madrid,spa,576i
+FIFAPlus.uk,UnitedStates,United States,USA,FALSE,c/US;c/CA,America/New_York,eng,576i
 FifthGear.us,UK,UK,,TRUE,c/UK,Europe/London,eng,576i
 Fight.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 FightBox.nl,HD,HD,,FALSE,r/EUR;r/MENA;r/SSA;r/ASIA,Europe/Amsterdam,eng,1080i
@@ -26517,7 +26522,7 @@ RTVVisoko.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,bos,576i
 RTVVizioni.xk,SD,SD,,TRUE,c/XK,Europe/Belgrade,sqi,576i
 RTVVogosca.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,bos,576i
 RTVWesterwolde.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
-RTVYahoshuah.mg,SD,SD,,TRUE,c/MG,Indian/Antananarivo,fra,576i
+RTVYahoshuah.mg,SD,SD,,TRUE,c/MG,Indian/Antananarivo,fra;mlg;eng,576i
 RTVZaanstreek.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RTVZenica.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,bos,576i
 RTVZivinice.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,bos,576i
@@ -32402,6 +32407,7 @@ TVKraljevo.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 TVKrimpenerwaard.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 TVKronjylland.dk,SD,SD,,TRUE,c/DK,Europe/Copenhagen,dan,576i
 TVKrusevac.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
+TVKStella.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576p
 TVKU.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 TVKujawy.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 TVKulob.tj,SD,SD,,TRUE,c/TJ,Asia/Dushanbe,tgk,576i
@@ -34027,7 +34033,7 @@ Vision.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
 Vision.pe,SD,SD,,TRUE,s/PE-JUN,America/Lima,spa,480i
 Vision3000.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 Vision4.cm,SD,SD,,TRUE,c/CM,Africa/Douala,fra,576i
-Vision4RCA.cm,SD,SD,,TRUE,c/CM;c/CF,Africa/Douala,fra,576i
+Vision4RCA.cf,SD,SD,,TRUE,c/CM;c/CF,Africa/Douala,fra,576i
 Vision6TV.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 VisionGlobalTV.us,SD,SD,,TRUE,c/US;c/DO,America/New_York,spa,480i
 VisionLatina.pa,SD,SD,,TRUE,c/PA,America/Panama,spa,480i
@@ -35158,6 +35164,7 @@ WCAXDT4.us,SD,SD,,TRUE,ct/USBTV,America/New_York,eng,480i
 WCAXDT5.us,SD,SD,,TRUE,ct/USBTV,America/New_York,eng,480i
 WCAXDT6.us,SD,SD,,TRUE,ct/USBTV,America/New_York,eng,480i
 WCAXDT7.us,SD,SD,,TRUE,ct/USBTV,America/New_York,eng,480i
+WCAYCD.us,SD,SD,,TRUE,s/US-FL,America/New_York,eng,576i
 WCBBDT1.us,SD,SD,,TRUE,ct/USAUG,America/New_York,eng,480i
 WCBBDT2.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 WCBBDT3.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i

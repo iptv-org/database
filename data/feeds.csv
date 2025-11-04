@@ -4206,7 +4206,8 @@ Canal21.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,480i
 Canal21CableCaribe.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,576i
 Canal21Chignahuapan.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 Canal21Ebre.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
-Canal21Huancayo.pe,SD,SD,,TRUE,ct/PEJHY,America/Lima,spa,480i
+Canal21Huancayo.pe,HD,HD,,TRUE,r/HISPAM;c/PE;s/PE-JUN;ct/PEJHY,America/Lima,spa,720p
+Canal21Huancayo.pe,SD,SD,,FALSE,ct/PEJHY,America/Lima,spa,480i
 Canal21Jalisco.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 Canal21Otuzco.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 Canal21Rioverde.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
@@ -12925,6 +12926,7 @@ JusticiaTV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 JusticiaTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 JustTV.lt,SD,SD,,TRUE,c/LT,Europe/Vilnius,rus,576i
 JustVogueTV.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,ara;eng,576i
+JusuPanevezysTV.lt,SD,SD,,TRUE,c/LT,Europe/Vilnius,lit,576i
 JuventudRenovadaenelEspirituSanto.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 Juwelo.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 Juwelo.it,SD,SD,,TRUE,c/IT,Europe/Berlin,deu,576i
@@ -21115,6 +21117,7 @@ MusicaporMovistarPlusPlus.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 MusicBoxBrazil.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 MusicBoxGeorgia.ge,SD,SD,,TRUE,c/GE,Asia/Tbilisi,kat,576i
 MusicBoxGold.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
+MusicBoxPolska.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
 MusicBoxUkraine.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 MusicChannel.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 MusicChannel.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
@@ -22853,6 +22856,7 @@ OCSPulp.fr,SD,SD,,TRUE,c/FR;c/CH;c/MU,Europe/Paris,fra,576i
 OCtele.fr,SD,SD,,TRUE,c/FR,Europe/Paris,oci,576i
 ODDTV.bj,SD,SD,,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 Odeon24.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
+OderSpreeFernsehen.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 OdesaLive.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 ODiaTV.br,SD,SD,,TRUE,c/BR,America/Fortaleza,por,480i
 Odisea.es,SD,SD,,TRUE,c/PT;c/ES;c/AD;c/GI,Europe/Madrid,spa,576i
@@ -25141,6 +25145,7 @@ RadioFardaTV.us,SD,SD,,TRUE,c/US,America/New_York,fas,480i
 RadioFMTrujui.ar,SD,SD,,TRUE,s/AR-B,America/Argentina/Buenos_Aires,spa,576i
 Radiofreccia.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita,1080i
 Radiofreccia.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
+RadioFrontieres.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 RadioGuairaTV.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
 RadioHit.ru,SD,SD,,TRUE,s/RU-ORE,Asia/Yekaterinburg,rus,576i
 RadioHitFMTV.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
@@ -25158,6 +25163,7 @@ RadioItaliaTrendTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 RadioItaliaTV.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita,1080i
 RadioItaliaTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 RadioJND.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+RadioKaraoke.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 RadioKarolinaTV.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 RadioKitaTV.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 RadioLaOriginalTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
@@ -26244,6 +26250,7 @@ RTL1025Napule.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 RTL1025Traffic.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 RTL1025TV.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita,1080i
 RTL1025TV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
+RTL2.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 RTL2.hr,SD,SD,,TRUE,c/HR,Europe/Zagreb,hrv;hun,576i
 RTL4.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 RTL4.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
@@ -31774,6 +31781,7 @@ TV6.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 TV6.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 TV6.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 TV7.dz,SD,SD,,TRUE,c/DZ,Africa/Algiers,ara,576i
+TV7.lt,SD,SD,,TRUE,c/LT,Europe/Vilnius,lit,576i
 TV7.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 TV7.tg,SD,SD,,TRUE,c/TG,Africa/Lome,fra,576i
 TV78.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -40501,6 +40509,7 @@ ZeeZest.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin;eng;tam;mar,576i
 ZelenaTVzdravlje.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 Zelig.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 ZemedTV.us,SD,SD,,TRUE,c/US;c/ET,Africa/Addis_Ababa,eng;amh,576i
+ZemgalesTV.lv,SD,SD,,TRUE,c/LV,Europe/Riga,lav,576i
 Zenebutik.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 ZeopTV.re,HD,HD,,TRUE,c/RE,Indian/Reunion,fra,720p
 ZeriTV.xk,SD,SD,,TRUE,c/XK,Europe/Belgrade,sqi,576i
@@ -40578,6 +40587,7 @@ ZodiakTV.mw,SD,SD,,TRUE,c/MW,Africa/Blantyre,eng;nya;tum,576i
 ZoeChannel.cm,SD,SD,,TRUE,c/CM,Africa/Douala,eng,576i
 ZoeTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 ZoeTV.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,eng,576i
+ZOETV.tz,SD,SD,,TRUE,c/TZ,Africa/Dar_es_Salaam,swa;eng,576i
 ZOEVisionTV.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 Zol106.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 ZonaDAZN.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
@@ -40641,6 +40651,7 @@ ZutTV.ve,SD,SD,,TRUE,r/HISPAM,America/Caracas,spa,480i
 ZUTV.ro,HD,HD,,FALSE,c/RO,Europe/Bucharest,ron,1080i
 ZUTV.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 ZuuTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
+ZvaigzdeTV.lt,SD,SD,,TRUE,c/LT,Europe/Vilnius,lit,576i
 Zvezda.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 ZvezdaPlus.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 ZvezdaTV.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i

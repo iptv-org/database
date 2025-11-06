@@ -2230,6 +2230,7 @@ AsuntosPublicos.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 ASUTV19.us,SD,SD,,TRUE,ct/USABY,Australia/Perth,eng,480i
 AswajaTV.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 Asylum.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+AT5.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 AT5.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 AtabalTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 AtacamaNoticias.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
@@ -18745,6 +18746,7 @@ KZUPCD1.us,SD,SD,,TRUE,ct/USBTR,America/Chicago,eng,480i
 KZVULD1.us,SD,SD,,TRUE,ct/USCIC,America/Los_Angeles,eng,480i
 L1.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 L1Max.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
+L1TV.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 L1TV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 La1.es,HEVC,HEVC,,FALSE,c/ES,Europe/Madrid,spa,1080p
 La1.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
@@ -22984,6 +22986,7 @@ OmroepAlmere.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepBergenDal.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepBest.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepBollenstreek.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+OmroepBrabant.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 OmroepBrabant.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepBrabantRadio.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepCentraalTV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
@@ -23005,8 +23008,11 @@ OmroepTilburg.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepVenlo.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepVenray.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepVlaardingen.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+OmroepWest.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 OmroepWest.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+OmroepZeeland.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 OmroepZeeland.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+OmropFryslan.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld;fry,1080i
 OmropFryslan.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld;fry,576i
 On4TV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 On6.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
@@ -26453,6 +26459,7 @@ RTVdelSur.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
 RTVDiamant.uk,SD,SD,,TRUE,c/UK;c/RO,America/Toronto,ron,576i
 RTVDoboj.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,spa,576i
 RTVDordrecht.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+RTVDrenthe.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 RTVDrenthe.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RTVDukagjini.xk,SD,SD,,TRUE,c/XK,Europe/Belgrade,sqi,576i
 RTVECC.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
@@ -26497,6 +26504,7 @@ RTVMusic.bd,SD,SD,,TRUE,c/BD,Asia/Dhaka,ben,576i
 RTVNaranjal.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 RTVNOFAchtkarspelenTytsjerksteradiel.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RTVNOFNoardeastFryslanDantumadiel.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+RTVNoord.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 RTVNoord.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RTVNoordExtra.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RTVNoordoostFriesland.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
@@ -26504,12 +26512,14 @@ RTVNorte.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 RTVNoviPazar.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 RTVNuble.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 RTVNunspeet.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+RTVOost.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 RTVOost.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RTVP.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 RTVParkstad.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RTVPendimi.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,sqi,576i
 RTVPrievidza.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 RTVPurmerend.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+RTVRijnmond.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 RTVRijnmond.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RTVRijnmondExtra.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RTVRijnstreekTV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i

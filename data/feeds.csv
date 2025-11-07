@@ -22053,6 +22053,7 @@ NGRadioTV.pr,SD,SD,,TRUE,c/PR,America/Puerto_Rico,spa,480i
 NGTV.cm,SD,SD,,TRUE,c/CM,Africa/Douala,fra,576i
 NGTV192.us,SD,SD,,TRUE,ct/USNTG,America/New_York,eng,480i
 Ngwanu.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,ibo;eng,576i
+NH.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 NH.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 NhanDanTV.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 NHCTV.us,SD,SD,,TRUE,ct/USILM,America/New_York,eng,480i
@@ -23015,7 +23016,9 @@ OmroepBrabant.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepBrabantRadio.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepCentraalTV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepDommelland.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+OmroepFlevoland.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 OmroepFlevoland.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+OmroepGelderland.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 OmroepGelderland.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepHoekscheWaard.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OmroepHorstaandeMaas.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
@@ -26567,6 +26570,7 @@ RTVTotalYurimaguas.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 RTVU.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 RTVUlpiana.xk,SD,SD,,TRUE,c/XK,Europe/Belgrade,sqi,576i
 RTVUSK.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,bos,576i
+RTVUtrecht.nl,HD,HD,,FALSE,c/NL,Europe/Amsterdam,nld,1080i
 RTVUtrecht.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RTVVeluwezoomTV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RTVVida.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
@@ -32315,7 +32319,6 @@ TVGCativos.es,SD,SD,,TRUE,c/ES,Europe/Madrid,glg,576i
 TVGCultural.es,SD,SD,,TRUE,c/ES,Europe/Madrid,glg,576i
 TVGE.gq,SD,SD,,TRUE,c/GQ,Africa/Malabo,spa,576i
 TVGEInternacional.gq,SD,SD,,TRUE,r/NORAM;r/EMEA,Africa/Malabo,spa,576i
-TVGelderland.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 TVGerais.br,SD,SD,,TRUE,s/BR-MG,America/Sao_Paulo,por,480i
 TVGetsemani.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,480i
 TVGEvento1.es,SD,SD,,TRUE,c/ES,Europe/Madrid,glg,576i

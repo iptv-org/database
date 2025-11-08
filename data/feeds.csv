@@ -1747,6 +1747,7 @@ ANT1Pacific.gr,SD,SD,,TRUE,r/OCE,Europe/Athens,ell,576i
 ANT1Satellite.gr,SD,SD,,TRUE,r/AMER,Europe/Athens,ell,576i
 AntaraTV.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 AntaresTelevision.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
+AntelCanal29.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,576i
 AntelEventos.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Antena1.ro,HD,HD,,FALSE,c/RO,Europe/Bucharest,ron,1080i
 Antena1.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
@@ -2136,6 +2137,7 @@ AsianVariety.hk,SD,SD,,TRUE,c/HK,Asia/Hong_Kong,yue,576i
 AsiaTravelSatelliteTV.hk,SD,SD,,TRUE,c/HK,Asia/Hong_Kong,zho,576i
 AsiaTravelTV.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
 AsiaTV.kg,SD,SD,,TRUE,c/KG,Asia/Bishkek,kir;rus,576i
+AsiaTV.lk,HD,HD,,TRUE,r/APAC;c/LK,Asia/Colombo,sin;tam;eng,720p
 AsiaUHD.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 ASide.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 AsiesmiGenteTV.us,SD,SD,,TRUE,c/US;c/SV;c/GT;c/HN,America/New_York,spa,480i
@@ -14003,9 +14005,6 @@ KBDIDT1.us,SD,SD,,TRUE,ct/USDEN,America/Denver,eng,480i
 KBDIDT2.us,SD,SD,,TRUE,ct/USDEN,America/Denver,eng,480i
 KBDIDT3.us,SD,SD,,TRUE,ct/USDEN,America/Denver,eng,480i
 KBDIDT4.us,SD,SD,,TRUE,ct/USDEN,America/Denver,eng,480i
-KBEHDT1.us,SD,SD,,TRUE,ct/USGGR,America/New_York,spa,480i
-KBEHDT2.us,SD,SD,,TRUE,ct/USGGR,America/New_York,eng,480i
-KBEHDT3.us,SD,SD,,TRUE,ct/USGGR,America/New_York,eng,480i
 KBEV.us,SD,SD,,TRUE,ct/USBVH,America/New_York,eng;spa,480i
 KBFDDT1.us,SD,SD,,TRUE,ct/USHNL,Pacific/Honolulu,eng,480i
 KBFDDT2.us,SD,SD,,TRUE,ct/USHNL,Pacific/Honolulu,eng,480i
@@ -18411,9 +18410,9 @@ KWHEDT3.us,SD,SD,,TRUE,ct/USHNL,Pacific/Honolulu,eng,480i
 KWHMDT1.us,SD,SD,,TRUE,s/US-HI,Pacific/Honolulu,eng,480i
 KWHSLD1.us,SD,SD,,TRUE,ct/USCOS,America/Denver,eng,480i
 KWHSLD2.us,SD,SD,,TRUE,ct/USCOS,America/Denver,eng,480i
-KWHYDT2.us,SD,SD,,TRUE,ct/USLAX,America/Santiago,spa,480i
-KWHYDT3.us,SD,SD,,TRUE,ct/USLAX,America/Santiago,eng,480i
-KWHYDT5.us,SD,SD,,TRUE,ct/USLAX,America/Santiago,eng,480i
+KWHYDT1.us,SD,SD,,TRUE,ct/USGGR,America/New_York,spa,480i
+KWHYDT2.us,SD,SD,,TRUE,ct/USGGR,America/New_York,eng,480i
+KWHYDT3.us,SD,SD,,TRUE,ct/USGGR,America/New_York,eng,480i
 KWJMLD1.us,SD,SD,,TRUE,ct/USMES,America/Chicago,eng,480i
 KWKBDT1.us,SD,SD,,TRUE,ct/USIOW,America/Chicago,eng,480i
 KWKBDT2.us,SD,SD,,TRUE,ct/USIOW,America/Chicago,eng,480i
@@ -18817,9 +18816,9 @@ LaCadenadelaBendicion.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 LaCaletaTV.do,SD,SD,,TRUE,s/DO-01,America/Santo_Domingo,spa,480i
 LaChaine32.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 LaChaineDisney.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
+LaChaineFreeTV.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,1080p
 LaChaineMeteo.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 LaChaineNormande.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
-LachaineOQEE.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,1080p
 LaCheverisimaRadioTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 LaChicaInvisible.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 LaChilenaTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i

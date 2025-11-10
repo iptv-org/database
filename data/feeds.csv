@@ -5449,7 +5449,6 @@ Challenge.uk,Plus1,+1,,FALSE,c/UK;c/IE,Europe/London,eng,576i
 Challenge.uk,SD,SD,,TRUE,c/UK;c/IE,Europe/London,eng,576i
 ChamberofRepresentatives.be,SD,SD,,TRUE,c/BE,Europe/Brussels,fra;nld,576i
 ChamberofRepresentatives.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
-ChamberofRepresentatives.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 ChamberTV.lu,SD,SD,,TRUE,c/LU,Europe/Luxembourg,ltz;fra,576i
 ChamorroTelevision.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 ChampasackTV.la,SD,SD,,TRUE,c/LA,Asia/Vientiane,lao,576i
@@ -21318,7 +21317,7 @@ MyFamily.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,eng,576i
 MyGermanTV.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,deu,576i
 MyGermanTVPlus.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,eng,576i
 MyGospel.cm,SD,SD,,TRUE,c/CM,Africa/Douala,eng,576i
-MyGospelTV.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+MyGospelTV.fr,SD,SD,,TRUE,c/FR;c/CI,Europe/Paris,fra,576i
 MyHits.ee,SD,SD,,TRUE,c/EE,Europe/Tallinn,est,576i
 MyKidz.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MyMediaPrime.cm,SD,SD,,TRUE,c/CM,Africa/Douala,eng;fra,576i
@@ -32635,6 +32634,7 @@ TVMorenaCampoGrande.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 TVMorenaPontaPora.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 TVMost.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 TVMparati.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,720p
+TVMQuran.mv,SD,SD,,TRUE,c/MV,Indian/Maldives,div;eng,576i
 TVMrezaMost.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 TVMsportPlus.mt,SD,SD,,TRUE,c/MT,Europe/Malta,mlt,576i
 TVMTelescola.mz,SD,SD,,TRUE,c/MZ,Africa/Maputo,por,576i
@@ -33626,7 +33626,7 @@ UrejeshoTVAfrica.ke,SD,SD,,TRUE,c/KE;c/TZ;c/RW,Africa/Nairobi,eng;swa,576i
 UrfaNatikTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 URHCTV.bj,SD,SD,,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 UrolaTelebista.es,SD,SD,,TRUE,s/ES-PV,Europe/Madrid,eus,576i
-UruguayNaturalTV.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
+UruguayNaturalTV.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa;eng;por,576i
 UruguayPresidencia.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 USACTV.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 Usadba.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i

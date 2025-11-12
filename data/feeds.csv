@@ -23085,7 +23085,7 @@ OneAdria.de,SD,SD,,TRUE,c/DE;c/SI,Europe/Berlin,deu,576i
 OneAfricaTV.na,SD,SD,,TRUE,c/NA,Africa/Windhoek,eng,576i
 OneAlbuquerqueMedia.us,SD,SD,,TRUE,ct/USABQ,America/Denver,eng;spa,480i
 OneAmericaNewsNetwork.us,SD,SD,,TRUE,c/US,America/Los_Angeles,eng,480i
-OneCaribbeanTelevision.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+OneCaribbeanTelevision.us,SD,SD,,TRUE,c/US;c/BB;c/TT;c/AI;c/AG;c/BB;c/BS;c/DM;c/KY;c/CW;c/GD;c/JM;c/KN;c/LC;c/BM;c/VC;c/MS;c/VI;c/VG,America/New_York,eng,480i
 OneChannel.gr,HD,HD,,TRUE,c/GR,Europe/Athens,ell,1080i
 OneChannel.gr,SD,SD,,FALSE,ct/GRATH,Europe/Athens,ell,576i
 OneChannelCyprus.cy,SD,SD,,TRUE,c/CY,Asia/Nicosia,ell,576i
@@ -40546,7 +40546,7 @@ ZeeKannada.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kan,576i
 ZeeKannadaNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kan,576i
 ZeeKeralam.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
 ZeeMadhyaPradeshChhattisgarh.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
-ZeeMagic.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+ZeeMagic.za,SD,SD,,TRUE,c/ZA;r/SSA,Africa/Johannesburg,fra,576i
 ZeeMagicAfrica.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,fra,576i
 ZeeMarathi.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mar,576i
 ZeeMundo.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,spa,576i
@@ -40555,8 +40555,10 @@ ZeeNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 ZeeNewsMalayalam.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
 ZeeNung.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 ZeeOdisha.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
-ZeeOne.de,SD,SD,,TRUE,c/AT;c/DE;c/CH,Europe/Berlin,deu,576i
 ZeeOne.pl,SD,SD,,TRUE,c/PL;r/EUR,Europe/Warsaw,eng,576i
+ZeeOne.uk,French,French,,FALSE,c/FR;c/CH;c/BE,Europe/Paris,fra,720p
+ZeeOne.uk,German,German,,FALSE,c/AT;c/DE;c/CH,Europe/Berlin,deu,720p
+ZeeOne.uk,UK,UK,,TRUE,c/UK;r/EUR,Europe/London,eng,720p
 ZeeOneAfrica.za,SD,SD,,TRUE,c/ZA;r/SSA,Africa/Johannesburg,eng,576i
 ZeePlex.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 ZeePower.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kan,576i

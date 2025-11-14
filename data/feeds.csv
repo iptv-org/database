@@ -7836,6 +7836,7 @@ DisneyInternationalHD.in,SD,SD,,TRUE,c/IN;c/BD;c/MV,Asia/Kolkata,eng,576i
 DisneyJr.fr,HD,HD,,FALSE,c/FR,Europe/Paris,fra,1080i
 DisneyJr.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 DisneyJr.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
+DisneyJr.uk,HD,HD,,TRUE,c/UK,Europe/London,eng,1080p
 DisneyJrLatinAmerica.ar,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
 DisneyJrLatinAmerica.ar,North,North,,TRUE,c/MX;c/CO;c/VE;r/CENAMER;r/CARIB,America/Mexico_City;America/Bogota,spa,480i
 DisneyJrLatinAmerica.ar,NorthHD,North HD,,FALSE,c/MX;c/CO;c/VE;r/CENAMER;r/CARIB,America/Mexico_City;America/Bogota,spa,1080i
@@ -9577,7 +9578,7 @@ FidesTV.bo,SD,SD,,TRUE,c/BO,America/Argentina/Mendoza,spa,480i
 FidoTV.us,SD,SD,,TRUE,c/US,America/Chicago,eng,480i
 FieldStream.us,SD,SD,,TRUE,c/US,America/Chicago,eng,480i
 FiestaMax.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
-FIFAPlus.uk,English,English,,TRUE,r/AMER;r/EMEA;r/APAC,Europe/London,eng,720p
+FIFAPlus.uk,English,English,Global,TRUE,c/UK;r/EUR;r/ASIA;r/OCE;r/AFR,Europe/London,eng,720p
 FIFAPlus.uk,French,French,Français,FALSE,c/FR;c/BE;c/CH,Europe/Paris,fra,576i
 FIFAPlus.uk,German,German,,FALSE,c/AT;c/DE;c/CH,Europe/Berlin,deu,576i
 FIFAPlus.uk,HispanicAmerica,Hispanic America,Hispanoamérica,FALSE,c/AR;r/HISPAM,America/Argentina/Buenos_Aires,spa,720p
@@ -18849,7 +18850,6 @@ LaFabricaTV.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 Laff.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 LaFuenteStereoTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 LagosTelevision.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
-LagosTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 LaGranCarpaCatedralTV.pr,SD,SD,,TRUE,c/PR,America/Puerto_Rico,spa,480i
 LaGrandeItalia.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 LaGranjaTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
@@ -21852,6 +21852,7 @@ NeiMonggolTVChildrenChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho;mon,576i
 NeiMonggolTVCultureEntertainmentChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho;mon,576i
 NeiMonggolTVEconomicLifeChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho;mon,576i
 NeiMonggolTVNewsChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho;mon,576i
+NeisseWelleGuben.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 Neizvestnayaplaneta.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 NEK4Culture.bj,SD,SD,,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 NELCOMTV.cm,SD,SD,,TRUE,c/CM,Africa/Douala,eng,576i
@@ -30535,6 +30536,7 @@ TelevisoraFalcon.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 Televista.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,deu,576i
 TelevistaTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 TelevizeFILMpro.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
+TelevizePrerov.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
 TelevizeSeznam.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
 TeleviziaMocenok.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 TeleviziaPohoda.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
@@ -34042,6 +34044,7 @@ VidaTV.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,576i
 VidaTV.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 VideaPlataforma.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 Video33.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
+VideoCableCastillos.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 VideoCalabria.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 VideoClub.ar,SD,SD,,TRUE,c/CL;r/LATAM,America/Argentina/Buenos_Aires,spa,576i
 VideoItalia.it,SD,SD,,TRUE,c/CH;c/IT,Europe/Rome,ita,576i
@@ -40556,6 +40559,8 @@ ZeeBanglaSonar.in,SD,SD,,TRUE,c/IN;c/BD,Asia/Kolkata,ben,576i
 ZeeBiharJharkhand.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,bho,576i
 ZeeBioskop.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 ZeeBiskope.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,bho,576i
+ZeeBollymovies.in,Australia,Australia,,FALSE,c/IN;c/AU;c/NZ,Asia/Kolkata,eng,576i
+ZeeBollymovies.in,SD,SD,,TRUE,c/IN;c/KR;c/SG;c/TH,Asia/Kolkata,eng,576i
 ZeeBollymovies.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 ZeeBollywood.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 ZeeBusiness.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i

@@ -1,3 +1,4 @@
+import { beforeEach, describe, it, expect } from 'vitest'
 import { pathToFileURL } from 'node:url'
 import { execSync } from 'child_process'
 import * as fs from 'fs-extra'
@@ -9,10 +10,11 @@ beforeEach(() => {
 })
 
 describe('db:update', () => {
-  const ENV_VAR = 'cross-env DATA_DIR=tests/__data__/output/data'
+  const ENV_VAR =
+    'cross-env DATA_DIR=tests/__data__/output/data LOGS_DIR=tests/__data__/output/logs'
 
   it('can update db with data from issues', () => {
-    const cmd = `${ENV_VAR} npm run db:update --silent`
+    const cmd = `${ENV_VAR} npm run db:update`
     const stdout = execSync(cmd, { encoding: 'utf8' })
     if (process.env.DEBUG === 'true') console.log(cmd, stdout)
 
@@ -29,8 +31,8 @@ describe('db:update', () => {
       )
     })
 
-    expect(stdout).toEqual(
-      'OUTPUT=closes #9871, closes #9902, closes #9903, closes #9904, closes #9905, closes #9901, closes #6871, closes #7901, closes #17612, closes #9907, closes #8900, closes #9900, closes #5871, closes #5901, closes #5902, closes #5903, closes #5701, closes #9906, closes #5900, closes #5899, closes #5898, closes #9912, closes #9911, closes #9910, closes #5897, closes #5891'
+    expect(content('tests/__data__/output/logs/update.log')).toBe(
+      content('tests/__data__/expected/db/update/update.log')
     )
   })
 })

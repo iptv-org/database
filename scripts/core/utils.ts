@@ -120,8 +120,6 @@ export async function loadIssues(props?: {
       'Wikidata ID': 'wikidata_id'
     })
 
-    if (!issue.body) throw new Error('Issue body is missing')
-
     const fields = typeof issue.body === 'string' ? issue.body.split('###') : []
 
     const data = new Dictionary<string>()

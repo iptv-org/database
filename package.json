@@ -8,23 +8,21 @@
     "db:export": "tsx scripts/commands/db/export.ts",
     "db:update": "tsx scripts/commands/db/update.ts",
     "lint": "npx eslint \"{scripts,tests}/**/*.{ts,js}\"",
-    "test": "cross-env npx jest --runInBand",
+    "test": "npx vitest run",
     "prepare": "husky"
   },
   "private": true,
-  "author": "Arhey",
+  "license": "UNLICENSED",
   "jest": {
-    "transform": {
-      "^.+\\.(ts|js)$": "ts-jest"
-    },
-    "testRegex": "tests/(.*?/)?.*test.(js|ts)$",
-    "setupFilesAfterEnv": [
-      "jest-expect-message"
+    "testMatch": [
+      "<rootDir>/tests/commands/**/*.test.(js|ts)"
     ]
   },
   "dependencies": {
-    "@eslint/js": "^9.16.0",
-    "@freearhey/core": "^0.10.2",
+    "@eslint/js": "^9.39.1",
+    "@freearhey/core": "^0.15.0",
+    "@freearhey/storage-js": "^0.2.0",
+    "@iptv-org/sdk": "^1.1.0",
     "@joi/date": "^2.1.1",
     "@json2csv/formatters": "^7.0.6",
     "@json2csv/node": "^7.0.6",
@@ -32,26 +30,26 @@
     "@octokit/core": "^7.0.3",
     "@octokit/plugin-paginate-rest": "^13.1.1",
     "@octokit/plugin-rest-endpoint-methods": "^16.0.0",
-    "@stylistic/eslint-plugin": "^5.2.2",
+    "@stylistic/eslint-plugin": "^5.5.0",
+    "@swc/core": "^1.15.2",
     "@types/fs-extra": "^11.0.4",
-    "@types/jest": "^30.0.0",
     "@types/probe-image-size": "^7.2.5",
-    "@typescript-eslint/eslint-plugin": "^8.37.0",
+    "@typescript-eslint/eslint-plugin": "^8.46.4",
     "async-es": "^3.2.6",
     "chalk": "^5.4.1",
     "commander": "^14.0.0",
     "cross-env": "^10.0.0",
     "csvtojson": "^2.0.10",
-    "eslint": "^9.19.0",
+    "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.8",
     "fs-extra": "^11.2.0",
+    "glob": "^11.0.3",
     "globals": "^16.3.0",
     "husky": "^9.1.7",
-    "jest": "^30.0.4",
-    "jest-expect-message": "^1.1.3",
     "joi": "^17.13.3",
     "probe-image-size": "^7.2.3",
-    "ts-jest": "^29.4.0",
-    "tsx": "^4.20.3"
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vitest": "^4.0.9"
   }
 }

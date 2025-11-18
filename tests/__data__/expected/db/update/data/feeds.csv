@@ -2,8 +2,14 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 0TV.dk,SD,SD,,TRUE,c/DK,Europe/Copenhagen,dan,576i
 1000xHoraTV.uy,HD,HD,Oeste;Este,TRUE,c/CN,Africa/Johannesburg;Africa/Kigali,zho,576i
 1000xHoraTV.uy,SD,SD,,FALSE,c/UY,America/Montevideo,spa,576i
+24HorasInternacional.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
+7alaTV.ps,HD,HD,,FALSE,c/PS,Europe/Paris,fra,576i
+7alaTV.ps,SD,SD,,TRUE,c/PS,Europe/Paris,fra,576i
+Baladna.ps,HD,HD,,TRUE,c/PS,Europe/Paris,fra,576i
+Baladna.ps,SD,SD,,FALSE,c/PS,Europe/Paris,fra,576i
 beINMoviesTurk.tr,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 Channel82.bm,SD,SD,,FALSE,c/BM,Atlantic/Bermuda,eng,480i
+K04JRD1.us,SD,SD,,TRUE,c/US,Europe/London,eng,576i
 M5.hu,HD,HD,Méditerranée;Sud,TRUE,c/BR,Africa/Dakar;Africa/El_Aaiun,por;spa,1080i
 M5.hu,West,West,,FALSE,c/DO,America/Santo_Domingo,spa,480i
 TrueCrime.uk,Plus1,+1,,FALSE,c/UK,Europe/London,eng,576i
@@ -11,4 +17,7 @@ TrueCrime.uk,SD,SD,,TRUE,c/UK;c/IE,Europe/London,eng,576i
 WenzhouEconomicandEducation.cn,SD,SD,,TRUE,c/CN,Africa/Johannesburg;Africa/Kigali,zho,576i
 YiwuBusinessChannel.cn,SD,SD,,TRUE,c/CN,Africa/Johannesburg;Africa/Kigali,zho,576i
 YiwuNewsIntegratedChannel.cn,SD,SD,,TRUE,c/CN,Africa/Johannesburg;Africa/Kigali,zho,576i
+ZonaDAZN3.it,HD,HD,,TRUE,c/IT,Europe/Rome,ita,576i
+ZonaDAZN3.it,SD,SD,,FALSE,c/IT,Europe/Rome,ita,576i
+ZTVWorld.hu,SD,SD,,TRUE,c/HU,Europe/London,eng,576i
 ZutTV.ve,HD,HD,,TRUE,c/UK;c/IE,Europe/London,eng,576i

@@ -1,82 +1,57 @@
+import { Validator, ValidatorError } from '../types/validator'
 import { Collection, Dictionary } from '@freearhey/core'
-import { IssueData } from '../core/issueData'
-import { LogoData } from '../types/logo'
-import { Model } from './model'
+import { IssueData } from '../models/issueData'
+import { CSVRow } from '../types/utils'
+import * as sdk from '@iptv-org/sdk'
+import { Channel } from './channel'
+import { data } from '../core/db'
+import { Feed } from './feed'
 import Joi from 'joi'
 
-export class Logo extends Model {
-  channelId: string
-  feedId?: string
-  tags: Collection
-  width: number
-  height: number
-  format: string
-  url: string
+export class Logo extends sdk.Models.Logo implements Validator {
+  line: number = -1
 
-  constructor(data: LogoData) {
-    super()
+  static fromRow(row: CSVRow): Logo {
+    if (!row.data.channel) throw new Error('Logo: "channel" not specified')
+    if (!row.data.url) throw new Error('Logo: "url" not specified')
 
-    this.channelId = data.channel
-    this.feedId = data.feed
-    this.tags = new Collection(data.tags)
-    this.width = data.width
-    this.height = data.height
-    this.format = data.format
-    this.url = data.url
-  }
+    const logo = new Logo({
+      channel: row.data.channel.toString(),
+      feed: row.data.feed ? row.data.feed.toString() : null,
+      url: row.data.url.toString(),
+      tags: Array.isArray(row.data.tags) ? row.data.tags : [],
+      width: typeof row.data.width === 'number' ? row.data.width : 0,
+      height: typeof row.data.height === 'number' ? row.data.height : 0,
+      format: row.data.format ? row.data.format.toString() : null
+    })
 
-  hasValidChannelId(channelsKeyById: Dictionary): boolean {
-    return channelsKeyById.has(this.channelId)
-  }
+    logo.line = row.line
 
-  hasValidFeedId(feedKeyById: Dictionary): boolean {
-    return this.feedId ? feedKeyById.has(this.feedId) : true
+    return logo
   }
 
   update(issueData: IssueData): this {
     const data = {
-      new_channel_id: issueData.getString('new_channel_id'),
-      new_feed_id: issueData.getString('new_feed_id'),
-      new_logo_url: issueData.getString('new_logo_url'),
-      tags: issueData.getArray('tags')
+      tags: issueData.getArray('tags'),
+      width: issueData.getNumber('width'),
+      height: issueData.getNumber('height'),
+      format: issueData.getString('format')
     }
 
-    if (data.new_channel_id !== undefined) this.channelId = data.new_channel_id
-    if (data.new_feed_id !== undefined) this.feedId = data.new_feed_id
-    if (data.new_logo_url !== undefined) this.url = data.new_logo_url
-    if (data.tags !== undefined) this.tags = new Collection(data.tags)
+    if (data.tags !== undefined) this.tags = data.tags
+    if (data.width !== undefined) this.width = data.width
+    if (data.height !== undefined) this.height = data.height
+    if (data.format !== undefined) this.format = data.format
 
     return this
   }
 
-  setWidth(width: number): this {
-    this.width = width
-
-    return this
+  hasValidChannelId(): boolean {
+    return data.channelsKeyById.has(this.channel)
   }
 
-  setHeight(height: number): this {
-    this.height = height
-
-    return this
-  }
-
-  setFormat(format: string): this {
-    this.format = format
-
-    return this
-  }
-
-  data(): LogoData {
-    return {
-      channel: this.channelId,
-      feed: this.feedId,
-      tags: this.tags.all(),
-      width: this.width,
-      height: this.height,
-      format: this.format,
-      url: this.url
-    }
+  hasValidFeedId(): boolean {
+    return this.feed ? data.feedsKeyByStreamId.has(this.getStreamId()) : true
   }
 
   getSchema() {
@@ -98,5 +73,44 @@ export class Logo extends Model {
         })
         .required()
     })
+  }
+
+  toCSVRecord(): Record<string, string | string[] | boolean> {
+    return {
+      channel: this.channel,
+      feed: this.feed || '',
+      tags: this.tags,
+      width: typeof this.width === 'number' ? this.width.toString() : '',
+      height: typeof this.height === 'number' ? this.height.toString() : '',
+      format: this.format || '',
+      url: this.url
+    }
+  }
+
+  validate(): Collection<ValidatorError> {
+    const errors = new Collection<ValidatorError>()
+
+    const joiResults = this.getSchema().validate(this.toObject(), { abortEarly: false })
+    if (joiResults.error) {
+      joiResults.error.details.forEach((detail: { message: string }) => {
+        errors.add({ line: this.line, message: `${this.url}: ${detail.message}` })
+      })
+    }
+
+    if (!this.hasValidChannelId()) {
+      errors.add({
+        line: this.line,
+        message: `Channel with id "${this.channel}" is missing from the channels.csv`
+      })
+    }
+
+    if (!this.hasValidFeedId()) {
+      errors.add({
+        line: this.line,
+        message: `Feed with channel "${this.channel}" and id "${this.feed}" is missing from the feeds.csv`
+      })
+    }
+
+    return errors
   }
 }

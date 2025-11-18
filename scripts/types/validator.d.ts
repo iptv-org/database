@@ -1,10 +1,10 @@
-import { DataLoaderData } from './dataLoader'
+import { Collection } from '@freearhey/core'
 
 export type ValidatorError = {
   line: number
   message: string
 }
 
-export type ValidatorProps = {
-  data: DataLoaderData
+export interface Validator {
+  validate(): Collection<ValidatorError>
 }

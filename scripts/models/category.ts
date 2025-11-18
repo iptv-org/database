@@ -1,26 +1,26 @@
-import { CategoryData } from '../types/category'
-import { Model } from './model'
+import { Validator, ValidatorError } from '../types/validator'
+import { Collection } from '@freearhey/core'
+import { CSVRow } from '../types/utils'
+import * as sdk from '@iptv-org/sdk'
 import Joi from 'joi'
 
-export class Category extends Model {
-  id: string
-  name: string
-  description: string
+export class Category extends sdk.Models.Category implements Validator {
+  line: number = -1
 
-  constructor(data: CategoryData) {
-    super()
+  static fromRow(row: CSVRow): Category {
+    if (!row.data.id) throw new Error('Category: "id" not specified')
+    if (!row.data.name) throw new Error('Category: "name" not specified')
+    if (!row.data.description) throw new Error('Category: "description" not specified')
 
-    this.id = data.id
-    this.name = data.name
-    this.description = data.description
-  }
+    const category = new Category({
+      id: row.data.id.toString(),
+      name: row.data.name.toString(),
+      description: row.data.description.toString()
+    })
 
-  data(): CategoryData {
-    return {
-      id: this.id,
-      name: this.name,
-      description: this.description
-    }
+    category.line = row.line
+
+    return category
   }
 
   getSchema() {
@@ -33,5 +33,22 @@ export class Category extends Model {
         .required(),
       description: Joi.string().required()
     })
+  }
+
+  toCSVRecord(): Record<string, string | string[] | boolean> {
+    return this.toObject() as Record<string, string | string[] | boolean>
+  }
+
+  validate(): Collection<ValidatorError> {
+    const errors = new Collection<ValidatorError>()
+
+    const joiResults = this.getSchema().validate(this.toObject(), { abortEarly: false })
+    if (joiResults.error) {
+      joiResults.error.details.forEach((detail: { message: string }) => {
+        errors.add({ line: this.line, message: `${this.id}: ${detail.message}` })
+      })
+    }
+
+    return errors
   }
 }

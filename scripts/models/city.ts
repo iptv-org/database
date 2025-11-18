@@ -1,44 +1,33 @@
-import { Dictionary } from '@freearhey/core'
-import { CityData } from '../types/city'
-import { IssueData } from '../core'
-import { Model } from './model'
-import Joi from 'joi'
+import { Validator, ValidatorError } from '../types/validator'
+import { Collection, Dictionary } from '@freearhey/core'
 import { Subdivision } from './subdivision'
+import { CSVRow } from '../types/utils'
+import { IssueData } from './issueData'
+import * as sdk from '@iptv-org/sdk'
+import { Country } from './country'
+import { data } from '../core/db'
+import Joi from 'joi'
 
-export class City extends Model {
-  code: string
-  name: string
-  countryCode: string
-  subdivisionCode?: string
-  subdivision?: Subdivision
-  wikidataId: string
+export class City extends sdk.Models.City implements Validator {
+  line: number = -1
 
-  constructor(data: CityData) {
-    super()
+  static fromRow(row: CSVRow): City {
+    if (!row.data.code) throw new Error('City: "code" not specified')
+    if (!row.data.name) throw new Error('City: "name" not specified')
+    if (!row.data.country) throw new Error('City: "country" not specified')
+    if (!row.data.wikidata_id) throw new Error('City: "wikidata_id" not specified')
 
-    this.code = data.code
-    this.name = data.name
-    this.countryCode = data.country
-    this.subdivisionCode = data.subdivision || undefined
-    this.wikidataId = data.wikidata_id
-  }
+    const city = new City({
+      code: row.data.code.toString(),
+      name: row.data.name.toString(),
+      country: row.data.country.toString(),
+      subdivision: row.data.subdivision ? row.data.subdivision.toString() : null,
+      wikidata_id: row.data.wikidata_id.toString()
+    })
 
-  withSubdivision(subdivisionsKeyByCode: Dictionary): this {
-    if (!this.subdivisionCode) return this
+    city.line = row.line
 
-    this.subdivision = subdivisionsKeyByCode.get(this.subdivisionCode)
-
-    return this
-  }
-
-  hasValidCountryCode(countriesKeyByCode: Dictionary) {
-    return countriesKeyByCode.has(this.countryCode)
-  }
-
-  hasValidSubdivisionCode(subdivisionsKeyByCode: Dictionary) {
-    if (!this.subdivisionCode) return true
-
-    return subdivisionsKeyByCode.has(this.subdivisionCode)
+    return city
   }
 
   update(issueData: IssueData): this {
@@ -50,21 +39,21 @@ export class City extends Model {
     }
 
     if (data.name !== undefined) this.name = data.name
-    if (data.country !== undefined) this.countryCode = data.country
-    if (data.subdivision !== undefined) this.subdivisionCode = data.subdivision
-    if (data.wikidata_id !== undefined) this.wikidataId = data.wikidata_id
+    if (data.country !== undefined) this.country = data.country
+    if (data.subdivision !== undefined) this.subdivision = data.subdivision
+    if (data.wikidata_id !== undefined) this.wikidata_id = data.wikidata_id
 
     return this
   }
 
-  data(): CityData {
-    return {
-      country: this.countryCode,
-      subdivision: this.subdivisionCode || null,
-      code: this.code,
-      name: this.name,
-      wikidata_id: this.wikidataId
-    }
+  hasValidCountryCode(countriesKeyByCode: Dictionary<Country>) {
+    return countriesKeyByCode.has(this.country)
+  }
+
+  hasValidSubdivisionCode(subdivisionsKeyByCode: Dictionary<Subdivision>) {
+    if (!this.subdivision) return true
+
+    return subdivisionsKeyByCode.has(this.subdivision)
   }
 
   getSchema() {
@@ -85,5 +74,47 @@ export class City extends Model {
         .regex(/^Q\d+$/)
         .required()
     })
+  }
+
+  toCSVRecord(): Record<string, string | string[] | boolean> {
+    return {
+      country: this.country,
+      subdivision: this.subdivision || '',
+      code: this.code,
+      name: this.name,
+      wikidata_id: this.wikidata_id
+    }
+  }
+
+  validate(): Collection<ValidatorError> {
+    const { countriesKeyByCode, subdivisionsKeyByCode } = data
+
+    const errors = new Collection<ValidatorError>()
+
+    const joiResults = this.getSchema().validate(this.toObject(), { abortEarly: false })
+    if (joiResults.error) {
+      joiResults.error.details.forEach((detail: { message: string }) => {
+        errors.add({
+          line: this.line,
+          message: `${this.code}: ${detail.message}`
+        })
+      })
+    }
+
+    if (!this.hasValidCountryCode(countriesKeyByCode)) {
+      errors.add({
+        line: this.line,
+        message: `"${this.code}" has an invalid country "${this.country}"`
+      })
+    }
+
+    if (!this.hasValidSubdivisionCode(subdivisionsKeyByCode)) {
+      errors.add({
+        line: this.line,
+        message: `"${this.code}" has an invalid subdivision "${this.subdivision}"`
+      })
+    }
+
+    return errors
   }
 }

@@ -1,42 +1,44 @@
+import { Validator, ValidatorError } from '../types/validator'
 import { Collection, Dictionary } from '@freearhey/core'
-import { FeedData } from '../types/feed'
-import { IssueData } from '../core'
-import { createFeedId } from '../utils'
-import { Model } from './model'
+import { createFeedId, data } from '../core'
+import { Subdivision } from './subdivision'
+import { IssueData } from './issueData'
+import { CSVRow } from '../types/utils'
+import { Timezone } from './timezone'
+import * as sdk from '@iptv-org/sdk'
+import { Channel } from './channel'
+import { Country } from './country'
+import { Region } from './region'
 import JoiDate from '@joi/date'
+import { City } from './city'
 import BaseJoi from 'joi'
 
 const Joi = BaseJoi.extend(JoiDate)
 
-export class Feed extends Model {
-  channelId: string
-  id: string
-  name: string
-  altNames: Collection
-  isMain: boolean
-  broadcastAreaCodes: Collection
-  timezoneIds: Collection
-  languageCodes: Collection
-  format?: string
+export class Feed extends sdk.Models.Feed implements Validator {
+  line: number = -1
 
-  constructor(data: FeedData) {
-    super()
+  static fromRow(row: CSVRow): Feed {
+    if (!row.data.channel) throw new Error('Feed: "channel" not specified')
+    if (!row.data.id) throw new Error('Feed: "id" not specified')
+    if (!row.data.name) throw new Error('Feed: "name" not specified')
+    if (!row.data.format) throw new Error('Feed: "format" not specified')
 
-    this.channelId = data.channel
-    this.id = data.id
-    this.name = data.name
-    this.altNames = new Collection(data.alt_names)
-    this.isMain = data.is_main
-    this.broadcastAreaCodes = new Collection(data.broadcast_area)
-    this.timezoneIds = new Collection(data.timezones)
-    this.languageCodes = new Collection(data.languages)
-    this.format = data.format
-  }
+    const feed = new Feed({
+      channel: row.data.channel.toString(),
+      id: row.data.id.toString(),
+      name: row.data.name.toString(),
+      alt_names: Array.isArray(row.data.alt_names) ? row.data.alt_names : [],
+      is_main: !!row.data.is_main,
+      broadcast_area: Array.isArray(row.data.broadcast_area) ? row.data.broadcast_area : [],
+      timezones: Array.isArray(row.data.timezones) ? row.data.timezones : [],
+      languages: Array.isArray(row.data.languages) ? row.data.languages : [],
+      format: row.data.format.toString()
+    })
 
-  setId(id: string): this {
-    this.id = id
+    feed.line = row.line
 
-    return this
+    return feed
   }
 
   update(issueData: IssueData): this {
@@ -51,13 +53,17 @@ export class Feed extends Model {
     }
 
     if (data.feed_name !== undefined) this.name = data.feed_name
-    if (data.alt_names !== undefined) this.altNames = new Collection(data.alt_names)
-    if (data.is_main !== undefined) this.isMain = data.is_main
-    if (data.broadcast_area !== undefined)
-      this.broadcastAreaCodes = new Collection(data.broadcast_area)
-    if (data.timezones !== undefined) this.timezoneIds = new Collection(data.timezones)
-    if (data.languages !== undefined) this.languageCodes = new Collection(data.languages)
+    if (data.alt_names !== undefined) this.alt_names = data.alt_names
+    if (data.is_main !== undefined) this.is_main = data.is_main
+    if (data.broadcast_area !== undefined) this.broadcast_area = data.broadcast_area
+    if (data.timezones !== undefined) this.timezones = data.timezones
+    if (data.languages !== undefined) this.languages = data.languages
     if (data.format !== undefined) this.format = data.format
+
+    let newFeedName = issueData.getString('feed_name')
+    if (newFeedName) {
+      this.id = createFeedId(newFeedName)
+    }
 
     return this
   }
@@ -68,23 +74,23 @@ export class Feed extends Model {
     return expectedId === this.id
   }
 
-  hasValidChannelId(channelsKeyById: Dictionary): boolean {
-    return channelsKeyById.has(this.channelId)
+  hasValidChannelId(channelsKeyById: Dictionary<Channel>): boolean {
+    return channelsKeyById.has(this.channel)
   }
 
-  hasValidTimezones(timezonesKeyById: Dictionary): boolean {
-    const hasInvalid = this.timezoneIds.find((id: string) => timezonesKeyById.missing(id))
+  hasValidTimezones(timezonesKeyById: Dictionary<Timezone>): boolean {
+    const hasInvalid = this.timezones.find((id: string) => timezonesKeyById.missing(id))
 
     return !hasInvalid
   }
 
   hasValidBroadcastAreaCodes(
-    countriesKeyByCode: Dictionary,
-    subdivisionsKeyByCode: Dictionary,
-    regionsKeyByCode: Dictionary,
-    citiesKeyByCode: Dictionary
+    countriesKeyByCode: Dictionary<Country>,
+    subdivisionsKeyByCode: Dictionary<Subdivision>,
+    regionsKeyByCode: Dictionary<Region>,
+    citiesKeyByCode: Dictionary<City>
   ): boolean {
-    const hasInvalid = this.broadcastAreaCodes.find((areaCode: string) => {
+    const hasInvalid = this.broadcast_area.find((areaCode: string) => {
       const [type, code] = areaCode.split('/')
       switch (type) {
         case 'c':
@@ -99,24 +105,6 @@ export class Feed extends Model {
     })
 
     return !hasInvalid
-  }
-
-  getStreamId(): string {
-    return `${this.channelId}@${this.id}`
-  }
-
-  data(): FeedData {
-    return {
-      channel: this.channelId,
-      id: this.id,
-      name: this.name,
-      alt_names: this.altNames.all(),
-      is_main: this.isMain,
-      broadcast_area: this.broadcastAreaCodes.all(),
-      timezones: this.timezoneIds.all(),
-      languages: this.languageCodes.all(),
-      format: this.format
-    }
   }
 
   getSchema() {
@@ -156,5 +144,80 @@ export class Feed extends Model {
         .regex(/^\d+(i|p)$/)
         .allow(null)
     })
+  }
+
+  toCSVRecord(): Record<string, string | string[] | boolean> {
+    return {
+      channel: this.channel,
+      id: this.id,
+      name: this.name,
+      alt_names: this.alt_names,
+      is_main: this.is_main,
+      broadcast_area: this.broadcast_area,
+      timezones: this.timezones,
+      languages: this.languages,
+      format: this.format
+    }
+  }
+
+  validate(): Collection<ValidatorError> {
+    const {
+      channelsKeyById,
+      countriesKeyByCode,
+      subdivisionsKeyByCode,
+      regionsKeyByCode,
+      timezonesKeyById,
+      citiesKeyByCode
+    } = data
+
+    const errors = new Collection<ValidatorError>()
+
+    const joiResults = this.getSchema().validate(this.toObject(), { abortEarly: false })
+    if (joiResults.error) {
+      joiResults.error.details.forEach((detail: { message: string }) => {
+        errors.add({ line: this.line, message: `${this.getStreamId()}: ${detail.message}` })
+      })
+    }
+
+    if (!this.hasValidId()) {
+      errors.add({
+        line: this.line,
+        message: `"${this.getStreamId()}" id "${this.id}" must be derived from the name "${
+          this.name
+        }"`
+      })
+    }
+
+    if (!this.hasValidChannelId(channelsKeyById)) {
+      errors.add({
+        line: this.line,
+        message: `"${this.getStreamId()}" has the wrong channel "${this.channel}"`
+      })
+    }
+
+    if (
+      !this.hasValidBroadcastAreaCodes(
+        countriesKeyByCode,
+        subdivisionsKeyByCode,
+        regionsKeyByCode,
+        citiesKeyByCode
+      )
+    ) {
+      errors.add({
+        line: this.line,
+        message: `"${this.getStreamId()}" has the wrong broadcast_area "${this.broadcast_area.join(
+          ';'
+        )}"`
+      })
+    }
+
+    if (!this.hasValidTimezones(timezonesKeyById)) {
+      errors.add({
+        line: this.line,
+        message: `"${this.getStreamId()}" has the wrong timezones "${this.timezones.join(';')}"`
+      })
+    }
+
+    return errors
   }
 }

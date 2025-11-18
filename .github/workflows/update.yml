@@ -26,7 +26,9 @@ jobs:
         run: npm install
       - name: update data
         id: db-update
-        run: npm run db:update --silent >> $GITHUB_OUTPUT
+        run: |
+          npm run db:update
+          echo "processed_issues=$(cat temp/logs/update.log)" >> $GITHUB_OUTPUT
       - name: validate changes
         run: npm run db:validate
       - name: check if files are crlf
@@ -43,11 +45,11 @@ jobs:
           git config user.email "84861620+iptv-bot[bot]@users.noreply.github.com"
       - run: git status
       - name: commit changes
-        if: steps.db-update.outputs.OUTPUT != 0
+        if: steps.db-update.outputs.processed_issues != 0
         run: |
           git add data/*.csv
           git status
-          git commit -m "[Bot] Update data" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/database/actions/runs/${{ github.run_id }}) workflow." -m "${{ steps.db-update.outputs.OUTPUT }}" --no-verify
+          git commit -m "[Bot] Update data" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/database/actions/runs/${{ github.run_id }}) workflow." -m "${{ steps.db-update.outputs.processed_issues }}" --no-verify
       - name: push all changes to the repository
         if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
         run: git push

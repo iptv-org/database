@@ -1,3 +1,5 @@
 channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
-002RadioTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
+002RadioTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,eng,480i
 002RadioTV.do,SD,SD,,FALSE,c/DO,America/Santo_Domingo,spa,1080i
+10Channel.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,1080i
+10Channel.do,HD,HD,,FALSE,c/DO,America/Santo_Domingo,spa,1080i

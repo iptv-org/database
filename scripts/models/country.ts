@@ -1,36 +1,37 @@
 import { Collection, Dictionary } from '@freearhey/core'
-import { CountryData } from '../types/country'
-import { Model } from './model'
+import { CSVRow } from '../types/utils'
+import { Language } from './language'
+import * as sdk from '@iptv-org/sdk'
 import Joi from 'joi'
+import { Validator } from '../validators/validator'
+import { ValidatorError } from '../types/validator'
+import { data } from '../core/db'
 
-export class Country extends Model {
-  code: string
-  name: string
-  flagEmoji: string
-  languageCodes: Collection
+export class Country extends sdk.Models.Country implements Validator {
+  line: number = -1
 
-  constructor(data: CountryData) {
-    super()
+  static fromRow(row: CSVRow): Country {
+    if (!row.data.name) throw new Error('Country: "name" not specified')
+    if (!row.data.code) throw new Error('Country: "code" not specified')
+    if (!row.data.languages) throw new Error('Country: "languages" not specified')
+    if (!row.data.flag) throw new Error('Country: "flag" not specified')
 
-    this.code = data.code
-    this.name = data.name
-    this.flagEmoji = data.flag
-    this.languageCodes = new Collection(data.languages)
+    const country = new Country({
+      name: row.data.name.toString(),
+      code: row.data.code.toString(),
+      languages: Array.isArray(row.data.languages) ? row.data.languages : [],
+      flag: row.data.flag.toString()
+    })
+
+    country.line = row.line
+
+    return country
   }
 
-  hasValidLanguageCodes(languagesKeyByCode: Dictionary): boolean {
-    const hasInvalid = this.languageCodes.find((code: string) => languagesKeyByCode.missing(code))
+  hasValidLanguageCodes(languagesKeyByCode: Dictionary<Language>): boolean {
+    const hasInvalid = this.languages.find((code: string) => languagesKeyByCode.missing(code))
 
     return !hasInvalid
-  }
-
-  data(): CountryData {
-    return {
-      code: this.code,
-      name: this.name,
-      flag: this.flagEmoji,
-      languages: this.languageCodes.all()
-    }
   }
 
   getSchema() {
@@ -50,5 +51,31 @@ export class Country extends Model {
         .regex(/^[\uD83C][\uDDE6-\uDDFF][\uD83C][\uDDE6-\uDDFF]$/)
         .required()
     })
+  }
+
+  toCSVRecord(): Record<string, string | string[] | boolean> {
+    return this.toObject() as Record<string, string | string[] | boolean>
+  }
+
+  validate(): Collection<ValidatorError> {
+    const { languagesKeyByCode } = data
+
+    const errors = new Collection<ValidatorError>()
+
+    const joiResults = this.getSchema().validate(this.toObject(), { abortEarly: false })
+    if (joiResults.error) {
+      joiResults.error.details.forEach((detail: { message: string }) => {
+        errors.add({ line: this.line, message: `${this.code}: ${detail.message}` })
+      })
+    }
+
+    if (!this.hasValidLanguageCodes(languagesKeyByCode)) {
+      errors.add({
+        line: this.line,
+        message: `"${this.code}" has an invalid languages "${this.languages.join(';')}"`
+      })
+    }
+
+    return errors
   }
 }

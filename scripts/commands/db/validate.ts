@@ -1,8 +1,7 @@
-import { Collection, Storage, Dictionary } from '@freearhey/core'
-import { DataLoaderData } from '../../types/dataLoader'
+import { displayErrors, findDuplicatesBy } from '../../core/utils'
 import { ValidatorError } from '../../types/validator'
-import { DataLoader } from '../../core/dataLoader'
-import { DATA_DIR } from '../../constants'
+import { loadData, data } from '../../core/db'
+import { Collection } from '@freearhey/core'
 import chalk from 'chalk'
 import {
   BlocklistRecord,
@@ -17,38 +16,23 @@ import {
   Feed,
   Logo
 } from '../../models'
-import {
-  BlocklistRecordValidator,
-  SubdivisionValidator,
-  CategoryValidator,
-  LanguageValidator,
-  TimezoneValidator,
-  ChannelValidator,
-  CountryValidator,
-  RegionValidator,
-  CityValidator,
-  FeedValidator,
-  LogoValidator
-} from '../../validators'
 
 let totalErrors = 0
 
 async function main() {
-  const dataStorage = new Storage(DATA_DIR)
-  const dataLoader = new DataLoader({ storage: dataStorage })
-  const data = await dataLoader.load()
+  await loadData()
 
-  validateChannels(data)
-  validateFeeds(data)
-  validateLogo(data)
-  validateRegions(data)
-  validateBlocklist(data)
-  validateCategories(data)
-  validateCities(data)
-  validateCountries(data)
-  validateSubdivisions(data)
-  validateLanguages(data)
-  validateTimezones(data)
+  validateChannels()
+  validateFeeds()
+  validateLogo()
+  validateRegions()
+  validateBlocklist()
+  validateCategories()
+  validateCities()
+  validateCountries()
+  validateSubdivisions()
+  validateLanguages()
+  validateTimezones()
 
   if (totalErrors > 0) {
     console.log(chalk.red(`\r\n${totalErrors} error(s)`))
@@ -58,19 +42,20 @@ async function main() {
 
 main()
 
-function validateChannels(data: DataLoaderData) {
-  let errors = new Collection()
+function validateChannels() {
+  let errors = new Collection<ValidatorError>()
 
-  findDuplicatesBy(data.channels, ['id']).forEach((channel: Channel) => {
-    errors.add({
-      line: channel.getLine(),
-      message: `channel with id "${channel.id}" already exists`
-    })
-  })
+  findDuplicatesBy<Channel>(data.channels, (channel: Channel) => channel.id).forEach(
+    (channel: Channel) => {
+      errors.add({
+        line: channel.line,
+        message: `channel with id "${channel.id}" already exists`
+      })
+    }
+  )
 
-  const validator = new ChannelValidator({ data })
   data.channels.forEach((channel: Channel) => {
-    errors = errors.concat(validator.validate(channel))
+    errors = errors.concat(channel.validate())
   })
 
   if (errors.count()) displayErrors('channels.csv', errors)
@@ -78,19 +63,20 @@ function validateChannels(data: DataLoaderData) {
   totalErrors += errors.count()
 }
 
-function validateFeeds(data: DataLoaderData) {
-  let errors = new Collection()
+function validateFeeds() {
+  let errors = new Collection<ValidatorError>()
 
-  findDuplicatesBy(data.feeds, ['channelId', 'id']).forEach((feed: Feed) => {
+  findDuplicatesBy<Feed>(data.feeds, (feed: Feed) =>
+    `$${feed.channel}${feed.id}`.toLowerCase()
+  ).forEach((feed: Feed) => {
     errors.add({
-      line: feed.getLine(),
-      message: `feed with channel "${feed.channelId}" and id "${feed.id}" already exists`
+      line: feed.line,
+      message: `feed with channel "${feed.channel}" and id "${feed.id}" already exists`
     })
   })
 
-  const validator = new FeedValidator({ data })
   data.feeds.forEach((feed: Feed) => {
-    errors = errors.concat(validator.validate(feed))
+    errors = errors.concat(feed.validate())
   })
 
   if (errors.count()) displayErrors('feeds.csv', errors)
@@ -98,21 +84,22 @@ function validateFeeds(data: DataLoaderData) {
   totalErrors += errors.count()
 }
 
-function validateLogo(data: DataLoaderData) {
-  let errors = new Collection()
+function validateLogo() {
+  let errors = new Collection<ValidatorError>()
 
-  findDuplicatesBy(data.logos, ['channelId', 'feedId', 'url']).forEach((logo: Logo) => {
+  findDuplicatesBy<Logo>(data.logos, (logo: Logo) =>
+    `${logo.channel}${logo.feed}${logo.url}`.toLowerCase()
+  ).forEach((logo: Logo) => {
     errors.add({
-      line: logo.getLine(),
-      message: `logo with channelId "${logo.channelId}", feedId "${logo.feedId ?? ''}" and url "${
+      line: logo.line,
+      message: `logo with channel "${logo.channel}", feed "${logo.feed ?? ''}" and url "${
         logo.url
       }" already exists`
     })
   })
 
-  const validator = new LogoValidator({ data })
   data.logos.forEach((logo: Logo) => {
-    errors = errors.concat(validator.validate(logo))
+    errors = errors.concat(logo.validate())
   })
 
   if (errors.count()) displayErrors('logos.csv', errors)
@@ -120,19 +107,20 @@ function validateLogo(data: DataLoaderData) {
   totalErrors += errors.count()
 }
 
-function validateRegions(data: DataLoaderData) {
-  let errors = new Collection()
+function validateRegions() {
+  let errors = new Collection<ValidatorError>()
 
-  findDuplicatesBy(data.regions, ['code']).forEach((region: Region) => {
-    errors.add({
-      line: region.getLine(),
-      message: `region with code "${region.code}" already exists`
-    })
-  })
+  findDuplicatesBy<Region>(data.regions, (region: Region) => region.code.toLowerCase()).forEach(
+    (region: Region) => {
+      errors.add({
+        line: region.line,
+        message: `region with code "${region.code}" already exists`
+      })
+    }
+  )
 
-  const validator = new RegionValidator({ data })
   data.regions.forEach((region: Region) => {
-    errors = errors.concat(validator.validate(region))
+    errors = errors.concat(region.validate())
   })
 
   if (errors.count()) displayErrors('regions.csv', errors)
@@ -140,21 +128,20 @@ function validateRegions(data: DataLoaderData) {
   totalErrors += errors.count()
 }
 
-function validateBlocklist(data: DataLoaderData) {
-  let errors = new Collection()
+function validateBlocklist() {
+  let errors = new Collection<ValidatorError>()
 
-  findDuplicatesBy(data.blocklistRecords, ['channelId', 'ref']).forEach(
-    (blocklistRecord: BlocklistRecord) => {
-      errors.add({
-        line: blocklistRecord.getLine(),
-        message: `blocklist record with channel "${blocklistRecord.channelId}" and ref "${blocklistRecord.ref}" already exists`
-      })
-    }
-  )
+  findDuplicatesBy<BlocklistRecord>(data.blocklistRecords, (record: BlocklistRecord) =>
+    `${record.channel}${record.ref}`.toLowerCase()
+  ).forEach((record: BlocklistRecord) => {
+    errors.add({
+      line: record.line,
+      message: `blocklist record with channel "${record.channel}" and ref "${record.ref}" already exists`
+    })
+  })
 
-  const validator = new BlocklistRecordValidator({ data })
-  data.blocklistRecords.forEach((blocklistRecord: BlocklistRecord) => {
-    errors = errors.concat(validator.validate(blocklistRecord))
+  data.blocklistRecords.forEach((record: BlocklistRecord) => {
+    errors = errors.concat(record.validate())
   })
 
   if (errors.count()) displayErrors('blocklist.csv', errors)
@@ -162,19 +149,20 @@ function validateBlocklist(data: DataLoaderData) {
   totalErrors += errors.count()
 }
 
-function validateCategories(data: DataLoaderData) {
-  let errors = new Collection()
+function validateCategories() {
+  let errors = new Collection<ValidatorError>()
 
-  findDuplicatesBy(data.categories, ['id']).forEach((category: Category) => {
+  findDuplicatesBy<Category>(data.categories, (category: Category) =>
+    category.id.toLowerCase()
+  ).forEach((category: Category) => {
     errors.add({
-      line: category.getLine(),
+      line: category.line,
       message: `category with id "${category.id}" already exists`
     })
   })
 
-  const validator = new CategoryValidator({ data })
   data.categories.forEach((category: Category) => {
-    errors = errors.concat(validator.validate(category))
+    errors = errors.concat(category.validate())
   })
 
   if (errors.count()) displayErrors('categories.csv', errors)
@@ -182,19 +170,20 @@ function validateCategories(data: DataLoaderData) {
   totalErrors += errors.count()
 }
 
-function validateCountries(data: DataLoaderData) {
-  let errors = new Collection()
+function validateCountries() {
+  let errors = new Collection<ValidatorError>()
 
-  findDuplicatesBy(data.countries, ['code']).forEach((country: Country) => {
+  findDuplicatesBy<Country>(data.countries, (country: Country) =>
+    country.code.toLowerCase()
+  ).forEach((country: Country) => {
     errors.add({
-      line: country.getLine(),
+      line: country.line,
       message: `country with code "${country.code}" already exists`
     })
   })
 
-  const validator = new CountryValidator({ data })
   data.countries.forEach((country: Country) => {
-    errors = errors.concat(validator.validate(country))
+    errors = errors.concat(country.validate())
   })
 
   if (errors.count()) displayErrors('countries.csv', errors)
@@ -202,19 +191,20 @@ function validateCountries(data: DataLoaderData) {
   totalErrors += errors.count()
 }
 
-function validateSubdivisions(data: DataLoaderData) {
-  let errors = new Collection()
+function validateSubdivisions() {
+  let errors = new Collection<ValidatorError>()
 
-  findDuplicatesBy(data.subdivisions, ['code']).forEach((subdivision: Subdivision) => {
+  findDuplicatesBy<Subdivision>(data.subdivisions, (subdivision: Subdivision) =>
+    subdivision.code.toLowerCase()
+  ).forEach((subdivision: Subdivision) => {
     errors.add({
-      line: subdivision.getLine(),
+      line: subdivision.line,
       message: `subdivision with code "${subdivision.code}" already exists`
     })
   })
 
-  const validator = new SubdivisionValidator({ data })
   data.subdivisions.forEach((subdivision: Subdivision) => {
-    errors = errors.concat(validator.validate(subdivision))
+    errors = errors.concat(subdivision.validate())
   })
 
   if (errors.count()) displayErrors('subdivisions.csv', errors)
@@ -222,26 +212,29 @@ function validateSubdivisions(data: DataLoaderData) {
   totalErrors += errors.count()
 }
 
-function validateCities(data: DataLoaderData) {
-  let errors = new Collection()
+function validateCities() {
+  let errors = new Collection<ValidatorError>()
 
-  findDuplicatesBy(data.cities, ['code']).forEach((city: City) => {
-    errors.add({
-      line: city.getLine(),
-      message: `city with code "${city.code}" already exists`
-    })
-  })
+  findDuplicatesBy<City>(data.cities, (city: City) => city.code.toLowerCase()).forEach(
+    (city: City) => {
+      errors.add({
+        line: city.line,
+        message: `city with code "${city.code}" already exists`
+      })
+    }
+  )
 
-  findDuplicatesBy(data.cities, ['wikidataId']).forEach((city: City) => {
-    errors.add({
-      line: city.getLine(),
-      message: `city with wikidata_id "${city.wikidataId}" already exists`
-    })
-  })
+  findDuplicatesBy(data.cities, (city: City) => city.wikidata_id.toLowerCase()).forEach(
+    (city: City) => {
+      errors.add({
+        line: city.line,
+        message: `city with wikidata_id "${city.wikidata_id}" already exists`
+      })
+    }
+  )
 
-  const validator = new CityValidator({ data })
   data.cities.forEach((city: City) => {
-    errors = errors.concat(validator.validate(city))
+    errors = errors.concat(city.validate())
   })
 
   if (errors.count()) displayErrors('cities.csv', errors)
@@ -249,19 +242,20 @@ function validateCities(data: DataLoaderData) {
   totalErrors += errors.count()
 }
 
-function validateLanguages(data: DataLoaderData) {
-  let errors = new Collection()
+function validateLanguages() {
+  let errors = new Collection<ValidatorError>()
 
-  findDuplicatesBy(data.languages, ['code']).forEach((language: Language) => {
+  findDuplicatesBy<Language>(data.languages, (language: Language) =>
+    language.code.toLowerCase()
+  ).forEach((language: Language) => {
     errors.add({
-      line: language.getLine(),
+      line: language.line,
       message: `language with code "${language.code}" already exists`
     })
   })
 
-  const validator = new LanguageValidator({ data })
   data.languages.forEach((language: Language) => {
-    errors = errors.concat(validator.validate(language))
+    errors = errors.concat(language.validate())
   })
 
   if (errors.count()) displayErrors('languages.csv', errors)
@@ -269,47 +263,23 @@ function validateLanguages(data: DataLoaderData) {
   totalErrors += errors.count()
 }
 
-function validateTimezones(data: DataLoaderData) {
-  let errors = new Collection()
+function validateTimezones() {
+  let errors = new Collection<ValidatorError>()
 
-  findDuplicatesBy(data.timezones, ['id']).forEach((timezone: Timezone) => {
+  findDuplicatesBy<Timezone>(data.timezones, (timezone: Timezone) =>
+    timezone.id.toLowerCase()
+  ).forEach((timezone: Timezone) => {
     errors.add({
-      line: timezone.getLine(),
+      line: timezone.line,
       message: `timezone with id "${timezone.id}" already exists`
     })
   })
 
-  const validator = new TimezoneValidator({ data })
   data.timezones.forEach((timezone: Timezone) => {
-    errors = errors.concat(validator.validate(timezone))
+    errors = errors.concat(timezone.validate())
   })
 
   if (errors.count()) displayErrors('timezones.csv', errors)
 
   totalErrors += errors.count()
-}
-
-function findDuplicatesBy(items: Collection, keys: string[]) {
-  const duplicates = new Collection()
-  const buffer = new Dictionary()
-
-  items.forEach((item: { [key: string]: string | number }) => {
-    const normId = keys.map(key => (item[key] ?? '').toString().toLowerCase()).join()
-    if (buffer.has(normId)) {
-      duplicates.add(item)
-    }
-
-    buffer.set(normId, true)
-  })
-
-  return duplicates
-}
-
-function displayErrors(filepath: string, errors: Collection) {
-  console.log(`\r\n${chalk.underline(filepath)}`)
-
-  errors.forEach((error: ValidatorError) => {
-    const position = error.line.toString().padEnd(6, ' ')
-    console.log(` ${chalk.gray(position) + error.message}`)
-  })
 }

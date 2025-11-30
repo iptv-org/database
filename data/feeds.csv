@@ -964,6 +964,7 @@ AgapeTVNetwork.tz,SD,SD,,TRUE,c/TZ,Africa/Dar_es_Salaam,eng;swa,576i
 Agenda56TV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 AgendaAlDiaTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 AgendaMineraTV.bo,SD,SD,,TRUE,c/BO,America/Argentina/Mendoza,spa,480i
+AgendaNecochense.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 AghaniAghaniTV.lb,SD,SD,,TRUE,c/LB,Asia/Beirut,ara,576i
 AghapyKids.us,SD,SD,,TRUE,c/US,America/New_York,ara;eng,480i
 AghapyTV.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
@@ -1363,6 +1364,7 @@ AlpenlandTV.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,deu,576i
 AlpenWelleTV.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,deu,576i
 AlphaChannel.br,SD,SD,,TRUE,s/BR-SP,America/Sao_Paulo,por,480i
 AlphaChannel.sr,SD,SD,,TRUE,c/SR,America/Paramaribo,nld;eng,480i
+alphaCinema.ru,HD,HD,,TRUE,c/RU,Europe/Moscow,rus,1080p
 AlphaDigital.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
 AlphaetOmegaTV.ci,SD,SD,,TRUE,c/CI,Africa/Abidjan,fra,576i
 alphaFunny.ru,HD,HD,,TRUE,c/RU,Europe/Moscow,rus,1080p
@@ -4467,6 +4469,7 @@ Canal6Posadas.ar,SD,SD,,TRUE,ct/ARPSS,America/Argentina/Cordoba,spa,576i
 Canal6Tecpan.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 Canal6Tv.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 Canal6USA.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
+Canal6VientoRecio.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal70.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 Canal74SanAntonio.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 Canal79LaCosta.ar,SD,SD,,TRUE,ct/ARSST,America/Argentina/Buenos_Aires,spa,576i
@@ -29171,8 +29174,10 @@ StarSports1Telugu.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 StarSports2.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,eng;hin;tam;tel,1080i
 StarSports2.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin;tam;tel,576i
 StarSports2Hindi.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
+StarSports2Kannada.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin;eng,576i
+StarSports2Tamil.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
+StarSports2Telugu.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 StarSports3.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin;ben;mal,576i
-StarSportsFirst.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin;eng,576i
 StarSportsSelect1.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,eng,1080i
 StarSportsSelect1.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 StarSportsSelect2.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,eng,1080i
@@ -30635,6 +30640,7 @@ TelePluriel.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
 TelePlus.mu,SD,SD,,TRUE,c/MU,Indian/Mauritius,fra;mfe,576i
 TelePordenone.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 TelePortalCanal531.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
+TelePosadas.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 TelepremierPlus.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 TeleProgreso.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 TeleProyectoTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
@@ -32422,6 +32428,7 @@ TVC.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 TVC.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 TVC.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 TVC21.md,SD,SD,,TRUE,c/MD,Europe/Chisinau,ron;rus,576i
+TVC5.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 TVC9.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
 TVCa.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,480i
 TVCaboBranco.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
@@ -33820,6 +33827,7 @@ UN24.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 UNABTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 UnafricaTV.bj,SD,SD,,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 UNAHUTV.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
+UNaMTV.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 UnareTV.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 UNATV.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 Unbeaten.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i

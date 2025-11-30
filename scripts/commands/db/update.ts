@@ -229,7 +229,10 @@ async function addChannel(issue: Issue) {
   })
   data.logos.add(newLogo)
 
-  const errors = newChannel.validate()
+  const errors = new Collection<ValidatorError>()
+  errors.concat(newFeed.validate())
+  errors.concat(newLogo.validate())
+  errors.concat(newChannel.validate())
   if (errors.isNotEmpty()) {
     errors.forEach((err: ValidatorError) => {
       log.error(err.message)

@@ -60,7 +60,7 @@ export class Feed extends sdk.Models.Feed implements Validator {
     if (data.languages !== undefined) this.languages = data.languages
     if (data.format !== undefined) this.format = data.format
 
-    let newFeedName = issueData.getString('feed_name')
+    const newFeedName = issueData.getString('feed_name')
     if (newFeedName) {
       this.id = createFeedId(newFeedName)
     }

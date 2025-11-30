@@ -1,11 +1,9 @@
 import { Validator, ValidatorError } from '../types/validator'
-import { Collection, Dictionary } from '@freearhey/core'
 import { IssueData } from '../models/issueData'
+import { Collection } from '@freearhey/core'
 import { CSVRow } from '../types/utils'
 import * as sdk from '@iptv-org/sdk'
-import { Channel } from './channel'
 import { data } from '../core/db'
-import { Feed } from './feed'
 import Joi from 'joi'
 
 export class Logo extends sdk.Models.Logo implements Validator {

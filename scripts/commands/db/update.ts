@@ -426,6 +426,12 @@ async function editFeed(issue: Issue) {
     (feed: Feed) => feed.channel === channelId && feed.id === feedId
   )
 
+  if (!feed) {
+    log.error(`Feed with id "${feedId}" and channel "${channelId}" not found`)
+    skippedIssues.add(issue)
+    return
+  }
+
   const isMain = feed.is_main
 
   cacheData()

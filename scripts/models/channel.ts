@@ -57,7 +57,7 @@ export class Channel extends sdk.Models.Channel implements Validator {
 
     if (data.channel_name !== undefined) this.name = data.channel_name
     if (data.alt_names !== undefined) this.alt_names = data.alt_names
-    if (data.network !== undefined) this.network = data.network
+    if (data.network !== undefined) this.network = data.network || null
     if (data.owners !== undefined) this.owners = data.owners
     if (data.country !== undefined) this.country = data.country
     if (data.categories !== undefined) this.categories = data.categories
@@ -65,7 +65,7 @@ export class Channel extends sdk.Models.Channel implements Validator {
     if (data.launched !== undefined) this.launched = data.launched || null
     if (data.closed !== undefined) this.closed = data.closed || null
     if (data.replaced_by !== undefined) this.replaced_by = data.replaced_by || null
-    if (data.website !== undefined) this.website = data.website
+    if (data.website !== undefined) this.website = data.website || null
 
     let channelName = issueData.getString('channel_name')
     let country = issueData.getString('country')

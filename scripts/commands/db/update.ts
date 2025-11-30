@@ -229,7 +229,10 @@ async function addChannel(issue: Issue) {
   })
   data.logos.add(newLogo)
 
-  const errors = newChannel.validate()
+  const errors = new Collection<ValidatorError>()
+  errors.concat(newFeed.validate())
+  errors.concat(newLogo.validate())
+  errors.concat(newChannel.validate())
   if (errors.isNotEmpty()) {
     errors.forEach((err: ValidatorError) => {
       log.error(err.message)
@@ -422,6 +425,12 @@ async function editFeed(issue: Issue) {
   const feed: Feed = data.feeds.first(
     (feed: Feed) => feed.channel === channelId && feed.id === feedId
   )
+
+  if (!feed) {
+    log.error(`Feed with id "${feedId}" and channel "${channelId}" not found`)
+    skippedIssues.add(issue)
+    return
+  }
 
   const isMain = feed.is_main
 

@@ -1,10 +1,10 @@
+import { Validator, ValidatorError } from '../types/validator'
 import { Collection, Dictionary } from '@freearhey/core'
 import { CSVRow } from '../types/utils'
 import * as sdk from '@iptv-org/sdk'
 import { Channel } from './channel'
-import Joi from 'joi'
-import { Validator, ValidatorError } from '../types/validator'
 import { data } from '../core/db'
+import Joi from 'joi'
 
 export class BlocklistRecord extends sdk.Models.BlocklistRecord implements Validator {
   line: number = -1

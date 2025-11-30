@@ -1,5 +1,5 @@
-import { Dictionary, Collection } from '@freearhey/core'
 import { parseCSV, displayErrors, convertToCSV } from '../core/utils'
+import { Dictionary, Collection } from '@freearhey/core'
 import { Storage, File } from '@freearhey/storage-js'
 import { ValidatorError } from '../types/validator'
 import { DatabaseData } from '../types/db'

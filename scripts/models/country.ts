@@ -1,10 +1,9 @@
+import { Validator, ValidatorError } from '../types/validator'
 import { Collection, Dictionary } from '@freearhey/core'
 import { CSVRow } from '../types/utils'
 import { Language } from './language'
 import * as sdk from '@iptv-org/sdk'
 import Joi from 'joi'
-import { Validator } from '../validators/validator'
-import { ValidatorError } from '../types/validator'
 import { data } from '../core/db'
 
 export class Country extends sdk.Models.Country implements Validator {

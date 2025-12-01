@@ -10116,7 +10116,7 @@ France2.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 France24.fr,Arabic,Arabic,,FALSE,r/ARAB;r/MAGHREB,Europe/Paris,ara,576i
 France24.fr,English,English,,FALSE,r/AMER;r/EMEA;r/APAC,Europe/Paris,eng,576i
 France24.fr,EnglishHD,English HD,,FALSE,r/AMER;r/EMEA;r/APAC,Europe/Paris,eng,1080i
-France24.fr,French,French,,TRUE,c/FR,Europe/Paris,fra,576i
+France24.fr,French,French,Français,TRUE,c/FR;c/PF;r/AFR;r/ASIA;r/AMER;r/EUR;r/OCE,Europe/Paris,fra,576i
 France24.fr,FrenchHD,French HD,,FALSE,c/FR,Europe/Paris,fra,1080i
 France24.fr,Spanish,Spanish,,FALSE,r/HISPAM;c/ES,America/Bogota,spa,576i
 France3.fr,Alpes,Alpes,,FALSE,c/FR,Europe/Paris,fra,576i
@@ -28683,6 +28683,11 @@ SonyMaxUS.us,SD,SD,,TRUE,c/US,America/New_York,hin;eng,480i
 SonyMix.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 SonyMovies.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 SonyMoviesLatinAmerica.us,SD,SD,,TRUE,r/LATAM,America/New_York,spa,480i
+SonyOneBlacklist.fr,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080p
+SonyOneHitsAction.fr,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080p
+SonyOneHitsComedie.fr,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080p
+SonyOneHitsFavori.fr,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080p
+SonyOneSeriesThriller.fr,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080p
 SonyPal.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 SonyPix.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin;tam;tel,576i
 SonyPixSouthAsia.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i

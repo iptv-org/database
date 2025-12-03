@@ -1619,7 +1619,8 @@ AndishehTV.us,SD,SD,,TRUE,c/US,America/New_York,fas,480i
 AndorraTV.ad,SD,SD,,TRUE,c/AD,Europe/Andorra,cat,576i
 AndoTV.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 AndoverTV.us,SD,SD,,TRUE,ct/USANR,America/New_York,eng,480i
-Andpictures.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+Andpictures.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,hin,1080p
+Andpictures.in,SD,SD,,FALSE,c/IN,Asia/Kolkata,hin,576i
 AndpriveHD.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 Andromeda.us,Italy,Italy,,FALSE,c/IT,Europe/Rome,ita,576i
 Andromeda.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
@@ -6744,9 +6745,9 @@ ComedyCentral.at,SD,SD,,TRUE,c/AT,Europe/Vienna,deu,576i
 ComedyCentral.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 ComedyCentral.ch,HD,HD,,FALSE,c/CH,Europe/Berlin,deu,1080i
 ComedyCentral.ch,SD,SD,,TRUE,c/CH,Europe/Madrid,deu,576i
-ComedyCentral.de,HD,HD,,FALSE,c/DE;c/AT;c/CH;c/FR,Europe/Berlin,deu,1080i
-ComedyCentral.de,Plus1,+1,,FALSE,c/DE;c/AT;c/CH;c/FR,Europe/Berlin,deu,576i
-ComedyCentral.de,SD,SD,,TRUE,c/DE;c/AT;c/CH;c/FR,Europe/Berlin,deu,576i
+ComedyCentral.de,HD,HD,,FALSE,c/DE;c/AT;c/CH,Europe/Berlin,deu,1080i
+ComedyCentral.de,Plus1,+1,,FALSE,c/DE;c/AT;c/CH,Europe/Berlin,deu,576i
+ComedyCentral.de,SD,SD,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,576i
 ComedyCentral.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 ComedyCentral.fr,SD,SD,,TRUE,c/FR;c/CH;c/BE,Europe/Madrid,fra,576i
 ComedyCentral.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,eng,576i
@@ -9740,6 +9741,7 @@ FIFAPlus.uk,Italy,Italy,,FALSE,c/IT;c/VA;c/SM,Europe/Rome,ita,576i
 FIFAPlus.uk,Portuguese,Portuguese,Brasil,FALSE,c/BR;c/PT,America/Sao_Paulo;Europe/Lisbon,por,720p
 FIFAPlus.uk,Spain,Spain,,FALSE,c/ES;r/EUR,Europe/Madrid,spa,576i
 FIFAPlus.uk,UnitedStates,United States,USA,FALSE,c/US;c/CA,America/New_York,eng,576i
+FIFAPlusWomen.uk,English,English,,TRUE,c/UK;r/EUR,Europe/London,eng,720p
 FifthGear.us,UK,UK,,TRUE,c/UK,Europe/London,eng,576i
 Fight.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 FightBox.nl,HD,HD,,FALSE,r/EUR;r/MENA;r/SSA;r/ASIA,Europe/Amsterdam,eng,1080i
@@ -23455,7 +23457,7 @@ OplotTV.ru,SD,SD,,TRUE,s/UA-14,Europe/Kyiv,rus,576i
 OPMTV.jm,SD,SD,,TRUE,c/JM,America/Jamaica,eng,576i
 OPMTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 OPMTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
-OppnaKanalen.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+OppnaKanalenStockholm.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 OptusSport1.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 OptusSport10.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 OptusSport11.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
@@ -24223,6 +24225,7 @@ PinkX.fr,HD,HD,,FALSE,c/FR,Europe/Paris,fra,1080i
 PinkX.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 PinkZabava.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 PinoleroTV.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,576i
+PinoTV.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol;eng,1080p
 PinoyBoxOfficeGlobal.ph,SD,SD,,TRUE,c/PH,Asia/Manila,tgl,480i
 PinoyHits.ph,SD,SD,,TRUE,c/PH,Asia/Manila,fil;eng,480i
 PinoyXtremeChannel.ph,SD,SD,,TRUE,c/PH,Asia/Manila,tgl,480i
@@ -27192,7 +27195,7 @@ SanIsidroTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 SanjhaPunjab.ca,SD,SD,,TRUE,c/CA,America/Toronto,pan,480i
 SanJoseTV.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,480i
 SanjuaneraTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
-SankaraTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kan,576i
+SankaraTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kan;tam,576i
 SankhyaTV.tt,SD,SD,,TRUE,c/TT,America/Port_of_Spain,eng,480i
 SankofaTV.us,SD,SD,,TRUE,c/US;c/GH,America/New_York,eng,480i
 SanktPeterburg.ru,SD,SD,,TRUE,s/RU-SPE,Europe/Moscow,rus,576i
@@ -40991,7 +40994,7 @@ ZeeAlwan.ae,SD,SD,,TRUE,r/ARAB,Asia/Dubai,ara,576i
 ZeeBangla.in,SD,SD,,TRUE,c/IN;c/BD,Asia/Kolkata,ben,576i
 ZeeBanglaCinema.in,SD,SD,,TRUE,c/IN;c/BD,Asia/Kolkata,ben,576i
 ZeeBanglaSonar.in,SD,SD,,TRUE,c/IN;c/BD,Asia/Kolkata,ben,576i
-ZeeBharat.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin;tam;tel,576i
+ZeeBharat.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 ZeeBiharJharkhand.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,bho,576i
 ZeeBioskop.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 ZeeBiskope.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,bho,576i
@@ -41155,6 +41158,7 @@ ZondaTV.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 ZoneThree6.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 Zoom.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 Zoom.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,heb,576i
+Zoom.in,Global,Global,,FALSE,c/IN;r/AFR;r/ASIA;r/AMER;r/EUR;r/OCE,Asia/Kolkata,hin,576i
 Zoom.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 Zoom.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 ZoomEcoTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i

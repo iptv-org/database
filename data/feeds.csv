@@ -507,7 +507,7 @@ AAVISIE.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 AB1.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 AB3.be,HD,HD,,FALSE,c/BE,Europe/Brussels,fra,1080i
 AB3.be,SD,SD,,TRUE,c/BE,Europe/Brussels,fra,576i
-AbadanTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas;ara,576i
+AbadanTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 AbaiTV.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz,576i
 AbajoeLaLineaTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 AbalfadhlTV.ir,SD,SD,,TRUE,c/IR;c/IQ,Asia/Tehran,fas,576i
@@ -1320,7 +1320,7 @@ AlmagdTVNorthAmerica.us,SD,SD,,TRUE,c/US,America/New_York,ara;eng,480i
 AlmagharibiaTV.uk,SD,SD,,TRUE,c/UK;c/DZ,America/Toronto,ara,576i
 AlMaghribia.ma,SD,SD,,TRUE,c/MA,Africa/Casablanca,ara,576i
 AlmahaliyaTV.sy,SD,SD,,TRUE,c/SY,Asia/Damascus,ara,576i
-AlMahdiTV.us,SD,SD,,TRUE,c/US,America/New_York,ara,480i
+AlMahdiTV.us,SD,SD,,TRUE,c/US,America/New_York,fas,480i
 AlMahrahTV.ye,SD,SD,,TRUE,c/YE,Asia/Aden,ara,576i
 AlmahriahTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,ara,576i
 AlMajdAlHadeethAlNabawy.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,ara,576i
@@ -4277,7 +4277,6 @@ Canal20Corinto.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,576i
 Canal20MasterCableVision.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,576i
 Canal20Pacasmayo.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,576i
 Canal20VillaMaria.ar,SD,SD,,TRUE,ct/ARVMR,America/Argentina/Cordoba,spa,576i
-Canal21.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 Canal21.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,480i
 Canal21CableCaribe.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,576i
 Canal21Chignahuapan.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
@@ -7166,6 +7165,7 @@ CulturaPara.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 CulturePlus242TV.cg,SD,SD,,TRUE,c/CG,Africa/Brazzaville,fra,576i
 Cum4k.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 CumaralTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
+CumbiaMix.ar,HD,HD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,720p
 CumbiaTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 CumbreTelevision.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,576i
 CumoTV.pe,SD,SD,,TRUE,ct/PEMBP,America/Lima,spa,480i
@@ -11189,13 +11189,13 @@ HabibTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,ara;fas,576i
 Habitat.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 HadhramautTV.ye,SD,SD,,TRUE,c/YE,Asia/Aden,ara,576i
 HadiTV.uk,SD,SD,,TRUE,c/UK,Europe/London,ara,576i
-HadiTV1.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,eng,576i
-HadiTV2.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,ara;eng,576i
-HadiTV3.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,ara,576i
-HadiTV4.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,far,576i
-HadiTV5.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,ara,576i
-HadiTV6.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,ara,576i
-HadiTV7.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,ara;tur,576i
+HadiTV1.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,eng;urd,576i
+HadiTV2.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,ind;tha,576i
+HadiTV3.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,rus;aze,576i
+HadiTV4.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,fas,576i
+HadiTV5.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,hau;fra,576i
+HadiTV6.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,prs;pus,576i
+HadiTV7.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,tur,576i
 HadiyaTV.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 HagerieTV.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 HagerieTV.us,SD,SD,,TRUE,c/US,America/New_York,amh,480i
@@ -11988,6 +11988,7 @@ HTTV.us,SD,SD,,TRUE,ct/USUYX,America/New_York,eng,480i
 HTV.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 HTV.cm,SD,SD,,TRUE,c/CM,Africa/Douala,fra,576i
 HTV.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
+HTV.ua,HD,HD,,TRUE,c/UA,Europe/Kyiv,ukr,1080p
 HTV.us,SD,SD,,TRUE,r/HISPAM,America/New_York,spa,480i
 HTV1.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 HTV1HoustonTelevision.us,SD,SD,,TRUE,c/US,America/Chicago,eng,480i
@@ -19080,6 +19081,7 @@ LadySeries.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 LaExitosaTVRiberalta.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 LaF.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 LaFabricaTV.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
+LaFabulosaTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,720p
 Laff.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 LaFuenteStereoTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 LagosTelevision.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
@@ -27983,7 +27985,6 @@ SirasaTV.lk,SD,SD,,TRUE,c/LK,Asia/Colombo,sin,576i
 SirdaryoMTRK.uz,SD,SD,,TRUE,c/UZ,Asia/Tashkent,uzb,576i
 SiriKannada.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kan,576i
 SirinaTV.gr,SD,SD,,TRUE,c/GR,Europe/Athens,ell,576i
-Sirippoli.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
 SirippoliTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
 SirisTV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 SisalTV1.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i

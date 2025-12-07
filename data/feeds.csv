@@ -4321,7 +4321,7 @@ Canal26TVIAP.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,480i
 Canal27.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 Canal28.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 Canal28MasterVisiondelNorte.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
-Canal29.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
+Canal29.br,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 Canal29Apopa.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,576i
 Canal29Ensenada.ar,SD,SD,,TRUE,ct/AREEA,America/Tijuana,spa,576i
 Canal29Monclova.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
@@ -30469,12 +30469,13 @@ Telealacarte6.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
 Telealtura.do,SD,SD,,TRUE,s/DO-13,America/Santo_Domingo,spa,480i
 TeleAmalfi.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 TeleAmaniY.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra;hat,480i
-Teleamazonas.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
+Teleamazonas.ec,Guayaquil,Guayaquil,,FALSE,c/EC,America/Guayaquil,spa,576i
+Teleamazonas.ec,Quito,Quito,,TRUE,c/EC,America/Guayaquil,spa,480i
 Teleamazonas.pe,SD,SD,,TRUE,ct/PECHH,America/Lima,spa,480i
 TeleAmbienteTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 TeleAmiga.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 TeleAmistad.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,480i
-TeleAndina.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
+TeleAndinaCanal23.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 Teleangol.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 TeleAntillas.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 TeleAntilles.fr,SD,SD,,TRUE,c/FR;c/GP;c/MQ;c/GF;c/HT,Europe/Paris,fra,576i

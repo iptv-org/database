@@ -2080,7 +2080,7 @@ ATNSikhChannel.ca,ATN Sikh Channel,,,Asian Television Network,CA,,FALSE,,,,http:
 ATNSony.ca,ATN Sony,,,Asian Television Network,CA,,FALSE,,,,http://www.asiantelevision.com/channel/atn-sony
 ATNSonyAath.ca,ATN Sony Aath,,,Asian Television Network,CA,,FALSE,,,,http://asiantelevision.com/channel/atn-sony-aath
 ATNTamilPlus.ca,ATN Tamil Plus,,,Asian Television Network,CA,,FALSE,,,,http://asiantelevision.com/channel/atn-tamil-plus
-ATNTelevision.co,ATN Television,ATN Televisión,,ATN Television,CO,general,FALSE,,,,https://atntelevision.co/en-vivo/
+ATNTelevision.co,ATN Television,ATN Televisión,,ATN Television,CO,general,FALSE,2007-08-27,,,https://atntelevision.co/
 ATNTimesNow.ca,ATN Times Now,,,Asian Television Network,CA,,FALSE,2011-02-17,,,http://asiantelevision.com/channel/atn-times-now
 ATNUrdu.ca,ATN Urdu,,,Asian Television Network,CA,,FALSE,2004-05-08,,,http://asiantelevision.com/channel/atn-urdu
 ATNUS.af,ATN US,Ariana TV US,Ariana Television Network,Ehsan Bayat,AF,,FALSE,,,,
@@ -4198,7 +4198,6 @@ CanalMotor.no,Canal Motor,,,,NO,auto,FALSE,,,,https://www.canalmotor.me/
 CANALMTelevision.pe,CANAL M Television,CANAL M Televisión,,,PE,general,FALSE,,,,
 CanalMultivisao.ao,Canal Multivisao,Canal Multivisão,,,AO,general,FALSE,,,,https://multivisao.ao/
 CanalMultivision.do,Canal Multivision,Canal Multivisión,,,DO,general,FALSE,,,,https://canalmultivision.com/
-CanalMundoPlus.co,Canal Mundo+,Mundo+,CO-ANT,,CO,general,FALSE,,,,http://www.mundomas.tv/senal-en-vivo/
 CanalMundoTV.cl,Canal Mundo TV,,,Mundo GO!,CL,general,FALSE,,,,https://www.tumundo.cl/mundo-go/
 CanalMundoVision.co,Canal Mundo Vision,Canal Mundo Visión,,,CO,general,FALSE,,,,https://www.canalmundovision.com/
 CanalN.pe,Canal N,,,Plural TV,PE,news,FALSE,1999-07-04,,,https://canaln.pe/
@@ -7783,6 +7782,7 @@ ElevenSportsUSA.us,Eleven Sports USA,,,Andrea Radrizzani,US,sports,FALSE,,2023-0
 ElFadjerTV.dz,El Fadjer TV,قناة الفجر,,Chikh Ibn Chanfara,DZ,general,FALSE,2015-10-11,,,http://www.elfadjr.dz.tv/
 ElFinancieroBloombergTV.mx,El Financiero Bloomberg TV,,,,MX,business,FALSE,,,,https://www.elfinanciero.com.mx/tv/
 ElFuturoentumano.es,El Futuro en tu mano,,,,ES,religious,FALSE,,,,https://elfuturoentumano.com/
+ElGenCaribe.co,El Gen Caribe,,,,CO,news,FALSE,,,,https://elgencaribe.com/
 ElGourmet.ar,El Gourmet,,,AMC Networks International,AR,cooking,FALSE,,,,http://elgourmet.com/
 elhashtagTV.cl,elhashtag TV,,,,CL,entertainment,FALSE,,,,https://elhashtag.cl/
 ElHayatTV.dz,El Hayat TV,قناة الحياة,,Hannachi Habet,DZ,general,FALSE,2018-05-16,,,https://elhayat.dz/
@@ -18923,7 +18923,7 @@ MBCMasr.eg,MBC Masr,إم بي سي مصر,,MBC Group,EG,general,FALSE,2012-10-16
 MBCMasr2.eg,MBC Masr 2,إم بي سي مصر 2,,MBC Group,EG,general,FALSE,2014-10-25,,,http://www.mbc.net/ar/mbc-maser.html
 MBCMasrDrama.sa,MBC Masr Drama,إم بي سي مصر دراما,,MBC Group,SA,series,FALSE,,,,https://www.mbc.net/
 MBCMasrUSA.us,MBC Masr USA,,,MBC Group,US,general,FALSE,,,,http://www.mbc.net/ar/mbc-maser.html
-MBCMax.ae,MBC Max,,,MBC Group,AE,movies,FALSE,2008-10-26,,,https://www.mbc.net/pages/mbc-max/
+MBCMax.sa,MBC Max,,,MBC Group,SA,movies,FALSE,2008-10-26,,,https://www.mbc.net/pages/mbc-max/
 MBCNet.kr,MBC Net,,,MBC Group,KR,,FALSE,2007-01-12,,,http://www.mbcnet.co.kr/
 MBCNews.kr,MBC News,,MBC,Munhwa Broadcasting Corp.,KR,news,FALSE,,,,
 MBCOn.kr,MBC On,,,,KR,,FALSE,2019-02-18,,,http://imbc.com/
@@ -19943,7 +19943,7 @@ MunchenTV.de,Munchen TV,München TV,,Munich Live TV Fernsehen GmbH Co KG,DE,gene
 MundodelaMusica.cl,Mundo de la Musica,Mundo de la Música,,,CL,music,FALSE,,,,https://mundodelamusicachile.cl/
 MundoFox.us,MundoFox,,,,US,,FALSE,2012-08-13,2016-11-30,,http://www.mundomax.com/
 MundoGeek.us,Mundo Geek,,,,US,,FALSE,,,,https://pluto.tv/en/live-tv/mundo-geek
-MundoMas.co,Mundo Mas,Canal Mundo+,,,CO,general,FALSE,,,,https://www.mundomas.com.co/
+MundoMas.co,Mundo Mas,Mundo Más;Canal Mundo+,,,CO,general,FALSE,,,,https://www.mundomas.com.co/
 MundoNauticaTV.es,Mundo Nautica TV,Mundo Náutica TV,,,ES,sports,FALSE,,,,https://mundonautica.tv/
 MundoParanormal.us,Mundo Paranormal,,,,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/mundo-paranormal
 MundoViajero.us,Mundo Viajero,,,,US,culture,FALSE,,,,https://pluto.tv/en/live-tv/mundo-viajero
@@ -21565,7 +21565,7 @@ OANEncore.us,OAN Encore,,,Herring Networks,US,news,FALSE,,,,https://www.oann.com
 OANPlus.us,OAN Plus,,Pluto TV,,US,news,FALSE,,,,https://pluto.tv/en/live-tv/oan-plus
 OasisRTV.pe,Oasis RTV,,,,PE,general,FALSE,,,,http://oasisrtv.com/
 OasisTelevision.ve,Oasis Television,Oasis Televisión,,,VE,general,FALSE,,,,http://oasistelevision.com
-OasisTV.co,Oasis TV,,,,CO,,FALSE,,,,http://canaloasis.com/
+OasisTV.co,Oasis TV,,,,CO,religious,FALSE,,,,http://canaloasis.com/
 OBECTV1.th,OBEC TV 1,,,Office of the Basic Education Commission,TH,education,FALSE,,,,http://www.obectv.tv/
 ObediraTV.py,Obedira TV,,,,PY,religious,FALSE,,,,https://www.obedira.com.py/page/obediratv/
 Obektiv59.ru,Obektiv 59,Объектив 59,,,RU,general,FALSE,1998-05-01,2024-02-01,,http://www.obectiv.wallst.ru/
@@ -27574,7 +27574,7 @@ SupremeMasterTV.tw,Supreme Master TV,,,,TW,,FALSE,,,,http://suprememastertv.com/
 SupremeTV.lk,Supreme TV,,,Supreme Global Holdings,LK,,FALSE,2019-12-19,,,https://www.supremetv.lk/
 SupremeTV.sr,Supreme TV,,,,SR,general,FALSE,,,,
 SurabayaTV.id,Surabaya TV,,Indonesia Network,,ID,,FALSE,2007-05-31,,,http://surabayatv.tv/
-SuramTV.co,Suram TV,,,,CO,,FALSE,,,,https://www.suram.com.co/
+SuramTV.co,Suram TV,,,,CO,general,FALSE,,,,https://www.suram.com.co/
 SurauTV.id,Surau TV,,,,ID,,FALSE,,,,https://surautv.id/
 SurcolombianaTV.co,Surcolombiana TV,,,,CO,general,FALSE,,,,
 Surebet247HorseRacing.ng,Surebet 247 Horse Racing,,,,NG,sports,FALSE,,,,https://www.surebet247.com/

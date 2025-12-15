@@ -2403,7 +2403,6 @@ ATV.at,SD,SD,,TRUE,c/AT,Europe/Vienna,deu,576i
 ATV.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,bos,576i
 ATV.be,HD,HD,,FALSE,s/BE-VAN,Europe/Brussels,nld,1080i
 ATV.be,SD,SD,,TRUE,s/BE-VAN,Europe/Brussels,nld,576i
-ATV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 ATV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 ATV.gn,SD,SD,,TRUE,c/GN,Africa/Conakry,fra,576i
 ATV.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
@@ -2427,6 +2426,7 @@ ATVArgentina.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 ATVAvrupa.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 ATVBazmocTV.am,SD,SD,,TRUE,c/AM,Asia/Yerevan,hye,576i
 ATVChannel.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
+ATVColombia.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 ATVFilmzone.am,SD,SD,,TRUE,c/AM,Asia/Yerevan,hye,576i
 ATVHayTV.am,SD,SD,,TRUE,c/AM,Asia/Yerevan,hye,576i
 ATVHome.hk,SD,SD,,TRUE,c/HK,Asia/Hong_Kong,zho,576i
@@ -27288,6 +27288,7 @@ SanPedroTV.ar,SD,SD,,TRUE,ct/ARSNP,America/Argentina/Jujuy,spa,576i
 SanPedroTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 SanPorto.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 SansadTV1.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin;eng,576i
+SansadTV2.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,hin;eng,1080p
 SanshaTV.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 SanskarTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 SanskarUK.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -32412,7 +32413,7 @@ TVA7Plus.br,SD,SD,,TRUE,ct/BRCLV,America/Sao_Paulo,por,480i
 TVAAbitibiTemiscamingue.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
 TVAarhus.dk,SD,SD,,TRUE,c/DK,Europe/Copenhagen,dan,576i
 TVAAvand.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
-TVABC.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
+TVABCPalmira.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 TVAberta.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 TVABourse.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 TVAccao.mz,SD,SD,,TRUE,c/MZ,Africa/Maputo,por,576i

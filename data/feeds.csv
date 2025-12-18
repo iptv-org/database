@@ -4583,7 +4583,6 @@ Canal8ValledeUco.ar,SD,SD,,TRUE,s/AR-M,America/Argentina/Buenos_Aires,spa,576i
 Canal8VisionCruz.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 Canal8VisionTV.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
 Canal9.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
-Canal9.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 Canal9.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,480i
 Canal9.dk,SD,SD,,TRUE,c/DK,Europe/Copenhagen,dan,576i
 Canal9.es,SD,SD,,TRUE,s/ES-CL,Europe/Madrid,spa,576i
@@ -4596,6 +4595,7 @@ Canal9Chalatenango.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,576i
 Canal9Chinandega.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,480i
 Canal9ComodoroRivadavia.ar,SD,SD,,TRUE,ct/ARCRD,America/Argentina/Catamarca,spa,576i
 Canal9CongresodelaRepublica.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
+Canal9Cosespu.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 Canal9deCoatevision.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,576i
 Canal9LaRioja.ar,SD,SD,,TRUE,ct/ARIRJ,America/Argentina/La_Rioja,spa,576i
 Canal9LaUnion.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,576i
@@ -31493,6 +31493,7 @@ TLC.de,HD,HD,,FALSE,c/DE,Europe/Berlin,deu,1080i
 TLC.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 TLC.dk,SD,SD,,TRUE,c/DK,Europe/Copenhagen,dan,576i
 TLC.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
+TLC.fr,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080p
 TLC.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun;eng,576i
 TLC.ie,SD,SD,,TRUE,c/IE,Europe/Dublin,eng,576i
 TLC.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin,576i
@@ -33195,7 +33196,7 @@ TVMnewsPlus.mt,SD,SD,,TRUE,c/MT,Europe/Malta,mlt,576i
 TVModelo.br,SD,SD,,TRUE,ct/BRCAS,America/Belem,por,720p
 TVModum.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 TVMohelnice.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
-TVMojanaCanal4.co,SD,SD,,TRUE,c/CO,America/Guatemala,spa,480i
+TVMojanaCanal4.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 TVMoldava.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 TVMon.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 TVMonaco.mc,SD,SD,,TRUE,c/MC;c/FR,Europe/Paris,fra,576i

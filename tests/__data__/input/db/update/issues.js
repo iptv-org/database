@@ -2386,5 +2386,98 @@ module.exports = [
     timeline_url: 'https://api.github.com/repos/iptv-org/database/issues/23089/timeline',
     performed_via_github_app: null,
     state_reason: null
+  },
+  {
+    url: 'https://api.github.com/repos/iptv-org/database/issues/23575',
+    repository_url: 'https://api.github.com/repos/iptv-org/database',
+    labels_url: 'https://api.github.com/repos/iptv-org/database/issues/23575/labels{/name}',
+    comments_url: 'https://api.github.com/repos/iptv-org/database/issues/23575/comments',
+    events_url: 'https://api.github.com/repos/iptv-org/database/issues/23575/events',
+    html_url: 'https://github.com/iptv-org/database/issues/23575',
+    id: 3725266787,
+    node_id: 'I_kwDOG1Kwp87eCw9j',
+    number: 23575,
+    title: 'Edit: Iberalia TV',
+    user: {
+      login: 'Archrootsda',
+      id: 208847719,
+      node_id: 'U_kgDODHLDZw',
+      avatar_url: 'https://avatars.githubusercontent.com/u/208847719?v=4',
+      gravatar_id: '',
+      url: 'https://api.github.com/users/Archrootsda',
+      html_url: 'https://github.com/Archrootsda',
+      followers_url: 'https://api.github.com/users/Archrootsda/followers',
+      following_url: 'https://api.github.com/users/Archrootsda/following{/other_user}',
+      gists_url: 'https://api.github.com/users/Archrootsda/gists{/gist_id}',
+      starred_url: 'https://api.github.com/users/Archrootsda/starred{/owner}{/repo}',
+      subscriptions_url: 'https://api.github.com/users/Archrootsda/subscriptions',
+      organizations_url: 'https://api.github.com/users/Archrootsda/orgs',
+      repos_url: 'https://api.github.com/users/Archrootsda/repos',
+      events_url: 'https://api.github.com/users/Archrootsda/events{/privacy}',
+      received_events_url: 'https://api.github.com/users/Archrootsda/received_events',
+      type: 'User',
+      user_view_type: 'public',
+      site_admin: false
+    },
+    labels: [
+      {
+        id: 5303574335,
+        node_id: 'LA_kwDOG1Kwp88AAAABPB4fPw',
+        url: 'https://api.github.com/repos/iptv-org/database/labels/channels:edit',
+        name: 'channels:edit',
+        color: 'D50289',
+        default: false,
+        description: 'Request to edit channel description'
+      },
+      {
+        id: 5366738347,
+        node_id: 'LA_kwDOG1Kwp88AAAABP-Htqw',
+        url: 'https://api.github.com/repos/iptv-org/database/labels/approved',
+        name: 'approved',
+        color: '85DDDE',
+        default: false,
+        description: ''
+      }
+    ],
+    state: 'open',
+    locked: false,
+    assignee: null,
+    assignees: [],
+    milestone: null,
+    comments: 0,
+    created_at: '2025-12-13T01:09:36Z',
+    updated_at: '2025-12-20T18:10:32Z',
+    closed_at: null,
+    author_association: 'COLLABORATOR',
+    type: null,
+    active_lock_reason: null,
+    sub_issues_summary: {
+      total: 0,
+      completed: 0,
+      percent_completed: 0
+    },
+    issue_dependencies_summary: {
+      blocked_by: 0,
+      total_blocked_by: 0,
+      blocking: 0,
+      total_blocking: 0
+    },
+    body: '### Channel ID (required)\n\nIberaliaTV.es\n\n### Channel Name\n\nIberalia Original HD\n\n### Alternative Names\n\n_No response_\n\n### Network\n\n_No response_\n\n### Owners\n\nIberalia GO!\n\n### Country\n\n_No response_\n\n### Categories\n\nducumentary\n\n### NSFW\n\nNone\n\n### Launched (optional)\n\n_No response_\n\n### Closed (optional)\n\n_No response_\n\n### Replaced By (optional)\n\n_No response_\n\n### Website\n\nhttps://iberaliago.com/\n\n### Notes\n\n_No response_',
+    closed_by: null,
+    reactions: {
+      url: 'https://api.github.com/repos/iptv-org/database/issues/23575/reactions',
+      total_count: 0,
+      '+1': 0,
+      '-1': 0,
+      laugh: 0,
+      hooray: 0,
+      confused: 0,
+      heart: 0,
+      rocket: 0,
+      eyes: 0
+    },
+    timeline_url: 'https://api.github.com/repos/iptv-org/database/issues/23575/timeline',
+    performed_via_github_app: null,
+    state_reason: null
   }
 ]

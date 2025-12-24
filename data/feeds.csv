@@ -8223,6 +8223,7 @@ DoctorWhoClassic.us,Germany,Germany,,FALSE,c/DE,Europe/Berlin,deu,576i
 DoctorWhoClassic.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 DocTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 DocTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+Docu.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 DocuBayTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 DocuBox.nl,HD,HD,,FALSE,r/AMER;r/EMEA;r/APAC,Europe/Amsterdam,eng,1080i
 DocuBox.nl,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,Europe/Amsterdam,eng,576i
@@ -9526,10 +9527,10 @@ EXTANSYTV4K.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,eng,576i
 EXTASYTV.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
 Extra.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Extra86TV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
-ExtraChannel.gr,SD,SD,,TRUE,ct/GRPRI,Europe/Athens,ell,576i
 ExtraLive.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 ExtraNews.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 ExtraPlus.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,480i
+ExtraProNews.gr,SD,SD,,TRUE,ct/GRPRI,Europe/Athens,ell,576i
 ExtraTV.hr,SD,SD,,TRUE,c/HR,Europe/Zagreb,hrv,576i
 ExtraTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 ExtraTV42.cr,SD,SD,,TRUE,c/CR,America/La_Paz,spa,480i
@@ -20217,6 +20218,7 @@ Mangas.fr,HD,HD,,FALSE,c/FR,Europe/Paris,fra,1080i
 Mangas.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 ManglarTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,576i
 Mango.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+Mango.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 Mangorn.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 Mangystay.kz,SD,SD,,TRUE,c/KZ,Asia/Aqtau,kaz;rus;eng,576i
 ManifestTelevision.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
@@ -23989,6 +23991,7 @@ ParamountNetwork.us,East,East,,TRUE,c/US;c/CA,America/New_York,eng,480i
 ParamountNetwork.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 ParamountNetwork.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie;eng,576i
 ParamountNetworkAsia.us,SD,SD,,TRUE,r/SEA,America/New_York,eng,480i
+ParamountNetworkdePluto.us,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,720p
 ParamountNetworkLatinAmerica.us,Brazil,Brazil,,FALSE,c/BR,America/New_York,por,480i
 ParamountNetworkLatinAmerica.us,BrazilHD,BrazilHD,,FALSE,c/BR,America/Sao_Paulo,por,1080i
 ParamountNetworkLatinAmerica.us,Panregional,Panregional,,TRUE,r/HISPAM;r/CARIB,America/New_York,spa,480i
@@ -25370,7 +25373,8 @@ PTS3.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
 PTSNews24.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
 PTSTaigi.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
 PTV.bo,SD,SD,,TRUE,ct/BOLPB,America/Argentina/Mendoza,spa,480i
-PTV.ph,SD,SD,,TRUE,c/PH,Asia/Manila,eng,480i
+PTV.ph,HD,HD,,TRUE,r/ASEAN;c/PH;s/PH-QUE;ct/PHQZT,Asia/Manila,fil;eng,1080p
+PTV.ph,SD,SD,,FALSE,c/PH,Asia/Manila,eng,480i
 PTV.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 PTV4.ph,SD,SD,,TRUE,c/PH,Asia/Manila,eng,480i
 PTV8.tc,SD,SD,,TRUE,c/TC,America/Grand_Turk,eng,480i
@@ -29286,6 +29290,7 @@ SqalaTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,576i
 SQCSCanal4.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 SQOOLTV.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Squirrel.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
+Squirrel2.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 SRCMediaTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 SRCTV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 SremskaTV.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
@@ -30369,6 +30374,7 @@ TamarugalTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 Tamasha.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 TamazghaMondeTV.ca,SD,SD,,TRUE,c/CA;c/US;c/DZ,America/Toronto,taq;kab,480i
 TamazightTV.ma,SD,SD,,TRUE,c/MA,Africa/Casablanca,ara,576i
+Tamazvision.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 TambaraTV.ne,SD,SD,,TRUE,c/NE,Africa/Niamey,fra;hau;fuh,576i
 TambarinHausaTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,hau,576i
 TamesisTeVe.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i

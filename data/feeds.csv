@@ -4839,6 +4839,7 @@ CanalPanda.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 CanalParlamento.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 CanalParlamentodelCongresodeJalisco.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 CanalPeniel.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
+CanalPlus.fr,enclair,en clair,,FALSE,c/FR,Europe/Paris,fra,576i
 CanalPlus.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlus1.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 CANALPlus360.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
@@ -9364,7 +9365,6 @@ EuropaEuropa.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa;eng,576i
 EuropaPlusTV.ru,HD,HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
 EuropaPlusTV.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 EuropaPressTV.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
-Europe1.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Europe1.gr,SD,SD,,TRUE,ct/GRSKG,Europe/Athens,ell,576i
 Europe1TV.fr,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080p
 EuropeanLeagueofFootballTV.us,UK,UK,,TRUE,c/UK,Europe/London,eng,576i
@@ -12266,6 +12266,8 @@ IBCTamilCanada.uk,SD,SD,,TRUE,c/UK;c/CA,Europe/London,tam,576i
 IBCTamilSriLanka.uk,SD,SD,,TRUE,c/UK;c/SL,Europe/London,tam,576i
 IBCTV.mg,SD,SD,,TRUE,c/MG,Indian/Antananarivo,fra;mlg,576i
 IBCTV.us,SD,SD,,TRUE,c/US,America/New_York,vie;eng,480i
+Iberalia100Caza.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
+Iberalia100Pesca.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 IberaliaOriginalHD.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 iBerkah.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 IberoamericaTV.es,SD,SD,,TRUE,s/ES-MD,Europe/Madrid,spa,576i
@@ -12465,6 +12467,7 @@ ImpactTVDance.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 ImpactTVManele.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 ImpactTVNetwork.us,SD,SD,,TRUE,c/US,America/Los_Angeles,rus,480i
 IMPACTWrestling.us,SD,SD,,TRUE,c/US,America/Chicago,eng,480i
+ImparcialTV.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,576i
 ImparjaTV.au,SD,SD,,TRUE,c/AU,Australia/Darwin,eng,576i
 IMPDTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 IMPDTVAfrica.br,SD,SD,,TRUE,r/AFR,America/Sao_Paulo,por,480i
@@ -28955,6 +28958,7 @@ SonseeTV4.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,cmn,480i
 SonsonTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 SonusFM.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 SonyAath.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ben,576i
+SonyBBCEarth.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,eng;hin;tam;tel,1080p
 SonyBBCEarth.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin;tam;tel,576i
 SonyCanalComedias.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 SonyCanalCompetencias.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
@@ -31105,7 +31109,7 @@ TelevidaAbundante.us,SD,SD,,TRUE,c/US,America/Sao_Paulo,spa;eng,480i
 TeleVideoAgrigento.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 TelevideoRegional.ar,SD,SD,,TRUE,s/AR-S,America/Argentina/Buenos_Aires,spa,576i
 TeleVigo.es,SD,SD,,TRUE,s/ES-GA,Europe/Madrid,spa,576i
-Televilla.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
+TelevillaCanal8.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 TelevisaAguascalientes.mx,SD,SD,,TRUE,s/MX-AGU,America/Mexico_City,spa,480i
 TelevisaChiapas.mx,SD,SD,,TRUE,s/MX-CHP,America/Mexico_City,spa,480i
 TelevisaChihuahua.mx,SD,SD,,TRUE,s/MX-CHH,America/Mexico_City,spa,480i
@@ -41330,6 +41334,7 @@ ZeeBollywood.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 ZeeBusiness.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 ZeeCafe.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin,576i
 ZeeChitramandir.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mar,576i
+ZeeCineClassic.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,1080p
 ZeeCinema.in,APAC,APAC,International,FALSE,r/APAC,Asia/Singapore,hin,1080p
 ZeeCinema.in,ME,ME,Middle East,FALSE,r/MENA,Asia/Dubai,hin,1080p
 ZeeCinema.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i

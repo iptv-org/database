@@ -710,6 +710,7 @@ AcerfiTV.cm,SD,SD,,TRUE,c/CM,Africa/Douala,fra,576i
 AcheloosTV.gr,SD,SD,,TRUE,c/GR;s/GR-G;s/GR-F;s/GR-D,Europe/Athens,ell;eng,576i
 ACISportTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 ACLCornholeTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+ACMCanal54.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 ACMiEducationChannel.us,SD,SD,,TRUE,ct/USZAT,America/Chicago,eng,480i
 ACMiGovernmentChannel.us,SD,SD,,TRUE,ct/USZAT,America/Chicago,eng,480i
 ACMiPublicChannel.us,SD,SD,,TRUE,ct/USZAT,America/Chicago,eng,480i
@@ -2183,7 +2184,7 @@ AsianetMiddleEast.in,SD,SD,,TRUE,r/MIDEAST,Asia/Dubai,mal,576i
 AsianetMovies.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,mal,1080i
 AsianetMovies.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
 AsianetNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
-AsianetNewsBangla.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+AsianetNewsBangla.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ben,576i
 AsianetNewsKannada.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 AsianetNewsTamil.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
 AsianetPlus.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
@@ -3783,6 +3784,7 @@ BoPlusTV.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
 BorderTV.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,eng,576i
 Boreal.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 BoricuaTV.pr,SD,SD,,TRUE,c/PR,America/Argentina/San_Juan,spa,480i
+BorjanadeTelevision.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 BorjomiTV.ge,SD,SD,,TRUE,c/GE,Asia/Tbilisi,kat,576i
 BosoloTelevision.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 BossBrothersTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
@@ -4307,6 +4309,7 @@ Canal17NuevaGuinea.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,480i
 Canal17RTVD.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,576i
 Canal180.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 Canal18NTRT.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
+Canal19.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 Canal1MarMenorTorrePacheco.es,SD,SD,,TRUE,s/ES-MC,Europe/Madrid,spa,576i
 Canal1Nuble.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 Canal1Retalhuleu.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,576i
@@ -4367,6 +4370,7 @@ Canal28MasterVisiondelNorte.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 Canal28Tipitapa.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,576i
 Canal29.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 Canal29Apopa.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,576i
+Canal29deAirecable.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 Canal29Ensenada.ar,SD,SD,,TRUE,ct/AREEA,America/Tijuana,spa,576i
 Canal29Monclova.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 Canal29Omnivision.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,576i
@@ -4410,6 +4414,7 @@ Canal3.md,SD,SD,,TRUE,c/MD,Europe/Chisinau,ron;rus,576i
 Canal30Cintalapa.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 Canal30Loncomilla.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 Canal30Multicom.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
+Canal30StarsTV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 Canal30TVBethel.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 Canal31SanVicente.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,576i
 Canal32.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -4507,6 +4512,7 @@ Canal50Apopa.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,576i
 Canal50Morteros.ar,SD,SD,,TRUE,s/AR-X,America/Argentina/Buenos_Aires,spa,576i
 Canal50RTVE.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
 Canal51.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
+Canal51.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 Canal52ValleTelevision.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 Canal53CableVictoria.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,576i
 Canal53UANL.mx,SD,SD,,TRUE,c/MX,America/Monterrey,spa,480i
@@ -4641,6 +4647,7 @@ Canal9.dk,SD,SD,,TRUE,c/DK,Europe/Copenhagen,dan,576i
 Canal9.es,SD,SD,,TRUE,s/ES-CL,Europe/Madrid,spa,576i
 Canal9.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,480i
 Canal907FM.ar,SD,SD,,TRUE,ct/ARCRY,America/Argentina/Buenos_Aires,spa,576i
+Canal96Tizimin.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 Canal9BioBioTelevision.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 Canal9Bosconia.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 Canal9Chabas.ar,SD,SD,,TRUE,ct/ARCSS,America/Argentina/Buenos_Aires,spa,576i
@@ -4741,6 +4748,9 @@ CanalDiplomatico.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 CanaldoBoi.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 CanalDoce.co,SD,SD,,TRUE,ct/COSIJ,America/Bogota,spa,480i
 CanalDoceHuejutla.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
+CanalDocePanuco.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
+CanalDoceTantoyuca.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
+CanalDoceTV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 CanaldoCliente.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 CanaldoCriador.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 CanaldoInter.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
@@ -4999,6 +5009,7 @@ CanalTelesantiago.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 CanalTeleTres.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,576i
 CanalTerrassa.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
 CanalTerresdelEbre.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
+CanalTreceUTV.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 CanalTRESSarandidelYi.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 CanalTRO.co,SD,SD,,TRUE,c/CO,Europe/Madrid,spa,480i
 CanalTROPlus.co,SD,SD,,TRUE,c/CO,Europe/Madrid,spa,480i
@@ -6306,6 +6317,7 @@ CitraEntertainment.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 CitraMuslim.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 CitraTV.id,SD,SD,,TRUE,s/ID-JT,Asia/Jakarta,ind,576i
 CitricoTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
+Citro6TVLaImagendeAlamo.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 CitrussTV.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,ara,576i
 CITSDT.ca,SD,SD,,TRUE,ct/CAHAM,Australia/Melbourne,eng,480i
 CITSDT1.ca,SD,SD,,TRUE,ct/CAOTT,America/Toronto,eng,480i
@@ -6867,7 +6879,6 @@ ComediaporMovistarPlusPlus.es,SD,SD,,TRUE,c/ES;c/AD,Europe/Madrid,spa,576i
 ComediePlus.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra;eng,576i
 Comedy.au,Plus2,+2,,FALSE,c/AU,Australia/Sydney,eng,576i
 Comedy.au,SD,SD,,TRUE,c/AU,Australia/Melbourne,eng,576i
-Comedy.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,tel,1080p
 comedybox.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 ComedyCentral.at,HD,HD,,FALSE,c/AT,Europe/Vienna,deu,1080i
 ComedyCentral.at,SD,SD,,TRUE,c/AT,Europe/Vienna,deu,576i
@@ -8114,7 +8125,7 @@ DisneyJunior.es,SD,SD,,TRUE,c/ES,America/Toronto,spa,576i
 DisneyJunior.gr,SD,SD,,TRUE,c/GR;c/CY;c/MT,Europe/Athens,eng,576i
 DisneyJunior.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 DisneyJunior.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,eng,576i
-DisneyJunior.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
+DisneyJunior.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin;tam;tel,576i
 DisneyJunior.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 DisneyJunior.nl,SD,SD,,TRUE,c/NL;c/BE,Europe/Amsterdam,eng,576i
 DisneyJunior.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
@@ -9317,6 +9328,7 @@ ETVBalyaBharatBangla.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ben;eng,576i
 ETVBalyaBharatOdia.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ori;eng,576i
 ETVCinema.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tel,1080i
 ETVCinema.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
+ETVComedy.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,tel,1080p
 ETVCommunityEvents.us,SD,SD,,TRUE,ct/USUFS,America/New_York,eng,480i
 ETVEntertainment.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 etvGhana.gh,SD,SD,,TRUE,c/GH,Africa/Accra,afr,576i
@@ -19899,6 +19911,7 @@ LosAsesinatosdeMidsomer.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 LosPrimerosTV.ar,SD,SD,,TRUE,c/AR,America/Argentina/Tucuman,spa,576i
 LosSantosTV.cr,SD,SD,,TRUE,ct/CRMTZ,America/Costa_Rica,spa,480i
 LOSTV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
+LosVolcanesTelevision.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 LotPlusTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 LotteHomeShopping.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 LotteOneTV.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
@@ -29524,6 +29537,7 @@ StarSports1Telugu.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tel,1080i
 StarSports1Telugu.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 StarSports2.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,eng;hin;tam;tel,1080i
 StarSports2.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin;tam;tel,576i
+StarSports2Hindi.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,hin,1080i
 StarSports2Hindi.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 StarSports2Kannada.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kan,576i
 StarSports2Tamil.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
@@ -30926,6 +30940,7 @@ TelemastersTV.us,SD,SD,,TRUE,c/US;c/HT,America/New_York,fra;hat,480i
 Telemax.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Telemax.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 Telemax.gt,SD,SD,,TRUE,s/GT-05,America/Guatemala,spa,480i
+Telemaya.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 Telemayabeque.cu,SD,SD,,TRUE,c/CU,America/Havana,spa,480i
 TeleMB.be,HD,HD,,FALSE,c/BE,Europe/Brussels,fra,1080i
 TeleMB.be,SD,SD,,TRUE,c/BE,Europe/Brussels,fra,576i
@@ -31152,6 +31167,7 @@ TeleVigo.es,SD,SD,,TRUE,s/ES-GA,Europe/Madrid,spa,576i
 Televilla.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 TelevillaCanal8.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 TelevisaAguascalientes.mx,SD,SD,,TRUE,s/MX-AGU,America/Mexico_City,spa,480i
+TelevisaCanal7delZulia.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,576i
 TelevisaChiapas.mx,SD,SD,,TRUE,s/MX-CHP,America/Mexico_City,spa,480i
 TelevisaChihuahua.mx,SD,SD,,TRUE,s/MX-CHH,America/Mexico_City,spa,480i
 TelevisaCiudadJuarez.mx,SD,SD,,TRUE,ct/MXCJS,America/Ojinaga,spa,480i
@@ -41420,6 +41436,7 @@ ZeeOne.uk,German,German,,FALSE,c/AT;c/DE;c/CH,Europe/Berlin,deu,720p
 ZeeOne.uk,UK,UK,,TRUE,c/UK;r/EUR,Europe/London,eng,720p
 ZeeOneAfrica.za,SD,SD,,TRUE,c/ZA;r/SSA,Africa/Johannesburg,eng,576i
 ZeePlex.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+ZeePower.in,HD,HD,,FALSE,c/IN;s/IN-KA,Asia/Kolkata,kan,1080p
 ZeePower.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kan,576i
 ZeePunjabHaryanaHimachal.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,pan,576i
 ZeePunjabi.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,pan,576i
@@ -41427,6 +41444,7 @@ ZeeRajasthan.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 ZeeSarthak.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ori,576i
 ZeeSmile.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 ZeeSouthFlix.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,hin,1080p
+ZeeTalkies.in,HD,HD,,FALSE,c/IN;s/IN-MH,Asia/Kolkata,mar,1080p
 ZeeTalkies.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mar,576i
 ZeeTamil.in,APAC,APAC,,FALSE,r/APAC,Asia/Singapore,tam,1080p
 ZeeTamil.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,tam,1080p

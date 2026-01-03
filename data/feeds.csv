@@ -4388,6 +4388,7 @@ Canal2DeanFunes.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal2deUshuaia.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal2Gualeguay.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal2International.cm,SD,SD,,TRUE,c/CM;r/AFR,Africa/Douala,fra;eng,576i
+Canal2JesusMaria.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal2Jujuy.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal2Lascano.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Canal2Linares.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
@@ -4566,6 +4567,7 @@ Canal65.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,480i
 Canal69BarivisionTV.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 Canal6CiudaddelaCosta.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Canal6Colcable.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
+Canal6CooperativoFreyre.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal6deAlfasurtPitalito.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 Canal6deTamazula.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 Canal6deVideoCableConcordia.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
@@ -5083,6 +5085,7 @@ CANTV27.us,SD,SD,,TRUE,ct/USCHI,America/Chicago,eng,480i
 CANTV36.us,SD,SD,,TRUE,ct/USCHI,America/Chicago,eng,480i
 CANTVTVSatelital.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 CaoBangTV.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
+CaobaTVRadio.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 CapableHole.si,SD,SD,,TRUE,c/SI,Europe/Ljubljana,eng,576i
 CapeTownTV.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 Capital21.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
@@ -22451,6 +22454,11 @@ News12HudsonValley.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 News12LongIsland.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 News12NewJersey.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 News12NewYork.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+News12PlusConnecticut.us,HD,HD,,TRUE,c/US;s/US-CT,America/New_York,eng,720p
+News12PlusHudsonValley.us,HD,HD,,TRUE,c/US;s/US-NY,America/New_York,eng,720p
+News12PlusLongIsland.us,HD,HD,,TRUE,c/US;s/US-NY,America/New_York,eng,720p
+News12PlusNewJersey.us,HD,HD,,TRUE,c/US;s/US-NJ,America/New_York,eng,720p
+News12PlusNewYork.us,HD,HD,,TRUE,c/US;s/US-NY,America/New_York,eng,720p
 News12Westchester.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 News18AssamNorthEast.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,asm;eng,576i
 News18Bangla.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -31937,6 +31945,7 @@ TopGainKeno.gn,SD,SD,,TRUE,c/GN,Africa/Conakry,fra,576i
 TopGainLeague.gn,SD,SD,,TRUE,c/GN,Africa/Conakry,fra,576i
 TopGear.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 TopGearenEspanol.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
+TopicalMoonRD.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 TopKids.pl,HD,HD,,FALSE,c/PL,Europe/Warsaw,pol,1080i
 TopKids.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 TopLatinoTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
@@ -32352,7 +32361,6 @@ TumwaterTV.us,SD,SD,,TRUE,ct/USTUW,America/New_York,eng,480i
 TunariTV.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 TunasVision.cu,SD,SD,,TRUE,c/CU,America/Havana,spa,480i
 Tunes6.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
-Tunes6Music.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 Tunevision.gt,SD,SD,,TRUE,s/GT-07,America/Guatemala,spa,480i
 Tuning.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 TunisiaShopTV.tn,SD,SD,,TRUE,c/TN,Africa/Tunis,ara,576i

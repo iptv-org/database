@@ -28,6 +28,8 @@ The second option is to edit the file in the [data/](data/) folder using any tex
 
 To do this, you need to fill out one of the [forms](https://github.com/iptv-org/database/issues/new/choose), and once your request has been approved, the entry will be automatically deleted.
 
+**IMPORTANT:** We do not remove channels from the database if they stop broadcasting. In this case, all you need to do is add the approximate closing date using this [form](https://github.com/iptv-org/database/issues/new?template=02_channels_edit.yml).
+
 ## Data Scheme
 
 ### channels

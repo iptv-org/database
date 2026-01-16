@@ -4686,6 +4686,7 @@ Canal8Regional.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 Canal8RioBranco.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Canal8Rivera.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Canal8Rosario.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
+Canal8Rufino.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal8Saavedra.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 Canal8Salta.ar,SD,SD,,TRUE,s/AR-A,America/Argentina/Buenos_Aires,spa,576i
 Canal8Salto.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
@@ -6907,8 +6908,8 @@ ColorfulDramaChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 Colors.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,hin,1080p
 Colors.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 ColorsAsiaPacific.in,SD,SD,,TRUE,r/APAC,Asia/Kolkata,hin,576i
-ColorsBangla.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,ben,1080p
-ColorsBangla.in,SD,SD,,FALSE,c/IN,Asia/Kolkata,ben,576i
+ColorsBangla.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,ben,1080p
+ColorsBangla.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ben,576i
 ColorsBanglaCinema.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ben,576i
 ColorsCineplex.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,hin,1080p
 ColorsCineplex.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -6995,6 +6996,7 @@ ComedyCentralPlutoTV.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
 ComedyCentralPlutoTV.us,US,US,,TRUE,c/US,America/New_York,deu,480i
 ComedyCentralSouthPark.us,Brazil,Brazil,,FALSE,c/BR,America/New_York,por,480i
 ComedyCentralSouthPark.us,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
+ComedyChannelExtra.pl,HD,HD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
 ComedyDynamics.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 ComedyMovies.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 ComedyPlay.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
@@ -8421,6 +8423,7 @@ DoverTV.us,SD,SD,,TRUE,ct/USXEZ,Europe/London,eng,480i
 DoveTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 DOX4K.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 DOXATV.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,eng,576i
+DoxaTV.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng;lug,576i
 DOXBritish.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 DOXCinema.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 DOXMovies.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
@@ -21457,6 +21460,7 @@ MpumaKapaTV.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 MpumalangaBroadcastingTVStation.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 MQTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 MQTV.id,SD,SD,,TRUE,s/ID-JB,Asia/Jakarta,ind,576i
+MrBeanLiveAction.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,1080p
 MRCTV.cd,SD,SD,,TRUE,c/CD,Africa/Lubumbashi,fra,576i
 MrezaTV.hr,SD,SD,,TRUE,c/HR,Europe/Zagreb,hrv,576i
 MRT1.mk,SD,SD,,TRUE,c/MK,Europe/Skopje,mkd,576i
@@ -22361,6 +22365,7 @@ NBCUniverso.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa,480i
 NBN.lb,SD,SD,,TRUE,c/LB,Asia/Beirut,ara,576i
 NBNTV.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 NBS.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
+NBSPlus.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng;lug,576i
 NBSSport.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
 NBSStar.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
 NBSTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i

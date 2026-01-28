@@ -1745,6 +1745,7 @@ AnimalPlanetNordic.uk,SD,SD,,TRUE,r/NORD,Europe/London,eng,576i
 AnimalPlanetSoutheastAsia.sg,HD,HD,,FALSE,r/SEA,Asia/Singapore,eng,1080i
 AnimalPlanetSoutheastAsia.sg,SD,SD,,TRUE,r/SEA,Asia/Singapore,eng,576i
 AnimalShow.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
+AnimationPlus.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,eng,1080p
 AnimationShowChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 Animaux.fr,HD,HD,,FALSE,c/FR,Indian/Reunion,fra,1080i
 Animaux.fr,SD,SD,,TRUE,c/FR,Indian/Reunion,fra,576i
@@ -4287,6 +4288,7 @@ Canal12.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,480i
 Canal12.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,480i
 Canal12ChiapasTV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 Canal12Durango.mx,SD,SD,,TRUE,c/MX,America/Monterrey,spa,480i
+Canal12ElBanco.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 Canal12Guaimaca.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,576i
 Canal12Iguala.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 Canal12ItzaTV.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,576i
@@ -4433,6 +4435,7 @@ Canal2Jujuy.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal2Lascano.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Canal2Linares.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 Canal2MardelPlata.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
+Canal2MiCanal.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 Canal2MinasCableVision.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Canal2Misiones.ar,SD,SD,,TRUE,s/AR-N,America/Argentina/Buenos_Aires,spa,576i
 Canal2Movies.cm,SD,SD,,TRUE,c/CM;r/AFR,Africa/Douala,fra;eng,576i
@@ -8360,7 +8363,8 @@ DocuKids.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 DocumentalesporMovistarPlusPlus.es,SD,SD,,TRUE,c/ES;c/AD,Europe/Madrid,spa,576i
 DocumentaryChannel.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 DocumentaryHumanitiesChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
-DocumentaryPlus.us,SD,SD,,TRUE,c/US,America/Chicago,eng,480i
+DocumentaryPlus.us,International,International,,FALSE,r/WW,America/New_York,eng,1080p
+DocumentaryPlus.us,US,US,,TRUE,c/US,America/New_York,eng,1080p
 DocuNature.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 DocuPeople.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 Docurama.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -19310,7 +19314,7 @@ La1Catalunya.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
 La2.es,HEVC,HEVC,,FALSE,c/ES,Europe/Madrid,spa,1080p
 La2.es,SD,SD,,TRUE,c/ES;c/AD,Europe/Madrid,spa,576i
 La2Canarias.es,SD,SD,,TRUE,s/ES-CN,Europe/Madrid,spa,576i
-La2Catalunya.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat,576i
+La2Catalunya.es,SD,SD,,TRUE,s/ES-CT,Europe/Madrid,cat;spa,576i
 LA36.us,SD,SD,,TRUE,ct/USLAX,America/Santiago,eng,480i
 La4Italia.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 La5.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita,1080i
@@ -21482,7 +21486,7 @@ MpumaKapaTV.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 MpumalangaBroadcastingTVStation.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 MQTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 MQTV.id,SD,SD,,TRUE,s/ID-JB,Asia/Jakarta,ind,576i
-MrBeanAnimated.uk,SD,SD,,TRUE,c/UK;c/US;c/IN;c/AU;c/NZ;c/CA,Europe/London,eng,1080p
+MrBeanAnimated.uk,English,English,,TRUE,c/UK;c/US;c/IN;c/AU;c/NZ;c/CA,Europe/London,eng,1080p
 MrBeanLiveAction.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,1080p
 MRCTV.cd,SD,SD,,TRUE,c/CD,Africa/Lubumbashi,fra,576i
 MrezaTV.hr,SD,SD,,TRUE,c/HR,Europe/Zagreb,hrv,576i
@@ -24322,6 +24326,8 @@ PBSKidsHawaii.us,SD,SD,,TRUE,s/US-HI,America/New_York,eng,480i
 PBSKidsMountain.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PBSKidsPacific.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PBSNature.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+PBSRetro.us,SD,SD,,TRUE,c/US,America/New_York,eng,1080p
+PBSTravel.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,eng,1080p
 PCATV.us,SD,SD,,TRUE,ct/USPTE,America/New_York,eng,480i
 PCCtv.us,SD,SD,,TRUE,ct/USPSD,America/Los_Angeles,eng,480i
 PCCTVFlorida.us,SD,SD,,TRUE,s/US-FL,America/New_York,eng,480i
@@ -31445,6 +31451,7 @@ TelewebionSport3.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 TelewizjaBiznesowa.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 TelewizjaGorzow.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 TelewizjaImperium.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
+TelewizjaiTTV.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 TelewizjaJaslo.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 TelewizjaLuban.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 TelewizjaNarew.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
@@ -33946,6 +33953,7 @@ TVRISport.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 TVRitam.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 TVRivera.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 TVRIWorld.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,eng,576i
+TVRMoldova.md,HD,HD,,FALSE,c/MD,Europe/Chisinau,ron,1080p
 TVRMoldova.md,SD,SD,,TRUE,c/MD,Europe/Chisinau,ron,576i
 TVRochense.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 TVRodina.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i

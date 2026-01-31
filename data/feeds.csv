@@ -5417,7 +5417,7 @@ CBNEspanol.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 CBNFamily.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 CBNGospel.vg,SD,SD,,TRUE,c/VG,America/Tortola,eng,576i
 CBNNews.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
-CBNPlus.mg,SD,SD,,TRUE,c/MG,Indian/Antananarivo,fra,576i
+CBNPlus.mg,SD,SD,,TRUE,c/MG,Indian/Antananarivo,fra;mlg,576i
 CBNRio.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 CBNSP.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 CBNTDT.ca,SD,SD,,TRUE,ct/CASJF,America/Toronto,eng,480i
@@ -10232,6 +10232,7 @@ FolkTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 FOLLYTV.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,fra,576i
 FolxMusicTelevision.de,SD,SD,,TRUE,c/DE,Europe/Ljubljana,deu,576i
 FolxSlovenija.si,SD,SD,,TRUE,c/SI,Europe/Ljubljana,deu,576i
+FomixTV.nl,HD,HD,,TRUE,c/NL;c/BE,Europe/Amsterdam,nld,1080p
 FONDAKIZTV.bj,SD,SD,,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 FondationMaluwaTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 FonixTV.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
@@ -22394,6 +22395,7 @@ NBCSportsChicago.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 NBCSportsChicagoPlus.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 NBCSportsChicagoPlus2.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 NBCSportsNorthwest.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+NBCSportsNOW.us,SD,SD,,TRUE,c/US,America/New_York,eng,1080p
 NBCSportsPhiladelphia.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 NBCSportsPhiladelphiaPlus.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 NBCSportsWashington.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -25287,6 +25289,7 @@ Portlandia.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PORTMONETV.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr;rus,576i
 PortoCanal.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 PortuguesaTelevision.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
+PorucznikKaburaTV.pl,HD,HD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
 PorvenirTV.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,576i
 PosavinaTV.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,bos,576i
 PosdataTV.bo,SD,SD,,TRUE,ct/BOLPB,America/Argentina/Mendoza,spa,480i
@@ -34796,6 +34799,7 @@ VanithaTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 VanityFair.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 Vannathirai.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,tam,576i
 VanphenhTV.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
+VantageMusic.ee,HD,HD,,TRUE,r/EU,Europe/Tallinn,eng,720p
 VAPATV.lk,SD,SD,,TRUE,c/LK,Asia/Colombo,sin,576i
 VarendraTV.bd,SD,SD,,TRUE,c/BD,Asia/Dhaka,ben,576i
 VariedTV.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i

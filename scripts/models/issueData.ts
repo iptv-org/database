@@ -27,8 +27,8 @@ export class IssueData {
     return this.missing(key)
       ? undefined
       : this.#data.get(key) === deleteSymbol
-      ? ''
-      : this.#data.get(key)
+        ? ''
+        : this.#data.get(key)
   }
 
   getNumber(key: string): number | undefined {

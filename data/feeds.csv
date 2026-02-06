@@ -27193,11 +27193,10 @@ RTPNoticias.pt,HD,HD,,TRUE,c/PT,Europe/Lisbon,por,1080i
 RTPTelevision.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 RTQQueretaro.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 RTRBelarus.by,SD,SD,,TRUE,c/BY,Europe/Minsk,bel,576i
-RTRPlaneta.ru,SD,SD,,TRUE,r/ASIA;r/MENA;r/AFR,Europe/Moscow,rus,576i
-RTRPlanetaAsia.ru,SD,SD,,TRUE,r/APAC,Europe/Moscow,rus,576i
-RTRPlanetaCIS.ru,SD,SD,,TRUE,r/CIS,Europe/Moscow,rus,576i
-RTRPlanetaEurope.ru,SD,SD,,TRUE,r/EUR,Europe/Moscow,rus,576i
-RTRPlanetaUSA.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+RTRPlaneta.ru,Asia,Asia,Russia-RTR;Россия-РТР,TRUE,r/ASIA,Europe/Moscow,rus,576i
+RTRPlaneta.ru,CIS,CIS,Russia-RTR;Россия-РТР,TRUE,r/CIS,Europe/Moscow,rus,576i
+RTRPlaneta.ru,Europe,Europe,Planeta-RTR,TRUE,r/EUR,Europe/Moscow,rus,576i
+RTRPlaneta.ru,US,US,Planeta-RTR,TRUE,c/US,America/New_York,eng,480i
 RTRSplus.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,srp,576i
 RTRSTV.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,srp,576i
 RTRTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i

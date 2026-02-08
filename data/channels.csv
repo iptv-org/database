@@ -2658,7 +2658,7 @@ BCATvPublicAccess.us,BCATv Public Access,,,,US,general,FALSE,,,,https://www.boxf
 BCCGaming.us,BCC Gaming,,,,US,comedy,FALSE,,,,
 BCI24News.gr,BCI 24 News,,,BCI Media,GR,news,FALSE,,,,https://eu1.vectromdigital.com:2020/public/bcipasxa
 BCNGospelTV.es,BCN Gospel TV,BCN Gospel Channel,,,ES,general,FALSE,,,,https://live1.ovalcast.com/broadcaster/bcngospeltv/hybrid/player
-BCNTV.bs,BCN TV,,,Bahamas Christian Network,BS,religious,FALSE,,,,https://bcntv.net/
+BCNTV.bs,BCN TV,,,Bahamas Christian Network,BS,religious,FALSE,2009-02-28,,,https://bcntv.net/
 BCNTV.rw,BCN TV,,,Bible Communication Center,RW,religious,FALSE,,,,https://bcntv.org/
 BCOSTV.ng,BCOS TV,,,Broadcasting Corporation of Oyo State,NG,general,FALSE,,,,
 BCSDTV.us,BCSD-TV,,,,US,education,FALSE,,,,https://www.bcsdny.org/Page/1573
@@ -6487,7 +6487,7 @@ CreaLaTV.mx,CreaLaTV,,,,MX,general,FALSE,,,,https://www.creala.tv/
 Create.us,Create,,,,US,education,FALSE,,,,https://createtv.com/
 CreateandCraft.uk,Create and Craft,Create & Craft,,,UK,education,FALSE,,,,https://www.createandcraft.com/
 CreationTV.hk,Creation TV,創世電視,,Audiovisual Mission Limited,HK,religious,FALSE,2003-03-07,,,http://www.creation-tv.com/ctv_hk/
-CreaTV.kn,CreaTV,,,Ministry of Small Business and Entrepreneurship,KN,entertainment,FALSE,,,,
+CreaTV.kn,CreaTV,,,Ministry of Small Business and Entrepreneurship,KN,entertainment,FALSE,2022-07-01,,,
 CreaTVChannel15.us,CreaTV Channel 15,,,,US,general,FALSE,,,,https://www.creatvsj.org/community-channel-15
 CreaTVChannel27.us,CreaTV Channel 27,,,,US,general,FALSE,,,,https://www.creatvsj.org/bay-voice-tv-channel-27
 CreaTVChannel28.us,CreaTV Channel 28,,,,US,education,FALSE,,,,https://www.creatvsj.org/classrooms-channel-28
@@ -9160,7 +9160,7 @@ FomixTV.nl,FomixTV,FomixTV;Radio Fomix;Fomix,FomixMedia,Stichting FomixMedia,NL,
 FONDAKIZTV.bj,FONDAKIZ TV,,,,BJ,general,FALSE,,,,
 FondationMaluwaTV.cd,Fondation Maluwa TV,,,,CD,general,FALSE,,,,
 FonixTV.hu,Fonix TV,Főnix TV,,,HU,general,FALSE,2000-08-20,,,http://www.fonixtv.hu/
-FonMusic.ru,Fon Music,TNT Music;ТНТ Music,,Gazprom Media,RU,music,FALSE,,,,https://tntmusic.ru/
+FonMusic.ru,Fon Music,TNT Music;ТНТ Music,,ООО Фонбет ТВ,RU,music,FALSE,,,,https://fonmusic.ru/
 FonteTV.br,Fonte TV,,,,BR,religious,FALSE,,,,https://fontetv.redefonte.com/
 Food52.us,Food 52,,,Food52 Inc,US,cooking,FALSE,,,,https://food52.com/p/contact-us
 FoodChannel.il,Food Channel,,,,IL,cooking,FALSE,,,,https://xnet.ynet.co.il/home/0
@@ -11619,7 +11619,7 @@ Island92FM.sx,Island 92 FM,,,,SX,music,FALSE,,,,https://island92.com/
 IslandEscape.us,Island Escape,,,,US,relax,FALSE,,,,
 IslandEyeTV.tc,Island Eye TV,,,,TC,culture,FALSE,,,,https://islandeyetv.com/
 Islandia.ua,Islandia,Ісландія;Iceland,,ISLND,UA,,FALSE,,,,
-IslandLuckTV.bs,Island Luck TV,,,,BS,entertainment,FALSE,,,,https://iltvstudios.com/
+IslandLuckTV.bs,Island Luck TV,,,ILTV Studios,BS,entertainment,FALSE,,,,https://iltvstudios.com/
 IslandTV.us,Island TV,,,Fatima Group,US,general,FALSE,,,,https://islandtv.tv/contactus/
 IslandTVPlus.us,Island TV Plus,Island TV+,,Fatima Group,US,general,FALSE,,,,https://islandtv.tv/contactus/
 Islatel.es,Islatel,,,,ES,,FALSE,,,,https://islatel.es/
@@ -14515,8 +14515,6 @@ KidZoneMax.ee,KidZone Max,KidZone TV,,Duo Media Networks,EE,kids,FALSE,2013-06-1
 KidZoneMini.ee,KidZone Mini,,,Duo Media Networks,EE,kids,FALSE,2021-12-24,,,https://kidzonemini.ee/
 KIEMDT1.us,KIEM-DT1,,NBC,Imagicomm Communications,US,general,FALSE,1953-10-25,,,http://www.kiem-tv.com/
 KIEMDT2.us,KIEM-DT2,,Ion Television,Imagicomm Communications,US,entertainment,FALSE,,,,https://kiem-tv.com/
-KienGiangTV.vn,Kien Giang TV,,,,VN,,FALSE,,,,http://kgtv.vn/
-KienGiangTV1.vn,Kien Giang TV 1,,,,VN,,FALSE,,,,http://kgtv.vn/
 KIFIDT1.us,KIFI-DT1,,ABC,News-Press & Gazette Company,US,general,FALSE,1961-01-23,,,http://www.localnews8.com/
 KIFIDT2.us,KIFI-DT2,,CBS,News-Press & Gazette Company,US,general,FALSE,,,,
 KIFIDT3.us,KIFI-DT3,,CW,News-Press & Gazette Company,US,entertainment,FALSE,,,,https://localnews8.com/
@@ -24129,6 +24127,7 @@ RadioPuertoTV.cr,Radio Puerto TV,,,,CR,general,FALSE,,,,https://radiopuertotv.ne
 RadioPykasuTV.py,Radio Pykasu TV,Radio Pykasú TV,,,PY,music,FALSE,,,,https://telnet.com.py/
 RadioQ.cl,Radio Q,,,,CL,music,FALSE,,,,https://radioq.cl/
 RadioRadioTV.it,Radio Radio TV,,,,IT,,FALSE,,,,https://www.radioradio.it/
+RadioRAM.pl,Radio RAM,,,,PL,music,FALSE,,,,
 RadioRancaguaFM.cl,Radio Rancagua FM,,,,CL,,FALSE,,,,https://radiorancagua.cl/
 RadioRealpolitik.ar,Radio Realpolitik,,,,AR,music,FALSE,,,,https://realpolitik.fm/
 RadioReformaSeOye.pa,Radio Reforma Se Oye,,,,PA,music,FALSE,,,,https://radioreformaseoye.com/
@@ -28948,7 +28947,7 @@ TelevisionAvilena.cu,Television Avilena,Televisión Avileña,ICRT,,CU,general,FA
 TelevisionAzanaque.bo,Television Azanaque,Televisión Azanaque,,,BO,general,FALSE,,,,
 TelevisionCamaguey.cu,Television Camaguey,Televisión Camagüey,ICRT,,CU,general,FALSE,1984-06-24,,,https://www.tvcamaguey.icrt.cu/
 TelevisionCanaria.es,Television Canaria,Televisión Canaria;Televisión Autonómica de Canarias,,,ES,,FALSE,,,,https://rtvc.es
-TelevisionCaribbean.kn,Television Caribbean,TVC,,Palm Beach Media,KN,general,FALSE,,,,https://www.tvcplus.live/
+TelevisionCaribbean.kn,Television Caribbean,TVC,,Palm Branch Media,KN,general,FALSE,2023-12-11,,,https://www.tvcplus.live/
 TelevisionComayaguaCanal40.hn,Television Comayagua Canal 40,,,,HN,,FALSE,,,,http://televisioncomayagua.com/
 TelevisionConsciente.es,Television Consciente,Televisión Consciente,,,ES,religious,FALSE,,,,https://www.televisionconsciente.com/
 TelevisionCristal.bo,Television Cristal,Televisión Cristal;Cristal TV,,,BO,general,FALSE,,,,https://televisioncristal.com/
@@ -32125,6 +32124,7 @@ Vannathirai.sg,Vannathirai,,,,SG,movies,FALSE,2008-09-24,,,
 VanphenhTV.vn,Vanphenh TV,,,,VN,shop,FALSE,,,,
 VantageDance.ee,Vantage Dance,,,Lulzy Broadcasting OÜ,EE,music,FALSE,2025-11-30,,,https://vantagetv.ee
 VantageMusic.ee,Vantage Music,,Vantage Television,Lulzy Broadcasting OÜ,EE,music,FALSE,2025-11-30,,,https://vantagetv.ee
+VantageRock.ee,Vantage Rock,,Vantage Television,Lulzy Broadcasting OÜ,EE,music,FALSE,2025-11-30,,,https://vantagetv.ee
 VAPATV.lk,VAPA TV,,,,LK,education,FALSE,,,,https://www.dantv.lk/
 VarendraTV.bd,Varendra TV,,,,BD,general,FALSE,,,,
 VariedTV.ar,VariedTV,,,,AR,entertainment,FALSE,,,,https://www.variedtv.online/

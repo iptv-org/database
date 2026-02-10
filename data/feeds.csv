@@ -284,7 +284,7 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 50Canale.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 51RadioTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 54UnityTV.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
-555.ru,SD,SD,,TRUE,s/UA-43,Europe/Moscow,rus,576i
+555.ru,SD,SD,,TRUE,s/UA-43;c/RU,Europe/Moscow,rus,576i
 5AABTV.ca,SD,SD,,TRUE,c/CA,America/Toronto,pan,480i
 5Action.uk,HD,HD,,FALSE,c/UK,Europe/London,eng,1080i
 5Action.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
@@ -323,7 +323,7 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 6terSwitzerland.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
 6TV.mz,SD,SD,,TRUE,c/MZ,Africa/Maputo,por,576i
 6TVBangla.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ben,576i
-6TVGorlovka.ru,SD,SD,,TRUE,s/UA-14,Europe/Kyiv,rus;ukr,576i
+6TVGorlovka.ru,SD,SD,,TRUE,s/UA-14;c/RU,Europe/Kyiv,rus;ukr,576i
 6TVTelangana.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 6TVTelugu.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 6WiseTv.us,SD,SD,,TRUE,r/SOUTHAM,America/Detroit,spa,720p
@@ -21044,7 +21044,7 @@ MilleniumTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 MillenniumTV24.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 MillenniumTVUSA.us,SD,SD,,TRUE,c/US;c/BD,America/New_York,ben;eng,480i
 MillenniumTVZambia.zm,SD,SD,,TRUE,c/ZM,Africa/Lusaka,eng,576i
-Millet.ru,SD,SD,,TRUE,s/UA-43,Europe/Moscow,rus,576i
+Millet.ru,SD,SD,,TRUE,s/UA-43;c/RU,Europe/Moscow,rus,576i
 Milliy.uz,SD,SD,,TRUE,c/UZ,Asia/Tashkent,uzb,576i
 MilodonTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 MiltonEducationChannel.us,SD,SD,,TRUE,ct/USMXL,America/New_York,eng,480i
@@ -23229,7 +23229,7 @@ NOVO19.fr,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080i
 Novocomedy.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 NovoeRadio.ru,SD,SD,,TRUE,c/RU,Asia/Sakhalin,rus,576i
 Novoetelevidenie.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz,576i
-NovorossiyaTV.ru,SD,SD,,TRUE,s/UA-14,Europe/Kyiv,rus,576i
+NovorossiyaTV.ru,SD,SD,,TRUE,s/UA-14;c/RU,Europe/Kyiv,rus,576i
 NovosadskaTV.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 NovoTempo.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 NovoTempoPortugal.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
@@ -23392,7 +23392,7 @@ NTN24.co,SD,SD,,TRUE,r/SOUTHAM,America/Bogota,spa,480i
 NTNTVBerbice.gy,SD,SD,,TRUE,c/GY,Atlantic/St_Helena,eng,480i
 NTRTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,eng,576i
 NTS.kg,SD,SD,,TRUE,c/KG,Asia/Bishkek,kir;rus,576i
-NTS.ru,SD,SD,,TRUE,s/UA-43,Europe/Moscow,rus,576i
+NTS.ru,SD,SD,,TRUE,s/UA-43;c/RU,Europe/Moscow,rus,576i
 NTSTV.md,SD,SD,,TRUE,c/MD,Europe/Chisinau,rus,576i
 NTTV.us,SD,SD,,TRUE,ct/USXJO,America/New_York,eng,480i
 NTV.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,eng,576i
@@ -23877,7 +23877,7 @@ OpenTV.gr,HD,HD,,FALSE,c/GR,Europe/Athens,ell,1080i
 OpenTV.gr,SD,SD,,TRUE,c/GR,Europe/Athens,ell,576i
 OpiniaoPlayTV.br,SD,SD,,TRUE,s/BR-SP,America/Sao_Paulo,por,480i
 Opinionsur.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
-OplotTV.ru,SD,SD,,TRUE,s/UA-14,Europe/Kyiv,rus,576i
+OplotTV.ru,SD,SD,,TRUE,s/UA-14;c/RU,Europe/Kyiv,rus,576i
 OPMTV.jm,SD,SD,,TRUE,c/JM,America/Jamaica,eng,576i
 OPMTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 OPMTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -30158,7 +30158,7 @@ STV.hr,SD,SD,,TRUE,c/HR,Europe/Zagreb,hrv,576i
 STV.id,SD,SD,,TRUE,s/ID-KI,Asia/Makassar,ind,576i
 STV.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz,576i
 STV.mz,SD,SD,,TRUE,c/MZ,Africa/Maputo,por,576i
-STV.ru,SD,SD,,TRUE,s/UA-43,Europe/Moscow,rus;ukr,576i
+STV.ru,SD,SD,,TRUE,s/UA-43;c/RU,Europe/Moscow,rus;ukr,576i
 STV.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng;lug,576i
 STV.uk,HD,HD,,FALSE,c/UK,Europe/London,eng,1080i
 STV.uk,Plus1,+1,,FALSE,c/UK,Europe/London,eng,576i
@@ -41602,7 +41602,7 @@ ZapVivaInternacional.ao,SD,SD,,TRUE,c/AO;c/PT;c/MZ,Africa/Luanda,por,576i
 ZaracayTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 ZarinTV.us,SD,SD,,TRUE,c/US,America/Los_Angeles,pus;ara,480i
 ZarokTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,kur;zza,576i
-ZaTV.ru,SD,SD,,TRUE,s/UA-23,Europe/Moscow,rus;ukr,576i
+ZaTV.ru,SD,SD,,TRUE,s/UA-23;c/RU,Europe/Moscow,rus;ukr,576i
 ZawyaTV.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 ZAZ.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 ZBBhakti.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,ben,720p

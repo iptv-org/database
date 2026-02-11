@@ -6023,7 +6023,7 @@ CHEXTV2.ca,SD,SD,,TRUE,ct/CAOSH,America/Toronto,eng,480i
 CHFDDT.ca,SD,SD,,TRUE,ct/CATHU,America/Thunder_Bay,eng,480i
 ChickenSoupfortheSoul.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 CHICMagazine.cl,SD,SD,,TRUE,r/HISPAM,America/Santiago,spa,480i
-ChiconiFMTV.yt,SD,SD,,TRUE,c/YT,Indian/Mayotte,fra,576i
+ChiconiFMTV.yt,SD,SD,,TRUE,c/YT,Indian/Mayotte,fra;swb;mlg,576i
 ChicosIPe.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 ChicStation.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 ChifengComprehensiveNewsChanel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,mon;aho,576i
@@ -10037,6 +10037,7 @@ FijiOne.fj,SD,SD,,TRUE,c/FJ,Pacific/Fiji,eng;hin;fij,576i
 FijiTV.fj,SD,SD,,TRUE,c/FJ,Pacific/Fiji,eng,576i
 Filamchi.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 FilamchiBhojpuri.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,bho,576i
+FilAmTVNetwork.us,HD,HD,,TRUE,c/US;c/PH,America/New_York,eng;tgl,1080p
 FilinfoTV.bf,SD,SD,,TRUE,c/BF,Africa/Ouagadougou,fra,576i
 FilipinoTV.ca,SD,SD,,TRUE,c/CA,America/Toronto,tgl,480i
 Film1Action.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld;eng,576i
@@ -19375,6 +19376,7 @@ labor14.de,HD,HD,,TRUE,s/DE-TH,Europe/Berlin,deu,720p
 LabTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 LaCadenadelaBendicion.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 LaCaletaTV.do,SD,SD,,TRUE,s/DO-01,America/Santo_Domingo,spa,480i
+LaCantinaMemorias.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480p
 LaChaine32.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 LaChaineDisney.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
 LaChaineFreeTV.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,1080p
@@ -19913,6 +19915,7 @@ LiveSky4.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 LiveTV.gr,SD,SD,,TRUE,c/GR,Europe/Athens,ell,576i
 LIVExLIVE.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 Living.nz,SD,SD,,TRUE,c/NZ,Pacific/Auckland,eng,576i
+LivingAsiaChannel.ph,HD,HD,,TRUE,c/PH,Asia/Manila,eng;tgl,1080p
 LivingFaithTV.us,SD,SD,,TRUE,c/US,Europe/London,eng;spa,480i
 LivingIndiaNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,pan,576i
 LivingSpringsTV.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
@@ -20854,6 +20857,7 @@ MelRadioTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,576i
 MeltemTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 MemaTV.at,SD,SD,,TRUE,c/AT,Europe/Vienna,deu,576i
 MemoriasdelCorazon.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
+MemoriasFMPopLatino.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480p
 MemoriasTV.co,SD,SD,,TRUE,r/HISPAM,America/Bogota,spa,480i
 MemoriasTVClassic.co,SD,SD,,TRUE,r/HISPAM,America/Bogota,eng;spa,480i
 MemoriasTVFilm.co,SD,SD,,TRUE,r/HISPAM,America/Bogota,spa,480i
@@ -24254,7 +24258,7 @@ Parlamentsfernsehen3.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 Parlamentsfernsehen4.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 ParlementTV.gn,SD,SD,,TRUE,c/GN,Africa/Conakry,fra,576i
 ParliamentaryTV.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
-ParliamentofFiji.fj,SD,SD,,TRUE,c/FJ,Pacific/Fiji,eng,576i
+ParliamentofFiji.fj,SD,SD,,TRUE,c/FJ,Pacific/Fiji,eng;hin;fij,576i
 ParliamentofGeorgia.ge,SD,SD,,TRUE,c/GE,Asia/Tbilisi,kat,576i
 ParliamentofKenya.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,eng,576i
 ParliamentofMalta.mt,SD,SD,,TRUE,c/MT,Europe/Malta,mlt,576i
@@ -27691,8 +27695,10 @@ SanookTV.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 SanPedroTV.ar,SD,SD,,TRUE,ct/ARSNP,America/Argentina/Jujuy,spa,576i
 SanPedroTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 SanPorto.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
+SansadTV1.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,hin;eng,1080i
 SansadTV1.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin;eng,576i
-SansadTV2.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,hin;eng,1080p
+SansadTV2.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,hin;eng,1080p
+SansadTV2.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin;eng,576i
 SanshaTV.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 SanskarTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 SanskarUK.in,SD,SD,,TRUE,c/UK,Asia/Kolkata,hin,576i
@@ -34873,6 +34879,7 @@ VechtdalTV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 Vedia.be,HD,HD,,FALSE,c/BE,Europe/Brussels,fra,1080i
 Vedia.be,SD,SD,,TRUE,c/BE,Europe/Brussels,fra,576i
 Vedic.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+VegasLifeTV.us,HD,HD,,TRUE,c/US;c/PH,America/New_York,eng;tgl,1080p
 VegaTeve.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 VegavisionCanal18.do,SD,SD,,TRUE,s/DO-13,America/Santo_Domingo,spa,480i
 VelayatTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i

@@ -1290,6 +1290,7 @@ AlkassOne.qa,HD,HD,,FALSE,c/QA,Asia/Qatar,ara,1080i
 AlkassOne.qa,SD,SD,,TRUE,c/QA,Asia/Qatar,ara,576i
 AlkassSeven.qa,SD,SD,,TRUE,c/QA,Asia/Qatar,ara,576i
 AlkassSHOOF.qa,SD,SD,,TRUE,c/QA,Asia/Qatar,ara,576i
+AlkassSHOOF2.qa,SD,SD,,TRUE,c/QA,Asia/Qatar,ara,1080p
 AlkassSix.qa,HD,HD,,FALSE,c/QA,Asia/Qatar,ara,1080i
 AlkassSix.qa,SD,SD,,TRUE,c/QA,Asia/Qatar,ara,576i
 AlkassTen.qa,SD,SD,,TRUE,c/QA,Asia/Qatar,ara,576i
@@ -25551,7 +25552,7 @@ ProntosocorroHistoriasDeEmergencia.us,Brazil,Brazil,,TRUE,c/BR,America/Sao_Paulo
 PropertyTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 PropexTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
 Prophet1TV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
-PropheticChannel.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
+PropheticChannel.za,SD,SD,,TRUE,c/ZA;c/MW,Africa/Johannesburg,eng,576i
 ProSieben.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 ProSiebenAustria.at,HD,HD,,FALSE,c/AT,Europe/Vienna,deu,1080i
 ProSiebenAustria.at,SD,SD,,TRUE,c/AT,Europe/Vienna,deu,576i

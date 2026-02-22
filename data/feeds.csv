@@ -6815,8 +6815,8 @@ CNBCEurope.uk,HD,HD,,FALSE,r/EUR,America/Toronto,eng,1080i
 CNBCEurope.uk,SD,SD,,TRUE,r/EUR,America/Toronto,eng,576i
 CNBCIndonesia.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 CNBCMarathon.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
-CNBCTV18.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
-CNBCTV18PrimeHD.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+CNBCTV18.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
+CNBCTV18PrimeHD.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 CNBCUK.uk,HD,HD,,FALSE,c/UK;c/IE,America/Toronto,eng,1080i
 CNBCUK.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 CNBCWorld.us,SD,SD,,TRUE,r/NORAM,America/New_York,eng,480i
@@ -29784,7 +29784,9 @@ StarSports2.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin;tam;tel,576i
 StarSports2Hindi.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,hin,1080i
 StarSports2Hindi.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 StarSports2Kannada.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kan,576i
+StarSports2Tamil.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tam,1080p
 StarSports2Tamil.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
+StarSports2Telugu.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tel,1080p
 StarSports2Telugu.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 StarSports3.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin;ben;mal,576i
 StarSportsKhel.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i

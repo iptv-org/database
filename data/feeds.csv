@@ -495,7 +495,7 @@ AalamiSamay.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,urd,576i
 AamarBangla.in,SD,SD,,TRUE,c/IN;c/BD,Asia/Kolkata,ben,576i
 AamNepaliTV.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 AapkaColors.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
-AaryaaTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
+AaryaaTV.in,SD,SD,,TRUE,c/IN;s/IN-TN;ct/INTKS,Asia/Kolkata,tam,576i
 AaseervathamTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
 Aastha.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 AasthaBhajan.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -7740,7 +7740,7 @@ DDNews.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,hin,1080i
 DDNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,1080p
 DDNewsGujarati.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,guj,576i
 DDOdia.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ori,576i
-DDPuducherry.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
+DDPuducherry.in,SD,SD,,TRUE,c/IN;s/IN-PY,Asia/Kolkata,tam,576i
 DDPunjabi.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,pan,576i
 DDRajasthan.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 DDRetro.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -7909,7 +7909,7 @@ DharmaTelevision.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 DharmaTV.th,SD,SD,,TRUE,c/TH,Asia/Kathmandu,tha,576i
 DharmavahiniTV.lk,SD,SD,,TRUE,c/LK,Asia/Colombo,sin,576i
 DharmSandesh.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
-DharsanTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
+DharsanTV.in,SD,SD,,TRUE,c/IN;s/IN-TN;ct/INKCP,Asia/Kolkata,tam,576i
 DhartiTV.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,snd,576i
 DhaulagiriTelevision.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 DHE.us,SD,SD,,TRUE,r/HISPAM,America/New_York,spa,480i
@@ -14358,7 +14358,7 @@ KANGLP1.us,SD,SD,,TRUE,ct/USSJT,America/Chicago,eng,480i
 KanizsaTV.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 KannadaCinemaClub.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kan,576i
 KannurOne.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
-KannurVision.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
+KannurVision.in,SD,SD,,TRUE,c/IN;s/IN-KL;ct/INKNN,Asia/Kolkata,mal,576i
 KanonTVSudan.sd,SD,SD,,TRUE,c/SD,Africa/Khartoum,ara,576i
 KANSAINews24.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 KanshiTV.uk,SD,SD,,TRUE,c/UK,Europe/London,hin,576i
@@ -14869,7 +14869,7 @@ KCLODT2.us,SD,SD,,TRUE,ct/USFSD,America/Chicago,eng,480i
 KCLODT3.us,SD,SD,,TRUE,ct/USFSD,America/Chicago,eng,480i
 KCLODT4.us,SD,SD,,TRUE,ct/USFSD,America/Chicago,eng,480i
 KCLPCD1.us,SD,SD,,TRUE,ct/USBOI,America/Boise,eng,480i
-KCLTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
+KCLTV.in,SD,SD,,TRUE,c/IN;s/IN-KL;ct/INCCJ,Asia/Kolkata,mal,576i
 KCLV.us,SD,SD,,TRUE,ct/USLAS,America/Los_Angeles,eng;spa,480i
 KCM.sg,India,India,,TRUE,c/IN,Asia/Kolkata,eng,1080p
 KCMNLD1.us,SD,SD,,TRUE,ct/USMKC,America/Chicago,eng,480i
@@ -20530,8 +20530,8 @@ Martinique1ere.mq,SD,SD,,TRUE,c/MQ,America/Martinique,fra,480i
 MarTV.es,SD,SD,,TRUE,ct/ESCBI,Europe/Madrid,cat,576i
 MarTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 MaruayTV.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
-MarutamMusic.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
-MarutamTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
+MarutamMusic.in,SD,SD,,TRUE,c/IN;s/IN-TN;ct/INDPI,Asia/Kolkata,tam,576i
+MarutamTV.in,SD,SD,,TRUE,c/IN;s/IN-TN;ct/INDPI,Asia/Kolkata,tam,576i
 MARUTelevision.bw,SD,SD,,TRUE,c/BW,Africa/Gaborone,eng;tsn,576i
 MarvelHQ.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 MarvisionTV.bo,SD,SD,,TRUE,c/BO,America/La_Paz,eng,480i
@@ -23402,7 +23402,7 @@ NTANews24.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 NTAParliament.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 NTASports24.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 NTAYoruba.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
-NTCTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
+NTCTV.in,SD,SD,,TRUE,c/IN;s/IN-TN;ct/INTJV,Asia/Kolkata,tam,576i
 NTDDT1.us,SD,SD,,TRUE,c/US,America/New_York,zho;eng,480i
 NTDTV.us,East,East,,TRUE,c/US,America/New_York,zho;eng,480i
 NTDTV.us,West,West,,FALSE,c/US,America/Los_Angeles,zho;eng,480i
@@ -26927,8 +26927,8 @@ RodnoeKino.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 Rodnoykanal.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 Rohi.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,lah,576i
 ROITV.yt,SD,SD,,TRUE,c/YT,Indian/Mayotte,fra;swb;eng,576i
-RojaMovies.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
-RojaTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
+RojaMovies.in,SD,SD,,TRUE,c/IN;s/IN-TN;ct/INCJB,Asia/Kolkata,tam,576i
+RojaTV.in,SD,SD,,TRUE,c/IN;s/IN-TN;ct/INCJB,Asia/Kolkata,tam,576i
 RojavaTV.sy,SD,SD,,TRUE,c/SY,Asia/Damascus,ara;kur,576i
 ROK.uk,SD,SD,,TRUE,c/NG,Europe/London,eng,576i
 ROK2.uk,SD,SD,,TRUE,c/NG,Europe/London,eng,576i
@@ -30236,7 +30236,7 @@ Subbota.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 Subela.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 SubhartiTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 SubhavaarthaTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
-SubinTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
+SubinTV.in,SD,SD,,TRUE,c/IN;s/IN-TN;ct/INTKS,Asia/Kolkata,tam,576i
 SubNews.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,eng,576i
 SuboroTV.lb,SD,SD,,TRUE,c/LB,Asia/Beirut,ara,576i
 SubRangTV.us,SD,SD,,TRUE,c/US,America/New_York,hin,480i
@@ -34528,7 +34528,7 @@ UlaffTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 UlibkaRebyonka.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 UlkeTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 ULosLagosTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
-UltimateTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
+UltimateTV.in,SD,SD,,TRUE,c/IN;s/IN-TN;ct/INTRI,Asia/Kolkata,tam,576i
 UltraCasanareTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 UltraFamilia.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 UltraHDCinema.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
@@ -34905,7 +34905,7 @@ VatiLao.la,SD,SD,,TRUE,c/LA,Asia/Vientiane,lao,576i
 Vavoom.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 VavTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 Vayasemanita.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
-VBCNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
+VBCNews.in,SD,SD,,TRUE,c/IN;s/IN-KL;ct/INIDU,Asia/Kolkata,mal,576i
 VBMediaTV.mx,SD,SD,,TRUE,ct/MXSQE,America/Mexico_City,spa,480i
 VBS.ca,SD,SD,,TRUE,c/CA,America/Toronto,vie,480i
 VBSTV.us,SD,SD,,TRUE,c/US;c/VN,America/New_York,vie,480i
@@ -34929,7 +34929,7 @@ VegavisionCanal18.do,SD,SD,,TRUE,s/DO-13,America/Santo_Domingo,spa,480i
 VelayatTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 VelayatTVNetwork.us,SD,SD,,TRUE,c/US,America/New_York,fas,480i
 VelichamTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
-VenadNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
+VenadNews.in,SD,SD,,TRUE,c/IN;s/IN-KL;ct/INKUK,Asia/Kolkata,mal,576i
 VendharTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
 Venevision.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 VenevisionInternacional.ve,SD,SD,,TRUE,c/VE;r/HISPAM;c/US,America/Caracas,spa,480i

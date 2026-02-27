@@ -1813,6 +1813,7 @@ AntaraTV.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 AntaresTelevision.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 AntelCanal29.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,576i
 AntelEventos.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
+AntelTVInternacional.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Antena1.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,576i
 Antena1.ro,HD,HD,,FALSE,c/RO,Europe/Bucharest,ron,1080i
 Antena1.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
@@ -5206,8 +5207,8 @@ Carac1.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
 Carac2.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
 Carac3.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
 Carac4.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
-Carac5.ch,HD,HD,,FALSE,c/FR;c/CH;c/BE;c/MC,Europe/Zurich,fra,1080p
-Carac5.ch,SD,SD,,TRUE,c/CH;c/FR;c/BE;c/MC,Europe/Zurich,fra,576i
+Carac5.ch,HD,HD,,FALSE,c/CH,Europe/Zurich,fra,1080p
+Carac5.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
 CaracolaTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 CaracolHD2.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 CaracolInternacional.co,SD,SD,,TRUE,r/HISPAM,America/Bogota,spa,480i
@@ -20115,6 +20116,9 @@ LoveofJesusTV.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,eng,576i
 LoveRevolutionTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 Loversenykozvetites.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 LoveTelevision.bz,SD,SD,,TRUE,c/BZ,America/Belize,eng,480i
+LoveThePlanet.es,DE,DE,DACH;German;Deutsch,FALSE,c/AT;c/CH;c/DE,Europe/Berlin,deu,1080p
+LoveThePlanet.es,ES,ES,español;spanish,FALSE,c/ES,Europe/Madrid,spa,1080p
+LoveThePlanet.es,IT,IT,Italiano;Italy,FALSE,c/IT,Europe/Rome,ita,1080p
 LoveThePlanet.es,SD,SD,,TRUE,c/UK;r/EUR,Europe/Madrid,eng,576i
 LovetoonsTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 LoveTV.jm,SD,SD,,TRUE,c/JM,America/Jamaica,eng,576i
@@ -24286,6 +24290,7 @@ ParkTV.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 ParkTV.us,SD,SD,,TRUE,s/US-MN,America/New_York,eng,480i
 ParlamentodeAndalucia.es,SD,SD,,TRUE,s/ES-AN,Europe/Madrid,spa,576i
 ParlamentodeNavarra.es,SD,SD,,TRUE,ct/ESPNA,America/Bogota,spa;eus,576i
+ParlamentoTV.aw,SD,SD,,TRUE,c/AW,America/Aruba,nld;pap;eng,576i
 Parlamentsfernsehen1.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 Parlamentsfernsehen2.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 Parlamentsfernsehen3.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
@@ -25282,6 +25287,10 @@ PolsatSport1.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 PolsatSport2.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 PolsatSport3.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 PolsatSportExtra.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
+PolsatSportExtra1.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
+PolsatSportExtra2.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
+PolsatSportExtra3.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
+PolsatSportExtra4.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
 PolsatSportFight.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 PolsatSportNews.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 PolsatSportPremium1.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i

@@ -2110,6 +2110,9 @@ Arryadia.ma,HD1,HD 1,Olympics HD,FALSE,c/MA,Africa/Casablanca,ara,1080p
 Arryadia.ma,HDTNT,HD TNT,الأرظية,FALSE,c/MA,Africa/Casablanca,ara,1080p
 Arryadia.ma,SD,SD,,TRUE,c/MA,Africa/Casablanca,ara,576i
 Arryadia.ma,TNT,TNT,الأرظية,FALSE,c/MA,Africa/Casablanca,ara,576i
+ArryadiaHD1.ma,HD,HD,,TRUE,c/MA,Africa/Casablanca,ara,1080p
+ArryadiaHD2.ma,HD,HD,,TRUE,c/MA,Africa/Casablanca,ara,1080p
+ArryadiaHD3.ma,HD,HD,,TRUE,c/MA,Africa/Casablanca,ara,1080p
 Arsenal.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 ART.gr,SD,SD,,TRUE,c/GR;s/GR-I,Europe/Athens,ell,576i
 ARTAflam1.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,ara,576i
@@ -5748,6 +5751,7 @@ CGTNDocumentary.cn,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,Asia/Shanghai,eng,576i
 CGTNDocumentary.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur;eng,576i
 CGTNEurope.uk,SD,SD,,TRUE,r/EUR,America/Toronto,eng,576i
 CGTNFrench.cn,SD,SD,,TRUE,r/AMER;r/EMEA,Asia/Shanghai,fra,576i
+CGTNGlobalBiz.cn,SD,SD,,TRUE,r/AMER;r/APAC;r/EMEA,Asia/Shanghai,zho;eng,1080p
 CGTNGuyana.gy,SD,SD,,TRUE,c/GY,Asia/Shanghai,eng,480i
 CGTNRussian.cn,SD,SD,,TRUE,r/CIS,Asia/Shanghai,rus,576i
 CGTNSpanish.cn,SD,SD,,TRUE,r/HISPAM,Asia/Shanghai,spa,576i
@@ -6053,6 +6057,7 @@ Chillayo.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 ChiloeRed25.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 ChinaArabTV.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,ara;zho,576i
 ChinaMovieChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
+ChinaTravel.cn,SD,SD,,TRUE,r/AMER;r/APAC;r/EMEA,Asia/Shanghai,zho;eng,1080p
 ChinaWeatherChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 ChinchaTV.pe,SD,SD,,TRUE,ct/PECAA,America/Lima,spa,480i
 ChineseDrama.hk,SD,SD,,TRUE,c/HK,Asia/Hong_Kong,yue,576i
@@ -8032,6 +8037,7 @@ DirtyMasseur.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 DirtyWivesClub.us,SD,SD,,TRUE,c/US,America/Los_Angeles,eng,480i
 DiscoPoloMusic.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 DiscoverFilm.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
+DiscoveringChina.cn,SD,SD,,TRUE,r/AMER;r/APAC;r/EMEA,Asia/Shanghai,zho;eng,1080p
 DiscoverPakistan.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,urd,576i
 Discovery.de,HD,HD,,FALSE,c/DE,Europe/Berlin,deu,1080i
 Discovery.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
@@ -20613,6 +20619,7 @@ MatiguasTVCanal42.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,576i
 MatinLibreTV.bj,SD,SD,,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 Matkanalen.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 Matlock.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+MatrixTVYogyakarta.id,HD,HD,,TRUE,s/ID-YO,Asia/Jakarta,ind;jav,720p
 MaturTV.ru,SD,SD,,TRUE,s/RU-BA;s/RU-TA,Asia/Yekaterinburg,rus,576i
 MAtv.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 MATV.mg,SD,SD,,TRUE,c/MG,Indian/Antananarivo,fra;mlg,576i
@@ -27708,7 +27715,6 @@ SamoborTV.hr,SD,SD,,TRUE,c/HR,Europe/Zagreb,hrv,576i
 SampitTV.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,720p
 SAMPublicChannel.us,SD,SD,,TRUE,ct/USSZV,America/New_York,eng,480i
 Samrujlok.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha;eng,576i
-SamsungMovieSphere.us,SD,SD,,TRUE,c/US,America/New_York,eng,720p
 SamsungWildlife.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 SAMTV.lr,SD,SD,,TRUE,c/LR,Africa/Monrovia,eng,576i
 SamuderaTV.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
@@ -41354,14 +41360,25 @@ XinjiangTV8.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,kaz,576i
 XinjiangTV9.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,uig,576i
 XITE.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 XITE60s70sGroove.nl,US,US,,TRUE,c/US,America/New_York,eng,1080p
+XITE90sThrowback.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,eng,1080p
+XITEAllOutDance.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,1080p
+XITECelebrates.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,eng,1080p
 XITEClassicCountry.nl,SD,SD,,TRUE,c/US,America/New_York,eng,1080p
+XITEHipHopEvolution.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,eng,1080p
 XITEHits.nl,Germany,Germany,,FALSE,c/DE,Europe/Berlin,eng;deu,1080p
 XITEHits.nl,NL,NL,Netherlands,TRUE,c/NL,Europe/Amsterdam,eng;nld,1080p
 XITEHits.nl,UK,UK,GB,FALSE,c/UK,Europe/London,eng,1080p
 XITEHits.nl,US,US,,FALSE,c/US;c/CA,America/New_York,eng,1080p
 XITEJustChill.nl,US,US,,TRUE,c/US,America/New_York,eng,1080p
+XITELekkerHollands.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld;deu,1080p
+XITENuevoLatino.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,spa;por,1080p
+XITERapGame.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,eng,1080p
+XITERBFeels.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,eng,1080p
 XITEReggaeVibes.nl,HD,HD,,TRUE,c/NL;c/US,Europe/Amsterdam,eng,576i
 XITERockxMetal.nl,US,US,,TRUE,c/US,America/New_York,eng,1080p
+XITESiempreLatino.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,spa;por,1080p
+XITEUltimateThrowback.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,1080p
+XITEVanEigenBodem.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,1080p
 XizangTVChinese.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 XizangTVTibetan.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,bod,576i
 XLevelMedia.ar,SD,SD,,TRUE,c/PR,America/Puerto_Rico,spa,480i

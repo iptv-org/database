@@ -1348,6 +1348,7 @@ AMCenEspanol.us,AMC en Espanol,AMC en Español,AMC,AMC Networks Inc.,US,entertai
 AMCEurope.uk,AMC Europe,,AMC Networks International UK,AMC Networks Inc.,UK,movies,FALSE,2015-08-28,,,https://uk.amc.com/
 AMCIFCFilmPicks.us,AMC IFC Film Picks,,IFC,AMC Networks Inc.,US,movies,FALSE,,,,
 AMCLatinAmerica.us,AMC Latin America,,AMC,AMC Networks Inc.,US,movies,FALSE,,,,http://www.amctv.la/
+AMCLiving.es,AMC Living,¡BUENVIAJE!;Decasa,,AMC Networks International Southern Europe,ES,lifestyle;travel,FALSE,2026-02-10,,,https://amcchannels.es/amc-living
 AMCPlus.us,AMC+,,AMC,AMC Networks Entertainment LLC;AMC Networks Inc.,US,entertainment,FALSE,,,,https://www.amcplus.com/
 AMCPresents.us,AMC Presents,,AMC,AMC Networks Inc.,US,entertainment,FALSE,,,,https://www.amc.com/
 AMCRush.us,AMC Rush,,AMC,AMC Networks Inc.,US,movies,FALSE,,,,https://www.amc.com/
@@ -1355,6 +1356,7 @@ AMCSlightlyOff.us,AMC Slightly Off,,AMC,AMC Networks Inc.,US,entertainment,FALSE
 AMCThrillers.us,AMC Thrillers,,AMC,AMC Networks Inc.,US,movies,FALSE,,,,https://watch.plex.tv/live-tv/channel/amc-thrillers
 AMCTV.cl,AMC TV,,,,CL,,FALSE,,,,https://www.amcmedios.cl/
 AMCTV.tr,AMC TV,Asian Music Channel TV,,Kam Group,TR,music,FALSE,,,,https://amc.wns.live/
+AMCWestern.es,AMC Western,,,AMC Networks International Southern Europe,ES,classic;movies,FALSE,2026-02-10,,,https://amcchannels.es/amc-western
 Ame47.do,Ame 47,Amé 47,,Grupo Lopez,DO,general,FALSE,,,,https://www.rdmusica.com/
 Ameba.ca,Ameba,,,,CA,kids,FALSE,,,,https://www.amebatv.com/
 AmediaHit.ru,Amedia Hit,,,,RU,movies;series,FALSE,,,,http://amediatv.ru/amedia-hit/
@@ -3471,7 +3473,7 @@ Budsaba.th,Budsaba,,,,TH,,FALSE,,,,http://www.nextsteptv.com/budsaba/
 BuenaTV.pr,Buena TV,,,,PR,entertainment,FALSE,,,,
 BuendiaTV.hn,Buendia TV,,,,HN,news,FALSE,,,,https://www.btvhn.com
 BuenisimaRadioTV.co,Buenisima Radio TV,Buenísima Radio TV,,Der Medios & Marketing,CO,music,FALSE,2021-09-13,,,https://canal.mediaserver.com.co/live/buenisimatv.m3u8
-BUENVIAJE.es,¡BUENVIAJE!,,,AMC Networks Inc.,ES,entertainment,FALSE,,,,https://amcselekt.es/buenviaje
+BUENVIAJE.es,¡BUENVIAJE!,,,AMC Networks Inc.,ES,travel,FALSE,,2026-02-10,AMCLiving.es,https://amcselekt.es/buenviaje
 BuffaloTV.us,Buffalo TV,,,,US,,FALSE,,,,
 BugTV.by,Bug-TV,Буг-ТВ,,,BY,general,FALSE,,,,https://bugtv.by/
 BuinSomosTodos.cl,Buin Somos Todos,,,,CL,,FALSE,,,,https://www.buin.cl/senal-online/

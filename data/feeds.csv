@@ -1541,6 +1541,7 @@ AMCEurope.uk,UK,UK,,TRUE,c/UK,Europe/London,eng,576i
 AMCIFCFilmPicks.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 AMCLatinAmerica.us,Brazil,Brazil,,FALSE,c/BR,America/New_York,por,480i
 AMCLatinAmerica.us,SD,SD,,TRUE,c/AR,America/New_York,spa,480i
+AMCLiving.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 AMCPlus.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 AMCPresents.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 AMCRush.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -1548,6 +1549,7 @@ AMCSlightlyOff.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 AMCThrillers.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 AMCTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 AMCTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,fas;tur;ara;uzb;eng;hin,576i
+AMCWestern.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 Ame47.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 Ameba.ca,SD,SD,,TRUE,c/CA,America/Winnipeg,eng,480i
 AmediaHit.ru,HD,HD,,FALSE,c/RU,Europe/Oslo,rus,1080i
@@ -7751,11 +7753,13 @@ DDPuducherry.in,SD,SD,,TRUE,c/IN;s/IN-PY,Asia/Kolkata,tam,576i
 DDPunjabi.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,pan,576i
 DDRajasthan.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 DDRetro.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+DDSahyadri.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,mar,1080p
 DDSahyadri.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mar,576i
 DDSaptagiri.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 DDSikkim.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 DDSports.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,hin;eng;tam;kan;ben;bho;sgn;tel,1080p
 DDSports.in,SD,SD,,FALSE,c/IN,Asia/Kolkata,hin,576i
+DDTamil.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tam,1080p
 DDTamil.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
 DDTripura.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 DDTV.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
@@ -15933,7 +15937,7 @@ KIFIDT3.us,SD,SD,,TRUE,ct/USIDA,America/Boise,eng,480i
 KIFIDT5.us,SD,SD,,TRUE,ct/USIDA,America/Boise,spa,480i
 KIFRDT1.us,SD,SD,,TRUE,ct/USVIS,America/Los_Angeles,eng,480i
 KIFRDT2.us,SD,SD,,TRUE,ct/USVIS,America/Los_Angeles,eng,480i
-KIIIDT1.us,SD,SD,,TRUE,ct/USCRP,America/Chicago,eng,480i
+KIIIDT1.us,HD,HD,,TRUE,ct/USCRP,America/Chicago,eng;spa,720p
 KIIIDT2.us,SD,SD,,TRUE,ct/USCRP,America/Chicago,eng,480i
 KIIIDT3.us,SD,SD,,TRUE,ct/USCRP,America/Chicago,eng,480i
 KIIIDT4.us,SD,SD,,TRUE,ct/USCRP,America/Chicago,eng,480i

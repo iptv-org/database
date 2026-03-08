@@ -898,6 +898,7 @@ AFilm.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 Afizzionados.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 AflakTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 Aflam.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,arz;ara,576i
+AflamTV.ma,HD,HD,,FALSE,c/MA,Africa/Casablanca,ara;fra,1080p
 AflamTV.ma,SD,SD,,TRUE,c/MA,Africa/Casablanca,ara;fra,576i
 AflaoTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 AFNFamily.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -1114,6 +1115,7 @@ AlAnwarTV.kw,SD,SD,,TRUE,c/KW,America/Toronto,ara,576i
 AlanyaPostaTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 AlAoula.ma,HD,HD,,FALSE,c/MA,Africa/Casablanca,ara;fra;spa,1080i
 AlAoula.ma,Inter,Inter,,FALSE,c/MA,Africa/Casablanca,ara;fra;spa,576i
+AlAoula.ma,InterHD,Inter HD,,FALSE,c/MA,Africa/Casablanca,ara;fra;spa,1080p
 AlAoula.ma,MiddleEast,Middle East,,FALSE,c/MA,Africa/Casablanca,ara;fra;spa,576i
 AlAoula.ma,SD,SD,,TRUE,c/MA,Africa/Casablanca,ara;fra;spa,576i
 AlaqariaTV.dz,SD,SD,,TRUE,c/DZ,Africa/Algiers,ara,576i
@@ -1340,6 +1342,7 @@ AlmagdTV.us,SD,SD,,TRUE,c/US,America/New_York,ara;eng,480i
 AlmagdTVMiddleEast.us,SD,SD,,TRUE,c/US,America/New_York,ara;eng,480i
 AlmagdTVNorthAmerica.us,SD,SD,,TRUE,c/US,America/New_York,ara;eng,480i
 AlmagharibiaTV.uk,SD,SD,,TRUE,c/UK;c/DZ,America/Toronto,ara,576i
+AlMaghribia.ma,HD,HD,,FALSE,c/MA,Africa/Casablanca,ara,1080p
 AlMaghribia.ma,SD,SD,,TRUE,c/MA,Africa/Casablanca,ara,576i
 AlmahaliyaTV.sy,SD,SD,,TRUE,c/SY,Asia/Damascus,ara,576i
 AlMahdiTV.us,SD,SD,,TRUE,c/US,America/New_York,fas,480i
@@ -2241,6 +2244,7 @@ Aspire.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 AsPistasdeBlue.us,Brazil,Brazil,,TRUE,c/BR,America/Sao_Paulo,por,480i
 ASpor.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 AsrTV.af,SD,SD,,TRUE,c/AF,Asia/Kabul,prd,576i
+Assadissa.ma,HD,HD,,FALSE,c/MA,Africa/Casablanca,ara;fra,1080p
 Assadissa.ma,SD,SD,,TRUE,c/MA,Africa/Casablanca,ara;fra,576i
 AsSamadiyyaTV.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,fra;wol,576i
 AssamTalks.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,asm,576i
@@ -2346,6 +2350,7 @@ AtfalMawahebTV.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,ara,576i
 ATG.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 ATGLive.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 Athagavia.mr,SD,SD,,TRUE,c/MR,Africa/Nouakchott,ara,576i
+Athaqafia.ma,HD,HD,,FALSE,c/MA,Africa/Casablanca,ara,1080p
 Athaqafia.ma,SD,SD,,TRUE,c/MA,Africa/Casablanca,ara,576i
 AthavanTV.lk,SD,SD,,TRUE,c/LK,Asia/Colombo,sin,576i
 AthinaTV.gr,SD,SD,,TRUE,c/GR;s/GR-I,Europe/Athens,ell,576i
@@ -10842,8 +10847,8 @@ GeminiComedy.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 GeminiLife.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 GeminiMovies.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tel,1080p
 GeminiMovies.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
-GeminiMusic.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,tel,1080p
-GeminiMusic.in,SD,SD,,FALSE,c/IN,Asia/Kolkata,tel,576i
+GeminiMusic.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tel,1080p
+GeminiMusic.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 GeminiTV.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tel,1080p
 GeminiTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 GEMJunior.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
@@ -11428,7 +11433,7 @@ GuatusoTV.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,480i
 GuaTV.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 GuayapeTV.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 GuaymateTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
-Gubbare.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin;tam;tel;mal,576i
+Gubbare.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin;tam;tel,576i
 GuberniaKhabarovsk.ru,SD,SD,,TRUE,s/RU-KHA,Asia/Vladivostok,rus,576i
 GuberniaSamara.ru,SD,SD,,TRUE,s/RU-SAM,Europe/Samara,rus,576i
 Guberniya33.ru,SD,SD,,TRUE,s/RU-VLA,Europe/Moscow,rus,576i
@@ -22386,7 +22391,7 @@ NationalGeographicWild.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 NationalGeographicWild.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 NationalGeographicWild.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,heb,576i
 NationalGeographicWild.in,HD,HD,,FALSE,c/IN;c/BD;c/NP;c/LK,Asia/Kolkata,eng;hin;kan;mal;tel;tam;ben;mar,1080i
-NationalGeographicWild.in,SD,SD,,TRUE,c/IN;c/BD;c/NP;c/LK,Asia/Kolkata,hin,576i
+NationalGeographicWild.in,SD,SD,,TRUE,c/IN;c/BD;c/NP;c/LK,Asia/Kolkata,eng;hin;kan;mal;tel;tam;ben;mar,576i
 NationalGeographicWild.it,Plus1,+1,,FALSE,c/IT,Europe/Rome,ita,576i
 NationalGeographicWild.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 NationalGeographicWild.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
@@ -30811,6 +30816,7 @@ TamadonTV.af,SD,SD,,TRUE,c/AF,Asia/Kabul,prd,576i
 TamarugalTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 Tamasha.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 TamazghaMondeTV.ca,SD,SD,,TRUE,c/CA;c/US;c/DZ,America/Toronto,taq;kab,480i
+TamazightTV.ma,HD,HD,,FALSE,c/MA,Africa/Casablanca,ara;rif;shi;tzm,1080p
 TamazightTV.ma,SD,SD,,TRUE,c/MA,Africa/Casablanca,ara;rif;shi;tzm,576i
 Tamazvision.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 TambaraTV.ne,SD,SD,,TRUE,c/NE,Africa/Niamey,fra;hau;fuh,576i

@@ -12526,8 +12526,8 @@ IcelTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 IcePilots.us,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
 IcePilots.us,Spain,Spain,,FALSE,c/ES,Europe/Madrid,spa,576i
 IcePilots.us,UK,UK,,FALSE,c/UK,Europe/London,eng,576i
-IceSports.mv,SD,SD,,TRUE,c/MV,Indian/Maldives,div,576i
-IceTV.mv,SD,SD,,TRUE,c/MV,Indian/Maldives,div,576i
+ICESports.mv,SD,SD,,TRUE,c/MV,Indian/Maldives,div,576i
+ICETV.mv,SD,SD,,TRUE,c/MV,Indian/Maldives,div,576i
 ICFN.us,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,America/Phoenix,eng,480i
 IciARTV.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
 iciElsass.fr,SD,SD,,TRUE,s/FR-6AE,Europe/Paris,gsw,576i
@@ -21615,8 +21615,8 @@ MovieSphere.us,DE,DE,Deutsch,FALSE,c/DE,Europe/Berlin,deu,1080p
 MovieSphere.us,ES,ES,español,FALSE,c/ES,Europe/Madrid,spa,1080p
 MovieSphere.us,FR,FR,Français,FALSE,c/FR,Europe/Paris,fra,1080p
 MovieSphere.us,MX,MX,español,FALSE,c/MX,America/Mexico_City,spa,1080p
-MovieSphere.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 MovieSphere.us,UK,UK,,FALSE,c/UK,Europe/London,eng,1080p
+MovieSphere.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 MoviessatAsia.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 MovieStar.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 MoviesThriller.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,ara;eng,576i

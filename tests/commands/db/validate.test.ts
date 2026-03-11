@@ -72,6 +72,7 @@ describe('db:validate', () => {
       if (process.env.DEBUG === 'true') console.log(cmd, (error as ExecError).stdout)
       expect((error as ExecError).status).toBe(1)
       expect((error as ExecError).stdout).toContain(`channels.csv
+ 2     002RadioTV.do: "name" with value "002 Radio  TV" fails to match the required pattern: /^(?!.* {2})/
  2     002RadioTV.do: "website" must be a valid uri with a scheme matching the http|https pattern
  2     "002RadioTV.do" has an more than one main feed
  2     "002RadioTV.do" has an invalid replaced_by "002RadioTV.do@4K"
@@ -97,7 +98,7 @@ describe('db:validate', () => {
  3     "AD-02" has an invalid parent "AD-05"`)
       expect((error as ExecError).stdout).toContain(`timezones.csv
  2     "Africa/Accra" has the wrong countries "GH"`)
-      expect((error as ExecError).stdout).toContain('19 error(s)')
+      expect((error as ExecError).stdout).toContain('20 error(s)')
     }
   })
 

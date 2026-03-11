@@ -81,7 +81,8 @@ describe('db:validate', () => {
  2     0TV.dk@SD: "format" with value "576I" fails to match the required pattern: /^\\d+(i|p)$/
  2     "0TV.dk@SD" has the wrong channel "0TV.dk"
  2     "0TV.dk@SD" has the wrong broadcast_area "c/BE"
- 2     "0TV.dk@SD" has the wrong timezones "Europe/Copenhagen"`)
+ 2     "0TV.dk@SD" has the wrong timezones "Europe/Copenhagen"
+ 5     24B.do@MiddleEast: "name" with value "Middle  East" fails to match the required pattern: /^(?!.* {2})`)
       expect((error as ExecError).stdout).toContain(`logos.csv
  2     i.imgur.com/rNffU8H.jpeg: "format" must be one of [SVG, PNG, JPEG, GIF, WebP, AVIF, APNG, null]
  2     i.imgur.com/rNffU8H.jpeg: "url" must be a valid uri with a scheme matching the https pattern
@@ -98,7 +99,7 @@ describe('db:validate', () => {
  3     "AD-02" has an invalid parent "AD-05"`)
       expect((error as ExecError).stdout).toContain(`timezones.csv
  2     "Africa/Accra" has the wrong countries "GH"`)
-      expect((error as ExecError).stdout).toContain('20 error(s)')
+      expect((error as ExecError).stdout).toContain('21 error(s)')
     }
   })
 

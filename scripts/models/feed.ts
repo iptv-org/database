@@ -118,6 +118,7 @@ export class Feed extends sdk.Models.Feed implements Validator {
       name: Joi.string()
         .regex(/^[a-z0-9-!:&.+'/»#%°$@?|¡–\s_—]+$/i)
         .regex(/^((?!\s-\s).)*$/)
+        .regex(/^(?!.* {2})/)
         .required(),
       alt_names: Joi.array().items(
         Joi.string()

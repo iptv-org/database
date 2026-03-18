@@ -1774,8 +1774,6 @@ AnimaxEasternEurope.us,SD,SD,,TRUE,r/EUR,Europe/London,eng,576i
 AnimaxLatinAmerica.ve,SD,SD,,TRUE,r/LATAM,America/Caracas,spa;por,480i
 Anime.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,ara;jpn,576i
 Anime247.us,SD,SD,,TRUE,c/US,America/New_York,jap,1080p
-AnimeAllDay.us,UK,UK,,FALSE,c/UK,Europe/London,eng,576i
-AnimeAllDay.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 AnimeClasico.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 ANIMESTATION.ar,SD,SD,,TRUE,c/CL;r/LATAM,America/Argentina/Buenos_Aires,spa,576i
 Animestation.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
@@ -6236,6 +6234,7 @@ Cine34.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 Cine35mm.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 Cine5.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 CineAdrenalina.us,SD,SD,,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
+CineAmor.us,SD,SD,,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
 CineAr.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 cinebox.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 CineBrasilTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
@@ -6389,7 +6388,6 @@ CineverseSelects.us,SD,SD,,TRUE,c/US,America/Santiago,eng,480i
 CinevisionCanal19.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 CineWestern.es,SD,SD,,TRUE,c/ES,Europe/Paris,spa,576i
 CineWestern.fr,SD,SD,,TRUE,c/FR;c/CH,Europe/Paris,fra,576i
-CineXOXO.us,SD,SD,,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
 CIPATV.ca,SD,SD,,TRUE,ct/CAPRA,America/Regina,eng,480i
 CIPATV1.ca,SD,SD,,TRUE,s/CA-SK,America/Toronto,eng,480i
 CIPATV2.ca,SD,SD,,TRUE,s/CA-SK,America/Toronto,eng,480i
@@ -24977,6 +24975,7 @@ PlusTVAfrica.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 PlusTVMachagai.ar,SD,SD,,TRUE,s/AR-H,America/Argentina/Buenos_Aires,spa,576i
 PlutoTVAction.us,France,France,,FALSE,c/FR,Europe/Paris,fra,576i
 PlutoTVAction.us,UK,UK,,FALSE,c/UK,Europe/London,eng,576i
+PlutoTVAction.us,UKPlus,UK+,,FALSE,c/UK,Europe/London,eng,720p
 PlutoTVAction.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVActionSports.us,Spain,Spain,,FALSE,c/ES,Europe/Madrid,spa,576i
 PlutoTVActionSports.us,US,US,,TRUE,c/US,America/New_York,eng,480i
@@ -24990,13 +24989,16 @@ PlutoTVAnimalsPlus.us,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
 PlutoTVAnimation.us,UK,UK,,TRUE,c/UK,Europe/London,eng,576i
 PlutoTVAnimaux.us,France,France,,TRUE,c/FR,Europe/Paris,fra,576i
 PlutoTVAnime.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
+PlutoTVAnime.us,Canada,Canada,,FALSE,c/CA,America/Toronto,eng;jap,720p
 PlutoTVAnime.us,Germany,Germany,,FALSE,c/DE,Europe/Berlin,deu,576i
 PlutoTVAnime.us,Italy,Italy,,FALSE,c/IT,Europe/Rome,ita,576i
-PlutoTVAnime.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
+PlutoTVAnime.us,LATAM,LATAM,Hispanic America,FALSE,r/HISPAM,America/New_York,jap;spa,720p
+PlutoTVAnime.us,Spain,Spain,,FALSE,c/ES,Europe/Madrid,spa,576i
+PlutoTVAnime.us,US,US,,TRUE,c/US,America/New_York,eng;jap,720p
+PlutoTVAnime.us,USPlus,US+,,FALSE,c/US,America/New_York,eng;jap,720p
 PlutoTVAnimeAcao.us,Brazil,Brazil,,TRUE,c/BR,America/Sao_Paulo,por,480i
 PlutoTVAnimeAccion.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 PlutoTVAnimeAllAges.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
-PlutoTVAnimeAllDay.us,France,France,,TRUE,c/FR,Europe/Paris,fra,576i
 PlutoTVAnimeClasico.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 PlutoTVAventura.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 PlutoTVBabar.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i

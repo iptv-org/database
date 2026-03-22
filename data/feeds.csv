@@ -6829,6 +6829,7 @@ CNBCEurope.uk,HD,HD,,FALSE,r/EUR,America/Toronto,eng,1080i
 CNBCEurope.uk,SD,SD,,TRUE,r/EUR,America/Toronto,eng,576i
 CNBCIndonesia.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 CNBCMarathon.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+CNBCMongolia.mn,SD,SD,,TRUE,c/MN;r/ASIA,Asia/Ulaanbaatar,eng;mon,576i
 CNBCTV18.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 CNBCTV18PrimeHD.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 CNBCUK.uk,HD,HD,,FALSE,c/UK;c/IE,America/Toronto,eng,1080i
@@ -12904,6 +12905,7 @@ Iraneman.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 IranInternational.uk,SD,SD,,TRUE,c/UK;c/IR,America/Toronto,fas,576i
 IranJewishTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 IranNama.fr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
+IranNationalRevolutionTV.us,HD,HD,,TRUE,c/IR,Asia/Tehran,fas,720p
 IranPress.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas;eng,576i
 IranTVNetwork.us,SD,SD,,TRUE,c/US,America/New_York,fas,480i
 Iraq24.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,ara,576i
@@ -22275,6 +22277,8 @@ Naruto.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
 Naruto.us,Germany,Germany,,FALSE,c/DE,Europe/Berlin,deu,720p
 Naruto.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 Narutoenespanol.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
+NarutoShippuden.us,BR,BR,,FALSE,c/BR,America/Los_Angeles,por,720p
+NarutoShippuden.us,LatAm,LatAm,,TRUE,r/HISPAM,America/Los_Angeles,spa,720p
 NasafTV.uz,SD,SD,,TRUE,c/UZ,Asia/Tashkent,uzb,576i
 NasaTV.mk,SD,SD,,TRUE,c/MK,Europe/Skopje,mkd,576i
 NASATV.us,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,America/New_York,eng,480i
@@ -26455,9 +26459,9 @@ RakutenTVTopMovies.es,Italy,Italy,,FALSE,c/IT,Europe/Rome,ita,576i
 RakutenTVTopMovies.es,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 RakutenTVTopMovies.es,Switzerland,Switzerland,,FALSE,c/CH,Europe/Zurich,deu,576i
 RakutenTVTopMovies.es,UK,UK,,FALSE,c/UK,Europe/London,eng,576i
-RakutenViki.es,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,eng,576i
-RakutenViki.es,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
-RakutenViki.es,US,US,,FALSE,c/US,America/New_York,eng,576i
+RakutenViki.us,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,eng,576i
+RakutenViki.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
+RakutenViki.us,US,US,,FALSE,c/US,America/New_York,eng,576i
 RakyatBengkuluTV.id,SD,SD,,TRUE,s/ID-BE,Asia/Jakarta,ind,576i
 RallyTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 RalyTV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i

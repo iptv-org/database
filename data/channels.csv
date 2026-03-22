@@ -206,7 +206,7 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 4050Channel.th,4050 Channel,,,,TH,general,FALSE,,,,
 40Plus.uk,40+,,,MG Global Entertainment (Europe) Limited,UK,xxx,TRUE,2019-04-24,,,https://www.televisionx.com/
 45TV.hn,45 TV,,,,HN,news,FALSE,,,,https://45tvhn.com/
-48Hours.us,48 Hours,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/48-hours
+48Hours.us,48 Hours,forty eight hours,CBS News,Paramount Skydance Corporation,US,series,FALSE,,,,https://www.cbsnews.com/live/48-hours/
 48NewsUK.pk,48 News UK,,,,PK,news,FALSE,,,,
 4Afghanistan.fr,4 Afghanistan,,,,FR,,FALSE,,,,
 4BC.au,4BC,,,,AU,news,FALSE,,,,https://www.4bc.com.au/
@@ -1666,7 +1666,7 @@ AppanTV.np,Appan TV,खबरको सहि यात्रा ।।,,,NP,gen
 Apple68TV.us,Apple68 TV,,,,US,entertainment,FALSE,,,,
 AppleTV.gh,Apple TV,,,,GH,,FALSE,,,,
 AppleValleyChannel180.us,Apple Valley Channel 180,,,,US,legislative,FALSE,,,,https://www.ci.apple-valley.mn.us/491/Meeting-Webstream
-ApprovalTV.ng,Approval TV,God's Approval TV,,God's Approval Campaign,NG,general;religious,FALSE,2025-04-21,,,https://live.approvaltv.com
+ApprovalTV.ng,Approval TV,God's Approval TV,,God's Approval Campaign,NG,general;religious,FALSE,2025-04-21,,,https://approvaltv.com
 AprecuzCanal5.co,Aprecuz Canal 5,,,,CO,general,FALSE,,,,
 AprelTV.kg,Aprel TV,Апрель ТВ,,,KG,general,FALSE,2018-04-02,,,https://april.kg/
 Aprendeencasa32.mx,Aprende en casa 3.2,,,Instituto Latinoamericano de la Comunicacion Educativa,MX,education,FALSE,,,,https://aprendeencasa.sep.gob.mx/
@@ -7016,6 +7016,7 @@ DegrassiTheNextGeneration.us,Degrassi The Next Generation,,,,US,series,FALSE,,,,
 DehaTV.tr,Deha TV,,,,TR,news,FALSE,,,,https://kentdeha.com.tr/
 DejatedeHistoriasTV.es,Dejate de Historias TV,Déjate de Historias TV,,,ES,entertainment,FALSE,,,,https://dejatedehistorias.es/
 DejaView.ca,DejaView,,,Corus Entertainment,CA,entertainment,FALSE,2001-09-04,,,https://www.dejaviewtv.ca/
+DejTV.ir,Dej TV,,,,IR,,FALSE,,,,
 DeKalbCountyTV.us,DeKalb County TV,DCTV;Channel 23,,,US,education,FALSE,,,,https://www.dekalbcountyga.gov/dctv/dctv-live-broadcast
 DeLaFoiTV.cd,De La Foi TV,,,,CD,religious,FALSE,,,,
 DelEsteTV.uy,Del Este TV,,,,UY,music,FALSE,,,,https://www.radiodeleste.com.uy/
@@ -9294,7 +9295,6 @@ FoxLeague.au,Fox League,,,Fox Sports Pty Limited,AU,,FALSE,2017-02-27,,,https://
 FoxLife.es,Fox Life,,,,ES,series,FALSE,,2021-12-31,,https://www.foxtv.es/
 FoxLife.gr,Fox Life,,,,GR,series,FALSE,2008-12-01,2023-03-15,FXLife.gr,https://www.fox-greece.gr/
 FoxLife.hr,Fox Life,,,,HR,series,FALSE,,,,https://www.foxtv.hr/serije/foxlife
-FoxLife.in,Fox Life,Fox Traveller;Fox History & Traveller;Fox History & Entertainment;The History Channel,Disney Star,Disney India,IN,series,FALSE,2003-11-30,2024-04-13,,https://www.disneystar.com/
 FoxLife.ph,Fox Life,,,,PH,series,FALSE,,,,http://www.foxlife.tv/
 FoxLife.pt,Fox Life,,,,PT,series,FALSE,,2024-02-07,StarLife.pt,http://foxlife.canais-fox.pt/
 FoxLife.rs,Fox Life,,,,RS,series,FALSE,,,,https://www.foxtv.rs/emisije/foxlife
@@ -9677,6 +9677,7 @@ GEMDrama.tr,GEM Drama,,,Gem Group,TR,movies,FALSE,,,,https://www.gemgroup.tv/
 GEMDramaPlus.tr,GEM Drama +,,,Gem Group,TR,movies,FALSE,,,,https://www.gemgroup.tv/
 GemeenteWestlandTV.nl,Gemeente Westland TV,,,,NL,general,FALSE,,,,https://www.gemeentewestland.nl/contact-en-openingstijden
 GemeindeTV.at,Gemeinde TV,,,,AT,general,FALSE,2022-10-01,,,https://www.gemeindetv.at/
+GEMEntertainment.tr,GEM Entertainment,,,,TR,entertainment,FALSE,,,,https://www.gemgroup.tv/
 GEMFilm.tr,GEM Film,,,Gem Group,TR,movies,FALSE,,,,https://www.gemgroup.tv/
 GEMFit.tr,GEM Fit,,,Gem Group,TR,sports,FALSE,,,,https://www.gemgroup.tv/
 GEMFood.tr,GEM Food,,,Gem Group,TR,cooking,FALSE,,,,https://www.gemgroup.tv/
@@ -14379,12 +14380,14 @@ KGWNDT2.us,KGWN-DT2,,NBC,Marquee Broadcasting,US,general,FALSE,,,,
 KGWNDT3.us,KGWN-DT3,,CW,Marquee Broadcasting,US,entertainment,FALSE,,,,
 KGWRDT1.us,KGWR-DT1,,CBS,Vision Alaska,US,general,FALSE,1981-07-10,,,https://transition.fcc.gov/fcc-bin/tvq?facid=63170
 Khabar.kz,Khabar,Хабар,,Khabar Agency,KZ,general,FALSE,1995-01-01,,,https://khabar.kz/
+KhabarbinTV.ir,Khabarbin TV,,,,IR,,FALSE,,,,
 KhabarFast.in,Khabar Fast,,,Devbhumi Broadcast Pvt Ltd,IN,news,FALSE,2012-01-01,,,https://www.khabarfast.com/
 KhabrainAbhiTak.in,Khabrain Abhi Tak,,,,IN,news,FALSE,,,,https://www.khabrainabhitak.com/
 KhaleejAlArab1.lb,Khaleej Al Arab 1,,,,LB,,FALSE,,,,
 KhaleejAlArab2.lb,Khaleej Al Arab 2,,,,LB,,FALSE,,,,
 KhalijeFarsTV.ir,Khalij-e Fars TV,شبکه هرمزگان,,IRIB,IR,general,FALSE,,,,http://khalijefars.irib.ir/tv
 KhalijiComedy.sa,Khaliji Comedy,خليجي كوميدي,Shahid,MBC Group,SA,comedy,FALSE,,,,
+KhalijTV.ir,Khalij TV,,,,IR,,FALSE,,,,
 KhanhHoaTV.vn,Khanh Hoa TV,,,,VN,general,FALSE,,,,http://khanhhoa.tv/
 KhartoumTV.sd,Khartoum TV,الخرطوم,,,SD,general,FALSE,,,,
 KhaterehTV.de,Khatereh TV,,,,DE,culture,FALSE,,,,http://khatereh.online/
@@ -14630,6 +14633,7 @@ KIMADT3.us,KIMA-DT3,,TBD,Sinclair Broadcast Group,US,entertainment,FALSE,,,,
 KIMGLD1.us,KIMG-LD1,,Merit Street Media,Ulloa Family,US,entertainment,FALSE,1997-01-09,,,https://transition.fcc.gov/fcc-bin/tvq?facid=12732
 KIMGLD3.us,KIMG-LD3,,iCitiTV,Ulloa Family,US,culture,FALSE,,,,
 KIMGLD6.us,KIMG-LD6,,ShopLC,Ulloa Family,US,shop,FALSE,,,,
+KIMGLD8.us,KIMG-LD8,,Infomercials,Ulloa Family,US,documentary,FALSE,,,,
 KIMGLD9.us,KIMG-LD9,,Infomercials,Ulloa Family,US,shop,FALSE,,,,
 KIMTDT1.us,KIMT-DT1,,CBS,Allen Media Group,US,general,FALSE,1954-05-15,,,https://www.kimt.com/
 KIMTDT2.us,KIMT-DT2,,MyNetworkTV,Allen Media Group,US,entertainment,FALSE,,,,
@@ -21469,6 +21473,7 @@ NickJrToo.uk,Nick Jr. Too,Nick Jr. Peppa;Nick Jr. 2,Nickelodeon,Paramount Intern
 NickMusic.au,NickMusic,,Nickelodeon,Paramount Networks EMEAA,AU,music,FALSE,2020-07-01,,,http://www.nick.com.au/
 NickMusic.nl,NickMusic,,Nickelodeon,Paramount Networks EMEAA,NL,music,FALSE,2007-08-02,2026-01-01,,http://www.nickelodeon.nl/
 NickMusic.us,NickMusic,,Nickelodeon,Viacom International Inc.;Paramount Skydance Corporation,US,music,FALSE,2002-05-01,,,http://www.nick.com/
+NickOnline.br,NickOnline,Nickelodeon Online,,x1co,BR,kids;animation,FALSE,2026-01-03,,,https://x1co.com.br
 NickPlutoTV.us,Nick Pluto TV,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/nick-pluto-tv
 NickRewind.us,NickRewind,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/nick-rewind-de
 NickSchweiz.ch,Nick Schweiz,,Nickelodeon,CH Media,CH,kids,FALSE,2009-04-01,,,https://www.nick.de/programm/nickelodeon-ch
@@ -25352,6 +25357,7 @@ RTSHsatelit.al,RTSH satelit,,,,AL,general,FALSE,2025-03-31,,,https://tv.rtsh.al/
 RTSHShkolle.al,RTSH Shkolle,RTSH Shkollë,,,AL,education,FALSE,,,,https://tv.rtsh.al/kanalet/rtsh-shkolle
 RTSHShqip.al,RTSH Shqip,,,,AL,movies,FALSE,,,,https://tv.rtsh.al/kanalet/rtsh-shqip
 RTSHSport.al,RTSH Sport,,,,AL,sports,FALSE,,,,https://tv.rtsh.al/kanalet/rtsh-sport
+RTSInfo.ch,RTS Info,,,,CH,news,FALSE,,,,https://www.rts.ch/
 RTSKlasika.rs,RTS Klasika,РТС Класика,,Radio Televizija Srbije,RS,music,FALSE,,,,https://www.rts.rs/page/tv/ci/news/3188/rts-klasika.html
 RTSKolo.rs,RTS Kolo,РТС Коло,,Radio Televizija Srbije,RS,,FALSE,,,,http://www.rts.rs/page/tv/ci/news/2691/rts-kolo.html
 RTSMaribor.si,RTS Maribor,,,,SI,,FALSE,,,,
@@ -26119,6 +26125,7 @@ SetantaSportsGeorgia.ge,Setanta Sports Georgia,,,,GE,sports,FALSE,,,,
 SetantaSportsPlusGeorgia.ge,Setanta Sports+ Georgia,,,,GE,sports,FALSE,,,,
 SetantaSportsPlusUkraine.ua,Setanta Sports+ Ukraine,,,Adjara Group,UA,sports,FALSE,2014-01-01,,,https://setantasports.com/uk/
 SetantaSportsUkraine.ua,Setanta Sports Ukraine,Setanta Sports Украина,,Adjara Group,UA,sports,FALSE,2019-08-01,,,https://www.setanta.com.ua/
+SetarehTV.uk,Setareh TV,,,,UK,,FALSE,,,,https://www.setareh.tv/
 SetifNews.dz,Setif News,Sétif News,,,DZ,news,FALSE,,,,https://sawtsetif.dz/
 SETiNews.tw,SET iNews,,,,TW,news,FALSE,,,,https://www.settv.com.tw/
 SETInternational.tw,SET International,,,,TW,,FALSE,2000-03-01,,,https://www.settv.com.tw/en/html/
@@ -27479,6 +27486,7 @@ StarKentrikisElladas.gr,Star Kentrikis Elladas,Star Κεντρικής Ελλά�
 StarKids.tz,Star Kids,,,,TZ,kids,FALSE,,,,
 StarKiran.in,Star Kiran,,JioStar,JioStar India Pvt. Ltd.;Reliance Industries(RIL);The Walt Disney Company,IN,entertainment,FALSE,2022-06-06,,,https://www.hotstar.com/channels/star-kiran
 StarLife.bg,Star Life,Fox Life,,The Walt Disney Company Bulgaria EOOD,BG,series,FALSE,,,,https://www.starchannel-bg.com/
+StarLife.in,StarLife,Fox Life;Fox Traveller;Fox History & Traveller;Fox History & Entertainment;The History Channel,Disney Star,Disney India,IN,series,FALSE,2003-11-30,2024-04-13,,https://www.disneystar.com/
 StarLife.pt,Star Life,,The Walt Disney Company Portugal,The Walt Disney Company Iberia S.L.,PT,lifestyle,FALSE,,,,https://www.startv.pt/programacao/starlife
 StarLife.si,Star Life,Fox Life,,The Walt Disney Company Bulgaria EOOD,SI,series,FALSE,,,,https://www.starchannel-si.com/
 StarLifeAfrica.in,Star Life Africa,,,,IN,movies,FALSE,,,,https://www.disneystar.com/
@@ -31766,7 +31774,7 @@ TVUAT.mx,TV UAT,,,Universidad Autónoma de Tamaulipas,MX,education,FALSE,,,,http
 TVUAZ.mx,TV UAZ,,,Universidad Autónoma de Zacatecas,MX,education,FALSE,,,,https://tvuaz.uaz.edu.mx/
 TVUCT.cl,TV UCT,,,,CL,,FALSE,,,,https://www.tvuct.cl/
 TVUFG.br,TV UFG,,,,BR,education,FALSE,,,,
-TVUFOP.br,TV UFOP,,,,BR,science,FALSE,,,,
+TVUFOP.br,TV UFOP,,,Universidade Federal de Ouro Preto,BR,public;education;culture,FALSE,2011-10-15,,,https://tv.ufop.br/
 TVUG.mx,TV UG,,,Universidad de Guanajuato,MX,education,FALSE,,,,https://ugto.mx/sirth/television/
 TVUJAT.mx,TV UJAT,,,,MX,education,FALSE,,,,http://www.ujat.tv/
 TVUJED.mx,TV UJED,,,Universidad Juárez del Estado de Durango,MX,education,FALSE,,,,http://tv.ujed.mx/
@@ -34630,6 +34638,7 @@ WFYIDT2.us,WFYI-DT2,,PBS Kids,,US,,FALSE,,,,
 WFYIDT3.us,WFYI-DT3,,Create,,US,,FALSE,,,,
 WGALDT1.us,WGAL-DT1,,NBC,,US,news,FALSE,,,,http://www.wgal.com/
 WGALDT2.us,WGAL-DT2,,MeTV,,US,,FALSE,,,,
+WGALDT3.us,WGAL-DT3,,NewsWorld,NBCUniversal,US,news,FALSE,2024-08-21,,,
 WGALDT4.us,WGAL-DT4,,Story Television,Hearst Television,US,documentary,FALSE,,,,https://www.wgal.com/
 WGALDT5.us,WGAL-DT5,,Ion Plus,Hearst Television,US,entertainment,FALSE,,,,https://www.wgal.com/
 WGALDT6.us,WGAL-DT6,,QVC,Hearst Television,US,shop,FALSE,,,,https://www.wgal.com/
@@ -38994,6 +39003,7 @@ ZdorovoeTV.ru,Zdorovoe TV,Здоровое ТВ,,,RU,lifestyle,FALSE,,,,https://
 ZdravaTV.si,Zdrava TV,,,,SI,general,FALSE,,,,
 ZdravaTV7.hr,Zdrava TV 7,,,,HR,,FALSE,,,,https://zdravatv.com/hr
 ZdravljeTV.rs,Zdravlje TV,,,,RS,,FALSE,,,,https://zdravljetv.rs/
+ZedTV.ir,Zed TV,,,,IR,,FALSE,,,,https://zed-tv.com/
 ZedTV.zm,Zed TV,,,,ZM,entertainment,FALSE,,,,
 Zee24Ghanta.in,Zee 24 Ghanta,,Zee Media,Zee Media Corporation Limited (ZMCL);The Essel Group,IN,news,FALSE,,,,https://zeenews.india.com/bengali/
 Zee24Kalak.in,Zee 24 Kalak,,Zee Media,Zee Media Corporation Limited (ZMCL);The Essel Group,IN,news,FALSE,2017-08-20,,,https://zeenews.india.com/gujarati

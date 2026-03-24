@@ -360,4 +360,7 @@ async function main() {
   }
 }
 
-main()
+export { checkAll }
+
+const isDirectRun = process.argv[1] && resolve(process.argv[1]) === resolve(fileURLToPath(import.meta.url))
+if (isDirectRun) main()

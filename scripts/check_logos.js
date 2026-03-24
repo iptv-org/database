@@ -25,6 +25,7 @@ import { parseArgs } from 'node:util'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import csv2json from 'csvtojson'
+import probe from 'probe-image-size'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
@@ -39,31 +40,6 @@ const RETRY_BASE = 2.0 // seconds; doubles each retry + jitter
 
 const CSV_PATH = resolve(__dirname, '..', 'data', 'logos.csv')
 const DEFAULT_OUTPUT = resolve(__dirname, '..', 'dead_logos.json')
-
-// ---------------------------------------------------------------------------
-// Magic-byte image detection (for servers that send application/octet-stream)
-// ---------------------------------------------------------------------------
-
-const IMAGE_MAGIC = [
-  { magic: Buffer.from([0x89, 0x50, 0x4e, 0x47]), offset: 0 }, // PNG
-  { magic: Buffer.from([0xff, 0xd8, 0xff]), offset: 0 },       // JPEG
-  { magic: Buffer.from('GIF87a'), offset: 0 },                  // GIF
-  { magic: Buffer.from('GIF89a'), offset: 0 },                  // GIF
-  { magic: Buffer.from('RIFF'), offset: 0 },                    // WebP
-  { magic: Buffer.from('<svg'), offset: 0 },                    // SVG
-  { magic: Buffer.from('<?xml'), offset: 0 },                   // SVG via XML declaration
-  { magic: Buffer.from([0x00, 0x00, 0x00]), offset: 0 },        // AVIF/HEIF (ftyp box, loose match)
-]
-const SNIFF_BYTES = 16
-
-function isImageBytes(data) {
-  for (const { magic, offset } of IMAGE_MAGIC) {
-    if (data.length >= offset + magic.length && data.subarray(offset, offset + magic.length).equals(magic)) {
-      return true
-    }
-  }
-  return false
-}
 
 // ---------------------------------------------------------------------------
 // CSV loader (uses the same csvtojson library as the rest of the repo)
@@ -125,27 +101,15 @@ async function fetchUrl(url, method, timeout) {
   const timer = setTimeout(() => controller.abort(), timeout)
   try {
     const resp = await fetch(url, {
-      method: method === 'GET_SNIFF' ? 'GET' : method,
+      method,
       signal: controller.signal,
       redirect: 'follow',
       headers: { 'User-Agent': 'Mozilla/5.0 (compatible; logo-checker/1.0)' },
     })
-    let bodyPrefix = null
-    if (method === 'GET_SNIFF') {
-      const reader = resp.body?.getReader()
-      if (reader) {
-        const { value } = await reader.read()
-        bodyPrefix = value ? Buffer.from(value.slice(0, SNIFF_BYTES)) : Buffer.alloc(0)
-        reader.cancel().catch(() => {})
-      } else {
-        bodyPrefix = Buffer.alloc(0)
-      }
-    }
     return {
       status: resp.status,
       contentType: resp.headers.get('content-type') || '',
       retryAfter: resp.headers.get('retry-after'),
-      bodyPrefix,
     }
   } finally {
     clearTimeout(timer)
@@ -280,7 +244,7 @@ async function checkAll(rows, concurrency, timeout, delayMs, liveOutput) {
         continue
       }
 
-      const { status, contentType, retryAfter, bodyPrefix } = result
+      const { status, contentType, retryAfter } = result
 
       if (status === 429) {
         const wait = retryAfter ? parseFloat(retryAfter) : RETRY_BASE * (2 ** attempt)
@@ -305,22 +269,16 @@ async function checkAll(rows, concurrency, timeout, delayMs, liveOutput) {
       }
 
       if (contentType && !contentType.startsWith('image/')) {
-        if (contentType.includes('octet-stream') && method === 'HEAD') {
-          enqueue({ row, attempt, method: 'GET_SNIFF' })
+        if (contentType.includes('octet-stream')) {
+          const probeResult = await probe(url).catch(() => null)
+          if (probeResult) {
+            markResolved(row, false, 'ok')
+          } else {
+            markResolved(row, true, `bad content-type: ${contentType} (not an image)`)
+          }
           continue
         }
-        if (method !== 'GET_SNIFF') {
-          markResolved(row, true, `bad content-type: ${contentType}`)
-          continue
-        }
-      }
-
-      if (method === 'GET_SNIFF') {
-        if (isImageBytes(bodyPrefix)) {
-          markResolved(row, false, 'ok')
-        } else {
-          markResolved(row, true, `bad content-type: ${contentType} (not an image)`)
-        }
+        markResolved(row, true, `bad content-type: ${contentType}`)
         continue
       }
 

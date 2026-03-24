@@ -31,9 +31,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 // Match Python's ssl=False — accept self-signed / expired certs
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
 
-const DEFAULT_CONCURRENCY = 50
+const DEFAULT_CONCURRENCY = 10
 const DEFAULT_TIMEOUT = 15_000 // ms per request
-const DEFAULT_DELAY_MS = 0
+const DEFAULT_DELAY_MS = 200
 const MAX_RETRIES = 4
 const RETRY_BASE = 2.0 // seconds; doubles each retry + jitter
 

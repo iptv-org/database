@@ -20,11 +20,11 @@
  *   node scripts/check_logos.js --recheck dead_logos.json --loop --concurrency 10 --delay 500
  */
 
-import { createReadStream, writeFileSync, readFileSync, mkdirSync } from 'node:fs'
-import { createInterface } from 'node:readline'
+import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { parseArgs } from 'node:util'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import csv2json from 'csvtojson'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
@@ -66,54 +66,11 @@ function isImageBytes(data) {
 }
 
 // ---------------------------------------------------------------------------
-// CSV loader
+// CSV loader (uses the same csvtojson library as the rest of the repo)
 // ---------------------------------------------------------------------------
 
-function parseCsvLine(line) {
-  const fields = []
-  let current = ''
-  let inQuotes = false
-  for (let i = 0; i < line.length; i++) {
-    const ch = line[i]
-    if (inQuotes) {
-      if (ch === '"' && line[i + 1] === '"') {
-        current += '"'
-        i++
-      } else if (ch === '"') {
-        inQuotes = false
-      } else {
-        current += ch
-      }
-    } else if (ch === '"') {
-      inQuotes = true
-    } else if (ch === ',') {
-      fields.push(current)
-      current = ''
-    } else {
-      current += ch
-    }
-  }
-  fields.push(current)
-  return fields
-}
-
 async function loadCsv(path) {
-  const rows = []
-  const rl = createInterface({ input: createReadStream(path, 'utf-8'), crlfDelay: Infinity })
-  let headers = null
-  for await (const line of rl) {
-    const values = parseCsvLine(line)
-    if (!headers) {
-      headers = values
-      continue
-    }
-    const row = {}
-    for (let i = 0; i < headers.length; i++) {
-      row[headers[i]] = values[i] ?? ''
-    }
-    rows.push(row)
-  }
-  return rows
+  return csv2json({ trim: true, delimiter: ',', eol: '\r\n' }).fromFile(path)
 }
 
 function loadJson(path) {

@@ -196,6 +196,30 @@ async function fetchUrl(url, method, timeout) {
 }
 
 // ---------------------------------------------------------------------------
+// Per-domain rate-limit tracking
+// ---------------------------------------------------------------------------
+
+function getDomain(url) {
+  try { return new URL(url).hostname } catch { return '' }
+}
+
+// Maps domain → timestamp (ms) before which no requests should be sent
+const domainBackoff = new Map()
+
+function setDomainBackoff(domain, delaySec) {
+  const until = Date.now() + delaySec * 1000
+  const existing = domainBackoff.get(domain) || 0
+  if (until > existing) domainBackoff.set(domain, until)
+}
+
+async function waitForDomain(domain) {
+  const until = domainBackoff.get(domain)
+  if (!until) return
+  const wait = until - Date.now()
+  if (wait > 0) await new Promise(r => setTimeout(r, wait))
+}
+
+// ---------------------------------------------------------------------------
 // Runner
 // ---------------------------------------------------------------------------
 
@@ -282,6 +306,9 @@ async function checkAll(rows, concurrency, timeout, delayMs, liveOutput) {
         continue
       }
 
+      const domain = getDomain(url)
+      await waitForDomain(domain)
+
       let result
       try {
         result = await fetchUrl(url, method, timeout)
@@ -299,11 +326,13 @@ async function checkAll(rows, concurrency, timeout, delayMs, liveOutput) {
       const { status, contentType, retryAfter, bodyPrefix } = result
 
       if (status === 429) {
+        const wait = retryAfter ? parseFloat(retryAfter) : RETRY_BASE * (2 ** attempt)
+        const cappedWait = Math.min(wait, 60) + Math.random() * 2
+        setDomainBackoff(domain, cappedWait)
         if (attempt >= MAX_RETRIES) {
           markResolved(row, true, 'HTTP 429 (gave up after retries)')
         } else {
-          const wait = retryAfter ? parseFloat(retryAfter) : RETRY_BASE * (2 ** attempt)
-          requeueLater({ row, attempt: attempt + 1, method }, Math.min(wait, 60) + Math.random() * 2)
+          requeueLater({ row, attempt: attempt + 1, method }, cappedWait)
         }
         continue
       }

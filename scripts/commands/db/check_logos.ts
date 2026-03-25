@@ -23,13 +23,9 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { parseArgs } from 'node:util'
 import { dirname, resolve } from 'node:path'
-import { fileURLToPath } from 'node:url'
 import csv2json from 'csvtojson'
 import probe from 'probe-image-size'
 
-const __dirname = dirname(fileURLToPath(import.meta.url))
-
-// Match Python's ssl=False — accept self-signed / expired certs
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
 
 const DEFAULT_CONCURRENCY = 10
@@ -38,18 +34,18 @@ const DEFAULT_DELAY_MS = 200
 const MAX_RETRIES = 4
 const RETRY_BASE = 2.0 // seconds; doubles each retry + jitter
 
-const CSV_PATH = resolve(__dirname, '..', 'data', 'logos.csv')
-const DEFAULT_OUTPUT = resolve(__dirname, '..', 'dead_logos.json')
+const CSV_PATH = resolve(__dirname, '../../../', 'data', 'logos.csv')
+const DEFAULT_OUTPUT = resolve(__dirname, '../../../', 'dead_logos.json')
 
 // ---------------------------------------------------------------------------
 // CSV loader (uses the same csvtojson library as the rest of the repo)
 // ---------------------------------------------------------------------------
 
-async function loadCsv(path) {
+async function loadCsv(path: string) {
   return csv2json({ trim: true, delimiter: ',', eol: '\r\n' }).fromFile(path)
 }
 
-function loadJson(path) {
+function loadJson(path: string) {
   return JSON.parse(readFileSync(path, 'utf-8'))
 }
 
@@ -57,14 +53,14 @@ function loadJson(path) {
 // Output helpers
 // ---------------------------------------------------------------------------
 
-function save(dead, path) {
+function save(dead: any[], path: string) {
   mkdirSync(dirname(path), { recursive: true })
   const sorted = [...dead].sort((a, b) => (a.channel || '').localeCompare(b.channel || ''))
   writeFileSync(path, JSON.stringify(sorted, null, 2) + '\n', 'utf-8')
 }
 
-function printSummary(dead) {
-  const reasons = {}
+function printSummary(dead: any[]) {
+  const reasons: Record<string, number> = {}
   for (const r of dead) {
     const reason = r._reason
     let key
@@ -86,7 +82,7 @@ function printSummary(dead) {
 // Progress formatting
 // ---------------------------------------------------------------------------
 
-function fmtProgress(checked, total, dead, elapsed) {
+function fmtProgress(checked: number, total: number, dead: number, elapsed: number) {
   const rate = elapsed > 0 ? checked / elapsed : 0
   const eta = rate > 0 && checked < total ? (total - checked) / rate : 0
   return `[${checked}/${total}] ${(checked / total * 100).toFixed(1)}%  dead: ${dead}  ${rate.toFixed(1)}/s  eta: ${(eta / 60).toFixed(1)}min`
@@ -96,7 +92,7 @@ function fmtProgress(checked, total, dead, elapsed) {
 // Fetch with method fallback
 // ---------------------------------------------------------------------------
 
-async function fetchUrl(url, method, timeout) {
+async function fetchUrl(url: string, method: string, timeout: number) {
   const controller = new AbortController()
   const timer = setTimeout(() => controller.abort(), timeout)
   try {
@@ -120,20 +116,20 @@ async function fetchUrl(url, method, timeout) {
 // Per-domain rate-limit tracking
 // ---------------------------------------------------------------------------
 
-function getDomain(url) {
+function getDomain(url: string) {
   try { return new URL(url).hostname } catch { return '' }
 }
 
 // Maps domain → timestamp (ms) before which no requests should be sent
-const domainBackoff = new Map()
+const domainBackoff = new Map<string, number>()
 
-function setDomainBackoff(domain, delaySec) {
+function setDomainBackoff(domain: string, delaySec: number) {
   const until = Date.now() + delaySec * 1000
   const existing = domainBackoff.get(domain) || 0
   if (until > existing) domainBackoff.set(domain, until)
 }
 
-async function waitForDomain(domain) {
+async function waitForDomain(domain: string) {
   const until = domainBackoff.get(domain)
   if (!until) return
   const wait = until - Date.now()
@@ -144,9 +140,9 @@ async function waitForDomain(domain) {
 // Runner
 // ---------------------------------------------------------------------------
 
-async function checkAll(rows, concurrency, timeout, delayMs, liveOutput) {
+async function checkAll(rows: any[], concurrency: number, timeout: number, delayMs: number, liveOutput: string) {
   const total = rows.length
-  const dead = []
+  const dead: any[] = []
   const aliveUrls = new Set()
   let checked = 0
   let pending = total
@@ -154,12 +150,12 @@ async function checkAll(rows, concurrency, timeout, delayMs, liveOutput) {
   const start = performance.now()
   const delayS = delayMs / 1000
 
-  const queue = []
-  const waiters = []
+  const queue: any[] = []
+  const waiters: ((item: any) => void)[] = []
 
-  function enqueue(item) {
+  function enqueue(item: any) {
     if (waiters.length > 0) {
-      waiters.shift()(item)
+      waiters.shift()!(item)
     } else {
       queue.push(item)
     }
@@ -180,7 +176,7 @@ async function checkAll(rows, concurrency, timeout, delayMs, liveOutput) {
     save(remaining, liveOutput)
   }
 
-  function markResolved(row, isDead, reason) {
+  function markResolved(row: any, isDead: boolean, reason: string) {
     checked++
     pending--
     if (checked % 500 === 0 || checked === total) {
@@ -201,7 +197,7 @@ async function checkAll(rows, concurrency, timeout, delayMs, liveOutput) {
     }
   }
 
-  function requeueLater(item, delay) {
+  function requeueLater(item: any, delay: number) {
     setTimeout(() => enqueue(item), delay * 1000)
   }
 
@@ -234,7 +230,7 @@ async function checkAll(rows, concurrency, timeout, delayMs, liveOutput) {
       try {
         result = await fetchUrl(url, method, timeout)
         if (delayS > 0) await new Promise(r => setTimeout(r, delayMs))
-      } catch (err) {
+      } catch (err: Error | any) {
         const msg = err.name === 'AbortError' ? 'timeout' : String(err.cause?.code || err.message || err)
         if (msg.includes('EMFILE') && attempt < MAX_RETRIES) {
           requeueLater({ row, attempt: attempt + 1, method }, 1.0 + Math.random())
@@ -339,7 +335,7 @@ async function main() {
   if (values.loop) {
     for (let iteration = 1; iteration < 1000; iteration++) {
       console.log(`\n--- Iteration ${iteration} (${rows.length} entries) ---`)
-      const dead = await checkAll(rows, concurrency, timeout, delayMs, liveOutput)
+      const dead = await checkAll(rows, concurrency, timeout, delayMs, liveOutput || `${output}.iter${iteration}.json`)
       printSummary(dead)
       if (!values.recheck) save(dead, output)
       console.log(`  Saved ${dead.length} entries to ${output}`)
@@ -353,7 +349,7 @@ async function main() {
       rows = dead
     }
   } else {
-    const dead = await checkAll(rows, concurrency, timeout, delayMs, liveOutput)
+    const dead = await checkAll(rows, concurrency, timeout, delayMs, liveOutput || `${output}.iter1.json`)
     printSummary(dead)
     if (!values.recheck) save(dead, output)
     console.log(`\nWritten to ${output}`)
@@ -362,5 +358,5 @@ async function main() {
 
 export { checkAll }
 
-const isDirectRun = process.argv[1] && resolve(process.argv[1]) === resolve(fileURLToPath(import.meta.url))
-if (isDirectRun) main()
+const isDirectRun = process.argv[1] && resolve(process.argv[1]) === resolve(__filename)
+if (isDirectRun) main().catch(console.error)

@@ -1,6 +1,6 @@
 import { describe, it, expect, afterAll, beforeAll } from 'vitest'
 import { createServer } from 'node:http'
-import { checkAll } from '../../scripts/check_logos.js'
+import { checkAll } from '../../scripts/commands/db/check_logos.ts'
 
 const REMOTE_IMAGE = 'https://i.imgur.com/7oNe8xj.png'
 

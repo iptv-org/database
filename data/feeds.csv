@@ -2973,11 +2973,11 @@ BBCBrit.uk,Poland,Poland,,TRUE,c/PL,America/Toronto,eng,576i
 BBCBrit.uk,Sweden,Sweden,,FALSE,c/SE,America/Toronto,eng,576i
 BBCDrama.uk,France,France,,FALSE,c/FR,Europe/Paris,fra,576i
 BBCDrama.uk,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
+BBCEarth.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,1080i
 BBCEarth.uk,Africa,Africa,,FALSE,r/AFR,America/Toronto,eng,576i
 BBCEarth.uk,Asia,Asia,,FALSE,r/SEA,America/Toronto,eng,576i
 BBCEarth.uk,AsiaHD,Asia HD,,FALSE,r/SEA,America/Toronto,eng,1080i
 BBCEarth.uk,Australia,Australia,,FALSE,c/AU,America/Toronto,eng,576i
-BBCEarth.uk,Canada,Canada,,FALSE,c/CA,America/Toronto,eng,480i
 BBCEarth.uk,Greece,Greece,,FALSE,c/GR,Europe/Athens,ell;eng,1080i
 BBCEarth.uk,Hungary,Hungary,,FALSE,c/HU,America/Toronto,hun,576i
 BBCEarth.uk,LatinAmerica,LatinAmerica,,FALSE,r/HISPAM,America/Toronto,eng,576i
@@ -2994,10 +2994,10 @@ BBCEarth.uk,Turkiye,Turkiye,,FALSE,c/TR,America/Toronto,eng,576i
 BBCEarth.uk,US,US,,FALSE,c/US,America/New_York,eng,576i
 BBCEarth.uk,Vietnam,Vietnam,,FALSE,c/VN,America/Toronto,vie;eng,1080p
 BBCEntertainment.uk,SD,SD,,TRUE,r/EUR,America/Toronto,eng,576i
+BBCFirst.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,1080i
 BBCFirst.uk,Asia,Asia,,FALSE,r/SEA,America/Toronto,msa,576i
 BBCFirst.uk,Australia,Australia,,FALSE,c/AU,America/Toronto,eng,576i
 BBCFirst.uk,Benelux,Benelux,,FALSE,r/BENELUX,America/Toronto,eng,576i
-BBCFirst.uk,Canada,Canada,,FALSE,c/CA,America/Toronto,eng,480i
 BBCFirst.uk,Poland,Poland,,TRUE,c/PL,America/Toronto,pol,576i
 BBCFirst.uk,Turkiye,Turkiye,,FALSE,c/TR,America/Toronto,eng,576i
 BBCFood.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -12145,6 +12145,7 @@ Home4K.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 HomebaseTV.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng;afr,576i
 HomeboyzTV.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,eng,576i
 HomeDramaChannel.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
+Homeful.ca,US,US,,TRUE,c/US,America/New_York,eng,1080p
 HOMEHiroshimaNews.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 HomeMadeNation.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 HomeMallTV.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
@@ -18410,7 +18411,7 @@ KTVADT1.us,SD,SD,,TRUE,ct/USANC,America/Anchorage,eng,480i
 KTVAlMajlis.kw,SD,SD,,TRUE,c/KW,Asia/Kuwait,ara,576i
 KTVAlQurain.kw,SD,SD,,TRUE,c/KW,Asia/Kuwait,ara,576i
 KTVArabe.kw,SD,SD,,TRUE,c/KW,Asia/Kuwait,ara,576i
-KTVBangla.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,sat,576i
+KTVBangla.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ben;sat,576i
 KTVBDT1.us,SD,SD,,TRUE,ct/USBOI,America/Boise,eng,480i
 KTVBDT2.us,SD,SD,,TRUE,ct/USBOI,America/Boise,eng,480i
 KTVBDT3.us,SD,SD,,TRUE,ct/USBOI,America/Boise,eng,480i
@@ -26327,6 +26328,7 @@ RadioUniverso.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
 RadioUnoPST.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
 RadioUnoTacna.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 RadioUnoTVAyabaca.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,576i
+RadioUP.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,480p
 RadioUTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 RadioVeronica.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RadioVictoria780AM.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i

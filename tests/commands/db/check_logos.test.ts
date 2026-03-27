@@ -1,11 +1,11 @@
 import { describe, it, expect, afterAll, beforeAll } from 'vitest'
 import { createServer } from 'node:http'
-import { checkAll } from '../../scripts/commands/db/check_logos.ts'
+import { checkAll } from '../../../scripts/commands/db/check_logos.ts'
 
 const REMOTE_IMAGE = 'https://i.imgur.com/7oNe8xj.png'
 
-let server
-let baseUrl
+let server: ReturnType<typeof createServer>
+let baseUrl: string
 
 beforeAll(async () => {
   server = createServer((req, res) => {
@@ -32,49 +32,49 @@ beforeAll(async () => {
     }
   })
 
-  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve))
-  baseUrl = `http://127.0.0.1:${server.address().port}`
+  await new Promise<void>(resolve => server.listen({ port: 0, host: '127.0.0.1' }, resolve))
+  baseUrl = `http://127.0.0.1:${(server.address() as any).port}`
 })
 
 afterAll(() => {
   server?.close()
 })
 
-function makeRows(paths) {
+function makeRows(paths: string[]) {
   return paths.map(p => ({ channel: p, url: `${baseUrl}${p}` }))
 }
 
 describe('check_logos', () => {
   it('marks a valid remote image URL as alive', async () => {
     const rows = [{ channel: 'test', url: REMOTE_IMAGE }]
-    const dead = await checkAll(rows, 2, 10000, 0, null)
+    const dead = await checkAll(rows, 2, 10000, 0, '')
     expect(dead).toHaveLength(0)
   })
 
   it('marks a 404 URL as dead', async () => {
     const rows = makeRows(['/not-found'])
-    const dead = await checkAll(rows, 2, 5000, 0, null)
+    const dead = await checkAll(rows, 2, 5000, 0, '')
     expect(dead).toHaveLength(1)
     expect(dead[0]._reason).toBe('HTTP 404')
   })
 
   it('marks a 403 URL as dead', async () => {
     const rows = makeRows(['/forbidden'])
-    const dead = await checkAll(rows, 2, 5000, 0, null)
+    const dead = await checkAll(rows, 2, 5000, 0, '')
     expect(dead).toHaveLength(1)
     expect(dead[0]._reason).toBe('HTTP 403')
   })
 
   it('marks a bad content-type as dead', async () => {
     const rows = makeRows(['/bad-content-type'])
-    const dead = await checkAll(rows, 2, 5000, 0, null)
+    const dead = await checkAll(rows, 2, 5000, 0, '')
     expect(dead).toHaveLength(1)
     expect(dead[0]._reason).toContain('bad content-type')
   })
 
   it('marks a 500 URL as dead', async () => {
     const rows = makeRows(['/server-error'])
-    const dead = await checkAll(rows, 2, 5000, 0, null)
+    const dead = await checkAll(rows, 2, 5000, 0, '')
     expect(dead).toHaveLength(1)
     expect(dead[0]._reason).toBe('HTTP 500')
   })
@@ -84,7 +84,7 @@ describe('check_logos', () => {
       { channel: 'alive', url: REMOTE_IMAGE },
       ...makeRows(['/not-found', '/forbidden', '/server-error']),
     ]
-    const dead = await checkAll(rows, 3, 10000, 0, null)
+    const dead = await checkAll(rows, 3, 10000, 0, '')
     expect(dead).toHaveLength(3)
     const reasons = dead.map(d => d._reason).sort()
     expect(reasons).toEqual(['HTTP 403', 'HTTP 404', 'HTTP 500'])
@@ -92,13 +92,13 @@ describe('check_logos', () => {
 
   it('retries and gives up on persistent 429', async () => {
     const rows = makeRows(['/rate-limited'])
-    const dead = await checkAll(rows, 2, 5000, 0, null)
+    const dead = await checkAll(rows, 2, 5000, 0, '')
     expect(dead).toHaveLength(1)
     expect(dead[0]._reason).toBe('HTTP 429 (gave up after retries)')
-  })
+  }, 15000)
 
   it('marks empty URL as dead', async () => {
-    const dead = await checkAll([{ channel: 'test', url: '' }], 2, 5000, 0, null)
+    const dead = await checkAll([{ channel: 'test', url: '' }], 2, 5000, 0, '')
     expect(dead).toHaveLength(1)
     expect(dead[0]._reason).toBe('empty url')
   })

@@ -354,6 +354,8 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 7flix.au,Perth,Perth,,FALSE,s/AU-WA,Australia/Perth,eng,576i
 7flix.au,Sydney,Sydney,,TRUE,s/AU-NSW,Australia/Sydney,eng,576i
 7Gold.it,SD,SD,,TRUE,c/CH;c/IT,Europe/Rome,ita,576i
+7GoldMarche.it,HD,HD,,TRUE,c/IT,Europe/Rome,ita,1080p
+7GoldTelepadova.it,HD,HD,,TRUE,c/IT,Europe/Rome,ita,1080p
 7HD.au,Adelaide,Adelaide,,FALSE,s/AU-SA,Australia/Adelaide,eng,576i
 7HD.au,Brisbane,Brisbane,,FALSE,s/AU-QLD,Australia/Brisbane,eng,576i
 7HD.au,Hobart,Hobart,,FALSE,s/AU-TAS,Australia/Hobart,eng,576i
@@ -4752,6 +4754,7 @@ Canal96Tizimin.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 Canal99Miramar.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal9BioBioTelevision.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 Canal9Bosconia.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
+Canal9Cayambe.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,576i
 Canal9Chabas.ar,SD,SD,,TRUE,ct/ARCSS,America/Argentina/Buenos_Aires,spa,576i
 Canal9Chalatenango.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,576i
 Canal9Chinandega.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,480i
@@ -5142,6 +5145,7 @@ CanalUnoCholuteca.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 CanalUTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 CanalV.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,576i
 CanalVEO.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
+CanalViaAustral.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 CanalVie.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
 CanalVIP.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 CanalVisionDorada.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
@@ -11106,6 +11110,7 @@ Go3Sport3.ee,SD,SD,,TRUE,c/EE;c/LV;c/LT,Europe/Tallinn,est;lav;lit,576i
 Go3Sport4.ee,SD,SD,,TRUE,c/EE;c/LV;c/LT,Europe/Tallinn,est;lav;lit,576i
 Go3SportOpen.ee,SD,SD,,TRUE,c/EE;c/LV;c/LT,Europe/Tallinn,est;lav;lit,576i
 Goa365.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kok,576i
+GoalZone.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,ara;eng,576i
 GobanimoTV.so,SD,SD,,TRUE,c/SO,Africa/Mogadishu,som,576i
 GobiernodelaRepublica.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 Godare.se,SD,SD,,TRUE,c/SE,Europe/Oslo,swe,576i
@@ -20343,6 +20348,7 @@ Luxury.ru,HD,HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
 Luxury.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 LuyaaTV.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,swa,576i
 LuysTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur;hye,576i
+LuzdeAmericaTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,576i
 LuzDivinaTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 LuzhouNewsChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 LuzhouPublicLifestyleChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
@@ -22473,6 +22479,7 @@ NationalGeographicWildLatinAmerica.us,Panregional,Panregional,,TRUE,r/LATAM,Amer
 NationalGeographicWildMiddleEast.uk,SD,SD,,TRUE,r/ARAB;r/MAGHREB,Europe/London,eng,576i
 NationalGeographicWildSouthAfrica.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 NationalGoldTV.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
+NationalIranianCongressTV.us,SD,SD,,TRUE,c/US;c/IR,Asia/Tehran,fas,720p
 NationalTV.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
 NationalTV.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 NationFirst.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -29637,7 +29644,6 @@ SPLTV.tn,SD,SD,,TRUE,c/TN,Africa/Tunis,ara,576i
 SPlus.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 Spondon.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,asm,576i
 SpongeBobSchwammkopf.us,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
-SpookyNights.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,ara;eng,576i
 SpoonTV.lr,SD,SD,,TRUE,c/LR,Africa/Monrovia,eng,576i
 SporSmart.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur;eng,576i
 SporSmart2.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
@@ -31301,6 +31307,7 @@ Telecolor.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 TelecolorLombardia.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 TelecolorYurimaguas.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 TelecomercioTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,576i
+TelecomTVCanal2.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,576i
 TelecondorSatelital.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 TeleCongo.cg,SD,SD,,TRUE,c/CG,Africa/Brazzaville,fra;mkw;lin,576i
 Telecontacto.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i

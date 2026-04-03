@@ -248,7 +248,7 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 5Cops.us,5 Cops,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/5-cops-gb
 5CruisingwithJaneMcDonald.us,5 Cruising with Jane McDonald,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/5-cruising-with-jane-mcdonald-gb
 5DestinationBritain.us,5 Destination Britain,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/5-destination-britain-gb
-5DiasTV.py,5Dias TV,5Días TV,,,PY,news,FALSE,,,,https://www.5dias.com.py/videos
+5DiasTV.py,5Dias TV,5Días TV,,,PY,business,FALSE,,,,https://5dias.com.py/
 5Gold.il,5Gold,Sports5,,RGE Group,IL,sports,FALSE,1990-01-01,,,http://www.sport5.co.il/
 5GPs.us,5 GP's,,Pluto TV,,US,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/5-gps-gb
 5Kanal.kz,5 Kanal,5 канал;Пятый канал,,,KZ,general,FALSE,1994-02-07,,,https://5tv.kz/
@@ -367,7 +367,7 @@ A1TVRajasthan.in,A1 TV Rajasthan,,,,IN,news,FALSE,,,,http://www.a1live.in/
 A1TVUK.uk,A1TV UK,,,,UK,news,FALSE,,,,https://a1uk.tv/
 A2.ru,A2,А2;Amedia 2,,,RU,series,FALSE,,,,http://amediatv.ru/a2/
 A24.ar,A24,,,Grupo America,AR,news,FALSE,2005-03-08,,,https://www.a24.com/
-A24Paraguay.py,A24 Paraguay,,,Grupo America,PY,news,FALSE,,,,https://www.a24.com.py/
+A24Paraguay.py,A24 Paraguay,,,Grupo América,PY,news,FALSE,,,,https://www.a24.com.py/
 A2CNN.al,A2 CNN,,,A2 CNN,AL,news,FALSE,,,,https://a2news.com/
 A2iMusic.sn,A2i Music,,,,SN,music,FALSE,,,,https://www.a2itv.net/
 A2iNaija.sn,A2i Naija,,,,SN,education,FALSE,,,,https://www.a2itv.net/
@@ -448,7 +448,7 @@ ABCtv.ec,ABC tv,,,TBN Enlace,EC,religious,FALSE,1998-10-20,,,https://www.enlace.
 ABCTV.it,ABC TV,,,,IT,general,FALSE,,,,https://abctv.it/
 ABCTV.mw,ABC-TV,,,African Bible Colleges,MW,religious,FALSE,,,,https://www.africanbiblecolleges.com/malawi
 ABCTVGhana.gh,ABC TV Ghana,,,,GH,,FALSE,,,,
-ABCTVParaguay.py,ABC-TV Paraguay,,,Grupo ABC Comunicaciones,PY,general,FALSE,2017-08-07,,,https://www.abc.com.py/tv/
+ABCTVParaguay.py,ABC-TV Paraguay,,,Grupo ABC Comunicaciones,PY,news,FALSE,2017-08-07,,,https://www.abc.com.py/tv/
 ABCTVPlus.au,ABC TV Plus,,ABC Television,Australian Broadcasting Corporation,AU,entertainment,FALSE,2001-07-01,,,https://www.abc.net.au/tv
 AbdulmajeedAbdullah.sa,Abdulmajeed Abdullah,عبدالمجيد عبدالله,Shahid,MBC Group,SA,music,FALSE,,,,
 ABEEducativo.bo,ABE Educativo,,,Agencia Boliviana Espacial,BO,education,FALSE,,,,https://www.abe.bo/
@@ -1383,7 +1383,7 @@ AmericanHeroesChannel.us,American Heroes Channel,,,Warner Bros. Discovery Inc.,U
 AmericanHorrors.us,American Horrors,,,,US,movies,FALSE,,,,
 AmericanHorrorsClassic.us,American Horrors Classic,,,American Horrors,US,movies,FALSE,,,,
 AmericanTV.ec,American TV,,,American Cable S.A.,EC,general,FALSE,,,,https://americantvpelileo.com/
-AmericaParaguay.py,America Paraguay,América Paraguay,,,PY,general,FALSE,,,,https://www.americatv.com.ar/
+AmericaParaguay.py,America Paraguay,América Paraguay,,Grupo América,PY,general,FALSE,,,,https://americatv.com.py/
 AmericaSatellite.ar,America Satellite,América Satelital,,Grupo America,AR,general,FALSE,,,,https://www.americatv.com.ar/
 AmericasAuctionChannel.us,America's Auction Channel,,,Jeremiah Hartman,US,shop,FALSE,2002-01-01,,,https://www.aactv.com/
 AmericaSports.ar,America Sports,,,,AR,sports,FALSE,,,,http://www.amsports.com.ar/
@@ -1462,7 +1462,7 @@ AndorraTV.ad,Andorra TV,Andorra Televisió;ATV,,Radio i Televisio d'Andorra,AD,g
 AndoTV.cn,Ando TV,,,,CN,religious,FALSE,,,,http://www.qhtb.cn/
 AndoverTV.us,Andover TV,,,,US,general,FALSE,,,,https://andovertv.org/
 Andpictures.in,&pictures,,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,2015-03-02,,,https://andtv.zee5.com/
-AndpriveHD.in,&prive HD,&privé HD,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,2017-09-24,,,
+AndpriveHD.in,&prive HD,&privé HD,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,2017-09-24,2026-04-01,,
 Andromeda.us,Andromeda,Andrómeda,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/andromeda-gb
 AndTV.in,&TV,,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,2015-03-02,,,https://andtv.zee5.com/
 AndxplorHD.in,&xplor HD,,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,2019-07-18,,,https://andtv.zee5.com/
@@ -28595,7 +28595,7 @@ TCMMovies.uk,TCM Movies,,,,UK,movies,FALSE,1999-10-15,2023-07-06,,http://www.tcm
 TCNN47.th,TCNN 47,,,,TH,,FALSE,,,,
 TcoTv.ni,TcoTv,,,,NI,general,FALSE,,,,
 TCSMTV.cv,TCSM TV,,,,CV,general,FALSE,,,,https://tcsm.cv/
-TCSPlus.sv,TCS+,,,Telecorporación Salvadoreña,SV,general,FALSE,2017-09-25,2025-12-15,,https://www.tcsgo.com/
+TCSPlus.sv,TCS+,,,Telecorporación Salvadoreña,SV,general,FALSE,2017-09-25,2025-12-15,SVPlus.sv,https://www.tcsgo.com/
 TCT.us,TCT,,,,US,,FALSE,,,,http://www.tct.tv/
 TCTelevision.ec,TC Television,TC Televisión,,Comunica EP,EC,general,FALSE,1968-08-09,,,https://www.tctelevision.com/
 TCTKids.us,TCT Kids,,TCT,,US,animation;kids;religious,FALSE,,,,https://www.tctkids.tv/
@@ -39067,7 +39067,7 @@ ZeeBollymovies.za,Zee Bollymovies,,,,ZA,movies,FALSE,2022-04-25,,,http://www.zee
 ZeeBollywood.in,Zee Bollywood,,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,,,,https://zeebollywood.zee5.com/
 ZeeBusiness.in,Zee Business,,Zee Media,Zee Media Corporation Limited (ZMCL);The Essel Group,IN,business,FALSE,,,,https://www.zeebiz.com/
 ZeeCafe.in,Zee Cafe,Zee Café,Z,Zee Entertainment Enterprises Limited,IN,series,FALSE,2000-03-15,,,https://zeecafe.zee5.com/
-ZeeChitramandir.in,Zee Chitramandir,,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,,,,
+ZeeChitramandir.in,Zee Chitramandir,,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,,2026-04-01,,
 ZeeCineClassic.in,Zee Cine Classic,,Z,Zee Entertainment Enterprises Limited,IN,classic,FALSE,,,,
 ZeeCinema.in,Zee Cinema,,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,,,,https://zeecinema.zee5.com/
 ZeeCinemalu.in,Zee Cinemalu,,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,,,,http://www.zeecinemalu.com/
@@ -39080,7 +39080,7 @@ ZeeETCBollywood.in,Zee ETC Bollywood,ETC,Z,Zee Entertainment Enterprises Limited
 ZeeGanga.in,Zee Ganga,Big Ganga,Z,Zee Entertainment Enterprises Limited,IN,entertainment,FALSE,,2024-04-26,AnmolCinema2.in,
 ZeeHorrorNights.in,Zee Horror Nights,,Z,Zee Entertainment Enterprises,IN,entertainment,FALSE,,,,
 ZeeKannada.in,Zee Kannada,,Z,Zee Entertainment Enterprises Limited,IN,entertainment,FALSE,2006-05-11,,,https://zeekannada.zee5.com/
-ZeeKannadaNews.in,Zee Kannada News,,Zee Media,Zee Media Corporation Limited (ZMCL);The Essel Group,IN,news,FALSE,,,,https://zeenews.india.com/kannada/
+ZeeKannadaNews.in,Zee Kannada News,Zee ಕನ್ನಡ News;ಜೀ ಕನ್ನಡ ನ್ಯೂಸ್‌,Zee Media,Zee Media Corporation Limited (ZMCL);The Essel Group,IN,news,FALSE,2023-04-11,,,https://zeenews.india.com/kannada/
 ZeeKeralam.in,Zee Keralam,,Z,Zee Entertainment Enterprises Limited,IN,entertainment,FALSE,2018-11-26,,,https://zeekeralam.zee5.com/
 ZeeMadhyaPradeshChhattisgarh.in,Zee Madhya Pradesh Chhattisgarh,,Zee Media,Zee Media Corporation Limited (ZMCL);The Essel Group,IN,news,FALSE,,,,https://zeenews.india.com/hindi/india/madhya-pradesh-chhattisgarh
 ZeeMagic.za,Zee Magic,,,Zee Entertainment Enterprises,ZA,entertainment,FALSE,,,,https://www.zeeafrica.tv/

@@ -76,6 +76,7 @@ describe('db:validate', () => {
  2     002RadioTV.do: "website" must be a valid uri with a scheme matching the http|https pattern
  2     "002RadioTV.do" has an more than one main feed
  2     "002RadioTV.do" has an invalid replaced_by "002RadioTV.do@4K"
+ 3     "10Channel.do" has an invalid replaced_by "10Channel.do@SD"
  4     "24B.do" does not have a main feed`)
       expect((error as ExecError).stdout).toContain(`feeds.csv
  2     0TV.dk@SD: "format" with value "576I" fails to match the required pattern: /^\\d+(i|p)$/
@@ -99,7 +100,7 @@ describe('db:validate', () => {
  3     "AD-02" has an invalid parent "AD-05"`)
       expect((error as ExecError).stdout).toContain(`timezones.csv
  2     "Africa/Accra" has the wrong countries "GH"`)
-      expect((error as ExecError).stdout).toContain('21 error(s)')
+      expect((error as ExecError).stdout).toContain('22 error(s)')
     }
   })
 

@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
   pull_request:
     types: [opened, synchronize, reopened, edited]
+permissions:
+  contents: read
 jobs:
   main:
     runs-on: ubuntu-latest

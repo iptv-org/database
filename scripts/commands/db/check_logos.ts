@@ -20,6 +20,8 @@
  *   node scripts/check_logos.js --recheck dead_logos.json --loop --concurrency 10 --delay 500
  */
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { parseArgs } from 'node:util'
 import { dirname, resolve } from 'node:path'

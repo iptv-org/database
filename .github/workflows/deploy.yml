@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+permissions:
+  contents: read
 jobs:
   main:
     runs-on: ubuntu-latest

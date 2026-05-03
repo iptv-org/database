@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { describe, it, expect, afterAll, beforeAll, vi } from 'vitest'
 import { createServer } from 'node:http'
 import { checkAll } from '../../../scripts/commands/db/check_logos.ts'

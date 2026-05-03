@@ -115,6 +115,7 @@ export class Channel extends sdk.Models.Channel implements Validator {
 
     const [channelId, feedId] = this.replaced_by.split('@')
 
+    if (channelId === this.id) return false
     if (channelsKeyById.missing(channelId)) return false
     if (feedId && feedsKeyByStreamId.missing(this.replaced_by)) return false
 

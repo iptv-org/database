@@ -195,8 +195,13 @@ body:
     id: tags
     attributes:
       label: Tags (optional)
-      description: "List of keywords describing this version of the logo separated by `;`. May include: `a-z`, `0-9` and `-`."
+      description: "List of keywords describing this version of the logo separated by `;`. May include: `a-z`, `0-9` and `-`"
       placeholder: 'horizontal;white'
+
+  - type: textarea
+    attributes:
+      label: Sources (optional)
+      description: 'Links to your sources, which will help us verify the data in the request more quickly'
 
   - type: textarea
     attributes:

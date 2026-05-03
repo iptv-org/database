@@ -20,13 +20,13 @@
  *   node scripts/check_logos.js --recheck dead_logos.json --loop --concurrency 10 --delay 500
  */
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { parseArgs } from 'node:util'
 import { dirname, resolve } from 'node:path'
 import csv2json from 'csvtojson'
 import probe from 'probe-image-size'
-
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0'
 
 const DEFAULT_CONCURRENCY = 10
 const DEFAULT_TIMEOUT = 15_000 // ms per request
@@ -66,7 +66,8 @@ function printSummary(dead: any[]) {
     let key
     if (reason.startsWith('HTTP ')) key = reason
     else if (reason.includes('timeout')) key = 'timeout'
-    else if (['ECONNREFUSED', 'ENOTFOUND', 'ECONNRESET', 'UND_ERR'].some(kw => reason.includes(kw))) key = 'connection error'
+    else if (['ECONNREFUSED', 'ENOTFOUND', 'ECONNRESET', 'UND_ERR'].some(kw => reason.includes(kw)))
+      key = 'connection error'
     else if (reason.startsWith('bad content-type')) key = 'bad content-type'
     else key = 'other'
     reasons[key] = (reasons[key] || 0) + 1
@@ -85,7 +86,7 @@ function printSummary(dead: any[]) {
 function fmtProgress(checked: number, total: number, dead: number, elapsed: number) {
   const rate = elapsed > 0 ? checked / elapsed : 0
   const eta = rate > 0 && checked < total ? (total - checked) / rate : 0
-  return `[${checked}/${total}] ${(checked / total * 100).toFixed(1)}%  dead: ${dead}  ${rate.toFixed(1)}/s  eta: ${(eta / 60).toFixed(1)}min`
+  return `[${checked}/${total}] ${((checked / total) * 100).toFixed(1)}%  dead: ${dead}  ${rate.toFixed(1)}/s  eta: ${(eta / 60).toFixed(1)}min`
 }
 
 // ---------------------------------------------------------------------------
@@ -100,12 +101,12 @@ async function fetchUrl(url: string, method: string, timeout: number) {
       method,
       signal: controller.signal,
       redirect: 'follow',
-      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; logo-checker/1.0)' },
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; logo-checker/1.0)' }
     })
     return {
       status: resp.status,
       contentType: resp.headers.get('content-type') || '',
-      retryAfter: resp.headers.get('retry-after'),
+      retryAfter: resp.headers.get('retry-after')
     }
   } finally {
     clearTimeout(timer)
@@ -117,7 +118,11 @@ async function fetchUrl(url: string, method: string, timeout: number) {
 // ---------------------------------------------------------------------------
 
 function getDomain(url: string) {
-  try { return new URL(url).hostname } catch { return '' }
+  try {
+    return new URL(url).hostname
+  } catch {
+    return ''
+  }
 }
 
 // Maps domain → timestamp (ms) before which no requests should be sent
@@ -140,7 +145,13 @@ async function waitForDomain(domain: string) {
 // Runner
 // ---------------------------------------------------------------------------
 
-async function checkAll(rows: any[], concurrency: number, timeout: number, delayMs: number, liveOutput: string) {
+async function checkAll(
+  rows: any[],
+  concurrency: number,
+  timeout: number,
+  delayMs: number,
+  liveOutput: string
+) {
   const total = rows.length
   const dead: any[] = []
   const aliveUrls = new Set()
@@ -231,7 +242,8 @@ async function checkAll(rows: any[], concurrency: number, timeout: number, delay
         result = await fetchUrl(url, method, timeout)
         if (delayS > 0) await new Promise(r => setTimeout(r, delayMs))
       } catch (err: Error | any) {
-        const msg = err.name === 'AbortError' ? 'timeout' : String(err.cause?.code || err.message || err)
+        const msg =
+          err.name === 'AbortError' ? 'timeout' : String(err.cause?.code || err.message || err)
         if (msg.includes('EMFILE') && attempt < MAX_RETRIES) {
           requeueLater({ row, attempt: attempt + 1, method }, 1.0 + Math.random())
           continue
@@ -243,7 +255,7 @@ async function checkAll(rows: any[], concurrency: number, timeout: number, delay
       const { status, contentType, retryAfter } = result
 
       if (status === 429) {
-        const wait = retryAfter ? parseFloat(retryAfter) : RETRY_BASE * (2 ** attempt)
+        const wait = retryAfter ? parseFloat(retryAfter) : RETRY_BASE * 2 ** attempt
         const cappedWait = Math.min(wait, 60) + Math.random() * 2
         setDomainBackoff(domain, cappedWait)
         if (attempt >= MAX_RETRIES) {
@@ -303,9 +315,9 @@ async function main() {
       delay: { type: 'string', default: String(DEFAULT_DELAY_MS) },
       output: { type: 'string' },
       recheck: { type: 'string' },
-      loop: { type: 'boolean', default: false },
+      loop: { type: 'boolean', default: false }
     },
-    strict: true,
+    strict: true
   })
 
   const concurrency = parseInt(values.concurrency, 10)
@@ -335,7 +347,13 @@ async function main() {
   if (values.loop) {
     for (let iteration = 1; iteration < 1000; iteration++) {
       console.log(`\n--- Iteration ${iteration} (${rows.length} entries) ---`)
-      const dead = await checkAll(rows, concurrency, timeout, delayMs, liveOutput || `${output}.iter${iteration}.json`)
+      const dead = await checkAll(
+        rows,
+        concurrency,
+        timeout,
+        delayMs,
+        liveOutput || `${output}.iter${iteration}.json`
+      )
       printSummary(dead)
       if (!values.recheck) save(dead, output)
       console.log(`  Saved ${dead.length} entries to ${output}`)
@@ -349,7 +367,13 @@ async function main() {
       rows = dead
     }
   } else {
-    const dead = await checkAll(rows, concurrency, timeout, delayMs, liveOutput || `${output}.iter1.json`)
+    const dead = await checkAll(
+      rows,
+      concurrency,
+      timeout,
+      delayMs,
+      liveOutput || `${output}.iter1.json`
+    )
     printSummary(dead)
     if (!values.recheck) save(dead, output)
     console.log(`\nWritten to ${output}`)

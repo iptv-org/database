@@ -3940,7 +3940,8 @@ BRIO.si,SD,SD,,TRUE,c/SI,Europe/Ljubljana,slv,576i
 BrionnaisTV.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 BrioTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
 BrisaTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
-BritAsiaTV.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
+BritAsiaTV.uk,HD,HD,,TRUE,c/UK,Europe/London,eng,1080p
+BritAsiaTV.uk,SD,SD,,FALSE,c/UK,Europe/London,eng,576i
 BritBoxMysteries.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 BritelTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,576i
 BritishComedy.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -5023,6 +5024,7 @@ CanalPlusCinemaCentre.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusCinemaOuest.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusCinemaReunion.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusCinemas.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+CanalPlusComedy.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusDecale.fr,SD,SD,,TRUE,c/FR;c/CH,Europe/Paris,fra,576i
 CanalPlusDikDik.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 CanalPlusDiscover.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
@@ -5050,6 +5052,7 @@ CanalPlusFamilyOuest.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusFilm.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 CanalPlusFilm.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusFilm1.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+CanalPlusFilm2.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusFilm3.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusFirst.at,SD,SD,,TRUE,c/AT,Europe/Vienna,deu,576i
 CanalPlusFirst.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
@@ -5064,6 +5067,7 @@ CanalPlusGul.se,Finland,Finland,,FALSE,c/FI,Europe/Helsinki,fin,576i
 CanalPlusGul.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusHaHa.fr,SD,SD,,TRUE,c/FR,Europe/Paris,mya,576i
 CanalPlusHaiti.ht,SD,SD,,TRUE,c/HT,America/Port-au-Prince,fra,480i
+CanalPlusHits.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 CanalPlusHits.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusHockey.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusJumbo.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
@@ -20891,23 +20895,23 @@ MAX.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 Max2U.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MAX4.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 MAXAnime.ve,SD,SD,,TRUE,r/HISPAM,America/Caracas,spa,480i
+MAXEats.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MaximaFM.cl,SD,SD,,TRUE,c/CL;r/LATAM,America/Santiago,spa,480i
 MaximaFMChile.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 MaximaTV.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 MaximaTV.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,576i
 MaxivisionCanal8.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,576i
 MaxivisionTV.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
+MAXKids.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MaxLatino.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 MaxMovies.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,tam,1080p
 MaxMusic.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,tam,1080p
 MaxPlusTV.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
+MAXReels.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MaxSport1.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 MaxSport2.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 MaxSport3.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 MaxSport4.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
-MAXEats.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
-MAXKids.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
-MAXReels.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MAXSports.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MAXStreak.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MAXStream.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
@@ -26306,7 +26310,7 @@ RadioBrunoTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 RadioCaazapaPoty981FM.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
 RadioCalor.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 Radiocanal.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
-RadioCapitalTiVu.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
+RadioCapitalTiVu.it,HD,HD,,TRUE,c/IT,Europe/Rome,ita,720p
 RadioCapitalTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 RadioCaracasRadio.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 RadioCarnavalTV.es,SD,SD,,TRUE,ct/ESLPG,Atlantic/Canary,spa,576i
@@ -32134,8 +32138,9 @@ Thats20thCentury.uk,MCRFreeview,MCRFreeview,,FALSE,c/UK,Europe/London,eng,576i
 Thats20thCentury.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 Thats60s.uk,MCRFreeview,MCR Freeview,,FALSE,c/UK,Europe/London,eng,576i
 Thats60s.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
+Thats70s.uk,HD,HD,,TRUE,c/UK,Europe/London,eng,1080p
 Thats70s.uk,MCRFreeview,MCR Freeview,,FALSE,c/UK,Europe/London,eng,576i
-Thats70s.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
+Thats70s.uk,SD,SD,,FALSE,c/UK,Europe/London,eng,576i
 Thats80s.uk,Freeview,Freeview,,FALSE,c/UK,Europe/London,eng,576i
 Thats80s.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 Thats90s.uk,MCRFreeview,MCR Freeview,,FALSE,c/UK,Europe/London,eng,576i
@@ -32385,6 +32390,7 @@ TiJi.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 TIKBohumin.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
 TikiVision.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 TIKTAK.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
+TikTokRadioBrasil.br,HD,HD,,TRUE,c/BR,America/Sao_Paulo,por,1080p
 TileFOS.gr,SD,SD,,TRUE,ct/GRGAQ,Europe/Athens,ell,576i
 Tilemousiki.gr,SD,SD,,TRUE,c/GR,Europe/Athens,ell,576i
 TimeChannel.gr,SD,SD,,TRUE,ct/GRSKG,Europe/Athens,ell,576i
@@ -32778,6 +32784,7 @@ TrabzonBuyuksehirBelediyesiTV.tr,FHD,FHD,,TRUE,c/TR,Europe/Istanbul,tur,1080p
 TraceAfrica.fr,SD,SD,,TRUE,c/FR,Europe/Paris,eng;fra,576i
 TraceAfrikora.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 TraceAyiti.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+TraceBrazuca.fr,HD,HD,,FALSE,c/FR;c/BR,Europe/Paris;America/Sao_Paulo,por,1080p
 TraceBrazuca.fr,SD,SD,,TRUE,c/FR,Europe/Paris,por,576i
 TraceCaribbean.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 TraceGospel.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -32793,6 +32800,7 @@ TraceMziki.fr,SD,SD,,TRUE,c/FR,Europe/Paris,eng,576i
 TraceNaija.fr,SD,SD,,TRUE,c/FR,Europe/Paris,eng,576i
 TraceSportStars.fr,HD,HD,,TRUE,c/FR,Europe/Paris,eng;fra,1080i
 TraceToca.fr,SD,SD,,TRUE,r/AFR,Europe/Paris,por,576i
+TraceUK.uk,HD,HD,,TRUE,c/UK,Europe/London,eng,1080p
 TraceUrban.fr,HD,HD,,FALSE,c/FR,Europe/Paris,fra;eng;por,1080i
 TraceUrban.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra;eng;por,576i
 TraceVanillaIslands.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i

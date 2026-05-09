@@ -5634,7 +5634,8 @@ CCTV8.cn,HD,HD,,FALSE,c/CN,Asia/Shanghai,zho,1080i
 CCTV8.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 CCTV8.us,SD,SD,,TRUE,ct/USCON,America/New_York,eng,480i
 CCTV8K.cn,HD,HD,,FALSE,c/CN,Asia/Shanghai,zho,1080p
-CCTV8K.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
+CCTV8K.cn,SD,SD,,FALSE,c/CN,Asia/Shanghai,zho,576i
+CCTV8K.cn,UHD,UHD,,TRUE,c/CN,Asia/Shanghai,zho,4320p
 CCTV9.cn,HD,HD,,FALSE,c/CN,Asia/Shanghai,zho,1080i
 CCTV9.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 CCTVBilliards.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i

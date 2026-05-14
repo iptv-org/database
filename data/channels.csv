@@ -1584,7 +1584,7 @@ ANT1Satellite.gr,ANT1 Satellite,,,Antenna Group,GR,entertainment,FALSE,1993-01-0
 AntaraTV.id,Antara TV,,,Government of Indonesia,ID,news,FALSE,,,,https://en.antaranews.com/
 AntaresTelevision.pe,Antares Television,Antares Televisión,,,PE,entertainment,FALSE,,,,http://antarestvradio.com/tvonline.html
 AntelCanal29.ec,Antel Canal 29,,,,EC,general,FALSE,,,,https://antelinternet.odoo.com/
-AntelEventos.uy,Antel Eventos,,,,UY,general,FALSE,2013-01-01,,,https://tv.vera.com.uy/envivo
+AntelEventos.uy,Antel Eventos,,,ANTEL,UY,general,FALSE,2013-01-01,,,https://tv.vera.com.uy/envivo
 AntelTVInternacional.uy,Antel TV Internacional,,,ANTEL,UY,sports,FALSE,2026-02-20,,,https://anteltv.com.uy/content/2sss2q50
 AntelTVInternacional2.uy,Antel TV Internacional 2,,,ANTEL,UY,sports,FALSE,2026-03-14,,,https://anteltv.com.uy/content/2sss2qxn
 Antena1.pe,Antena 1,,,Grupo Antena 1,PE,general,FALSE,,,,https://canala1.com
@@ -7281,6 +7281,7 @@ DigitalVision63.do,Digital Vision 63,,,Digital Vision Canal 63 S A Uhf Hoy,DO,ge
 Digiturk4K.tr,Digiturk 4K,,,,TR,,FALSE,,,,http://www.digiturk.com.tr/urunler-servisler/4k-teknolojisi
 DigiWorld.hu,Digi World,,,RCS & RDS,HU,general,FALSE,2012-11-07,2022-09-01,,https://www.digiworld.hu/
 DigiWorld.ro,Digi World,,,RCS & RDS,RO,general,FALSE,2012-10-01,,,https://www.digi-world.tv/
+DIJIT.us,DIJIT,,webchnl,ZOMGWTF;Orbit Media,US,entertainment,FALSE,2026-05-11,,,https://webch.nl/dijit
 DijlahTarab.iq,Dijlah Tarab,,,,IQ,music,FALSE,,,,https://www.dijlah.tv/
 DijlahTV.iq,Dijlah TV,دجلة;قناة دجلة الفضائية,,,IQ,news,FALSE,2010-01-01,,,http://www.dijlah.tv/
 DijlahZaman.iq,Dijlah Zaman,قناة دجلة زمان,,,IQ,general,FALSE,,,,https://www.dijlah.tv/index.php?page=pages&id=tarab
@@ -7997,6 +7998,7 @@ Educanal.py,Educanal,,,,PY,education,FALSE,,,,https://iptv.com.py/educanal/
 Education1095.us,Education 1095,,,,US,education,FALSE,,,,https://www.pegtv.com/channels-education-1095
 EducationalAccessChannel96.us,Educational Access Channel 96,,,,US,education,FALSE,,,,https://www.cabq.gov/artsculture/peg-access
 EducationChannel.mm,Education Channel,,,,MM,education,FALSE,,,,http://www.moe.gov.mm/
+EducationChannelTV4.tt,Education Channel TV4,Our TV4,,Ministry of Education TT,TT,education,FALSE,2020-09-02,,,https://www.moe.gov.tt/
 EducationTelevision.np,Education Television,,,,NP,education,FALSE,,,,
 EducaTV.cm,EducaTV,,,Canal+ International;Eutelsat Group,CM,education,FALSE,,,,https://educatv.tv/
 EducaTV.ec,Educa TV,,,Gobierno del Ecuador,EC,education,FALSE,2014-12-02,,,http://educa.ec/
@@ -8388,6 +8390,8 @@ ERT1.gr,ERT1,ΕΡΤ1;ET1;ENA;ERT;EIRT;EIR,,Hellenic Broadcasting Corporation,GR,
 ERT2.gr,ERT2,ΕΡΤ2;NET;ET2;DYO;YENED;TED,,Hellenic Broadcasting Corporation,GR,general,FALSE,1966-02-27,,,https://www.ert.gr/
 ERT3.gr,ERT3,ΕΡΤ3;ET3,,Hellenic Broadcasting Corporation,GR,entertainment,FALSE,1988-12-14,,,https://www.ert.gr/
 ERTChristmas.gr,ERT Christmas,ΕΡΤ Christmas,ERTflix,Hellenic Broadcasting Corporation,GR,movies;series,FALSE,2024-12-07,,,
+ERTCosmos.gr,ERT Cosmos,,,Hellenic Broadcasting Corporation,GR,general,FALSE,2026-05-07,,,https://www.ert.gr/tv/program/ert-cosmos/
+ERTCosmosCyprus.cy,ERT Cosmos Cyprus,,ERT,Hellenic Broadcasting Corporation,CY,general,FALSE,2026-05-07,,,
 ERTEurovisionChannel.gr,ERT Eurovision Channel,Eurovision Channel,ERTflix,Hellenic Broadcasting Corporation,GR,music,FALSE,2024-02-21,,,
 Ertis.kz,Ertis,,,,KZ,general,FALSE,,,,http://pavlodartv.kz/
 ERTKids.gr,ERT Kids,ΕΡΤ Kids;ERTflix Kids TV,ERTflix,Hellenic Broadcasting Corporation,GR,animation;kids,FALSE,2023-12-30,,,
@@ -8411,7 +8415,7 @@ ERTU8Teba.eg,ERTU 8 Teba,,,Government of Egypt,EG,general,FALSE,,,,http://dotnet
 ERTV.tr,ERTV,,,,TR,general,FALSE,,,,http://www.ertv.com.tr/
 ErTVChannel180.us,ErTV Channel 180,,,,US,legislative,FALSE,,,,https://www.elkrivermn.gov/161/ErTV-Channel-180
 ERTWorld.ca,ERT World,,,Odyssey Television Network,CA,culture,FALSE,2001-11-13,,,http://odysseytv.ca/
-ERTWorld.gr,ERT World,,,Hellenic Broadcasting Corporation,GR,general,FALSE,1996-05-03,,,https://www.ertflix.gr/epg/channel/ept-world-live
+ERTWorld.gr,ERT World,,,Hellenic Broadcasting Corporation,GR,general,FALSE,2006-01-01,2026-05-07,ERTCosmos.gr,https://www.ertflix.gr/epg/channel/ept-world-live
 EryalTV.uk,Eryal TV,,,,UK,general,FALSE,,,,
 ErzTVStollberg.de,Erz-TV Stollberg,,,,DE,general,FALSE,,,,
 ErzurumWebTV.tr,Erzurum Web TV,,,,TR,general,FALSE,,,,https://erzurumwebtv.com/
@@ -9388,6 +9392,7 @@ Fox8.au,Fox8,,,Foxtel,AU,general,FALSE,1995-10-23,,,https://www.foxtel.com.au/tv
 FoxActionMoviesMENA.hk,Fox Action Movies MENA,,,Fox Networks Group Asia Pacific,HK,movies,FALSE,2012-10-01,,,
 FoxActionMoviesSoutheastAsia.hk,Fox Action Movies Southeast Asia,,,Fox Networks Group Asia Pacific,HK,movies,FALSE,2012-10-01,2021-10-01,,https://foxactionmovies.foxmoviesasia.com/
 FoxArabia.ae,Fox Arabia,,,,AE,general,FALSE,,,,https://foxarabia.tv//
+FoxBoxWeb.br,Fox Box Web,,,Globio SAT Fox Box Web,BR,kids,FALSE,2026-05-03,,,https://foxboxweb.github.io/FoxBoxWeb/
 FoxBusinessNetwork.us,Fox Business Network,Fox Business,,Fox Corporation,US,business,FALSE,2007-10-15,,,https://www.foxbusiness.com/
 FoxComedy.pl,Fox Comedy,,,,PL,comedy,FALSE,2015-01-16,2023-12-31,,http://www.foxcomedy.pl/
 FoxComedy.pt,Fox Comedy,,,,PT,comedy,FALSE,2015-11-18,,StarComedy.pt,http://www.foxcomedy.pt/
@@ -11168,7 +11173,7 @@ HTBHokkaidoNews24.jp,HTB Hokkaido News 24,HTB 北海道ニュース24,,,JP,news,
 HtMusicChannel.hu,H!t Music Channel,,,Digi,HU,music,FALSE,,2022-09-01,,http://hitmusic.hu/
 HtMusicChannel.ro,H!t Music Channel,,,,RO,music,FALSE,,2022-09-01,,http://hitmusic.hu/
 HTRTV.nl,HTR TV,,,,NL,general,FALSE,,,,https://htrmedia.evtmedia.nl/index.php/tv
-HTSNews4orce.lc,HTS News4orce,HTS Channel 4;Helen Television Service,,,LC,news,FALSE,,,,https://www.htsstlucia.org/
+HTSNews4orce.lc,HTS News4orce,HTS Channel 4;Helen Television System,,,LC,news,FALSE,,,,https://www.htsstlucia.org/
 HTSporTV.tr,HTSpor TV,,,,TR,sports,FALSE,2024-09-01,,,https://www.htspor.com/canli-yayin
 HTSSlubice.pl,HTS Slubice,HTS Słubice,,,PL,general,FALSE,,,,https://www.slubice.tv/
 HTTV.us,HTTV,,,,US,general,FALSE,,,,http://httvonline.org/live/
@@ -16638,7 +16643,7 @@ KSNW32.us,KSNW 3.2,Telemundo Kansas;T'Mundo,Telemundo,Nexstar Media Inc.,US,gene
 KSNW34.us,KSNW 3.4,BUSTED,Busted,Nexstar Media Inc.,US,documentary,FALSE,,,,
 KSNW363.us,KSNW 36.3,Charge!,Charge!,Nexstar Media Inc.,US,entertainment,FALSE,,,,
 KSPKLP1.us,KSPK-LP1,,Independent,Mainstreet Broadcasting Company Inc,US,general,FALSE,1987-04-16,,,https://transition.fcc.gov/fcc-bin/tvq?facid=22859
-KSPN2.mp,KSPN2,,,Flame Tree Network,MP,general,FALSE,,,,https://www.kspn2.com/
+KSPN2.mp,KSPN2,,,Flame Tree TV and Production Company,MP,general,FALSE,,,,https://www.kspn2.com/
 KSport1.xk,K Sport 1,,,Kujtesa,XK,sports,FALSE,,,,https://www.kujtesa.com/
 KSport2.xk,K Sport 2,,,Kujtesa,XK,sports,FALSE,,,,https://www.kujtesa.com/
 KSport3.xk,K Sport 3,,,Kujtesa,XK,sports,FALSE,,,,https://www.kujtesa.com/
@@ -19827,7 +19832,7 @@ MidpenMediaCenterChannel30.us,Midpen Media Center Channel 30,,,,US,culture,FALSE
 MidpenMediaCenterChannel75.us,Midpen Media Center Channel 75,,,,US,culture,FALSE,,,,https://midpenmedia.org/local-tv/
 MidsomerMurders.us,Midsomer Murders,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/midsomer-murders
 MielTV.pe,Miel TV,,,,PE,music,FALSE,,,,https://elgrupofiesta.pe/
-MIEM.uy,MIEM,,,Ministry of Industry Energy and Mining,UY,legislative,FALSE,,,,https://www.gub.uy/ministerio-industria-energia-mineria/
+MIEM.uy,MIEM,,,Ministerio de Industria Energía y Minería,UY,legislative,FALSE,,,,https://www.gub.uy/ministerio-industria-energia-mineria/
 MienTayTV.vn,Mien Tay TV,,,,VN,,FALSE,,,,
 MierschTV.lu,MierschTV,,,,LU,general,FALSE,,,,https://mersch.tv/
 MiExtranaObsesion.us,Mi Extrana Obsesion,Mi Extraña Obsesión,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/mi-extrana-obsesion-es
@@ -21633,6 +21638,7 @@ NickMusic.nl,NickMusic,,Nickelodeon,Paramount Networks EMEAA,NL,music,FALSE,2007
 NickMusic.us,NickMusic,,Nickelodeon,Viacom International Inc.;Paramount Skydance Corporation,US,music,FALSE,2002-05-01,,,http://www.nick.com/
 NickOnline.br,NickOnline,Nickelodeon Online,,x1co,BR,kids;animation,FALSE,2026-01-03,,,https://x1co.com.br
 NickOnlineJr.br,NickOnline Jr.,NickOnline Junior.,,x1co,BR,animation;kids,FALSE,2026-05-09,,,
+NickOnlineMusic.br,NickOnline Music,Nickelodeon Music Online,,x1co,BR,music,FALSE,2026-05-12,,,https://two.x1co.com.br
 NickOnlineSpongebob.br,NickOnline Spongebob,Nickelodeon Online Spongebob,,x1co,BR,animation;kids,FALSE,2026-04-16,,,https://x1co.com.br:2083
 NickPlutoTV.us,Nick Pluto TV,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/nick-pluto-tv
 NickRewind.us,NickRewind,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/nick-rewind-de
@@ -22027,9 +22033,9 @@ NSCTVCriciuma.br,NSC TV Criciuma,NSC TV Criciúma;ZYB 762,,NSC Comunicacao,BR,,F
 NSCTVFlorianopolis.br,NSC TV Florianopolis,NSC TV Florianópolis;ZYB 763,,NSC Comunicacao,BR,general,FALSE,1979-05-01,,,http://redeglobo.globo.com/sc/nsctv/
 NSCTVJoinville.br,NSC TV Joinville,,,NSC Comunicacao,BR,general,FALSE,1979-05-14,,,http://redeglobo.globo.com/sc/nsctv/
 nsert.id,!nsert,Insert,,,ID,,FALSE,,,,https://www.transvision.co.id/
-NSEventos1.uy,NS Eventos 1,,,,UY,sports,FALSE,,,,https://www.nuevosiglo.com.uy/Programacion
-NSEventos2.uy,NS Eventos 2,,,,UY,sports,FALSE,,,,https://www.nuevosiglo.com.uy/Programacion
-NSEventos3.uy,NS Eventos 3,,,,UY,sports,FALSE,,,,https://www.nuevosiglo.com.uy/Programacion
+NSEventos1.uy,NS Eventos 1,,,Riselco S.A.,UY,sports,FALSE,,,,https://www.nuevosiglo.com.uy/Programacion
+NSEventos2.uy,NS Eventos 2,,,Riselco S.A.,UY,sports,FALSE,,,,https://www.nuevosiglo.com.uy/Programacion
+NSEventos3.uy,NS Eventos 3,,,Riselco S.A.,UY,sports,FALSE,,,,https://www.nuevosiglo.com.uy/Programacion
 NSHomeShopping.kr,NS Home Shopping,NS홈쇼핑,,NS Shopping Co Ltd,KR,shop,FALSE,2001-01-01,,,http://pr.nsmall.com/
 NSK49.ru,NSK 49,НСК 49,,,RU,general,FALSE,,,,https://nsk49.ru/
 NSL.it,NSL,,,Flopicco S R L,IT,culture,FALSE,,,,https://flopicco.myportfolio.com/nsl-channel-branding
@@ -22144,7 +22150,7 @@ NuevaVision14.do,Nueva Vision 14,,,,DO,general,FALSE,,,,https://dominicanchannel
 Nueve.mx,Nueve,,,,MX,,FALSE,,,,https://www.televisa.com/el-nueve/
 NueveTV.mx,Nueve TV,XEQ-TDT,,TelevisaUnivision,MX,general,FALSE,1968-09-01,,,https://www.ntvslp.com/
 NuevoMundoTV.gt,Nuevo Mundo TV,,,Grupo Nuevo Mundo,GT,news,FALSE,,,,https://nuevomundoradio.com/nuevomundo-tv/
-NuevoSigloTV.uy,Nuevo Siglo TV,,,,UY,sports,FALSE,1995-12-04,,,https://www.nuevosiglo.com.uy/Programacion
+NuevoSigloTV.uy,Nuevo Siglo TV,,,Riselco S.A.,UY,general,FALSE,1995-12-04,,,https://www.nuevosiglo.com.uy/Programacion
 NuevoTiempo.br,Nuevo Tiempo,,,,BR,religious,FALSE,,,,https://www.nuevotiempo.org/tv/
 NuevoTiempoTV.cl,Nuevo Tiempo TV,,,Iglesia Adventista del Séptimo Día,CL,religious,FALSE,,,,https://www.nuevotiempo.cl/tv/
 NukaTV.ec,Nuka TV,Ñuka TV,,,EC,general,FALSE,,,,https://nukatv.com/
@@ -25114,6 +25120,7 @@ RiberenaTV.pe,Riberena TV,Ribereña TV,,,PE,,FALSE,,,,https://riberenaperu.com/
 RiC.de,RiC,,,Your Family Entertainment AG,DE,kids;family,FALSE,2012-09-10,,,http://www.rictv.de/
 RICH.us,RICH,,Pluto TV,,US,,FALSE,,,,https://pluto.tv/en/live-tv/rich-es
 RiCInternational.de,RiC International,,Your Family Entertainment AG,,DE,kids;family,FALSE,,,,http://www.rictv.de/
+RiddimHopeTV.tt,Riddim & Hope TV,,,Riddim & Hope Network,TT,religious,FALSE,,,,https://www.riddimandhope.com/
 RideeTV.lk,Ridee TV,,,,LK,,FALSE,,,,
 RideTV.us,Ride TV,,,,US,,FALSE,,,,
 RiesaTV.de,Riesa TV,,,,DE,general,FALSE,,,,https://www.riesa-tv.de/
@@ -25859,7 +25866,7 @@ SahelTV.mr,Sahel TV,,,,MR,general,FALSE,,,,
 SahelTV.tn,Sahel TV,,,,TN,general,FALSE,,,,http://saheltv.tn/
 SahraTV.dz,Sahra TV,‎قناة صحراء الجزائرية,,,DZ,culture,FALSE,,,,https://sahranews.dz/
 SaintPierreMiquelon1ere.pm,Saint-Pierre & Miquelon 1ere,Saint-Pierre & Miquelon 1ère;Saint-Pierre & Miquelon La Première,,France Televisions,PM,general,FALSE,1967-04-20,,,https://la1ere.francetvinfo.fr/saintpierremiquelon/
-SaipanTV.mp,Saipan TV,Saipan Visitor's Channel,,Flame Tree Network,MP,travel,FALSE,,,,https://saipantv.com/
+SaipanTV.mp,Saipan TV,Saipan Visitor's Channel,,Flame Tree TV and Production Company,MP,travel,FALSE,,,,https://saipantv.com/
 SairamTV.in,Sairam TV,,,,IN,religious,FALSE,,,,
 SaisonsCanada.ca,Saisons Canada,,,,CA,,FALSE,,,,
 SaiTV.in,Sai TV,,,,IN,,FALSE,,,,
@@ -26152,6 +26159,7 @@ scifi.ru,.sci-fi,,,,RU,science,FALSE,,,,https://mt.media/channels/sci-fi/
 SciFi4U.us,Sci-Fi 4U,,,,US,classic,FALSE,,,,
 SCMTVHD321.bo,SCM TV HD 32.1,,,,BO,general,FALSE,,,,
 ScopeTV.kw,Scope TV,,,,KW,,FALSE,,,,
+ScorchTV.tt,Scorch TV,,,,TT,music,FALSE,,,,https://scorchtv.com/
 ScotchPlainsTV.us,Scotch Plains TV,,,,US,general,FALSE,,,,https://www.scotchplainsnj.gov/index.php/departments/scotch-plains-tv
 ScottsdaleChannel11.us,Scottsdale Channel 11,,,,US,general,FALSE,,,,https://www.scottsdaleaz.gov/scottsdale-video-network
 SCPTV.us,SCP-TV,St. Charles Parish Government Access Television,,,US,legislative,FALSE,,,,https://www.stcharlesparish.gov/connect/scp-tv

@@ -219,7 +219,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel Name\n\nYiwu News Integrated Channel\n\n### Alternative Names (optional)\n\n_No response_\n\n### Network (optional)\n\n_No response_\n\n### Owners (optional)\n\n_No response_\n\n### Country\n\nCN\n\n### Subdivision (optional)\n\n_No response_\n\n### City (optional)\n\n_No response_\n\n### Categories (optional)\n\nnews\n\n### NSFW\n\nFALSE\n\n### Launched (optional)\n\n_No response_\n\n### Closed (optional)\n\n_No response_\n\n### Replaced By (optional)\n\n_No response_\n\n### Website (optional)\n\n_No response_\n\n### Feed Name\n\nSD\n\n### Feed Alternative Names\n\nA;B\n\n### Broadcast Area\n\nc/CN\n\n### Languages\n\nzho\n\n### Timezones\n\nAfrica/Johannesburg;Africa/Kigali\n\n### Format\n\n576i\n\n### Logo URL\n\nhttps://www.tvchinese.net/uploads/tv/yiwutv.jpg\n\n### In Use\n\nFALSE\n\n### Tags\n\nhorizontal\n\n### Notes\n\n_No response_',
+    body: '### Channel Name\n\nYiwu News Integrated Channel\n\n### Alternative Names (optional)\n\n_No response_\n\n### Network (optional)\n\n_No response_\n\n### Owners (optional)\n\n_No response_\n\n### Country\n\nCN\n\n### Subdivision (optional)\n\n_No response_\n\n### City (optional)\n\n_No response_\n\n### Categories (optional)\n\nnews\n\n### NSFW\n\nFALSE\n\n### Launched (optional)\n\n_No response_\n\n### Closed (optional)\n\n_No response_\n\n### Replaced By (optional)\n\n_No response_\n\n### Website (optional)\n\n_No response_\n\n### Feed Name\n\nSD\n\n### Feed Alternative Names\n\nA;B\n\n### Broadcast Area\n\nc/CN\n\n### Languages\n\nzho\n\n### Timezones\n\nAfrica/Johannesburg;Africa/Kigali\n\n### Format\n\n576i\n\n### Logo URL\n\nhttps://www.tvchinese.net/uploads/tv/yiwutv.jpg\n\n### In Use\n\nFALSE\n\n### Logo Tags\n\nhorizontal\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/5900/reactions',
       total_count: 0,
@@ -298,7 +298,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel Name\n\nYiwu Business Channel\n\n### Alternative Names (optional)\n\n_No response_\n\n### Network (optional)\n\n_No response_\n\n### Owners (optional)\n\n_No response_\n\n### Country\n\nCN\n\n### Subdivision (optional)\n\n_No response_\n\n### City (optional)\n\n_No response_\n\n### Categories (optional)\n\nbusiness\n\n### NSFW\n\nFALSE\n\n### Launched (optional)\n\n_No response_\n\n### Closed (optional)\n\n_No response_\n\n### Replaced By (optional)\n\n_No response_\n\n### Website (optional)\n\n_No response_\n\n### Logo URL\n\nhttps://www.tvchinese.net/uploads/tv/yiwutv.jpg\n\n### Tags\n\nhorizontal;color\n\n### Feed Name\n\nSD\n\n### Broadcast Area\n\nc/CN\n\n### Languages\n\nzho\n\n### Timezones\n\nAfrica/Johannesburg;Africa/Kigali\n\n### Format\n\n576i\n\n### Notes\n\n_No response_',
+    body: '### Channel Name\n\nYiwu Business Channel\n\n### Alternative Names (optional)\n\n_No response_\n\n### Network (optional)\n\n_No response_\n\n### Owners (optional)\n\n_No response_\n\n### Country\n\nCN\n\n### Subdivision (optional)\n\n_No response_\n\n### City (optional)\n\n_No response_\n\n### Categories (optional)\n\nbusiness\n\n### NSFW\n\nFALSE\n\n### Launched (optional)\n\n_No response_\n\n### Closed (optional)\n\n_No response_\n\n### Replaced By (optional)\n\n_No response_\n\n### Website (optional)\n\n_No response_\n\n### Logo URL\n\nhttps://www.tvchinese.net/uploads/tv/yiwutv.jpg\n\n### Logo Tags\n\nhorizontal;color\n\n### Feed Name\n\nSD\n\n### Broadcast Area\n\nc/CN\n\n### Languages\n\nzho\n\n### Timezones\n\nAfrica/Johannesburg;Africa/Kigali\n\n### Format\n\n576i\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/5899/reactions',
       total_count: 0,
@@ -456,7 +456,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel ID (required)\n\nM5.hu\n\n### Channel Name\n\n_No response_\n\n### Alternative Names\n\n~\n\n### Network\n\n~\n\n### Owners\n\nDuna Médiaszolgáltató Nonprofit Zrt.\n\n### Country\n\n_No response_\n\n### Broadcast Area\n\n_No response_\n\n### Languages\n\n_No response_\n\n### Categories\n\n~\n\n### NSFW\n\nNone\n\n### Launched\n\n_No response_\n\n### Closed\n\n~\n\n### Replaced By\n\n_No response_\n\n### Website\n\n_No response_\n\n### Notes\n\n_No response_',
+    body: '### Channel ID (required)\n\nM5.hu\n\n### Channel Name\n\n_No response_\n\n### Alternative Names\n\n~\n\n### Network\n\n~\n\n### Owners\n\nDuna Médiaszolgáltató Nonprofit Zrt.\n\n### Country\n\n_No response_\n\n### Broadcast Area\n\n_No response_\n\n### Languages\n\n_No response_\n\n### Categories\n\n~\n\n### NSFW\n\nNone\n\n### Launched\n\n2026-06-20\n\n### Closed\n\n2026-06-20\n\n### Replaced By\n\n_No response_\n\n### Website\n\n_No response_\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/5901/reactions',
       total_count: 0,
@@ -614,7 +614,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Channel ID (required)\n\nM5.hu\n\n### Channel Name\n\n_No response_\n\n### Alternative Names\n\n_No response_\n\n### Network\n\n_No response_\n\n### Owners\n\n_No response_\n\n### Country\n\n_No response_\n\n### Broadcast Area\n\n_No response_\n\n### Languages\n\n_No response_\n\n### Categories\n\n_No response_\n\n### NSFW\n\nNone\n\n### Launched\n\n2020-01-01\n\n### Closed\n\n_No response_\n\n### Replaced By\n\n0TV.dk@SD\n\n### Website\n\n_No response_\n\n### Notes\n\n_No response_',
+    body: '### Channel ID (required)\n\nM5.hu\n\n### Channel Name\n\n_No response_\n\n### Alternative Names\n\n_No response_\n\n### Network\n\n_No response_\n\n### Owners\n\n_No response_\n\n### Country\n\n_No response_\n\n### Broadcast Area\n\n_No response_\n\n### Languages\n\n_No response_\n\n### Categories\n\n_No response_\n\n### NSFW\n\nNone\n\n### Launched\n\n_No response_\n\n### Closed\n\n_No response_\n\n### Replaced By\n\n0TV.dk@SD\n\n### Website\n\n_No response_\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/5903/reactions',
       total_count: 0,
@@ -1329,7 +1329,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Logo URL (required)\n\nhttps://upload.wikimedia.org/wikipedia/commons/7/71/Nothing_whitespace_blank.png\n\n### In Use\n\nTRUE\n\n### Tags\n\ndeprecated\n\n### Width\n\n_No response_\n\n### Height\n\n_No response_\n\n### Format\n\n_No response_\n\n### Notes\n\n_No response_',
+    body: '### Logo URL (required)\n\nhttps://upload.wikimedia.org/wikipedia/commons/7/71/Nothing_whitespace_blank.png\n\n### Channel ID\n\n_No response_\n\n### Feed ID\n\n_No response_\n\n### New Channel ID\n\n_No response_\n\n### New Feed ID\n\nHD\n\n### In Use\n\nTRUE\n\n### Tags\n\ndeprecated\n\n### Width\n\n_No response_\n\n### Height\n\n_No response_\n\n### Format\n\n_No response_\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/9902/reactions',
       total_count: 0,

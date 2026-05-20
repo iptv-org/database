@@ -1,5 +1,8 @@
 import { Channel, Feed, BlocklistRecord, Logo, City, Issue, IssueData } from '../../models'
 import { Collection, Logger } from '@freearhey/core'
+import { ValidatorError } from '../../types/validator'
+import { Storage } from '@freearhey/storage-js'
+import { LOGS_DIR } from '../../constants'
 import {
   createChannelId,
   createFeedId,
@@ -11,9 +14,6 @@ import {
   cacheData,
   resetData
 } from '../../core'
-import { ValidatorError } from '../../types/validator'
-import { Storage } from '@freearhey/storage-js'
-import { LOGS_DIR } from '../../constants'
 
 const processedIssues = new Collection<Issue>()
 const skippedIssues = new Collection<Issue>()
@@ -222,7 +222,7 @@ async function addChannel(issue: Issue) {
     channel: newChannel.id,
     feed: null,
     in_use: issueData.getBoolean('in_use') === false ? false : true,
-    tags: issueData.getArray('tags') || [],
+    tags: issueData.getArray('logo_tags') || [],
     width: imageInfo.width,
     height: imageInfo.height,
     format: imageInfo.format,
@@ -588,20 +588,36 @@ async function editLogo(issue: Issue) {
   const issueData: IssueData = issue.data
 
   const logoUrl = issueData.getString('logo_url')
+  const logoChannelId = issueData.getString('channel_id')
+  const logoFeedId = issueData.getString('feed_id')
+
   if (!logoUrl) {
     log.error('The request is missing the logo URL')
     skippedIssues.add(issue)
     return
   }
 
-  const logosToUpdate: Collection<Logo> = data.logos.filter((logo: Logo) => logo.url === logoUrl)
+  let logosToUpdate: Collection<Logo> = data.logos.filter((logo: Logo) => logo.url === logoUrl)
+
+  if (logoChannelId) {
+    logosToUpdate = logosToUpdate.filter((logo: Logo) => logo.channel === logoChannelId)
+  }
+
+  if (logoFeedId) {
+    logosToUpdate = logosToUpdate.filter((logo: Logo) => logo.feed === logoFeedId)
+  }
+
   if (logosToUpdate.isEmpty()) {
-    log.error(`Logo with url "${logoUrl}" not found`)
+    log.error(
+      `Logo with url "${logoUrl}", channel "${logoChannelId}" and feed "${logoFeedId}" not found`
+    )
     skippedIssues.add(issue)
     return
   }
 
-  log.info(`Found ${logosToUpdate.count()} logo(s) with url "${logoUrl}"`)
+  log.info(
+    `Found ${logosToUpdate.count()} logo(s) with url "${logoUrl}", channel "${logoChannelId}" and feed "${logoFeedId}"`
+  )
 
   cacheData()
 
@@ -620,7 +636,9 @@ async function editLogo(issue: Issue) {
     }
   }
 
-  log.info(`Logo(s) with url "${logoUrl}" updated`)
+  log.info(
+    `Logo(s) with url "${logoUrl}", channel "${logoChannelId}" and feed "${logoFeedId}" updated`
+  )
 
   processedIssues.add(issue)
 }

@@ -1074,6 +1074,7 @@ AjwaTV.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 AjyalTV.ps,SD,SD,,TRUE,c/PS,Asia/Hebron,ara,576i
 AjyalTV.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,ara,576i
 AkaalChannel.uk,SD,SD,,TRUE,c/UK,Europe/London,pan;eng,576i
+Akaboozi879FM.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,lug,576i
 Akademiya.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 Akaku53.us,SD,SD,,TRUE,ct/USOGG,America/New_York,eng,480i
 Akaku54.us,SD,SD,,TRUE,ct/USOGG,America/New_York,eng,480i
@@ -2900,6 +2901,7 @@ BanglaTVEurope.bd,SD,SD,,TRUE,c/BD;c/UK,Asia/Dhaka,ben,576i
 BanglaVision.bd,SD,SD,,TRUE,c/BD,Asia/Dhaka,ben,576i
 BangPOV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 BangU.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+BaniVision.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 BanjarTV.id,SD,SD,,TRUE,ct/IDBDJ,Asia/Jakarta,ind,576i
 BanningCityTV.us,SD,SD,,TRUE,ct/USBNG,America/New_York,eng,480i
 Banovsketeleviznevysielanie.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
@@ -9190,6 +9192,7 @@ ElShaddaiTVKenya.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,eng,576i
 ElsharqTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,ara,576i
 ElshintaTV.id,SD,SD,,TRUE,ct/IDJKT,Asia/Jakarta,ind,576i
 ElSiete.ar,SD,SD,,TRUE,c/AR,America/Argentina/Mendoza,spa,576i
+ELSolNetworkTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 ElSolNetworkTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 ElSolTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 ElSonorense.mx,SD,SD,,TRUE,c/MX,America/Hermosillo,spa,480i
@@ -14630,6 +14633,7 @@ KantankaTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 KantipurCineplex.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 KantipurMax.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 KantipurTV.np,HD,HD,,TRUE,c/NP,Asia/Kathmandu,nep;eng;mai,1080i
+KantipurTV.np,SD,SD,,FALSE,c/NP,Asia/Kathmandu,nep;mai,720p
 KanucaTV.ao,SD,SD,,TRUE,c/AO,Africa/Luanda,por,576i
 KAOBLD271.us,SD,SD,,TRUE,ct/USBPT,America/Chicago,eng,480i
 KAOBLD273.us,SD,SD,,TRUE,ct/USBPT,America/Chicago,eng,480i
@@ -27322,6 +27326,7 @@ RN7.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RNEparatodos.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 RNF.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 RNGLuzon.ph,SD,SD,,TRUE,c/PH,Asia/Manila,tgl;eng,480i
+RNN.do,DOS,DOS,,FALSE,c/DO,America/Santo_Domingo,spa,720p
 RNN.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 RNTelevision.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 RNZ.nz,SD,SD,,TRUE,c/NZ,Pacific/Auckland,eng,576i
@@ -34402,6 +34407,7 @@ TVOne.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 TVOne.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 TVOneGlobal.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,urd,576i
 TVONENicaragua.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,480i
+TVOneUganda.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng;lug,576i
 TVOnex.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
 TVOost.be,HD,HD,,FALSE,c/BE,Europe/Brussels,nld,1080i
 TVOost.be,SD,SD,,TRUE,c/BE,Europe/Brussels,nld,576i
@@ -38278,6 +38284,9 @@ WHIO7NOW.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 WHIOTV71.us,HD,HD,,TRUE,ct/USDAY,America/New_York,eng,1080i
 WHIOTV72.us,SD,SD,,TRUE,ct/USDAY,America/New_York,eng,480i
 WHIOTV73.us,SD,SD,,TRUE,ct/USDAY,America/New_York,eng,480i
+Whiplash.us,HD,HD,,TRUE,c/US,America/New_York,eng,720p
+WhiplashCinema.us,SD,SD,,TRUE,c/US,America/New_York,eng,480p
+WhiplashII.us,SD,SD,,TRUE,c/US,America/New_York,eng,480p
 WHIQ251.us,HD,HD,,TRUE,ct/USHSV,America/Chicago,eng,1080i
 WHIQ252.us,SD,SD,,TRUE,ct/USHSV,America/Chicago,eng,480i
 WHIQ253.us,SD,SD,,TRUE,ct/USHSV,America/Chicago,eng,480i
@@ -38509,6 +38518,7 @@ WinCAMGovernment.us,SD,SD,,TRUE,ct/USIHT,America/New_York,eng,480i
 WinCAMHD.us,SD,SD,,TRUE,ct/USIHT,America/New_York,eng,480i
 WinCAMPublic.us,SD,SD,,TRUE,ct/USIHT,America/New_York,eng,480i
 WindhamTV.us,SD,SD,,TRUE,ct/US6DW,America/New_York,eng,480i
+WindowTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,720p
 WineWatchesWhiskey.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080p
 WINKTV111.us,HD,HD,,TRUE,ct/USFMY,America/New_York,eng,1080i
 WINKTV112.us,SD,SD,,TRUE,ct/USFMY,America/New_York,eng,480i

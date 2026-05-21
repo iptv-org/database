@@ -31,6 +31,8 @@ export class Logo extends sdk.Models.Logo implements Validator {
 
   update(issueData: IssueData): this {
     const data = {
+      channel: issueData.getString('new_channel_id'),
+      feed: issueData.getString('new_feed_id'),
       in_use: issueData.getBoolean('in_use'),
       tags: issueData.getArray('tags'),
       width: issueData.getNumber('width'),
@@ -38,6 +40,8 @@ export class Logo extends sdk.Models.Logo implements Validator {
       format: issueData.getString('format')
     }
 
+    if (data.channel !== undefined) this.channel = data.channel
+    if (data.feed !== undefined) this.feed = data.feed
     if (data.in_use !== undefined) this.in_use = data.in_use
     if (data.tags !== undefined) this.tags = data.tags
     if (data.width !== undefined) this.width = data.width

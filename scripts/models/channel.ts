@@ -157,7 +157,7 @@ export class Channel extends sdk.Models.Channel implements Validator {
       categories: Joi.array().items(Joi.string().regex(/^[a-z]+$/)),
       is_nsfw: Joi.boolean().strict().required(),
       launched: Joi.date().format('YYYY-MM-DD').raw().allow(null),
-      closed: Joi.date().format('YYYY-MM-DD').raw().allow(null).greater(Joi.ref('launched')),
+      closed: Joi.date().format('YYYY-MM-DD').raw().allow(null).min(Joi.ref('launched')),
       replaced_by: Joi.string()
         .regex(/^[A-Za-z0-9]+\.[a-z]{2}($|@[A-Za-z0-9]+$)/)
         .allow(null),

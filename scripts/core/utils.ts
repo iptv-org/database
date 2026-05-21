@@ -110,6 +110,7 @@ export async function loadIssues(props?: {
       Notes: 'notes',
       Reference: 'ref',
       'Logo URL': 'logo_url',
+      'Logo Tags': 'logo_tags',
       Tags: 'tags',
       Width: 'width',
       Height: 'height',

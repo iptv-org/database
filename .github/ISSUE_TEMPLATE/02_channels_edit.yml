@@ -72,21 +72,21 @@ body:
   - type: input
     id: launched
     attributes:
-      label: Launched (optional)
+      label: Launched
       description: Launch date of the channel (`YYYY-MM-DD`)   
       placeholder: '2016-07-28'
 
   - type: input
     id: closed
     attributes:
-      label: Closed (optional)
+      label: Closed
       description: Date on which the channel closed (`YYYY-MM-DD`)   
       placeholder: '2020-05-31'
 
   - type: input
     id: replaced_by
     attributes:
-      label: Replaced By (optional)
+      label: Replaced By
       description: The ID of the channel that this channel was replaced by
       placeholder: 'CCTV1.cn'
 
@@ -98,12 +98,7 @@ body:
       placeholder: 'http://www.ahtv.cn/'
 
   - type: textarea
-    attributes:
-      label: Sources (optional)
-      description: 'Links to your sources, which will help us verify the data in the request more quickly'
-
-  - type: textarea
     id: notes
     attributes:
       label: Notes
-      description: 'Anything else we should know?'
+      description: 'Any additional information that will help us process your request more quickly'

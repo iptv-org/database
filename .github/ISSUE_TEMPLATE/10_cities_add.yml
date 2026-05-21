@@ -38,7 +38,7 @@ body:
     id: city_code
     attributes:
       label: City Code
-      description: [UN/LOCODE](https://en.wikipedia.org/wiki/UN/LOCODE) of the city. The complete list of codes can be found at [unlocode.info](https://unlocode.info/)
+      description: '[UN/LOCODE](https://en.wikipedia.org/wiki/UN/LOCODE) of the city. The complete list of codes can be found at [unlocode.info](https://unlocode.info/)'
       placeholder: 'CNYAT'
     validations:
       required: true

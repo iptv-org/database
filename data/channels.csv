@@ -4159,7 +4159,7 @@ Canal7Jacobacci.ar,Canal 7 Jacobacci,,,,AR,general,FALSE,,,,https://canal7jacoba
 Canal7Jujuy.ar,Canal 7 Jujuy,,,,AR,,FALSE,,,,http://www.radiovisionjujuy.com.ar/canal7dejujuy
 Canal7Neuquen.ar,Canal 7 Neuquen,Canal 7 Neuquén;Telefe Neuquén,,Neuquén TV S.A.,AR,general,FALSE,1965-12-05,,,https://www.c7neuquen.com.ar/
 Canal7OndaVision.ni,Canal 7 Onda Vision,Canal 7 Onda Visión,,,NI,general,FALSE,,,,
-Canal7PuntadelEste.uy,Canal 7 Punta del Este,,,Grupo Clarín S.A.,UY,,FALSE,1968-01-18,,,https://www.canal7.com.uy/
+Canal7PuntadelEste.uy,Canal 7 Punta del Este,,,Grupo Clarín S.A.,UY,general,FALSE,1968-01-18,,,https://www.canal7.com.uy/
 Canal7Salta.ar,Canal 7 Salta,,,,AR,,FALSE,,,,https://canal7salta.com/
 Canal7SLP.mx,Canal 7 SLP,XHSLV-TDT,,Comunicación 2000 SA de CV,MX,general,FALSE,1994-08-12,,,https://canal7slp.tv/
 Canal7Tacuarembo.uy,Canal 7 Tacuarembo,Canal 7 Tacuarembó,,,UY,general,FALSE,1967-06-17,,,https://multimedios.com.uy/
@@ -4180,7 +4180,7 @@ Canal8Catacaos.pe,Canal 8 Catacaos,,,,PE,general,FALSE,,,,https://www.canal8cata
 Canal8Catamarca.ar,Canal 8 Catamarca,,,,AR,,FALSE,,,,https://canal8catamarca.com.ar/
 Canal8CCProducciones.py,Canal 8 C&C Producciones,,,,PY,general,FALSE,,,,
 Canal8Digioriente.co,Canal 8 Digioriente,,,Digioriente S.A.S.,CO,general,FALSE,,,,https://www.digioriente.net.co/
-Canal8Durazno.uy,Canal 8 Durazno,,,,UY,general,FALSE,,,,https://tv.vera.com.uy/content/2s6pf
+Canal8Durazno.uy,Canal 8 Durazno,,,Cablevisión Durazno,UY,general,FALSE,2008-12-01,,,https://tv.vera.com.uy/content/2s6pf
 Canal8EventosHD.uy,Canal 8 Eventos HD,Canal 8 Tacuarembó,,DANEC Realizaciones,UY,entertainment,FALSE,2025-01-09,,,https://www.cabledosmil.com.uy/
 Canal8LosChiles.cr,Canal 8 Los Chiles,Canal Ocho Frontera,,,CR,general,FALSE,,,,
 Canal8MardelPlata.ar,Canal 8 Mar del Plata,,,,AR,,FALSE,,,,https://canal8mardelplata.com.ar/
@@ -18418,6 +18418,7 @@ LaSexta.es,La Sexta,,,,ES,entertainment,FALSE,2001-04-01,,,https://www.lasexta.c
 Lasreglasdeljuego.us,Las reglas del juego,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/las-reglas-del-juego-es
 LasTortugasNinja.us,Las Tortugas Ninja,,Pluto TV,,US,animation,FALSE,,,,https://pluto.tv/en/live-tv/las-tortugas-ninja-es
 LaSultanadelEsteTV.do,La Sultana del Este TV,,,,DO,general,FALSE,,,,https://lasultanadelestetv.com/
+LasVegasTonightwithDaleDavidson.us,Las Vegas Tonight with Dale Davidson,,,,US,general,FALSE,,,,
 LatacungaTV.ec,LatacungaTV,,,,EC,entertainment,FALSE,,,,https://www.latacungatv.com/
 LATAMTV.co,LATAM TV,,,,CO,entertainment,FALSE,,,,
 LaTele.ch,La Tele,La Télé,,Vaud-Fribourg TV S A,CH,general,FALSE,2009-01-01,,,https://latele.ch/
@@ -20107,6 +20108,7 @@ MNNFSTV.us,MNN-FSTV,,,,US,news,FALSE,,,,https://www.mnn.org/watch/channels/free-
 MNNHD.us,MNN HD,,,,US,general,FALSE,,,,https://www.mnn.org/watch/channels/hd-channel
 MNNLifestyle.us,MNN Lifestyle,,,,US,lifestyle;culture,FALSE,,,,https://www.mnn.org/watch/channels/lifestyle-channel
 MNNSpirit.us,MNN Spirit,,,,US,religious;culture;lifestyle,FALSE,,,,https://www.mnn.org/watch/channels/spirit-channel
+MNPlus.mn,MN+,Mnplus91;MN+,,Skytel LLC,MN,movies,FALSE,2023-05-26,,,https://www.skytel.mn/skytel
 MNT.us,MNT,,,Fox Corporation,US,general,FALSE,2006-09-05,,,https://www.mynetworktv.com/
 MNTV.mm,MN TV,,,Shwe Thanlwin,MM,general,FALSE,2012-10-01,,,
 MNX.in,MNX,,Times Network,The Times Group;Bennett Coleman and Company Limited (BCCL),IN,movies,FALSE,2017-07-15,,,
@@ -21641,7 +21643,7 @@ NickMusic.au,NickMusic,,Nickelodeon,Paramount Networks EMEAA,AU,music,FALSE,2020
 NickMusic.nl,NickMusic,,Nickelodeon,Paramount Networks EMEAA,NL,music,FALSE,2007-08-02,2026-01-01,,http://www.nickelodeon.nl/
 NickMusic.us,NickMusic,,Nickelodeon,Viacom International Inc.;Paramount Skydance Corporation,US,music,FALSE,2002-05-01,,,http://www.nick.com/
 NickOnline.br,NickOnline,Nickelodeon Online,,x1co,BR,kids;animation,FALSE,2026-01-03,,,https://x1co.com.br
-NickOnlineJr.br,NickOnline Jr.,NickOnline Junior.,,x1co,BR,animation;kids,FALSE,2026-05-09,,,
+NickOnlineJr.br,NickOnline Jr.,NickOnline Junior.,,x1co,BR,animation;kids,FALSE,2026-05-09,2026-05-09,,https://junior.x1co.com.br
 NickOnlineMusic.br,NickOnline Music,Nickelodeon Music Online,,x1co,BR,music,FALSE,2026-05-12,,,https://two.x1co.com.br
 NickOnlineSpongebob.br,NickOnline Spongebob,Nickelodeon Online Spongebob,,x1co,BR,animation;kids,FALSE,2026-04-16,,,https://x1co.com.br:2083
 NickPlutoTV.us,Nick Pluto TV,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/nick-pluto-tv
@@ -21955,6 +21957,7 @@ nowGolf2.hk,now Golf 2,,,PCCW Ltd,HK,sports,FALSE,,,,https://nowplayer.now.com/t
 nowGolf3.hk,now Golf 3,,,PCCW Ltd,HK,sports,FALSE,,,,https://nowplayer.now.com/tvguide/channeldetail/684/1
 nowInternational.hk,now International,,,PCCW Ltd,HK,culture,FALSE,2012-10-18,,,http://nowtv.now.com/overseas/us/channel?lang=zh
 nowJelli.hk,now Jelli,nowJelli紫金國際台,,PCCW Ltd,HK,,FALSE,2015-02-01,,,https://nowplayer.now.com/tvguide/channeldetail/108/1
+NowMediaTelevision.us,NowMedia Television,,,,US,news;lifestyle,FALSE,,,,https://www.nowmedia.tv/
 nowNews.hk,now News,now新聞台,,PCCW Ltd,HK,news,FALSE,2007-10-24,,,http://news.now.com/
 NOWRock.uk,NOW Rock,NOW 90s;Chilled 90s;Chilled TV;Planet Pop;Massive R&B;WTF,,Universal Music Group N.V.,UK,music,FALSE,2010-11-23,,,https://www.nowmusic.com/
 nowSports.hk,now Sports,,,PCCW Ltd,HK,sports,FALSE,,,,https://nowplayer.now.com/tvguide/channeldetail/600/1
@@ -24130,6 +24133,7 @@ Puls2.pl,Puls 2,,,Telewizja Puls,PL,,FALSE,2012-07-19,,,https://puls2.pl/
 Puls24.at,Puls 24,,,ProSiebenSat.1 Media SE,AT,,FALSE,2019-09-01,,,https://www.puls4.com/Puls24
 Puls4.at,Puls 4,PULS tv,,ProSiebenSat.1 Media,AT,,FALSE,2004-06-21,,,https://www.puls4.com/
 PulsAcht.ch,Puls Acht,,,,CH,,FALSE,,,,https://www.puls8.ch/
+Pulsar.ua,Pulsar,Пульсар,,,UA,music;news,FALSE,,,,
 Pulse.za,Pulse,,,AfricaXP,ZA,,FALSE,,,,https://video.premiumfree.tv/?section=lifestylesection
 Pulse95Radio.ae,Pulse95 Radio,,,,AE,,FALSE,,,,
 Pulsea.fi,Pulsea,,,,FI,,FALSE,,,,https://www.pulsea.fi/

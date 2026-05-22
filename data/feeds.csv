@@ -19893,6 +19893,7 @@ LaSexta.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 Lasreglasdeljuego.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 LasTortugasNinja.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 LaSultanadelEsteTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
+LasVegasTonightwithDaleDavidson.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080p
 LatacungaTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 LATAMTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 LaTele.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
@@ -21654,6 +21655,7 @@ MNNFSTV.us,SD,SD,,TRUE,ct/USNYC,America/New_York,eng,480i
 MNNHD.us,SD,SD,,TRUE,ct/USNYC,America/New_York,eng,480i
 MNNLifestyle.us,SD,SD,,TRUE,ct/USNYC,America/New_York,eng,480i
 MNNSpirit.us,SD,SD,,TRUE,ct/USNYC,America/New_York,eng,480i
+MNPlus.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
 MNT.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 MNT.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 MNTV.mm,SD,SD,,TRUE,c/MM,Asia/Yangon,mya,480i
@@ -23333,8 +23335,8 @@ NickJrToo.uk,SD,SD,,TRUE,c/UK;c/IE,Europe/London,eng,576i
 NickMusic.au,SD,SD,,TRUE,c/AU;c/NZ,America/Toronto,eng,576i
 NickMusic.nl,SD,SD,,TRUE,c/NL,America/Toronto,eng,576i
 NickMusic.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
-NickOnline.br,HD,HD,,TRUE,c/BR,America/Sao_Paulo,por,720p
-NickOnline.br,SD,SD,Standard Quality,FALSE,c/BR,America/Sao_Paulo,por,320p
+NickOnline.br,HD,HD,,FALSE,c/BR,America/Sao_Paulo,por,720p
+NickOnline.br,SD,SD,Standard Definition;Standard Quality,TRUE,c/BR,America/Sao_Paulo,por,576p
 NickOnlineJr.br,HD,HD,High Definition,TRUE,c/BR,America/Sao_Paulo,por,720p
 NickOnlineMusic.br,HD,HD,High Definition,TRUE,c/BR,America/Sao_Paulo,por,720p
 NickOnlineSpongebob.br,HD,HD,,TRUE,c/BR,America/Sao_Paulo,por,1080p
@@ -23670,6 +23672,7 @@ nowGolf2.hk,SD,SD,,TRUE,c/HK,Asia/Hong_Kong,zho,576i
 nowGolf3.hk,SD,SD,,TRUE,c/HK,Asia/Hong_Kong,zho,576i
 nowInternational.hk,SD,SD,,TRUE,c/CN;c/TW;c/SG,Asia/Hong_Kong,zho,576i
 nowJelli.hk,SD,SD,,TRUE,c/HK,Asia/Hong_Kong,zho,576i
+NowMediaTelevision.us,HD,HD,,TRUE,r/WW,America/Chicago,eng,1080p
 nowNews.hk,SD,SD,,TRUE,c/HK,Asia/Hong_Kong,zho,576i
 NOWRock.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 nowSports.hk,SD,SD,,TRUE,c/HK,Asia/Hong_Kong,zho,576i
@@ -26115,6 +26118,7 @@ Puls24.at,SD,SD,,TRUE,c/AT,Europe/Vienna,deu,576i
 Puls4.at,HD,HD,,FALSE,c/AT,Europe/Vienna,deu,1080i
 Puls4.at,SD,SD,,TRUE,c/AT,Europe/Vienna,deu,576i
 PulsAcht.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,deu,576i
+Pulsar.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 Pulse.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 Pulse95Radio.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,ara;eng,576i
 Pulsea.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i

@@ -32,7 +32,7 @@ To do this, you need to fill out one of the [forms](https://github.com/iptv-org/
 
 ### How to replace the logo?
 
-We store all versions of the logo in our database, so if you have a link to another version, simply submit a request to add a new logo using this [form](https://github.com/iptv-org/database/issues/new?template=07_logos_add.yml).
+We store all links concerning the different versions of the logo in our database, so if you have a link to another version, simply submit a request to add a new logo using this [form](https://github.com/iptv-org/database/issues/new?template=07_logos_add.yml).
 
 If the current logo isn't showing up, you can also report it using this [form](https://github.com/iptv-org/database/issues/new?template=09_logos_remove.yml).
 

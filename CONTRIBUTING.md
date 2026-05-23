@@ -30,6 +30,12 @@ To do this, you need to fill out one of the [forms](https://github.com/iptv-org/
 
 **IMPORTANT:** We do not remove channels from the database if they stop broadcasting. In this case, all you need to do is add the approximate closing date using this [form](https://github.com/iptv-org/database/issues/new?template=02_channels_edit.yml).
 
+### How to replace the logo?
+
+We store all links concerning the different versions of the logo in our database, so if you have a link to another version, simply submit a request to add a new logo using this [form](https://github.com/iptv-org/database/issues/new?template=07_logos_add.yml).
+
+If the current logo isn't showing up, you can also report it using this [form](https://github.com/iptv-org/database/issues/new?template=09_logos_remove.yml).
+
 ## Data Scheme
 
 ### channels

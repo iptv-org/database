@@ -3160,7 +3160,7 @@ BCATvPublicAccess.us,SD,SD,,TRUE,ct/US3XF,America/New_York,eng,480i
 BCCGaming.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 BCI24News.gr,SD,SD,,TRUE,c/GR,Europe/Athens,ell,576i
 BCNGospelTV.es,HD,HD,,FALSE,c/ES,Europe/Madrid,spa,720p
-BCNGospelTV.es,SD,SD,,TRUE,c/ES;r/HISPAM,Europe/Madrid,spa,576i
+BCNGospelTV.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 BCNTV.bs,SD,SD,,TRUE,c/BS,America/Nassau,eng,480i
 BCNTV.rw,SD,SD,,TRUE,c/RW,Africa/Kigali,eng;kin,576i
 BCOSTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
@@ -21322,6 +21322,7 @@ Mezhdunet.ru,SD,SD,,TRUE,s/RU-KEM,Europe/Moscow,rus,576i
 MezokovesdiTelevizio.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 Mezzo.fr,SD,SD,,TRUE,c/FR,Europe/Paris,eng,576i
 MezzoLive.fr,SD,SD,,TRUE,c/FR;c/RU;c/BA,Europe/Paris,eng,576i
+mfm.lb,HD,HD,,TRUE,c/LB,Asia/Beirut,ara,1080p
 MFMTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 MGGTV.fr,SD,SD,,TRUE,c/FR;c/IT,Europe/Paris,fra,576i
 MGITV.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
@@ -21718,6 +21719,9 @@ MoniTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 MONO29.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 MONO29Plus.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 MonoPlus.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
+MonroeCommunityMediaEducationChannel.us,SD,SD,,TRUE,ct/USMOI,America/New_York,eng,480i
+MonroeCommunityMediaGovernmentChannel.us,SD,SD,,TRUE,ct/USMOI,America/New_York,eng,480i
+MonroeCommunityMediaPublicAccessChannel.us,SD,SD,,TRUE,ct/USMOI,America/New_York,eng,480i
 MonroeCountyTV.us,SD,SD,,TRUE,ct/USEYW,America/New_York,eng,480i
 MonseTeve.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 MonsterJam.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,eng,576i
@@ -32478,6 +32482,7 @@ Timeline.uk,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 TimeNews.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,snd,576i
 TimesBrasil.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 TimesNow.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin,576i
+TimesNowNavbharat.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,hin,1080p
 TimesNowNavbharat.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 TimesNowWorld.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 TimesTV.mw,SD,SD,,TRUE,c/MW,Africa/Blantyre,eng;nya,576i

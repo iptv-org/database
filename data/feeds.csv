@@ -6610,6 +6610,7 @@ CityofLouisville.us,SD,SD,,TRUE,ct/USLUE,America/Kentucky/Louisville,eng,480i
 CityofLovelandTV.us,SD,SD,,TRUE,ct/USLOV,America/New_York,eng,480i
 CityofLubbock.us,SD,SD,,TRUE,ct/USLBB,America/Chicago,eng,480i
 CityofMiamiTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+CityofMonroeGovernmentChannel.us,SD,SD,,TRUE,ct/USMOI,America/New_York,eng,480i
 CityofPompanoBeach.us,SD,SD,,TRUE,ct/USPPM,America/New_York,eng,480i
 CityofPuebloChannel17.us,SD,SD,,TRUE,ct/USPUB,America/Denver,eng,480i
 CityofTracyChannel26.us,SD,SD,,TRUE,ct/USTRC,America/New_York,eng,480i
@@ -13561,6 +13562,7 @@ JODRDTV.jp,SD,SD,,TRUE,ct/JPKIJ,Asia/Tokyo,jpn,480i
 JODXDTV.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 JoeFM.be,SD,SD,,TRUE,c/BE,Europe/Brussels,nld,576i
 JOEPDTV.jp,SD,SD,,TRUE,ct/JPMI3,Asia/Tokyo,jpn,480i
+JOEXDTV.jp,HD,HD,,FALSE,c/JP,Asia/Tokyo,jpn,1080p
 JOEXDTV.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 JOFGDTV.jp,SD,SD,,TRUE,ct/JPFKJ,Asia/Tokyo,jpn,480i
 JOFKDTV.jp,SD,SD,,TRUE,ct/JPHIJ,Asia/Tokyo,jpn,480i
@@ -17986,7 +17988,7 @@ KSCI501.us,HD,HD,,TRUE,ct/USLGB,America/Los_Angeles,eng,1080i
 KSCI502.us,SD,SD,,TRUE,ct/USLGB,America/Los_Angeles,eng,480i
 KSCI503.us,SD,SD,,TRUE,ct/USLGB,America/Los_Angeles,kor;eng,480i
 KSCI504.us,SD,SD,,TRUE,ct/USLGB,America/Los_Angeles,kor;eng,480i
-KSCNTV631.us,HD,HD,,TRUE,ct/USLAX,America/Santiago,eng,720p
+KSCNTV221.us,HD,HD,,TRUE,ct/USLAX,America/Santiago,eng,720p
 KSCTLP1.us,SD,SD,,TRUE,ct/USSIT,America/Sitka,eng,480i
 KSCWDT2.us,SD,SD,,TRUE,ct/USICT,America/Chicago,eng,480i
 KSCWDT81.us,HD,HD,,TRUE,ct/USICT,America/Chicago,eng,1080p
@@ -21720,7 +21722,6 @@ MONO29.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 MONO29Plus.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 MonoPlus.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 MonroeCommunityMediaEducationChannel.us,SD,SD,,TRUE,ct/USMOI,America/New_York,eng,480i
-MonroeCommunityMediaGovernmentChannel.us,SD,SD,,TRUE,ct/USMOI,America/New_York,eng,480i
 MonroeCommunityMediaPublicAccessChannel.us,SD,SD,,TRUE,ct/USMOI,America/New_York,eng,480i
 MonroeCountyTV.us,SD,SD,,TRUE,ct/USEYW,America/New_York,eng,480i
 MonseTeve.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
@@ -23518,6 +23519,7 @@ NorthBrunswickTV15.us,SD,SD,,TRUE,s/US-NJ,America/New_York,eng,480i
 NorthCastleTV.us,SD,SD,,TRUE,s/US-NY,America/New_York,eng,480i
 NortheastLive.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,eng;hin,720p
 NorthernEagleTelevision.zm,SD,SD,,TRUE,c/ZM,Africa/Lusaka,eng,576i
+NorthernMarianasCommonwealthLegislature.mp,SD,SD,,TRUE,c/MP,Pacific/Saipan,eng,576i
 NorthMetroTVPublicAccess.us,SD,SD,,TRUE,ct/USBNE,America/New_York,eng,480i
 NorthwestAccessTVChannel1079.us,SD,SD,,TRUE,s/US-VT,America/New_York,eng,480i
 NorthwestAccessTVChannel1089.us,SD,SD,,TRUE,s/US-VT,America/New_York,eng,480i
@@ -26835,6 +26837,7 @@ RCGTV2.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 RCGTV3.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 RCKTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 RCMTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
+RCMusic.in,SD,SD,,TRUE,c/IN;s/IN-TN;ct/INKAR,Asia/Kolkata,tam,576i
 RCNHD2.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 RCNMas.co,SD,SD,,TRUE,r/HISPAM,America/Bogota,spa,480i
 RCNNovelas.co,SD,SD,,TRUE,r/HISPAM,America/Bogota,spa,480i
@@ -26843,6 +26846,7 @@ RCNXtra.co,SD,SD,,TRUE,r/HISPAM,America/Bogota,spa,480i
 RCR.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 RCRTV.lr,SD,SD,,TRUE,c/LR,Africa/Monrovia,eng,576i
 RCSCTV.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
+RCTelevision.in,SD,SD,,TRUE,c/IN;s/IN-TN;ct/INKAR,Asia/Kolkata,tam,576i
 RCTI.id,HD,HD,,FALSE,c/ID,Asia/Jakarta,ind,1080p
 RCTI.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 RCTV.id,SD,SD,,TRUE,s/ID-JB,Asia/Jakarta,ind,576i
@@ -28162,6 +28166,8 @@ SandinoVision.cu,SD,SD,,TRUE,c/CU,America/Havana,spa,576i
 SandzakTV.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 SangajiTV.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 SangalkamTV.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,fra,576i
+SangamamTV.in,HD,HD,,FALSE,c/IN;s/IN-TN,Asia/Kolkata,tam,1080i
+SangamamTV.in,SD,SD,,TRUE,c/IN;s/IN-TN,Asia/Kolkata,tam,576i
 SangatTV.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 Sangeet1061FM.tt,SD,SD,,TRUE,c/TT,America/Port_of_Spain,eng,576i
 SangeetBangla.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ben,576i
@@ -31392,6 +31398,7 @@ TBSTV.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng;lug,576i
 TCC1.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 TCC2.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 TCC3.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
+TCCLInfo.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
 TCCNCanalOnce.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 TCCVivo.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 TCFTV.ca,SD,SD,,TRUE,ct/CAMTR,America/Toronto,fra,480i
@@ -42244,6 +42251,7 @@ YourTVSmithsFalls.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 YourTVWindsor.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 YouSat.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,ara,576i
 YoutooAmerica.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+YouTubeTVZen.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080p
 Youtv.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 YouTV.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 YRFMusic.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,1080p

@@ -2385,6 +2385,7 @@ Atlas.us,SD,SD,,TRUE,c/US,America/New_York,eng,576i
 AtlasTV.gr,SD,SD,,TRUE,ct/GRSKG,Europe/Athens,ell,576i
 ATLTelevision.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,576i
 AtmosferaTelevision.pe,SD,SD,,TRUE,ct/PEMBP,America/Lima,spa,480i
+ATMRozrywkaREWORK.pl,HD,HD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
 ATMTelevision.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 ATMTV.si,SD,SD,,TRUE,c/SI,Europe/Ljubljana,slv,576i
 ATN.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
@@ -14626,6 +14627,7 @@ KanalUrfa.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 KanalV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 Kanalvest.dk,SD,SD,,TRUE,c/DK,Europe/Copenhagen,dan,576i
 KanalZ.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
+KanalZEROTV.pl,HD,HD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
 KanaTV.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 KandelaTV.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 KanEducational.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,heb,576i
@@ -33359,10 +33361,10 @@ TV2Sport1.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 TV2Sport2.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 TV2SportPremium.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 TV2SportPremium2.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
-TV2SportPremium5.se,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
-TV2SportPremium6.se,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
-TV2SportPremium7.se,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
-TV2SportPremium8.se,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
+TV2SportPremium5.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
+TV2SportPremium6.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
+TV2SportPremium7.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
+TV2SportPremium8.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 TV2SportX.dk,SD,SD,,TRUE,c/DK,Europe/Copenhagen,dan,576i
 TV2Stad.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 TV2Zebra.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
@@ -35699,6 +35701,8 @@ ViaOccitanieMontpellier.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 ViaOccitaniePaysCatalan.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 ViaOccitaniePaysGardois.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 ViaOccitanieToulouse.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+Viaplay1Urheilu.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
+Viaplay2Urheilu.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 Viaplay3Urheilu.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 ViaplayTV.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,1080i
 ViaplayTV.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
@@ -36145,11 +36149,14 @@ VSHNews.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,eng,576i
 VSiN.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 VSNAction.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 VSNXtra.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
+VSport1.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 VSport1.se,Finland,Finland,,FALSE,c/FI,Europe/Helsinki,fin,576i
 VSport1.se,Norway,Norway,,FALSE,c/NO,Europe/Oslo,nor,576i
-VSport1.se,Sweden,Sweden,,TRUE,c/SE,Europe/Stockholm,swe;fin,576i
+VSport1.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+VSport2.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 VSport2.se,Finland,Finland,,FALSE,c/FI,Europe/Helsinki,fin,576i
 VSport2.se,Norway,Norway,,TRUE,c/NO,Europe/Oslo,nor,576i
+VSport3.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 VSport3.se,Norway,Norway,,TRUE,c/NO,Europe/Oslo,nor,576i
 VSportExtra.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 VSportExtra.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
@@ -36169,6 +36176,7 @@ VSportMotor.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 VSportPlus.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 VSportPlus.se,Finland,Finland,,FALSE,c/FI,Europe/Helsinki,fin,576i
 VSportPlus.se,Norway,Norway,,TRUE,c/NO,Europe/Oslo,nor,576i
+VSportPlusSuomi.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 VSportPremium.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 VSportPremium.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 VSportUltraHD.se,4K,4K,,TRUE,c/SE,Europe/Stockholm,nor;swe;dan;fin,2160p
@@ -42254,7 +42262,7 @@ YourTVPeterborough.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 YourTVSarnia.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 YourTVSmithsFalls.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 YourTVWindsor.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
-YouSatTV.us,SD,SD,,TRUE,c/SE,Europe/Stockholm,ara,576i
+YouSatTV.us,SD,SD,,TRUE,c/US,America/New_York,ara,576i
 YoutooAmerica.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 YouTubeTVZen.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080p
 Youtv.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i

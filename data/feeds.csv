@@ -6918,13 +6918,16 @@ CMoreLive4.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 CMoreLive4.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CMoreLive5.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 CMoreLive5.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+CMoreMax.fi,HD,HD,,FALSE,c/FI,Europe/Helsinki,fin,1080i
 CMoreMax.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 CMoreMix.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CMoreSeries.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 CMoreSeries.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CMoreSport.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 CMoreSport.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+CMoreSport1.fi,HD,HD,,FALSE,c/FI,Europe/Helsinki,fin,1080i
 CMoreSport1.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
+CMoreSport2.fi,HD,HD,,FALSE,c/FI,Europe/Helsinki,fin,1080i
 CMoreSport2.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 CMoreSportSFKanalen.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CMoreStars.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
@@ -22017,6 +22020,7 @@ MTV2.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 MTV2.us,East,East,,TRUE,c/US,America/New_York,eng;spa,480i
 MTV2.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa,480i
 MTV3.fi,HD,HD,,TRUE,c/FI,Europe/Helsinki,fin;swe,1080i
+MTV3AVA.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 MTV3Max.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 MTV80s.uk,SD,SD,,TRUE,r/AMER;r/EUR;r/MIDEAST;c/NZ,America/Toronto,eng,576i
 MTV90s.uk,SD,SD,,TRUE,r/SEA;r/EUR;r/MENA,America/Toronto,eng,576i
@@ -29600,8 +29604,7 @@ SMGFootballChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 Smile.al,SD,SD,,TRUE,c/AL,Europe/Tirane,sqi,576i
 Smile.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 SmilePlus.gr,SD,SD,,TRUE,c/GR;s/GR-E,Europe/Athens,ell,576i
-SmileTV.gr,Panhellenic,Panhellenic,,FALSE,c/GR,Europe/Athens,ell,576i
-SmileTV.gr,SD,SD,,TRUE,c/GR;s/GR-I,Europe/Athens,ell,576i
+SmileTV.gr,SD,SD,,TRUE,c/GR,Europe/Athens,ell,576i
 SmileTV.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,eng,576i
 SmileTV.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 SmileTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -30759,6 +30762,7 @@ SubinTV.in,SD,SD,,TRUE,c/IN;s/IN-TN;ct/INTKS,Asia/Kolkata,tam,576i
 SubNews.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,eng,576i
 SuboroTV.lb,SD,SD,,TRUE,c/LB,Asia/Beirut,ara,576i
 SubRangTV.us,SD,SD,,TRUE,c/US,America/New_York,hin,480i
+Subtv.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 SucesoTV.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
 SuchTV.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,urd,576i
 SucremantaTV.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
@@ -35747,6 +35751,7 @@ ViasatFilmNordic.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 ViasatFilmNordic.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 ViasatFilmPremiere.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 ViasatFilmPremiere.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+ViasatFotball.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 ViasatFotboll.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 ViasatGolf.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 ViasatGolf.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
@@ -35768,6 +35773,7 @@ ViasatKinoComedy.ua,SD,SD,,TRUE,c/UA;c/LV;c/EE;c/LT,Europe/Kyiv,rus;eng;lat,576i
 ViasatKinoMegahit.ua,SD,SD,,TRUE,c/UA;c/EE;c/LT,Europe/Kyiv,rus;eng,576i
 ViasatKinoWorld.ua,SD,SD,,TRUE,c/UA;c/LV;c/EE;c/LT,Europe/Kyiv,rus,576i
 ViasatKinoWorld.uk,SD,SD,,TRUE,c/EE;c/LV;c/LT,America/Toronto,rus,576i
+ViasatMotor.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 ViasatMotor.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 ViasatMotor.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 ViasatNature.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
@@ -36175,6 +36181,8 @@ VSportGolf.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 VSportGolf.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 VSportHockey.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 VSportHockey.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+VSportJaakiekko.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
+VSportJalkapallo.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 VSportLive1.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe;eng,576i
 VSportLive2.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe;eng,576i
 VSportLive3.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe;eng,576i
@@ -36183,12 +36191,11 @@ VSportLive5.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe;eng,576i
 VSportMotor.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 VSportMotor.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 VSportPlus.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
-VSportPlus.se,Finland,Finland,,FALSE,c/FI,Europe/Helsinki,fin,576i
-VSportPlus.se,Norway,Norway,,TRUE,c/NO,Europe/Oslo,nor,576i
 VSportPlusSuomi.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 VSportPremium.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 VSportPremium.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 VSportUltraHD.se,4K,4K,,TRUE,c/SE,Europe/Stockholm,nor;swe;dan;fin,2160p
+VSportUrheilu.fi,HD,HD,,FALSE,c/FI,Europe/Helsinki,fin,1080i
 VSportUrheilu.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 VSportVinter.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 VSportVinter.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i

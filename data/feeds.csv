@@ -1257,6 +1257,7 @@ AlImanTV.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 AlImanTV.lb,SD,SD,,TRUE,c/LB,Europe/Athens,ara,576i
 AlInsenTV.tn,SD,SD,,TRUE,c/TN,Africa/Tunis,ara,576i
 AlIraqia.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,ara,576i
+AlIraqiaKurdish.iq,HD,HD,,TRUE,c/IQ,Asia/Baghdad,kur,720p
 AlIraqiaNews.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,ara,576i
 AlIraqiaSport.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,ara,576i
 AlIrshaadTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,ara,576i
@@ -12328,6 +12329,7 @@ HolvoetTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 HolyGhostMiracleTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 HolyGodTV.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 HolyMary.lk,SD,SD,,TRUE,c/LK,Asia/Colombo,tam,576i
+HolyQuranRadio.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,ara,576i
 HolyQuranRadioNablus.ps,SD,SD,,TRUE,c/PS,Asia/Gaza,ara,576i
 HolySpiritTV.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 HolyTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
@@ -22096,6 +22098,8 @@ MTVRocksEurope.uk,SD,SD,,TRUE,r/EUR,Europe/London,eng,576i
 MTVSerie.us,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
 MTVSpankinNew.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
 MTVSpankinNew.us,US,US,,TRUE,c/US,America/New_York,eng,480i
+MTVSport1.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
+MTVSport2.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 MTVSub.fi,HD,HD,,TRUE,c/FI,Europe/Helsinki,fin,1080i
 MTVTattooados.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 MTVTeenMom.us,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
@@ -25158,6 +25162,7 @@ PJTV.id,SD,SD,,TRUE,s/ID-JB,Asia/Jakarta,ind,576i
 PKTV.ge,SD,SD,,TRUE,c/GE,Asia/Tbilisi,kat,576i
 PKTV.id,SD,SD,,TRUE,s/ID-KI,Asia/Makassar,ind,576i
 PlacentiaTV.us,SD,SD,,TRUE,ct/USPCC,America/New_York,eng,480i
+Placid.us,EastHD,East HD,,TRUE,c/US,America/New_York,eng,1080p
 PlanB.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 PlaneaTV.pe,SD,SD,,TRUE,ct/PEBAG,America/Lima,spa,480i
 Planet1009FM.pa,SD,SD,,TRUE,c/PA,America/Panama,spa,480i
@@ -26312,7 +26317,6 @@ QuizTV.ua,SD,SD,,TRUE,r/CIS,Europe/Kyiv,rus,576i
 QuocHoiTV.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 QuoVadisTV.ca,SD,SD,,TRUE,ct/CALNG,America/Toronto,eng,480i
 QuranHidayahEnglish.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,eng,576i
-QuranRadio.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,ara,576i
 QuranTV.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,kur;eng,576i
 QuranTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 QuranTV.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,eng,576i
@@ -32621,6 +32625,7 @@ TMC.fr,HD,HD,,FALSE,c/FR;c/MC,Europe/Paris,fra,1080i
 TMC.fr,Plus1,+1,,FALSE,c/FR;c/MC,Europe/Paris,fra,576i
 TMC.fr,SD,SD,,TRUE,c/FR;c/MC,Europe/Paris,fra,576i
 TMCPalau.pw,SD,SD,,TRUE,c/PW,Pacific/Palau,eng;pau,576i
+TMF.nl,HDFAST,HD FAST,,TRUE,c/NL,Europe/Amsterdam,nld,1080p
 TMHTV.us,SD,SD,,TRUE,c/US,America/New_York,tir,480i
 TMNTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 TMSTelevizijaTelemark.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
@@ -34938,6 +34943,7 @@ TVTudoBH.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 TVTun.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 TVTurfe.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 TVTURTV.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
+TVTV.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 TVTZgorzelec.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 TVU.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 TVU.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,480i
@@ -35751,6 +35757,7 @@ ViasatFilmNordic.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 ViasatFilmNordic.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 ViasatFilmPremiere.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 ViasatFilmPremiere.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+ViasatFotball.no,HD,HD,,FALSE,c/NO,Europe/Oslo,nor,1080i
 ViasatFotball.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 ViasatFotboll.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 ViasatGolf.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
@@ -35765,14 +35772,18 @@ ViasatHistory.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,eng,576i
 ViasatHistory.si,HD,HD,,TRUE,c/SI,Europe/Ljubljana,slv,1080i
 ViasatHistory.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 ViasatHistory.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
+ViasatHockey.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 ViasatHockey.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 ViasatHockey.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+ViasatJaakiekko.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
+ViasatJalkapallo.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 ViasatKino.ua,SD,SD,,TRUE,c/UA;c/LV;c/EE;c/LT,Europe/Kyiv,rus;eng;lat,576i
 ViasatKinoAction.ua,SD,SD,,TRUE,c/UA;c/LV;c/EE;c/LT,Europe/Kyiv,rus;eng;lat,576i
 ViasatKinoComedy.ua,SD,SD,,TRUE,c/UA;c/LV;c/EE;c/LT,Europe/Kyiv,rus;eng;lat,576i
 ViasatKinoMegahit.ua,SD,SD,,TRUE,c/UA;c/EE;c/LT,Europe/Kyiv,rus;eng,576i
 ViasatKinoWorld.ua,SD,SD,,TRUE,c/UA;c/LV;c/EE;c/LT,Europe/Kyiv,rus,576i
 ViasatKinoWorld.uk,SD,SD,,TRUE,c/EE;c/LV;c/LT,America/Toronto,rus,576i
+ViasatMotor.no,HD,HD,,FALSE,c/NO,Europe/Oslo,nor,1080i
 ViasatMotor.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 ViasatMotor.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 ViasatMotor.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
@@ -35795,6 +35806,7 @@ ViasatSport1.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 ViasatSport24.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 ViasatSport3.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 ViasatSportExtra.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+ViasatSportN.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 ViasatSportPremium.se,HD,HD,,TRUE,c/SE,Europe/Stockholm,swe,1080i
 ViasatTrueCrime.pl,Greece,Greece,,FALSE,c/GR,Europe/Athens,eng;ell,1080i
 ViasatTrueCrime.pl,HD,HD,,TRUE,c/PL;r/EUR,Europe/Warsaw,pol,1080i

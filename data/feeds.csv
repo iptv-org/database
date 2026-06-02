@@ -22024,6 +22024,8 @@ MTV2.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa,480i
 MTV3.fi,HD,HD,,TRUE,c/FI,Europe/Helsinki,fin;swe,1080i
 MTV3AVA.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 MTV3Max.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
+MTV3MaxSport1.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
+MTV3MaxSport2.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 MTV80s.uk,SD,SD,,TRUE,r/AMER;r/EUR;r/MIDEAST;c/NZ,America/Toronto,eng,576i
 MTV90s.uk,SD,SD,,TRUE,r/SEA;r/EUR;r/MENA,America/Toronto,eng,576i
 MTVAfrica.za,SD,SD,,TRUE,r/AFR,Africa/Johannesburg,eng,576i
@@ -22098,7 +22100,9 @@ MTVRocksEurope.uk,SD,SD,,TRUE,r/EUR,Europe/London,eng,576i
 MTVSerie.us,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
 MTVSpankinNew.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
 MTVSpankinNew.us,US,US,,TRUE,c/US,America/New_York,eng,480i
+MTVSport1.fi,HD,HD,,FALSE,c/FI,Europe/Helsinki,fin,1080i
 MTVSport1.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
+MTVSport2.fi,HD,HD,,FALSE,c/FI,Europe/Helsinki,fin,1080i
 MTVSport2.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 MTVSub.fi,HD,HD,,TRUE,c/FI,Europe/Helsinki,fin,1080i
 MTVTattooados.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
@@ -35772,10 +35776,13 @@ ViasatHistory.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,eng,576i
 ViasatHistory.si,HD,HD,,TRUE,c/SI,Europe/Ljubljana,slv,1080i
 ViasatHistory.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 ViasatHistory.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
+ViasatHockey.no,HD,HD,,FALSE,c/NO,Europe/Oslo,nor,1080i
 ViasatHockey.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 ViasatHockey.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 ViasatHockey.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+ViasatJaakiekko.fi,HD,HD,,FALSE,c/FI,Europe/Helsinki,fin,1080i
 ViasatJaakiekko.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
+ViasatJalkapallo.fi,HD,HD,,FALSE,c/FI,Europe/Helsinki,fin,1080i
 ViasatJalkapallo.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 ViasatKino.ua,SD,SD,,TRUE,c/UA;c/LV;c/EE;c/LT,Europe/Kyiv,rus;eng;lat,576i
 ViasatKinoAction.ua,SD,SD,,TRUE,c/UA;c/LV;c/EE;c/LT,Europe/Kyiv,rus;eng;lat,576i

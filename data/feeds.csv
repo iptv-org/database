@@ -4943,7 +4943,7 @@ CanalGov.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 CanalGuanevision.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 CanalHabana.cu,SD,SD,,TRUE,c/CU,America/Havana,spa,480i
 CanalHollywood.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
-CanalHollywood.pt,SD,SD,,TRUE,c/PT,Europe/Madrid,spa,576i
+CanalHollywood.pt,SD,SD,,TRUE,c/PT,Europe/Madrid,spa,1080p
 CanalI.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 CanalIberoamericano.mx,SD,SD,,TRUE,r/HISPAM,America/Mexico_City,spa,480i
 CanalIglesiaLuzyVerdad.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
@@ -5025,6 +5025,7 @@ CanalPlusAction.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusActionCentre.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusActionMyanmar.fr,SD,SD,,TRUE,c/FR,Europe/Paris,mya,576i
 CanalPlusActionOuest.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+CanalPlusAitio.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 CanalPlusBla.se,Finland,Finland,,FALSE,c/FI,Europe/Helsinki,fin,576i
 CanalPlusBla.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusBoxOffice.fr,French,French,,TRUE,c/FR,Europe/Paris,fra,1080p
@@ -5107,10 +5108,12 @@ CanalPlusSeries.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusSeries.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusSeriesReunion.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusSport.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
+CanalPlusSport.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 CanalPlusSport.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusSport.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 CanalPlusSport.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusSport1.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
+CanalPlusSport1.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 CanalPlusSport1.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusSport1.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusSport2.cz,HD,HD,,TRUE,c/CZ,Europe/Prague,ces,1080i
@@ -5131,6 +5134,8 @@ CanalPlusSportReunion.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusSportsMyanmar.fr,SD,SD,,TRUE,c/FR,Europe/Paris,mya,576i
 CanalPlusSuSann.mm,SD,SD,,TRUE,c/MM,Asia/Yangon,mya,480i
 CanalPlusTop14.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+CanalPlusUrheilu.fi,HD,HD,,FALSE,c/FI,Europe/Helsinki,fin,1080i
+CanalPlusUrheilu.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 CanalPlusZap.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusZatLenn.mm,SD,SD,,TRUE,c/FR,Asia/Yangon,mya,480i
 CanalPortada.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
@@ -6895,6 +6900,7 @@ CMMTV.es,SD,SD,,TRUE,ct/ESTOL,Europe/Madrid,spa,576i
 CMNtv.us,SD,SD,,TRUE,ct/USTYM,America/New_York,eng,480i
 CMoreAction.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 CMoreAction.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+CMoreAitio.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 CMoreEmotion.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 CMoreEmotion.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CMoreExtreme.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
@@ -6935,6 +6941,8 @@ CMoreStars.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 CMoreStars.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CMoreTennis.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 CMoreTennis.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+CMoreUrheilu.fi,HD,HD,,FALSE,c/FI,Europe/Helsinki,fin,1080i
+CMoreUrheilu.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 CMRTV.ky,SD,SD,,TRUE,c/KY,America/Cayman,eng,576i
 CMSTV.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
 CMT.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
@@ -21043,6 +21051,7 @@ MBCMasr2.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 MBCMasrDrama.sa,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 MBCMasrUSA.us,SD,SD,,TRUE,c/US,America/New_York,ara,480i
 MBCMax.sa,SD,SD,,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,ara;eng,576i
+MBCMood.sa,HD,HD,,TRUE,c/SA,Asia/Riyadh,ara,1080p
 MBCNet.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 MBCNews.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 MBCOn.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
@@ -22024,6 +22033,7 @@ MTV2.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa,480i
 MTV3.fi,HD,HD,,TRUE,c/FI,Europe/Helsinki,fin;swe,1080i
 MTV3AVA.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 MTV3Max.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
+MTV3MaxSport1.fi,HD,HD,,FALSE,c/FI,Europe/Helsinki,fin,1080i
 MTV3MaxSport1.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 MTV3MaxSport2.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 MTV80s.uk,SD,SD,,TRUE,r/AMER;r/EUR;r/MIDEAST;c/NZ,America/Toronto,eng,576i
@@ -33953,6 +33963,7 @@ TVEdukasi.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 TVEger.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 TVEInternacionalAmerica.es,HD,HD,,FALSE,r/LATAM;c/US;c/CA,America/Argentina/Buenos_Aires;America/Los_Angeles,spa,1080p
 TVEInternacionalAmerica.es,SD,SD,,TRUE,r/LATAM;c/US;c/CA,America/Argentina/Buenos_Aires;America/Los_Angeles,spa,576i
+TVEInternacionalAsiaOceania.es,HD,HD,,FALSE,r/SEA;r/OCE,Europe/Madrid,spa,1080p
 TVEInternacionalAsiaOceania.es,SD,SD,,TRUE,r/SEA;r/OCE,Europe/Madrid,spa,576i
 TVEInternacionalEurope.es,HD,HD,,FALSE,c/ES;r/EUR,Europe/Madrid,spa;eng,1080i
 TVEInternacionalEurope.es,SD,SD,,TRUE,c/ES;r/EUR,Europe/Madrid,spa;eng,576i
@@ -36710,7 +36721,7 @@ WAMIDT692.us,SD,SD,,TRUE,ct/USHWO,America/New_York,eng,480i
 WAMIDT693.us,SD,SD,,TRUE,ct/USHWO,America/New_York,eng,480i
 WAMIDT695.us,SD,SD,,TRUE,ct/USHWO,America/New_York,eng,480i
 WANALD161.us,SD,SD,,TRUE,ct/USAPF,Europe/Rome,eng,480i
-Wanasah.ae,SD,SD,,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,ara,576i
+Wanasah.sa,SD,SD,,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,ara,576i
 WAND171.us,HD,HD,,TRUE,ct/USDEC,America/Chicago,eng,1080i
 WAND172.us,SD,SD,,TRUE,ct/USDEC,America/Chicago,eng,480i
 WAND553.us,SD,SD,,TRUE,ct/USDEC,America/Chicago,eng,480i

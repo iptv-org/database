@@ -4057,6 +4057,7 @@ bTVComedy.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 BTVKarnten.at,SD,SD,,TRUE,c/AT,Europe/Vienna,deu,576i
 bTVLady.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 BTVNational.bd,SD,SD,,TRUE,c/BD,Asia/Dhaka,ben,576i
+BTVNews.bd,SD,SD,,TRUE,c/BD,Asia/Dhaka,ben,576i
 BTVNews.bw,SD,SD,,TRUE,c/BW,Africa/Gaborone,eng;tsn,576i
 BtvNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kan,576i
 BTVNews.kh,SD,SD,,TRUE,c/KH,Asia/Phnom_Penh,khm,576i
@@ -22224,9 +22225,13 @@ Music.kg,SD,SD,,TRUE,r/CAS,Asia/Bishkek,kir;rus,576i
 MusicAir.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 MusicaporMovistarPlusPlus.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 MusicBoxBrazil.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
+MusicBoxClassic.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,eng,576i
+MusicBoxDance.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,eng,576i
 MusicBoxGeorgia.ge,SD,SD,,TRUE,c/GE,Asia/Tbilisi,kat,576i
 MusicBoxGold.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
+MusicBoxHits.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,eng,576i
 MusicBoxPolska.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
+MusicBoxSexy.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,eng,576i
 MusicBoxUkraine.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 MusicChannel.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 MusicChannel.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
@@ -24501,6 +24506,7 @@ OsornoTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 Ostrosyuzhetnoye.ru,HD,HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
 Ostrosyuzhetnoye.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 OstWest.de,SD,SD,,TRUE,c/DE,Europe/Berlin,rus,576i
+OstWest24.de,SD,SD,,TRUE,c/DE,Europe/Berlin,rus,576i
 OTAUTVChannel.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz;rus,576i
 Otkritiymir.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 OtkritiymirZdorove.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
@@ -27860,6 +27866,7 @@ RTVIlirida.it,SD,SD,,TRUE,c/IT;c/AL,Europe/Rome,sqi,576i
 RTVIliridaMusic.it,SD,SD,,TRUE,c/IT;c/AL,Europe/Rome,sqi,576i
 RTVIS.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,srp,576i
 RTVIslam.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,sqi,576i
+RTViUS.us,SD,SD,,TRUE,c/US,America/New_York,rus,576i
 RTVIzcanal.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,576i
 RTVJablanica.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,bos,576i
 RTVKD.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,srp,576i
@@ -29584,6 +29591,7 @@ Sleuth.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 Slice.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 SlightlyOffIFC.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 SlikTV.sl,SD,SD,,TRUE,c/SL,Africa/Freetown,eng,576i
+Slime.br,SD,SD,Standard Definition,TRUE,c/BR,America/Sao_Paulo,por,576p
 SlobodnaTelevizija.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 SLOCountyChannel21.us,SD,SD,,TRUE,ct/USMJK,America/New_York,eng,480i
 SLOGOTV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
@@ -34741,6 +34749,7 @@ TVRSport.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 TVRTarguMures.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 TVRTimisoara.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 TVRUS.de,SD,SD,,TRUE,c/DE,Europe/Berlin,rus,576i
+TVRUSPlus.de,HD,HD,,TRUE,c/DE,Europe/Berlin,rus,1080p
 TVRuzinov.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 TVS.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
 TVS.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
@@ -35822,6 +35831,7 @@ ViasatNature.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,eng,576i
 ViasatNature.si,HD,HD,,FALSE,c/SI,Europe/Ljubljana,slv,1080i
 ViasatNature.si,SD,SD,,TRUE,c/SI,Europe/Ljubljana,slv,576i
 ViasatNature.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
+ViasatSerial.ua,HD,HD,,TRUE,c/UA,Europe/Kyiv,rus,1080p
 ViasatSeries.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i
 ViasatSeries.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 ViasatSport.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,swe,1080i

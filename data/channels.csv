@@ -77,6 +77,7 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 1Plus1Ukraina.ua,1+1 Ukraina,1+1 Україна,,1+1 Media Group,UA,general,FALSE,2022-12-24,,,https://1plus1.ua/
 1Plus2.lv,1+2,,,,LV,,FALSE,,,,
 1Severnyy.kz,1 Severnyy,Первый Северный;Pervyy Severnyy,,,KZ,general,FALSE,,,,https://1severniy.kz/
+1SNews.in,1S News,,,Total Telefilms Pvt. Ltd.,IN,news,FALSE,,,,
 1Sports.in,1 Sports,,,Lex Sportel Vision Pvt. Ltd.,IN,sports,FALSE,2020-01-28,2023-11-21,,https://1sport.in/
 1TV.af,1TV,يک تلويزيونتلویزیون یک,,Fahim Hashimy,AF,general,FALSE,2010-02-01,,,http://www.1tvmedia.com/
 1TV.ge,1TV,პირველი არხი;First Channel,,Georgian Public Broadcaster,GE,general,FALSE,1956-01-01,,,https://1tv.ge/
@@ -88,6 +89,7 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 20MinutesTV.fr,20 Minutes TV,20' TV,,,FR,general,FALSE,2023-05-30,,,https://20minutes.tv
 218News.ly,218 News,,,,LY,news,FALSE,,,,https://www.218tv.net/218news-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1/
 218TV.ly,218TV,,,,LY,news,FALSE,2015-08-06,,,https://www.218tv.net/
+21JumpStreet.us,21 Jump Street,,,Radial Entertainment;Oaktree Capital Management L.P.,US,series,FALSE,,,,https://www.radialentertainment.com/21-jump-street
 21Junior.xk,21 Junior,,,Company 21,XK,kids,FALSE,2009-09-16,,,https://rtv21.tv/
 21Mix.xk,21 Mix,,,Company 21,XK,general,FALSE,,,,https://rtv21.tv/
 21Plus.xk,21 Plus,,,Company 21,XK,general,FALSE,,,,https://rtv21.tv/
@@ -8683,7 +8685,7 @@ EuronewsGreek.fr,Euronews Greek,,Euronews,Euronews SA,FR,news,FALSE,2012-12-18,,
 EuronewsHungarian.fr,Euronews Hungarian,,Euronews,Euronews SA,FR,news,FALSE,2013-05-30,,,https://hu.euronews.com/
 EuronewsItalian.fr,Euronews Italian,euronews Italiano; Euronews I,Euronews,Euronews SA,FR,news,FALSE,1993-01-01,,,https://it.euronews.com/
 EuronewsMontenegro.me,Euronews Montenegro,,Euronews,Euronews SA,ME,news,FALSE,2025-09-23,,,
-EuronewsPortuguese.fr,Euronews Portuguese,,Euronews,Euronews SA,FR,news,FALSE,1999-11-01,,,https://pt.euronews.com/
+EuronewsPortuguese.fr,Euronews Portuguese,Euronews Português;Euronews PT,Euronews,Euronews SA,FR,news,FALSE,1999-11-01,,,https://pt.euronews.com/
 EuronewsRomania.ro,Euronews Romania,,Euronews,Euronews SA,RO,news,FALSE,2022-01-01,,,https://www.euronews.ro/
 EuronewsRussian.fr,Euronews Russian,Euronews по-русски,Euronews,Euronews SA,FR,news,FALSE,2001-09-17,,,https://ru.euronews.com/
 EuronewsSerbia.rs,Euronews Serbia,,Euronews,Euronews SA,RS,news,FALSE,2021-06-03,,,https://www.euronews.rs/
@@ -20200,7 +20202,7 @@ MonroeCommunityMediaEducationChannel.us,Monroe Community Media Education Channel
 MonroeCommunityMediaPublicAccessChannel.us,Monroe Community Media Public Access Channel,,,,US,general,FALSE,,,,https://www.monroecommunitymedia.org/
 MonroeCountyTV.us,Monroe County TV,,,,US,legislative,FALSE,,,,https://cloud.castus.tv/vod/monroe/video/60832c9dcf67bb7ac0c21791?page=HOME&type=live
 MonseTeve.ec,Monse Teve,,,,EC,entertainment,FALSE,,,,https://monsetevehd.com/
-MonsterJam.pl,Monster Jam,,,,PL,,FALSE,,,,
+MonsterJam.us,Monster Jam,,,Feld Entertainment Inc.,US,sports;outdoor,FALSE,2025-05-08,,,https://www.monsterjam.com/en-us/streaming/
 MonsterMovies.us,Monster Movies,,,,US,movies,FALSE,,,,
 MontalvoTV.ec,Montalvo TV,,,,EC,general,FALSE,,,,
 MonteCarloDigitalTelevision.fr,Monte Carlo Digital Television,,,,FR,lifestyle,FALSE,,,,
@@ -23211,7 +23213,7 @@ PeTV.fi,PeTV,,,,FI,,FALSE,,,,https://www.petalaxtv.fi/
 PeTV.si,PeTV,Ptujska Televizjia,,,SI,general,FALSE,,,,https://www.petv.tv/
 PFC.br,PFC,,,,BR,,FALSE,,,,http://pfc.globo.com/
 PFCInternacional.br,PFC Internacional,,,,BR,,FALSE,,,,http://pfci.globo.com/
-PFLMMA.pl,PFL MMA,,,,PL,,FALSE,,,,
+PFLMMA.us,PFL MMA,,,Professional Fighters League Group Ltd.,US,sports,FALSE,2022-11-03,,,https://pflmma.com/fast-channels
 PflugervillePublicAccessTelevision.us,Pflugerville Public Access Television,PfTV,,,US,,FALSE,,,,https://www.pflugervilletx.gov/city-government/communications/pftv
 PFMFamilyTV.jm,PFM Family TV,,,The Power of Faith Ministries International Inc.,JM,religious,FALSE,,,,https://pfmfamily.org/
 PGATour.us,PGA Tour,,Pluto TV,,US,sports,FALSE,,,,https://pluto.tv/en/live-tv/pga-tour
@@ -23606,7 +23608,7 @@ PlutoTVMotor.us,Pluto TV Motor,,Pluto TV,,US,auto,FALSE,,,,https://pluto.tv/en/l
 PlutoTVMovies.us,Pluto TV Movies,,Pluto TV,,US,movies,FALSE,,,,
 PlutoTVMTV.us,Pluto TV MTV,,Pluto TV,,US,music,FALSE,,,,
 PlutoTVMTVAnimaciones.us,Pluto TV MTV Animaciones,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,
-PlutoTVMTVClassic.us,Pluto TV MTV Classic,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,music,FALSE,,,,
+PlutoTVMTVClassic.us,Pluto TV MTV Classic,MTV Classic,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,music,FALSE,,,,
 PlutoTVMTVLatino.us,Pluto TV MTV Latino,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,music,FALSE,,,,
 PlutoTVMTVPranks.us,Pluto TV MTV Pranks,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,
 PlutoTVMundo.us,Pluto TV Mundo,,Pluto TV,,US,series,FALSE,,,,

@@ -106,6 +106,7 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 1Plus1Ukraina.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 1Plus2.lv,SD,SD,,TRUE,c/LV,Europe/Riga,lav,576i
 1Severnyy.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz;rus,576i
+1SNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576p
 1Sports.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 1TV.af,SD,SD,,TRUE,c/AF,Asia/Kabul,prd,576i
 1TV.ge,SD,SD,,TRUE,c/GE,Asia/Tbilisi,kat,576i
@@ -118,6 +119,7 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 20MinutesTV.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 218News.ly,SD,SD,,TRUE,c/LY,Asia/Amman,ara,576i
 218TV.ly,SD,SD,,TRUE,c/LY,Asia/Amman,ara,576i
+21JumpStreet.us,SD,SD,,TRUE,c/US,America/New_York;America/Chicago;America/Denver;America/Los_Angeles,eng,1080p
 21Junior.xk,SD,SD,,TRUE,c/XK,Europe/Belgrade,sqi,576i
 21Mix.xk,SD,SD,,TRUE,c/XK,Europe/Belgrade,sqi,576i
 21Plus.xk,SD,SD,,TRUE,c/XK,Europe/Belgrade,sqi,576i
@@ -21760,7 +21762,7 @@ MonroeCommunityMediaEducationChannel.us,SD,SD,,TRUE,ct/USMOI,America/New_York,en
 MonroeCommunityMediaPublicAccessChannel.us,SD,SD,,TRUE,ct/USMOI,America/New_York,eng,480i
 MonroeCountyTV.us,SD,SD,,TRUE,ct/USEYW,America/New_York,eng,480i
 MonseTeve.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
-MonsterJam.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,eng,576i
+MonsterJam.us,SD,SD,,TRUE,c/PL,Europe/Warsaw,eng,576i
 MonsterMovies.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 MontalvoTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,576i
 MonteCarloDigitalTelevision.fr,HD,HD,,TRUE,c/FR,Europe/Paris,eng,1080p
@@ -22111,6 +22113,7 @@ MTVNordic.us,SD,SD,,TRUE,r/NORD,Europe/Stockholm,eng,480i
 MTVOriginals.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 MTVPlutoTV.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
 MTVPlutoTV.us,Germany,Germany,,FALSE,c/DE,Europe/Berlin,deu,576i
+MTVPlutoTV.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
 MTVPlutoTV.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 MTVPlutoTVPlus.us,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
 MTVPrank.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
@@ -25014,7 +25017,7 @@ PeTV.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin;swe,576i
 PeTV.si,SD,SD,,TRUE,c/SI,Europe/Ljubljana,slv,576i
 PFC.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 PFCInternacional.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
-PFLMMA.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,eng,576i
+PFLMMA.us,SD,SD,,TRUE,c/PL,Europe/Warsaw,eng,576i
 PflugervillePublicAccessTelevision.us,SD,SD,,TRUE,ct/USPFV,America/New_York,eng,480i
 PFMFamilyTV.jm,SD,SD,,TRUE,c/JM,America/Jamaica,eng,480i
 PGATour.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -25774,6 +25777,7 @@ PongaloNovelaclub.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PONTV.id,SD,SD,,TRUE,s/ID-KB,Asia/Pontianak,ind,576i
 PooyaTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 PooyaTVPlus.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
+Pop.uk,AU,AU,,FALSE,c/AU,Australia/Sydney,eng,1080p
 Pop.uk,Plus1,+1,,FALSE,c/UK,Europe/London,eng,576i
 Pop.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 Pop.us,East,East,,TRUE,c/US,America/New_York,eng,480i

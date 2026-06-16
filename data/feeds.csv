@@ -321,6 +321,7 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 5TVOlavarria.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 5USA.uk,Plus1,+1,,FALSE,c/UK,Europe/London,eng,576i
 5USA.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
+60DaysInbyAE.us,SD,SD,,TRUE,c/US,America/New_York;America/Chicago;America/Denver;America/Los_Angeles,eng,720p
 6eren.dk,SD,SD,,TRUE,c/DK,Europe/Copenhagen,dan,576i
 6Plus.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,deu,576i
 6PR.au,SD,SD,,TRUE,c/AU,Australia/Perth,eng,576i
@@ -410,6 +411,7 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 8LaMarinaTV.es,SD,SD,,TRUE,s/ES-VC,Europe/Madrid,spa,576i
 8madridTV.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 8NTV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
+8OutOf10Cats.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,1080p
 8TV.lv,SD,SD,,TRUE,c/LV,Europe/Riga,rus;lav;eng,576i
 8TV.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,zho,576i
 8TV.uz,SD,SD,,TRUE,c/UZ,Asia/Tashkent,uzb,576i
@@ -2072,6 +2074,9 @@ ArenaSport9.rs,HD,HD,,FALSE,c/RS,Europe/Belgrade,srp,1080i
 ArenaSport9.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 ArenaSportAdrenalin.rs,HD,HD,,FALSE,c/RS,Europe/Belgrade,srp,1080i
 ArenaSportAdrenalin.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
+ArenaSportPremium1BH.ba,HD,HD,,TRUE,c/BA,Europe/Sarajevo,srp,576i
+ArenaSportPremium2BH.ba,HD,HD,,TRUE,c/BA,Europe/Sarajevo,srp,576i
+ArenaSportPremium3BH.ba,HD,HD,,TRUE,c/BA,Europe/Sarajevo,srp,576i
 ArenaSportTenis.rs,HD,HD,,FALSE,c/RS,Europe/Belgrade,srp,1080i
 ArenaSportTenis.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 ArenaTelevision.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
@@ -10314,21 +10319,24 @@ FilmBoxAfrica.nl,SD,SD,,TRUE,r/AFR,Europe/Amsterdam,eng,576i
 FilmBoxArthouse.nl,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
 FilmBoxArthouse.nl,SD,SD,,TRUE,r/EUR;r/ASIA;r/MENA,Europe/Amsterdam,eng,576i
 FilmBoxBaltics.nl,SD,SD,,TRUE,c/EE;c/LV;c/LT,Europe/Amsterdam,eng,576i
+FilmBoxExtra.nl,Adria,Adria,,TRUE,r/EU,Europe/Sarajevo,eng,576i
 FilmBoxExtra.nl,Bulgary,Bulgary,,FALSE,c/BG,Europe/Amsterdam,bul,576i
 FilmBoxExtra.nl,CzechRepublic,Czech Republic,,FALSE,c/CZ;c/SK,Europe/Amsterdam,ces,576i
-FilmBoxExtra.nl,Hungary,Hungary,,TRUE,c/HU,Europe/Amsterdam,hun,576i
+FilmBoxExtra.nl,Hungary,Hungary,,FALSE,c/HU,Europe/Amsterdam,hun,576i
 FilmBoxExtra.nl,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
 FilmBoxFamily.nl,Africa,Africa,,TRUE,r/AFR,Europe/Amsterdam,eng,576i
 FilmBoxFamily.nl,Hungary,Hungary,,FALSE,c/HU,Europe/Amsterdam,eng;hun,576i
 FilmBoxFamily.nl,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
+FilmBoxPremium.nl,Adria,Adria,,TRUE,r/EU,Europe/Sarajevo,eng,576i
 FilmBoxPremium.nl,CzechRepublic,Czech Republic,,FALSE,c/CZ;c/SK,Europe/Amsterdam,ces,576i
-FilmBoxPremium.nl,Hungary,Hungary,,TRUE,c/HU,Europe/Amsterdam,hun,576i
+FilmBoxPremium.nl,Hungary,Hungary,,FALSE,c/HU,Europe/Amsterdam,hun,576i
 FilmBoxPremium.nl,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
 FilmBoxPremium.nl,PolandHD,Poland HD,,FALSE,c/PL,Europe/Warsaw,pol,1080i
 FilmBoxPremium.nl,Romania,Romania,,FALSE,c/RO,Europe/Amsterdam,ron,576i
+FilmBoxStars.nl,Adria,Adria,,TRUE,r/EU,Europe/Sarajevo,eng,576i
 FilmBoxStars.nl,Bulgary,Bulgary,,FALSE,c/BG,Europe/Amsterdam,bul,576i
 FilmBoxStars.nl,CzechRepublic,Czech Republic,,FALSE,c/CZ;c/SK,Europe/Amsterdam,ces,576i
-FilmBoxStars.nl,Hungary,Hungary,,TRUE,c/HU,Europe/Amsterdam,hun,576i
+FilmBoxStars.nl,Hungary,Hungary,,FALSE,c/HU,Europe/Amsterdam,hun,576i
 FilmCafe.hu,Hungary,Hungary,,TRUE,c/HU,Europe/Budapest,hun,576i
 FilmCafe.hu,Romania,Romania,,FALSE,c/RO,Europe/Bucharest,rom,576i
 Filmcity.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,eng,576i
@@ -11314,6 +11322,7 @@ GobiernodelaRepublica.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 Godare.se,SD,SD,,TRUE,c/SE,Europe/Oslo,swe,576i
 GoDiegoGo.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 GodIsAbleTV.cm,SD,SD,,TRUE,c/CM,Africa/Douala,fra,576i
+GodStandsKidsClubTV.pk,English,English,,TRUE,c/PK,Asia/Karachi,eng,480i
 GodStandsTV.pk,Arabic,Arabic,,FALSE,c/PK,Asia/Karachi,ara,480i
 GodStandsTV.pk,Chinese,Chinese,,FALSE,c/PK,Asia/Karachi,zho,480i
 GodStandsTV.pk,English,English,,FALSE,c/PK,Asia/Karachi,eng,480i
@@ -11781,7 +11790,8 @@ HalaLondonTVSeries.uk,SD,SD,,TRUE,c/UK,Europe/London,ara;eng,576i
 HalaRamallah.ps,SD,SD,,TRUE,c/PS,Asia/Hebron,ara;eng,576i
 HalaTV.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,ara,576i
 HaleluyaTV.tz,SD,SD,,TRUE,c/TZ,Africa/Dar_es_Salaam,eng;swa,576i
-HalkTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
+HalkTV.tr,HD,HD,,TRUE,c/TR,Europe/Istanbul,tur,1080p
+HalkTV.tr,SD,SD,,FALSE,c/TR,Europe/Istanbul,tur,576i
 HallaBolKidsTV.ca,SD,SD,,TRUE,c/CA,America/Toronto,hin,480i
 HallmarkChannel.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 HallmarkChannel.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
@@ -23396,7 +23406,7 @@ NickMusic.au,SD,SD,,TRUE,c/AU;c/NZ,America/Toronto,eng,576i
 NickMusic.nl,SD,SD,,TRUE,c/NL,America/Toronto,eng,576i
 NickMusic.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 NickOnline.br,HD,HD,,FALSE,c/BR,America/Sao_Paulo,por,720p
-NickOnline.br,SD,SD,Standard Definition;Standard Quality,TRUE,c/BR,America/Sao_Paulo,por,576p
+NickOnline.br,SD,SD,Standard Definition,TRUE,c/BR,America/Sao_Paulo,por,360p
 NickOnlineJr.br,HD,HD,High Definition,TRUE,c/BR,America/Sao_Paulo,por,720p
 NickOnlineMusic.br,HD,HD,High Definition,TRUE,c/BR,America/Sao_Paulo,por,720p
 NickOnlineSpongebob.br,HD,HD,,TRUE,c/BR,America/Sao_Paulo,por,1080p
@@ -35315,6 +35325,10 @@ Unisa7.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 UniscTV.br,SD,SD,,TRUE,s/BR-RS,America/Sao_Paulo,por,480i
 UnisonTV.mx,SD,SD,,TRUE,c/MX,America/Hermosillo,spa,480i
 UnisulTV.br,SD,SD,,TRUE,s/BR-SC,America/Sao_Paulo,por,480i
+Unite8Sports1.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,hin,1080i
+Unite8Sports1.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+Unite8Sports2.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,eng,1080i
+Unite8Sports2.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 UnitedStatesofAfricaTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 UnitedTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 Unitel.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i

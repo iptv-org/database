@@ -270,6 +270,7 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 5tv.ar,5tv,,,,AR,general,FALSE,,,,http://www.tvcinco.com/
 5TVOlavarria.ar,5 TV Olavarria,5 TV Olavarría,,,AR,general,FALSE,,,,https://www.digitalnews.com.ar/CanalLocal
 5USA.uk,5USA,,,Paramount Global,UK,entertainment,FALSE,2006-10-16,,,https://www.channel5.com/channels/5usa
+60DaysInbyAE.us,60 Days In by A&E,,A&E,,US,entertainment,FALSE,,,,https://www.aetv.com/
 6eren.dk,6'eren,,,Warner Bros. Discovery EMEA,DK,documentary,FALSE,2009-01-01,,,http://www.6-eren.dk/
 6Plus.ch,6+,,,CH Media,CH,entertainment,FALSE,2019-03-27,,,https://www.oneplus.ch/
 6PR.au,6PR,,,Nine Entertainment,AU,news,FALSE,1931-10-14,,,https://www.6pr.com.au/
@@ -326,6 +327,7 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 8LaMarinaTV.es,8 La Marina TV,,,,ES,general,FALSE,,,,https://8lamarinatv.com/
 8madridTV.es,8madrid TV,,,Televisión Digital Madrid S.L.U.,ES,movies,FALSE,2006-03-17,,,https://8madrid.tv/
 8NTV.mx,8NTV,,,,MX,general,FALSE,,,,https://www.ntv.com.mx/envivo/
+8OutOf10Cats.uk,8 Out Of 10 Cats,,,,UK,entertainment,FALSE,,,,
 8TV.lv,8TV,,Tet,Helio Media,LV,general,FALSE,2021-05-28,,,https://www.tet.lv/
 8TV.my,8TV,八度空间,,Media Prima,MY,entertainment,FALSE,2004-01-08,,,https://www.xtra.com.my/
 8TV.uz,8TV,Oilaviy telekanali,,,UZ,general,FALSE,,,,https://8tv.uz/
@@ -1467,7 +1469,7 @@ AndaluciaTelevision.es,Andalucia Television,Andalucía Televisión;Andalucía TV
 AndersonCountyTV.us,Anderson County TV,ACTV,,,US,general,FALSE,,,,https://www.andersoncounty.tv/live
 AndersonCountyTV2.us,Anderson County TV 2,ACTV 2,,,US,general,FALSE,,,,https://www.andersoncounty.tv/live2
 AndesTelevision.pe,Andes Television,Andes Televisión,,,PE,religious,FALSE,,,,https://radiosicuani.com/ANDESTV/
-Andflix.in,&flix,,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,2018-06-03,,,https://andflix.zee5.com/
+Andflix.in,&flix,,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,2018-06-03,2026-06-02,Unite8Sports2.in,https://andflix.zee5.com/
 AndijonMTRK.uz,Andijon MTRK,,,,UZ,general,FALSE,,,,
 AndinaRTV.pe,Andina RTV,,,,PE,music,FALSE,,,,https://andinartv.com/
 AndinaTV.bo,Andina TV,,,,BO,general,FALSE,,,,https://www.redandinaoruro.com/
@@ -1786,6 +1788,7 @@ ArenaSport4Premium.rs,Arena Sport 4 Premium,Arena Sport 4 Premium Srbija,,Teleko
 ArenaSport5.hr,Arena Sport 5,Arena Sport 5 Hrvatska,,Telekom Srbjia,HR,sports,FALSE,,,,http://www.tvarenasport.hr/
 ArenaSport5.me,Arena Sport 5,Arena Sport 5 Crna Gora,,Telekom Srbjia,ME,sports,FALSE,,,,https://www.tvarenasport.com/me
 ArenaSport5.rs,Arena Sport 5,Arena Sport 5 Srbija,,Telekom Srbjia,RS,sports,FALSE,2009-01-01,,,https://www.tvarenasport.com/
+ArenaSport5BH.ba,Arena Sport 5 BH,,,,BA,sports,FALSE,,,,
 ArenaSport5Premium.rs,Arena Sport 5 Premium,Arena Sport 5 Premium Srbija,,Telekom Srbjia,RS,sports,FALSE,2025-07-22,,,https://www.tvarenasport.com/
 ArenaSport6.hr,Arena Sport 6,Arena Sport 6 Hrvatska,,Telekom Srbjia,HR,sports,FALSE,,,,http://www.tvarenasport.hr/
 ArenaSport6.rs,Arena Sport 6,Arena Sport 6 Srbija,,Telekom Srbjia,RS,sports,FALSE,,,,https://www.tvarenasport.com/
@@ -1796,6 +1799,9 @@ ArenaSport8.rs,Arena Sport 8,Arena Sport 8 Srbija,,Telekom Srbjia,RS,sports,FALS
 ArenaSport9.hr,Arena Sport 9,Arena Sport 9 Hrvatska,,Telekom Srbjia,HR,sports,FALSE,,,,http://www.tvarenasport.hr/
 ArenaSport9.rs,Arena Sport 9,Arena Sport 9 Srbija,,Telekom Srbjia,RS,sports,FALSE,2025-03-28,,,https://www.tvarenasport.com/
 ArenaSportAdrenalin.rs,Arena Sport Adrenalin,Arena Sport Adrenalin Srbija,,Telekom Srbjia,RS,sports,FALSE,2025-07-23,,,https://www.tvarenasport.com/
+ArenaSportPremium1BH.ba,Arena Sport Premium 1 BH,,,,BA,sports,FALSE,,,,
+ArenaSportPremium2BH.ba,Arena Sport Premium 2 BH,,,,BA,sports,FALSE,,,,
+ArenaSportPremium3BH.ba,Arena Sport Premium 3 BH,,,,BA,sports,FALSE,,,,
 ArenaSportTenis.rs,Arena Sport Tenis,Arena Sport Tenis Srbija,,Telekom Srbjia,RS,sports,FALSE,2025-07-23,,,https://www.tvarenasport.com/
 ArenaTelevision.np,Arena Television,,,,NP,entertainment,FALSE,2014-01-01,,,https://www.arenatelevision.com.np/
 ArenaTV.ec,Arena TV,,,,EC,general,FALSE,,,,
@@ -9254,7 +9260,7 @@ FireTV.it,Fire TV,,,,IT,,FALSE,,,,
 FireTV.ke,Fire TV,,,,KE,religious,FALSE,,,,
 FireTV2.gh,Fire TV 2,,,,GH,,FALSE,,,,
 FirstAfriqueTV.bj,First Afrique TV,,,,BJ,news,FALSE,,,,https://firstafriquetv.bj/
-FirstBusiness.ua,First Business,Перший Діловий,,,UA,business,FALSE,,,,http://fbc.net.ua/
+FirstBusiness.ua,First Business,Перший Діловий,,,UA,business,FALSE,,2023-02-01,,http://fbc.net.ua/
 FirstChannel.ch,First Channel,,,,CH,culture,FALSE,,,,http://www.first-channel.tv/
 FirstChannel.xk,First Channel,,,,XK,entertainment,FALSE,,,,https://www.first-channel.tv/
 FirstChannelNews.am,First Channel News,,,Government of Armenia,AM,news,FALSE,2020-01-01,,,https://www.1lurer.am/
@@ -10082,6 +10088,7 @@ GobiernodelaRepublica.mx,Gobierno de la Republica,Gobierno de la República,,,MX
 Godare.se,Godare,,,,SE,cooking,FALSE,2020-04-01,,,https://godare.se/
 GoDiegoGo.us,Go Diego Go!,,Pluto TV,,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/go-diego-go-es
 GodIsAbleTV.cm,God Is Able TV,,,,CM,religious,FALSE,,,,https://godisabletv.org/
+GodStandsKidsClubTV.pk,God Stands Kids Club TV,,,,PK,kids;religious,FALSE,,,,https://godstands.tv/kids-club-tv/
 GodStandsTV.pk,God Stands TV,GS TV,,,PK,religious,FALSE,,,,https://www.godstands.tv/
 GODTV.au,GOD TV,,,Angel Christian Television Trust,AU,religious,FALSE,2005-01-01,,,https://www.god.tv/live-au/
 GODTV.uk,GOD TV,,,Angel Christian Television Trust,UK,religious,FALSE,1995-01-01,,,https://www.god.tv/
@@ -32673,6 +32680,8 @@ Unisa7.br,Unisa 7,,,,BR,,FALSE,,,,http://www.unisa.br/
 UniscTV.br,Unisc TV,,,,BR,education;culture,FALSE,,,,https://www.unisc.br/pt/unisc-tv/ao-vivo
 UnisonTV.mx,Unison TV,,,,MX,education,FALSE,,,,https://television.unison.mx/
 UnisulTV.br,Unisul TV,,,,BR,education;culture,FALSE,,,,http://unisultv.blogspot.com/
+Unite8Sports1.in,Unite8 Sports 1,,Unite8 Sports,Zee Entertainment Enterprises Limited,IN,sports,FALSE,2026-06-02,,,https://unite8sports.in/
+Unite8Sports2.in,Unite8 Sports 2,,Unite8 Sports,Zee Entertainment Enterprises Limited,IN,sports,FALSE,2026-06-02,,,https://unite8sports.in/
 UnitedStatesofAfricaTV.gh,United States of Africa TV,,,,GH,,FALSE,,,,
 UnitedTV.gh,United TV,,,,GH,,FALSE,,,,http://utv.peacefmonline.com/
 Unitel.pe,Unitel,,,,PE,general,FALSE,,,,https://unitelperu.pe/
@@ -33585,7 +33594,7 @@ VTVCab7.vn,VTVCab7,,,,VN,,FALSE,,,,https://vtv.vn/vtvcab-7.html
 VTVCanal17.bo,VTV Canal 17,,,,BO,religious,FALSE,,,,https://vtvcanal17.com/
 VTVCanal32.do,VTV Canal 32,,,,DO,general,FALSE,,,,https://vtvcanal32.com.do/
 VTVCanal35.sv,VTV Canal 35,,,Telecorporación Salvadoreña,SV,general,FALSE,2003-04-06,2017-09-25,TCSPlus.sv,
-VTVCanTho.vn,VTV Can Tho,VTV Cần Thơ;VTV6,,Vietnam Television,VN,,FALSE,2007-04-29,,,https://vtv.vn/
+VTVCanTho.vn,VTV Can Tho,VTV Cần Thơ,,Vietnam Television,VN,,FALSE,2022-10-10,2026-03-30,VTV10.vn,https://vtv.vn/
 VTVFutbol.uy,VTV Futbol,VTV Fútbol,,Tenfield,UY,sports,FALSE,2026-02-20,,,https://vtv.com.uy/
 VTVFutbol2.uy,VTV Futbol 2,VTV Fútbol 2,,Tenfield,UY,sports,FALSE,2026-03-14,,,https://vtv.com.uy/
 VTVFuzesabony.hu,VTV Fuzesabony,VTV Füzesabony,,,HU,,FALSE,,,,http://www.fuzesabonytv.hu/
@@ -39698,7 +39707,7 @@ ZeeBollymovies.in,Zee Bollymovies,,Z,Zee Entertainment Enterprises Limited,IN,mo
 ZeeBollymovies.za,Zee Bollymovies,,,,ZA,movies,FALSE,2022-04-25,,,http://www.zeebollymovies.zeeafrica.tv/
 ZeeBollywood.in,Zee Bollywood,,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,,,,https://zeebollywood.zee5.com/
 ZeeBusiness.in,Zee Business,,Zee Media,Zee Media Corporation Limited (ZMCL);The Essel Group,IN,business,FALSE,,,,https://www.zeebiz.com/
-ZeeCafe.in,Zee Cafe,Zee Café,Z,Zee Entertainment Enterprises Limited,IN,series,FALSE,2000-03-15,,,https://zeecafe.zee5.com/
+ZeeCafe.in,Zee Cafe,Zee Café,Z,Zee Entertainment Enterprises Limited,IN,series,FALSE,2000-03-15,2026-06-02,Unite8Sports1.in,https://zeecafe.zee5.com/
 ZeeChitramandir.in,Zee Chitramandir,,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,,2026-04-01,,
 ZeeCineClassic.in,Zee Cine Classic,Z Cine Classic,ZEE5,Zee Entertainment Enterprises Limited,IN,classic,FALSE,2025-10-06,,,
 ZeeCinema.in,Zee Cinema,,Z,Zee Entertainment Enterprises Limited,IN,movies,FALSE,,,,https://zeecinema.zee5.com/

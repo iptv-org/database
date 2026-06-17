@@ -101,6 +101,7 @@ channel,id,name,alt_names,is_main,broadcast_area,timezones,languages,format
 1max.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 1NOMO.vu,SD,SD,,TRUE,c/VU,Pacific/Efate,eng;bis,576i
 1Plus1.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
+1Plus1International.ua,HD,HD,,FALSE,r/EU,Europe/Kyiv,ukr,1080p
 1Plus1International.ua,SD,SD,,TRUE,r/EUR,Europe/Kyiv,ukr,576i
 1Plus1Marafon.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 1Plus1Ukraina.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
@@ -3474,8 +3475,8 @@ BetKingItaliano.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 BetKingLiveLeague.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 BETLatinAmerica.us,SD,SD,,TRUE,r/HISPAM,America/New_York,eng,480i
 BETPlutoTV.de,UK,UK,,TRUE,c/UK,Europe/London,eng,720p
-BETPlutoTV.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 BETPlutoTV.us,BR,BR,,FALSE,c/BR,America/Sao_Paulo,por,720p
+BETPlutoTV.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 BETSoul.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 BetterHealthTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 BetterLifeChannel.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
@@ -7209,9 +7210,9 @@ ComedyCentralFamily.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,eng,576i
 ComedyCentralLatinAmerica.us,Brazil,Brazil,,FALSE,c/BR,America/New_York,por,480i
 ComedyCentralLatinAmerica.us,Panregional,Panregional,,TRUE,c/AR;c/CL;c/VE;c/PY;c/UY;c/MX;c/PA;c/CO;c/PE;c/EC;c/BO;r/CENAMER;r/CARIB,America/New_York,spa,480i
 ComedyCentralMadeinGermany.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
-ComedyCentralPlutoTV.us,US,US,,TRUE,c/US,America/New_York,eng,720p
 ComedyCentralPlutoTV.us,BR,BR,,FALSE,c/BR,America/Sao_Paulo,por,720p
 ComedyCentralPlutoTV.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
+ComedyCentralPlutoTV.us,US,US,,TRUE,c/US,America/New_York,eng,720p
 ComedyCentralSouthPark.us,Brazil,Brazil,,FALSE,c/BR,America/New_York,por,480i
 ComedyCentralSouthPark.us,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
 ComedyChannelExtra.pl,HD,HD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
@@ -7260,6 +7261,7 @@ ConecTVAlgarve.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 ConecTVBrasil.br,SD,SD,,TRUE,s/BR-SP,America/Sao_Paulo,por,480i
 ConexaoTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 ConexionEducativa.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
+ConexionPositivaTelevision.cr,HD,HD,,TRUE,c/CR,America/Costa_Rica,spa,1080p
 Congo24TV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 Congo26TV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 CongoBuzzTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
@@ -22143,9 +22145,9 @@ MTVNordic.us,SD,SD,,TRUE,r/NORD,Europe/Stockholm,eng,480i
 MTVOriginals.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 MTVPlutoTV.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 MTVPlutoTV.de,UK,UK,,FALSE,c/UK,Europe/London,eng,720p
+MTVPlutoTV.us,BR,BR,,FALSE,c/BR,America/Sao_Paulo,por,720p
 MTVPlutoTV.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
 MTVPlutoTV.us,US,US,,TRUE,c/US,America/New_York,eng,480i
-MTVPlutoTV.us,BR,BR,,FALSE,c/BR,America/Sao_Paulo,por,720p
 MTVPlutoTVPlus.us,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
 MTVPrank.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 MTVRealities.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
@@ -23418,8 +23420,8 @@ NickJrenEspanol.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 NickJrIndonesia.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind;eng,576i
 NickJrLatinAmerica.us,Panregional,Panregional,,TRUE,c/MX;c/CO;c/PE;c/EC;c/BO;c/CL;r/CENAMER;r/CARIB,America/New_York,spa,480i
 NickJrLatinAmerica.us,South,South,,FALSE,c/AR;c/PY;c/UY,America/New_York,spa;por;eng,480i
-NickJrPlutoTV.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 NickJrPlutoTV.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
+NickJrPlutoTV.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 NickJrScandinavia.nl,SD,SD,,TRUE,c/DK;c/NO;c/FI;c/SE;c/LV;c/EE;c/LT;c/IS,America/Toronto,eng,576i
 NickJrToo.ie,SD,SD,,TRUE,c/IE,Europe/Dublin,eng,576i
 NickJrToo.uk,SD,SD,,TRUE,c/UK;c/IE,Europe/London,eng,576i
@@ -25384,11 +25386,11 @@ PlutoTVAnimaux.de,FR,FR,,TRUE,c/FR,Europe/Paris,fra,720p
 PlutoTVAnime.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 PlutoTVAnime.de,ES,ES,,FALSE,c/ES,Europe/Madrid,spa,720p
 PlutoTVAnime.de,IT,IT,,FALSE,c/IT,Europe/Rome,ita,720p
-PlutoTVAnime.us,US,US,,TRUE,c/US,America/New_York,eng;jap,720p
-PlutoTVAnime.us,USPlus,US+,,FALSE,c/US,America/New_York,eng;jap,720p
 PlutoTVAnime.us,BR,BR,,FALSE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVAnime.us,CA,CA,,FALSE,c/CA,America/Toronto,eng;jap,720p
 PlutoTVAnime.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
+PlutoTVAnime.us,US,US,,TRUE,c/US,America/New_York,eng;jap,720p
+PlutoTVAnime.us,USPlus,US+,,FALSE,c/US,America/New_York,eng;jap,720p
 PlutoTVAnimeAcao.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVAnimeAccion.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 PlutoTVAnimeAllAges.us,SD,SD,,TRUE,c/US,America/New_York,eng;jap,480i
@@ -25421,8 +25423,8 @@ PlutoTVBudTerence.se,NO,NO,,FALSE,c/NO,Europe/Oslo,eng;nor,720p
 PlutoTVBudTerence.se,SE,SE,,TRUE,c/SE,Europe/Stockholm,eng;swe,720p
 PlutoTVBuskis.se,SE,SE,,TRUE,c/SE,Europe/Stockholm,eng;swe,720p
 PlutoTVCanalUOL.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
-PlutoTVCars.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVCars.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
+PlutoTVCars.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVCatastrofes.de,ES,ES,,TRUE,c/ES,Europe/Madrid,spa,720p
 PlutoTVCelebrity.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVChefkoch.us,Germany,Germany,,FALSE,c/DE,Europe/Berlin,deu,576i
@@ -25471,8 +25473,8 @@ PlutoTVComediamadeinSpain.de,ES,ES,,TRUE,c/ES,Europe/Madrid,spa,720p
 PlutoTVComediasRomanticas.de,ES,ES,,TRUE,c/ES,Europe/Madrid,spa,720p
 PlutoTVComedie.de,FR,FR,,TRUE,c/FR,Europe/Paris,fra,720p
 PlutoTVComediesCultes.de,FR,FR,,TRUE,c/FR,Europe/Paris,fra,720p
-PlutoTVComedy.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVComedy.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
+PlutoTVComedy.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVComedyCentralLatino.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVComedyMovies.de,UK,UK,,TRUE,c/UK,Europe/London,eng,720p
 PlutoTVComedyMovies.us,CA,CA,,TRUE,c/CA,America/Toronto,eng,720p
@@ -25487,8 +25489,8 @@ PlutoTVCrime.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 PlutoTVCrime.de,UK,UK,,FALSE,c/UK,Europe/London,eng,720p
 PlutoTVCrime.de,UKPlus,UK+,Samsung,FALSE,c/UK,Europe/London,eng,720p
 PlutoTVCrimeDrama.de,UK,UK,,TRUE,c/UK,Europe/London,eng,720p
-PlutoTVCrimeDrama.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVCrimeDrama.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
+PlutoTVCrimeDrama.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVCrimeInvestigation360.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVCrimeMovies.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVCucina.de,IT,IT,,TRUE,c/IT,Europe/Rome,ita,720p
@@ -25734,9 +25736,9 @@ PlutoTVNordicCrime.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 PlutoTVNottidiPassione.de,IT,IT,,TRUE,c/IT,Europe/Rome,ita,720p
 PlutoTVNottidiSangue.de,IT,IT,,TRUE,c/IT,Europe/Rome,ita,720p
 PlutoTVNottidiTerrore.de,IT,IT,,TRUE,c/IT,Europe/Rome,ita,720p
-PlutoTVNovelas.us,US,US,,TRUE,c/US,America/New_York,spa,480i
 PlutoTVNovelas.us,BR,BR,,FALSE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVNovelas.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
+PlutoTVNovelas.us,US,US,,TRUE,c/US,America/New_York,spa,480i
 PlutoTVNovelasdeMexico.us,LatAm,LatAm,,TRUE,r/LATAM,America/Los_Angeles,spa,720p
 PlutoTVNovelasdeOtrosContinentes.us,LatAm,LatAm,,TRUE,r/LATAM,America/Los_Angeles,spa,720p
 PlutoTVNovelasdeVenezuela.us,LatAm,LatAm,,TRUE,r/LATAM,America/Los_Angeles,spa,720p
@@ -25757,8 +25759,8 @@ PlutoTVParanormal.de,UK,UK,,FALSE,c/UK,Europe/London,eng,720p
 PlutoTVParanormal.de,UKPlus,UK+,Samsung,FALSE,c/UK,Europe/London,eng,720p
 PlutoTVParanormal.se,DK,DK,,FALSE,c/DK,Europe/Copenhagen,eng;dan,720p
 PlutoTVParanormal.se,SE,SE,,TRUE,c/SE,Europe/Stockholm,eng;swe,720p
-PlutoTVParanormal.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVParanormal.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
+PlutoTVParanormal.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVPeleas.us,LatAm,LatAm,,TRUE,r/LATAM,America/Los_Angeles,spa,720p
 PlutoTVPetrolHeads.de,UK,UK,,TRUE,c/UK,Europe/London,eng,720p
 PlutoTVPets.us,UK,UK,,TRUE,c/UK,Europe/London,eng,576i
@@ -25777,9 +25779,9 @@ PlutoTVReality.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 PlutoTVReality.de,ES,ES,,FALSE,c/ES,Europe/Madrid,spa,720p
 PlutoTVReality.de,FR,FR,,FALSE,c/FR,Europe/Paris,fra,720p
 PlutoTVReality.de,UK,UK,,FALSE,c/UK,Europe/London,eng,720p
-PlutoTVReality.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVReality.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
 PlutoTVReality.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
+PlutoTVReality.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVRealLife.de,IT,IT,,TRUE,c/IT,Europe/Rome,ita,720p
 PlutoTVRealLife.de,ITPlus,IT+,Samsung,FALSE,c/IT,Europe/Rome,ita,720p
 PlutoTVRecordNews.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
@@ -25817,9 +25819,9 @@ PlutoTVSciFi.de,UKPlus,UK+,Xiaomi TV,FALSE,c/UK,Europe/London,eng,720p
 PlutoTVSciFi.se,DK,DK,,FALSE,c/DK,Europe/Copenhagen,eng;dan,720p
 PlutoTVSciFi.se,NO,NO,,FALSE,c/NO,Europe/Oslo,eng;nor,720p
 PlutoTVSciFi.se,SE,SE,,TRUE,c/SE,Europe/Stockholm,eng;swe,720p
-PlutoTVSciFi.us,US,US,,TRUE,c/US,America/New_York,spa,480i
 PlutoTVSciFi.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
 PlutoTVSciFi.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
+PlutoTVSciFi.us,US,US,,TRUE,c/US,America/New_York,spa,480i
 PlutoTVScifiSeries.de,UK,UK,,TRUE,c/UK,Europe/London,eng,720p
 PlutoTVSerie.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 PlutoTVSerie.de,DACHPlus,DACH+,Samsung,FALSE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
@@ -25932,8 +25934,8 @@ PlutoTVTrueCrime.de,IT,IT,,FALSE,c/IT,Europe/Rome,ita,720p
 PlutoTVTrueCrime.se,DK,DK,,FALSE,c/DK,Europe/Copenhagen,eng;dan,720p
 PlutoTVTrueCrime.se,NO,NO,,FALSE,c/NO,Europe/Oslo,eng;nor,720p
 PlutoTVTrueCrime.se,SE,SE,,TRUE,c/SE,Europe/Stockholm,eng;swe,720p
-PlutoTVTrueCrime.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVTrueCrime.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
+PlutoTVTrueCrime.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVTurbo.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVTween.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVUngdomsserier.se,DK,DK,,FALSE,c/DK,Europe/Copenhagen,eng;dan,720p
@@ -25965,8 +25967,8 @@ PlutoTVWestern.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 PlutoTVWestern.de,ES,ES,,FALSE,c/ES,Europe/Madrid,spa,720p
 PlutoTVWestern.de,IT,IT,,FALSE,c/IT,Europe/Rome,ita,720p
 PlutoTVWesterns.de,UK,UK,,TRUE,c/UK,Europe/London,eng,720p
-PlutoTVWesterns.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVWesterns.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
+PlutoTVWesterns.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVWesternSerien.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 PlutoTVWildWest.de,FI,FI,,TRUE,c/FI,Europe/Helsinki,fin,720p
 PlutoTVWildWest.se,DK,DK,,FALSE,c/DK,Europe/Copenhagen,eng;dan,720p
@@ -35877,6 +35879,7 @@ VanithaTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 VanityFair.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 Vannathirai.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,tam,576i
 VanphenhTV.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
+VantageClassic.ee,HD,HD,,TRUE,r/EU,Europe/Tallinn,eng,1080p
 VantageDance.ee,HD,HD,,TRUE,r/EU,Europe/Tallinn,eng,720p
 VantageMusic.ee,HD,HD,,TRUE,r/EU,Europe/Tallinn,eng,720p
 VantageMusic.ee,UK,UK,,FALSE,c/UK,Europe/London,eng,1080p

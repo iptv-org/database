@@ -1716,7 +1716,7 @@ AngelTV.in,Hebrew,Hebrew,,FALSE,c/IL,Asia/Kolkata,heb,576i
 AngelTV.in,India,India,,TRUE,c/IN,Asia/Kolkata,tam,576i
 AngelTV.in,IndoChina,Indo-China,Sawadee,FALSE,r/SEA,Asia/Kolkata,tam;eng,576i
 AngelTV.in,Indonesia,Indonesia,Selamat,FALSE,c/ID,Asia/Kolkata,tam;ind;eng,576i
-AngelTV.in,Nepal,Nepal,,FALSE,c/NP,Asia/Kolkata,nep,576i
+AngelTV.in,Nepal,Nepal,Namaskaar;Nepali,FALSE,c/NP,Asia/Kolkata,nep,576i
 AngelTV.in,Portuguese,Portuguese,,FALSE,c/PT;c/BR,Asia/Kolkata,por,576i
 AngelTV.in,Russian,Russian,,FALSE,c/RU,Asia/Kolkata,rus,576i
 AngelTV.in,Spanish,Spanish,,FALSE,c/ES;r/HISPAM,Asia/Kolkata,spa,576i
@@ -11340,7 +11340,10 @@ GobiernodelaRepublica.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 Godare.se,SD,SD,,TRUE,c/SE,Europe/Oslo,swe,576i
 GoDiegoGo.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
 GodIsAbleTV.cm,SD,SD,,TRUE,c/CM,Africa/Douala,fra,576i
+GodStandsKidsClubTV.pk,Arabic,Arabic,,FALSE,c/PK,Asia/Karachi,ara,480i
+GodStandsKidsClubTV.pk,Chinese,Chinese,,FALSE,c/PK,Asia/Karachi,zho,480i
 GodStandsKidsClubTV.pk,English,English,,TRUE,c/PK,Asia/Karachi,eng,480i
+GodStandsKidsClubTV.pk,Urdu,Urdu,,FALSE,c/PK,Asia/Karachi,urd,480i
 GodStandsTV.pk,Arabic,Arabic,,FALSE,c/PK,Asia/Karachi,ara,480i
 GodStandsTV.pk,Chinese,Chinese,,FALSE,c/PK,Asia/Karachi,zho,480i
 GodStandsTV.pk,English,English,,FALSE,c/PK,Asia/Karachi,eng,480i
@@ -28768,6 +28771,7 @@ ScienceVieTV.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra;tur,576i
 ScientologyNetwork.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 SciFi.au,Plus2,+2,,FALSE,c/AU,Australia/Sydney,eng,576i
 SciFi.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
+SciFi.fr,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080p
 SciFi.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,eng,576i
 SciFi.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,eng;ron,576i
 SciFi.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp;eng,576i

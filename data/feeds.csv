@@ -1806,7 +1806,7 @@ Animestation.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 AnimeTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,jpn,480i
 AnimeVision.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,1080p
 AnimeVisionClassics.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,1080p
-AnimexHIDIVE.us,SD,SD,,TRUE,c/US,America/New_York,eng,1080p
+AnimexHIDIVE.us,SD,SD,,FALSE,c/US,America/New_York,eng,1080p
 AnimeZoneTV.do,SD,SD,,TRUE,r/HISPAM;c/ES,America/Santo_Domingo,spa,480i
 AniOne.hk,Philippines,Philippines,,TRUE,c/PH,Asia/Manila,eng,720p
 Anione.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
@@ -8604,8 +8604,8 @@ DocuSport.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 Docustream.nl,SD,SD,,TRUE,c/NL;c/US;c/UK;c/IN,Europe/Amsterdam,eng,576i
 DodomaTV.tz,SD,SD,,TRUE,c/TZ,Africa/Dar_es_Salaam,swa,576i
 Dogs247.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
-DogtheBountyHunter.us,UK,UK,,FALSE,c/UK,Europe/London,eng,576i
-DogtheBountyHunter.us,US,US,,TRUE,c/US,America/New_York,eng,480i
+DogtheBountyHunter.us,PlutoUK,PlutoUK,,FALSE,c/UK,Europe/London,eng,576i
+DogtheBountyHunter.us,PlutoUS,PlutoUS,,FALSE,c/US,America/New_York,eng,480i
 DogTV.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 DogTV.us,SD,SD,,TRUE,c/US,Asia/Seoul,eng,480i
 DogWhisperer.us,UK,UK,,TRUE,c/UK,Europe/London,eng,576i
@@ -21587,7 +21587,6 @@ MissionImpossible.us,SD,SD,,FALSE,c/US,America/New_York,eng,480i
 MissionTV.us,SD,SD,,TRUE,c/US,America/Chicago,eng,480i
 MissouriCityTV.us,SD,SD,,TRUE,ct/USMC5,America/New_York,eng,480i
 MISTelevizija.au,SD,SD,,TRUE,c/NZ;c/AU,Australia/Sydney,bos;eng,576i
-Misteriossinresolver.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 MistoPlus.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 MistralTV.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 MiSURtv.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
@@ -23457,7 +23456,7 @@ Nicktoons.ro,SD,SD,,TRUE,c/RO,America/Toronto,eng,576i
 Nicktoons.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 Nicktoons.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,eng,576i
 Nicktoons.uk,SD,SD,,TRUE,c/UK;c/IE,America/Toronto,eng,576i
-Nicktoons.us,East,East,,TRUE,c/US,America/New_York,eng,480i
+Nicktoons.us,East,East,,FALSE,c/US,America/New_York,eng,480i
 Nicktoons.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 NicktoonsAdria.hr,SD,SD,,TRUE,c/HR;c/BA,America/Toronto,hrv,576i
 NicktoonsAfrica.za,SD,SD,,TRUE,r/SSA,Africa/Johannesburg,eng;afr,576i
@@ -25824,9 +25823,7 @@ PlutoTVSciFi.se,DK,DK,,FALSE,c/DK,Europe/Copenhagen,eng;dan,720p
 PlutoTVSciFi.se,NO,NO,,FALSE,c/NO,Europe/Oslo,eng;nor,720p
 PlutoTVSciFi.se,SE,SE,,TRUE,c/SE,Europe/Stockholm,eng;swe,720p
 PlutoTVSciFi.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
-PlutoTVSciFi.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
-PlutoTVSciFi.us,US,US,,TRUE,c/US,America/New_York,spa,480i
-PlutoTVSciFiSeries.de,UK,UK,,FALSE,c/UK,Europe/London,eng,720p
+PlutoTVScifiSeries.de,UK,UK,,FALSE,c/UK,Europe/London,eng,720p
 PlutoTVSerie.de,DACH,DACH,,FALSE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 PlutoTVSerie.de,DACHPlus,DACH+,Samsung,FALSE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 PlutoTVSerie.de,IT,IT,,FALSE,c/IT,Europe/Rome,ita,720p
@@ -29316,7 +29313,7 @@ SinopYildizTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 SinoVision.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 SinPoTV.id,HD,HD,,TRUE,c/ID,Asia/Jakarta,ind,1080p
 SintesisTV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
-Sintetasnohayparaiso.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
+Sintetasnohayparaiso.us,Spain,Spain,,FALSE,c/ES,Europe/Madrid,spa,576i
 SinTV.pe,SD,SD,,TRUE,s/PE-LIM,America/Lima,spa,480i
 SionTV.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 SipingTV.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
@@ -38983,7 +38980,7 @@ WIPB491.us,HD,HD,,TRUE,ct/USMIE,America/Indiana/Indianapolis,eng,720p
 WIPB492.us,SD,SD,,TRUE,ct/USMIE,America/Indiana/Indianapolis,eng,480i
 Wipeout.us,Spain,Spain,,FALSE,c/ES,Europe/Madrid,spa,576i
 Wipeout.us,UK,UK,,FALSE,c/UK,Europe/London,eng,576i
-Wipeout.us,US,US,,TRUE,c/US,America/New_York,eng,480i
+Wipeout.us,US,US,,FALSE,c/US,America/New_York,eng,480i
 WipeoutOV.us,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
 WipeoutXtra.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 WIPL351.us,HD,HD,,TRUE,ct/USQLW,America/Los_Angeles,eng,720p
@@ -43594,7 +43591,7 @@ DanceMoms.us,PlutoDK,PlutoDK,,FALSE,c/DK,Europe/Copenhagen,dan,720p
 DanceMoms.us,PlutoNO,PlutoNO,,FALSE,c/NO,Europe/Oslo,nor,720p
 DanceMoms.us,PlutoSE,PlutoSE,,FALSE,c/SE,Europe/Stockholm,swe,720p
 DAZNTV.us,HD,HD,,TRUE,c/CA,America/Toronto,eng,1080i
-DealorNoDeal.us,HD,HD,,TRUE,c/CA,America/Toronto,eng,1080i
+DealorNoDeal.us,PlutoCA,PlutoCA,,FALSE,c/CA,America/Toronto,eng,1080i
 Declassified.us,HD,HD,,TRUE,c/CA,America/Toronto,eng,1080i
 Degrassi.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080i
 Degrassi.us,PlutoCA,PlutoCA,,FALSE,c/CA,America/Toronto,eng,720p
@@ -43695,7 +43692,6 @@ JAG.us,PlutoFR,PlutoFR,,FALSE,c/FR,Europe/Paris,fra,720p
 JAG.us,PlutoNO,PlutoNO,,FALSE,c/NO,Europe/Oslo,nor,720p
 JAG.us,PlutoSE,PlutoSE,,FALSE,c/SE,Europe/Stockholm,swe,720p
 JAG.us,PlutoUK,PlutoUK,,FALSE,c/UK,Europe/London,eng,720p
-JustforLaughsGags.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080i
 JustforLaughsGags.us,PlutoCA,PlutoCA,,FALSE,c/CA,America/Toronto,eng,720p
 JustforLaughsGags.us,PlutoDK,PlutoDK,,FALSE,c/DK,Europe/Copenhagen,dan,720p
 JustforLaughsGags.us,PlutoFI,PlutoFI,,FALSE,c/FI,Europe/Helsinki,fin,720p
@@ -43960,7 +43956,7 @@ TheOuterLimits.us,HD,HD,,TRUE,c/CA,America/Toronto,eng,1080i
 ThePetCollective.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080i
 ThePetCollective.us,PlutoCA,PlutoCA,,FALSE,c/CA,America/Toronto,eng,720p
 ThePetCollective.us,PlutoLATAM,PlutoLATAM,,FALSE,r/LATAM,America/Mexico_City,spa,720p
-ThePriceIsRightTheBarkerEra.us,HD,HD,,TRUE,c/CA,America/Toronto,eng,1080i
+ThePriceIsRightTheBarkerEra.us,PlutoCA,PlutoCA,,FALSE,c/CA,America/Toronto,eng,1080i
 TheWeatherNetwork.us,HD,HD,,TRUE,c/CA,America/Toronto,eng,1080i
 TheXFiles.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080i
 TheXFiles.us,PlutoCA,PlutoCA,,FALSE,c/CA,America/Toronto,eng,720p
@@ -45131,7 +45127,6 @@ AztecaDeportesNetwork.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
 AztecaDeportesPremium.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
 AztecaInternacional.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
 AztecaUNOMinus1hora.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
-BabyFirst.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
 BobEsponjaPantalonesCuadrados.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
 BromasGagsJustforLaughs.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
 C4enAlerta.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
@@ -45373,7 +45368,7 @@ PlutoTVMotorPlus.de,HD,HD,,TRUE,c/UK,Europe/London,eng,1080i
 PlutoTVParanormalPlus.de,HD,HD,,TRUE,c/UK,Europe/London,eng,1080i
 PlutoTVPetrolHeads.de,HD,HD,,TRUE,c/UK,Europe/London,eng,1080i
 PlutoTVRomancePlus.de,HD,HD,,TRUE,c/UK,Europe/London,eng,1080i
-PlutoTVSciFiSeries.de,HD,HD,,TRUE,c/UK,Europe/London,eng,1080i
+PlutoTVScifiSeries.de,HD,HD,,TRUE,c/UK,Europe/London,eng,1080i
 PlutoTVWildestAdventures.de,HD,HD,,TRUE,c/UK,Europe/London,eng,1080i
 POP.de,HD,HD,,TRUE,c/UK,Europe/London,eng,1080i
 Punkd.de,HD,HD,,TRUE,c/UK,Europe/London,eng,1080i
@@ -45407,7 +45402,6 @@ XenaWarriorPrincess.de,HD,HD,,TRUE,c/UK,Europe/London,eng,1080i
 AECrime360.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080i
 AmericanCrimes.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080i
 AncientAliens.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080i
-AnimexHIDIVE.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080i
 BadGirlsClub.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080i
 BeachDay.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080i
 BestofBobbyFlaybyFoodNetwork.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080i
@@ -45529,7 +45523,6 @@ CineAmor.us,HD,HD,,TRUE,c/US,America/New_York,spa,1080i
 Cineaventura.us,HD,HD,,TRUE,c/US,America/New_York,spa,1080i
 CineCrimen.us,HD,HD,,TRUE,c/US,America/New_York,spa,1080i
 Cineenespanol.us,HD,HD,,TRUE,c/US,America/New_York,spa,1080i
-CNNXpress.us,HD,HD,,TRUE,c/US,America/New_York,spa,1080i
 ConstruccionesAsombrosas.us,HD,HD,,TRUE,c/US,America/New_York,spa,1080i
 Crimen.us,HD,HD,,TRUE,c/US,America/New_York,spa,1080i
 CSIMiamienespanol.us,HD,HD,,TRUE,c/US,America/New_York,spa,1080i

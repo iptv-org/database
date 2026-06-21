@@ -2684,6 +2684,7 @@ AXNSpin.hu,SD,SD,,TRUE,c/BA;c/RO;c/HR;c/MK;c/RS;c/SI,Europe/Athens,srp;pol;ron;h
 AXNSpin.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
 AXNWhite.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
 AXNWhite.us,Bulgaria,Bulgaria,,FALSE,c/BG,Europe/Sofia,bul,576i
+AXNWhite.us,CzechRepublic,CzechRepublic,,FALSE,c/CZ,Europe/Prague,czh,576i
 AXNWhite.us,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
 AXNWhite.us,Portugal,Portugal,,FALSE,c/PT,Europe/Lisbon,por,576i
 AXNWhite.us,SD,SD,,TRUE,c/ES;c/AD;c/CZ;c/HU;c/RO;c/SK,America/New_York,eng,576i
@@ -22038,6 +22039,7 @@ MTNSpecialEvents.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 MTNW.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 MTR.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 MTRK.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,rus,576i
+MTRSPT1.us,HD,HD,,TRUE,r/NORAM;r/EUR;r/ASIA;r/OCE,America/New_York,eng,1080p
 MTS.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 MTTV.mm,SD,SD,,TRUE,c/MM,Asia/Yangon,mya,480i
 MTunes.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -23770,6 +23772,7 @@ nowGolf3.hk,SD,SD,,TRUE,c/HK,Asia/Hong_Kong,zho,576i
 nowInternational.hk,SD,SD,,TRUE,c/CN;c/TW;c/SG,Asia/Hong_Kong,zho,576i
 nowJelli.hk,SD,SD,,TRUE,c/HK,Asia/Hong_Kong,zho,576i
 NowMediaTelevision.us,HD,HD,,TRUE,r/WW,America/Chicago,eng,1080p
+NowMediaTelevision.us,Spanish,Spanish,En Español,FALSE,r/WW,America/Chicago,spa,1080p
 nowNews.hk,SD,SD,,TRUE,c/HK,Asia/Hong_Kong,zho,576i
 NOWRock.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 nowSports.hk,SD,SD,,TRUE,c/HK,Asia/Hong_Kong,zho,576i

@@ -3051,14 +3051,14 @@ BBCLifestyle.uk,Philippines,Philippines,,FALSE,c/PH,America/Toronto,eng,576i
 BBCLifestyle.uk,Poland,Poland,,FALSE,c/PL,America/Toronto,eng,576i
 BBCLifestyle.uk,Romania,Romania,,FALSE,c/RO,America/Toronto,eng,576i
 BBCLifestyle.uk,Singapore,Singapore,,TRUE,c/SG,America/Toronto,eng,576i
-BBCNews.uk,Africa,Africa,,TRUE,r/AFR,America/Toronto,eng,576i
+BBCNews.uk,Africa,Africa,,FALSE,r/AFR,America/Toronto,eng,576i
 BBCNews.uk,AsiaPacific,Asia Pacific,,FALSE,r/APAC,America/Toronto,eng;jpn,576i
 BBCNews.uk,Europe,Europe,,FALSE,r/EUR,America/Toronto,eng,1080i
 BBCNews.uk,LatinAmerica,Latin America,,FALSE,r/LATAM,America/Toronto,eng;spa,576i
 BBCNews.uk,MiddleEast,Middle East,,FALSE,r/MIDEAST,America/Toronto,eng,576i
 BBCNews.uk,NorthAmerica,North America,,FALSE,r/NORAM,America/Toronto,eng,576i
 BBCNews.uk,SouthAsia,South Asia,,FALSE,r/SAS,America/Toronto,eng,576i
-BBCNews.uk,UK,UK,,FALSE,c/UK,Europe/London,eng,576i
+BBCNews.uk,UK,UK,,TRUE,c/UK,Europe/London,eng,576i
 BBCNews.uk,UKHD,UK HD,,FALSE,c/UK,Europe/London,eng,1080i
 BBCNewsPashto.uk,HD,HD,,TRUE,c/UK,Europe/London,pus;prd;tuk,720p
 BBCNL.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
@@ -6524,9 +6524,10 @@ CineStarTVPremiere2.rs,SD,SD,,TRUE,c/RS,Europe/Berlin,hrv,576i
 CineStarTVPremiere2.si,SD,SD,,TRUE,c/SI,Europe/Berlin,slv;eng,576i
 CineSureno.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 CinesVerdi.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
-CineTerror.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
+CineTerror.us,BR,BR,,FALSE,c/BR,America/Sao_Paulo,por,720p
 CineTerror.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
-CineThrillersbyPlutoTV.de,FR,FR,,FALSE,c/FR,Europe/Paris,fra,720p
+CineTerror.us,US,US,,TRUE,c/US,America/Los_Angeles,spa,720p
+CineThrillersbyPlutoTV.de,FR,FR,,TRUE,c/FR,Europe/Paris,fra,720p
 CineTV.mu,SD,SD,,TRUE,c/MU,Indian/Mauritius,fra;eng,576i
 Cinevault80s.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 CinevaultWesterns.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -6859,7 +6860,8 @@ ClassicTV.sl,SD,SD,,TRUE,c/SL,Africa/Freetown,eng,576i
 ClassicTV4U.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 ClassicTVComedy.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 ClassicTVDrama.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
-ClassicTVFamilies.us,CA,CA,,TRUE,c/CA,America/Toronto,eng,720p
+ClassicTVFamilies.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
+ClassicTVFamilies.us,US,US,,TRUE,c/US,America/Los_Angeles,eng,720p
 ClassiqueTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 ClassiqueTV.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 ClassiqueTV2.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
@@ -20603,6 +20605,7 @@ LuxeLife.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 LuxeTV.lu,SD,SD,,TRUE,c/LU,Europe/Luxembourg,eng;zho;fra;rus,576i
 LuxFM.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 LUXTV.cg,SD,SD,,TRUE,c/CG,Africa/Brazzaville,fra,576i
+LuxTV.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 LuxTV.uz,SD,SD,,TRUE,c/UZ,Asia/Tashkent,uzb,576i
 Luxury.ru,HD,HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
 Luxury.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
@@ -25445,10 +25448,12 @@ PlutoTVCineClasico.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
 PlutoTVCineClassicos.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVCineComedia.de,ES,ES,,TRUE,c/ES,Europe/Madrid,spa,720p
 PlutoTVCineComedia.us,PlutoBR,PlutoBR,,FALSE,c/BR,America/Sao_Paulo,por,720p
-PlutoTVCineComediaRomantica.us,BR,BR,,FALSE,c/BR,America/Sao_Paulo,por,720p
-PlutoTVCineCrime.us,BR,BR,,FALSE,c/BR,America/Sao_Paulo,por,720p
-PlutoTVCineCrimen.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
-PlutoTVCinedeautor.de,ES,ES,,FALSE,c/ES,Europe/Madrid,spa,720p
+PlutoTVCineComedia.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
+PlutoTVCineComedia.us,US,US,,TRUE,c/US,America/Los_Angeles,spa,720p
+PlutoTVCineComediaRomantica.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
+PlutoTVCineCrime.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
+PlutoTVCineCrimen.us,LatAm,LatAm,,TRUE,r/LATAM,America/Los_Angeles,spa,720p
+PlutoTVCinedeautor.de,ES,ES,,TRUE,c/ES,Europe/Madrid,spa,720p
 PlutoTVCineDrama.de,ES,ES,,TRUE,c/ES,Europe/Madrid,spa,720p
 PlutoTVCineDrama.us,BR,BR,,FALSE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVCineDrama.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
@@ -28178,6 +28183,7 @@ RTVHF.fr,SD,SD,,TRUE,c/FR;c/HT,Europe/Paris,fra,576i
 RTVHorizon.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 RTVi.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 RTViArchive.ru,SD,SD,,TRUE,c/RU;c/EE;c/LT;c/LV,Europe/Moscow,rus,576i
+RTViFTA.ru,SD,SD,,TRUE,r/EU,Europe/Moscow,rus,576i
 RTVIliria.xk,SD,SD,,TRUE,c/XK,Europe/Belgrade,sqi,576i
 RTVIlirida.it,SD,SD,,TRUE,c/IT;c/AL,Europe/Rome,sqi,576i
 RTVIliridaMusic.it,SD,SD,,TRUE,c/IT;c/AL,Europe/Rome,sqi,576i
@@ -33657,6 +33663,7 @@ TV1000.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 TV1000.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 TV1000.si,SD,SD,,TRUE,c/SI,Europe/Ljubljana,slv;eng,576i
 TV1000CINEMA.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+TV1000RussianKinoGlobal.ru,SD,SD,,TRUE,r/EU,Europe/Moscow,rus,576i
 TV100National.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 TV101.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 TV10Rivera.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i

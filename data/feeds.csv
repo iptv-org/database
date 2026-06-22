@@ -25447,9 +25447,9 @@ PlutoTVCineClasico.de,ES,ES,,TRUE,c/ES,Europe/Madrid,spa,720p
 PlutoTVCineClasico.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
 PlutoTVCineClassicos.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVCineComedia.de,ES,ES,,TRUE,c/ES,Europe/Madrid,spa,720p
-PlutoTVCineComedia.us,PlutoBR,PlutoBR,,FALSE,c/BR,America/Sao_Paulo,por,720p
+PlutoTVCineComedia.us,BR,BR,,FALSE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVCineComedia.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
-PlutoTVCineComedia.us,US,US,,TRUE,c/US,America/Los_Angeles,spa,720p
+PlutoTVCineComedia.us,US,US,,FALSE,c/US,America/Los_Angeles,spa,720p
 PlutoTVCineComediaRomantica.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVCineCrime.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVCineCrimen.us,LatAm,LatAm,,TRUE,r/LATAM,America/Los_Angeles,spa,720p
@@ -43381,8 +43381,6 @@ PlutoTVAliens.us,HD,HD,,TRUE,c/BR,America/Sao_Paulo,por,1080i
 PlutoTVAnimais.us,HD,HD,,TRUE,c/BR,America/Sao_Paulo,por,1080i
 PlutoTVBangBang.us,HD,HD,,TRUE,c/BR,America/Sao_Paulo,por,1080i
 PlutoTVCanalUOL.us,HD,HD,,TRUE,c/BR,America/Sao_Paulo,por,1080i
-PlutoTVCineComediaRomantica.us,HD,HD,,TRUE,c/BR,America/Sao_Paulo,por,1080i
-PlutoTVCineCrime.us,HD,HD,,TRUE,c/BR,America/Sao_Paulo,por,1080i
 PlutoTVCineInspiracao.us,HD,HD,,TRUE,c/BR,America/Sao_Paulo,por,1080i
 PlutoTVCozinha.us,HD,HD,,TRUE,c/BR,America/Sao_Paulo,por,1080i
 PlutoTVCuriosidade.us,HD,HD,,TRUE,c/BR,America/Sao_Paulo,por,1080i
@@ -44811,9 +44809,7 @@ PlutoTVCineClasico.us,HD,HD,,TRUE,c/US,America/New_York,spa,1080i
 PlutoTVCineClasico.us,PlutoES,PlutoES,,FALSE,c/ES,Europe/Madrid,spa,720p
 PlutoTVCineClasico.us,PlutoLATAM,PlutoLATAM,,FALSE,r/LATAM,America/Mexico_City,spa,720p
 PlutoTVCineComedia.us,HD,HD,,TRUE,c/US,America/New_York,spa,1080i
-PlutoTVCineComedia.us,PlutoES,PlutoES,,FALSE,c/ES,Europe/Madrid,spa,720p
-PlutoTVCineComedia.us,PlutoLATAM,PlutoLATAM,,FALSE,r/LATAM,America/Mexico_City,spa,720p
-PlutoTVCinedeautor.de,HD,HD,,TRUE,c/ES,Europe/Madrid,spa,1080i
+PlutoTVCineComedia.us,ES,ES,,FALSE,c/ES,Europe/Madrid,spa,720p
 PlutoTVCineDrama.us,HD,HD,,TRUE,c/US,America/New_York,spa,1080i
 PlutoTVCineDrama.us,PlutoES,PlutoES,,FALSE,c/ES,Europe/Madrid,spa,720p
 PlutoTVCineDrama.us,PlutoLATAM,PlutoLATAM,,FALSE,r/LATAM,America/Mexico_City,spa,720p
@@ -44953,7 +44949,6 @@ CineHorreurbyPlutoTV.de,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080i
 CineRetrobyPlutoTV.de,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080i
 CineRomancebyPlutoTV.de,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080i
 CineSciFibyPlutoTV.de,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080i
-CineThrillersbyPlutoTV.de,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080i
 CineWesternbyPlutoTV.de,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080i
 CoeurOcean.de,HD,HD,,TRUE,c/FR,Europe/Paris,fra,1080i
 Daria.us,HD,HD,,TRUE,c/US,America/New_York,fra,1080i
@@ -45188,7 +45183,6 @@ PaisajesporStingray.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
 PlatodelDiabyelGourmet.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
 PlutoTVALaMexicana.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
 PlutoTVAventura.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
-PlutoTVCineCrimen.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
 PlutoTVCineFamilia.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
 PlutoTVCineInspirador.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i
 PlutoTVCineRomance.us,HD,HD,,TRUE,r/LATAM,America/Mexico_City,spa,1080i

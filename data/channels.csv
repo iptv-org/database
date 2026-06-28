@@ -55,7 +55,7 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 151BPB.cl,15.1 BPB,,,,CL,religious,FALSE,,,,https://www.151.cl/
 15PlusMusic.ru,15+ Music,,VXDGroup Network,VXDGroup,RU,music,FALSE,,,,https://15plusmg.ru
 15TV.mx,15TV,,,,MX,general,FALSE,,,,https://15tv.com.mx/
-16AnnieIncinta.us,16 Anni e Incinta,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/16-anni-e-incinta-it
+16AnnieIncinta.de,16 Anni e Incinta,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/16-anni-e-incinta-it/details
 16tvBudapest.hu,16tv Budapest,Budapest XVI,,,HU,general,FALSE,,,,http://www.16tv.hu/
 1730SAT1Bayern.de,17:30 SAT.1 Bayern,,,,DE,news,FALSE,,,,https://www.sat1.de/serien/regional-bayern
 1730SAT1LIVE.de,17:30 SAT.1 LIVE,,,,DE,news,FALSE,,,,http://www.1730live.de/
@@ -121,6 +121,7 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 25TV.es,25 TV,,,,ES,entertainment,FALSE,,,,https://www.25televisio.com/streaming.php
 284Media.vg,284 Media,CCT Live Channel 284,,BVI Cable TV,VG,general,FALSE,,,,https://www.284media.com/
 28kanala.es,28 kanala,,,,ES,general,FALSE,,,,https://28kanala.eus/
+2900Happiness.se,2900 Happiness,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/2900-happiness-dk/details
 2ATV.sn,2A TV,,,,SN,news,FALSE,,,,https://2ainfos.com/
 2EFTV.ci,2EFTV,,,,CI,business,FALSE,,,,https://www.2eftv.com/
 2GB.au,2GB,,,,AU,news,FALSE,1926-08-23,,,https://www.2gb.com/
@@ -312,6 +313,7 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 7SpiritsTV.et,7 Spirits TV,,,Apostle Zelalem Getachew,ET,religious,FALSE,,,,
 7StarsTV.jo,7 Stars TV,قناة سفن 7 ستار بث مباشر,,,JO,general,FALSE,,,,
 7STORIA.it,7 STORIA,,,,IT,education;documentary,FALSE,,,,
+7thHeaven.se,7th Heaven,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/seven-heaven-se/details
 7TV.es,7TV,7TV,,,ES,general,FALSE,1994-01-01,,,https://7tvandalucia.es/
 7TV.hu,7.TV,,,,HU,general,FALSE,,,,https://behir.hu/tv
 7TV.md,7 TV,,,Media Production SRL,MD,general,FALSE,,,,
@@ -549,7 +551,7 @@ AbzyCool.in,Abzy Cool,,,Skystar Entertainment Pvt Ltd,IN,series,FALSE,2018-01-03
 AbzyDhakad.in,Abzy Dhakad,,,Skystar Entertainment Pvt Ltd,IN,movies,FALSE,,,,https://abzy.com/
 AbzyMovies.in,Abzy Movies,,,Skystar Entertainment Pvt Ltd,IN,movies,FALSE,,,,https://abzy.com/
 AcademiaTV.ec,AcademiaTV,,,Universidad Católica de Cuenca,EC,education,FALSE,,2025-08-15,,https://www.academiatv.ec/
-AcapulcoShore.us,Acapulco Shore,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/acapulco-shore
+AcapulcoShore.us,Acapulco Shore,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/acapulco-shore-ptv1/details
 Acasa.ro,Acasa,Acasă;Pro 2;Acasă TV,,Central European Media Enterprises,RO,entertainment,FALSE,1998-02-02,,,https://acasatv.ro/
 AcasaGold.ro,Acasa Gold,Acasă Gold;Pro Gold;Acasă Clasic;Acasă 2,,Central European Media Enterprises,RO,entertainment,FALSE,,,,http://www.acasagold.ro/
 AcasaTV.md,Acasa TV,,,Media Azi,MD,entertainment,FALSE,,,,https://acasatv.md/
@@ -664,7 +666,7 @@ AdriaMusicTelevision.de,Adria Music Television,,Folx Network,,DE,music,FALSE,200
 AdriaNetTV.al,AdriaNet TV,,,,AL,news,FALSE,,,,https://adrianet.al/
 AdriaTV.me,Adria TV,A1 TV Montenegro;Atlas TV,,A Media Invest d.o.o.,ME,general,FALSE,,,,https://adria.tv/
 ADULive.uy,ADU Live,,,Asociación de Diabéticos del Uruguay,UY,lifestyle,FALSE,,,,https://tv.vera.com.uy/content/2s6nx
-AdultAnimation.au,Adult Animation,,Network 10,Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,general,FALSE,,,,
+AdultAnimation.au,Adult Animation,,Pluto TV,Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,general,FALSE,,,,https://pluto.tv/live-tv/adult-animation-au/details
 AdultChannel.uk,Adult Channel,,,Aylo Global Entertainment,UK,xxx,TRUE,,,,
 AdultChannel1.rs,Adult Channel 1,,,Nova Broadcasting doo,RS,xxx,TRUE,,,,http://www.prva.rs/
 AdultChannel2.rs,Adult Channel 2,,,Nova Broadcasting doo,RS,xxx,TRUE,,,,http://www.prva.rs/
@@ -1406,7 +1408,8 @@ AmericanTV.ec,American TV,,,American Cable S.A.,EC,general,FALSE,,,,https://amer
 AmericaParaguay.py,America Paraguay,América Paraguay,,Grupo América,PY,general,FALSE,,,,https://americatv.com.py/
 AmericaSatellite.ar,America Satellite,América Satelital,,Grupo America,AR,general,FALSE,,,,https://www.americatv.com.ar/
 AmericasAuctionChannel.us,America's Auction Channel,,,Jeremiah Hartman,US,shop,FALSE,2002-01-01,,,https://www.aactv.com/
-AmericasNextTopModel.de,America's Next Top Model,VH1 America's Next Top Model,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/americas-next-top-model-ptv4/details
+AmericasNextTopModel.au,America's Next Top Model,VH1 America's Next Top Model,Pluto TV,Viacom International Inc.;Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,entertainment,FALSE,,,,https://pluto.tv/live-tv/americas-next-top-model-au/details
+AmericasNextTopModel.de,America's Next Top Model,VH1 America's Next Top Model,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/americas-next-top-model-es/details
 AmericasNextTopModel.se,America's Next Top Model,VH1 America's Next Top Model,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/americas-next-top-model-se/details
 AmericasNextTopModel.us,America's Next Top Model,VH1 America's Next Top Model,Pluto TV,Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/americas-next-top-model-ptv2/details
 AmericaSports.ar,America Sports,,,,AR,sports,FALSE,,,,http://www.amsports.com.ar/
@@ -2245,7 +2248,8 @@ ATXN2.us,ATXN2,,,,US,legislative;general,FALSE,,,,https://www.austintexas.gov/wa
 ATXN3.us,ATXN3,,,,US,general;culture,FALSE,,,,https://www.austintexas.gov/watch-atxn-live
 Atyray.kz,Atyray,Atyraý,,,KZ,general,FALSE,,,,http://atyrautv.kz/
 AUBSTV.cd,AUBS TV,,,Africa Union Broadband Services,CD,business,FALSE,,,,
-AuctionHunters.us,Auction Hunters,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/gsa/live-tv/5ede45d077746000072be0fe
+AuctionHunters.de,Auction Hunters,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/auction-hunters-de/details
+AuctionHunters.se,Auction Hunters,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/auction-hunters-se/details
 AudazTV.ve,Audaz TV,,,,VE,religious,FALSE,,,,https://audaz.com.ve/
 Audience.us,Audience,Freeview;The 101 Network;Audience Network,,DirecTV,US,entertainment,FALSE,1999-11-25,2020-05-22,,
 AudioDungeon.us,Audio Dungeon,,,,US,entertainment,FALSE,2018-05-01,,,
@@ -2272,6 +2276,7 @@ AustinPublic10.us,Austin Public 10,,,,US,general,FALSE,,,,https://www.austinfilm
 AustinPublic11.us,Austin Public 11,,,,US,general,FALSE,,,,https://www.austinfilm.org/austin-public/watch/
 AustinPublic16.us,Austin Public 16,,,,US,general,FALSE,,,,https://www.austinfilm.org/austin-public/watch/
 AustraliaChannel.au,Australia Channel,,,,AU,news,FALSE,,,,https://watch.australiachannel.com.au/
+AustraliasNextTopModel.au,Australia's Next Top Model,,Pluto TV,Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,general,FALSE,,,,https://pluto.tv/live-tv/australias-next-top-model-au/details
 AustralTV.ec,Austral TV,,,,EC,general,FALSE,,,,https://www.australtv.com/
 AutenticaTelevision.pe,Autentica Television,Auténtica Televisión,,,PE,general,FALSE,,,,https://autenticatv.pe/
 AutenticHistory.de,Autentic History,A History,Autentic,Autentic GmbH;Beta Film GmbH,DE,documentary,FALSE,,,,https://www.autentic.com/117/Channels.htm#autentic_history
@@ -2291,8 +2296,8 @@ AvangTV.us,Avang TV,آونگ,,,US,music,FALSE,1992-01-01,,,http://www.avang.com/
 AvarTV.iq,Avar TV,,,,IQ,,FALSE,,,,https://avartv.net/
 AVASeries.ir,AVA Series,,,,IR,series,FALSE,,,,http://avaseries.wns.live/
 AVASSTV.np,AVASS TV,,,,NP,general,FALSE,,,,https://avasstv.com/
-Avatar.de,Avatar,Nickelodeon Avatar,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,kids,FALSE,,,,https://pluto.tv/live-tv/avatar-fi/details
-Avatar.se,Avatar,Nickelodeon Avatar,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,movies;series,FALSE,,,,https://pluto.tv/live-tv/avatar-se-plus/details
+Avatar.de,Avatar,Nickelodeon Avatar,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,kids;animation;series,FALSE,,,,https://pluto.tv/live-tv/avatar-gb/details
+Avatar.se,Avatar,Nickelodeon Avatar,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,kids;animation;series,FALSE,,,,https://pluto.tv/live-tv/avatar-se-plus/details
 AvatarAlendadeAang.us,Avatar: A lenda de Aang,Nickelodeon Avatar: A lenda de Aang,Pluto TV,Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/live-tv/avatar-a-lenda-de-aang/details
 AvatarLaLeyendadeAang.us,Avatar: La Leyenda de Aang,Nickelodeon Avatar: La Leyenda de Aang,Pluto TV,Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/live-tv/avatar-la-leyenda-de-aang/details
 AvaTV.ca,Ava TV,,,,CA,general,FALSE,,,,https://www.avatelevision.ca/home
@@ -2766,6 +2771,9 @@ BebecitoBumysusamigos.us,Bebecito Bum y sus amigos,,Pluto TV,,US,kids,FALSE,,,,h
 BebetoTV.do,Bebeto TV,El 75 TV,Canal del Sol,,DO,general,FALSE,,,,https://bebetohd.com/en-vivo/
 BebTV.cg,Beb TV,,,Be Blessed Média,CG,general,FALSE,,,,
 BeCine.be,Be Cine,Be Ciné,,,BE,movies,FALSE,2004-08-29,,,http://www.betv.be/
+Becker.au,Becker,CBS Becker,Pluto TV,CBS Broadcasting Inc.;Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,comedy,FALSE,,,,https://pluto.tv/live-tv/becker-au/details
+Becker.de,Becker,CBS Becker,Pluto TV,CBS Broadcasting Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/becker-de/details
+Becker.se,Becker,CBS Becker,Pluto TV,CBS Broadcasting Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series;classic,FALSE,,,,https://pluto.tv/live-tv/becker-se/details
 BECTV.us,BEC-TV,,,,US,education,FALSE,,,,https://www.bectv.org/live
 BedayaTV.sa,Bedaya TV,قناة بداية الفضائية,,,SA,entertainment,FALSE,,,,http://www.bedaya.tv/
 Bedehuskanalen.no,Bedehuskanalen,,,,NO,religious,FALSE,2022-01-01,,,https://www.bedehuskanalen.no/
@@ -2928,6 +2936,10 @@ BestDirect.uk,Best Direct,,,,UK,,FALSE,,,,http://www.bestdirect.co.uk/
 BestofDanceTV.ee,Best of Dance TV,,,,EE,music,FALSE,,,,https://www.dancetv.net/live
 BestofDrPhil.us,Best of Dr Phil,,Pluto TV,,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/best-of-dr-phil
 BestofMTV.se,Best of MTV,,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-xmas-se/details
+BestofParadiseHotelFinalveckan.se,Best of Paradise Hotel: Finalveckan,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/best-of-paradise-hotel-finalveckan-se/details
+BestofParadiseHotelKyssarkarlek.se,Best of Paradise Hotel: Kyssar & karlek,Best of Paradise Hotel: Kyssar & kärlek,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/best-of-paradise-hotel-kyssar-and-karlek-se/details
+BestofParadiseHotelPandorasAsk.se,Best of Paradise Hotel: Pandoras Ask,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/best-of-paradise-hotel-pandoras-ask-se/details
+BestofParadiseHotelSkolveckan.se,Best of Paradise Hotel: Skolveckan,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/best-of-paradise-hotel-skolveckan-se/details
 BestofTheDrewBarrymoreShow.se,Best of The Drew Barrymore Show,,Pluto TV,Pluto Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/best-of-the-drew-barrymore-show-se/details
 BestofTheDrewBarrymoreShow.us,Best of The Drew Barrymore Show,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/best-of-the-drew-barrymore-show
 BestTV.gh,Best TV,,,,GH,,FALSE,,,,
@@ -2936,7 +2948,7 @@ BestTV.pk,Best TV,,,,PK,general,FALSE,,,,
 BestTVEver.us,Best TV Ever,,,,US,,FALSE,,,,https://watch.plex.tv/live-tv/channel/best-ever-tv
 BET.ca,BET,,,,CA,,FALSE,,,,http://www.bet.com/
 BET.fr,BET,,,Paramount Networks EMEAA,FR,entertainment,FALSE,,2025-12-31,,https://www.betchannel.fr/
-BET.se,BET,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,
+BET.se,BET,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/bet-se/details
 BET.us,BET,,,Black Entertainment Television LLC;Paramount Skydance Corporation,US,,FALSE,,,,http://www.bet.com/
 Bet9JADogRacing.ng,Bet 9JA Dog Racing,,,,NG,sports,FALSE,,,,https://www.bet9ja.com/
 Bet9JAFootball.ng,Bet 9JA Football,,,,NG,sports,FALSE,,,,https://www.bet9ja.com/
@@ -2974,7 +2986,7 @@ BetKingItaliano.ng,BetKing Italiano,,,,NG,,FALSE,,,,https://www.betking.com/
 BetKingLiveLeague.ng,BetKing Live League,,,,NG,,FALSE,,,,https://www.betking.com/
 BETLatinAmerica.us,BET Latin America,,,Black Entertainment Television LLC;Paramount Skydance Corporation,US,,FALSE,,,,http://www.bet.com/
 BETPlutoTV.de,BET Pluto TV,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,
-BETPlutoTV.us,BET Pluto TV,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/bet-pluto-tv-ptv1
+BETPlutoTV.us,BET Pluto TV,,Pluto TV,Black Entertainment Television LLC;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/bet-pluto-tv-ptv1
 BETSoul.us,BET Soul,,,Black Entertainment Television LLC;Paramount Skydance Corporation,US,,FALSE,1998-08-01,,,http://www.bet.com/
 BetterHealthTV.us,Better Health TV,,,,US,lifestyle,FALSE,,,,https://betterlifetv.tv/
 BetterLifeChannel.jp,Better Life Channel,ベターライフチャンネル,,,JP,religious,FALSE,,,,https://www.pod.tv/works/broadcast/
@@ -3057,6 +3069,7 @@ BiddefordPublicAccessChannel.us,Biddeford Public Access Channel,,,,US,legislativ
 BigAsia.ru,Big Asia,Большая Азия,,,RU,,FALSE,,,,https://bigasia.ru/
 BigBrother.us,Big Brother,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/big-brother/details
 BigBrotherBrazil.br,Big Brother Brazil,Big Brother Brasil,,,BR,,FALSE,,,,https://gshow.globo.com/realities/bbb
+BIGBROTHERCLASSIC.de,BIG BROTHER CLASSIC,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/big-brother-classic-de/details
 BigBrotherIsrael.il,Big Brother Israel,,,,IL,,FALSE,,,,http://www.mako.co.il/tv-bigbrother
 BigBrotherMzansi.za,Big Brother Mzansi,,,,ZA,,FALSE,,,,
 BigCityTV.us,Big City TV,,,Asylum Entertainment Group,US,entertainment,FALSE,,,,https://www.bigcity.tv/
@@ -3284,6 +3297,9 @@ BoksTV.ru,Boks TV,Бокс ТВ,,,RU,sports,FALSE,,,,http://boxingtv.ru/
 BOKTV.za,BOKTV,,,,ZA,music,FALSE,,,,https://www.bokradio.co.za/
 Bolajon.uz,Bolajon,,,,UZ,kids,FALSE,,,,https://www.mtrk.uz/uz/tv/bolajon/
 BolEntertainment.pk,Bol Entertainment,,,,PK,entertainment,FALSE,,,,https://www.bolentertainment.com/
+Boligjakten.se,Boligjakten,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/boligjakten-no/details
+Boligkjopiblinde.se,Boligkjop i blinde,Boligkjøp i blinde,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,cooking;lifestyle,FALSE,,,,https://pluto.tv/live-tv/boligkjop-i-blinde-no/details
+Boligkobiblinde.se,Boligkob i blinde,Boligkøb i blinde,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,cooking;lifestyle,FALSE,,,,https://pluto.tv/live-tv/boligkob-i-blinde-dk/details
 BolivarTV.ar,Bolivar TV,Bolívar TV,,,AR,general,FALSE,,,,https://bolivartv.com.ar/
 BoliviaPuntoTV.bo,Bolivia Punto TV,,,,BO,entertainment,FALSE,,,,https://www.boliviapuntotv.com/
 BoliviaRadioTV.bo,Bolivia Radio TV,,,,BO,,FALSE,,,,https://boliviaradiotv.com/
@@ -3314,6 +3330,9 @@ bonappetit.us,bon appetit,bon appétit,,,US,cooking,FALSE,,,,
 BonceTV.cw,Bonce TV,,,,CW,entertainment,FALSE,,,,https://www.bonce.tv/
 BonchesLatinosTV.do,Bonches Latinos TV,,,,DO,entertainment,FALSE,,,,https://boncheslatinos.com/
 BonDiaTV.es,Bon Dia TV,Bon Dia Televisió,3Cat,Corporació Catalana de Mitjans Audiovisuals;Ens Públic de Radiotelevisió de les Illes Balears;Corporació Valenciana de Mitjans de Comunicació,ES,general;public,FALSE,2018-11-27,,,https://www.bondiatv.org/
+BondiRescue.de,Bondi Rescue,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,documentary,FALSE,,,,https://pluto.tv/live-tv/bondi-rescue-gb/details
+BondiRescue.se,Bondi Rescue,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/bondi-rescue-se/details
+BondiRescue.us,Bondi Rescue,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/bondi-rescue-ca/details
 BOneTV.cd,B-One TV,,,Jean-Pierre Mutamba,CD,entertainment,FALSE,,,,https://b-onetv.cd/
 BOneTV.id,B-One TV,,,,ID,,FALSE,,,,
 Bonferey.ne,Bonferey,,,,NE,news,FALSE,2008-02-08,,,
@@ -3399,6 +3418,7 @@ BrazzersTVEurope.us,Brazzers TV Europe,,MindGeek,STV International bv,US,xxx,TRU
 BreadTV.cn,Bread TV,面包台,,,CN,,FALSE,,,,https://bread-tv.com/
 BredaNuTV.nl,BredaNu TV,,,,NL,,FALSE,,,,
 BreezeTV.nz,Breeze TV,,,MediaWorks New Zealand,NZ,music,FALSE,2020-04-16,,,https://www.thebreeze.co.nz/
+Breinholts.se,Breinholts,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/breinholts-dk/details
 BremertonKitsapAccessTelevision.us,Bremerton Kitsap Access Television,BKAT,,,US,general,FALSE,,,,https://www.bremertonwa.gov/402/Bremerton-Kitsap-Access-Television-BKAT
 BrevardGovernmentAccessTV.us,Brevard Government Access TV,,,,US,legislative,FALSE,,,,https://www.brevardfl.gov/
 BRFernsehen.de,BR Fernsehen,,,Bayerischer Rundfunk,DE,,FALSE,1994-09-22,,,https://www.br.de/br-fernsehen/index.html
@@ -3439,6 +3459,7 @@ BritishDrama.us,British Drama,,Pluto TV,,US,entertainment,FALSE,,,,https://pluto
 BritishMuslimTV.uk,British Muslim TV,,,,UK,religious,FALSE,2014-06-10,,,http://www.britishmuslim.tv/
 BRKNews.in,BRK News,,,,IN,news,FALSE,,,,
 BroadCity.se,Broad City,Comedy Central Broad City,Pluto TV,Comedy Partners;Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,comedy,FALSE,,,,https://pluto.tv/live-tv/broad-city-se/details
+BrondbyTV.se,Brondby TV,Brøndby TV,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,sports,FALSE,,,,https://pluto.tv/live-tv/brondby-tv-dk/details
 BrongandAhafoTV.gh,Brong and Ahafo TV,,,,GH,,FALSE,,,,
 BrooklynFreeSpeechTV.us,Brooklyn Free Speech TV,,,,US,general,FALSE,,,,https://www.bricartsmedia.org/tv-shows-videos/brooklyn-free-speech-tv
 BrownsvilleTV.us,Brownsville.TV,BTV,,,US,legislative;education,FALSE,,,,https://www.brownsvilletx.gov/823/BrownsvilleTV
@@ -3564,6 +3585,7 @@ BukeddeTV2.ug,Bukedde TV 2,,,Vision Group,UG,general,FALSE,,,,https://www.bukedd
 BuKo.ph,BuKo,Buhay Komedya,,MediaQuest Holdings Inc.,PH,comedy,FALSE,2021-08-02,,,https://cignal.tv/channels/223/buko
 Bulgaria24.bg,Bulgaria 24,България 24,,,BG,news,FALSE,,,,http://bulgaria24.tv/
 BulgariaOnAir.bg,Bulgaria On Air,,,,BG,news,FALSE,,,,https://www.bgonair.bg/
+Bull.se,Bull,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/bull-ptv2/details
 BuloziTV.zm,Bulozi TV,,,,ZM,general,FALSE,,,,
 BulsatInfoChannel.bg,Bulsat Info Channel,,,,BG,,FALSE,,,,https://www.bulsatcom.bg/televiziya/televizionni-kanali/
 BulshoTV.so,Bulsho TV,,,,SO,,FALSE,,,,https://bulshotv.net/
@@ -3627,6 +3649,7 @@ ButacaTV.us,Butaca TV,,,,US,entertainment,FALSE,,,,
 ButterflyHDTV.ae,Butterfly HDTV,,,,AE,,FALSE,,,,http://www.butterflyhdtv.com/
 BUTV10.us,BUTV10,,,,US,education,FALSE,1989-01-01,,,http://www.butv10.com/
 BuxoroMTRK.uz,Buxoro MTRK,,,,UZ,general,FALSE,,,,https://buxorotv.uz/
+BuyingBlindDenmark.se,Buying Blind Denmark,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,cooking;lifestyle,FALSE,,,,https://pluto.tv/live-tv/buying-blind-denmark-se/details
 BuyTV.us,Buy TV,,,,US,,FALSE,,,,https://my.dish.com/station/BUYTV
 BuzzerTotoCanal10.gt,Buzzer Toto Canal 10,,,,GT,entertainment,FALSE,,,,
 BuzzfeedUnsolved.pl,Buzzfeed Unsolved,,,,PL,,FALSE,,,,https://www.rakuten.tv/pl/live_channels/filmrise-buzzfeed-unsolved
@@ -3711,6 +3734,7 @@ CafeFutbol.pl,Cafe Futbol,,,,PL,sports,FALSE,,,,https://embed.pluscdn.pl/embed/X
 CafeTradeTV.ir,Cafe Trade TV,,,,IR,business,FALSE,,,,https://cafetrade.tv/
 CafeTV24.it,CafeTV24,,,,IT,,FALSE,,,,
 CAFTV.eg,CAF TV,,,Confederation of African Football,EG,sports,FALSE,,,,https://www.cafonline.com/
+CagneyLacey.de,Cagney & Lacey,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,https://pluto.tv/live-tv/cagney-and-lacey-gb/details
 CahayaTVBanten.id,Cahaya TV Banten,,Cahaya TV Network,,ID,,FALSE,,,,https://www.cahayabanten.tv/
 Caillou.fr,Caillou,,,,FR,,FALSE,,,,
 CajamarcaTV.pe,Cajamarca TV,,,,PE,general,FALSE,,,,https://cajamarcatv.pe/
@@ -3728,7 +3752,7 @@ CalderaVision.cl,Caldera Vision,Caldera Visión,,,CL,general,FALSE,,,,http://www
 Caledonia.nc,Caledonia,,,,NC,general,FALSE,2017-05-04,,,https://www.caledonia.nc/
 CalidadTV.ec,Calidad TV,,,,EC,general,FALSE,,,,https://canalcalidadtv.blogspot.com/
 CaliforniaMediosTV.mx,California Medios TV,,,,MX,general,FALSE,,,,https://californiamedios.com/
-CaliforniaMusicChannel.us,California Music Channel,,,,US,music,FALSE,,,,
+CaliforniaMusicChannel.us,California Music Channel,,,CMC Broadcasting Company Incorporated,US,music,FALSE,,,,https://cmctv.com/
 CaliTV.co,CaliTV,,,Fundación Para el Desarrollo Social Promover,CO,general,FALSE,2007-10-10,,,https://www.canalcalitv.com/
 CallaoalDia.pe,Callao al Dia,Callao al Día,,,PE,,FALSE,,,,https://callaoaldia.pe/multimedia/
 Calle13Universal.es,Calle 13 Universal,Calle 13;13th Street Spain,,,ES,,FALSE,,,,http://www.calle13universal.es/
@@ -3753,6 +3777,7 @@ CamnetTV.zm,Camnet TV,,,,ZM,general,FALSE,,,,https://camnettvafrica.com/
 CamoesTV.ca,Camoes TV,Camões TV,,,CA,general,FALSE,,,,https://camoestv.com/
 CampeonesTV.ni,Campeones TV,,,Gobierno de Nicaragua,NI,sports,FALSE,2024-11-27,,,
 CampinaSurTV.es,Campina Sur TV,Campiña Sur TV,,,ES,,FALSE,,,,
+CampKulinaris.se,Camp Kulinaris,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/camp-kulinaris-se/details
 Campo9Online.py,Campo 9 Online,,,,PY,general,FALSE,,,,
 CampoAbiertoTV.cl,Campo Abierto TV,,,,CL,,FALSE,,,,http://campoabierto.cl/home/senal-en-vivo/
 CampoPequenoTV.pt,Campo Pequeno TV,,,,PT,sports,FALSE,,,,https://www.campopequeno.com/campopequenotv/
@@ -4810,6 +4835,7 @@ CarltonWorld.uk,Carlton World,,,Carlton Communications,UK,documentary;culture,FA
 CarmelTV.us,Carmel TV,,,,US,general,FALSE,,,,https://www.carmel.in.gov/government/departments-services/community-relations-and-economic-development/carmel-tv
 CarnavalTV.cl,Carnaval TV,,,,CL,entertainment,FALSE,,,,
 CarolinaTV.cl,Carolina TV,,,,CL,music,FALSE,,,,https://www.carolina.cl/tv/
+CarolineintheCity.se,Caroline in the City,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,comedy,FALSE,,,,https://pluto.tv/live-tv/caroline-in-the-city-se/details
 CarOneTV.mx,Car One TV,,,Car One Group,MX,auto,FALSE,,,,https://www.carone.tv/
 Carousel.ru,Carousel,Карусель;Karusel,,Channel One;VGTRK,RU,kids,FALSE,2010-12-27,,,https://www.karusel-tv.ru/
 CarouselInternational.ru,Carousel International,Карусель International,,VGTRK,RU,kids,FALSE,2010-12-27,,,https://www.karusel-tv.ru/
@@ -4876,7 +4902,7 @@ Catavision.hn,Catavision,Catavisión,,,HN,,FALSE,,,,https://catavisionlive.com/
 CatchOn1.kr,Catch On 1,캐치온1,,CJ ENM Entertainment Division,KR,movies,FALSE,2002-10-01,,,http://catchon.tving.com/catchon/
 CatchOn2.kr,Catch On 2,캐치온2,,CJ ENM Entertainment Division,KR,movies,FALSE,2002-10-01,,,http://catchon.tving.com/catchon/
 Catfish.us,Catfish,MTV Catfish,Pluto TV,Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/catfish-ca/details
-CatfishOMG.de,Catfish: OMG!,MTV Catfish: OMG!,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/catfish-omg-fi/details
+CatfishOMG.se,Catfish: OMG!,MTV Catfish: OMG!,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/catfish-omg-fi/details
 CatfishTVShow.us,Catfish TV Show,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/catfish-it
 CatholicFaithNetwork.us,Catholic Faith Network,,,Roman Catholic Diocese of Rockville Centre,US,religious,FALSE,1969-01-01,,,http://www.cfntv.org/
 CatholicTV.ng,Catholic TV,,,Roman Catholic Archdiocese of Abuja,NG,religious,FALSE,2010-01-01,,,
@@ -5113,7 +5139,7 @@ CelestialClassicMovies.sg,Celestial Classic Movies,CCM,,Celestial Tiger Entertai
 CelestialMovies.hk,Celestial Movies,天映频道,,Celestial Tiger Entertainment,HK,movies,FALSE,2003-03-03,,,https://www.celestialmovies.com/
 CelestialMoviesIndonesia.id,Celestial Movies Indonesia,天映频道,,Celestial Tiger Entertainment,ID,movies,FALSE,2003-03-03,,,https://www.celestialmovies.com/schedule.php?location/ID
 CelestialMoviesMalaysia.my,Celestial Movies Malaysia,天映频道,,Celestial Tiger Entertainment,MY,movies,FALSE,2003-03-03,,,https://www.celestialmovies.com/schedule.php?location/MY
-CelestialMoviesPinoy.hk,Celestial Movies Pinoy,天映频道,,Celestial Tiger Entertainment,HK,movies,FALSE,2016-01-01,,,https://www.cmpinoy.com.ph/
+CelestialMoviesPinoy.hk,Celestial Movies Pinoy,天映频道,,Celestial Tiger Entertainment;Viva Communications,HK,movies,FALSE,2016-01-01,,,https://www.cmpinoy.com.ph/
 CelestialMoviesSingapore.sg,Celestial Movies Singapore,天映频道,,Celestial Tiger Entertainment,SG,movies,FALSE,2003-03-03,,,https://www.celestialmovies.com/schedule.php?location/SG
 CelestialTV.do,Celestial TV,,,,DO,religious,FALSE,,,,
 CeltaTV.ar,Celta TV,,,,AR,,FALSE,,,,https://www.celtatv.com.ar/canal-local.php
@@ -5451,6 +5477,7 @@ CharityTV.lb,Charity TV,,,,LB,religious,FALSE,,,,http://www.charityradiotv.org/
 CharmingChina.us,Charming China,,,,US,general,FALSE,,,,http://www.directv.com/international/chinese
 CharmTV.us,CharmTV,,,,US,legislative,FALSE,,,,https://www.charmtvbaltimore.com/
 CharruaTelevision.uy,Charrua Television,Charrúa Televisión,,ZasMedia Creativo,UY,outdoor,FALSE,,,,https://www.charrua.tv/
+Charterfeber.se,Charterfeber,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/charterfeber-no/details
 ChassePeche.fr,Chasse & Peche,Chasse & Pêche,,,FR,outdoor,FALSE,1996-05-02,,,http://www.chasseetpechetv.fr/
 Chassy.us,Chassy,,Pluto TV,,US,,FALSE,,,,https://pluto.tv/it/live-tv/chassy
 ChateauTelevision.cm,Chateau Television,Château Télévision,,,CM,general,FALSE,,,,
@@ -5504,7 +5531,9 @@ CheapThrills.us,Cheap Thrills,,,,US,,FALSE,,,,http://www.ten.com/
 ChebabTV.dz,Chebab TV,,,,DZ,entertainment,FALSE,,,,https://chebabtv.dz/
 CheddarNews.us,Cheddar News,,,Altice USA,US,news,FALSE,2019-01-01,,,https://cheddar.com/
 CheddarU.us,CheddarU,,,Viacom Media Networks  Cheddar,US,general,FALSE,2018-05-01,,,http://www.cheddaru.com/
-Cheers.us,Cheers,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/cheers-de
+Cheers.de,Cheers,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/cheers-de/details
+Cheers.se,Cheers,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,comedy,FALSE,,,,https://pluto.tv/live-tv/cheers-fi/details
+Cheers.us,Cheers,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/cheers-de
 CheersPlusFrasier.us,Cheers + Frasier,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,comedy,FALSE,,,,https://pluto.tv/live-tv/cheers-frasier/details
 CheersTV.gh,Cheers TV,,,,GH,entertainment,FALSE,,,,
 ChefChampion.us,Chef Champion,,,,US,cooking,FALSE,,,,
@@ -5708,6 +5737,7 @@ CIMTDT7.ca,CIMT-DT-7,,TVA,Tele Inter-Rives,CA,general,FALSE,,,,https://cimtchau.
 CIMTDT8.ca,CIMT-DT-8,,TVA,Tele Inter-Rives,CA,general,FALSE,,,,https://cimtchau.ca/
 CINAFTV.be,CINAF TV,,,,BE,movies;series,FALSE,,,,https://cinaf.tv/fr/
 CinarcTV.cd,Cinarc TV,,,,CD,movies,FALSE,,,,
+CinCin.de,Cin Cin,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series;classic,FALSE,,,,https://pluto.tv/live-tv/cin-cin-it/details
 CincoMas.es,CincoMas,,,,ES,general,FALSE,,,,https://www.cincomas.com/
 CincoTV.ar,Cinco TV,,,,AR,news,FALSE,,,,https://cincotv.com.ar/
 CINDIETV.br,CINDIE TV,,,DMD,BR,movies,FALSE,2025-01-01,,,https://www.cindie.com/
@@ -6234,6 +6264,7 @@ CMBDigiTV.cd,CMB Digi TV,,,,CD,entertainment,FALSE,,,,
 CMBTelevision.co,CMB Television,CMB Televisión,,Centro Misionero Bethesda,CO,religious,FALSE,1996-10-20,,,https://www.cmbcolombia.tv/
 CMCTelevision.ve,CMC Television,CMC Televisión,,,VE,general,FALSE,,,,
 CMCTV.hr,CMC TV,,,Croatia Records,HR,music,FALSE,2005-06-01,,,https://cmc.com.hr/
+CMCUSACountryMusicChannel.us,CMC-USA Country Music Channel,,,CMC Broadcasting Company Incorporated,US,music,FALSE,,,,https://cmctv.com/cmc-usa/index.html
 CMElCanaldelaMusica.ar,CM El Canal de la Musica,CM El Canal de la Música,,Grupo Olmos,AR,music,FALSE,1996-04-01,,,http://cmmusica.com.ar/
 CML13TV.cd,CML13 TV,,,Congo Media Libre,CD,news,FALSE,,,,
 CMMTV.es,CMM TV,Castilla-La Mancha Media,,Castilla-La Mancha Media,ES,general;public,FALSE,2001-12-13,,,https://www.cmmedia.es/
@@ -6467,10 +6498,10 @@ ComedyCentral.nl,Comedy Central,,,Paramount Networks EMEAA,NL,comedy,FALSE,2007-
 ComedyCentral.nz,Comedy Central,,Comedy Central,Paramount Networks UK & Australia,NZ,comedy,FALSE,2009-04-01,,,http://www.skygo.co.nz/
 ComedyCentral.pl,Comedy Central,,,Paramount Networks UK & Australia,PL,comedy,FALSE,2006-10-19,,,http://www.comedycentral.pl/
 ComedyCentral.ro,Comedy Central,,,Paramount Networks UK & Australia,RO,comedy,FALSE,2016-09-20,,,http://www.comedycentral.com.ro/
-ComedyCentral.se,Comedy Central,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,comedy,FALSE,,,,
+ComedyCentral.se,Comedy Central,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,comedy,FALSE,,,,https://pluto.tv/live-tv/comedy-central-se/details
 ComedyCentral.ua,Comedy Central,Comedy Central Україна;Paramount Comedy,,Paramount Networks EMEAA,UA,comedy,FALSE,2017-11-22,,,https://paramountcomedy.com.ua/
 ComedyCentral.uk,Comedy Central,,,Paramount UK Partnership,UK,comedy,FALSE,1995-11-01,,,http://www.comedycentral.co.uk/
-ComedyCentral.us,Comedy Central,,,Comedy Partners;Viacom International Inc.;Paramount Skydance Corporation,US,comedy,FALSE,1991-04-01,,,http://www.cc.com/
+ComedyCentral.us,Comedy Central,,,Comedy Partners;Viacom International Inc.;Paramount Skydance Corporation,US,comedy,FALSE,1991-04-01,,,https://pluto.tv/live-tv/comedy-central-ca/details
 ComedyCentralAfrica.us,Comedy Central Africa,,,Comedy Partners;Viacom International Inc.;Paramount Skydance Corporation,US,comedy,FALSE,,,,http://www.comedycentralafrica.com/
 ComedyCentralAnimation.us,Comedy Central Animation,,Pluto TV,Comedy Partners;Viacom International Inc.;Paramount Skydance Corporation,US,comedy,FALSE,,,,https://pluto.tv/it/live-tv/comedy-central-animation
 ComedyCentralAsia.us,Comedy Central Asia,,,ViacomCBS Networks EMEAA,US,comedy,FALSE,2012-11-01,2021-01-31,,https://www.comedycentralasia.com/
@@ -6481,7 +6512,8 @@ ComedyCentralExtra.uk,Comedy Central Extra,,,Paramount UK Partnership,UK,comedy,
 ComedyCentralFamily.hu,Comedy Central Family,,,MTV Networks s.r.o.,HU,comedy,FALSE,2017-10-03,,,http://comedycentralfamily.hu/
 ComedyCentralLatinAmerica.us,Comedy Central Latin America,,,Comedy Partners;Viacom International Inc.;Paramount Skydance Corporation,US,comedy,FALSE,,,,http://comedycentral.la/
 ComedyCentralMadeinGermany.us,Comedy Central Made in Germany,,,Comedy Partners;Viacom International Inc.;Paramount Skydance Corporation,US,comedy,FALSE,,,,
-ComedyCentralPlutoTV.us,Comedy Central Pluto TV,,Pluto TV,Pluto Inc.;Comedy Partners;Viacom International Inc.;Paramount Skydance Corporation,US,comedy,FALSE,,,,https://pluto.tv/en/live-tv/comedy-central-pluto-tv-ptv1
+ComedyCentralPlutoTV.us,Comedy Central Pluto TV,,Pluto TV,Comedy Partners;Viacom International Inc.;Paramount Skydance Corporation,US,comedy,FALSE,,,,https://pluto.tv/en/live-tv/comedy-central-pluto-tv-ptv1
+ComedyCentralRoast.se,Comedy Central Roast,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,comedy,FALSE,,,,https://pluto.tv/live-tv/comedy-central-roast-dk/details
 ComedyCentralSouthPark.de,Comedy Central South Park,,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/comedy-central-south-park-de/details
 ComedyCentralSouthPark.us,Comedy Central South Park,,Pluto TV,Comedy Partners;Viacom International Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/south-park-ptv1
 ComedyChannelExtra.pl,Comedy Channel Extra,,,,PL,comedy,FALSE,,,,
@@ -6674,6 +6706,7 @@ Crave1.ca,Crave 1,,,Bell Media,CA,movies,FALSE,1983-02-01,,,https://www.crave.ca
 Crave2.ca,Crave 2,,,Bell Media,CA,movies,FALSE,1983-02-01,,,https://www.crave.ca/
 Crave3.ca,Crave 3,,,Bell Media,CA,movies,FALSE,1983-02-01,,,https://www.crave.ca/
 Crave4.ca,Crave 4,,,Bell Media,CA,movies,FALSE,1983-02-01,,,https://www.crave.ca/
+CrazyExGirlfriend.se,Crazy Ex-Girlfriend,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,comedy,FALSE,,,,https://pluto.tv/live-tv/crazy-ex-girlfriend-ptv2/details
 CreaLaTV.mx,CreaLaTV,,,,MX,general,FALSE,,,,https://www.creala.tv/
 Create.us,Create,,,,US,education,FALSE,,,,https://createtv.com/
 CreateandCraft.uk,Create and Craft,Create & Craft,,,UK,education,FALSE,,,,https://www.createandcraft.com/
@@ -6745,8 +6778,9 @@ CSatTV.us,CSat TV,,,,US,religious,FALSE,,,,http://www.csat.tv/
 CSFilm.cz,CS Film,,,JOJ Group,CZ,movies,FALSE,2004-04-13,,,https://csfilm.joj.cz/
 CSHistory.cz,CS History,,,JOJ Group,CZ,documentary,FALSE,,,,https://wartv.cz/
 CSHorror.cz,CS Horror,,,JOJ Group,CZ,movies,FALSE,,,,https://hororfilm.tv/
-CSI.se,CSI,CBS CSI,Pluto TV,CBS Broadcasting Inc.;Pluto Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/csi-dk/details
+CSI.se,CSI,CBS CSI,Pluto TV,CBS Broadcasting Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/csi-dk/details
 CSI.us,CSI,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/csi
+CSICrimeSceneInvestigation.de,CSI: Crime Scene Investigation,CBS CSI: Crime Scene Investigation,Pluto TV,CBS Broadcasting Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,https://pluto.tv/live-tv/csi-crime-scene-investigation-gb/details
 CSIenespanol.us,CSI en espanol,CSI en español,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,,FALSE,,,,https://pluto.tv/en/live-tv/csi-en-espanol
 CSIMiami.us,CSI: Miami,CBS CSI: Miami,Pluto TV,CBS Broadcasting Inc.;Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/csi-miami-ptv2/details
 CSIMiamienespanol.us,CSI: Miami en espanol,CSI: Miami en español;CBS CSI: Miami en espanol,Pluto TV,CBS Broadcasting Inc.;Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/csi-miami-en-espanol/details
@@ -6969,7 +7003,7 @@ DalianMovieChannel.cn,Dalian Movie Channel,大连5-影视;DLTV-5,,,CN,movies,FAL
 DalianPublicChannel.cn,Dalian Public Channel,大连3-公共;DLTV-3,,,CN,general,FALSE,,,,
 DaliTV.tw,Dali TV,,,,TW,general,FALSE,,,,
 DalkaTV.so,Dalka TV,,,,SO,general,FALSE,,,,
-DallasCowboysCheerleaders.us,Dallas Cowboys Cheerleaders,,Pluto TV,,US,documentary,FALSE,,,,https://www.pluto.tv/en/live-tv/dallas-cowboys-cheerleaders
+DallasCowboysCheerleaders.se,Dallas Cowboys Cheerleaders,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/dallas-cowboys-cheerleaders-se/details
 DallasTV16.us,Dallas TV 16,,,,US,legislative,FALSE,,,,https://dallascityhall.com/government/Pages/Live.aspx
 DallasTV96.us,Dallas TV 96,,,,US,legislative,FALSE,,,,https://dallascityhall.com/government/Pages/Live.aspx
 DalsanTV.us,Dalsan TV,,,,US,general,FALSE,,,,https://www.dalsantv.net/
@@ -7025,6 +7059,8 @@ DaoLaneXangTV.la,Dao Lane Xang TV,,,,LA,general,FALSE,,,,
 DAR21.am,DAR 21,ԴԱՐ 21;ДАР 21,,Dar21 TV LLC,AM,music,FALSE,,,,https://21tv.am/
 Dardimandi.ge,Dardimandi,,,,GE,music,FALSE,,,,http://www.dardimandi.ge/
 DareToDreamNetwork.us,Dare To Dream Network,,3ABN,Danny and Linda Shelton,US,religious,FALSE,,,,https://d2dnetwork.tv/
+Daria.de,Daria,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,animation,FALSE,,,,https://pluto.tv/live-tv/daria-fr/details
+Daria.us,Daria,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,comedy,FALSE,,,,https://pluto.tv/live-tv/daria/details
 Dark.es,Dark,Buzz,,AMC Networks Inc.,ES,movies,FALSE,2016-10-31,,,https://amcchannels.es/dark/
 DarkMatterTV.us,Dark Matter TV,,,,US,series,FALSE,,,,https://www.darkmattertv.com/
 DarkRed.es,Dark Red,Buzz Rojo,,AMC Networks International Southern Europe,ES,movies,TRUE,2016-10-31,,,https://amcchannels.es/dark
@@ -7047,6 +7083,7 @@ DATEL.cz,DATEL,Dačická televize,,,CZ,general,FALSE,,,,https://www.dacice.cz/ap
 Dateline247.us,Dateline 24/7,,NBC,NBCUniversal;Comcast Corporation,US,documentary,FALSE,2021-02-09,,,https://www.nbcnews.com/dateline
 Dating.us,Dating,,Pluto TV,,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/dating-it
 DatingDisasters.us,Dating Disasters,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/dating-disasters/details
+DatingNakedUK.se,Dating Naked UK,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/dating-naked-ptv2/details
 DatisTV.ir,Datis TV,,,,IR,,FALSE,,,,
 DATV.us,DATV,Dayton Access Television,,,US,general,FALSE,,,,http://dayton.cablecast.tv:8080/CablecastPublicSite/watch/3?channel=2
 DATVEducationChannel.us,DATV Education Channel,Dracut Access TV Education Channel,,,US,education,FALSE,,,,https://dracuttv.org/livestream/education/
@@ -7227,6 +7264,7 @@ DemocraticVoiceofBurmaTV.mm,Democratic Voice of Burma TV,,,,MM,news,FALSE,,,,htt
 DemosRadioVisual.ar,Demos Radio Visual,,,,AR,news,FALSE,,,,https://demos.com.ar/
 DenaTV.ir,Dena TV,شبکه کهگیلویه و بویراحمد,,IRIB,IR,general,FALSE,,,,http://yasouj.irib.ir/tv
 DengueleTV.ci,Denguele TV,Denguelé TV,,,CI,general,FALSE,,,,
+DengulesofamedAllanSindberg.se,Den gule sofa med Allan Sindberg,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/den-gule-sofa-med-allan-sindberg-dk/details
 DenHaagTV.nl,Den Haag TV,,,,NL,general,FALSE,,,,https://www.denhaagfm.nl/
 DenizPostasiTV.tr,Deniz Postasi TV,Deniz Postası TV,,,TR,general,FALSE,,,,https://www.denizpostasi.com/
 DenPobedy.ru,Den Pobedy,День Победы,,,RU,,FALSE,,,,https://www.tricolor.tv/channels/den-pobedy/
@@ -7281,14 +7319,17 @@ DestinationTV.us,Destination TV,,,,US,,FALSE,,,,
 DestinyVoicesTV.ke,Destiny Voices TV,,,,KE,religious,FALSE,,,,
 DetectiveConan.us,Detective Conan,Pluto TV Detective Conan,Pluto TV,,US,animation;kids,FALSE,,,,
 DetectiveJam.ru,DetectiveJam,,,ON Media,RU,movies;series,FALSE,2022-10-25,,,
+DetetivesMedicos.us,Detetives Medicos,Detetives Médicos,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,documentary,FALSE,,,,https://pluto.tv/live-tv/detetives-medicos/details
 DetrasdelaRazon.cl,Detras de la Razon,Detrás de la Razón,Cloudserver Latam,,CL,,FALSE,,,,https://www.cloudserverlatam.com/television/
 DetroitChannel10.us,Detroit Channel 10,,,,US,legislative,FALSE,,,,http://reflect-detroit-vod.cablecast.tv/CablecastPublicSite/watch/6?channel=1
 DetroitChannel21.us,Detroit Channel 21,,,,US,general,FALSE,,,,http://reflect-detroit-vod.cablecast.tv/CablecastPublicSite/?channel=3
 DetroitChannel22.us,Detroit Channel 22,,,,US,education,FALSE,,,,http://reflect-detroit-vod.cablecast.tv/CablecastPublicSite/?channel=2
 DetroitChannel68.us,Detroit Channel 68,,,,US,general,FALSE,,,,http://reflect-detroit-vod.cablecast.tv/CablecastPublicSite/?channel=4
+DetseneshowmedChristianFuhlendorff.se,Det sene show med Christian Fuhlendorff,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/det-sene-show-med-christian-fuhlendorff-dk/details
 Detskimir.ru,Detski mir,Детский мир;НТВ-Плюс Детский мир,,Mediamart,RU,kids,FALSE,2018-05-14,,,https://www.detskiymir.tv/
 Detskoekino.ru,Detskoe kino,Детское кино,TvikselTV,,RU,movies,FALSE,,,,
 DeUltimoMinutoTV.do,De Ultimo Minuto TV,De Último Minuto TV,,,DO,news,FALSE,,,,https://deultimominuto.net/
+Deungemodre.se,De unge modre,De unge mødre,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/de-unge-modre-dk/details
 DeutschlandsGayChat.de,Deutschlands GayChat,,,,DE,lifestyle,FALSE,,,,
 DevilsFilm.ca,Devils Film,,,Gamma Entertainment,CA,xxx,TRUE,,,,https://devilsfilm.org/
 DevilsHome.si,Devils Home,,,,SI,xxx,TRUE,,,,https://tv2go.t-2.net/tv/epg/1000832/day/2023/11/13
@@ -7322,6 +7363,9 @@ DhivehiChannel.mv,Dhivehi Channel,,,,MV,general,FALSE,,,,
 DhohoTV.id,Dhoho TV,,,PT Dhoho Media Televisi,ID,general,FALSE,2004-01-01,,,http://www.dhohotv.com/
 DhoomMusic.in,Dhoom Music,,,Brand Value Communications,IN,music,FALSE,2010-01-01,,,
 DiadoraTV.hr,Diadora TV,,,,HR,general,FALSE,2018-01-01,,,https://diadora.tv/
+DiagnosisMurder.au,Diagnosis Murder,,Pluto TV,Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,series;classic,FALSE,,,,https://pluto.tv/live-tv/diagnosis-murder-au/details
+DiagnosisMurder.se,Diagnosis Murder,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series;classic,FALSE,,,,https://pluto.tv/live-tv/diagnosis-murder-se/details
+DiagnosisMurder.us,Diagnosis Murder,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/diagnosis-murder-ca/details
 Dialogiorybalke.ru,Dialogi o rybalke,Диалоги о рыбалке,,Dialogi o rybalke,RU,outdoor,FALSE,2017-07-01,,,https://dialogi.tv/
 DialRadioTV.ar,Dial Radio TV,,,,AR,music,FALSE,,,,https://dialradio.tv/
 DiamagueneTV.sn,Diamaguene TV,,,,SN,general,FALSE,,,,
@@ -7672,6 +7716,8 @@ DobrogeaTV.ro,Dobrogea TV,,,,RO,general,FALSE,,,,https://www.dobrogea.tv/
 DocBox.mn,Doc Box,,,,MN,documentary,FALSE,,,,
 DoceMisiones.ar,Doce Misiones,,,Government of Misiones Province,AR,general,FALSE,1972-11-18,,,http://www.canal12misiones.com/
 DoceTV.gt,Doce TV,,,,GT,general,FALSE,,,,
+DocMartin.se,Doc Martin,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/doc-martin-se/details
+DocMartin.us,Doc Martin,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/doc-martin-ca/details
 Doctor.ru,Doctor,Доктор;Doktor,,VGTRK,RU,education;lifestyle,FALSE,,,,https://doc-tv.ru/
 DoctorLive.in,Doctor Live,,,,IN,lifestyle,FALSE,,,,https://doctorlivemedia.in/
 Doctors.us,Doctors,,,,US,education,FALSE,,,,https://watch.plex.tv/live-tv/channel/doctors
@@ -8136,6 +8182,7 @@ EfektoTV.mx,Efekto TV,,,,MX,news,FALSE,,,,https://www.efekto.tv/
 EfesoTelevision.mx,Efeso Television,Efeso Televisión,,,MX,religious,FALSE,,,,
 EfinetTVCanal6.ec,Efinet TV Canal 6,,,,EC,general,FALSE,,,,https://www.efinet-tv.com/
 EFKSTV.ws,EFKS TV,EFKS TV2;TV2 Network,,Congregational Christian Church of Samoa,WS,religious,FALSE,2013-05-16,,,https://www.cccs.org.ws/
+Efterlyst.se,Efterlyst,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/efterlyst-se/details
 EfusivaTV.uy,Efusiva TV,,,,UY,culture,FALSE,,,,
 EgemTVUsak.tr,Egem TV Usak,Egem TV Uşak,,,TR,general,FALSE,,,,https://www.usakegemtv.com.tr/
 EgeTurkTV.tr,Ege Turk TV,Ege Türk TV,,,TR,general,FALSE,,,,
@@ -8829,6 +8876,7 @@ EventosMCHD.uy,Eventos MC HD,,,Grupo Monte Carlo,UY,sports,FALSE,,,,https://www.
 EventosMCHD2.uy,Eventos MC HD 2,,,Grupo Monte Carlo,UY,sports,FALSE,,,,https://www.mcgolive.com.uy/
 EventosMCHD3.uy,Eventos MC HD 3,,,Grupo Monte Carlo,UY,sports,FALSE,,,,https://www.mcgolive.com.uy/
 EventosTV.uy,Eventos TV,,,ANTEL,UY,entertainment,FALSE,2012-01-01,,,https://tv.vera.com.uy/content/2sffq
+EventyrligOppussing.se,Eventyrlig Oppussing,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/eventyrlig-oppussing-no/details
 Eveo.fi,Eveo,TapahtumaTV Eveo,,Rockway Oy,FI,general,FALSE,2022-12-17,,,https://www.eveo.fi/
 EverestTV.np,Everest TV,,,,NP,general,FALSE,,,,https://everesthd.tv/
 EverettChannel.us,Everett Channel,EVTV,,,US,legislative,FALSE,,,,http://everett.granicus.com/MediaPlayer.php?publish_id=50&embed=1
@@ -8878,7 +8926,7 @@ ExeterTV98.us,Exeter TV98,,,,US,general,FALSE,,,,https://www.exeternh.tv/public-
 ExitosaTV.pe,Exitosa TV,,,Corporation Universal,PE,news,FALSE,,,,https://exitosanoticias.pe/
 ExodusHD.si,Exodus HD,,,,SI,religious,FALSE,,,,https://www.exodus.si/
 ExodusTV.si,Exodus TV,,,,SI,religious,FALSE,,,,https://www.exodus.si/
-ExOnTheBeach.se,Ex On The Beach,MTV Ex On The Beach,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/ex-on-the-beach-se/details
+ExOnTheBeach.us,Ex On The Beach,,Pluto TV,,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/ex-on-the-beach-it
 Exotic4K.uk,Exotic 4K,,,Whale Member Ltd,UK,xxx,TRUE,,,,https://exotic4k.com/
 ExoTV.re,Exo TV,,,,RE,music,FALSE,,,,http://www.exofm.re/rubrique/18/exo-tv.htm
 ExploitsTV.ci,Exploits TV,,,,CI,religious,FALSE,,,,
@@ -8982,6 +9030,7 @@ FamaTVCanal29.gt,Fama TV Canal 29,,,,GT,general,FALSE,,,,
 Fame95FM.jm,Fame95 FM,,,RJRGleaner Communications Group,JM,music,FALSE,,,,https://www.fame95fm.com/
 FamiliaVisionHD.pr,Familia Vision HD,Familia Visión HD,,Iglesia La Familia de la Fé,PR,religious,FALSE,,,,https://lafamiliadelafe.net/
 FamiliChannel.co,Famili Channel,,,,CO,family,FALSE,,,,https://www.familichannel.com/
+FamilienfraBryggen.se,Familien fra Bryggen,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/familien-fra-bryggen-dk/details
 Family7.nl,Family 7,,,Christoffer Productions,NL,family,FALSE,2005-12-10,,,http://www.family7.nl/
 FamilyChannel.ca,Family Channel,,,WildBrain,CA,family,FALSE,1988-09-01,,,https://www.family.ca/
 FamilyEntertainmentTV.us,Family Entertainment TV,,,Family Broadcasting Corporation,US,family,FALSE,2013-01-01,,,https://fetv.tv/
@@ -8990,6 +9039,7 @@ FamilyJam.ru,FamilyJam,,,ON Media,RU,animation;kids,FALSE,2022-10-25,,,
 FamilyJr.ca,Family Jr,,,WildBrain,CA,family,FALSE,2007-11-30,,,https://www.familyjr.ca/
 FamilyLiberationTV.ke,Family Liberation TV,,,,KE,religious,FALSE,,,,
 FamilyMedia.sr,Family Media,,,,SR,family,FALSE,,,,https://linktr.ee/familymedia
+FamilyMovieClassics.us,Family Movie Classics,,,Family Broadcasting Corporation,US,movies,FALSE,2021-10-28,,,https://fmc.tv/
 FamilyMovies.es,Family Movies,,,,ES,movies,FALSE,,,,
 FamilyStrokes.us,Family Strokes,,,Paper Street Media LLC,US,xxx,TRUE,,,,https://www.familystrokes.com/
 FamilySwap.us,Family Swap,,,XFC Inc.,US,xxx,TRUE,,,,https://familyswap.xxx/
@@ -9172,9 +9222,11 @@ FBCPop.fj,FBC Pop,,,Fiji Broadcasting Corporation,FJ,music,FALSE,,,,https://www.
 FBCSports.fj,FBC Sports,,,Fiji Broadcasting Corporation,FJ,sports,FALSE,,,,https://www.fbcnews.com.fj/
 FBCTV.fj,FBC TV,,,Fiji Broadcasting Corporation,FJ,general,FALSE,2011-11-25,,,https://www.fbcnews.com.fj/
 FBIFiles.us,FBI Files,,Pluto TV,,US,documentary,FALSE,,,,https://pluto.tv/en/live-tv/the-fbi-files-gb
+FBoyIsland.se,FBoy Island,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/fboy-island-dk/details
 FBTV.bo,FB TV,Fuerza Bolivia Televisión,,,BO,general,FALSE,,,,https://fb.tv.bo/
 FBTV.tr,FB TV,Fenerbahçe TV,,Fenerbahce S.K.,TR,sports,FALSE,2003-01-19,,,https://www.fenerbahce.org/fbtv/
 FCBayernTV.de,FC Bayern.TV,,,,DE,sports,FALSE,,,,https://fcbayern.com/fcbayerntv/en
+FCKLovinderne.se,FCK Lovinderne,FCK Løvinderne,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,sports,FALSE,,,,https://pluto.tv/live-tv/fck-lovinderne-dk/details
 FCPSTelevision.us,FCPS Television,,,,US,legislative,FALSE,,,,https://www.fcps.org/centraloffice/fcps-television
 FCPublicMedia.us,FC Public Media,,,,US,general,FALSE,,,,https://www.fcpublicmedia.org/
 FCSTV.us,FCS-TV,,,,US,education,FALSE,,,,https://www.fultonschools.org/fcstv
@@ -9469,10 +9521,12 @@ ForaTedioTV.br,Fora Tedio TV,Fora Tédio TV,,,BR,comedy,FALSE,,,,https://forated
 ForeignLanguagesTV.uz,Foreign Languages TV,,,,UZ,education,FALSE,,,,https://www.uztv.tv/channels/foreign-languages
 ForensicFiles.us,Forensic Files,,Pluto TV,,US,documentary,FALSE,,,,https://pluto.tv/en/live-tv/forensic-files
 ForeverKids.us,Forever Kids,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/forever-kids
+Forlaekkertillove.se,For laekker til love,For lækker til love,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/for-laekker-til-love-dk/details
 FORMediaTV.gr,FORMedia TV,,,,GR,news,FALSE,2022-06-01,,,https://formediatv.gr/
 Formula.ge,Formula,,,,GE,news,FALSE,,,,https://formula.ge/
 Foro.mx,Foro,,Televisa,,MX,news,FALSE,2010-02-15,,,https://www.nmas.com.mx/foro-tv
 ForoTV.pe,Foro TV,,,,PE,,FALSE,,,,https://www.forotv.pe/
+Forsidefruer.se,Forsidefruer,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/forsidefruer-dk/details
 FortalezaTV.cl,Fortaleza TV,,,,CL,religious,FALSE,,,,https://www.fortalezatv.cl/
 FortalezaTVCueto.bo,Fortaleza TV Cueto,,,,BO,general,FALSE,,,,https://fortalezatvcueto.com/
 FortisTV.ng,Fortis TV,,,,NG,general,FALSE,,,,https://fortistv.com/
@@ -9603,11 +9657,14 @@ FranceTVSeries.fr,France TV Series,France TV Séries,,France Télévisions,FR,se
 FranchsTV.gt,Franchs TV,,,,GT,religious,FALSE,,,,https://franchs.tv/
 Francophonie24.fr,Francophonie24,,,,FR,documentary,FALSE,,,,http://tvfrancophonie.org/
 FrankenFernsehen.de,Franken Fernsehen,,,,DE,general,FALSE,,,,https://www.frankenfernsehen.tv/
-Frasier.de,Frasier,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/frasier-fi/details
+Frasier.de,Frasier,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/frasier-de/details
 Frasier.se,Frasier,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,general,FALSE,,,,https://pluto.tv/live-tv/frasier-dk/details
-FrasierNilesinparhaat.de,Frasier: Nilesin parhaat,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/frasier-nilesin-parhaat-fi/details
-Frasiertahtivieraat.de,Frasier: tahtivieraat,Frasier: tähtivieraat,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/frasier-tahtivieraat-fi/details
+Frasier.us,Frasier,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/frasier-ca/details
+FrasierBeruhmteGaste.de,Frasier: Beruhmte Gaste,Frasier: Berühmte Gäste,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/frasier-beruhmte-gaste-de/details
+FrasierNilesinparhaat.se,Frasier: Nilesin parhaat,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,comedy,FALSE,,,,https://pluto.tv/live-tv/frasier-nilesin-parhaat-fi/details
+Frasiertahtivieraat.se,Frasier: tahtivieraat,Frasier: tähtivieraat,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,comedy,FALSE,,,,https://pluto.tv/live-tv/frasier-tahtivieraat-fi/details
 FRATATV.do,FRATA TV,,,,DO,general,FALSE,,,,https://fratatv.com/en-vivo/
+FreaksandGeeks.se,Freaks and Geeks,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/freaks-and-geeks-fi/details
 Frecuencia7TV.cl,Frecuencia 7 TV,,,,CL,general,FALSE,,,,https://www.frecuencia7tv.cl/
 FrecuenciaAmazonica.pe,Frecuencia Amazonica,Frecuencia Amazónica,,,PE,,FALSE,,,,https://frecuenciaamazonicatv.com/
 FrecuenciaFTV.co,Frecuencia F TV,,,Iglesia Centro Cristiano,CO,religious,FALSE,,,,https://www.frecuenciaf.com/canal
@@ -9662,6 +9719,7 @@ FrontRoyalChannel16.us,Front Royal Channel 16,,,,US,legislative,FALSE,,,,https:/
 FrontRoyalChannel7.us,Front Royal Channel 7,,,,US,general,FALSE,,,,https://www.frontroyalva.com/680/Television
 FrontTV.rs,Front TV,Фронт ТВ,,Dušan Ćosić,RS,news,FALSE,,,,http://www.korpus.rs/
 FrootTV.us,Froot TV,,,,US,lifestyle,FALSE,,,,
+FrusnaVagar.se,Frusna Vagar,Frusna Vägar,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/frusna-vagar-se-ptv1/details
 FS1Salzburg.at,FS1 Salzburg,,,,AT,general,FALSE,,,,https://fs1.tv/info/kontakt-anfahrt/
 FSMCongress.fm,FSM Congress,,,,FM,legislative,FALSE,,,,https://www.cfsm.gov.fm/
 FTC.uy,FTC,Florida Televisora Color,,Libertador Media Group,UY,general,FALSE,1994-07-16,,,
@@ -9971,6 +10029,7 @@ GeoNews.pk,Geo News,جیو نیوز,,Jang Media Group,PK,news,FALSE,2002-10-01,,
 GeoNewsInternational.pk,Geo News International,,,Jang Media Group,PK,news,FALSE,2002-10-01,,,https://www.geo.tv/
 GeopolisTV.cd,Geopolis TV,Géopolis TV,,,CD,news,FALSE,,,,https://geopolismagazine.net/
 GeorDavieTV.tz,GeorDavie TV,,,,TZ,religious,FALSE,,,,https://www.geordavie.org/
+GeordieShore.de,Geordie Shore,MTV Geordie Shore,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/geordie-shore-it/details
 GeordieShore.se,Geordie Shore,MTV Geordie Shore,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/geordie-shore-se/details
 GeorgetownTV.us,Georgetown TV,GTV,,,US,legislative,FALSE,,,,https://georgetown.org/gtv/
 GeorgianTimesTV.ge,Georgian Times TV,ჯორჯიან თაიმისი ტელევიზია,,,GE,news,FALSE,,,,https://gttv.ge/
@@ -10532,6 +10591,7 @@ GurinelTV.md,Gurinel TV,,,,MD,kids,FALSE,,,,
 GurjaaniTV.ge,Gurjaani TV,,,,GE,general,FALSE,,,,http://www.gurjaanitv.com/
 GurSikhSabhaTV.ca,GurSikh Sabha TV,,,,CA,religious,FALSE,,,,https://www.gsabha.com/
 GuruTV.lk,Guru TV,,,,LK,education,FALSE,,,,https://guru.lk/
+GustavLinsepaudebane.se,Gustav & Linse pa udebane,Gustav & Linse på udebane,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,general,FALSE,,,,https://pluto.tv/live-tv/gustav-and-linse-pa-udebane/details
 GustoTV.ca,Gusto TV,,,Gusto Media Worldwide,CA,cooking,FALSE,,,,https://gustotv.com/
 GutaTV.sk,GutaTV,GútaTV,,,SK,general,FALSE,,,,http://www.gutatv.sk
 GuteLauneTV.de,Gute Laune TV,,,High View Holding GmbH,DE,music,FALSE,2005-10-18,,,https://www.gutelaunetv.de/
@@ -11095,6 +11155,7 @@ HogansHeroes.us,Hogan's Heroes,,Pluto TV,Pluto Inc.;Paramount Skydance Corporati
 HogarHGTV.us,Hogar HGTV,,,Warner Bros. Discovery Inc.,US,lifestyle,FALSE,2020-06-30,,,https://www.hogarhgtv.com/
 HogarShoppingClub.ar,Hogar Shopping Club,,,,AR,shop,FALSE,,,,
 HogarTV.co,Hogar TV,,,Global Media,CO,lifestyle,FALSE,2012-04-23,2015-08-03,,
+Hogspanning.se,Hogspanning,Högspänning,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/hogspanning-se/details
 HoikeKauaiChannel53.us,Ho'ike Kaua'i Channel 53,,,,US,legislative,FALSE,,,,https://hoike.org/
 HoikeKauaiChannel54.us,Ho'ike Kaua'i Channel 54,,,,US,general,FALSE,,,,https://hoike.org/channel-54/
 HOiTV.nl,HOi TV,,,,NL,general,FALSE,,,,https://www.hoimedia.com/
@@ -11250,6 +11311,7 @@ HoungFaTV.vn,Houng Fa TV,,,,VN,,FALSE,,,,
 HouseAssemblyofNewfoundlandandLabrador.ca,House Assembly of Newfoundland and Labrador,,,,CA,legislative,FALSE,,,,https://www.assembly.nl.ca/HouseBusiness/Webcast/live_video_audio.aspxnewfoundland
 HouseholdManagementTV.cn,Household Management TV,,,,CN,lifestyle,FALSE,,,,
 HouseofCouncillorsTV.jp,House of Councillors TV,,,,JP,legislative,FALSE,,,,https://www.webtv.sangiin.go.jp/webtv/index.php
+HouseofLies.se,House of Lies,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/house-of-lies-ptv2/details
 HouseofRepresentativesInternetTV.jp,House of Representatives Internet TV,HOR TV,,,JP,legislative,FALSE,,,,https://www.shugiintv.go.jp/en/
 HousingTVAfrica.ng,Housing TV Africa,,,,NG,business,FALSE,,,,https://www.housingtvafrica.com/
 HoustonMediaSource.us,Houston Media Source,HMS,,,US,general,FALSE,,,,https://www.hmstv.org/hms-live/
@@ -11502,7 +11564,7 @@ ICAMGovernmentChannel.us,ICAM Government Channel,,,,US,legislative,FALSE,,,,http
 ICAMPublicChannel.us,ICAM Public Channel,,,,US,general,FALSE,,,,https://icamipswich.com/
 iCarly.de,iCarly,Nickelodeon iCarly;iCarly TV,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,kids,FALSE,,,,https://pluto.tv/live-tv/i-carly-de/details
 iCarly.se,iCarly,Nickelodeon iCarly,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,kids,FALSE,,,,https://pluto.tv/live-tv/icarly-se/details
-iCarly.us,iCarly,iCarly TV;Nickelodeon iCarly,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/icarly-tv/details
+iCarly.us,iCarly,Nickelodeon iCarly;iCarly TV,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/icarly-tv/details
 iCarlyPlus.us,iCarly Plus,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/i-carly-de
 IcaroTV.it,Icaro TV,,,,IT,general,FALSE,,,,https://www.icaroplay.it/icarotv/
 ICATCommunityAccess.us,ICAT Community Access,,,,US,general,FALSE,,,,https://www.irondequoit.org/icat/
@@ -11622,6 +11684,7 @@ IllusionPlus.ru,Illusion+,Иллюзион+,,Stream,RU,movies,FALSE,2006-12-15,,
 IlmvaTabiat.tj,Ilm va Tabiat,,,,TJ,science,FALSE,,,,http://ivt.tj/
 ILove.in,ILove,,,,IN,music,FALSE,2019-12-01,,,https://ilove.co.in/
 ILoveLucy.us,I Love Lucy,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,comedy;classic,FALSE,,,,https://pluto.tv/live-tv/i-love-lucy-ptv1/details
+IlTestimone.de,Il Testimone,MTV Il Testimone,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/il-testimone-it/details
 ILTV.fr,ILTV,,,,FR,,FALSE,,,,
 ILTV.il,ILTV,Israel News,,Ronen Lefler,IL,general,FALSE,,,,https://iltv.tv/
 ImageChannel.np,Image Channel,,,Image Channel Pvt. Ltd,NP,entertainment,FALSE,2003-01-01,,,https://imagechannel.com.np/
@@ -11819,7 +11882,7 @@ INTV.ua,INTV,ІНТБ,,INTV,UA,general,FALSE,,,,https://intb.te.ua/
 INTVAustralia.au,INTV Australia,,,,AU,music,FALSE,,,,https://intvaustralia.com/
 INULTRA.nl,INULTRA,,Insight TV,TV Entertainment Reality Network B.V.,NL,lifestyle,FALSE,2022-08-12,,,https://in.tv/channel/inultra
 InvasivaTV.py,Invasiva TV,,,Invasiva Media,PY,,FALSE,,,,https://invasivamedia.com
-Investiga.us,Investiga,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/investiga-ptv1
+Investiga.us,Investiga,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/investiga-ptv1/details
 Investigation.ca,Investigation,,,,CA,entertainment,FALSE,2013-12-12,,,http://www.investigationtele.com/
 InvestigationbyPlutoTV.de,Investigation by Pluto TV,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,
 InvestigationDiscovery.au,Investigation Discovery,ID,,,AU,documentary,FALSE,,,,http://www.investigationdiscovery.com/
@@ -12030,6 +12093,9 @@ J3NEWSTV.br,J3NEWS TV,3ª Via TV;Terceira Via TV,,,BR,news,FALSE,,,,https://tvte
 JacalCanal5.gt,Jacal Canal 5,,,,GT,general,FALSE,,,,
 JacquieMichelTV.fr,Jacquie & Michel TV,,,,FR,xxx,TRUE,1999-01-01,,,https://www.jacquieetmicheltv.net/
 Jade.hk,Jade,TVB翡翠台;TVB Jade,,Television Broadcasts Limited,HK,entertainment,FALSE,1967-11-19,,,http://programme.tvb.com/jade/
+JAG.de,JAG,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,https://pluto.tv/live-tv/jag-fr/details
+JAG.se,JAG,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series;classic,FALSE,,,,https://pluto.tv/live-tv/jag-se/details
+JAG.us,JAG,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/jag-ca/details
 JagoNews24.bd,Jago News 24,,,,BD,news,FALSE,,,,https://www.jagonews24.com/
 JagoroniTV.bd,Jagoroni TV,,,,BD,general,FALSE,,,,https://jagoroni.tv/
 JahanbinTV.ir,Jahanbin TV,شبکه چهارمحال و بختیاری,,IRIB,IR,general,FALSE,,,,http://chb.irib.ir/tv
@@ -12343,9 +12409,9 @@ JordanSport2.jo,Jordan Sport 2,,,Government of Jordan,JO,sports,FALSE,,,,https:/
 JordanTourism.jo,Jordan Tourism,,,,JO,,FALSE,,,,
 JordanTV.jo,Jordan TV,الأردني تي في,,Government of Jordan,JO,general,FALSE,,,,https://www.jrtv.gov.jo/
 JORKDTV.jp,JORK-DTV,NHK総合テレビジョン,NHK G,日本放送協会,JP,general,FALSE,2006-10-01,,,https://www.nhk.or.jp/kochi/
-JornadanasEstrelasANovaGeracao.us,Jornada nas Estrelas A Nova Geracao,Jornada nas Estrelas - A Nova Geração,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/jornada-nas-estrelas-a-nova-geracao/details
-JornadanasEstrelasDeepSpaceNine.us,Jornada nas Estrelas Deep Space Nine,Jornada nas Estrelas - Deep Space Nine,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/jornada-nas-estrelas-deep-space-nine/details
-JornadanasEstrelasVoyager.us,Jornada nas Estrelas Voyager,Jornada nas Estrelas - Voyager,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/jornada-nas-estrelas-voyager/details
+JornadanasEstrelasANovaGeracao.us,Jornada nas Estrelas: A Nova Geracao,Jornada nas Estrelas - A Nova Geração,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/jornada-nas-estrelas-a-nova-geracao/details
+JornadanasEstrelasDeepSpaceNine.us,Jornada nas Estrelas: Deep Space Nine,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/jornada-nas-estrelas-deep-space-nine/details
+JornadanasEstrelasVoyager.us,Jornada nas Estrelas: Voyager,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/jornada-nas-estrelas-voyager/details
 JORPDTV.jp,JORP-DTV,NHK総合テレビジョン,NHK G,日本放送協会,JP,general,FALSE,2005-06-01,,,https://www.nhk.or.jp/wakayama/
 JORXDTV.jp,JORX-DTV,TBS TV;TBSテレビ,JNN/TBS Network,,JP,general,FALSE,1955-04-01,,,https://www.tbs.co.jp/
 JosatTV.jo,Josat TV,,,,JO,general,FALSE,,,,https://josat.tv/
@@ -12449,6 +12515,7 @@ JusticeCentralTV.us,Justice Central TV,,,,US,entertainment,FALSE,,,,https://ente
 JusticiaTV.cd,Justicia TV,,,,CD,legislative,FALSE,,,,https://justiciardc.org/
 JusticiaTV.mx,Justicia TV,,,,MX,legislative,FALSE,,,,https://justiciatv.mx/
 JusticiaTV.pe,Justicia TV,,,,PE,legislative,FALSE,,,,https://justiciatv.pj.gob.pe/
+JustTattooofUs.de,Just Tattoo of Us,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/just-tattoo-of-us-fr/details
 JustTV.lt,Just TV,,,,LT,entertainment,FALSE,,,,https://just-tv.lt/
 JustVogueTV.ae,Just Vogue TV,,,MRT International Media,AE,lifestyle,FALSE,,,,https://www.justvoguetv.com/
 JusuPanevezysTV.lt,Jusu Panevezys TV,Jūsų Panevėžys TV,,,LT,,FALSE,,,,https://jptv.lt/
@@ -14235,7 +14302,7 @@ KEMV61.us,KEMV 6.1,AETN HD;KEMV-1,PBS,Arkansas Educational Television Commission
 KEMV62.us,KEMV 6.2,AETN 2;KEMV-2,Create,Arkansas Educational Television Commission,US,education,FALSE,,,,
 KEMV63.us,KEMV 6.3,KEMV-3,PBS Kids 24/7,Arkansas Educational Television Commission,US,education;kids,FALSE,,,,
 KEMYLP1.us,KEMY-LP1,,MyNetworkTV,,US,,FALSE,,,,
-KenanKel.us,Kenan & Kel,Nickelodeon Kenan & Kel,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/kenan-and-kel
+KenanKel.us,Kenan & Kel,Kenan y Kel;Nickelodeon Kenan & Kel,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/kenan-and-kel
 KeneTV.ml,Kene TV,Kéné TV,,,ML,general,FALSE,,,,
 KennisMusicChannel.ng,Kennis Music Channel,,,,NG,music,FALSE,,,,
 KENS51.us,KENS 5.1,KENS 5;KENS-HD,CBS,KENS-TV Inc.,US,general,FALSE,1950-02-15,,,http://www.kens5.com/
@@ -15339,6 +15406,7 @@ KLNKLD1.us,KLNK-LD1,,Punch TV,Centro Cristiano de Vida Eterna,US,,FALSE,,,,
 KLNMLD421.us,KLNM-LD 42.1,KLMN-LD;Texas Family TV;KLNM1,Independent,Jerry Miller,US,general,FALSE,1993-11-08,,,https://klnmtv.com/
 KLNMLD422.us,KLNM-LD 42.2,Movee 4U;KLNM2,NewsNet,Jerry Miller,US,news,FALSE,1993-11-08,,,https://klnmtv.com/
 KLNMLD423.us,KLNM-LD 42.3,Contemporary Christian Music 4U,Fun Roads,Jerry Miller,US,travel,FALSE,1993-11-08,,,https://klnmtv.com/
+Klovn.se,Klovn,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,comedy,FALSE,,,,https://pluto.tv/live-tv/kvlon-se/details
 KLPATV251.us,KLPA-TV 25.1,LPB;LPBHD,PBS,Louisiana Educational Television Authority,US,education,FALSE,1983-07-01,,,http://www.lpb.org/
 KLPATV252.us,KLPA-TV 25.2,LPB2,PBS Kids 24/7,Louisiana Educational Television Authority,US,education;kids,FALSE,,,,https://www.lpb.org/
 KLPATV253.us,KLPA-TV 25.3,LPB3,Create,Louisiana Educational Television Authority,US,education,FALSE,,,,
@@ -15849,6 +15917,7 @@ KOCETV501.us,KOCE-TV 50.1,PBS SoCal 1;PBS-HD,PBS,Public Media Group of Southern 
 KOCETV502.us,KOCE-TV 50.2,PBS SoCal 2;PBS-2,PBS Encore,Public Media Group of Southern California,US,entertainment,FALSE,,,,http://www.pbssocal.org/
 KOCETV503.us,KOCE-TV 50.3,Daystar,Daystar,Public Media Group of Southern California,US,religious,FALSE,,,,
 KOCETV504.us,KOCE-TV 50.4,PBSwrld,World Channel,Public Media Group of Southern California,US,documentary,FALSE,,,,http://www.pbssocal.org/
+Kochenpatoppen.se,Koch'en pa toppen,Koch'en på toppen,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,cooking;lifestyle,FALSE,,,,https://pluto.tv/live-tv/kochen-pa-toppen-dk/details
 KochuTV.in,Kochu TV,കൊച്ചു ടി വി,Sun,Sun TV Network,IN,animation;kids,FALSE,2011-10-16,,,http://www.sunnetwork.in/tv-channel-details.aspx?Channelid=40&channelname=Kochu%20Tv&type=4
 KOCM461.us,KOCM 46.1,KOCM-DT,Daystar,Word of God Fellowship Inc.,US,religious,FALSE,2003-01-01,,,http://www.daystar.com/
 KOCM462.us,KOCM 46.2,KOCM-ES,Daystar Español,Word of God Fellowship Inc.,US,religious,FALSE,,,,https://daystar.com/
@@ -17545,6 +17614,7 @@ KUMYLD221.us,KUMY-LD 22.1,KUMY-TV,SSTN,Setx Public Television Corporation,US,,FA
 KUMYLD222.us,KUMY-LD 22.2,KUMY-TV,Retro TV,Setx Public Television Corporation,US,,FALSE,,,,
 KUNALP1.us,KUNA-LP1,,Telemundo,,US,,FALSE,,,,
 KungFuMovies.us,Kung Fu Movies,,,,US,movies,FALSE,,,,
+Kunnianmiehet.se,Kunnian miehet,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/kunnian-miehet-fi/details
 KUNP161.us,KUNP 16.1,Rip City TV Network;KUNP,Sports,Sinclair Lagrande Licensee LLC,US,general,FALSE,2001-12-03,,,http://www.kunptv.com/
 KUNP162.us,KUNP 16.2,TheNest,The Nest,Sinclair Lagrande Licensee LLC,US,entertainment,FALSE,,,,
 KUNP163.us,KUNP 16.3,Charge!,Charge!,Sinclair Lagrande Licensee LLC,US,entertainment,FALSE,,,,
@@ -18504,6 +18574,7 @@ LangfangComprehensiveNewsChannel.cn,Langfang Comprehensive News Channel,廊坊�
 LangfangPublicChannel.cn,Langfang Public Channel,廊坊电视台,,,CN,general,FALSE,,,,http://www.lfnrtv.com/show-66-45-1.html
 LangSonTV.vn,Lang Son TV,LSTV,,,VN,general,FALSE,,,,http://www.langsontv.vn/
 LangstraatTV.nl,Langstraat TV,,,Langstraat Media,NL,general,FALSE,,,,https://www.langstraatmedia.nl/langstraat-tv/
+LangtfraBryggen.se,Langt fra Bryggen,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/langt-fra-bryggen-dk/details
 LankasriTV.lk,Lankasri TV,,,,LK,news,FALSE,,,,https://lankasri.com/
 LansingerlandTV.nl,Lansingerland TV,,,,NL,general,FALSE,,,,https://rtvlansingerland.nl/tv/
 LansingSchoolDistrictChannel21.us,Lansing School District Channel 21,,,,US,education,FALSE,,,,https://www.lansingschools.net/departments/communications/cable-tv/
@@ -18692,6 +18763,7 @@ LeMediaTV.fr,Le Media TV,Le Média TV,,,FR,news,FALSE,,,,https://www.lemediatv.f
 LeMessagerTV.cm,Le Messager TV,,,Free Media Group,CM,news,FALSE,,,,https://lemessagertv.com/
 Lemieletlesabeilles.us,Le miel et les abeilles,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/le-miel-et-les-abeilles-fr
 Lemiracledelamour.us,Le miracle de l'amour,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/le-miracles-de-lamour-fr
+Lemmenlaiva.se,Lemmenlaiva,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/lemmenlaiva-fi/details
 LeMondeen24h.cd,Le Monde en 24h,,,Le Monde Media Group,CD,news,FALSE,,,,https://lemondeen24h.com/
 LenaTV.do,Lena TV,,,,DO,general,FALSE,,,,https://www.vivalivetv.com/channel/lena-radio-tv
 LencaTV.hn,Lenca TV,,,,HN,news,FALSE,,,,http://www.lencatelevision.com/
@@ -18973,7 +19045,7 @@ LocoTV.nl,Loco TV,,,Loco Media Group,NL,general,FALSE,,,,https://www.locomediagr
 LOETV.nl,LOE TV,,,,NL,general,FALSE,,,,https://loemedia.nl/contact
 LofTelevision.cl,Lof Television,,Lof,,CL,,FALSE,,,,https://lofchile.cl/
 Logo.us,Logo,,,Viacom International Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,2005-01-01,,,http://www.logotv.com/
-LogoPlutoTV.us,Logo Pluto TV,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/logo-pluto-tv
+LogoPlutoTV.us,Logo Pluto TV,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/logo-pluto-tv
 LOGOSChannel.cm,LOGOS Channel,,,,CM,religious,FALSE,,,,
 LOGOSTelevision.cd,LOGOS Television,LOGOS Télévision,,,CD,religious,FALSE,,,,
 LogosTV.es,Logos TV,,,,ES,religious,FALSE,,,,https://logostv.es/
@@ -19155,6 +19227,9 @@ LuckyPlayTV.jm,Lucky Play TV,,,Lucky Play Lottery,JM,entertainment,FALSE,,,,http
 LuckyTV.gh,Lucky TV,,,,GH,news,FALSE,,,,https://luckytvonline.com/
 Ludikids.fr,Ludikids,,,,FR,kids;education,FALSE,,,,https://ludikids.com/
 Lugansk24.ua,Lugansk 24,Луганск 24,,GTRK LNR,UA,general,FALSE,2014-07-05,,,https://www.gtrklnr.com/
+Luksusfaelden.se,Luksusfaelden,Luksusfælden,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/luksusfaelden-dk/details
+Luksusfellen.se,Luksusfellen,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/luksusfellen-no/details
+LuksusfellenSverige.se,Luksusfellen Sverige,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/luksusfellen-sverige-no/details
 LuLiPlusTV.ci,LuLi+ TV,,,,CI,religious,FALSE,,,,
 LumbiniTV.np,Lumbini TV,,,,NP,general,FALSE,,,,
 LumenChristiTV.bj,Lumen Christi TV,,,,BJ,religious,FALSE,2024-09-14,,,https://lumenchristitv.com/
@@ -19199,6 +19274,9 @@ LYTV4.cn,LYTV-4,影视文娱频道,,,CN,news;general,FALSE,2014-01-01,,,http://w
 Lyubimoe.ru,Lyubimoe,Любимое,,,RU,movies,FALSE,,,,https://www.tricolor.tv/channels/lyubimoe/
 LyubimoeIndijskoeKino.ru,Lyubimoe Indijskoe Kino,Любимое Индийское Кино,,,RU,movies,FALSE,,,,
 LyubimoeTV.ru,Lyubimoe.TV,Любимое.ТВ,,,RU,kids,FALSE,,,,https://www.planeta-online.tv/channels/6/live.html
+Lyxfallan.se,Lyxfallan,Lyxfällan,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/lyxfallan-se/details
+LyxfallanDanmark.se,Lyxfallan Danmark,Lyxfällan Danmark,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/lyxfallan-danmark-se/details
+LyxfallanNorge.se,Lyxfallan Norge,Lyxfällan Norge,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/lyxfallan-norge-se/details
 M1.hu,M1,,,Duna Médiaszolgáltató Nonprofit Zrt.,HU,news,FALSE,2015-03-15,,,https://mediaklikk.hu/m1/
 M1.lt,M-1,,,15min grupe,LT,music,FALSE,1989-12-31,,,https://www.m-1.fm/
 M1.ua,M1,,,Starlight Media,UA,music,FALSE,2002-01-01,,,https://m1.tv/
@@ -19237,6 +19315,7 @@ MabokeTV.cg,Maboke TV,,,,CG,entertainment,FALSE,,,,https://www.canalplus.com/cd/
 MacaraTV.ec,Macara TV,Macará TV,,,EC,general,FALSE,,,,
 MacarenaFM.cl,Macarena FM,,,,CL,music,FALSE,,,,https://macarenafm.cl/
 MacauCulturalChannel.hk,Macau Cultural Channel,澳門博覽台,,,HK,entertainment;sports,FALSE,2002-01-01,2017-09-01,,https://programme.tvb.com/asianselect
+MacGyver.de,MacGyver,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,https://pluto.tv/live-tv/macgyver-fr/details
 MacGyver.se,MacGyver,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series;classic,FALSE,,,,https://pluto.tv/live-tv/macgyver-se/details
 MacGyver.us,MacGyver,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,classic,FALSE,,,,https://pluto.tv/live-tv/macgyver-ptv3/details
 MachupicchuTelevision.pe,Machupicchu Television,Machupicchu Televisión,,Corporacion Machupicchu,PE,general,FALSE,,,,
@@ -19436,6 +19515,7 @@ MansfieldPublicChannel.us,Mansfield Public Channel,,,,US,general,FALSE,,,,http:/
 MansudaeTelevision.kp,Mansudae Television,만수대 텔레비죤,,Korean Central Broadcasting Committee,KP,entertainment,FALSE,2015-07-13,,,
 MantavyaNews.in,Mantavya News,મંતવ્ય ન્યૂઝ,,,IN,news,FALSE,,,,https://mantavyanews.com/livetv/
 ManuChat.iq,Manu Chat,,,,IQ,,FALSE,,,,http://www.manuchat.net/
+ManwithaPlan.se,Man with a Plan,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,comedy,FALSE,,,,https://pluto.tv/live-tv/man-with-a-plan-se/details
 ManX.be,Man-X,,,,BE,xxx,TRUE,,,,http://www.man-x.tv/
 Manzanares10TV.es,Manzanares10 TV,,,,ES,general,FALSE,,,,http://www.manzanares10.tv/
 MaquiTV.cl,Maqui TV,,,Maqui Online Radio,CL,music,FALSE,,,,https://maquionline.cl/wp/maqui-tv/
@@ -19498,7 +19578,7 @@ MarvelHQ.in,Marvel HQ,,,Star India Pvt. Ltd.,IN,animation;kids,FALSE,2019-01-22,
 MarvelHQ.us,Marvel HQ,,,,US,,FALSE,,,,https://www.marvelhq.com/
 MarvisionTV.bo,Marvision TV,Marvisión TV,,,BO,general,FALSE,,,,https://marvisiontv.com/
 Mas104Television.co,Mas 104 Television,Más 104 Televisión,,,CO,general,FALSE,,,,
-Mas23TV.pa,Mas23 TV,Canal +23,,Compania Digital de Television,PA,music,FALSE,,,,https://mas23tv.com/
+Mas23TV.pa,Mas23 TV,Canal +23,,Compañía Digital de Televisión,PA,music,FALSE,2003-11-23,,,https://mas23tv.com/
 Masadrenalina.us,Mas adrenalina,Más adrenalina,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/mas-adrenalina/details
 Masah.sa,Masah,,,,SA,,FALSE,,,,https://almajdtv.com/
 MasalaTV.pk,Masala TV,مصالحہ,,Hum Network Limited,PK,cooking,FALSE,2006-11-22,,,https://www.masala.tv/
@@ -19529,6 +19609,7 @@ MasTalk.ve,Mas Talk,Más Talk,,Cisneros Media,VE,entertainment,FALSE,,,,https://
 MasTelevision.uy,Mas Television,Más Televisión,,Punta Cable,UY,general,FALSE,,,,https://www.puntacable.com.uy/
 MasTelevisiondeColon.hn,Mas Television de Colon,Más Televisión de Colón,,,HN,general,FALSE,,,,http://colonaldia.hn/
 MasterChef.us,MasterChef,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/masterchef-ptv1
+MasterChefDanmarksstorstemadtalenter.se,MasterChef Danmarks storste madtalenter,MasterChef Danmarks største madtalenter,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,cooking;lifestyle,FALSE,,,,https://pluto.tv/live-tv/masterchef-danmarks-storste-madtalenter-dk/details
 MasterShowTV.br,Master Show TV,,,,BR,music,FALSE,,,,https://www.mastershowtv.com/
 MastersTV.ng,Master's TV,,,,NG,religious,FALSE,,,,https://themastersplace.org/
 MasterTV.pe,Master TV,,,,PE,general,FALSE,,,,https://mastertvradio.com/tv
@@ -19558,7 +19639,7 @@ MaticesTV.pe,MaticesTV,,,,PE,general,FALSE,,,,https://aldiaconmatices.com/
 MatiguasTVCanal42.ni,Matiguas TV Canal 42,,,,NI,general,FALSE,,,,
 MatinLibreTV.bj,Matin Libre TV,,,Groupe de presse Matin Libre,BJ,general,FALSE,,,,https://matinlibretv.bj/
 Matkanalen.no,Matkanalen,,,Schibsted Norge AS,NO,cooking,FALSE,,,,https://matkanalen.tv/
-Matlock.de,Matlock,,Pluto TV,Pluto Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,https://pluto.tv/live-tv/matlock-fi/details
+Matlock.de,Matlock,,Pluto TV,Pluto Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,https://pluto.tv/live-tv/matlock-gb/details
 Matlock.se,Matlock,,Pluto TV,Pluto Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series;classic,FALSE,,,,https://pluto.tv/live-tv/matlock-se/details
 Matlock.us,Matlock,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/matlock
 MatrixTVYogyakarta.id,Matrix TV Yogyakarta,,Stara TV,,ID,,FALSE,,,,https://stream.matrixtv.id/
@@ -19696,6 +19777,8 @@ MchongoTV.tz,Mchongo TV,,,,TZ,outdoor,FALSE,,,,https://mchongotv.co.tz/aboutus.h
 MCITelevision.co,MCI Television,MCI Televisión,MCI Radio,MCI INC.,CO,movies;family;general,FALSE,2021-09-29,,,https://canalmci.com.co/
 McKinneyTV.us,McKinney TV,,,,US,legislative,FALSE,,,,https://www.mckinneytexas.org/229/Video-Production
 McLeodsDaughters.us,McLeod's Daughters,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/mcleods-daughters-gb
+McLeodsdotreGrantchester.se,McLeods dotre & Grantchester,McLeods døtre & Grantchester,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/mcleods-dotre-and-grantchester-no/details
+McLeodsTochter.de,McLeods Tochter,McLeods Töchter,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,https://pluto.tv/live-tv/mcleods-tochter-de/details
 MCM.fr,MCM,,,Groupe M6,FR,music,FALSE,1989-07-01,,,http://www.mcm.fr/
 MCMPop.fr,MCM Pop,MCM2,,Groupe M6,FR,music,FALSE,2003-11-28,2014-10-01,,http://www.mcm.fr/mcm-pop/
 MCMTop.fr,MCM Top,,,Groupe M6,FR,music,FALSE,2003-11-28,,,http://www.mcm.fr/mcm-top/
@@ -19764,7 +19847,10 @@ MedinaLive.bd,Medina Live,,,,BD,religious,FALSE,,,,https://www.jagobd.com/medina
 MediterraniaTV.it,MediterraniaTV,,,,IT,general,FALSE,,,,https://www.mediterraneatv.it/
 Mediteve.se,Mediteve,,,,SE,,FALSE,2002-04-01,2005-01-01,TV400.se,
 MediTV.es,Medi TV,,,El Periódico Mediterráneo,ES,general,FALSE,2019-11-04,,,https://www.meditv.tv/
+Medium.de,Medium,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies;series,FALSE,,,,https://pluto.tv/live-tv/medium-es/details
+Medium.se,Medium,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/medium-se/details
 MedjugorjeItaliaTV.it,Medjugorje Italia TV,,,,IT,religious,FALSE,,,,https://www.medjugorjeitaliatv.net/
+Medknivenforstruben.se,Med kniven for struben,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,cooking;lifestyle,FALSE,,,,https://pluto.tv/live-tv/med-kniven-for-struben-dk/details
 MedMuzik.tr,Med Muzik,Med Muzîk,,,TR,music,FALSE,,,,http://medmuzik.tv/
 MedTV.mt,Med.TV,,,Med Media Services,MT,culture,FALSE,,,,https://med.tv/
 MedyaEvimTV.tr,MedyaEvim TV,MedyaEvim HD,,TRM Yayin AS,TR,entertainment,FALSE,2025-04-01,,,https://www.socialcreator.com/medyaevimtv
@@ -19880,6 +19966,7 @@ MerrimackTVEducationChannel21.us,Merrimack TV Education Channel 21,,,,US,educati
 MerrimackTVGovernmentChannel20.us,Merrimack TV Government Channel 20,,,,US,legislative,FALSE,,,,http://merrimacktv.com/online-video/live-stream/
 MerrimackTVHDChannel1071.us,Merrimack TV HD Channel 1071,,,,US,general,FALSE,,,,http://merrimacktv.com/online-video/live-stream/
 MerryBet.ng,MerryBet,,,,NG,sports,FALSE,,,,https://www.merrybet.com/
+MerryChristmasfromViafree.se,Merry Christmas from Viafree,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,movies,FALSE,,,,https://pluto.tv/live-tv/merry-christmas-from-viafree-se/details
 MERUTV.ke,MERU TV,,,,KE,general,FALSE,,,,http://merudigital.co.ke/
 MerveillesTV.cd,Merveilles TV,,,,CD,religious,FALSE,,,,
 MerweTV.nl,MerweTV,,,,NL,general,FALSE,,,,https://merwertv.nl/
@@ -20136,6 +20223,7 @@ MiSURtv.mx,MiSURtv,,,,MX,news,FALSE,,,,
 MITGTV.ci,MITG TV,,,,CI,,FALSE,,,,
 MithilaNepalTV.np,Mithila Nepal TV,MTV Nepal,,,NP,general,FALSE,,,,http://mtvnepal.tv/
 MitosTV.pe,MitosTV,,,,PE,,FALSE,,,,
+Mitplastikmareridt.se,Mit plastikmareridt,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mit-plastikmareridt-dk/details
 MittelErzgebirgsFernsehen.de,Mittel Erzgebirgs Fernsehen,,,,DE,general,FALSE,,,,https://mef-line.de/
 MITurnoTV.do,MI Turno TV,,,,DO,general,FALSE,,,,https://miturno.com.do/miturnotv/
 MiTV.do,MiTV,,,,DO,general,FALSE,,,,https://www.mitv-hd.com/
@@ -20377,7 +20465,9 @@ MoreStarTrek.us,More Star Trek,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en
 MoreThanSportsTV.de,More Than Sports TV,,,MV International GmbH,DE,sports,FALSE,,,,https://morethansports.tv/contact/
 MoreTrueCrime.us,More True Crime,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/more-true-crime/details
 MoreTV.id,More TV,,,PT Skymedia Resources,ID,entertainment,FALSE,,,,
+MoreTVCrime.de,More TV Crime,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,https://pluto.tv/live-tv/more-tv-crime-gb/details
 MoreTVDrama.us,More TV Drama,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/more-tv-drama
+MoreTVScifi.de,More TV Sci-fi,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies;series,FALSE,,,,https://pluto.tv/live-tv/more-tv-sci-fi-gb/details
 MoreTVSitcoms.us,More TV Sitcoms,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,comedy,FALSE,,,,https://pluto.tv/en/live-tv/more-tv-sitcoms
 MoreU.us,More U,,,,US,,FALSE,,,,https://watch.plex.tv/live-tv/channel/more-u
 MORIDTV.bj,MORID TV,,,,BJ,general,FALSE,,,,https://morid-prod.bj/
@@ -20445,7 +20535,7 @@ Movies24Plus.uk,Movies 24 +,Christmas 24 +,,NBCUniversal International Networks;
 MoviesAction.sa,Movies Action,,Shahid,MBC Group,SA,movies,FALSE,,,,
 MoviesBestHD.cy,Movies Best HD,,,Mesimvria Enterprises Ltd.,CY,movies,FALSE,,,,http://www.mesimvria.com/en/home/
 MoviesCentral.fr,Movies Central,,,,FR,movies,FALSE,,,,
-MoviesforGamers.us,Movies for Gamers,,Pluto TV,,US,animation,FALSE,,,,https://pluto.tv/en/live-tv/movies-for-gamers
+MoviesforGamers.us,Movies for Gamers,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,animation,FALSE,,,,https://pluto.tv/en/live-tv/movies-for-gamers
 MovieSmartClassic.tr,MovieSmart Classic,,,,TR,movies,FALSE,,,,https://www.dsmart.com.tr/
 MovieSmartPremium.tr,MovieSmart Premium,,,,TR,movies,FALSE,,,,https://www.dsmart.com.tr/
 MovieSmartPremium2.tr,MovieSmart Premium 2,,,,TR,movies,FALSE,,,,https://www.dsmart.com.tr/
@@ -20592,11 +20682,11 @@ MTV80s.uk,MTV 80s,,MTV,Paramount International Networks,UK,music,FALSE,2020-10-0
 MTV90s.uk,MTV 90s,,MTV,Paramount International Networks,UK,music,FALSE,2020-10-05,2025-12-31,,
 MTVAfrica.za,MTV Africa,,,Paramount Networks EMEAA,ZA,entertainment,FALSE,2013-07-03,,,http://www.mtv.co.za/
 MTVAitio.fi,MTV Aitio,,,,FI,,FALSE,,,,
-MTVAreYouTheOne.de,MTV Are You The One?,,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-are-you-the-one-fi/details
+MTVAreYouTheOne.se,MTV Are You The One?,,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-are-you-the-one-fi/details
 MTVAreyoutheOne.us,MTV Are you the One?,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/mtv-are-you-the-one-ptv1
 MTVAsia.sg,MTV Asia,,,Paramount Networks EMEAA,SG,entertainment,FALSE,1995-05-05,2023-01-01,,http://www.mtvasia.com/
 MTVAva.fi,MTV Ava,,,MTV Oy,FI,entertainment,FALSE,2022-12-01,,,https://www.mtv.fi/
-MTVAwkward.de,MTV Awkward,,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/mtv-awkward-fi/details
+MTVAwkward.se,MTV Awkward,,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,comedy,FALSE,,,,https://pluto.tv/live-tv/mtv-awkward-fi/details
 MTVBase.uk,MTV Base,,,Paramount Networks UK & Australia,UK,music,FALSE,1999-07-01,2022-03-31,,http://www.mtv.co.uk/mtv-base
 MTVBaseAfrica.za,MTV Base Africa,,,Paramount Networks EMEAA,ZA,music,FALSE,2005-02-22,,,http://www.mtvbase.com/
 MTVBeats.in,MTV Beats,,,JioStar India Pvt. Ltd.;Reliance Industries(RIL);The Walt Disney Company,IN,music,FALSE,2016-10-09,2025-03-15,,http://www.mtvbeats.in/
@@ -20605,7 +20695,7 @@ MTVBlockParty.us,MTV Block Party,,Pluto TV,Viacom International Inc.;Paramount S
 MTVBrave.us,MTV Brave,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/mtv-brave-es
 MTVCatfish.se,MTV Catfish,,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-catfish-se/details
 MTVCatfish.us,MTV Catfish,,Pluto TV,Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-catfish-ptv2/details
-MTVCatfishTVShow.de,MTV Catfish TV Show,MTV Catfish;Catfish;CATFISH TV,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-catfish-tv-show-de/details
+MTVCatfishTVShow.de,MTV Catfish TV Show,Catfish;CATFISH TV,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-catfish-tv-show-de/details
 MTVChontales.ni,MTV Chontales,,,,NI,general,FALSE,,,,https://mtvchontales.com/
 MTVClassic.au,MTV Classic,VH1,,Paramount Networks UK & Australia,AU,music,FALSE,2004-03-14,2023-08-01,MTV80s.uk,https://www.mtv.com.au/tv-schedule/mtv-classic-australia
 MTVClassic.uk,MTV Classic,,,Paramount Networks UK & Australia,UK,music,FALSE,1999-07-01,2022-03-31,,http://www.mtv.co.uk/mtv-classic
@@ -20624,10 +20714,11 @@ MTVEmbarazadaalos16.de,MTV Embarazada a los 16,,Pluto TV,Viacom International In
 MTVEmbarazadaalos16.us,MTV Embarazada a los 16,,,Viacom International Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/mtv-embarazada-a-los-16-es
 MTVenEspanol.us,MTV en Espanol,MTV en Español,,Viacom International Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/mtv-en-espanol
 MTVEnVivo.us,MTV En Vivo,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,music,FALSE,,,,https://pluto.tv/en/live-tv/mtv-en-vivo-es
-MTVExOnTheBeach.de,MTV Ex On The Beach,,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-ex-on-the-beach-fi/details
+MTVExOnTheBeach.se,MTV Ex On The Beach,Ex On The Beach,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/ex-on-the-beach-se/details
 MTVFlowLatino.us,MTV Flow Latino,,Pluto TV,Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,music,FALSE,,,,https://pluto.tv/live-tv/mtv-flow-latino-ptv1/details
 MTVGeordies.de,MTV Geordies,,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-geordies-es/details
-MTVGeordieShore.de,MTV Geordie Shore,,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-geordie-shore-fi/details
+MTVGeordieShore.au,MTV Geordie Shore,,Pluto TV,Viacom International Inc.;Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-geordie-shore-au/details
+MTVGeordieShore.se,MTV Geordie Shore,,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-geordie-shore-fi/details
 MTVGlobal.uk,MTV Global,MTV European;MTV Europe,,Paramount Networks EMEAA,UK,entertainment,FALSE,1987-08-01,,,https://www.mtv.com/
 MTVGoodVibes.us,MTV Good Vibes,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/mtv-good-vibes-es
 MTVGuyana.gy,MTV Guyana,,,Multi Technology Vision Inc.,GY,general,FALSE,,,,https://www.mtvgy.com/live
@@ -20638,7 +20729,8 @@ MTVHits.uk,MTV Hits,,,Paramount Networks UK & Australia,UK,music,FALSE,2001-05-0
 MTVHitsEurope.uk,MTV Hits Europe,,,MTV Networks s.r.o.,UK,music,FALSE,2014-05-27,2025-12-31,,http://www.mtv.co.uk/channels/mtv-hits
 MTVIgman.ba,MTV Igman,,,,BA,religious,FALSE,,,,http://www.mtvigman.ba
 MTVJerseys.de,MTV Jerseys,,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-jerseys-es/details
-MTVJerseyShore.de,MTV Jersey Shore,,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-jersey-shore-fi/details
+MTVJerseyShore.au,MTV Jersey Shore,,Pluto TV,Viacom International Inc.;Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,general,FALSE,,,,https://pluto.tv/live-tv/mtv-jersey-shore-au/details
+MTVJerseyShore.se,MTV Jersey Shore,,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-jersey-shore-fi/details
 MTVJerseyShore.us,MTV Jersey Shore,,Pluto TV,Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-jersey-shore-ca/details
 MTVJovenseMaes.us,MTV Jovens e Maes,MTV Jovens e Mães,Pluto TV,Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-jovens-maes/details
 MTVJuniori.fi,MTV Juniori,,,MTV Oy,FI,kids,FALSE,2023-10-10,,,https://www.mtv.fi/juniori
@@ -20657,21 +20749,24 @@ MTVMusicMadeinSpain.us,MTV Music Made in Spain,,Pluto TV,Viacom International In
 MTVNordic.us,MTV Nordic,,,ViacomCBS Networks EMEAA,US,entertainment,FALSE,2019-02-22,2021-02-01,MTVGlobal.uk,http://www.nordic.mtve.com/
 MTVOriginals.de,MTV Originals,,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-originals-es/details
 MTVPlutoTV.de,MTV Pluto TV,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,
-MTVPlutoTV.us,MTV Pluto TV,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/mtv-pluto-tv
+MTVPlutoTV.us,MTV Pluto TV,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/mtv-pluto-tv
 MTVPlutoTVPlus.us,MTV Pluto TV+,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/mtv-pluto-tv-de-plus
 MTVPrank.us,MTV Prank,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/mtv-prank-es
 MTVRealities.us,MTV Realities,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/mtv-realities-es
+MTVReality.au,MTV Reality,,Pluto TV,Viacom International Inc.;Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-reality-au/details
 MTVReality.de,MTV Reality,MTV Pride,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-pride-de-ptv1/details
 MTVReality.se,MTV Reality,MTV Pride,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,general,FALSE,,,,https://pluto.tv/live-tv/mtv-pride-se-ptv1/details
 MTVReality.us,MTV Reality,MTV Pride,Pluto TV,Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-reality/details
-MTVRidiculousness.de,MTV Ridiculousness,,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/mtv-ridiculousness-de/details
+MTVRetro.au,MTV Retro,,Pluto TV,Viacom International Inc.;Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-retro-au/details
+MTVRidiculousness.au,MTV Ridiculousness,,Pluto TV,Viacom International Inc.;Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,documentary,FALSE,,,,https://pluto.tv/live-tv/mtv-ridiculousness-au/details
+MTVRidiculousness.de,MTV Ridiculousness,,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-ridiculousness-de/details
 MTVRidiculousness.se,MTV Ridiculousness,,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-ridiculousness-se/details
 MTVRidiculousness.us,MTV Ridiculousness,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/mtv-ridiculousness-de
 MTVRocks.us,MTV Rocks,,Pluto TV,Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-rocks-ptv1/details
 MTVRocksEurope.uk,MTV Rocks Europe,MTV Rocks International,,ViacomCBS Networks International,UK,music,FALSE,2014-05-27,2020-10-05,MTV90s.uk,https://www.mtv.com/
 MTVSerie.us,MTV Serie,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/mtv-serie-de
 MTVShore.us,MTV Shore,,Pluto TV,Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-shore-ptv1/details
-MTVSiestaKey.de,MTV Siesta Key,,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-siesta-key-fi/details
+MTVSiestaKey.se,MTV Siesta Key,,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-siesta-key-fi/details
 MTVSpankinNew.us,MTV Spankin' New,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,music,FALSE,,,,https://pluto.tv/en/live-tv/mtv-spankin-new
 MTVSport1.fi,MTV Sport 1,,,,FI,sports,FALSE,2013-01-01,2017-03-01,CMoreSport1.fi,
 MTVSport2.fi,MTV Sport 2,,,,FI,sports,FALSE,2013-11-12,2017-03-01,CMoreSport2.fi,
@@ -20681,7 +20776,7 @@ MTVTeenMom.de,MTV Teen Mom,,Pluto TV,Viacom International Inc.;Pluto TV Europe G
 MTVTeenMom.se,MTV Teen Mom,,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-teen-mom-se/details
 MTVTeenMom.us,MTV Teen Mom,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/mtv-teen-mom-es
 MTVTeenOV.us,MTV Teen OV,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/mtv-teen-ov-de
-MTVTheHills.de,MTV The Hills,,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-the-hills-fi/details
+MTVTheHills.se,MTV The Hills,The Hills,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/the-hills-se/details
 MTVTheHillsOV.us,MTV The Hills OV,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/mtv-the-hills-ov-de
 MTVTheShores.de,MTV The Shores,,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-the-shores-de/details
 MTVTr3s.us,MTV Tr3s,,,Viacom International Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,1998-08-01,,,http://www.mtvtr3s.com/
@@ -21063,7 +21158,9 @@ NahalTV.ir,Nahal TV,شبکه کودک و نوجوان,,Islamic Republic of Iran 
 naheTV.de,naheTV,,,,DE,general,FALSE,,,,https://www.nahetv.de/?page_id=9
 NahooTV.et,Nahoo TV,ናሁ ቲቪ,Television network,Nahoo LLC,ET,general,FALSE,2016-04-01,,,https://www.thenahootv.com/
 NaijaFarmer.ng,Naija Farmer,,,,NG,education,FALSE,,,,https://naijafarmer.org/
+Nainmeilla.se,Nain meilla,Näin meillä;Nickelodeon Nain meilla,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,kids,FALSE,,,,https://pluto.tv/live-tv/nain-meilla-fi/details
 NAJATV.cm,NAJA TV,,,NAJA International Group S.A.,CM,general,FALSE,,,,https://naja-tv.com/
+Nakija.se,Nakija,Näkijä,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/medium-fi/details
 NamanganMTRK.uz,Namangan MTRK,,,,UZ,general,FALSE,,,,
 NamaquranTV.ir,Namaquran TV,,,,IR,,FALSE,,,,
 NamasteKhwoopaTV.np,Namaste Khwoopa TV,,,,NP,general,FALSE,,,,
@@ -21398,11 +21495,13 @@ NCCTV.cl,NCC TV,Nuestro Canal Comunal de Tomé,,Roberto Andana Roa,CL,religious,
 NCCTV.us,NCCTV,,,,US,legislative,FALSE,,,,https://www.newcastlede.gov/758/NCCTV
 NCI.ci,NCI,La Nouvelle Chaîne Ivorienne,,Société Grands Medias,CI,general,FALSE,2019-12-12,,,https://www.nci.ci/
 NCIS.se,NCIS,CBS NCIS,Pluto TV,CBS Broadcasting Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/ncis-dk/details
+NCIS.us,NCIS,CBS NCIS,Pluto TV,CBS Broadcasting Inc.;Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/ncis-ptv1/details
 NCISDetbedstemedGibbs.se,NCIS: Det bedste med Gibbs,CBS NCIS: Det bedste med Gibbs,Pluto TV,CBS Broadcasting Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/ncis-det-bedste-med-gibbs-dk/details
 NCISDetbedstemedTonyZiva.se,NCIS: Det bedste med Tony & Ziva,CBS NCIS: Det bedste med Tony & Ziva,Pluto TV,CBS Broadcasting Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/ncis-det-bedste-med-tony-and-ziva-dk/details
-NCISGibbsinparhaat.de,NCIS: Gibbsin parhaat,CBS NCIS: Gibbsin parhaat,Pluto TV,CBS Broadcasting Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,https://pluto.tv/live-tv/ncis-gibbsin-parhaat-fi/details
+NCISGibbsinparhaat.se,NCIS: Gibbsin parhaat,CBS NCIS: Gibbsin parhaat,Pluto TV,CBS Broadcasting Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/ncis-gibbsin-parhaat-fi/details
 NCISLosAngeles.se,NCIS: Los Angeles,CBS NCIS: Los Angeles,Pluto TV,CBS Broadcasting Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/ncis-los-angeles-dk/details
-NCISTonynjaZivanparhaat.de,NCIS: Tonyn ja Zivan parhaat,CBS NCIS: Tonyn ja Zivan parhaat,Pluto TV,CBS Broadcasting Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,https://pluto.tv/live-tv/ncis-tonyn-ja-zivan-parhaat-fi/details
+NCISLosAngeles.us,NCIS: Los Angeles,CBS NCIS: Los Angeles,Pluto TV,CBS Broadcasting Inc.;Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/ncis-los-angeles-ca/details
+NCISTonynjaZivanparhaat.se,NCIS: Tonyn ja Zivan parhaat,CBS NCIS: Tonyn ja Zivan parhaat,Pluto TV,CBS Broadcasting Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/ncis-tonyn-ja-zivan-parhaat-fi/details
 NCMCommunityChannel.us,NCM Community Channel,,,,US,general,FALSE,,,,https://www.norwoodcommunitymedia.org/
 NCMEducationalKidsChannel.us,NCM Educational & Kids Channel,,,,US,education;kids,FALSE,,,,https://nevadacountymedia.org/educational-channel
 NCMGovernmentChannel.us,NCM Government Channel,,,,US,legislative,FALSE,,,,https://www.norwoodcommunitymedia.org/
@@ -21644,7 +21743,7 @@ NextTV.kg,Next TV,Некст-ТВ,,,KG,,FALSE,,,,
 NextTV.md,Next TV,,,,MD,news,FALSE,,,,
 NextTVMalabar.in,Next TV Malabar,,,Ethnic Channels Group,IN,general,FALSE,,,,https://nexttv.in/
 NextTVNews.tw,Next TV News,,,Next TV Broadcasting Ltd,TW,news,FALSE,,,,http://www.nexttv.com.tw/NextTV/News/
-NexTVCanal21.pa,Nex TV Canal 21,,,Campania Digital de TV,PA,general,FALSE,2012-09-23,,,https://nexpanama.com/
+NexTVCanal21.pa,Nex TV Canal 21,,,Compañía Digital de Televisión,PA,general,FALSE,2012-10-31,,,https://nexpanama.com/
 NexusTV.bd,Nexus TV,নেক্সাস টেলিভিশন,,S. Alam Group of Industries,BD,general,FALSE,2021-07-30,,,https://www.nexusbd.tv/
 NexxoTV.do,Nexxo TV,Canal 20,,,DO,general,FALSE,,,,http://nexxo.tv/
 NFLChannel.us,NFL Channel,,Pluto TV,,US,sports,FALSE,,,,https://pluto.tv/en/live-tv/nfl-channel
@@ -21857,6 +21956,7 @@ NickJr.us,Nick Jr.,,Nickelodeon,Viacom International Inc.;Paramount Skydance Cor
 NickJrAfrica.za,Nick Jr. Africa,,Nickelodeon,Paramount Networks EMEAA,ZA,kids,FALSE,2014-09-30,,,http://www.nickelodeonafrica.com/
 NickJrArabia.ae,Nick Jr. Arabia,,Nickelodeon,Paramount Networks EMEAA,AE,kids,FALSE,2015-01-05,,,http://www.nickelodeonarabia.com/
 NickJrAsia.sg,Nick Jr. Asia,,Nickelodeon,Paramount Networks EMEAA,SG,kids,FALSE,2011-05-18,,,http://www.nickjr.tv/
+NickJrClub.au,Nick Jr Club,Nickelodeon Nick Jr Club,Pluto TV,Viacom International Inc.;Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,kids,FALSE,,,,https://pluto.tv/live-tv/nick-jr-club-au/details
 NickJrClub.de,Nick Jr. Club,Nickelodeon Nick Jr. Club,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,kids,FALSE,,,,https://pluto.tv/live-tv/nick-jr-club-de/details
 NickJrClub.us,Nick Jr. Club,Nickelodeon Nick Jr. Club,Nickelodeon,Viacom International Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/nick-jr-club-1
 NickJrenEspanol.us,Nick Jr. en Espanol,Nick Jr en Español,Nickelodeon,Viacom International Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/nick-jr-en-espanol
@@ -21879,6 +21979,7 @@ NickSchweiz.ch,Nick Schweiz,,Nickelodeon,CH Media,CH,kids,FALSE,2009-04-01,,,htt
 NickSpace.us,Nick Space,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/nick-space-de
 NickSpotlight.us,Nick Spotlight,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/nick-spotlight-de
 NickTeen.us,Nick Teen,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/nick-teen-ptv1
+NickToons.au,NickToons,Nickelodeon NickToons,Pluto TV,Viacom International Inc.;Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,kids,FALSE,,,,https://pluto.tv/live-tv/nicktoons-au/details
 Nicktoons.bg,Nicktoons,,Nickelodeon,Paramount Global,BG,kids,FALSE,2018-02-15,,,https://nicktoons.bg/
 Nicktoons.ca,Nicktoons,,,,CA,kids,FALSE,2023-12-22,,,
 Nicktoons.cz,Nicktoons,,Nickelodeon,Paramount Global,CZ,kids,FALSE,2018-02-15,,,https://www.nicktoons.cz/
@@ -21892,6 +21993,7 @@ Nicktoons.ru,Nicktoons,,Paramount Media Networks,Paramount Global,RU,kids,FALSE,
 Nicktoons.tr,Nicktoons,,Nickelodeon,Paramount Global,TR,kids,FALSE,,,,http://nicktoons.nick.com/
 Nicktoons.uk,Nicktoons,NickLoudHouse,Nickelodeon,Nickelodeon UK Ltd,UK,kids,FALSE,2002-07-22,,,http://www.nick.co.uk/
 Nicktoons.us,Nicktoons,Nickelodeon NickToons,Nickelodeon,Viacom International Inc.;Paramount Skydance Corporation,US,kids,FALSE,2002-05-01,,,http://nicktoons.nick.com/
+NickToons90s.au,NickToons 90s,Nickelodeon NickToons 90s,Pluto TV,Viacom International Inc.;Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,kids,FALSE,,,,https://pluto.tv/live-tv/nicktoons-90s/details
 NicktoonsAdria.hr,Nicktoons Adria,,Nickelodeon,Paramount Global,HR,kids,FALSE,2018-02-15,,,http://www.nick.tv/
 NicktoonsAfrica.za,Nicktoons Africa,,Nickelodeon,Paramount Networks EMEAA,ZA,kids,FALSE,2014-09-30,,,http://www.nickelodeonafrica.com/micro/nicktoons/qzj5mr
 NicktoonsArabia.ae,Nicktoons Arabia,,Nickelodeon,Paramount Networks EMEAA,AE,kids,FALSE,2017-02-15,,,http://www.nickelodeonarabia.com/
@@ -22001,6 +22103,7 @@ NomadTV.kg,Nomad TV,Номад ТВ,,,KG,news,FALSE,,,,https://nomadtv.kg/
 NoNameTV.mx,No Name TV,,,,MX,entertainment,FALSE,,,,https://nonametv.net/
 NongomaTV.za,Nongoma TV,,,,ZA,culture,FALSE,,,,https://nongomatv.com/
 NONN1TV.at,NON-N1-TV,NÖN-N1-TV;N1 Niederösterreich TV,,,AT,general,FALSE,,,,https://www.n1tv.at/
+NonStopKungFu.se,NonStop Kung Fu,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,movies,FALSE,,,,https://pluto.tv/live-tv/nonstop-kung-fu-se/details
 NonStopPeople.fr,Non Stop People,,,Banijay,FR,general,FALSE,2012-11-19,2021-11-17,,http://non-stop-tv.fr/
 NoorDubai.ae,Noor Dubai,نور دبي تي في,,Dubai Media Incorporated,AE,religious,FALSE,,,,https://www.noordubai.com/
 NoorinTV.af,Noorin TV,تلویزیون نورین,,Haji Mohammad Arif Noori,AF,general,FALSE,2007-01-01,2021-12-01,,https://www.noortv.af/
@@ -22017,6 +22120,7 @@ NopolaNews.fi,Nopola News,,,,FI,news,FALSE,,,,https://www.nopolanews.fi/
 NoraTV.tr,Nora TV,,,,TR,news,FALSE,,,,https://noratelevizyonu.com/
 NordBeninTV.bj,Nord Benin TV,,,,BJ,general,FALSE,,,,https://nordbenin.bj/
 NordicChannel.se,Nordic Channel,,,,SE,,FALSE,1989-03-27,1991-01-01,TV5Nordic.se,
+NordiskkrimfraViaplay.se,Nordisk krim fra Viaplay,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/nordisk-krim-fra-viaplay-no/details
 NordliichtTV.lu,Nordliicht TV,,,,LU,general,FALSE,1997-04-23,,,https://www.nordliicht.lu/
 NorfolkTV48.us,NorfolkTV-48,,,,US,education,FALSE,,,,https://unreal.whro.org/tv48/
 NorHayastanTV.am,Nor Hayastan TV,Նոր Հայաստան TV;New Armenia TV,,MOTV Media Holding,AM,entertainment,FALSE,2019-11-01,,,http://norhayastan.com/page/live
@@ -22389,12 +22493,13 @@ NuevoSigloTV.uy,Nuevo Siglo TV,,,Riselco S.A.,UY,general,FALSE,1995-12-04,,,http
 NuevoTiempo.br,Nuevo Tiempo,,,,BR,religious,FALSE,,,,https://www.nuevotiempo.org/tv/
 NuevoTiempoTV.cl,Nuevo Tiempo TV,,,Iglesia Adventista del Séptimo Día,CL,religious,FALSE,,,,https://www.nuevotiempo.cl/tv/
 NukaTV.ec,Nuka TV,Ñuka TV,,,EC,general,FALSE,,,,https://nukatv.com/
-Numb3rs.se,Numb3rs,Numbers,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/numb3rs-se/details
+Numb3rs.se,Numb3rs,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/numb3rs-se/details
 Number1Ask.tr,Number 1 Ask,,,,TR,music,FALSE,1994-08-01,,,https://www.numberone.com.tr/
 Number1Damar.tr,Number 1 Damar,,,,TR,music,FALSE,1994-08-01,,,https://www.numberone.com.tr/
 Number1Dance.tr,Number 1 Dance,,,,TR,music,FALSE,1994-08-01,,,https://www.numberone.com.tr/
 Number1Turk.tr,Number 1 Turk,Number 1 Türk,,,TR,music,FALSE,1994-08-01,,,https://www.numberone.com.tr/
 Number1TV.tr,Number 1 TV,,,,TR,music,FALSE,1994-08-01,,,http://www.numberone.com.tr/
+Numbers.se,Numbers,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/numbers-dk/details
 Numbers.us,Numbers,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/numbers/details
 NumericaTV.cd,Numerica TV,,,,CD,general,FALSE,,,,https://numericatelevision.cd
 Numeros.us,Numeros,Números,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/numeros/details
@@ -22522,6 +22627,7 @@ OFFTRACKTV.tz,OFFTRACK TV,,,,TZ,news,FALSE,,,,https://offtrack.co.tz/
 OFIVETV.fr,OFIVE TV,,,,FR,music,FALSE,,,,https://www.ofive.tv/
 OfoghTV.ir,Ofogh TV,شبكه‌ی افق,,IRIB,IR,culture,FALSE,2014-06-03,,,
 OFTVOffenbach.de,OF-TV Offenbach,,,Medienanstalt Hessen,DE,general,FALSE,,,,https://www.of-tv.de/
+OggyeasBaratasTontas.us,Oggy e as Baratas Tontas,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/live-tv/oggy-e-as-baratas-tontas/details
 OGN.kr,OGN,,,OP.GG,KR,sports,FALSE,2000-07-24,,,http://ogn.tving.com/ogn
 OGN.us,OGN,Olathe Government Network,,,US,legislative,FALSE,,,,https://www.olatheks.org/residents/city-news/olathe-government-network-ogn
 OgunStateTV.ng,Ogun State TV,,,Ogun State Government,NG,general,FALSE,1981-12-25,,,http://ogtv.com.ng/about-new/
@@ -22710,8 +22816,8 @@ OnePiece.us,One Piece,,Pluto TV,,US,animation,FALSE,,,,https://pluto.tv/en/live-
 OnePlanet.ua,One Planet,,,,UA,general,FALSE,,,,https://www.oneplanetnetwork.org/countries/europe-and-central-asia/ukraine
 OneRadioTV.ar,OneRadio TV,,,Grupo Clarin,AR,music,FALSE,,,,https://oneradio1073.com/
 OneScreen.ph,One Screen,,TV5/GMA Network,Cignal TV Inc.,PH,entertainment,FALSE,2019-09-01,2022-01-01,,https://cignal.tv/channels/182/one-screen
-OneSports.ph,One Sports,,,Nation Broadcasting Corporation,PH,sports,FALSE,2020-03-08,,,http://plus.tv5.com.ph/
-OneSportsPlus.ph,One Sports+,,,Nation Broadcasting Corporation,PH,sports,FALSE,2020-03-08,,,https://cignal.tv/channels/134/one-sports-hd
+OneSports.ph,One Sports,,,TV5 Network Inc.;Nation Broadcasting Corporation,PH,sports,FALSE,2020-03-08,,,http://plus.tv5.com.ph/
+OneSportsPlus.ph,One Sports+,,,Cignal TV Inc.,PH,sports,FALSE,2020-03-08,,,https://cignal.tv/channels/134/one-sports-hd
 OneTelevision.se,One Television,,,,SE,,FALSE,2006-01-01,2007-02-25,Kanal9.se,
 ONETV.cd,ONE-TV,,,,CD,religious,FALSE,,,,https://www.one-tv.org/
 OneTV.ch,One TV,,,Media One Group,CH,,FALSE,,2023-09-04,Carac2.ch,
@@ -23000,7 +23106,7 @@ OzonoTV.pe,Ozono TV,,,Ozono Networks,PE,general,FALSE,2008-08-23,,,https://ozono
 P2MTV.fr,P2M TV,,,,FR,music,FALSE,,,,https://p2mtv.com/
 P3tv.at,P3tv,,,P3 Cable News GmbH,AT,general,FALSE,1995-12-12,,,https://www.p3tv.at/
 P3TV.us,P3TV,,,,US,general,FALSE,,,,https://www.vivalivetv.com/channel/p3-tv
-PaavoPesusieni.de,Paavo Pesusieni,Nickelodeon Paavo Pesusieni,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,kids,FALSE,,,,https://pluto.tv/live-tv/paavo-pesusieni-fi/details
+PaavoPesusieni.se,Paavo Pesusieni,Nickelodeon Paavo Pesusieni,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,kids,FALSE,,,,https://pluto.tv/live-tv/paavo-pesusieni-fi/details
 Pac12Arizona.us,Pac-12 Arizona,,,Pac-12 Conference,US,sports,FALSE,2012-08-15,2024-07-01,,https://pac-12.com/
 Pac12BayArea.us,Pac-12 Bay Area,,,Pac-12 Conference,US,sports,FALSE,2012-08-15,2024-07-01,,https://pac-12.com/
 Pac12Insider.us,Pac-12 Insider,,,Pac-12 Conference,US,sports,FALSE,2012-08-15,2024-07-01,,https://pac-12.com/
@@ -23086,6 +23192,9 @@ PanyapiwatTV1.th,Panyapiwat TV 1,,,,TH,education,FALSE,,,,http://www.panyapiwat.
 PanyapiwatTV2.th,Panyapiwat TV 2,,,,TH,education,FALSE,,,,http://www.panyapiwat.ac.th/
 PanzihihuaCultureTourismLifeChannel.cn,Panzihihua Culture Tourism & Life Channel,文旅生活頻道,,,CN,entertainment,FALSE,,,,https://www.pzhgd.com/Live/index?liveid=2
 PanzihihuaNewsChannel.cn,Panzihihua News Channel,新闻综合频道,,,CN,news,FALSE,,,,https://www.pzhgd.com/Live/index?liveid=1
+Paradise.se,Paradise,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/paradise-se/details
+ParadiseHotel.se,Paradise Hotel,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/paradise-hotel-se/details
+ParadiseHotelUnderlagnerne.se,Paradise Hotel: Under lagnerne,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/paradise-hotel-under-lagnerne-dk/details
 ParadiseTV.gm,Paradise TV,,,,GM,general,FALSE,,,,https://www.ptv.gm/
 ParadiseTV.hn,Paradise TV,,,,HN,general,FALSE,,,,https://paradisetvhn.com/
 ParadiseTV.it,Paradise TV,,,,IT,,FALSE,,,,
@@ -23327,7 +23436,7 @@ PeretzInternational.ru,Peretz International,Перец International,,STS Media,
 PerfectTV.cd,Perfect TV,,,,CD,general,FALSE,,,,
 PerfectTV.tg,Perfect TV,,,,TG,general,FALSE,,,,https://perfecttvtg.com/
 PerfilesTV.uy,Perfiles TV,,,,UY,general,FALSE,,,,https://www.perfiles.uy/
-Perheonparas.de,Perhe on paras,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/perhe-on-paras-fi/details
+Perheonparas.se,Perhe on paras,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,comedy,FALSE,,,,https://pluto.tv/live-tv/perhe-on-paras-fi/details
 PerlaTV.ni,Perla TV,,,,NI,general,FALSE,,,,
 Perlavision.cu,Perlavision,Perlavisión,ICRT,,CU,general,FALSE,2000-09-05,,,https://www.perlavision.cu/
 PerryMason.de,Perry Mason,,Pluto TV,Pluto Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,https://pluto.tv/live-tv/perry-mason-de/details
@@ -23461,6 +23570,7 @@ PilisTV.hu,PilisTV,,,,HU,general,FALSE,,,,http://www.pilistelevizio.hu/
 PiliTV.tw,Pili TV,,,,TW,,FALSE,,,,https://home.pili.com.tw/
 PillarTV.ke,Pillar TV,,,,KE,religious,FALSE,,,,https://www.pillartv.co.ke/
 PilotFM.ru,Pilot FM,Пилот FM,,,RU,,FALSE,,,,https://pilotfm.ru/
+PimpMyRide.se,Pimp My Ride,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/pimp-my-ride-se/details
 PimpmyRide.us,Pimp my Ride,,Pluto TV,,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/pimp-my-ride-gb
 PinalTV.ml,Pinal TV,,,,ML,culture,FALSE,,,,https://pinaltv.ml/
 PinamarTV.ar,Pinamar TV,,,,AR,general,FALSE,,,,https://pinamartv.com.ar/
@@ -23710,10 +23820,10 @@ PlutoTVBritishTV.us,Pluto TV British TV,,Pluto TV,,US,entertainment,FALSE,,,,
 PlutoTVBritit.de,Pluto TV Britit,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,
 PlutoTVBritpocalypse.us,Pluto TV Britpocalypse,,Pluto TV,,US,,FALSE,,,,
 PlutoTVBrittiskCrimeDrama.se,Pluto TV Brittisk Crime & Drama,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,
-PlutoTVBudTerence.de,Pluto TV Bud & Terence,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,
+PlutoTVBudTerence.de,Pluto TV Bud & Terence,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,https://pluto.tv/live-tv/pluto-tv-bud-and-terence-de/details
 PlutoTVBudTerence.se,Pluto TV Bud & Terence,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,movies,FALSE,,,,
 PlutoTVBuskis.se,Pluto TV Buskis,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,
-PlutoTVCamp.de,Pluto TV Camp,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,
+PlutoTVCamp.de,Pluto TV Camp,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/pluto-tv-camp-de/details
 PlutoTVCanalUOL.us,Pluto TV Canal UOL,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,
 PlutoTVCars.us,Pluto TV Cars,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,auto,FALSE,,,,https://pluto.tv/en/live-tv/cars
 PlutoTVCatastrofes.de,Pluto TV Catastrofes,Pluto TV Catástrofes,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,
@@ -23753,7 +23863,7 @@ PlutoTVClassicTVVariety.us,Pluto TV Classic TV Variety,,Pluto TV,Pluto Inc.;Para
 PlutoTVCMTWesterns.us,Pluto TV CMT Westerns,,Pluto TV,Viacom International Inc.;Paramount Skydance Corporation,US,movies,FALSE,,,,
 PlutoTVCocina.de,Pluto TV Cocina,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,cooking;lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-cocina-es
 PlutoTVComedia.us,Pluto TV Comedia,Pluto TV Comédia,Pluto TV,,US,comedy,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-comedia
-PlutoTVComediamadeinSpain.de,Pluto TV Comedia made in Spain,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,
+PlutoTVComediamadeinSpain.de,Pluto TV Comedia made in Spain,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/comedia-made-in-spain-es-plus/details
 PlutoTVComediasRomanticas.de,Pluto TV Comedias Romanticas,Pluto TV Comedias Románticas,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy;movies,FALSE,,,,
 PlutoTVComedie.de,Pluto TV Comedie,Pluto TV Comédie,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,
 PlutoTVComediesCultes.de,Pluto TV Comedies Cultes,Pluto TV Comédies Cultes,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy;movies,FALSE,,,,
@@ -23838,15 +23948,15 @@ PlutoTVFishing.se,Pluto TV Fishing,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic
 PlutoTVFitness.us,Pluto TV Fitness,,Pluto TV,,US,lifestyle,FALSE,,,,
 PlutoTVFocusTV.us,Pluto TV Focus TV,,Pluto TV,,US,,FALSE,,,,
 PlutoTVFood.de,Pluto TV Food,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,cooking;documentary,FALSE,,,,
-PlutoTVFootanim.de,Pluto TV Footanim',,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,
+PlutoTVFootanim.de,Pluto TV Footanim',,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/pluto-tv-foot-anim/details
 PlutoTVForeverKids.de,Pluto TV Forever Kids,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,kids,FALSE,,,,
 PlutoTVFranBesteMamaMomente.de,Pluto TV Fran: Beste Mama-Momente,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,
-PlutoTVFranchiseFavorites.us,Pluto TV Franchise Favorites,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,movies,FALSE,,,,
+PlutoTVFranchiseFavorites.us,Pluto TV Franchise Favorites,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,movies,FALSE,,,,https://pluto.tv/live-tv/pluto-tv-franchise-favorites/details
 PlutoTVFrenchCollection.de,Pluto TV French Collection,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,
 PlutoTVFrontDoor.us,Pluto TV FrontDoor,,Pluto TV,,US,,FALSE,,,,
 PlutoTVFullCustomGarage.us,Pluto TV Full Custom Garage,,Pluto TV,,US,auto,FALSE,,,,
-PlutoTVFutbol.de,Pluto TV Futbol,Pluto TV Fútbol,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,sports,FALSE,,,,
-PlutoTVFutbol.us,Pluto TV Futbol,Pluto TV Fútbol,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,sports,FALSE,,,,
+PlutoTVFutbol.de,Pluto TV Futbol,Pluto TV Fútbol,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,sports,FALSE,,,,https://pluto.tv/live-tv/pluto-tv-futbol-es/details
+PlutoTVFutbol.us,Pluto TV Futbol,Pluto TV Fútbol,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,sports,FALSE,,,,https://pluto.tv/live-tv/futbol/details
 PlutoTVFutbolParaFans.us,Pluto TV Futbol Para Fans,Pluto TV Fútbol Para Fans,Pluto TV,,US,sports,FALSE,,,,
 PlutoTVGamer.us,Pluto TV Gamer,,Pluto TV,,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-gamer
 PlutoTVGameShows.us,Pluto TV Game Shows,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-game-shows
@@ -23854,7 +23964,7 @@ PlutoTVGamingHeroes.us,Pluto TV Gaming Heroes,,Pluto TV,,US,kids,FALSE,,,,https:
 PlutoTVGamingporUbisoft.us,Pluto TV Gaming por Ubisoft,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,animation,FALSE,,,,
 PlutoTVGasolina.de,Pluto TV Gasolina,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,
 PlutoTVGoreSlasher.de,Pluto TV Gore & Slasher,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,
-PlutoTVHaialarm.de,Pluto TV Haialarm,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies;series,FALSE,,,,
+PlutoTVHaialarm.de,Pluto TV Haialarm,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies;series,FALSE,,,,https://pluto.tv/live-tv/pluto-tv-haialarm-de/details
 PlutoTVHandboldHighlights.se,Pluto TV Handbold Highlights,Pluto TV Håndbold Highlights,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,sports,FALSE,,,,
 PlutoTVHandboldLive.se,Pluto TV Handbold Live,Pluto TV Håndbold Live,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,sports,FALSE,,,,
 PlutoTVHandbollHighlights.se,Pluto TV Handboll Highlights,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,sports,FALSE,,,,
@@ -23893,10 +24003,9 @@ PlutoTVJunior.de,Pluto TV Junior,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydan
 PlutoTVJunior.us,Pluto TV Junior,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-junior-fr
 PlutoTVJuniorikerho.de,Pluto TV Juniorikerho,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,kids,FALSE,,,,
 PlutoTVJuniorklubben.se,Pluto TV Juniorklubben,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,kids,FALSE,,,,
-PlutoTVKaraokeporStingray.us,Pluto TV Karaoke por Stingray,Pluto TV Karaokê por Stingray,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,music,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-karaoke-por-stingray
+PlutoTVKaraokeporStingray.us,Pluto TV Karaoke por Stingray,Pluto TV Karaokê por Stingray,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,music,FALSE,,,,https://pluto.tv/live-tv/karaoke-por-stingray/details
 PlutoTVKauhu.de,Pluto TV Kauhu,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,
 PlutoTVKDrama.de,Pluto TV K-Drama,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,
-PlutoTVKenanyKel.us,Pluto TV Kenan y Kel,Kenan y Kel,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,comedy,FALSE,,,,
 PlutoTVKFOOD.us,Pluto TV KFOOD,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,cooking;lifestyle,FALSE,,,,
 PlutoTVKids.de,Pluto TV Kids,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,kids,FALSE,,,,
 PlutoTVKids.us,Pluto TV Kids,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-kids-gb
@@ -23921,7 +24030,7 @@ PlutoTVKultfilmer.se,Pluto TV Kultfilmer,,Pluto TV,Viaplay Group AB (publ);VIMN 
 PlutoTVKulttileffat.de,Pluto TV Kulttileffat,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,
 PlutoTVLasPistasdeBlue.us,Pluto TV Las Pistas de Blue,,Pluto TV,,US,series,FALSE,,,,
 PlutoTVLatinAngels.us,Pluto TV Latin Angels,,Pluto TV,,US,series,FALSE,,,,
-PlutoTVLaughsinSpanish.de,Pluto TV Laughs in Spanish,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,
+PlutoTVLaughsinSpanish.de,Pluto TV Laughs in Spanish,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/pluto-tv-laughs-in-spanish-de/details
 PlutoTVLeffat.de,Pluto TV Leffat,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,
 PlutoTVLegamiLetali.de,Pluto TV Legami Letali,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,
 PlutoTVLiveinConcert.us,Pluto TV Live in Concert,,Pluto TV,,US,music,FALSE,,,,
@@ -23972,7 +24081,7 @@ PlutoTVNovelasRomance.us,Pluto TV Novelas Romance,,Pluto TV,,US,series,FALSE,,,,
 PlutoTVNovelasThriller.us,Pluto TV Novelas Thriller,,Pluto TV,,US,movies,FALSE,,,,
 PlutoTVNuestroCine.us,Pluto TV Nuestro Cine,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,movies,FALSE,,,,
 PlutoTVOhMyPet.us,Pluto TV Oh My Pet,,Pluto TV,,US,series,FALSE,,,,
-PlutoTVOrgullo.de,Pluto TV Orgullo,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,
+PlutoTVOrgullo.de,Pluto TV Orgullo,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/pluto-tv-orgullo-es/details
 PlutoTVOvernaturlig.se,Pluto TV Overnaturlig,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,
 PlutoTVPaisagensporStingray.us,Pluto TV Paisagens por Stingray,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,education,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-paisagens-por-stingray
 PlutoTVPalkitut.de,Pluto TV Palkitut,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,
@@ -24006,7 +24115,7 @@ PlutoTVRetroDramaPlus.us,Pluto TV Retro Drama+,,Pluto TV,,US,series,FALSE,,,,htt
 PlutoTVRetroKid.us,Pluto TV Retro Kid,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,
 PlutoTVRetroToons.de,Pluto TV Retro Toons,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,animation;kids,FALSE,,,,
 PlutoTVRich.us,Pluto TV Rich,,Pluto TV,,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-rich-fr
-PlutoTVRomance.de,Pluto TV Romance,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies;series,FALSE,,,,
+PlutoTVRomance.de,Pluto TV Romance,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies;series,FALSE,,,,https://pluto.tv/live-tv/pluto-tv-romance-de/details
 PlutoTVRomance.us,Pluto TV Romance,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,movies;series,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-romance
 PlutoTVRomantiikka.de,Pluto TV Romantiikka,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,
 PlutoTVRomantik.se,Pluto TV Romantik,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,movies,FALSE,,,,
@@ -24084,7 +24193,7 @@ PlutoTVTelefeClasico.us,Pluto TV Telefe Clasico,Pluto TV Telefe Clásico,Pluto T
 PlutoTVTelenovela.us,Pluto TV Telenovela,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-telenovela-fr
 PlutoTVTelenovelas.de,Pluto TV Telenovelas,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,
 PlutoTVTelenovelasClasicas.de,Pluto TV Telenovelas Clasicas,Pluto TV Telenovelas Clásicas,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,
-PlutoTVTelerealiteFrance.de,Pluto TV Telerealite France,Pluto TV Téléréalité France,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,
+PlutoTVTelerealiteFrance.de,Pluto TV Telerealite France,Pluto TV Téléréalité France,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/pluto-tv-telerealite-france-fr/details
 PlutoTVTerror.us,Pluto TV Terror,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-terror
 PlutoTVTerrorTrash.us,Pluto TV Terror Trash,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,movies,FALSE,,,,
 PlutoTVTheStoryofBeatclub.us,Pluto TV The Story of Beatclub,,Pluto TV,,US,series,FALSE,,,,
@@ -24121,7 +24230,7 @@ PlutoTVVoyage.us,Pluto TV Voyage,,Pluto TV,,US,travel,FALSE,,,,https://pluto.tv/
 PlutoTVVs.us,Pluto TV Vs,,Pluto TV,,US,sports,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-vs
 PlutoTVWeatherNation.us,Pluto TV WeatherNation,,Pluto TV,,US,weather,FALSE,,,,
 PlutoTVWeddings.us,Pluto TV Weddings,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-weddings
-PlutoTVWeihnachtenimSommer.de,Pluto TV Weihnachten im Sommer,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,
+PlutoTVWeihnachtenimSommer.de,Pluto TV Weihnachten im Sommer,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,https://pluto.tv/live-tv/pluto-tv-weihnachten-im-sommer-de/details
 PlutoTVWestern.de,Pluto TV Western,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,
 PlutoTVWesterns.de,Pluto TV Westerns,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,
 PlutoTVWesterns.us,Pluto TV Westerns,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,movies,FALSE,,,,https://pluto.tv/en/live-tv/pluto-tv-westerns-ptv1
@@ -24800,6 +24909,7 @@ Qyzyljar.kz,Qyzyljar,,,,KZ,,FALSE,,,,http://petropavltv.kz/kz
 Qyzylorda.kz,Qyzylorda,,,,KZ,general,FALSE,,,,http://kyzylordatv.kz/
 R101TV.it,R101 TV,,,,IT,,FALSE,,,,
 R2TV.ng,R2TV,Royal Roots TV,,,NG,entertainment,FALSE,,,,
+r8DioTV.se,r8Dio TV,,Pluto TV,r8Dio ApS;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/r8dio-tv/details
 R9.at,R9,R9 TV Austria,,R9 Regional TV Austria GmbH,AT,,FALSE,2013-01-01,,,https://www.r-9.at/
 R9TV.in,R9 TV,,,,IN,,FALSE,2019-09-12,,,https://r9bharat.com/
 RaajjeTV.mv,Raajje TV,,,,MV,general,FALSE,2008-06-05,,,https://raajje.mv/
@@ -25615,10 +25725,10 @@ RiddimHopeTV.tt,Riddim & Hope TV,,,Riddim & Hope Network,TT,religious,FALSE,,,,h
 RideeTV.lk,Ridee TV,,,,LK,,FALSE,,,,
 RideTV.us,Ride TV,,,,US,,FALSE,,,,
 Ridiculousness.de,Ridiculousness,MTV Ridiculousness,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/ridiculousness-fr/details
-Ridiculousness.us,Ridiculousness,MTV Ridiculousness,Pluto TV,Pluto Inc.;Viacom International Inc.;Paramount Skydance Corporation,US,comedy,FALSE,,,,https://pluto.tv/live-tv/ridiculousness/details
-RidiculousnessNyaavsnitt.se,Ridiculousness Nya avsnitt,Ridiculousness Nya avsnitt,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/ridiculousness-nya-avsnitt-se/details
-RidiculousnessNyeafsnit.se,Ridiculousness Nye afsnit,Ridiculousness - Nye afsnit,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/ridiculousness-nye-afsnit-dk/details
-RidiculousnessNyeepisoder.se,Ridiculousness Nye episoder,Ridiculousness - Nye episoder,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/ridiculousness-nye-episoder-no/details
+Ridiculousness.us,Ridiculousness,MTV Ridiculousness,Pluto TV,Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,comedy,FALSE,,,,https://pluto.tv/live-tv/ridiculousness/details
+RidiculousnessNyaavsnitt.se,Ridiculousness: Nya avsnitt,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/ridiculousness-nya-avsnitt-se/details
+RidiculousnessNyeafsnit.se,Ridiculousness: Nye afsnit,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/ridiculousness-nye-afsnit-dk/details
+RidiculousnessNyeepisoder.se,Ridiculousness: Nye episoder,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/ridiculousness-nye-episoder-no/details
 RiesaTV.de,Riesa TV,,,,DE,general,FALSE,,,,https://www.riesa-tv.de/
 RiffTrax.us,RiffTrax,,Pluto TV,,US,comedy,FALSE,,,,https://pluto.tv/en/live-tv/rifftrax
 RightNowTV.us,Right Now TV,,,,US,sports;entertainment,FALSE,,,,https://www.rightnowtelevision.com/watch-live/
@@ -25711,6 +25821,7 @@ Roar.us,Roar,TBD,Roar,Sinclair Broadcast Group,US,entertainment,FALSE,,,,https:/
 RoatanInfoinsularTV.hn,Roatan Infoinsular TV,Roatán Infoinsular TV,,,HN,general,FALSE,,,,
 RoatanTravelNetwork.hn,Roatan Travel Network,,,,HN,travel,FALSE,,,,https://roatantravelnetwork.com/
 RobertTV.tz,Robert TV,,,,TZ,religious,FALSE,,,,https://roberttvtanzania.com/
+RobinsonEkspeditionen.se,Robinson Ekspeditionen,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/robinson-ekspeditionen-dk/details
 ROBTV.be,ROB TV,,,,BE,,FALSE,,,,
 RocavisionTV.do,Rocavision TV,,,,DO,general,FALSE,,,,https://www.tvdominicana.net/livetv/watch/roka-vision/48
 RoccoTV.cl,Rocco TV,,,,CL,,FALSE,,,,https://roccotv.cl/
@@ -25833,7 +25944,7 @@ RPLWoerden.nl,RPL Woerden,,,,NL,general,FALSE,,,,https://rplwoerden.nl/
 RPM.za,RPM,,,AfricaXP,ZA,auto,FALSE,,,,https://video.premiumfree.tv/?section=sportssection
 RPMTV.za,RPM TV,,,,ZA,auto,FALSE,,,,http://www.rpmtv.co.za/
 RPPTV.pe,RPP TV,,,,PE,news,FALSE,,,,http://rpp.pe/tv.html
-RPTV.ph,RPTV,,TV5 Network Inc,,PH,general,FALSE,2024-03-04,,,
+RPTV.ph,RPTV,,TV5 Network Inc,TV5 Network Inc.;Radio Philippines Network,PH,general,FALSE,2024-03-04,,,
 RQPParaguay.py,RQP Paraguay,,,Albavisión;Grupo SNT,PY,music,FALSE,2015-11-01,,,https://www.rqp.com.py/
 RRINet.id,RRI Net,,,,ID,,FALSE,,,,https://rri.co.id/
 rrotv.ch,rrotv,,,,CH,,FALSE,,,,
@@ -26212,6 +26323,7 @@ RugbyPassTV.uk,RugbyPass TV,Setanta Sports,,,UK,,FALSE,,2021-07-31,PremierSports
 RugbyTV.ge,Rugby TV,,,,GE,,FALSE,,,,
 RugbyZoneTV.fr,RugbyZone.TV,,,,FR,sports,FALSE,,,,https://rugbyzone.tv/
 RugenTV.de,Rugen TV,Rügen TV,,,DE,general,FALSE,,,,https://www.ruegentv.de/
+Rugrats.de,Rugrats,Nickelodeon Rugrats,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,kids,FALSE,,,,https://pluto.tv/live-tv/rugrats-es/details
 Rugrats.us,Rugrats,Nickelodeon Rugrats,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/rugrats-es
 RuhTV.ua,Ruh TV,Рух TV,,Ruh,UA,sports,FALSE,,,,https://ua.tribuna.com/tv/
 RuidosFM.cl,Ruidos FM,,,,CL,music,FALSE,,,,https://www.ruidosfm.cl/
@@ -26311,7 +26423,9 @@ SaberMas.us,Saber Mas,,,,US,,FALSE,,,,https://watch.plex.tv/live-tv/channel/sabe
 SabhaTV.in,Sabha TV,,,,IN,legislative,FALSE,2020-08-17,,,https://sabhatv.com/
 SaborskaTV.hr,Saborska TV,,,,HR,legislative,FALSE,,,,https://www.sabor.hr/
 Sabrinalaserieanimee.us,Sabrina la serie animee,Sabrina la série animée France,Pluto TV,,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/sabrina-la-serie-animee-fr
-SabrinaTeenageWitch.us,Sabrina Teenage Witch,,Pluto TV,,US,kids,FALSE,,,,https://pluto.tv/en/live-tv/sabrina-the-teenage-witch-gb
+SabrinaTheTeenageWitch.de,Sabrina The Teenage Witch,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/sabrina-the-teenage-witch-gb-ptv1/details
+SabrinatheTeenageWitch.se,Sabrina the Teenage Witch,Sabrina teininoita,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,comedy,FALSE,,,,https://pluto.tv/live-tv/sabrina-the-teenage-witch-se/details
+SabrinaTotalverhext.de,Sabrina: Total verhext!,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/sabrina-total-verhext-de/details
 SabroTV.ni,Sabro TV,,,,NI,entertainment,FALSE,,,,
 SabTV.gn,Sab TV,,,Groupe Africvision,GN,entertainment,FALSE,,,,https://sabtvguinee.com/
 SABTV.pk,SAB TV,,,,PK,entertainment,FALSE,,,,https://sabtv.pk/
@@ -26530,7 +26644,7 @@ SarbedaranTV.ir,Sarbedaran TV,,,,IR,,FALSE,,,,
 SardariTV.ca,Sardari TV,,,,CA,,FALSE,,,,
 Sardegna1.it,Sardegna 1,Sardegna Uno,,7 Gold,IT,,FALSE,1984-01-01,,,https://www.sardegna1.it/
 SargamTV.sr,Sargam TV,,,,SR,family,FALSE,,,,
-SariSariChannel.ph,Sari Sari Channel,,,,PH,,FALSE,,,,https://viva.com.ph/media/paytvs/domestic
+SariSariChannel.ph,Sari Sari Channel,,,Viva Communications;Cignal TV Inc.,PH,,FALSE,2016-01-15,2026-06-01,,https://viva.com.ph/media/paytvs/domestic
 SariyerTV.tr,Sariyer TV,,,,TR,,FALSE,,,,http://sariyer.tv.tr/
 SarokarTV.np,Sarokar TV,,,,NP,,FALSE,,,,
 SarthakTV.in,Sarthak TV,,,,IN,entertainment,FALSE,2010-09-01,2017-10-15,ZeeSarthak.in,
@@ -26663,6 +26777,8 @@ SciFi4U.us,Sci-Fi 4U,,,,US,classic,FALSE,,,,
 SCMTVHD321.bo,SCM TV HD 32.1,,,,BO,general,FALSE,,,,
 ScopeTV.kw,Scope TV,,,,KW,,FALSE,,,,
 ScorchTV.tt,Scorch TV,,,,TT,music,FALSE,,,,https://scorchtv.com/
+Scorpion.de,Scorpion,CBS Scorpion,Pluto TV,CBS Broadcasting Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,https://pluto.tv/live-tv/scorpion-gb/details
+Scorpion.se,Scorpion,CBS Scorpion,Pluto TV,CBS Broadcasting Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/scorpion-se/details
 ScotchPlainsTV.us,Scotch Plains TV,,,,US,general,FALSE,,,,https://www.scotchplainsnj.gov/index.php/departments/scotch-plains-tv
 ScottsdaleChannel11.us,Scottsdale Channel 11,,,,US,general,FALSE,,,,https://www.scottsdaleaz.gov/scottsdale-video-network
 SCPTV.us,SCP-TV,St. Charles Parish Government Access Television,,,US,legislative,FALSE,,,,https://www.stcharlesparish.gov/connect/scp-tv
@@ -27233,6 +27349,9 @@ SkinemaxHD.ca,Skinemax HD,,Exxxtasy Network,Fifth Dimension Properties,CA,xxx,TR
 SKITV.au,SKI TV,,,Geoff Harrison,AU,sports,FALSE,,,,https://www.skitv.tv/
 SKITV.ch,SKI TV,,,,CH,sports,FALSE,,,,https://www.skitv.tv/
 Skjar1.is,Skjar 1,Skjár 1,,,IS,entertainment,FALSE,,,,https://skjar1.is/
+SkjonnhetsfellenDanmark.se,Skjonnhetsfellen Danmark,Skjønnhetsfellen Danmark,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/skjonnhetsfellen-danmark-no/details
+SkonhetsfallanDanmark.se,Skonhetsfallan Danmark,Skönhetsfällan Danmark,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/skonhetsfallan-danmark-se/details
+Skonneombygninger.se,Skonne ombygninger,Skønne ombygninger,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,cooking;lifestyle,FALSE,,,,https://pluto.tv/live-tv/skonne-ombygninger-dk/details
 SKOTelevision.bo,SKO Television,SKO Televisión,,,BO,entertainment,FALSE,,,,https://www.skotelevision.net/
 Skrypinua.ua,Skrypin.ua,,,,UA,,FALSE,,,,https://skrypin.ua/
 SKStoa.kr,SK Stoa,SK스토아,,,KR,shop,FALSE,2017-12-01,,,https://www.skstoa.com/
@@ -27655,7 +27774,7 @@ SmithsonianChannel.us,Smithsonian Channel,,,SNI/SI Networks L.L.C.;Smithsonian I
 SmithsonianChannelAsia.us,Smithsonian Channel Asia,,,SNI/SI Networks L.L.C.;Smithsonian Institution;Paramount Skydance Corporation,US,science,FALSE,,,,https://www.smithsonianchannel.com/
 SmithsonianChannelLatinAmerica.us,Smithsonian Channel Latin America,,,SNI/SI Networks L.L.C.;Smithsonian Institution;Paramount Skydance Corporation,US,science,FALSE,,,,https://www.smithsonianchannellatam.com/
 SmithsonianChannelPlutoTV.us,Smithsonian Channel Pluto TV,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,documentary,FALSE,,,,
-SmithsonianChannelSelects.se,Smithsonian Channel Selects,,Pluto TV,Pluto Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,documentary,FALSE,,,,https://pluto.tv/live-tv/smithsonian-channel-selects-se-ptv1/details
+SmithsonianChannelSelects.se,Smithsonian Channel Selects,,Pluto TV,SNI/SI Networks L.L.C.;Smithsonian Institution;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,documentary,FALSE,,,,https://pluto.tv/live-tv/smithsonian-channel-selects-se-ptv1/details
 SmithsonianChannelSelects.us,Smithsonian Channel Selects,,Pluto TV,SNI/SI Networks L.L.C.;Smithsonian Institution;Paramount Skydance Corporation,US,science,FALSE,,,,https://pluto.tv/en/live-tv/smithsonian-channel-selects
 SMNI.ph,SMNI,,,,PH,,FALSE,,,,https://smni.com/
 SMNINewsChannel.ph,SMNI News Channel,,,,PH,news,FALSE,,,,http://www.smninewschannel.com/
@@ -27861,11 +27980,13 @@ SoutalarabTV.kw,Soutalarab TV,,,,KW,,FALSE,,,,http://arabnewstv.net/
 SouthernKantoRegionalHorseRacingChannel.jp,Southern Kanto Regional Horse Racing Channel,南関東地方競馬チャンネル,,,JP,sports,FALSE,,,,https://www.nankan-tv.com/
 SouthernShoppingChannel.cn,Southern Shopping Channel,南方购物频道,,Guangdong Radio and Television,CN,shop,FALSE,,,,https://www.gdtv.cn/tvChannelDetail/43
 SouthHavenGovernmentAccess.us,South Haven Government Access,,,,US,legislative,FALSE,,,,https://www.southhavenmi.gov/government/online_meetings/index.php
-SouthPark.de,South Park,Comedy Central South Park,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-fi/details
+SouthPark.au,South Park,Comedy Central South Park,Pluto TV,Comedy Partners;Viacom International Inc.;Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-au/details
+SouthPark.de,South Park,Comedy Central South Park,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-es/details
 SouthPark.se,South Park,Comedy Central South Park,Pluto TV,Comedy Partners;Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-se/details
 SouthPark.us,South Park,Comedy Central South Park,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,animation,FALSE,,,,https://pluto.tv/en/live-tv/south-park-fr
+SouthPark2.au,South Park 2,Comedy Central South Park 2,Pluto TV,Comedy Partners;Viacom International Inc.;Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-2-au/details
 SouthParkArmageddon.de,South Park Armageddon,Comedy Central South Park Armageddon,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-armageddon-de/details
-SouthParkArmageddon.se,South Park Armageddon,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-armageddon-se/details
+SouthParkArmageddon.se,South Park Armageddon,Comedy Central South Park Armageddon,Pluto TV,Comedy Partners;Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-armageddon-se/details
 SouthParkButtersCollection.de,South Park: Butters Collection,Comedy Central South Park: Butters Collection,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-butters-collection-de/details
 SouthParkButtersCollection.se,South Park: Butters Collection,Comedy Central South Park: Butters Collection,Pluto TV,Comedy Partners;Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-butters-collection-se/details
 SouthParkCartmanCollection.de,South Park: Cartman Collection,Comedy Central South Park: Cartman Collection,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-cartman-collection-de/details
@@ -27882,16 +28003,16 @@ SouthParkColeccionStan.us,South Park: Coleccion Stan,South Park: Colección Stan
 SouthParkEnFrancais.us,South Park En Francais,South Park En Français;Comedy Central South Park En Francais,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-en-francais-ca/details
 SouthParkIntotheStars.se,South Park: Into the Stars,Comedy Central South Park: Into the Stars,Pluto TV,Comedy Partners;Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-into-the-stars-se/details
 SouthParkKennyCollection.de,South Park: Kenny Collection,Comedy Central South Park: Kenny Collection,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-kenny-collection-de/details
-SouthParkKennyCollection.se,South Park: Kenny Collection,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-kenny-collection-se/details
+SouthParkKennyCollection.se,South Park: Kenny Collection,Comedy Central South Park: Kenny Collection,Pluto TV,Comedy Partners;Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-kenny-collection-se/details
 SouthParkKennyCollection.us,South Park: Kenny Collection,Comedy Central South Park: Kenny Collection,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-kenny-collection-ca/details
 SouthParkKyleCollection.de,South Park: Kyle Collection,Comedy Central South Park: Kyle Collection,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-kyle-collection-de/details
-SouthParkKyleCollection.se,South Park: Kyle Collection,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-kyle-collection-se/details
+SouthParkKyleCollection.se,South Park: Kyle Collection,Comedy Central South Park: Kyle Collection,Pluto TV,Comedy Partners;Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-kyle-collection-se/details
 SouthParkKyleCollection.us,South Park: Kyle Collection,Comedy Central South Park: Kyle Collection,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-kyle-collection-ca/details
 SouthParkOriginalVersion.de,South Park: Original Version,Comedy Central South Park: Original Version,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-original-version-de/details
 SouthParkRockinOut.se,South Park Rockin' Out,Comedy Central South Park Rockin' Out,Pluto TV,Comedy Partners;Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-rockin-out-se/details
 SouthParkRocks.de,South Park Rocks!,Comedy Central South Park Rocks!,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-rocks-de/details
 SouthParkStanCollection.de,South Park: Stan Collection,Comedy Central South Park: Stan Collection,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-stan-collection-de/details
-SouthParkStanCollection.se,South Park: Stan Collection,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-stan-collection-se/details
+SouthParkStanCollection.se,South Park: Stan Collection,Comedy Central South Park: Stan Collection,Pluto TV,Comedy Partners;Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-stan-collection-se/details
 SouthParkStanCollection.us,South Park: Stan Collection,Comedy Central South Park: Stan Collection,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-stan-collection-ca/details
 SouthParkStarsSternchen.de,South Park: Stars & Sternchen,Comedy Central South Park: Stars & Sternchen,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,animation;comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-stars-and-sternchen-de/details
 SouthParkVersionOriginal.de,South Park Version Original,South Park Versión Original;Comedy Central South Park Version Original,Pluto TV,Comedy Partners;Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,comedy,FALSE,,,,https://pluto.tv/live-tv/south-park-version-original-es/details
@@ -27998,6 +28119,7 @@ SPLTV.tn,SPLTV,,,,TN,sports,FALSE,,,,https://spl-tv.com/live-tv/
 SPlus.pt,S+,,,,PT,,FALSE,,,,
 Spondon.in,Spondon,,,NK Power and Infrastructure Pvt. Ltd.,IN,entertainment,FALSE,2022-12-08,,,https://www.spondontv.com/
 SpongeBobSchwammkopf.de,SpongeBob Schwammkopf,Nickelodeon SpongeBob Schwammkopf,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,kids,FALSE,,,,https://pluto.tv/live-tv/spongebob-schwammkopf-de/details
+SpongeBobSquarePants.au,SpongeBob SquarePants,Nickelodeon SpongeBob SquarePants,Pluto TV,Viacom International Inc.;Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,general,FALSE,,,,https://pluto.tv/live-tv/spongebob-squarepants-au/details
 SpongeBobSquarePants.us,SpongeBob SquarePants,Nickelodeon SpongeBob SquarePants,Pluto TV,Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,kids,FALSE,,,,https://pluto.tv/live-tv/spongebob-squarepants-ca/details
 SpoonTV.lr,Spoon TV,,Spoon Network,,LR,general,FALSE,,,,https://www.spoonfmradio.com/
 SporSmart.tr,Spor Smart,,,,TR,,FALSE,,,,https://www.dsmart.com.tr/
@@ -28303,14 +28425,16 @@ Start.ru,Start,Старт,,,RU,sports,FALSE,,,,https://tvstart.ru/
 STARTAir.ru,START Air,,,,RU,movies,FALSE,2021-12-29,,,https://starttv.ru/
 StarTamilTelevision.lk,Star Tamil Television,,,,LK,movies,FALSE,2009-09-17,,,
 StarTollywood.tz,Star Tollywood,,,,TZ,movies,FALSE,,,,
-StarTrek.us,Star Trek,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/star-trek-1
+StarTrek.us,Star Trek,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/live-tv/star-trek-1/details
 StarTrekDeepSpaceNine.us,Star Trek: Deep Space Nine,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,movies;series,FALSE,,,,https://pluto.tv/live-tv/star-trek-deep-space-nine/details
 StarTrekMovies.se,Star Trek Movies,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,movies,FALSE,,,,https://pluto.tv/live-tv/star-trek-movies-se/details
 StarTrekTheNextGeneration.de,Star Trek: The Next Generation,,Pluto TV,Pluto Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies;series,FALSE,,,,https://pluto.tv/live-tv/star-trek-the-next-generation-ptv1/details
+StarTrekTheNextGeneration.se,Star Trek: The Next Generation,,Pluto TV,Pluto Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,movies;series,FALSE,,,,https://pluto.tv/live-tv/star-trek-the-next-generation-fi/details
 StarTrekTheNextGeneration.us,Star Trek: The Next Generation,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,movies;series,FALSE,,,,https://pluto.tv/live-tv/star-trek-the-next-generation/details
 StarTrekTheOriginalSeries.de,Star Trek: The Original Series,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies;series,FALSE,,,,https://pluto.tv/live-tv/star-trek-the-original-series-ptv4/details
 StarTrekTheOriginalSeries.se,Star Trek: The Original Series,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,movies;series,FALSE,,,,https://pluto.tv/live-tv/star-trek-the-original-series-ptv2/details
-StarTrekVoyager.de,Star Trek: Voyager,,Pluto TV,Pluto Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies;series,FALSE,,,,https://pluto.tv/live-tv/star-trek-voyager-fi/details
+StarTrekVoyager.de,Star Trek: Voyager,,Pluto TV,Pluto Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies;series,FALSE,,,,https://pluto.tv/live-tv/star-trek-voyager-es/details
+StarTrekVoyager.se,Star Trek: Voyager,,Pluto TV,Pluto Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,movies;series,FALSE,,,,https://pluto.tv/live-tv/star-trek-voyager-fi/details
 StarTrekVoyager.us,Star Trek: Voyager,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,movies;series,FALSE,,,,https://pluto.tv/live-tv/star-trek-voyager/details
 StartTriumf.ru,Start Triumf,Старт Триумф,,Start,RU,sports,FALSE,2022-09-15,,,
 StartTV.az,Start TV,Kanal S,,,AZ,,FALSE,,,,https://kanal-s.az/
@@ -28676,6 +28800,7 @@ StudioUniversalAfrica.us,Studio Universal Africa,,,,US,,FALSE,,,,http://www.univ
 StudioUniversalLatinAmerica.us,Studio Universal Latin America,Studio Universal Brasil,,,US,,FALSE,,,,http://www.universalplus.com/
 StudioYuva.in,Studio Yuva,,,,IN,entertainment,FALSE,,,,
 StudiyaFakt.ru,Studiya Fakt,Студия Факт,,,RU,,FALSE,,,,https://xn--80adgql2bfcefn5k.xn--p1ai/
+StugfixarnaNorge.se,Stugfixarna Norge,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,cooking;lifestyle,FALSE,,,,https://pluto.tv/live-tv/stugfixarna-norge-se/details
 STV.by,STV,СТБ,,,BY,general,FALSE,2001-01-01,,,http://ctv.by/
 STV.cm,STV,Spectrum Television,,Spectrum Cameroon,CM,general,FALSE,,,,http://www.stvgroup.com/
 STV.cv,STV,Sistema Terra Verde,,GC Comunicações,CV,music,FALSE,,,,
@@ -29013,6 +29138,8 @@ SVBC.in,SVBC,శ్రీ వేంకటేశ్వర భక్తి ఛా�
 SVBC2.in,SVBC 2,ஶ்ரீ வேங்கடேஸ்வரா பக்தி சேனல்,SVBC,Sri Venkateswara Bhakti Channel; Tirumala Tirupati Devasthanams (TTD),IN,religious,FALSE,2017-04-14,,,http://www.svbcttd.com/SVBC_LIVE_TAMIL.html
 SVBC3.in,SVBC 3,ಶ್ರೀ ವೆಂಕಟೇಶ್ವರ ಭಕ್ತಿ ಚಾನೆಲ್,SVBC,Sri Venkateswara Bhakti Channel; Tirumala Tirupati Devasthanams (TTD),IN,religious,FALSE,2021-10-12,,,http://www.svbcttd.com/tv3.html
 SVBC4.in,SVBC 4,श्री वेंकटेश्वरा भक्ति चैनल,SVBC,Sri Venkateswara Bhakti Channel; Tirumala Tirupati Devasthanams (TTD),IN,religious,FALSE,2021-10-12,,,http://www.svbcttd.com/TV4.html
+SvenskaHollywoodfruar.se,Svenska Hollywoodfruar,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/svenska-hollywoodfruar-se/details
+SvenskaTruckers.se,Svenska Truckers,Svenske Truckers,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/svenska-truckers-se/details
 SverigeKanalen.se,SverigeKanalen,,,,SE,religious,FALSE,,,,https://www.sverigekanalen.se/
 SverigeRadioTV1.se,Sverige Radio TV1,,,,SE,,FALSE,1969-12-05,1980-01-01,SVTTV1.se,
 SverigesRadioTV.se,Sveriges Radio TV,,,,SE,,FALSE,1957-01-01,1969-12-05,SverigeRadioTV1.se,
@@ -29398,7 +29525,7 @@ TECTV.ar,TEC TV,,,,AR,science,FALSE,,,,http://www.tectv.gob.ar/
 TED.us,TED,,,,US,,FALSE,,,,https://watch.plex.tv/live-tv/channel/ted
 TeenAfricaTV.ng,Teen Africa TV,,,,NG,kids,FALSE,,,,
 TeenageMutantNinjaTurtles.de,Teenage Mutant Ninja Turtles,Nickelodeon Teenage Mutant Ninja Turtles,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,animation;kids,FALSE,,,,https://pluto.tv/live-tv/teenage-mutant-ninja-turtles-it/details
-TeenMom.de,Teen Mom,MTV Teen Mom,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/teen-mom-fr/details
+TeenMom.de,Teen Mom,MTV Teen Mom,Pluto TV,Viacom International Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/teen-mom-it/details
 TeenMom.us,Teen Mom,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,documentary,FALSE,,,,https://pluto.tv/en/live-tv/teen-mom
 TeenNick.br,TeenNick,,Nickelodeon,,BR,kids,FALSE,,,,https://nickelodeon.com.br/
 TeenNick.cz,TeenNick,,Nickelodeon,,CZ,kids,FALSE,,,,http://www.nickelodeon.cz/
@@ -30196,7 +30323,7 @@ TheGrid.us,The Grid,,,,US,,FALSE,,,,https://watch.plex.tv/live-tv/channel/the-gr
 TheGrioTV.us,TheGrio TV,,,,US,,FALSE,,,,https://thegriotv.com/
 TheGrotonChannel.us,The Groton Channel,,,,US,general,FALSE,,,,https://www.thegrotonchannel.org/live.html
 TheGuardian.uk,The Guardian,,,,UK,news;documentary,FALSE,,,,
-TheHillsLagunaBeach.us,The Hills / Laguna Beach,MTV The Hills / Laguna Beach,Pluto TV,Pluto Inc.;Viacom International Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/the-hills-laguna-beach/details
+TheHillsLagunaBeach.us,The Hills / Laguna Beach,MTV The Hills / Laguna Beach,Pluto TV,Viacom International Inc.;Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/the-hills-laguna-beach/details
 TheHillTV.us,The Hill TV,,,Nexstar Media Group,US,,FALSE,,,,https://thehill.com/hilltv/
 TheHomeChannel.za,The Home Channel,,,Arena Holdings,ZA,,FALSE,,,,https://www.thehomechannel.co.za/
 TheIndonesiaChannel.id,The Indonesia Channel,,,,ID,culture;education,FALSE,2014-06-04,,,https://www.theindonesiachannel.com/
@@ -30210,9 +30337,12 @@ THEKPOP.kr,THE K-POP,,,SBS Medianet,KR,music,FALSE,,,,https://sbsmedianet.sbs.co
 TheLatinZoneTV.us,The Latin Zone TV,,,,US,music,FALSE,,,,https://www.vivalivetv.com/channel/the-latin-zone
 TheLoveBoat.us,The Love Boat,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,classic,FALSE,,,,https://pluto.tv/en/live-tv/the-love-boat
 TheLoveDestination.us,The Love Destination,,,,US,entertainment,FALSE,,,,
+TheLWord.se,The L Word,Showtime The L Word,Pluto TV,Showtime Networks Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/the-l-word-ptv2/details
+TheLWordWennFrauenlieben.de,The L Word – Wenn Frauen lieben,Showtime The L Word – Wenn Frauen lieben,Pluto TV,Showtime Networks Inc.;Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,https://pluto.tv/live-tv/the-l-word-wenn-frauen-lieben-de/details
 TheMapReportTV.it,The Map Report TV,Canale 68,,,IT,education,FALSE,,,,https://www.themapreport.com/the-map-report-tv/
 ThemaTelevision.cl,Thema Television,Thema Televisión,,,CL,,FALSE,,,,https://www.thematelevision.cl/
 TheMentorChannel.us,The Mentor Channel,,,,US,general,FALSE,,,,https://cityofmentor.com/
+TheMillers.se,The Millers,CBS The Millers,Pluto TV,CBS Broadcasting Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,general,FALSE,,,,https://pluto.tv/live-tv/millers-ptv3/details
 TheMontereyChannel.us,The Monterey Channel,,,,US,general,FALSE,,,,https://accessmediaproductions.org/
 TheMovie.kr,The Movie,,,,KR,movies,FALSE,,,,http://www.chthemovie.com/
 TheMovieChannel.us,The Movie Channel,,Paramount+ with SHOWTIME,Showtime Networks Inc.;Paramount Skydance Corporation,US,movies,FALSE,,,,https://www.sho.com/
@@ -30257,6 +30387,7 @@ TheSuperstation.br,The Superstation,Supercanal,,,BR,,FALSE,1991-01-01,2000-10-31
 TheTempleTV.cm,The Temple TV,,,,CM,,FALSE,,,,https://www.thetemple.tv/
 TheTimConwayShow.us,The Tim Conway Show,,,,US,classic,FALSE,,,,
 TheTitanicChannel.us,The Titanic Channel,,,,US,series,FALSE,,,,
+TheTwilightZone.au,The Twilight Zone,,Pluto TV,Pluto Inc.;Network Ten All Access Pty Ltd.;Paramount Skydance Corporation,AU,series;classic,FALSE,,,,https://pluto.tv/live-tv/the-twilight-zone-au/details
 TheTwilightZone.se,The Twilight Zone,,Pluto TV,Pluto Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,movies;series,FALSE,,,,https://pluto.tv/live-tv/the-twilight-zone-se/details
 TheUltimateMusicChannel.us,The Ultimate Music Channel,,,,US,music,FALSE,,,,https://theultimatemusicchannel.com/contact/
 TheVisitorChannel.lc,The Visitor Channel,,,,LC,travel,FALSE,,,,https://www.caribbeantelevision.org/
@@ -30332,6 +30463,8 @@ TIKTAK.rs,TIKTAK,Muzzik TIKTAK,,,RS,music,FALSE,,,,https://www.muzzik.tv/
 TikTokRadioBrasil.br,TikTok Radio Brasil,,,Stingray Group Inc.,BR,music,FALSE,2025-08-11,,,https://pluto.tv/live-tv/tiktok-radio-brasil
 TileFOS.gr,TileFOS,ΤηλεΦΩΣ,,Tilefos - Nea Zoi S.A.,GR,outdoor,FALSE,1994-01-01,2010-09-06,KontraChannel.gr,
 Tilemousiki.gr,Tilemousiki,,,,GR,,FALSE,,,,
+Tiljulefrokosthosr8Dio.se,Til julefrokost hos r8Dio,,Pluto TV,r8Dio ApS;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/til-julefrokost-hos-r8dio-dk/details
+TilMiddagHos.se,Til Middag Hos,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,cooking;lifestyle,FALSE,,,,https://pluto.tv/live-tv/til-middag-hos-dk/details
 TimeChannel.gr,Time Channel,,,Radiotelevision Time Channel S.A.,GR,shop,FALSE,1991-01-01,2023-10-01,,
 TimelessDiziChannel.pl,Timeless Dizi Channel,Timeless Dizi Channel Polska,,SPI International,PL,,FALSE,,,,https://dizi.pl/
 TimelessDiziChannel.ro,Timeless Dizi Channel,,,SPI International,RO,,FALSE,,,,https://timelessdramachannel.com/dizi-romania/
@@ -30642,7 +30775,7 @@ Totovision.gt,Totovision,Totovisión,,,GT,music,FALSE,,,,https://totovision.net/
 ToubaBelelTV.sn,Touba Belel TV,,,,SN,religious,FALSE,,,,https://www.toubabelel.net/web-tv/
 ToubaMondeBiTV.sn,ToubaMondeBi TV,,,,SN,religious,FALSE,,,,https://www.toubamondebi.com/
 ToubaTV.sn,Touba TV,,,,SN,religious,FALSE,,,,
-ToughJobs.us,Tough Jobs,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,
+ToughJobs.us,Tough Jobs,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,entertainment,FALSE,,,,https://pluto.tv/live-tv/tough-jobs/details
 ToumaiTV.td,Toumai TV,Toumaï TV,,Fondation Grand Cœur,TD,general,FALSE,2020-07-15,,,https://www.toumaitv.live/
 TourismTV.au,Tourism TV,,,First Nations Broadcasting Australia,AU,travel,FALSE,,,,https://www.firstnationsbroadcasting.org/television
 TouristTVBonaire.bq,Tourist TV Bonaire,,,Lamedia Bonaire,BQ,travel,FALSE,,,,https://lamediabonaire.com/
@@ -30858,6 +30991,7 @@ TrueBlueTV.us,True Blue TV,,,,US,legislative,FALSE,,,,https://www.mtsu.edu/trueb
 TrueChineseMore.th,True Chinese More,,,,TH,,FALSE,,,,https://tv.trueid.net/live/true-chinese-more-hd
 TrueCrime.uk,True Crime,,,AMC Networks International;Paramount Networks UK & Australia,UK,series,FALSE,2023-11-22,,,https://www.truecrime-tv.co.uk/
 TrueCrimebyPlutoTV.de,True Crime by Pluto TV,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,series,FALSE,,,,
+TruecrimefranViaplay.se,True crime fran Viaplay,True crime från Viaplay,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/true-crime-fran-viaplay-se/details
 TrueCrimeNetwork.us,True Crime Network,,,,US,series,FALSE,,,,https://www.truecrimenetworktv.com/
 TrueCrimeNow.us,True Crime Now,,,,US,,FALSE,,,,https://watch.plex.tv/live-tv/channel/true-crime-now
 TrueCrimeXtra.uk,True Crime Xtra,,,AMC Networks International;Paramount Networks UK & Australia,UK,series,FALSE,2023-11-22,,,https://www.truecrimextra-tv.co.uk/
@@ -30896,6 +31030,7 @@ TrueSports7.th,TrueSports 7,ทรูสปอร์ต 7,,,TH,sports,FALSE,,,,h
 TrueStore.th,True Store,,,,TH,shop,FALSE,,,,https://tv.trueid.net/live/true-store
 TrueTennis.th,True Tennis,,,,TH,sports,FALSE,,,,https://tv.trueid.net/live/true-tennis-hd
 TrueThaiFilm.th,True Thai Film,,,,TH,movies,FALSE,,,,https://tv.trueid.net/live/thai-film
+TrueTV.ph,True TV,,,Nation Broadcasting Corporation,PH,general,FALSE,2024-11-04,,,
 TrueXZyte.th,True X-Zyte,,,,TH,,FALSE,,,,https://tv.trueid.net/live/true-x-zyte-hd
 Truly.us,Truly,,Pluto TV,,US,lifestyle,FALSE,,,,https://pluto.tv/en/live-tv/truly-gb
 TrumanTV.mc,Truman TV,,,Montepilli Communications & Promotions,MC,entertainment,FALSE,,,,https://www.radiotruman.tv/
@@ -31006,7 +31141,7 @@ TupizaTV.bo,Tupiza TV,,,,BO,general,FALSE,,,,
 TuransaTV.gt,Turansa TV,,,,GT,general,FALSE,,,,
 TuranTV.kz,Turan TV,,,,KZ,,FALSE,,,,
 TurbionDigitalTV.bo,Turbion Digital TV,Turbión Digital TV,,,BO,general,FALSE,,,,https://turbiondigital.blogspot.com/
-Turbo.de,Turbo,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,
+Turbo.de,Turbo,,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,entertainment,FALSE,,,,https://pluto.tv/live-tv/turbo-fr/details
 TurboMixRadioTV.pe,Turbo Mix Radio TV,,,,PE,music,FALSE,,,,https://www.turbomix.com.pe/
 TurboTelevision.co,Turbo Television,Turbo Televisión,,,CO,general,FALSE,,,,
 TurboTV.sk,Turbo TV,,,,SK,,FALSE,,,,https://detskyfest.sk/turbotv/
@@ -31230,7 +31365,7 @@ TV5.dz,TV5,الجزائرية الخامسة;Coran TV;قناة القرآن ال
 TV5.fi,TV5,TV5 HD,,Warner Bros. Discovery EMEA,FI,,FALSE,2008-09-10,,,https://www.dplay.fi/kanavat/tv5
 TV5.mn,TV5,,,,MN,general,FALSE,,,,http://tv5.mn/
 TV5.pe,TV5,,,,PE,general,FALSE,,,,https://tv5soritor.com/
-TV5.ph,TV5,,,,PH,,FALSE,,,,https://www.tv5.com.ph/
+TV5.ph,TV5,,,TV5 Network Inc.,PH,,FALSE,,,,https://www.tv5.com.ph/
 TV5.rs,TV 5,ТВ 5,,Delta Matic doo;Jugoslav Jović;Nataša Čorbić;Danilo Lukić,RS,,FALSE,1994-01-01,2012-01-01,,
 TV5.tr,TV 5,,,,TR,,FALSE,,,,https://www.tv5.com.tr/
 TV5.ua,TV 5,,,,UA,,FALSE,,,,https://tv5.zp.ua/
@@ -32893,6 +33028,7 @@ UNETV.hn,UNE TV,,,,HN,news,FALSE,,,,
 UneVinalopo.es,Une Vinalopo,Une Vinalopó,,,ES,,FALSE,,,,https://www.unevinalopo.es/directo/
 UNews.lb,UNews,,,,LB,news,FALSE,,,,https://unews.com.lb/live
 Unexplained.us,Unexplained,,,,US,,FALSE,,,,https://watch.plex.tv/live-tv/channel/unexplained
+UngaMammor.se,Unga Mammor,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/unga-mammor-se/details
 UNIANDESTV.ec,UNIANDES TV,,,Universidad Regional Autónoma de los Andes,EC,education,FALSE,,,,https://uniandestv.com/
 UNIANTV.ua,UNIAN TV,УНІАН ТБ,,1+1 Media Group,UA,,FALSE,2010-07-28,,,https://www.unian.net/
 Unicable.mx,Unicable,,,,MX,,FALSE,,,,https://www.unicable.tv/
@@ -33343,6 +33479,7 @@ Via93.fr,Via93,Vià93,,,FR,general,FALSE,,,,https://via93.tv/
 ViaAltomayo.pe,Via Altomayo,Vía Altomayo,,,PE,general,FALSE,,,,https://www.viaaltomayotv.com/
 ViaATV.mq,ViaATV,ViàATV,,Media H Antilles Guyane,MQ,general,FALSE,1993-02-11,,,https://viaatv.tv/
 VIAElCanaldeCelaya.mx,VIA El Canal de Celaya,,,,MX,general,FALSE,,,,https://viaelcanaldecelaya.tv/
+ViafreeMovies.se,Viafree Movies,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,movies,FALSE,,,,https://pluto.tv/live-tv/viafree-movies-se/details
 ViaggiSapori.es,Viaggi & Sapori,,Love Travel & Taste,Love TV Channels S.L.,ES,travel;lifestyle,FALSE,,,,https://lovetvchannels.com/en/our-channels/#travel
 ViaGuadeloupe.fr,ViaGuadeloupe,ViàGuadeloupe,,,FR,,FALSE,,,,https://viaatv.tv/
 ViaGuyane.fr,ViaGuyane,ViàGuyane,,,FR,,FALSE,,,,https://viaatv.tv/
@@ -33620,7 +33757,7 @@ ViuTV.hk,ViuTV,,,HK Television Entertainment,HK,,FALSE,2016-03-31,,,http://viu.t
 ViuTVsix.hk,ViuTVsix,,,HK Television Entertainment,HK,,FALSE,2017-03-31,,,http://viu.tv/
 Viva.il,Viva,,,,IL,,FALSE,,,,https://viva.walla.co.il/item/1683908
 VivaCanal33.pa,Viva Canal 33,,,Compañía Digital de Televisión,PA,religious,FALSE,2018-10-01,,,
-VivaCinema.ph,Viva Cinema,,,,PH,movies,FALSE,,,,http://www.viva.com.ph/
+VivaCinema.ph,Viva Cinema,,,Viva Communications,PH,movies,FALSE,,,,http://www.viva.com.ph/
 VivacomArena.bg,Vivacom Arena,,,,BG,,FALSE,,,,http://www.vivacom.bg/bg/tv/ceni-i-oferti/vivacom-arena
 VivaLatino.ua,¡Viva Latino!,,,Music Television of Ukraine,UA,music,FALSE,,,,
 Vivaldi.us,Vivaldi,,,,US,,FALSE,,,,https://watch.plex.tv/live-tv/channel/vivaldi
@@ -33640,7 +33777,7 @@ VivaTVYurimaguas.pe,Viva TV Yurimaguas,,,,PE,,FALSE,,,,https://www.vivatvonline.
 VivaxTV.br,Vivax TV,,,,BR,general,FALSE,,,,https://www.vivaxtv.com/
 Vive.ve,Vive,,,Sistema Bolivariano de Comunicación e Información,VE,education,FALSE,2003-11-11,,,http://www.vive.gob.ve/
 ViveElquiTV.cl,Vive Elqui TV,,,,CL,general,FALSE,,,,
-ViveTV.co,Vive TV,,,,CO,,FALSE,,,,https://www.vivetvcolombia.com/
+ViveTV.co,Vive TV,,,P&C SAS,CO,general,FALSE,,,,https://www.vivetvcolombia.com/
 VividRedHD.us,Vivid Red HD,,,,US,xxx,TRUE,,,,https://redlight.tv/vivid-red-hd/
 VividTouch.uk,Vivid Touch,,Redlight TV,,UK,xxx,TRUE,,,,https://redlight.tv/vivid-touch/
 VividTV.us,Vivid TV,,,,US,xxx,TRUE,,,,http://vividtv.com/
@@ -36103,6 +36240,7 @@ WikiTV.kh,Wiki TV,,,,KH,education,FALSE,,,,https://poscardigital.com/
 WildatHeart.us,Wild at Heart,,Pluto TV,,US,series,FALSE,,,,https://pluto.tv/en/live-tv/wild-at-heart-gb
 WildBrainTV.ca,WildBrainTV,Family CHRGD;Disney XD Canada,,WildBrain,CA,family,FALSE,2011-01-01,,,http://wildbraintv.com/
 WildEarth.za,WildEarth,,,WildEarth Media (Pty) Ltd.,ZA,outdoor;relax;documentary;education,FALSE,2020-08-25,,,https://wildearth.tv/
+Wildfire.se,Wildfire,,Pluto TV,Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,series,FALSE,,,,https://pluto.tv/live-tv/wildfire-se/details
 WildNOut.us,Wild 'N Out,,Pluto TV,Pluto Inc.;Paramount Skydance Corporation,US,series,FALSE,,,,https://pluto.tv/en/live-tv/wild-n-out
 WildSideTV.fr,Wild Side TV,,,,FR,movies,FALSE,,,,
 WildTV.ca,Wild TV,,,Wild TV Inc.,CA,,FALSE,2004-09-01,,,https://wildtv.ca/
@@ -37458,7 +37596,7 @@ WorldEntertainmentTV42.th,World Entertainment TV 42,,,,TH,entertainment,FALSE,,,
 WorldFashionChannel.ru,World Fashion Channel,,,,RU,lifestyle,FALSE,,,,https://wfc.tv/ru
 WorldFashionChannelInternational.ru,World Fashion Channel International,,,,RU,lifestyle,FALSE,,,,https://wfc.tv/en
 WorldFishingNetwork.us,World Fishing Network,WFN,,,US,outdoor,FALSE,2007-11-01,,,https://www.worldfishingnetwork.com/
-WorldHarvestTV.us,World Harvest TV,,,,US,,FALSE,,,,https://familybroadcastingcorporation.com/wht/
+WorldHarvestTV.us,World Harvest TV,,,Family Broadcasting Corporation,US,,FALSE,,,,https://familybroadcastingcorporation.com/wht/
 Worldmate.jp,Worldmate,,,,JP,,FALSE,,,,https://www.worldmate.or.jp/
 WorldofFreesports.de,World of Freesports,,,,DE,sports,FALSE,,,,https://www.worldoffreesports-tv.com/
 WorldofPlentyTV.za,World of Plenty TV,WOP TV,,,ZA,,FALSE,,,,

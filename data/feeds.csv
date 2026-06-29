@@ -5581,10 +5581,7 @@ Catavision.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 CatchOn1.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 CatchOn2.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 CatchyComedy.us,SD,SD,,TRUE,c/US,America/Chicago,eng,480i
-Catfish.us,CA,CA,,TRUE,c/CA,America/Toronto,eng,720p
 CatfishOMG.se,FI,FI,,TRUE,c/FI,Europe/Helsinki,eng;fin,720p
-CatfishTVShow.us,France,France,,TRUE,c/FR,Europe/Paris,fra,576i
-CatfishTVShow.us,Italy,Italy,,FALSE,c/IT,Europe/Rome,ita,576i
 CatholicFaithNetwork.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 CatholicTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 CatholicTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -22430,7 +22427,8 @@ MTVCatfish.se,DK,DK,,FALSE,c/DK,Europe/Copenhagen,eng;dan,720p
 MTVCatfish.se,FI,FI,,FALSE,c/FI,Europe/Helsinki,eng;fin,720p
 MTVCatfish.se,NO,NO,,FALSE,c/NO,Europe/Oslo,eng;nor,720p
 MTVCatfish.se,SE,SE,,TRUE,c/SE,Europe/Stockholm,eng;swe,720p
-MTVCatfish.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
+MTVCatfish.us,CA,CA,,TRUE,c/CA,America/Toronto,eng,720p
+MTVCatfish.us,BR,BR,,FALSE,c/BR,America/Sao_Paulo,por,720p
 MTVCatfish.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
 MTVCatfishTVShow.de,DACH,DACH,,FALSE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 MTVCatfishTVShow.de,ES,ES,,FALSE,c/ES,Europe/Madrid,spa,720p

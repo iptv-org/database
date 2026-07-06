@@ -8616,6 +8616,7 @@ DiscoveryTurbo.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 DiscoveryTurbo.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 DiscoveryTurbo.uk,Plus1,+1,,FALSE,c/UK,Europe/London,eng,576i
 DiscoveryTurbo.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
+DiscoveryTurbo.us,SD,SD,,TRUE,c/US,America/New_York,eng,576i
 DiscoveryTurboLatinAmerica.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
 DiscoveryTurboLatinAmerica.us,Panregional,Panregional,,TRUE,r/HISPAM,America/New_York,spa,480i
 DiscoveryUltra.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
@@ -8708,6 +8709,7 @@ DisneyJunior.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa,480i
 DisneyJuniorMENA.uk,SD,SD,,TRUE,r/ARAB;r/SSA;c/GR;c/CY;c/AL,Europe/London,eng;ell;ara,576i
 DisneyJuniorScandinavia.uk,SD,SD,,TRUE,c/SE;c/NO;c/DK;c/FI;c/IS;c/EE;c/LT;c/LV;c/GL;c/FO;c/AX,Europe/London,eng,576i
 DisneyJuniorSouthAfrica.za,SD,SD,,TRUE,r/SSA,Africa/Johannesburg,eng,576i
+DisneyPlusCinema.uk,HD,HD,,FALSE,c/UK,Europe/London,eng,1080i
 DisneyPlusCinema.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 DisneyStories.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 DisneyXD.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
@@ -9146,9 +9148,10 @@ Dynasty.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
 Dynasty.us,SD,SD,,TRUE,c/US,America/Los_Angeles,eng,720p
 DzairTubeTV.dz,SD,SD,,TRUE,c/DZ,Africa/Algiers,ara,576i
 DZBBDT1.ph,SD,SD,,TRUE,c/PH,Asia/Manila,eng,480i
+DZMMTeleRadyo.ph,SD,SD,,TRUE,c/PH,Asia/Manila,tgl,480i
+DZMMTeleRadyoGlobal.ph,SD,SD,,TRUE,c/PH,Asia/Manila,tgl,480i
 DzNewsTV.dz,SD,SD,,TRUE,c/DZ,Africa/Algiers,ara,576i
 DZRHNewsTV.ph,SD,SD,,TRUE,c/PH,Asia/Manila,tgl;eng,480i
-RJDigiTV.ph,SD,SD,,TRUE,c/PH,Asia/Manila,eng,480i
 DzukijosTV.lt,SD,SD,,TRUE,c/LT,Europe/Vilnius,lit,576i
 E.au,Plus2,+2,,FALSE,c/AU,Australia/Sydney,eng,576i
 E.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
@@ -15012,6 +15015,7 @@ KAMC281.us,HD,HD,,TRUE,ct/USLBB,America/Chicago,eng,720p
 KAMC282.us,SD,SD,,TRUE,ct/USLBB,America/Chicago,eng,480i
 KAMC283.us,SD,SD,,TRUE,ct/USLBB,America/Chicago,eng,480i
 KAMC284.us,SD,SD,,TRUE,ct/USLBB,America/Chicago,eng,480i
+Kamedi.ru,HD,HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
 Kamedi.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 KAMEDT2.us,SD,SD,,TRUE,ct/USRNO,America/Los_Angeles,eng,480i
 KAMEDT3.us,SD,SD,,TRUE,ct/USRNO,America/Los_Angeles,eng,480i
@@ -27714,6 +27718,7 @@ RadioUC.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 RadioUNIACC.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 RadioUniem.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 RadioUniversal.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
+RadioUniversitariaSanAndres.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 RadioUniverso.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
 RadioUnoPST.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
 RadioUnoTacna.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
@@ -28455,6 +28460,7 @@ RizhaoGraphicChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 RizhaoNewsGeneralistChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 RizhaoPublicChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 RizhaoScienceEducationandLifeChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
+RJDigiTV.ph,SD,SD,,TRUE,c/PH,Asia/Manila,eng,480i
 RJTV.us,SD,SD,,TRUE,c/IR,America/New_York,fas,480i
 RkanalPlus.si,SD,SD,,TRUE,c/SI,Europe/Ljubljana,slv,576i
 RKBNEWS24.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
@@ -33191,8 +33197,6 @@ TeleR.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 TeleradioFuturaNissa.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 TeleRadioNorte.do,SD,SD,,TRUE,s/DO-01,America/Santo_Domingo,spa,480i
 TeleRadioSciacca.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
-DZMMTeleRadyo.ph,SD,SD,,TRUE,c/PH,Asia/Manila,tgl,480i
-DZMMTeleRadyoGlobal.ph,SD,SD,,TRUE,c/PH,Asia/Manila,tgl,480i
 Telerama.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 TeleRama.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 Telerayo.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
@@ -34057,6 +34061,7 @@ TNTLatinAmerica.us,Colombia,Colombia,,FALSE,c/CO,America/Bogota,eng;spa,480i
 TNTLatinAmerica.us,Mexico,Mexico,,FALSE,c/MX,America/Mexico_City,spa,480i
 TNTLatinAmerica.us,Pacific,Pacific,,FALSE,c/CL;c/PE;c/EC;c/BO,America/New_York,spa,480i
 TNTLatinAmerica.us,South,South,,FALSE,c/AR;c/PY;c/UY,America/New_York,spa,480i
+TNTNovelas.us,SD,SD,,TRUE,c/US,America/New_York,spa,576i
 TNTSeriesLatinAmerica.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
 TNTSeriesLatinAmerica.us,Mexico,Mexico,,FALSE,c/MX,America/Mexico_City,eng;spa,480i
 TNTSeriesLatinAmerica.us,Panregional,Panregional,,TRUE,c/CO;c/CL;c/PA;c/PE;c/EC;c/BO;c/VE;r/CENAMER;r/CARIB,America/New_York,spa,480i
@@ -34291,9 +34296,12 @@ TraceAyiti.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 TraceBrazuca.fr,HD,HD,,FALSE,c/FR;c/BR,Europe/Paris;America/Sao_Paulo,por,1080p
 TraceBrazuca.fr,SD,SD,,TRUE,c/FR,Europe/Paris,por,576i
 TraceCaribbean.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+TraceGospel.fr,NigeriaandEastAfrica,Nigeria and East Africa,,FALSE,r/AFR,Europe/Paris,eng,576i
 TraceGospel.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+TraceGospel.fr,SouthernAfrica,Southern Africa,,FALSE,r/AFR,Europe/Paris,fra,576i
 TraceHipHop.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 TraceHits.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
+TraceIvoire.fr,SD,SD,,TRUE,c/CI,Europe/Paris,fra,576i
 TraceJama.fr,SD,SD,,TRUE,c/FR,Europe/Paris,eng,576i
 TraceKitoko.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 TraceLatina.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -34302,6 +34310,7 @@ TraceMboa.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 TraceMuzika.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 TraceMziki.fr,SD,SD,,TRUE,c/FR,Europe/Paris,eng,576i
 TraceNaija.fr,SD,SD,,TRUE,c/FR,Europe/Paris,eng,576i
+TraceNgoma.fr,SD,SD,,TRUE,r/AFR,Europe/Paris,eng,576i
 TraceSportStars.fr,HD,HD,,TRUE,c/FR,Europe/Paris,eng;fra,1080i
 TraceSportStars.fr,Russia,Russia,,FALSE,c/RU,Europe/Moscow,rus,576i
 TraceToca.fr,SD,SD,,TRUE,r/AFR,Europe/Paris,por,576i

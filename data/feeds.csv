@@ -5062,6 +5062,7 @@ CanaldaJuventudeCrista.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 CanaldeGobierno.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 CanaldelaCiudad.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 CanaldeLaCosta.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
+CanaldelaFe.us,SD,SD,,TRUE,c/US,America/Los_Angeles,spa,480i
 CanaldelAssemblee.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
 CanaldelCongreso451.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 CanaldelCongreso452.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
@@ -10697,8 +10698,12 @@ FilmBoxFamily.nl,Africa,Africa,,TRUE,r/AFR,Europe/Amsterdam,eng,576i
 FilmBoxFamily.nl,Hungary,Hungary,,FALSE,c/HU,Europe/Amsterdam,eng;hun,576i
 FilmBoxFamily.nl,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
 FILMBOXPlusAction.pl,HD,HD,,TRUE,c/PL,Europe/Warsaw,eng,720p
+FILMBOXPlusComedy.pl,HD,HD,,TRUE,c/HU;c/CZ;c/RO;c/SK;c/PL;r/AFR,Europe/Warsaw,eng,720p
+FILMBOXPlusEmotion.pl,CentralEasternEurope,Central & Eastern Europe,,TRUE,c/HU;c/SK;c/RO;c/CZ,Europe/Warsaw,eng,720p
 FILMBOXPlusFestival.pl,HD,HD,,TRUE,r/WW,Europe/Warsaw,eng,720p
 FILMBOXPlusHits.pl,Hungary,Hungary,,TRUE,c/HU,Europe/Budapest,eng,720p
+FILMBOXPlusLoveCrime.pl,CentralEasternEurope,Central Eastern Europe,,TRUE,c/CZ;c/SK;c/HU;c/RO,Europe/Budapest,eng,720p
+FILMBOXPlusOne.pl,CentralEasternEurope,Central Eastern Europe,,TRUE,c/HU;c/BG;c/RO;c/SK;c/LT;c/SI;r/CIS,Europe/Budapest,eng,720p
 FilmBoxPremium.nl,Adria,Adria,,TRUE,r/EU,Europe/Sarajevo,eng,576i
 FilmBoxPremium.nl,CzechRepublic,Czech Republic,,FALSE,c/CZ;c/SK,Europe/Amsterdam,ces,576i
 FilmBoxPremium.nl,Hungary,Hungary,,FALSE,c/HU,Europe/Amsterdam,hun,576i
@@ -13581,6 +13586,7 @@ InWonder.nl,SD,SD,,TRUE,c/NL;c/IN,Europe/Amsterdam,eng,576i
 INXPrime.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 IoanninaTV.gr,SD,SD,,TRUE,ct/GRIOA,Europe/Athens,ell,576i
 IonianTV.gr,SD,SD,,TRUE,c/GR,Europe/Athens,ell,576i
+IONMystery.us,SD,SD,,TRUE,c/US,America/New_York,eng,576i
 IONPlus.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 IONPlus.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 IonQubo.us,SD,SD,,TRUE,c/US,America/New_York,eng;spa,480i
@@ -15186,6 +15192,7 @@ KanshiTV.uk,SD,SD,,TRUE,c/UK,Europe/London,hin,576i
 KantankaTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 KantipurCineplex.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 KantipurMax.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
+KantipurMax2.np,HD,HD,,TRUE,c/NP,Asia/Kathmandu,nep;eng;mai,1080p
 KantipurTV.np,HD,HD,,TRUE,c/NP,Asia/Kathmandu,nep;eng;mai,1080i
 KantipurTV.np,SD,SD,,FALSE,c/NP,Asia/Kathmandu,nep;mai,720p
 KanucaTV.ao,SD,SD,,TRUE,c/AO,Africa/Luanda,por,576i
@@ -21192,7 +21199,8 @@ M4TVMalayalam.au,SD,SD,,TRUE,c/AU,Australia/Sydney,mal,576i
 M5.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 M6.ch,HD,HD,,FALSE,c/CH,Europe/Zurich,fra,1080i
 M6.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
-M6.fr,HD,HD,,TRUE,c/FR,Europe/Paris,fra,720p
+M6.fr,French,French,,TRUE,s/FR-IDF,Europe/Paris,fra,1080p
+M6.fr,HD,HD,,FALSE,c/FR,Europe/Paris,fra,720p
 M6.fr,SD,SD,,FALSE,c/FR,Europe/Paris,fra,576i
 M6International.fr,SD,SD,,TRUE,c/AE;c/CA,Europe/Paris,fra,576i
 M6Music.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -26822,6 +26830,7 @@ PNNNews.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,eng,576i
 PNTV.us,SD,SD,,TRUE,c/LA;c/TH,America/New_York,lao,480i
 Pobeda.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 pocketwatch.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+PoconoTelevisionNetwork.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080p
 PoderdeDiosTV.bo,SD,SD,,TRUE,c/BO,America/Argentina/Mendoza,spa,480i
 PodiumTV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 PodiumTV2.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
@@ -27259,6 +27268,7 @@ PTCChakde.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,pan,576i
 PTCDholTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,pan,576i
 PTCMusic.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,pan,576i
 PTCNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,pan,576i
+PTCPunjabi.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,pan,1080i
 PTCPunjabi.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,pan,576i
 PTCPunjabiCanada.ca,SD,SD,,TRUE,c/CA,America/Toronto,pan,480i
 PTCPunjabiGold.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,pan,576i
@@ -32681,6 +32691,7 @@ TADAA.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,eng,576i
 TaevasTV7.ee,HD,HD,,TRUE,c/EE,Europe/Tallinn,est;eng,1080p
 TaevasTV7.fi,SD,SD,,TRUE,c/EE,Europe/Helsinki,est,576i
 TafingTV.ml,SD,SD,,TRUE,c/ML,Africa/Bamako,fra,576i
+TafoukTV.ml,SD,SD,,TRUE,c/ML;c/NE;c/BF,Africa/Bamako,fra,576i
 TAFUTV.ge,SD,SD,,TRUE,c/GE,Asia/Tbilisi,kat,576i
 TagalizedMovieChannel.ph,SD,SD,,TRUE,c/PH,Asia/Manila,tgl,480i
 tagesschau24.de,HD,HD,,FALSE,c/DE,Europe/Berlin,deu,1080i
@@ -33150,6 +33161,7 @@ TelefeBahiaBlanca.ar,SD,SD,,TRUE,s/AR-Q,America/Argentina/Buenos_Aires,spa,576i
 TeleFeBolivia.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
 TelefeBuenosAires.ar,SD,SD,,TRUE,s/AR-S,America/Argentina/Buenos_Aires,spa,576i
 TelefeCordoba.ar,SD,SD,,TRUE,ct/ARCOR,America/Argentina/Cordoba,spa,576i
+TeleFederal.ar,HD,HD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,720p
 TelefeInterior.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 TelefeInternacional.ar,SD,SD,,TRUE,r/HISPAM,America/Argentina/Buenos_Aires,spa,576i
 TelefeMardelPlata.ar,SD,SD,,TRUE,s/AR-S,America/Argentina/Buenos_Aires,spa,576i

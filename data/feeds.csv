@@ -10712,11 +10712,22 @@ FILMBOXPlusFestival.pl,HD,HD,,FALSE,r/WW,Europe/Warsaw,eng,720p
 FILMBOXPlusFestival.pl,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
 FILMBOXPlusFestival.pl,Russia,Russia,,FALSE,c/UA;c/LT;c/LV,Europe/Warsaw,rus,576i
 FILMBOXPlusFestival.pl,SD,SD,,TRUE,r/WW,Europe/Warsaw,eng,576i
+FILMBOXPlusHits.pl,Adria,Adria,,FALSE,r/BALKAN,Europe/Warsaw,eng,576i
 FILMBOXPlusHits.pl,Czechia,Czechia,,FALSE,c/CZ;c/SK,Europe/Warsaw,cze,576i
 FILMBOXPlusHits.pl,Hungary,Hungary,,FALSE,c/HU,Europe/Budapest,eng,720p
 FILMBOXPlusHits.pl,Poland,Poland,,TRUE,c/PL,Europe/Warsaw,pol,576i
-FILMBOXPlusLoveCrime.pl,CentralEasternEurope,Central Eastern Europe,,TRUE,c/CZ;c/SK;c/HU;c/RO,Europe/Budapest,eng,720p
-FILMBOXPlusOne.pl,CentralEasternEurope,Central Eastern Europe,,TRUE,c/HU;c/BG;c/RO;c/SK;c/LT;c/SI;r/CIS,Europe/Budapest,eng,720p
+FILMBOXPlusHits.pl,Romania,Romania,,FALSE,c/RO,Europe/Warsaw,ron,576i
+FILMBOXPlusLoveCrime.pl,Adria,Adria,,FALSE,r/BALKAN,Europe/Warsaw,eng,576i
+FILMBOXPlusLoveCrime.pl,Bulgaria,Bulgaria,,FALSE,c/BG,Europe/Warsaw,bul,576i
+FILMBOXPlusLoveCrime.pl,Czechia,Czechia,,TRUE,c/CZ;c/SK,Europe/Warsaw,cze,720p
+FILMBOXPlusLoveCrime.pl,Magyar,Magyar,,FALSE,c/HU,Europe/Warsaw,hun,576i
+FILMBOXPlusLoveCrime.pl,Romania,Romania,,FALSE,c/RO,Europe/Warsaw,eng,576i
+FILMBOXPlusOne.pl,Bulgaria,Bulgaria,,FALSE,c/BG,Europe/Warsaw,bul,576i
+FILMBOXPlusOne.pl,Czechia,Czechia,,FALSE,c/CZ;c/SK,Europe/Warsaw,cze,576i
+FILMBOXPlusOne.pl,Magyar,Magyar,,FALSE,c/HU,Europe/Warsaw,hun,576i
+FILMBOXPlusOne.pl,Poland,Poland,,TRUE,c/PL,Europe/Budapest,pol,720p
+FILMBOXPlusOne.pl,Romania,Romania,,FALSE,c/RO,Europe/Warsaw,ron,576i
+FILMBOXPlusOne.pl,Slovenia,Slovenia,,FALSE,c/SI,Europe/Warsaw,eng,576i
 FilmBoxPremium.nl,Adria,Adria,,TRUE,r/EU,Europe/Sarajevo,eng,576i
 FilmBoxPremium.nl,CzechRepublic,Czech Republic,,FALSE,c/CZ;c/SK,Europe/Amsterdam,ces,576i
 FilmBoxPremium.nl,Hungary,Hungary,,FALSE,c/HU,Europe/Amsterdam,hun,576i

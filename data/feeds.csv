@@ -4879,6 +4879,7 @@ Canal5Guanacaste.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,576i
 Canal5LaLibertadTV.ni,SD,SD,,TRUE,c/NI,America/Guatemala,spa,480i
 Canal5MonteCaseros.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal5PicoTruncado.ar,SD,SD,,TRUE,ct/ARJPT,America/Argentina/Buenos_Aires,spa,576i
+Canal5Plus.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Canal5PuertoMontt.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 Canal5Quilmes.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal5Salto.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
@@ -9256,7 +9257,8 @@ E.ro,SD,SD,,TRUE,c/RO,Europe/Amsterdam,ron,576i
 E.uk,Ireland,Ireland,,FALSE,c/IE,Europe/Amsterdam,eng,576i
 E.uk,UK,UK,,TRUE,c/UK;c/IE,Europe/Amsterdam,eng,576i
 E.uk,UKHD,UK HD,,FALSE,c/UK;c/IE,Europe/Amsterdam,eng,1080i
-E.us,East,East,,TRUE,c/US,America/New_York,eng,480i
+E.us,East,East,,FALSE,c/US,America/New_York,eng,480i
+E.us,Greece,Greece,,TRUE,c/GR,Europe/Athens,eng,720p
 E.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 E1.gy,SD,SD,,TRUE,c/GY,America/Guyana,eng,576i
 E1TV.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,eng,576i

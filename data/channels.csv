@@ -844,7 +844,7 @@ AFVEspanol.us,AFV Espanol,AFV Español,,,US,comedy,FALSE,,,,https://watch.plex.t
 AFVFamily.us,AFV Family,,,,US,comedy,FALSE,,,,
 AfyonTurkTV.tr,Afyon Turk TV,Afyon Türk TV,,,TR,,FALSE,,,,
 AgamvaniChannel.in,Agamvani Channel,सिद्ध होगी।,,Agamvani Universal Private Limited,IN,general,FALSE,2020-11-07,,,https://www.agamvani.com/
-AgapeTV.sv,Agape TV,Canal 8,,Agape Association of El Salvador,SV,general,FALSE,2001-06-06,,,https://www.agapetv8.com/
+AgapeTV.sv,Agape TV,Canal 8,,Agape Association of El Salvador,SV,religious,FALSE,2001-06-06,,,https://www.agapetv8.com/
 AgapeTV.za,Agape TV,,,,ZA,religious,FALSE,,,,
 AgapeTVNetwork.tz,Agape TV Network,,,,TZ,religious,FALSE,,,,
 Agenda56TV.do,Agenda 56 TV,,,,DO,general,FALSE,,,,https://agenda56.com/agenda56tv/
@@ -4585,6 +4585,7 @@ CanalPlus4KUltraHD.pl,Canal+ 4K Ultra HD,,,Canal+ Group,PL,entertainment,FALSE,,
 CanalPlusAction.et,Canal+ Action,,,Vivendi,ET,movies;series,FALSE,2021-04-12,2024-12-22,,https://www.canalplus-ethiopia.com/
 CanalPlusAction.se,Canal+ Action,,,,SE,,FALSE,2007-11-01,2012-01-01,CMoreAction.se,
 CanalPlusActionCentre.fr,Canal+ Action Centre,,,Vivendi,FR,movies,FALSE,,,,https://www.canalplus.com/
+CanalPlusActionEurope.nl,Canal+ Action Europe,,,Canal+,NL,movies,FALSE,,,,
 CanalPlusActionMyanmar.fr,Canal+ Action Myanmar,,,Vivendi,FR,movies,FALSE,,,,
 CanalPlusActionOuest.fr,Canal+ Action Ouest,,,Vivendi,FR,movies,FALSE,,,,https://www.canalplus.com/
 CanalPlusAitio.fi,Canal+ Aitio,,,,FI,movies;series,FALSE,2010-01-01,2012-01-01,CMoreAitio.fi,
@@ -4636,6 +4637,7 @@ CanalPlusFormula1.fr,Canal+ Formula 1,,,Vivendi,FR,sports,FALSE,,,,https://www.c
 CanalPlusFotboll.se,Canal+ Fotboll,,,,SE,,FALSE,2010-01-01,2012-01-01,CMoreFotboll.se,
 CanalPlusGebeta.et,Canal+ Gebeta,Canal+ ገበታ,,Vivendi,ET,cooking,FALSE,2021-04-12,2024-12-22,,https://www.canalplus-ethiopia.com/
 CanalPlusGita.mm,Canal+ Gita,,,Canal+ Group,MM,music,FALSE,,,,
+CanalPlusGolf.at,Canal+ Golf,,,Canal+,AT,sports,FALSE,,,,
 CanalPlusGrandEcran.fr,Canal+ Grand Ecran,,,Vivendi,FR,movies,FALSE,2022-02-08,,,https://www.canalplus.com/
 CanalPlusGul.se,Canal+ Gul,Canal+ Kulta,,,SE,,FALSE,1997-09-01,2004-05-01,CanalPlusFilm1.se,
 CanalPlusHaHa.fr,Canal+ Ha Ha!,,,Vivendi,FR,comedy,FALSE,,,,
@@ -5934,6 +5936,8 @@ CineRomantico.us,Cine Romantico,Cine Romántico,,,US,movies,FALSE,,,,https://cin
 CineSciFibyPlutoTV.de,Cine Sci-Fi by Pluto TV,Ciné Sci-Fi by Pluto TV,Pluto TV,Pluto TV Europe GmbH;Paramount Skydance Corporation,DE,movies,FALSE,,,,https://pluto.tv/live-tv/cine-sci-fi-by-pluto-tv-fr/details
 CineSeries.us,Cine Series,,,,US,series,FALSE,,,,
 CineSony.us,Cine Sony,,,,US,movies,FALSE,,,,https://www.cinesony.com/
+CineStar1Bulgaria.bg,CineStar 1 Bulgaria,,,,BG,movies,FALSE,,,,
+CineStarActionBulgaria.bg,CineStar Action Bulgaria,,,,BG,movies,FALSE,,,,
 CineStarTV1.hr,CineStar TV 1,,,EVT Limited,HR,movies,FALSE,,,,https://cinestartvchannels.hr/kanal/cinestartv-1/
 CineStarTV1.rs,CineStar TV 1,,,EVT Limited,RS,movies,FALSE,,,,https://cinestartvchannels.rs/kanal/cinestartv-1/
 CineStarTV1.si,CineStar TV 1,,,EVT Limited,SI,movies,FALSE,,,,https://cinestartvchannels.si/kanal/cinestartv-1/
@@ -7681,6 +7685,7 @@ DisneyChannel.ro,Disney Channel,,,Disney Entertainment,RO,kids,FALSE,2009-09-19,
 DisneyChannel.ru,Disney Channel,Канал Disney;Jetix;Fox Kids,,Media-1,RU,kids,FALSE,1999-01-01,2022-12-14,Solnce.ru,https://kanal.disney.ru/
 DisneyChannel.tr,Disney Channel,,,Disney Televizyon Yayincilik,TR,kids,FALSE,2007-04-29,2022-03-31,,http://www.disneyturkiye.com.tr/disney-tv/disney-channel/
 DisneyChannel.us,Disney Channel,,Disney Channels,The Walt Disney Company;Disney Kids & Family,US,kids,FALSE,1983-04-18,,,https://www.disney.com/
+DisneyChannelBaltics.uk,Disney Channel Baltics,,,Disney Entertainment,UK,kids,FALSE,,,,
 DisneyChannelEMEA.uk,Disney Channel EMEA,,,Disney Entertainment,UK,kids,FALSE,1997-04-02,,,http://www.disneyme.com/
 DisneyChannelHD.dk,Disney Channel HD,Disney Channel;Disney Channel Nordic,,Disney Branded Television;The Walt Disney Company Limited,DK,kids,FALSE,,,,
 DisneyChannelLatinAmerica.ar,Disney Channel Latin America,,,Disney Entertainment,AR,animation;kids,FALSE,2000-07-27,,,https://www.disneylatino.com/tv
@@ -7706,6 +7711,7 @@ DisneyJunior.pl,Disney Junior,,,The Walt Disney Company,PL,kids,FALSE,,,,http://
 DisneyJunior.pt,Disney Junior,,,The Walt Disney Company,PT,kids,FALSE,2012-11-01,,,http://www.disney.pt/disney-channel/disney-junior/
 DisneyJunior.ro,Disney Junior,,,The Walt Disney Company,RO,kids,FALSE,2012-03-01,,,http://www.disney.ro/disney-junior/
 DisneyJunior.us,Disney Junior,,Disney Channels,The Walt Disney Company;Disney Kids & Family,US,kids,FALSE,2011-02-14,,,http://disney.go.com/disneyjunior/
+DisneyJuniorBaltics.uk,Disney Junior Baltics,,,Disney Entertainment,UK,kids,FALSE,,,,
 DisneyJuniorMENA.uk,Disney Junior MENA,,,The Walt Disney Company,UK,kids,FALSE,2011-06-01,,,http://www.disneyme.com/
 DisneyJuniorScandinavia.uk,Disney Junior Scandinavia,,,The Walt Disney Company,UK,kids,FALSE,2011-09-10,,,http://disneyinternational.com/disney-junior/
 DisneyJuniorSouthAfrica.za,Disney Junior South Africa,,,The Walt Disney Company,ZA,kids,FALSE,,,,http://www.disney.co.za/disney-junior/
@@ -7739,6 +7745,7 @@ DivineTVUK.us,Divine TV UK,,,,US,religious,FALSE,2009-10-04,,,https://dvnonline.
 DivineTVUSA.us,Divine TV USA,,,,US,religious,FALSE,2009-10-04,,,https://dvnonline.org/
 DivingTV.ru,Diving TV,Дайвинг TV,,,RU,outdoor,FALSE,,,,https://www.planeta-online.tv/channels/130/live.html
 Divinity.es,Divinity,,,Mediaset Espana,ES,lifestyle,FALSE,2011-03-11,,,http://www.divinity.es/
+DiviSport.ua,DiviSport,,,,UA,sports,FALSE,,,,
 DivyaDarshanTV.np,Divya Darshan TV,,,Shree Krishna Pranami Media Pvt. Ltd.,NP,religious,FALSE,,,,https://divyadarshantv.com/
 DivyavaniTV.in,Divyavani TV,,,,IN,religious,FALSE,,,,http://www.divyavani.tv/
 DiwanTV.iq,Diwan TV,,,,IQ,,FALSE,,,,
@@ -16208,6 +16215,7 @@ KOLR272.us,KOLR 27.2,Mystery,ION Mystery,Mission Broadcasting Inc.,US,comedy,FAL
 KOLR273.us,KOLR 27.3,Bounce,Bounce TV,Mission Broadcasting Inc.,US,entertainment,FALSE,,,,
 KOLR274.us,KOLR 27.4,Rewind,Rewind TV,Mission Broadcasting Inc.,US,shop,FALSE,,,,
 KolymaPlus.ru,Kolyma Plus,Колыма Плюс,,,RU,,FALSE,,,,https://kolymaplus.ru/
+Kolyokklub.hu,Kolyokklub,Kölyökklub,,,HU,kids,FALSE,,,,
 KomalaTV.se,Komala TV,,,,SE,culture,FALSE,,,,https://tvkomala.com/
 KomaromiTelevizio.hu,Komaromi Televizio,Komáromi Televízió;KTV,,,HU,general,FALSE,,,,http://www.komaromtv.hu/
 Komedia.ru,Komedia,Комедия;Komediya,,VGTRK,RU,comedy,FALSE,,,,https://komedia-tv.ru/
@@ -20806,6 +20814,7 @@ MovistarTV.cl,Movistar TV,,,Telefonica,CL,general,FALSE,,,,https://movistar.cl/
 MoyaPlaneta.ru,Moya Planeta,Моя Планета,,VGTRK,RU,outdoor,FALSE,,,,https://www.moya-planeta.ru/
 Moyastikhiya.ru,Moya stikhiya,Моя стихия;Moya stihiya;Морской;Nautical Channel,,,RU,travel,FALSE,2013-03-01,,,https://xn----ptbankthz9fg.xn--p1ai/
 Moymir.ru,Moy mir,Мой мир,,Home Shopping Russia,RU,shop,FALSE,2024-06-01,,,https://moymir.ru/
+Moziklub.hu,Moziklub,,,,HU,entertainment,FALSE,,,,
 MoziPlus.hu,Mozi+,,,TV2 Média Csoport Kft,HU,movies,FALSE,2016-07-11,,,https://tv2play.hu/moziplusz
 Moziverzum.hu,Moziverzum,,,TV2 Média Csoport Kft.,HU,movies,FALSE,,,,https://tv2play.hu/moziverzum
 MOZOTV.zm,MOZO TV,,,,ZM,general,FALSE,,,,
@@ -21225,6 +21234,7 @@ MuzsikaTV.hu,Muzsika TV,,,Magyar RTL Televízió Zrt.,HU,music,FALSE,,,,https://
 MuzSoyuz.ru,Muz Soyuz,Муз Союз,,,RU,music;religious,FALSE,,,,https://muz.tv-soyuz.ru/
 MuzTV.az,Muz TV,MTV Azərbaycan,,,AZ,music,FALSE,2012-05-11,,,http://www.muz-tv.az/
 MuzTV.ru,Muz-TV,Муз-ТВ,,Media-1,RU,music,FALSE,,,,https://muz-tv.ru/
+MuzTVUzbekistan.uz,Muz TV Uzbekistan,,,,UZ,music,FALSE,,,,
 Muzvar.ua,Muzvar,Музвар,,Oleksiy Dontsov;Yulian Novak,UA,music,FALSE,,,,https://muzvar.com/en/contact/
 Muzyka1.ru,Muzyka 1,Музыка 1,TvikselTV,,RU,music,FALSE,,,,
 Muzyka2.ru,Muzyka 2,Музыка 2,TvikselTV,,RU,music,FALSE,,,,
@@ -28269,6 +28279,7 @@ SompaTV.gh,Sompa TV,,,Teraone Media,GH,general,FALSE,,,,https://sompaonline.com/
 SONALTV.sr,SONAL TV,,,,SR,entertainment,FALSE,,,,https://sonaltv.com/
 SonataTV.ua,Sonata TV,,,,UA,,FALSE,2020-10-01,,,http://sonata.tv/
 Sonce.ua,Sonce,Сонцe;Sontse;Солнце,,Studio Pilot,UA,entertainment,FALSE,2013-02-04,,,https://sonce.tv/
+SoncePlus.ua,Sonce+,Сонце+;Sun+,,,UA,entertainment,FALSE,,,,
 SonCorazon.co,Son Corazon,Son Corazón,CNC,,CO,music,FALSE,,,,http://www.cncpasto.com/son-corazon/
 Songbird.uk,Songbird,,,,UK,music,FALSE,,,,https://www.mimyuni.com/
 SongdewTV.in,Songdew TV,,,,IN,music,FALSE,,,,https://songdew.com/songdew-tv
@@ -28352,6 +28363,7 @@ SORAWeatherChannel.jp,SORA Weather Channel,SORA－お天気チャンネル;SORA 
 SoReal.us,So... Real,,Pluto TV,,US,lifestyle,FALSE,,,,
 SorecTV.ma,Sorec TV,,,,MA,sports,FALSE,,,,http://www.sorec.ma/
 SoriTV.pe,SoriTV,,,,PE,general,FALSE,,,,https://cadenasurrtv.com/cadena-sur-tv/
+Sorozatklub.hu,Sorozatklub,,,,HU,entertainment,FALSE,,,,
 SorozatPlus.hu,Sorozat+,,,CLT-UFA SA,HU,,FALSE,,,,
 Sorpresa.us,Sorpresa!,,,,US,,FALSE,,,,https://www.olympusat.com/networks/sorpresa/
 SorTV.md,Sor TV,Soroca TV,,Mar Sor TV SRL,MD,general,FALSE,2003-10-10,,,https://sortv.md
@@ -31657,6 +31669,7 @@ TV2040.hu,TV2040,,,,HU,general,FALSE,,,,https://tv2040.hu/
 TV21.mk,TV21,ТВ21,,,MK,general,FALSE,,,,https://mk.tv21.tv/
 TV21.ru,TV 21,ТВ 21;TV XXI,,Media Telecom,RU,movies,FALSE,,,,https://tv21m.ru/
 TV21.us,TV21,,,,US,legislative,FALSE,,,,https://www.sammamish.us/news/tv21/
+TV21International.ru,TV 21 International,,,,RU,movies,FALSE,,,,
 TV21Ungvar.ua,TV21 Ungvar,TV21 Унгвар,,,UA,,FALSE,,,,http://tv21ungvar.tv/
 TV24.ch,TV 24,,,,CH,,FALSE,,,,https://www.oneplus.ch/
 TV24.ge,TV24,,,,GE,news,FALSE,,,,https://tv24.ge/
@@ -32765,6 +32778,9 @@ TVOsasco.br,TV Osasco,,,,BR,general,FALSE,,,,https://www.tvosasco.com.br/
 TVOsorioNews.br,TV Osorio News,TV Osório News,,,BR,news,FALSE,,,,https://www.tvosorionews.com.br/
 TVOstfold.no,TV Ostfold,TV Østfold,,,NO,general,FALSE,,,,https://www.tvoplay.no/
 TVOTocopilla.cl,TVO Tocopilla,,,,CL,,FALSE,,,,https://www.tvotocopilla.com/
+TvoyeKinoAction.ua,Tvoye Kino Action,,,,UA,movies,FALSE,,,,
+TvoyeKinoHit.ua,Tvoye Kino Hit,,,,UA,movies,FALSE,,,,
+TvoyeKinoRelax.ua,Tvoye Kino Relax,,,,UA,movies,FALSE,,,,
 TvoyeTVYumor.ru,Tvoye TV Yumor,Твое ТВ Юмор,,,RU,comedy,FALSE,,,,https://vk.com/tvoetvhd
 TVP1.pl,TVP1,,TVP,Telewizja Polska,PL,,FALSE,,,,https://tvp1.tvp.pl/
 TVP2.pl,TVP2,,TVP,Telewizja Polska,PL,,FALSE,,,,https://tvp2.tvp.pl/
@@ -33670,6 +33686,7 @@ UtkarshChannel3.in,Utkarsh Channel 3,,,,IN,education,FALSE,,,,https://utkarsh.co
 UtkarshChannel4.in,Utkarsh Channel 4,,,,IN,education,FALSE,,,,https://utkarsh.com/
 UTNTV.ar,UTN TV,,,,AR,,FALSE,,,,https://www.utnmedios.com/utn-tv
 UToon.ae,U Toon,,,,AE,animation;kids,FALSE,,,,
+UTravel.ua,U Travel,,,,UA,travel,FALSE,,,,
 UTRK.kg,UTRK,УТРК;КТРК;КТР;ОТРК;НТРК;Улуттук канал;Коомдук биринчи канал;Kyrgyz Television;National Channel;First Public Channel,,National Broadcasting Corporation of the Kyrgyz Republic,KG,general,FALSE,,,,https://www.utrk.kg
 UtsavBharat.uk,Utsav Bharat,,,The Walt Disney Company,UK,,FALSE,2021-02-22,,,https://www.hotstar.com/
 UtsavGold.in,Utsav Gold,,,The Walt Disney Company,IN,movies,FALSE,,,,https://www.hotstar.com/

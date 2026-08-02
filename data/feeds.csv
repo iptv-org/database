@@ -2051,6 +2051,7 @@ ArabTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 AradanaTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 AragonTV.es,SD,SD,,TRUE,s/ES-AR,Europe/Madrid,spa,576i
 AragonTVInternacional.es,SD,SD,,TRUE,r/EUR,Europe/Madrid,spa,576i
+AranikoTelevision.np,HD,HD,,FALSE,c/NP,Asia/Kathmandu,nep;mai,1080p
 AranikoTelevision.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 AraratTV.am,SD,SD,,TRUE,c/AM,Asia/Yerevan,hye,576i
 AraraTV.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,orm,576i
@@ -3441,6 +3442,7 @@ beINSports3.qa,USA,USA,,FALSE,c/US,America/New_York,eng,480i
 beINSports4.qa,MENA,MENA,,TRUE,r/MENA,Asia/Qatar,ara,576i
 beINSports4.qa,Turkiye,Turkiye,,FALSE,c/TR,Europe/Istanbul,tur,576i
 beINSports4.qa,USA,USA,,FALSE,c/US,America/New_York,eng,480i
+beINSports4KHDR.qa,4KHDR,4K HDR,,TRUE,c/QA,Asia/Qatar,ara,2160p
 beINSports5.qa,MENA,MENA,,TRUE,r/MENA,Asia/Qatar,ara,576i
 beINSports5.qa,Turkiye,Turkiye,,FALSE,c/TR,Europe/Istanbul,tur,576i
 beINSports5.qa,USA,USA,,FALSE,c/US,America/New_York,eng,480i
@@ -12785,6 +12787,7 @@ History.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 History.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 History.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 History2.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
+History2.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,cze,576i
 History2.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,eng,576i
 History2.ru,HD,HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
 History2.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
@@ -15370,6 +15373,7 @@ KantipurCineplex.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 KantipurMax.np,HD,HD,,FALSE,c/NP,Asia/Kathmandu,nep;eng;mai,1080p
 KantipurMax.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 KantipurMax2.np,HD,HD,,TRUE,c/NP,Asia/Kathmandu,nep;eng;mai,1080p
+KantipurMax2.np,SD,SD,,FALSE,c/NP,Asia/Kathmandu,nep;mai,720p
 KantipurTV.np,HD,HD,,TRUE,c/NP,Asia/Kathmandu,nep;eng;mai,1080i
 KantipurTV.np,SD,SD,,FALSE,c/NP,Asia/Kathmandu,nep;mai,720p
 KanucaTV.ao,SD,SD,,TRUE,c/AO,Africa/Luanda,por,576i
@@ -16917,6 +16921,7 @@ KidsTalkTalkPlus.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 KidsTV.gr,SD,SD,,TRUE,c/GR,Europe/Athens,ell,576i
 KidsTV.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 KidsTV.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
+KIDSTV.sr,SD,SD,,TRUE,c/SR,America/Paramaribo,nld,576i
 KidsZone.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,urd;eng,576i
 KIDY61.us,HD,HD,,TRUE,ct/USSJT,America/Chicago,eng,720p
 KIDY62.us,HD,HD,,TRUE,ct/USSJT,America/Chicago,eng,720p
@@ -25391,6 +25396,7 @@ ONLife.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 OnlineMediaTV69.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 OnlineTVNusantara.id,SD,SD,,TRUE,s/ID-JK;s/ID-JB,Asia/Jakarta,ind,576i
 OnlyBharat.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+OnlyFilmsTV.sr,SD,SD,,TRUE,c/SR,America/Paramaribo,nld,576i
 ONMAX.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 OnMedyaTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 ONMovies.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
@@ -28231,7 +28237,8 @@ RaiYoyo.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 RaizalTV.co,SD,SD,,TRUE,c/CO,America/Bogota,eng;icr,480i
 RajAsia.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
 RajawaliTV.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
-RajdhaniTV.bd,SD,SD,,TRUE,c/BD,Asia/Dhaka,ben,576i
+RajdhaniTV.bd,HD,HD,,TRUE,c/BD,Asia/Dhaka,ben,1080p
+RajdhaniTV.bd,SD,SD,,FALSE,c/BD,Asia/Dhaka,ben,576i
 RajDigitalPlus.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
 RajeenTV.ps,SD,SD,,TRUE,c/PS,Asia/Gaza,ara,576i
 RajMusixKannada.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kan,576i
@@ -34692,6 +34699,7 @@ ToplumTV.az,SD,SD,,TRUE,c/AZ,Asia/Baku,aze,576i
 TopMediaBeninTV.bj,SD,SD,,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 TopMillionDollarAgent.pl,FAST,FAST,,TRUE,c/PL;r/EU,Europe/Warsaw,eng,720p
 TopMoviesPolska.pl,SD,SD,,TRUE,c/PL;r/EU,Europe/Warsaw,pol,576i
+TOPMusicTV.gr,HD,HD,,TRUE,r/WW,Europe/Athens,ell,1080p
 TopNews.al,SD,SD,,TRUE,c/AL,Europe/Tirane,sqi,576i
 TopNews.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 Topotoon.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i

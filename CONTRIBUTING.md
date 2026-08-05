@@ -22,6 +22,8 @@ The first option is to send a request through one of the available [forms](https
 
 The second option is to edit the file in the [data/](data/) folder using any text editor and then send us a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests).
 
+**NOTE:** We store separate records for each version of the channel, so if a channel's name has officially changed, it is enough to simply add a new record using the [form](https://github.com/iptv-org/database/issues/new?template=01_channels_add.yml).
+
 **IMPORTANT:** Before sending the request, make sure that the number of columns in the file has not changed and that all rows end with [CRLF](https://developer.mozilla.org/en-US/docs/Glossary/CRLF). Otherwise we will not be able to review this request.
 
 ### How to delete an entry from the database?

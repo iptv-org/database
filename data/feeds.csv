@@ -3582,7 +3582,7 @@ Bergblick.de,SD,SD,,TRUE,c/CH;c/DE,Europe/Berlin,deu,576i
 BergenStudentTV.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 BeritaRTM.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,msa,576i
 BeritaSatu.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
-BeritaSatuEnglish.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,eng,576i
+BeritaSatuWorld.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 BerkahShopTV.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 BerksCommunityTV.us,SD,SD,,TRUE,ct/USRDG,Europe/London,eng,480i
 BernamaTV.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,msa,576i
@@ -11153,6 +11153,7 @@ FoxDeportes.us,SD,SD,,TRUE,c/US,America/Santiago,spa;eng,480i
 FoxFamilyMovies.us,SD,SD,,TRUE,c/US,Asia/Hong_Kong,eng,480i
 FoxFooty.au,SD,SD,,TRUE,c/AU,Australia/Melbourne,eng,576i
 FoxFunny.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
+FoxKids.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 FoxLeague.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 FoxLife.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 FoxLife.gr,HD,HD,,TRUE,c/GR;c/CY;c/MT,Europe/Athens,ell;eng,1080i
@@ -14151,6 +14152,7 @@ JEITalentTV.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 JEKA.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 JekTV.id,SD,SD,,TRUE,s/ID-JA,Asia/Jakarta,ind,576i
 JelexieRadio.ph,SD,SD,,TRUE,c/PH,Asia/Manila,tgl;eng,576i
+Jelita.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 JenaTV.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 Jendela.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 JennyForYou.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -22579,7 +22581,9 @@ MNBMongoliinMedee.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
 MNBSport.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
 MNBSports.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
 MNBWorld.mn,SD,SD,,TRUE,c/MN;c/KR;c/JP;c/PH;c/GU;c/VN;c/KH;c/LA;r/SAS,Asia/Ulaanbaatar,eng,576i
+MNCInfotainment.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MNCSports.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
+MNCSports1.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MNCSports2.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MNCSports3.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MNCTV.id,HD,HD,,FALSE,c/ID,Asia/Jakarta,ind,1080i
@@ -27753,6 +27757,7 @@ QazaqstanInternational.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,eng;rus;kaz,576i
 QazSport.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz,576i
 QazvinTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 QBC.qa,HD,HD,,TRUE,c/QA,Asia/Qatar,ara,2160p
+QChannel.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 QCTV.us,SD,SD,,TRUE,ct/USNMH,America/New_York,eng,480i
 QCTVAndover.us,SD,SD,,TRUE,ct/USAD7,America/New_York,eng,480i
 QCTVPlus.us,SD,SD,,TRUE,ct/USNMH,America/New_York,eng,480i
@@ -37502,6 +37507,7 @@ USATODAYSPORTS.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 UsedomTV.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 UseePhoto.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 UseePrime.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
+UseeSports.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 UshirikaTV.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,eng;swh,576i
 UshuaiaTV.fr,HD,HD,,FALSE,c/FR,Europe/Paris,fra,1080i
 UshuaiaTV.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -42176,7 +42182,9 @@ WOVALD1.us,SD,SD,,TRUE,ct/USPKB,America/New_York,eng,480i
 WOVALD2.us,SD,SD,,TRUE,ct/USPKB,America/New_York,eng,480i
 Wow.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 WowCinemaOne.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
-WOWKidz.in,Hindi,Hindi,,TRUE,c/IN;c/BD;c/NP;c/LK,Asia/Kolkata,eng;hin;tel;tam,576i
+WOWKidz.in,Hindi,Hindi,,FALSE,c/IN,Asia/Kolkata,hin,720p
+WOWKidz.in,Tamil,Tamil,,FALSE,c/IN,Asia/Kolkata,tam,720p
+WOWKidz.in,Telugu,Telugu,,TRUE,c/IN,Asia/Kolkata,tel,720p
 WOWKTV131.us,HD,HD,,TRUE,ct/USHNU,America/New_York,eng,1080i
 WOWKTV132.us,SD,SD,,TRUE,ct/USHNU,America/New_York,eng,480i
 WOWKTV133.us,SD,SD,,TRUE,ct/USHNU,America/New_York,eng,480i

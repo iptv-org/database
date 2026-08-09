@@ -12596,6 +12596,7 @@ HDNetMovies.us,SD,SD,,TRUE,c/US,America/Denver,eng,480i
 HDTV.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 HealingCenterTV.zm,SD,SD,,TRUE,c/ZM,Africa/Lusaka,eng,576i
 HealingJesusTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
+HealthBeauty.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 HealthChannel.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,heb,576i
 Healthmedi.ee,SD,SD,,TRUE,c/EE;c/KR,Europe/Tallinn,kor;eng,576i
 HealthMediaTV.us,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
@@ -13299,10 +13300,12 @@ HumorMill.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 HumourChannel.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,heb,576i
 HumraazTV.us,SD,SD,,TRUE,c/US;c/PK,America/New_York,urd,480i
 HumSitaray.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,urd,576i
+HumSitarayWorld.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,urd,720p
 HumTV.pk,HD,HD,,TRUE,c/PK,Asia/Karachi,urd,1080p
 HumTV.pk,SD,SD,,FALSE,r/SAS,Asia/Karachi,urd,576i
 HumurizaTV.bi,SD,SD,,TRUE,c/BI,Africa/Bujumbura,run,576i
-HumWorld.pk,SD,SD,,TRUE,r/AMER;r/SAS,Asia/Karachi,urd,576i
+HumWorld.pk,HD,HD,,TRUE,c/PK,Asia/Karachi,urd,1080p
+HumWorld.pk,SD,SD,,FALSE,r/AMER;r/SAS,Asia/Karachi,urd,576i
 HunanCityChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 HunanDramaChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 HunanEconomyChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
@@ -22582,6 +22585,7 @@ MNBSport.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
 MNBSports.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
 MNBWorld.mn,SD,SD,,TRUE,c/MN;c/KR;c/JP;c/PH;c/GU;c/VN;c/KH;c/LA;r/SAS,Asia/Ulaanbaatar,eng,576i
 MNCInfotainment.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
+MNCLifestyle.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MNCSports.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MNCSports1.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MNCSports2.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
@@ -34363,7 +34367,7 @@ ThePriceIsRight.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
 ThePriceIsRight.us,HD,HD,,TRUE,c/US,America/New_York,eng,720p
 ThePriceIsRightTheBarkerEra.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 TheQIndia.us,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
-TheRetroChannel.pr,SD,SD,,TRUE,c/PR,America/Puerto_Rico,eng,480i
+TheRetroChannel.pr,HD,HD,,TRUE,c/PR,America/Puerto_Rico,spa;eng,1080p
 TheReuters60.pl,FAST,FAST,,TRUE,c/PL;r/EUR,Europe/Warsaw,eng,720p
 TheRifleman.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 TheRockvilleChannel.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -38447,7 +38451,7 @@ VTV.us,SD,SD,,TRUE,ct/USVKS,America/Chicago,eng,480i
 VTV.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 VTV1.vn,HD,HD,,FALSE,c/VN,Asia/Ho_Chi_Minh,vie;eng,1080i
 VTV1.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie;eng,576i
-VTV10.vn,HD,HD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,720p
+VTV10.vn,HD,HD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,1080i
 VTV10.vn,SD,SD,,FALSE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 VTV2.vn,HD,HD,,FALSE,c/VN,Asia/Ho_Chi_Minh,vie,1080i
 VTV2.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i

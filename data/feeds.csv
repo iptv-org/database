@@ -755,6 +755,7 @@ AccessTV.bw,SD,SD,,TRUE,c/BW,Africa/Gaborone,eng;tsn,576i
 AccessVisionChannel16.us,SD,SD,,TRUE,ct/USBTL,America/Detroit,eng,480i
 AccessVisionChannel17.us,SD,SD,,TRUE,ct/USBTL,America/Detroit,eng,480i
 AccionporMovistarPlusPlus.es,SD,SD,,TRUE,c/ES;c/AD,Europe/Madrid,spa,576i
+ACCNetwork.us,HD,HD,,FALSE,c/US,Europe/London,eng,1080p
 ACCNetwork.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
 AccuWeatherNetwork.us,SD,SD,,TRUE,c/US,America/New_York,eng,576i
 AccuWeatherNOW.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -3437,12 +3438,14 @@ beINSports1.qa,MENA,MENA,,TRUE,r/MENA,Asia/Qatar,ara,576i
 beINSports1.qa,Philippines,Philippines,,FALSE,c/PH,Asia/Manila,eng,480i
 beINSports1.qa,Thailand,Thailand,,FALSE,c/TH,Asia/Bangkok,eng,576i
 beINSports1.qa,Turkiye,Turkiye,,FALSE,c/TR,Europe/Istanbul,tur,576i
+beINSports1Turk.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 beINSports2.qa,Australia,Australia,,FALSE,c/AU;c/NZ,Australia/Sydney,eng,576i
 beINSports2.qa,France,France,,FALSE,c/FR,Europe/Paris,fra,576i
 beINSports2.qa,HongKong,Hong Kong,,FALSE,c/HK,Asia/Hong_Kong,eng,576i
 beINSports2.qa,MENA,MENA,,TRUE,r/MENA,Asia/Qatar,ara,576i
 beINSports2.qa,Thailand,Thailand,,FALSE,c/TH,Asia/Bangkok,eng,576i
 beINSports2.qa,Turkiye,Turkiye,,FALSE,c/TR,Europe/Istanbul,tur,576i
+beINSports2Turk.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 beINSports3.qa,Australia,Australia,,FALSE,c/AU;c/NZ,Australia/Sydney,eng,576i
 beINSports3.qa,France,France,,FALSE,c/FR,Europe/Paris,fra,576i
 beINSports3.qa,Indonesia,Indonesia,,FALSE,c/ID,Asia/Jakarta,eng,576i
@@ -3451,13 +3454,16 @@ beINSports3.qa,Philippines,Philippines,,FALSE,c/PH,Asia/Manila,eng,480i
 beINSports3.qa,Thailand,Thailand,,FALSE,c/TH,Asia/Bangkok,eng,576i
 beINSports3.qa,Turkiye,Turkiye,,FALSE,c/TR,Europe/Istanbul,tur,576i
 beINSports3.qa,USA,USA,,FALSE,c/US,America/New_York,eng,480i
+beINSports3Turk.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 beINSports4.qa,MENA,MENA,,TRUE,r/MENA,Asia/Qatar,ara,576i
 beINSports4.qa,Turkiye,Turkiye,,FALSE,c/TR,Europe/Istanbul,tur,576i
 beINSports4.qa,USA,USA,,FALSE,c/US,America/New_York,eng,480i
 beINSports4KHDR.qa,4KHDR,4K HDR,,TRUE,c/QA,Asia/Qatar,ara,2160p
+beINSports4Turk.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 beINSports5.qa,MENA,MENA,,TRUE,r/MENA,Asia/Qatar,ara,576i
 beINSports5.qa,Turkiye,Turkiye,,FALSE,c/TR,Europe/Istanbul,tur,576i
 beINSports5.qa,USA,USA,,FALSE,c/US,America/New_York,eng,480i
+beINSports5Turk.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 beINSports6.qa,MENA,MENA,,TRUE,r/MENA,Asia/Qatar,ara,576i
 beINSports6.qa,USA,USA,,FALSE,c/US,America/New_York,eng,480i
 beINSports7.qa,MENA,MENA,,TRUE,r/MENA,Asia/Qatar,ara,576i
@@ -6268,6 +6274,7 @@ Channel5.ru,Plus2,+2,,FALSE,c/RU,Europe/Moscow,rus,576i
 Channel5.ru,Plus4,+4,,FALSE,c/RU,Europe/Moscow,rus,576i
 Channel5.ru,Plus7,+7,,FALSE,c/RU,Europe/Moscow,rus,576i
 Channel5.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
+Channel5.sg,HD,HD,,FALSE,c/SG,Asia/Singapore,eng,1080p
 Channel5.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,eng,576i
 Channel5.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 Channel5.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
@@ -6293,6 +6300,7 @@ Channel8.by,SD,SD,,TRUE,c/BY,Europe/Minsk,rus,576i
 Channel8.gr,HD,HD,,TRUE,c/GR,Europe/Athens,ell,1080p
 Channel8.iq,SD,SD,,TRUE,c/IQ,Asia/Baghdad,kur;ara;eng,576i
 Channel8.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
+Channel8.sg,HD,HD,,FALSE,c/SG,Asia/Singapore,zho,1080p
 Channel8.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,zho,576i
 Channel8.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 Channel8.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
@@ -6370,6 +6378,7 @@ ChannelT1.bd,SD,SD,,TRUE,c/BD,Asia/Dhaka,ben,576i
 ChannelTea.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 ChannelTen.tz,SD,SD,,TRUE,c/TZ,Africa/Dar_es_Salaam,eng,576i
 ChannelTenPlus.tz,SD,SD,,TRUE,c/TZ,Africa/Dar_es_Salaam,eng,576i
+ChannelU.sg,HD,HD,,FALSE,c/SG,Asia/Singapore,zho;kor;tha;eng,1080p
 ChannelU.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,zho;kor;tha;eng,576i
 ChannelU.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
 ChannelV.hk,SD,SD,,TRUE,r/SAS,Asia/Hong_Kong,zho,576i
@@ -7305,6 +7314,7 @@ CN23.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 CN3Television.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 CNA.al,SD,SD,,TRUE,c/AL,Europe/Tirane,sqi,576i
 CNA.dz,SD,SD,,TRUE,c/DZ;c/MA,Africa/Algiers,ara;fra,576i
+CNA.sg,HD,HD,,FALSE,c/SG,Asia/Singapore,eng,1080p
 CNA.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,eng,576i
 CNAInternational.sg,SD,SD,,TRUE,r/ASIA,Asia/Singapore,eng,576i
 CNAOriginals.sg,SD,SD,,TRUE,c/SG;r/ASIA,Asia/Singapore,eng,576i
@@ -7313,6 +7323,7 @@ CnArNoticias.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 CNBC.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 CNBCAfrica.za,SD,SD,,TRUE,r/AFR,Africa/Johannesburg,eng,576i
 CNBCArabiya.ae,SD,SD,,TRUE,c/AE;r/ARAB,Asia/Dubai,ara,576i
+CNBCAsia.sg,HD,HD,,FALSE,r/APAC,Asia/Singapore,eng,1080p
 CNBCAsia.sg,SD,SD,,TRUE,r/APAC,Asia/Singapore,eng,576i
 CNBCAustralia.au,SD,SD,,TRUE,c/AU;c/NZ,Australia/Sydney,eng,576i
 CNBCAwaaz.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -9982,6 +9993,7 @@ EsperanzaTVCostaRica.cr,SD,SD,,TRUE,c/CR,America/La_Paz,spa,480i
 EsperiaTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 EspirituSantoYFuegoTV.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 ESPN.au,SD,SD,,TRUE,r/OCE,Europe/London,eng,576i
+ESPN.br,HD,HD,,FALSE,c/BR,America/Sao_Paulo,por,1080p
 ESPN.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 ESPN.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,eng,1080i
 ESPN.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
@@ -9998,11 +10010,13 @@ ESPN2LatinAmerica.us,Chile,Chile,,FALSE,c/CL,America/Santiago,spa,480i
 ESPN2LatinAmerica.us,Colombia,Colombia,,FALSE,c/CO,America/Bogota,spa,480i
 ESPN2LatinAmerica.us,Mexico,Mexico,,FALSE,c/MX,America/Mexico_City,spa,480i
 ESPN2LatinAmerica.us,South,South,,TRUE,c/BO;c/PY;c/PE;c/UY,America/Argentina/Buenos_Aires,spa,480i
+ESPN3.br,HD,HD,,FALSE,c/BR,America/Sao_Paulo,por,1080p
 ESPN3.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 ESPN3.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
 ESPN3LatinAmerica.us,Argentina,Argentina,,FALSE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 ESPN3LatinAmerica.us,North,North,,FALSE,r/CENAMER;c/DO,Europe/London,spa,480i
 ESPN3LatinAmerica.us,South,South,,TRUE,c/BO;c/CL;c/CO;c/EC;c/PY;c/UY;c/VE,Europe/London,spa,480i
+ESPN4.br,HD,HD,,FALSE,c/BR,America/Sao_Paulo,por,1080p
 ESPN4.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 ESPN4.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
 ESPN4LatinAmerica.us,CentralAmerica,Central America,,FALSE,r/CENAMER;c/DO,Europe/London,spa,480i
@@ -10029,8 +10043,10 @@ ESPNCollegeExtra5.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
 ESPNCollegeExtra6.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
 ESPNCollegeExtra7.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
 ESPNCollegeExtra8.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
+ESPNDeportes.us,HD,HD,,FALSE,c/US,Europe/London,spa,1080p
 ESPNDeportes.us,SD,SD,,TRUE,c/US,Europe/London,spa,480i
 ESPNews.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
+ESPNExtra.br,HD,HD,,FALSE,c/BR,America/Sao_Paulo,por,1080p
 ESPNExtra.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 ESPNExtraLatinAmerica.us,Argentine,Argentine,,TRUE,c/AR,Europe/London,spa,480i
 ESPNGoalLine.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
@@ -10043,6 +10059,7 @@ ESPNLatinAmerica.us,South,South,,TRUE,c/PE;c/BO;c/PY;c/UY,Europe/London,spa,480i
 ESPNPremium.ar,HD,HD,,FALSE,c/AR,America/Argentina/Buenos_Aires,spa,1080i
 ESPNPremium.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 ESPNPremium.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
+ESPNU.us,HD,HD,,FALSE,c/US,Europe/London,eng,1080p
 ESPNU.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
 ESPNUHD.nl,UHD,UHD,,TRUE,c/NL,Europe/Amsterdam,nld,2160p
 EspoirduMondeTV.bf,SD,SD,,TRUE,c/BF,Africa/Ouagadougou,fra,576i
@@ -11462,7 +11479,9 @@ FX.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 FX.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 FX.tr,HD,HD,,TRUE,c/TR;c/CY,Europe/Istanbul,tur;eng,720p
 FX.us,East,East,,TRUE,c/US,America/New_York,eng,480i
+FX.us,EastHD,East HD,,FALSE,c/US,America/New_York,eng,1080p
 FX.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
+FX.us,WestHD,West HD,,FALSE,c/US,America/Los_Angeles,eng,1080p
 FX1.fr,SD,SD,,TRUE,c/FR,America/Santiago,ara;fra;eng,576i
 FX1.ir,SD,SD,,TRUE,c/IR,America/Santiago,fas,576i
 FX2.fr,SD,SD,,TRUE,c/FR,Europe/Paris,ara;fra;eng,576i
@@ -11480,6 +11499,7 @@ FXMLatinAmerica.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,spa;eng,480i
 FXMLatinAmerica.us,BrazilHD,Brazil HD,,FALSE,c/BR,America/Sao_Paulo,spa;eng,1080i
 FXMLatinAmerica.us,HD,HD,,FALSE,r/LATAM,America/Santiago,spa;eng,1080i
 FXMLatinAmerica.us,SD,SD,,TRUE,r/LATAM,America/Santiago,spa;eng,480i
+FXMovieChannel.us,HD,HD,,FALSE,c/US,America/Santiago,spa;eng,1080p
 FXMovieChannel.us,SD,SD,,TRUE,c/US,America/Santiago,spa;eng,480i
 FXX.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 FXX.us,East,East,,TRUE,c/US,America/New_York,eng,480i

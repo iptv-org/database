@@ -930,7 +930,9 @@ AE.au,HD,HD,,FALSE,c/AU,Australia/Sydney,eng,1080i
 AE.au,Plus2,+2,,FALSE,c/AU,Australia/Sydney,eng,576i
 AE.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 AE.us,East,East,,TRUE,c/US;c/CA,America/New_York,eng,480i
+AE.us,EastHD,East HD,,FALSE,c/US;c/CA,America/New_York,eng,1080p
 AE.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
+AE.us,WestHD,West HD,,FALSE,c/US,America/Los_Angeles,eng,1080p
 AEKSuperLeaguePass.gr,HD,HD,,TRUE,c/GR,Europe/Athens,ell,1080i
 AELatinAmerica.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
 AELatinAmerica.us,Chile,Chile,,FALSE,c/CL,America/New_York,spa,480i
@@ -1609,6 +1611,7 @@ AMC.af,SD,SD,,TRUE,c/AF,Asia/Kabul,pus,576i
 AMC.us,East,East,,FALSE,c/US,America/New_York,eng,480i
 AMC.us,EastHD,East HD,,TRUE,c/US,America/New_York,eng,1080i
 AMC.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
+AMC.us,WestHD,West HD,,FALSE,c/US,America/Los_Angeles,eng,1080p
 AMCanal.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 AMCBreak.es,HD,HD,,FALSE,c/ES,Europe/Madrid,spa,1080i
 AMCBreak.es,SD,SD,,TRUE,c/ES;c/AD,Europe/Madrid,spa,576i
@@ -4119,8 +4122,10 @@ BowieTV.us,SD,SD,,TRUE,ct/USBQA,America/New_York,eng,480i
 BoxCinema.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 BOXFILM.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 BoxHits.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
+BoxHits.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie;eng,576i
 BoxingSpotlight.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 BoxKidsTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,576i
+BoxMovie1.vn,HD,HD,,FALSE,c/VN,Asia/Ho_Chi_Minh,vie;eng,1080p
 BoxMovie1.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie;eng,576i
 BoxNation.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 BoxOffice.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
@@ -6788,6 +6793,7 @@ CinemaxCentralEurope.hu,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
 CinemaxCentralEurope.hu,SD,SD,,TRUE,c/SI;c/BG;c/CZ;c/HU;c/PL;c/RO;r/BALKAN,Europe/Budapest,eng,576i
 CinemaxLatinAmerica.us,HD,HD,,FALSE,r/LATAM,America/New_York,spa,1080i
 CinemaxLatinAmerica.us,SD,SD,,TRUE,r/LATAM,America/New_York,spa,480i
+CinemaxLatino.us,HD,HD,,FALSE,c/US,America/New_York,spa,1080p
 CinemaxLatino.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 CineMexicano.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa;eng,480i
 CineMexicano.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
@@ -9672,7 +9678,7 @@ ElOnce.ar,SD,SD,,TRUE,ct/ARPRA,America/Argentina/Cordoba,spa,576i
 ElOussraTV.mr,SD,SD,,TRUE,c/MR,Africa/Nouakchott,ara,576i
 ElPaisTV.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 ElPalomarTV.ar,SD,SD,,TRUE,ct/ARSMC,America/Argentina/Buenos_Aires,spa,576i
-ElPinguinoTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
+ElPinguinoTV.cl,SD,SD,,TRUE,s/CL-MA,America/Santiago,spa,480i
 ElPitucoTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 ElPuebloTelevision.pe,SD,SD,,TRUE,ct/PEAQP,America/Lima,spa,480i
 ElPuertoTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
@@ -11503,7 +11509,9 @@ FXMovieChannel.us,HD,HD,,FALSE,c/US,America/Santiago,spa;eng,1080p
 FXMovieChannel.us,SD,SD,,TRUE,c/US,America/Santiago,spa;eng,480i
 FXX.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 FXX.us,East,East,,TRUE,c/US,America/New_York,eng,480i
+FXX.us,EastHD,East HD,,FALSE,c/US,America/New_York,eng,1080p
 FXX.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
+FXX.us,WestHD,West HD,,FALSE,c/US,America/Los_Angeles,eng,1080p
 FYI.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 FYI.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 FynboTV.dk,SD,SD,,TRUE,c/DK,Europe/Copenhagen,fra,576i
@@ -13778,7 +13786,7 @@ InterTVValesdeMinasGerais.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 IntheKitchen.us,SD,SD,,TRUE,ct/USWCT,America/New_York,eng,480i
 IntiTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 IntoCrime.fr,SD,SD,,TRUE,c/FR;c/CH,Europe/Paris,fra,576i
-InTouchPlus.us,SD,SD,,TRUE,c/US,America/New_York,eng,576i
+InTouchPlus.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080p
 IntratecTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,720p
 INTRAVEL.nl,Philippines,Philippines,,TRUE,c/PH,Asia/Manila,eng,720p
 InTrouble.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,eng,576i
@@ -24444,9 +24452,12 @@ Nickelodeon.uk,HD,HD,,FALSE,c/UK;c/IE,Europe/London,eng,1080i
 Nickelodeon.uk,Plus1,+1,,FALSE,c/UK;c/IE,Europe/London,eng,576i
 Nickelodeon.uk,SD,SD,,TRUE,c/UK;c/IE,America/Toronto,eng,576i
 Nickelodeon.us,East,East,,TRUE,c/US,America/New_York,eng,480i
+Nickelodeon.us,EastHD,East HD,,FALSE,c/US,America/New_York,eng,1080p
 Nickelodeon.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
+Nickelodeon.us,WestHD,West HD,,FALSE,c/US,America/Los_Angeles,eng,1080p
 NickelodeonAfrica.za,SD,SD,,TRUE,r/SSA,Africa/Johannesburg,eng,576i
 NickelodeonArabia.ae,SD,SD,,TRUE,r/MENA,Europe/Madrid,ara;eng,576i
+NickelodeonAsia.sg,HD,HD,,FALSE,r/SEA,Asia/Singapore,eng,1080p
 NickelodeonAsia.sg,Indonesia,Indonesia,,FALSE,c/ID,Asia/Singapore,ind;eng,576i
 NickelodeonAsia.sg,SD,SD,,TRUE,r/SEA,Asia/Singapore,eng,576i
 NickelodeonAustria.at,HD,HD,,FALSE,c/AT,Europe/Berlin,deu;eng,1080i
@@ -24502,7 +24513,9 @@ NickJr.uk,HD,HD,,FALSE,c/UK;c/IE,Europe/London,eng,1080i
 NickJr.uk,Plus1,+1,,FALSE,c/UK;c/IE,Europe/London,eng,576i
 NickJr.uk,SD,SD,,TRUE,c/UK;c/IE,America/Toronto,eng,576i
 NickJr.us,East,East,,TRUE,c/US,America/New_York,eng,480i
+NickJr.us,EastHD,East HD,,FALSE,c/US,America/New_York,eng,1080p
 NickJr.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
+NickJr.us,WestHD,West HD,,FALSE,c/US,America/Los_Angeles,eng,1080p
 NickJrAfrica.za,SD,SD,,TRUE,r/SSA,Africa/Johannesburg,eng;amh,576i
 NickJrArabia.ae,SD,SD,,TRUE,r/MENA,Europe/Madrid,ara;eng,576i
 NickJrAsia.sg,HD,HD,,FALSE,r/SEA,America/Toronto,eng,1080i
@@ -30366,12 +30379,15 @@ SESCTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 SestaRete.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 SesTV.az,SD,SD,,TRUE,c/AZ,Asia/Baku,aze,576i
 SetantaQazaqstan.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,rus;kaz,576i
+SetantaSports.uk,HD,HD,,FALSE,r/EU,Europe/London,eng;ukr,576i
+SetantaSports.uk,SD,SD,,TRUE,r/EU,Europe/London,eng;ukr,576i
 SetantaSports1.ru,HD,HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
 SetantaSports1.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 SetantaSports1Eurasia.ie,SD,SD,,TRUE,c/IE,Europe/Dublin,rus;eng,576i
 SetantaSports2.ru,HD,HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
 SetantaSports2.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 SetantaSports2Eurasia.ie,SD,SD,,TRUE,c/IE,Europe/Dublin,rus;eng,576i
+SetantaSports3.ge,SD,SD,,TRUE,c/GE,Asia/Tbilisi,kat,576i
 SetantaSportsGeorgia.ge,SD,SD,,TRUE,c/GE,Asia/Tbilisi,kat;rus,576i
 SetantaSportsPlusGeorgia.ge,SD,SD,,TRUE,c/GE,Asia/Tbilisi,eng;kat,576i
 SetantaSportsPlusUkraine.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr;rus,576i
@@ -33764,7 +33780,9 @@ Telemontecarlo.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 teleMonteneve.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 Telemotril.es,SD,SD,,TRUE,ct/ESGRX,America/Managua,spa,576i
 Telemundo.us,East,East,,TRUE,c/US,America/New_York,eng,480i
+Telemundo.us,EastHD,East HD,,FALSE,c/US,America/New_York,eng,1080p
 Telemundo.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
+Telemundo.us,WestHD,West HD,,FALSE,c/US,America/Los_Angeles,eng,1080p
 TelemundoAfrica.za,SD,SD,,TRUE,r/SSA,Africa/Johannesburg,eng;por;spa,576i
 TelemundoAlDia.us,HD,HD,,TRUE,c/US,America/New_York,spa,1080p
 TelemundoCorpusChristi.us,SD,SD,,TRUE,ct/USCRP,America/Chicago,spa,480i
@@ -37491,7 +37509,9 @@ UniversTV.es,SD,SD,,TRUE,s/ES-VC,Europe/Madrid,spa,576i
 UniverTV.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 UnivespTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 Univision.us,East,East,,TRUE,c/US,America/New_York,eng,480i
+Univision.us,EastHD,East HD,,FALSE,c/US,America/New_York,eng,1080p
 Univision.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
+Univision.us,WestHD,West HD,,FALSE,c/US,America/Los_Angeles,eng,1080p
 UnivisionCanada.ca,SD,SD,,TRUE,c/CA,America/Toronto,spa,480i
 UnivisionLatinAmerica.mx,Panregional,Panregional,,TRUE,r/HISPAM,America/Mexico_City,spa,480i
 UnivisionTlnovelas.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i

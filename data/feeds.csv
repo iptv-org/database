@@ -2965,7 +2965,8 @@ BadenTV.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 BadenTVSud.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 BadukTV.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 BaebleMusic.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
-BagmatiTV.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
+BagmatiTV.np,HD,HD,,TRUE,c/NP,Asia/Kathmandu,nep;mai;eng,1080p
+BagmatiTV.np,SD,SD,,FALSE,c/NP,Asia/Kathmandu,nep,576i
 BaharTV.af,SD,SD,,TRUE,c/AF,Asia/Kabul,prd,576i
 BahiaTV.dz,SD,SD,,TRUE,c/DZ,Africa/Algiers,ara,576i
 BahrainInternational.bh,SD,SD,,TRUE,r/EUR;r/MENA,Asia/Bahrain,eng;ara,576i
@@ -8379,6 +8380,7 @@ DeepThroatSirens.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 DeeptoTV.bd,SD,SD,,TRUE,c/BD,Asia/Dhaka,ben,576i
 DeepTV.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 DeerParkTV.us,SD,SD,,TRUE,ct/USDEX,America/New_York,eng,480i
+DeewanaHD.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,720p
 DeFianceMedia.pr,SD,SD,,TRUE,c/PR,America/Puerto_Rico,eng,480i
 Defy.us,SD,SD,,TRUE,c/US,America/New_York,eng,576i
 DegaTV.us,SD,SD,,TRUE,c/US;c/HT,America/New_York,fra,480i
@@ -22408,7 +22410,7 @@ MiMusicaReggaeton.us,SD,SD,,TRUE,r/HISPAM,America/New_York,spa,576i
 MiMusicaRomantica.us,SD,SD,,TRUE,r/HISPAM,America/New_York,spa,576i
 MiMusicaSalsa.us,SD,SD,,TRUE,r/HISPAM,America/New_York,spa,576i
 MinberTV.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh;orm,576i
-MindanowNetworkTV.ph,SD,SD,,TRUE,c/PH,Asia/Manila,eng,576i
+MindanowNetworkTV.ph,HD,HD,,TRUE,c/PH,Asia/Manila,eng;tgl;ceb,1080p
 MindCastTV.mz,SD,SD,,TRUE,c/MZ,Africa/Maputo,por,576i
 MinecrafTV.us,Germany,Germany,,FALSE,c/DE,Europe/Berlin,deu,576i
 MinecrafTV.us,UK,UK,,FALSE,c/UK,Europe/London,eng,576i
@@ -28510,6 +28512,7 @@ Raya1.ps,SD,SD,,TRUE,c/PS,Asia/Gaza,ara,576i
 Raya2.ps,SD,SD,,TRUE,c/PS,Asia/Gaza,ara,576i
 Raya3.ps,SD,SD,,TRUE,c/PS,Asia/Gaza,ara,576i
 RaymondTV.us,SD,SD,,TRUE,ct/USYOD,America/New_York,eng,480i
+RayTVHD.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep;mai,720p
 RAZ1.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,rus,576i
 RAZ2.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,rus,576i
 RazaviTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
@@ -29403,6 +29406,7 @@ RTMParlimenDewanRakyat.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,mal,576i
 RTMPlus.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
 RTMTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 RTMwangaza.cd,SD,SD,,TRUE,c/CD,Africa/Lubumbashi,fra;swa,576i
+RTMWorld.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,eng,576i
 RTN.ar,SD,SD,,TRUE,ct/ARNQN,America/Argentina/Salta,spa,576i
 RTN.ga,SD,SD,,TRUE,c/GA,Africa/Libreville,fra,576i
 RTN.us,SD,SD,,TRUE,c/US,America/New_York,rus,480i
@@ -32024,6 +32028,7 @@ SPOTVGolfHealth.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 SPOTVStadia.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,eng,576i
 SPPATV.us,SD,SD,,TRUE,ct/USSOX,America/New_York,eng,480i
 SpreeTV.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
+SPremium.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080p
 SpringfieldCityView.us,SD,SD,,TRUE,ct/USSGF,America/Chicago,eng,480i
 SpringsNetwork.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 SpringsTV.us,SD,SD,,TRUE,ct/USCOS,America/Denver,eng,480i
@@ -32582,6 +32587,7 @@ Stod2Sport3.is,SD,SD,,TRUE,c/IS,Atlantic/Reykjavik,isl,576i
 Stod2Sport4.is,SD,SD,,TRUE,c/IS,Atlantic/Reykjavik,isl,576i
 Stod2Sport5.is,SD,SD,,TRUE,c/IS,Atlantic/Reykjavik,isl,576i
 Stod2Sport6.is,SD,SD,,TRUE,c/IS,Atlantic/Reykjavik,isl,576i
+STomSings.us,HD,HD,,TRUE,r/ASIA,America/New_York,eng,1080p
 StonehamTV.us,SD,SD,,TRUE,ct/USSTU,America/New_York,eng,480i
 StopklatkaTV.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 StopSatelliteTaxChannel.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -32761,6 +32767,7 @@ Sukachan4K2.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 Sukachan5.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 Sukachan6.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 Sukachan7.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
+SukanPlus.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,msa;eng,576i
 SukanRTM.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,msa,576i
 SukeTV.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,msa,576i
 SukhbaatarTV.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i

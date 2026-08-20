@@ -1,8 +1,8 @@
 import { Validator, ValidatorError } from '../types/validator'
 import { Collection, Dictionary } from '@freearhey/core'
 import { Subdivision } from './subdivision'
+import { DataSet } from '../core/dataSet'
 import { CSVRow } from '../types/utils'
-import { IssueData } from './issueData'
 import * as sdk from '@iptv-org/sdk'
 import { Country } from './country'
 import { data } from '../core/db'
@@ -12,10 +12,14 @@ export class City extends sdk.Models.City implements Validator {
   line: number = -1
 
   static fromRow(row: CSVRow): City {
-    if (!row.data.code) throw new Error('City: "code" not specified')
-    if (!row.data.name) throw new Error('City: "name" not specified')
-    if (!row.data.country) throw new Error('City: "country" not specified')
-    if (!row.data.wikidata_id) throw new Error('City: "wikidata_id" not specified')
+    if (!row.data.code)
+      throw new Error(`[cities.csv] Line ${row.line} is missing the required "code" column`)
+    if (!row.data.name)
+      throw new Error(`[cities.csv] Line ${row.line} is missing the required "name" column`)
+    if (!row.data.country)
+      throw new Error(`[cities.csv] Line ${row.line} is missing the required "country" column`)
+    if (!row.data.wikidata_id)
+      throw new Error(`[cities.csv] Line ${row.line} is missing the required "wikidata_id" column`)
 
     const city = new City({
       code: row.data.code.toString(),
@@ -30,12 +34,12 @@ export class City extends sdk.Models.City implements Validator {
     return city
   }
 
-  update(issueData: IssueData): this {
+  update(dataSet: DataSet): this {
     const data = {
-      name: issueData.getString('city_name'),
-      country: issueData.getString('country'),
-      subdivision: issueData.getString('subdivision'),
-      wikidata_id: issueData.getString('wikidata_id')
+      name: dataSet.getString('city_name'),
+      country: dataSet.getString('country'),
+      subdivision: dataSet.getString('subdivision'),
+      wikidata_id: dataSet.getString('wikidata_id')
     }
 
     if (data.name !== undefined) this.name = data.name

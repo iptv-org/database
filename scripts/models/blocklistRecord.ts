@@ -10,9 +10,12 @@ export class BlocklistRecord extends sdk.Models.BlocklistRecord implements Valid
   line: number = -1
 
   static fromRow(row: CSVRow): BlocklistRecord {
-    if (!row.data.channel) throw new Error('BlocklistRecord: "channel" not specified')
-    if (!row.data.reason) throw new Error('BlocklistRecord: "reason" not specified')
-    if (!row.data.ref) throw new Error('BlocklistRecord: "ref" not specified')
+    if (!row.data.channel)
+      throw new Error(`[blocklist.csv] Line ${row.line} is missing the required "channel" column`)
+    if (!row.data.reason)
+      throw new Error(`[blocklist.csv] Line ${row.line} is missing the required "reason" column`)
+    if (!row.data.ref)
+      throw new Error(`[blocklist.csv] Line ${row.line} is missing the required "ref" column`)
 
     const record = new BlocklistRecord({
       channel: row.data.channel.toString(),

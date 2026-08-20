@@ -10,9 +10,14 @@ export class Subdivision extends sdk.Models.Subdivision implements Validator {
   line: number = -1
 
   static fromRow(row: CSVRow): Subdivision {
-    if (!row.data.country) throw new Error('Subdivision: "country" not specified')
-    if (!row.data.code) throw new Error('Subdivision: "code" not specified')
-    if (!row.data.name) throw new Error('Subdivision: "name" not specified')
+    if (!row.data.country)
+      throw new Error(
+        `[subdivisions.csv] Line ${row.line} is missing the required "country" column`
+      )
+    if (!row.data.code)
+      throw new Error(`[subdivisions.csv] Line ${row.line} is missing the required "code" column`)
+    if (!row.data.name)
+      throw new Error(`[subdivisions.csv] Line ${row.line} is missing the required "name" column`)
 
     const subdivision = new Subdivision({
       country: row.data.country.toString(),

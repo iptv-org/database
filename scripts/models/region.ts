@@ -10,9 +10,12 @@ export class Region extends sdk.Models.Region implements Validator {
   line: number = -1
 
   static fromRow(row: CSVRow): Region {
-    if (!row.data.code) throw new Error('Region: "code" not specified')
-    if (!row.data.name) throw new Error('Region: "name" not specified')
-    if (!row.data.countries) throw new Error('Region: "countries" not specified')
+    if (!row.data.code)
+      throw new Error(`[regions.csv] Line ${row.line} is missing the required "code" column`)
+    if (!row.data.name)
+      throw new Error(`[regions.csv] Line ${row.line} is missing the required "name" column`)
+    if (!row.data.countries)
+      throw new Error(`[regions.csv] Line ${row.line} is missing the required "countries" column`)
 
     const region = new Region({
       code: row.data.code.toString(),

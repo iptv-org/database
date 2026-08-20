@@ -8,9 +8,14 @@ export class Category extends sdk.Models.Category implements Validator {
   line: number = -1
 
   static fromRow(row: CSVRow): Category {
-    if (!row.data.id) throw new Error('Category: "id" not specified')
-    if (!row.data.name) throw new Error('Category: "name" not specified')
-    if (!row.data.description) throw new Error('Category: "description" not specified')
+    if (!row.data.id)
+      throw new Error(`[categories.csv] Line ${row.line} is missing the required "id" column`)
+    if (!row.data.name)
+      throw new Error(`[categories.csv] Line ${row.line} is missing the required "name" column`)
+    if (!row.data.description)
+      throw new Error(
+        `[categories.csv] Line ${row.line} is missing the required "description" column`
+      )
 
     const category = new Category({
       id: row.data.id.toString(),

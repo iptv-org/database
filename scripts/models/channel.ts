@@ -1,7 +1,7 @@
 import { Validator, ValidatorError } from '../types/validator'
 import { Collection, Dictionary } from '@freearhey/core'
 import { createChannelId, data } from '../core'
-import { IssueData } from './issueData'
+import { DataSet } from '../core/dataSet'
 import { CSVRow } from '../types/utils'
 import { Category } from './category'
 import * as sdk from '@iptv-org/sdk'
@@ -16,9 +16,12 @@ export class Channel extends sdk.Models.Channel implements Validator {
   line: number = -1
 
   static fromRow(row: CSVRow): Channel {
-    if (!row.data.id) throw new Error('Channel: "id" not specified')
-    if (!row.data.name) throw new Error('Channel: "name" not specified')
-    if (!row.data.country) throw new Error('Channel: "country" not specified')
+    if (!row.data.id)
+      throw new Error(`[channels.csv] Line ${row.line} is missing the required "id" column`)
+    if (!row.data.name)
+      throw new Error(`[channels.csv] Line ${row.line} is missing the required "name" column`)
+    if (!row.data.country)
+      throw new Error(`[channels.csv] Line ${row.line} is missing the required "country" column`)
 
     const channel = new Channel({
       id: row.data.id.toString(),
@@ -40,19 +43,19 @@ export class Channel extends sdk.Models.Channel implements Validator {
     return channel
   }
 
-  update(issueData: IssueData): this {
+  update(dataSet: DataSet): this {
     const data = {
-      channel_name: issueData.getString('channel_name'),
-      alt_names: issueData.getArray('alt_names'),
-      network: issueData.getString('network'),
-      owners: issueData.getArray('owners'),
-      country: issueData.getString('country'),
-      categories: issueData.getArray('categories'),
-      is_nsfw: issueData.getBoolean('is_nsfw'),
-      launched: issueData.getString('launched'),
-      closed: issueData.getString('closed'),
-      replaced_by: issueData.getString('replaced_by'),
-      website: issueData.getString('website')
+      channel_name: dataSet.getString('channel_name'),
+      alt_names: dataSet.getArray('alt_names'),
+      network: dataSet.getString('network'),
+      owners: dataSet.getArray('owners'),
+      country: dataSet.getString('country'),
+      categories: dataSet.getArray('categories'),
+      is_nsfw: dataSet.getBoolean('is_nsfw'),
+      launched: dataSet.getString('launched'),
+      closed: dataSet.getString('closed'),
+      replaced_by: dataSet.getString('replaced_by'),
+      website: dataSet.getString('website')
     }
 
     if (data.channel_name !== undefined) this.name = data.channel_name
@@ -67,8 +70,8 @@ export class Channel extends sdk.Models.Channel implements Validator {
     if (data.replaced_by !== undefined) this.replaced_by = data.replaced_by || null
     if (data.website !== undefined) this.website = data.website || null
 
-    let channelName = issueData.getString('channel_name')
-    let country = issueData.getString('country')
+    let channelName = dataSet.getString('channel_name')
+    let country = dataSet.getString('country')
     if (channelName || country) {
       channelName = channelName || this.name
       country = country || this.country

@@ -1,4 +1,4 @@
-import { Channel, Feed, BlocklistRecord, Logo, City, Issue, IssueData } from '../../models'
+import { Channel, Feed, BlocklistRecord, Logo, City, Issue } from '../../models'
 import { Collection, Logger } from '@freearhey/core'
 import { ValidatorError } from '../../types/validator'
 import { Storage } from '@freearhey/storage-js'
@@ -14,6 +14,7 @@ import {
   cacheData,
   resetData
 } from '../../core'
+import { DataSet } from '../../core/dataSet'
 
 const processedIssues = new Collection<Issue>()
 const skippedIssues = new Collection<Issue>()
@@ -140,17 +141,17 @@ async function addChannel(issue: Issue) {
   const log = createThread(issue, 'channels/add')
   log.start()
 
-  const issueData: IssueData = issue.data
+  const dataSet: DataSet = issue.dataSet
 
-  const channelName = issueData.getString('channel_name')
-  const country = issueData.getString('country')
-  const isNsfw = issueData.getBoolean('is_nsfw')
-  const logoUrl = issueData.getString('logo_url')
-  const feedName = issueData.getString('feed_name')
-  const broadcastArea = issueData.getArray('broadcast_area')
-  const timezones = issueData.getArray('timezones')
-  const languages = issueData.getArray('languages')
-  const videoFormat = issueData.getString('format')
+  const channelName = dataSet.getString('channel_name')
+  const country = dataSet.getString('country')
+  const isNsfw = dataSet.getBoolean('is_nsfw')
+  const logoUrl = dataSet.getString('logo_url')
+  const feedName = dataSet.getString('feed_name')
+  const broadcastArea = dataSet.getArray('broadcast_area')
+  const timezones = dataSet.getArray('timezones')
+  const languages = dataSet.getArray('languages')
+  const videoFormat = dataSet.getString('format')
 
   if (
     !channelName ||
@@ -184,16 +185,16 @@ async function addChannel(issue: Issue) {
   const newChannel = new Channel({
     id: channelId,
     name: channelName,
-    alt_names: issueData.getArray('alt_names') || [],
-    network: issueData.getString('network') || null,
-    owners: issueData.getArray('owners') || [],
+    alt_names: dataSet.getArray('alt_names') || [],
+    network: dataSet.getString('network') || null,
+    owners: dataSet.getArray('owners') || [],
     country: country,
-    categories: issueData.getArray('categories') || [],
+    categories: dataSet.getArray('categories') || [],
     is_nsfw: isNsfw,
-    launched: issueData.getString('launched') || null,
-    closed: issueData.getString('closed') || null,
-    replaced_by: issueData.getString('replaced_by') || null,
-    website: issueData.getString('website') || null
+    launched: dataSet.getString('launched') || null,
+    closed: dataSet.getString('closed') || null,
+    replaced_by: dataSet.getString('replaced_by') || null,
+    website: dataSet.getString('website') || null
   })
 
   cacheData()
@@ -205,7 +206,7 @@ async function addChannel(issue: Issue) {
     channel: newChannel.id,
     id: createFeedId(feedName),
     name: feedName,
-    alt_names: issueData.getArray('feed_alt_names') || [],
+    alt_names: dataSet.getArray('feed_alt_names') || [],
     is_main: true,
     broadcast_area: broadcastArea,
     timezones: timezones,
@@ -221,8 +222,8 @@ async function addChannel(issue: Issue) {
   const newLogo = new Logo({
     channel: newChannel.id,
     feed: null,
-    in_use: issueData.getBoolean('in_use') === false ? false : true,
-    tags: issueData.getArray('logo_tags') || [],
+    in_use: dataSet.getBoolean('in_use') === false ? false : true,
+    tags: dataSet.getArray('tags') || [],
     width: imageInfo.width,
     height: imageInfo.height,
     format: imageInfo.format,
@@ -257,9 +258,9 @@ async function editChannel(issue: Issue) {
   const log = createThread(issue, 'channels/edit')
   log.start()
 
-  const issueData: IssueData = issue.data
+  const dataSet: DataSet = issue.dataSet
 
-  const channelId = issueData.getString('channel_id')
+  const channelId = dataSet.getString('channel_id')
   if (!channelId) {
     log.error('The request is missing the channel ID')
     skippedIssues.add(issue)
@@ -267,7 +268,7 @@ async function editChannel(issue: Issue) {
   }
 
   const foundChannel: Channel = data.channels.first(
-    (channel: Channel) => channel.id === issueData.getString('channel_id')
+    (channel: Channel) => channel.id === dataSet.getString('channel_id')
   )
   if (!foundChannel) {
     log.error(`Channel with id "${channelId}" not found`)
@@ -278,7 +279,7 @@ async function editChannel(issue: Issue) {
   cacheData()
 
   const updatedChannel = new Channel(foundChannel.toObject())
-  updatedChannel.update(issueData)
+  updatedChannel.update(dataSet)
 
   log.info(`Channel with id "${channelId}" updated`)
 
@@ -305,9 +306,9 @@ async function removeChannel(issue: Issue) {
   const log = createThread(issue, 'channels/remove')
   log.start()
 
-  const issueData: IssueData = issue.data
+  const dataSet: DataSet = issue.dataSet
 
-  const channelId = issueData.getString('channel_id')
+  const channelId = dataSet.getString('channel_id')
   if (!channelId) {
     log.error('The request is missing the channel ID')
     skippedIssues.add(issue)
@@ -333,15 +334,15 @@ async function addFeed(issue: Issue) {
   const log = createThread(issue, 'feed/add')
   log.start()
 
-  const issueData: IssueData = issue.data
+  const dataSet: DataSet = issue.dataSet
 
-  const channelId = issueData.getString('channel_id')
-  const feedName = issueData.getString('feed_name')
-  const format = issueData.getString('format')
-  const isMain = issueData.getBoolean('is_main')
-  const broadcastArea = issueData.getArray('broadcast_area')
-  const timezones = issueData.getArray('timezones')
-  const languages = issueData.getArray('languages')
+  const channelId = dataSet.getString('channel_id')
+  const feedName = dataSet.getString('feed_name')
+  const format = dataSet.getString('format')
+  const isMain = dataSet.getBoolean('is_main')
+  const broadcastArea = dataSet.getArray('broadcast_area')
+  const timezones = dataSet.getArray('timezones')
+  const languages = dataSet.getArray('languages')
 
   if (
     !channelId ||
@@ -372,7 +373,7 @@ async function addFeed(issue: Issue) {
     channel: channelId,
     id: feedId,
     name: feedName,
-    alt_names: issueData.getArray('alt_names') || [],
+    alt_names: dataSet.getArray('alt_names') || [],
     is_main: isMain,
     broadcast_area: broadcastArea,
     timezones,
@@ -389,14 +390,14 @@ async function addFeed(issue: Issue) {
 
   if (newFeed.is_main === true) onFeedNewMain(channelId, feedId, log)
 
-  const logoUrl = issueData.getString('logo_url')
+  const logoUrl = dataSet.getString('logo_url')
   if (logoUrl) {
     const imageInfo = await probeImage(logoUrl)
     const newLogo = new Logo({
       channel: channelId,
       feed: feedId,
-      in_use: issueData.getBoolean('in_use') === false ? false : true,
-      tags: issueData.getArray('tags') || [],
+      in_use: dataSet.getBoolean('in_use') === false ? false : true,
+      tags: dataSet.getArray('tags') || [],
       width: imageInfo.width,
       height: imageInfo.height,
       format: imageInfo.format,
@@ -423,10 +424,10 @@ async function editFeed(issue: Issue) {
   const log = createThread(issue, 'feeds/edit')
   log.start()
 
-  const issueData: IssueData = issue.data
+  const dataSet: DataSet = issue.dataSet
 
-  const channelId = issueData.getString('channel_id')
-  const feedId = issueData.getString('feed_id')
+  const channelId = dataSet.getString('channel_id')
+  const feedId = dataSet.getString('feed_id')
 
   if (!channelId) {
     log.error('The request is missing the channel ID')
@@ -453,7 +454,7 @@ async function editFeed(issue: Issue) {
 
   cacheData()
 
-  feed.update(issueData)
+  feed.update(dataSet)
 
   data.feedsKeyByStreamId = data.feeds.keyBy((feed: Feed) => feed.getStreamId())
   data.feedsGroupedByChannelId = data.feeds.groupBy((feed: Feed) => feed.channel)
@@ -481,10 +482,10 @@ async function removeFeed(issue: Issue) {
   const log = createThread(issue, 'feeds/remove')
   log.start()
 
-  const issueData: IssueData = issue.data
+  const dataSet: DataSet = issue.dataSet
 
-  const channelId = issueData.getString('channel_id')
-  const feedId = issueData.getString('feed_id')
+  const channelId = dataSet.getString('channel_id')
+  const feedId = dataSet.getString('feed_id')
 
   if (!channelId) {
     log.error('The request is missing the channel ID')
@@ -520,11 +521,11 @@ async function addLogo(issue: Issue) {
   const log = createThread(issue, 'logos/add')
   log.start()
 
-  const issueData: IssueData = issue.data
+  const dataSet: DataSet = issue.dataSet
 
-  const channelId = issueData.getString('channel_id')
-  const feedId = issueData.getString('feed_id') || null
-  const logoUrl = issueData.getString('logo_url')
+  const channelId = dataSet.getString('channel_id')
+  const feedId = dataSet.getString('feed_id') || null
+  const logoUrl = dataSet.getString('logo_url')
 
   if (!channelId) {
     log.error('The request is missing the channel ID')
@@ -555,8 +556,8 @@ async function addLogo(issue: Issue) {
     channel: channelId,
     feed: feedId,
     url: logoUrl,
-    in_use: issueData.getBoolean('in_use') === false ? false : true,
-    tags: issueData.getArray('tags') || [],
+    in_use: dataSet.getBoolean('in_use') === false ? false : true,
+    tags: dataSet.getArray('tags') || [],
     width: imageInfo.width,
     height: imageInfo.height,
     format: imageInfo.format
@@ -585,11 +586,11 @@ async function editLogo(issue: Issue) {
   const log = createThread(issue, 'logos/edit')
   log.start()
 
-  const issueData: IssueData = issue.data
+  const dataSet: DataSet = issue.dataSet
 
-  const logoUrl = issueData.getString('logo_url')
-  const logoChannelId = issueData.getString('channel_id')
-  const logoFeedId = issueData.getString('feed_id')
+  const logoUrl = dataSet.getString('logo_url')
+  const logoChannelId = dataSet.getString('channel_id')
+  const logoFeedId = dataSet.getString('feed_id')
 
   if (!logoUrl) {
     log.error('The request is missing the logo URL')
@@ -622,7 +623,7 @@ async function editLogo(issue: Issue) {
   cacheData()
 
   for (const foundLogo of logosToUpdate.all()) {
-    foundLogo.update(issueData)
+    foundLogo.update(dataSet)
 
     const errors = foundLogo.validate()
     if (errors.isNotEmpty()) {
@@ -647,11 +648,11 @@ async function removeLogo(issue: Issue) {
   const log = createThread(issue, 'logos/remove')
   log.start()
 
-  const issueData: IssueData = issue.data
+  const dataSet: DataSet = issue.dataSet
 
-  const channelId = issueData.getString('channel_id')
-  const feedId = issueData.getString('feed_id')
-  const logoUrls = issueData.getArray('logo_url') || []
+  const channelId = dataSet.getString('channel_id')
+  const feedId = dataSet.getString('feed_id')
+  const logoUrls = dataSet.getArray('logo_url') || []
 
   if (!logoUrls.length) {
     log.error('List of logos is empty')
@@ -694,13 +695,13 @@ async function addCity(issue: Issue) {
   const log = createThread(issue, 'cities/add')
   log.start()
 
-  const issueData: IssueData = issue.data
+  const dataSet: DataSet = issue.dataSet
 
-  const cityCode = issueData.getString('city_code')
-  const country = issueData.getString('country')
-  const cityName = issueData.getString('city_name')
-  const wikidataId = issueData.getString('wikidata_id')
-  const subdivision = issueData.getString('subdivision')
+  const cityCode = dataSet.getString('city_code')
+  const country = dataSet.getString('country')
+  const cityName = dataSet.getString('city_name')
+  const wikidataId = dataSet.getString('wikidata_id')
+  const subdivision = dataSet.getString('subdivision')
 
   if (!country || !cityName || !cityCode || !wikidataId) {
     log.error('The request contains incomplete data')
@@ -746,9 +747,9 @@ async function editCity(issue: Issue) {
   const log = createThread(issue, 'cities/edit')
   log.start()
 
-  const issueData: IssueData = issue.data
+  const dataSet: DataSet = issue.dataSet
 
-  const cityCode = issueData.getString('city_code')
+  const cityCode = dataSet.getString('city_code')
   if (!cityCode) {
     log.error('The request is missing the city code')
     skippedIssues.add(issue)
@@ -763,7 +764,7 @@ async function editCity(issue: Issue) {
   }
 
   const updatedCity = new City(foundCity.toObject())
-  updatedCity.update(issueData)
+  updatedCity.update(dataSet)
 
   cacheData()
   data.cities.remove((city: City) => city.code === cityCode)
@@ -789,9 +790,9 @@ async function removeCity(issue: Issue) {
   const log = createThread(issue, 'cities/remove')
   log.start()
 
-  const issueData: IssueData = issue.data
+  const dataSet: DataSet = issue.dataSet
 
-  const cityCode = issueData.getString('city_code')
+  const cityCode = dataSet.getString('city_code')
   if (!cityCode) {
     log.error('The request is missing the city code')
     skippedIssues.add(issue)
@@ -829,11 +830,11 @@ async function blockChannel(issue: Issue) {
   const log = createThread(issue, 'blocklist/add')
   log.start()
 
-  const issueData: IssueData = issue.data
+  const dataSet: DataSet = issue.dataSet
 
-  const channelId = issueData.getString('channel_id')
-  const reason = issueData.getString('reason')?.toLowerCase()
-  const ref = issueData.getString('ref')
+  const channelId = dataSet.getString('channel_id')
+  const reason = dataSet.getString('reason')?.toLowerCase()
+  const ref = dataSet.getString('ref')
 
   if (!channelId || !reason || !ref) {
     log.error('The request contains incomplete data')
@@ -878,9 +879,9 @@ async function unblockChannel(issue: Issue) {
   const log = createThread(issue, 'blocklist/remove')
   log.start()
 
-  const issueData: IssueData = issue.data
+  const dataSet: DataSet = issue.dataSet
 
-  const channelId = issueData.getString('channel_id')
+  const channelId = dataSet.getString('channel_id')
 
   if (!channelId) {
     log.error('The request is missing the channel ID')

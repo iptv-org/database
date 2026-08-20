@@ -10,9 +10,14 @@ export class Timezone extends sdk.Models.Timezone implements Validator {
   line: number = -1
 
   static fromRow(row: CSVRow): Timezone {
-    if (!row.data.id) throw new Error('Timezone: "id" not specified')
-    if (!row.data.utc_offset) throw new Error('Timezone: "utc_offset" not specified')
-    if (!row.data.countries) throw new Error('Timezone: "countries" not specified')
+    if (!row.data.id)
+      throw new Error(`[timezones.csv] Line ${row.line} is missing the required "id" column`)
+    if (!row.data.utc_offset)
+      throw new Error(
+        `[timezones.csv] Line ${row.line} is missing the required "utc_offset" column`
+      )
+    if (!row.data.countries)
+      throw new Error(`[timezones.csv] Line ${row.line} is missing the required "countries" column`)
 
     const timezone = new Timezone({
       id: row.data.id.toString(),

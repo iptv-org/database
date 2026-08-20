@@ -1,18 +1,25 @@
 import { restEndpointMethods } from '@octokit/plugin-rest-endpoint-methods'
+import { GetResponseDataTypeFromEndpointMethod } from '@octokit/types'
 import { stringQuoteOnlyIfNecessary } from '@json2csv/formatters'
 import { paginateRest } from '@octokit/plugin-paginate-rest'
 import { ImageProbeResult, CSVRow } from '../types/utils'
 import { Collection, Dictionary } from '@freearhey/core'
 import { TESTING, OWNER, REPO } from '../constants'
 import { ValidatorError } from '../types/validator'
-import { IssueData } from '../models/issueData'
 import { Parser } from '@json2csv/plainjs'
 import { Octokit } from '@octokit/core'
 import { Issue } from '../models/issue'
 import probe from 'probe-image-size'
+import { DataSet } from './dataSet'
 import csv2json from 'csvtojson'
 import path from 'node:path'
 import chalk from 'chalk'
+
+export function createStreamId(channelId?: string, feedId?: string): string | undefined {
+  if (!channelId || !feedId) return undefined
+
+  return `${channelId}@${feedId}`
+}
 
 export function createChannelId(
   name: string | undefined,
@@ -80,75 +87,37 @@ export function convertToCSV(items: Record<string, string | string[] | boolean>[
   return parser.parse(items)
 }
 
+export function parseIssueBody(body: string): DataSet {
+  const fields = typeof body === 'string' ? body.split('###') : []
+
+  const data = new Dictionary<string>()
+  fields.forEach((field: string) => {
+    const parsed = typeof field === 'string' ? field.split(/\r?\n/).filter(Boolean) : []
+    let _label = parsed.shift()
+    _label = _label ? _label.replace(/ \(optional\)| \(required\)/, '').trim() : ''
+    let _value = parsed.join('\r\n')
+    _value = _value ? _value.trim() : ''
+
+    if (!_label || !_value) return data
+
+    const id: string | undefined = DataSet.getKeyForLabel(_label)
+    const value: string =
+      _value.toLowerCase() === '_no response_' || _value.toLowerCase() === 'none' ? '' : _value
+
+    if (!id) return
+
+    data.set(id, value)
+  })
+
+  return new DataSet(data)
+}
+
 export async function loadIssues(props?: {
   labels: string[] | string
 }): Promise<Collection<Issue>> {
-  function parseIssue(issue: { number: number; body: string; labels: { name: string }[] }): Issue {
-    const FIELDS = new Dictionary<string>({
-      'Channel ID': 'channel_id',
-      'Channel Name': 'channel_name',
-      'Feed Name': 'feed_name',
-      'Feed Alternative Names': 'feed_alt_names',
-      'Feed ID': 'feed_id',
-      'Main Feed': 'is_main',
-      'Alternative Names': 'alt_names',
-      Network: 'network',
-      Owners: 'owners',
-      Country: 'country',
-      Subdivision: 'subdivision',
-      'Broadcast Area': 'broadcast_area',
-      Timezones: 'timezones',
-      Format: 'format',
-      Languages: 'languages',
-      Categories: 'categories',
-      NSFW: 'is_nsfw',
-      Launched: 'launched',
-      Closed: 'closed',
-      'Replaced By': 'replaced_by',
-      Website: 'website',
-      Reason: 'reason',
-      Notes: 'notes',
-      Reference: 'ref',
-      'Logo URL': 'logo_url',
-      'Logo Tags': 'logo_tags',
-      Tags: 'tags',
-      Width: 'width',
-      Height: 'height',
-      'New Channel ID': 'new_channel_id',
-      'New Feed ID': 'new_feed_id',
-      'New Logo URL': 'new_logo_url',
-      'City Name': 'city_name',
-      'City Code': 'city_code',
-      'Wikidata ID': 'wikidata_id',
-      'In Use': 'in_use'
-    })
-
-    const fields = typeof issue.body === 'string' ? issue.body.split('###') : []
-
-    const data = new Dictionary<string>()
-    fields.forEach((field: string) => {
-      const parsed = typeof field === 'string' ? field.split(/\r?\n/).filter(Boolean) : []
-      let _label = parsed.shift()
-      _label = _label ? _label.replace(/ \(optional\)| \(required\)/, '').trim() : ''
-      let _value = parsed.join('\r\n')
-      _value = _value ? _value.trim() : ''
-
-      if (!_label || !_value) return data
-
-      const id: string | undefined = FIELDS.get(_label)
-      const value: string =
-        _value.toLowerCase() === '_no response_' || _value.toLowerCase() === 'none' ? '' : _value
-
-      if (!id) return
-
-      data.set(id, value)
-    })
-
-    const labels = issue.labels.map(label => label.name)
-
-    return new Issue({ number: issue.number, labels, data: new IssueData(data) })
-  }
-
+  type IssueItem = GetResponseDataTypeFromEndpointMethod<
+    typeof octokit.rest.issues.listForRepo
+  >[number]
   const CustomOctokit = Octokit.plugin(paginateRest, restEndpointMethods)
   const octokit = new CustomOctokit()
 
@@ -157,9 +126,9 @@ export async function loadIssues(props?: {
     labels = Array.isArray(props.labels) ? props.labels.join(',') : props.labels
   }
 
-  let issues: object[] = []
+  let issues: IssueItem[] = []
   if (TESTING) {
-    issues = (await import('../../tests/__data__/input/db/update/issues.js')).default
+    issues = (await import('../../tests/__data__/input/db/update/issues.js')).default as IssueItem[]
   } else {
     issues = await octokit.paginate(octokit.rest.issues.listForRepo, {
       owner: OWNER,
@@ -175,7 +144,11 @@ export async function loadIssues(props?: {
     })
   }
 
-  return new Collection(issues).map(parseIssue)
+  return new Collection<IssueItem>(issues).map((issue: IssueItem) => {
+    const dataSet = parseIssueBody(issue.body || '')
+    const labels = issue.labels.map(l => (typeof l === 'string' ? l : l.name || ''))
+    return new Issue({ number: issue.number, labels, dataSet })
+  })
 }
 
 export async function probeImage(url: string): Promise<ImageProbeResult> {

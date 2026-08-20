@@ -1,0 +1,17 @@
+The request contains error(s):
+- "Channel Name" can only contain Latin letters, numbers, spaces, and symbols like: `!`, `@`, `#`, `$`, `%`, `&`, `.`, `_`
+- The alternative name cannot be the same as the "Channel Name"
+- "Owners" cannot contain a comma
+- There is no country with the code "XX" in the database
+- There is no category with the ID "infotainment" in the database
+- "Launched" must be in the `YYYY-MM-DD` format
+- "Closed" must be a date before today
+- "Website" must be a valid URL
+- "Feed Name" can only contain Latin letters, numbers, spaces, and symbols like: `!`, `@`, `#`, `$`, `%`, `&`, `.`, `_`
+- The feed alternative name cannot be the same as the "Feed Name"
+- The feed alternative name should not contain "Channel Name"
+- There is no location with the code "s/NP" in the database
+- There is no timezone with the ID "Europe/Kathmandu" in the database
+- There is no language with the code "np" in the database
+- "Logo URL" must be a valid URL
+- "Tags" cannot contain spaces

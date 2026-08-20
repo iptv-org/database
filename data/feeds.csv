@@ -9775,7 +9775,7 @@ EncuentroInternacional.ar,SD,SD,,TRUE,r/HISPAM,America/Argentina/Buenos_Aires,sp
 EndowmentTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 EndtimeTV.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,eng,576i
 Enelpuntodemira.us,Spain,Spain,,TRUE,c/ES,Europe/Madrid,spa,576i
-EnerGeek.cl,SD,SD,,TRUE,r/LATAM;r/LAC;r/HISPAM,America/Santiago,spa,480i
+EnerGeek.cl,HD,HD,,TRUE,r/LATAM;r/LAC;r/HISPAM,America/Santiago,spa,1080p
 EnerGeekFAN.cl,SD,SD,,TRUE,r/LATAM;r/LAC;r/HISPAM,America/Santiago,spa,480i
 EnerGeekRadio.cl,SD,SD,,TRUE,r/LATAM;r/LAC;r/HISPAM,America/Santiago,spa,480i
 EnergiaTV.bq,SD,SD,,TRUE,c/BQ;c/CW;c/AW,America/Kralendijk,pap;nld;eng,480i
@@ -9850,6 +9850,7 @@ EpicBharat.in,Digital,Digital,,FALSE,c/IN,Asia/Kolkata,hin,1080p
 EpicBharat.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 EpicBhojpuri.in,Digital,Digital,,FALSE,c/IN,Asia/Kolkata,bho,1080p
 EpicBhojpuri.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,bho,576i
+EpicCrimes.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,720p
 EpicDrama.uk,Greece,Greece,,FALSE,c/GR,Europe/Athens,ell,576i
 EpicDrama.uk,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
 EpicDrama.uk,Sweden,Sweden,,FALSE,c/SE,America/Toronto,eng;bul;rus,576i
@@ -12794,7 +12795,8 @@ HillsongChannel.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 HillTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 HimalayaSportsHD.np,HD,HD,SD,TRUE,c/NP,Asia/Kathmandu,nep;eng;mai,1080p
 HimalayaSportsHD.np,SD,SD,,FALSE,c/NP,Asia/Kathmandu,nep;mai;eng,720p
-HimalayaTV.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
+HimalayaTV.np,HD,HD,,TRUE,c/NP,Asia/Kathmandu,nep;mai;eng,1080p
+HimalayaTV.np,SD,SD,,FALSE,c/NP,Asia/Kathmandu,nep,576i
 HimlenTV7.fi,SD,SD,,TRUE,c/SE,Europe/Helsinki,swe,576i
 HimshikharTelevision.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 HiMusic.pl,FAST,FAST,,TRUE,c/PL,Europe/Warsaw,pol,1080i
@@ -13292,6 +13294,7 @@ HuanucoenVivo.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 HuaralenlineaTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,576i
 HuascoTelevision.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 HuayingCityTV.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
+HUBCHRGD.ph,SD,SD,,TRUE,c/PH,Asia/Manila,eng,576p
 HubECity.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,zho,576i
 HubeiComprehensiveNewsChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 HubeiCountryLifeChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
@@ -13305,6 +13308,8 @@ HubeiPublicNewsChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 HubeiRidge.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 HubeiSatelliteTV.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 HubeiShoppingChannel.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
+HUBFamily.ph,SD,SD,,TRUE,c/PH,Asia/Manila,eng,576p
+HUBJunior.ph,SD,SD,,TRUE,c/PH,Asia/Manila,eng,576p
 HubPremier1.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,eng,576i
 HubPremier10.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,eng,576i
 HubPremier11.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,eng,576i
@@ -25822,6 +25827,7 @@ OxiTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 Oxygen.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 Oxygen.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 OxygenHD.ss,SD,SD,,TRUE,c/SS,Africa/Juba,eng,576i
+OxygenMusic.hu,HD,HD,,TRUE,c/HU,Europe/Budapest,hun,1080p
 Oye909FM.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,576i
 OyerepaTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 OyeTV.pa,SD,SD,,TRUE,c/PA,America/Panama,spa,480i

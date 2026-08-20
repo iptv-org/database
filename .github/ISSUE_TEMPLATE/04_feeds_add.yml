@@ -120,7 +120,7 @@ body:
   - type: input
     id: tags
     attributes:
-      label: Tags (optional)
+      label: Logo Tags (optional)
       description: "List of keywords describing this version of the logo separated by `;`. May include: `a-z`, `0-9` and `-`."
       placeholder: 'horizontal;white'
 

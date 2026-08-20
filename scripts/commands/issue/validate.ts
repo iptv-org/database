@@ -121,7 +121,7 @@ function validateEditCityRequest(dataSet: DataSet) {
   }
 
   if (dataSet.missing(['city_name', 'country', 'subdivision', 'wikidata_id'])) {
-    errors.push(`The request does not contain any changes`)
+    errors.push('The request does not contain any changes')
     done()
   }
 
@@ -256,7 +256,7 @@ function validateEditLogoRequest(dataSet: DataSet) {
       'tags'
     ])
   ) {
-    errors.push(`The request does not contain any changes`)
+    errors.push('The request does not contain any changes')
     done()
   }
 
@@ -394,7 +394,7 @@ function validateEditFeedRequest(dataSet: DataSet) {
       'format'
     ])
   ) {
-    errors.push(`The request does not contain any changes`)
+    errors.push('The request does not contain any changes')
     done()
   }
 
@@ -542,7 +542,7 @@ function validateEditChannelRequest(dataSet: DataSet) {
       'website'
     ])
   ) {
-    errors.push(`The request does not contain any changes`)
+    errors.push('The request does not contain any changes')
     done()
   }
 

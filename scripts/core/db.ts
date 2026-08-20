@@ -175,7 +175,7 @@ async function loadData(): Promise<DatabaseData> {
   )
   data.citiesKeyByCode = data.cities.keyBy((city: City) => city.code)
 
-  let locations: Collection<Location> = new Collection()
+  const locations: Collection<Location> = new Collection()
   data.cities.forEach(city => {
     locations.add({ code: `ct/${city.code}`, name: city.name, type: 'city' })
   })

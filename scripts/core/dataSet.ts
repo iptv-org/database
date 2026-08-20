@@ -46,14 +46,16 @@ const fields: Field[] = [
   { key: 'in_use', label: 'In Use', type: 'boolean' }
 ]
 
-export class DataSet {
-  #data: Dictionary<string>
+export type DataType = string | string[] | number | boolean
 
-  constructor(data: Dictionary<string>) {
+export class DataSet {
+  #data: Dictionary<DataType>
+
+  constructor(data: Dictionary<DataType>) {
     this.#data = data
   }
 
-  set(key: string, value: any) {
+  set(key: string, value: DataType) {
     this.#data.set(key, value)
   }
 
@@ -73,7 +75,7 @@ export class DataSet {
     return this.#data.get(key) === deleteSymbol
   }
 
-  getRaw(key: string): any {
+  getRaw(key: string): DataType | undefined {
     return this.#data.get(key)
   }
 
@@ -90,7 +92,7 @@ export class DataSet {
       ? undefined
       : this.#data.get(key) === deleteSymbol
         ? ''
-        : this.#data.get(key)
+        : String(this.#data.get(key))
   }
 
   getNumber(key: string): number | undefined {
@@ -127,7 +129,7 @@ export class DataSet {
     return found?.type
   }
 
-  getValue(key: string): any | any[] {
+  getValue(key: string): DataType | undefined {
     const type = DataSet.getType(key)
     if (type === 'string[]') {
       return this.getArray(key)

@@ -10,7 +10,20 @@ jobs:
   main:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/create-github-app-token@v2
+        if: ${{ !env.ACT }}
+        id: create-app-token
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
       - uses: actions/checkout@v4
+        if: ${{ env.ACT }}
+        with:
+          token: ${{ github.token }}
+      - uses: actions/checkout@v4
+        if: ${{ !env.ACT }}
+        with:
+          token: ${{ steps.create-app-token.outputs.token }}
       - uses: actions/setup-node@v4
         with:
           node-version: '22.12.0'
@@ -19,12 +32,6 @@ jobs:
         run: npm install
       - name: export data to ./api
         run: npm run db:export
-      - uses: tibdex/github-app-token@v1.8.2
-        if: ${{ !env.ACT }}
-        id: create-app-token
-        with:
-          app_id: ${{ secrets.APP_ID }}
-          private_key: ${{ secrets.APP_PRIVATE_KEY }}
       - uses: JamesIves/github-pages-deploy-action@4.1.1
         if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
         with:

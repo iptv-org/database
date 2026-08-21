@@ -8,8 +8,10 @@ export class Language extends sdk.Models.Language implements Validator {
   line: number = -1
 
   static fromRow(row: CSVRow): Language {
-    if (!row.data.code) throw new Error('Language: "code" not specified')
-    if (!row.data.name) throw new Error('Language: "name" not specified')
+    if (!row.data.code)
+      throw new Error(`[languages.csv] Line ${row.line} is missing the required "code" column`)
+    if (!row.data.name)
+      throw new Error(`[languages.csv] Line ${row.line} is missing the required "name" column`)
 
     const language = new Language({
       code: row.data.code.toString(),

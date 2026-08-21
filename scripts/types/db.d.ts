@@ -13,6 +13,12 @@ import {
   Timezone
 } from '../models'
 
+type Location = {
+  code: string
+  name: string
+  type: 'region' | 'country' | 'subdivision' | 'city'
+}
+
 export type DatabaseData = {
   feeds: Collection<Feed>
   feedsGroupedByChannelId: Dictionary<Feed[]>
@@ -34,5 +40,8 @@ export type DatabaseData = {
   regionsKeyByCode: Dictionary<Region>
   timezonesKeyById: Dictionary<Timezone>
   languagesKeyByCode: Dictionary<Language>
+  locationsKeyByCode: Dictionary<Location>
+  logosGroupedByUrl: Dictionary<Logo[]>
+  blocklistRecordsGroupedByChannelId: Dictionary<BlocklistRecord[]>
   logos: Collection<Logo>
 }

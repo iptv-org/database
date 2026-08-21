@@ -1,0 +1,8 @@
+The request contains error(s):
+- "Feed Name" can only contain Latin letters, numbers, spaces, and symbols like: `!`, `@`, `#`, `$`, `%`, `&`, `.`, `_`
+- The feed alternative name cannot be the same as the "Feed Name"
+- There is no location with the code "x/NP" in the database
+- There is no timezone with the ID "Europe/Kathmandu" in the database
+- There is no language with the code "np" in the database
+- "Logo URL" must be a valid URL
+- "Tags" cannot contain spaces

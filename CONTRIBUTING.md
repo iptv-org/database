@@ -3,8 +3,8 @@
 - [How to?](#how-to)
 - [Data Scheme](#data-scheme)
 - [Project Structure](#project-structure)
-- [Scripts](#scripts)
-- [Workflows](#workflows)
+- [Scripts](./.github/docs/scripts.md)
+- [Workflows](./.github/docs/workflows.md)
 
 ## How to?
 
@@ -176,30 +176,3 @@ database/
 ├── CONTRIBUTING.md         # file you are currently reading
 ├── README.md               # project description displayed on the home page
 ```
-
-## Scripts
-
-These scripts are created to automate routine processes in the repository and make it a bit easier to maintain.
-
-For scripts to work, you must have [Node.js](https://nodejs.org/en) installed on your computer.
-
-To run scripts use the `npm run <script-name>` command.
-
-- `act:check`: allows to run the [check](https://github.com/iptv-org/iptv/blob/master/.github/workflows/check.yml) workflow locally. Depends on [nektos/act](https://github.com/nektos/act).
-- `act:update`: allows to run the [update](https://github.com/iptv-org/iptv/blob/master/.github/workflows/update.yml) workflow locally. Depends on [nektos/act](https://github.com/nektos/act).
-- `act:deploy`: allows to run the [deploy](https://github.com/iptv-org/iptv/blob/master/.github/workflows/deploy.yml) workflow locally. Depends on [nektos/act](https://github.com/nektos/act).
-- `db:validate`: checks the integrity of data.
-- `db:export`: saves all data in JSON format to the `/.api` folder.
-- `db:update`: triggers a data update using approved requests from issues.
-- `lint`: сhecks the scripts for syntax errors.
-- `test`: runs a test of all the scripts described above.
-
-## Workflows
-
-To automate the run of the scripts described above, we use the [GitHub Actions workflows](https://docs.github.com/en/actions/using-workflows).
-
-Each workflow includes its own set of scripts that can be run either manually or in response to an event.
-
-- `check`: runs the `db:validate` script when a new pull request appears, and blocks the merge if it detects an error in it.
-- `update`: sequentially runs `db:update` and `db:validate` scripts and commits all the changes if successful.
-- `deploy`: after each update of the [master](https://github.com/iptv-org/database/branches) branch runs the script `db:export` and then publishes the resulting files to the [iptv-org/api](https://github.com/iptv-org/api) repository.

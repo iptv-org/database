@@ -2,7 +2,7 @@ import { parseCSV, displayErrors, convertToCSV } from '../core/utils'
 import { Dictionary, Collection } from '@freearhey/core'
 import { Storage, File } from '@freearhey/storage-js'
 import { ValidatorError } from '../types/validator'
-import { DatabaseData } from '../types/db'
+import { DatabaseData, Location } from '../types/db'
 import { DATA_DIR } from '../constants'
 import { CSVRow } from '../types/utils'
 import chalk from 'chalk'
@@ -42,7 +42,10 @@ let data: DatabaseData = {
   categoriesKeyById: new Dictionary<Category>(),
   regionsKeyByCode: new Dictionary<Region>(),
   timezonesKeyById: new Dictionary<Timezone>(),
-  languagesKeyByCode: new Dictionary<Language>()
+  languagesKeyByCode: new Dictionary<Language>(),
+  locationsKeyByCode: new Dictionary<Location>(),
+  logosGroupedByUrl: new Dictionary<Logo[]>(),
+  blocklistRecordsGroupedByChannelId: new Dictionary<BlocklistRecord[]>()
 }
 
 let cache: DatabaseData = {
@@ -67,7 +70,10 @@ let cache: DatabaseData = {
   categoriesKeyById: new Dictionary<Category>(),
   regionsKeyByCode: new Dictionary<Region>(),
   timezonesKeyById: new Dictionary<Timezone>(),
-  languagesKeyByCode: new Dictionary<Language>()
+  languagesKeyByCode: new Dictionary<Language>(),
+  locationsKeyByCode: new Dictionary<Location>(),
+  logosGroupedByUrl: new Dictionary<Logo[]>(),
+  blocklistRecordsGroupedByChannelId: new Dictionary<BlocklistRecord[]>()
 }
 
 const dataStorage = new Storage(DATA_DIR)
@@ -169,6 +175,26 @@ async function loadData(): Promise<DatabaseData> {
   )
   data.citiesKeyByCode = data.cities.keyBy((city: City) => city.code)
 
+  const locations: Collection<Location> = new Collection()
+  data.cities.forEach(city => {
+    locations.add({ code: `ct/${city.code}`, name: city.name, type: 'city' })
+  })
+  data.subdivisions.forEach(subdivision => {
+    locations.add({ code: `s/${subdivision.code}`, name: subdivision.name, type: 'subdivision' })
+  })
+  data.countries.forEach(country => {
+    locations.add({ code: `c/${country.code}`, name: country.name, type: 'country' })
+  })
+  data.regions.forEach(region => {
+    locations.add({ code: `r/${region.code}`, name: region.name, type: 'region' })
+  })
+
+  data.locationsKeyByCode = locations.keyBy((location: Location) => location.code)
+  data.logosGroupedByUrl = data.logos.groupBy((logo: Logo) => logo.url)
+  data.blocklistRecordsGroupedByChannelId = data.blocklistRecords.groupBy(
+    (record: BlocklistRecord) => record.channel
+  )
+
   return data
 }
 
@@ -194,7 +220,10 @@ function cacheData() {
     categoriesKeyById: data.categoriesKeyById.clone(),
     regionsKeyByCode: data.regionsKeyByCode.clone(),
     timezonesKeyById: data.timezonesKeyById.clone(),
-    languagesKeyByCode: data.languagesKeyByCode.clone()
+    languagesKeyByCode: data.languagesKeyByCode.clone(),
+    locationsKeyByCode: data.locationsKeyByCode.clone(),
+    logosGroupedByUrl: data.logosGroupedByUrl.clone(),
+    blocklistRecordsGroupedByChannelId: data.blocklistRecordsGroupedByChannelId.clone()
   }
 }
 
@@ -220,7 +249,10 @@ function resetData() {
     categoriesKeyById: cache.categoriesKeyById,
     regionsKeyByCode: cache.regionsKeyByCode,
     timezonesKeyById: cache.timezonesKeyById,
-    languagesKeyByCode: cache.languagesKeyByCode
+    languagesKeyByCode: cache.languagesKeyByCode,
+    locationsKeyByCode: cache.locationsKeyByCode,
+    logosGroupedByUrl: cache.logosGroupedByUrl,
+    blocklistRecordsGroupedByChannelId: cache.blocklistRecordsGroupedByChannelId
   }
 }
 

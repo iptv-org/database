@@ -10,10 +10,14 @@ export class Country extends sdk.Models.Country implements Validator {
   line: number = -1
 
   static fromRow(row: CSVRow): Country {
-    if (!row.data.name) throw new Error('Country: "name" not specified')
-    if (!row.data.code) throw new Error('Country: "code" not specified')
-    if (!row.data.languages) throw new Error('Country: "languages" not specified')
-    if (!row.data.flag) throw new Error('Country: "flag" not specified')
+    if (!row.data.name)
+      throw new Error(`[countries.csv] Line ${row.line} is missing the required "name" column`)
+    if (!row.data.code)
+      throw new Error(`[countries.csv] Line ${row.line} is missing the required "code" column`)
+    if (!row.data.languages)
+      throw new Error(`[countries.csv] Line ${row.line} is missing the required "languages" column`)
+    if (!row.data.flag)
+      throw new Error(`[countries.csv] Line ${row.line} is missing the required "flag" column`)
 
     const country = new Country({
       name: row.data.name.toString(),

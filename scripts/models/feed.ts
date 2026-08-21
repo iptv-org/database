@@ -2,7 +2,7 @@ import { Validator, ValidatorError } from '../types/validator'
 import { Collection, Dictionary } from '@freearhey/core'
 import { createFeedId, data } from '../core'
 import { Subdivision } from './subdivision'
-import { IssueData } from './issueData'
+import { DataSet } from '../core/dataSet'
 import { CSVRow } from '../types/utils'
 import { Timezone } from './timezone'
 import * as sdk from '@iptv-org/sdk'
@@ -19,10 +19,14 @@ export class Feed extends sdk.Models.Feed implements Validator {
   line: number = -1
 
   static fromRow(row: CSVRow): Feed {
-    if (!row.data.channel) throw new Error('Feed: "channel" not specified')
-    if (!row.data.id) throw new Error('Feed: "id" not specified')
-    if (!row.data.name) throw new Error('Feed: "name" not specified')
-    if (!row.data.format) throw new Error('Feed: "format" not specified')
+    if (!row.data.channel)
+      throw new Error(`[feeds.csv] Line ${row.line} is missing the required "channel" column`)
+    if (!row.data.id)
+      throw new Error(`[feeds.csv] Line ${row.line} is missing the required "id" column`)
+    if (!row.data.name)
+      throw new Error(`[feeds.csv] Line ${row.line} is missing the required "name" column`)
+    if (!row.data.format)
+      throw new Error(`[feeds.csv] Line ${row.line} is missing the required "format" column`)
 
     const feed = new Feed({
       channel: row.data.channel.toString(),
@@ -41,15 +45,15 @@ export class Feed extends sdk.Models.Feed implements Validator {
     return feed
   }
 
-  update(issueData: IssueData): this {
+  update(dataSet: DataSet): this {
     const data = {
-      feed_name: issueData.getString('feed_name'),
-      alt_names: issueData.getArray('alt_names'),
-      is_main: issueData.getBoolean('is_main'),
-      broadcast_area: issueData.getArray('broadcast_area'),
-      timezones: issueData.getArray('timezones'),
-      languages: issueData.getArray('languages'),
-      format: issueData.getString('format')
+      feed_name: dataSet.getString('feed_name'),
+      alt_names: dataSet.getArray('alt_names'),
+      is_main: dataSet.getBoolean('is_main'),
+      broadcast_area: dataSet.getArray('broadcast_area'),
+      timezones: dataSet.getArray('timezones'),
+      languages: dataSet.getArray('languages'),
+      format: dataSet.getString('format')
     }
 
     if (data.feed_name !== undefined) this.name = data.feed_name
@@ -60,7 +64,7 @@ export class Feed extends sdk.Models.Feed implements Validator {
     if (data.languages !== undefined) this.languages = data.languages
     if (data.format !== undefined) this.format = data.format
 
-    const newFeedName = issueData.getString('feed_name')
+    const newFeedName = dataSet.getString('feed_name')
     if (newFeedName) {
       this.id = createFeedId(newFeedName)
     }

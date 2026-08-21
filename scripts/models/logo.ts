@@ -1,6 +1,6 @@
 import { Validator, ValidatorError } from '../types/validator'
-import { IssueData } from '../models/issueData'
 import { Collection } from '@freearhey/core'
+import { DataSet } from '../core/dataSet'
 import { CSVRow } from '../types/utils'
 import * as sdk from '@iptv-org/sdk'
 import { data } from '../core/db'
@@ -10,8 +10,10 @@ export class Logo extends sdk.Models.Logo implements Validator {
   line: number = -1
 
   static fromRow(row: CSVRow): Logo {
-    if (!row.data.channel) throw new Error('Logo: "channel" not specified')
-    if (!row.data.url) throw new Error('Logo: "url" not specified')
+    if (!row.data.channel)
+      throw new Error(`[logos.csv] Line ${row.line} is missing the required "channel" column`)
+    if (!row.data.url)
+      throw new Error(`[logos.csv] Line ${row.line} is missing the required "url" column`)
 
     const logo = new Logo({
       channel: row.data.channel.toString(),
@@ -29,15 +31,15 @@ export class Logo extends sdk.Models.Logo implements Validator {
     return logo
   }
 
-  update(issueData: IssueData): this {
+  update(dataSet: DataSet): this {
     const data = {
-      channel: issueData.getString('new_channel_id'),
-      feed: issueData.getString('new_feed_id'),
-      in_use: issueData.getBoolean('in_use'),
-      tags: issueData.getArray('tags'),
-      width: issueData.getNumber('width'),
-      height: issueData.getNumber('height'),
-      format: issueData.getString('format')
+      channel: dataSet.getString('new_channel_id'),
+      feed: dataSet.getString('new_feed_id'),
+      in_use: dataSet.getBoolean('in_use'),
+      tags: dataSet.getArray('tags'),
+      width: dataSet.getNumber('width'),
+      height: dataSet.getNumber('height'),
+      format: dataSet.getString('format')
     }
 
     if (data.channel !== undefined) this.channel = data.channel

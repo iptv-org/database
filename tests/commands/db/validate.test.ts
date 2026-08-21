@@ -115,4 +115,24 @@ describe('db:validate', () => {
       process.exit(1)
     }
   })
+
+  it('shows an error if the row is missing column', () => {
+    const ENV_VAR = 'cross-env DATA_DIR=tests/__data__/input/db/validate/missing_column'
+    const cmd = `${ENV_VAR} npm run db:validate`
+    try {
+      const stdout = execSync(cmd, { encoding: 'utf8', stdio: 'pipe' })
+      if (process.env.DEBUG === 'true') console.log(cmd, stdout)
+      process.exit(1)
+    } catch (error) {
+      const execError = error as ExecError
+      if (process.env.DEBUG === 'true') {
+        console.log(cmd, execError.stdout)
+        console.error(execError.stderr)
+      }
+      expect(execError.status).toBe(1)
+      expect(execError.stderr).toContain(
+        '[logos.csv] Line 2 is missing the required "channel" column'
+      )
+    }
+  })
 })

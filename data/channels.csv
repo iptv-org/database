@@ -2132,9 +2132,7 @@ AtacamaTV.cl,Atacama TV,,,,CL,,FALSE,,,,http://atacamatelevision.com/
 AtalayaTV.co,Atalaya TV,,,,CO,general,FALSE,,,,
 AtambuaTV.id,Atambua TV,,Jawa Pos Multimedia,,ID,,FALSE,,,,
 AtamekenBusiness.kz,Atameken Business,,,,KZ,business,FALSE,2016-05-23,,,https://inbusiness.kz/
-ATBCochabamba.bo,ATB Cochabamba,,,ATBMedia,BO,general,FALSE,,,,https://www.atb.com.bo/
-ATBLaPaz.bo,ATB La Paz,,,ATBMedia,BO,general,FALSE,,,,https://www.atb.com.bo/
-ATBSantaCruz.bo,ATB Santa Cruz,,,ATBMedia,BO,general,FALSE,,,,https://www.atb.com.bo/
+ATB.bo,ATB,,,ATBMedia,BO,general,FALSE,,,,https://www.atb.com.bo/
 AtccoCanal2.ar,Atcco Canal 2,,,,AR,general,FALSE,,,,https://www.atcco.com.ar/canal2
 ATDTV.us,ATD TV,,,,US,,FALSE,,,,
 Atelierdeschefs.fr,Atelier des chefs,,,,FR,,FALSE,,,,
@@ -3011,6 +3009,7 @@ BestCableSportsPeru.pe,Best Cable Sports Peru,Best Cable Sports Perú,,Best Cabl
 BestClasicosTV.cr,BestClasicosTV,,,,CR,,FALSE,,,,https://www.mediosdecostarica.com/2025/07/best-clasicos-tv.html
 BestDealTV.in,Best Deal TV,,,Akshay Kumar;Raj Kundra,IN,shop,FALSE,2015-03-18,,,
 BestDirect.uk,Best Direct,,,,UK,,FALSE,,,,http://www.bestdirect.co.uk/
+BestofBATVChannel.us,Best of BATV Channel,,,,US,general,FALSE,,,,https://www.batvinc.org/governmentlivestream-185062.html
 BestofDanceTV.ee,Best of Dance TV,,,,EE,music,FALSE,,,,https://www.dancetv.net/
 BestofDrPhil.us,Best of Dr Phil,,Pluto TV,,US,entertainment,FALSE,,,,https://pluto.tv/en/live-tv/best-of-dr-phil
 BestofMTV.se,Best of MTV,,Pluto TV,Viacom International Inc.;Viaplay Group AB (publ);VIMN Nordic AB;Paramount Skydance Corporation,SE,entertainment,FALSE,,,,https://pluto.tv/live-tv/mtv-xmas-se/details
@@ -3387,7 +3386,8 @@ BolivarTV.ar,Bolivar TV,Bolívar TV,,,AR,general,FALSE,,,,https://bolivartv.com.
 BoliviaPuntoTV.bo,Bolivia Punto TV,,,,BO,entertainment,FALSE,,,,https://www.boliviapuntotv.com/
 BoliviaRadioTV.bo,Bolivia Radio TV,,,,BO,,FALSE,,,,https://boliviaradiotv.com/
 BoliviaTV.bo,Bolivia TV,Bolivia TV;BTV;Bolivia Televisión,,Empresa Nacional de Televisión de Bolivia,BO,general,FALSE,1969-08-30,,,http://www.boliviatv.bo/
-BoliviaTV72.bo,Bolivia TV 7.2,Bolivia TV;BTV;Bolivia Televisión,,Empresa Nacional de Televisión de Bolivia,BO,general,FALSE,2012-05-29,,,http://www.boliviatv.bo/
+BoliviaTV72.bo,Bolivia TV 7.2,,,Empresa Nacional de Televisión de Bolivia,BO,general,FALSE,2019-12-01,,,http://www.boliviatv.bo/
+BoliviaTVDeportes.bo,Bolivia TV Deportes,,,,BO,,FALSE,2015-12-21,2019-12-01,BoliviaTV72.bo,
 Bolivision.bo,Bolivision,Bolivisión,,Albavisión,BO,general,FALSE,1998-03-18,,,https://www.redbolivision.tv.bo/
 BolivisionSantaCruz.bo,Bolivision Santa Cruz,Bolivisión Santa Cruz,,Albavisión,BO,general,FALSE,1998-03-18,,,https://www.redbolivision.tv.bo/
 Bollyshow.il,Bollyshow,,,,IL,movies,FALSE,,,,
@@ -4319,6 +4319,7 @@ Canal6Tv.mx,Canal 6 Tv,,,,MX,general,FALSE,,,,https://www.canal6tv.com/
 Canal6TVCableHidalguense.mx,Canal 6 TV Cable Hidalguense,,,TV Cable Hidalguense,MX,general,FALSE,,,,https://www.tvcablehidalguense.com/
 Canal6USA.us,Canal 6 USA,,,,US,,FALSE,,,,https://www.multimedios.com/television
 Canal6VientoRecio.ar,Canal 6 Viento Recio,,,Ministerio Viento Recio Internacional,AR,religious,FALSE,,,,https://vientoreciointernacional.com.ar/
+Canal7.bo,Canal 7,,,,BO,,FALSE,2009-04-15,2009-11-11,BoliviaTV.bo,
 Canal7.gt,Canal 7,Canal 7,,Albavisión,GT,general,FALSE,1964-12-15,,,https://www.chapintv.com/
 Canal70.do,Canal 70,,,,DO,general,FALSE,,,,https://gia.tv/watchssh101.php?sn=cnal70tv
 Canal74SanAntonio.cl,Canal 74 San Antonio,,,,CL,,FALSE,,,,https://www.canal74.cl/
@@ -11165,7 +11166,7 @@ HGTV.nz,HGTV,,Sky Free,Sky Network Television,NZ,lifestyle,FALSE,2016-06-27,,,ht
 HGTV.pl,HGTV,HGTV Home&Garden,,Scripps Network Interactive,PL,lifestyle,FALSE,2017-01-07,,,https://hgtv.pl/
 HGTV.ru,HGTV,,,,RU,lifestyle,FALSE,2020-05-12,2022-03-09,,https://www.hg-tv.ru/
 HGTV.tw,HGTV,居家樂活頻道,,,TW,lifestyle,FALSE,2016-05-29,,,https://www.tlc-tw.com/hgtv.php
-HGTV.uk,HGTV,,,Warner Bros. Discovery EMEA,UK,lifestyle,FALSE,1997-11-01,,,https://hgtv.co.uk/
+HGTV.uk,HGTV,,,Warner Bros. Discovery EMEA,UK,lifestyle,FALSE,1997-11-01,2026-01-13,,https://hgtv.co.uk/
 HGTV.us,HGTV,,,Warner Bros. Discovery Inc.,US,lifestyle,FALSE,1994-12-30,,,http://www.hgtv.com/
 HGTVArabia.us,HGTV Arabia,,,Warner Bros. Discovery Inc.,US,lifestyle,FALSE,,,,http://www.hgtvarabia.com/
 HGTVAsia.us,HGTV Asia,,,Warner Bros. Discovery Inc.,US,lifestyle,FALSE,2014-12-01,,,http://www.hgtv.asia/
@@ -12466,6 +12467,7 @@ JEKA.rs,JEKA,J.E.K.A. MUZZIK,,,RS,music,FALSE,,,,https://www.muzzik.tv/
 JekTV.id,Jek TV,,Jawa Pos Multimedia,,ID,general,FALSE,2009-08-05,,,http://stream.jektv.co.id/
 JelexieRadio.ph,Jelexie Radio,,,,PH,general,FALSE,,,,
 Jelita.id,Jelita,,,Transvision,ID,,FALSE,2014-01-01,,,
+JEMRTV.hn,JEMR TV,,,,HN,religious,FALSE,,,,
 JenaTV.de,JenaTV,,,,DE,general,FALSE,,,,https://www.jenatv.de/
 Jendela.id,Jendela,,,,ID,entertainment,FALSE,,,,https://www.transvision.co.id/
 JennyForYou.us,Jenny For You,,Miami TV,,US,xxx,TRUE,,,,https://miamitvhd.com/
@@ -21115,6 +21117,7 @@ MTVHits.au,MTV Hits,,MTV,Paramount Networks UK & Australia,AU,music,FALSE,2007-0
 MTVHits.fr,MTV Hits,MTV Hits France,,Paramount Networks EMEAA,FR,music,FALSE,2015-11-17,2025-12-31,,http://www.mtv.fr/
 MTVHits.nz,MTV Hits,,MTV,Paramount Networks UK & Australia,NZ,music,FALSE,2011-12-01,2015-12-01,,https://www.mtv.com.au/tv-schedule/mtv-hits-new-zealand
 MTVHits.uk,MTV Hits,,,Paramount Networks UK & Australia,UK,music,FALSE,2001-05-01,2024-08-01,,http://www.mtv.co.uk/channels/mtv-hits
+MTVHits.us,MTV Hits,,,,US,music,FALSE,2002-05-01,2016-01-01,NickMusic.us,
 MTVHitsEurope.uk,MTV Hits Europe,,,MTV Networks s.r.o.,UK,music,FALSE,2014-05-27,2025-12-31,,http://www.mtv.co.uk/channels/mtv-hits
 MTVHitsIsrael.il,MTV Hits Israel,,,,IL,music,FALSE,,,,
 MTVIgman.ba,MTV Igman,,,,BA,religious,FALSE,,,,http://www.mtvigman.ba
@@ -22380,10 +22383,8 @@ NickJrPlutoTV.us,Nick Jr. Pluto TV,,Nickelodeon,Viacom International Inc.;Paramo
 NickJrScandinavia.nl,Nick Jr. Scandinavia,,Nickelodeon,Paramount Networks EMEAA,NL,kids,FALSE,2010-09-01,,,http://www.nickjr.tv/
 NickJrToo.ie,Nick Jr. Too,,,,IE,kids,FALSE,,,,
 NickJrToo.uk,Nick Jr. Too,Nick Jr. Peppa;Nick Jr. 2,Nickelodeon,Paramount International Networks;BSkyB,UK,kids,FALSE,2006-04-24,,,http://www.nickjr.co.uk/
-NickMusic.au,NickMusic,,Nickelodeon,Paramount Networks EMEAA,AU,music,FALSE,2020-07-01,,,http://www.nick.com.au/
-NickMusic.nl,NickMusic,,Nickelodeon,Paramount Networks EMEAA,NL,music,FALSE,2007-08-02,2026-01-01,,http://www.nickelodeon.nl/
-NickMusic.us,NickMusic,,Nickelodeon,Viacom International Inc.;Paramount Skydance Corporation,US,music,FALSE,2002-05-01,,,http://www.nick.com/
-NickMusicEurope.uk,NickMusic Europe,,,,UK,music,FALSE,2017-02-01,2025-12-31,,
+NickMusic.us,NickMusic,,Nickelodeon,Viacom International Inc.;Paramount Skydance Corporation,US,music,FALSE,2016-01-01,,,http://www.nick.com/
+NickMusicEurope.uk,NickMusic Europe,NickMusic EMEA;NickMusic International;NickMusic Global,,,UK,music,FALSE,2017-02-01,2025-12-31,,
 NickOnline.br,NickOnline,Nickelodeon Online,,x1co,BR,kids;animation,FALSE,2026-01-03,,,https://x1colegal.com
 NickOnlineBobEsponja.br,NickOnline Bob Esponja,,,x1co,BR,animation;kids,FALSE,2026-07-20,,,
 NickOnlineJr.br,NickOnline Jr.,NickOnline Junior.,,x1co,BR,animation;kids,FALSE,2026-05-09,2026-05-09,,https://junior.x1co.com.br
@@ -23753,18 +23754,17 @@ PassionTV.gh,Passion TV,,,,GH,religious,FALSE,,,,
 PassionXXX.nl,Passion XXX,,,Passion 4 TV bv,NL,xxx,TRUE,,,,https://www.passionxxx.net/
 PassionXXX2.nl,Passion XXX 2,,,Passion 4 TV bv,NL,xxx,TRUE,,,,
 PastorMelissaScott.us,Pastor Melissa Scott,,,,US,religious,FALSE,,,,https://www.pastormelissascott.com/watch-live.html
+PAT.bo,PAT,Red PAT;Periodistas Asociados Televisión,Red PAT,Periodistas Asociados de Television PAT Ltda,BO,general,FALSE,1998-09-01,,,https://www.redpat.tv/
 PatagoniaRadioTV.cl,Patagonia Radio TV,,,Grupo Media,CL,music,FALSE,,,,https://patagoniaradio.cl/
 PatagoniaTV.ar,Patagonia TV,,,,AR,travel,FALSE,,,,https://www.patagoniatvtour.com/
 PateplumaTelevision.hn,Patepluma Television,Patepluma Televisión,,,HN,general,FALSE,,,,
 PathwayTV.ng,Pathway TV,,,,NG,,FALSE,,,,https://pathwaytv.com/
 PatientChannel.us,Patient Channel,,,,US,,FALSE,,,,https://www.thewellnessnetwork.net/patient-education-engagement/delivery-platforms/patient-channel/
-PATLaPaz.bo,PAT La Paz,Red PAT La Paz,Red PAT,Periodistas Asociados de Television PAT Ltda,BO,general,FALSE,1998-09-01,,,https://www.redpat.tv/
 PATPlus.bo,PAT Plus,Red PAT Plus,Red PAT,Periodistas Asociados de Television PAT Ltda,BO,,FALSE,,,,https://www.redpat.tv/patplus/
 PatraTV.gr,Patra TV,Πάτρα TV,,Cosmos Pelop Media S.A.,GR,general,FALSE,1999-04-26,,,
 PatridaTV.gr,Patrida TV,,,,GR,general,FALSE,,,,https://tvpatrida.gr/
 PatrikaRajasthan.in,Patrika Rajasthan,,,Rajasthan Patrika Pvt Ltd,IN,news,FALSE,1956-03-07,,,https://www.patrika.com/rajasthan-news/
 Patriot.ru,Patriot,Патриот,,VGTRK,RU,movies,FALSE,,,,https://patriotkanal.ru/
-PATSantaCruz.bo,PAT Santa Cruz,Red PAT Santa Cruz,Red PAT,,BO,general,FALSE,,,,https://www.redpat.tv/
 Pattrn.us,Pattrn,,,Allen Media Group,US,weather,FALSE,,2024-12-01,,https://www.weathergroup.com/brands/pattrn
 PATV.us,PATV,,,,US,education,FALSE,,,,https://videoplayer.telvue.com/player/lECgxAJaGCkSKzo52p_GbiZO9BlaXCkH/playlists/1135/stream/46?autostart=true&sequencenumber=1&showtabssearch=true
 Pauta.cl,Pauta,,,Voz Camara SpA,CL,music,FALSE,2018-03-26,,,https://www.pauta.cl/
@@ -26078,9 +26078,6 @@ RedTVEVentanas.ec,Red TVE Ventanas,,,,EC,general,FALSE,,,,
 RedTVLebanon.lb,Red TV Lebanon,,,,LB,news,FALSE,2025-05-01,,,https://redtvlebanon.com
 RedTVShop.bo,Red TV Shop,,,,BO,shop,FALSE,,,,https://www.redtvshop.com/
 RedUno.bo,Red Uno,,Red Uno,Grupo Kuljis;Red Uno de Bolivia S.A.,BO,general,FALSE,,,,https://www.reduno.com.bo/
-RedUnoCochabamba.bo,Red Uno Cochabamba,,Red Uno,Grupo Kuljis;Red Uno de Bolivia S.A.,BO,general,FALSE,,,,https://www.reduno.com.bo/
-RedUnoLaPaz.bo,Red Uno La Paz,,Red Uno,Grupo Kuljis;Red Uno de Bolivia S.A.,BO,general,FALSE,,,,https://www.reduno.com.bo/
-RedUnoSantaCruz.bo,Red Uno Santa Cruz,,Red Uno,Grupo Kuljis;Red Uno de Bolivia S.A.,BO,general,FALSE,,,,https://www.reduno.com.bo/
 RedVisionRadio.ar,Red Vision Radio,Red Visión Radio,,,AR,music,FALSE,,,,https://redvisionradio.com/
 RedVisionTelevision.cl,Red Vision Television,Red Visión Televisión,,,CL,general,FALSE,,,,https://www.rvtv.cl/
 REDxxx.si,RED xxx,,,,SI,xxx,TRUE,,,,https://tv2go.t-2.net/tv/epg/1000490/
@@ -33779,10 +33776,8 @@ Unite8Sports1.in,Unite8 Sports 1,,Unite8 Sports,Zee Entertainment Enterprises Li
 Unite8Sports2.in,Unite8 Sports 2,,Unite8 Sports,Zee Entertainment Enterprises Limited,IN,sports,FALSE,2026-06-02,,,https://unite8sports.in/
 UnitedStatesofAfricaTV.gh,United States of Africa TV,,,,GH,,FALSE,,,,
 UnitedTV.gh,United TV,,,,GH,,FALSE,,,,http://utv.peacefmonline.com/
+Unitel.bo,Unitel,,,Grupo Monasterio;Empresa de Comunicaciones del Oriente Ltda. (Ecor Ltda.),BO,general,FALSE,1997-07-21,,,https://unitel.bo/
 Unitel.pe,Unitel,,,,PE,general,FALSE,,,,https://unitelperu.pe/
-UnitelCochabamba.bo,Unitel Cochabamba,,,Grupo Monasterio;Empresa de Comunicaciones del Oriente Ltda. (Ecor Ltda.),BO,general,FALSE,,,,https://unitel.bo/
-UnitelLaPaz.bo,Unitel La Paz,,,Grupo Monasterio;Empresa de Comunicaciones del Oriente Ltda. (Ecor Ltda.),BO,general,FALSE,,,,https://unitel.bo/
-UnitelSantaCruz.bo,Unitel Santa Cruz,,,Grupo Monasterio;Empresa de Comunicaciones del Oriente Ltda. (Ecor Ltda.),BO,general,FALSE,,,,https://unitel.bo/
 UnitepcTV.bo,Unitepc TV,,,Universidad Tecnica Privada Cosmos,BO,general,FALSE,,,,https://unitepc.edu.bo/
 Uniteve.ar,Uniteve,,,,AR,,FALSE,,,,http://uniteve.com.ar/
 Unitv.ec,Unitv,,,,EC,general,FALSE,,,,
@@ -38348,6 +38343,7 @@ WorldPokerTour.us,World Poker Tour,,,,US,sports,FALSE,,,,https://www.worldpokert
 WorldTurkTV.tr,World Turk TV,World Türk TV,,,TR,,FALSE,,,,https://worldturk.com.tr/world-turk-tv-canli-yayin-izle/
 WorldTV.mx,World TV,,,,MX,,FALSE,,,,https://worldtv.mx/
 WorldTV.tw,World TV,,,,TW,,FALSE,,,,https://www.wtvtw.com/
+WorldTVGuatemala.gt,World TV Guatemala,,,,GT,general,FALSE,,,,
 WORLDWIDEMUZZIK.rs,WORLD WIDE MUZZIK,WW Muzzik;W.W. Muzzik;Worldwide Muzzik,,Original Film d.o.o.,RS,music,FALSE,,,,https://muzzik.co.uk/
 WorlVybzTV.jm,WorlVybz TV,,,,JM,entertainment,FALSE,,,,https://worlvybzradio.weebly.com/
 WORODT131.pr,WORO-DT 13.1,Teleoro Canal 13;Tele Oro,Religious,Tele Oro Canal 13- WORO-DT Trust,PR,religious,FALSE,,,,https://www.canal13pr.tv/

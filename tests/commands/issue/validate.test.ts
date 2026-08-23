@@ -96,7 +96,7 @@ describe('issue:validate', () => {
     }
   })
 
-  it('can handle feeds:edit request', () => {
+  it('can handle invalid feeds:edit request', () => {
     const body = issues.find(issue => issue.number === 31626)?.body
     const cmd = `${ENV_VAR} npm run issue:validate --- --body="${body}" --labels="approved,feeds:edit"`
 
@@ -110,6 +110,21 @@ describe('issue:validate', () => {
       expect(content('tests/__data__/output/logs/errors.txt')).toBe(
         content('tests/__data__/expected/issue/validate/logs/feeds_edit.txt')
       )
+    }
+  })
+
+  it('can handle valid feeds:add request', () => {
+    const body = issues.find(issue => issue.number === 31726)?.body
+    const cmd = `${ENV_VAR} npm run issue:validate --- --body="${body}" --labels="approved,feeds:edit"`
+
+    if (process.env.DEBUG === 'true') console.log(cmd)
+    try {
+      const stdout = execSync(cmd, { encoding: 'utf8' })
+      if (process.env.DEBUG === 'true') console.log(stdout)
+      expect(true).toBe(true)
+    } catch (error) {
+      if (process.env.DEBUG === 'true') console.log(error)
+      process.exit(1)
     }
   })
 
@@ -177,6 +192,23 @@ describe('issue:validate', () => {
       if (process.env.DEBUG === 'true') console.log(error)
       expect(content('tests/__data__/output/logs/errors.txt')).toBe(
         content('tests/__data__/expected/issue/validate/logs/logos_edit.txt')
+      )
+    }
+  })
+
+  it('can handle logos:edit request with new feed id', () => {
+    const body = issues.find(issue => issue.number === 31986)?.body
+    const cmd = `${ENV_VAR} npm run issue:validate --- --body="${body}" --labels="approved,logos:edit"`
+
+    if (process.env.DEBUG === 'true') console.log(cmd)
+    try {
+      const stdout = execSync(cmd, { encoding: 'utf8' })
+      if (process.env.DEBUG === 'true') console.log(stdout)
+      process.exit(0)
+    } catch (error) {
+      if (process.env.DEBUG === 'true') console.log(error)
+      expect(content('tests/__data__/output/logs/errors.txt')).toBe(
+        content('tests/__data__/expected/issue/validate/logs/logos_edit_new_feed_id.txt')
       )
     }
   })

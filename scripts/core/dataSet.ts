@@ -66,7 +66,7 @@ export class DataSet {
   missing(key: string | string[]): boolean {
     const keys = Array.isArray(key) ? key : [key]
 
-    return keys.every(_key => this.#data.missing(_key) || this.#data.get(_key) === undefined)
+    return keys.every(_key => this.#data.get(_key) === undefined)
   }
 
   isDeleted(key: string): boolean {

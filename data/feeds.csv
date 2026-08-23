@@ -4908,7 +4908,7 @@ Canal4Pergamino.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal4Posadas.ar,SD,SD,,TRUE,ct/ARPSS,America/Argentina/Cordoba,spa,576i
 Canal4RD.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 Canal4Salto.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
-Canal4SanJuan.ar,SD,SD,,TRUE,ct/ARUAQ,America/Argentina/San_Juan,spa,576i
+Canal4SanJuan.ar,SD,SD,,TRUE,s/AR-J,America/Argentina/San_Juan,spa,576i
 Canal4Tacuarembo.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Canal4Tartagal.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal4Teleaire.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
@@ -5059,7 +5059,7 @@ Canal8Rufino.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 Canal8Saavedra.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 Canal8Salta.ar,SD,SD,,TRUE,s/AR-A,America/Argentina/Buenos_Aires,spa,576i
 Canal8Salto.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
-Canal8SanJuan.ar,SD,SD,,TRUE,c/AR,America/Argentina/San_Juan,spa,576i
+Canal8SanJuan.ar,SD,SD,,TRUE,s/AR-J,America/Argentina/San_Juan,spa,576i
 Canal8SantaRosa.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 Canal8Sincelejo.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 Canal8TelecableCarbonifera.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
@@ -10070,6 +10070,7 @@ ESPNCollegeExtra7.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
 ESPNCollegeExtra8.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
 ESPNDeportes.us,HD,HD,,FALSE,c/US,Europe/London,spa,1080p
 ESPNDeportes.us,SD,SD,,TRUE,c/US,Europe/London,spa,480i
+ESPNews.us,HD,HD,,FALSE,c/US,Europe/London,eng,1080p
 ESPNews.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
 ESPNExtra.br,HD,HD,,FALSE,c/BR,America/Sao_Paulo,por,1080p
 ESPNExtra.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
@@ -10871,9 +10872,10 @@ FILMBOXPlusAction.pl,HD,HD,,TRUE,c/PL,Europe/Warsaw,eng,720p
 FILMBOXPlusAction.pl,MENA,MENA,,FALSE,r/MENA,Europe/Warsaw,eng,576i
 FILMBOXPlusComedy.pl,Africa,Africa,,FALSE,r/AFR,Europe/Warsaw,eng,576i
 FILMBOXPlusComedy.pl,Czechia,Czechia,,FALSE,c/CZ;c/SK,Europe/Warsaw,cze,576i
-FILMBOXPlusComedy.pl,MagyarRomania,Magyar & Romania,,FALSE,c/HU;c/RO,Europe/Warsaw,hun;ron,576i
+FILMBOXPlusComedy.pl,Magyar,Magyar,,FALSE,c/HU,Europe/Warsaw,hun,576i
 FILMBOXPlusComedy.pl,MENA,MENA,,FALSE,r/MENA,Europe/Warsaw,eng,576i
 FILMBOXPlusComedy.pl,Poland,Poland,,TRUE,c/PL,Europe/Warsaw,pol,720p
+FILMBOXPlusComedy.pl,Romania,Romania,,FALSE,c/RO,Europe/Warsaw,eng,576i
 FILMBOXPlusEmotion.pl,Adria,Adria,,FALSE,r/BALKAN,Europe/Warsaw,eng,576i
 FILMBOXPlusEmotion.pl,Bulgaria,Bulgaria,,FALSE,c/BG,Europe/Warsaw,bul,576i
 FILMBOXPlusEmotion.pl,Czechia,Czechia,,FALSE,c/CZ;c/SK,Europe/Warsaw,cze,576i
@@ -21869,6 +21871,7 @@ MasTelevision.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 MasTelevisiondeColon.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,576i
 MasterChef.us,Brazil,Brazil,,TRUE,c/BR,America/Sao_Paulo,por,480i
 MasterChefDanmarksstorstemadtalenter.se,DK,DK,,TRUE,c/DK,Europe/Copenhagen,eng;dan,720p
+MasterChefsAcademyTV.uk,HD,HD,Main;Arabic,TRUE,r/WW,Africa/Algiers,ara;eng,720p
 MasterShowTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 MastersTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 MasterTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
@@ -32215,10 +32218,12 @@ StarLifeLatinAmerica.us,Panregional,Panregional,,TRUE,c/AR;c/CL;c/CO;c/EC;c/BO;c
 StarliteTV.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,eng,576i
 StarMaa.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tel,1080i
 StarMaa.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
+StarMaa.in,UK,UK,,FALSE,c/UK,Europe/London,tel,1080p
 StarMaa.in,US,US,,FALSE,c/US,America/New_York,tel,1080i
 StarMaaGold.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 StarMaaMovies.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tel,1080i
 StarMaaMovies.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
+StarMaaMovies.in,UK,UK,,FALSE,c/UK,Europe/London,tel,1080i
 StarMaaMusic.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 StarMajha.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mar,576i
 StarMax.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,eng,576i
@@ -32323,8 +32328,8 @@ StarUtsav.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 StarUtsavMovies.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 StarVijay.in,APAC,APAC,,FALSE,r/APAC,Asia/Singapore,tam,1080i
 StarVijay.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tam,1080i
-StarVijay.in,SD,SD,,FALSE,c/IN,Asia/Kolkata,tam,576i
-StarVijay.in,UK,UK,,TRUE,c/UK,Europe/London,tam;eng,1080i
+StarVijay.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
+StarVijay.in,UK,UK,,FALSE,c/UK,Europe/London,tam;eng,1080i
 Starvizia.ge,SD,SD,,TRUE,c/GE,Asia/Tbilisi,kat,576i
 StarWorld.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 StarWorldMiddleEast.ae,SD,SD,,TRUE,r/MIDEAST,Asia/Dubai,eng,576i
@@ -34071,6 +34076,7 @@ TelevisionAmazonicaCanal9.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 TelevisionAranda.es,SD,SD,,TRUE,s/ES-CM,Europe/Madrid,spa,576i
 TelevisionAvilena.cu,SD,SD,,TRUE,c/CU,America/Havana,spa,480i
 TelevisionAzanaque.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
+TelevisionBoliviana.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 TelevisionCamaguey.cu,SD,SD,,TRUE,c/CU,America/Havana,spa,480i
 TelevisionCanaria.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 TelevisionCaribbean.kn,SD,SD,,TRUE,c/KN,America/St_Kitts,eng,480i

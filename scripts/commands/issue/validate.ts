@@ -260,6 +260,35 @@ function validateEditLogoRequest(dataSet: DataSet) {
     done()
   }
 
+  const newChannelId = dataSet.getString('new_channel_id')?.trim()
+
+  if (newChannelId && dataSet.missing('channel_id')) {
+    errors.push('To apply "New Channel ID" the request must include the current "Channel ID"')
+    done()
+  }
+
+  const newFeedId = dataSet.getString('new_feed_id')?.trim()
+  const oldChannelId = dataSet.getString('channel_id')
+  const channelId = newChannelId || oldChannelId
+
+  if (newFeedId && !channelId) {
+    errors.push(
+      'To apply "New Feed ID" the request must include the "Channel ID" or "New Channel ID"'
+    )
+    done()
+  }
+
+  const streamId = createStreamId(channelId, newFeedId)
+  if (streamId) {
+    const found = data.feedsKeyByStreamId.get(streamId)
+    if (!found) {
+      errors.push(
+        `There is no feed with the ID "${newFeedId}" for the channel "${channelId}" in the database`
+      )
+      done()
+    }
+  }
+
   validateChannelData(dataSet)
   validateLogoData(dataSet)
 }
@@ -387,7 +416,7 @@ function validateEditFeedRequest(dataSet: DataSet) {
     dataSet.missing([
       'feed_name',
       'alt_names',
-      'main_feed',
+      'is_main',
       'broadcast_area',
       'timezones',
       'languages',

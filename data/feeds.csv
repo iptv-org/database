@@ -1099,7 +1099,8 @@ Ahwazna.uk,SD,SD,,TRUE,c/UK,Europe/London,ara,576i
 AICTV.ye,SD,SD,,TRUE,c/YE,Asia/Aden,ara,576i
 AigaioTV.gr,SD,SD,,TRUE,c/GR,Europe/Athens,ell,576i
 AigakTV.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz;rus,576i
-AikNews.pk,SD,SD,,TRUE,c/PK,Asia/Karachi,urd,576i
+AikNews.pk,HD,HD,,TRUE,c/PK,Asia/Karachi,urd,1080p
+AikNews.pk,SD,SD,,FALSE,c/PK,Asia/Karachi,urd,576i
 AimshgiinKino.mn,SD,SD,,TRUE,c/MN,Asia/Ulaanbaatar,mon,576i
 Ainos.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 AIONTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
@@ -3198,6 +3199,7 @@ BBCFirst.uk,Asia,Asia,,FALSE,r/SEA,America/Toronto,msa,576i
 BBCFirst.uk,Australia,Australia,,FALSE,c/AU,America/Toronto,eng,576i
 BBCFirst.uk,Benelux,Benelux,,FALSE,r/BENELUX,America/Toronto,eng,576i
 BBCFirst.uk,Poland,Poland,,TRUE,c/PL,America/Toronto,pol,576i
+BBCFirst.uk,Romania,Romania,,FALSE,c/RO,Europe/London,eng,576i
 BBCFirst.uk,Turkiye,Turkiye,,FALSE,c/TR,America/Toronto,eng,576i
 BBCFood.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 BBCFour.uk,Ireland,Ireland,,FALSE,c/IE,Europe/Dublin,eng,576i
@@ -5032,6 +5034,7 @@ Canal7Tacuarembo.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 Canal7TalangaVision.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 Canal7TeleValencia.es,SD,SD,,TRUE,s/ES-VC,Europe/Madrid,spa;cat,576i
 Canal7TV.ar,SD,SD,,TRUE,ct/ARSDE,America/Argentina/Buenos_Aires,spa,576i
+Canal7TVB.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 Canal8.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 Canal8.cr,SD,SD,,TRUE,c/CR,America/La_Paz,spa,480i
 Canal8.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
@@ -10336,6 +10339,7 @@ Eurosport4.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Eurosport4K.fr,France,France,,TRUE,c/FR,Europe/Paris,rus;eng;fra,576i
 Eurosport4K.fr,Russia,Russia,,FALSE,c/RU;c/BG,Europe/Moscow,rus,576i
 Eurosport4K.fr,Slovenia,Slovenia,,FALSE,c/SI,Europe/Ljubljana,slv,576i
+Eurosport4KCzechia.cz,UHD,UHD,,TRUE,c/CZ,Europe/Paris,ces,576i
 Eurosport5.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Eurosport6.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Eurosport7.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -13156,6 +13160,8 @@ HorseShoppingChannel.us,SD,SD,,TRUE,c/US,America/Chicago,eng,480i
 HorseTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 Horyaal24TV.fr,SD,SD,,TRUE,c/FR;c/SO,Europe/Paris,som,576i
 HosannaRadioTV.cd,SD,SD,,TRUE,c/CD,Africa/Lubumbashi,fra,576i
+HosannaTV.in,Global,Global,,FALSE,c/IN,Asia/Kolkata,eng,1080i
+HosannaTV.in,Hindi,Hindi,,FALSE,c/IN,Asia/Kolkata,hin,1080i
 HosannaTV.in,Tamil,Tamil,,TRUE,c/IN,Asia/Kolkata,tam,1080i
 HosannaVision.pa,SD,SD,,TRUE,c/PA,America/Panama,spa,480i
 HostTV.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
@@ -14385,7 +14391,7 @@ JODFDTV.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 JODRDTV.jp,SD,SD,,TRUE,ct/JPKIJ,Asia/Tokyo,jpn,480i
 JODXDTV.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
 JoeFM.be,SD,SD,,TRUE,c/BE,Europe/Brussels,nld,576i
-JoelOsteenNetwork.us,SD,SD,,TRUE,c/US,America/New_York,eng,576i
+JoelOsteenNetwork.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080p
 JOEPDTV.jp,SD,SD,,TRUE,ct/JPMI3,Asia/Tokyo,jpn,480i
 JOEXDTV.jp,HD,HD,,FALSE,c/JP,Asia/Tokyo,jpn,1080p
 JOEXDTV.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
@@ -25924,6 +25930,7 @@ PBSKidsPacific.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PBSNature.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PBSRetro.us,SD,SD,,TRUE,c/US,America/New_York,eng,1080p
 PBSTravel.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,eng,1080p
+PBSWisconsin.us,Wisconsin,Wisconsin,,TRUE,s/US-WI,America/Chicago,eng,720p
 PCATV.us,SD,SD,,TRUE,ct/USPTE,America/New_York,eng,480i
 PCCtv.us,SD,SD,,TRUE,ct/USPSD,America/Los_Angeles,eng,480i
 PCCTVFlorida.us,SD,SD,,TRUE,s/US-FL,America/New_York,eng,480i
@@ -37814,6 +37821,7 @@ ViasatExplore.cz,SD,SD,,TRUE,c/CZ;c/SK,Europe/Prague,ces,576i
 ViasatExplore.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,eng,576i
 ViasatExplore.gr,SD,SD,,TRUE,c/GR;c/CY,Europe/Athens,ell,576i
 ViasatExplore.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
+ViasatExplore.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 ViasatExplore.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,eng,1080i
 ViasatExplore.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,eng,576i
 ViasatExplore.si,HD,HD,,TRUE,c/SI,Europe/Ljubljana,slv,1080i
@@ -37847,6 +37855,7 @@ ViasatHistory.cz,SD,SD,,TRUE,c/CZ;c/SK,Europe/Prague,ces,576i
 ViasatHistory.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,eng,576i
 ViasatHistory.gr,SD,SD,,TRUE,c/GR;c/CY,Europe/Athens,ell,576i
 ViasatHistory.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
+ViasatHistory.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 ViasatHistory.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,eng,1080i
 ViasatHistory.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,eng,576i
 ViasatHistory.si,HD,HD,,TRUE,c/SI,Europe/Ljubljana,slv,1080i
@@ -37879,6 +37888,7 @@ ViasatNature.cz,SD,SD,,TRUE,c/CZ;c/SK,Europe/Prague,ces,576i
 ViasatNature.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,eng,576i
 ViasatNature.gr,SD,SD,,TRUE,c/GR;c/CY,Europe/Athens,ell,576i
 ViasatNature.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
+ViasatNature.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 ViasatNature.se,HD,HD,,FALSE,c/SE,Europe/Stockholm,eng,1080i
 ViasatNature.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,eng,576i
 ViasatNature.si,HD,HD,,FALSE,c/SI,Europe/Ljubljana,slv,1080i
@@ -44203,6 +44213,7 @@ YesMoviesDrama.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,heb,576i
 YesMoviesKids.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,heb,576i
 YesNetwork.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 YesNews.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,heb,576i
+YesTV.ca,National,National,,TRUE,c/CA,America/Toronto,eng,1080i
 YesTV.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 YesTVAction.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,heb,576i
 YesTVCalgary.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
@@ -44593,6 +44604,7 @@ ZizaTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 ZIZTV.kn,SD,SD,,TRUE,c/KN,America/St_Kitts,eng,480i
 ZjarrTV.al,SD,SD,,TRUE,c/AL,Europe/Tirane,sqi,576i
 Zkids.us,SD,SD,,TRUE,c/US,America/New_York,spa,576i
+ZLiving.us,National,National,,TRUE,c/US,America/New_York,eng,480i
 ZMZ.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 ZnanieTV.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 ZNation.us,SD,SD,,TRUE,c/PL;r/EUR,Europe/Warsaw,eng,576i

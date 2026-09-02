@@ -6532,6 +6532,7 @@ CanalPlusActionEurope.nl,Austria,Austria,,FALSE,c/AT,Europe/Amsterdam,ger,576i
 CanalPlusActionEurope.nl,Czechia,Czechia,,FALSE,c/CZ;c/SK,Europe/Amsterdam,cze,576i
 CanalPlusActionEurope.nl,Magyar,Magyar,,FALSE,c/HU,Europe/Amsterdam,hun,576i
 CanalPlusActionEurope.nl,Netherlands,Netherlands,,TRUE,c/NL,Europe/Amsterdam,dut,576i
+CanalPlusActionEurope.nl,Slovakia,Slovakia,,FALSE,c/SK,Europe/Paris,slk,576i
 CanalPlusActionMyanmar.fr,SD,SD,,TRUE,c/FR,Europe/Paris,mya,576i
 CanalPlusActionOuest.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusAitio.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
@@ -35891,6 +35892,7 @@ StranaFM.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 StrangeParadise.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 StrashnoeHD.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 StrausbergTV.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
+StreamForce360.co,Main,Main,,TRUE,r/LATAM;r/NORAM;r/EUR,America/Bogota;America/New_York;Europe/Madrid,spa,1080p
 StreamLatino.cl,SD,SD,,TRUE,c/CL;c/PE,America/Santiago,spa,480i
 Streamstertv.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 StreekstadCentral.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
@@ -37398,8 +37400,8 @@ TeleplusTelevision.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,576i
 TelePoderTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p
 TelePordenone.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 TelePortalCanal531.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
-TelePosadas.ar,HD,HD,,FALSE,c/AR,America/Argentina/Buenos_Aires,spa,720p
-TelePosadas.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
+TelePosadas.ar,HD,HD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,720p
+TelePosadas.ar,SD,SD,,FALSE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 TelepremierPlus.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 TeleProgreso.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 TeleProyectoTV.do,HD,HD,,TRUE,c/DO,America/Santo_Domingo,spa,720p

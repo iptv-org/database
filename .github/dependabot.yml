@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    groups:
+      actions-minor-patch:
+        update-types: ["minor", "patch"]
+    commit-message:
+      prefix: "ci"
+    ignore:
+      # Deliberately held at v1.8.2: 7c776462 switched deploy.yml to
+      # actions/create-github-app-token@v2, 5c2520c4 reverted it three days later.
+      - dependency-name: "tibdex/github-app-token"

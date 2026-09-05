@@ -1,10 +1,11 @@
+import issues from '../../__data__/input/issue/validate/issues'
 import { beforeEach, describe, it, expect } from 'vitest'
-import issues from '../../__data__/input/issues'
 import { pathToFileURL } from 'node:url'
 import { execSync } from 'child_process'
 import * as fs from 'fs-extra'
 
-const ENV_VAR = 'cross-env DATA_DIR=tests/__data__/input/data LOGS_DIR=tests/__data__/output/logs'
+const ENV_VAR =
+  'cross-env DATA_DIR=tests/__data__/input/issue/validate/data LOGS_DIR=tests/__data__/output/logs'
 
 beforeEach(() => {
   fs.emptyDirSync('tests/__data__/output')

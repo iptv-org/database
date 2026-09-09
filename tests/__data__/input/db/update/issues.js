@@ -1091,7 +1091,7 @@ module.exports = [
     type: null,
     active_lock_reason: null,
     sub_issues_summary: { total: 0, completed: 0, percent_completed: 0 },
-    body: '### Channel ID (required)\n\nChannel82.bm\n\n### Feed ID (required)\n\nSD\n\n### Feed Name\n\n_No response_\n\n### Main Feed\n\nNone\n\n### Broadcast Area\n\n_No response_\n\n### Timezones\n\nAtlantic/Bermuda\n\n### Languages\n\n_No response_\n\n### Format\n\nNone\n\n### Notes\n\n_No response_',
+    body: '### Channel ID (required)\n\nChannel82.bm\n\n### Feed ID (required)\n\nSD\n\n### Alternative Names\n\n~\n\n### Feed Name\n\n_No response_\n\n### Main Feed\n\nNone\n\n### Broadcast Area\n\n_No response_\n\n### Timezones\n\nAtlantic/Bermuda\n\n### Languages\n\n_No response_\n\n### Format\n\nNone\n\n### Notes\n\n_No response_',
     closed_by: null,
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/17612/reactions',
@@ -1408,7 +1408,7 @@ module.exports = [
     closed_at: null,
     author_association: 'CONTRIBUTOR',
     active_lock_reason: null,
-    body: '### Logo URL (required)\n\nhttps://i.imgur.com/Jop3Vip.png\n\n### Tags\n\n_No response_\n\n### Width\n\n400\n\n### Height\n\n400\n\n### Format\n\nPNG\n\n### Notes\n\n_No response_',
+    body: '### Logo URL (required)\n\nhttps://i.imgur.com/Jop3Vip.png\n\n### New Feed ID\n\n~\n\n### Tags\n\n~\n\n### Width\n\n400\n\n### Height\n\n400\n\n### Format\n\nPNG\n\n### Notes\n\n_No response_',
     reactions: {
       url: 'https://api.github.com/repos/iptv-org/database/issues/9903/reactions',
       total_count: 0,

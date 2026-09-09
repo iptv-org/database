@@ -507,6 +507,21 @@ async function removeFeed(issue: Issue) {
     return
   }
 
+  if (foundFeed.is_main) {
+    const nextFeed = data.feeds.first(
+      (feed: Feed) => feed.channel === channelId && feed.id !== feedId
+    )
+    if (!nextFeed) {
+      log.error(
+        `The feed with ID "${feedId}" is the only feed for the "${channelId}" channel and therefore cannot be deleted`
+      )
+      skippedIssues.add(issue)
+      return
+    }
+    nextFeed.is_main = true
+    onFeedNewMain(channelId, nextFeed.id, log)
+  }
+
   data.feeds.remove((feed: Feed) => feed.getStreamId() === foundFeed.getStreamId())
   data.feedsKeyByStreamId.remove(foundFeed.getStreamId())
 

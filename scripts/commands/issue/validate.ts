@@ -145,12 +145,24 @@ function validateAddCityRequest(dataSet: DataSet) {
   if (!cityCode) {
     errors.push('The request is missing the "City Code"')
     done()
+  } else {
+    const isDuplicate = data.citiesKeyByCode.has(cityCode)
+    if (isDuplicate) {
+      errors.push(`The database already contains a city with code "${cityCode}"`)
+      done()
+    }
   }
 
   const wikidataId = dataSet.getString('wikidata_id')?.trim()
   if (!wikidataId) {
     errors.push('The request is missing the "Wikidata ID"')
     done()
+  } else {
+    const isDuplicate = data.citiesKeyByWikidataId.has(wikidataId)
+    if (isDuplicate) {
+      errors.push(`The database already contains a city with wikidata_id "${wikidataId}"`)
+      done()
+    }
   }
 
   validateCityData(dataSet)
@@ -326,6 +338,15 @@ function validateAddLogoRequest(dataSet: DataSet) {
   if (!logoUrl) {
     errors.push('The request is missing the "Logo URL"')
     done()
+  } else {
+    const foundLogos = data.logosGroupedByUrl.get(logoUrl) || []
+    const duplicate = foundLogos.find(logo => logo.channel === channelId)
+    if (duplicate) {
+      errors.push(
+        `The database already contains a logo with url "${logoUrl}" and the channel "${channelId}"`
+      )
+      done()
+    }
   }
 
   validateLogoData(dataSet)

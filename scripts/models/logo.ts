@@ -34,9 +34,9 @@ export class Logo extends sdk.Models.Logo implements Validator {
   update(dataSet: DataSet): this {
     const data = {
       channel: dataSet.getString('new_channel_id'),
-      feed: dataSet.getString('new_feed_id'),
+      feed: dataSet.isDeleted('new_feed_id') ? null : dataSet.getString('new_feed_id'),
       in_use: dataSet.getBoolean('in_use'),
-      tags: dataSet.getArray('tags'),
+      tags: dataSet.isDeleted('tags') ? [] : dataSet.getArray('tags'),
       width: dataSet.getNumber('width'),
       height: dataSet.getNumber('height'),
       format: dataSet.getString('format')

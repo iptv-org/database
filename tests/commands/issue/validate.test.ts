@@ -1,10 +1,11 @@
+import issues from '../../__data__/input/issue/validate/issues'
 import { beforeEach, describe, it, expect } from 'vitest'
-import issues from '../../__data__/input/issues'
 import { pathToFileURL } from 'node:url'
 import { execSync } from 'child_process'
 import * as fs from 'fs-extra'
 
-const ENV_VAR = 'cross-env DATA_DIR=tests/__data__/input/data LOGS_DIR=tests/__data__/output/logs'
+const ENV_VAR =
+  'cross-env DATA_DIR=tests/__data__/input/issue/validate/data LOGS_DIR=tests/__data__/output/logs'
 
 beforeEach(() => {
   fs.emptyDirSync('tests/__data__/output')
@@ -179,6 +180,23 @@ describe('issue:validate', () => {
     }
   })
 
+  it('can handle logos:add request with duplicate', () => {
+    const body = issues.find(issue => issue.number === 31772)?.body
+    const cmd = `${ENV_VAR} npm run issue:validate --- --body="${body}" --labels="approved,logos:add"`
+
+    if (process.env.DEBUG === 'true') console.log(cmd)
+    try {
+      const stdout = execSync(cmd, { encoding: 'utf8' })
+      if (process.env.DEBUG === 'true') console.log(stdout)
+      process.exit(0)
+    } catch (error) {
+      if (process.env.DEBUG === 'true') console.log(error)
+      expect(content('tests/__data__/output/logs/errors.txt')).toBe(
+        content('tests/__data__/expected/issue/validate/logs/logos_add_duplicate.txt')
+      )
+    }
+  })
+
   it('can handle logos:edit request', () => {
     const body = issues.find(issue => issue.number === 31786)?.body
     const cmd = `${ENV_VAR} npm run issue:validate --- --body="${body}" --labels="approved,logos:edit"`
@@ -260,6 +278,23 @@ describe('issue:validate', () => {
       if (process.env.DEBUG === 'true') console.log(error)
       expect(content('tests/__data__/output/logs/errors.txt')).toBe(
         content('tests/__data__/expected/issue/validate/logs/cities_add.txt')
+      )
+    }
+  })
+
+  it('can handle cities:add request with duplicate', () => {
+    const body = issues.find(issue => issue.number === 31989)?.body
+    const cmd = `${ENV_VAR} npm run issue:validate --- --body="${body}" --labels="approved,cities:add"`
+
+    if (process.env.DEBUG === 'true') console.log(cmd)
+    try {
+      const stdout = execSync(cmd, { encoding: 'utf8' })
+      if (process.env.DEBUG === 'true') console.log(stdout)
+      process.exit(0)
+    } catch (error) {
+      if (process.env.DEBUG === 'true') console.log(error)
+      expect(content('tests/__data__/output/logs/errors.txt')).toBe(
+        content('tests/__data__/expected/issue/validate/logs/cities_add_duplicate.txt')
       )
     }
   })

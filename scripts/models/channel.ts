@@ -46,16 +46,16 @@ export class Channel extends sdk.Models.Channel implements Validator {
   update(dataSet: DataSet): this {
     const data = {
       channel_name: dataSet.getString('channel_name'),
-      alt_names: dataSet.getArray('alt_names'),
-      network: dataSet.getString('network'),
-      owners: dataSet.getArray('owners'),
+      alt_names: dataSet.isDeleted('alt_names') ? [] : dataSet.getArray('alt_names'),
+      network: dataSet.isDeleted('network') ? null : dataSet.getString('network'),
+      owners: dataSet.isDeleted('owners') ? [] : dataSet.getArray('owners'),
       country: dataSet.getString('country'),
-      categories: dataSet.getArray('categories'),
+      categories: dataSet.isDeleted('categories') ? [] : dataSet.getArray('categories'),
       is_nsfw: dataSet.getBoolean('is_nsfw'),
-      launched: dataSet.getString('launched'),
-      closed: dataSet.getString('closed'),
-      replaced_by: dataSet.getString('replaced_by'),
-      website: dataSet.getString('website')
+      launched: dataSet.isDeleted('launched') ? null : dataSet.getString('launched'),
+      closed: dataSet.isDeleted('closed') ? null : dataSet.getString('closed'),
+      replaced_by: dataSet.isDeleted('replaced_by') ? null : dataSet.getString('replaced_by'),
+      website: dataSet.isDeleted('website') ? null : dataSet.getString('website')
     }
 
     if (data.channel_name !== undefined) this.name = data.channel_name

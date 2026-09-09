@@ -80,29 +80,29 @@ export class DataSet {
   }
 
   getBoolean(key: string): boolean | undefined {
+    if (this.isDeleted(key)) return undefined
+
     if (this.missing(key)) return undefined
 
     return this.#data.get(key) === 'TRUE' ? true : false
   }
 
   getString(key: string): string | undefined {
-    const deleteSymbol = '~'
+    if (this.isDeleted(key)) return undefined
 
-    return this.missing(key)
-      ? undefined
-      : this.#data.get(key) === deleteSymbol
-        ? ''
-        : String(this.#data.get(key))
+    return this.missing(key) ? undefined : String(this.#data.get(key))
   }
 
   getNumber(key: string): number | undefined {
+    if (this.isDeleted(key)) return undefined
+
     const string = this.getString(key)
 
     return string ? Number(string) : undefined
   }
 
   getArray(key: string): string[] | undefined {
-    const deleteSymbol = '~'
+    if (this.isDeleted(key)) return undefined
 
     if (this.#data.missing(key)) return undefined
 
@@ -110,7 +110,7 @@ export class DataSet {
 
     if (typeof value !== 'string') return undefined
 
-    return value === deleteSymbol ? [] : value.split(/[\r\n;]/)
+    return value.split(/[\r\n;]/)
   }
 
   getChanged(): string[] {

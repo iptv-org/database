@@ -34,6 +34,7 @@ let data: DatabaseData = {
   logos: new Collection<Logo>(),
 
   citiesKeyByCode: new Dictionary<City>(),
+  citiesKeyByWikidataId: new Dictionary<City>(),
   feedsGroupedByChannelId: new Dictionary<Feed[]>(),
   feedsKeyByStreamId: new Dictionary<Feed>(),
   channelsKeyById: new Dictionary<Channel>(),
@@ -62,6 +63,7 @@ let cache: DatabaseData = {
   logos: new Collection<Logo>(),
 
   citiesKeyByCode: new Dictionary<City>(),
+  citiesKeyByWikidataId: new Dictionary<City>(),
   feedsGroupedByChannelId: new Dictionary<Feed[]>(),
   feedsKeyByStreamId: new Dictionary<Feed>(),
   channelsKeyById: new Dictionary<Channel>(),
@@ -174,6 +176,7 @@ async function loadData(): Promise<DatabaseData> {
     (subdivision: Subdivision) => subdivision.code
   )
   data.citiesKeyByCode = data.cities.keyBy((city: City) => city.code)
+  data.citiesKeyByWikidataId = data.cities.keyBy((city: City) => city.wikidata_id)
 
   const locations: Collection<Location> = new Collection()
   data.cities.forEach(city => {
@@ -212,6 +215,7 @@ function cacheData() {
     countries: data.countries.clone(),
     logos: data.logos.clone(),
     citiesKeyByCode: data.citiesKeyByCode.clone(),
+    citiesKeyByWikidataId: data.citiesKeyByWikidataId.clone(),
     feedsGroupedByChannelId: data.feedsGroupedByChannelId.clone(),
     feedsKeyByStreamId: data.feedsKeyByStreamId.clone(),
     channelsKeyById: data.channelsKeyById.clone(),
@@ -241,6 +245,7 @@ function resetData() {
     countries: cache.countries,
     logos: cache.logos,
     citiesKeyByCode: cache.citiesKeyByCode,
+    citiesKeyByWikidataId: cache.citiesKeyByWikidataId,
     feedsGroupedByChannelId: cache.feedsGroupedByChannelId,
     feedsKeyByStreamId: cache.feedsKeyByStreamId,
     channelsKeyById: cache.channelsKeyById,

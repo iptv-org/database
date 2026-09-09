@@ -48,7 +48,7 @@ export class Feed extends sdk.Models.Feed implements Validator {
   update(dataSet: DataSet): this {
     const data = {
       feed_name: dataSet.getString('feed_name'),
-      alt_names: dataSet.getArray('alt_names'),
+      alt_names: dataSet.isDeleted('alt_names') ? [] : dataSet.getArray('alt_names'),
       is_main: dataSet.getBoolean('is_main'),
       broadcast_area: dataSet.getArray('broadcast_area'),
       timezones: dataSet.getArray('timezones'),

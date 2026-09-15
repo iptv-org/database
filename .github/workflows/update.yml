@@ -5,24 +5,12 @@ on:
     - cron: '0 0 * * *'
 permissions:
   contents: write
+  issues: write
 jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/create-github-app-token@fee1f7d63c2ff003460e3d139729b119787bc349 # v2.2.2
-        if: ${{ !env.ACT }}
-        id: create-app-token
-        with:
-          app-id: ${{ secrets.APP_ID }}
-          private-key: ${{ secrets.APP_PRIVATE_KEY }}
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
-        if: ${{ env.ACT }}
-        with:
-          token: ${{ github.token }}
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
-        if: ${{ !env.ACT }}
-        with:
-          token: ${{ steps.create-app-token.outputs.token }}
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: '22.12.0'
@@ -56,5 +44,5 @@ jobs:
           git status
           git commit -m "[Bot] Update data" -m "Committed by [iptv-bot](https://github.com/apps/iptv-bot) via [update](https://github.com/iptv-org/database/actions/runs/${{ github.run_id }}) workflow." -m "${{ steps.db-update.outputs.processed_issues }}" --no-verify
       - name: push all changes to the repository
-        if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
+        if: ${{ !env.ACT && github.ref == 'refs/heads/main' }}
         run: git push

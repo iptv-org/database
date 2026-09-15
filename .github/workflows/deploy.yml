@@ -3,27 +3,14 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main
 permissions:
   contents: read
 jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - uses: tibdex/github-app-token@0d49dd721133f900ebd5e0dff2810704e8defbc6 # v1.8.2
-        if: ${{ !env.ACT }}
-        id: create-app-token
-        with:
-          app_id: ${{ secrets.APP_ID }}
-          private_key: ${{ secrets.APP_PRIVATE_KEY }}
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
-        if: ${{ env.ACT }}
-        with:
-          token: ${{ github.token }}
-      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
-        if: ${{ !env.ACT }}
-        with:
-          token: ${{ steps.create-app-token.outputs.token }}
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: '22.12.0'
@@ -33,13 +20,13 @@ jobs:
       - name: export data to ./api
         run: npm run db:export
       - uses: JamesIves/github-pages-deploy-action@164583b9e44b4fc5910e78feb607ea7c98d3c7b9 # 4.1.1
-        if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
+        if: ${{ !env.ACT && github.ref == 'refs/heads/main' }}
         with:
-          repository-name: iptv-org/api
+          repository-name: paulysid/api
           branch: gh-pages
           folder: .api
-          token: ${{ steps.create-app-token.outputs.token }}
+          token: ${{ secrets.API_REPO_TOKEN }}
           git-config-name: iptv-bot[bot]
           git-config-email: 84861620+iptv-bot[bot]@users.noreply.github.com
-          commit-message: '[Bot] Deploy to iptv-org/api'
+          commit-message: '[Bot] Deploy to paulysid/api'
           clean: false

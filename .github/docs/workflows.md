@@ -10,7 +10,7 @@ Sequentially runs the `api:load`, `playlist:lint`, and `playlist:validate` scrip
 
 ## deploy
 
-Every time the `master` branch is updated, it runs the `db:export` script and pushes the resulting files to the `iptv-org/api` repository.
+Every time the `main` branch is updated, it runs the `db:export` script and pushes the resulting files to the `iptv-org/api` repository.
 
 ## update
 

@@ -29,14 +29,14 @@ body:
     id: country
     attributes:
       label: Country
-      description: Country code where the city is located. A list of all supported countries and their codes can be found in [data/countries.csv](https://github.com/iptv-org/database/blob/master/data/countries.csv) 
+      description: Country code where the city is located. A list of all supported countries and their codes can be found in [data/countries.csv](https://github.com/paulysid/database/blob/main/data/countries.csv) 
       placeholder: 'CN'
 
   - type: input
     id: subdivision
     attributes:
       label: Subdivision
-      description: Code of the subdivision in which the city is located. A list of all supported subdivisions and their codes can be found in [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv)
+      description: Code of the subdivision in which the city is located. A list of all supported subdivisions and their codes can be found in [data/subdivisions.csv](https://github.com/paulysid/database/blob/main/data/subdivisions.csv)
       placeholder: 'CN-SD'
 
   - type: input

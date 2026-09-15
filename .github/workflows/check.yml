@@ -17,9 +17,9 @@ jobs:
       - name: changed files
         id: files
         run: |
-          git fetch origin master:master
+          git fetch origin main:main
           ANY_CHANGED=false
-          ALL_CHANGED_FILES=$(git diff --name-only master -- data/ | tr '\n' ' ')
+          ALL_CHANGED_FILES=$(git diff --name-only main -- data/ | tr '\n' ' ')
           if [ -n "${ALL_CHANGED_FILES}" ]; then
             ANY_CHANGED=true
           fi

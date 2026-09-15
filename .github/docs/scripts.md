@@ -66,7 +66,7 @@ npm run db:validate
 
 ## db:export
 
-Creates JSON files with all the data for the [iptv-org/api](https://github.com/iptv-org/api) repository.
+Creates JSON files with all the data for the [iptv-org/api](https://github.com/paulysid/api) repository.
 
 ```sh
 npm run db:export

@@ -43,7 +43,7 @@ body:
     id: country
     attributes:
       label: Country
-      description: Country code from which the channel is transmitted. A list of all supported countries and their codes can be found in [data/countries.csv](https://github.com/iptv-org/database/blob/master/data/countries.csv) 
+      description: Country code from which the channel is transmitted. A list of all supported countries and their codes can be found in [data/countries.csv](https://github.com/paulysid/database/blob/main/data/countries.csv) 
       placeholder: 'CN'
     validations:
       required: true
@@ -52,7 +52,7 @@ body:
     id: categories
     attributes:
       label: Categories (optional)
-      description: List of categories to which this channel belongs separated by `;`. A list of all supported categories can be found in [data/categories.csv](https://github.com/iptv-org/database/blob/master/data/categories.csv)
+      description: List of categories to which this channel belongs separated by `;`. A list of all supported categories can be found in [data/categories.csv](https://github.com/paulysid/database/blob/main/data/categories.csv)
       placeholder: 'animation;kids'
 
   - type: dropdown
@@ -121,7 +121,7 @@ body:
     id: broadcast_area
     attributes:
       label: Broadcast Area
-      description: "List of codes describing the broadcasting area of the feed separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`, `ct/<city_code>`. A full list of supported codes can be found here: [data/regions.csv](https://github.com/iptv-org/database/blob/master/data/regions.csv), [data/countries.csv](https://github.com/iptv-org/database/blob/master/data/countries.csv), [data/subdivisions.csv](https://github.com/iptv-org/database/blob/master/data/subdivisions.csv), [data/cities.csv](https://github.com/iptv-org/database/blob/master/data/cities.csv)"
+      description: "List of codes describing the broadcasting area of the feed separated by `;`. Any combination of `r/<region_code>`, `c/<country_code>`, `s/<subdivision_code>`, `ct/<city_code>`. A full list of supported codes can be found here: [data/regions.csv](https://github.com/paulysid/database/blob/main/data/regions.csv), [data/countries.csv](https://github.com/paulysid/database/blob/main/data/countries.csv), [data/subdivisions.csv](https://github.com/paulysid/database/blob/main/data/subdivisions.csv), [data/cities.csv](https://github.com/paulysid/database/blob/main/data/cities.csv)"
       placeholder: 'c/CN'
     validations:
       required: true
@@ -130,7 +130,7 @@ body:
     id: timezones
     attributes:
       label: Timezones
-      description: List of broadcast time zones separated by `;`. A list of all supported timezones and their codes can be found in [data/timezones.csv](https://github.com/iptv-org/database/blob/master/data/timezones.csv)
+      description: List of broadcast time zones separated by `;`. A list of all supported timezones and their codes can be found in [data/timezones.csv](https://github.com/paulysid/database/blob/main/data/timezones.csv)
       placeholder: 'Asia/Shanghai'
     validations:
       required: true
@@ -139,7 +139,7 @@ body:
     id: languages
     attributes:
       label: Languages
-      description: List of languages in which the feed is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](https://github.com/iptv-org/database/blob/master/data/languages.csv)
+      description: List of languages in which the feed is broadcast separated by `;`. A list of all supported languages and their codes can be found in [data/languages.csv](https://github.com/paulysid/database/blob/main/data/languages.csv)
       placeholder: 'zho;eng'
     validations:
       required: true

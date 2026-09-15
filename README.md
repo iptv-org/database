@@ -1,4 +1,4 @@
-# Database [![update](https://github.com/iptv-org/database/actions/workflows/update.yml/badge.svg)](https://github.com/iptv-org/database/actions/workflows/update.yml)
+# Database [![update](https://github.com/paulysid/database/actions/workflows/update.yml/badge.svg)](https://github.com/paulysid/database/actions/workflows/update.yml)
 
 User editable database for TV channels.
 
@@ -8,7 +8,7 @@ All data is stored in the [/data](data) folder as [CSV](https://en.wikipedia.org
 
 ## API
 
-All data is also available through the API, documentation for which can be found in the [iptv-org/api](https://github.com/iptv-org/api) repository.
+All data is also available through the API, documentation for which can be found in the [iptv-org/api](https://github.com/paulysid/api) repository.
 
 ## Resources
 

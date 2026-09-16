@@ -32,7 +32,7 @@ jobs:
         run: npm install
       - name: export data to ./api
         run: npm run db:export
-      - uses: JamesIves/github-pages-deploy-action@164583b9e44b4fc5910e78feb607ea7c98d3c7b9 # 4.1.1
+      - uses: JamesIves/github-pages-deploy-action@fa24774553152dd7873cd16ebd8d959b010c5445 # 4.9.0
         if: ${{ !env.ACT && github.ref == 'refs/heads/master' }}
         with:
           repository-name: iptv-org/api

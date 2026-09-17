@@ -25172,11 +25172,12 @@ NBCXtra.pg,SD,SD,,TRUE,c/PG,Pacific/Port_Moresby,eng,576i
 NBN.lb,SD,SD,,TRUE,c/LB,Asia/Beirut,ara,576i
 NBNTV.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 NBS.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
+NBSMusic.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng;lug,576i
 NBSPlus.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng;lug,576i
-NBSSport.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
+NBSSport.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng;lug,576i
 NBSStar.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
 NBSTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
-NBSTV.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
+NBSTV.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng;lug,576i
 NBT11.th,Central,Central,,TRUE,c/TH,Asia/Bangkok,tha,576i
 NBT11.th,North,North,,FALSE,c/TH,Asia/Bangkok,tha,576i
 NBT11.th,Northeast,Northeast,,FALSE,c/TH,Asia/Bangkok,tha,576i
@@ -41468,7 +41469,7 @@ UAMusic.ua,HD,HD,,TRUE,c/UA,Europe/Kyiv,ukr,1080p
 UAOPlay.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 UATV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 UBangla.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ben,576i
-UBCTV.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
+UBCTV.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng;lug;swa,576i
 Ubeat.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 UBETV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,576i
 UbiznewsTV.fr,SD,SD,,TRUE,c/FR,Europe/Paris,eng,576i

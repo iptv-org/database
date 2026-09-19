@@ -3569,6 +3569,7 @@ AXNMovies.es,HD,HD,,FALSE,c/ES,Europe/Madrid,spa,1080i
 AXNMovies.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 AXNMovies.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 AXNMystery.jp,SD,SD,,TRUE,c/JP,Asia/Singapore,jpn,480i
+AXNPoland.pl,Romania,Romania,,FALSE,c/RO,Europe/Bucharest,ron,1080p
 AXNPoland.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
 AXNSciFi.ru,SD,SD,,TRUE,r/CIS,Europe/Moscow,rus,576i
 AXNSpin.hu,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
@@ -4948,6 +4949,7 @@ Boomerang.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Boomerang.it,Plus1,+1,,FALSE,c/IT,Europe/Rome,ita,576i
 Boomerang.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 Boomerang.nl,SD,SD,,TRUE,c/NL;c/BE,Europe/Amsterdam,fra,576i
+Boomerang.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por;eng,576i
 Boomerang.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 Boomerang.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 Boomerang.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,eng,576i
@@ -6932,6 +6934,7 @@ CartoonClassics.pl,FAST,FAST,,TRUE,c/PL;r/EUR,Europe/Warsaw,eng,1080i
 CartoonClassics.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 Cartoonito.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita,1080i
 Cartoonito.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
+Cartoonito.pt,HD,HD,,FALSE,c/PT,Europe/Lisbon,por,1080i
 Cartoonito.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 Cartoonito.uk,HD,HD,,FALSE,c/UK,Europe/London,eng,1080i
 Cartoonito.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
@@ -11985,6 +11988,7 @@ DreamWorksChannelMiddleEast.us,SD,SD,,TRUE,r/MIDEAST,America/New_York,eng,480i
 DreamzTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
 DreikoTV.pa,SD,SD,,TRUE,c/PA,America/Panama,spa,480i
 DreischwesternTV.at,SD,SD,,TRUE,c/AT,Europe/Vienna,deu,576i
+DrFit.bg,HD,HD,,FALSE,c/BG,Europe/Sofia,bul;eng,1080i
 DrFit.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 DrGeneScott.us,SD,SD,,TRUE,c/US,America/Los_Angeles,eng,480i
 DrGMedicalExaminer.pl,HD,HD,,TRUE,c/PL;r/EU,Europe/Warsaw,pol,720p
@@ -13599,6 +13603,7 @@ FashionAfricaTV.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,eng,576i
 FashionBox.nl,HD,HD,,FALSE,r/EUR;r/ASIA;r/SSA,Europe/Amsterdam,eng,1080i
 FashionBox.nl,SD,SD,,TRUE,r/EUR;r/ASIA;r/SSA,Europe/Amsterdam,eng,576i
 FashionFinds.us,SD,SD,,TRUE,ct/USWCT,America/New_York,eng,480i
+FashionIndia.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 FashionLifeStyle.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,eng,576i
 FashionN.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 FashionOne.uk,4K,4K,,FALSE,c/UK,Europe/London,eng,2160p
@@ -19228,7 +19233,6 @@ K1.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 K1.ua,HD,HD,,FALSE,c/UA,Europe/Kyiv,ukr,1080p
 K1.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 K100.is,SD,SD,,TRUE,c/IS,Atlantic/Reykjavik,isl,576i
-K10GFD22.us,HD,HD,,TRUE,ct/USMLS,America/Denver,eng,720p
 K11UUD111.as,SD,SD,,TRUE,c/AS,Pacific/Pago_Pago,eng,480i
 K11UUD112.as,SD,SD,,TRUE,c/AS,Pacific/Pago_Pago,eng,480i
 K17JID123.us,SD,SD,,TRUE,ct/USFAT,America/Los_Angeles,eng,480i
@@ -19909,6 +19913,7 @@ KJTVCD321.us,HD,HD,,TRUE,ct/USWOF,America/Chicago,eng,720p
 KJTVTV342.us,SD,SD,,TRUE,ct/USLBB,America/Chicago,eng,480i
 KKAI501.us,SD,SD,,TRUE,ct/USKA7,America/New_York,eng,480p
 KKDJCD81.us,SD,SD,,TRUE,ct/USVIS,America/Los_Angeles,spa,480i
+KKDNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 KKRtv.dk,SD,SD,,TRUE,c/DK,Europe/Copenhagen,dan,576i
 KKSULD211.us,HD,HD,,TRUE,ct/USMHK,America/Chicago,eng,1080i
 KKTV.ao,SD,SD,,TRUE,c/AO,Africa/Luanda,por,576i
@@ -24728,6 +24733,7 @@ NationalGeographicWild.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 NationalGeographicWild.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 NationalGeographicWild.us,HDEast,HD East,,FALSE,c/US,America/New_York,eng,1080i
 NationalGeographicWild.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
+NationalGeographicWildEurope.de,BulgariaHD,Bulgaria HD,,FALSE,c/BG,Europe/Sofia,bul,1080i
 NationalGeographicWildEurope.de,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
 NationalGeographicWildLatinAmerica.us,Panregional,Panregional,,TRUE,r/LATAM,America/New_York,spa,480i
 NationalGeographicWildMiddleEast.uk,SD,SD,,TRUE,r/ARAB;r/MAGHREB,Europe/London,eng,576i
@@ -25230,6 +25236,7 @@ NBTV4.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 NBTV5.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 NBTV6.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 NBTWorld.th,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,Asia/Bangkok,eng,576i
+NCAANXT.ph,SD,SD,,TRUE,c/PH,Asia/Manila,eng;fil,576i
 NCAASeasonTicket0.us,SD,SD,,TRUE,c/US,America/Indiana/Indianapolis,eng,480i
 NCAASeasonTicket1.us,SD,SD,,TRUE,c/US,America/Indiana/Indianapolis,eng,480i
 NCAASeasonTicket2.us,SD,SD,,TRUE,c/US,America/Indiana/Indianapolis,eng,480i
@@ -27273,6 +27280,7 @@ OTSE.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 OttoChannel.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 OttoFMTV.it,SD,SD,,TRUE,c/IT;c/CH,Europe/Rome,ita,576i
 OTV.at,SD,SD,,TRUE,c/AT,Europe/Vienna,deu,576i
+OTV.ee,SD,SD,,TRUE,c/EE;c/LV;c/LT,Europe/Tallinn,rus;ukr,576i
 OTV.eg,SD,SD,,TRUE,c/EG,Africa/Cairo,ara,576i
 OTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 OTV.hr,SD,SD,,TRUE,c/HR,Europe/Zagreb,hrv,576i
@@ -28939,6 +28947,7 @@ PlanetaTV90s.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 PlanetaTVKids.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 PlanetaTVMovie.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 PlanetaTVMusic.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
+PlanetEarth.bg,HD,HD,,FALSE,c/BG,Europe/Sofia,bul;eng,1080i
 PlanetEarth.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 PlanetEatTV.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 PlanetePlus.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -38546,6 +38555,7 @@ TheSoutheasternChannel.us,SD,SD,,TRUE,ct/USHLO,America/New_York,eng,480i
 TheSpot.us,SD,SD,,TRUE,c/US,America/New_York,eng,720p
 TheSpotArizona61.us,HD,HD,,TRUE,c/US,America/New_York,eng,1080i
 TheSpotArizona61.us,KASW,KASW,,FALSE,ct/USPHX,America/Phoenix,eng,1080p
+TheSpotMTN.us,K10GFD,K10GF-D,,TRUE,ct/USMLS,America/Denver,eng,720p
 ThessaliaTV.gr,SD,SD,,TRUE,c/GR;s/GR-E,Europe/Athens,ell,576i
 TheSuperstation.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 TheTempleTV.cm,SD,SD,,TRUE,c/CM,Africa/Douala,eng,576i
@@ -43703,6 +43713,7 @@ WoezorTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 WolaitaTV.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh;eng;wal,576i
 WOLEDT122.pr,HD,HD,,TRUE,c/PR,America/Puerto_Rico,spa,720p
 WolvesValleyTV.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
+Woman.bg,HD,HD,,FALSE,c/BG,Europe/Sofia,bul;eng,1080i
 Woman.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 Woman.hr,SD,SD,,TRUE,c/HR,Europe/Zagreb,hrv,576i
 WomanTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i

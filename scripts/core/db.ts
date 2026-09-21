@@ -38,6 +38,7 @@ let data: DatabaseData = {
   feedsGroupedByChannelId: new Dictionary<Feed[]>(),
   feedsKeyByStreamId: new Dictionary<Feed>(),
   channelsKeyById: new Dictionary<Channel>(),
+  channelsKeyByIdLowerCase: new Dictionary<Channel>(),
   countriesKeyByCode: new Dictionary<Country>(),
   subdivisionsKeyByCode: new Dictionary<Subdivision>(),
   categoriesKeyById: new Dictionary<Category>(),
@@ -67,6 +68,7 @@ let cache: DatabaseData = {
   feedsGroupedByChannelId: new Dictionary<Feed[]>(),
   feedsKeyByStreamId: new Dictionary<Feed>(),
   channelsKeyById: new Dictionary<Channel>(),
+  channelsKeyByIdLowerCase: new Dictionary<Channel>(),
   countriesKeyByCode: new Dictionary<Country>(),
   subdivisionsKeyByCode: new Dictionary<Subdivision>(),
   categoriesKeyById: new Dictionary<Category>(),
@@ -165,6 +167,9 @@ async function loadData(): Promise<DatabaseData> {
   }
 
   data.channelsKeyById = data.channels.keyBy((channel: Channel) => channel.id)
+  data.channelsKeyByIdLowerCase = data.channels.keyBy((channel: Channel) =>
+    channel.id.toLowerCase()
+  )
   data.feedsGroupedByChannelId = data.feeds.groupBy((feed: Feed) => feed.channel)
   data.feedsKeyByStreamId = data.feeds.keyBy((feed: Feed) => feed.getStreamId())
   data.categoriesKeyById = data.categories.keyBy((category: Category) => category.id)
@@ -219,6 +224,7 @@ function cacheData() {
     feedsGroupedByChannelId: data.feedsGroupedByChannelId.clone(),
     feedsKeyByStreamId: data.feedsKeyByStreamId.clone(),
     channelsKeyById: data.channelsKeyById.clone(),
+    channelsKeyByIdLowerCase: data.channelsKeyByIdLowerCase.clone(),
     countriesKeyByCode: data.countriesKeyByCode.clone(),
     subdivisionsKeyByCode: data.subdivisionsKeyByCode.clone(),
     categoriesKeyById: data.categoriesKeyById.clone(),
@@ -249,6 +255,7 @@ function resetData() {
     feedsGroupedByChannelId: cache.feedsGroupedByChannelId,
     feedsKeyByStreamId: cache.feedsKeyByStreamId,
     channelsKeyById: cache.channelsKeyById,
+    channelsKeyByIdLowerCase: cache.channelsKeyByIdLowerCase,
     countriesKeyByCode: cache.countriesKeyByCode,
     subdivisionsKeyByCode: cache.subdivisionsKeyByCode,
     categoriesKeyById: cache.categoriesKeyById,

@@ -524,7 +524,7 @@ function validateAddChannelRequest(dataSet: DataSet) {
   }
 
   const channelId = createChannelId(channelName, countryCode)
-  if (channelId && data.channelsKeyById.get(channelId)) {
+  if (channelId && data.channelsKeyByIdLowerCase.has(channelId.toLowerCase())) {
     errors.push(
       `The database already contains a channel with name "${channelName}" and country code "${countryCode}"`
     )
@@ -571,7 +571,7 @@ function validateEditChannelRequest(dataSet: DataSet) {
   const channelName = dataSet.getString('channel_name')
   const countryCode = dataSet.getString('country')
   const newChannelId = createChannelId(channelName, countryCode)
-  if (newChannelId && data.channelsKeyById.get(newChannelId)) {
+  if (newChannelId && data.channelsKeyByIdLowerCase.has(newChannelId.toLowerCase())) {
     errors.push(
       `The database already contains a channel with name "${channelName}" and country code "${countryCode}"`
     )
@@ -580,6 +580,7 @@ function validateEditChannelRequest(dataSet: DataSet) {
 
   if (
     dataSet.missing([
+      'channel_name',
       'alt_names',
       'network',
       'owners',

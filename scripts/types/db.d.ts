@@ -35,6 +35,7 @@ export type DatabaseData = {
   citiesKeyByWikidataId: Dictionary<City>
   citiesKeyByCode: Dictionary<City>
   channelsKeyById: Dictionary<Channel>
+  channelsKeyByIdLowerCase: Dictionary<Channel>
   countriesKeyByCode: Dictionary<Country>
   subdivisionsKeyByCode: Dictionary<Subdivision>
   categoriesKeyById: Dictionary<Category>

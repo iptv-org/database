@@ -33267,6 +33267,7 @@ SEATV.kh,SD,SD,,TRUE,c/KH,Asia/Phnom_Penh,khm,576i
 SeaTV.lv,SD,SD,,TRUE,c/LV,Europe/Riga,lav,576i
 SebiobaRoyalTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 SECNetwork.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+SECNetwork.us,HD,HD,,FALSE,c/US,America/New_York,eng,1080i
 SECNetworkAlternate.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 SECNetworkAlternate2.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 SecondChanceTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
@@ -33762,7 +33763,9 @@ SHOWKZ.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz;rus,576i
 ShowMax.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 ShowPlusTV.az,SD,SD,,TRUE,c/AZ,Asia/Baku,aze,576i
 Showtime.us,East,East,,TRUE,c/US,America/New_York,eng,480i
+Showtime.us,EastHD,EastHD,FALSE,c/US,America/New_York,eng,1080i
 Showtime.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa,480i
+Showtime.us,WestHD,WestHD,FALSE,c/US,America/Los_Angeles,eng;spa,1080i
 Showtime2.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 Showtime2.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 ShowtimeattheApollo.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i

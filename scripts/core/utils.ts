@@ -119,7 +119,9 @@ export async function loadIssues(props?: {
     typeof octokit.rest.issues.listForRepo
   >[number]
   const CustomOctokit = Octokit.plugin(paginateRest, restEndpointMethods)
-  const octokit = new CustomOctokit()
+  const octokit = new CustomOctokit({
+    auth: process.env.GITHUB_TOKEN
+  })
 
   let labels = ''
   if (props && props.labels) {

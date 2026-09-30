@@ -31,6 +31,8 @@ jobs:
         run: npm install
       - name: update data
         id: db-update
+        env:
+          GITHUB_TOKEN: ${{ env.ACT && github.token || steps.create-app-token.outputs.token }}
         run: |
           npm run db:update
           echo "processed_issues=$(cat temp/logs/update.log)" >> $GITHUB_OUTPUT

@@ -29,6 +29,23 @@ describe('issue:validate', () => {
     }
   })
 
+  it('can handle channels:add request with duplicate', () => {
+    const body = issues.find(issue => issue.number === 31991)?.body
+    const cmd = `${ENV_VAR} npm run issue:validate --- --body="${body}" --labels="approved,channels:add"`
+
+    if (process.env.DEBUG === 'true') console.log(cmd)
+    try {
+      const stdout = execSync(cmd, { encoding: 'utf8' })
+      if (process.env.DEBUG === 'true') console.log(stdout)
+      process.exit(0)
+    } catch (error) {
+      if (process.env.DEBUG === 'true') console.log(error)
+      expect(content('tests/__data__/output/logs/errors.txt')).toBe(
+        content('tests/__data__/expected/issue/validate/logs/channels_add_duplicate.txt')
+      )
+    }
+  })
+
   it('can handle channels:edit request', () => {
     const body = issues.find(issue => issue.number === 31760)?.body
     const cmd = `${ENV_VAR} npm run issue:validate --- --body="${body}" --labels="approved,channels:edit"`
@@ -43,6 +60,20 @@ describe('issue:validate', () => {
       expect(content('tests/__data__/output/logs/errors.txt')).toBe(
         content('tests/__data__/expected/issue/validate/logs/channels_edit.txt')
       )
+    }
+  })
+
+  it('can handle channels:edit request with new channel name only', () => {
+    const body = issues.find(issue => issue.number === 31990)?.body
+    const cmd = `${ENV_VAR} npm run issue:validate --- --body="${body}" --labels="approved,channels:edit"`
+
+    if (process.env.DEBUG === 'true') console.log(cmd)
+    try {
+      const stdout = execSync(cmd, { encoding: 'utf8' })
+      if (process.env.DEBUG === 'true') console.log(stdout)
+    } catch (error) {
+      if (process.env.DEBUG === 'true') console.log(error)
+      process.exit(0)
     }
   })
 

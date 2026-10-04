@@ -1377,6 +1377,9 @@ AdrenalinaSportsNetwork.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 AdriaMusicTelevision.de,SD,SD,,TRUE,c/DE;c/SI,Europe/Ljubljana,deu,576i
 AdrianaPlusKristian.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 AdriaNetTV.al,SD,SD,,TRUE,c/AL,Europe/Tirane,sqi,576i
+AdriaticSport1.ba,SD,SD,,TRUE,r/BALKAN,Europe/Sarajevo,cnr,576i
+AdriaticSport2.ba,SD,SD,,TRUE,r/BALKAN,Europe/Sarajevo,cnr,576i
+AdriaticSport3.ba,SD,SD,,TRUE,r/BALKAN,Europe/Sarajevo,cnr,576i
 AdriaTV.me,SD,SD,,TRUE,c/ME,Europe/Podgorica,srp,576i
 ADULive.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 AdultAnimation.au,AU,AU,,TRUE,c/AU,Australia/Sydney,eng,720p
@@ -6692,17 +6695,25 @@ CanalPlusSport2.cz,HD,HD,,TRUE,c/CZ,Europe/Prague,ces,1080i
 CanalPlusSport2.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusSport2.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 CanalPlusSport2.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+CanalPlusSport2SK.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 CanalPlusSport3.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusSport3.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 CanalPlusSport3.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusSport360.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+CanalPlusSport3SK.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 CanalPlusSport4.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusSport4.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
+CanalPlusSport4SK.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 CanalPlusSport5.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusSport5.pl,SD,SD,,TRUE,c/PL;r/EUR,Europe/Warsaw,pol,576i
+CanalPlusSport5SK.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 CanalPlusSport6.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+CanalPlusSport6SK.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
+CanalPlusSport7SK.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
+CanalPlusSport8SK.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 CanalPlusSportExtra.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 CanalPlusSportReunion.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+CanalPlusSportSK.sk,SD,SD,,TRUE,c/SK,Europe/Bratislava,slk,576i
 CanalPlusSportsMyanmar.fr,SD,SD,,TRUE,c/FR,Europe/Paris,mya,576i
 CanalPlusSuSann.mm,SD,SD,,TRUE,c/MM,Asia/Yangon,mya,480i
 CanalPlusTop14.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -9026,6 +9037,7 @@ ComedyCentral.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 ComedyCentralAfrica.us,SD,SD,,TRUE,r/AFR,America/New_York,eng,480i
 ComedyCentralAnimation.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 ComedyCentralAsia.us,SD,SD,,TRUE,r/SEA,Asia/Singapore,msa,480i
+ComedyCentralBrasil.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480p
 ComedyCentralenEspanol.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
 ComedyCentralExtra.ie,SD,SD,,TRUE,c/IE,Europe/Dublin,eng,576i
 ComedyCentralExtra.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,eng,576i
@@ -13050,6 +13062,7 @@ Eurosport2.fr,Spain,Spain,,FALSE,c/ES,Europe/Madrid,spa,576i
 Eurosport2.fr,Turkiye,Turkiye,,FALSE,c/TR,Europe/Istanbul,tur,576i
 Eurosport2.fr,UK,UK,,FALSE,c/UK,Europe/London,eng,576i
 Eurosport2.fr,UKHD,UK HD,,FALSE,c/UK,Europe/London,eng,1080i
+Eurosport2Polska.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 Eurosport2Xtra.de,SD,SD,,TRUE,c/DE,Europe/Berlin,fra,576i
 Eurosport3.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Eurosport360HD1.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -13061,11 +13074,13 @@ Eurosport360HD6.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Eurosport360HD7.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Eurosport360HD8.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Eurosport360HD9.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+Eurosport3Polska.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 Eurosport4.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Eurosport4K.fr,France,France,,TRUE,c/FR,Europe/Paris,rus;eng;fra,576i
 Eurosport4K.fr,Russia,Russia,,FALSE,c/RU;c/BG,Europe/Moscow,rus,576i
 Eurosport4K.fr,Slovenia,Slovenia,,FALSE,c/SI,Europe/Ljubljana,slv,576i
 Eurosport4KCzechia.cz,UHD,UHD,,TRUE,c/CZ,Europe/Paris,ces,576i
+Eurosport4Polska.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 Eurosport5.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Eurosport6.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Eurosport7.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -21943,6 +21958,9 @@ MAX.no,SD,SD,,TRUE,c/NO,Europe/Oslo,nor,576i
 Max2U.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MAX4.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 MAXAnime.ve,SD,SD,,TRUE,r/HISPAM,America/Caracas,spa,480i
+Maxcine.us,HD,HD,Latino,TRUE,c/US;r/LATAM,America/New_York,spa,720p
+MaxcineComedy.us,HD,HD,Latino,TRUE,c/US;r/LATAM,America/New_York,spa,720p
+MaxcineFamily.us,HD,HD,Latino,TRUE,c/US;r/LATAM,America/New_York,spa,720p
 MAXEats.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 MaximaFM.cl,SD,SD,,TRUE,c/CL;r/LATAM,America/Santiago,spa,480i
 MaximaFMChile.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i

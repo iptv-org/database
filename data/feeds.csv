@@ -9246,6 +9246,8 @@ ConecTVBrasil.br,SD,SD,,TRUE,s/BR-SP,America/Sao_Paulo,por,480i
 ConexaoTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 ConexionEducativa.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 ConexionPositivaTelevision.cr,HD,HD,,TRUE,c/CR,America/Costa_Rica,spa,1080p
+ConexionTV.ve,HD,HD,,TRUE,c/VE,America/Caracas,spa,1080i
+ConexionTVve.ve,HD,HD,,TRUE,c/VE,America/Caracas,spa,2160p
 Congo24TV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 Congo26TV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 CongoBuzzTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
@@ -29717,7 +29719,8 @@ PooyaTVPlus.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 Pop.uk,AU,AU,,FALSE,c/AU,Australia/Sydney,eng,1080p
 Pop.uk,Plus1,+1,,FALSE,c/UK,Europe/London,eng,576i
 Pop.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
-Pop.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+Pop.us,East,East,,TRUE,c/US,America/New_York,eng,480i
+Pop.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 Pop923FM.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,576i
 PopCentral.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 PopcornCentral.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
@@ -29738,6 +29741,7 @@ POPTV.si,HD,HD,,FALSE,c/SI,Europe/Ljubljana,slv,1080i
 POPTV.si,SD,SD,,TRUE,c/SI,Europe/Ljubljana,slv,576i
 PopTV.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 PopularScience.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+PopularTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 PopularTVCantabria.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 PopularTVMelilla.es,SD,SD,,TRUE,c/ES,Africa/Ceuta,spa,576i
 PopularTVMurcia.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
@@ -30264,6 +30268,7 @@ QausainTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 Qazaqstan.kz,HD,HD,,FALSE,c/KZ,Asia/Almaty,kaz,1080i
 Qazaqstan.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz,576i
 QazaqstanInternational.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,eng;rus;kaz,576i
+QazaqTV.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz,576i
 QazSport.kz,HD,HD,,FALSE,c/RU,Asia/Almaty,kaz,1080i
 QazSport.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz,576i
 QazvinTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
@@ -42281,6 +42286,7 @@ USACTV.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 Usadba.ru,HD,HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
 Usadba.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 UsambaraMountainTV.tz,SD,SD,,TRUE,c/TZ,Africa/Dar_es_Salaam,swa,576i
+USANetwork.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,576i
 USANetwork.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 USANetwork.us,EastHD,East HD,,FALSE,c/US,America/New_York,eng,480i
 USANetwork.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
@@ -42813,8 +42819,7 @@ VibesMedia.bz,SD,SD,,TRUE,c/BZ,America/Belize,eng,480i
 ViBETV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 ViboralTelevision.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 VibraTV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
-Viceland.us,East,East,,TRUE,c/US,America/New_York,eng,480i
-Viceland.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
+Viceland.us,SD,SD,,TRUE,c/RU,America/New_York,eng,480i
 ViceNews.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 VICETV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 Victorious.us,France,France,,FALSE,c/FR,Europe/Paris,fra,720p

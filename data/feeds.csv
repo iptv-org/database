@@ -1610,6 +1610,7 @@ AgyaKofabaeTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 AgyaPaTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 AHaber.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 AhaduTV.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
+AhasaTV.lk,SD,SD,,TRUE,c/LK,Asia/Colombo,sin,576i
 AhiTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 AhlAlquranTV.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,ara,576i
 AhlebaitTV.uk,SD,SD,,TRUE,c/UK,Europe/London,urd;eng,576i
@@ -7025,7 +7026,6 @@ CartoonNetworkCEE.uk,Bulgary,Bulgary,,FALSE,c/BG,America/Toronto,bul,576i
 CartoonNetworkCEE.uk,CzechRepublic,Czech Republic,,FALSE,c/CZ,America/Toronto,ces,576i
 CartoonNetworkCEE.uk,Denmark,Denmark,,FALSE,c/DK,America/Toronto,dan,576i
 CartoonNetworkCEE.uk,France,France,,FALSE,c/FR;c/BE;c/LU;c/CH;c/MA;c/TN;c/LB;c/MG;c/MU;c/HT,America/Toronto,eng,576i
-CartoonNetworkCEE.uk,FranceHD,France HD,,FALSE,c/FR;c/BE;c/LU;c/CH;c/MA;c/TN;c/LB;c/MG;c/MU;c/HT,America/Toronto,eng,1080i
 CartoonNetworkCEE.uk,Germany,Germany,,FALSE,c/DE;c/LU;c/AT;c/CH;c/LI,America/Toronto,deu,576i
 CartoonNetworkCEE.uk,GermanyHD,Germany HD,,FALSE,c/DE;c/LU;c/AT;c/CH;c/LI,America/Toronto,deu,1080i
 CartoonNetworkCEE.uk,Hungary,Hungary,,TRUE,c/HU,America/Toronto,hun,576i
@@ -7065,6 +7065,7 @@ CascaraTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 CashTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 CasmaTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,576i
 CaspianNews.kz,SD,SD,,TRUE,c/KZ,Asia/Atyrau,kaz,576i
+CaspioNet.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz,576i
 CastricumTV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 CastroTelevision.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 CatamarcaTV.ar,SD,SD,,TRUE,ct/ARSFV,America/Argentina/Catamarca,spa,576i
@@ -8898,8 +8899,9 @@ CNNenEspanol.us,SD,SD,,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
 CNNHeadlines.us,SD,SD,,TRUE,c/US,America/New_York,eng,1080p
 CNNIndonesia.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
 CNNInternational.us,AsiaPacific,Asia Pacific,,FALSE,r/APAC,Asia/Hong_Kong,eng;kor,576i
+CNNInternational.us,Europe,Europe,,TRUE,r/EU,Europe/London,eng,576i
 CNNInternational.us,LatinAmerica,Latin America,,FALSE,r/LATAM,America/New_York,eng;spa,480i
-CNNInternational.us,MENA,MENA,,TRUE,r/MENA,America/New_York,eng,480i
+CNNInternational.us,MENA,MENA,,FALSE,r/MENA,America/New_York,eng,480i
 CNNInternational.us,MENAHD,MENA HD,,FALSE,r/MENA,America/New_York,eng,1080i
 CNNInternational.us,NorthAmerica,North America,,FALSE,r/NORAM,America/New_York,eng,480i
 CNNInternational.us,SouthAsia,South Asia,,FALSE,r/SAS,Asia/Kolkata,eng,480i
@@ -13985,6 +13987,7 @@ ForeverKids.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 Forlaekkertillove.se,DK,DK,,TRUE,c/DK,Europe/Copenhagen,eng;dan,720p
 FORMediaTV.gr,SD,SD,,TRUE,ct/GRLRA,Europe/Athens,ell,576i
 Formula.ge,SD,SD,,TRUE,c/GE,Asia/Tbilisi,kat,576i
+Formula1AntenaPlay.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,eng,576i
 Foro.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 ForoTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,576i
 Forsidefruer.se,DK,DK,,TRUE,c/DK,Europe/Copenhagen,eng;dan,720p
@@ -17867,7 +17870,6 @@ IntermediaTV.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 InterPlus.ua,HD,HD,,FALSE,r/EU,Europe/Kyiv,rus;ukr,576i
 InterPlus.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 InterradioTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
-InterrobangLLC.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 InterTV.it,HD,HD,,FALSE,c/IT,Europe/Rome,ita,1080i
 InterTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 InterTV.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
@@ -20683,7 +20685,7 @@ LaMelinkanaTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 LaMetroTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 LaMexicanaTV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 LAMIATV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
-LAMIL35TV.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,480p
+LAMIL35TV.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,720p
 LaMinorTV.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 LaMoradaRadioTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 LamoreRockShowWebTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,720p
@@ -40873,6 +40875,7 @@ TVLandSitcoms.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 TVLao.la,SD,SD,,TRUE,c/LA,Asia/Vientiane,lao,576i
 TVLatina.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
 TVLatinaSat.br,HD,HD,,TRUE,c/BR,America/Sao_Paulo,por,720p
+TVLatinasatBrasil.br,HD,HD,,TRUE,c/BR;c/US;r/EUR;c/AR,America/Fortaleza,por,720p
 TVLav.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 TVLaVerdad.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,spa,480i
 TVLavPlus.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,eng,576i

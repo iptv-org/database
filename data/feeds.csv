@@ -6606,6 +6606,7 @@ CANALPlus360.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 CanalPlus4KUltraHD.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 CanalPlusAction.et,SD,SD,,TRUE,c/ET,Africa/Addis_Ababa,amh,576i
 CanalPlusAction.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
+CanalPlusAction2.nl,SD,SD,,TRUE,c/NL,Europe/Budapest,nld,576i
 CanalPlusActionCentre.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 CanalPlusActionEurope.nl,Austria,Austria,,FALSE,c/AT,Europe/Amsterdam,ger,576i
 CanalPlusActionEurope.nl,Czechia,Czechia,,FALSE,c/CZ;c/SK,Europe/Amsterdam,cze,576i
@@ -8418,6 +8419,7 @@ CinemaxHits.us,East,East,,TRUE,c/US,America/New_York,eng;spa,576i
 CinemaxHits.us,EastHD,East HD,,FALSE,c/US,America/New_York,eng;spa,1080i
 CinemaxHits.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa,576i
 CinemaxHits.us,WestHD,West HD,,FALSE,c/US,America/Los_Angeles,eng;spa,1080i
+CinemaxLatinAmerica.us,ColombiaPeru,ColombiaPeru,,FALSE,c/CO;c/PE,America/Bogota;America/Lima,spa,480i
 CinemaxLatinAmerica.us,HD,HD,,FALSE,r/LATAM,America/New_York,spa,1080i
 CinemaxLatinAmerica.us,SD,SD,,TRUE,r/LATAM,America/New_York,spa,480i
 CinemaxLatino.us,HD,HD,,FALSE,c/US,America/New_York,spa,1080p
@@ -8901,6 +8903,7 @@ CNNBrasilMoney.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,576i
 CNNBusinessArabic.ae,HD,HD,,TRUE,c/AE,Asia/Dubai,ara,1080i
 CNNCheckoutChannel.us,SD,SD,,TRUE,ct/USATL,America/New_York,eng,480i
 CNNChile.cl,SD,SD,,TRUE,c/CL;c/US,America/Santiago,spa,480i
+CNNenEspanol.us,ColombiaPeru,ColombiaPeru,,FALSE,c/CO;c/PE,America/Bogota;America/Lima,spa,480i
 CNNenEspanol.us,SD,SD,,TRUE,c/US;r/HISPAM,America/New_York,spa,480i
 CNNHeadlines.us,SD,SD,,TRUE,c/US,America/New_York,eng,1080p
 CNNIndonesia.id,SD,SD,,TRUE,c/ID,Asia/Jakarta,ind,576i
@@ -11436,11 +11439,13 @@ DiscoveryScienceEurope.uk,UK,UK,,FALSE,c/UK,Europe/Amsterdam,eng,576i
 DiscoveryScienceEurope.uk,UKHD,UK HD,,FALSE,c/UK,Europe/Amsterdam,eng,1080i
 DiscoveryScienceEurope.uk,UKPlus1,UK +1,,FALSE,c/UK,Europe/Amsterdam,eng,576i
 DiscoveryScienceLatinAmerica.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
+DiscoveryScienceLatinAmerica.us,ColombiaPeru,ColombiaPeru,,FALSE,c/CO;c/PE,America/Bogota;America/Lima,spa,480i
 DiscoveryScienceLatinAmerica.us,SD,SD,,TRUE,r/HISPAM,America/New_York,spa,480i
 DiscoveryScienceMiddleEast.uk,SD,SD,,TRUE,r/MIDEAST,Europe/London,ara,576i
 DiscoveryScienceSoutheastAsia.sg,SD,SD,,TRUE,r/SEA,Asia/Singapore,eng,576i
 DiscoveryScienceSoutheastAsia.sg,Taiwan,Taiwan,,FALSE,c/TW,Asia/Singapore,zho;eng,480i
 DiscoveryTheater.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
+DiscoveryTheaterLatinAmerica.us,ColombiaPeru,ColombiaPeru,,FALSE,c/CO;c/PE,America/Bogota;America/Lima,spa,480i
 DiscoveryTheaterLatinAmerica.us,SD,SD,,TRUE,r/HISPAM,America/New_York,spa,480i
 DiscoveryTourismGuyana.us,SD,SD,,TRUE,c/US;c/GY,America/Los_Angeles,eng,480i
 DiscoveryTurbo.au,Australia,Australia,,TRUE,c/AU,Australia/Sydney,eng,576i
@@ -11453,6 +11458,7 @@ DiscoveryTurbo.uk,Plus1,+1,,FALSE,c/UK,Europe/London,eng,576i
 DiscoveryTurbo.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 DiscoveryTurbo.us,SD,SD,,TRUE,c/US,America/New_York,eng,576i
 DiscoveryTurboLatinAmerica.us,Brazil,Brazil,Brasil,FALSE,c/BR,America/Sao_Paulo,por,480i
+DiscoveryTurboLatinAmerica.us,ColombiaPeru,ColombiaPeru,,FALSE,c/CO;c/PE,America/Bogota;America/Lima,spa,480i
 DiscoveryTurboLatinAmerica.us,Panregional,Panregional,,TRUE,r/HISPAM,America/New_York,spa,480i
 DiscoveryUltra.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 DiscoveryVelocity.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
@@ -13978,6 +13984,7 @@ FoodNetwork.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 FoodNetworkAsia.sg,SD,SD,,TRUE,r/SEA,Asia/Singapore,eng,576i
 FoodNetworkEMEA.us,SD,SD,,TRUE,r/EMEA,America/New_York,eng;ces;bul;por;hun;rus,480i
 FoodNetworkLatinAmerica.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
+FoodNetworkLatinAmerica.us,ColombiaPeru,ColombiaPeru,,FALSE,c/CO;c/PE,America/Bogota;America/Lima,spa,480i
 FoodNetworkLatinAmerica.us,Mexico,Mexico,,FALSE,c/MX,America/Mexico_City,spa,480i
 FoodNetworkLatinAmerica.us,Panregional,Panregional,,TRUE,r/HISPAM,America/New_York,spa,480i
 FoodTime.ru,HD,HD,,TRUE,c/RU,Europe/Moscow,rus,1080i
@@ -16299,6 +16306,7 @@ HBOFamily.us,East,East,,TRUE,c/US,America/New_York,eng;spa,480i
 HBOFamily.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa,480i
 HBOFamilyAsia.sg,HD,HD,,FALSE,r/SEA,Asia/Singapore,eng,1080i
 HBOFamilyAsia.sg,SD,SD,,TRUE,r/SEA,Asia/Singapore,eng,576i
+HBOFamilyLatinAmerica.us,ColombiaPeru,ColombiaPeru,,FALSE,c/CO;c/PE,America/Bogota;America/Lima,spa,480i
 HBOFamilyLatinAmerica.us,SD,SD,,TRUE,r/LATAM,America/New_York,spa,480i
 HBOHawaii.us,SD,SD,,TRUE,c/US,America/New_York,eng;spa,480i
 HBOHits.us,East,East,,TRUE,c/US,America/New_York,eng;spa,576i
@@ -16326,6 +16334,7 @@ HBOSignature.us,East,East,,TRUE,c/US,America/New_York,eng;spa,480i
 HBOSignature.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa,480i
 HBOSignatureAsia.sg,HD,HD,,FALSE,r/SEA,Asia/Singapore,eng,1080i
 HBOSignatureAsia.sg,SD,SD,,TRUE,r/SEA,Asia/Singapore,eng,576i
+HBOSignatureLatinAmerica.us,ColombiaPeru,ColombiaPeru,,FALSE,c/CO;c/PE,America/Bogota;America/Lima,spa,480i
 HBOSignatureLatinAmerica.us,SD,SD,,TRUE,r/LATAM,America/New_York,eng,480i
 HBOXtreme.br,SD,SD,,TRUE,c/BR,America/Bogota,por,480i
 HBOXtremeLatinAmerica.us,ColombiaPeru,ColombiaPeru,,FALSE,c/CO;c/PE,America/Bogota;America/Lima,spa,480i
@@ -17948,6 +17957,7 @@ InvestigationDiscovery.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 InvestigationDiscovery.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 InvestigationDiscoveryAfrica.us,SD,SD,,TRUE,r/AFR,America/New_York,eng,480i
 InvestigationDiscoveryEurope.us,SD,SD,,TRUE,r/EUR,America/New_York,eng;tur;bul;hun;ces;rus;ara;por,480i
+InvestigationDiscoveryLatinAmerica.us,ColombiaPeru,ColombiaPeru,,FALSE,c/CO;c/PE,America/Bogota;America/Lima,spa,480i
 InvestigationDiscoveryLatinAmerica.us,Mexico,Mexico,,FALSE,c/MX,America/Mexico_City,spa,480i
 InvestigationDiscoveryLatinAmerica.us,Panregional,Panregional,,TRUE,r/LATAM;r/CARIB,America/New_York,spa,480i
 InvestigationDiscoveryLatinAmerica.us,South,South,,FALSE,c/AR;c/PY;c/UY,America/New_York,spa,480i
@@ -32459,7 +32469,7 @@ RTPAfrica.pt,SD,SD,,TRUE,r/AFR,Europe/Lisbon,por,576i
 RTPMadeira.pt,HD,HD,,TRUE,c/PT,Europe/Lisbon,por,1080i
 RTPMadeira.pt,SD,SD,,FALSE,c/PT,Europe/Lisbon,por,576i
 RTPmAmerica.pt,SD,SD,,TRUE,r/AMER,Europe/Lisbon,por,576i
-RTPmAsia.pt,AtlanticSD,Atlantic SD,Atlântico SD,TRUE,s/PT-11,Europe/Lisbon,por,576p
+RTPmAsia.pt,SD,SD,,TRUE,r/ASIA,Europe/Lisbon,por,576p
 RTPMemoria.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 RTPMundo.pt,SD,SD,,TRUE,r/AMER;r/ASIA;r/EUR;r/OCE,Europe/Lisbon,por,576i
 RTPNoticias.pt,HD,HD,,TRUE,c/PT,Europe/Lisbon,por,1080i
@@ -43136,6 +43146,7 @@ VivaVintage.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,heb,576i
 VivaxTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 Vive.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 ViveElquiTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
+VIVETV.ar,HD,HD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,1080p
 ViveTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 VividRedHD.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 VividTouch.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i

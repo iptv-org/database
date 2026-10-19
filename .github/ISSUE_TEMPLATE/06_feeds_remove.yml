@@ -28,7 +28,7 @@ body:
       description: Select the reason for removal from the list below
       options:
         - 'Duplicate'
-        - 'Feed has been closed'
+        - 'Has been closed'
         - 'Other'
     validations:
       required: true

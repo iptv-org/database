@@ -15,6 +15,8 @@ import BaseJoi from 'joi'
 
 const Joi = BaseJoi.extend(JoiDate)
 
+let schema: ReturnType<typeof Joi.object> | undefined
+
 export class Feed extends sdk.Models.Feed implements Validator {
   line: number = -1
 
@@ -112,7 +114,7 @@ export class Feed extends sdk.Models.Feed implements Validator {
   }
 
   getSchema() {
-    return Joi.object({
+    return (schema ??= Joi.object({
       channel: Joi.string()
         .regex(/^[A-Za-z0-9]+\.[a-z]{2}$/)
         .required(),
@@ -148,7 +150,7 @@ export class Feed extends sdk.Models.Feed implements Validator {
       format: Joi.string()
         .regex(/^\d+(i|p)$/)
         .allow(null)
-    })
+    }))
   }
 
   toCSVRecord(): Record<string, string | string[] | boolean> {

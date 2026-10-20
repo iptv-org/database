@@ -1442,8 +1442,6 @@ AdultSwimSamuraiJack.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 AdultSwimTheEricAndreShow.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 AdultSwimTheVentureBros.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 AdultSwimYourPrettyFaceIsGoingToHell.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
-AdultSwin2.us,East,East,,TRUE,c/US,America/New_York,eng,576i
-AdultSwin2LatinAmerica.us,SD,SD,,TRUE,r/LATAM,America/New_York,spa,576i
 AdvanceTV.ml,SD,SD,,TRUE,c/ML,Africa/Bamako,fra,576i
 AdvenimientoTV.us,KFWD,KFWD,,FALSE,ct/USFWT,America/New_York,spa,480i
 AdvenimientoTV.us,KGBSCD,KGBS-CD,,FALSE,ct/USAUS,America/Chicago,spa,480i
@@ -2233,6 +2231,7 @@ AmericanGladiators.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 AmericanHeroesChannel.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 AmericanHorrors.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 AmericanHorrorsClassic.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+AmericanNinjaWarrior.us,SD,SD,,TRUE,c/US,America/New_York,eng,1080p
 AmericanTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,576i
 AmericaParaguay.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
 AmericaSatellite.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
@@ -6934,8 +6933,6 @@ Carac5.ch,HD,HD,,FALSE,c/CH,Europe/Zurich,fra,1080p
 Carac5.ch,SD,SD,,TRUE,c/CH,Europe/Zurich,fra,576i
 CaracolaTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 CaracolHD2.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
-CaracolHD3.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
-CaracolHD4.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 CaracolInternacional.co,SD,SD,,TRUE,r/HISPAM,America/Bogota,spa,480i
 CaracolMix.co,SD,SD,,TRUE,r/HISPAM,America/Bogota,spa,576i
 CaracolTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
@@ -7035,6 +7032,7 @@ CartoonNetwork.it,Plus1,+1,,FALSE,c/IT;c/SM;c/VA,America/Toronto,ita,576i
 CartoonNetwork.it,SD,SD,,TRUE,c/IT;c/SM;c/VA,America/Toronto,ita,576i
 CartoonNetwork.jp,HD,HD,,FALSE,c/JP,Asia/Tokyo,jpn;eng,1080i
 CartoonNetwork.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn;eng,480i
+CartoonNetwork.kr,HD,HD,,FALSE,c/KR,Asia/Seoul,kor;eng,1080i
 CartoonNetwork.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor;eng,480i
 CartoonNetwork.ph,SD,SD,,TRUE,c/PH,Asia/Singapore,eng,480i
 CartoonNetwork.pk,SD,SD,,TRUE,c/PK;c/BD,Asia/Kolkata,eng;urd,576i
@@ -7066,7 +7064,7 @@ CartoonNetworkCEE.uk,Romania,Romania,,FALSE,c/RO,America/Toronto,ron,576i
 CartoonNetworkCEE.uk,Russia,Russia,,FALSE,c/RU,America/Toronto,rus,576i
 CartoonNetworkCEE.uk,Switzerland,Switzerland,,FALSE,c/CH,America/Toronto,fra,576i
 CartoonNetworkCEE.uk,Ukraine,Ukraine,,FALSE,c/UA,America/Toronto,ukr,576i
-CartoonNetworkHDPlus.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin;tam;tel;kan;mal;mar,576i
+CartoonNetworkHDPlus.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,eng;hin;tam;tel;kan;mal;mar,1080i
 CartoonNetworkLatinAmerica.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
 CartoonNetworkLatinAmerica.us,Mexico,Mexico,,FALSE,c/MX,America/Mexico_City,spa,480i
 CartoonNetworkLatinAmerica.us,NorthAtlantic,North Atlantic,,FALSE,c/CO;c/VE;r/CENAMER;r/CARIB,America/Bogota,spa,480i
@@ -8927,7 +8925,6 @@ CNN.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,eng,480i
 CNN2.us,SD,SD,,TRUE,r/AMER,America/New_York,eng;spa,576i
 CNNAirport.us,SD,SD,,TRUE,r/NORAM,America/New_York,eng;spa;por,480i
 CNNArabic.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,ara,576i
-CNNArgentina.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 CNNBanglaTV.bd,SD,SD,,TRUE,c/BD,Asia/Dhaka,ben,576i
 CNNBrasil.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 CNNBrasilMoney.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,576i
@@ -11543,7 +11540,6 @@ DisneyChannel.us,East,East,,TRUE,c/US,America/New_York,eng;spa,480i
 DisneyChannel.us,HDEast,HD East,,FALSE,c/US,America/New_York,eng;spa,720p
 DisneyChannel.us,HDWest,HD West,,FALSE,c/US,America/Los_Angeles,eng;spa,720p
 DisneyChannel.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa,480i
-DisneyChannel2.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,480i
 DisneyChannelBaltics.uk,SD,SD,,TRUE,c/LT;c/LV;c/EE,Europe/London,eng,576i
 DisneyChannelEMEA.uk,HD,HD,,FALSE,r/ARAB;r/SSA;c/GR;c/CY;c/AL,Europe/London,eng;ell;ara,1080i
 DisneyChannelEMEA.uk,SD,SD,,TRUE,r/ARAB;r/SSA;c/GR;c/CY;c/AL,Europe/London,eng;ell;ara,576i
@@ -11558,7 +11554,6 @@ DisneyChannelScandinavia.uk,SD,SD,,TRUE,c/SE;c/NO;c/DK;c/FI;c/IS;c/EE;c/LT;c/LV;
 DisneyChannelSoutheastAsia.sg,Singapore,Singapore,,FALSE,c/SG,Asia/Singapore,zho;eng,480i
 DisneyChannelSoutheastAsia.sg,Taiwan,Taiwan,,TRUE,c/TW,Asia/Taipei,zho;eng,480i
 DisneyCinema.fr,SD,SD,,TRUE,c/FR,America/Toronto,fra;eng,576i
-DisneyFoods.us,SD,SD,,TRUE,r/AMER,America/New_York,eng;por;spa,576i
 DisneyInternationalHD.in,Digital,Digital,,FALSE,c/IN,Asia/Kolkata,eng,1080i
 DisneyInternationalHD.in,SD,SD,,TRUE,c/IN;c/BD;c/MV,Asia/Kolkata,eng,576i
 DisneyJr.fr,HD,HD,,FALSE,c/FR,Europe/Paris,fra,1080i
@@ -11600,7 +11595,6 @@ DisneyXD.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 DisneyXD.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 DisneyXD.us,East,East,,TRUE,c/US,America/New_York,eng;spa,480i
 DisneyXD.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa,480i
-DisneyXD2.us,East,East,,TRUE,c/US,America/New_York,eng;spa,480i
 DisneyXDLatinAmerica.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
 DisneyXDLatinAmerica.us,BrazilHD,Brazil HD,,FALSE,c/BR,America/Sao_Paulo,por,1080i
 DisneyXDLatinAmerica.us,Mexico,Mexico,,FALSE,c/MX,America/Mexico_City,spa,480i
@@ -12820,7 +12814,6 @@ ESPN5LatinAmerica.us,Chile,Chile,,FALSE,c/CL,Europe/London,spa,480i
 ESPN5LatinAmerica.us,South,South,,TRUE,c/BO;c/CO;c/EC;c/PY;c/PE;c/UY;c/VE,Europe/London,spa,480i
 ESPN6LatinAmerica.us,SD,SD,,TRUE,c/BO;c/CO;c/EC;c/PY;c/PE;c/UY;c/VE;r/CENAMER;c/DO,Europe/London,spa,480i
 ESPN7LatinAmerica.us,SD,SD,,TRUE,c/BO;c/CO;c/EC;c/PY;c/PE;c/UY;c/VE,Europe/London,spa,480i
-ESPN8LatinAmerica.us,SD,SD,,TRUE,c/AR;c/CL;c/CO;c/EC;c/PE;c/PY;c/UY,Europe/London,spa,480i
 ESPN8TheOcho.us,ESPN8TheOchoHD,ESPN8: The Ocho HD,,TRUE,r/NAM,America/New_York,eng,1080p
 ESPNAfrica.za,SD,SD,,TRUE,r/AFR,Africa/Johannesburg,eng;fra,576i
 ESPNBasesLoaded.us,SD,SD,,TRUE,c/US,Europe/London,eng,480i
@@ -16348,7 +16341,6 @@ HBO3.ro,HD,HD,,FALSE,c/RO,Europe/Bucharest,ron,1080i
 HBO3.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 HBO3CentralEurope.hu,HD,HD,,FALSE,r/CEE,Europe/Budapest,hun,1080i
 HBO3CentralEurope.hu,SD,SD,,TRUE,r/CEE,Europe/Budapest,hun,576i
-HBO3LatinAmerica.us,SD,SD,,TRUE,r/LATAM,America/New_York,spa,576i
 HBOAsia.sg,HD,HD,,FALSE,r/SEA,Asia/Singapore,eng,1080i
 HBOAsia.sg,SD,SD,,FALSE,r/SEA,Asia/Singapore,eng,576i
 HBOAsia.sg,Taiwan,Taiwan,,FALSE,c/TW,Asia/Taipei,eng;cmn,1080i
@@ -24119,8 +24111,6 @@ MTVVolgograd.ru,SD,SD,,TRUE,s/RU-VGG,Europe/Volgograd,rus,576i
 MuadzTV.id,SD,SD,,TRUE,c/ID,Asia/Makassar,ind,576i
 Much.ar,SD,SD,,TRUE,r/HISPAM,America/Argentina/Buenos_Aires,spa,576i
 Much.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
-MuchMusic.ar,SD,SD,,TRUE,r/HISPAM,America/Argentina/Buenos_Aires,spa,576i
-MuchRetro.ar,SD,SD,,TRUE,r/LATAM,America/Argentina/Buenos_Aires,spa,576i
 MuganTV.az,SD,SD,,TRUE,c/AZ,Asia/Baku,aze,576i
 MuhasaTV.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,hau,576i
 MuhlviertelTV.at,SD,SD,,TRUE,c/AT,Europe/Vienna,deu,576i
@@ -27155,6 +27145,7 @@ ONTVNigeria.ng,SD,SD,,TRUE,c/NG,Africa/Lagos,eng,576i
 ONTVPublicAccess.us,SD,SD,,TRUE,ct/USLRP,America/New_York,eng,480i
 OnuaTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 ONVieDrama.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
+ONVieGiaiTri.vn,HD,HD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,1080i
 OnzaTV.ve,SD,SD,,TRUE,c/VE,America/Santiago,spa,480i
 OOGTV.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 OorahTV.us,KDEOLD,KDEO-LD,,FALSE,ct/USDEN,America/Denver,eng,480i
@@ -29418,7 +29409,6 @@ PlutoTVKidsAnimation.us,France,France,,FALSE,c/FR,Europe/Paris,fra,576i
 PlutoTVKidsAnimation.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVKidsClassics.de,ES,ES,,TRUE,c/ES,Europe/Madrid,spa,720p
 PlutoTVKidsClassics.de,FR,FR,,FALSE,c/FR,Europe/Paris,fra,720p
-PlutoTVKidsClub.de,FR,FR,,TRUE,c/FR,Europe/Paris,fra,720p
 PlutoTVKidsClub.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVKidsCollection.us,France,France,,FALSE,c/FR,Europe/Paris,fra,576i
 PlutoTVKidsCollection.us,US,US,,TRUE,c/CH;c/FR,America/New_York,fra,480i
@@ -29506,12 +29496,6 @@ PlutoTVOvernaturlig.se,NO,NO,,TRUE,c/NO,Europe/Oslo,nor,720p
 PlutoTVPaisagensporStingray.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVPalkitut.se,FI,FI,,TRUE,c/FI,Europe/Helsinki,eng;fin,720p
 PlutoTVParanormaali.se,FI,FI,,TRUE,c/FI,Europe/Helsinki,eng;fin,720p
-PlutoTVParanormal.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
-PlutoTVParanormal.de,ES,ES,,FALSE,c/ES,Europe/Madrid,spa,720p
-PlutoTVParanormal.de,FR,FR,,FALSE,c/FR,Europe/Paris,fra,720p
-PlutoTVParanormal.de,GB,GB,,FALSE,c/UK;c/IE,Europe/London,eng,720p
-PlutoTVParanormal.de,GBPlus,GB+,Samsung,FALSE,c/UK;c/IE,Europe/London,eng,720p
-PlutoTVParanormal.de,IT,IT,,FALSE,c/IT,Europe/Rome,ita,720p
 PlutoTVParanormal.se,DK,DK,,FALSE,c/DK,Europe/Copenhagen,eng;dan,720p
 PlutoTVParanormal.se,SE,SE,,TRUE,c/SE,Europe/Stockholm,eng;swe,720p
 PlutoTVParanormal.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
@@ -29528,10 +29512,6 @@ PlutoTVProWrestling.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVPsycho.de,ES,ES,,TRUE,c/ES,Europe/Madrid,spa,720p
 PlutoTVReaction.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVRealitiesESP.us,SD,SD,,TRUE,c/US,America/New_York,spa,480i
-PlutoTVReality.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
-PlutoTVReality.de,ES,ES,,FALSE,c/ES,Europe/Madrid,spa,720p
-PlutoTVReality.de,FR,FR,,FALSE,c/FR,Europe/Paris,fra,720p
-PlutoTVReality.de,GB,GB,,FALSE,c/UK;c/IE,Europe/London,eng,720p
 PlutoTVReality.us,CA,CA,,FALSE,c/CA,America/Toronto,eng,720p
 PlutoTVReality.us,LatAm,LatAm,,FALSE,r/LATAM,America/Los_Angeles,spa,720p
 PlutoTVReality.us,US,US,,TRUE,c/US,America/New_York,eng,480i
@@ -29549,8 +29529,6 @@ PlutoTVRetroKid.us,CA,CA,,TRUE,c/CA,America/Toronto,eng,720p
 PlutoTVRetroToons.de,FR,FR,,TRUE,c/FR,Europe/Paris,fra,720p
 PlutoTVRetroToons.de,GB,GB,,FALSE,c/UK;c/IE,Europe/London,eng,720p
 PlutoTVRich.us,France,France,,TRUE,c/FR,Europe/Paris,fra,576i
-PlutoTVRomance.de,DACH,DACH,,FALSE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
-PlutoTVRomance.de,GBPlus,GB+,Samsung,TRUE,c/UK;c/IE,Europe/London,eng,720p
 PlutoTVRomance.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVRomantiikka.se,FI,FI,,TRUE,c/FI,Europe/Helsinki,eng;fin,720p
 PlutoTVRomantik.se,DK,DK,,FALSE,c/DK,Europe/Copenhagen,eng;dan,720p
@@ -29561,14 +29539,7 @@ PlutoTVSabrina.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVSanctuary.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVSanfteBeruhrungen.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 PlutoTVScherzierisate.de,IT,IT,,TRUE,c/IT,Europe/Rome,ita,720p
-PlutoTVScience.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
-PlutoTVScience.de,GB,GB,,FALSE,c/UK;c/IE,Europe/London,eng,720p
 PlutoTVScience.us,US,US,,TRUE,c/US,America/New_York,eng,480i
-PlutoTVSciFi.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
-PlutoTVSciFi.de,ES,ES,,FALSE,c/ES,Europe/Madrid,spa,720p
-PlutoTVSciFi.de,GB,GB,,FALSE,c/UK;c/IE,Europe/London,eng,720p
-PlutoTVSciFi.de,GBPlus,GB+,Xiaomi TV,FALSE,c/UK;c/IE,Europe/London,eng,720p
-PlutoTVSciFi.de,IT,IT,,FALSE,c/IT,Europe/Rome,ita,720p
 PlutoTVSciFi.se,DK,DK,,FALSE,c/DK,Europe/Copenhagen,eng;dan,720p
 PlutoTVSciFi.se,FI,FI,,FALSE,c/FI,Europe/Helsinki,eng;fin,720p
 PlutoTVSciFi.se,NO,NO,,FALSE,c/NO,Europe/Oslo,eng;nor,720p
@@ -29583,7 +29554,6 @@ PlutoTVSerie.de,IT,IT,,FALSE,c/IT,Europe/Rome,ita,720p
 PlutoTVSerie.de,ITPlus,IT+,Samsung,FALSE,c/IT,Europe/Rome,ita,720p
 PlutoTVSerieCrime.de,IT,IT,,TRUE,c/IT,Europe/Rome,ita,720p
 PlutoTVSeriePlus.us,Germany,Germany,,TRUE,c/DE,Europe/Berlin,deu,576i
-PlutoTVSeries.de,ES,ES,,TRUE,c/ES,Europe/Madrid,spa,720p
 PlutoTVSeries.us,LatAm,LatAm,,TRUE,r/LATAM,America/Los_Angeles,spa,720p
 PlutoTVSeriesAcao.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVSerieSciFi.de,IT,IT,,TRUE,c/IT,Europe/Rome,ita,720p
@@ -29601,7 +29571,6 @@ PlutoTVSeriesFantastiques.de,FR,FR,,TRUE,c/FR,Europe/Paris,fra,720p
 PlutoTVSeriesLatinas.us,LatAm,LatAm,,TRUE,r/LATAM,America/Los_Angeles,spa,720p
 PlutoTVSeriesNovelescas.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVSeriesRetro.us,LatAm,LatAm,,TRUE,r/LATAM,America/Los_Angeles,spa,720p
-PlutoTVSeriesSciFi.de,ES,ES,,TRUE,c/ES,Europe/Madrid,spa,720p
 PlutoTVSeriesSciFi.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVSharks.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 PlutoTVSherlock.de,GB,GB,,TRUE,c/UK;c/IE,Europe/London,eng,720p
@@ -29610,11 +29579,6 @@ PlutoTVShowsporStingray.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVSitcoms.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 PlutoTVSitcoms.de,DACHPlus,DACH+,Samsung,FALSE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
 PlutoTVSitcoms.de,GB,GB,,FALSE,c/UK;c/IE,Europe/London,eng,720p
-PlutoTVSnooker900.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
-PlutoTVSnooker900.de,ES,ES,,FALSE,c/ES,Europe/Madrid,spa,720p
-PlutoTVSnooker900.de,FR,FR,,FALSE,c/FR,Europe/Paris,fra,720p
-PlutoTVSnooker900.de,GB,GB,,FALSE,c/UK;c/IE,Europe/London,eng,720p
-PlutoTVSnooker900.de,IT,IT,,FALSE,c/IT,Europe/Rome,ita,720p
 PlutoTVSnooker900.se,DK,DK,,FALSE,c/DK,Europe/Copenhagen,eng;dan,720p
 PlutoTVSnooker900.se,FI,FI,,FALSE,c/FI,Europe/Helsinki,eng;fin,720p
 PlutoTVSnooker900.se,NO,NO,,FALSE,c/NO,Europe/Oslo,eng;nor,720p
@@ -29665,8 +29629,6 @@ PlutoTVTerror.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVTerrorTrash.us,BR,BR,,TRUE,c/BR,America/Sao_Paulo,por,720p
 PlutoTVTheStoryofBeatclub.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVTheTwilightZone.us,SD,SD,,TRUE,c/US,America/New_York,eng,720p
-PlutoTVThrillers.de,ES,ES,,TRUE,c/ES,Europe/Madrid,spa,720p
-PlutoTVThrillers.de,GB,GB,,FALSE,c/UK;c/IE,Europe/London,eng,720p
 PlutoTVThrillers.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVToiminta.se,FI,FI,,TRUE,c/FI,Europe/Helsinki,eng;fin,720p
 PlutoTVToimintasankarit.se,FI,FI,,TRUE,c/FI,Europe/Helsinki,eng;fin,720p
@@ -29678,9 +29640,6 @@ PlutoTVToughJobs.de,GB,GB,,TRUE,c/UK;c/IE,Europe/London,eng,720p
 PlutoTVTravel.us,UK,UK,,FALSE,c/UK,Europe/London,eng,576i
 PlutoTVTravel.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 PlutoTVTrendingNow.us,SD,SD,,TRUE,c/US,America/New_York,eng,720p
-PlutoTVTrueCrime.de,DACH,DACH,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,720p
-PlutoTVTrueCrime.de,ES,ES,,FALSE,c/ES,Europe/Madrid,spa,720p
-PlutoTVTrueCrime.de,IT,IT,,FALSE,c/IT,Europe/Rome,ita,720p
 PlutoTVTrueCrime.se,DK,DK,,FALSE,c/DK,Europe/Copenhagen,eng;dan,720p
 PlutoTVTrueCrime.se,FI,FI,,FALSE,c/FI,Europe/Helsinki,eng;fin,720p
 PlutoTVTrueCrime.se,NO,NO,,FALSE,c/NO,Europe/Oslo,eng;nor,720p
@@ -35124,6 +35083,8 @@ SonySportsTen4.in,Telugu,Telugu,,FALSE,c/IN,Asia/Kolkata,tel,576i
 SonySportsTen5.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,eng;mal;ben,1080i
 SonySportsTen5.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;ben;mal,576i
 SonyTurbo.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
+SonyVizha.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tam,1080i
+SonyVizha.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
 SonyWah.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 SonyYay.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin;tam;tel;ben;mar;mal;kan;ori,576i
 SonyYay.in,US,US,,FALSE,c/US,America/New_York,eng,576i
@@ -39238,7 +39199,6 @@ TNT.ru,Plus7,+7,,FALSE,c/RU,Europe/Moscow,rus,576i
 TNT.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 TNT.us,East,East,,TRUE,c/US,America/New_York,eng;spa,480i
 TNT.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa;por,480i
-TNT2.us,SD,SD,,TRUE,r/AMER,America/New_York,eng;por;spa,576i
 TNT4.ru,HD,HD,,FALSE,c/RU,Europe/Moscow,rus,1080i
 TNT4.ru,Plus2,+2,,FALSE,c/RU,Europe/Moscow,rus,576i
 TNT4.ru,Plus4,+4,,FALSE,c/RU,Europe/Moscow,rus,576i
@@ -39246,21 +39206,11 @@ TNT4.ru,Plus7,+7,,FALSE,c/RU,Europe/Moscow,rus,576i
 TNT4.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 TNT4International.ru,SD,SD,,TRUE,c/BY,Europe/Moscow,rus,576i
 TNTAfrica.uk,SD,SD,,TRUE,r/AFR,Europe/London,eng,576i
-TNTBundesliga.us,East,East,,TRUE,c/US,America/New_York,eng,576i
 TNTComedy.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
-TNTComedy.us,SD,SD,,TRUE,c/US,America/New_York,eng,576i
 TNTCyprus.cy,SD,SD,,TRUE,c/CY,Asia/Nicosia,rus;ell,576i
-TNTGlitz.us,Brazil,Brazil,,FALSE,c/BR,America/New_York,por,576i
-TNTGlitz.us,Panregional,Panregional,,TRUE,c/AR;c/CL;c/PY;c/UY,America/New_York,spa,576i
-TNTGourmet.us,East,East,,TRUE,c/US,America/New_York,eng,576i
-TNTGourmetLatinAmerica.us,Panregional,Panregional,,TRUE,c/AR;c/CL,America/Argentina/Buenos_Aires,spa,576i
 TNTInternational.ru,Belarus,Belarus,,FALSE,c/RU,Europe/Minsk,rus,576i
 TNTInternational.ru,Europe,Europe,,TRUE,c/DE,Europe/Moscow,rus,480p
 TNTInternational.ru,SD,SD,,FALSE,c/BY;c/LV;c/US,Europe/Moscow,rus,576i
-TNTKids.us,East,East,,TRUE,c/US,America/New_York,eng,576i
-TNTKidsAfrica.uk,SD,SD,,TRUE,r/AFR,Europe/London,eng,576i
-TNTKidsLatinAmerica.us,Central,Central,,FALSE,r/CENAMER;r/CARIB;c/MX,America/New_York,spa,576i
-TNTKidsLatinAmerica.us,Panregional,Panregional,,TRUE,c/AR;c/CL;c/CO;c/EC;c/PE;c/PY;c/VE;c/UY,America/New_York,spa,576i
 TNTKidsTV.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,bos,576i
 TNTLatinAmerica.us,Argentina,Argentina,,FALSE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 TNTLatinAmerica.us,ArgentinaHD,ArgentinaHD,,FALSE,c/AR,America/Argentina/Buenos_Aires,spa,1080i
@@ -39272,12 +39222,10 @@ TNTLatinAmerica.us,Colombia,Colombia,,FALSE,c/CO,America/Bogota,eng;spa,480i
 TNTLatinAmerica.us,Mexico,Mexico,,FALSE,c/MX,America/Mexico_City,spa,480i
 TNTLatinAmerica.us,Pacific,Pacific,,FALSE,c/CL;c/PE;c/EC;c/BO,America/New_York,spa,480i
 TNTLatinAmerica.us,South,South,,FALSE,c/AR;c/PY;c/UY,America/New_York,spa,480i
-TNTLigaMexicana.mx,SD,SD,,TRUE,c/MX;c/GT,America/Mexico_City,spa,576i
 TNTNovelas.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,576i
 TNTNovelas.us,Colombia,Colombia,,FALSE,c/CO,America/Bogota,spa,480i
 TNTNovelas.us,ColombiaHD,ColombiaHD,,FALSE,c/CO,America/Bogota,spa,1080i
 TNTNovelas.us,Panregional,Panregional,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
-TNTSalazar.us,East,East,,TRUE,c/US,America/New_York,eng,576i
 TNTSeriesLatinAmerica.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,por,480i
 TNTSeriesLatinAmerica.us,Mexico,Mexico,,FALSE,c/MX,America/Mexico_City,eng;spa,480i
 TNTSeriesLatinAmerica.us,Panregional,Panregional,,TRUE,c/CO;c/CL;c/PA;c/PE;c/EC;c/BO;c/VE;r/CENAMER;r/CARIB,America/New_York,spa,480i
@@ -39746,7 +39694,6 @@ TrueAfrican.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 TrueAmateurs.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 TrueAmateurs.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 TRUEAnguillaTV.ai,SD,SD,,TRUE,c/AI,America/Anguilla,eng,576i
-TruEarth.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 TrueAsianMore.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha;eng,576i
 TrueBlueTV.us,SD,SD,,TRUE,ct/USMFU,America/Chicago,eng,480i
 TrueChineseMore.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha;eng,576i
@@ -39928,11 +39875,8 @@ TrueTennis.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 TrueThaiFilm.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 TrueTV.ph,SD,SD,,TRUE,c/PH,Asia/Manila,tgl,576i
 TrueXZyte.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha;eng,576i
-TruGlitz.ar,Panregional,Panregional,,TRUE,r/LATAM,America/Argentina/Buenos_Aires,spa,576i
-TruGlitz.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 Truly.us,UK,UK,,TRUE,c/UK,Europe/London,eng,576i
 TrumanTV.mc,SD,SD,,TRUE,c/MC,Europe/Monaco,ita,576i
-TruMax.mx,SD,SD,,TRUE,c/MX;r/CENAMER,America/Mexico_City,spa,576i
 TrumpetofFaithTV.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng,576i
 TruroTV.us,SD,SD,,TRUE,ct/USTXO,America/New_York,eng,480i
 TrusoTV.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
@@ -39947,8 +39891,6 @@ truTV.us,East,East,,TRUE,c/US,America/New_York,eng,480i
 truTV.us,HDEast,HD East,,FALSE,c/US,America/New_York,eng,1080i
 truTV.us,HDWest,HD West,,FALSE,c/US,America/Los_Angeles,eng,1080i
 truTV.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
-TruTV2.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
-TruTV2.us,East,East,,TRUE,c/US,America/New_York,eng,576i
 truTVLatinAmerica.us,SD,SD,,TRUE,r/HISPAM;r/CARIB,America/New_York,spa,480i
 TRV.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
 TRVMuji.ru,SD,SD,,TRUE,s/RU-YAN,Europe/Moscow,rus,576i

@@ -28,6 +28,7 @@ body:
       description: Select the reason for removal from the list below
       options:
         - 'Duplicate'
+        - 'Has been closed'
         - 'Other'
     validations:
       required: true

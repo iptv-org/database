@@ -6,6 +6,8 @@ import * as sdk from '@iptv-org/sdk'
 import { data } from '../core/db'
 import Joi from 'joi'
 
+let schema: ReturnType<typeof Joi.object> | undefined
+
 export class Logo extends sdk.Models.Logo implements Validator {
   line: number = -1
 
@@ -62,7 +64,7 @@ export class Logo extends sdk.Models.Logo implements Validator {
   }
 
   getSchema() {
-    return Joi.object({
+    return (schema ??= Joi.object({
       channel: Joi.string()
         .regex(/^[A-Za-z0-9]+\.[a-z]{2}$/)
         .required(),
@@ -80,7 +82,7 @@ export class Logo extends sdk.Models.Logo implements Validator {
           scheme: ['https']
         })
         .required()
-    })
+    }))
   }
 
   toCSVRecord(): Record<string, string | string[] | boolean> {

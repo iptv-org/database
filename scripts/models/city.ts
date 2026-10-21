@@ -8,6 +8,8 @@ import { Country } from './country'
 import { data } from '../core/db'
 import Joi from 'joi'
 
+let schema: ReturnType<typeof Joi.object> | undefined
+
 export class City extends sdk.Models.City implements Validator {
   line: number = -1
 
@@ -61,7 +63,7 @@ export class City extends sdk.Models.City implements Validator {
   }
 
   getSchema() {
-    return Joi.object({
+    return (schema ??= Joi.object({
       country: Joi.string()
         .regex(/^[A-Z]{2}$/)
         .required(),
@@ -77,7 +79,7 @@ export class City extends sdk.Models.City implements Validator {
       wikidata_id: Joi.string()
         .regex(/^Q\d+$/)
         .required()
-    })
+    }))
   }
 
   toCSVRecord(): Record<string, string | string[] | boolean> {

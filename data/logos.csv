@@ -182,6 +182,7 @@ channel,feed,in_use,tags,width,height,format,url
 360.ru,,TRUE,,512,218,PNG,https://i.imgur.com/VTJqdoX.png
 360.tr,,TRUE,,491,417,PNG,https://i.imgur.com/agn47sQ.png
 360AfricaTV.ss,,TRUE,,512,512,JPEG,https://i.imgur.com/YWl9o5g.jpeg
+360Bundesliga.vn,,TRUE,,1089,479,PNG,https://i.ibb.co/Z1YC0ZRv/IMG-2880.png
 360News.ru,,TRUE,,490,282,PNG,https://i.imgur.com/YXDeX8q.png
 360RFTV.cr,,TRUE,,512,341,PNG,https://i.imgur.com/EBtgnxR.png
 360TuneBox.nl,,TRUE,,512,512,PNG,https://i.imgur.com/1Fyezng.png
@@ -1696,7 +1697,8 @@ AmericanHorrors.us,,TRUE,,290,218,PNG,https://image.roku.com/developer_channels/
 AmericanHorrorsClassic.us,,TRUE,,290,218,PNG,https://i.imgur.com/zsJ7Ehr.png
 AmericanNinjaWarrior.us,,TRUE,,750,779,PNG,https://raw.githubusercontent.com/RoqueDJ/iptv-svg/main/1792421696158.png
 AmericanTV.ec,,TRUE,,300,249,PNG,https://i.imgur.com/JmXBvzn.png
-AmericaParaguay.py,,TRUE,,483,512,PNG,https://i.imgur.com/rCEu3fM.png
+AmericaParaguay.py,,TRUE,,461,512,PNG,https://i.imgur.com/0COKxet.png
+AmericaParaguay.py,,FALSE,,483,512,PNG,https://i.imgur.com/rCEu3fM.png
 AmericaSatellite.ar,,TRUE,,500,525,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png/500px-Am%C3%A9rica_TV_%28Nuevo_logo_Junio_2020%29.png
 AmericasAuctionChannel.us,,TRUE,,378,197,PNG,https://i.imgur.com/YKhnHE6.png
 AmericasNextTopModel.us,,TRUE,,576,288,PNG,https://images.pluto.tv/channels/68679fc6bb46d0bdd38ac9a4/colorLogoPNG_1756466390265.png
@@ -1705,6 +1707,7 @@ AmericaSports.ar,,TRUE,,320,320,PNG,https://i.imgur.com/GOQ9zOI.png
 AmericasTestKitchen.us,,TRUE,,342,93,PNG,https://i.imgur.com/prMkTsZ.png
 AmericasValueChannel.us,,TRUE,,111,110,PNG,https://i.imgur.com/bNjiEfi.png
 AmericasVoiceNews.us,,TRUE,,476,110,PNG,https://i.imgur.com/C4w0eYC.png
+AmericaTelevision.pe,HD,FALSE,,960,523,PNG,https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Am%C3%A9rica_HD.svg/960px-Am%C3%A9rica_HD.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail
 AmericaTelevision.pe,,TRUE,,960,523,PNG,https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Am%C3%A9rica_HD.svg/960px-Am%C3%A9rica_HD.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail
 AmericaTelevision.pe,,TRUE,,500,638,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Am%C3%A9rica_Televisi%C3%B3n.svg/500px-Am%C3%A9rica_Televisi%C3%B3n.svg.png
 AmericaTelevision.pe,SD,TRUE,,1000,1000,PNG,https://i.imgur.com/vr0g3u1.png
@@ -1960,7 +1963,9 @@ Antena21.do,,TRUE,,509,512,PNG,https://i.imgur.com/QE0XWLh.png
 Antena3.es,,TRUE,,722,662,SVG,https://upload.wikimedia.org/wikipedia/commons/8/89/Logo_Antena_3_2025_%28Naranja%29.svg
 Antena3.es,,TRUE,,960,881,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Logo_Antena_3_2025_%28Naranja%29.svg/960px-Logo_Antena_3_2025_%28Naranja%29.svg.png
 Antena3CNN.ro,,TRUE,,512,246,PNG,https://static.wikia.nocookie.net/logopedia/images/8/82/Antena_3_CNN_2022_v1.png/revision/latest/scale-to-width-down/512
+Antena3Constanta.ro,,TRUE,,961,964,JPEG,https://antena3constanta.ro/wp-content/uploads/2025/08/ant3-logonn.jpg
 Antena3Internacional.es,,TRUE,,538,514,PNG,https://upload.wikimedia.org/wikipedia/commons/8/83/Antena3Internacional2025.png
+Antena3Suceava.ro,,TRUE,,1000,1112,WebP,https://static.wikia.nocookie.net/logopedia/images/6/65/Antena_3_Suceava_slogan.svg/revision/latest/scale-to-width-down/1000?cb=20240522203102
 Antena4Jardin.co,,TRUE,,512,512,JPEG,https://i.imgur.com/9yEQ4kQ.jpeg
 Antena7.do,,TRUE,,512,453,PNG,https://i.imgur.com/zKWFgeQ.png
 Antena91.ar,,TRUE,,290,178,PNG,https://i.imgur.com/HAJxHcV.png
@@ -3635,6 +3640,10 @@ BibelTVMusik.de,,TRUE,,512,123,PNG,https://i.imgur.com/yIqOcP5.png
 Bibigon.ru,,TRUE,,600,153,PNG,https://cdn.ruwiki.ru/commonswiki/files/thumb/5/52/Bibigon_TV_Logo.svg/600px-Bibigon_TV_Logo.svg.png
 BibleExplorations.us,,TRUE,,295,39,PNG,https://i.imgur.com/lP6VSNx.png
 BichriTV.sn,,TRUE,,300,300,JPEG,https://i.imgur.com/mNiWJi8.jpg
+BicolorPlus.pe,,TRUE,,640,360,PNG,https://img-evg3.tv360.bitel.com.pe/peru-image/2026/09/24/00/1790182833200/6a8e1eb7f5d6_640_360.png
+BicolorPlusPremium.pe,,TRUE,,640,360,PNG,https://img-evg3.tv360.bitel.com.pe/peru-image/2026/09/24/00/1790183086681/1dff7002a22a_640_360.png
+BicolorPlusPremium2.pe,,TRUE,,640,360,PNG,https://img-evg3.tv360.bitel.com.pe/peru-image/2026/09/24/03/1790194132371/1e57475a9a6b_640_360.png
+BicolorPlusPremium3.pe,,TRUE,,640,360,PNG,https://img-evg3.tv360.bitel.com.pe/peru-image/2026/09/24/03/1790194198636/d91910da3254_640_360.png
 BiddefordPublicAccessChannel.us,,TRUE,,80,80,PNG,https://i.imgur.com/qx19xL9.png
 Bidniitsuuhunmongolchuud.mn,,TRUE,,447,447,PNG,https://i.imgur.com/Ga2SmvM.png
 BigAsia.ru,,TRUE,,178,60,PNG,https://i.imgur.com/vruuPKF.png
@@ -3679,6 +3688,7 @@ BIGTV.in,,TRUE,,250,259,PNG,https://static.wikia.nocookie.net/logopedia/images/4
 BigTV24x7.in,,TRUE,,512,512,JPEG,https://yt3.googleusercontent.com/blnfLkIGphkSPHfWy4SVOVyHlrWSAEn2pArAS5wdH7tYmXAFD4dVMGLtSmZr5R5CNl1d2cUuDw=s512-c-k-c0x00ffffff-no-rj
 BigTV24x7.in,SD,TRUE,,444,250,PNG,https://i.postimg.cc/rpHrRxR5/big_tv_malayalam.png
 Bigudi.ua,,TRUE,,575,440,PNG,https://i.imgur.com/dy9ZKG1.png
+BihorTV.ro,,TRUE,,1000,224,WebP,https://static.wikia.nocookie.net/logopedia/images/d/d8/Bihortvlogo.png/revision/latest/scale-to-width-down/1000?cb=20241223065621
 BijoyTV.bd,,TRUE,,512,191,PNG,https://i.imgur.com/Faetm0C.png
 BikeChannel.it,,TRUE,,338,150,PNG,https://i.imgur.com/WrNxg2k.png
 BilalTV.et,,TRUE,,132,99,PNG,https://i.imgur.com/yilP9ph.png
@@ -4528,6 +4538,7 @@ Canal13TVVision.bo,,TRUE,,512,512,JPEG,https://i.imgur.com/hqNZ0ao.jpeg
 Canal13Yucatan.mx,,TRUE,,150,150,PNG,https://i.imgur.com/SlycKgZ.png
 Canal14Codazzi.co,,TRUE,,512,406,PNG,https://i.imgur.com/wNSUMhJ.png
 Canal14Regional.co,,TRUE,,400,400,PNG,https://i.imgur.com/fT6OU3M.png
+Canal14SantiagodeCali.co,,TRUE,,900,900,JPEG,https://i.imgur.com/QAUbZ2i.jpeg
 Canal14TLM.sv,,TRUE,,512,287,JPEG,https://i.imgur.com/FEGXKiN.jpeg
 Canal14ValleAltoTelevision.bo,,TRUE,,512,512,JPEG,https://i.imgur.com/I1eVjLs.jpeg
 Canal14YoungTeve.uy,,TRUE,,370,496,PNG,https://i.imgur.com/85h9bXi.png
@@ -5323,7 +5334,8 @@ CanalPlusUrheilu.fi,,FALSE,,800,100,SVG,https://static.wikia.nocookie.net/logope
 CanalPlusZap.se,,FALSE,,599,100,PNG,https://i.imgur.com/3FYMqmv.png
 CanalPlusZatLenn.mm,,TRUE,,470,189,PNG,https://i.imgur.com/kUqov88.png
 CanalPortada.es,,TRUE,,131,55,PNG,https://i.imgur.com/YdpMUvB.png
-CanalPro.py,,TRUE,,98,96,PNG,https://i.imgur.com/ah8n7jL.png
+CanalPro.py,,FALSE,,98,96,PNG,https://i.imgur.com/ah8n7jL.png
+CanalPro.py,,TRUE,,512,235,PNG,https://i.imgur.com/h7qelDq.png
 CanalProgramacao.ao,,TRUE,,79,50,PNG,https://i.imgur.com/jv1R6Iz.png
 CanalProvincial.ar,,TRUE,,99,99,PNG,https://i.imgur.com/bXHHtcb.png
 CanalPuertoCable.co,,TRUE,,512,512,JPEG,https://i.imgur.com/KxMK4Hn.jpeg
@@ -5504,6 +5516,7 @@ CaracolaTV.cl,,TRUE,,493,399,PNG,https://i.imgur.com/QGvfqug.png
 CaracolHD2.co,,TRUE,,489,468,PNG,https://i.imgur.com/Fww94l9.png
 CaracolInternacional.co,,TRUE,,452,439,PNG,https://i.imgur.com/h7LWbt5.png
 CaracolMix.co,,TRUE,,512,341,JPEG,https://i.imgur.com/8Ekj4iw.jpeg
+CaracolMovil.co,,TRUE,,1300,731,PNG,https://i.imgur.com/HvbV0Cf.png
 CaracolTV.co,,TRUE,,457,458,PNG,https://i.imgur.com/WbfdJbk.png
 CarangTV.id,,TRUE,,330,100,JPEG,https://i.postimg.cc/0yzYNLHT/330px-Logo-Carang-TV.jpg
 CarareTV.co,,TRUE,,503,503,JPEG,https://i.imgur.com/rA9Y0Z1.jpg
@@ -8328,6 +8341,7 @@ DezhouComprehensiveNewsChannel.cn,,TRUE,,242,150,JPEG,https://www.tvchinese.net/
 DezhouGraphicChannel.cn,,TRUE,,242,150,JPEG,https://www.tvchinese.net/uploads/tv/dztv3.jpg
 DezhouPublicChannel.cn,,TRUE,,242,150,JPEG,https://www.tvchinese.net/uploads/tv/dztv2.jpg
 DF1.de,,TRUE,,512,282,PNG,https://i.imgur.com/IOZICW5.png
+DGRadio.au,,TRUE,,512,512,JPEG,https://cdn.dg.church/media/objects/tile-dgradio.jpg
 DGTV.au,,TRUE,,512,512,JPEG,https://dg.church/tile-dgtv.jpg
 DGTV.ke,,TRUE,,400,400,JPEG,https://i.imgur.com/mQyKT7e.jpg
 DHA.tr,,TRUE,,142,47,PNG,https://i.imgur.com/VZhag2x.png
@@ -8691,6 +8705,7 @@ Divinity.es,,TRUE,color,159,155,SVG,https://upload.wikimedia.org/wikipedia/commo
 Divinity.es,,TRUE,color,960,936,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Divinity.svg/960px-Divinity.svg.png
 DiviSport.ua,,TRUE,,5120,1301,PNG,https://i.logos-download.com/114030/29915-s5120-904df224e4c030fefcc45adda448b6e8.png/DiviSport_Logo_2023-s5120.png
 DivyaBhajan.in,,TRUE,,376,288,PNG,https://jiotvimages.cdn.jio.com/dare_images/images/DivyaBhajan.png
+DivyaDarshanTV.np,,TRUE,,512,511,PNG,https://i.ibb.co/WWn5gFnp/Divya-Darshan-TV-HD.png
 DivyaDarshanTV.np,,TRUE,,512,511,PNG,https://i.imgur.com/EwDQ12F.png
 DivyangNews.in,,TRUE,,376,288,PNG,https://jiotvimages.cdn.jio.com/dare_images/images/Divyang_News.png
 DivyavaniTV.in,,TRUE,,376,288,PNG,https://jiotvimages.cdn.jio.com/dare_images/images/Divya_Vani.png
@@ -9814,6 +9829,7 @@ eSports1.de,,TRUE,,512,93,PNG,https://i.imgur.com/282zLCo.png
 eSportsMaxTV.ve,,TRUE,,387,379,PNG,https://i.imgur.com/OprRgQN.png
 eSportsTV.se,,TRUE,,512,400,PNG,https://i.imgur.com/2HFjhff.png
 eSportsTV.se,,TRUE,horizontal,575,105,SVG,https://static.wikia.nocookie.net/logopedia/images/9/98/EsportsTV_II.svg
+EsportsTV.us,,TRUE,,512,253,PNG,https://i.imgur.com/qHNV0f5.png
 EspresoTV.ua,,TRUE,,512,118,PNG,https://i.imgur.com/xNatV8K.png
 EsquipulasTV.gt,,TRUE,,100,81,PNG,https://i.imgur.com/6j3FH1q.png
 ESR24x7eSportsNetwork.us,,TRUE,,450,300,JPEG,https://satelliteprome.com/wp-content/uploads/2021/01/ESR-network.jpg
@@ -9845,7 +9861,6 @@ EstudioTV.cl,,TRUE,,273,272,PNG,https://i.imgur.com/PwfG6y7.png
 EsTuTele.es,,TRUE,,494,152,PNG,https://i.imgur.com/bsAbcmC.png
 ESTV.hu,,TRUE,,512,326,PNG,https://i.imgur.com/OCZ8CfK.png
 ESTV.tr,,TRUE,,103,92,PNG,https://i.imgur.com/epAEBrp.png
-ESTV.us,,TRUE,,512,253,PNG,https://i.imgur.com/qHNV0f5.png
 ESTVCanal67.sv,,TRUE,,400,400,JPEG,https://i.imgur.com/3OoUpHw.jpeg
 ESTVCanalPeninsular.ec,,TRUE,,512,469,PNG,https://i.imgur.com/6Whfe7C.png
 EStyloTV.do,,TRUE,,512,179,PNG,https://i.imgur.com/GLpeqpp.png
@@ -10853,6 +10868,7 @@ Fox.hr,,TRUE,,512,221,PNG,https://i.imgur.com/A1voBwC.png
 Fox.it,,TRUE,,960,414,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/960px-FOX_wordmark-orange.svg.png
 FOX.jp,,TRUE,,960,414,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/960px-FOX_wordmark-orange.svg.png
 Fox.kr,,TRUE,,512,221,PNG,https://i.imgur.com/A1voBwC.png
+FOX.mx,,TRUE,,960,414,PNG,https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/FOX_wordmark.svg/960px-FOX_wordmark.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail
 Fox.pl,,TRUE,,512,221,PNG,https://i.imgur.com/hSDN9YQ.png
 Fox.pt,,TRUE,,512,221,PNG,https://i.imgur.com/hSDN9YQ.png
 Fox.rs,,TRUE,,512,221,PNG,https://i.imgur.com/zYz6AwQ.png
@@ -10917,6 +10933,7 @@ FoxActionMoviesSoutheastAsia.hk,,TRUE,,512,169,PNG,https://i.imgur.com/fEs4Azh.p
 FoxArabia.ae,,TRUE,,960,414,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/FOX_wordmark-orange.svg/960px-FOX_wordmark-orange.svg.png
 FoxBoxWeb.br,,TRUE,,107,113,PNG,https://i.ibb.co/3yNbP9hg/Captura-de-tela-2026-05-07-183916-removebg-preview.png
 FoxBusinessNetwork.us,,TRUE,,960,521,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/960px-Fox_Business.svg.png
+FOXCentral.mx,,TRUE,,960,414,PNG,https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/FOX_wordmark.svg/960px-FOX_wordmark.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail
 FoxComedy.pl,,TRUE,,494,127,PNG,https://i.imgur.com/7oZaSDI.png
 FoxComedy.pt,,TRUE,,494,127,PNG,https://i.imgur.com/yLZZPPy.png
 FoxCricket.au,,TRUE,,237,413,PNG,https://i.imgur.com/V8hb6tJ.png
@@ -13065,10 +13082,15 @@ HTV2.vn,,TRUE,,1920,554,PNG,https://upload.wikimedia.org/wikipedia/commons/d/d2/
 HTV2HoustonTelevision.us,,TRUE,,198,95,JPEG,https://i.imgur.com/zvj1boM.jpg
 HTV3.vn,,TRUE,,1280,360,PNG,https://upload.wikimedia.org/wikipedia/commons/6/65/HTV3-2018.png
 HTV4.vn,,TRUE,,960,284,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/HTV4_logo.webp/960px-HTV4_logo.webp.png
+HTV5.vn,,TRUE,,400,154,PNG,https://upload.wikimedia.org/wikipedia/commons/c/c3/HTV5_Bchannel.png
 HTV7.vn,,TRUE,,1000,269,WebP,https://upload.wikimedia.org/wikipedia/commons/c/c0/HTV7_logo.webp
 HTV9.vn,,TRUE,,1000,275,WebP,https://upload.wikimedia.org/wikipedia/commons/b/bf/HTV9_logo.webp
 HTVCFamily.vn,,TRUE,,481,336,PNG,https://i.ibb.co/BVQtkHgF/IMG-2899.png
+HTVCMovies.vn,,TRUE,,2949,2749,PNG,https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/HTVC%20Phim%20HD.png
+HTVCMusic.vn,,TRUE,,200,125,PNG,https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/HTVC%20Ca%20Nh%E1%BA%A1c%20HD.png
+HTVCPlus.vn,,TRUE,,0,0,PNG,https://i.ibb.co/BVckCtnc/IMG-2902.png
 HTVCPureVietnamese.vn,,TRUE,,700,282,PNG,https://upload.wikimedia.org/wikipedia/vi/8/8c/HTVC_thuanviet.png
+HTVCTravelandLife.vn,,TRUE,,0,0,JPEG,https://i.ibb.co/wrLsstBH/IMG-2901.jpg
 HTVCWomen.vn,,TRUE,,460,260,PNG,https://upload.wikimedia.org/wikipedia/vi/a/a9/HTVC_PHUNU.png
 HTVKey.vn,,TRUE,,340,192,PNG,https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_HTV_Key.png
 HTVLive.do,,TRUE,,512,512,PNG,https://i.imgur.com/0WBsAin.png
@@ -14910,6 +14932,7 @@ Kinoman.ru,,TRUE,,492,512,PNG,https://i.imgur.com/38yMv7L.png
 Kinomix.ru,,TRUE,,512,327,PNG,https://i.imgur.com/D4q2XUT.png
 KinoMult.ru,,TRUE,,2339,1032,PNG,https://aakr.ru/wp-content/uploads/2024/05/kinomult_3.png
 KinoNova.bg,,TRUE,,400,208,PNG,https://i.imgur.com/hMqEY0J.png
+KinoPlus.ru,,TRUE,,181,92,PNG,https://i.imgur.com/NcB6U3j.png
 KinopoiskK1.ru,,TRUE,,570,515,JPEG,https://adindex.ru/news/digital/309776/img/tg_image_522083805.jpeg
 Kinopokaz.ru,,TRUE,,512,324,PNG,https://i.imgur.com/nNjMyAq.png
 KinopokazHD1.ru,,TRUE,,250,250,JPEG,https://img.rnx.ru/logotvchannel/191-250.jpg
@@ -15165,7 +15188,12 @@ KPHELD446.us,,TRUE,,512,147,PNG,https://i.imgur.com/QoQbM4N.png
 KPJK601.us,,TRUE,,152,62,PNG,https://i.imgur.com/tcfvX5q.png
 KPKNLD354.us,,TRUE,,960,358,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/QVC_logo_2019.svg/960px-QVC_logo_2019.svg.png
 KPlus.sg,,TRUE,,208,208,PNG,https://i.imgur.com/RbS0q71.png
+KPlusAction.vn,,TRUE,,945,189,PNG,https://raw.githubusercontent.com/ahhmeoww/tv/tv/logo/KACTION.png
+KPlusCine.vn,,TRUE,,1000,251,PNG,https://raw.githubusercontent.com/ahhmeoww/tv/tv/logo/KCINE.png
+KPlusKids.vn,,TRUE,,636,172,PNG,https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/K%2BKIDS.png
 KPlusLife.vn,,TRUE,,447,239,PNG,https://i.imgur.com/asRUZxb.png
+KPlusSport1.vn,,TRUE,,1000,195,PNG,https://raw.githubusercontent.com/ahhmeoww/tv/tv/logo/KSPORT1.png
+KPlusSport2.vn,,TRUE,,1000,189,PNG,https://raw.githubusercontent.com/ahhmeoww/tv/tv/logo/KSPORT2.png
 KpopMix.ar,,TRUE,,469,408,PNG,https://tvomix.com/Logos/Kpopmix.png
 KpopTVPlay.br,,TRUE,,512,214,PNG,https://i.imgur.com/Tf0vweF.png
 KPTNLD75.us,,TRUE,,960,750,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/As_seen_on_TV.svg/960px-As_seen_on_TV.svg.png
@@ -16551,6 +16579,7 @@ MahaMovie.in,,TRUE,,376,288,PNG,https://jiotvimages.cdn.jio.com/dare_images/imag
 MahaPunjabi.in,,TRUE,,228,149,PNG,https://i.imgur.com/AWUcSb8.png
 MaharBawdiTV.mm,,TRUE,,270,280,PNG,https://i.imgur.com/lV7WEVs.png
 MaharTV.mm,,TRUE,,124,49,PNG,https://i.imgur.com/ig0QECf.png
+MahdawiounTV.iq,,TRUE,,1634,264,PNG,https://mahdawioun.tv/wp-content/uploads/2024/03/New-Logo-Color.png
 MahdiTV.ke,,TRUE,,512,362,PNG,https://i.imgur.com/MpX9MHo.png
 MahimaiTV.in,,TRUE,,678,207,PNG,https://mahimaitv.com/images/mahimaitamil.png
 MahotsavTV.in,,TRUE,,376,288,PNG,https://jiotvimages.cdn.jio.com/dare_images/images/Mahotsav_TV.png
@@ -16664,6 +16693,7 @@ MandarinTV.fr,,TRUE,,378,512,PNG,https://i.imgur.com/LhqayFe.png
 MANDEKA.ml,,TRUE,,99,74,PNG,https://i.imgur.com/QynAc0e.png
 MandeTV.ml,,TRUE,,260,65,PNG,https://i.imgur.com/keTIhlR.png
 MandikoTV.cd,,TRUE,,512,202,PNG,https://i.imgur.com/jsBWsdK.png
+MandirTV.in,,TRUE,,512,512,PNG,https://mandirtv.in/wp-content/uploads/2026/05/cropped-New-logo-_mandir-TV.png
 MandraTV.in,,TRUE,,364,78,JPEG,https://i.ibb.co/92vyxNQ/logo.jpg
 MangalamTV.in,,TRUE,,342,287,PNG,https://i.imgur.com/oQf4Ad4.png
 MangalKalashTVChannel.in,,TRUE,,98,96,PNG,https://i.imgur.com/QlKEmtV.png
@@ -16704,6 +16734,7 @@ MansfieldGovernmentChannel.us,,TRUE,,328,107,PNG,https://i.imgur.com/hxwy8BY.png
 MansfieldPublicChannel.us,,TRUE,,328,107,PNG,https://i.imgur.com/hxwy8BY.png
 MansudaeTelevision.kp,,TRUE,,512,126,PNG,https://i.imgur.com/7xowUs2.png
 MantavyaNews.in,,TRUE,,376,288,PNG,https://jiotvimages.cdn.jio.com/dare_images/images/Mantavya_News.png
+MantraTV.in,,TRUE,,336,80,PNG,https://www.lyngsat.com/logo/tv/mm/mantra-tv-in.png
 ManuChat.iq,,TRUE,,132,30,PNG,https://i.imgur.com/voyoljW.png
 ManwithaPlan.se,,TRUE,,576,288,PNG,https://images.pluto.tv/channels/678f88bb272ded16b1558c5e/colorLogoPNG.png
 ManwithaPlan.se,,TRUE,,576,288,SVG,https://images.pluto.tv/channels/678f88bb272ded16b1558c5e/colorLogoSVG.svg
@@ -17033,11 +17064,13 @@ MCTVInfoSportsChannel.mo,,TRUE,,178,106,PNG,https://i.imgur.com/CQihlw3.png
 MCUTV.th,,TRUE,,90,90,PNG,https://tv.mcu.ac.th/wp-content/uploads/2022/12/logo.png
 MDATelevision.ve,,TRUE,,378,370,PNG,https://i.imgur.com/AlY38PN.png
 MDF1.de,,TRUE,,314,239,PNG,https://i.imgur.com/IFGXK6u.png
+mditv.ro,,TRUE,,210,73,PNG,https://mditv.ro/wp-content/uploads/2025/02/LOGO_MDITV-3.png
 MDL.fr,,TRUE,,512,188,PNG,https://i.imgur.com/REN30bx.png
 MDRFernsehen.de,,TRUE,,960,311,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/960px-MDR_Logo_2017.svg.png
 MDTV.id,,TRUE,,960,273,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/MDTV_logo.svg/960px-MDTV_logo.svg.png
 Me.za,,TRUE,,366,232,PNG,https://i.imgur.com/TXn806u.png
 MeaningfulTelevision.gd,,TRUE,,238,203,JPEG,https://i.ibb.co/fXBqJdz/MTV-Grenada-Logo-Version-2.jpg
+Mechta.ru,,TRUE,,200,200,PNG,https://i.imgur.com/D8H7ShU.png
 MECTV.bj,,TRUE,,511,511,JPEG,https://i.imgur.com/CT3odZM.jpg
 MedalhaoPersa.br,,TRUE,,128,99,PNG,https://i.imgur.com/lGFTdSS.png
 MedanTV.za,,TRUE,,300,402,PNG,https://i.imgur.com/V8jJThi.png
@@ -17107,6 +17140,7 @@ MegaFiccion.cl,,TRUE,,330,121,PNG,https://i.imgur.com/aQdhJie.png
 MegafonTV.si,,TRUE,,512,512,JPEG,https://i.imgur.com/W9cG6fj.jpeg
 MegahitsTV.cr,,TRUE,,512,426,JPEG,https://i.imgur.com/RqdpiYo.jpg
 MegahitTV.ni,,TRUE,,374,195,PNG,https://i.imgur.com/W1ILPcm.png
+Megamax.ro,,TRUE,,1000,628,WebP,https://static.wikia.nocookie.net/logopedia/images/d/d1/Megamax.png/revision/latest?cb=20180114223556
 MegaMusiq.in,,TRUE,,720,540,PNG,https://dtil.tmsimg.com/assets/s143532_ld_h15_aa.png?lock=720x540
 MegaMusiq.in,,TRUE,,312,298,PNG,https://i.imgur.com/3i9FCoc.png
 MegaMusiq.in,,TRUE,,429,416,PNG,https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_MEGA_MUSIQ/images/LOGO_HD/image.png
@@ -17234,6 +17268,7 @@ MetaleitorTV.us,,TRUE,,956,574,PNG,https://new.opencaster.com/uploads/logos/logo
 MetanoiaTV.cd,,TRUE,,107,110,PNG,https://i.imgur.com/Bf00ttL.png
 MetArtHD.us,,TRUE,,412,86,PNG,https://i.imgur.com/GvubWxI.png
 MetaVersusCR.cr,,TRUE,,505,236,PNG,https://i.imgur.com/BKkljlc.png
+MeTele.jp,,TRUE,bold;text-based,3840,850,PNG,https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Nagoya_Nbn_logo.svg/3840px-Nagoya_Nbn_logo.svg.png
 MeteleNewsLive24.jp,,TRUE,,100,100,JPEG,https://i.imgur.com/QP0lqYn.jpg
 Meteo24tv.ge,,TRUE,,200,200,JPEG,https://i.imgur.com/PEVwiXM.jpg
 MeteoMedia.ca,,TRUE,,960,379,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/MeteoMedia_2011.svg/960px-MeteoMedia_2011.svg.png
@@ -18002,6 +18037,7 @@ MTV.se,,TRUE,,960,594,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/6
 MTV.tw,,TRUE,,512,316,PNG,https://i.imgur.com/b9rvTjr.png
 MTV.uk,,TRUE,,960,594,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png
 MTV.us,,TRUE,,960,594,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png
+MTV.vn,,TRUE,,960,628,PNG,https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/MTV-2021.svg/960px-MTV-2021.svg.png
 MTV00s.uk,,TRUE,,473,512,PNG,https://i.imgur.com/l5wBRfF.png
 MTV00s.uk,,TRUE,,281,303,PNG,https://upload.wikimedia.org/wikipedia/commons/f/f8/MTV_00s_remaster.png
 MTV00sIsrael.il,,TRUE,,1852,707,SVG,https://static.wikia.nocookie.net/logopedia/images/c/cd/MTV_00s_Horizontal.svg/revision/latest?cb=20260116201406
@@ -18138,6 +18174,7 @@ MTVRidiculousness.us,,TRUE,,576,288,SVG,https://images.pluto.tv/channels/68641eb
 MTVRocks.us,,TRUE,,576,288,PNG,https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoPNG.png
 MTVRocks.us,,TRUE,,576,288,SVG,https://images.pluto.tv/channels/66a01e07d2d50d0008100d6a/colorLogoSVG.svg
 MTVRocksEurope.uk,,TRUE,,512,500,PNG,https://i.imgur.com/3Gh80hk.png
+MTVRomania.ro,,FALSE,,1000,618,WebP,https://static.wikia.nocookie.net/logopedia/images/b/b4/MTV_OSB_2011.svg/revision/latest/scale-to-width-down/1000?cb=20251004195109
 MTVSerie.us,,TRUE,,470,114,PNG,https://i.imgur.com/B8dB6hE.png
 MTVShore.us,,TRUE,,576,288,PNG,https://images.pluto.tv/channels/625463563b8ddc0007134aeb/colorLogoPNG.png
 MTVShore.us,,TRUE,,576,288,SVG,https://images.pluto.tv/channels/625463563b8ddc0007134aeb/colorLogoSVG.svg
@@ -18599,8 +18636,8 @@ NandePortetepeTV.py,,TRUE,,300,300,JPEG,https://i.imgur.com/3taT6JK.jpeg
 NandighoshaTV.in,,TRUE,,243,258,PNG,https://i.imgur.com/cxneGRS.png
 NandighoshaTV.in,,TRUE,,376,288,PNG,https://jiotvimages.cdn.jio.com/dare_images/images/Nandighosha.png
 NandighoshaTV.in,,TRUE,,848,899,PNG,https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/NANDIGHOS_LOGO_NEW-transparent.png
-Nanduti.py,,TRUE,,235,87,PNG,https://i.imgur.com/vnIkhRO.png
-Nanduti.py,SD,TRUE,,0,0,PNG,https://www.desdeparaguay.com/images_hpy/logos/radios/90x90px2/nandutitv.png
+Nanduti.py,,TRUE,,512,107,PNG,https://i.imgur.com/AsuVsLa.png
+Nanduti.py,,FALSE,,235,87,PNG,https://i.imgur.com/vnIkhRO.png
 NanjingChildrensChannel.cn,,TRUE,,242,150,JPEG,https://www.tvchinese.net/uploads/tv/njsepd.jpg
 NanjingComprehensiveNewsChannel.cn,,TRUE,,242,150,JPEG,https://www.tvchinese.net/uploads/tv/njxwzh.jpg
 NanjingEducationSciTechChannel.cn,,TRUE,,242,150,JPEG,https://www.tvchinese.net/uploads/tv/njxwzh.jpg
@@ -18978,6 +19015,7 @@ NCMGovernmentChannel.us,,TRUE,,262,91,PNG,https://i.imgur.com/0AJ22Et.png
 NCMGovernmentPoliticsChannel.us,,TRUE,,180,99,PNG,https://i.imgur.com/3YPvfPn.png
 NCMMainChannel.us,,TRUE,,180,99,PNG,https://i.imgur.com/3YPvfPn.png
 NCN.gy,,TRUE,,184,50,PNG,https://i.imgur.com/5VNmqD1.png
+NCN.ro,,TRUE,,1000,460,WebP,https://static.wikia.nocookie.net/logopedia/images/c/c3/NCN.svg/revision/latest/scale-to-width-down/1000?cb=20191223182658
 NCNSports.gy,,TRUE,,184,50,PNG,https://i.imgur.com/5VNmqD1.png
 NCTV.cl,,TRUE,,512,298,PNG,https://i.imgur.com/oo5vDBv.png
 NCTV.us,,TRUE,,296,232,PNG,https://i.imgur.com/rBNsZC1.png
@@ -19078,6 +19116,7 @@ NeoxStudioChannel.bo,,TRUE,,400,120,PNG,https://i.imgur.com/odSSt5k.png
 NeoxTV.ar,,TRUE,,427,262,PNG,https://i.imgur.com/eIX71c9.png
 NepaChannel.np,,TRUE,,132,59,PNG,https://i.imgur.com/LgCjKXZ.png
 Nepal1.in,,TRUE,,720,540,PNG,https://dtil.tmsimg.com/assets/s143584_ld_h15_aa.png?lock=720x540
+Nepal1.in,,TRUE,,454,498,PNG,https://i.ibb.co/bMZpdbYJ/Nepal-1.png
 Nepal1.in,,TRUE,,195,238,PNG,https://i.imgur.com/Pgg8dQ2.png
 Nepal1.in,,TRUE,,454,498,PNG,https://i.imgur.com/Xr4FjC8.png
 Nepal1.in,,TRUE,,376,288,PNG,https://jiotvimages.cdn.jio.com/dare_images/images/Nepal_one.png
@@ -20550,6 +20589,7 @@ OmShanti.in,,TRUE,,376,288,PNG,https://jiotvimages.cdn.jio.com/dare_images/image
 OMTV.in,,TRUE,,376,288,PNG,https://jiotvimages.cdn.jio.com/dare_images/images/OM_TV.png
 On4TV.tr,,TRUE,,209,68,PNG,https://i.imgur.com/qGRa1KI.png
 On6.tr,,TRUE,,277,151,PNG,https://i.imgur.com/k7rS2gC.png
+ONBiBi.vn,,TRUE,,756,214,PNG,https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/VTVCab8%20-%20ON%20BiBi.png
 OnC2.mx,,TRUE,,85,96,PNG,https://i.imgur.com/kTMZVrk.png
 ONCE.kr,,TRUE,,512,127,PNG,https://i.imgur.com/t1jP002.png
 OnceInternacional.mx,,TRUE,,85,99,PNG,https://i.imgur.com/vcY5uHe.png
@@ -20591,6 +20631,7 @@ OneAlbuquerqueMedia.us,,TRUE,,126,126,PNG,https://i.imgur.com/6MgdbSd.png
 OneAmericaNewsNetwork.us,,TRUE,,960,291,PNG,https://upload.wikimedia.org/wikipedia/en/thumb/8/84/One_America_News_Network_logo.svg/960px-One_America_News_Network_logo.svg.png
 OneCaribbeanTelevision.us,,TRUE,,512,92,PNG,https://i.imgur.com/2evH8Rm.png
 OneChannel.gr,,TRUE,,300,129,PNG,https://upload.wikimedia.org/wikipedia/commons/3/37/One_Channel_Logo_2019.png
+ONEChannel.vn,,TRUE,,1178,471,PNG,https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/VTVCab5%20-%20ON%20E%20Channel.png
 OneChannelCyprus.cy,,TRUE,,300,129,PNG,https://upload.wikimedia.org/wikipedia/commons/3/37/One_Channel_Logo_2019.png
 OneDoco.il,,TRUE,,120,90,PNG,https://images.open-epg.com/18748370.png
 OneEdge.il,,TRUE,,200,200,PNG,https://images.open-epg.com/x1761.png
@@ -22921,9 +22962,7 @@ PrimaPlus.cz,,TRUE,,576,225,PNG,https://i.imgur.com/is4GddN.png
 PrimaPPV3.ro,,FALSE,,122,120,PNG,https://www.primaplay.ro/uploads/thumb/publisher/99e3b9471f4939aaa6acc29c2df971dc.png
 PrimaShow.cz,,TRUE,,512,137,PNG,https://i.imgur.com/XbwAwkp.png
 PrimaSK.sk,,TRUE,,1968,1107,PNG,https://upload.wikimedia.org/wikipedia/commons/f/fc/PRIMA_SK_logo_RGB.png
-PrimaSport1.ro,,TRUE,,161,81,PNG,https://i.imgur.com/9XA1UpZ.png
 PrimaSport2.ro,,TRUE,,512,111,PNG,https://i.imgur.com/hROcepe.png
-PrimaSport3.ro,,TRUE,,161,81,PNG,https://i.imgur.com/ocvt5Va.png
 PrimaSport4.ro,,TRUE,,512,112,PNG,https://i.imgur.com/lqaIIhc.png
 PrimaSport5.ro,,TRUE,,358,239,JPEG,https://www.media-max.ro/wp-content/uploads/2022/11/Prima-Sport-5-HD-disponibil-in-grila-Vodafone.jpg
 PrimaSportCzechia.cz,,TRUE,,185,65,SVG,https://static.wikia.nocookie.net/logopedia/images/6/69/Prima_Sport_%28Czech_Republic%29.svg/revision/latest?cb=20260728085614
@@ -22998,7 +23037,6 @@ ProfessionalBaseball3.kr,,TRUE,,186,42,PNG,https://i.imgur.com/1r8HBOj.png
 ProfessionalBaseball4.kr,,TRUE,,187,41,PNG,https://i.imgur.com/LwDXiHh.png
 ProfessionalBaseball5.kr,,TRUE,,67,15,PNG,https://i.imgur.com/vfrecYS.png
 ProfetiskTV.no,,TRUE,,512,507,JPEG,https://i.ibb.co/kXT8Ck6/Screenshot-20230805-160800.jpg
-PROFI24TV.ro,,TRUE,,500,156,PNG,https://profi24.ro/wp-content/uploads/2025/03/Logo_Profi24_Nou_Logo_Profi24_Landscape_Logo_Profi24_Landscape-e1742981714264.png
 ProfitNews.ro,,TRUE,,512,260,PNG,https://i.imgur.com/eD4LBDV.png
 Prokino.ua,,TRUE,,319,134,PNG,https://i.imgur.com/Vm9nbi8.png
 ProkopTVXXX.ru,,TRUE,,213,129,PNG,https://i.imgur.com/rYZbbG6.png
@@ -23582,6 +23620,7 @@ RadioMoldovaTineret.md,,TRUE,,512,179,PNG,https://i.imgur.com/h2oZuyc.png
 RadioMontBlanc.fr,,TRUE,,512,512,PNG,https://i.imgur.com/dQhwRXT.png
 RadioMonteCarloTV.it,,TRUE,,263,512,PNG,https://i.imgur.com/by9XvWF.png
 RadioMonumentalTV.ec,,TRUE,,512,512,PNG,https://i.imgur.com/a97MaV2.png
+RadioNacional.co,,TRUE,,1280,497,PNG,https://i.imgur.com/bmbwsGk.png
 RadioNacionaldelParaguay.py,,TRUE,,512,207,PNG,https://i.imgur.com/ksh20I5.png
 RadioNationaleVisuelle.tn,,TRUE,,55,91,PNG,https://i.imgur.com/5YkWk6Y.png
 RadioNatividadTV.ve,,TRUE,,512,219,JPEG,https://i.imgur.com/zBs4rEa.jpeg
@@ -23917,6 +23956,7 @@ Raya1.ps,,TRUE,,100,94,PNG,https://www.rayatv.ps/images/logo_tv.png
 Raya2.ps,,TRUE,,100,94,PNG,https://www.rayatv.ps/images/logo_tv.png
 Raya3.ps,,TRUE,,100,94,PNG,https://www.rayatv.ps/images/logo_tv.png
 RaymondTV.us,,TRUE,,200,131,PNG,https://i.imgur.com/p60fLmD.png
+RayTVHD.np,,TRUE,,447,447,PNG,https://i.ibb.co/HpXHd5bQ/Ray-TV-HD.png
 RayTVHD.np,,TRUE,,447,447,PNG,https://i.imgur.com/QIkgiEn.png
 RAZ1.ua,,TRUE,,192,192,WebP,https://s2.vcdn.biz/static/f/7607683721/image.jpg/pt/c192x192x4
 RAZ2.ua,,TRUE,,192,192,WebP,https://s7.vcdn.biz/static/f/7607698621/image.jpg/pt/c192x192x4
@@ -23947,7 +23987,8 @@ RBTV.us,,TRUE,,512,234,PNG,https://i.imgur.com/yd4p1YW.png
 RBTVJogja.id,,TRUE,,820,438,PNG,https://upload.wikimedia.org/wikipedia/id/3/31/RBTV_Jogjakarta.png
 RBW.de,,TRUE,,398,99,PNG,https://i.imgur.com/A0UKdix.png
 RCATelevision.gy,,TRUE,,512,258,JPEG,https://i.imgur.com/S8BM0M2.jpeg
-RCCTV.py,,TRUE,,286,315,PNG,https://i.imgur.com/qdjBnRl.png
+RCCTV.py,,FALSE,,286,315,PNG,https://i.imgur.com/qdjBnRl.png
+RCCTV.py,,TRUE,,512,195,PNG,https://i.imgur.com/sd9iOIh.png
 RCGTV.cm,,TRUE,,512,512,JPEG,https://i.imgur.com/lZXXKVf.jpeg
 RCGTV.mx,,TRUE,,291,112,PNG,https://i.imgur.com/kYtAR26.png
 RCGTV2.mx,,TRUE,,428,169,PNG,https://i.imgur.com/hXs9b7v.png
@@ -23959,6 +24000,7 @@ RCMTV.co,,TRUE,,512,176,PNG,https://i.imgur.com/irOotYz.png
 RCMusic.in,,TRUE,,3508,2482,PNG,https://rctv.in/logo_s.png
 RCNHD2.co,,TRUE,,512,197,PNG,https://i.imgur.com/SrMPTfc.png
 RCNMas.co,,TRUE,,512,248,PNG,https://i.imgur.com/MJzuRAN.png
+RCNMovil.co,,TRUE,,299,168,PNG,https://i.imgur.com/P3ShZ0W.png
 RCNNovelas.co,,TRUE,,512,387,PNG,https://i.imgur.com/9wxdWNQ.png
 RCNTV.py,,TRUE,,352,248,PNG,https://i.imgur.com/ZtucHGB.png
 RCNXtra.co,,TRUE,,320,180,PNG,https://i.imgur.com/N7VH24E.png
@@ -27937,7 +27979,8 @@ StortingetN202.no,,TRUE,,248,203,PNG,https://i.imgur.com/tg1YbfY.png
 StortingetNettTV.no,,TRUE,,248,203,PNG,https://i.imgur.com/tg1YbfY.png
 StortingetStortingssalen.no,,TRUE,,248,203,PNG,https://i.imgur.com/tg1YbfY.png
 Story4.hu,Czechia,TRUE,,644,284,SVG,https://static.wikia.nocookie.net/logopedia/images/5/5a/Story4_CZ_2026.svg/revision/latest?cb=20260905012248
-Story4.hu,,TRUE,,451,512,PNG,https://i.imgur.com/pJsLyiv.png
+Story4.hu,,FALSE,,451,512,PNG,https://i.imgur.com/pJsLyiv.png
+Story4.hu,SD,TRUE,,644,284,SVG,https://static.wikia.nocookie.net/logopedia/images/c/c7/Story4_2026.svg/revision/latest?cb=20260903131013
 StoryChannelTV.ma,,TRUE,,512,512,PNG,https://i.imgur.com/ZBV6xph.png
 StoryTelevision.us,KAZD,TRUE,,319,157,PNG,https://i.imgur.com/w7Iee6P.png
 StoryTelevision.us,KMEETV,TRUE,,220,110,PNG,https://www.tvinsider.com/wp-content/uploads/2022/06/story-television.png
@@ -29451,6 +29494,7 @@ TelevisionBoliviana.bo,,FALSE,,370,365,SVG,https://static.wikia.nocookie.net/log
 TelevisionCamaguey.cu,,TRUE,,240,140,PNG,https://i.imgur.com/3JeyJ17.png
 TelevisionCanaria.es,,TRUE,,234,85,PNG,https://rtvc.es/archivos/2020/03/logo-mobilretina.png
 TelevisionCaribbean.kn,,TRUE,,512,512,PNG,https://i.imgur.com/Ogw0COv.png
+TelevisionCaribe.us,,TRUE,,500,202,PNG,https://televisioncaribe.com/logo.png
 TelevisionComayaguaCanal40.hn,,TRUE,,486,292,PNG,https://i.imgur.com/uDLhsDM.png
 TelevisionConsciente.es,,TRUE,,496,199,PNG,https://i.imgur.com/6QVHKPw.png
 TelevisionCristal.bo,,TRUE,,272,90,PNG,https://i.ibb.co/pdTCdWj/logo-cristal-fw.png
@@ -30784,6 +30828,7 @@ TurksatTanitim.tr,,TRUE,,960,162,PNG,https://upload.wikimedia.org/wikipedia/comm
 TurmadaMonica.us,,TRUE,,512,213,PNG,https://i.imgur.com/nrvPPrW.png
 Turno.cl,,TRUE,,300,95,PNG,https://i.imgur.com/XuSeHBt.png
 TurnTV.ug,,TRUE,,512,147,JPEG,https://i.imgur.com/icK8ob1.jpeg
+TuSamibyBitel.pe,,TRUE,,400,400,JPEG,https://pbs.twimg.com/profile_images/1647995874079825924/6eaWCD_M.jpg
 TUSHY.us,,TRUE,,512,113,PNG,https://i.imgur.com/nPX3SNU.png
 TUSHYRAW.us,,TRUE,,512,63,PNG,https://i.imgur.com/GUMLeKi.png
 TUSO.ua,,TRUE,,490,93,PNG,https://i.imgur.com/kb4B9wN.png
@@ -31334,7 +31379,8 @@ TVCaboBranco.br,,TRUE,,256,248,PNG,https://i.imgur.com/wcU9doO.png
 TVCachi.cr,,TRUE,,512,512,JPEG,https://i.imgur.com/uR7wKbI.jpeg
 TVCachoeira.br,,TRUE,,131,83,PNG,https://i.imgur.com/BxSjI7X.png
 TVCamara.br,,TRUE,,235,235,PNG,https://i.imgur.com/Sdou1Ab.png
-TVCamara.py,,TRUE,,101,98,PNG,https://i.imgur.com/Mfypr0t.png
+TVCamara.py,,TRUE,,400,400,JPEG,https://i.imgur.com/8Jl0h8F.jpeg
+TVCamara.py,,FALSE,,101,98,PNG,https://i.imgur.com/Mfypr0t.png
 TVCamara2.br,,TRUE,,235,235,PNG,https://i.imgur.com/dHrUG1R.png
 TVCamaradeSaoPaulo.br,,TRUE,,960,540,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Logo_tvcamara_.png/960px-Logo_tvcamara_.png
 TVCamaraPortoAlegre.br,,TRUE,,100,100,JPEG,https://i.imgur.com/jfQ7mPQ.jpg
@@ -31392,6 +31438,7 @@ TVCG3.me,,TRUE,,228,237,PNG,https://i.imgur.com/0ZT3Bc2.png
 TVCGMNE.me,,TRUE,,267,98,PNG,https://i.imgur.com/pf8VEwf.png
 TVChacoCanal4.ec,,TRUE,,455,439,PNG,https://i.imgur.com/2cEEq6B.png
 TVChandelier.ci,,TRUE,,132,99,PNG,https://i.imgur.com/YRocUSd.png
+TVChaquena.py,,TRUE,,512,512,JPEG,https://i.imgur.com/5NvRHrN.jpeg
 TVChile.cl,,TRUE,,512,448,PNG,https://i.imgur.com/oYFto0V.png
 TVChinacota.co,,TRUE,,512,512,JPEG,https://i.imgur.com/XJEG1QV.jpeg
 TVChoachi.co,,TRUE,,512,512,JPEG,https://i.imgur.com/PNdsHtU.jpeg
@@ -32430,6 +32477,7 @@ TVToday.np,HD,TRUE,,512,512,PNG,https://i.imgur.com/WZJG13G.png
 TVToday.np,,TRUE,,514,450,PNG,https://i.imgur.com/CqO9Sn0.png
 TVToday.np,,TRUE,,100,97,PNG,https://i.imgur.com/E97g8QK.png
 TVToday.pk,,TRUE,,103,99,PNG,https://i.imgur.com/MYoosNo.png
+TVTodayJanakpur.np,,TRUE,,640,480,PNG,https://i.ibb.co/Gf9VH1VN/TV-Today-Janakpur.png
 TVTodayJanakpur.np,,TRUE,,516,387,PNG,https://i.imgur.com/5fZF69m.png
 TVTokyo.jp,,TRUE,,960,315,PNG,https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/TV_Tokyo_%28Japanese%29_2023.svg/960px-TV_Tokyo_%28Japanese%29_2023.svg.png
 TVTorun.pl,,TRUE,,159,36,PNG,https://i.imgur.com/ZJ0yDWI.png

@@ -4947,8 +4947,8 @@ BoliviaTV.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
 BoliviaTV72.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
 BoliviaTVDeportes.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 Bolivision.bo,Cochabamba,Cochabamba,,FALSE,c/BO,America/La_Paz,spa,576i
+Bolivision.bo,LaPaz,La Paz,,TRUE,c/BO,America/La_Paz,spa,480i
 Bolivision.bo,SantaCruz,Santa Cruz,,FALSE,c/BO,America/La_Paz,spa,576i
-Bolivision.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,480i
 Bollygold.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,hin,1080p
 Bollyshow.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,heb,576i
 Bollywood.il,SD,SD,,TRUE,c/IL,Asia/Jerusalem,heb,1080p
@@ -7023,6 +7023,7 @@ CartoonitoCEE.uk,Germany,Germany,,FALSE,c/DE,Europe/Berlin,deu,576i
 CartoonitoCEE.uk,GermanyHD,Germany HD,,FALSE,c/DE,Europe/Berlin,deu,1080i
 CartoonitoCEE.uk,Hungary,Hungary,,FALSE,c/HU,Europe/Budapest,hun,576i
 CartoonitoCEE.uk,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,eng,576i
+CartoonitoCEE.uk,Romania,Romania,,FALSE,c/RO,Europe/Bucharest,ron,576i
 CartoonitoCEE.uk,SD,SD,,TRUE,r/CEE,Europe/London,eng;ron;hun;ell;bul;pol;rus,576i
 CartoonitoLatinAmerica.us,Argentine,Argentine,,FALSE,c/AR,America/New_York,spa,576i
 CartoonitoLatinAmerica.us,Brazil,Brazil,,FALSE,c/BR,America/New_York,por,480i
@@ -11630,7 +11631,8 @@ DittyTV.us,SD,SD,,TRUE,c/US,America/Chicago,eng,480i
 DiTV.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 DITV80.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 DiTV92.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
-Diva.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
+Diva.ro,HD,HD,,TRUE,c/RO,Europe/Bucharest,ron;eng,1080i
+Diva.ro,SD,SD,,FALSE,c/RO,Europe/Bucharest,ron,576i
 Diva.za,SD,SD,,TRUE,c/ZA,Africa/Johannesburg,eng,576i
 DivaAdria.us,SD,SD,,TRUE,c/US,America/New_York,eng;srp,480i
 DivinAmourTV.ci,SD,SD,,TRUE,c/CI,Africa/Abidjan,fra,576i
@@ -12961,6 +12963,7 @@ EstudioTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i
 EsTuTele.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 ESTV.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 ESTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
+ESTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 ESTVCanal67.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,576i
 ESTVCanalPeninsular.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
 EStyloTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
@@ -13270,6 +13273,9 @@ ExcellentShopping.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,zho,576i
 ExcelsiorTV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 EXCELTV.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng;lug,576i
 ExcitingGrandPrix.jp,SD,SD,,TRUE,c/JP,Asia/Tokyo,jpn,480i
+ExclusivDIGITV1.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
+ExclusivDIGITV2.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
+ExclusivDIGITV3.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 ExclusivTV.md,SD,SD,,TRUE,c/MD,Europe/Chisinau,ron;rus,576i
 ExclusivTV.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 EXCTV.ve,SD,SD,,TRUE,c/VE,America/Caracas,spa,480i
@@ -14105,7 +14111,8 @@ Fox.it,Plus2,+2,,FALSE,c/IT,Europe/Rome,ita,576i
 Fox.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 FOX.jp,SD,SD,,TRUE,c/JP,Asia/Hong_Kong,eng,480i
 Fox.kr,SD,SD,,TRUE,c/KR,Asia/Hong_Kong,kor,480i
-FOX.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
+FOX.mx,HD,HD,,TRUE,c/MX,America/Mexico_City,spa,1080i
+FOX.mx,SD,SD,,FALSE,c/MX,America/Mexico_City,spa,576i
 Fox.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,eng,576i
 Fox.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 Fox.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
@@ -14414,6 +14421,10 @@ FoxArabia.ae,SD,SD,,TRUE,r/ARAB;r/MAGHREB,Asia/Dubai,ara;eng,576i
 FoxBoxWeb.br,SD,SD,,TRUE,c/BR,America/Campo_Grande,por,576i
 FoxBusinessNetwork.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 FOXCentral.mx,CostaRica,CostaRica,,TRUE,c/CR,America/Mexico_City,spa,576i
+FOXCentral.mx,ElSalvador,ElSalvador,,FALSE,c/SV,America/Mexico_City,spa,576i
+FOXCentral.mx,Guatemala,Guatemala,,FALSE,c/GT,America/Mexico_City,spa,576i
+FOXCentral.mx,Nicaragua,Nicaragua,,FALSE,c/NI,America/Mexico_City,spa,576i
+FOXCentral.mx,Pamana,Pamana,,FALSE,c/PA,America/Mexico_City,spa,576i
 FoxComedy.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,eng,576i
 FoxComedy.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 FoxCricket.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
@@ -23750,7 +23761,7 @@ MovieSmartPremium2.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 MovieSmartTurk.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 MoviesNow.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,eng;tam,1080p
 MoviesNow.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;tam,576i
-MoviesNowPlus.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;tam,576i
+MoviesNowPlus.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,eng;tam,1080i
 MoviesOK.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 MoviesonVerizon.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 MovieSphere.us,AU,AU,NZ,FALSE,c/AU;c/NZ,Australia/Sydney,eng,1080p
@@ -38301,6 +38312,7 @@ TeveColombia.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 TeveEmpresa.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,576i
 TeveGlobo.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 TEVEKA.gp,SD,SD,,TRUE,c/GP,America/Guadeloupe,fra;gcf,480i
+Tevekids.co,SD,SD,,TRUE,c/MX;c/GT;c/AR;c/CO,America/Bogota,spa,480i
 TevePlusFlorida.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
 TevereTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 Tevesur.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,576i

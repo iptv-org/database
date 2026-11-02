@@ -3234,6 +3234,7 @@ AstroXiaoTaiYang.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,zho;eng,576i
 ASTTV1.cy,SD,SD,,TRUE,c/CY,Asia/Nicosia,eng,576i
 ASTTV2.cy,SD,SD,,TRUE,c/CY,Asia/Nicosia,eng,576i
 ASTV.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
+ASTV.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 ASTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 AsuncionTV15.ni,SD,SD,,TRUE,c/NI,America/Managua,spa,576i
 AsuntosPublicos.uy,SD,SD,,TRUE,c/UY,America/Montevideo,spa,576i
@@ -3716,6 +3717,7 @@ B2BTV22.us,SD,SD,,TRUE,ct/USBB6,America/New_York,eng,480i
 B4UAflam.ae,SD,SD,,TRUE,c/AE,Asia/Dubai,hin,576i
 B4UBhojpuri.in,Plus,Plus,,FALSE,c/IN,Asia/Kolkata,bho,1080p
 B4UBhojpuri.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,bho,576i
+B4UBhojpuriPlus.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin;bho;mai,1080p
 B4UHitz.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 B4UKadak.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 B4UMovies.in,APAC,APAC,,FALSE,r/APAC,Asia/Kolkata,hin,576i
@@ -8453,6 +8455,7 @@ CinemaxAction.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa,576i
 CinemaxAction.us,WestHD,West HD,,FALSE,c/US,America/Los_Angeles,eng;spa,1080i
 CinemaxAsia.sg,HD,HD,,FALSE,r/SEA,Asia/Singapore,eng,1080i
 CinemaxAsia.sg,SD,SD,,TRUE,r/SEA,Asia/Singapore,eng,576i
+CinemaxAsia.sg,Taiwan,Taiwan,,FALSE,c/TW,Asia/Taipei,cmn;eng,576i
 CinemaxAsia.sg,Vietnam,Vietnam,,FALSE,c/VN,Asia/Ho_Chi_Minh,vie;eng,576i
 CinemaxCentralEurope.hu,HD,HD,,FALSE,c/SI;c/BG;c/CZ;c/HU;c/PL;c/RO;r/BALKAN,Europe/Budapest,eng,1080i
 CinemaxCentralEurope.hu,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
@@ -13122,6 +13125,7 @@ Eurosport.fr,AsiaHD,AsiaHD,,FALSE,r/SEA,Europe/Paris,eng,1080i
 Eurosport.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,eng,1080i
 Eurosport.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 Eurosport.no,SD,SD,,TRUE,c/NO,Europe/Oslo,eng,576i
+Eurosport1.fr,Czechia,Czechia,,FALSE,c/CZ;c/SK,Europe/Paris,ces,576i
 Eurosport1.fr,Denmark,Denmark,,FALSE,c/DK,Europe/Copenhagen,dan,576i
 Eurosport1.fr,Finland,Finland,,FALSE,c/FI,Europe/Helsinki,fin,576i
 Eurosport1.fr,France,France,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -13147,6 +13151,7 @@ Eurosport1.fr,UK,UK,,FALSE,c/UK,Europe/London,eng,576i
 Eurosport1.fr,UKHD,UK HD,,FALSE,c/UK,Europe/London,eng,1080i
 Eurosport1.fr,Ukraine,Ukraine,,FALSE,c/UA,Europe/Kyiv,ukr,576i
 Eurosport1Polska.pl,SD,SD,,TRUE,c/PL,Europe/Paris,pol,576i
+Eurosport2.fr,Czechia,Czechia,,FALSE,c/CZ;c/SK,Europe/Paris,ces,576i
 Eurosport2.fr,Denmark,Denmark,,FALSE,c/DK,Europe/Copenhagen,dan,576i
 Eurosport2.fr,Finland,Finland,,FALSE,c/FI,Europe/Helsinki,fin,576i
 Eurosport2.fr,France,France,,TRUE,c/FR,Europe/Paris,fra,576i
@@ -16780,6 +16785,7 @@ HGTV.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita;eng,576i
 HGTV.nl,HD,HD,,TRUE,c/NL,Europe/Amsterdam,nld,1080i
 HGTV.nz,SD,SD,,TRUE,c/NZ,Pacific/Auckland,eng,576i
 HGTV.pl,SD,SD,,TRUE,c/PL,America/New_York,pol,576i
+HGTV.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,eng,576i
 HGTV.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,eng,576i
 HGTV.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,eng;cmn,480i
 HGTV.uk,Plus1,+1,,FALSE,c/UK,Europe/London,eng,576i
@@ -21547,6 +21553,8 @@ LoveDestination.au,SD,SD,,TRUE,c/AU,Australia/Melbourne,eng,576i
 LoveHipHop.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 LoveinVenice.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita;eng,576i
 LoveNature.ca,4K,4K,,FALSE,c/CA,America/Toronto,eng,2160p
+LoveNature.ca,4KCzechia,4K Czechia,,FALSE,c/CZ;c/SK,America/Toronto,ces,576i
+LoveNature.ca,Czechia,Czechia,,FALSE,c/CZ;c/SK,America/Toronto,ces,576i
 LoveNature.ca,HD,HD,,FALSE,c/CA,America/Toronto,eng;zho;tur;bul;ces;hun;rus;spa,1080i
 LoveNature.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng;zho;tur;bul;ces;hun;rus;spa,480i
 LoveNatureenEspanol.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -33674,6 +33682,7 @@ SensationTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 SENSE.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,eng,576i
 SensesTV.lb,SD,SD,,TRUE,c/LB,Asia/Beirut,ara,576i
 SensingMurder.us,UK,UK,,TRUE,c/UK,Europe/London,eng,576i
+SensTV.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 SentimientoVallenato.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 SentTVGlobalNetwork.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 SENTV.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
@@ -34624,9 +34633,11 @@ SkyShowcase.uk,Plus1,+1,,FALSE,c/UK,Europe/London,eng,576i
 SkyShowcase.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 SkyShowtime1.fi,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
 SkyShowtime1.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,eng,576i
+SkyShowtime1.ro,HD,HD,,TRUE,c/RO,Europe/Bucharest,eng;ron,1080i
 SkyShowtime1.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 SkyShowtime2.fi,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
 SkyShowtime2.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,eng,576i
+SkyShowtime2.ro,HD,HD,,TRUE,c/RO,Europe/Bucharest,eng;ron,1080i
 SkyShowtime2.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
 SkySport.de,UHD,UHD,,TRUE,c/DE,Europe/Berlin,deu,2160p
 SkySport.nz,SD,SD,,TRUE,c/NZ,Pacific/Auckland,eng,576i
@@ -35528,6 +35539,7 @@ SportsTonight.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 SportsTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 SportsTVPlus.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 Sportswire.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+SportTotalFM.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 SportTV.by,SD,SD,,TRUE,c/BY,Europe/Minsk,bel,576i
 SportTV.jo,SD,SD,,TRUE,c/JO,Asia/Amman,ara,576i
 SportTV1.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
@@ -39417,7 +39429,7 @@ ToonamiAftermath.us,West,West,,FALSE,c/US,America/Los_Angeles,eng,480i
 ToonAVision.ca,SD,SD,,TRUE,c/CA,America/Toronto,fra,480i
 Tooncast.us,Argentina,Argentina,,FALSE,c/AR;c/UY,America/New_York,spa,480i
 Tooncast.us,Brazil,Brazil,,FALSE,c/BR,America/New_York,por,480i
-Tooncast.us,SD,SD,,TRUE,c/US,America/New_York,spa;eng;por,480i
+Tooncast.us,Panregional,Panregional,,TRUE,r/LATAM,America/New_York,spa;eng;por,480i
 Tooncast.us,SouthAmerica,SouthAmerica,,FALSE,c/CO;c/CL;c/PE,America/New_York,spa,480i
 ToonDisney.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin;tam;tel,576i
 Toonee.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
@@ -39648,7 +39660,9 @@ TravelPlusAdventure.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus;eng,576i
 TravelTrendzTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 TravelTV.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 TravelTV.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
+Travelxp.in,4KCzechia,4K Czechia,,FALSE,c/CZ;c/SK,Europe/Paris,ces,576i
 Travelxp.in,4KHDR,4K HDR,,FALSE,c/IN,Asia/Kolkata,eng;hin;ben;tam,2160p
+Travelxp.in,Czechia,Czechia,,FALSE,c/CZ;c/SK,Europe/Paris,ces,576i
 Travelxp.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,eng;hin;ben;tam,1080p
 Travelxp.in,Russia,Russia,,FALSE,r/EU,Europe/Paris,rus,576i
 Travelxp.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng;hin;ben,576i

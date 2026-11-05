@@ -169,6 +169,7 @@ id,name,alt_names,network,owners,country,categories,is_nsfw,launched,closed,repl
 360.tr,360,,,Ethem Sancak,TR,news,FALSE,2013-12-31,,,https://www.tv360.com.tr/
 360AfricaTV.ss,360 Africa TV,,,360 Africa Limited,SS,general,FALSE,2018-07-02,,,
 360Bundesliga.vn,360 Bundesliga,,,Viettel Group,VN,sports,FALSE,2025-08-12,,,https://m.tv360.vn/page/bundesliga
+360Golf.vn,360 Golf,,,Viettel Group,VN,sports,FALSE,2025-12-31,,,https://m.tv360.vn/page/golf
 360News.ru,360° News,360° Новости,,,RU,news,FALSE,,,,https://360tv.ru/
 360RFTV.cr,360 RFTV,360 Rio Frio Television,,,CR,general,FALSE,,,,https://riofriotv.com/
 360TuneBox.nl,360TuneBox,,,,NL,music,FALSE,,,,http://www.360tunebox.com/
@@ -6879,6 +6880,7 @@ D2hMovies1.in,D2h Movies 1,,,Dish TV India,IN,movies,FALSE,,,,https://www.d2h.co
 D2hMovies2.in,D2h Movies 2,,,Dish TV India,IN,movies,FALSE,,,,https://www.d2h.com/
 D2hSajda.in,D2h Sajda,,,Dish TV India,IN,shop,FALSE,,,,https://www.d2h.com/
 D3TV.ml,D3 TV,,,Fousseyni Maïga,ML,entertainment,FALSE,,,,https://d3tv.net/
+D5ChannelPunjabi.in,D5 Channel Punjabi,,,,IN,news,FALSE,,,,
 D5Music.fr,D5Music,,,,FR,music,FALSE,,,,https://d5music.tv/live/
 D5tv.fr,D5tv,,,,FR,general,FALSE,,,,https://d5tv.fr/
 D99TV.mx,D99 TV,,,Multimedios Radio,MX,music,FALSE,,,,https://www.mmradio.com/estaciones/d99-989-fm-monterrey
@@ -7359,6 +7361,7 @@ Digital15.do,Digital 15,,,,DO,general,FALSE,,,,https://telemicro.com.do/
 Digital809TV.do,Digital809 TV,,,,DO,general,FALSE,,,,https://digital809tv.com/
 DigitAlbEuroFilm.al,DigitAlb EuroFilm,,,Top Media Group,AL,movies,FALSE,2004-07-15,,,https://www.digitalb.al/
 DigitAlbFamily.al,DigitAlb Family,,,Top Media Group,AL,family,FALSE,2004-07-15,,,https://www.digitalb.al/
+DigitalChannel.bj,Digital Channel,,,Sud Media Communication,BJ,general,FALSE,,,,https://digitalchannel.bj
 DigitalCongoTV.cd,Digital Congo TV,,,Multi Media Congo MMC,CD,general,FALSE,2005-03-10,,,https://digitalcongo.org/
 DigitalPakistan.pk,Digital Pakistan,,,,PK,entertainment,FALSE,,,,https://digitalpakistan.pk/
 DigitalTV.cy,Digital TV,,,,CY,general,FALSE,,,,http://digitaltv.com.cy/
@@ -8990,7 +8993,7 @@ EYETVDrama.tw,EYE TV Drama,EYE TV戏剧台;EYE TV戲劇,,,TW,movies,FALSE,,,,htt
 EYETVTravel.tw,EYE TV Travel,EYE TV旅遊;EYE TV旅游台,,,TW,travel,FALSE,,,,https://www.eyetv.com.tw/
 EzekielTV.za,Ezekiel TV,,,,ZA,religious,FALSE,2008-01-01,,,https://ezekieltvchannel.com/
 EZMall.in,EZMall,,,,IN,shop,FALSE,,,,https://www.ezmall.com/
-EzoTV.pl,Ezo TV,,,,PL,,FALSE,,,,
+EzoTV.pl,Ezo TV,EzoTV;Ezo,MNI,MNI S.A.,PL,religious;lifestyle;culture,FALSE,2013-01-09,2022-04-30,NutaGold.pl,http://www.ezotv.pl/
 EzraTV.gh,Ezra TV,,,,GH,religious,FALSE,,,,
 EZShop.ph,EZ Shop,,,,PH,shop,FALSE,,,,https://www.ezshop.asia/
 F10HD.bo,F10 HD,,,FTTV Comunicaciones,BO,general,FALSE,,,,https://f10.tv.bo/
@@ -9217,6 +9220,8 @@ FastSports2.am,Fast Sports 2,,,Fast Media,AM,sports,FALSE,2021-01-01,,,https://w
 Faststream.nl,Faststream,,,,NL,sports,FALSE,,,,https://spiintl.com/channels/faststream
 FastTV.gh,Fast TV,,,,GH,general,FALSE,,,,
 FastTV.us,Fast TV,MotorTrend Fast TV,,The Hearst Corporation; MotorTrend,US,,FALSE,2022-10-26,,,https://watch.motortrend.com/
+FastwayFilmy.in,Fastway Filmy,,,,IN,movies,FALSE,,,,
+FastwayMusic.in,Fastway Music,,,,IN,music,FALSE,,,,
 FastwayNews.in,Fastway News,,,Fastway DTH Network,IN,news,FALSE,2015-09-19,,,https://www.fastway.in/
 Fatafeat.ae,Fatafeat,فتافيت,,Skydance Corporation,AE,cooking,FALSE,2006-12-26,,,http://www.fatafeat.com/
 FatalaTV.gn,Fatala TV,,,,GN,general,FALSE,,,,
@@ -9535,8 +9540,9 @@ FomixTV.nl,FomixTV,FomixTV;Radio Fomix;Fomix,FomixMedia,Stichting FomixMedia,NL,
 FONDAKIZTV.bj,FONDAKIZ TV,,,,BJ,general,FALSE,,,,
 FondationMaluwaTV.cd,Fondation Maluwa TV,,,,CD,general,FALSE,,,,
 FonixTV.hu,Fonix TV,Főnix TV,,,HU,general,FALSE,2000-08-20,,,http://www.fonixtv.hu/
-FONMusic.ru,FON Music,TNT Music;ТНТ Music,,Fonbet TV,RU,music,FALSE,,,,https://fonmusic.ru/
+FONMusic.ru,FON Music,TNT Music;ТНТ Music,,Fonbet TV,RU,music,FALSE,2026-01-27,,,https://fonmusic.ru/
 FonteTV.br,Fonte TV,,,,BR,religious,FALSE,,,,https://fontetv.redefonte.com/
+FONTV.ru,FON TV,,,,RU,sports,FALSE,2026-10-26,,,https://fon.tv/
 Food52.us,Food 52,,,Food52 Inc,US,cooking,FALSE,,,,https://food52.com/p/contact-us
 FoodChannel.il,Food Channel,,,,IL,cooking,FALSE,,,,https://xnet.ynet.co.il/home/0
 FoodFood.in,Food Food,,,Sanjeev Kapoor;Turmeric Vision Private Limited,IN,cooking;lifestyle,FALSE,2011-01-01,,,http://www.foodfood.com/
@@ -13056,6 +13062,7 @@ KEBKLD472.us,KEBK-LD 47.2,EspTV,Religious,Venture Technologies Group LLC,US,reli
 KeBuena.pe,KeBuena,,,,PE,music,FALSE,,,,https://kebuena.pe/
 KeBuenaTV.ni,Ke Buena TV,,,,NI,entertainment,FALSE,,,,
 KebumenTV.id,Kebumen TV,,,Kebumen Regency Government,ID,general,FALSE,2023-08-21,,,
+KechnecTV.sk,Kechnec TV,,,,SK,,FALSE,,,,
 KecskemetiTV.hu,Kecskemeti TV,Kecskeméti TV,,Kecskeméti Televízió Nonprofit Korlátolt,HU,general,FALSE,,,,https://kecskemetitv.hu/
 Keedoo.gr,Keedoo,,,Tilekinisi S.M.S.A.,GR,kids,FALSE,2026-01-01,,,https://keedoo.gr/
 KegeberewTV.et,Kegeberew TV,K-TV,,,ET,outdoor,FALSE,,,,https://kegeberew.com/
@@ -15681,6 +15688,8 @@ MiMiTV.uz,MiMi TV,,,,UZ,kids,FALSE,,,,https://mimitv.uz/
 MiMovilTV.uy,Mi Movil TV,Mi Móvil TV,,,UY,entertainment,FALSE,,,,
 MimozaTV.id,Mimoza TV,,,,ID,news,FALSE,,,,https://mimoza.tv/
 MiMusicaHits.us,Mi Musica Hits,Mi Música Hits,,Latin Entertainment Group,US,music,FALSE,,,,https://www.latingroup.us/mmh.html
+MiMusicaKPop.us,Mi Musica K-Pop,Mi Música K-Pop,,Latin Entertainment Group,US,music,FALSE,,,,https://www.latingroup.us/mmkp.html
+MiMusicaPopular.us,Mi Musica Popular,Mi Música Popular,,Latin Entertainment Group,US,music,FALSE,,,,https://www.latingroup.us/mmp.html
 MiMusicaReggaeton.us,Mi Musica Reggaeton,Mi Música Reggaeton,,Latin Entertainment Group,US,music,FALSE,,,,https://www.latingroup.us/mmr.html
 MiMusicaRomantica.us,Mi Musica Romantica,Mi Música Romántica,,Latin Entertainment Group,US,music,FALSE,,,,https://www.latingroup.us/mmro.html
 MiMusicaSalsa.us,Mi Musica Salsa,Mi Música Salsa,,Latin Entertainment Group,US,music,FALSE,,,,https://www.latingroup.us/mms.html
@@ -20264,6 +20273,7 @@ PressTV.ir,Press TV,,,Islamic Republic of Iran Broadcasting,IR,news,FALSE,2007-0
 PressTVFrench.ir,Press TV French,,,Islamic Republic of Iran Broadcasting,IR,news,FALSE,2007-07-08,,,https://french.presstv.ir/
 PrestigeThiesTV.sn,Prestige Thies TV,,,,SN,news,FALSE,,,,https://prestigethies.com/
 PresumiendoMexico.mx,Presumiendo Mexico,Presumiendo México,,,MX,culture,FALSE,,,,https://www.presumiendomexico.com.mx/
+PrettyTV.fr,Pretty TV,,,Mobibase,FR,lifestyle,FALSE,,,,https://www.mobibase.com/
 PreviewChannel.sg,Preview Channel,,,,SG,,FALSE,,,,https://www.starhubtvplus.com/
 Priamyi.ua,Priamyi,Прямий;Pryamyy;Direct,,Free Media Holding,UA,,FALSE,1992-01-01,,,https://prm.ua/
 PRIDEtvLATAM.cl,PRIDEtv LATAM,,OUTtv,,CL,entertainment;lifestyle;music,FALSE,,,,https://pridetvlatam.com
@@ -20684,7 +20694,7 @@ QuinnlyTV.us,Quinnly TV,,,,US,,FALSE,,,,https://www.quinnly-tv.com/
 QuintaVision.cl,Quinta Vision,Quinta Visión,,Oliver y Compañía Limitada,CL,general,FALSE,2005-12-10,,,https://www.quintavision.cl/
 QuizTV.ua,Quiz TV,,,Surface TV,UA,entertainment,FALSE,2019-02-08,,,https://www.poverkhnost.tv/pages/index.php?c=10&s=153
 Qultura.cl,Qultura,,,,CL,culture,FALSE,,,,
-QuocHoiTV.vn,Quoc Hoi TV,,,,VN,,FALSE,,2025-01-01,,http://quochoitv.vn/
+QuocHoiTV.vn,Quoc Hoi TV,Quốc Hội TV,,,VN,,FALSE,,2025-01-01,,http://quochoitv.vn/
 QuoVadisTV.ca,Quo Vadis TV,,,,CA,religious,FALSE,,,,https://quovadisministry.org/
 QuranHidayahEnglish.sa,Qur'an Hidayah English,,,,SA,,FALSE,,,,http://www.quran-hidayah.com/main/en/
 QuranTV.iq,Quran TV,,,,IQ,religious,FALSE,,,,
@@ -23124,6 +23134,7 @@ ShopShow.ru,Shop&Show,,,,RU,shop,FALSE,,,,https://shopandshow.ru/
 Shoptel.ba,Shoptel,,,,BA,shop,FALSE,,,,https://shoptel.ba/
 Shoptime.br,Shoptime,,,B2W,BR,shop,FALSE,,,,https://www.shoptime.com.br/
 ShopTV.ph,Shop TV,,,,PH,shop,FALSE,2005-11-01,,,https://www.shoptv.com.ph/
+ShortFilmsTV.fr,Short Films TV,,,Mobibase,FR,movies;series,FALSE,,,,https://www.mobibase.com/
 ShortsTV.uk,ShortsTV,,,,UK,movies,FALSE,,,,https://shorts.tv/
 Shots.uk,Shots!,,,,UK,,FALSE,,,,https://www.shotstv.com
 ShotTV.ru,Shot TV,,,,RU,movies,FALSE,,,,http://www.shot-tv.com/
@@ -23309,6 +23320,7 @@ SitcomLegends.us,Sitcom Legends,,Pluto TV,Pluto Inc.;Paramount Skydance Corporat
 SITE777TV.jp,SITE777TV,サイトセブンＴＶ,,Daikoku Denki Co Ltd,JP,entertainment,FALSE,,,,https://site777.tv/
 Sitel.bo,Sitel,,,,BO,general,FALSE,,,,
 Sitel.mk,Sitel,Сител,,,MK,,FALSE,1993-01-22,,,https://sitel.com.mk/
+SITI24x7.in,SITI 24x7,,,,IN,news,FALSE,,,,
 SitiShqipTV.al,Siti Shqip TV,,,Triangle Media Group,AL,music,FALSE,,,,https://cityradio.al/
 SitubondoTV.id,Situbondo TV,,,,ID,,FALSE,,,,http://www.situbondotv.com/
 SiTV.do,SiTV,,,,DO,general,FALSE,,,,https://sitv.com.do/
@@ -23779,10 +23791,13 @@ SMNI.ph,SMNI,,,,PH,,FALSE,,,,https://smni.com/
 SMNINewsChannel.ph,SMNI News Channel,,,,PH,news,FALSE,,,,http://www.smninewschannel.com/
 Smotrim100Detskoe.ru,Smotrim 100% Detskoe,Смотрим 100% Детское,ВГТРК,ВГТРК,RU,kids,FALSE,,,,
 Smotrim100Fakty.ru,Smotrim 100% Fakty,Смотрим 100% Факты,ВГТРК,ВГТРК,RU,documentary,FALSE,,,,
+Smotrim100Gorkogo.ru,Smotrim 100% Gorkogo,Смотрим 100% Горького,VGTRK,VGTRK,RU,movies,FALSE,,,,
+Smotrim100k1.ru,Smotrim 100% k 1,Смотрим 100% к 1,VGTRK,VGTRK,RU,entertainment,FALSE,,,,
 Smotrim100Klassika.ru,Smotrim 100% Klassika,Смотрим 100% Классика,ВГТРК,ВГТРК,RU,movies;classic,FALSE,,,,
 Smotrim100Lyubov.ru,Smotrim 100% Lyubov,Смотрим 100% Любовь,ВГТРК,ВГТРК,RU,series,FALSE,,,,
 Smotrim100Muzhskoe.ru,Smotrim 100% Muzhskoe,Смотрим 100% Мужское,ВГТРК,ВГТРК,RU,series,FALSE,,,,
 Smotrim100Prazdnik.ru,Smotrim 100% Prazdnik,Смотрим 100% Праздник,ВГТРК,ВГТРК,RU,entertainment,FALSE,,,,
+Smotrim100Talkshow.ru,Smotrim 100% Talk-show,Смотрим 100% Ток-шоу,VGTRK,VGTRK,RU,entertainment,FALSE,,,,
 SmotrimChestnyyDetektiv.ru,Smotrim Chestnyy Detektiv,Смотрим Честный Детектив,ВГТРК,ВГТРК,RU,series,FALSE,,,,
 SMOTV.cr,SMO TV,,,,CR,religious,FALSE,,,,
 SmritiPatraTV.in,Smriti Patra TV,,,,IN,news,FALSE,,,,
@@ -26752,6 +26767,7 @@ TNTCyprus.cy,TNT Cyprus,ТНТ Cyprus,,Cyprus Entertainment TV Ltd.,CY,entertain
 TNTInternational.ru,TNT International,ТНТ International,,Gazprom Media,RU,entertainment,FALSE,2014-09-01,,,http://tnt-online.ru/
 TNTKidsTV.ba,TNT Kids TV,,TNT Group,,BA,kids,FALSE,,,,https://tntkids.tv/
 TNTLatinAmerica.us,TNT Latin America,,,Skydance Corporation,US,,FALSE,,,,http://www.tntla.com/
+TNTMusic.ru,TNT Music,ТНТ Music,,Gazprom Media,RU,music,FALSE,2016-05-31,2026-01-27,FONMusic.ru,
 TNTNovelas.us,TNT Novelas,,,Skydance Corporation,US,series,FALSE,2023-06-26,,,
 TNTSeriesLatinAmerica.us,TNT Series Latin America,,,Skydance Corporation,US,series,FALSE,,,,http://www.tntgo.tv/
 TNTSports.ar,TNT Sports,,,Skydance Corporation,AR,sports,FALSE,,,,https://tntsports.com.ar/
@@ -27652,6 +27668,7 @@ TV9Kannada.in,TV9 Kannada,,TV9,Associated Broadcasting Company Pvt Ltd (ABCL);Me
 TV9Marathi.in,TV9 Marathi,,TV9,Associated Broadcasting Company Pvt Ltd (ABCL);Megha Engineering & Infrastructures Ltd (MEIL);My Home Constructions Private Limited,IN,news,FALSE,,,,https://www.tv9marathi.com/
 TV9Nusantara.id,TV 9 Nusantara,,,,ID,,FALSE,,,,http://www.tv9.co.id/
 TV9Pakalni.lv,TV9 Pakalni,,,,LV,general,FALSE,,,,https://tv9pakalni.lv/
+TV9PunjabHimachalPradesh.in,TV9 Punjab/Himachal Pradesh,,,,IN,news,FALSE,,,,https://tv9punjabi.com/
 TV9Tamil.in,TV9 Tamil,,TV9,Associated Broadcasting Company Pvt Ltd (ABCL);Megha Engineering & Infrastructures Ltd (MEIL);My Home Constructions Private Limited,IN,news,FALSE,,,News9Live.in,
 tv9Telemaremma.it,tv9 Telemaremma,,,,IT,news,FALSE,,,,https://www.tv9italia.it/
 TV9Telugu.in,TV9 Telugu,,TV9,Associated Broadcasting Company Pvt Ltd (ABCL);Megha Engineering & Infrastructures Ltd (MEIL);My Home Constructions Private Limited,IN,news,FALSE,,,,https://tv9telugu.com/
@@ -28506,6 +28523,7 @@ tvNStory.kr,tvN Story,,,,KR,entertainment,FALSE,2021-09-01,,,http://tvnstory.tvi
 TVNStyle.pl,TVN Style,,TVN,Warner Bros. Discovery,PL,,FALSE,2004-08-01,,,http://www.tvnstyle.pl/
 TVNTurbo.pl,TVN Turbo,,TVN,Warner Bros. Discovery,PL,auto,FALSE,2003-12-12,,,http://www.tvnturbo.pl/
 TVNunspeet.nl,TV Nunspeet,,,,NL,,FALSE,,,,
+TVNXTMarathi.in,TV NXT Marathi,,,,IN,news,FALSE,,,,
 TVNZ1.nz,TVNZ 1,Te Reo Tātaki Tahi,,Television New Zealand Ltd.,NZ,general,FALSE,1960-06-01,,,https://www.tvnz.co.nz/livetv/tvnz-1
 TVNZ2.nz,TVNZ 2,Te Reo Tātaki Rua,,Television New Zealand Ltd.,NZ,general,FALSE,1975-06-30,,,https://www.tvnz.co.nz/livetv/tvnz-2
 TVNZDUKE.nz,TVNZ DUKE,Te Reo Tātaki Tiuka,,Television New Zealand,NZ,general,FALSE,2016-03-20,,,https://www.tvnz.co.nz/livetv/tvnz-duke
@@ -30891,6 +30909,7 @@ WOWOWPrime.jp,WOWOW Prime,WOWOWプライム,,WOWOW INC,JP,,FALSE,,,,http://www.w
 WowShopChinese.my,WowShop Chinese,,,,MY,shop,FALSE,,,,https://www.cjwowshop.com.my/
 WowShopMalay.my,WowShop Malay,,,,MY,shop,FALSE,,,,https://www.cjwowshop.com.my/
 WOWTV.sv,WOW TV,,,Mario Luis Alabi Ramos,SV,general,FALSE,1999-09-23,,,https://wowelsalvador.com/
+WOXTV.us,WOX TV,,,,US,music,FALSE,,,,https://woxtv.net/
 WPAATV.us,WPAA-TV,,,,US,general,FALSE,,,,https://wpaa.tv/
 WPAN531.us,WPAN 53.1,BLAB TV;WPAN-HD,Infomercials,b&c Communications LLC,US,,FALSE,,,,http://www.blabtv.com/
 WPBTV.us,WPB-TV,,,,US,general,FALSE,,,,https://www.wpb.org/government/communications/wpb-tv18

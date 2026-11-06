@@ -5419,7 +5419,7 @@ BTBInfo.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol;eng,1080p
 BTBInternational.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol;eng,1080p
 BTBMusic.pl,HD,HD,,TRUE,c/PL,Europe/Warsaw,pol,720p
 BTLTV.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,eng,576i
-BTLTV.nl,SD,SD,,TRUE,r/WW,Europe/Amsterdam,eng;urd;pan,576i
+BTLTV.nl,SD,SD,,TRUE,c/NL;c/PK;c/IN;c/AE;c/UK;c/US;c/CA;c/IT;c/SA;c/QA;c/OM;c/KW;c/BH;c/DE;c/FR;c/BE;c/ES;c/GR;c/NO;c/SE;c/DK;c/IE;c/AT;c/CH;c/AU;c/NZ;c/MY;c/TH;c/NP;c/BD;c/LK;c/KE;c/ZA,Europe/Amsterdam,urd;pan;eng,576i
 BTMTV.ug,SD,SD,,TRUE,c/UG,Africa/Kampala,eng;lug,576i
 BTNTV.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 BTNTV.rw,SD,SD,,TRUE,c/RW,Africa/Kigali,kin,576i
@@ -8213,6 +8213,7 @@ Cheers.us,CA,CA,,TRUE,c/CA,America/Toronto,eng,720p
 CheersPlusFrasier.us,SD,SD,,TRUE,c/US,America/Los_Angeles,eng,720p
 CheersTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 ChefChampion.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
+Chefilacutite.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 Chefiro.ro,HD,HD,,FALSE,c/RO,Europe/Bucharest,ron;eng,1080i
 Chefiro.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 ChefRocShow.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -15105,6 +15106,7 @@ GEMSport.tr,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 GemsTV.uk,HD,HD,,FALSE,c/UK,Europe/London,eng,1080i
 GemsTV.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 GEMTravel.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
+GemTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
 GEMTV.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
 GEMTVPlus.tr,SD,SD,,TRUE,c/IR,America/Toronto,fas,480i
 Gen.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
@@ -42527,7 +42529,7 @@ UpendoTV.tz,SD,SD,,TRUE,c/TZ,Africa/Dar_es_Salaam,swa,576i
 UPETV.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
 UpFaithFamily.us,SD,SD,,TRUE,c/US,America/New_York,eng,576i
 UPFTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
-UpinIpinChannel.my,HD,HD,,TRUE,r/ASIA,Asia/Kuala_Lumpur,msa,1080p
+UpinIpinChannel.my,HD,HD,,TRUE,r/ASIA;r/EUR;r/AMER;r/AFR;r/CIS;r/OCE,Asia/Kuala_Lumpur,msa,1080p
 UPLTV.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 UpNetwork.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
 UPNOW.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -42665,8 +42667,8 @@ UzReportWorld.uz,SD,SD,,TRUE,c/UZ,Asia/Tashkent,eng,576i
 V1.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
 V24tv.cz,SD,SD,,TRUE,c/CZ,Europe/Prague,ces,576i
 V2BeatTV.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
-V2BEATTV.it,Multibitrate,Multibitrate,,FALSE,r/WW,Europe/Rome,eng,1080p
 V2BEATTV.it,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
+V2BEATTV.it,VIIB,VIIB,,FALSE,r/WW,Europe/Rome,eng,1080p
 V2H10.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 V2H11.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 V2H12.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
@@ -43039,6 +43041,7 @@ ViasatJaakiekko.fi,HD,HD,,FALSE,c/FI,Europe/Helsinki,fin,1080i
 ViasatJaakiekko.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
 ViasatJalkapallo.fi,HD,HD,,FALSE,c/FI,Europe/Helsinki,fin,1080i
 ViasatJalkapallo.fi,SD,SD,,TRUE,c/FI,Europe/Helsinki,fin,576i
+ViasatKino.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,eng;ron,576i
 ViasatKino.ua,Balkan,Balkan,,FALSE,r/BALKAN,Europe/Kyiv,eng,576i
 ViasatKino.ua,Baltics,Baltics,,FALSE,c/LT;c/LV;c/EE,Europe/Kyiv,rus;eng;lav,576i
 ViasatKino.ua,Bulgaria,Bulgaria,,FALSE,c/BG,Europe/Kyiv,bul,576i

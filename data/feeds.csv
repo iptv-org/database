@@ -2412,6 +2412,7 @@ AniKristyTV.mg,SD,SD,,TRUE,c/MG,Indian/Antananarivo,mlg,576i
 ANIM45.sr,SD,SD,,TRUE,c/SR,America/Paramaribo,nld,576i
 ANIMALKINGDOM.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu;eng,576i
 AnimalPlanet.au,SD,SD,,TRUE,c/AU;c/NZ,Australia/Sydney,eng,576i
+AnimalPlanet.bg,SD,SD,,TRUE,c/BG,Europe/Sofia,bul,576i
 AnimalPlanet.br,HD,HD,,FALSE,c/BR,America/New_York,por,1080i
 AnimalPlanet.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 AnimalPlanet.ca,HD,HD,,FALSE,c/CA,America/Toronto,eng,1080i
@@ -10301,6 +10302,7 @@ CTVCanal76.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 CTVClassic.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
 CTVColumbus.us,SD,SD,,TRUE,ct/USCMH,America/New_York,eng,480i
 CTVComedyChannel.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
+CTVDlaCiebieTV.ee,SD,SD,,TRUE,c/UA;c/PL,Europe/Tallinn,ukr;pol,576i
 CTVDramaChannel.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 CTVInternacional.hn,SD,SD,,TRUE,c/HN,America/Tegucigalpa,spa,480i
 CTVLifeChannel.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
@@ -13130,6 +13132,7 @@ Eurosport.fr,AsiaHD,AsiaHD,,FALSE,r/SEA,Europe/Paris,eng,1080i
 Eurosport.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,eng,1080i
 Eurosport.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 Eurosport.no,SD,SD,,TRUE,c/NO,Europe/Oslo,eng,576i
+Eurosport1.fr,Bulgaria,Bulgaria,,FALSE,c/BG,Europe/Paris,bul,576i
 Eurosport1.fr,Czechia,Czechia,,FALSE,c/CZ;c/SK,Europe/Paris,ces,576i
 Eurosport1.fr,Denmark,Denmark,,FALSE,c/DK,Europe/Copenhagen,dan,576i
 Eurosport1.fr,Finland,Finland,,FALSE,c/FI,Europe/Helsinki,fin,576i
@@ -13157,6 +13160,7 @@ Eurosport1.fr,UK,UK,,FALSE,c/UK,Europe/London,eng,576i
 Eurosport1.fr,UKHD,UK HD,,FALSE,c/UK,Europe/London,eng,1080i
 Eurosport1.fr,Ukraine,Ukraine,,FALSE,c/UA,Europe/Kyiv,ukr,576i
 Eurosport1Polska.pl,SD,SD,,TRUE,c/PL,Europe/Paris,pol,576i
+Eurosport2.fr,Bulgaria,Bulgaria,,FALSE,c/BG,Europe/Paris,bul,576i
 Eurosport2.fr,Czechia,Czechia,,FALSE,c/CZ;c/SK,Europe/Paris,ces,576i
 Eurosport2.fr,Denmark,Denmark,,FALSE,c/DK,Europe/Copenhagen,dan,576i
 Eurosport2.fr,Finland,Finland,,FALSE,c/FI,Europe/Helsinki,fin,576i
@@ -13195,6 +13199,7 @@ Eurosport360HD9.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Eurosport3Polska.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,576i
 Eurosport4.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 Eurosport4K.fr,France,France,,TRUE,c/FR,Europe/Paris,rus;eng;fra,576i
+Eurosport4K.fr,Romania,Romania,,FALSE,c/RO,Europe/Bucharest,ron;eng,2160p
 Eurosport4K.fr,Russia,Russia,,FALSE,c/RU;c/BG,Europe/Moscow,rus,576i
 Eurosport4K.fr,Slovenia,Slovenia,,FALSE,c/SI,Europe/Ljubljana,slv,576i
 Eurosport4KCzechia.cz,UHD,UHD,,TRUE,c/CZ,Europe/Paris,ces,2160p
@@ -16419,6 +16424,7 @@ HBOFamily.us,West,West,,FALSE,c/US,America/Los_Angeles,eng;spa,480i
 HBOFamilyAsia.sg,HD,HD,,FALSE,r/SEA,Asia/Singapore,eng,1080i
 HBOFamilyAsia.sg,SD,SD,,TRUE,r/SEA,Asia/Singapore,eng,576i
 HBOFamilyLatinAmerica.us,ColombiaPeru,ColombiaPeru,,FALSE,c/CO;c/PE,America/Bogota;America/Lima,spa,480i
+HBOFamilyLatinAmerica.us,HD,HD,,FALSE,r/LATAM,America/New_York,spa,1080i
 HBOFamilyLatinAmerica.us,SD,SD,,TRUE,r/LATAM,America/New_York,spa,480i
 HBOHawaii.us,SD,SD,,TRUE,c/US,America/New_York,eng;spa,480i
 HBOHits.us,East,East,,TRUE,c/US,America/New_York,eng;spa,576i
@@ -23117,6 +23123,9 @@ MirrorNow.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 MirSeriala.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 Miruvlecheniy.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 Mirvokrug.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
+MISATV.ro,Czech,Czech,,FALSE,c/RO,Europe/Bucharest,ces,576i
+MISATV.ro,English,English,,FALSE,c/RO,Europe/Bucharest,eng,576p
+MISATV.ro,Hungarian,Hungarian,,FALSE,c/RO,Europe/Bucharest,hun,576i
 MISATV.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 MISECTV.cm,SD,SD,,TRUE,c/CM,Africa/Douala,fra,576i
 MiSenalColombia.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
@@ -43252,6 +43261,7 @@ VinhLongTV1.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 VinhLongTV2.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 VinhLongTV3.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 VinhLongTV4.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
+VinhLongTV5.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 VinhPhucTV.vn,SD,SD,,TRUE,c/VN,Asia/Ho_Chi_Minh,vie,576i
 VinilosTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 VintageMusic.cr,SD,SD,,TRUE,c/CR,America/Costa_Rica,spa,480i
@@ -43509,6 +43519,7 @@ VoyagerDocumentaries.us,US,US,,TRUE,c/US,America/New_York,eng,480i
 VoyagesSaveurs.es,FR,FR,,TRUE,c/FR,Europe/Paris,fra,1080p
 VoyenTV.by,HD,HD,,FALSE,c/RU,Europe/Minsk,bel,1080i
 VoyenTV.by,SD,SD,,TRUE,c/BY,Europe/Minsk,bel,576i
+VoyoEvents.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron;eng,576i
 VoyoSport1.ro,HD,HD,,TRUE,c/RO,Europe/Bucharest,ron,1080p
 VozdelCieloTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 VozdePoderTelevision.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,480i

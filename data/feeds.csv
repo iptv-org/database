@@ -3275,6 +3275,7 @@ ATL26.us,SD,SD,,TRUE,ct/USATL,America/New_York,eng;spa,480i
 AtlantaChannel.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 AtlanticoTelevision.es,HD,HD,,TRUE,s/ES-CN,Atlantic/Canary,spa,1080i
 AtlanticoTV.ao,SD,SD,,TRUE,c/AO,Africa/Luanda,por,576i
+AtlanticTV.tt,SD,SD,,TRUE,c/TT,America/Caracas,eng,576i
 AtlantisRadioTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,576i
 Atlas.us,SD,SD,,TRUE,c/US,America/New_York,eng,576i
 AtlasTV.gr,SD,SD,,TRUE,ct/GRSKG,Europe/Athens,ell,576i
@@ -13833,6 +13834,7 @@ FilmHub.us,SD,SD,,TRUE,c/US,America/Los_Angeles,eng,480i
 FilmKlub.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 FilmKlubExtra.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 FilmKomedi.al,SD,SD,,TRUE,c/AL,Europe/Tirane,sqi,576i
+FilmMania.hu,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
 FilmMania.hu,Romania,Romania,,FALSE,c/RO,Europe/Bucharest,ron,576i
 FilmMania.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,hun,576i
 FilmNet.se,SD,SD,,TRUE,c/SE,Europe/Stockholm,swe,576i
@@ -17049,7 +17051,7 @@ HMD4.bj,SD,SD,,TRUE,c/BJ,Africa/Porto-Novo,fra,576i
 HMIPROMZNEWS.us,SD,SD,,TRUE,c/US;c/HT,America/New_York,fra,480i
 HmongStarTV.us,SD,SD,,TRUE,c/US;c/LA,America/New_York,hmn;vie,480i
 HmongTVNetwork.us,KJEOLD,KJEO-LD,,FALSE,ct/USFAT,America/Los_Angeles,eng,1080i
-HmongTVNetwork.us,SD,SD,,TRUE,c/US;c/VN,America/Denver,hmn;vie,480i
+HmongTVNetwork.us,SD,SD,,TRUE,c/US;ct/USFAT,America/Denver,hmn;vie,480i
 HmongUSATV.us,KJEOLD,KJEO-LD,,FALSE,ct/USFAT,America/Los_Angeles,hmn;eng,480i
 HmongUSATV.us,SD,SD,,TRUE,c/US;c/LA,America/Los_Angeles,hmn;vie,480i
 HMTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
@@ -43345,9 +43347,7 @@ VisionBeats.in,SD,SD,,TRUE,c/IN;c/NP,Asia/Kolkata,hin;nep,576i
 VisionGlobalTV.us,SD,SD,,TRUE,c/US;c/DO,America/New_York,spa,480i
 VisionLatina.pa,SD,SD,,TRUE,c/PA,America/Panama,spa,480i
 VisionLatinaNetwork.us,SD,SD,,TRUE,c/US,America/Los_Angeles,spa,480i
-VisionLatinaNetwork.us,WLIIDT,WLII-DT,,FALSE,c/PR,America/Puerto_Rico,spa,480i
 VisionLatinaNetwork.us,WMDOCD,WMDO-CD,,FALSE,ct/USWAS,America/New_York,eng,720p
-VisionLatinaNetwork.us,WOLEDT,WOLE-DT,,FALSE,c/PR,America/Puerto_Rico,spa,480i
 VisionLatinaNetwork.us,WSBSTV,WSBS-TV,,FALSE,ct/USEYW,America/New_York,spa,720p
 VisionLatinaNetwork.us,WWTDLD,WWTD-LD,,FALSE,ct/USWAS,America/New_York,eng,720p
 VisionNDV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
@@ -45158,6 +45158,7 @@ ZdorovoeTV.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 ZdravaTV.si,SD,SD,,TRUE,c/SI,Europe/Ljubljana,slv,576i
 ZdravaTV7.hr,SD,SD,,TRUE,c/HR,Europe/Zagreb,hrv,576i
 ZdravljeTV.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
+ZeceTV.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 ZedTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,720p
 ZedTV.zm,SD,SD,,TRUE,c/ZM,Africa/Lusaka,eng,576i
 Zee24Ghanta.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ben,576i

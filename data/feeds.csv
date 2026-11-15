@@ -3112,6 +3112,7 @@ AsianDrama.hk,SD,SD,,TRUE,c/HK,Asia/Hong_Kong,yue,576i
 Asianet.in,Digital,Digital,,FALSE,c/IN,Asia/Kolkata,mal,576i
 Asianet.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,mal,1080i
 Asianet.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mal,576i
+AsianetCinema.in,SD,SD,,TRUE,r/MIDEAST,Asia/Dubai,mal,576i
 AsianetMiddleEast.in,SD,SD,,TRUE,r/MIDEAST,Asia/Dubai,mal,576i
 AsianetMovies.in,Digital,Digital,,FALSE,c/IN,Asia/Kolkata,mal,576i
 AsianetMovies.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,mal,1080i
@@ -9104,6 +9105,7 @@ ComedyCentral.de,Plus1,+1,,FALSE,c/DE;c/AT;c/CH,Europe/Berlin,deu,576i
 ComedyCentral.de,SD,SD,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,576i
 ComedyCentral.es,HD,HD,,FALSE,c/ES,Europe/Madrid,spa,1080i
 ComedyCentral.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
+ComedyCentral.fr,HD,HD,,FALSE,c/FR,Europe/Paris,fra,576i
 ComedyCentral.fr,SD,SD,,TRUE,c/FR;c/CH;c/BE,Europe/Madrid,fra,576i
 ComedyCentral.hu,SD,SD,,TRUE,c/HU,Europe/Budapest,eng,576i
 ComedyCentral.ie,SD,SD,,TRUE,c/IE,Europe/Dublin,eng,576i
@@ -12167,6 +12169,7 @@ EBCDrama.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
 EBCFinancialNews.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
 EBCForeignMovie.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
 EBCGeneralEducation.kh,SD,SD,,TRUE,c/KH,Asia/Phnom_Penh,khm,576i
+EBCLifelongLearning.kh,SD,SD,,TRUE,c/KH,Asia/Phnom_Penh,khm,720p
 EBCMovie.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
 EBCNews.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
 EBCNewsAsia.tw,SD,SD,,TRUE,c/TW,Asia/Taipei,zho,480i
@@ -12394,6 +12397,7 @@ ElDjazairiaOne.dz,SD,SD,,TRUE,c/DZ,Africa/Algiers,ara,576i
 ElDjazairN1.dz,SD,SD,,TRUE,c/DZ,Africa/Algiers,ara,576i
 ElDoce.ar,SD,SD,,TRUE,c/AR,America/Argentina/Cordoba,spa,576i
 eldoTV.lu,SD,SD,,TRUE,c/LU,Europe/Luxembourg,ltz,576i
+Elec2rakTV.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,1080p
 ElectricNow.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 ELECTRO.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
 ElectronTV.td,SD,SD,,TRUE,c/TD,Africa/Ndjamena,fra,576i
@@ -13796,6 +13800,7 @@ FILMBOXPlusEmotion.pl,Poland,Poland,,TRUE,c/PL,Europe/Warsaw,pol,720p
 FILMBOXPlusEmotion.pl,Romania,Romania,,FALSE,c/RO,Europe/Warsaw,ron,576i
 FILMBOXPlusFestival.pl,HD,HD,,FALSE,r/WW,Europe/Warsaw,eng,720p
 FILMBOXPlusFestival.pl,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
+FILMBOXPlusFestival.pl,Romania,Romania,,FALSE,c/RO,Europe/Bucharest,eng;ron,576i
 FILMBOXPlusFestival.pl,Russia,Russia,,FALSE,c/UA;c/LT;c/LV,Europe/Warsaw,rus,576i
 FILMBOXPlusFestival.pl,SD,SD,,TRUE,r/WW,Europe/Warsaw,eng,576i
 FILMBOXPlusHits.pl,Adria,Adria,,FALSE,r/BALKAN,Europe/Warsaw,eng,576i
@@ -14118,6 +14123,8 @@ Forlaekkertillove.se,DK,DK,,TRUE,c/DK,Europe/Copenhagen,eng;dan,720p
 FORMediaTV.gr,SD,SD,,TRUE,ct/GRLRA,Europe/Athens,ell,576i
 Formula.ge,SD,SD,,TRUE,c/GE,Asia/Tbilisi,kat,576i
 Formula1AntenaPlay.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,eng,576i
+Formula2AntenaPlay.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
+FormulaAcademyAntenaPlay.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 Foro.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
 ForoTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,576i
 Forsidefruer.se,DK,DK,,TRUE,c/DK,Europe/Copenhagen,eng;dan,720p
@@ -16880,7 +16887,8 @@ HimlenTV7.fi,SD,SD,,TRUE,c/SE,Europe/Helsinki,swe,576i
 HimshikharTelevision.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 HiMusic.pl,FAST,FAST,,TRUE,c/PL,Europe/Warsaw,pol,1080i
 HiMusicTV.mk,SD,SD,,TRUE,c/MK,Europe/Skopje,mkd,576i
-HindiHits.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+HindiHits.in,HD,HD,,TRUE,c/IN,Asia/Kolkata,hin,1080p
+HindiHits.in,SD,SD,,FALSE,c/IN,Asia/Kolkata,hin,576i
 HindiKhabar.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 HinduDharmam.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 HiNews.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
@@ -24943,6 +24951,7 @@ NazaraTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 NazarenasTV.pe,SD,SD,,TRUE,c/PE,America/Lima,spa,480i
 NazarethTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 NazranaMusic.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+NBAAntenaPlay.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 NBALeaguePass.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 NBALeaguePass1.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 NBALeaguePass10.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -26355,6 +26364,9 @@ NOTFM.gp,SD,SD,,TRUE,c/GP;c/MQ;c/LC;c/DM,America/Guadeloupe,fra,576i
 NothingScripted.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 Noticias16.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 Noticias247.pr,HD,HD,,TRUE,c/PR,America/Puerto_Rico,spa,1080p
+Noticias247.pr,WLIIDT,WLIIDT,,FALSE,c/PR,America/Puerto_Rico,spa,1080p
+Noticias247.pr,WOLEDT,WOLEDT,,FALSE,c/PR,America/Puerto_Rico,spa,1080p
+Noticias247.pr,WSURDT,WSURDT,,FALSE,c/PR,America/Puerto_Rico,eng,1080p
 NoticiasCaracolEnVivo.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 NoticiasRCN.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,576i
 Noticiero90Minutos.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
@@ -26468,6 +26480,7 @@ NovoeRadio.ru,SD,SD,,TRUE,c/RU,Asia/Sakhalin,rus,576i
 Novoetelevidenie.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz,576i
 NovorossiyaTV.ru,SD,SD,,TRUE,s/UA-14;c/RU,Europe/Kyiv,rus,576i
 NovosadskaTV.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,srp,576i
+NovosilkyTV.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,rus,576i
 NovoTempo.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 NovoTempoPortugal.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 NovumCanal.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
@@ -31807,6 +31820,7 @@ RepublicaTV.py,SD,SD,,TRUE,c/PY,America/Asuncion,spa,576i
 RepublicBangla.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ben,576i
 RepublicBharat.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,hin,1080i
 RepublicBharat.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+RepublicBusiness.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 RepublicKannada.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kan,1080p
 RepublicTV.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,eng,1080i
 RepublicTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
@@ -33141,6 +33155,7 @@ SajhaTV.np,SD,SD,,TRUE,c/NP,Asia/Kathmandu,nep,576i
 SakalaChannel.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 SakshiTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
 SaktiTV.id,SD,SD,,TRUE,ct/IDMDI,Asia/Jakarta,ind,576i
+SakuranboTV.jp,JOCYDTV,JOCY-DTV,,TRUE,ct/JPGAJ,Asia/Tokyo,jpn,1080i
 SalaamTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,urd,576i
 SalaamTV.us,SD,SD,,TRUE,c/US,America/New_York,fas,480i
 Saladeparejas.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -35000,6 +35015,7 @@ SmartSMEChannel.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 SmartTelevizija.ba,SD,SD,,TRUE,c/BA,Europe/Sarajevo,bos,576i
 SmartTV.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 Smartzone.ee,SD,SD,,TRUE,c/EE,Europe/Tallinn,est,576i
+SmashRadioTT.tt,HD,HD,,TRUE,c/TT;r/CARIB;r/WW,America/Port_of_Spain,eng,720p
 SmashTV.mt,SD,SD,,TRUE,c/MT,Europe/Malta,mlt;eng,576i
 SMATogoTV.tg,SD,SD,,TRUE,c/TG,Africa/Lome,fra,576i
 SMCChannel328.us,SD,SD,,TRUE,ct/USSHU,America/New_York,eng,480i
@@ -35171,6 +35187,7 @@ SonCorazon.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 SoneriCinema.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,mar,576i
 Songbird.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
 SongdewTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+SongTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,576i
 SONGTVArmenia.am,SD,SD,,TRUE,c/AM,Asia/Yerevan,hye,576i
 SONGTVRussia.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
 Sonic.in,Digital,Digital,,FALSE,c/IN,Asia/Kolkata,hin,576p
@@ -45039,6 +45056,7 @@ YTN2.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 YTNDMB.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 YTNScience.kr,SD,SD,,TRUE,c/KR,Asia/Seoul,kor,480i
 YTNWorld.kr,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,Asia/Seoul,kor,480i
+YTSYamagataTV.jp,JOYIDTV,JOYI-DTV,,TRUE,ct/JPGAJ,Asia/Tokyo,jpn,1080i
 YTV.bw,SD,SD,,TRUE,c/BW,Africa/Gaborone,eng;tsn,576i
 YTV.ca,East,East,,TRUE,c/CA,America/Toronto,eng,480i
 YTV.ca,West,West,,FALSE,c/CA,America/Vancouver,eng,480i

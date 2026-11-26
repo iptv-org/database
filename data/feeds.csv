@@ -7046,6 +7046,7 @@ Cartoonito.pt,HD,HD,,FALSE,c/PT,Europe/Lisbon,por,1080i
 Cartoonito.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 Cartoonito.uk,HD,HD,,FALSE,c/UK,Europe/London,eng,1080i
 Cartoonito.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
+CartoonitoAsia.sg,HD,HD,,FALSE,c/SG,Asia/Singapore,eng,1080i
 CartoonitoAsia.sg,SD,SD,,TRUE,c/SG,Asia/Singapore,eng,576i
 CartoonitoAsia.sg,Vietnam,Vietnam,,FALSE,c/VN,Asia/Singapore,vie;eng,576i
 CartoonitoCEE.uk,Bulgary,Bulgary,,FALSE,c/BG,America/Toronto,bul,576i
@@ -11792,6 +11793,7 @@ Docu.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 DocuBayTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,eng,576i
 DocuBox.nl,HD,HD,,FALSE,r/AMER;r/EMEA;r/APAC,Europe/Amsterdam,eng,1080i
 DocuBox.nl,Polska,Polska,,FALSE,c/PL,Europe/Amsterdam,pol,576i
+DocuBox.nl,Romania,Romania,,FALSE,c/RO,Europe/Bucharest,ron;eng,576i
 DocuBox.nl,Russia,Russia,,FALSE,c/RU,Europe/Warsaw,rus,576i
 DocuBox.nl,SD,SD,,TRUE,r/AMER;r/EMEA;r/APAC,Europe/Amsterdam,eng,576i
 DocuCrime.uk,SD,SD,,TRUE,c/UK,Europe/London,eng,576i
@@ -13593,6 +13595,7 @@ FarsTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,576i
 Fashion.ua,SD,SD,,TRUE,c/UA,Europe/Kyiv,ukr,576i
 FashionAfricaTV.sn,SD,SD,,TRUE,c/SN,Africa/Dakar,eng,576i
 FashionBox.nl,HD,HD,,FALSE,r/EUR;r/ASIA;r/SSA,Europe/Amsterdam,eng,1080i
+FashionBox.nl,Romania,Romania,,FALSE,c/RO,Europe/Bucharest,ron;eng,576i
 FashionBox.nl,SD,SD,,TRUE,r/EUR;r/ASIA;r/SSA,Europe/Amsterdam,eng,576i
 FashionFinds.us,SD,SD,,TRUE,ct/USWCT,America/New_York,eng,480i
 FashionIndia.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
@@ -13630,6 +13633,7 @@ FashionTVUHD.fr,UHD,UHD,,TRUE,c/FR,Europe/Paris,eng,2160p
 FasoTV.bf,SD,SD,,TRUE,c/BF,Africa/Ouagadougou,fra,576i
 FassoTVKankan.gn,SD,SD,,TRUE,c/GN,Africa/Conakry,fra,576i
 Fast1.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,pan,576i
+FastFunBox.nl,Romania,Romania,,FALSE,c/RO,Europe/Bucharest,ron;eng,576i
 FastFunBox.nl,SD,SD,,TRUE,r/EUR;r/ASIA;r/SSA,Europe/Warsaw,eng,576i
 FastFunBox.ru,HD,HD,,FALSE,c/RU,Europe/Warsaw,rus,1080i
 FastFunBox.ru,SD,SD,,TRUE,c/RU,Europe/Warsaw,rus,576i
@@ -44736,10 +44740,14 @@ XinjiangTV8.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,kaz,576i
 XinjiangTV9.cn,SD,SD,,TRUE,c/CN,Asia/Shanghai,uig,576i
 XITE.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,576i
 XITE60s70sGroove.nl,US,US,,TRUE,c/US,America/New_York,eng,1080p
+XITE80sFlashback.nl,US,US,,TRUE,c/US,America/New_York,eng,1080p
 XITE90sThrowback.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,eng,1080p
 XITEAllOutDance.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld,1080p
 XITECelebrates.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,eng,1080p
+XITEChristianHits.nl,US,US,,TRUE,c/US,America/New_York,eng,1080p
 XITEClassicCountry.nl,SD,SD,,TRUE,c/US,America/New_York,eng,1080p
+XITECountryToday.nl,US,US,,TRUE,c/US,America/New_York,eng,1080p
+XITEGospel.nl,US,US,,TRUE,c/US,America/New_York,eng,1080p
 XITEHipHopEvolution.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,eng,1080p
 XITEHits.nl,Germany,Germany,,FALSE,c/DE,Europe/Berlin,eng;deu,1080p
 XITEHits.nl,NL,NL,Netherlands,TRUE,c/NL,Europe/Amsterdam,eng;nld,1080p
@@ -44749,6 +44757,7 @@ XITEJustChill.nl,US,US,,TRUE,c/US,America/New_York,eng,1080p
 XITELekkerHollands.nl,SD,SD,,TRUE,c/NL,Europe/Amsterdam,nld;deu,1080p
 XITENuevoLatino.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,spa;por,1080p
 XITERapGame.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,eng,1080p
+XITERBClassicJams.nl,US,US,,TRUE,c/US,America/New_York,eng,1080p
 XITERBFeels.us,SD,SD,,TRUE,c/US;c/CA,America/New_York,eng,1080p
 XITEReggaeVibes.nl,HD,HD,,TRUE,c/NL;c/US,Europe/Amsterdam,eng,576i
 XITERockxMetal.nl,US,US,,TRUE,c/US,America/New_York,eng,1080p

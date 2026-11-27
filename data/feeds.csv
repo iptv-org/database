@@ -13329,13 +13329,13 @@ EVTVMiami.us,SD,SD,,TRUE,c/US;c/VE,America/New_York,spa,480i
 EwenyigbaTV.de,SD,SD,,TRUE,c/DE;c/GH,Europe/Berlin,ewe,576i
 EWTN.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 EWTN.us,AfricaAsia,Africa-Asia,,FALSE,r/AFR;r/SAS,America/New_York,eng,480i
-EWTN.us,AsiaPacific,Asia-Pacific,,FALSE,r/APAC,America/New_York,eng,480i
+EWTN.us,AsiaPacific,Asia-Pacific,,FALSE,r/SEA;r/EAS;r/OCE,America/New_York,eng,480i
 EWTN.us,Canada,Canada,,FALSE,c/CA,America/Toronto,eng;fra,480i
 EWTN.us,English,English,,TRUE,c/US,America/New_York,eng,480i
 EWTN.us,Europe,Europe,,FALSE,r/EUR,America/New_York,eng,480i
 EWTN.us,K14JSD,K14JS-D,,FALSE,ct/USCEZ,America/Denver,eng,480i
 EWTN.us,K16HYD,K16HY-D,,FALSE,ct/USMES,America/Chicago,eng,480i
-EWTN.us,SpainLatinAmerica,Spain & Latin America,EWTN El Canal Católico,FALSE,c/ES;r/LATAM,America/New_York,spa,480i
+EWTN.us,LatinAmerica,Latin America,EWTN El Canal Católico,FALSE,r/LATAM,America/New_York,spa,480i
 EWTN.us,Spanish,Spanish,,FALSE,c/US,America/New_York,spa,480i
 EWTN.us,W08EMD,W08EM-D,,FALSE,ct/USWBE,America/New_York,eng,480i
 EWTN.us,WORODT,WORO-DT,,FALSE,c/PR,America/Puerto_Rico,spa,480i
@@ -33406,6 +33406,7 @@ SarvDharmSangam.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 Saryarqa.kz,SD,SD,,TRUE,c/KZ,Asia/Almaty,kaz,576i
 SasaTV.ke,SD,SD,,TRUE,c/KE,Africa/Nairobi,eng,576i
 SaskatchewanLegislativeNetwork.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
+SastraFilm.kh,SD,SD,,TRUE,c/KH,Asia/Phnom_Penh,cam,576i
 SASTV.gt,SD,SD,,TRUE,c/GT,America/Guatemala,spa,480i
 SAT1.de,HD,HD,,FALSE,c/DE,Europe/Berlin,deu,1080i
 SAT1.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i

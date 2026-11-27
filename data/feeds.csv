@@ -2745,7 +2745,7 @@ APACChannel99.us,SD,SD,,TRUE,ct/USAER,America/New_York,eng,480i
 ApacibolTV.co,SD,SD,,TRUE,c/CO,America/Bogota,spa,480i
 APara.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 apartTV.lu,SD,SD,,TRUE,c/LU,Europe/Luxembourg,ltz,576i
-APATv.az,SD,SD,,TRUE,c/AZ,Asia/Baku,aze,576i
+APATV.az,SD,SD,,TRUE,c/AZ,Asia/Baku,aze,576i
 API.vc,SD,SD,,TRUE,c/VC,America/St_Vincent,eng,576i
 APICTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 ApintieTelevisie.sr,SD,SD,,TRUE,c/SR,America/Paramaribo,nld;srn,480i
@@ -2824,7 +2824,7 @@ Araucovision.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 AraxTV.ir,SD,SD,,TRUE,c/IR,Asia/Tehran,fas,720p
 ARB.az,SD,SD,,TRUE,c/AZ,Asia/Baku,aze,576i
 ARB24.az,SD,SD,,TRUE,c/AZ,Asia/Baku,aze,576i
-ARBGunes.az,SD,SD,,TRUE,c/AZ,Asia/Baku,aze,576i
+ARBGunesh.az,SD,SD,,TRUE,c/AZ,Asia/Baku,aze,576i
 ArboldeVidaTV.sv,SD,SD,,TRUE,c/SV,America/El_Salvador,spa,480i
 ArcadeCloud.us,Brazil,Brazil,,FALSE,c/BR,America/Sao_Paulo,eng,480i
 ArcadeCloud.us,Mexico,Mexico,,TRUE,c/MX,America/Mexico_City,eng,480i
@@ -16217,7 +16217,7 @@ GulliAfrica.fr,SD,SD,,TRUE,c/FR,Europe/Paris,fra,576i
 GulliBilArabi.fr,SD,SD,,TRUE,c/FR,Europe/Paris,ara,576i
 GulliBrasil.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 GulliGirl.ru,SD,SD,,TRUE,c/RU,Europe/Moscow,rus,576i
-GunAzTV.us,SD,SD,,TRUE,c/US;c/AZ,America/Chicago,aze,480i
+GunAzTV.az,SD,SD,,TRUE,c/US;c/AZ,America/Chicago,aze,480i
 GuneydoguTV.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 GuneyTVTarsus.tr,SD,SD,,TRUE,c/TR,Europe/Istanbul,tur,576i
 GunguTV.mz,SD,SD,,TRUE,c/MZ,Africa/Maputo,por,576i
@@ -44748,7 +44748,6 @@ XETVTDT2.mx,SD,SD,,TRUE,c/MX,America/Tijuana,spa,480i
 XEVT1041FM.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,576i
 XEWTTDT.mx,SD,SD,,TRUE,c/MX,America/Tijuana,spa,480i
 XezerTV.az,SD,SD,,TRUE,c/AZ,Asia/Baku,aze,576i
-XezerXeber.az,SD,SD,,TRUE,c/AZ,Asia/Baku,aze,576i
 XFCTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
 XHBCTDT.mx,SD,SD,,TRUE,c/MX,America/Tijuana,spa,480i
 XHBZCTDT.mx,SD,SD,,TRUE,c/MX,America/Argentina/Mendoza,spa,480i
@@ -45544,3 +45543,18 @@ Zvyazda.by,HD,HD,,FALSE,c/BY,Europe/Minsk,bel,1080i
 Zvyazda.by,SD,SD,,TRUE,c/BY,Europe/Minsk,bel;rus,576i
 ZweiMusicTelevision.de,SD,SD,,TRUE,c/DE,Europe/Berlin,deu,576i
 ZZTV.rs,SD,SD,,TRUE,c/RS,Europe/Belgrade,eng,576i
+AzstarTV.az,HD,HD,,true,c/AZ,Asia/Baku,aze,1080p
+BalacanTV.az,SD,SD,,true,c/AZ,Asia/Baku,aze,720p
+DigiNetCinema.az,SD,SD,,true,c/AZ,Asia/Baku,aze,1080p
+FTV.az,SD,SD,,true,c/AZ,Asia/Baku,aze,720p
+Kanal65Music.az,SD,SD,,true,c/AZ,Asia/Baku,aze,720p
+KonulTV.az,SD,SD,,true,c/AZ,Asia/Baku,aze,1080p
+MusicAzerbaijan.az,SD,SD,,true,c/AZ,Asia/Baku,aze,720p
+NowMusicAZ.az,SD,SD,,true,c/AZ,Asia/Baku,aze,720p
+RadioTMBTV.az,HD,HD,,true,c/AZ,Asia/Baku,aze,1080p
+ShirvanTV.az,SD,SD,,true,c/AZ,Asia/Baku,aze,720p
+SonUmidTV.az,SD,SD,,true,c/AZ,Asia/Baku,aze,720p
+TV1.az,SD,SD,,true,c/AZ,Asia/Baku,aze,720p
+UlduzMusicAZ.az,SD,SD,,true,c/AZ,Asia/Baku,aze,720p
+VostokTV.az,SD,SD,,true,c/AZ,Asia/Baku,aze,576p
+ZahraTV.az,SD,SD,,true,c/AZ,Asia/Baku,aze,720p

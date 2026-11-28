@@ -3631,7 +3631,6 @@ AXNMovies.es,HD,HD,,FALSE,c/ES,Europe/Madrid,spa,1080i
 AXNMovies.es,SD,SD,,TRUE,c/ES,Europe/Madrid,spa,576i
 AXNMovies.pt,SD,SD,,TRUE,c/PT,Europe/Lisbon,por,576i
 AXNMystery.jp,SD,SD,,TRUE,c/JP,Asia/Singapore,jpn,480i
-AXNPoland.pl,Romania,Romania,,FALSE,c/RO,Europe/Bucharest,ron,1080p
 AXNPoland.pl,SD,SD,,TRUE,c/PL,Europe/Warsaw,pol,1080p
 AXNSciFi.ru,SD,SD,,TRUE,r/CIS,Europe/Moscow,rus,576i
 AXNSpin.hu,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,576i
@@ -5025,6 +5024,7 @@ Boo.my,SD,SD,,TRUE,c/MY,Asia/Kuala_Lumpur,eng,576i
 BooB.si,SD,SD,,TRUE,c/SI,Europe/Ljubljana,eng,576i
 BoogleBangla.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,ben,576i
 BoogleBollywood.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
+Boom.th,SD,SD,,TRUE,c/TH,Asia/Bangkok,tha,576i
 Boomerang.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 Boomerang.ca,SD,SD,,TRUE,c/CA,America/Toronto,eng,480i
 Boomerang.de,SD,SD,,TRUE,c/DE;c/AT;c/CH,Europe/Berlin,deu,576i
@@ -9362,7 +9362,6 @@ ConexaoTV.br,SD,SD,,TRUE,c/BR,America/Sao_Paulo,por,480i
 ConexionEducativa.ar,SD,SD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,576i
 ConexionPositivaTelevision.cr,HD,HD,,TRUE,c/CR,America/Costa_Rica,spa,1080p
 ConexionTV.ve,HD,HD,,TRUE,c/VE,America/Caracas,spa,1080i
-ConexionTVve.ve,HD,HD,,TRUE,c/VE,America/Caracas,spa,2160p
 Congo24TV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 Congo26TV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
 CongoBuzzTV.cd,SD,SD,,TRUE,c/CD,Africa/Kinshasa,fra,576i
@@ -13372,6 +13371,7 @@ ExplorerHDChannel.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 ExplorerHistori.al,SD,SD,,TRUE,c/AL,Europe/Tirane,sqi,576i
 ExplorerNatyra.al,SD,SD,,TRUE,c/AL,Europe/Tirane,sqi,576i
 ExplorerShkence.al,SD,SD,,TRUE,c/AL,Europe/Tirane,sqi,576i
+Exploris.ro,SD,SD,,TRUE,c/RO,Europe/Bucharest,ron,576i
 ExplosionTV.do,SD,SD,,TRUE,c/DO,America/Santo_Domingo,spa,480i
 ExpoChannel.au,SD,SD,,TRUE,c/AU,Australia/Sydney,eng,576i
 ExpresaTV.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
@@ -15463,6 +15463,7 @@ Go3Sport3.ee,SD,SD,,TRUE,c/EE;c/LV;c/LT,Europe/Tallinn,est;lav;lit,576i
 Go3Sport4.ee,SD,SD,,TRUE,c/EE;c/LV;c/LT,Europe/Tallinn,est;lav;lit,576i
 Go3SportOpen.ee,SD,SD,,TRUE,c/EE;c/LV;c/LT,Europe/Tallinn,est;lav;lit,576i
 Goa365.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kok,576i
+GoalUK.uk,UK,UK,,TRUE,c/UK;c/IE,Europe/London,eng,480i
 GoalZone.sa,SD,SD,,TRUE,c/SA,Asia/Riyadh,ara,576i
 GobanimoTV.so,SD,SD,,TRUE,c/SO,Africa/Mogadishu,som,576i
 GobiernodelaRepublica.mx,SD,SD,,TRUE,c/MX,America/Mexico_City,spa,480i
@@ -21869,6 +21870,7 @@ MaarifTV.af,SD,SD,,TRUE,c/AF,Asia/Kabul,pus,576i
 MaasrangaTV.bd,SD,SD,,TRUE,c/BD,Asia/Dhaka,ben,576i
 MaaTV.in,HD,HD,,FALSE,c/IN,Asia/Kolkata,tel,1080i
 MaaTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tel,576i
+MaawjTV.af,SD,SD,,TRUE,c/AF;c/CA;c/US,Asia/Kabul,afg,576i
 MabeshTV.gh,SD,SD,,TRUE,c/GH,Africa/Accra,eng,576i
 MabokeTV.cg,SD,SD,,TRUE,c/CG;c/CD,Africa/Kinshasa,fra;lin,576i
 MacaraTV.ec,SD,SD,,TRUE,c/EC,America/Guayaquil,spa,480i
@@ -30320,6 +30322,7 @@ PrimeTV2.zm,SD,SD,,TRUE,c/ZM,Africa/Lusaka,eng,576i
 PrimeTVGoa.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,kok;eng,576i
 PrimiciaTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 PrimiciaVida.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
+Primired.ar,HD,HD,,TRUE,c/AR,America/Argentina/Buenos_Aires,spa,1080p
 PrimitivosTV.cl,SD,SD,,TRUE,c/CL,America/Santiago,spa,576i
 Primocanale.it,SD,SD,,TRUE,c/IT,Europe/Rome,ita,576i
 PrimoTV.us,SD,SD,,TRUE,c/US,America/New_York,eng,480i
@@ -33305,7 +33308,10 @@ SanaPlus.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
 SanatanTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 SanatanVedicTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,hin,576i
 SanaTV.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,tam,576i
+SanboxRealities.fr,Czechia,Czechia,,FALSE,c/CZ;c/SK,Europe/Prague,ces,480i
 SanboxRealities.fr,France,France,,TRUE,c/FR;c/CH,Europe/Paris,fra,480i
+SanboxRealities.fr,Germany,Germany,,FALSE,c/DE;c/AT;c/CH,Europe/Berlin,deu,480i
+SanboxRealities.fr,Poland,Poland,,FALSE,c/PL,Europe/Warsaw,pol,480i
 SanCristobalTV.bo,SD,SD,,TRUE,c/BO,America/La_Paz,spa,576i
 SandeshNews.in,SD,SD,,TRUE,c/IN,Asia/Kolkata,guj,576i
 SandinoVision.cu,SD,SD,,TRUE,c/CU,America/Havana,spa,576i
